@@ -528,6 +528,17 @@ no longer „Eifersucht“ — that is 嫉妬; 甘酒 „Amazake, süßes Reisge
 is retyped Adverb → Adjektiv and 洗練 Adjektiv → Nomen. No source references were resolved.
 N3 now has 1,871 pending reviews and 422 open references.
 
+**Third N3 checkpoint (6 October 2026).** Batches 181a–181j, 182a–182j and 183a–183j enrich
+the next 750 N3 entries (vocab-n3:1423–2217 in queue order) with German usage notes and 2–3
+examples in distinct situations: 1,521 new sentences, 120 entries with corrected original
+examples. The pitch of 551 entries is verified from exact UniDic rows, correcting 110 stored
+primary accents; 199 are investigated unknowns, mostly multi-part compounds and set phrases
+(e.g. 生活習慣病, 確定申告, 猫の手も借りたい). 112 German meanings are corrected (e.g. 債権 no
+longer „Anleihe“ — that is 債券; 震源 „Erdbebenherd“, the epicentre being 震央; 着払い „unfrei“,
+Nachnahme being 代引き; 芒 „Chinaschilf“ instead of „Pampasgras“). 憂鬱 is retyped Nomen →
+Adjektiv, and four card romanizations are corrected (urazuke, en'yasu, oodougu, kodougu).
+No source references were resolved. N3 now has 1,121 pending reviews and 422 open references.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

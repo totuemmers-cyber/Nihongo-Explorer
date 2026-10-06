@@ -1,0 +1,3505 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1835",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1835",
+      "state": "accepted",
+      "predecessorHash": "1b0adf8d46fe3581ed7e67c78258d44163773a32e69c5417cfd7a487591059c8",
+      "originalHash": "1b0adf8d46fe3581ed7e67c78258d44163773a32e69c5417cfd7a487591059c8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "慰謝料を請求しました。",
+            "romaji": "Isharyou o seikyuu shimashita.",
+            "german": "Ich habe Schmerzensgeld verlangt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "慰謝料 ist eine Entschädigung für seelisches Leid (immaterieller Schaden), etwa nach einem Unfall, bei Scheidung wegen Untreue oder bei Belästigung. Typisch: 慰謝料を請求する „verlangen“, 慰謝料を払う/もらう. Im Unterschied zu 損害賠償, das jeden Schaden einschließlich Sachschäden abdeckt, geht es bei 慰謝料 um Schmerz und Kränkung. Im Deutschen passt je nach Kontext „Schmerzensgeld“ oder „Entschädigung“; selten auch 慰藉料 geschrieben.",
+        "examples": [
+          {
+            "japanese": "慰謝料を請求しました。",
+            "romaji": "Isharyou o seikyuu shimashita.",
+            "german": "Ich habe Schmerzensgeld verlangt."
+          },
+          {
+            "japanese": "浮気が原因で離婚し、慰謝料を払うことになりました。",
+            "romaji": "Uwaki ga gen'in de rikon shi, isharyou o harau koto ni narimashita.",
+            "german": "Nach der Scheidung wegen seiner Affäre muss er nun eine Entschädigung zahlen."
+          },
+          {
+            "japanese": "事故の被害者は慰謝料として百万円を受け取りました。",
+            "romaji": "Jiko no higaisha wa isharyou to shite hyakuman en o uketorimashita.",
+            "german": "Das Unfallopfer erhielt eine Million Yen Schmerzensgeld."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1156930 sense 1, noun: consolation money, damages for emotional distress Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 慰謝料 ist eine Entschädigung für seelisches Leid (immaterieller Schaden), etwa nach einem Unfall, bei Scheidung wegen Untreue oder bei Belästigung. Typisch: 慰謝料を請求する „verlangen“, 慰謝料を払う/もらう. Im Unterschied zu 損害賠償, das jeden Schaden einschließlich Sachschäden abdeckt, geht es bei 慰謝料 um Schmerz und Kränkung. Im Deutschen passt je nach Kontext „Schmerzensgeld“ oder „Entschädigung“; selten auch 慰藉料 geschrieben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1156930; spelling=慰謝料; reading=いしゃりょう",
+          "selected": {
+            "sequence": "1156930",
+            "spelling": "慰謝料",
+            "reading": "いしゃりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consolation money",
+                  "solatium",
+                  "reparation",
+                  "damages",
+                  "settlement"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1156930 sense 1, noun: consolation money, damages for emotional distress"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 慰謝料/いしゃりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%85%B0%E8%AC%9D%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 慰謝料/いしゃりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schmerzensgeld. JMdict 1156930 sense 1, noun: consolation money, damages for emotional distress",
+        "japanese": "慰謝料を請求しました。 / 浮気が原因で離婚し、慰謝料を払うことになりました。 / 事故の被害者は慰謝料として百万円を受け取りました。",
+        "romanization": "isharyou; Isharyou o seikyuu shimashita. / Uwaki ga gen'in de rikon shi, isharyou o harau koto ni narimashita. / Jiko no higaisha wa isharyou to shite hyakuman en o uketorimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Schmerzensgeld verlangt. / Nach der Scheidung wegen seiner Affäre muss er nun eine Entschädigung zahlen. / Das Unfallopfer erhielt eine Million Yen Schmerzensgeld.",
+        "contexts": [
+          "Making a claim",
+          "Divorce after an affair",
+          "Accident compensation"
+        ],
+        "lexical": "JMdict 1156930 sense 1, noun: consolation money, damages for emotional distress",
+        "register": "formal / legal, common in everyday talk about divorce and accidents",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1835 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Making a claim; Divorce after an affair; Accident compensation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0e9d7d3b1841555b89686b55aa370761aad3b523260d8aa99c411f74854aaf20",
+        "approvalHash": "55345d3e0dfe5acf722989fdb54150145ac7e6795a353ebd77181dd8467d3675"
+      }
+    },
+    {
+      "id": "vocab-n3:1836",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1836",
+      "state": "accepted",
+      "predecessorHash": "6a359d40567a0b10ba334d9ecddf28aa57f69d71846039dcca6be1512bd33c25",
+      "originalHash": "6a359d40567a0b10ba334d9ecddf28aa57f69d71846039dcca6be1512bd33c25",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "損害賠償を求めます。",
+            "romaji": "Songai baishou o motomemasu.",
+            "german": "Ich fordere Schadensersatz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "損害賠償 setzt sich aus 損害 „Schaden“ und 賠償 „Ersatz“ zusammen und ist der juristische Begriff für Schadensersatz: 損害賠償を請求する/求める, 損害賠償を支払う, 損害賠償責任 „Haftung“. Wenn man im Alltag etwas kaputt macht und es bezahlt, sagt man 弁償する. 慰謝料 ist der Teil für seelisches Leid, 補償 eine Entschädigung ohne eigenes Verschulden (z. B. vom Staat).",
+        "examples": [
+          {
+            "japanese": "損害賠償を求めます。",
+            "romaji": "Songai baishou o motomemasu.",
+            "german": "Ich fordere Schadensersatz."
+          },
+          {
+            "japanese": "工事の騒音で、住民が会社に損害賠償を請求しました。",
+            "romaji": "Kouji no souon de, juumin ga kaisha ni songai baishou o seikyuu shimashita.",
+            "german": "Wegen des Baulärms haben die Anwohner von der Firma Schadensersatz gefordert."
+          },
+          {
+            "japanese": "裁判所は会社に一億円の損害賠償を命じました。",
+            "romaji": "Saibansho wa kaisha ni ichioku en no songai baishou o meijimashita.",
+            "german": "Das Gericht verurteilte die Firma zu 100 Millionen Yen Schadensersatz."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1406730 sense 1, noun: damages, compensation, indemnity Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 損害賠償 setzt sich aus 損害 „Schaden“ und 賠償 „Ersatz“ zusammen und ist der juristische Begriff für Schadensersatz: 損害賠償を請求する/求める, 損害賠償を支払う, 損害賠償責任 „Haftung“. Wenn man im Alltag etwas kaputt macht und es bezahlt, sagt man 弁償する. 慰謝料 ist der Teil für seelisches Leid, 補償 eine Entschädigung ohne eigenes Verschulden (z. B. vom Staat). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1406730; spelling=損害賠償; reading=そんがいばいしょう",
+          "selected": {
+            "sequence": "1406730",
+            "spelling": "損害賠償",
+            "reading": "そんがいばいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "restitution",
+                  "damages",
+                  "indemnity",
+                  "compensation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1406730 sense 1, noun: damages, compensation, indemnity"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 損害賠償/そんがいばいしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%90%8D%E5%AE%B3%E8%B3%A0%E5%84%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 損害賠償/そんがいばいしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schadensersatz. JMdict 1406730 sense 1, noun: damages, compensation, indemnity",
+        "japanese": "損害賠償を求めます。 / 工事の騒音で、住民が会社に損害賠償を請求しました。 / 裁判所は会社に一億円の損害賠償を命じました。",
+        "romanization": "songai baishou; Songai baishou o motomemasu. / Kouji no souon de, juumin ga kaisha ni songai baishou o seikyuu shimashita. / Saibansho wa kaisha ni ichioku en no songai baishou o meijimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich fordere Schadensersatz. / Wegen des Baulärms haben die Anwohner von der Firma Schadensersatz gefordert. / Das Gericht verurteilte die Firma zu 100 Millionen Yen Schadensersatz.",
+        "contexts": [
+          "Personal demand",
+          "Residents vs. construction company",
+          "Court ruling"
+        ],
+        "lexical": "JMdict 1406730 sense 1, noun: damages, compensation, indemnity",
+        "register": "formal / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1836 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Personal demand; Residents vs. construction company; Court ruling), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b40199863be714acc89a8711f671b767f82cb58d2368fc93274249ba9f9211c5",
+        "approvalHash": "b5c1b53c9e0ae4d002eed3f04aff3c7e9b9f680c405e9310a7ef2f15d393816c"
+      }
+    },
+    {
+      "id": "vocab-n3:1837",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1837",
+      "state": "accepted",
+      "predecessorHash": "51b822687d72df47781bd5c9d3ea0d72350a2ee24fdf3f98714acbfb4e82fc21",
+      "originalHash": "51b822687d72df47781bd5c9d3ea0d72350a2ee24fdf3f98714acbfb4e82fc21",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "素粒子物理学を研究しています。",
+            "romaji": "Soryuushi butsurigaku o kenkyuu shiteimasu.",
+            "german": "Ich forsche in der Teilchenphysik."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "素粒子 ist ein Fachwort der Physik: 素 „Grund-, Element“ + 粒子 „Teilchen“. Gemeint sind Teilchen, die nicht weiter zerlegbar sind, z. B. Elektron, Quark oder Neutrino; die Disziplin heißt 素粒子物理学. Zum Vergleich: 原子 „Atom“ und 分子 „Molekül“ sind größere Einheiten, 粒子 allein ist jedes kleine Teilchen (auch Staub). Man begegnet dem Wort in Wissenschaftsnachrichten und populärwissenschaftlichen Texten.",
+        "examples": [
+          {
+            "japanese": "素粒子物理学を研究しています。",
+            "romaji": "Soryuushi butsurigaku o kenkyuu shiteimasu.",
+            "german": "Ich forsche in der Teilchenphysik."
+          },
+          {
+            "japanese": "電子は素粒子の一つです。",
+            "romaji": "Denshi wa soryuushi no hitotsu desu.",
+            "german": "Das Elektron ist ein Elementarteilchen."
+          },
+          {
+            "japanese": "ニュートリノという素粒子の研究で、日本人がノーベル賞を受賞しました。",
+            "romaji": "Nyuutorino to iu soryuushi no kenkyuu de, nihonjin ga nooberu shou o jushou shimashita.",
+            "german": "Für die Erforschung des Neutrinos, eines Elementarteilchens, hat ein Japaner den Nobelpreis bekommen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1397430 sense 1, noun: elementary particle Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 素粒子 ist ein Fachwort der Physik: 素 „Grund-, Element“ + 粒子 „Teilchen“. Gemeint sind Teilchen, die nicht weiter zerlegbar sind, z. B. Elektron, Quark oder Neutrino; die Disziplin heißt 素粒子物理学. Zum Vergleich: 原子 „Atom“ und 分子 „Molekül“ sind größere Einheiten, 粒子 allein ist jedes kleine Teilchen (auch Staub). Man begegnet dem Wort in Wissenschaftsnachrichten und populärwissenschaftlichen Texten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1397430; spelling=素粒子; reading=そりゅうし",
+          "selected": {
+            "sequence": "1397430",
+            "spelling": "素粒子",
+            "reading": "そりゅうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elementary particle",
+                  "particle"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1397430 sense 1, noun: elementary particle"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 素粒子/そりゅうし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B4%A0%E7%B2%92%E5%AD%90",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 素粒子/そりゅうし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Elementarteilchen. JMdict 1397430 sense 1, noun: elementary particle",
+        "japanese": "素粒子物理学を研究しています。 / 電子は素粒子の一つです。 / ニュートリノという素粒子の研究で、日本人がノーベル賞を受賞しました。",
+        "romanization": "soryuushi; Soryuushi butsurigaku o kenkyuu shiteimasu. / Denshi wa soryuushi no hitotsu desu. / Nyuutorino to iu soryuushi no kenkyuu de, nihonjin ga nooberu shou o jushou shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich forsche in der Teilchenphysik. / Das Elektron ist ein Elementarteilchen. / Für die Erforschung des Neutrinos, eines Elementarteilchens, hat ein Japaner den Nobelpreis bekommen.",
+        "contexts": [
+          "Talking about one's research",
+          "Physics class",
+          "Science news"
+        ],
+        "lexical": "JMdict 1397430 sense 1, noun: elementary particle",
+        "register": "technical / scientific",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1837 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Talking about one's research; Physics class; Science news), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b0f7bf9c481410e5a546d6e7522f95e16b5ed3b8154e7549f83325618f05d5c4",
+        "approvalHash": "b6428ebf76c75b1f23f77cf5b250aba6cd2a718ef90464677acefd9069352595"
+      }
+    },
+    {
+      "id": "vocab-n3:1838",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1838",
+      "state": "accepted",
+      "predecessorHash": "41267d9e1deb0009a81f7592d07350d6e1887f992107f97ee01232c4748757f6",
+      "originalHash": "41267d9e1deb0009a81f7592d07350d6e1887f992107f97ee01232c4748757f6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "植物は光合成をします。",
+            "romaji": "Shokubutsu wa kougousei o shimasu.",
+            "german": "Pflanzen betreiben Photosynthese."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "光合成 (光 „Licht“ + 合成 „Synthese“) ist die Photosynthese – ein Schulbegriff aus der Biologie. Man sagt 光合成をする/行う oder 光合成によって〜を作る; Pflanzen nehmen dabei 二酸化炭素 auf und geben 酸素 ab. Der Gegenbegriff im Unterricht ist 呼吸 „Atmung“. Das Wort ist neutral und gehört zum Grundwortschatz von Naturkunde und Umweltthemen.",
+        "examples": [
+          {
+            "japanese": "植物は光合成をします。",
+            "romaji": "Shokubutsu wa kougousei o shimasu.",
+            "german": "Pflanzen betreiben Photosynthese."
+          },
+          {
+            "japanese": "光合成には光と水と二酸化炭素が必要です。",
+            "romaji": "Kougousei ni wa hikari to mizu to nisanka tanso ga hitsuyou desu.",
+            "german": "Für die Photosynthese werden Licht, Wasser und Kohlendioxid benötigt."
+          },
+          {
+            "japanese": "日が当たらない部屋では、この植物は光合成ができずに枯れてしまいます。",
+            "romaji": "Hi ga ataranai heya de wa, kono shokubutsu wa kougousei ga dekizu ni karete shimaimasu.",
+            "german": "In einem Zimmer ohne Sonne kann diese Pflanze keine Photosynthese betreiben und geht ein."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1272970 sense 1, noun: photosynthesis Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 光合成 (光 „Licht“ + 合成 „Synthese“) ist die Photosynthese – ein Schulbegriff aus der Biologie. Man sagt 光合成をする/行う oder 光合成によって〜を作る; Pflanzen nehmen dabei 二酸化炭素 auf und geben 酸素 ab. Der Gegenbegriff im Unterricht ist 呼吸 „Atmung“. Das Wort ist neutral und gehört zum Grundwortschatz von Naturkunde und Umweltthemen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1272970; spelling=光合成; reading=こうごうせい",
+          "selected": {
+            "sequence": "1272970",
+            "spelling": "光合成",
+            "reading": "こうごうせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "photosynthesis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1272970 sense 1, noun: photosynthesis"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 光合成/こうごうせい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%85%89%E5%90%88%E6%88%90",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 光合成/こうごうせい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Photosynthese. JMdict 1272970 sense 1, noun: photosynthesis",
+        "japanese": "植物は光合成をします。 / 光合成には光と水と二酸化炭素が必要です。 / 日が当たらない部屋では、この植物は光合成ができずに枯れてしまいます。",
+        "romanization": "kougousei; Shokubutsu wa kougousei o shimasu. / Kougousei ni wa hikari to mizu to nisanka tanso ga hitsuyou desu. / Hi ga ataranai heya de wa, kono shokubutsu wa kougousei ga dekizu ni karete shimaimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Pflanzen betreiben Photosynthese. / Für die Photosynthese werden Licht, Wasser und Kohlendioxid benötigt. / In einem Zimmer ohne Sonne kann diese Pflanze keine Photosynthese betreiben und geht ein.",
+        "contexts": [
+          "Basic biology fact",
+          "What photosynthesis needs",
+          "Houseplant care"
+        ],
+        "lexical": "JMdict 1272970 sense 1, noun: photosynthesis",
+        "register": "neutral / scientific (school)",
+        "transitivity": "Nonverb; used with をする/を行う",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1838 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Basic biology fact; What photosynthesis needs; Houseplant care), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "67d8a7ee77e792921f7120138f4bd07864c7de8bc2b22a836b47dfe66a692c02",
+        "approvalHash": "4cda42e51688aa71a60f203e58371f5061c390fb53e4fe432487ebf5ecb264b6"
+      }
+    },
+    {
+      "id": "vocab-n3:1839",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1839",
+      "state": "accepted",
+      "predecessorHash": "2c3e605f623150a25e6825e2f53cc4823c5c152cd189e43e1eb0c50685fe20db",
+      "originalHash": "2c3e605f623150a25e6825e2f53cc4823c5c152cd189e43e1eb0c50685fe20db",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "恐竜の化石を発見しました。",
+            "romaji": "Kyouryuu no kaseki o hakken shimashita.",
+            "german": "Man hat Dinosaurierfossilien entdeckt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "化石 ist das Fossil (wörtlich „zu Stein gewordenes“): 化石が見つかる / 化石を発見する, 恐竜の化石. Wichtige Komposita sind 化石燃料 „fossile Brennstoffe“ und 生きた化石 „lebendes Fossil“. Umgangssprachlich nennt man auch völlig veraltete Dinge oder Ansichten scherzhaft 化石. Die Bedeutung „versteinern“ als する-Verb ist selten.",
+        "examples": [
+          {
+            "japanese": "恐竜の化石を発見しました。",
+            "romaji": "Kyouryuu no kaseki o hakken shimashita.",
+            "german": "Man hat Dinosaurierfossilien entdeckt."
+          },
+          {
+            "japanese": "石油や石炭などの化石燃料を減らす必要があります。",
+            "romaji": "Sekiyu ya sekitan nado no kaseki nenryou o herasu hitsuyou ga arimasu.",
+            "german": "Wir müssen den Verbrauch fossiler Brennstoffe wie Erdöl und Kohle senken."
+          },
+          {
+            "japanese": "シーラカンスは「生きた化石」と呼ばれています。",
+            "romaji": "Shiirakansu wa “ikita kaseki” to yobarete imasu.",
+            "german": "Der Quastenflosser wird „lebendes Fossil“ genannt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93898605",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 化石/カセキ; lemma 化石; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "化石",
+              "reading": "かせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 化石/かせき \"Fossil\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1187210 sense 1, noun: fossil Pitch: Verified [0] via exact UniDic row. 化石 ist das Fossil (wörtlich „zu Stein gewordenes“): 化石が見つかる / 化石を発見する, 恐竜の化石. Wichtige Komposita sind 化石燃料 „fossile Brennstoffe“ und 生きた化石 „lebendes Fossil“. Umgangssprachlich nennt man auch völlig veraltete Dinge oder Ansichten scherzhaft 化石. Die Bedeutung „versteinern“ als する-Verb ist selten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1187210; spelling=化石; reading=かせき",
+          "selected": {
+            "sequence": "1187210",
+            "spelling": "化石",
+            "reading": "かせき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fossil"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "petrifaction",
+                  "petrification",
+                  "fossilization",
+                  "fossilisation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1187210 sense 1, noun: fossil"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 化石/カセキ; lemma 化石; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93898605",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 化石/カセキ; lemma 化石; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "化石",
+              "reading": "かせき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 化石/かせき \"Fossil\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fossil. JMdict 1187210 sense 1, noun: fossil",
+        "japanese": "恐竜の化石を発見しました。 / 石油や石炭などの化石燃料を減らす必要があります。 / シーラカンスは「生きた化石」と呼ばれています。",
+        "romanization": "kaseki; Kyouryuu no kaseki o hakken shimashita. / Sekiyu ya sekitan nado no kaseki nenryou o herasu hitsuyou ga arimasu. / Shiirakansu wa “ikita kaseki” to yobarete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man hat Dinosaurierfossilien entdeckt. / Wir müssen den Verbrauch fossiler Brennstoffe wie Erdöl und Kohle senken. / Der Quastenflosser wird „lebendes Fossil“ genannt.",
+        "contexts": [
+          "Dinosaur discovery",
+          "Energy policy",
+          "Aquarium information board"
+        ],
+        "lexical": "JMdict 1187210 sense 1, noun: fossil",
+        "register": "neutral / scientific",
+        "transitivity": "Nonverb (sense 2 化石する 'to fossilize' is intransitive and rare)",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1839 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dinosaur discovery; Energy policy; Aquarium information board), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "98d68a9ad118743d31e6db29ffd3ad37d0acfa565ae1d41dbb8833b0e137ff5d",
+        "approvalHash": "a55743edf23e3e1ff9412983653417e64674fae5d03733e7a6276aaaf4b8d17d"
+      }
+    },
+    {
+      "id": "vocab-n3:1840",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1840",
+      "state": "accepted",
+      "predecessorHash": "6475d5e9d05009e1f65b132278cb670f9d4980129ec94cb0a8338c76cbc60f72",
+      "originalHash": "6475d5e9d05009e1f65b132278cb670f9d4980129ec94cb0a8338c76cbc60f72",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "地層を調査します。",
+            "romaji": "Chisou o chousa shimasu.",
+            "german": "Wir untersuchen die Gesteinsschichten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "地層 ist eine geologische Schicht im Boden oder Gestein, wie man sie an Steilhängen oder Baugruben sieht: 地層を観察する/調べる, 地層ができる, 地層が重なる. Aus 地層 werden oft 化石 geborgen. Für eine beliebige Schicht sagt man allgemein 層, z. B. オゾン層; 断層 ist dagegen eine Verwerfung, also ein Bruch zwischen Schichten. Typischer Schul- und Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "地層を調査します。",
+            "romaji": "Chisou o chousa shimasu.",
+            "german": "Wir untersuchen die Gesteinsschichten."
+          },
+          {
+            "japanese": "この崖では、何万年もかけてできた地層が見られます。",
+            "romaji": "Kono gake de wa, nanman nen mo kakete dekita chisou ga miraremasu.",
+            "german": "An dieser Steilwand sieht man Gesteinsschichten, die über Zehntausende von Jahren entstanden sind."
+          },
+          {
+            "japanese": "古い地層から貝の化石が見つかりました。",
+            "romaji": "Furui chisou kara kai no kaseki ga mitsukarimashita.",
+            "german": "In einer alten Gesteinsschicht wurden Muschelfossilien gefunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168998730",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 地層/チソウ; lemma 地層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "地層",
+              "reading": "ちそう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 地層/ちそう \"Gesteinsschicht\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1421320 sense 1, noun: stratum, geological layer Pitch: Verified [0] via exact UniDic row. 地層 ist eine geologische Schicht im Boden oder Gestein, wie man sie an Steilhängen oder Baugruben sieht: 地層を観察する/調べる, 地層ができる, 地層が重なる. Aus 地層 werden oft 化石 geborgen. Für eine beliebige Schicht sagt man allgemein 層, z. B. オゾン層; 断層 ist dagegen eine Verwerfung, also ein Bruch zwischen Schichten. Typischer Schul- und Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1421320; spelling=地層; reading=ちそう",
+          "selected": {
+            "sequence": "1421320",
+            "spelling": "地層",
+            "reading": "ちそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stratum",
+                  "geological formation",
+                  "layer",
+                  "bed (coal, gravel, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1421320 sense 1, noun: stratum, geological layer"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 地層/チソウ; lemma 地層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168998730",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 地層/チソウ; lemma 地層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "地層",
+              "reading": "ちそう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 地層/ちそう \"Gesteinsschicht\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gesteinsschicht. JMdict 1421320 sense 1, noun: stratum, geological layer",
+        "japanese": "地層を調査します。 / この崖では、何万年もかけてできた地層が見られます。 / 古い地層から貝の化石が見つかりました。",
+        "romanization": "chisou; Chisou o chousa shimasu. / Kono gake de wa, nanman nen mo kakete dekita chisou ga miraremasu. / Furui chisou kara kai no kaseki ga mitsukarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir untersuchen die Gesteinsschichten. / An dieser Steilwand sieht man Gesteinsschichten, die über Zehntausende von Jahren entstanden sind. / In einer alten Gesteinsschicht wurden Muschelfossilien gefunden.",
+        "contexts": [
+          "Geological survey",
+          "Field trip to a cliff",
+          "Fossil find"
+        ],
+        "lexical": "JMdict 1421320 sense 1, noun: stratum, geological layer",
+        "register": "neutral / scientific",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1840 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Geological survey; Field trip to a cliff; Fossil find), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ead34dfa7ef85afb563aea83756f03df7901b6234e434f6d5522ec1388569e6a",
+        "approvalHash": "c023219e38b398ca93df37fde82dfa2820bce9cad8141935f8c9f87cf946b972"
+      }
+    },
+    {
+      "id": "vocab-n3:1841",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1841",
+      "state": "accepted",
+      "predecessorHash": "6ba3ec9442aa61e4438a86676926b785fc904d2b2d76d024d1e89b9dfe204923",
+      "originalHash": "6ba3ec9442aa61e4438a86676926b785fc904d2b2d76d024d1e89b9dfe204923",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鍾乳洞を見学しました。",
+            "romaji": "Shounyuudou o kengaku shimashita.",
+            "german": "Ich habe eine Tropfsteinhöhle besichtigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鍾乳洞 ist eine Tropfsteinhöhle: 鍾乳 steht für die Tropfsteine (鍾乳石 „Stalaktit“), 洞 für „Höhle“. In Japan sind solche Höhlen beliebte Ausflugsziele; man sagt 鍾乳洞を見学する/探検する, 鍾乳洞に入る. Weil 鍾 kein Alltagszeichen ist, steht auf Schildern oft しょうにゅう洞. Eine Höhle allgemein heißt 洞窟 oder 洞穴.",
+        "examples": [
+          {
+            "japanese": "鍾乳洞を見学しました。",
+            "romaji": "Shounyuudou o kengaku shimashita.",
+            "german": "Ich habe eine Tropfsteinhöhle besichtigt."
+          },
+          {
+            "japanese": "鍾乳洞の中は夏でもひんやりしています。",
+            "romaji": "Shounyuudou no naka wa natsu demo hinyari shite imasu.",
+            "german": "In der Tropfsteinhöhle ist es selbst im Sommer angenehm kühl."
+          },
+          {
+            "japanese": "鍾乳洞は、雨水が長い時間をかけて岩を溶かしてできたものです。",
+            "romaji": "Shounyuudou wa, amamizu ga nagai jikan o kakete iwa o tokashite dekita mono desu.",
+            "german": "Tropfsteinhöhlen sind entstanden, indem Regenwasser über lange Zeit das Gestein aufgelöst hat."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1352020 sense 1, noun: limestone cave Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 鍾乳洞 ist eine Tropfsteinhöhle: 鍾乳 steht für die Tropfsteine (鍾乳石 „Stalaktit“), 洞 für „Höhle“. In Japan sind solche Höhlen beliebte Ausflugsziele; man sagt 鍾乳洞を見学する/探検する, 鍾乳洞に入る. Weil 鍾 kein Alltagszeichen ist, steht auf Schildern oft しょうにゅう洞. Eine Höhle allgemein heißt 洞窟 oder 洞穴. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1352020; spelling=鍾乳洞; reading=しょうにゅうどう",
+          "selected": {
+            "sequence": "1352020",
+            "spelling": "鍾乳洞",
+            "reading": "しょうにゅうどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "limestone cave",
+                  "limestone cavern"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1352020 sense 1, noun: limestone cave"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 鍾乳洞/しょうにゅうどう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%8D%BE%E4%B9%B3%E6%B4%9E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 鍾乳洞/しょうにゅうどう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tropfsteinhöhle. JMdict 1352020 sense 1, noun: limestone cave",
+        "japanese": "鍾乳洞を見学しました。 / 鍾乳洞の中は夏でもひんやりしています。 / 鍾乳洞は、雨水が長い時間をかけて岩を溶かしてできたものです。",
+        "romanization": "shounyuudou; Shounyuudou o kengaku shimashita. / Shounyuudou no naka wa natsu demo hinyari shite imasu. / Shounyuudou wa, amamizu ga nagai jikan o kakete iwa o tokashite dekita mono desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe eine Tropfsteinhöhle besichtigt. / In der Tropfsteinhöhle ist es selbst im Sommer angenehm kühl. / Tropfsteinhöhlen sind entstanden, indem Regenwasser über lange Zeit das Gestein aufgelöst hat.",
+        "contexts": [
+          "Sightseeing trip",
+          "Cool inside in summer",
+          "How caves form"
+        ],
+        "lexical": "JMdict 1352020 sense 1, noun: limestone cave",
+        "register": "neutral (tourism, geography)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1841 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sightseeing trip; Cool inside in summer; How caves form), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e5f9555d6a5d458caf9f3c099b04e0ccb1cd0e51876098ebc47033c4368254f0",
+        "approvalHash": "d8328fcfa284b46a2c2ac0e314b0c2127aee6d45348091a769dffbd6860bfe4a"
+      }
+    },
+    {
+      "id": "vocab-n3:1842",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1842",
+      "state": "accepted",
+      "predecessorHash": "ef75af068b3906bec1e8fe5d0893b25dabe1d62a2f18bb03600c9d23b20eca1c",
+      "originalHash": "ef75af068b3906bec1e8fe5d0893b25dabe1d62a2f18bb03600c9d23b20eca1c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "溶岩が流れています。",
+            "romaji": "Yougan ga nagareteimasu.",
+            "german": "Lava fließt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "溶岩 (溶 „schmelzen“ + 岩 „Fels“) ist Lava, also geschmolzenes Gestein an der Oberfläche; unterirdisch heißt es マグマ. Typisch: 溶岩が流れる/流れ出す, 溶岩流 „Lavastrom“, 溶岩が冷えて固まる. Erstarrte Lava bildet in Japan ganze Landschaften, z. B. am Fuji oder Sakurajima. Ein neutrales Wort aus Geografie und Nachrichten über Vulkanausbrüche.",
+        "examples": [
+          {
+            "japanese": "溶岩が流れています。",
+            "romaji": "Yougan ga nagareteimasu.",
+            "german": "Lava fließt."
+          },
+          {
+            "japanese": "地下のマグマが地上に出ると、溶岩と呼ばれます。",
+            "romaji": "Chika no maguma ga chijou ni deru to, yougan to yobaremasu.",
+            "german": "Wenn Magma aus dem Erdinneren an die Oberfläche tritt, nennt man es Lava."
+          },
+          {
+            "japanese": "この島の黒い岩は、溶岩が冷えて固まったものです。",
+            "romaji": "Kono shima no kuroi iwa wa, yougan ga hiete katamatta mono desu.",
+            "german": "Die schwarzen Felsen auf dieser Insel sind erkaltete Lava."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272925800",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 溶岩/ヨウガン; lemma 溶岩; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "溶岩",
+              "reading": "ようがん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 溶岩/ようがん \"Lava\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1546120 sense 1, noun: lava Pitch: Verified [1,0] via exact UniDic row. 溶岩 (溶 „schmelzen“ + 岩 „Fels“) ist Lava, also geschmolzenes Gestein an der Oberfläche; unterirdisch heißt es マグマ. Typisch: 溶岩が流れる/流れ出す, 溶岩流 „Lavastrom“, 溶岩が冷えて固まる. Erstarrte Lava bildet in Japan ganze Landschaften, z. B. am Fuji oder Sakurajima. Ein neutrales Wort aus Geografie und Nachrichten über Vulkanausbrüche. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1546120; spelling=溶岩; reading=ようがん",
+          "selected": {
+            "sequence": "1546120",
+            "spelling": "溶岩",
+            "reading": "ようがん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lava"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1546120 sense 1, noun: lava"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact UniDic row. Exact whole 溶岩/ヨウガン; lemma 溶岩; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272925800",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 溶岩/ヨウガン; lemma 溶岩; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "溶岩",
+              "reading": "ようがん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 溶岩/ようがん \"Lava\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lava. JMdict 1546120 sense 1, noun: lava",
+        "japanese": "溶岩が流れています。 / 地下のマグマが地上に出ると、溶岩と呼ばれます。 / この島の黒い岩は、溶岩が冷えて固まったものです。",
+        "romanization": "yougan; Yougan ga nagareteimasu. / Chika no maguma ga chijou ni deru to, yougan to yobaremasu. / Kono shima no kuroi iwa wa, yougan ga hiete katamatta mono desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Lava fließt. / Wenn Magma aus dem Erdinneren an die Oberfläche tritt, nennt man es Lava. / Die schwarzen Felsen auf dieser Insel sind erkaltete Lava.",
+        "contexts": [
+          "Live eruption footage",
+          "Magma vs. lava",
+          "Volcanic island landscape"
+        ],
+        "lexical": "JMdict 1546120 sense 1, noun: lava",
+        "register": "neutral / scientific",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1842 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Live eruption footage; Magma vs. lava; Volcanic island landscape), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "35aefafd5e4388c5b69f42917fe03fb17ae519c5ae7bd3bf993dfca0a294bf2b",
+        "approvalHash": "5bdff429375c2a27d59c030a307e0efe3ff6761d3369a8448f8453a9e992a66d"
+      }
+    },
+    {
+      "id": "vocab-n3:1843",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1843",
+      "state": "accepted",
+      "predecessorHash": "4c5f73485b5f5f49f5b7054146b96b2a7b6d8b3d61412d09b901d8b01311c0cf",
+      "originalHash": "4c5f73485b5f5f49f5b7054146b96b2a7b6d8b3d61412d09b901d8b01311c0cf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "火山灰が降りました。",
+            "romaji": "Kazanbai ga furimashita.",
+            "german": "Vulkanasche ist gefallen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "火山灰 ist Vulkanasche; beachte die Lesung mit Stimmhaftwerdung: かざん + はい → かざんばい. Typisch: 火山灰が降る „Asche regnet herab“, 火山灰が積もる, 火山灰の影響で欠航する. In Nachrichten heißt der Ascheregen auch 降灰. In Orten wie Kagoshima gehört Vulkanasche zum Alltag – auf Autos, Wäsche und Straßen.",
+        "examples": [
+          {
+            "japanese": "火山灰が降りました。",
+            "romaji": "Kazanbai ga furimashita.",
+            "german": "Vulkanasche ist gefallen."
+          },
+          {
+            "japanese": "桜島の近くでは、洗濯物に火山灰がつくことがよくあります。",
+            "romaji": "Sakurajima no chikaku de wa, sentakumono ni kazanbai ga tsuku koto ga yoku arimasu.",
+            "german": "In der Nähe des Sakurajima landet oft Vulkanasche auf der Wäsche."
+          },
+          {
+            "japanese": "火山灰の影響で、飛行機が欠航になりました。",
+            "romaji": "Kazanbai no eikyou de, hikouki ga kekkou ni narimashita.",
+            "german": "Wegen der Vulkanasche wurden Flüge gestrichen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1193920 sense 1, noun: volcanic ash Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 火山灰 ist Vulkanasche; beachte die Lesung mit Stimmhaftwerdung: かざん + はい → かざんばい. Typisch: 火山灰が降る „Asche regnet herab“, 火山灰が積もる, 火山灰の影響で欠航する. In Nachrichten heißt der Ascheregen auch 降灰. In Orten wie Kagoshima gehört Vulkanasche zum Alltag – auf Autos, Wäsche und Straßen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1193920; spelling=火山灰; reading=かざんばい",
+          "selected": {
+            "sequence": "1193920",
+            "spelling": "火山灰",
+            "reading": "かざんばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "volcanic ash"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1193920 sense 1, noun: volcanic ash"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 火山灰/かざんばい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%81%AB%E5%B1%B1%E7%81%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 火山灰/かざんばい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vulkanasche. JMdict 1193920 sense 1, noun: volcanic ash",
+        "japanese": "火山灰が降りました。 / 桜島の近くでは、洗濯物に火山灰がつくことがよくあります。 / 火山灰の影響で、飛行機が欠航になりました。",
+        "romanization": "kazanbai; Kazanbai ga furimashita. / Sakurajima no chikaku de wa, sentakumono ni kazanbai ga tsuku koto ga yoku arimasu. / Kazanbai no eikyou de, hikouki ga kekkou ni narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vulkanasche ist gefallen. / In der Nähe des Sakurajima landet oft Vulkanasche auf der Wäsche. / Wegen der Vulkanasche wurden Flüge gestrichen.",
+        "contexts": [
+          "After an eruption",
+          "Daily life near a volcano",
+          "Flight cancellations"
+        ],
+        "lexical": "JMdict 1193920 sense 1, noun: volcanic ash",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1843 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (After an eruption; Daily life near a volcano; Flight cancellations), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "91fc8c05f9582ca43c579c4e950c7ce7dbf5117942fc8a616cfce8f44717438a",
+        "approvalHash": "6922496032e7da6bd5d3f0604fa0457f4549069ae8f38cf9e64aef91d7270fa1"
+      }
+    },
+    {
+      "id": "vocab-n3:1844",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1844",
+      "state": "accepted",
+      "predecessorHash": "e50cdda30b6e24bdb50c3afbd77cfa9e5f14fbaecbb80e9e755497e9dc88c428",
+      "originalHash": "e50cdda30b6e24bdb50c3afbd77cfa9e5f14fbaecbb80e9e755497e9dc88c428",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "間欠泉が噴き出しました。",
+            "romaji": "Kanketsusen ga fukidashimashita.",
+            "german": "Der Geysir ist ausgebrochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "間欠泉 ist ein Geysir: 間欠 „in Abständen, periodisch“ + 泉 „Quelle“. Typische Verben sind 噴き出す und 噴き上げる; man sagt etwa 〇分ごとにお湯を噴き上げる. Gelegentlich wird es auch 間歇泉 geschrieben. Ein gewöhnliches heißes Bad oder eine Thermalquelle ist dagegen 温泉. Das Wort begegnet einem vor allem in Reise- und Naturtexten.",
+        "examples": [
+          {
+            "japanese": "間欠泉が噴き出しました。",
+            "romaji": "Kanketsusen ga fukidashimashita.",
+            "german": "Der Geysir ist ausgebrochen."
+          },
+          {
+            "japanese": "この間欠泉は約十分ごとにお湯を噴き上げます。",
+            "romaji": "Kono kanketsusen wa yaku juppun goto ni oyu o fukiagemasu.",
+            "german": "Dieser Geysir stößt etwa alle zehn Minuten heißes Wasser aus."
+          },
+          {
+            "japanese": "アイスランドで有名な間欠泉を見に行きました。",
+            "romaji": "Aisurando de yuumei na kanketsusen o mi ni ikimashita.",
+            "german": "In Island habe ich mir einen berühmten Geysir angesehen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1715210 sense 1, noun: geyser Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 間欠泉 ist ein Geysir: 間欠 „in Abständen, periodisch“ + 泉 „Quelle“. Typische Verben sind 噴き出す und 噴き上げる; man sagt etwa 〇分ごとにお湯を噴き上げる. Gelegentlich wird es auch 間歇泉 geschrieben. Ein gewöhnliches heißes Bad oder eine Thermalquelle ist dagegen 温泉. Das Wort begegnet einem vor allem in Reise- und Naturtexten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1715210; spelling=間欠泉; reading=かんけつせん",
+          "selected": {
+            "sequence": "1715210",
+            "spelling": "間欠泉",
+            "reading": "かんけつせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "geyser"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1715210 sense 1, noun: geyser"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 間欠泉/かんけつせん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%96%93%E6%AC%A0%E6%B3%89",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 間欠泉/かんけつせん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geysir. JMdict 1715210 sense 1, noun: geyser",
+        "japanese": "間欠泉が噴き出しました。 / この間欠泉は約十分ごとにお湯を噴き上げます。 / アイスランドで有名な間欠泉を見に行きました。",
+        "romanization": "kanketsusen; Kanketsusen ga fukidashimashita. / Kono kanketsusen wa yaku juppun goto ni oyu o fukiagemasu. / Aisurando de yuumei na kanketsusen o mi ni ikimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Geysir ist ausgebrochen. / Dieser Geysir stößt etwa alle zehn Minuten heißes Wasser aus. / In Island habe ich mir einen berühmten Geysir angesehen.",
+        "contexts": [
+          "Watching an eruption",
+          "Tour guide explanation",
+          "Travel story"
+        ],
+        "lexical": "JMdict 1715210 sense 1, noun: geyser",
+        "register": "neutral (travel, nature)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1844 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Watching an eruption; Tour guide explanation; Travel story), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2685baa24c323624975071285aa4ab676273d9e0f076f7906d2d8eeafcd30a39",
+        "approvalHash": "0a431e723c6bc6cee273b1a42e1fdb88acd3bb26769bac403d5670cc01c85651"
+      }
+    },
+    {
+      "id": "vocab-n3:1845",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1845",
+      "state": "accepted",
+      "predecessorHash": "3624985c8023c176266a8a34a671624f1c732ec8fe4ae92e72bc77d07dab77c9",
+      "originalHash": "3624985c8023c176266a8a34a671624f1c732ec8fe4ae92e72bc77d07dab77c9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "活断層の上に家を建てないでください。",
+            "romaji": "Katsu dansou no ue ni ie o tatenaide kudasai.",
+            "german": "Bauen Sie nicht auf einer aktiven Verwerfung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "断層 ist in der Geologie eine Verwerfung, also ein Bruch in der Erdkruste, an dem sich Gesteinsschichten gegeneinander verschieben: 断層がずれる/動く. Besonders wichtig in Japan ist 活断層 „aktive Verwerfung“, die Erdbeben auslösen kann. Im übertragenen, schriftsprachlichen Sinn bedeutet 断層 eine „Kluft“ zwischen Gruppen, etwa 世代間の断層. Nicht verwechseln mit 地層 „Gesteinsschicht“.",
+        "examples": [
+          {
+            "japanese": "活断層の上に家を建てないでください。",
+            "romaji": "Katsu dansou no ue ni ie o tatenaide kudasai.",
+            "german": "Bauen Sie nicht auf einer aktiven Verwerfung."
+          },
+          {
+            "japanese": "この地震は断層がずれたことで起きました。",
+            "romaji": "Kono jishin wa dansou ga zureta koto de okimashita.",
+            "german": "Dieses Erdbeben entstand durch die Verschiebung an einer Verwerfung."
+          },
+          {
+            "japanese": "親と子の世代の間には、考え方の断層があります。",
+            "romaji": "Oya to ko no sedai no aida ni wa, kangaekata no dansou ga arimasu.",
+            "german": "Zwischen der Generation der Eltern und der der Kinder gibt es eine Kluft im Denken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168147217",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 断層/ダンソウ; lemma 断層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "断層",
+              "reading": "だんそう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 断層/だんそう \"Verwerfung (geologisch)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1419700 senses 1–2, noun: (geological) fault; gap, discrepancy Pitch: Verified [0] via exact UniDic row. 断層 ist in der Geologie eine Verwerfung, also ein Bruch in der Erdkruste, an dem sich Gesteinsschichten gegeneinander verschieben: 断層がずれる/動く. Besonders wichtig in Japan ist 活断層 „aktive Verwerfung“, die Erdbeben auslösen kann. Im übertragenen, schriftsprachlichen Sinn bedeutet 断層 eine „Kluft“ zwischen Gruppen, etwa 世代間の断層. Nicht verwechseln mit 地層 „Gesteinsschicht“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1419700; spelling=断層; reading=だんそう",
+          "selected": {
+            "sequence": "1419700",
+            "spelling": "断層",
+            "reading": "だんそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fault",
+                  "dislocation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gap",
+                  "discrepancy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1419700 senses 1–2, noun: (geological) fault; gap, discrepancy"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 断層/ダンソウ; lemma 断層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168147217",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 断層/ダンソウ; lemma 断層; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "断層",
+              "reading": "だんそう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 断層/だんそう \"Verwerfung (geologisch)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verwerfung (geologisch). JMdict 1419700 senses 1–2, noun: (geological) fault; gap, discrepancy",
+        "japanese": "活断層の上に家を建てないでください。 / この地震は断層がずれたことで起きました。 / 親と子の世代の間には、考え方の断層があります。",
+        "romanization": "dansou; Katsu dansou no ue ni ie o tatenaide kudasai. / Kono jishin wa dansou ga zureta koto de okimashita. / Oya to ko no sedai no aida ni wa, kangaekata no dansou ga arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bauen Sie nicht auf einer aktiven Verwerfung. / Dieses Erdbeben entstand durch die Verschiebung an einer Verwerfung. / Zwischen der Generation der Eltern und der der Kinder gibt es eine Kluft im Denken.",
+        "contexts": [
+          "Building regulations",
+          "Cause of an earthquake",
+          "Generation gap (figurative)"
+        ],
+        "lexical": "JMdict 1419700 senses 1–2, noun: (geological) fault; gap, discrepancy",
+        "register": "neutral / scientific; figurative sense written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1845 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Building regulations; Cause of an earthquake; Generation gap (figurative)), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "94e2f286de4c22cac176c4761de956d21b6920eeca368a9417b4d6e98bb8bd06",
+        "approvalHash": "878ea8be981d991bf9ced94cf38a797d95c93ea620d392f66c4527ad916e132c"
+      }
+    },
+    {
+      "id": "vocab-n3:1846",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1846",
+      "state": "accepted",
+      "predecessorHash": "7bb8a5151934ebe610f35eeaa7a42c33f6cbb993eb3a20b26fd1d7a12e83b5ba",
+      "originalHash": "7bb8a5151934ebe610f35eeaa7a42c33f6cbb993eb3a20b26fd1d7a12e83b5ba",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "震源は海底でした。",
+            "romaji": "Shingen wa kaitei deshita.",
+            "german": "Das Epizentrum war am Meeresboden."
+          }
+        ],
+        "meaning": "Epizentrum",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "震源 ist genau genommen der Erdbebenherd (Hypozentrum) im Erdinneren; der Punkt direkt darüber an der Oberfläche heißt 震央 „Epizentrum“. In japanischen Erdbebenmeldungen hört man ständig 震源は〇〇沖 „der Herd liegt vor der Küste von …“ und 震源の深さは〇キロ. Im übertragenen Sinn bezeichnet 震源 auch den Ursprung von Gerüchten oder Unruhe (うわさの震源).",
+        "examples": [
+          {
+            "japanese": "震源は海底でした。",
+            "romaji": "Shingen wa kaitei deshita.",
+            "german": "Der Erdbebenherd lag unter dem Meeresboden."
+          },
+          {
+            "japanese": "震源の深さは約十キロです。",
+            "romaji": "Shingen no fukasa wa yaku jukkiro desu.",
+            "german": "Der Erdbebenherd liegt in etwa zehn Kilometern Tiefe."
+          },
+          {
+            "japanese": "震源に近い町では、多くの家が壊れました。",
+            "romaji": "Shingen ni chikai machi de wa, ooku no ie ga kowaremashita.",
+            "german": "In den Orten nahe dem Erdbebenherd wurden viele Häuser zerstört."
+          }
+        ],
+        "meaning": "Erdbebenherd, Hypozentrum",
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142669795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 震源/シンゲン; lemma 震源; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "震源",
+              "reading": "しんげん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 震源/しんげん \"Epizentrum\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1366350 sense 1, noun: hypocentre, focus (of an earthquake) Pitch: Verified [0,3] via exact UniDic row. 震源 ist genau genommen der Erdbebenherd (Hypozentrum) im Erdinneren; der Punkt direkt darüber an der Oberfläche heißt 震央 „Epizentrum“. In japanischen Erdbebenmeldungen hört man ständig 震源は〇〇沖 „der Herd liegt vor der Küste von …“ und 震源の深さは〇キロ. Im übertragenen Sinn bezeichnet 震源 auch den Ursprung von Gerüchten oder Unruhe (うわさの震源). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1366350; spelling=震源; reading=しんげん",
+          "selected": {
+            "sequence": "1366350",
+            "spelling": "震源",
+            "reading": "しんげん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hypocentre (of an earthquake)",
+                  "hypocenter",
+                  "focus"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1366350 sense 1, noun: hypocentre, focus (of an earthquake)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 震源/シンゲン; lemma 震源; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142669795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 震源/シンゲン; lemma 震源; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "震源",
+              "reading": "しんげん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 震源/しんげん \"Epizentrum\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Erdbebenherd, Hypozentrum. JMdict 1366350 sense 1, noun: hypocentre, focus (of an earthquake)",
+        "japanese": "震源は海底でした。 / 震源の深さは約十キロです。 / 震源に近い町では、多くの家が壊れました。",
+        "romanization": "shingen; Shingen wa kaitei deshita. / Shingen no fukasa wa yaku jukkiro desu. / Shingen ni chikai machi de wa, ooku no ie ga kowaremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Erdbebenherd lag unter dem Meeresboden. / Der Erdbebenherd liegt in etwa zehn Kilometern Tiefe. / In den Orten nahe dem Erdbebenherd wurden viele Häuser zerstört.",
+        "contexts": [
+          "Location of the quake",
+          "Earthquake bulletin",
+          "Damage report"
+        ],
+        "lexical": "JMdict 1366350 sense 1, noun: hypocentre, focus (of an earthquake)",
+        "register": "neutral (news, science)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1846 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Location of the quake; Earthquake bulletin; Damage report), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "42b08af7321ae58073eae3aa61a948b4aa8486e69c253e06767b6623f8154e45",
+        "approvalHash": "a1a1b387bca9935994fa68ec910c203ea80012eced5d0fbac24a5627f09a2745"
+      }
+    },
+    {
+      "id": "vocab-n3:1847",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1847",
+      "state": "accepted",
+      "predecessorHash": "8e9e07fd8b2acaca1a0ae55cc2f62b392cb9878f369c5c6abcc6fb1559d70ff0",
+      "originalHash": "8e9e07fd8b2acaca1a0ae55cc2f62b392cb9878f369c5c6abcc6fb1559d70ff0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "震度五の地震がありました。",
+            "romaji": "Shindo go no jishin ga arimashita.",
+            "german": "Es gab ein Erdbeben der Stärke 5."
+          }
+        ],
+        "meaning": "Erdbebenstärke",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "震度 ist die Erschütterungsintensität nach der japanischen Skala (0 bis 7, mit 5弱/5強 und 6弱/6強) und gibt an, wie stark es an einem bestimmten Ort wackelt. Typisch: 震度〇を観測する, 最大震度, 震度〇の地震. Die freigesetzte Energie des Bebens selbst ist dagegen die マグニチュード: Ein Beben hat eine Magnitude, aber an jedem Ort einen anderen 震度. In Nachrichten schreibt man die Zahlen meist in arabischen Ziffern.",
+        "examples": [
+          {
+            "japanese": "震度五の地震がありました。",
+            "romaji": "Shindo go no jishin ga arimashita.",
+            "german": "Es gab ein Erdbeben mit Intensität 5 auf der japanischen Skala."
+          },
+          {
+            "japanese": "東京では震度4を観測しました。",
+            "romaji": "Toukyou de wa shindo yon o kansoku shimashita.",
+            "german": "In Tokio wurde Intensität 4 gemessen."
+          },
+          {
+            "japanese": "マグニチュードは一つでも、震度は場所によって違います。",
+            "romaji": "Magunichuudo wa hitotsu demo, shindo wa basho ni yotte chigaimasu.",
+            "german": "Ein Beben hat nur eine Magnitude, aber die Intensität ist von Ort zu Ort verschieden."
+          }
+        ],
+        "meaning": "Erdbebenintensität (jap. Skala), Erdbebenstärke",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142974333",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 震度/シンド; lemma 震度; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "震度",
+              "reading": "しんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 震度/しんど \"Erdbebenstärke\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1366380 sense 1, noun: seismic intensity (JMA scale) Pitch: Verified [1] via exact UniDic row. 震度 ist die Erschütterungsintensität nach der japanischen Skala (0 bis 7, mit 5弱/5強 und 6弱/6強) und gibt an, wie stark es an einem bestimmten Ort wackelt. Typisch: 震度〇を観測する, 最大震度, 震度〇の地震. Die freigesetzte Energie des Bebens selbst ist dagegen die マグニチュード: Ein Beben hat eine Magnitude, aber an jedem Ort einen anderen 震度. In Nachrichten schreibt man die Zahlen meist in arabischen Ziffern. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1366380; spelling=震度; reading=しんど",
+          "selected": {
+            "sequence": "1366380",
+            "spelling": "震度",
+            "reading": "しんど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seismic intensity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1366380 sense 1, noun: seismic intensity (JMA scale)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 震度/シンド; lemma 震度; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142974333",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 震度/シンド; lemma 震度; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "震度",
+              "reading": "しんど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 震度/しんど \"Erdbebenstärke\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Erdbebenintensität (jap. Skala), Erdbebenstärke. JMdict 1366380 sense 1, noun: seismic intensity (JMA scale)",
+        "japanese": "震度五の地震がありました。 / 東京では震度4を観測しました。 / マグニチュードは一つでも、震度は場所によって違います。",
+        "romanization": "shindo; Shindo go no jishin ga arimashita. / Toukyou de wa shindo yon o kansoku shimashita. / Magunichuudo wa hitotsu demo, shindo wa basho ni yotte chigaimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gab ein Erdbeben mit Intensität 5 auf der japanischen Skala. / In Tokio wurde Intensität 4 gemessen. / Ein Beben hat nur eine Magnitude, aber die Intensität ist von Ort zu Ort verschieden.",
+        "contexts": [
+          "Reporting a quake",
+          "Regional measurement",
+          "Magnitude vs. intensity"
+        ],
+        "lexical": "JMdict 1366380 sense 1, noun: seismic intensity (JMA scale)",
+        "register": "neutral (news, everyday talk)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1847 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reporting a quake; Regional measurement; Magnitude vs. intensity), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f99ece13cdf0564ead2cc55e8795d17a239ded9b94d69aa33087ed715a711f2b",
+        "approvalHash": "08548152d6ad4ea39d17598a853d38c32860a663d8d6728afdd15933b1aad987"
+      }
+    },
+    {
+      "id": "vocab-n3:1848",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1848",
+      "state": "accepted",
+      "predecessorHash": "ddae85b404add8e33c55473faf72fb55e35219c8c611dc3c6cb7a2f5a5feeab6",
+      "originalHash": "ddae85b404add8e33c55473faf72fb55e35219c8c611dc3c6cb7a2f5a5feeab6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "余震に注意してください。",
+            "romaji": "Yoshin ni chuui shite kudasai.",
+            "german": "Achten Sie auf Nachbeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "余震 (余 „übrig, nach-“ + 震 „Beben“) sind Nachbeben nach einem größeren Erdbeben. Typisch: 余震が続く, 余震に注意する/警戒する, 大きな余震. Das Hauptbeben heißt 本震, ein Vorbeben 前震. Nach starken Beben warnen Behörden und Medien tagelang mit 余震に注意してください.",
+        "examples": [
+          {
+            "japanese": "余震に注意してください。",
+            "romaji": "Yoshin ni chuui shite kudasai.",
+            "german": "Achten Sie auf Nachbeben."
+          },
+          {
+            "japanese": "大きな地震のあと、一週間ぐらい余震が続きました。",
+            "romaji": "Ookina jishin no ato, isshuukan gurai yoshin ga tsuzukimashita.",
+            "german": "Nach dem großen Beben gab es etwa eine Woche lang Nachbeben."
+          },
+          {
+            "japanese": "余震が怖くて、昨夜はよく眠れませんでした。",
+            "romaji": "Yoshin ga kowakute, sakuya wa yoku nemuremasen deshita.",
+            "german": "Aus Angst vor Nachbeben konnte ich letzte Nacht kaum schlafen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273968648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 余震/ヨシン; lemma 余震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "余震",
+              "reading": "よしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 余震/よしん \"Nachbeben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1544290 sense 1, noun: aftershock Pitch: Verified [0] via exact UniDic row. 余震 (余 „übrig, nach-“ + 震 „Beben“) sind Nachbeben nach einem größeren Erdbeben. Typisch: 余震が続く, 余震に注意する/警戒する, 大きな余震. Das Hauptbeben heißt 本震, ein Vorbeben 前震. Nach starken Beben warnen Behörden und Medien tagelang mit 余震に注意してください. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1544290; spelling=余震; reading=よしん",
+          "selected": {
+            "sequence": "1544290",
+            "spelling": "余震",
+            "reading": "よしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "aftershock"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1544290 sense 1, noun: aftershock"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 余震/ヨシン; lemma 余震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273968648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 余震/ヨシン; lemma 余震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "余震",
+              "reading": "よしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 余震/よしん \"Nachbeben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nachbeben. JMdict 1544290 sense 1, noun: aftershock",
+        "japanese": "余震に注意してください。 / 大きな地震のあと、一週間ぐらい余震が続きました。 / 余震が怖くて、昨夜はよく眠れませんでした。",
+        "romanization": "yoshin; Yoshin ni chuui shite kudasai. / Ookina jishin no ato, isshuukan gurai yoshin ga tsuzukimashita. / Yoshin ga kowakute, sakuya wa yoku nemuremasen deshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Achten Sie auf Nachbeben. / Nach dem großen Beben gab es etwa eine Woche lang Nachbeben. / Aus Angst vor Nachbeben konnte ich letzte Nacht kaum schlafen.",
+        "contexts": [
+          "Official warning",
+          "Week after a big quake",
+          "Sleepless night"
+        ],
+        "lexical": "JMdict 1544290 sense 1, noun: aftershock",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1848 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Official warning; Week after a big quake; Sleepless night), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "32e0e609ecb689357970ed796147f609c99fb916bf9ecafec2e59d7853312e9e",
+        "approvalHash": "0b5db32340887df32197f4c0f26ca53fbb8d0d3e4073d9daf926d0e427f0ab9b"
+      }
+    },
+    {
+      "id": "vocab-n3:1849",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1849",
+      "state": "accepted",
+      "predecessorHash": "6c86519096282cf092a63867aabbd27ad560e1ab067cb96d4808c499f724a0b4",
+      "originalHash": "6c86519096282cf092a63867aabbd27ad560e1ab067cb96d4808c499f724a0b4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "地震で液状化が起きました。",
+            "romaji": "Jishin de ekijouka ga okimashita.",
+            "german": "Durch das Erdbeben kam es zur Bodenverflüssung."
+          }
+        ],
+        "meaning": "Verflüsigung (Boden)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "液状化 (液状 „flüssiger Zustand“ + 化 „-werden“) bezeichnet vor allem die Bodenverflüssigung bei Erdbeben: Wassergesättigter, sandiger Boden verliert seine Festigkeit, Häuser sinken ein und Sand und Wasser quellen hervor. Als intransitives する-Verb: 地盤が液状化する; dazu 液状化現象 und 液状化が起きる. Besonders gefährdet sind aufgeschüttete Flächen (埋め立て地).",
+        "examples": [
+          {
+            "japanese": "地震で液状化が起きました。",
+            "romaji": "Jishin de ekijouka ga okimashita.",
+            "german": "Durch das Erdbeben kam es zur Bodenverflüssigung."
+          },
+          {
+            "japanese": "埋め立て地では、地盤が液状化しやすいです。",
+            "romaji": "Umetatechi de wa, jiban ga ekijouka shiyasui desu.",
+            "german": "Auf aufgeschüttetem Land verflüssigt sich der Boden leicht."
+          },
+          {
+            "japanese": "家を買う前に、液状化のリスクを調べました。",
+            "romaji": "Ie o kau mae ni, ekijouka no risuku o shirabemashita.",
+            "german": "Vor dem Hauskauf habe ich das Risiko einer Bodenverflüssigung geprüft."
+          }
+        ],
+        "meaning": "Bodenverflüssigung, Verflüssigung",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1918140 sense 1, noun / suru verb: liquefaction (esp. of soil) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 液状化 (液状 „flüssiger Zustand“ + 化 „-werden“) bezeichnet vor allem die Bodenverflüssigung bei Erdbeben: Wassergesättigter, sandiger Boden verliert seine Festigkeit, Häuser sinken ein und Sand und Wasser quellen hervor. Als intransitives する-Verb: 地盤が液状化する; dazu 液状化現象 und 液状化が起きる. Besonders gefährdet sind aufgeschüttete Flächen (埋め立て地). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1918140; spelling=液状化; reading=えきじょうか",
+          "selected": {
+            "sequence": "1918140",
+            "spelling": "液状化",
+            "reading": "えきじょうか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "liquefaction",
+                  "liquefy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1918140 sense 1, noun / suru verb: liquefaction (esp. of soil)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 液状化/えきじょうか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B6%B2%E7%8A%B6%E5%8C%96",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 液状化/えきじょうか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bodenverflüssigung, Verflüssigung. JMdict 1918140 sense 1, noun / suru verb: liquefaction (esp. of soil)",
+        "japanese": "地震で液状化が起きました。 / 埋め立て地では、地盤が液状化しやすいです。 / 家を買う前に、液状化のリスクを調べました。",
+        "romanization": "ekijouka; Jishin de ekijouka ga okimashita. / Umetatechi de wa, jiban ga ekijouka shiyasui desu. / Ie o kau mae ni, ekijouka no risuku o shirabemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch das Erdbeben kam es zur Bodenverflüssigung. / Auf aufgeschüttetem Land verflüssigt sich der Boden leicht. / Vor dem Hauskauf habe ich das Risiko einer Bodenverflüssigung geprüft.",
+        "contexts": [
+          "Earthquake damage",
+          "Reclaimed land",
+          "Checking before buying a house"
+        ],
+        "lexical": "JMdict 1918140 sense 1, noun / suru verb: liquefaction (esp. of soil)",
+        "register": "neutral / technical (news, construction)",
+        "transitivity": "intransitive as 液状化する (地盤が液状化する)",
+        "conjugation": "noun; suru verb (液状化する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1849 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Earthquake damage; Reclaimed land; Checking before buying a house), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3242d9899f69b95621e91af868b372144487d896bd92cb9fab19ea984b990fe9",
+        "approvalHash": "ae52335784115ca77a8c3b46c47ff2d52e90b87034f71f9a3ca3de5e8435dc71"
+      }
+    },
+    {
+      "id": "vocab-n3:1850",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1850",
+      "state": "accepted",
+      "predecessorHash": "14bd5253cb378038a928472ba4e67a94814b6ceba6654eb25ffa5fd3368678ce",
+      "originalHash": "14bd5253cb378038a928472ba4e67a94814b6ceba6654eb25ffa5fd3368678ce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "耐震工事をしました。",
+            "romaji": "Taishin kouji o shimashita.",
+            "german": "Wir haben erdbebensichere Bauarbeiten durchgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "耐震 (耐 „aushalten“ + 震 „Beben“) bedeutet „erdbebenfest“ und steht fast immer als Bestimmungswort vor anderen Nomen: 耐震構造 „erdbebensichere Bauweise“, 耐震基準 „Erdbebenbaunorm“, 耐震工事 „Erdbebennachrüstung“, 耐震性 „Erdbebensicherheit“. Seltener mit の: 耐震の建物. Verwandt sind 免震 (Basisisolierung, das Gebäude wird vom Boden entkoppelt) und 制震 (Schwingungsdämpfung). Wichtiger Begriff bei Wohnungssuche und Hauskauf.",
+        "examples": [
+          {
+            "japanese": "耐震工事をしました。",
+            "romaji": "Taishin kouji o shimashita.",
+            "german": "Wir haben das Haus erdbebensicher nachrüsten lassen."
+          },
+          {
+            "japanese": "このビルは古い耐震基準で建てられています。",
+            "romaji": "Kono biru wa furui taishin kijun de taterarete imasu.",
+            "german": "Dieses Gebäude wurde nach alten Erdbebenbaunormen errichtet."
+          },
+          {
+            "japanese": "部屋を探すときは、耐震性も確認したほうがいいです。",
+            "romaji": "Heya o sagasu toki wa, taishinsei mo kakunin shita hou ga ii desu.",
+            "german": "Bei der Wohnungssuche sollte man auch die Erdbebensicherheit prüfen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158047036",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 耐震/タイシン; lemma 耐震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "耐震",
+              "reading": "たいしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 耐震/たいしん \"erdbebensicher\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1410370 sense 1, noun / no-adjective: earthquake-resistant Pitch: Verified [0] via exact UniDic row. 耐震 (耐 „aushalten“ + 震 „Beben“) bedeutet „erdbebenfest“ und steht fast immer als Bestimmungswort vor anderen Nomen: 耐震構造 „erdbebensichere Bauweise“, 耐震基準 „Erdbebenbaunorm“, 耐震工事 „Erdbebennachrüstung“, 耐震性 „Erdbebensicherheit“. Seltener mit の: 耐震の建物. Verwandt sind 免震 (Basisisolierung, das Gebäude wird vom Boden entkoppelt) und 制震 (Schwingungsdämpfung). Wichtiger Begriff bei Wohnungssuche und Hauskauf. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1410370; spelling=耐震; reading=たいしん",
+          "selected": {
+            "sequence": "1410370",
+            "spelling": "耐震",
+            "reading": "たいしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resistant to earthquakes"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1410370 sense 1, noun / no-adjective: earthquake-resistant"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 耐震/タイシン; lemma 耐震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158047036",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 耐震/タイシン; lemma 耐震; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "耐震",
+              "reading": "たいしん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 耐震/たいしん \"erdbebensicher\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "erdbebensicher. JMdict 1410370 sense 1, noun / no-adjective: earthquake-resistant",
+        "japanese": "耐震工事をしました。 / このビルは古い耐震基準で建てられています。 / 部屋を探すときは、耐震性も確認したほうがいいです。",
+        "romanization": "taishin; Taishin kouji o shimashita. / Kono biru wa furui taishin kijun de taterarete imasu. / Heya o sagasu toki wa, taishinsei mo kakunin shita hou ga ii desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben das Haus erdbebensicher nachrüsten lassen. / Dieses Gebäude wurde nach alten Erdbebenbaunormen errichtet. / Bei der Wohnungssuche sollte man auch die Erdbebensicherheit prüfen.",
+        "contexts": [
+          "Home renovation",
+          "Older building standards",
+          "Apartment hunting tip"
+        ],
+        "lexical": "JMdict 1410370 sense 1, noun / no-adjective: earthquake-resistant",
+        "register": "neutral / technical (construction, real estate)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1850 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Home renovation; Older building standards; Apartment hunting tip), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "82cb62461292404d19de92ba9fc4522c31e3d11af584ee60895fe9fb4bffbf6e",
+        "approvalHash": "70f3a66bbc833fb1de5d87526fa888a2d0c8d952687f5883d1d0a6ae29f15972"
+      }
+    },
+    {
+      "id": "vocab-n3:1851",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1851",
+      "state": "accepted",
+      "predecessorHash": "bcfd5eeb1c8016ad4e77f018311ae3a0d405daf1e57bfdc4e44b64e6327c9305",
+      "originalHash": "bcfd5eeb1c8016ad4e77f018311ae3a0d405daf1e57bfdc4e44b64e6327c9305",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "避難所に行きました。",
+            "romaji": "Hinanjo ni ikimashita.",
+            "german": "Ich bin zur Evakuierungsstelle gegangen."
+          }
+        ],
+        "meaning": "Evakuierungsstelle",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "避難所 (避難 „Evakuierung, Flucht“ + 所 „Ort“, hier じょ gelesen) ist die Notunterkunft, in der man nach einer Katastrophe vorübergehend wohnt – meist Turnhallen von Schulen oder Gemeindezentren. Typisch: 避難所に避難する/行く, 避難所で生活する, 指定避難所. Davon zu unterscheiden ist 避難場所, ein offener Sammelplatz (Park, Platz), an dem man sich nur kurz in Sicherheit bringt.",
+        "examples": [
+          {
+            "japanese": "避難所に行きました。",
+            "romaji": "Hinanjo ni ikimashita.",
+            "german": "Ich bin zur Evakuierungsstelle gegangen."
+          },
+          {
+            "japanese": "近くの小学校が避難所になっています。",
+            "romaji": "Chikaku no shougakkou ga hinanjo ni natte imasu.",
+            "german": "Die Grundschule in der Nähe dient als Notunterkunft."
+          },
+          {
+            "japanese": "地震のあと、避難所で一か月生活しました。",
+            "romaji": "Jishin no ato, hinanjo de ikkagetsu seikatsu shimashita.",
+            "german": "Nach dem Erdbeben habe ich einen Monat in einer Notunterkunft gelebt."
+          }
+        ],
+        "meaning": "Notunterkunft, Evakuierungszentrum",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1751840 sense 1, noun: evacuation shelter, place of refuge Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 避難所 (避難 „Evakuierung, Flucht“ + 所 „Ort“, hier じょ gelesen) ist die Notunterkunft, in der man nach einer Katastrophe vorübergehend wohnt – meist Turnhallen von Schulen oder Gemeindezentren. Typisch: 避難所に避難する/行く, 避難所で生活する, 指定避難所. Davon zu unterscheiden ist 避難場所, ein offener Sammelplatz (Park, Platz), an dem man sich nur kurz in Sicherheit bringt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1751840; spelling=避難所; reading=ひなんじょ",
+          "selected": {
+            "sequence": "1751840",
+            "spelling": "避難所",
+            "reading": "ひなんじょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shelter",
+                  "safe shelter",
+                  "evacuation shelter",
+                  "place of refuge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1751840 sense 1, noun: evacuation shelter, place of refuge"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 避難所/ひなんじょ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%BF%E9%9B%A3%E6%89%80",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 避難所/ひなんじょ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Notunterkunft, Evakuierungszentrum. JMdict 1751840 sense 1, noun: evacuation shelter, place of refuge",
+        "japanese": "避難所に行きました。 / 近くの小学校が避難所になっています。 / 地震のあと、避難所で一か月生活しました。",
+        "romanization": "hinanjo; Hinanjo ni ikimashita. / Chikaku no shougakkou ga hinanjo ni natte imasu. / Jishin no ato, hinanjo de ikkagetsu seikatsu shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin zur Evakuierungsstelle gegangen. / Die Grundschule in der Nähe dient als Notunterkunft. / Nach dem Erdbeben habe ich einen Monat in einer Notunterkunft gelebt.",
+        "contexts": [
+          "Evacuating during a disaster",
+          "Knowing the local shelter",
+          "Life after the earthquake"
+        ],
+        "lexical": "JMdict 1751840 sense 1, noun: evacuation shelter, place of refuge",
+        "register": "neutral (disaster preparedness)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1851 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Evacuating during a disaster; Knowing the local shelter; Life after the earthquake), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "464a11840fb3835a3c0186c389c90100e0ba638ba6d5a544fda5820fbf14a676",
+        "approvalHash": "3b436b080b69d09b8d9965079aaa88e3a0ec2c7e6c1c15558e6baa8fbf27e9dd"
+      }
+    },
+    {
+      "id": "vocab-n3:1852",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1852",
+      "state": "accepted",
+      "predecessorHash": "de8ecdbbfba6824d74a69d007ac4a3b21c11862dbd6f09630d7274c6a59ef2d5",
+      "originalHash": "de8ecdbbfba6824d74a69d007ac4a3b21c11862dbd6f09630d7274c6a59ef2d5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "食料を備蓄しています。",
+            "romaji": "Shokuryou o bichiku shiteimasu.",
+            "german": "Ich halte Lebensmittelvorräte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "備蓄 ist das planmäßige Anlegen von Vorräten für den Notfall; als transitives する-Verb: 食料/水を備蓄する. Dazu 備蓄品 „Notvorrat“, 備蓄米 „staatliche Reisreserve“, 石油の備蓄. Im Gegensatz zu 買いだめ, dem (oft panikartigen) Hamstern, klingt 備蓄 vernünftig und vorausschauend. Das Wort ist leicht formell und typisch für Katastrophenschutz und Politik.",
+        "examples": [
+          {
+            "japanese": "食料を備蓄しています。",
+            "romaji": "Shokuryou o bichiku shiteimasu.",
+            "german": "Ich halte Lebensmittelvorräte."
+          },
+          {
+            "japanese": "家族の人数分、三日分の水を備蓄しておきましょう。",
+            "romaji": "Kazoku no ninzuubun, mikkabun no mizu o bichiku shite okimashou.",
+            "german": "Legen Sie für jedes Familienmitglied einen Wasservorrat für drei Tage an."
+          },
+          {
+            "japanese": "政府は備蓄米を市場に出すことを決めました。",
+            "romaji": "Seifu wa bichikumai o shijou ni dasu koto o kimemashita.",
+            "german": "Die Regierung hat beschlossen, Reis aus der staatlichen Reserve auf den Markt zu bringen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229412874",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 備蓄/ビチク; lemma 備蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "備蓄",
+              "reading": "びちく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 備蓄/びちく \"Vorratshaltung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1485710 sense 1, noun / suru verb: stockpiling, reserves (for emergencies) Pitch: Verified [0] via exact UniDic row. 備蓄 ist das planmäßige Anlegen von Vorräten für den Notfall; als transitives する-Verb: 食料/水を備蓄する. Dazu 備蓄品 „Notvorrat“, 備蓄米 „staatliche Reisreserve“, 石油の備蓄. Im Gegensatz zu 買いだめ, dem (oft panikartigen) Hamstern, klingt 備蓄 vernünftig und vorausschauend. Das Wort ist leicht formell und typisch für Katastrophenschutz und Politik. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1485710; spelling=備蓄; reading=びちく",
+          "selected": {
+            "sequence": "1485710",
+            "spelling": "備蓄",
+            "reading": "びちく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stocking up (in case of emergency)",
+                  "stockpile",
+                  "reserves",
+                  "storing",
+                  "laying in (supplies)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1485710 sense 1, noun / suru verb: stockpiling, reserves (for emergencies)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 備蓄/ビチク; lemma 備蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229412874",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 備蓄/ビチク; lemma 備蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "備蓄",
+              "reading": "びちく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 備蓄/びちく \"Vorratshaltung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorratshaltung. JMdict 1485710 sense 1, noun / suru verb: stockpiling, reserves (for emergencies)",
+        "japanese": "食料を備蓄しています。 / 家族の人数分、三日分の水を備蓄しておきましょう。 / 政府は備蓄米を市場に出すことを決めました。",
+        "romanization": "bichiku; Shokuryou o bichiku shiteimasu. / Kazoku no ninzuubun, mikkabun no mizu o bichiku shite okimashou. / Seifu wa bichikumai o shijou ni dasu koto o kimemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich halte Lebensmittelvorräte. / Legen Sie für jedes Familienmitglied einen Wasservorrat für drei Tage an. / Die Regierung hat beschlossen, Reis aus der staatlichen Reserve auf den Markt zu bringen.",
+        "contexts": [
+          "Home emergency supplies",
+          "Disaster-prep advice",
+          "Government rice policy"
+        ],
+        "lexical": "JMdict 1485710 sense 1, noun / suru verb: stockpiling, reserves (for emergencies)",
+        "register": "formal / neutral (disaster prep, politics)",
+        "transitivity": "transitive as 備蓄する (食料を備蓄する)",
+        "conjugation": "noun; suru verb (備蓄する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1852 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Home emergency supplies; Disaster-prep advice; Government rice policy), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "11c2230a3199332d271d5c0c4c27de6ec055a61e2c33a0ac251b3c36cb3068da",
+        "approvalHash": "e3f5d6d9237749b536b0e269562e81ad97629f943ac5d87e3484c5cce20d320b"
+      }
+    },
+    {
+      "id": "vocab-n3:1853",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1853",
+      "state": "accepted",
+      "predecessorHash": "8ece5b1bdce435a2889c8117da787b48200054a74dcd0a4b88d17c95aeaf4b26",
+      "originalHash": "8ece5b1bdce435a2889c8117da787b48200054a74dcd0a4b88d17c95aeaf4b26",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "救援物資を送ります。",
+            "romaji": "Kyuuen busshi o okurimasu.",
+            "german": "Wir senden Hilfsgüter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "救援 ist organisierte Hilfe für Menschen in Not, besonders nach Katastrophen: 救援物資 „Hilfsgüter“, 救援活動 „Hilfseinsatz“, 救援隊, 救援に向かう/駆けつける. 救助 meint dagegen die direkte Rettung von Menschen aus Lebensgefahr (人命救助), 支援 allgemein „Unterstützung“. Im Baseball ist 救援投手 der Reliever, der für den Starter einspringt.",
+        "examples": [
+          {
+            "japanese": "救援物資を送ります。",
+            "romaji": "Kyuuen busshi o okurimasu.",
+            "german": "Wir senden Hilfsgüter."
+          },
+          {
+            "japanese": "自衛隊が被災地の救援に向かいました。",
+            "romaji": "Jieitai ga hisaichi no kyuuen ni mukaimashita.",
+            "german": "Die Selbstverteidigungsstreitkräfte sind zum Hilfseinsatz ins Katastrophengebiet aufgebrochen."
+          },
+          {
+            "japanese": "ピッチャーが打たれたので、救援投手が出てきました。",
+            "romaji": "Pitchaa ga utareta node, kyuuen toushu ga dete kimashita.",
+            "german": "Weil der Pitcher viele Treffer kassierte, kam ein Ersatzpitcher ins Spiel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105817759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 救援/キュウエン; lemma 救援; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "救援",
+              "reading": "きゅうえん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 救援/きゅうえん \"Rettung, Hilfe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1229070 sense 1, noun / suru verb: relief, rescue Pitch: Verified [0] via exact UniDic row. 救援 ist organisierte Hilfe für Menschen in Not, besonders nach Katastrophen: 救援物資 „Hilfsgüter“, 救援活動 „Hilfseinsatz“, 救援隊, 救援に向かう/駆けつける. 救助 meint dagegen die direkte Rettung von Menschen aus Lebensgefahr (人命救助), 支援 allgemein „Unterstützung“. Im Baseball ist 救援投手 der Reliever, der für den Starter einspringt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1229070; spelling=救援; reading=きゅうえん",
+          "selected": {
+            "sequence": "1229070",
+            "spelling": "救援",
+            "reading": "きゅうえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "relief",
+                  "rescue"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1229070 sense 1, noun / suru verb: relief, rescue"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 救援/キュウエン; lemma 救援; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105817759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 救援/キュウエン; lemma 救援; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "救援",
+              "reading": "きゅうえん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 救援/きゅうえん \"Rettung, Hilfe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rettung, Hilfe. JMdict 1229070 sense 1, noun / suru verb: relief, rescue",
+        "japanese": "救援物資を送ります。 / 自衛隊が被災地の救援に向かいました。 / ピッチャーが打たれたので、救援投手が出てきました。",
+        "romanization": "kyuuen; Kyuuen busshi o okurimasu. / Jieitai ga hisaichi no kyuuen ni mukaimashita. / Pitchaa ga utareta node, kyuuen toushu ga dete kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir senden Hilfsgüter. / Die Selbstverteidigungsstreitkräfte sind zum Hilfseinsatz ins Katastrophengebiet aufgebrochen. / Weil der Pitcher viele Treffer kassierte, kam ein Ersatzpitcher ins Spiel.",
+        "contexts": [
+          "Sending relief supplies",
+          "Disaster relief mission",
+          "Baseball relief pitcher"
+        ],
+        "lexical": "JMdict 1229070 sense 1, noun / suru verb: relief, rescue",
+        "register": "neutral / formal (news, disaster relief)",
+        "transitivity": "transitive as 救援する (被災者を救援する); mostly used as noun",
+        "conjugation": "noun; suru verb (救援する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1853 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sending relief supplies; Disaster relief mission; Baseball relief pitcher), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "42688deec52c31624cd777a56df2bdef2fd75a64a9cf7642b194e099b0a46418",
+        "approvalHash": "873db4fd717e6ec2344371f7e25d331d67a6fbe858f75562a34cef1d21eb9f4a"
+      }
+    },
+    {
+      "id": "vocab-n3:1854",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1854",
+      "state": "accepted",
+      "predecessorHash": "84b36f2e366f4d6d9a4bc92e3d073b7fe51cf4a9b0def4a14dd35381fdc8b989",
+      "originalHash": "84b36f2e366f4d6d9a4bc92e3d073b7fe51cf4a9b0def4a14dd35381fdc8b989",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "義援金を寄付しました。",
+            "romaji": "Gienkin o kifu shimashita.",
+            "german": "Ich habe Spendengeld gespendet."
+          }
+        ],
+        "meaning": "Spendengeld",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "義援金 ist Spendengeld für Opfer von Katastrophen oder Unglücken, das z. B. über das Rote Kreuz direkt an Betroffene verteilt wird: 義援金を送る/寄付する/集める, 義援金が集まる. Die ursprüngliche Schreibweise ist 義捐金. 寄付金 ist der allgemeine Begriff für Spenden; 募金 bezeichnet das Sammeln selbst (Spendenaktion, Sammelbox). Das Wort ist neutral-formell und taucht nach jedem großen Erdbeben in den Nachrichten auf.",
+        "examples": [
+          {
+            "japanese": "義援金を寄付しました。",
+            "romaji": "Gienkin o kifu shimashita.",
+            "german": "Ich habe Geld für die Katastrophenopfer gespendet."
+          },
+          {
+            "japanese": "駅前で地震の義援金を集めています。",
+            "romaji": "Ekimae de jishin no gienkin o atsumete imasu.",
+            "german": "Vor dem Bahnhof wird Geld für die Erdbebenopfer gesammelt."
+          },
+          {
+            "japanese": "全国から集まった義援金が被災者に配られました。",
+            "romaji": "Zenkoku kara atsumatta gienkin ga hisaisha ni kubararemashita.",
+            "german": "Die im ganzen Land gesammelten Spenden wurden an die Betroffenen verteilt."
+          }
+        ],
+        "meaning": "Spendengeld (für Katastrophenopfer)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1225730 sense 1, noun: donation money (esp. disaster relief) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 義援金 ist Spendengeld für Opfer von Katastrophen oder Unglücken, das z. B. über das Rote Kreuz direkt an Betroffene verteilt wird: 義援金を送る/寄付する/集める, 義援金が集まる. Die ursprüngliche Schreibweise ist 義捐金. 寄付金 ist der allgemeine Begriff für Spenden; 募金 bezeichnet das Sammeln selbst (Spendenaktion, Sammelbox). Das Wort ist neutral-formell und taucht nach jedem großen Erdbeben in den Nachrichten auf. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1225730; spelling=義援金; reading=ぎえんきん",
+          "selected": {
+            "sequence": "1225730",
+            "spelling": "義援金",
+            "reading": "ぎえんきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "donation money (esp. disaster relief or charity)",
+                  "contribution"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1225730 sense 1, noun: donation money (esp. disaster relief)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 義援金/ぎえんきん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%BE%A9%E6%8F%B4%E9%87%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 義援金/ぎえんきん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Spendengeld (für Katastrophenopfer). JMdict 1225730 sense 1, noun: donation money (esp. disaster relief)",
+        "japanese": "義援金を寄付しました。 / 駅前で地震の義援金を集めています。 / 全国から集まった義援金が被災者に配られました。",
+        "romanization": "gienkin; Gienkin o kifu shimashita. / Ekimae de jishin no gienkin o atsumete imasu. / Zenkoku kara atsumatta gienkin ga hisaisha ni kubararemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Geld für die Katastrophenopfer gespendet. / Vor dem Bahnhof wird Geld für die Erdbebenopfer gesammelt. / Die im ganzen Land gesammelten Spenden wurden an die Betroffenen verteilt.",
+        "contexts": [
+          "Personal donation",
+          "Street collection",
+          "Distribution to victims"
+        ],
+        "lexical": "JMdict 1225730 sense 1, noun: donation money (esp. disaster relief)",
+        "register": "neutral / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1854 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Personal donation; Street collection; Distribution to victims), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "78708384299e1dc11af13ba43076d92a69b668323310370d901eeb011a2d8358",
+        "approvalHash": "efc1972be08448a39aec7acbd2806811534f7471a87f0fd6950d12c810acd07e"
+      }
+    },
+    {
+      "id": "vocab-n3:1855",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1855",
+      "state": "accepted",
+      "predecessorHash": "ec419813d3c24ee371d71e6ff4a92d85ca48daf4500fc70ea545aa75153d4df1",
+      "originalHash": "ec419813d3c24ee371d71e6ff4a92d85ca48daf4500fc70ea545aa75153d4df1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "仮設住宅で暮らしています。",
+            "romaji": "Kasetsu juutaku de kurashiteimasu.",
+            "german": "Ich lebe in einer Behelfsunterkunft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "仮設住宅 (仮設 „provisorisch errichtet“ + 住宅 „Wohnung“) sind Behelfsunterkünfte, die nach Katastrophen für Menschen gebaut werden, deren Haus zerstört ist. Die übliche Abfolge ist 避難所 → 仮設住宅 → 復興住宅 (dauerhafte Wohnung). Typisch: 仮設住宅に入居する/移る, 仮設住宅で暮らす; Betroffene sagen oft kurz 仮設.",
+        "examples": [
+          {
+            "japanese": "仮設住宅で暮らしています。",
+            "romaji": "Kasetsu juutaku de kurashiteimasu.",
+            "german": "Ich lebe in einer Behelfsunterkunft."
+          },
+          {
+            "japanese": "避難所を出て、仮設住宅に移りました。",
+            "romaji": "Hinanjo o dete, kasetsu juutaku ni utsurimashita.",
+            "german": "Wir haben die Notunterkunft verlassen und sind in eine Behelfsunterkunft gezogen."
+          },
+          {
+            "japanese": "仮設住宅は壁が薄くて、冬はとても寒いです。",
+            "romaji": "Kasetsu juutaku wa kabe ga usukute, fuyu wa totemo samui desu.",
+            "german": "Die Behelfsunterkünfte haben dünne Wände, und im Winter ist es dort sehr kalt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2615990 sense 1, noun: temporary housing Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 仮設住宅 (仮設 „provisorisch errichtet“ + 住宅 „Wohnung“) sind Behelfsunterkünfte, die nach Katastrophen für Menschen gebaut werden, deren Haus zerstört ist. Die übliche Abfolge ist 避難所 → 仮設住宅 → 復興住宅 (dauerhafte Wohnung). Typisch: 仮設住宅に入居する/移る, 仮設住宅で暮らす; Betroffene sagen oft kurz 仮設. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2615990; spelling=仮設住宅; reading=かせつじゅうたく",
+          "selected": {
+            "sequence": "2615990",
+            "spelling": "仮設住宅",
+            "reading": "かせつじゅうたく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "temporary dwelling",
+                  "temporary housing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2615990 sense 1, noun: temporary housing"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 仮設住宅/かせつじゅうたく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BB%AE%E8%A8%AD%E4%BD%8F%E5%AE%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 仮設住宅/かせつじゅうたく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Behelfsunterkunft. JMdict 2615990 sense 1, noun: temporary housing",
+        "japanese": "仮設住宅で暮らしています。 / 避難所を出て、仮設住宅に移りました。 / 仮設住宅は壁が薄くて、冬はとても寒いです。",
+        "romanization": "kasetsu juutaku; Kasetsu juutaku de kurashiteimasu. / Hinanjo o dete, kasetsu juutaku ni utsurimashita. / Kasetsu juutaku wa kabe ga usukute, fuyu wa totemo samui desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lebe in einer Behelfsunterkunft. / Wir haben die Notunterkunft verlassen und sind in eine Behelfsunterkunft gezogen. / Die Behelfsunterkünfte haben dünne Wände, und im Winter ist es dort sehr kalt.",
+        "contexts": [
+          "Current living situation",
+          "Moving out of the shelter",
+          "Complaining about conditions"
+        ],
+        "lexical": "JMdict 2615990 sense 1, noun: temporary housing",
+        "register": "neutral (news, disaster recovery)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1855 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Current living situation; Moving out of the shelter; Complaining about conditions), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fa8ae3f1e1b92cf8d2343cd534d88ade3dabe8e747a74d4136a6defe596c17a5",
+        "approvalHash": "ca0bb485eb8cbfc996463c87775175fbbe986861adcf999ee1a0f632d19810f2"
+      }
+    },
+    {
+      "id": "vocab-n3:1856",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1856",
+      "state": "accepted",
+      "predecessorHash": "00ab6d9ddaf5b6a361169a0fd7e9b1eb283c9fe1f5cdf1fa4a8788cc602076cc",
+      "originalHash": "00ab6d9ddaf5b6a361169a0fd7e9b1eb283c9fe1f5cdf1fa4a8788cc602076cc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "瓦礫を撤去します。",
+            "romaji": "Gareki o tekkyo shimasu.",
+            "german": "Wir räumen die Trümmer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "瓦礫 (瓦 „Dachziegel“ + 礫 „Kieselstein“) sind Trümmer und Schutt, etwa nach Erdbeben, Tsunami oder Abriss. Da 礫 kein Jōyō-Kanji ist, schreibt man meist がれき. Typisch: がれきを撤去する/片付ける, がれきの山, がれきの下敷きになる „unter den Trümmern begraben werden“. Übertragen bedeutet es auch „wertloser Kram“, das ist aber selten.",
+        "examples": [
+          {
+            "japanese": "瓦礫を撤去します。",
+            "romaji": "Gareki o tekkyo shimasu.",
+            "german": "Wir räumen die Trümmer."
+          },
+          {
+            "japanese": "地震で崩れた家のがれきの下から、犬が助け出されました。",
+            "romaji": "Jishin de kuzureta ie no gareki no shita kara, inu ga tasukedasaremashita.",
+            "german": "Aus den Trümmern eines beim Erdbeben eingestürzten Hauses wurde ein Hund gerettet."
+          },
+          {
+            "japanese": "津波のあと、町はがれきの山になってしまいました。",
+            "romaji": "Tsunami no ato, machi wa gareki no yama ni natte shimaimashita.",
+            "german": "Nach dem Tsunami war die Stadt nur noch ein Trümmerfeld."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101731915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 瓦礫/ガレキ; lemma 瓦礫; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "瓦礫",
+              "reading": "がれき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 瓦礫/がれき \"Trümmer, Schutt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1209610 sense 1, noun: rubble, debris, wreckage Pitch: Verified [0] via exact UniDic row. 瓦礫 (瓦 „Dachziegel“ + 礫 „Kieselstein“) sind Trümmer und Schutt, etwa nach Erdbeben, Tsunami oder Abriss. Da 礫 kein Jōyō-Kanji ist, schreibt man meist がれき. Typisch: がれきを撤去する/片付ける, がれきの山, がれきの下敷きになる „unter den Trümmern begraben werden“. Übertragen bedeutet es auch „wertloser Kram“, das ist aber selten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1209610; spelling=瓦礫; reading=がれき",
+          "selected": {
+            "sequence": "1209610",
+            "spelling": "瓦礫",
+            "reading": "がれき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rubble",
+                  "debris",
+                  "wreckage",
+                  "tiles and pebbles"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trash",
+                  "rubbish"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1209610 sense 1, noun: rubble, debris, wreckage"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 瓦礫/ガレキ; lemma 瓦礫; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101731915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 瓦礫/ガレキ; lemma 瓦礫; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "瓦礫",
+              "reading": "がれき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 瓦礫/がれき \"Trümmer, Schutt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Trümmer, Schutt. JMdict 1209610 sense 1, noun: rubble, debris, wreckage",
+        "japanese": "瓦礫を撤去します。 / 地震で崩れた家のがれきの下から、犬が助け出されました。 / 津波のあと、町はがれきの山になってしまいました。",
+        "romanization": "gareki; Gareki o tekkyo shimasu. / Jishin de kuzureta ie no gareki no shita kara, inu ga tasukedasaremashita. / Tsunami no ato, machi wa gareki no yama ni natte shimaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir räumen die Trümmer. / Aus den Trümmern eines beim Erdbeben eingestürzten Hauses wurde ein Hund gerettet. / Nach dem Tsunami war die Stadt nur noch ein Trümmerfeld.",
+        "contexts": [
+          "Clean-up work",
+          "Rescue from collapsed house",
+          "Tsunami aftermath"
+        ],
+        "lexical": "JMdict 1209610 sense 1, noun: rubble, debris, wreckage",
+        "register": "neutral; usually written in kana (がれき)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1856 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Clean-up work; Rescue from collapsed house; Tsunami aftermath), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ae5561044935579dd882e76ac27e37aa627d5a4d7eb686b67acc3448fee200f3",
+        "approvalHash": "93fdf727c722e8967589d07c0d20e48b30592cfa6faa1545b3c6a85df0a04519"
+      }
+    },
+    {
+      "id": "vocab-n3:1857",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1857",
+      "state": "accepted",
+      "predecessorHash": "c10ff9bdce166a6c8b0d645c79b206755e23af131a9aacb481d81bed32392499",
+      "originalHash": "c10ff9bdce166a6c8b0d645c79b206755e23af131a9aacb481d81bed32392499",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "行方不明者を捜索しています。",
+            "romaji": "Yukue fumeisha o sousaku shiteimasu.",
+            "german": "Wir suchen nach Vermissten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "行方不明 bedeutet „vermisst, verschollen, Aufenthalt unbekannt“; 行方 hat die Sonderlesung ゆくえ „Verbleib“. Typisch: 行方不明になる, 行方不明者 „Vermisste“, 行方不明の子ども. Ein verlaufenes Kind ist dagegen 迷子. Scherzhaft sagt man es auch von verlegten Gegenständen: 鍵が行方不明. Im Ernstfall ist es ein Wort aus Polizei- und Katastrophenmeldungen.",
+        "examples": [
+          {
+            "japanese": "行方不明者を捜索しています。",
+            "romaji": "Yukue fumeisha o sousaku shiteimasu.",
+            "german": "Wir suchen nach Vermissten."
+          },
+          {
+            "japanese": "登山に行った友人が行方不明になりました。",
+            "romaji": "Tozan ni itta yuujin ga yukue fumei ni narimashita.",
+            "german": "Ein Freund, der zum Bergsteigen aufgebrochen war, wird vermisst."
+          },
+          {
+            "japanese": "家の鍵が行方不明で、朝から探しています。",
+            "romaji": "Ie no kagi ga yukue fumei de, asa kara sagashite imasu.",
+            "german": "Mein Hausschlüssel ist spurlos verschwunden, ich suche schon seit heute Morgen danach."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1282190 sense 1, noun / no-adjective: missing, whereabouts unknown Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 行方不明 bedeutet „vermisst, verschollen, Aufenthalt unbekannt“; 行方 hat die Sonderlesung ゆくえ „Verbleib“. Typisch: 行方不明になる, 行方不明者 „Vermisste“, 行方不明の子ども. Ein verlaufenes Kind ist dagegen 迷子. Scherzhaft sagt man es auch von verlegten Gegenständen: 鍵が行方不明. Im Ernstfall ist es ein Wort aus Polizei- und Katastrophenmeldungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1282190; spelling=行方不明; reading=ゆくえふめい",
+          "selected": {
+            "sequence": "1282190",
+            "spelling": "行方不明",
+            "reading": "ゆくえふめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "missing (of a person)",
+                  "lost",
+                  "unaccounted for",
+                  "whereabouts unknown"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1282190 sense 1, noun / no-adjective: missing, whereabouts unknown"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 行方不明/ゆくえふめい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A1%8C%E6%96%B9%E4%B8%8D%E6%98%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 行方不明/ゆくえふめい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "vermisst. JMdict 1282190 sense 1, noun / no-adjective: missing, whereabouts unknown",
+        "japanese": "行方不明者を捜索しています。 / 登山に行った友人が行方不明になりました。 / 家の鍵が行方不明で、朝から探しています。",
+        "romanization": "yukue fumei; Yukue fumeisha o sousaku shiteimasu. / Tozan ni itta yuujin ga yukue fumei ni narimashita. / Ie no kagi ga yukue fumei de, asa kara sagashite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir suchen nach Vermissten. / Ein Freund, der zum Bergsteigen aufgebrochen war, wird vermisst. / Mein Hausschlüssel ist spurlos verschwunden, ich suche schon seit heute Morgen danach.",
+        "contexts": [
+          "Search operation",
+          "Missing hiker",
+          "Joking about lost keys"
+        ],
+        "lexical": "JMdict 1282190 sense 1, noun / no-adjective: missing, whereabouts unknown",
+        "register": "neutral; formal in news, jocular for objects",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1857 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Search operation; Missing hiker; Joking about lost keys), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8a3854e8dcdeae009ddcefe55d0008923627e6fd89480849284062a763c5edbb",
+        "approvalHash": "b36b55938b67364bd88f3ea36e17333dd36ee33e3894d73307260534d1c32ce9"
+      }
+    },
+    {
+      "id": "vocab-n3:1858",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1858",
+      "state": "accepted",
+      "predecessorHash": "da608c84eb8098d6b829ae482eef7f0b49b9ae1d92789e35a965567820541a7e",
+      "originalHash": "da608c84eb8098d6b829ae482eef7f0b49b9ae1d92789e35a965567820541a7e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "安否確認をしています。",
+            "romaji": "Anpi kakunin o shiteimasu.",
+            "german": "Wir bestätigen die Sicherheit."
+          }
+        ],
+        "meaning": "Sicherheitsbestätigung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "安否確認 heißt „Nachprüfen, ob jemand in Sicherheit und wohlauf ist“: 安否 = „ob jemand sicher ist oder nicht“ (安 „sicher“, 否 „nicht“), 確認 = „Überprüfung“. Nach Erdbeben fragen Firmen und Schulen per Mail oder App nach (安否確認メール, 安否確認システム); man sagt 家族の安否確認をする oder 家族の安否を確認する. 安否が分からない heißt „man weiß nicht, ob jemand am Leben ist“.",
+        "examples": [
+          {
+            "japanese": "安否確認をしています。",
+            "romaji": "Anpi kakunin o shiteimasu.",
+            "german": "Wir prüfen gerade, ob alle in Sicherheit sind."
+          },
+          {
+            "japanese": "地震のあと、会社から安否確認のメールが届きました。",
+            "romaji": "Jishin no ato, kaisha kara anpi kakunin no meeru ga todokimashita.",
+            "german": "Nach dem Erdbeben bekam ich von der Firma eine Mail mit der Frage, ob ich in Sicherheit bin."
+          },
+          {
+            "japanese": "電話がつながらず、家族の安否確認ができませんでした。",
+            "romaji": "Denwa ga tsunagarazu, kazoku no anpi kakunin ga dekimasen deshita.",
+            "german": "Ich kam telefonisch nicht durch und konnte nicht herausfinden, ob meine Familie in Sicherheit war."
+          }
+        ],
+        "meaning": "Überprüfung, ob jemand in Sicherheit ist",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2622580 sense 1, noun: confirmation of someone's safety Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 安否確認 heißt „Nachprüfen, ob jemand in Sicherheit und wohlauf ist“: 安否 = „ob jemand sicher ist oder nicht“ (安 „sicher“, 否 „nicht“), 確認 = „Überprüfung“. Nach Erdbeben fragen Firmen und Schulen per Mail oder App nach (安否確認メール, 安否確認システム); man sagt 家族の安否確認をする oder 家族の安否を確認する. 安否が分からない heißt „man weiß nicht, ob jemand am Leben ist“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2622580; spelling=安否確認; reading=あんぴかくにん",
+          "selected": {
+            "sequence": "2622580",
+            "spelling": "安否確認",
+            "reading": "あんぴかくにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confirmation of someone's safety",
+                  "ascertainment of someone's safety"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2622580 sense 1, noun: confirmation of someone's safety"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 安否確認/あんぴかくにん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AE%89%E5%90%A6%E7%A2%BA%E8%AA%8D",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 安否確認/あんぴかくにん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Überprüfung, ob jemand in Sicherheit ist. JMdict 2622580 sense 1, noun: confirmation of someone's safety",
+        "japanese": "安否確認をしています。 / 地震のあと、会社から安否確認のメールが届きました。 / 電話がつながらず、家族の安否確認ができませんでした。",
+        "romanization": "anpi kakunin; Anpi kakunin o shiteimasu. / Jishin no ato, kaisha kara anpi kakunin no meeru ga todokimashita. / Denwa ga tsunagarazu, kazoku no anpi kakunin ga dekimasen deshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir prüfen gerade, ob alle in Sicherheit sind. / Nach dem Erdbeben bekam ich von der Firma eine Mail mit der Frage, ob ich in Sicherheit bin. / Ich kam telefonisch nicht durch und konnte nicht herausfinden, ob meine Familie in Sicherheit war.",
+        "contexts": [
+          "Checking on everyone",
+          "Company safety email",
+          "Phone lines down"
+        ],
+        "lexical": "JMdict 2622580 sense 1, noun: confirmation of someone's safety",
+        "register": "neutral (disaster preparedness, workplace)",
+        "transitivity": "Nonverb; used with をする",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1858 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Checking on everyone; Company safety email; Phone lines down), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6fefb3103009d36f9f863fe38b0efb489aace7532049177c3f2fd9c3a4087005",
+        "approvalHash": "79b7a44dcd9cd4f6c1ffd93547afa193ee91b4aa7fc8b0661cdaf3acd0fa9910"
+      }
+    },
+    {
+      "id": "vocab-n3:1859",
+      "revisionId": "182f-n3-enrichment-vocab-n3-1859",
+      "state": "accepted",
+      "predecessorHash": "68aa941eded4d08f177bfba5d658cbb572f5b23f97f819d65bf85cf3a1b5a23c",
+      "originalHash": "68aa941eded4d08f177bfba5d658cbb572f5b23f97f819d65bf85cf3a1b5a23c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "帰宅困難者が多数出ました。",
+            "romaji": "Kitaku konnansha ga tasuu demashita.",
+            "german": "Es gab viele gestrandete Pendler."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "帰宅困難者 (帰宅 „Heimkehr“ + 困難 „Schwierigkeit“ + 者 „Person“) sind Menschen, die nach einem Erdbeben oder einem Ausfall des Nahverkehrs nicht nach Hause kommen. Bekannt wurde das Wort durch die Millionen gestrandeter Pendler in Tokio im März 2011. Typisch: 帰宅困難者が出る/発生する, 帰宅困難者向けの施設. In den Medien liest man umgangssprachlicher auch 帰宅難民.",
+        "examples": [
+          {
+            "japanese": "帰宅困難者が多数出ました。",
+            "romaji": "Kitaku konnansha ga tasuu demashita.",
+            "german": "Es gab viele gestrandete Pendler."
+          },
+          {
+            "japanese": "駅の近くのホールが帰宅困難者のために開放されました。",
+            "romaji": "Eki no chikaku no hooru ga kitaku konnansha no tame ni kaihou saremashita.",
+            "german": "Eine Halle in Bahnhofsnähe wurde für gestrandete Pendler geöffnet."
+          },
+          {
+            "japanese": "帰宅困難者になったときのために、会社に水と食料を置いています。",
+            "romaji": "Kitaku konnansha ni natta toki no tame ni, kaisha ni mizu to shokuryou o oite imasu.",
+            "german": "Für den Fall, dass wir nicht nach Hause kommen, lagern wir in der Firma Wasser und Lebensmittel."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2525240 sense 1, noun: person stranded (unable to return home) due to transit disruption after a disaster Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 帰宅困難者 (帰宅 „Heimkehr“ + 困難 „Schwierigkeit“ + 者 „Person“) sind Menschen, die nach einem Erdbeben oder einem Ausfall des Nahverkehrs nicht nach Hause kommen. Bekannt wurde das Wort durch die Millionen gestrandeter Pendler in Tokio im März 2011. Typisch: 帰宅困難者が出る/発生する, 帰宅困難者向けの施設. In den Medien liest man umgangssprachlicher auch 帰宅難民. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2525240; spelling=帰宅困難者; reading=きたくこんなんしゃ",
+          "selected": {
+            "sequence": "2525240",
+            "spelling": "帰宅困難者",
+            "reading": "きたくこんなんしゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person stranded due to mass transit disruptions after an earthquake, etc."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2525240 sense 1, noun: person stranded (unable to return home) due to transit disruption after a disaster"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 帰宅困難者/きたくこんなんしゃ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B8%B0%E5%AE%85%E5%9B%B0%E9%9B%A3%E8%80%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 帰宅困難者/きたくこんなんしゃ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "gestrandete Pendler. JMdict 2525240 sense 1, noun: person stranded (unable to return home) due to transit disruption after a disaster",
+        "japanese": "帰宅困難者が多数出ました。 / 駅の近くのホールが帰宅困難者のために開放されました。 / 帰宅困難者になったときのために、会社に水と食料を置いています。",
+        "romanization": "kitaku konnansha; Kitaku konnansha ga tasuu demashita. / Eki no chikaku no hooru ga kitaku konnansha no tame ni kaihou saremashita. / Kitaku konnansha ni natta toki no tame ni, kaisha ni mizu to shokuryou o oite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gab viele gestrandete Pendler. / Eine Halle in Bahnhofsnähe wurde für gestrandete Pendler geöffnet. / Für den Fall, dass wir nicht nach Hause kommen, lagern wir in der Firma Wasser und Lebensmittel.",
+        "contexts": [
+          "News after a quake",
+          "Emergency hall opened",
+          "Office preparedness"
+        ],
+        "lexical": "JMdict 2525240 sense 1, noun: person stranded (unable to return home) due to transit disruption after a disaster",
+        "register": "neutral / administrative (news, disaster planning)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1859 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (News after a quake; Emergency hall opened; Office preparedness), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fb827d96aaade927ebde1b89997995449e945126d64927a2c90540f3c01a12f9",
+        "approvalHash": "1dc8966dded5a62b3be8f0ec6390844caa1be13b1a89eb3a99df0f5fe3d978af"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

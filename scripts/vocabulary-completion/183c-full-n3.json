@@ -1,0 +1,3829 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:2015",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2015",
+      "state": "accepted",
+      "predecessorHash": "5662ca2d8bc7f5ec7d9e589bb102f9342e13102c1f6e50a6837301323104e6e2",
+      "originalHash": "5662ca2d8bc7f5ec7d9e589bb102f9342e13102c1f6e50a6837301323104e6e2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "住民票を取りに行きます。",
+            "romaji": "Juuminhyou o tori ni ikimasu.",
+            "german": "Ich hole eine Meldebescheinigung."
+          }
+        ],
+        "meaning": "Meldebestätiung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "住民票 ist die Meldebescheinigung, die man beim 市役所 oder 区役所 bekommt; man sagt 住民票を取る oder 住民票を取りに行く. Offiziell erhält man eine Kopie, das 住民票の写し, die bei Arbeitgebern, Banken oder Vermietern als Wohnsitznachweis dient. Zieht man in eine andere Gemeinde, „verlegt“ man seine Meldung: 住民票を移す. Nicht verwechseln mit dem 戸籍, dem Familienregister.",
+        "examples": [
+          {
+            "japanese": "住民票を取りに行きます。",
+            "romaji": "Juuminhyou o tori ni ikimasu.",
+            "german": "Ich hole eine Meldebescheinigung."
+          },
+          {
+            "japanese": "引っ越したら、住民票を移さなければなりません。",
+            "romaji": "Hikkoshitara, juuminhyou o utsusanakereba narimasen.",
+            "german": "Nach einem Umzug muss man seinen Wohnsitz ummelden."
+          },
+          {
+            "japanese": "今はコンビニでも住民票が取れるようになりました。",
+            "romaji": "Ima wa konbini demo juuminhyou ga toreru you ni narimashita.",
+            "german": "Inzwischen kann man sich die Meldebescheinigung sogar im Konbini ausdrucken lassen."
+          }
+        ],
+        "meaning": "Meldebescheinigung",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1334240 sense 1, noun: certificate of residence, residence record Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 住民票 ist die Meldebescheinigung, die man beim 市役所 oder 区役所 bekommt; man sagt 住民票を取る oder 住民票を取りに行く. Offiziell erhält man eine Kopie, das 住民票の写し, die bei Arbeitgebern, Banken oder Vermietern als Wohnsitznachweis dient. Zieht man in eine andere Gemeinde, „verlegt“ man seine Meldung: 住民票を移す. Nicht verwechseln mit dem 戸籍, dem Familienregister. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1334240; spelling=住民票; reading=じゅうみんひょう",
+          "selected": {
+            "sequence": "1334240",
+            "spelling": "住民票",
+            "reading": "じゅうみんひょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "certificate of residence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1334240 sense 1, noun: certificate of residence, residence record"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 住民票/じゅうみんひょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BD%8F%E6%B0%91%E7%A5%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 住民票/じゅうみんひょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Meldebescheinigung. JMdict 1334240 sense 1, noun: certificate of residence, residence record",
+        "japanese": "住民票を取りに行きます。 / 引っ越したら、住民票を移さなければなりません。 / 今はコンビニでも住民票が取れるようになりました。",
+        "romanization": "juuminhyou; Juuminhyou o tori ni ikimasu. / Hikkoshitara, juuminhyou o utsusanakereba narimasen. / Ima wa konbini demo juuminhyou ga toreru you ni narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich hole eine Meldebescheinigung. / Nach einem Umzug muss man seinen Wohnsitz ummelden. / Inzwischen kann man sich die Meldebescheinigung sogar im Konbini ausdrucken lassen.",
+        "contexts": [
+          "Errand at city hall",
+          "Obligation after moving",
+          "Convenience store service"
+        ],
+        "lexical": "JMdict 1334240 sense 1, noun: certificate of residence, residence record",
+        "register": "neutral (administrative)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2015 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Errand at city hall; Obligation after moving; Convenience store service), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c0663d7e8f14ecbad45a5724ff2a9c2aaaaa4a77d8567936a6c593e52cd11e17",
+        "approvalHash": "9283dc8830a4ea81c3d05a0fe78d2b8d447a898c7e8bbea7cd3b6374006f0c44"
+      }
+    },
+    {
+      "id": "vocab-n3:2016",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2016",
+      "state": "accepted",
+      "predecessorHash": "1b8370cd7b8a8b87f98cc37dd171b966e0311215c8309080c1c966d07e694900",
+      "originalHash": "1b8370cd7b8a8b87f98cc37dd171b966e0311215c8309080c1c966d07e694900",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "転出届を提出します。",
+            "romaji": "Tenshutsu todoke o teishutsu shimasu.",
+            "german": "Ich melde mich ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "転出届 ist die Abmeldung, die man vor einem Umzug in eine andere Gemeinde beim bisherigen 市役所 oder 区役所 abgibt: 転出届を出す oder förmlicher 転出届を提出する. Dafür bekommt man das 転出証明書, das man am neuen Wohnort für den 転入届 braucht. Bei einem Umzug innerhalb derselben Gemeinde reicht dagegen ein 転居届. Das 届 („Meldung, Anzeige“) wird hier どけ gelesen.",
+        "examples": [
+          {
+            "japanese": "転出届を提出します。",
+            "romaji": "Tenshutsu todoke o teishutsu shimasu.",
+            "german": "Ich melde mich ab."
+          },
+          {
+            "japanese": "引っ越しの前に、市役所で転出届を出してください。",
+            "romaji": "Hikkoshi no mae ni, shiyakusho de tenshutsu todoke o dashite kudasai.",
+            "german": "Melden Sie sich bitte vor dem Umzug im Rathaus ab."
+          },
+          {
+            "japanese": "転出届はオンラインでも出せるそうです。",
+            "romaji": "Tenshutsu todoke wa onrain demo daseru sou desu.",
+            "german": "Die Abmeldung soll man auch online einreichen können."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2210920 sense 1, noun: notification of moving out (to the old municipality) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 転出届 ist die Abmeldung, die man vor einem Umzug in eine andere Gemeinde beim bisherigen 市役所 oder 区役所 abgibt: 転出届を出す oder förmlicher 転出届を提出する. Dafür bekommt man das 転出証明書, das man am neuen Wohnort für den 転入届 braucht. Bei einem Umzug innerhalb derselben Gemeinde reicht dagegen ein 転居届. Das 届 („Meldung, Anzeige“) wird hier どけ gelesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2210920; spelling=転出届; reading=てんしゅつとどけ",
+          "selected": {
+            "sequence": "2210920",
+            "spelling": "転出届",
+            "reading": "てんしゅつとどけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "notification of moving out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2210920 sense 1, noun: notification of moving out (to the old municipality)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 転出届/てんしゅつとどけ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%BB%A2%E5%87%BA%E5%B1%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 転出届/てんしゅつとどけ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abmeldung (Umzug). JMdict 2210920 sense 1, noun: notification of moving out (to the old municipality)",
+        "japanese": "転出届を提出します。 / 引っ越しの前に、市役所で転出届を出してください。 / 転出届はオンラインでも出せるそうです。",
+        "romanization": "tenshutsu todoke; Tenshutsu todoke o teishutsu shimasu. / Hikkoshi no mae ni, shiyakusho de tenshutsu todoke o dashite kudasai. / Tenshutsu todoke wa onrain demo daseru sou desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich melde mich ab. / Melden Sie sich bitte vor dem Umzug im Rathaus ab. / Die Abmeldung soll man auch online einreichen können.",
+        "contexts": [
+          "Filing the form",
+          "Instruction before moving",
+          "Online option"
+        ],
+        "lexical": "JMdict 2210920 sense 1, noun: notification of moving out (to the old municipality)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2016 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Filing the form; Instruction before moving; Online option), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4c7c29821c8cde5de9963c975b4252c710697fbd57beef0c5d294d2e21698e4e",
+        "approvalHash": "78a9c56a605eafb9ee1697747ee9c9ed429988a5a0fcb519874952efadb88944"
+      }
+    },
+    {
+      "id": "vocab-n3:2017",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2017",
+      "state": "accepted",
+      "predecessorHash": "2e8e6b2319119b5535f2f95d0a97ad4bc77eb698dcf14de4b7a039325764b6a2",
+      "originalHash": "2e8e6b2319119b5535f2f95d0a97ad4bc77eb698dcf14de4b7a039325764b6a2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "転入届を出しました。",
+            "romaji": "Tennyuu todoke o dashimashita.",
+            "german": "Ich habe mich angemeldet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "転入届 ist die Anmeldung am neuen Wohnort, wenn man aus einer anderen Gemeinde zuzieht; sie muss innerhalb von 14 Tagen nach dem Einzug beim 市役所 oder 区役所 erfolgen. Typisch: 転入届を出す / 提出する. Mitbringen muss man das 転出証明書 vom alten Wohnort, das man beim 転出届 erhalten hat. Für einen Umzug innerhalb derselben Stadt sagt man 転居届.",
+        "examples": [
+          {
+            "japanese": "転入届を出しました。",
+            "romaji": "Tennyuu todoke o dashimashita.",
+            "german": "Ich habe mich angemeldet."
+          },
+          {
+            "japanese": "引っ越してから14日以内に転入届を出さなければなりません。",
+            "romaji": "Hikkoshite kara juuyokka inai ni tennyuu todoke o dasanakereba narimasen.",
+            "german": "Nach dem Umzug muss man sich innerhalb von 14 Tagen anmelden."
+          },
+          {
+            "japanese": "転入届を出すときは、転出証明書を持っていってください。",
+            "romaji": "Tennyuu todoke o dasu toki wa, tenshutsu shoumeisho o motte itte kudasai.",
+            "german": "Bringen Sie zur Anmeldung bitte die Abmeldebescheinigung mit."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1441310 sense 1, noun: notification of moving in (to the new municipality) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 転入届 ist die Anmeldung am neuen Wohnort, wenn man aus einer anderen Gemeinde zuzieht; sie muss innerhalb von 14 Tagen nach dem Einzug beim 市役所 oder 区役所 erfolgen. Typisch: 転入届を出す / 提出する. Mitbringen muss man das 転出証明書 vom alten Wohnort, das man beim 転出届 erhalten hat. Für einen Umzug innerhalb derselben Stadt sagt man 転居届. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1441310; spelling=転入届; reading=てんにゅうとどけ",
+          "selected": {
+            "sequence": "1441310",
+            "spelling": "転入届",
+            "reading": "てんにゅうとどけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "notification of moving in"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1441310 sense 1, noun: notification of moving in (to the new municipality)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 転入届/てんにゅうとどけ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%BB%A2%E5%85%A5%E5%B1%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 転入届/てんにゅうとどけ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anmeldung (Umzug). JMdict 1441310 sense 1, noun: notification of moving in (to the new municipality)",
+        "japanese": "転入届を出しました。 / 引っ越してから14日以内に転入届を出さなければなりません。 / 転入届を出すときは、転出証明書を持っていってください。",
+        "romanization": "tennyuu todoke; Tennyuu todoke o dashimashita. / Hikkoshite kara juuyokka inai ni tennyuu todoke o dasanakereba narimasen. / Tennyuu todoke o dasu toki wa, tenshutsu shoumeisho o motte itte kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe mich angemeldet. / Nach dem Umzug muss man sich innerhalb von 14 Tagen anmelden. / Bringen Sie zur Anmeldung bitte die Abmeldebescheinigung mit.",
+        "contexts": [
+          "Done at the new city office",
+          "Deadline after moving",
+          "Documents to bring"
+        ],
+        "lexical": "JMdict 1441310 sense 1, noun: notification of moving in (to the new municipality)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2017 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Done at the new city office; Deadline after moving; Documents to bring), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "490022470faa6ebacc7ba51f9a9dcbfdadacd4a1037accd30e9b6a7fbe819a47",
+        "approvalHash": "15abcd705ea62a8bea729857353baa99c7d0f8b6858ee1852f21550d4e07698d"
+      }
+    },
+    {
+      "id": "vocab-n3:2018",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2018",
+      "state": "accepted",
+      "predecessorHash": "a0188dc7943a236f5067313f887289eb1c7704143a24ee0666fb165e8abc4299",
+      "originalHash": "a0188dc7943a236f5067313f887289eb1c7704143a24ee0666fb165e8abc4299",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "婚姻届を提出しました。",
+            "romaji": "Kon'in todoke o teishutsu shimashita.",
+            "german": "Wir haben die Heiratsurkunde eingereicht."
+          }
+        ],
+        "meaning": "Heiratsurkunde",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "婚姻届 ist keine Heiratsurkunde, sondern das Formular, mit dem man die Ehe beim Amt anmeldet. In Japan ist man rechtlich verheiratet, sobald der 婚姻届 angenommen ist; daher bedeutet 婚姻届を出す praktisch „standesamtlich heiraten“ (umgangssprachlich auch 入籍する). Das Formular braucht die Unterschriften beider Partner und zweier Zeugen (証人). Viele wählen dafür ein besonderes Datum.",
+        "examples": [
+          {
+            "japanese": "婚姻届を提出しました。",
+            "romaji": "Kon'in todoke o teishutsu shimashita.",
+            "german": "Wir haben unsere Eheschließung beim Amt angemeldet."
+          },
+          {
+            "japanese": "婚姻届には証人二人のサインが必要です。",
+            "romaji": "Kon'in todoke ni wa shounin futari no sain ga hitsuyou desu.",
+            "german": "Für die Eheanmeldung braucht man die Unterschriften von zwei Zeugen."
+          },
+          {
+            "japanese": "11月22日に婚姻届を出す人が多いです。",
+            "romaji": "Juuichigatsu nijuuni-nichi ni kon'in todoke o dasu hito ga ooi desu.",
+            "german": "Viele Paare melden ihre Ehe am 22. November an."
+          }
+        ],
+        "meaning": "Eheanmeldung, Heiratsformular (beim Amt)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1289660 sense 1, noun: marriage registration (form) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 婚姻届 ist keine Heiratsurkunde, sondern das Formular, mit dem man die Ehe beim Amt anmeldet. In Japan ist man rechtlich verheiratet, sobald der 婚姻届 angenommen ist; daher bedeutet 婚姻届を出す praktisch „standesamtlich heiraten“ (umgangssprachlich auch 入籍する). Das Formular braucht die Unterschriften beider Partner und zweier Zeugen (証人). Viele wählen dafür ein besonderes Datum. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1289660; spelling=婚姻届; reading=こんいんとどけ",
+          "selected": {
+            "sequence": "1289660",
+            "spelling": "婚姻届",
+            "reading": "こんいんとどけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "marriage registration"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1289660 sense 1, noun: marriage registration (form)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 婚姻届/こんいんとどけ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A9%9A%E5%A7%BB%E5%B1%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 婚姻届/こんいんとどけ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Eheanmeldung, Heiratsformular (beim Amt). JMdict 1289660 sense 1, noun: marriage registration (form)",
+        "japanese": "婚姻届を提出しました。 / 婚姻届には証人二人のサインが必要です。 / 11月22日に婚姻届を出す人が多いです。",
+        "romanization": "kon'in todoke; Kon'in todoke o teishutsu shimashita. / Kon'in todoke ni wa shounin futari no sain ga hitsuyou desu. / Juuichigatsu nijuuni-nichi ni kon'in todoke o dasu hito ga ooi desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben unsere Eheschließung beim Amt angemeldet. / Für die Eheanmeldung braucht man die Unterschriften von zwei Zeugen. / Viele Paare melden ihre Ehe am 22. November an.",
+        "contexts": [
+          "Registering the marriage",
+          "Witness signatures",
+          "Popular wedding date"
+        ],
+        "lexical": "JMdict 1289660 sense 1, noun: marriage registration (form)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2018 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Registering the marriage; Witness signatures; Popular wedding date), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4e041261a593a6cf42a07e8e3502cb8641dfc363524f31354d1ff2a0c5ab5e21",
+        "approvalHash": "0a4a348dfaa4221ee8d97944135208e28f1f79b06ce8998d136430a3640f052e"
+      }
+    },
+    {
+      "id": "vocab-n3:2019",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2019",
+      "state": "accepted",
+      "predecessorHash": "d7d8641d15aa7a88d618e65185b5845878873fa0a85911159d93bd411e70dc80",
+      "originalHash": "d7d8641d15aa7a88d618e65185b5845878873fa0a85911159d93bd411e70dc80",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "出生届を出します。",
+            "romaji": "Shusshou todoke o dashimasu.",
+            "german": "Ich reiche die Geburtsurkunde ein."
+          }
+        ],
+        "meaning": "Geburtsurkunde",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "出生届 ist die amtliche Anmeldung einer Geburt, keine Urkunde; man reicht sie innerhalb von 14 Tagen nach der Geburt beim 市役所 oder 区役所 ein: 出生届を出す / 提出する. Auf demselben Blatt bestätigt der Arzt oder die Hebamme die Geburt (出生証明書), und die Eltern tragen den Namen des Kindes ein. Die Standardlesung ist しゅっしょう, im Alltag hört man aber auch しゅっせい.",
+        "examples": [
+          {
+            "japanese": "出生届を出します。",
+            "romaji": "Shusshou todoke o dashimasu.",
+            "german": "Ich melde die Geburt beim Amt an."
+          },
+          {
+            "japanese": "赤ちゃんの名前が決まったので、夫が区役所に出生届を出しに行った。",
+            "romaji": "Akachan no namae ga kimatta node, otto ga kuyakusho ni shusshou todoke o dashi ni itta.",
+            "german": "Da der Name des Babys feststand, ist mein Mann zum Bezirksamt gegangen, um die Geburt anzumelden."
+          },
+          {
+            "japanese": "出生届は生まれてから14日以内に出す必要があります。",
+            "romaji": "Shusshou todoke wa umarete kara juuyokka inai ni dasu hitsuyou ga arimasu.",
+            "german": "Die Geburt muss innerhalb von 14 Tagen angemeldet werden."
+          }
+        ],
+        "meaning": "Geburtsanzeige (beim Amt)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1663650 sense 1, noun: birth registration (form) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 出生届 ist die amtliche Anmeldung einer Geburt, keine Urkunde; man reicht sie innerhalb von 14 Tagen nach der Geburt beim 市役所 oder 区役所 ein: 出生届を出す / 提出する. Auf demselben Blatt bestätigt der Arzt oder die Hebamme die Geburt (出生証明書), und die Eltern tragen den Namen des Kindes ein. Die Standardlesung ist しゅっしょう, im Alltag hört man aber auch しゅっせい. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1663650; spelling=出生届; reading=しゅっしょうとどけ",
+          "selected": {
+            "sequence": "1663650",
+            "spelling": "出生届",
+            "reading": "しゅっしょうとどけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "birth registration"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1663650 sense 1, noun: birth registration (form)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 出生届/しゅっしょうとどけ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%87%BA%E7%94%9F%E5%B1%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 出生届/しゅっしょうとどけ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geburtsanzeige (beim Amt). JMdict 1663650 sense 1, noun: birth registration (form)",
+        "japanese": "出生届を出します。 / 赤ちゃんの名前が決まったので、夫が区役所に出生届を出しに行った。 / 出生届は生まれてから14日以内に出す必要があります。",
+        "romanization": "shusshou todoke; Shusshou todoke o dashimasu. / Akachan no namae ga kimatta node, otto ga kuyakusho ni shusshou todoke o dashi ni itta. / Shusshou todoke wa umarete kara juuyokka inai ni dasu hitsuyou ga arimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich melde die Geburt beim Amt an. / Da der Name des Babys feststand, ist mein Mann zum Bezirksamt gegangen, um die Geburt anzumelden. / Die Geburt muss innerhalb von 14 Tagen angemeldet werden.",
+        "contexts": [
+          "Plan to register",
+          "After choosing the name",
+          "Legal deadline"
+        ],
+        "lexical": "JMdict 1663650 sense 1, noun: birth registration (form)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2019 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Plan to register; After choosing the name; Legal deadline), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fd7b54b463751754e774ab0af7fc7581a9ce86b90a619945e183686092abb934",
+        "approvalHash": "6394a954918492b706be3f1f5e30e006edba446d2863c5a695455c13a5988d92"
+      }
+    },
+    {
+      "id": "vocab-n3:2020",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2020",
+      "state": "accepted",
+      "predecessorHash": "7e32832676f1929fe97e15335338fa54422d94a9ca2772776a007e70036f2bc0",
+      "originalHash": "7e32832676f1929fe97e15335338fa54422d94a9ca2772776a007e70036f2bc0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "委任状を書いてください。",
+            "romaji": "Ininjou o kaite kudasai.",
+            "german": "Bitte schreiben Sie eine Vollmacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "委任状 ist eine schriftliche Vollmacht, mit der man jemanden beauftragt, an seiner Stelle zu handeln, etwa bei Behörden oder Banken. Typisch: 委任状を書く / 作成する, 委任状を持参する; der Bevollmächtigte heißt 代理人. Das zugehörige Verb ist 委任する „beauftragen, übertragen“. Ämter verlangen oft: 代理の場合は委任状が必要です.",
+        "examples": [
+          {
+            "japanese": "委任状を書いてください。",
+            "romaji": "Ininjou o kaite kudasai.",
+            "german": "Bitte schreiben Sie eine Vollmacht."
+          },
+          {
+            "japanese": "代理の方が来る場合は、委任状が必要です。",
+            "romaji": "Dairi no kata ga kuru baai wa, ininjou ga hitsuyou desu.",
+            "german": "Wenn ein Vertreter kommt, ist eine Vollmacht erforderlich."
+          },
+          {
+            "japanese": "母の委任状を持って、銀行の手続きをしてきた。",
+            "romaji": "Haha no ininjou o motte, ginkou no tetsuzuki o shite kita.",
+            "german": "Mit der Vollmacht meiner Mutter habe ich die Formalitäten bei der Bank erledigt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1156190 sense 1, noun: letter of proxy, power of attorney Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 委任状 ist eine schriftliche Vollmacht, mit der man jemanden beauftragt, an seiner Stelle zu handeln, etwa bei Behörden oder Banken. Typisch: 委任状を書く / 作成する, 委任状を持参する; der Bevollmächtigte heißt 代理人. Das zugehörige Verb ist 委任する „beauftragen, übertragen“. Ämter verlangen oft: 代理の場合は委任状が必要です. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1156190; spelling=委任状; reading=いにんじょう",
+          "selected": {
+            "sequence": "1156190",
+            "spelling": "委任状",
+            "reading": "いにんじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commission",
+                  "proxy",
+                  "power of attorney",
+                  "authorization"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1156190 sense 1, noun: letter of proxy, power of attorney"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 委任状/いにんじょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A7%94%E4%BB%BB%E7%8A%B6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 委任状/いにんじょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vollmacht. JMdict 1156190 sense 1, noun: letter of proxy, power of attorney",
+        "japanese": "委任状を書いてください。 / 代理の方が来る場合は、委任状が必要です。 / 母の委任状を持って、銀行の手続きをしてきた。",
+        "romanization": "ininjou; Ininjou o kaite kudasai. / Dairi no kata ga kuru baai wa, ininjou ga hitsuyou desu. / Haha no ininjou o motte, ginkou no tetsuzuki o shite kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte schreiben Sie eine Vollmacht. / Wenn ein Vertreter kommt, ist eine Vollmacht erforderlich. / Mit der Vollmacht meiner Mutter habe ich die Formalitäten bei der Bank erledigt.",
+        "contexts": [
+          "Request at the counter",
+          "Rule for proxies",
+          "Bank errand for a parent"
+        ],
+        "lexical": "JMdict 1156190 sense 1, noun: letter of proxy, power of attorney",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2020 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Request at the counter; Rule for proxies; Bank errand for a parent), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "345cdce0ad76334a7f8fba89fdd62ab5f7fa86ff773c0209126f9c12afe3a09f",
+        "approvalHash": "547ffd6918539107854d299b83b2d403ca4f19cd3ffc419e98194d9466221403"
+      }
+    },
+    {
+      "id": "vocab-n3:2021",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2021",
+      "state": "accepted",
+      "predecessorHash": "f00027cae888fd06974d7145d27fa72a0fe5bf688d8c70dfe6fa4318b530febf",
+      "originalHash": "f00027cae888fd06974d7145d27fa72a0fe5bf688d8c70dfe6fa4318b530febf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "診断書が必要です。",
+            "romaji": "Shindansho ga hitsuyou desu.",
+            "german": "Ich brauche ein ärztliches Attest."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "診断書 ist ein ärztliches Attest oder Gutachten über eine Krankheit oder Verletzung. Man lässt es sich vom Arzt schreiben (医者に診断書を書いてもらう) und reicht es bei Firma, Schule oder Versicherung ein (診断書を提出する). In Japan ist es meist kostenpflichtig. Nicht verwechseln mit 処方箋, dem Rezept für Medikamente.",
+        "examples": [
+          {
+            "japanese": "診断書が必要です。",
+            "romaji": "Shindansho ga hitsuyou desu.",
+            "german": "Ich brauche ein ärztliches Attest."
+          },
+          {
+            "japanese": "会社を休んだので、医者に診断書を書いてもらいました。",
+            "romaji": "Kaisha o yasunda node, isha ni shindansho o kaite moraimashita.",
+            "german": "Weil ich bei der Arbeit gefehlt habe, habe ich mir vom Arzt ein Attest ausstellen lassen."
+          },
+          {
+            "japanese": "事故のけがについて、保険会社に診断書を送った。",
+            "romaji": "Jiko no kega ni tsuite, hoken-gaisha ni shindansho o okutta.",
+            "german": "Ich habe der Versicherung ein ärztliches Gutachten über meine Unfallverletzungen geschickt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1365490 sense 1, noun: medical certificate Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 診断書 ist ein ärztliches Attest oder Gutachten über eine Krankheit oder Verletzung. Man lässt es sich vom Arzt schreiben (医者に診断書を書いてもらう) und reicht es bei Firma, Schule oder Versicherung ein (診断書を提出する). In Japan ist es meist kostenpflichtig. Nicht verwechseln mit 処方箋, dem Rezept für Medikamente. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1365490; spelling=診断書; reading=しんだんしょ",
+          "selected": {
+            "sequence": "1365490",
+            "spelling": "診断書",
+            "reading": "しんだんしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "medical certificate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1365490 sense 1, noun: medical certificate"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 診断書/しんだんしょ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A8%BA%E6%96%AD%E6%9B%B8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 診断書/しんだんしょ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "ärztliches Attest. JMdict 1365490 sense 1, noun: medical certificate",
+        "japanese": "診断書が必要です。 / 会社を休んだので、医者に診断書を書いてもらいました。 / 事故のけがについて、保険会社に診断書を送った。",
+        "romanization": "shindansho; Shindansho ga hitsuyou desu. / Kaisha o yasunda node, isha ni shindansho o kaite moraimashita. / Jiko no kega ni tsuite, hoken-gaisha ni shindansho o okutta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich brauche ein ärztliches Attest. / Weil ich bei der Arbeit gefehlt habe, habe ich mir vom Arzt ein Attest ausstellen lassen. / Ich habe der Versicherung ein ärztliches Gutachten über meine Unfallverletzungen geschickt.",
+        "contexts": [
+          "Requirement",
+          "Sick leave from work",
+          "Insurance claim"
+        ],
+        "lexical": "JMdict 1365490 sense 1, noun: medical certificate",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2021 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Requirement; Sick leave from work; Insurance claim), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "936e9d0e9a53df0d34d241f840d11f5db37f1e0ad245130df10257b2a9edbbce",
+        "approvalHash": "e8a0c724fb866883fb5bcb0f49e6f9a549d0abf8a092adaf2e6a670c76043592"
+      }
+    },
+    {
+      "id": "vocab-n3:2022",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2022",
+      "state": "accepted",
+      "predecessorHash": "c6eaa8efac9bc491560cc7cca90c0581a3cbfc3bb0f71079ce8bcdea188cab68",
+      "originalHash": "c6eaa8efac9bc491560cc7cca90c0581a3cbfc3bb0f71079ce8bcdea188cab68",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "始末書を提出しました。",
+            "romaji": "Shimatsusho o teishutsu shimashita.",
+            "german": "Ich habe ein Entschuldigungsschreiben eingereicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "始末書 ist eine schriftliche Erklärung mit Entschuldigung, die ein Angestellter nach einem Fehler oder Fehlverhalten (z. B. Verspätung, Verlust von Firmeneigentum) beim Vorgesetzten abgeben muss. Typisch: 始末書を書く, 始末書を提出する und oft passiv-kausativ 始末書を書かされる „eine schriftliche Entschuldigung schreiben müssen“. Ein neutraler Bericht ohne Schuldeingeständnis heißt 報告書, in der Schule schreibt man eher einen 反省文.",
+        "examples": [
+          {
+            "japanese": "始末書を提出しました。",
+            "romaji": "Shimatsusho o teishutsu shimashita.",
+            "german": "Ich habe ein Entschuldigungsschreiben eingereicht."
+          },
+          {
+            "japanese": "会社のパソコンをなくして、始末書を書かされた。",
+            "romaji": "Kaisha no pasokon o nakushite, shimatsusho o kakasareta.",
+            "german": "Ich habe den Firmenlaptop verloren und musste eine schriftliche Entschuldigung schreiben."
+          },
+          {
+            "japanese": "次に遅刻したら始末書だぞ、と部長に言われた。",
+            "romaji": "Tsugi ni chikoku shitara shimatsusho da zo, to buchou ni iwareta.",
+            "german": "Der Abteilungsleiter sagte, beim nächsten Zuspätkommen müsse ich eine schriftliche Stellungnahme abgeben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1733160 sense 1, noun: written explanation, written apology (for misconduct) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 始末書 ist eine schriftliche Erklärung mit Entschuldigung, die ein Angestellter nach einem Fehler oder Fehlverhalten (z. B. Verspätung, Verlust von Firmeneigentum) beim Vorgesetzten abgeben muss. Typisch: 始末書を書く, 始末書を提出する und oft passiv-kausativ 始末書を書かされる „eine schriftliche Entschuldigung schreiben müssen“. Ein neutraler Bericht ohne Schuldeingeständnis heißt 報告書, in der Schule schreibt man eher einen 反省文. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1733160; spelling=始末書; reading=しまつしょ",
+          "selected": {
+            "sequence": "1733160",
+            "spelling": "始末書",
+            "reading": "しまつしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "written explanation",
+                  "written apology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1733160 sense 1, noun: written explanation, written apology (for misconduct)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 始末書/しまつしょ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A7%8B%E6%9C%AB%E6%9B%B8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 始末書/しまつしょ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entschuldigungsschreiben (Arbeit). JMdict 1733160 sense 1, noun: written explanation, written apology (for misconduct)",
+        "japanese": "始末書を提出しました。 / 会社のパソコンをなくして、始末書を書かされた。 / 次に遅刻したら始末書だぞ、と部長に言われた。",
+        "romanization": "shimatsusho; Shimatsusho o teishutsu shimashita. / Kaisha no pasokon o nakushite, shimatsusho o kakasareta. / Tsugi ni chikoku shitara shimatsusho da zo, to buchou ni iwareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe ein Entschuldigungsschreiben eingereicht. / Ich habe den Firmenlaptop verloren und musste eine schriftliche Entschuldigung schreiben. / Der Abteilungsleiter sagte, beim nächsten Zuspätkommen müsse ich eine schriftliche Stellungnahme abgeben.",
+        "contexts": [
+          "Submitted after an incident",
+          "Losing company property",
+          "Warning from the boss"
+        ],
+        "lexical": "JMdict 1733160 sense 1, noun: written explanation, written apology (for misconduct)",
+        "register": "neutral (workplace)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2022 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Submitted after an incident; Losing company property; Warning from the boss), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ee841939d24ed877ace606dc9ba13d4b6bb3506b841c1626d2bf1f066159c557",
+        "approvalHash": "b48424b086572fa63245a1cfc8d2d03ea2ec168f926088319ef7b28fb9c81759"
+      }
+    },
+    {
+      "id": "vocab-n3:2023",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2023",
+      "state": "accepted",
+      "predecessorHash": "b4bd266f5ddf9ec97e727f6c0cdec1fc259de1f79b404811a20bdc72087bef48",
+      "originalHash": "b4bd266f5ddf9ec97e727f6c0cdec1fc259de1f79b404811a20bdc72087bef48",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "念書にサインしてください。",
+            "romaji": "Nensho ni sain shite kudasai.",
+            "german": "Bitte unterschreiben Sie die schriftliche Zusicherung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "念書 ist eine unterschriebene schriftliche Zusicherung, meist zwischen Privatpersonen, etwa dass man geliehenes Geld zurückzahlt oder etwas nicht wieder tut. Man sagt 念書を書く (selbst schreiben), 念書を取る (es sich von jemandem geben lassen) und 念書にサインする. Formeller und oft ein vorbereitetes Formular ist das 誓約書, ein vollständiger Vertrag heißt 契約書.",
+        "examples": [
+          {
+            "japanese": "念書にサインしてください。",
+            "romaji": "Nensho ni sain shite kudasai.",
+            "german": "Bitte unterschreiben Sie die schriftliche Zusicherung."
+          },
+          {
+            "japanese": "お金を貸すときは、念書を書いてもらったほうがいい。",
+            "romaji": "Okane o kasu toki wa, nensho o kaite moratta hou ga ii.",
+            "german": "Wenn man Geld verleiht, lässt man sich besser eine schriftliche Zusicherung geben."
+          },
+          {
+            "japanese": "もう二度としないという念書を書かされた。",
+            "romaji": "Mou nido to shinai to iu nensho o kakasareta.",
+            "german": "Ich musste schriftlich versichern, dass ich es nie wieder tue."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207078465",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 念書/ネンショ; lemma 念書; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "念書",
+              "reading": "ねんしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 念書/ねんしょ \"schriftliche Zusicherung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1469430 sense 1, noun: written pledge, signed note of assurance Pitch: Verified [0] via exact UniDic row. 念書 ist eine unterschriebene schriftliche Zusicherung, meist zwischen Privatpersonen, etwa dass man geliehenes Geld zurückzahlt oder etwas nicht wieder tut. Man sagt 念書を書く (selbst schreiben), 念書を取る (es sich von jemandem geben lassen) und 念書にサインする. Formeller und oft ein vorbereitetes Formular ist das 誓約書, ein vollständiger Vertrag heißt 契約書. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1469430; spelling=念書; reading=ねんしょ",
+          "selected": {
+            "sequence": "1469430",
+            "spelling": "念書",
+            "reading": "ねんしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "written pledge",
+                  "signed note of assurance",
+                  "memorandum",
+                  "legal instrument"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1469430 sense 1, noun: written pledge, signed note of assurance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 念書/ネンショ; lemma 念書; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207078465",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 念書/ネンショ; lemma 念書; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "念書",
+              "reading": "ねんしょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 念書/ねんしょ \"schriftliche Zusicherung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "schriftliche Zusicherung. JMdict 1469430 sense 1, noun: written pledge, signed note of assurance",
+        "japanese": "念書にサインしてください。 / お金を貸すときは、念書を書いてもらったほうがいい。 / もう二度としないという念書を書かされた。",
+        "romanization": "nensho; Nensho ni sain shite kudasai. / Okane o kasu toki wa, nensho o kaite moratta hou ga ii. / Mou nido to shinai to iu nensho o kakasareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte unterschreiben Sie die schriftliche Zusicherung. / Wenn man Geld verleiht, lässt man sich besser eine schriftliche Zusicherung geben. / Ich musste schriftlich versichern, dass ich es nie wieder tue.",
+        "contexts": [
+          "Asking for a signature",
+          "Lending money",
+          "Promise never to repeat"
+        ],
+        "lexical": "JMdict 1469430 sense 1, noun: written pledge, signed note of assurance",
+        "register": "neutral / somewhat formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2023 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking for a signature; Lending money; Promise never to repeat), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3cfbf77e0e9875f1731876b1c701ef7e7de9ac899cd5b8e20b6b9b70dd1fe182",
+        "approvalHash": "05805e852818932070f726dffbe14474441464fae8bef426e911323c821e39db"
+      }
+    },
+    {
+      "id": "vocab-n3:2024",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2024",
+      "state": "accepted",
+      "predecessorHash": "664b8e5b446771ef26005332f2509559e8af50880ba595bc2f850aefec894d48",
+      "originalHash": "664b8e5b446771ef26005332f2509559e8af50880ba595bc2f850aefec894d48",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "誓約書に署名します。",
+            "romaji": "Seiyakusho ni shomei shimasu.",
+            "german": "Ich unterzeichne die eidliche Erklärung."
+          }
+        ],
+        "meaning": "eidliche Erklärung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "誓約書 ist eine schriftliche Verpflichtungserklärung, in der man verspricht (誓う „schwören, geloben“), bestimmte Regeln einzuhalten, etwa Geheimhaltung bei Firmeneintritt oder Haftungsverzicht im Fitnessstudio. Es ist kein Eid vor Gericht; meist ist es ein vorbereitetes Formular: 誓約書に署名する / サインする, 誓約書を提出する. Weniger förmliche private Zusicherungen heißen eher 念書.",
+        "examples": [
+          {
+            "japanese": "誓約書に署名します。",
+            "romaji": "Seiyakusho ni shomei shimasu.",
+            "german": "Ich unterschreibe die Verpflichtungserklärung."
+          },
+          {
+            "japanese": "入社のとき、秘密を守るという誓約書を出しました。",
+            "romaji": "Nyuusha no toki, himitsu o mamoru to iu seiyakusho o dashimashita.",
+            "german": "Beim Firmeneintritt habe ich eine Verschwiegenheitserklärung abgegeben."
+          },
+          {
+            "japanese": "ジムに入会するとき、けがをしても自分の責任だという誓約書にサインした。",
+            "romaji": "Jimu ni nyuukai suru toki, kega o shite mo jibun no sekinin da to iu seiyakusho ni sain shita.",
+            "german": "Bei der Anmeldung im Fitnessstudio habe ich unterschrieben, dass ich bei Verletzungen selbst verantwortlich bin."
+          }
+        ],
+        "meaning": "Verpflichtungserklärung, schriftliches Gelöbnis",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1784780 sense 1, noun: written oath, pledge, covenant Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 誓約書 ist eine schriftliche Verpflichtungserklärung, in der man verspricht (誓う „schwören, geloben“), bestimmte Regeln einzuhalten, etwa Geheimhaltung bei Firmeneintritt oder Haftungsverzicht im Fitnessstudio. Es ist kein Eid vor Gericht; meist ist es ein vorbereitetes Formular: 誓約書に署名する / サインする, 誓約書を提出する. Weniger förmliche private Zusicherungen heißen eher 念書. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1784780; spelling=誓約書; reading=せいやくしょ",
+          "selected": {
+            "sequence": "1784780",
+            "spelling": "誓約書",
+            "reading": "せいやくしょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "written oath",
+                  "covenant",
+                  "pledge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1784780 sense 1, noun: written oath, pledge, covenant"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 誓約書/せいやくしょ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AA%93%E7%B4%84%E6%9B%B8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 誓約書/せいやくしょ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verpflichtungserklärung, schriftliches Gelöbnis. JMdict 1784780 sense 1, noun: written oath, pledge, covenant",
+        "japanese": "誓約書に署名します。 / 入社のとき、秘密を守るという誓約書を出しました。 / ジムに入会するとき、けがをしても自分の責任だという誓約書にサインした。",
+        "romanization": "seiyakusho; Seiyakusho ni shomei shimasu. / Nyuusha no toki, himitsu o mamoru to iu seiyakusho o dashimashita. / Jimu ni nyuukai suru toki, kega o shite mo jibun no sekinin da to iu seiyakusho ni sain shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich unterschreibe die Verpflichtungserklärung. / Beim Firmeneintritt habe ich eine Verschwiegenheitserklärung abgegeben. / Bei der Anmeldung im Fitnessstudio habe ich unterschrieben, dass ich bei Verletzungen selbst verantwortlich bin.",
+        "contexts": [
+          "Signing the form",
+          "Confidentiality on joining a company",
+          "Gym liability waiver"
+        ],
+        "lexical": "JMdict 1784780 sense 1, noun: written oath, pledge, covenant",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2024 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Signing the form; Confidentiality on joining a company; Gym liability waiver), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "453b96d44320b637455ca2e7d3ac10acb90531480570f64f16be736aa5c7adea",
+        "approvalHash": "2fb372061d20f81d3b6a367b84230b890b4d0a3f974d400a402daa9ea211e9c9"
+      }
+    },
+    {
+      "id": "vocab-n3:2025",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2025",
+      "state": "accepted",
+      "predecessorHash": "ec169d4a03d39233221af5f288fb73ab74cbb291085f1a7407c534c023e2320e",
+      "originalHash": "ec169d4a03d39233221af5f288fb73ab74cbb291085f1a7407c534c023e2320e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "覚書を交わしました。",
+            "romaji": "Oboegaki o kawashimashita.",
+            "german": "Wir haben ein Memorandum ausgetauscht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "覚書 (auch 覚え書き geschrieben) ist im Geschäftsleben eine schriftliche Vereinbarung oder Absichtserklärung, die weniger umfassend als ein Vertrag (契約書) ist; man sagt 覚書を交わす oder 覚書を結ぶ. In der Diplomatie bezeichnet es ein Memorandum. Daneben kann es auch persönliche Notizen bedeuten, im Alltag sagt man dafür aber meist メモ.",
+        "examples": [
+          {
+            "japanese": "覚書を交わしました。",
+            "romaji": "Oboegaki o kawashimashita.",
+            "german": "Wir haben eine schriftliche Vereinbarung unterzeichnet."
+          },
+          {
+            "japanese": "正式な契約の前に、まず覚書を作りましょう。",
+            "romaji": "Seishiki na keiyaku no mae ni, mazu oboegaki o tsukurimashou.",
+            "german": "Lass uns vor dem offiziellen Vertrag erst einmal eine Absichtserklärung aufsetzen."
+          },
+          {
+            "japanese": "古い日記の中から、祖父の覚書が見つかった。",
+            "romaji": "Furui nikki no naka kara, sofu no oboegaki ga mitsukatta.",
+            "german": "In einem alten Tagebuch fanden sich Notizen meines Großvaters."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81409779",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 覚書/オボエガキ; lemma 覚え書き; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "覚書",
+              "reading": "おぼえがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 覚書/おぼえがき \"Memorandum, Vermerk\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1589300 senses 1-2, noun: memorandum, note; (diplomatic) memorandum Pitch: Verified [0] via exact UniDic row. 覚書 (auch 覚え書き geschrieben) ist im Geschäftsleben eine schriftliche Vereinbarung oder Absichtserklärung, die weniger umfassend als ein Vertrag (契約書) ist; man sagt 覚書を交わす oder 覚書を結ぶ. In der Diplomatie bezeichnet es ein Memorandum. Daneben kann es auch persönliche Notizen bedeuten, im Alltag sagt man dafür aber meist メモ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1589300; spelling=覚書; reading=おぼえがき",
+          "selected": {
+            "sequence": "1589300",
+            "spelling": "覚書",
+            "reading": "おぼえがき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "memo",
+                  "memorandum",
+                  "note"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(diplomatic) memorandum"
+                ],
+                "notes": [
+                  "usu. written 覚書"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1589300 senses 1-2, noun: memorandum, note; (diplomatic) memorandum"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 覚書/オボエガキ; lemma 覚え書き; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@81409779",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 覚書/オボエガキ; lemma 覚え書き; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "覚書",
+              "reading": "おぼえがき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 覚書/おぼえがき \"Memorandum, Vermerk\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Memorandum, Vermerk. JMdict 1589300 senses 1-2, noun: memorandum, note; (diplomatic) memorandum",
+        "japanese": "覚書を交わしました。 / 正式な契約の前に、まず覚書を作りましょう。 / 古い日記の中から、祖父の覚書が見つかった。",
+        "romanization": "oboegaki; Oboegaki o kawashimashita. / Seishiki na keiyaku no mae ni, mazu oboegaki o tsukurimashou. / Furui nikki no naka kara, sofu no oboegaki ga mitsukatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben eine schriftliche Vereinbarung unterzeichnet. / Lass uns vor dem offiziellen Vertrag erst einmal eine Absichtserklärung aufsetzen. / In einem alten Tagebuch fanden sich Notizen meines Großvaters.",
+        "contexts": [
+          "Agreement signed",
+          "Before the formal contract",
+          "Personal notes found"
+        ],
+        "lexical": "JMdict 1589300 senses 1-2, noun: memorandum, note; (diplomatic) memorandum",
+        "register": "written / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2025 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Agreement signed; Before the formal contract; Personal notes found), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7e3eab3f277f934ab9d51c8cd4011b8bad817953eb63cfbdc4292791b8e470ce",
+        "approvalHash": "ac96b92ca43142f60e624872c14fec0f90f91ceb5d2c6519e54c9a669664d827"
+      }
+    },
+    {
+      "id": "vocab-n3:2026",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2026",
+      "state": "accepted",
+      "predecessorHash": "0c4036eb36ae937eed0a35cf5bf75d0b53a69cb4607bda6b09e084797f13ab68",
+      "originalHash": "0c4036eb36ae937eed0a35cf5bf75d0b53a69cb4607bda6b09e084797f13ab68",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "琴の音色が美しい。",
+            "romaji": "Koto no neiro ga utsukushii.",
+            "german": "Der Klang der Koto ist wunderschön."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "琴 ist die traditionelle japanische Wölbbrettzither mit meist 13 Saiten, die man mit Fingerplektren zupft. Man „spielt“ sie mit 弾く: 琴を弾く; ihr Klang heißt 琴の音色. Fachlich wird das Instrument 箏 geschrieben, im Alltag schreibt man aber fast immer 琴. Eine westliche Harfe heißt dagegen ハープ.",
+        "examples": [
+          {
+            "japanese": "琴の音色が美しい。",
+            "romaji": "Koto no neiro ga utsukushii.",
+            "german": "Der Klang der Koto ist wunderschön."
+          },
+          {
+            "japanese": "祖母はお正月に琴を弾いてくれます。",
+            "romaji": "Sobo wa oshougatsu ni koto o hiite kuremasu.",
+            "german": "Meine Großmutter spielt uns zu Neujahr auf der Koto vor."
+          },
+          {
+            "japanese": "大学で琴のサークルに入りました。",
+            "romaji": "Daigaku de koto no saakuru ni hairimashita.",
+            "german": "An der Uni bin ich einem Koto-Club beigetreten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123359666",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 琴/コト; lemma 琴; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 琴/コト; lemma コト; 名詞/固有名詞/人名/一般; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/名; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "琴",
+              "reading": "こと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 琴/こと \"japanische Zither\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1241450 sense 1, noun: koto (13-stringed Japanese zither) Pitch: Verified [1] via exact UniDic row. 琴 ist die traditionelle japanische Wölbbrettzither mit meist 13 Saiten, die man mit Fingerplektren zupft. Man „spielt“ sie mit 弾く: 琴を弾く; ihr Klang heißt 琴の音色. Fachlich wird das Instrument 箏 geschrieben, im Alltag schreibt man aber fast immer 琴. Eine westliche Harfe heißt dagegen ハープ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1241450; spelling=琴; reading=こと",
+          "selected": {
+            "sequence": "1241450",
+            "spelling": "琴",
+            "reading": "こと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "koto (13-stringed Japanese zither)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "stringed instrument"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "こと"
+                ]
+              }
+            ]
+          },
+          "finding": "JMdict 1241450 sense 1, noun: koto (13-stringed Japanese zither)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 琴/コト; lemma 琴; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 琴/コト; lemma コト; 名詞/固有名詞/人名/一般; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/名; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123359666",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 琴/コト; lemma 琴; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 琴/コト; lemma コト; 名詞/固有名詞/人名/一般; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/名; *; *; aType 1 | 琴/コト; lemma コト; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "琴",
+              "reading": "こと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 琴/こと \"japanische Zither\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "japanische Zither. JMdict 1241450 sense 1, noun: koto (13-stringed Japanese zither)",
+        "japanese": "琴の音色が美しい。 / 祖母はお正月に琴を弾いてくれます。 / 大学で琴のサークルに入りました。",
+        "romanization": "koto; Koto no neiro ga utsukushii. / Sobo wa oshougatsu ni koto o hiite kuremasu. / Daigaku de koto no saakuru ni hairimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Klang der Koto ist wunderschön. / Meine Großmutter spielt uns zu Neujahr auf der Koto vor. / An der Uni bin ich einem Koto-Club beigetreten.",
+        "contexts": [
+          "Admiring the sound",
+          "New Year family tradition",
+          "University club"
+        ],
+        "lexical": "JMdict 1241450 sense 1, noun: koto (13-stringed Japanese zither)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2026 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Admiring the sound; New Year family tradition; University club), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "554cef5529ea1d916a73f9b4fb379482efc4e16973fd4bf390fd9c77fc8e8df1",
+        "approvalHash": "bf3885c52c4cc9fb0b58d10ee1a7b05a8a7d3ea2b7c0e34953e6775cb766ee77"
+      }
+    },
+    {
+      "id": "vocab-n3:2027",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2027",
+      "state": "accepted",
+      "predecessorHash": "e40d9cd6e8a51f9272b0051a13a42d73213e0c326e8ef4a863c36b18906e8c20",
+      "originalHash": "e40d9cd6e8a51f9272b0051a13a42d73213e0c326e8ef4a863c36b18906e8c20",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "三味線を習いたい。",
+            "romaji": "Shamisen o naraitai.",
+            "german": "Ich möchte Shamisen lernen."
+          }
+        ],
+        "meaning": "dreisaitige Laute",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "三味線 ist die dreisaitige japanische Langhalslaute, die man mit einem großen Plektrum (撥) anschlägt; man sagt 三味線を弾く. Sie begleitet Kabuki, Volkslieder und Feste; besonders kraftvoll ist der Stil 津軽三味線, in dem sich die Lesung zu じゃみせん verändert. Umgangssprachlich bedeutet 三味線を弾く auch „jemandem etwas vormachen, ablenken“.",
+        "examples": [
+          {
+            "japanese": "三味線を習いたい。",
+            "romaji": "Shamisen o naraitai.",
+            "german": "Ich möchte Shamisen lernen."
+          },
+          {
+            "japanese": "津軽三味線の演奏はとても力強い。",
+            "romaji": "Tsugaru jamisen no ensou wa totemo chikarazuyoi.",
+            "german": "Tsugaru-Shamisen-Musik ist sehr kraftvoll."
+          },
+          {
+            "japanese": "祭りで、三味線に合わせて踊った。",
+            "romaji": "Matsuri de, shamisen ni awasete odotta.",
+            "german": "Beim Fest haben wir zur Shamisen-Musik getanzt."
+          }
+        ],
+        "meaning": "Shamisen (dreisaitige Laute)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1579450 sense 1, noun: shamisen, three-stringed Japanese lute Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 三味線 ist die dreisaitige japanische Langhalslaute, die man mit einem großen Plektrum (撥) anschlägt; man sagt 三味線を弾く. Sie begleitet Kabuki, Volkslieder und Feste; besonders kraftvoll ist der Stil 津軽三味線, in dem sich die Lesung zu じゃみせん verändert. Umgangssprachlich bedeutet 三味線を弾く auch „jemandem etwas vormachen, ablenken“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1579450; spelling=三味線; reading=しゃみせん",
+          "selected": {
+            "sequence": "1579450",
+            "spelling": "三味線",
+            "reading": "しゃみせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shamisen",
+                  "samisen",
+                  "three-stringed Japanese lute"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1579450 sense 1, noun: shamisen, three-stringed Japanese lute"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 三味線/しゃみせん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%89%E5%91%B3%E7%B7%9A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 三味線/しゃみせん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Shamisen (dreisaitige Laute). JMdict 1579450 sense 1, noun: shamisen, three-stringed Japanese lute",
+        "japanese": "三味線を習いたい。 / 津軽三味線の演奏はとても力強い。 / 祭りで、三味線に合わせて踊った。",
+        "romanization": "shamisen; Shamisen o naraitai. / Tsugaru jamisen no ensou wa totemo chikarazuyoi. / Matsuri de, shamisen ni awasete odotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich möchte Shamisen lernen. / Tsugaru-Shamisen-Musik ist sehr kraftvoll. / Beim Fest haben wir zur Shamisen-Musik getanzt.",
+        "contexts": [
+          "Wish to learn",
+          "Regional performance style",
+          "Dancing at a festival"
+        ],
+        "lexical": "JMdict 1579450 sense 1, noun: shamisen, three-stringed Japanese lute",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2027 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Wish to learn; Regional performance style; Dancing at a festival), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1e8243bc03f6a2515cc3380ace5bdfeed57a124dbdd53ef33ce8a70c8dc23f4d",
+        "approvalHash": "e00c36849fc9a90743aa2195337714f96fdac45b2f75289f0eebd02640de118b"
+      }
+    },
+    {
+      "id": "vocab-n3:2028",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2028",
+      "state": "accepted",
+      "predecessorHash": "7b1da250d3fe92df1da3d23574dc31ba207bbd9665e3f0331c8ce561feff6726",
+      "originalHash": "7b1da250d3fe92df1da3d23574dc31ba207bbd9665e3f0331c8ce561feff6726",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "尺八の音が響く。",
+            "romaji": "Shakuhachi no oto ga hibiku.",
+            "german": "Der Klang der Shakuhachi hallt wider."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "尺八 ist die senkrecht geblasene japanische Bambusflöte; der Name kommt von ihrer Standardlänge 一尺八寸 (etwa 54 cm). Man spielt sie mit 吹く: 尺八を吹く. Typisch ist das Zusammenspiel mit 琴 und 三味線. Achtung: In vulgärem Slang hat das Wort auch eine sexuelle Bedeutung, im normalen Kontext denkt aber jeder an das Instrument.",
+        "examples": [
+          {
+            "japanese": "尺八の音が響く。",
+            "romaji": "Shakuhachi no oto ga hibiku.",
+            "german": "Der Klang der Shakuhachi hallt wider."
+          },
+          {
+            "japanese": "父は定年後、尺八を吹き始めた。",
+            "romaji": "Chichi wa teinen-go, shakuhachi o fukihajimeta.",
+            "german": "Mein Vater hat nach der Pensionierung angefangen, Shakuhachi zu spielen."
+          },
+          {
+            "japanese": "尺八と琴の合奏を聞きに行きました。",
+            "romaji": "Shakuhachi to koto no gassou o kiki ni ikimashita.",
+            "german": "Ich war bei einem Konzert, in dem Shakuhachi und Koto zusammen spielten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139040424",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 尺八/シャクハチ; lemma 尺八; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "尺八",
+              "reading": "しゃくはち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 尺八/しゃくはち \"Bambusflöte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1324140 sense 1, noun: shakuhachi, end-blown bamboo flute Pitch: Verified [0] via exact UniDic row. 尺八 ist die senkrecht geblasene japanische Bambusflöte; der Name kommt von ihrer Standardlänge 一尺八寸 (etwa 54 cm). Man spielt sie mit 吹く: 尺八を吹く. Typisch ist das Zusammenspiel mit 琴 und 三味線. Achtung: In vulgärem Slang hat das Wort auch eine sexuelle Bedeutung, im normalen Kontext denkt aber jeder an das Instrument. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1324140; spelling=尺八; reading=しゃくはち",
+          "selected": {
+            "sequence": "1324140",
+            "spelling": "尺八",
+            "reading": "しゃくはち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shakuhachi",
+                  "end-blown fippleless bamboo flute"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "slang",
+                  "vulgar expression or word"
+                ],
+                "gloss": [
+                  "blow job",
+                  "fellatio"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1324140 sense 1, noun: shakuhachi, end-blown bamboo flute"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 尺八/シャクハチ; lemma 尺八; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139040424",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 尺八/シャクハチ; lemma 尺八; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "尺八",
+              "reading": "しゃくはち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 尺八/しゃくはち \"Bambusflöte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bambusflöte. JMdict 1324140 sense 1, noun: shakuhachi, end-blown bamboo flute",
+        "japanese": "尺八の音が響く。 / 父は定年後、尺八を吹き始めた。 / 尺八と琴の合奏を聞きに行きました。",
+        "romanization": "shakuhachi; Shakuhachi no oto ga hibiku. / Chichi wa teinen-go, shakuhachi o fukihajimeta. / Shakuhachi to koto no gassou o kiki ni ikimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Klang der Shakuhachi hallt wider. / Mein Vater hat nach der Pensionierung angefangen, Shakuhachi zu spielen. / Ich war bei einem Konzert, in dem Shakuhachi und Koto zusammen spielten.",
+        "contexts": [
+          "Sound echoing",
+          "Retirement hobby",
+          "Ensemble concert"
+        ],
+        "lexical": "JMdict 1324140 sense 1, noun: shakuhachi, end-blown bamboo flute",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2028 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sound echoing; Retirement hobby; Ensemble concert), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "28bb4b7236461851347ae9ec3f482af729eb68ac12e239eca23d8c25d99dcf83",
+        "approvalHash": "f8201be061c47610c882b8f84a775a95dd3e3a0861a342e409574834e2bb75ae"
+      }
+    },
+    {
+      "id": "vocab-n3:2029",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2029",
+      "state": "accepted",
+      "predecessorHash": "695c2d0b5b8960659dad267b2aebf1407fd6a665396293f18596a91ea650e62b",
+      "originalHash": "695c2d0b5b8960659dad267b2aebf1407fd6a665396293f18596a91ea650e62b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "太鼓の演奏を見ました。",
+            "romaji": "Taiko no ensou o mimashita.",
+            "german": "Ich habe eine Taiko-Aufführung gesehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "太鼓 ist die (traditionelle japanische) Trommel; man schlägt sie mit たたく: 太鼓をたたく. Um sie ausdrücklich von westlichen Instrumenten abzugrenzen, sagt man 和太鼓; ein Schlagzeug heißt ドラム. Bekannt ist die Redewendung 太鼓判を押す „etwas garantieren, für etwas bürgen“ (wörtlich „einen großen Stempel aufdrücken“).",
+        "examples": [
+          {
+            "japanese": "太鼓の演奏を見ました。",
+            "romaji": "Taiko no ensou o mimashita.",
+            "german": "Ich habe eine Taiko-Aufführung gesehen."
+          },
+          {
+            "japanese": "夏祭りで子どもたちが太鼓をたたいていた。",
+            "romaji": "Natsumatsuri de kodomotachi ga taiko o tataite ita.",
+            "german": "Beim Sommerfest haben die Kinder getrommelt."
+          },
+          {
+            "japanese": "この店の味は私が太鼓判を押します。",
+            "romaji": "Kono mise no aji wa watashi ga taikoban o oshimasu.",
+            "german": "Für das Essen in diesem Laden lege ich meine Hand ins Feuer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157997374",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 太鼓/タイコ; lemma 太鼓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "太鼓",
+              "reading": "たいこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 太鼓/たいこ \"japanische Trommel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1408280 sense 1, noun: drum (esp. Japanese drum) Pitch: Verified [0] via exact UniDic row. 太鼓 ist die (traditionelle japanische) Trommel; man schlägt sie mit たたく: 太鼓をたたく. Um sie ausdrücklich von westlichen Instrumenten abzugrenzen, sagt man 和太鼓; ein Schlagzeug heißt ドラム. Bekannt ist die Redewendung 太鼓判を押す „etwas garantieren, für etwas bürgen“ (wörtlich „einen großen Stempel aufdrücken“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1408280; spelling=太鼓; reading=たいこ",
+          "selected": {
+            "sequence": "1408280",
+            "spelling": "太鼓",
+            "reading": "たいこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drum"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1408280 sense 1, noun: drum (esp. Japanese drum)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 太鼓/タイコ; lemma 太鼓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157997374",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 太鼓/タイコ; lemma 太鼓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "太鼓",
+              "reading": "たいこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 太鼓/たいこ \"japanische Trommel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "japanische Trommel. JMdict 1408280 sense 1, noun: drum (esp. Japanese drum)",
+        "japanese": "太鼓の演奏を見ました。 / 夏祭りで子どもたちが太鼓をたたいていた。 / この店の味は私が太鼓判を押します。",
+        "romanization": "taiko; Taiko no ensou o mimashita. / Natsumatsuri de kodomotachi ga taiko o tataite ita. / Kono mise no aji wa watashi ga taikoban o oshimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe eine Taiko-Aufführung gesehen. / Beim Sommerfest haben die Kinder getrommelt. / Für das Essen in diesem Laden lege ich meine Hand ins Feuer.",
+        "contexts": [
+          "Watching a performance",
+          "Summer festival",
+          "Idiom: guaranteeing quality"
+        ],
+        "lexical": "JMdict 1408280 sense 1, noun: drum (esp. Japanese drum)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2029 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Watching a performance; Summer festival; Idiom: guaranteeing quality), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4f3bdf2b00f71e2d6b8465d9b3970f05fd79e8e4179ff4d065cf90f810ed43e3",
+        "approvalHash": "b853af42526bba7bb95567fceea531a0d9f0309bc7357db3ce05622416462227"
+      }
+    },
+    {
+      "id": "vocab-n3:2030",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2030",
+      "state": "accepted",
+      "predecessorHash": "14646f4c16024536fff0e9607573f678dad0559faae715ee420e5a8d67d071dc",
+      "originalHash": "14646f4c16024536fff0e9607573f678dad0559faae715ee420e5a8d67d071dc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "笛を吹く練習をします。",
+            "romaji": "Fue o fuku renshuu o shimasu.",
+            "german": "Ich übe Flöte spielen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "笛 ist ein Oberbegriff für Flöten und Pfeifen: von der japanischen Querflöte beim Fest bis zur Trillerpfeife des Schiedsrichters. Man bläst es mit 吹く: 笛を吹く; der Ton heißt 笛の音. Die Blockflöte in der Schule nennt man meist リコーダー, eine Trillerpfeife auch ホイッスル. Pfeifen mit dem Mund ist dagegen 口笛を吹く.",
+        "examples": [
+          {
+            "japanese": "笛を吹く練習をします。",
+            "romaji": "Fue o fuku renshuu o shimasu.",
+            "german": "Ich übe Flöte."
+          },
+          {
+            "japanese": "審判が笛を吹いて、試合が始まった。",
+            "romaji": "Shinpan ga fue o fuite, shiai ga hajimatta.",
+            "german": "Der Schiedsrichter pfiff, und das Spiel begann."
+          },
+          {
+            "japanese": "遠くから祭りの笛の音が聞こえてくる。",
+            "romaji": "Tooku kara matsuri no fue no oto ga kikoete kuru.",
+            "german": "Aus der Ferne hört man die Flöten des Festes."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230947403",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 笛/フエ; lemma 笛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "笛",
+              "reading": "ふえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 笛/ふえ \"Flöte, Pfeife\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1437310 senses 1-2, noun: flute, pipe; whistle Pitch: Verified [0] via exact UniDic row. 笛 ist ein Oberbegriff für Flöten und Pfeifen: von der japanischen Querflöte beim Fest bis zur Trillerpfeife des Schiedsrichters. Man bläst es mit 吹く: 笛を吹く; der Ton heißt 笛の音. Die Blockflöte in der Schule nennt man meist リコーダー, eine Trillerpfeife auch ホイッスル. Pfeifen mit dem Mund ist dagegen 口笛を吹く. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437310; spelling=笛; reading=ふえ",
+          "selected": {
+            "sequence": "1437310",
+            "spelling": "笛",
+            "reading": "ふえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "flute",
+                  "fife",
+                  "pipe",
+                  "recorder",
+                  "flageolet",
+                  "shakuhachi",
+                  "clarinet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "whistle"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1437310 senses 1-2, noun: flute, pipe; whistle"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 笛/フエ; lemma 笛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230947403",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 笛/フエ; lemma 笛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "笛",
+              "reading": "ふえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 笛/ふえ \"Flöte, Pfeife\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Flöte, Pfeife. JMdict 1437310 senses 1-2, noun: flute, pipe; whistle",
+        "japanese": "笛を吹く練習をします。 / 審判が笛を吹いて、試合が始まった。 / 遠くから祭りの笛の音が聞こえてくる。",
+        "romanization": "fue; Fue o fuku renshuu o shimasu. / Shinpan ga fue o fuite, shiai ga hajimatta. / Tooku kara matsuri no fue no oto ga kikoete kuru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich übe Flöte. / Der Schiedsrichter pfiff, und das Spiel begann. / Aus der Ferne hört man die Flöten des Festes.",
+        "contexts": [
+          "Practicing an instrument",
+          "Referee's whistle",
+          "Festival music in the distance"
+        ],
+        "lexical": "JMdict 1437310 senses 1-2, noun: flute, pipe; whistle",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2030 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Practicing an instrument; Referee's whistle; Festival music in the distance), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d5ed513abe790ba6358530af24b63fb88d059470d43466f23db5585c92d2903e",
+        "approvalHash": "b6e9433e386235d040a553d37b24edcc06a0c4491525b1aa06f9a59ab34eba5b"
+      }
+    },
+    {
+      "id": "vocab-n3:2031",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2031",
+      "state": "accepted",
+      "predecessorHash": "9cfea4a94985159799ff33b6087c68be07b67a0319ebaf9c93e1b05259265344",
+      "originalHash": "9cfea4a94985159799ff33b6087c68be07b67a0319ebaf9c93e1b05259265344",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鈴の音が聞こえる。",
+            "romaji": "Suzu no oto ga kikoeru.",
+            "german": "Ich höre das Klingeln eines Glöckchens."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鈴 ist ein kleines, meist kugelförmiges Glöckchen mit einer Kugel im Inneren, wie am Schrein, am Katzenhalsband oder als Bärenglocke beim Wandern. Typisch: 鈴が鳴る (intransitiv), 鈴を鳴らす (transitiv), 鈴をつける. Eine große Tempelglocke heißt 鐘, eine Klingel an der Tür ベル oder チャイム. Lautmalerisch klingt ein 鈴 チリンチリン.",
+        "examples": [
+          {
+            "japanese": "鈴の音が聞こえる。",
+            "romaji": "Suzu no oto ga kikoeru.",
+            "german": "Ich höre das Klingeln eines Glöckchens."
+          },
+          {
+            "japanese": "猫の首に鈴をつけました。",
+            "romaji": "Neko no kubi ni suzu o tsukemashita.",
+            "german": "Ich habe der Katze ein Glöckchen um den Hals gehängt."
+          },
+          {
+            "japanese": "山に登るときは、熊よけの鈴を持っていく。",
+            "romaji": "Yama ni noboru toki wa, kumayoke no suzu o motte iku.",
+            "german": "Wenn ich in die Berge gehe, nehme ich eine Bärenglocke mit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@148001759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鈴/スズ; lemma 鈴; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 鈴/スズ; lemma スズ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "鈴",
+              "reading": "すず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鈴/すず \"Glöckchen, Schelle\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1557580 sense 1, noun: small (often globular) bell Pitch: Verified [0] via exact UniDic row. 鈴 ist ein kleines, meist kugelförmiges Glöckchen mit einer Kugel im Inneren, wie am Schrein, am Katzenhalsband oder als Bärenglocke beim Wandern. Typisch: 鈴が鳴る (intransitiv), 鈴を鳴らす (transitiv), 鈴をつける. Eine große Tempelglocke heißt 鐘, eine Klingel an der Tür ベル oder チャイム. Lautmalerisch klingt ein 鈴 チリンチリン. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1557580; spelling=鈴; reading=すず",
+          "selected": {
+            "sequence": "1557580",
+            "spelling": "鈴",
+            "reading": "すず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bell (often globular)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1557580 sense 1, noun: small (often globular) bell"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 鈴/スズ; lemma 鈴; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 鈴/スズ; lemma スズ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@148001759",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鈴/スズ; lemma 鈴; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 鈴/スズ; lemma スズ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "鈴",
+              "reading": "すず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鈴/すず \"Glöckchen, Schelle\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Glöckchen, Schelle. JMdict 1557580 sense 1, noun: small (often globular) bell",
+        "japanese": "鈴の音が聞こえる。 / 猫の首に鈴をつけました。 / 山に登るときは、熊よけの鈴を持っていく。",
+        "romanization": "suzu; Suzu no oto ga kikoeru. / Neko no kubi ni suzu o tsukemashita. / Yama ni noboru toki wa, kumayoke no suzu o motte iku. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich höre das Klingeln eines Glöckchens. / Ich habe der Katze ein Glöckchen um den Hals gehängt. / Wenn ich in die Berge gehe, nehme ich eine Bärenglocke mit.",
+        "contexts": [
+          "Hearing a faint sound",
+          "Cat collar",
+          "Hiking safety"
+        ],
+        "lexical": "JMdict 1557580 sense 1, noun: small (often globular) bell",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2031 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hearing a faint sound; Cat collar; Hiking safety), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fda1c3f48c2e2cd9a02c4e5fa24c108ced4f0481a01c2ac03a01b3d92d8868a7",
+        "approvalHash": "9a75a23eb7b477a8be1bbcaa939f0a54297a7225252d238369bd01aaa7e7296b"
+      }
+    },
+    {
+      "id": "vocab-n3:2033",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2033",
+      "state": "accepted",
+      "predecessorHash": "ae600bbf8a336b06aba45933bc89c3954f4fefe98e30d3aa4343859d8d56d5a9",
+      "originalHash": "ae600bbf8a336b06aba45933bc89c3954f4fefe98e30d3aa4343859d8d56d5a9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "麻の服は涼しい。",
+            "romaji": "Asa no fuku wa suzushii.",
+            "german": "Kleidung aus Leinen ist kühl."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "麻 bezeichnet sowohl die Hanfpflanze als auch Fasern und Stoffe wie Leinen oder Ramie; auf Kleidungsetiketten steht 麻 für Leinen. Typisch: 麻の服, 麻のシャツ, die im Sommer als kühl gelten. Die Droge Cannabis heißt dagegen 大麻; das Zeichen steckt auch in 麻薬 „Rauschgift“. Leinen als Modewort heißt auch リネン.",
+        "examples": [
+          {
+            "japanese": "麻の服は涼しい。",
+            "romaji": "Asa no fuku wa suzushii.",
+            "german": "Kleidung aus Leinen ist kühl."
+          },
+          {
+            "japanese": "このテーブルクロスは麻でできています。",
+            "romaji": "Kono teeburukurosu wa asa de dekite imasu.",
+            "german": "Diese Tischdecke ist aus Leinen."
+          },
+          {
+            "japanese": "昔は麻から縄や布を作っていた。",
+            "romaji": "Mukashi wa asa kara nawa ya nuno o tsukutte ita.",
+            "german": "Früher stellte man aus Hanf Seile und Stoffe her."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42464172",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 麻/アサ; lemma 麻; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 麻/アサ; lemma アサ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "麻",
+              "reading": "あさ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 麻/あさ \"Leinen, Hanf\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1524290 senses 1-2, noun: hemp (plant); hemp fiber, linen, flax Pitch: Verified [2] via exact UniDic row; stored primary 1 corrected to 2. 麻 bezeichnet sowohl die Hanfpflanze als auch Fasern und Stoffe wie Leinen oder Ramie; auf Kleidungsetiketten steht 麻 für Leinen. Typisch: 麻の服, 麻のシャツ, die im Sommer als kühl gelten. Die Droge Cannabis heißt dagegen 大麻; das Zeichen steckt auch in 麻薬 „Rauschgift“. Leinen als Modewort heißt auch リネン. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1524290; spelling=麻; reading=あさ",
+          "selected": {
+            "sequence": "1524290",
+            "spelling": "麻",
+            "reading": "あさ",
+            "readingRestrictions": [
+              "麻"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cannabis (Cannabis sativa)",
+                  "hemp (plant)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hemp (fiber)",
+                  "linen",
+                  "flax",
+                  "jute"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1524290 senses 1-2, noun: hemp (plant); hemp fiber, linen, flax"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 1 corrected to 2. Exact whole 麻/アサ; lemma 麻; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 麻/アサ; lemma アサ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42464172",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 麻/アサ; lemma 麻; 名詞/普通名詞/一般/*; *; *; aType 2. Rejected for this role: 麻/アサ; lemma アサ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "麻",
+              "reading": "あさ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 麻/あさ \"Leinen, Hanf\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leinen, Hanf. JMdict 1524290 senses 1-2, noun: hemp (plant); hemp fiber, linen, flax",
+        "japanese": "麻の服は涼しい。 / このテーブルクロスは麻でできています。 / 昔は麻から縄や布を作っていた。",
+        "romanization": "asa; Asa no fuku wa suzushii. / Kono teeburukurosu wa asa de dekite imasu. / Mukashi wa asa kara nawa ya nuno o tsukutte ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Kleidung aus Leinen ist kühl. / Diese Tischdecke ist aus Leinen. / Früher stellte man aus Hanf Seile und Stoffe her.",
+        "contexts": [
+          "Summer clothing",
+          "Material of household goods",
+          "Traditional uses of hemp"
+        ],
+        "lexical": "JMdict 1524290 senses 1-2, noun: hemp (plant); hemp fiber, linen, flax",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2033 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Summer clothing; Material of household goods; Traditional uses of hemp), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8961460830964325ceb0304c55d2920afc54863afd96f0272613641d0bb1b132",
+        "approvalHash": "51bcbfdce54bc97440b2f1f71e5bbbc2d03231d86d1e1b1b6acddc19d33cc567"
+      }
+    },
+    {
+      "id": "vocab-n3:2034",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2034",
+      "state": "accepted",
+      "predecessorHash": "493fdb284063d931a74a2590d100687dee7a1ca77f845a620bf6579ddd58293d",
+      "originalHash": "493fdb284063d931a74a2590d100687dee7a1ca77f845a620bf6579ddd58293d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "綿のシャツが好きです。",
+            "romaji": "Wata no shatsu ga suki desu.",
+            "german": "Ich mag Baumwollhemden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "綿 mit der Lesung わた meint Rohbaumwolle, die Baumwollpflanze und vor allem Füllwatte, etwa in 布団 oder Kuscheltieren; Zuckerwatte heißt 綿あめ oder 綿菓子. Für den Stoff auf Kleidungsetiketten liest man dasselbe Zeichen めん (綿100%), oder man sagt 木綿 bzw. コットン. Ein Baumwollhemd ist also 綿 (めん) のシャツ, nicht わた.",
+        "examples": [
+          {
+            "japanese": "布団の綿が古くなって、固くなった。",
+            "romaji": "Futon no wata ga furuku natte, kataku natta.",
+            "german": "Die Füllung des Futons ist alt und hart geworden."
+          },
+          {
+            "japanese": "ぬいぐるみから綿が出ている。",
+            "romaji": "Nuigurumi kara wata ga dete iru.",
+            "german": "Aus dem Kuscheltier quillt die Füllwatte heraus."
+          },
+          {
+            "japanese": "お祭りで綿あめを買ってもらった。",
+            "romaji": "Omatsuri de wataame o katte moratta.",
+            "german": "Auf dem Fest hat man mir Zuckerwatte gekauft."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282323543",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 綿/ワタ; lemma 綿; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "綿",
+              "reading": "わた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 綿/わた \"Baumwolle, Watte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1533340 senses 1-2, noun: cotton (plant, raw); batting, wadding, padding Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 綿 mit der Lesung わた meint Rohbaumwolle, die Baumwollpflanze und vor allem Füllwatte, etwa in 布団 oder Kuscheltieren; Zuckerwatte heißt 綿あめ oder 綿菓子. Für den Stoff auf Kleidungsetiketten liest man dasselbe Zeichen めん (綿100%), oder man sagt 木綿 bzw. コットン. Ein Baumwollhemd ist also 綿 (めん) のシャツ, nicht わた. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1533340; spelling=綿; reading=わた",
+          "selected": {
+            "sequence": "1533340",
+            "spelling": "綿",
+            "reading": "わた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cotton plant (Gossypium spp.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "batting",
+                  "wadding",
+                  "padding"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1533340 senses 1-2, noun: cotton (plant, raw); batting, wadding, padding"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 綿/ワタ; lemma 綿; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@282323543",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 綿/ワタ; lemma 綿; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "綿",
+              "reading": "わた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 綿/わた \"Baumwolle, Watte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Baumwolle, Watte. JMdict 1533340 senses 1-2, noun: cotton (plant, raw); batting, wadding, padding",
+        "japanese": "布団の綿が古くなって、固くなった。 / ぬいぐるみから綿が出ている。 / お祭りで綿あめを買ってもらった。",
+        "romanization": "wata; Futon no wata ga furuku natte, kataku natta. / Nuigurumi kara wata ga dete iru. / Omatsuri de wataame o katte moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Füllung des Futons ist alt und hart geworden. / Aus dem Kuscheltier quillt die Füllwatte heraus. / Auf dem Fest hat man mir Zuckerwatte gekauft.",
+        "contexts": [
+          "Old futon stuffing",
+          "Torn stuffed toy",
+          "Festival candy"
+        ],
+        "lexical": "JMdict 1533340 senses 1-2, noun: cotton (plant, raw); batting, wadding, padding",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2034 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Old futon stuffing; Torn stuffed toy; Festival candy), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b09779fc867954eab194a817ff9d6eb8151a3797e41a5f081affe0ddb35f9c76",
+        "approvalHash": "f79459eed2269a6b25fca182596141f6df830b654047e00b5853fb3263eed2ac"
+      }
+    },
+    {
+      "id": "vocab-n3:2035",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2035",
+      "state": "accepted",
+      "predecessorHash": "eea69ea7c88c689e07c9f97685dad6c19e1acebcf5554e7bb176f370889b1aa0",
+      "originalHash": "eea69ea7c88c689e07c9f97685dad6c19e1acebcf5554e7bb176f370889b1aa0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "布を織る技術を学ぶ。",
+            "romaji": "Nuno o oru gijutsu o manabu.",
+            "german": "Ich lerne die Technik des Webens."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "織る heißt „weben“ und ist transitiv: 布を織る, 着物の生地を織る; das Ergebnis ist ein 織物 („Gewebe, Textil“), der Webstuhl heißt 機 (はた), daher auch 機を織る. Es gibt kein intransitives Gegenstück. Nicht verwechseln mit dem gleich klingenden 折る „falten, brechen“ oder mit 降りる „aussteigen“. Figurativ: 織り込む „einflechten, einbeziehen“.",
+        "examples": [
+          {
+            "japanese": "布を織る技術を学ぶ。",
+            "romaji": "Nuno o oru gijutsu o manabu.",
+            "german": "Ich lerne die Technik des Webens."
+          },
+          {
+            "japanese": "祖母は昔、自分で着物の布を織っていた。",
+            "romaji": "Sobo wa mukashi, jibun de kimono no nuno o otte ita.",
+            "german": "Meine Großmutter hat früher den Stoff für ihre Kimonos selbst gewebt."
+          },
+          {
+            "japanese": "この地方では、今も手でじゅうたんを織っています。",
+            "romaji": "Kono chihou de wa, ima mo te de juutan o otte imasu.",
+            "german": "In dieser Gegend werden Teppiche noch immer von Hand gewebt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84801168",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 1. Rejected for this role: 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 1.",
+            "match": {
+              "word": "織る",
+              "reading": "おる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 織る/おる \"weben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1357420 sense 1, godan verb: to weave Pitch: Verified [1] via exact UniDic row. 織る heißt „weben“ und ist transitiv: 布を織る, 着物の生地を織る; das Ergebnis ist ein 織物 („Gewebe, Textil“), der Webstuhl heißt 機 (はた), daher auch 機を織る. Es gibt kein intransitives Gegenstück. Nicht verwechseln mit dem gleich klingenden 折る „falten, brechen“ oder mit 降りる „aussteigen“. Figurativ: 織り込む „einflechten, einbeziehen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1357420; spelling=織る; reading=おる",
+          "selected": {
+            "sequence": "1357420",
+            "spelling": "織る",
+            "reading": "おる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to weave"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1357420 sense 1, godan verb: to weave"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 1. Rejected for this role: 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@84801168",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 1. Rejected for this role: 織る/オル; lemma 織る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 1.",
+            "match": {
+              "word": "織る",
+              "reading": "おる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 織る/おる \"weben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "weben. JMdict 1357420 sense 1, godan verb: to weave",
+        "japanese": "布を織る技術を学ぶ。 / 祖母は昔、自分で着物の布を織っていた。 / この地方では、今も手でじゅうたんを織っています。",
+        "romanization": "oru; Nuno o oru gijutsu o manabu. / Sobo wa mukashi, jibun de kimono no nuno o otte ita. / Kono chihou de wa, ima mo te de juutan o otte imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lerne die Technik des Webens. / Meine Großmutter hat früher den Stoff für ihre Kimonos selbst gewebt. / In dieser Gegend werden Teppiche noch immer von Hand gewebt.",
+        "contexts": [
+          "Learning a craft",
+          "Grandmother's handiwork",
+          "Regional tradition"
+        ],
+        "lexical": "JMdict 1357420 sense 1, godan verb: to weave",
+        "register": "neutral",
+        "transitivity": "transitive (布を織る); no intransitive partner",
+        "conjugation": "godan -ru (織る → 織って, 織らない, 織ります)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2035 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Learning a craft; Grandmother's handiwork; Regional tradition), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5114f34205b6444b3b26162593cc59d98cec5add6ef3a8c8bbe495a5d571d357",
+        "approvalHash": "6b49c85fa2018098c55b2d2e9e114f7f7e74092ee7334b9d08fedb481fc718b4"
+      }
+    },
+    {
+      "id": "vocab-n3:2036",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2036",
+      "state": "accepted",
+      "predecessorHash": "cb739a8826f387beb7252f5cdfa3ffe64572b6438c726f1ceabd40027b4d53ce",
+      "originalHash": "cb739a8826f387beb7252f5cdfa3ffe64572b6438c726f1ceabd40027b4d53ce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "道場で稽古します。",
+            "romaji": "Doujou de keiko shimasu.",
+            "german": "Ich trainiere in der Trainingshalle."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "道場 ist die Übungshalle für Kampfkünste wie 柔道, 剣道 oder 空手; man sagt 道場に通う „regelmäßig ins Dojo gehen“ und 道場で稽古する „trainieren“. Beim Betreten und Verlassen verbeugt man sich (礼をする). Eine normale Sporthalle heißt 体育館, ein Fitnessstudio ジム. Ursprünglich bezeichnete das Wort einen Ort buddhistischer Übung.",
+        "examples": [
+          {
+            "japanese": "道場で稽古します。",
+            "romaji": "Doujou de keiko shimasu.",
+            "german": "Ich trainiere in der Trainingshalle."
+          },
+          {
+            "japanese": "子どものころ、毎週空手の道場に通っていた。",
+            "romaji": "Kodomo no koro, maishuu karate no doujou ni kayotte ita.",
+            "german": "Als Kind bin ich jede Woche ins Karate-Dojo gegangen."
+          },
+          {
+            "japanese": "道場に入るときは、必ず礼をします。",
+            "romaji": "Doujou ni hairu toki wa, kanarazu rei o shimasu.",
+            "german": "Beim Betreten des Dojos verbeugt man sich immer."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192412517",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 道場/ドウジョウ; lemma 道場; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "道場",
+              "reading": "どうじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 道場/どうじょう \"Trainingshalle (Kampfkunst)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1454220 sense 1, noun: dojo, hall for martial arts training Pitch: Verified [1,0] via exact UniDic row. 道場 ist die Übungshalle für Kampfkünste wie 柔道, 剣道 oder 空手; man sagt 道場に通う „regelmäßig ins Dojo gehen“ und 道場で稽古する „trainieren“. Beim Betreten und Verlassen verbeugt man sich (礼をする). Eine normale Sporthalle heißt 体育館, ein Fitnessstudio ジム. Ursprünglich bezeichnete das Wort einen Ort buddhistischer Übung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1454220; spelling=道場; reading=どうじょう",
+          "selected": {
+            "sequence": "1454220",
+            "spelling": "道場",
+            "reading": "どうじょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dojo",
+                  "hall used for martial arts training"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "manda (place of Buddhist practice or meditation, esp. the place under the bodhi tree where Buddha attained enlightenment)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1454220 sense 1, noun: dojo, hall for martial arts training"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact UniDic row. Exact whole 道場/ドウジョウ; lemma 道場; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192412517",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 道場/ドウジョウ; lemma 道場; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "道場",
+              "reading": "どうじょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 道場/どうじょう \"Trainingshalle (Kampfkunst)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Trainingshalle (Kampfkunst). JMdict 1454220 sense 1, noun: dojo, hall for martial arts training",
+        "japanese": "道場で稽古します。 / 子どものころ、毎週空手の道場に通っていた。 / 道場に入るときは、必ず礼をします。",
+        "romanization": "doujou; Doujou de keiko shimasu. / Kodomo no koro, maishuu karate no doujou ni kayotte ita. / Doujou ni hairu toki wa, kanarazu rei o shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich trainiere in der Trainingshalle. / Als Kind bin ich jede Woche ins Karate-Dojo gegangen. / Beim Betreten des Dojos verbeugt man sich immer.",
+        "contexts": [
+          "Training session",
+          "Childhood karate lessons",
+          "Dojo etiquette"
+        ],
+        "lexical": "JMdict 1454220 sense 1, noun: dojo, hall for martial arts training",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2036 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Training session; Childhood karate lessons; Dojo etiquette), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d2faa21136563974931ea768e1393cd4a2ead239bfc3c7de6003e6e1d35bf211",
+        "approvalHash": "427884c2a9cf73691bcd8d56130b9aab67689fb13588c931bf776f3965dabaa4"
+      }
+    },
+    {
+      "id": "vocab-n3:2037",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2037",
+      "state": "accepted",
+      "predecessorHash": "b4380f9cb433a257bf3a7865cd5905068f22fddc6fbb0299d5ca760d52d3a0bc",
+      "originalHash": "b4380f9cb433a257bf3a7865cd5905068f22fddc6fbb0299d5ca760d52d3a0bc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "三段に昇格しました。",
+            "romaji": "San-dan ni shoukaku shimashita.",
+            "german": "Ich bin zum dritten Dan aufgestiegen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "段 bedeutet hier den Meistergrad (Dan) in Kampfkünsten, Go oder Shogi. Der erste Grad heißt 初段, nicht 一段; danach folgen 二段, 三段 usw., die Schülergrade darunter heißen 級. Man sagt 段を取る oder 三段に合格する; „Er hat den 2. Dan im Judo“ heißt 柔道二段だ. Im Alltag bedeutet 段 außerdem „Stufe, Ebene“, etwa bei Treppen (階段) oder Regalen.",
+        "examples": [
+          {
+            "japanese": "三段の試験に合格しました。",
+            "romaji": "Sandan no shiken ni goukaku shimashita.",
+            "german": "Ich habe die Prüfung zum dritten Dan bestanden."
+          },
+          {
+            "japanese": "彼は柔道二段の腕前です。",
+            "romaji": "Kare wa juudou nidan no udemae desu.",
+            "german": "Er hat den zweiten Dan im Judo."
+          },
+          {
+            "japanese": "初段を取るまで、五年かかった。",
+            "romaji": "Shodan o toru made, gonen kakatta.",
+            "german": "Bis zum ersten Dan habe ich fünf Jahre gebraucht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168058503",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 段/ダン; lemma 段; 名詞/普通名詞/助数詞可能/*; *; *; aType 1. Rejected for this role: 段/ダン; lemma 反; 名詞/普通名詞/助数詞可能/*; *; *; aType 1 | 段/ダン; lemma ダン; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "段",
+              "reading": "だん",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Nomen 段/だん \"Rang, Stufe (Kampfkunst)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1633690 sense 4 (also 1-3), noun / counter: dan (rank in martial arts, go, shogi); step, level Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 段 bedeutet hier den Meistergrad (Dan) in Kampfkünsten, Go oder Shogi. Der erste Grad heißt 初段, nicht 一段; danach folgen 二段, 三段 usw., die Schülergrade darunter heißen 級. Man sagt 段を取る oder 三段に合格する; „Er hat den 2. Dan im Judo“ heißt 柔道二段だ. Im Alltag bedeutet 段 außerdem „Stufe, Ebene“, etwa bei Treppen (階段) oder Regalen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1633690; spelling=段; reading=だん",
+          "selected": {
+            "sequence": "1633690",
+            "spelling": "段",
+            "reading": "だん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "step",
+                  "stair",
+                  "rung",
+                  "(flight of) steps"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shelf",
+                  "layer",
+                  "tier"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "grade",
+                  "level",
+                  "class"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dan (degree of advanced proficiency in martial arts, go, shogi, etc.)",
+                  "rank"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paragraph",
+                  "passage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "column (of print)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "act (in kabuki, joruri, etc.)",
+                  "section",
+                  "scene"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "row of the multiplication table (e.g. five times table)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 9,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stage (in a process)",
+                  "phase",
+                  "occasion",
+                  "time",
+                  "moment",
+                  "situation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 10,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "formal or literary term"
+                ],
+                "gloss": [
+                  "matter",
+                  "occasion"
+                ],
+                "notes": [
+                  "as ...の段"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 11,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "degree",
+                  "extent"
+                ],
+                "notes": [
+                  "as ...どころの段ではない, ...という段じゃない, etc."
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 12,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for breaks in written language or speech"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1633690 sense 4 (also 1-3), noun / counter: dan (rank in martial arts, go, shogi); step, level"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 段/ダン; lemma 段; 名詞/普通名詞/助数詞可能/*; *; *; aType 1. Rejected for this role: 段/ダン; lemma 反; 名詞/普通名詞/助数詞可能/*; *; *; aType 1 | 段/ダン; lemma ダン; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168058503",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 段/ダン; lemma 段; 名詞/普通名詞/助数詞可能/*; *; *; aType 1. Rejected for this role: 段/ダン; lemma 反; 名詞/普通名詞/助数詞可能/*; *; *; aType 1 | 段/ダン; lemma ダン; 名詞/固有名詞/人名/姓; *; *; aType 1.",
+            "match": {
+              "word": "段",
+              "reading": "だん",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Nomen 段/だん \"Rang, Stufe (Kampfkunst)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rang, Stufe (Kampfkunst). JMdict 1633690 sense 4 (also 1-3), noun / counter: dan (rank in martial arts, go, shogi); step, level",
+        "japanese": "三段の試験に合格しました。 / 彼は柔道二段の腕前です。 / 初段を取るまで、五年かかった。",
+        "romanization": "dan; Sandan no shiken ni goukaku shimashita. / Kare wa juudou nidan no udemae desu. / Shodan o toru made, gonen kakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe die Prüfung zum dritten Dan bestanden. / Er hat den zweiten Dan im Judo. / Bis zum ersten Dan habe ich fünf Jahre gebraucht.",
+        "contexts": [
+          "Passing a grading exam",
+          "Describing someone's skill",
+          "Time to first dan"
+        ],
+        "lexical": "JMdict 1633690 sense 4 (also 1-3), noun / counter: dan (rank in martial arts, go, shogi); step, level",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2037 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Passing a grading exam; Describing someone's skill; Time to first dan), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ce6c83a97914812ff85850dfec463bb1caaa7085572a929720696cdd17a2592e",
+        "approvalHash": "3ffdd0895a1bf3d87ceb1b6bbd80c68e9075b180b07aeaeb03640d38a7ae380a"
+      }
+    },
+    {
+      "id": "vocab-n3:2038",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2038",
+      "state": "accepted",
+      "predecessorHash": "7f13c82978c80c54a2d46bf73774fc392b67e3faef00cf967be0a4568a0763b5",
+      "originalHash": "7f13c82978c80c54a2d46bf73774fc392b67e3faef00cf967be0a4568a0763b5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "釜でご飯を炊きます。",
+            "romaji": "Kama de gohan o takimasu.",
+            "german": "Ich koche Reis im Kessel."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "釜 ist ein schwerer (eiserner) Topf, vor allem zum Reiskochen, oft höflich お釜; auch der Innentopf des Reiskochers heißt 釜 oder 内釜, der Teekessel bei der Teezeremonie 茶釜. Ein Gericht ist 釜飯, im Topf gegarter Reis. Für Eintöpfe nimmt man 鍋, für Wasser eine やかん. Redewendung: 同じ釜の飯を食う „eng zusammengelebt und gearbeitet haben“.",
+        "examples": [
+          {
+            "japanese": "釜でご飯を炊きます。",
+            "romaji": "Kama de gohan o takimasu.",
+            "german": "Ich koche Reis im eisernen Reistopf."
+          },
+          {
+            "japanese": "炊飯器の釜を洗ってください。",
+            "romaji": "Suihanki no kama o aratte kudasai.",
+            "german": "Wasch bitte den Innentopf des Reiskochers."
+          },
+          {
+            "japanese": "彼とは同じ釜の飯を食った仲だ。",
+            "romaji": "Kare to wa onaji kama no meshi o kutta naka da.",
+            "german": "Mit ihm habe ich lange Zeit Seite an Seite gelebt und gearbeitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96778631",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 釜/カマ; lemma 釜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "釜",
+              "reading": "かま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 釜/かま \"Reiskochtopf, Kessel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1209080 sense 1, noun: iron pot, kettle (esp. for rice) Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 釜 ist ein schwerer (eiserner) Topf, vor allem zum Reiskochen, oft höflich お釜; auch der Innentopf des Reiskochers heißt 釜 oder 内釜, der Teekessel bei der Teezeremonie 茶釜. Ein Gericht ist 釜飯, im Topf gegarter Reis. Für Eintöpfe nimmt man 鍋, für Wasser eine やかん. Redewendung: 同じ釜の飯を食う „eng zusammengelebt und gearbeitet haben“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1209080; spelling=釜; reading=かま",
+          "selected": {
+            "sequence": "1209080",
+            "spelling": "釜",
+            "reading": "かま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "iron pot",
+                  "kettle"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1209080 sense 1, noun: iron pot, kettle (esp. for rice)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 釜/カマ; lemma 釜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96778631",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 釜/カマ; lemma 釜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "釜",
+              "reading": "かま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 釜/かま \"Reiskochtopf, Kessel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reiskochtopf, Kessel. JMdict 1209080 sense 1, noun: iron pot, kettle (esp. for rice)",
+        "japanese": "釜でご飯を炊きます。 / 炊飯器の釜を洗ってください。 / 彼とは同じ釜の飯を食った仲だ。",
+        "romanization": "kama; Kama de gohan o takimasu. / Suihanki no kama o aratte kudasai. / Kare to wa onaji kama no meshi o kutta naka da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich koche Reis im eisernen Reistopf. / Wasch bitte den Innentopf des Reiskochers. / Mit ihm habe ich lange Zeit Seite an Seite gelebt und gearbeitet.",
+        "contexts": [
+          "Traditional rice cooking",
+          "Kitchen chore",
+          "Idiom: close comrades"
+        ],
+        "lexical": "JMdict 1209080 sense 1, noun: iron pot, kettle (esp. for rice)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2038 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Traditional rice cooking; Kitchen chore; Idiom: close comrades), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a4ad29441c3bdffcb705ac432ac531bdc5b7e0201dbb0b4bb84c2ea35b39fa0f",
+        "approvalHash": "cbac8e15535f4f4f71412c817b13964a56b1823e6d20d18b2d3461fd18695be1"
+      }
+    },
+    {
+      "id": "vocab-n3:2039",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2039",
+      "state": "accepted",
+      "predecessorHash": "c3bf847994b972a468218c08ae9c6e8428d712ffb99d25e6fbd5dbeed1a3b2bd",
+      "originalHash": "c3bf847994b972a468218c08ae9c6e8428d712ffb99d25e6fbd5dbeed1a3b2bd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "桶に水を入れます。",
+            "romaji": "Oke ni mizu o iremasu.",
+            "german": "Ich fülle Wasser in den Holzeimer."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "桶 ist ein Bottich oder Eimer, traditionell aus Holz: 桶に水を入れる / くむ. Bekannt sind 寿司桶 für Sushi-Reis, 手桶 als Schöpfeimer und das Badeschälchen im Onsen; auch der Sarg heißt 棺桶. Ein moderner Eimer aus Plastik oder Metall heißt meist バケツ.",
+        "examples": [
+          {
+            "japanese": "桶に水を入れます。",
+            "romaji": "Oke ni mizu o iremasu.",
+            "german": "Ich fülle Wasser in den Holzeimer."
+          },
+          {
+            "japanese": "寿司桶にご飯を移して、酢を混ぜる。",
+            "romaji": "Sushioke ni gohan o utsushite, su o mazeru.",
+            "german": "Ich gebe den Reis in den Sushi-Bottich und mische Essig unter."
+          },
+          {
+            "japanese": "温泉の桶で体にお湯をかけた。",
+            "romaji": "Onsen no oke de karada ni oyu o kaketa.",
+            "german": "Im Onsen habe ich mir mit dem Holzschöpfer heißes Wasser übergegossen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75539763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 桶/オケ; lemma 桶; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "桶",
+              "reading": "おけ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 桶/おけ \"Holzeimer, Bottich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1182830 sense 1, noun: bucket, pail, tub Pitch: Verified [1] via exact UniDic row; stored primary 2 corrected to 1. 桶 ist ein Bottich oder Eimer, traditionell aus Holz: 桶に水を入れる / くむ. Bekannt sind 寿司桶 für Sushi-Reis, 手桶 als Schöpfeimer und das Badeschälchen im Onsen; auch der Sarg heißt 棺桶. Ein moderner Eimer aus Plastik oder Metall heißt meist バケツ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1182830; spelling=桶; reading=おけ",
+          "selected": {
+            "sequence": "1182830",
+            "spelling": "桶",
+            "reading": "おけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bucket",
+                  "pail",
+                  "tub"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1182830 sense 1, noun: bucket, pail, tub"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 2 corrected to 1. Exact whole 桶/オケ; lemma 桶; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@75539763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 桶/オケ; lemma 桶; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "桶",
+              "reading": "おけ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 桶/おけ \"Holzeimer, Bottich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Holzeimer, Bottich. JMdict 1182830 sense 1, noun: bucket, pail, tub",
+        "japanese": "桶に水を入れます。 / 寿司桶にご飯を移して、酢を混ぜる。 / 温泉の桶で体にお湯をかけた。",
+        "romanization": "oke; Oke ni mizu o iremasu. / Sushioke ni gohan o utsushite, su o mazeru. / Onsen no oke de karada ni oyu o kaketa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich fülle Wasser in den Holzeimer. / Ich gebe den Reis in den Sushi-Bottich und mische Essig unter. / Im Onsen habe ich mir mit dem Holzschöpfer heißes Wasser übergegossen.",
+        "contexts": [
+          "Filling with water",
+          "Making sushi rice",
+          "Bathing at a hot spring"
+        ],
+        "lexical": "JMdict 1182830 sense 1, noun: bucket, pail, tub",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2039 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Filling with water; Making sushi rice; Bathing at a hot spring), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "52ae4dd1a0cfc72f3c420861b83a8850977c2f84aeb07c0f8b67b98158180298",
+        "approvalHash": "65f42d3033394ef736ad6b9b1f7db29d3bdb57e788ef2eafe6e3c9000e045671"
+      }
+    },
+    {
+      "id": "vocab-n3:2040",
+      "revisionId": "183c-n3-enrichment-vocab-n3-2040",
+      "state": "accepted",
+      "predecessorHash": "bb23d56f5cfc3db13397c4901b2997fe6b341ffacdcd50f8553592c6da0b55c3",
+      "originalHash": "bb23d56f5cfc3db13397c4901b2997fe6b341ffacdcd50f8553592c6da0b55c3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "杵で餅をつきます。",
+            "romaji": "Kine de mochi o tsukimasu.",
+            "german": "Ich stampfe Mochi mit der Keule."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "杵 ist der große Holzhammer oder Stößel, mit dem man im 臼 gedämpften Reis zu Mochi stampft; man sagt 杵で餅をつく. Beim traditionellen 餅つき zu Neujahr schlägt einer mit dem 杵, ein anderer wendet den Teig mit der Hand. In Japan sagt man, im Mond sehe man einen Hasen, der mit einem 杵 Mochi stampft.",
+        "examples": [
+          {
+            "japanese": "杵で餅をつきます。",
+            "romaji": "Kine de mochi o tsukimasu.",
+            "german": "Ich stampfe Mochi mit der Keule."
+          },
+          {
+            "japanese": "杵を振り上げて、力いっぱい下ろした。",
+            "romaji": "Kine o furiagete, chikara ippai oroshita.",
+            "german": "Ich hob den Holzhammer und ließ ihn mit aller Kraft niedersausen."
+          },
+          {
+            "japanese": "月ではうさぎが杵で餅をついていると言われている。",
+            "romaji": "Tsuki de wa usagi ga kine de mochi o tsuite iru to iwarete iru.",
+            "german": "Man sagt, auf dem Mond stampfe ein Hase Mochi."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105025041",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 杵/キネ; lemma 杵; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "杵",
+              "reading": "きね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 杵/きね \"Mörserkeule (Mochi)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1956060 sense 1, noun: mallet, pestle, pounder (esp. for mochi) Pitch: Verified [1] via exact UniDic row. 杵 ist der große Holzhammer oder Stößel, mit dem man im 臼 gedämpften Reis zu Mochi stampft; man sagt 杵で餅をつく. Beim traditionellen 餅つき zu Neujahr schlägt einer mit dem 杵, ein anderer wendet den Teig mit der Hand. In Japan sagt man, im Mond sehe man einen Hasen, der mit einem 杵 Mochi stampft. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1956060; spelling=杵; reading=きね",
+          "selected": {
+            "sequence": "1956060",
+            "spelling": "杵",
+            "reading": "きね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mallet",
+                  "pestle",
+                  "pounder"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1956060 sense 1, noun: mallet, pestle, pounder (esp. for mochi)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 杵/キネ; lemma 杵; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105025041",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 杵/キネ; lemma 杵; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "杵",
+              "reading": "きね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 杵/きね \"Mörserkeule (Mochi)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mörserkeule (Mochi). JMdict 1956060 sense 1, noun: mallet, pestle, pounder (esp. for mochi)",
+        "japanese": "杵で餅をつきます。 / 杵を振り上げて、力いっぱい下ろした。 / 月ではうさぎが杵で餅をついていると言われている。",
+        "romanization": "kine; Kine de mochi o tsukimasu. / Kine o furiagete, chikara ippai oroshita. / Tsuki de wa usagi ga kine de mochi o tsuite iru to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich stampfe Mochi mit der Keule. / Ich hob den Holzhammer und ließ ihn mit aller Kraft niedersausen. / Man sagt, auf dem Mond stampfe ein Hase Mochi.",
+        "contexts": [
+          "Making mochi",
+          "Swinging the mallet",
+          "Moon rabbit folklore"
+        ],
+        "lexical": "JMdict 1956060 sense 1, noun: mallet, pestle, pounder (esp. for mochi)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-183",
+        "finding": "Author reread the exact final card vocab-n3:2040 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Making mochi; Swinging the mallet; Moon rabbit folklore), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ef231484ae39fb79429803cb3945d93211ecbcb8468eac90b6ddc292864dc584",
+        "approvalHash": "8f76cc58630872d203315337f350794050b9de8b7d490a6274585d2f4b8a4db4"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

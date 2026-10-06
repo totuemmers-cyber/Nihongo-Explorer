@@ -1,0 +1,3941 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1533",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1533",
+      "state": "accepted",
+      "predecessorHash": "39063261920ddfb3bad43bd18e072a83f62b1894ec5dba224118a2ab4f9d1a0f",
+      "originalHash": "39063261920ddfb3bad43bd18e072a83f62b1894ec5dba224118a2ab4f9d1a0f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "玄米茶の香りが好きです。",
+            "romaji": "Genmaicha no kaori ga suki desu.",
+            "german": "Ich mag den Duft von Reistee."
+          }
+        ],
+        "meaning": "Reistee",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "玄米茶 setzt sich aus 玄米 „Naturreis“ und 茶 „Tee“ zusammen: grüner Tee (meist 番茶 oder 煎茶), der mit gerösteten Reiskörnern gemischt ist und dadurch nussig-röstig schmeckt. Er ist ein günstiger Alltagstee mit wenig Koffein und wird oft in einfachen Restaurants kostenlos serviert. Nicht verwechseln mit ほうじ茶 („gerösteter grüner Tee“ ohne Reis) oder 抹茶 („Pulvertee“). Man sagt 玄米茶を淹れる „Genmaicha aufbrühen“.",
+        "examples": [
+          {
+            "japanese": "玄米茶の香りが好きです。",
+            "romaji": "Genmaicha no kaori ga suki desu.",
+            "german": "Ich mag den Duft von Reistee."
+          },
+          {
+            "japanese": "寝る前は、カフェインが少ない玄米茶を飲むことが多いです。",
+            "romaji": "Neru mae wa, kafein ga sukunai genmaicha o nomu koto ga ooi desu.",
+            "german": "Vor dem Schlafengehen trinke ich oft Genmaicha, weil er wenig Koffein hat."
+          },
+          {
+            "japanese": "定食屋では、食事と一緒に温かい玄米茶が出てきた。",
+            "romaji": "Teishokuya de wa, shokuji to issho ni atatakai genmaicha ga dete kita.",
+            "german": "Im Imbisslokal wurde zum Essen warmer Genmaicha serviert."
+          }
+        ],
+        "meaning": "Genmaicha, grüner Tee mit geröstetem Reis",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1263480 sense 1, noun: green tea with roasted brown rice (genmaicha) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 玄米茶 setzt sich aus 玄米 „Naturreis“ und 茶 „Tee“ zusammen: grüner Tee (meist 番茶 oder 煎茶), der mit gerösteten Reiskörnern gemischt ist und dadurch nussig-röstig schmeckt. Er ist ein günstiger Alltagstee mit wenig Koffein und wird oft in einfachen Restaurants kostenlos serviert. Nicht verwechseln mit ほうじ茶 („gerösteter grüner Tee“ ohne Reis) oder 抹茶 („Pulvertee“). Man sagt 玄米茶を淹れる „Genmaicha aufbrühen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1263480; spelling=玄米茶; reading=げんまいちゃ",
+          "selected": {
+            "sequence": "1263480",
+            "spelling": "玄米茶",
+            "reading": "げんまいちゃ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "green tea with roasted brown rice"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1263480 sense 1, noun: green tea with roasted brown rice (genmaicha)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 玄米茶/げんまいちゃ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%8E%84%E7%B1%B3%E8%8C%B6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 玄米茶/げんまいちゃ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Genmaicha, grüner Tee mit geröstetem Reis. JMdict 1263480 sense 1, noun: green tea with roasted brown rice (genmaicha)",
+        "japanese": "玄米茶の香りが好きです。 / 寝る前は、カフェインが少ない玄米茶を飲むことが多いです。 / 定食屋では、食事と一緒に温かい玄米茶が出てきた。",
+        "romanization": "genmaicha; Genmaicha no kaori ga suki desu. / Neru mae wa, kafein ga sukunai genmaicha o nomu koto ga ooi desu. / Teishokuya de wa, shokuji to issho ni atatakai genmaicha ga dete kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich mag den Duft von Reistee. / Vor dem Schlafengehen trinke ich oft Genmaicha, weil er wenig Koffein hat. / Im Imbisslokal wurde zum Essen warmer Genmaicha serviert.",
+        "contexts": [
+          "Favourite tea aroma",
+          "Low-caffeine evening drink",
+          "Tea served with a set meal"
+        ],
+        "lexical": "JMdict 1263480 sense 1, noun: green tea with roasted brown rice (genmaicha)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1533 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Favourite tea aroma; Low-caffeine evening drink; Tea served with a set meal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a0e7f050d5e26e9524802749cbbd5c6b6d35dcc4b7eb8b65872964fc82929939",
+        "approvalHash": "2ecd61fac117470697773a2e5907ca351fc0e203730ab7fe210a07422ccb44fb"
+      }
+    },
+    {
+      "id": "vocab-n3:1534",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1534",
+      "state": "accepted",
+      "predecessorHash": "591b4ac764dad0e61538b293760d3076b4e2df9a5e35c3e59c6b69efc59efd84",
+      "originalHash": "591b4ac764dad0e61538b293760d3076b4e2df9a5e35c3e59c6b69efc59efd84",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "醤油差しを取ってください。",
+            "romaji": "Shouyu sashi o totte kudasai.",
+            "german": "Bitte reichen Sie die Sojasaucen-Flasche."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "醤油差し ist das kleine Fläschchen oder Kännchen, aus dem man am Tisch Sojasauce gießt; 差す bedeutet hier „eingießen, nachfüllen“. Man findet es auf jedem Restauranttisch und schreibt es auch しょうゆ差し oder 醤油さし. Typisch sind 醤油差しを取る „das Sojafläschchen reichen“ und 醤油差しに醤油を入れる/足す „nachfüllen“. Die Sauce selbst ist nur 醤油; das kleine Schälchen zum Eintunken heißt 小皿.",
+        "examples": [
+          {
+            "japanese": "醤油差しを取ってください。",
+            "romaji": "Shouyu sashi o totte kudasai.",
+            "german": "Bitte reichen Sie die Sojasaucen-Flasche."
+          },
+          {
+            "japanese": "醤油差しが空になったので、醤油を足しておきました。",
+            "romaji": "Shouyu sashi ga kara ni natta node, shouyu o tashite okimashita.",
+            "german": "Das Sojasaucen-Fläschchen war leer, deshalb habe ich es aufgefüllt."
+          },
+          {
+            "japanese": "倒してもこぼれない醤油差しを百円ショップで買った。",
+            "romaji": "Taoshite mo koborenai shouyu sashi o hyaku-en shoppu de katta.",
+            "german": "Im 100-Yen-Laden habe ich ein Sojafläschchen gekauft, das nicht ausläuft, wenn es umfällt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2843232 sense 1, noun: soy sauce bottle, soy sauce dispenser Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 醤油差し ist das kleine Fläschchen oder Kännchen, aus dem man am Tisch Sojasauce gießt; 差す bedeutet hier „eingießen, nachfüllen“. Man findet es auf jedem Restauranttisch und schreibt es auch しょうゆ差し oder 醤油さし. Typisch sind 醤油差しを取る „das Sojafläschchen reichen“ und 醤油差しに醤油を入れる/足す „nachfüllen“. Die Sauce selbst ist nur 醤油; das kleine Schälchen zum Eintunken heißt 小皿. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2843232; spelling=醤油差し; reading=しょうゆさし",
+          "selected": {
+            "sequence": "2843232",
+            "spelling": "醤油差し",
+            "reading": "しょうゆさし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "soy sauce bottle",
+                  "soy sauce dispenser",
+                  "soy sauce cruet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2843232 sense 1, noun: soy sauce bottle, soy sauce dispenser"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 醤油差し/しょうゆさし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%86%A4%E6%B2%B9%E5%B7%AE%E3%81%97",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 醤油差し/しょうゆさし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sojasaucen-Fläschchen. JMdict 2843232 sense 1, noun: soy sauce bottle, soy sauce dispenser",
+        "japanese": "醤油差しを取ってください。 / 醤油差しが空になったので、醤油を足しておきました。 / 倒してもこぼれない醤油差しを百円ショップで買った。",
+        "romanization": "shouyu sashi; Shouyu sashi o totte kudasai. / Shouyu sashi ga kara ni natta node, shouyu o tashite okimashita. / Taoshite mo koborenai shouyu sashi o hyaku-en shoppu de katta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte reichen Sie die Sojasaucen-Flasche. / Das Sojasaucen-Fläschchen war leer, deshalb habe ich es aufgefüllt. / Im 100-Yen-Laden habe ich ein Sojafläschchen gekauft, das nicht ausläuft, wenn es umfällt.",
+        "contexts": [
+          "Asking at the table",
+          "Refilling after it ran empty",
+          "Buying a spill-proof one"
+        ],
+        "lexical": "JMdict 2843232 sense 1, noun: soy sauce bottle, soy sauce dispenser",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1534 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking at the table; Refilling after it ran empty; Buying a spill-proof one), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "13a82392cadf8ae4c3237de1e09dcddfda3ab57ee750ff46251e1a334d84892b",
+        "approvalHash": "3aae78773713ae924f0ca658ed2e4585322ecdc3ebfec7c00db687e102a071e2"
+      }
+    },
+    {
+      "id": "vocab-n3:1535",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1535",
+      "state": "accepted",
+      "predecessorHash": "a0c46f89d56d90c3b40b5326264830719cbbcf6fbc2a5a9917dc0f831a90613a",
+      "originalHash": "a0c46f89d56d90c3b40b5326264830719cbbcf6fbc2a5a9917dc0f831a90613a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "うどんに七味をかけます。",
+            "romaji": "Udon ni shichimi o kakemasu.",
+            "german": "Ich streue Shichimi auf die Udon."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "七味 ist die Kurzform von 七味唐辛子, einer Gewürzmischung aus Chili und sechs weiteren Zutaten wie Sesam, Sansho-Pfeffer und Zitrusschale. Man streut es mit 七味をかける oder 七味を振る über Udon, Soba, 牛丼 oder Yakitori. Davon zu unterscheiden ist 一味 (唐辛子), reiner Chili ohne andere Gewürze. Die wörtliche Bedeutung „sieben Geschmäcker“ (Sinn 1) spielt im Alltag kaum eine Rolle.",
+        "examples": [
+          {
+            "japanese": "うどんに七味をかけます。",
+            "romaji": "Udon ni shichimi o kakemasu.",
+            "german": "Ich streue Shichimi auf die Udon."
+          },
+          {
+            "japanese": "牛丼に七味をたっぷりかけるのが好きだ。",
+            "romaji": "Gyuudon ni shichimi o tappuri kakeru no ga suki da.",
+            "german": "Ich mag es, reichlich Shichimi über mein Gyudon zu streuen."
+          },
+          {
+            "japanese": "辛いのが苦手なら、七味は少しだけにしてください。",
+            "romaji": "Karai no ga nigate nara, shichimi wa sukoshi dake ni shite kudasai.",
+            "german": "Wenn Sie nichts Scharfes vertragen, nehmen Sie nur ein bisschen Shichimi."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136202976",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 七味/シチミ; lemma 七味; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "七味",
+              "reading": "しちみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 七味/しちみ \"Sieben-Gewürz-Mischung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1880850 sense 2, noun: blend of seven spices, shichimi (abbr. of 七味唐辛子) Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 七味 ist die Kurzform von 七味唐辛子, einer Gewürzmischung aus Chili und sechs weiteren Zutaten wie Sesam, Sansho-Pfeffer und Zitrusschale. Man streut es mit 七味をかける oder 七味を振る über Udon, Soba, 牛丼 oder Yakitori. Davon zu unterscheiden ist 一味 (唐辛子), reiner Chili ohne andere Gewürze. Die wörtliche Bedeutung „sieben Geschmäcker“ (Sinn 1) spielt im Alltag kaum eine Rolle. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1880850; spelling=七味; reading=しちみ",
+          "selected": {
+            "sequence": "1880850",
+            "spelling": "七味",
+            "reading": "しちみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seven delicious flavors (flavours)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "blend of seven spices (cayenne, sesame, Japanese pepper, citrus peel, etc.)",
+                  "shichimi"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1880850 sense 2, noun: blend of seven spices, shichimi (abbr. of 七味唐辛子)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 七味/シチミ; lemma 七味; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136202976",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 七味/シチミ; lemma 七味; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "七味",
+              "reading": "しちみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 七味/しちみ \"Sieben-Gewürz-Mischung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sieben-Gewürz-Mischung. JMdict 1880850 sense 2, noun: blend of seven spices, shichimi (abbr. of 七味唐辛子)",
+        "japanese": "うどんに七味をかけます。 / 牛丼に七味をたっぷりかけるのが好きだ。 / 辛いのが苦手なら、七味は少しだけにしてください。",
+        "romanization": "shichimi; Udon ni shichimi o kakemasu. / Gyuudon ni shichimi o tappuri kakeru no ga suki da. / Karai no ga nigate nara, shichimi wa sukoshi dake ni shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich streue Shichimi auf die Udon. / Ich mag es, reichlich Shichimi über mein Gyudon zu streuen. / Wenn Sie nichts Scharfes vertragen, nehmen Sie nur ein bisschen Shichimi.",
+        "contexts": [
+          "Seasoning noodles",
+          "Personal taste at a beef bowl shop",
+          "Advice for people who dislike spice"
+        ],
+        "lexical": "JMdict 1880850 sense 2, noun: blend of seven spices, shichimi (abbr. of 七味唐辛子)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1535 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Seasoning noodles; Personal taste at a beef bowl shop; Advice for people who dislike spice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0ba8ef9488811ca210bb7aabf5124a38c4844ee0c0a3169a21c6aba24852443f",
+        "approvalHash": "146d7d50b85dc6ff465bc735a5543f802ea7257f0f3a606c64bfa2f03fd5851f"
+      }
+    },
+    {
+      "id": "vocab-n3:1536",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1536",
+      "state": "accepted",
+      "predecessorHash": "ae8d2223551ff4d6c0bebac9419a65fccb6c5346e1427c1d0bd30d2a8ca47eb8",
+      "originalHash": "ae8d2223551ff4d6c0bebac9419a65fccb6c5346e1427c1d0bd30d2a8ca47eb8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "昆布で出汁を取ります。",
+            "romaji": "Konbu de dashi o torimasu.",
+            "german": "Ich mache Brühe aus Kelp."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "昆布 ist essbarer Seetang (Kelp), getrocknet die Grundlage der japanischen Brühe: 昆布で出汁を取る „mit Kombu Brühe ziehen“, oft zusammen mit 鰹節. Gegessen wird er auch als Onigiri-Füllung oder 佃煮. In Zusammensetzungen gibt es die Lesung こぶ, z. B. 昆布茶. Andere Algen haben eigene Namen: わかめ, のり, ひじき; der Oberbegriff ist 海藻.",
+        "examples": [
+          {
+            "japanese": "昆布で出汁を取ります。",
+            "romaji": "Konbu de dashi o torimasu.",
+            "german": "Ich mache Brühe aus Kelp."
+          },
+          {
+            "japanese": "おにぎりの具は、梅干しと昆布どちらがいいですか。",
+            "romaji": "Onigiri no gu wa, umeboshi to konbu dochira ga ii desu ka.",
+            "german": "Welche Onigiri-Füllung hättest du gern, Umeboshi oder Kombu?"
+          },
+          {
+            "japanese": "北海道のお土産に昆布を買ってきました。",
+            "romaji": "Hokkaidou no omiyage ni konbu o katte kimashita.",
+            "german": "Ich habe Kombu als Mitbringsel aus Hokkaido gekauft."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126086327",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 昆布/コンブ; lemma 昆布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "昆布",
+              "reading": "こんぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 昆布/こんぶ \"Kelp, Seetang\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1579150 sense 1, noun: kombu, kelp Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 昆布 ist essbarer Seetang (Kelp), getrocknet die Grundlage der japanischen Brühe: 昆布で出汁を取る „mit Kombu Brühe ziehen“, oft zusammen mit 鰹節. Gegessen wird er auch als Onigiri-Füllung oder 佃煮. In Zusammensetzungen gibt es die Lesung こぶ, z. B. 昆布茶. Andere Algen haben eigene Namen: わかめ, のり, ひじき; der Oberbegriff ist 海藻. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1579150; spelling=昆布; reading=こんぶ",
+          "selected": {
+            "sequence": "1579150",
+            "spelling": "昆布",
+            "reading": "こんぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kombu (usu. Saccharina japonica)",
+                  "konbu",
+                  "kelp",
+                  "any edible species from the family Laminariaceae"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1579150 sense 1, noun: kombu, kelp"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 昆布/コンブ; lemma 昆布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126086327",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 昆布/コンブ; lemma 昆布; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "昆布",
+              "reading": "こんぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 昆布/こんぶ \"Kelp, Seetang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kelp, Seetang. JMdict 1579150 sense 1, noun: kombu, kelp",
+        "japanese": "昆布で出汁を取ります。 / おにぎりの具は、梅干しと昆布どちらがいいですか。 / 北海道のお土産に昆布を買ってきました。",
+        "romanization": "konbu; Konbu de dashi o torimasu. / Onigiri no gu wa, umeboshi to konbu dochira ga ii desu ka. / Hokkaidou no omiyage ni konbu o katte kimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich mache Brühe aus Kelp. / Welche Onigiri-Füllung hättest du gern, Umeboshi oder Kombu? / Ich habe Kombu als Mitbringsel aus Hokkaido gekauft.",
+        "contexts": [
+          "Making soup stock",
+          "Choosing an onigiri filling",
+          "Souvenir from Hokkaido"
+        ],
+        "lexical": "JMdict 1579150 sense 1, noun: kombu, kelp",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1536 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Making soup stock; Choosing an onigiri filling; Souvenir from Hokkaido), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f94b56125612d0349c391ea2ae224dbf978477c8b43361bc75f7de6334a61c1a",
+        "approvalHash": "f50fb12d8c523aaac592618259b3a01f6181d8e07b19a1adbd70985129a0bcf9"
+      }
+    },
+    {
+      "id": "vocab-n3:1537",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1537",
+      "state": "accepted",
+      "predecessorHash": "2a697bd83241caa523f9162243f58a19275b7e4d22fa2642fdbbe2fdc6223072",
+      "originalHash": "2a697bd83241caa523f9162243f58a19275b7e4d22fa2642fdbbe2fdc6223072",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鰹節をかけます。",
+            "romaji": "Katsuobushi o kakemasu.",
+            "german": "Ich streue Bonito-Flocken darüber."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鰹節 ist gekochter, geräucherter und steinhart getrockneter Bonito; im Alltag kauft man ihn fast immer schon gehobelt als Flocken (削り節). Mit 昆布 ist er die Basis für 出汁: 鰹節で出汁を取る. Außerdem streut man ihn über Tofu, Okonomiyaki oder Gemüse: 鰹節をかける/のせる. Häufig wird er かつお節 oder ganz in Kana geschrieben.",
+        "examples": [
+          {
+            "japanese": "鰹節をかけます。",
+            "romaji": "Katsuobushi o kakemasu.",
+            "german": "Ich streue Bonito-Flocken darüber."
+          },
+          {
+            "japanese": "熱いお好み焼きの上で、鰹節が踊っているように見えます。",
+            "romaji": "Atsui okonomiyaki no ue de, katsuobushi ga odotte iru you ni miemasu.",
+            "german": "Auf dem heißen Okonomiyaki sieht es aus, als würden die Bonito-Flocken tanzen."
+          },
+          {
+            "japanese": "昆布と鰹節で出汁を取ると、味噌汁がおいしくなる。",
+            "romaji": "Konbu to katsuobushi de dashi o toru to, misoshiru ga oishiku naru.",
+            "german": "Wenn man die Brühe aus Kombu und Bonito zieht, schmeckt die Misosuppe besser."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95582218",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鰹節/カツオブシ; lemma 鰹節; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "鰹節",
+              "reading": "かつおぶし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鰹節/かつおぶし \"Bonito-Flocken\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1208860 sense 1, noun: katsuobushi, dried bonito (shavings) Pitch: Verified [0] via exact UniDic row. 鰹節 ist gekochter, geräucherter und steinhart getrockneter Bonito; im Alltag kauft man ihn fast immer schon gehobelt als Flocken (削り節). Mit 昆布 ist er die Basis für 出汁: 鰹節で出汁を取る. Außerdem streut man ihn über Tofu, Okonomiyaki oder Gemüse: 鰹節をかける/のせる. Häufig wird er かつお節 oder ganz in Kana geschrieben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1208860; spelling=鰹節; reading=かつおぶし",
+          "selected": {
+            "sequence": "1208860",
+            "spelling": "鰹節",
+            "reading": "かつおぶし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "katsuobushi",
+                  "pieces of sliced dried bonito"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1208860 sense 1, noun: katsuobushi, dried bonito (shavings)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 鰹節/カツオブシ; lemma 鰹節; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95582218",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鰹節/カツオブシ; lemma 鰹節; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "鰹節",
+              "reading": "かつおぶし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鰹節/かつおぶし \"Bonito-Flocken\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bonito-Flocken. JMdict 1208860 sense 1, noun: katsuobushi, dried bonito (shavings)",
+        "japanese": "鰹節をかけます。 / 熱いお好み焼きの上で、鰹節が踊っているように見えます。 / 昆布と鰹節で出汁を取ると、味噌汁がおいしくなる。",
+        "romanization": "katsuobushi; Katsuobushi o kakemasu. / Atsui okonomiyaki no ue de, katsuobushi ga odotte iru you ni miemasu. / Konbu to katsuobushi de dashi o toru to, misoshiru ga oishiku naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich streue Bonito-Flocken darüber. / Auf dem heißen Okonomiyaki sieht es aus, als würden die Bonito-Flocken tanzen. / Wenn man die Brühe aus Kombu und Bonito zieht, schmeckt die Misosuppe besser.",
+        "contexts": [
+          "Topping a dish",
+          "Dancing flakes on okonomiyaki",
+          "Making dashi for miso soup"
+        ],
+        "lexical": "JMdict 1208860 sense 1, noun: katsuobushi, dried bonito (shavings)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1537 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Topping a dish; Dancing flakes on okonomiyaki; Making dashi for miso soup), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "30673f3df44e92ac96e81f0adc70eec00b4823142c0725eb00ad9f9c8de93cea",
+        "approvalHash": "db920ca2589ab7f547f04b030b7d402a840b7a945e5d3167ef4ae3b1e64f9d97"
+      }
+    },
+    {
+      "id": "vocab-n3:1538",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1538",
+      "state": "accepted",
+      "predecessorHash": "81e9c479e2cf2630f76d9a3fd47a7c029b80185b3c5dfcf5d865e4297128ef47",
+      "originalHash": "81e9c479e2cf2630f76d9a3fd47a7c029b80185b3c5dfcf5d865e4297128ef47",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "糠漬けを作ります。",
+            "romaji": "Nukazuke o tsukurimasu.",
+            "german": "Ich mache Reiskleie-Pickles."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "糠 ist die Kleie, die beim Polieren von Reis abfällt, meist 米ぬか genannt und fast immer in Kana geschrieben. Bekannt ist sie vor allem durch ぬか漬け, in einem gärenden Kleiebett (ぬか床) eingelegtes Gemüse; die ぬか床 muss täglich umgerührt werden. Feste Wendungen sind ぬか喜び „verfrühte Freude“ und ぬかに釘 „wirkungslos, wie ein Nagel in Kleie“.",
+        "examples": [
+          {
+            "japanese": "糠漬けを作ります。",
+            "romaji": "Nukazuke o tsukurimasu.",
+            "german": "Ich mache Reiskleie-Pickles."
+          },
+          {
+            "japanese": "祖母は毎日ぬか床をかき混ぜている。",
+            "romaji": "Sobo wa mainichi nukadoko o kakimazete iru.",
+            "german": "Meine Großmutter rührt jeden Tag ihr Kleiebett für die Pickles um."
+          },
+          {
+            "japanese": "米ぬかは肌にいいと言われていて、昔から顔を洗うのに使われてきた。",
+            "romaji": "Komenuka wa hada ni ii to iwarete ite, mukashi kara kao o arau no ni tsukawarete kita.",
+            "german": "Reiskleie gilt als gut für die Haut und wird seit jeher zum Gesichtwaschen verwendet."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@203227084",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 糠/ヌカ; lemma 糠; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "糠",
+              "reading": "ぬか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 糠/ぬか \"Reiskleie\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1918540 sense 1, noun: rice bran Pitch: Verified [2,0] via exact UniDic row. 糠 ist die Kleie, die beim Polieren von Reis abfällt, meist 米ぬか genannt und fast immer in Kana geschrieben. Bekannt ist sie vor allem durch ぬか漬け, in einem gärenden Kleiebett (ぬか床) eingelegtes Gemüse; die ぬか床 muss täglich umgerührt werden. Feste Wendungen sind ぬか喜び „verfrühte Freude“ und ぬかに釘 „wirkungslos, wie ein Nagel in Kleie“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1918540; spelling=糠; reading=ぬか",
+          "selected": {
+            "sequence": "1918540",
+            "spelling": "糠",
+            "reading": "ぬか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rice bran"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1918540 sense 1, noun: rice bran"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2,0] via exact UniDic row. Exact whole 糠/ヌカ; lemma 糠; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@203227084",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 糠/ヌカ; lemma 糠; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "糠",
+              "reading": "ぬか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 糠/ぬか \"Reiskleie\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reiskleie. JMdict 1918540 sense 1, noun: rice bran",
+        "japanese": "糠漬けを作ります。 / 祖母は毎日ぬか床をかき混ぜている。 / 米ぬかは肌にいいと言われていて、昔から顔を洗うのに使われてきた。",
+        "romanization": "nuka; Nukazuke o tsukurimasu. / Sobo wa mainichi nukadoko o kakimazete iru. / Komenuka wa hada ni ii to iwarete ite, mukashi kara kao o arau no ni tsukawarete kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich mache Reiskleie-Pickles. / Meine Großmutter rührt jeden Tag ihr Kleiebett für die Pickles um. / Reiskleie gilt als gut für die Haut und wird seit jeher zum Gesichtwaschen verwendet.",
+        "contexts": [
+          "Making bran pickles",
+          "Daily care of the pickling bed",
+          "Traditional beauty use"
+        ],
+        "lexical": "JMdict 1918540 sense 1, noun: rice bran",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1538 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Making bran pickles; Daily care of the pickling bed; Traditional beauty use), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8c07c32d3be89fabfd8eb6575682ca85bfdd3378c9fa430fe7db90824188c095",
+        "approvalHash": "fb359a10f3b2bb028eab34560eab868d176272a796ff77f66f28a4f6df95529d"
+      }
+    },
+    {
+      "id": "vocab-n3:1539",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1539",
+      "state": "accepted",
+      "predecessorHash": "2a48a9318544ec910a9b95b5005ecd670918d2b90094928139c04b4399d9d93a",
+      "originalHash": "2a48a9318544ec910a9b95b5005ecd670918d2b90094928139c04b4399d9d93a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "餡子のお菓子が好きです。",
+            "romaji": "Anko no okashi ga suki desu.",
+            "german": "Ich mag Süßigkeiten mit Bohnenpaste."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "餡 (meist あん geschrieben) ist vor allem die süße Paste aus roten Azukibohnen; umgangssprachlich sagt man あんこ. Man unterscheidet つぶあん „mit ganzen Bohnen“ und こしあん „passiert, glatt“. Allgemeiner bezeichnet あん auch die Füllung von Teigtaschen (肉まんのあん) und eine mit Stärke angedickte Soße, wie in あんかけ. In Kanji sieht man das Wort fast nur auf Verpackungen.",
+        "examples": [
+          {
+            "japanese": "餡子のお菓子が好きです。",
+            "romaji": "Anko no okashi ga suki desu.",
+            "german": "Ich mag Süßigkeiten mit Bohnenpaste."
+          },
+          {
+            "japanese": "つぶあんとこしあん、どちらが好きですか。",
+            "romaji": "Tsubuan to koshian, dochira ga suki desu ka.",
+            "german": "Magst du lieber stückige oder glatte Bohnenpaste?"
+          },
+          {
+            "japanese": "中華料理店で、あんかけ焼きそばを注文した。",
+            "romaji": "Chuuka ryouriten de, ankake yakisoba o chuumon shita.",
+            "german": "Im chinesischen Restaurant habe ich gebratene Nudeln mit dicker Soße bestellt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@49792946",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 餡/アン; lemma 餡; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "餡",
+              "reading": "あん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 餡/あん \"rote Bohnenpaste\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1610575 senses 1-3, noun: sweet red bean paste (anko); also thickened sauce and filling Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 餡 (meist あん geschrieben) ist vor allem die süße Paste aus roten Azukibohnen; umgangssprachlich sagt man あんこ. Man unterscheidet つぶあん „mit ganzen Bohnen“ und こしあん „passiert, glatt“. Allgemeiner bezeichnet あん auch die Füllung von Teigtaschen (肉まんのあん) und eine mit Stärke angedickte Soße, wie in あんかけ. In Kanji sieht man das Wort fast nur auf Verpackungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1610575; spelling=餡; reading=あん",
+          "selected": {
+            "sequence": "1610575",
+            "spelling": "餡",
+            "reading": "あん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "red bean paste",
+                  "red bean jam",
+                  "anko"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "kudzu sauce"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "filling (of a dumpling, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "filling",
+                  "stuffing",
+                  "inside"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1610575 senses 1-3, noun: sweet red bean paste (anko); also thickened sauce and filling"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 餡/アン; lemma 餡; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@49792946",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 餡/アン; lemma 餡; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "餡",
+              "reading": "あん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 餡/あん \"rote Bohnenpaste\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "rote Bohnenpaste. JMdict 1610575 senses 1-3, noun: sweet red bean paste (anko); also thickened sauce and filling",
+        "japanese": "餡子のお菓子が好きです。 / つぶあんとこしあん、どちらが好きですか。 / 中華料理店で、あんかけ焼きそばを注文した。",
+        "romanization": "an; Anko no okashi ga suki desu. / Tsubuan to koshian, dochira ga suki desu ka. / Chuuka ryouriten de, ankake yakisoba o chuumon shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich mag Süßigkeiten mit Bohnenpaste. / Magst du lieber stückige oder glatte Bohnenpaste? / Im chinesischen Restaurant habe ich gebratene Nudeln mit dicker Soße bestellt.",
+        "contexts": [
+          "Liking sweets",
+          "Chunky vs smooth paste",
+          "Thick sauce on noodles"
+        ],
+        "lexical": "JMdict 1610575 senses 1-3, noun: sweet red bean paste (anko); also thickened sauce and filling",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1539 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Liking sweets; Chunky vs smooth paste; Thick sauce on noodles), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5a649a328fbbb83c844116075dd2d6eb780fbd412d8cad32129e3ad55a1b11a0",
+        "approvalHash": "38d20c8a8e84404a17e0bfba8326b0b06a6cc0714aed38b2f448afb18831b391"
+      }
+    },
+    {
+      "id": "vocab-n3:1540",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1540",
+      "state": "accepted",
+      "predecessorHash": "a176b8054678f339116f32fe0c084f38682ef3ca08083d12484266bf49302d05",
+      "originalHash": "a176b8054678f339116f32fe0c084f38682ef3ca08083d12484266bf49302d05",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お花見で団子を食べます。",
+            "romaji": "Ohanami de dango o tabemasu.",
+            "german": "Bei der Kirschblütenschau esse ich Dango."
+          }
+        ],
+        "meaning": "Reisklösse, Dango",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "団子 sind kleine runde Klößchen aus Reismehl, oft zu dritt oder viert auf einem Spieß, z. B. みたらし団子 mit süßer Sojasoße oder 三色団子 zur Kirschblüte. Das Sprichwort 花より団子 „Klöße statt Blüten“ bedeutet, dass einem Praktisches wichtiger ist als Schönes. Übertragen steht 団子 für etwas Rundes oder einen dichten Haufen: 団子になる „sich zusammenballen“, お団子ヘア „Haarknoten“. Gezählt werden Spieße mit 本.",
+        "examples": [
+          {
+            "japanese": "お花見で団子を食べます。",
+            "romaji": "Ohanami de dango o tabemasu.",
+            "german": "Bei der Kirschblütenschau esse ich Dango."
+          },
+          {
+            "japanese": "駅前の和菓子屋でみたらし団子を三本買った。",
+            "romaji": "Ekimae no wagashiya de mitarashi dango o sanbon katta.",
+            "german": "Im Süßwarenladen am Bahnhof habe ich drei Spieße Mitarashi-Dango gekauft."
+          },
+          {
+            "japanese": "子供たちはボールを追いかけて、団子になって走っている。",
+            "romaji": "Kodomotachi wa booru o oikakete, dango ni natte hashitte iru.",
+            "german": "Die Kinder rennen in einem dichten Pulk dem Ball hinterher."
+          }
+        ],
+        "meaning": "Reisklöße, Dango",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168081888",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 団子/ダンゴ; lemma 団子; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "団子",
+              "reading": "だんご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 団子/だんご \"Reisklösse, Dango\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1419240 senses 1 and 3, noun: dango, sweet rice dumpling; lump, tight crowd Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 団子 sind kleine runde Klößchen aus Reismehl, oft zu dritt oder viert auf einem Spieß, z. B. みたらし団子 mit süßer Sojasoße oder 三色団子 zur Kirschblüte. Das Sprichwort 花より団子 „Klöße statt Blüten“ bedeutet, dass einem Praktisches wichtiger ist als Schönes. Übertragen steht 団子 für etwas Rundes oder einen dichten Haufen: 団子になる „sich zusammenballen“, お団子ヘア „Haarknoten“. Gezählt werden Spieße mit 本. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1419240; spelling=団子; reading=だんご",
+          "selected": {
+            "sequence": "1419240",
+            "spelling": "団子",
+            "reading": "だんご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dango",
+                  "dumpling (usu. sweet)",
+                  "doughboy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ball-shaped object",
+                  "something round"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lump",
+                  "group",
+                  "bunch",
+                  "knot",
+                  "tight crowd"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dango",
+                  "inefficient clump of stones"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1419240 senses 1 and 3, noun: dango, sweet rice dumpling; lump, tight crowd"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 団子/ダンゴ; lemma 団子; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168081888",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 団子/ダンゴ; lemma 団子; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "団子",
+              "reading": "だんご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 団子/だんご \"Reisklösse, Dango\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reisklöße, Dango. JMdict 1419240 senses 1 and 3, noun: dango, sweet rice dumpling; lump, tight crowd",
+        "japanese": "お花見で団子を食べます。 / 駅前の和菓子屋でみたらし団子を三本買った。 / 子供たちはボールを追いかけて、団子になって走っている。",
+        "romanization": "dango; Ohanami de dango o tabemasu. / Ekimae no wagashiya de mitarashi dango o sanbon katta. / Kodomotachi wa booru o oikakete, dango ni natte hashitte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei der Kirschblütenschau esse ich Dango. / Im Süßwarenladen am Bahnhof habe ich drei Spieße Mitarashi-Dango gekauft. / Die Kinder rennen in einem dichten Pulk dem Ball hinterher.",
+        "contexts": [
+          "Cherry blossom viewing",
+          "Buying skewers at a sweet shop",
+          "Kids clumping together in a game"
+        ],
+        "lexical": "JMdict 1419240 senses 1 and 3, noun: dango, sweet rice dumpling; lump, tight crowd",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1540 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cherry blossom viewing; Buying skewers at a sweet shop; Kids clumping together in a game), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "80a2d22d9ef5d4aab69e0c063304cc0ab04d34c6ac0f7e61a7adee6be77f689e",
+        "approvalHash": "0bd8981e791c4961b10bf9e219ac9998d6d7d4451091c8ecab3b43809cc9e2d5"
+      }
+    },
+    {
+      "id": "vocab-n3:1541",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1541",
+      "state": "accepted",
+      "predecessorHash": "ab1f1b5bd9ce1a5570aa816d55116f30de5e56ca622fcce7470e5752a0ac4daa",
+      "originalHash": "ab1f1b5bd9ce1a5570aa816d55116f30de5e56ca622fcce7470e5752a0ac4daa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "いちご大福が好きです。",
+            "romaji": "Ichigo daifuku ga suki desu.",
+            "german": "Ich mag Erdbeer-Daifuku."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大福 ist die Kurzform von 大福餅: weicher Mochi-Teig, gefüllt mit süßer Bohnenpaste. Beliebte Varianten sind いちご大福 mit einer ganzen Erdbeere und 豆大福 mit Bohnen im Teig. Die wörtliche Bedeutung „großes Glück“ kommt im Alltag praktisch nur noch in Namen vor. Wie alle Mochi-Süßigkeiten ist 大福 sehr zäh, weshalb man vor allem bei älteren Menschen vor dem Verschlucken warnt.",
+        "examples": [
+          {
+            "japanese": "いちご大福が好きです。",
+            "romaji": "Ichigo daifuku ga suki desu.",
+            "german": "Ich mag Erdbeer-Daifuku."
+          },
+          {
+            "japanese": "お茶の時間に、豆大福を半分ずつ食べた。",
+            "romaji": "Ocha no jikan ni, mamedaifuku o hanbun zutsu tabeta.",
+            "german": "Zur Teepause haben wir uns ein Bohnen-Daifuku geteilt."
+          },
+          {
+            "japanese": "大福は柔らかいので、お年寄りはのどに詰まらせないように気をつけてください。",
+            "romaji": "Daifuku wa yawarakai node, otoshiyori wa nodo ni tsumarasenai you ni ki o tsukete kudasai.",
+            "german": "Daifuku ist sehr weich und klebrig, ältere Menschen sollten aufpassen, dass sie sich nicht verschlucken."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166903044",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Exact whole 大福/ダイフク; lemma 大福; 名詞/普通名詞/一般/*; *; *; aType 4. Rejected for this role: 大福/ダイフク; lemma ダイフク; 名詞/固有名詞/人名/姓; *; *; aType 0.",
+            "match": {
+              "word": "大福",
+              "reading": "だいふく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大福/だいふく \"Daifuku (gefüllter Reiskuchen)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1623450 sense 2, noun: daifuku, rice cake stuffed with bean jam (abbr. of 大福餅) Pitch: Verified [4] via exact UniDic row; stored primary 0 corrected to 4. 大福 ist die Kurzform von 大福餅: weicher Mochi-Teig, gefüllt mit süßer Bohnenpaste. Beliebte Varianten sind いちご大福 mit einer ganzen Erdbeere und 豆大福 mit Bohnen im Teig. Die wörtliche Bedeutung „großes Glück“ kommt im Alltag praktisch nur noch in Namen vor. Wie alle Mochi-Süßigkeiten ist 大福 sehr zäh, weshalb man vor allem bei älteren Menschen vor dem Verschlucken warnt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1623450; spelling=大福; reading=だいふく",
+          "selected": {
+            "sequence": "1623450",
+            "spelling": "大福",
+            "reading": "だいふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "great fortune",
+                  "good luck"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "rice cake stuffed with bean jam"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1623450 sense 2, noun: daifuku, rice cake stuffed with bean jam (abbr. of 大福餅)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [4] via exact UniDic row; stored primary 0 corrected to 4. Exact whole 大福/ダイフク; lemma 大福; 名詞/普通名詞/一般/*; *; *; aType 4. Rejected for this role: 大福/ダイフク; lemma ダイフク; 名詞/固有名詞/人名/姓; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166903044",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4
+            ],
+            "finding": "Exact whole 大福/ダイフク; lemma 大福; 名詞/普通名詞/一般/*; *; *; aType 4. Rejected for this role: 大福/ダイフク; lemma ダイフク; 名詞/固有名詞/人名/姓; *; *; aType 0.",
+            "match": {
+              "word": "大福",
+              "reading": "だいふく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大福/だいふく \"Daifuku (gefüllter Reiskuchen)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Daifuku (gefüllter Reiskuchen). JMdict 1623450 sense 2, noun: daifuku, rice cake stuffed with bean jam (abbr. of 大福餅)",
+        "japanese": "いちご大福が好きです。 / お茶の時間に、豆大福を半分ずつ食べた。 / 大福は柔らかいので、お年寄りはのどに詰まらせないように気をつけてください。",
+        "romanization": "daifuku; Ichigo daifuku ga suki desu. / Ocha no jikan ni, mamedaifuku o hanbun zutsu tabeta. / Daifuku wa yawarakai node, otoshiyori wa nodo ni tsumarasenai you ni ki o tsukete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich mag Erdbeer-Daifuku. / Zur Teepause haben wir uns ein Bohnen-Daifuku geteilt. / Daifuku ist sehr weich und klebrig, ältere Menschen sollten aufpassen, dass sie sich nicht verschlucken.",
+        "contexts": [
+          "Favourite sweet",
+          "Sharing at tea time",
+          "Choking warning for the elderly"
+        ],
+        "lexical": "JMdict 1623450 sense 2, noun: daifuku, rice cake stuffed with bean jam (abbr. of 大福餅)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1541 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Favourite sweet; Sharing at tea time; Choking warning for the elderly), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "33e2430a2c8c90c7ecc374d24f0cef4409481f775b91c365b696d3d9c06779da",
+        "approvalHash": "96730cc94f88df717732d7b0adbd419063b571ab600af3254cb9e53e57c5e52e"
+      }
+    },
+    {
+      "id": "vocab-n3:1542",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1542",
+      "state": "accepted",
+      "predecessorHash": "4703cf44de70f58b7aa2fccdcd85bc7177caccc8db0ad461e9d8882fd59c68a8",
+      "originalHash": "4703cf44de70f58b7aa2fccdcd85bc7177caccc8db0ad461e9d8882fd59c68a8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "抹茶に羊羹が合います。",
+            "romaji": "Matcha ni youkan ga aimasu.",
+            "german": "Youkan passt gut zu Matcha."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "羊羹 ist ein fester, schnittfähiger Block aus Bohnenpaste, Agar und Zucker, oft auch ようかん geschrieben. Klassisch ist 練り羊羹; im Sommer isst man den weicheren, gekühlten 水羊羹. Man schneidet ihn in Scheiben (羊羹を切る) und serviert ihn zu grünem Tee. Weil er lange haltbar ist, ist er ein beliebtes Geschenk und Notvorrat.",
+        "examples": [
+          {
+            "japanese": "抹茶に羊羹が合います。",
+            "romaji": "Matcha ni youkan ga aimasu.",
+            "german": "Youkan passt gut zu Matcha."
+          },
+          {
+            "japanese": "夏は冷やした水羊羹がおいしい。",
+            "romaji": "Natsu wa hiyashita mizuyoukan ga oishii.",
+            "german": "Im Sommer schmeckt gekühlter Mizu-Youkan richtig gut."
+          },
+          {
+            "japanese": "祖父の家に行くと、いつも厚く切った羊羹が出てくる。",
+            "romaji": "Sofu no ie ni iku to, itsumo atsuku kitta youkan ga dete kuru.",
+            "german": "Wenn ich meinen Großvater besuche, gibt es immer dick geschnittenen Youkan."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272918916",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 羊羹/ヨウカン; lemma 羊羹; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "羊羹",
+              "reading": "ようかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 羊羹/ようかん \"Youkan (Bohnenpaste-Gelee)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1546540 sense 1, noun: yōkan, jellied red bean dessert Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 羊羹 ist ein fester, schnittfähiger Block aus Bohnenpaste, Agar und Zucker, oft auch ようかん geschrieben. Klassisch ist 練り羊羹; im Sommer isst man den weicheren, gekühlten 水羊羹. Man schneidet ihn in Scheiben (羊羹を切る) und serviert ihn zu grünem Tee. Weil er lange haltbar ist, ist er ein beliebtes Geschenk und Notvorrat. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1546540; spelling=羊羹; reading=ようかん",
+          "selected": {
+            "sequence": "1546540",
+            "spelling": "羊羹",
+            "reading": "ようかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "yōkan",
+                  "jellied dessert made from red bean paste, agar, and sugar"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1546540 sense 1, noun: yōkan, jellied red bean dessert"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 羊羹/ヨウカン; lemma 羊羹; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@272918916",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 羊羹/ヨウカン; lemma 羊羹; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "羊羹",
+              "reading": "ようかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 羊羹/ようかん \"Youkan (Bohnenpaste-Gelee)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Youkan (Bohnenpaste-Gelee). JMdict 1546540 sense 1, noun: yōkan, jellied red bean dessert",
+        "japanese": "抹茶に羊羹が合います。 / 夏は冷やした水羊羹がおいしい。 / 祖父の家に行くと、いつも厚く切った羊羹が出てくる。",
+        "romanization": "youkan; Matcha ni youkan ga aimasu. / Natsu wa hiyashita mizuyoukan ga oishii. / Sofu no ie ni iku to, itsumo atsuku kitta youkan ga dete kuru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Youkan passt gut zu Matcha. / Im Sommer schmeckt gekühlter Mizu-Youkan richtig gut. / Wenn ich meinen Großvater besuche, gibt es immer dick geschnittenen Youkan.",
+        "contexts": [
+          "Pairing with tea",
+          "Summer variant",
+          "Visiting grandfather"
+        ],
+        "lexical": "JMdict 1546540 sense 1, noun: yōkan, jellied red bean dessert",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1542 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Pairing with tea; Summer variant; Visiting grandfather), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "90f9bb3125785211f827a9fc61323c249883d1eaa6a289ca56199196ef2ba333",
+        "approvalHash": "9588a69fcce50db6a99bd660d658ea3eda7c9875fca0dad63acf2c611a85e080"
+      }
+    },
+    {
+      "id": "vocab-n3:1543",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1543",
+      "state": "accepted",
+      "predecessorHash": "ac7044ccf309fae6618b08b022ac3d71005d3d29a008ac6bf796417762aedc11",
+      "originalHash": "ac7044ccf309fae6618b08b022ac3d71005d3d29a008ac6bf796417762aedc11",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "温泉饅頭をお土産に買いました。",
+            "romaji": "Onsen manjuu o omiyage ni kaimashita.",
+            "german": "Ich habe Onsen-Manjuu als Souvenir gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "饅頭 ist ein kleines gedämpftes oder gebackenes Brötchen, in Japan meist mit süßer Bohnenpaste gefüllt; höflich sagt man お饅頭 und schreibt oft まんじゅう. Fast jeder Kurort verkauft 温泉饅頭 als typisches Mitbringsel, daneben gibt es z. B. 栗饅頭. Herzhafte chinesische Varianten heißen dagegen 中華まん oder 肉まん. Die Teighülle nennt man 皮, die Füllung あん.",
+        "examples": [
+          {
+            "japanese": "温泉饅頭をお土産に買いました。",
+            "romaji": "Onsen manjuu o omiyage ni kaimashita.",
+            "german": "Ich habe Onsen-Manjuu als Souvenir gekauft."
+          },
+          {
+            "japanese": "お客さんにお茶とお饅頭を出した。",
+            "romaji": "Okyakusan ni ocha to omanjuu o dashita.",
+            "german": "Ich habe den Gästen Tee und Manjuu serviert."
+          },
+          {
+            "japanese": "この饅頭は皮が薄くて、中のあんがたっぷり入っている。",
+            "romaji": "Kono manjuu wa kawa ga usukute, naka no an ga tappuri haitte iru.",
+            "german": "Dieses Manjuu hat eine dünne Hülle und ist reichlich mit Bohnenpaste gefüllt."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253206237",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 饅頭/マンジュウ; lemma 饅頭; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "饅頭",
+              "reading": "まんじゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 饅頭/まんじゅう \"Manjuu (gedämpftes Brötchen)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1574480 sense 1, noun: manjū, steamed bun with filling Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 饅頭 ist ein kleines gedämpftes oder gebackenes Brötchen, in Japan meist mit süßer Bohnenpaste gefüllt; höflich sagt man お饅頭 und schreibt oft まんじゅう. Fast jeder Kurort verkauft 温泉饅頭 als typisches Mitbringsel, daneben gibt es z. B. 栗饅頭. Herzhafte chinesische Varianten heißen dagegen 中華まん oder 肉まん. Die Teighülle nennt man 皮, die Füllung あん. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1574480; spelling=饅頭; reading=まんじゅう",
+          "selected": {
+            "sequence": "1574480",
+            "spelling": "饅頭",
+            "reading": "まんじゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "manjū",
+                  "steamed yeast bun with filling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1574480 sense 1, noun: manjū, steamed bun with filling"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 饅頭/マンジュウ; lemma 饅頭; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253206237",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 饅頭/マンジュウ; lemma 饅頭; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "饅頭",
+              "reading": "まんじゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 饅頭/まんじゅう \"Manjuu (gedämpftes Brötchen)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Manjuu (gedämpftes Brötchen). JMdict 1574480 sense 1, noun: manjū, steamed bun with filling",
+        "japanese": "温泉饅頭をお土産に買いました。 / お客さんにお茶とお饅頭を出した。 / この饅頭は皮が薄くて、中のあんがたっぷり入っている。",
+        "romanization": "manjuu; Onsen manjuu o omiyage ni kaimashita. / Okyakusan ni ocha to omanjuu o dashita. / Kono manjuu wa kawa ga usukute, naka no an ga tappuri haitte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Onsen-Manjuu als Souvenir gekauft. / Ich habe den Gästen Tee und Manjuu serviert. / Dieses Manjuu hat eine dünne Hülle und ist reichlich mit Bohnenpaste gefüllt.",
+        "contexts": [
+          "Hot-spring souvenir",
+          "Serving guests",
+          "Describing the filling"
+        ],
+        "lexical": "JMdict 1574480 sense 1, noun: manjū, steamed bun with filling",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1543 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hot-spring souvenir; Serving guests; Describing the filling), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "cebe3be7a16cb846922c3613e087908f0422c6ceed40d231ef1f88bb7e1ebc13",
+        "approvalHash": "1ec7840ace4f309b181fc1619b4f2d2d70c09c0812289f7f94f792e98d2e8cf3"
+      }
+    },
+    {
+      "id": "vocab-n3:1544",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1544",
+      "state": "accepted",
+      "predecessorHash": "347f4810d4dac041664276e381a100d2bef13b2e75eb8e69a413e4801656ec65",
+      "originalHash": "347f4810d4dac041664276e381a100d2bef13b2e75eb8e69a413e4801656ec65",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "最中をお茶と一緒にいただきます。",
+            "romaji": "Monaka o ocha to issho ni itadakimasu.",
+            "german": "Ich geniesse Monaka zusammen mit Tee."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Mit der Lesung もなか ist 最中 eine Süßigkeit aus zwei knusprigen Waffelschalen aus Reisteig, gefüllt mit Bohnenpaste. Vorsicht: Dieselben Kanji werden viel häufiger さいちゅう gelesen und bedeuten „mitten in“ (食事の最中に). Deshalb schreiben Geschäfte die Süßigkeit oft もなか in Kana. Eine moderne Variante ist アイス最中 mit Eiscreme statt Bohnenpaste.",
+        "examples": [
+          {
+            "japanese": "最中をお茶と一緒にいただきます。",
+            "romaji": "Monaka o ocha to issho ni itadakimasu.",
+            "german": "Ich genieße Monaka zusammen mit Tee."
+          },
+          {
+            "japanese": "この最中は皮がパリッとしていておいしい。",
+            "romaji": "Kono monaka wa kawa ga paritto shite ite oishii.",
+            "german": "Bei diesem Monaka ist die Waffelhülle schön knusprig, sehr lecker."
+          },
+          {
+            "japanese": "アイス最中は、皮が手につかないので食べやすい。",
+            "romaji": "Aisu monaka wa, kawa ga te ni tsukanai node tabeyasui.",
+            "german": "Eis-Monaka lässt sich gut essen, weil die Waffel nicht an den Händen klebt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265247262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 最中/モナカ; lemma 最中; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "最中",
+              "reading": "もなか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 最中/もなか \"Monaka (Waffelgebäck mit Bohnenpaste)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1721230 sense 1, noun: monaka, wafer cake filled with bean jam Pitch: Verified [1] via exact UniDic row. Mit der Lesung もなか ist 最中 eine Süßigkeit aus zwei knusprigen Waffelschalen aus Reisteig, gefüllt mit Bohnenpaste. Vorsicht: Dieselben Kanji werden viel häufiger さいちゅう gelesen und bedeuten „mitten in“ (食事の最中に). Deshalb schreiben Geschäfte die Süßigkeit oft もなか in Kana. Eine moderne Variante ist アイス最中 mit Eiscreme statt Bohnenpaste. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1721230; spelling=最中; reading=もなか",
+          "selected": {
+            "sequence": "1721230",
+            "spelling": "最中",
+            "reading": "もなか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wafer cake filled with bean jam"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "poetical term"
+                ],
+                "gloss": [
+                  "(in) the middle of",
+                  "(in) the midst of",
+                  "(in) the course of",
+                  "(at) the height of"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1721230 sense 1, noun: monaka, wafer cake filled with bean jam"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 最中/モナカ; lemma 最中; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@265247262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 最中/モナカ; lemma 最中; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "最中",
+              "reading": "もなか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 最中/もなか \"Monaka (Waffelgebäck mit Bohnenpaste)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Monaka (Waffelgebäck mit Bohnenpaste). JMdict 1721230 sense 1, noun: monaka, wafer cake filled with bean jam",
+        "japanese": "最中をお茶と一緒にいただきます。 / この最中は皮がパリッとしていておいしい。 / アイス最中は、皮が手につかないので食べやすい。",
+        "romanization": "monaka; Monaka o ocha to issho ni itadakimasu. / Kono monaka wa kawa ga paritto shite ite oishii. / Aisu monaka wa, kawa ga te ni tsukanai node tabeyasui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich genieße Monaka zusammen mit Tee. / Bei diesem Monaka ist die Waffelhülle schön knusprig, sehr lecker. / Eis-Monaka lässt sich gut essen, weil die Waffel nicht an den Händen klebt.",
+        "contexts": [
+          "Sweets with tea",
+          "Crispy wafer shell",
+          "Ice cream variant"
+        ],
+        "lexical": "JMdict 1721230 sense 1, noun: monaka, wafer cake filled with bean jam",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1544 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sweets with tea; Crispy wafer shell; Ice cream variant), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "692ba50d2995278bc982d85a57b6cb93807d8b2327a2e6800b587e65635bfabe",
+        "approvalHash": "0315a0b3010bc64f24369aa364735d9bea9efb206dd9c188c407237fbeff1d1a"
+      }
+    },
+    {
+      "id": "vocab-n3:1545",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1545",
+      "state": "accepted",
+      "predecessorHash": "c783c4d358f7ae2724cba016e639c437c32d28aa65b173f7d1a1eeea16bb9d66",
+      "originalHash": "c783c4d358f7ae2724cba016e639c437c32d28aa65b173f7d1a1eeea16bb9d66",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "金平糖は星のような形です。",
+            "romaji": "Konpeitou wa hoshi no you na katachi desu.",
+            "german": "Konpeitou hat eine sternähnliche Form."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "金平糖 sind kleine, bunte Zuckerkügelchen mit stacheligen Ausbuchtungen, die wie Sterne aussehen. Das Wort stammt vom portugiesischen „confeito“; die Kanji sind nur lautlich gewählt (Ateji), daher schreibt man es meist こんぺいとう oder コンペイトウ. Die Herstellung von Hand dauert mehrere Wochen, weil Zuckersirup Schicht für Schicht aufgetragen wird. Es ist ein traditionelles Mitbringsel und Geschenk.",
+        "examples": [
+          {
+            "japanese": "金平糖は星のような形です。",
+            "romaji": "Konpeitou wa hoshi no you na katachi desu.",
+            "german": "Konpeitou hat eine sternähnliche Form."
+          },
+          {
+            "japanese": "瓶に入ったカラフルな金平糖をお土産にもらった。",
+            "romaji": "Bin ni haitta karafuru na konpeitou o omiyage ni moratta.",
+            "german": "Ich habe ein Glas mit bunten Konpeitou als Mitbringsel bekommen."
+          },
+          {
+            "japanese": "金平糖は作るのに二週間ぐらいかかるそうです。",
+            "romaji": "Konpeitou wa tsukuru no ni nishuukan gurai kakaru sou desu.",
+            "german": "Angeblich dauert die Herstellung von Konpeitou etwa zwei Wochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126108515",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 金平糖/コンペイトウ; lemma コンペイトー-confeito; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "金平糖",
+              "reading": "こんぺいとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 金平糖/こんぺいとう \"Konpeitou (Zuckerbonbons)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1243180 sense 1, noun: konpeitō, small sugar candy covered with tiny bulges Pitch: Verified [0] via exact UniDic row. 金平糖 sind kleine, bunte Zuckerkügelchen mit stacheligen Ausbuchtungen, die wie Sterne aussehen. Das Wort stammt vom portugiesischen „confeito“; die Kanji sind nur lautlich gewählt (Ateji), daher schreibt man es meist こんぺいとう oder コンペイトウ. Die Herstellung von Hand dauert mehrere Wochen, weil Zuckersirup Schicht für Schicht aufgetragen wird. Es ist ein traditionelles Mitbringsel und Geschenk. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1243180; spelling=金平糖; reading=こんぺいとう",
+          "finding": "JMdict 1243180 sense 1, noun: konpeitō, small sugar candy covered with tiny bulges"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 金平糖/コンペイトウ; lemma コンペイトー-confeito; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126108515",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 金平糖/コンペイトウ; lemma コンペイトー-confeito; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "金平糖",
+              "reading": "こんぺいとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 金平糖/こんぺいとう \"Konpeitou (Zuckerbonbons)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Konpeitou (Zuckerbonbons). JMdict 1243180 sense 1, noun: konpeitō, small sugar candy covered with tiny bulges",
+        "japanese": "金平糖は星のような形です。 / 瓶に入ったカラフルな金平糖をお土産にもらった。 / 金平糖は作るのに二週間ぐらいかかるそうです。",
+        "romanization": "konpeitou; Konpeitou wa hoshi no you na katachi desu. / Bin ni haitta karafuru na konpeitou o omiyage ni moratta. / Konpeitou wa tsukuru no ni nishuukan gurai kakaru sou desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Konpeitou hat eine sternähnliche Form. / Ich habe ein Glas mit bunten Konpeitou als Mitbringsel bekommen. / Angeblich dauert die Herstellung von Konpeitou etwa zwei Wochen.",
+        "contexts": [
+          "Describing the shape",
+          "Receiving a gift jar",
+          "How long it takes to make"
+        ],
+        "lexical": "JMdict 1243180 sense 1, noun: konpeitō, small sugar candy covered with tiny bulges",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1545 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing the shape; Receiving a gift jar; How long it takes to make), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2555be7d18242e72ca9d1686fc3f2c24fcd05d36d64fba725ac2b34d27223e1d",
+        "approvalHash": "9a69f548cb5f30f9a8ae1f539004a668fd18035bff36f1339b3d534d8c903272"
+      }
+    },
+    {
+      "id": "vocab-n3:1546",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1546",
+      "state": "accepted",
+      "predecessorHash": "1e90344305a9e6478ab51e2cc3c0914b80345f0df8b387c03d96e3aaf611cead",
+      "originalHash": "1e90344305a9e6478ab51e2cc3c0914b80345f0df8b387c03d96e3aaf611cead",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "夏には冷たい葛餅が美味しい。",
+            "romaji": "Natsu ni wa tsumetai kuzumochi ga oishii.",
+            "german": "Im Sommer ist kaltes Kuzu-Mochi lecker."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "葛餅 ist eine durchscheinende, weich-elastische Süßigkeit, traditionell aus Kudzu-Stärke (葛粉), die man mit きな粉 „geröstetem Sojamehl“ und 黒蜜 „dunklem Zuckersirup“ isst. Im Raum Tokio heißt eine ähnliche, aber trübe Sorte aus fermentierter Weizenstärke ebenfalls くず餅, bekannt etwa aus Kawasaki. Es wird gern gekühlt im Sommer gegessen. Das Wort wird auch くず餅 geschrieben.",
+        "examples": [
+          {
+            "japanese": "夏には冷たい葛餅が美味しい。",
+            "romaji": "Natsu ni wa tsumetai kuzumochi ga oishii.",
+            "german": "Im Sommer ist kaltes Kuzu-Mochi lecker."
+          },
+          {
+            "japanese": "葛餅にきな粉と黒蜜をかけて食べた。",
+            "romaji": "Kuzumochi ni kinako to kuromitsu o kakete tabeta.",
+            "german": "Ich habe das Kuzumochi mit Sojamehl und dunklem Zuckersirup gegessen."
+          },
+          {
+            "japanese": "川崎大師のお土産といえば、葛餅が有名です。",
+            "romaji": "Kawasaki Daishi no omiyage to ieba, kuzumochi ga yuumei desu.",
+            "german": "Wenn es um Mitbringsel vom Kawasaki-Daishi-Tempel geht, ist Kuzumochi berühmt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@111462197",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 葛餅/クズモチ; lemma 葛餅; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "葛餅",
+              "reading": "くずもち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 葛餅/くずもち \"Kuzu-Mochi (Pfeilwurz-Gelee)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1778820 sense 1, noun: kudzu starch cake (kuzumochi) Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 葛餅 ist eine durchscheinende, weich-elastische Süßigkeit, traditionell aus Kudzu-Stärke (葛粉), die man mit きな粉 „geröstetem Sojamehl“ und 黒蜜 „dunklem Zuckersirup“ isst. Im Raum Tokio heißt eine ähnliche, aber trübe Sorte aus fermentierter Weizenstärke ebenfalls くず餅, bekannt etwa aus Kawasaki. Es wird gern gekühlt im Sommer gegessen. Das Wort wird auch くず餅 geschrieben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1778820; spelling=葛餅; reading=くずもち",
+          "selected": {
+            "sequence": "1778820",
+            "spelling": "葛餅",
+            "reading": "くずもち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kudzu starch cake",
+                  "pudding-like arrowroot cake"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1778820 sense 1, noun: kudzu starch cake (kuzumochi)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 葛餅/クズモチ; lemma 葛餅; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@111462197",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 葛餅/クズモチ; lemma 葛餅; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "葛餅",
+              "reading": "くずもち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 葛餅/くずもち \"Kuzu-Mochi (Pfeilwurz-Gelee)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kuzu-Mochi (Pfeilwurz-Gelee). JMdict 1778820 sense 1, noun: kudzu starch cake (kuzumochi)",
+        "japanese": "夏には冷たい葛餅が美味しい。 / 葛餅にきな粉と黒蜜をかけて食べた。 / 川崎大師のお土産といえば、葛餅が有名です。",
+        "romanization": "kuzumochi; Natsu ni wa tsumetai kuzumochi ga oishii. / Kuzumochi ni kinako to kuromitsu o kakete tabeta. / Kawasaki Daishi no omiyage to ieba, kuzumochi ga yuumei desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Sommer ist kaltes Kuzu-Mochi lecker. / Ich habe das Kuzumochi mit Sojamehl und dunklem Zuckersirup gegessen. / Wenn es um Mitbringsel vom Kawasaki-Daishi-Tempel geht, ist Kuzumochi berühmt.",
+        "contexts": [
+          "Cool summer dessert",
+          "Typical toppings",
+          "Famous temple souvenir"
+        ],
+        "lexical": "JMdict 1778820 sense 1, noun: kudzu starch cake (kuzumochi)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1546 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cool summer dessert; Typical toppings; Famous temple souvenir), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1cfbac74f9b17a2547266b0c5a9b495d6d8c09c3b0438df54ad504721217ec72",
+        "approvalHash": "f44bd9f5909cb60d930572158f3ec4d2afbf551a0da66b220b27e246aed83c38"
+      }
+    },
+    {
+      "id": "vocab-n3:1547",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1547",
+      "state": "accepted",
+      "predecessorHash": "d540f0971401c67546d20e0283e0754b277a2a9da29b1312f4c8136b6657d317",
+      "originalHash": "d540f0971401c67546d20e0283e0754b277a2a9da29b1312f4c8136b6657d317",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "懐石料理を予約しました。",
+            "romaji": "Kaiseki ryouri o yoyaku shimashita.",
+            "german": "Ich habe Kaiseki reserviert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "懐石料理 war ursprünglich das schlichte Essen vor der Teezeremonie (茶懐石); heute versteht man darunter meist ein gehobenes Menü mit vielen kleinen, saisonalen Gängen, die nacheinander serviert werden. Man isst es in Ryokans oder 料亭. Gleich ausgesprochen, aber anders geschrieben ist 会席料理, ein Bankettmenü, bei dem Alkohol im Vordergrund steht; beide werden oft verwechselt.",
+        "examples": [
+          {
+            "japanese": "懐石料理を予約しました。",
+            "romaji": "Kaiseki ryouri o yoyaku shimashita.",
+            "german": "Ich habe Kaiseki reserviert."
+          },
+          {
+            "japanese": "旅館の夕食は、季節の食材を使った懐石料理だった。",
+            "romaji": "Ryokan no yuushoku wa, kisetsu no shokuzai o tsukatta kaiseki ryouri datta.",
+            "german": "Das Abendessen im Ryokan war ein Kaiseki-Menü mit saisonalen Zutaten."
+          },
+          {
+            "japanese": "懐石料理は一品ずつ順番に出てくるので、時間がかかる。",
+            "romaji": "Kaiseki ryouri wa ippin zutsu junban ni dete kuru node, jikan ga kakaru.",
+            "german": "Ein Kaiseki-Menü dauert lange, weil die Gerichte einzeln nacheinander kommen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1200570 senses 1-2, noun: traditional Japanese multi-course meal; tea-ceremony dishes Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 懐石料理 war ursprünglich das schlichte Essen vor der Teezeremonie (茶懐石); heute versteht man darunter meist ein gehobenes Menü mit vielen kleinen, saisonalen Gängen, die nacheinander serviert werden. Man isst es in Ryokans oder 料亭. Gleich ausgesprochen, aber anders geschrieben ist 会席料理, ein Bankettmenü, bei dem Alkohol im Vordergrund steht; beide werden oft verwechselt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1200570; spelling=懐石料理; reading=かいせきりょうり",
+          "selected": {
+            "sequence": "1200570",
+            "spelling": "懐石料理",
+            "reading": "かいせきりょうり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "traditional Japanese meal brought in courses"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tea-ceremony dishes"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1200570 senses 1-2, noun: traditional Japanese multi-course meal; tea-ceremony dishes"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 懐石料理/かいせきりょうり scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%87%90%E7%9F%B3%E6%96%99%E7%90%86",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 懐石料理/かいせきりょうり scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kaiseki (hochklassige japanische Küche). JMdict 1200570 senses 1-2, noun: traditional Japanese multi-course meal; tea-ceremony dishes",
+        "japanese": "懐石料理を予約しました。 / 旅館の夕食は、季節の食材を使った懐石料理だった。 / 懐石料理は一品ずつ順番に出てくるので、時間がかかる。",
+        "romanization": "kaiseki ryouri; Kaiseki ryouri o yoyaku shimashita. / Ryokan no yuushoku wa, kisetsu no shokuzai o tsukatta kaiseki ryouri datta. / Kaiseki ryouri wa ippin zutsu junban ni dete kuru node, jikan ga kakaru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Kaiseki reserviert. / Das Abendessen im Ryokan war ein Kaiseki-Menü mit saisonalen Zutaten. / Ein Kaiseki-Menü dauert lange, weil die Gerichte einzeln nacheinander kommen.",
+        "contexts": [
+          "Making a reservation",
+          "Dinner at a ryokan",
+          "How the courses are served"
+        ],
+        "lexical": "JMdict 1200570 senses 1-2, noun: traditional Japanese multi-course meal; tea-ceremony dishes",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1547 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Making a reservation; Dinner at a ryokan; How the courses are served), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cd7d7f3058fb9a175e4d7f53b8fe0944d0f07824f83532fe99c3f28a758c72b4",
+        "approvalHash": "e6d4c0bfad379962c895e31bdfeda17fb2bf0d0692303cbed5c49081b829c79a"
+      }
+    },
+    {
+      "id": "vocab-n3:1548",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1548",
+      "state": "accepted",
+      "predecessorHash": "f910e72e8026ef65ced73ce1ec681dbd7d721a32b90eaeb85eb4322aa2a4e336",
+      "originalHash": "f910e72e8026ef65ced73ce1ec681dbd7d721a32b90eaeb85eb4322aa2a4e336",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "割烹料理店に行きました。",
+            "romaji": "Kappou ryouriten ni ikimashita.",
+            "german": "Ich war in einem japanischen Gourmetrestaurant."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "割烹 bedeutet wörtlich „schneiden und kochen“ und steht für die japanische Kochkunst und für Restaurants, in denen sie gepflegt wird. Typisch ist der Koch, der hinter einer Theke vor den Gästen zubereitet (カウンター割烹); das ist etwas ungezwungener als ein exklusives 料亭. Als eigenständiges Wort hört man es meist in 割烹料理店 oder Restaurantnamen. Bekannt ist auch 割烹着, die weiße Küchenschürze mit Ärmeln.",
+        "examples": [
+          {
+            "japanese": "割烹料理店に行きました。",
+            "romaji": "Kappou ryouriten ni ikimashita.",
+            "german": "Ich war in einem japanischen Gourmetrestaurant."
+          },
+          {
+            "japanese": "カウンターだけの小さな割烹で、板前さんと話しながら食べた。",
+            "romaji": "Kauntaa dake no chiisa na kappou de, itamae-san to hanashinagara tabeta.",
+            "german": "In einem kleinen Kappō-Lokal mit nur einer Theke haben wir beim Essen mit dem Koch geplaudert."
+          },
+          {
+            "japanese": "祖母はいつも白い割烹着を着て台所に立っていた。",
+            "romaji": "Sobo wa itsumo shiroi kappougi o kite daidokoro ni tatte ita.",
+            "german": "Meine Großmutter stand immer in ihrer weißen Küchenschürze in der Küche."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95514397",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 割烹/カッポウ; lemma 割烹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "割烹",
+              "reading": "かっぽう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 割烹/かっぽう \"japanische Gourmetküche\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1208120 senses 1-2, noun: (Japanese-style) cooking; Japanese restaurant Pitch: Verified [0] via exact UniDic row. 割烹 bedeutet wörtlich „schneiden und kochen“ und steht für die japanische Kochkunst und für Restaurants, in denen sie gepflegt wird. Typisch ist der Koch, der hinter einer Theke vor den Gästen zubereitet (カウンター割烹); das ist etwas ungezwungener als ein exklusives 料亭. Als eigenständiges Wort hört man es meist in 割烹料理店 oder Restaurantnamen. Bekannt ist auch 割烹着, die weiße Küchenschürze mit Ärmeln. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1208120; spelling=割烹; reading=かっぽう",
+          "selected": {
+            "sequence": "1208120",
+            "spelling": "割烹",
+            "reading": "かっぽう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cooking (esp. Japanese style)",
+                  "cuisine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(Japanese) restaurant"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1208120 senses 1-2, noun: (Japanese-style) cooking; Japanese restaurant"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 割烹/カッポウ; lemma 割烹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95514397",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 割烹/カッポウ; lemma 割烹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "割烹",
+              "reading": "かっぽう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 割烹/かっぽう \"japanische Gourmetküche\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "japanische Gourmetküche. JMdict 1208120 senses 1-2, noun: (Japanese-style) cooking; Japanese restaurant",
+        "japanese": "割烹料理店に行きました。 / カウンターだけの小さな割烹で、板前さんと話しながら食べた。 / 祖母はいつも白い割烹着を着て台所に立っていた。",
+        "romanization": "kappou; Kappou ryouriten ni ikimashita. / Kauntaa dake no chiisa na kappou de, itamae-san to hanashinagara tabeta. / Sobo wa itsumo shiroi kappougi o kite daidokoro ni tatte ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich war in einem japanischen Gourmetrestaurant. / In einem kleinen Kappō-Lokal mit nur einer Theke haben wir beim Essen mit dem Koch geplaudert. / Meine Großmutter stand immer in ihrer weißen Küchenschürze in der Küche.",
+        "contexts": [
+          "Going out to eat",
+          "Chatting with the chef at the counter",
+          "Grandmother's kitchen apron"
+        ],
+        "lexical": "JMdict 1208120 senses 1-2, noun: (Japanese-style) cooking; Japanese restaurant",
+        "register": "neutral; somewhat refined",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1548 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Going out to eat; Chatting with the chef at the counter; Grandmother's kitchen apron), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3b757ffc02716b56bc86e7c67eefec1bfad524012760708fa0d8d04182509f75",
+        "approvalHash": "4e17b22d2447bc3b662e74a69c556ffcad60b33a2ce977ee0684abd94d49c101"
+      }
+    },
+    {
+      "id": "vocab-n3:1549",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1549",
+      "state": "accepted",
+      "predecessorHash": "358b5b9debb1184304c6ab897a446a9b44735a112d1cbc9098e76c97c207fa38",
+      "originalHash": "358b5b9debb1184304c6ab897a446a9b44735a112d1cbc9098e76c97c207fa38",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "居酒屋で飲みましょう。",
+            "romaji": "Izakaya de nomimashou.",
+            "german": "Lass uns in einer Izakaya trinken."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "居酒屋 ist eine japanische Kneipe, in der man zu Bier, Sake oder Highballs viele kleine Gerichte bestellt; sie ist der typische Ort für 飲み会 mit Kollegen oder Freunden. Oft gibt es 飲み放題 „Flatrate-Trinken“, und beim Hinsetzen bekommt man eine kostenpflichtige Vorspeise (お通し). Nicht verwechseln mit 酒屋, dem Spirituosengeschäft. Umgangssprachlich sagt man auch allgemein 飲み屋.",
+        "examples": [
+          {
+            "japanese": "居酒屋で飲みましょう。",
+            "romaji": "Izakaya de nomimashou.",
+            "german": "Lass uns in einer Izakaya trinken."
+          },
+          {
+            "japanese": "会社の飲み会は駅前の居酒屋で行われた。",
+            "romaji": "Kaisha no nomikai wa ekimae no izakaya de okonawareta.",
+            "german": "Die Firmenfeier fand in einer Izakaya am Bahnhof statt."
+          },
+          {
+            "japanese": "居酒屋では、席に座るとお通しという小さい料理が出てくる。",
+            "romaji": "Izakaya de wa, seki ni suwaru to otooshi to iu chiisai ryouri ga dete kuru.",
+            "german": "In einer Izakaya bekommt man, sobald man sitzt, eine kleine Vorspeise namens Otōshi."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54454263",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 居酒屋/イザカヤ; lemma 居酒屋; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "居酒屋",
+              "reading": "いざかや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 居酒屋/いざかや \"japanische Kneipe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1231800 sense 1, noun: izakaya, Japanese pub serving food Pitch: Verified [0,3] via exact UniDic row; stored primary 2 corrected to 0. 居酒屋 ist eine japanische Kneipe, in der man zu Bier, Sake oder Highballs viele kleine Gerichte bestellt; sie ist der typische Ort für 飲み会 mit Kollegen oder Freunden. Oft gibt es 飲み放題 „Flatrate-Trinken“, und beim Hinsetzen bekommt man eine kostenpflichtige Vorspeise (お通し). Nicht verwechseln mit 酒屋, dem Spirituosengeschäft. Umgangssprachlich sagt man auch allgemein 飲み屋. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1231800; spelling=居酒屋; reading=いざかや",
+          "selected": {
+            "sequence": "1231800",
+            "spelling": "居酒屋",
+            "reading": "いざかや",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "izakaya",
+                  "tavern, bar, etc. that also serves various dishes and snacks"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1231800 sense 1, noun: izakaya, Japanese pub serving food"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row; stored primary 2 corrected to 0. Exact whole 居酒屋/イザカヤ; lemma 居酒屋; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54454263",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 居酒屋/イザカヤ; lemma 居酒屋; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "居酒屋",
+              "reading": "いざかや",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 居酒屋/いざかや \"japanische Kneipe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "japanische Kneipe. JMdict 1231800 sense 1, noun: izakaya, Japanese pub serving food",
+        "japanese": "居酒屋で飲みましょう。 / 会社の飲み会は駅前の居酒屋で行われた。 / 居酒屋では、席に座るとお通しという小さい料理が出てくる。",
+        "romanization": "izakaya; Izakaya de nomimashou. / Kaisha no nomikai wa ekimae no izakaya de okonawareta. / Izakaya de wa, seki ni suwaru to otooshi to iu chiisai ryouri ga dete kuru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Lass uns in einer Izakaya trinken. / Die Firmenfeier fand in einer Izakaya am Bahnhof statt. / In einer Izakaya bekommt man, sobald man sitzt, eine kleine Vorspeise namens Otōshi.",
+        "contexts": [
+          "Inviting someone for drinks",
+          "Company drinking party",
+          "Explaining a restaurant custom"
+        ],
+        "lexical": "JMdict 1231800 sense 1, noun: izakaya, Japanese pub serving food",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1549 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Inviting someone for drinks; Company drinking party; Explaining a restaurant custom), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8488d5e1ce2443c088d0a58b898b2f833c69696908bf61f324494c0d4534d997",
+        "approvalHash": "2b96858dfa59613a357cd4cee279626e040a1e2887600d8e53801ccd47c547fe"
+      }
+    },
+    {
+      "id": "vocab-n3:1550",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1550",
+      "state": "accepted",
+      "predecessorHash": "e4aac2f637955ec122e0f7b0fe565112ad6d7952b7e17af4a8d8e42473e69272",
+      "originalHash": "e4aac2f637955ec122e0f7b0fe565112ad6d7952b7e17af4a8d8e42473e69272",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "屋台でラーメンを食べました。",
+            "romaji": "Yatai de raamen o tabemashita.",
+            "german": "Ich habe Ramen an einer Imbissbude gegessen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "屋台 ist ein kleiner, oft fahrbarer Verkaufsstand, vor allem für Essen: auf Volksfesten (祭りの屋台) oder als Ramen- und Oden-Stand, etwa in Fukuoka. Typische Verbindungen sind 屋台が並ぶ „Stände reihen sich aneinander“ und 屋台を出す „einen Stand aufmachen“. Bei Festen kann 屋台 auch einen geschmückten Festwagen bezeichnen. Übertragen ist 屋台骨 das „Rückgrat“ einer Familie oder Firma.",
+        "examples": [
+          {
+            "japanese": "屋台でラーメンを食べました。",
+            "romaji": "Yatai de raamen o tabemashita.",
+            "german": "Ich habe Ramen an einer Imbissbude gegessen."
+          },
+          {
+            "japanese": "夏祭りでは、神社の前にたくさんの屋台が並ぶ。",
+            "romaji": "Natsumatsuri de wa, jinja no mae ni takusan no yatai ga narabu.",
+            "german": "Beim Sommerfest stehen vor dem Schrein viele Essensstände."
+          },
+          {
+            "japanese": "文化祭でクラスの友達と焼きそばの屋台を出した。",
+            "romaji": "Bunkasai de kurasu no tomodachi to yakisoba no yatai o dashita.",
+            "german": "Beim Schulfest haben wir als Klasse einen Yakisoba-Stand gemacht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268742252",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 屋台/ヤタイ; lemma 屋台; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "屋台",
+              "reading": "やたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 屋台/やたい \"Essensstand, Imbissbude\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1182720 sense 1, noun: food cart, stall, stand Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 屋台 ist ein kleiner, oft fahrbarer Verkaufsstand, vor allem für Essen: auf Volksfesten (祭りの屋台) oder als Ramen- und Oden-Stand, etwa in Fukuoka. Typische Verbindungen sind 屋台が並ぶ „Stände reihen sich aneinander“ und 屋台を出す „einen Stand aufmachen“. Bei Festen kann 屋台 auch einen geschmückten Festwagen bezeichnen. Übertragen ist 屋台骨 das „Rückgrat“ einer Familie oder Firma. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1182720; spelling=屋台; reading=やたい",
+          "selected": {
+            "sequence": "1182720",
+            "spelling": "屋台",
+            "reading": "やたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cart (esp. a food cart)",
+                  "stall",
+                  "stand"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "festival float",
+                  "portable shrine dedicated to a god and shaped like a house",
+                  "dancing platform"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stage prop fashioned after a large building"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "framework (of a building)",
+                  "foundation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "house (esp. a small and miserable one)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1182720 sense 1, noun: food cart, stall, stand"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 屋台/ヤタイ; lemma 屋台; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268742252",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 屋台/ヤタイ; lemma 屋台; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "屋台",
+              "reading": "やたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 屋台/やたい \"Essensstand, Imbissbude\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Essensstand, Imbissbude. JMdict 1182720 sense 1, noun: food cart, stall, stand",
+        "japanese": "屋台でラーメンを食べました。 / 夏祭りでは、神社の前にたくさんの屋台が並ぶ。 / 文化祭でクラスの友達と焼きそばの屋台を出した。",
+        "romanization": "yatai; Yatai de raamen o tabemashita. / Natsumatsuri de wa, jinja no mae ni takusan no yatai ga narabu. / Bunkasai de kurasu no tomodachi to yakisoba no yatai o dashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Ramen an einer Imbissbude gegessen. / Beim Sommerfest stehen vor dem Schrein viele Essensstände. / Beim Schulfest haben wir als Klasse einen Yakisoba-Stand gemacht.",
+        "contexts": [
+          "Late-night ramen",
+          "Stalls at a summer festival",
+          "Running a stall at a school festival"
+        ],
+        "lexical": "JMdict 1182720 sense 1, noun: food cart, stall, stand",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1550 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Late-night ramen; Stalls at a summer festival; Running a stall at a school festival), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8d4ee583abea23cf449b3bdb3a729e67df682ca0e125e226fab62f4d43f66324",
+        "approvalHash": "f8a11565c4c8d639dd8c61fa301844e485b852874c73f6cd642a58629d5ff010"
+      }
+    },
+    {
+      "id": "vocab-n3:1551",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1551",
+      "state": "accepted",
+      "predecessorHash": "14e0d2a5ec8caafe9de676a8d193c4d5def353eb9c0bfccddaf4e78b0ffcb0a7",
+      "originalHash": "14e0d2a5ec8caafe9de676a8d193c4d5def353eb9c0bfccddaf4e78b0ffcb0a7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "子供が風車で遊んでいます。",
+            "romaji": "Kodomo ga kazaguruma de asondeimasu.",
+            "german": "Die Kinder spielen mit Windrädchen."
+          }
+        ],
+        "meaning": "Windrad, Windrächen",
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Mit der Lesung かざぐるま ist 風車 vor allem das bunte Windrädchen als Kinderspielzeug, das sich im Wind dreht: 風車が回る. Die echte Windmühle oder Windkraftanlage liest man dagegen meist ふうしゃ, z. B. オランダの風車 oder 風力発電の風車. Windrädchen sieht man auf Festen und in Tempeln; man bastelt sie auch aus Origami.",
+        "examples": [
+          {
+            "japanese": "子供が風車で遊んでいます。",
+            "romaji": "Kodomo ga kazaguruma de asondeimasu.",
+            "german": "Die Kinder spielen mit Windrädchen."
+          },
+          {
+            "japanese": "風が吹くと、色とりどりの風車がいっせいに回り始めた。",
+            "romaji": "Kaze ga fuku to, irotoridori no kazaguruma ga issei ni mawarihajimeta.",
+            "german": "Als der Wind aufkam, begannen sich die bunten Windrädchen alle gleichzeitig zu drehen."
+          },
+          {
+            "japanese": "折り紙で風車を作って、孫にあげた。",
+            "romaji": "Origami de kazaguruma o tsukutte, mago ni ageta.",
+            "german": "Ich habe aus Origami ein Windrädchen gebastelt und es meinem Enkel geschenkt."
+          }
+        ],
+        "meaning": "Windrädchen (Spielzeug), Windrad",
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92894261",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 風車/カザグルマ; lemma 風車; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "風車",
+              "reading": "かざぐるま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 風車/かざぐるま \"Windrad, Windrächen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1583710 sense 2, noun: pinwheel (toy); reading かざぐるま Pitch: Verified [3] via exact UniDic row; stored primary 2 corrected to 3. Mit der Lesung かざぐるま ist 風車 vor allem das bunte Windrädchen als Kinderspielzeug, das sich im Wind dreht: 風車が回る. Die echte Windmühle oder Windkraftanlage liest man dagegen meist ふうしゃ, z. B. オランダの風車 oder 風力発電の風車. Windrädchen sieht man auf Festen und in Tempeln; man bastelt sie auch aus Origami. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1583710; spelling=風車; reading=かざぐるま",
+          "selected": {
+            "sequence": "1583710",
+            "spelling": "風車",
+            "reading": "かざぐるま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "windmill",
+                  "wind turbine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pinwheel (toy)",
+                  "windmill (toy)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "かざぐるま"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "Clematis patens (species of climbing plant)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "かざぐるま"
+                ]
+              }
+            ]
+          },
+          "finding": "JMdict 1583710 sense 2, noun: pinwheel (toy); reading かざぐるま"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 2 corrected to 3. Exact whole 風車/カザグルマ; lemma 風車; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@92894261",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 風車/カザグルマ; lemma 風車; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "風車",
+              "reading": "かざぐるま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 風車/かざぐるま \"Windrad, Windrächen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Windrädchen (Spielzeug), Windrad. JMdict 1583710 sense 2, noun: pinwheel (toy); reading かざぐるま",
+        "japanese": "子供が風車で遊んでいます。 / 風が吹くと、色とりどりの風車がいっせいに回り始めた。 / 折り紙で風車を作って、孫にあげた。",
+        "romanization": "kazaguruma; Kodomo ga kazaguruma de asondeimasu. / Kaze ga fuku to, irotoridori no kazaguruma ga issei ni mawarihajimeta. / Origami de kazaguruma o tsukutte, mago ni ageta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Kinder spielen mit Windrädchen. / Als der Wind aufkam, begannen sich die bunten Windrädchen alle gleichzeitig zu drehen. / Ich habe aus Origami ein Windrädchen gebastelt und es meinem Enkel geschenkt.",
+        "contexts": [
+          "Children playing",
+          "Wind starts blowing",
+          "Origami craft for a grandchild"
+        ],
+        "lexical": "JMdict 1583710 sense 2, noun: pinwheel (toy); reading かざぐるま",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1551 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Children playing; Wind starts blowing; Origami craft for a grandchild), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fa170f04be5a1bf978b451034657ff85065f2f2678228a71416029626c5fcdf8",
+        "approvalHash": "61f8a77516a6d8b0db9b744168704d7092d11cddbbf71c7283702454de1f6701"
+      }
+    },
+    {
+      "id": "vocab-n3:1552",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1552",
+      "state": "accepted",
+      "predecessorHash": "83543927ec11bdfdb37840597b0d0ad144256f713be41d3131f7f21913a23895",
+      "originalHash": "83543927ec11bdfdb37840597b0d0ad144256f713be41d3131f7f21913a23895",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "正月に独楽を回します。",
+            "romaji": "Shougatsu ni koma o mawashimasu.",
+            "german": "An Neujahr dreht man einen Kreisel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "独楽 ist der Kreisel; die Kanji-Schreibung ist selten, üblich sind こま oder コマ. Man sagt こまを回す „den Kreisel drehen“ und こまが回る „der Kreisel dreht sich“. こま回し gehört mit 凧揚げ zu den traditionellen Neujahrsspielen. Gleich klingen 駒 „Spielfigur (Shogi)“ und コマ „Unterrichtsstunde, Einzelbild“.",
+        "examples": [
+          {
+            "japanese": "正月に独楽を回します。",
+            "romaji": "Shougatsu ni koma o mawashimasu.",
+            "german": "An Neujahr dreht man einen Kreisel."
+          },
+          {
+            "japanese": "こまがなかなか止まらずに、ずっと回り続けている。",
+            "romaji": "Koma ga nakanaka tomarazu ni, zutto mawaritsuzukete iru.",
+            "german": "Der Kreisel will einfach nicht stehen bleiben und dreht sich immer weiter."
+          },
+          {
+            "japanese": "祖父に独楽の回し方を教えてもらった。",
+            "romaji": "Sofu ni koma no mawashikata o oshiete moratta.",
+            "german": "Mein Großvater hat mir gezeigt, wie man einen Kreisel dreht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124290061",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 独楽/コマ; lemma 独楽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "独楽",
+              "reading": "こま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 独楽/こま \"Kreisel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1455730 sense 1, noun: spinning top Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 独楽 ist der Kreisel; die Kanji-Schreibung ist selten, üblich sind こま oder コマ. Man sagt こまを回す „den Kreisel drehen“ und こまが回る „der Kreisel dreht sich“. こま回し gehört mit 凧揚げ zu den traditionellen Neujahrsspielen. Gleich klingen 駒 „Spielfigur (Shogi)“ und コマ „Unterrichtsstunde, Einzelbild“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1455730; spelling=独楽; reading=こま",
+          "selected": {
+            "sequence": "1455730",
+            "spelling": "独楽",
+            "reading": "こま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "spinning top"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1455730 sense 1, noun: spinning top"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 独楽/コマ; lemma 独楽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124290061",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 独楽/コマ; lemma 独楽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "独楽",
+              "reading": "こま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 独楽/こま \"Kreisel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kreisel. JMdict 1455730 sense 1, noun: spinning top",
+        "japanese": "正月に独楽を回します。 / こまがなかなか止まらずに、ずっと回り続けている。 / 祖父に独楽の回し方を教えてもらった。",
+        "romanization": "koma; Shougatsu ni koma o mawashimasu. / Koma ga nakanaka tomarazu ni, zutto mawaritsuzukete iru. / Sofu ni koma no mawashikata o oshiete moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "An Neujahr dreht man einen Kreisel. / Der Kreisel will einfach nicht stehen bleiben und dreht sich immer weiter. / Mein Großvater hat mir gezeigt, wie man einen Kreisel dreht.",
+        "contexts": [
+          "New Year tradition",
+          "A long spin",
+          "Learning from grandfather"
+        ],
+        "lexical": "JMdict 1455730 sense 1, noun: spinning top",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1552 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New Year tradition; A long spin; Learning from grandfather), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e5a05af7e898352696d60fc8f214606b047811ab2ca2bcb4efe0815df21af4cd",
+        "approvalHash": "08f09c1ebcbef59c3a57bb4670f2a64db3c3a0039d16f2c0e08fd3216efb6684"
+      }
+    },
+    {
+      "id": "vocab-n3:1553",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1553",
+      "state": "accepted",
+      "predecessorHash": "58d1c57808171fc0e274417e2cb46b2fb9bf3851cb0e13f7bc63fa449577d909",
+      "originalHash": "58d1c57808171fc0e274417e2cb46b2fb9bf3851cb0e13f7bc63fa449577d909",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "凧を揚げます。",
+            "romaji": "Tako o agemasu.",
+            "german": "Ich lasse einen Drachen steigen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "凧 ist der Drachen zum Steigenlassen. Die feste Verbindung lautet 凧を揚げる (mit 揚げる, nicht 上げる), das Hauptwort dazu ist 凧揚げ, ein klassisches Neujahrsspiel. Oft schreibt man たこ, was aber mit 蛸 „Krake“ verwechselt werden kann. Die Schnur heißt 凧の糸.",
+        "examples": [
+          {
+            "japanese": "凧を揚げます。",
+            "romaji": "Tako o agemasu.",
+            "german": "Ich lasse einen Drachen steigen."
+          },
+          {
+            "japanese": "お正月に、河原で子供たちと凧揚げをした。",
+            "romaji": "Oshougatsu ni, kawara de kodomotachi to takoage o shita.",
+            "german": "An Neujahr habe ich mit den Kindern am Flussufer Drachen steigen lassen."
+          },
+          {
+            "japanese": "風が強すぎて、凧の糸が切れてしまった。",
+            "romaji": "Kaze ga tsuyosugite, tako no ito ga kirete shimatta.",
+            "german": "Der Wind war so stark, dass die Drachenschnur gerissen ist."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@159948945",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 凧/タコ; lemma 凧; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "凧",
+              "reading": "たこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 凧/たこ \"Drachen (Spielzeug)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1581560 sense 1, noun: kite Pitch: Verified [1] via exact UniDic row. 凧 ist der Drachen zum Steigenlassen. Die feste Verbindung lautet 凧を揚げる (mit 揚げる, nicht 上げる), das Hauptwort dazu ist 凧揚げ, ein klassisches Neujahrsspiel. Oft schreibt man たこ, was aber mit 蛸 „Krake“ verwechselt werden kann. Die Schnur heißt 凧の糸. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581560; spelling=凧; reading=たこ",
+          "selected": {
+            "sequence": "1581560",
+            "spelling": "凧",
+            "reading": "たこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kite"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1581560 sense 1, noun: kite"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 凧/タコ; lemma 凧; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@159948945",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 凧/タコ; lemma 凧; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "凧",
+              "reading": "たこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 凧/たこ \"Drachen (Spielzeug)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Drachen (Spielzeug). JMdict 1581560 sense 1, noun: kite",
+        "japanese": "凧を揚げます。 / お正月に、河原で子供たちと凧揚げをした。 / 風が強すぎて、凧の糸が切れてしまった。",
+        "romanization": "tako; Tako o agemasu. / Oshougatsu ni, kawara de kodomotachi to takoage o shita. / Kaze ga tsuyosugite, tako no ito ga kirete shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lasse einen Drachen steigen. / An Neujahr habe ich mit den Kindern am Flussufer Drachen steigen lassen. / Der Wind war so stark, dass die Drachenschnur gerissen ist.",
+        "contexts": [
+          "Flying a kite",
+          "New Year at the riverbank",
+          "String snapped in strong wind"
+        ],
+        "lexical": "JMdict 1581560 sense 1, noun: kite",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1553 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Flying a kite; New Year at the riverbank; String snapped in strong wind), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "20f32d45ddfc88bf3495f76e7c37afd9e004a2f9a3378ce6734a14b33cbfa427",
+        "approvalHash": "7672113a3084ff5116e68f05193dbea056a8f2bde6e257630ff338166325a5d9"
+      }
+    },
+    {
+      "id": "vocab-n3:1554",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1554",
+      "state": "accepted",
+      "predecessorHash": "6b671167db877606e5edae2c3bf0100df7eed193abe5f4bdde5ea1a059ed7ed6",
+      "originalHash": "6b671167db877606e5edae2c3bf0100df7eed193abe5f4bdde5ea1a059ed7ed6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "デパートで福袋を買いました。",
+            "romaji": "Depaato de fukubukuro o kaimashita.",
+            "german": "Ich habe im Kaufhaus eine Glückstüte gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "福袋 heißt wörtlich „Glückstüte“: ein verschlossener Beutel, den Geschäfte vor allem beim Neujahrsverkauf (初売り) anbieten und dessen Inhalt meist mehr wert ist als der Preis. Man spricht von 福袋の中身 „Inhalt“ und davon, ob er 当たり „ein Treffer“ oder はずれ „eine Niete“ war. Für beliebte Marken stellen sich Kunden schon früh am 1. Januar an (福袋に並ぶ).",
+        "examples": [
+          {
+            "japanese": "デパートで福袋を買いました。",
+            "romaji": "Depaato de fukubukuro o kaimashita.",
+            "german": "Ich habe im Kaufhaus eine Glückstüte gekauft."
+          },
+          {
+            "japanese": "元日の朝から、人気の福袋を買うために長い列ができていた。",
+            "romaji": "Ganjitsu no asa kara, ninki no fukubukuro o kau tame ni nagai retsu ga dekite ita.",
+            "german": "Schon am Neujahrsmorgen hatte sich eine lange Schlange für die beliebten Glückstüten gebildet."
+          },
+          {
+            "japanese": "今年の福袋は中身が当たりで、得した気分だ。",
+            "romaji": "Kotoshi no fukubukuro wa nakami ga atari de, toku shita kibun da.",
+            "german": "Der Inhalt meiner Glückstüte war dieses Jahr ein Volltreffer, ich fühle mich wie ein Gewinner."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@232864938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 福袋/フクブクロ; lemma 福袋; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "福袋",
+              "reading": "ふくぶくろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 福袋/ふくぶくろ \"Glückstüte (Neujahr)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1629750 sense 1, noun: lucky bag, mystery bag (New Year sale) Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 福袋 heißt wörtlich „Glückstüte“: ein verschlossener Beutel, den Geschäfte vor allem beim Neujahrsverkauf (初売り) anbieten und dessen Inhalt meist mehr wert ist als der Preis. Man spricht von 福袋の中身 „Inhalt“ und davon, ob er 当たり „ein Treffer“ oder はずれ „eine Niete“ war. Für beliebte Marken stellen sich Kunden schon früh am 1. Januar an (福袋に並ぶ). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1629750; spelling=福袋; reading=ふくぶくろ",
+          "selected": {
+            "sequence": "1629750",
+            "spelling": "福袋",
+            "reading": "ふくぶくろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lucky-dip bag",
+                  "grab bag",
+                  "mystery package (with a variety of articles possibly worth more than the purchase price)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1629750 sense 1, noun: lucky bag, mystery bag (New Year sale)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 福袋/フクブクロ; lemma 福袋; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@232864938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 福袋/フクブクロ; lemma 福袋; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "福袋",
+              "reading": "ふくぶくろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 福袋/ふくぶくろ \"Glückstüte (Neujahr)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Glückstüte (Neujahr). JMdict 1629750 sense 1, noun: lucky bag, mystery bag (New Year sale)",
+        "japanese": "デパートで福袋を買いました。 / 元日の朝から、人気の福袋を買うために長い列ができていた。 / 今年の福袋は中身が当たりで、得した気分だ。",
+        "romanization": "fukubukuro; Depaato de fukubukuro o kaimashita. / Ganjitsu no asa kara, ninki no fukubukuro o kau tame ni nagai retsu ga dekite ita. / Kotoshi no fukubukuro wa nakami ga atari de, toku shita kibun da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe im Kaufhaus eine Glückstüte gekauft. / Schon am Neujahrsmorgen hatte sich eine lange Schlange für die beliebten Glückstüten gebildet. / Der Inhalt meiner Glückstüte war dieses Jahr ein Volltreffer, ich fühle mich wie ein Gewinner.",
+        "contexts": [
+          "Department store purchase",
+          "Queueing on New Year's Day",
+          "Happy with the contents"
+        ],
+        "lexical": "JMdict 1629750 sense 1, noun: lucky bag, mystery bag (New Year sale)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1554 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Department store purchase; Queueing on New Year's Day; Happy with the contents), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ecc9e3872335a3b56d312962b8cb7d358b4ae5725dce97e8998ea9f9fc37e044",
+        "approvalHash": "bb24647898c33776e64d93e9c2431dfac5fb457a45848b72a3c0f9ed1baf8c45"
+      }
+    },
+    {
+      "id": "vocab-n3:1555",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1555",
+      "state": "accepted",
+      "predecessorHash": "e84f5217c5f4d194db5fd05aff94c7f99c21c6327168ffe6459f33552c4e5a30",
+      "originalHash": "e84f5217c5f4d194db5fd05aff94c7f99c21c6327168ffe6459f33552c4e5a30",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "年越しそばを食べます。",
+            "romaji": "Toshikoshi soba o tabemasu.",
+            "german": "Ich esse Silvester-Soba."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "年越し bedeutet „den Jahreswechsel begehen“, also das Hinübergehen ins neue Jahr in der Nacht des 大晦日. Bekanntester Begriff ist 年越しそば, Soba-Nudeln, die man an Silvester für ein langes Leben isst. Man kann 年越しをする sagen oder mit dem Verb 年を越す ausdrücken. Das Datum 31. Dezember selbst heißt 大晦日, die Neujahrstage お正月.",
+        "examples": [
+          {
+            "japanese": "年越しそばを食べます。",
+            "romaji": "Toshikoshi soba o tabemasu.",
+            "german": "Ich esse Silvester-Soba."
+          },
+          {
+            "japanese": "今年の年越しは、友達とカウントダウンイベントで過ごすつもりだ。",
+            "romaji": "Kotoshi no toshikoshi wa, tomodachi to kauntodaun ibento de sugosu tsumori da.",
+            "german": "Den Jahreswechsel will ich dieses Jahr mit Freunden bei einem Countdown-Event verbringen."
+          },
+          {
+            "japanese": "実家で家族と年越しをするのは三年ぶりです。",
+            "romaji": "Jikka de kazoku to toshikoshi o suru no wa sannen buri desu.",
+            "german": "Zum ersten Mal seit drei Jahren feiere ich Silvester mit der Familie bei meinen Eltern."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185522712",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "Exact whole 年越し/トシコシ; lemma 年越し; 名詞/普通名詞/一般/*; *; *; aType 0,4.",
+            "match": {
+              "word": "年越し",
+              "reading": "としこし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 年越し/としこし \"Silvester, Jahreswechsel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1468220 sense 1, noun / suru verb: seeing out the old year, welcoming the New Year Pitch: Verified [0,4] via exact UniDic row. 年越し bedeutet „den Jahreswechsel begehen“, also das Hinübergehen ins neue Jahr in der Nacht des 大晦日. Bekanntester Begriff ist 年越しそば, Soba-Nudeln, die man an Silvester für ein langes Leben isst. Man kann 年越しをする sagen oder mit dem Verb 年を越す ausdrücken. Das Datum 31. Dezember selbst heißt 大晦日, die Neujahrstage お正月. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1468220; spelling=年越し; reading=としこし",
+          "selected": {
+            "sequence": "1468220",
+            "spelling": "年越し",
+            "reading": "としこし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "greeting the New Year (on New Year's Eve)",
+                  "welcoming the New Year"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1468220 sense 1, noun / suru verb: seeing out the old year, welcoming the New Year"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,4] via exact UniDic row. Exact whole 年越し/トシコシ; lemma 年越し; 名詞/普通名詞/一般/*; *; *; aType 0,4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@185522712",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "Exact whole 年越し/トシコシ; lemma 年越し; 名詞/普通名詞/一般/*; *; *; aType 0,4.",
+            "match": {
+              "word": "年越し",
+              "reading": "としこし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 年越し/としこし \"Silvester, Jahreswechsel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Silvester, Jahreswechsel. JMdict 1468220 sense 1, noun / suru verb: seeing out the old year, welcoming the New Year",
+        "japanese": "年越しそばを食べます。 / 今年の年越しは、友達とカウントダウンイベントで過ごすつもりだ。 / 実家で家族と年越しをするのは三年ぶりです。",
+        "romanization": "toshikoshi; Toshikoshi soba o tabemasu. / Kotoshi no toshikoshi wa, tomodachi to kauntodaun ibento de sugosu tsumori da. / Jikka de kazoku to toshikoshi o suru no wa sannen buri desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich esse Silvester-Soba. / Den Jahreswechsel will ich dieses Jahr mit Freunden bei einem Countdown-Event verbringen. / Zum ersten Mal seit drei Jahren feiere ich Silvester mit der Familie bei meinen Eltern.",
+        "contexts": [
+          "New Year's Eve noodles",
+          "Countdown plans with friends",
+          "Spending it with family again"
+        ],
+        "lexical": "JMdict 1468220 sense 1, noun / suru verb: seeing out the old year, welcoming the New Year",
+        "register": "neutral",
+        "transitivity": "intransitive as 年越しする / 年越しをする",
+        "conjugation": "noun; suru verb (年越しする)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1555 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New Year's Eve noodles; Countdown plans with friends; Spending it with family again), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9284f884783df594ab42174de86e950fbb17188bdc3e55d2ffea77af7c5fe43c",
+        "approvalHash": "3f52ac908bba2e37434ed4ae791aa0316b2bfef35bc7a10a5ee9e9b479f38297"
+      }
+    },
+    {
+      "id": "vocab-n3:1556",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1556",
+      "state": "accepted",
+      "predecessorHash": "18381ca6173470d6cb1474169d6cad3c075f5b49e6761ba6dd7f43c163d0c5c5",
+      "originalHash": "18381ca6173470d6cb1474169d6cad3c075f5b49e6761ba6dd7f43c163d0c5c5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "年末年始は帰省します。",
+            "romaji": "Nenmatsu nenshi wa kisei shimasu.",
+            "german": "Über Neujahr fahre ich in die Heimat."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "年末年始 ist der Zeitraum um den Jahreswechsel, etwa vom 29. Dezember bis 3. Januar, in dem Behörden und viele Firmen schließen. Man liest es oft auf Aushängen: 年末年始の営業時間 „Öffnungszeiten über die Feiertage“, 年末年始休業 „Betriebsferien zum Jahreswechsel“. Als Zeitangabe steht es mit は oder に. Allgemeiner als お正月, das nur die Neujahrstage meint.",
+        "examples": [
+          {
+            "japanese": "年末年始は帰省します。",
+            "romaji": "Nenmatsu nenshi wa kisei shimasu.",
+            "german": "Über Neujahr fahre ich in die Heimat."
+          },
+          {
+            "japanese": "年末年始の営業時間はホームページでご確認ください。",
+            "romaji": "Nenmatsu nenshi no eigyou jikan wa hoomupeeji de gokakunin kudasai.",
+            "german": "Unsere Öffnungszeiten über die Feiertage finden Sie auf unserer Website."
+          },
+          {
+            "japanese": "年末年始に海外旅行をすると、飛行機代がとても高い。",
+            "romaji": "Nenmatsu nenshi ni kaigai ryokou o suru to, hikoukidai ga totemo takai.",
+            "german": "Wer über den Jahreswechsel ins Ausland reist, zahlt sehr hohe Flugpreise."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2051780 sense 1, noun: year-end and New Year holidays Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 年末年始 ist der Zeitraum um den Jahreswechsel, etwa vom 29. Dezember bis 3. Januar, in dem Behörden und viele Firmen schließen. Man liest es oft auf Aushängen: 年末年始の営業時間 „Öffnungszeiten über die Feiertage“, 年末年始休業 „Betriebsferien zum Jahreswechsel“. Als Zeitangabe steht es mit は oder に. Allgemeiner als お正月, das nur die Neujahrstage meint. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2051780; spelling=年末年始; reading=ねんまつねんし",
+          "selected": {
+            "sequence": "2051780",
+            "spelling": "年末年始",
+            "reading": "ねんまつねんし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "year-end and New Year holidays (e.g. from December 29 to January 3)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2051780 sense 1, noun: year-end and New Year holidays"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 年末年始/ねんまつねんし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B9%B4%E6%9C%AB%E5%B9%B4%E5%A7%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 年末年始/ねんまつねんし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Jahresende und Neujahr. JMdict 2051780 sense 1, noun: year-end and New Year holidays",
+        "japanese": "年末年始は帰省します。 / 年末年始の営業時間はホームページでご確認ください。 / 年末年始に海外旅行をすると、飛行機代がとても高い。",
+        "romanization": "nenmatsu nenshi; Nenmatsu nenshi wa kisei shimasu. / Nenmatsu nenshi no eigyou jikan wa hoomupeeji de gokakunin kudasai. / Nenmatsu nenshi ni kaigai ryokou o suru to, hikoukidai ga totemo takai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Über Neujahr fahre ich in die Heimat. / Unsere Öffnungszeiten über die Feiertage finden Sie auf unserer Website. / Wer über den Jahreswechsel ins Ausland reist, zahlt sehr hohe Flugpreise.",
+        "contexts": [
+          "Holiday plans",
+          "Shop notice about opening hours",
+          "Expensive peak travel"
+        ],
+        "lexical": "JMdict 2051780 sense 1, noun: year-end and New Year holidays",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1556 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Holiday plans; Shop notice about opening hours; Expensive peak travel), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5350c949021ff0cb9c2e57325c2e1de2e7e38015014cfbae8ec1b998a2c5b431",
+        "approvalHash": "89469ec0e81e1e42f3e6f8030c313a213329be9fde24de4d79c42b521f0f3d22"
+      }
+    },
+    {
+      "id": "vocab-n3:1557",
+      "revisionId": "181e-n3-enrichment-vocab-n3-1557",
+      "state": "accepted",
+      "predecessorHash": "dae95689b19b28d8bf29c0af88b4e847373d4ed7f85ff9f459221ca7c8f93fb5",
+      "originalHash": "dae95689b19b28d8bf29c0af88b4e847373d4ed7f85ff9f459221ca7c8f93fb5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お盆に帰省します。",
+            "romaji": "Obon ni kisei shimasu.",
+            "german": "Zum Obon-Fest fahre ich nach Hause."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "帰省 ist die Heimfahrt in den Heimatort oder zum Elternhaus (実家), typischerweise zu お盆 oder 年末年始; als intransitives する-Verb: 実家に帰省する. Die Reisewelle dazu heißt 帰省ラッシュ. Davon abzugrenzen sind 帰宅 „nach Hause kommen“ (täglich), 帰国 „ins Heimatland zurückkehren“ und 里帰り, das besonders den Besuch bei den eigenen Eltern nach der Heirat betont.",
+        "examples": [
+          {
+            "japanese": "お盆に帰省します。",
+            "romaji": "Obon ni kisei shimasu.",
+            "german": "Zum Obon-Fest fahre ich nach Hause."
+          },
+          {
+            "japanese": "帰省ラッシュで、新幹線の自由席は満員だった。",
+            "romaji": "Kisei rasshu de, shinkansen no jiyuuseki wa man'in datta.",
+            "german": "Wegen der Reisewelle waren die freien Plätze im Shinkansen völlig belegt."
+          },
+          {
+            "japanese": "今年の夏は仕事が忙しくて、実家に帰省できなかった。",
+            "romaji": "Kotoshi no natsu wa shigoto ga isogashikute, jikka ni kisei dekinakatta.",
+            "german": "Diesen Sommer hatte ich so viel Arbeit, dass ich nicht zu meinen Eltern fahren konnte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104174227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 帰省/キセイ; lemma 帰省; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "帰省",
+              "reading": "きせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 帰省/きせい \"Heimkehr, Heimatbesuch\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1221390 sense 1, noun / suru verb: homecoming, returning to one's hometown Pitch: Verified [0] via exact UniDic row. 帰省 ist die Heimfahrt in den Heimatort oder zum Elternhaus (実家), typischerweise zu お盆 oder 年末年始; als intransitives する-Verb: 実家に帰省する. Die Reisewelle dazu heißt 帰省ラッシュ. Davon abzugrenzen sind 帰宅 „nach Hause kommen“ (täglich), 帰国 „ins Heimatland zurückkehren“ und 里帰り, das besonders den Besuch bei den eigenen Eltern nach der Heirat betont. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1221390; spelling=帰省; reading=きせい",
+          "selected": {
+            "sequence": "1221390",
+            "spelling": "帰省",
+            "reading": "きせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "homecoming",
+                  "returning home"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1221390 sense 1, noun / suru verb: homecoming, returning to one's hometown"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 帰省/キセイ; lemma 帰省; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104174227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 帰省/キセイ; lemma 帰省; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "帰省",
+              "reading": "きせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 帰省/きせい \"Heimkehr, Heimatbesuch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Heimkehr, Heimatbesuch. JMdict 1221390 sense 1, noun / suru verb: homecoming, returning to one's hometown",
+        "japanese": "お盆に帰省します。 / 帰省ラッシュで、新幹線の自由席は満員だった。 / 今年の夏は仕事が忙しくて、実家に帰省できなかった。",
+        "romanization": "kisei; Obon ni kisei shimasu. / Kisei rasshu de, shinkansen no jiyuuseki wa man'in datta. / Kotoshi no natsu wa shigoto ga isogashikute, jikka ni kisei dekinakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zum Obon-Fest fahre ich nach Hause. / Wegen der Reisewelle waren die freien Plätze im Shinkansen völlig belegt. / Diesen Sommer hatte ich so viel Arbeit, dass ich nicht zu meinen Eltern fahren konnte.",
+        "contexts": [
+          "Obon holiday plans",
+          "Holiday travel rush",
+          "Too busy to go home"
+        ],
+        "lexical": "JMdict 1221390 sense 1, noun / suru verb: homecoming, returning to one's hometown",
+        "register": "neutral",
+        "transitivity": "intransitive as 帰省する (destination with に)",
+        "conjugation": "noun; suru verb (帰省する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1557 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Obon holiday plans; Holiday travel rush; Too busy to go home), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bf463f3fb083b1cc404de9495e58015fa857e69b14188729e7a59e3a4bfab9d2",
+        "approvalHash": "1a436dfcfae2da49bcfb21f0133f397954c9616301888fc63a6d973cfa18aaba"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

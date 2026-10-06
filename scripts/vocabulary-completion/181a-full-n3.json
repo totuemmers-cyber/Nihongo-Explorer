@@ -1,0 +1,3602 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1423",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1423",
+      "state": "accepted",
+      "predecessorHash": "b9d8cfe7d3d996ee30a144bc2e9f85d841949653b585533653e25bc7f33953b1",
+      "originalHash": "b9d8cfe7d3d996ee30a144bc2e9f85d841949653b585533653e25bc7f33953b1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "承知しました。すぐに対応します。",
+            "romaji": "Shouchi shimashita. Sugu ni taiou shimasu.",
+            "german": "Verstanden. Ich kümmere mich sofort darum."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "承知しました ist die höfliche Vergangenheitsform von 承知する „zur Kenntnis nehmen, einverstanden sein“ und die Standardantwort im Beruf, wenn man einen Auftrag oder eine Information annimmt. Gegenüber Vorgesetzten und Kunden ersetzt es das zu lockere わかりました; 了解しました gilt Höhergestellten gegenüber oft als unpassend. Noch demütiger ist 承知いたしました, im Service und Gastgewerbe hört man meist かしこまりました. Verwandt: 承知しております „das ist mir bewusst“.",
+        "examples": [
+          {
+            "japanese": "承知しました。すぐに対応します。",
+            "romaji": "Shouchi shimashita. Sugu ni taiou shimasu.",
+            "german": "Verstanden. Ich kümmere mich sofort darum."
+          },
+          {
+            "japanese": "「この書類を明日までにまとめてください。」「承知しました。」",
+            "romaji": "Kono shorui o ashita made ni matomete kudasai. – Shouchi shimashita.",
+            "german": "„Bitte fassen Sie diese Unterlagen bis morgen zusammen.“ – „Jawohl, wird erledigt.“"
+          },
+          {
+            "japanese": "「では、三時に伺います。」「承知しました。お待ちしております。」",
+            "romaji": "Dewa, sanji ni ukagaimasu. – Shouchi shimashita. Omachi shite orimasu.",
+            "german": "„Dann komme ich um drei Uhr vorbei.“ – „Sehr gern, wir erwarten Sie.“"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1349480 (承知) sense: acceptance, consent, awareness; set phrase 承知しました: understood, certainly Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 承知しました ist die höfliche Vergangenheitsform von 承知する „zur Kenntnis nehmen, einverstanden sein“ und die Standardantwort im Beruf, wenn man einen Auftrag oder eine Information annimmt. Gegenüber Vorgesetzten und Kunden ersetzt es das zu lockere わかりました; 了解しました gilt Höhergestellten gegenüber oft als unpassend. Noch demütiger ist 承知いたしました, im Service und Gastgewerbe hört man meist かしこまりました. Verwandt: 承知しております „das ist mir bewusst“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1349480; spelling=承知しました; reading=しょうちしました",
+          "finding": "JMdict 1349480 (承知) sense: acceptance, consent, awareness; set phrase 承知しました: understood, certainly"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 承知しました/しょうちしました scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (承知する); none is the exact head 承知しました/しょうちしました with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%89%BF%E7%9F%A5%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 承知しました/しょうちしました scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 7883c65e698ab308e8e6e5edde7f6f8bc3701da1e6a39c6986e8a396cdf59516",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%89%BF%E7%9F%A5%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (承知する); none is the exact head 承知しました/しょうちしました with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verstanden (höflich). JMdict 1349480 (承知) sense: acceptance, consent, awareness; set phrase 承知しました: understood, certainly",
+        "japanese": "承知しました。すぐに対応します。 / 「この書類を明日までにまとめてください。」「承知しました。」 / 「では、三時に伺います。」「承知しました。お待ちしております。」",
+        "romanization": "shouchi shimashita; Shouchi shimashita. Sugu ni taiou shimasu. / Kono shorui o ashita made ni matomete kudasai. – Shouchi shimashita. / Dewa, sanji ni ukagaimasu. – Shouchi shimashita. Omachi shite orimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Verstanden. Ich kümmere mich sofort darum. / „Bitte fassen Sie diese Unterlagen bis morgen zusammen.“ – „Jawohl, wird erledigt.“ / „Dann komme ich um drei Uhr vorbei.“ – „Sehr gern, wir erwarten Sie.“",
+        "contexts": [
+          "Accepting a task",
+          "Instruction from the boss",
+          "Confirming an appointment"
+        ],
+        "lexical": "JMdict 1349480 (承知) sense: acceptance, consent, awareness; set phrase 承知しました: understood, certainly",
+        "register": "polite set phrase (business)",
+        "transitivity": "set phrase (polite past of 承知する); no object needed",
+        "conjugation": "fixed form; humbler 承知いたしました, present 承知しております",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1423 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accepting a task; Instruction from the boss; Confirming an appointment), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f30a8a8460b6a6fad912049d1db91654ac22d2e49dc4b8e1cb44f1b0da8573fb",
+        "approvalHash": "a5afa718cff7350c0b06fcc9cf368256015f40db44761b5c865f93ad3f09f0e4"
+      }
+    },
+    {
+      "id": "vocab-n3:1425",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1425",
+      "state": "accepted",
+      "predecessorHash": "0642687f90cd2e8a758a76a0ba8c1049073711c63c0a7355e025a8fa207ee458",
+      "originalHash": "0642687f90cd2e8a758a76a0ba8c1049073711c63c0a7355e025a8fa207ee458",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご遠慮なくどうぞ。",
+            "romaji": "Goenryo naku douzo.",
+            "german": "Bitte bedienen Sie sich ohne Zurückhaltung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご遠慮なく ist die höfliche Form von 遠慮なく „ohne Zurückhaltung, ungeniert“ und fordert das Gegenüber auf, sich nicht zu zieren: beim Anbieten von Essen, beim Einladen zu Fragen oder Wünschen. Typisch: ご遠慮なくどうぞ, ご遠慮なくお申し付けください, ご遠慮なくお召し上がりください. Nicht verwechseln mit ご遠慮ください, einem höflichen Verbot („bitte unterlassen Sie“, z. B. 喫煙はご遠慮ください). Über sich selbst sagt man ohne ご: では、遠慮なくいただきます.",
+        "examples": [
+          {
+            "japanese": "ご遠慮なくどうぞ。",
+            "romaji": "Goenryo naku douzo.",
+            "german": "Bitte bedienen Sie sich ohne Zurückhaltung."
+          },
+          {
+            "japanese": "ご質問があれば、ご遠慮なくお聞きください。",
+            "romaji": "Goshitsumon ga areba, goenryo naku okiki kudasai.",
+            "german": "Wenn Sie Fragen haben, fragen Sie bitte jederzeit."
+          },
+          {
+            "japanese": "何か必要なものがあったら、ご遠慮なくお申し付けください。",
+            "romaji": "Nanika hitsuyou na mono ga attara, goenryo naku omoushitsuke kudasai.",
+            "german": "Wenn Sie etwas brauchen, sagen Sie einfach Bescheid."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1178460 (遠慮なく) sense 1, expression with honorific ご: without reservation, freely, please feel free Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご遠慮なく ist die höfliche Form von 遠慮なく „ohne Zurückhaltung, ungeniert“ und fordert das Gegenüber auf, sich nicht zu zieren: beim Anbieten von Essen, beim Einladen zu Fragen oder Wünschen. Typisch: ご遠慮なくどうぞ, ご遠慮なくお申し付けください, ご遠慮なくお召し上がりください. Nicht verwechseln mit ご遠慮ください, einem höflichen Verbot („bitte unterlassen Sie“, z. B. 喫煙はご遠慮ください). Über sich selbst sagt man ohne ご: では、遠慮なくいただきます. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1178460; spelling=ご遠慮なく; reading=ごえんりょなく",
+          "finding": "JMdict 1178460 (遠慮なく) sense 1, expression with honorific ご: without reservation, freely, please feel free"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご遠慮なく/ごえんりょなく scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head ご遠慮なく/ごえんりょなく with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E9%81%A0%E6%85%AE%E3%81%AA%E3%81%8F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご遠慮なく/ごえんりょなく scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 33a7491e17a9da0ef83ad8421c18b279e1cda8118678989fd7fabe1bbacbdd68",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%94%E9%81%A0%E6%85%AE%E3%81%AA%E3%81%8F",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head ご遠慮なく/ごえんりょなく with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "ohne Zurückhaltung, bitte bedienen Sie sich. JMdict 1178460 (遠慮なく) sense 1, expression with honorific ご: without reservation, freely, please feel free",
+        "japanese": "ご遠慮なくどうぞ。 / ご質問があれば、ご遠慮なくお聞きください。 / 何か必要なものがあったら、ご遠慮なくお申し付けください。",
+        "romanization": "goenryo naku; Goenryo naku douzo. / Goshitsumon ga areba, goenryo naku okiki kudasai. / Nanika hitsuyou na mono ga attara, goenryo naku omoushitsuke kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte bedienen Sie sich ohne Zurückhaltung. / Wenn Sie Fragen haben, fragen Sie bitte jederzeit. / Wenn Sie etwas brauchen, sagen Sie einfach Bescheid.",
+        "contexts": [
+          "Offering food",
+          "Inviting questions after a talk",
+          "Hotel staff offering help"
+        ],
+        "lexical": "JMdict 1178460 (遠慮なく) sense 1, expression with honorific ご: without reservation, freely, please feel free",
+        "register": "polite set phrase",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (adverbial expression)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1425 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Offering food; Inviting questions after a talk; Hotel staff offering help), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3e3a2a2e873d407a35a30fb10e7525443e578e2338ea9e647bc0dc25b96130f6",
+        "approvalHash": "169f125906264f00e6f132016e92d630c49f12c706e5114def4677fcfa9c0ef8"
+      }
+    },
+    {
+      "id": "vocab-n3:1426",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1426",
+      "state": "accepted",
+      "predecessorHash": "82ab7e5463838375e85c841273e2d34659ae7fd68f621ecff1286d41e9f2ba31",
+      "originalHash": "82ab7e5463838375e85c841273e2d34659ae7fd68f621ecff1286d41e9f2ba31",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "気にしないでください。",
+            "romaji": "Ki ni shinaide kudasai.",
+            "german": "Bitte machen Sie sich keine Sorgen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "気にしないで ist die verneinte て-Form von 気にする „sich etwas zu Herzen nehmen, sich Gedanken machen“ und beruhigt jemanden, der sich entschuldigt oder sich über einen Fehler ärgert. Unter Freunden reicht 気にしないで(ね), höflich 気にしないでください, sehr höflich お気になさらないでください. 気にしないで bezieht sich meist auf etwas bereits Geschehenes; 心配しないで tröstet eher bei Sorgen um die Zukunft. Ähnlich locker: 大丈夫だよ.",
+        "examples": [
+          {
+            "japanese": "気にしないでください。",
+            "romaji": "Ki ni shinaide kudasai.",
+            "german": "Bitte machen Sie sich keine Sorgen."
+          },
+          {
+            "japanese": "「遅れてごめん。」「気にしないで。私も今来たところだから。」",
+            "romaji": "Okurete gomen. – Ki ni shinaide. Watashi mo ima kita tokoro dakara.",
+            "german": "„Sorry, dass ich zu spät bin.“ – „Kein Problem, ich bin auch gerade erst gekommen.“"
+          },
+          {
+            "japanese": "失敗したことは気にしないで、次に頑張ろう。",
+            "romaji": "Shippai shita koto wa ki ni shinaide, tsugi ni ganbarou.",
+            "german": "Mach dir nichts aus dem Fehler – nächstes Mal klappt es."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2771850 sense 1, expression: don't worry about it, forget about it Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 気にしないで ist die verneinte て-Form von 気にする „sich etwas zu Herzen nehmen, sich Gedanken machen“ und beruhigt jemanden, der sich entschuldigt oder sich über einen Fehler ärgert. Unter Freunden reicht 気にしないで(ね), höflich 気にしないでください, sehr höflich お気になさらないでください. 気にしないで bezieht sich meist auf etwas bereits Geschehenes; 心配しないで tröstet eher bei Sorgen um die Zukunft. Ähnlich locker: 大丈夫だよ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2771850; spelling=気にしないで; reading=きにしないで",
+          "selected": {
+            "sequence": "2771850",
+            "spelling": "気にしないで",
+            "reading": "きにしないで",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "don't worry about it",
+                  "forget about it"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2771850 sense 1, expression: don't worry about it, forget about it"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 気にしないで/きにしないで scan has zero matching rows; no constituent pattern inference. Query returned 20 rows (気付く, 意気込む, 気に入る, 湿気る, 気をつける, 活気づける, 元気づける, 勇気づける, 浮気する, 呆気ない, 素っ気無い, 何気ない, 気軽[な], 気さく[な], 気まま[な], 気楽[な], 平気[な], 陽気[な], 気まぐれ[な], 生意気[な]); none is the exact head 気にしないで/きにしないで with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B0%97%E3%81%AB%E3%81%97%E3%81%AA%E3%81%84%E3%81%A7",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 気にしないで/きにしないで scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 b734936af92085771c15a50d6e36576d804338aecc60051b8cfc9993067517a2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B0%97%E3%81%AB%E3%81%97%E3%81%AA%E3%81%84%E3%81%A7",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 20 rows (気付く, 意気込む, 気に入る, 湿気る, 気をつける, 活気づける, 元気づける, 勇気づける, 浮気する, 呆気ない, 素っ気無い, 何気ない, 気軽[な], 気さく[な], 気まま[な], 気楽[な], 平気[な], 陽気[な], 気まぐれ[な], 生意気[な]); none is the exact head 気にしないで/きにしないで with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "mach dir keine Sorgen. JMdict 2771850 sense 1, expression: don't worry about it, forget about it",
+        "japanese": "気にしないでください。 / 「遅れてごめん。」「気にしないで。私も今来たところだから。」 / 失敗したことは気にしないで、次に頑張ろう。",
+        "romanization": "ki ni shinaide; Ki ni shinaide kudasai. / Okurete gomen. – Ki ni shinaide. Watashi mo ima kita tokoro dakara. / Shippai shita koto wa ki ni shinaide, tsugi ni ganbarou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte machen Sie sich keine Sorgen. / „Sorry, dass ich zu spät bin.“ – „Kein Problem, ich bin auch gerade erst gekommen.“ / Mach dir nichts aus dem Fehler – nächstes Mal klappt es.",
+        "contexts": [
+          "Polite reassurance",
+          "Friend arriving late",
+          "Encouraging after a mistake"
+        ],
+        "lexical": "JMdict 2771850 sense 1, expression: don't worry about it, forget about it",
+        "register": "casual (polite with 〜ください)",
+        "transitivity": "set phrase (negative て-form of 気にする)",
+        "conjugation": "fixed form; politer 気にしないでください / お気になさらないでください",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1426 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Polite reassurance; Friend arriving late; Encouraging after a mistake), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "20f042da25499496e2e05462f76a7ecc1c04e9c72087101a5164b06fff29747b",
+        "approvalHash": "6195dc225c833fc933d5651b69882cfa8ceeff83e8e4f20f051c7387d7c00818"
+      }
+    },
+    {
+      "id": "vocab-n3:1428",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1428",
+      "state": "accepted",
+      "predecessorHash": "30c7776d93578d4c988be66a4ea84364ef735a6441aa4295ab35ee814282cf17",
+      "originalHash": "30c7776d93578d4c988be66a4ea84364ef735a6441aa4295ab35ee814282cf17",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お名刺を頂戴できますか。",
+            "romaji": "Omeishi o choudai dekimasu ka.",
+            "german": "Darf ich Ihre Visitenkarte haben?"
+          }
+        ],
+        "meaning": "erhalten (höflich)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Als する-Verb ist 頂戴する die bescheidene Form von もらう sowie von 食べる/飲む: 名刺を頂戴する, ご意見を頂戴する, お電話を頂戴する. Es klingt noch etwas förmlicher als いただく. Daneben gibt es das familiäre ちょうだい (meist in Kana) als Bitte „gib mir / bitte“: それちょうだい, 見せてちょうだい – typisch für Kinder, Eltern und eher weibliche Sprache, gegenüber Höhergestellten unpassend.",
+        "examples": [
+          {
+            "japanese": "お名刺を頂戴できますか。",
+            "romaji": "Omeishi o choudai dekimasu ka.",
+            "german": "Darf ich Ihre Visitenkarte haben?"
+          },
+          {
+            "japanese": "皆様から多くのご意見を頂戴しました。",
+            "romaji": "Minasama kara ooku no goiken o choudai shimashita.",
+            "german": "Wir haben von Ihnen allen viele Rückmeldungen erhalten."
+          },
+          {
+            "japanese": "お母さん、そのお菓子ちょうだい。",
+            "romaji": "Okaasan, sono okashi choudai.",
+            "german": "Mama, gib mir die Süßigkeit!"
+          }
+        ],
+        "meaning": "erhalten (bescheiden), gib mir (familiär)",
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170260569",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 頂戴/チョウダイ; lemma 頂戴; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "頂戴",
+              "reading": "ちょうだい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 頂戴/ちょうだい \"erhalten (höflich)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1430230 senses 1 and 3, noun / suru verb: receiving (humble); please give me (familiar, usually kana) Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Als する-Verb ist 頂戴する die bescheidene Form von もらう sowie von 食べる/飲む: 名刺を頂戴する, ご意見を頂戴する, お電話を頂戴する. Es klingt noch etwas förmlicher als いただく. Daneben gibt es das familiäre ちょうだい (meist in Kana) als Bitte „gib mir / bitte“: それちょうだい, 見せてちょうだい – typisch für Kinder, Eltern und eher weibliche Sprache, gegenüber Höhergestellten unpassend. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1430230; spelling=頂戴; reading=ちょうだい",
+          "selected": {
+            "sequence": "1430230",
+            "spelling": "頂戴",
+            "reading": "ちょうだい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "humble (kenjougo) language"
+                ],
+                "gloss": [
+                  "receiving",
+                  "getting",
+                  "accepting",
+                  "being given"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "humble (kenjougo) language"
+                ],
+                "gloss": [
+                  "eating",
+                  "drinking",
+                  "having"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)"
+                ],
+                "misc": [
+                  "familiar language",
+                  "female term or language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "please (give me; do for me)"
+                ],
+                "notes": [
+                  "as 〜をちょうだい or after the -te form of a verb"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1430230 senses 1 and 3, noun / suru verb: receiving (humble); please give me (familiar, usually kana)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 頂戴/チョウダイ; lemma 頂戴; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170260569",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 頂戴/チョウダイ; lemma 頂戴; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "頂戴",
+              "reading": "ちょうだい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 頂戴/ちょうだい \"erhalten (höflich)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "erhalten (bescheiden), gib mir (familiär). JMdict 1430230 senses 1 and 3, noun / suru verb: receiving (humble); please give me (familiar, usually kana)",
+        "japanese": "お名刺を頂戴できますか。 / 皆様から多くのご意見を頂戴しました。 / お母さん、そのお菓子ちょうだい。",
+        "romanization": "choudai; Omeishi o choudai dekimasu ka. / Minasama kara ooku no goiken o choudai shimashita. / Okaasan, sono okashi choudai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Darf ich Ihre Visitenkarte haben? / Wir haben von Ihnen allen viele Rückmeldungen erhalten. / Mama, gib mir die Süßigkeit!",
+        "contexts": [
+          "Business card exchange",
+          "Thanking for feedback",
+          "Child asking for sweets"
+        ],
+        "lexical": "JMdict 1430230 senses 1 and 3, noun / suru verb: receiving (humble); please give me (familiar, usually kana)",
+        "register": "humble (頂戴する); familiar request (ちょうだい)",
+        "transitivity": "transitive as 頂戴する (X を頂戴する)",
+        "conjugation": "noun; suru verb (頂戴する → 頂戴して); familiar request 〜てちょうだい",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1428 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Business card exchange; Thanking for feedback; Child asking for sweets), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "10e0ce64597bb267901417e5860c2344624c855afe28bf4d80fec8f202802a92",
+        "approvalHash": "c6aefe05dff4905bbb583b593eb812fa3da0bce917b8fd5efcf19ce566b25c81"
+      }
+    },
+    {
+      "id": "vocab-n3:1431",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1431",
+      "state": "accepted",
+      "predecessorHash": "905e208ea51548d066487e904c9c6fc7619a88f46c774d4624c5467b16e22f27",
+      "originalHash": "905e208ea51548d066487e904c9c6fc7619a88f46c774d4624c5467b16e22f27",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お目にかかれて光栄です。",
+            "romaji": "Ome ni kakarete kouei desu.",
+            "german": "Es ist mir eine Ehre, Sie zu treffen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "お目にかかる ist die bescheidene Form (謙譲語) von 会う: Man stellt sich unter die Person, die man trifft; sie steht mit に – 先生にお目にかかる. Feste Formeln: 初めてお目にかかります, お目にかかれてうれしいです/光栄です, またお目にかかれるのを楽しみにしております. Etwas weniger förmlich ist お会いする. Für das Treffen des Gegenübers nie お目にかかる verwenden, sondern お会いになる. Nicht verwechseln mit お目にかける „(etwas) zeigen“.",
+        "examples": [
+          {
+            "japanese": "お目にかかれて光栄です。",
+            "romaji": "Ome ni kakarete kouei desu.",
+            "german": "Es ist mir eine Ehre, Sie zu treffen."
+          },
+          {
+            "japanese": "来週、社長にお目にかかる予定です。",
+            "romaji": "Raishuu, shachou ni ome ni kakaru yotei desu.",
+            "german": "Nächste Woche treffe ich den Firmenchef."
+          },
+          {
+            "japanese": "初めてお目にかかります。山田と申します。",
+            "romaji": "Hajimete ome ni kakarimasu. Yamada to moushimasu.",
+            "german": "Sehr erfreut, Sie kennenzulernen. Mein Name ist Yamada."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1535140 sense 1, expression / godan -ru verb: to meet (someone of higher status), humble Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). お目にかかる ist die bescheidene Form (謙譲語) von 会う: Man stellt sich unter die Person, die man trifft; sie steht mit に – 先生にお目にかかる. Feste Formeln: 初めてお目にかかります, お目にかかれてうれしいです/光栄です, またお目にかかれるのを楽しみにしております. Etwas weniger förmlich ist お会いする. Für das Treffen des Gegenübers nie お目にかかる verwenden, sondern お会いになる. Nicht verwechseln mit お目にかける „(etwas) zeigen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1535140; spelling=お目にかかる; reading=おめにかかる",
+          "selected": {
+            "sequence": "1535140",
+            "spelling": "お目にかかる",
+            "reading": "おめにかかる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [
+                  "humble (kenjougo) language"
+                ],
+                "gloss": [
+                  "to meet (someone of higher status)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "to be recognized (esp. by someone of higher status)",
+                  "to be visible",
+                  "to be seen",
+                  "to be noticed"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1535140 sense 1, expression / godan -ru verb: to meet (someone of higher status), humble"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole お目にかかる/おめにかかる scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head お目にかかる/おめにかかる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%8A%E7%9B%AE%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole お目にかかる/おめにかかる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 498aeb90e8d8fccbe696944430d342fbf3830c71c92d77c9bf62bb46e7a28297",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E7%9B%AE%E3%81%AB%E3%81%8B%E3%81%8B%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head お目にかかる/おめにかかる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "treffen (bescheiden). JMdict 1535140 sense 1, expression / godan -ru verb: to meet (someone of higher status), humble",
+        "japanese": "お目にかかれて光栄です。 / 来週、社長にお目にかかる予定です。 / 初めてお目にかかります。山田と申します。",
+        "romanization": "ome ni kakaru; Ome ni kakarete kouei desu. / Raishuu, shachou ni ome ni kakaru yotei desu. / Hajimete ome ni kakarimasu. Yamada to moushimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist mir eine Ehre, Sie zu treffen. / Nächste Woche treffe ich den Firmenchef. / Sehr erfreut, Sie kennenzulernen. Mein Name ist Yamada.",
+        "contexts": [
+          "Honoured to meet",
+          "Scheduled meeting with the CEO",
+          "Formal self-introduction"
+        ],
+        "lexical": "JMdict 1535140 sense 1, expression / godan -ru verb: to meet (someone of higher status), humble",
+        "register": "humble (kenjougo), formal",
+        "transitivity": "intransitive (person met with に: 先生にお目にかかる)",
+        "conjugation": "godan -ru (お目にかかる → お目にかかって, お目にかかれる)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1431 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Honoured to meet; Scheduled meeting with the CEO; Formal self-introduction), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "aca1441db2ecd86d817a21232c30a2e41d9bc94640164a057109aff41dc6d013",
+        "approvalHash": "dee8d6628e7e59cdd5adbe166948f6e6bcbcd13076418a9a6f23e2e236591e03"
+      }
+    },
+    {
+      "id": "vocab-n3:1432",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1432",
+      "state": "accepted",
+      "predecessorHash": "5ea7ed52599ce7892cc9bfdcf9d10a3bddc4e86e926209425074ab20b53d6daa",
+      "originalHash": "5ea7ed52599ce7892cc9bfdcf9d10a3bddc4e86e926209425074ab20b53d6daa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お手数をおかけします。",
+            "romaji": "Otesuu o okake shimasu.",
+            "german": "Ich mache Ihnen Umstände."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "お手数 „Mühe, Umstände“ meint immer die Mühe, die man ANDEREN bereitet, und steht fast nur in festen Höflichkeitsformeln: お手数をおかけします (Entschuldigung bzw. Dank im Voraus), お手数ですが… (Einleitung einer Bitte), お手数をおかけしました (Dank danach). Die Standardlesung ist おてすう, おてかず kommt ebenfalls vor. ご迷惑をおかけします klingt ähnlich, betont aber eine echte Belästigung statt nur zusätzlicher Arbeit.",
+        "examples": [
+          {
+            "japanese": "お手数をおかけします。",
+            "romaji": "Otesuu o okake shimasu.",
+            "german": "Entschuldigen Sie bitte die Umstände."
+          },
+          {
+            "japanese": "お手数ですが、こちらの用紙にご記入ください。",
+            "romaji": "Otesuu desu ga, kochira no youshi ni gokinyuu kudasai.",
+            "german": "Entschuldigen Sie die Mühe, aber bitte füllen Sie dieses Formular aus."
+          },
+          {
+            "japanese": "先日はお手数をおかけしました。",
+            "romaji": "Senjitsu wa otesuu o okake shimashita.",
+            "german": "Vielen Dank für Ihre Mühe neulich."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1984090 sense 1, noun: trouble, bother (honorific) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). お手数 „Mühe, Umstände“ meint immer die Mühe, die man ANDEREN bereitet, und steht fast nur in festen Höflichkeitsformeln: お手数をおかけします (Entschuldigung bzw. Dank im Voraus), お手数ですが… (Einleitung einer Bitte), お手数をおかけしました (Dank danach). Die Standardlesung ist おてすう, おてかず kommt ebenfalls vor. ご迷惑をおかけします klingt ähnlich, betont aber eine echte Belästigung statt nur zusätzlicher Arbeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1984090; spelling=お手数; reading=おてすう",
+          "selected": {
+            "sequence": "1984090",
+            "spelling": "お手数",
+            "reading": "おてすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "trouble",
+                  "bother"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1984090 sense 1, noun: trouble, bother (honorific)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole お手数/おてすう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%8A%E6%89%8B%E6%95%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole お手数/おてすう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umstände, Mühe. JMdict 1984090 sense 1, noun: trouble, bother (honorific)",
+        "japanese": "お手数をおかけします。 / お手数ですが、こちらの用紙にご記入ください。 / 先日はお手数をおかけしました。",
+        "romanization": "otesuu; Otesuu o okake shimasu. / Otesuu desu ga, kochira no youshi ni gokinyuu kudasai. / Senjitsu wa otesuu o okake shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Entschuldigen Sie bitte die Umstände. / Entschuldigen Sie die Mühe, aber bitte füllen Sie dieses Formular aus. / Vielen Dank für Ihre Mühe neulich.",
+        "contexts": [
+          "Apologizing in advance",
+          "Asking a customer to fill in a form",
+          "Thanking afterwards"
+        ],
+        "lexical": "JMdict 1984090 sense 1, noun: trouble, bother (honorific)",
+        "register": "polite / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1432 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Apologizing in advance; Asking a customer to fill in a form; Thanking afterwards), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bce685d96d883d907cf07af2d67072a42692c7c69b5f9e6d8300cb1cf6f1454c",
+        "approvalHash": "f1495865ab12dc7666fed90b84eee4acc52b179a4856dfd77f73b41af68c37ce"
+      }
+    },
+    {
+      "id": "vocab-n3:1433",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1433",
+      "state": "accepted",
+      "predecessorHash": "2cd5d5310ab6183bbe327221192b87abffaf7e1a79fcd63dbccdc5fd0257e973",
+      "originalHash": "2cd5d5310ab6183bbe327221192b87abffaf7e1a79fcd63dbccdc5fd0257e973",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご迷惑をおかけしました。",
+            "romaji": "Gomeiwaku o okake shimashita.",
+            "german": "Ich habe Ihnen Unannehmlichkeiten bereitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご迷惑 ist das höfliche 迷惑 „Belästigung, Unannehmlichkeit“ und bezeichnet die Last, die anderen entsteht. Formeln: ご迷惑をおかけしました (Entschuldigung), 〜のご迷惑になる „jemanden stören“ (typisch in Durchsagen), ご迷惑でなければ „wenn es Ihnen nicht ungelegen ist“. Ohne ご ist 迷惑 auch ein な-Adjektiv: 迷惑な人 „lästiger Mensch“, 迷惑メール „Spam“. お手数 ist milder und meint nur zusätzliche Mühe.",
+        "examples": [
+          {
+            "japanese": "ご迷惑をおかけしました。",
+            "romaji": "Gomeiwaku o okake shimashita.",
+            "german": "Entschuldigen Sie die Unannehmlichkeiten."
+          },
+          {
+            "japanese": "他のお客様のご迷惑にならないよう、携帯電話はマナーモードにしてください。",
+            "romaji": "Hoka no okyakusama no gomeiwaku ni naranai you, keitai denwa wa manaa moodo ni shite kudasai.",
+            "german": "Bitte stellen Sie Ihr Handy auf lautlos, um die anderen Gäste nicht zu stören."
+          },
+          {
+            "japanese": "ご迷惑でなければ、駅まで送りましょうか。",
+            "romaji": "Gomeiwaku de nakereba, eki made okurimashou ka.",
+            "german": "Wenn es Ihnen recht ist, soll ich Sie zum Bahnhof bringen?"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1270660 sense 1, noun / na-adjective: trouble, bother, annoyance (polite) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご迷惑 ist das höfliche 迷惑 „Belästigung, Unannehmlichkeit“ und bezeichnet die Last, die anderen entsteht. Formeln: ご迷惑をおかけしました (Entschuldigung), 〜のご迷惑になる „jemanden stören“ (typisch in Durchsagen), ご迷惑でなければ „wenn es Ihnen nicht ungelegen ist“. Ohne ご ist 迷惑 auch ein な-Adjektiv: 迷惑な人 „lästiger Mensch“, 迷惑メール „Spam“. お手数 ist milder und meint nur zusätzliche Mühe. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270660; spelling=ご迷惑; reading=ごめいわく",
+          "selected": {
+            "sequence": "1270660",
+            "spelling": "ご迷惑",
+            "reading": "ごめいわく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trouble",
+                  "bother",
+                  "annoyance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1270660 sense 1, noun / na-adjective: trouble, bother, annoyance (polite)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご迷惑/ごめいわく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E8%BF%B7%E6%83%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご迷惑/ごめいわく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unannehmlichkeiten (höflich). JMdict 1270660 sense 1, noun / na-adjective: trouble, bother, annoyance (polite)",
+        "japanese": "ご迷惑をおかけしました。 / 他のお客様のご迷惑にならないよう、携帯電話はマナーモードにしてください。 / ご迷惑でなければ、駅まで送りましょうか。",
+        "romanization": "gomeiwaku; Gomeiwaku o okake shimashita. / Hoka no okyakusama no gomeiwaku ni naranai you, keitai denwa wa manaa moodo ni shite kudasai. / Gomeiwaku de nakereba, eki made okurimashou ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Entschuldigen Sie die Unannehmlichkeiten. / Bitte stellen Sie Ihr Handy auf lautlos, um die anderen Gäste nicht zu stören. / Wenn es Ihnen recht ist, soll ich Sie zum Bahnhof bringen?",
+        "contexts": [
+          "Formal apology",
+          "Announcement in a theatre",
+          "Offering a lift"
+        ],
+        "lexical": "JMdict 1270660 sense 1, noun / na-adjective: trouble, bother, annoyance (polite)",
+        "register": "polite",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1433 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Formal apology; Announcement in a theatre; Offering a lift), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fed60d94855db19dc619515a58ade6edf96068ba6fae6068ee25894f1214d8cc",
+        "approvalHash": "daf164535544635f2de2ed18c5977fddaca45d3b1e78e5cee6c964bbae7d22a5"
+      }
+    },
+    {
+      "id": "vocab-n3:1434",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1434",
+      "state": "accepted",
+      "predecessorHash": "222ad9f89cbb4b7cf5f1c5eece39af7212bb9a72dabcd7a1214aca0c537dd13d",
+      "originalHash": "222ad9f89cbb4b7cf5f1c5eece39af7212bb9a72dabcd7a1214aca0c537dd13d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご指導よろしくお願いします。",
+            "romaji": "Goshidou yoroshiku onegai shimasu.",
+            "german": "Bitte leiten Sie mich an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご指導 ist die respektvolle Form von 指導 „Anleitung, Betreuung, Coaching“ und bezeichnet die Unterweisung durch Lehrer, Vorgesetzte oder Trainer. Feste Wendungen: ご指導よろしくお願いします (beim Antritt einer Stelle oder zu Kursbeginn), ご指導いただく, ご指導のおかげで. In Reden hört man die steife Formel ご指導ご鞭撻のほど…. Wer selbst anleitet, sagt ohne ご: 新人を指導する. Anders als 説明 oder 案内 geht es um längerfristige Unterweisung.",
+        "examples": [
+          {
+            "japanese": "ご指導よろしくお願いします。",
+            "romaji": "Goshidou yoroshiku onegai shimasu.",
+            "german": "Bitte leiten Sie mich an."
+          },
+          {
+            "japanese": "先生のご指導のおかげで、試験に合格できました。",
+            "romaji": "Sensei no goshidou no okage de, shiken ni goukaku dekimashita.",
+            "german": "Dank der Anleitung meiner Lehrerin habe ich die Prüfung bestanden."
+          },
+          {
+            "japanese": "部長から厳しいご指導をいただきました。",
+            "romaji": "Buchou kara kibishii goshidou o itadakimashita.",
+            "german": "Der Abteilungsleiter hat mich streng zurechtgewiesen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1309950 sense 1 (指導) with honorific ご, noun: guidance, instruction, coaching Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご指導 ist die respektvolle Form von 指導 „Anleitung, Betreuung, Coaching“ und bezeichnet die Unterweisung durch Lehrer, Vorgesetzte oder Trainer. Feste Wendungen: ご指導よろしくお願いします (beim Antritt einer Stelle oder zu Kursbeginn), ご指導いただく, ご指導のおかげで. In Reden hört man die steife Formel ご指導ご鞭撻のほど…. Wer selbst anleitet, sagt ohne ご: 新人を指導する. Anders als 説明 oder 案内 geht es um längerfristige Unterweisung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1309950; spelling=ご指導; reading=ごしどう",
+          "finding": "JMdict 1309950 sense 1 (指導) with honorific ご, noun: guidance, instruction, coaching"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご指導/ごしどう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E6%8C%87%E5%B0%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご指導/ごしどう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anleitung (höflich). JMdict 1309950 sense 1 (指導) with honorific ご, noun: guidance, instruction, coaching",
+        "japanese": "ご指導よろしくお願いします。 / 先生のご指導のおかげで、試験に合格できました。 / 部長から厳しいご指導をいただきました。",
+        "romanization": "goshidou; Goshidou yoroshiku onegai shimasu. / Sensei no goshidou no okage de, shiken ni goukaku dekimashita. / Buchou kara kibishii goshidou o itadakimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte leiten Sie mich an. / Dank der Anleitung meiner Lehrerin habe ich die Prüfung bestanden. / Der Abteilungsleiter hat mich streng zurechtgewiesen.",
+        "contexts": [
+          "Starting a new job",
+          "Thanking a teacher",
+          "Being corrected by a manager"
+        ],
+        "lexical": "JMdict 1309950 sense 1 (指導) with honorific ご, noun: guidance, instruction, coaching",
+        "register": "polite / formal",
+        "transitivity": "Nonverb (as ご指導; base verb 指導する is transitive)",
+        "conjugation": "Nonverb (used with いただく / ください)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1434 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Starting a new job; Thanking a teacher; Being corrected by a manager), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "102f6366dfd924d0c6d6283dee671af4ac87e99b5c9f79e4c80f8ae3028ee3b9",
+        "approvalHash": "eeeeee7498dc749c006892cd5d7a1f967c9601076c93557955e3637fa3a3f3a5"
+      }
+    },
+    {
+      "id": "vocab-n3:1435",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1435",
+      "state": "accepted",
+      "predecessorHash": "3933f08f1bf084e8d283765c14e9c04d45fc2cd8ebf3c3ed6ac9c09f0b7f99f7",
+      "originalHash": "3933f08f1bf084e8d283765c14e9c04d45fc2cd8ebf3c3ed6ac9c09f0b7f99f7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご検討のほどよろしくお願いします。",
+            "romaji": "Gokentou no hodo yoroshiku onegai shimasu.",
+            "german": "Bitte prüfen Sie es."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご検討 ist das höfliche 検討 „Prüfung, Erwägung“ und meint das Abwägen durch Kunden oder Geschäftspartner. Typisch in Geschäftsmails: ご検討のほどよろしくお願いいたします, ご検討いただけますと幸いです, 前向きにご検討ください. Die eigene Prüfung heißt ohne ご: 検討いたします. Vorsicht: 検討します als Antwort ist im Japanischen oft eine höfliche Absage.",
+        "examples": [
+          {
+            "japanese": "ご検討のほどよろしくお願いします。",
+            "romaji": "Gokentou no hodo yoroshiku onegai shimasu.",
+            "german": "Wir bitten um wohlwollende Prüfung."
+          },
+          {
+            "japanese": "前向きにご検討いただけないでしょうか。",
+            "romaji": "Maemuki ni gokentou itadakenai deshou ka.",
+            "german": "Könnten Sie es wohlwollend in Betracht ziehen?"
+          },
+          {
+            "japanese": "料金プランについて、ご検討いただけましたか。",
+            "romaji": "Ryoukin puran ni tsuite, gokentou itadakemashita ka.",
+            "german": "Hatten Sie schon Gelegenheit, sich die Tarife anzusehen?"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1258000 sense 1 (検討) with honorific ご, noun: consideration, examination Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご検討 ist das höfliche 検討 „Prüfung, Erwägung“ und meint das Abwägen durch Kunden oder Geschäftspartner. Typisch in Geschäftsmails: ご検討のほどよろしくお願いいたします, ご検討いただけますと幸いです, 前向きにご検討ください. Die eigene Prüfung heißt ohne ご: 検討いたします. Vorsicht: 検討します als Antwort ist im Japanischen oft eine höfliche Absage. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1258000; spelling=ご検討; reading=ごけんとう",
+          "finding": "JMdict 1258000 sense 1 (検討) with honorific ご, noun: consideration, examination"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご検討/ごけんとう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E6%A4%9C%E8%A8%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご検討/ごけんとう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Prüfung (höflich). JMdict 1258000 sense 1 (検討) with honorific ご, noun: consideration, examination",
+        "japanese": "ご検討のほどよろしくお願いします。 / 前向きにご検討いただけないでしょうか。 / 料金プランについて、ご検討いただけましたか。",
+        "romanization": "gokentou; Gokentou no hodo yoroshiku onegai shimasu. / Maemuki ni gokentou itadakenai deshou ka. / Ryoukin puran ni tsuite, gokentou itadakemashita ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir bitten um wohlwollende Prüfung. / Könnten Sie es wohlwollend in Betracht ziehen? / Hatten Sie schon Gelegenheit, sich die Tarife anzusehen?",
+        "contexts": [
+          "Closing a business email",
+          "Asking for a positive decision",
+          "Sales follow-up call"
+        ],
+        "lexical": "JMdict 1258000 sense 1 (検討) with honorific ご, noun: consideration, examination",
+        "register": "polite / business",
+        "transitivity": "Nonverb (base verb 検討する is transitive)",
+        "conjugation": "Nonverb (used with いただく / ください)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1435 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Closing a business email; Asking for a positive decision; Sales follow-up call), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f3613d4fca389eb9cc9e92936af1d3a5d5cb225e2ddc6333499fa976e4a75b8a",
+        "approvalHash": "a2aefb29af10545764e4b6fdc2f3c65a778e2bad4f96e073d7091641a4c3af49"
+      }
+    },
+    {
+      "id": "vocab-n3:1436",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1436",
+      "state": "accepted",
+      "predecessorHash": "44c25c490b367aa3964b25bc956040698ab0bee3b9baac1a82840ad96d2b1bc7",
+      "originalHash": "44c25c490b367aa3964b25bc956040698ab0bee3b9baac1a82840ad96d2b1bc7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご了承ください。",
+            "romaji": "Goryoushou kudasai.",
+            "german": "Bitte haben Sie Verständnis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご了承 bedeutet „Kenntnisnahme und Einverständnis“ und steht fast immer in einseitigen Mitteilungen: Man informiert über eine Einschränkung und bittet, sie hinzunehmen – ご了承ください, あらかじめご了承ください (auf Websites, Schildern, in Durchsagen). Es ist eher eine höfliche Mitteilung als eine echte Bitte um Erlaubnis. Weicher ist ご理解ください „bitte haben Sie Verständnis“. Als Verb: 了承する „zustimmen“, ご了承いただく.",
+        "examples": [
+          {
+            "japanese": "ご了承ください。",
+            "romaji": "Goryoushou kudasai.",
+            "german": "Bitte haben Sie Verständnis."
+          },
+          {
+            "japanese": "予告なく変更する場合がありますので、あらかじめご了承ください。",
+            "romaji": "Yokoku naku henkou suru baai ga arimasu node, arakajime goryoushou kudasai.",
+            "german": "Bitte beachten Sie, dass Änderungen ohne Vorankündigung möglich sind."
+          },
+          {
+            "japanese": "お客様のご了承をいただいてから、作業を始めます。",
+            "romaji": "Okyakusama no goryoushou o itadaite kara, sagyou o hajimemasu.",
+            "german": "Wir beginnen erst mit den Arbeiten, wenn der Kunde zugestimmt hat."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1270780 sense 1, noun / suru verb: acknowledgement, understanding, consent (honorific) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご了承 bedeutet „Kenntnisnahme und Einverständnis“ und steht fast immer in einseitigen Mitteilungen: Man informiert über eine Einschränkung und bittet, sie hinzunehmen – ご了承ください, あらかじめご了承ください (auf Websites, Schildern, in Durchsagen). Es ist eher eine höfliche Mitteilung als eine echte Bitte um Erlaubnis. Weicher ist ご理解ください „bitte haben Sie Verständnis“. Als Verb: 了承する „zustimmen“, ご了承いただく. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270780; spelling=ご了承; reading=ごりょうしょう",
+          "selected": {
+            "sequence": "1270780",
+            "spelling": "ご了承",
+            "reading": "ごりょうしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "acknowledgement",
+                  "acknowledgment",
+                  "understanding",
+                  "approval",
+                  "consent"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1270780 sense 1, noun / suru verb: acknowledgement, understanding, consent (honorific)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご了承/ごりょうしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E4%BA%86%E6%89%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご了承/ごりょうしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verständnis (höflich). JMdict 1270780 sense 1, noun / suru verb: acknowledgement, understanding, consent (honorific)",
+        "japanese": "ご了承ください。 / 予告なく変更する場合がありますので、あらかじめご了承ください。 / お客様のご了承をいただいてから、作業を始めます。",
+        "romanization": "goryoushou; Goryoushou kudasai. / Yokoku naku henkou suru baai ga arimasu node, arakajime goryoushou kudasai. / Okyakusama no goryoushou o itadaite kara, sagyou o hajimemasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte haben Sie Verständnis. / Bitte beachten Sie, dass Änderungen ohne Vorankündigung möglich sind. / Wir beginnen erst mit den Arbeiten, wenn der Kunde zugestimmt hat.",
+        "contexts": [
+          "Short notice",
+          "Disclaimer on a website",
+          "Waiting for customer consent"
+        ],
+        "lexical": "JMdict 1270780 sense 1, noun / suru verb: acknowledgement, understanding, consent (honorific)",
+        "register": "polite / formal (notices)",
+        "transitivity": "Nonverb (base verb 了承する is transitive)",
+        "conjugation": "Nonverb (used with ください / いただく)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1436 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Short notice; Disclaimer on a website; Waiting for customer consent), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "38a35ee215473e0d2204c9795c3716cb6473976aad9bcdc76ae2db8a519440da",
+        "approvalHash": "f958740233a97e86d17e7368cc7b0978c12562b39d9e070d6cc27ce9799a2089"
+      }
+    },
+    {
+      "id": "vocab-n3:1437",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1437",
+      "state": "accepted",
+      "predecessorHash": "c0371a437d765b17d2a8209e3da075d0689d8851f38c54f7049e77031e0cd2d3",
+      "originalHash": "c0371a437d765b17d2a8209e3da075d0689d8851f38c54f7049e77031e0cd2d3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご確認をお願いします。",
+            "romaji": "Gokakunin o onegai shimasu.",
+            "german": "Bitte bestätigen Sie."
+          }
+        ],
+        "meaning": "Bestätigung (höflich)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご確認 ist das höfliche 確認 „Überprüfung, Kontrolle“. Achtung: Meist heißt es „nachsehen, überprüfen“, nicht „bestätigen“ im Sinne einer Zusage. Typisch: ご確認ください, ご確認をお願いします, ご確認のうえ… „nachdem Sie geprüft haben“, ご確認いただけますか. Für die eigene Prüfung steht kein ご: 確認いたします, 確認させていただきます. Sehr häufig in Mails (添付ファイルをご確認ください) und Durchsagen.",
+        "examples": [
+          {
+            "japanese": "ご確認をお願いします。",
+            "romaji": "Gokakunin o onegai shimasu.",
+            "german": "Bitte überprüfen Sie das."
+          },
+          {
+            "japanese": "添付ファイルをご確認ください。",
+            "romaji": "Tenpu fairu o gokakunin kudasai.",
+            "german": "Bitte sehen Sie sich den Anhang an."
+          },
+          {
+            "japanese": "お降りの際は、お忘れ物のないようご確認ください。",
+            "romaji": "Ori no sai wa, owasuremono no nai you gokakunin kudasai.",
+            "german": "Bitte achten Sie beim Aussteigen darauf, nichts liegen zu lassen."
+          }
+        ],
+        "meaning": "Überprüfung, Bestätigung (höflich)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1205900 sense 1 (確認) with honorific ご, noun: confirmation, verification, check Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご確認 ist das höfliche 確認 „Überprüfung, Kontrolle“. Achtung: Meist heißt es „nachsehen, überprüfen“, nicht „bestätigen“ im Sinne einer Zusage. Typisch: ご確認ください, ご確認をお願いします, ご確認のうえ… „nachdem Sie geprüft haben“, ご確認いただけますか. Für die eigene Prüfung steht kein ご: 確認いたします, 確認させていただきます. Sehr häufig in Mails (添付ファイルをご確認ください) und Durchsagen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1205900; spelling=ご確認; reading=ごかくにん",
+          "finding": "JMdict 1205900 sense 1 (確認) with honorific ご, noun: confirmation, verification, check"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご確認/ごかくにん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E7%A2%BA%E8%AA%8D",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご確認/ごかくにん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Überprüfung, Bestätigung (höflich). JMdict 1205900 sense 1 (確認) with honorific ご, noun: confirmation, verification, check",
+        "japanese": "ご確認をお願いします。 / 添付ファイルをご確認ください。 / お降りの際は、お忘れ物のないようご確認ください。",
+        "romanization": "gokakunin; Gokakunin o onegai shimasu. / Tenpu fairu o gokakunin kudasai. / Ori no sai wa, owasuremono no nai you gokakunin kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte überprüfen Sie das. / Bitte sehen Sie sich den Anhang an. / Bitte achten Sie beim Aussteigen darauf, nichts liegen zu lassen.",
+        "contexts": [
+          "Asking a colleague to check",
+          "Email attachment",
+          "Train announcement"
+        ],
+        "lexical": "JMdict 1205900 sense 1 (確認) with honorific ご, noun: confirmation, verification, check",
+        "register": "polite / business",
+        "transitivity": "Nonverb (base verb 確認する is transitive)",
+        "conjugation": "Nonverb (used with ください / いただく)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1437 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking a colleague to check; Email attachment; Train announcement), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "763ec356dad272d91fae41bb1bfba7b8f40badc57f0ae7e8ddac8bf3b8631208",
+        "approvalHash": "408c7cb854cffbb9772da47786ae34fb8631d39ae5c688e267c296a684661b99"
+      }
+    },
+    {
+      "id": "vocab-n3:1438",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1438",
+      "state": "accepted",
+      "predecessorHash": "324a036f64bd498c4f0a6a0558e87e7c5c740c0676cf369d77cfd6dab2e520ff",
+      "originalHash": "324a036f64bd498c4f0a6a0558e87e7c5c740c0676cf369d77cfd6dab2e520ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご連絡お待ちしております。",
+            "romaji": "Gorenraku omachi shite orimasu.",
+            "german": "Ich warte auf Ihre Nachricht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご連絡 ist das höfliche 連絡 „Kontakt, Benachrichtigung“. Besonderheit: ご steht sowohl bei der Handlung des Gegenübers (ご連絡ください, ご連絡お待ちしております) als auch im bescheidenen Muster ご〜いたします für die eigene: こちらからご連絡いたします. Die benachrichtigte Person steht mit に: お客様にご連絡する. 連絡 umfasst Anruf, Mail und Nachricht; 連絡先 ist die Kontaktadresse.",
+        "examples": [
+          {
+            "japanese": "ご連絡お待ちしております。",
+            "romaji": "Gorenraku omachi shite orimasu.",
+            "german": "Ich warte auf Ihre Nachricht."
+          },
+          {
+            "japanese": "遅れる場合は、ご連絡ください。",
+            "romaji": "Okureru baai wa, gorenraku kudasai.",
+            "german": "Falls Sie sich verspäten, sagen Sie bitte Bescheid."
+          },
+          {
+            "japanese": "後ほどこちらからご連絡いたします。",
+            "romaji": "Nochihodo kochira kara gorenraku itashimasu.",
+            "german": "Wir melden uns später bei Ihnen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1270820 sense 1, noun / suru verb: contacting, getting in touch, message (honorific) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご連絡 ist das höfliche 連絡 „Kontakt, Benachrichtigung“. Besonderheit: ご steht sowohl bei der Handlung des Gegenübers (ご連絡ください, ご連絡お待ちしております) als auch im bescheidenen Muster ご〜いたします für die eigene: こちらからご連絡いたします. Die benachrichtigte Person steht mit に: お客様にご連絡する. 連絡 umfasst Anruf, Mail und Nachricht; 連絡先 ist die Kontaktadresse. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270820; spelling=ご連絡; reading=ごれんらく",
+          "selected": {
+            "sequence": "1270820",
+            "spelling": "ご連絡",
+            "reading": "ごれんらく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "contacting",
+                  "getting in touch",
+                  "communication",
+                  "call",
+                  "message"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1270820 sense 1, noun / suru verb: contacting, getting in touch, message (honorific)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご連絡/ごれんらく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E9%80%A3%E7%B5%A1",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご連絡/ごれんらく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kontakt (höflich). JMdict 1270820 sense 1, noun / suru verb: contacting, getting in touch, message (honorific)",
+        "japanese": "ご連絡お待ちしております。 / 遅れる場合は、ご連絡ください。 / 後ほどこちらからご連絡いたします。",
+        "romanization": "gorenraku; Gorenraku omachi shite orimasu. / Okureru baai wa, gorenraku kudasai. / Nochihodo kochira kara gorenraku itashimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich warte auf Ihre Nachricht. / Falls Sie sich verspäten, sagen Sie bitte Bescheid. / Wir melden uns später bei Ihnen.",
+        "contexts": [
+          "Ending a business email",
+          "Instructions for a visitor",
+          "Promising a call back"
+        ],
+        "lexical": "JMdict 1270820 sense 1, noun / suru verb: contacting, getting in touch, message (honorific)",
+        "register": "polite / business",
+        "transitivity": "Nonverb (ご連絡する: person contacted with に)",
+        "conjugation": "Nonverb; humble pattern ご連絡いたします",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1438 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Ending a business email; Instructions for a visitor; Promising a call back), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "57a60d1b7748b077c07f9a40dde146b2c69a55284dc24258f83e47b4c920fe45",
+        "approvalHash": "10191f550e08c7bbbb92614adfcbc429f0f85ea8aae57a4e2c417ac4d94f179d"
+      }
+    },
+    {
+      "id": "vocab-n3:1439",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1439",
+      "state": "accepted",
+      "predecessorHash": "8adcfedbfb258772b5d52ba22f0cd6032b41b5600230479ffaba8a486144d51d",
+      "originalHash": "8adcfedbfb258772b5d52ba22f0cd6032b41b5600230479ffaba8a486144d51d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご報告いたします。",
+            "romaji": "Gohoukoku itashimasu.",
+            "german": "Ich erstatte Bericht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご報告 ist das höfliche 報告 „Bericht, Meldung“. Da man meist selbst einem Höhergestellten berichtet, steht es typischerweise im bescheidenen Muster ご報告いたします/ご報告します, der Empfänger mit に. In Reden und sozialen Medien kündigt ご報告があります oft eine private Neuigkeit an (Heirat, Nachwuchs). Ein schriftlicher Bericht heißt eher 報告書 oder レポート.",
+        "examples": [
+          {
+            "japanese": "ご報告いたします。",
+            "romaji": "Gohoukoku itashimasu.",
+            "german": "Ich erstatte Bericht."
+          },
+          {
+            "japanese": "皆様にうれしいご報告があります。",
+            "romaji": "Minasama ni ureshii gohoukoku ga arimasu.",
+            "german": "Ich habe eine erfreuliche Neuigkeit für Sie alle."
+          },
+          {
+            "japanese": "会議の結果は、明日部長にご報告します。",
+            "romaji": "Kaigi no kekka wa, ashita buchou ni gohoukoku shimasu.",
+            "german": "Das Ergebnis der Besprechung berichte ich morgen dem Abteilungsleiter."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1515670 sense 1 (報告) with polite ご, noun / suru verb: report, information Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご報告 ist das höfliche 報告 „Bericht, Meldung“. Da man meist selbst einem Höhergestellten berichtet, steht es typischerweise im bescheidenen Muster ご報告いたします/ご報告します, der Empfänger mit に. In Reden und sozialen Medien kündigt ご報告があります oft eine private Neuigkeit an (Heirat, Nachwuchs). Ein schriftlicher Bericht heißt eher 報告書 oder レポート. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1515670; spelling=ご報告; reading=ごほうこく",
+          "finding": "JMdict 1515670 sense 1 (報告) with polite ご, noun / suru verb: report, information"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご報告/ごほうこく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E5%A0%B1%E5%91%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご報告/ごほうこく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bericht (höflich). JMdict 1515670 sense 1 (報告) with polite ご, noun / suru verb: report, information",
+        "japanese": "ご報告いたします。 / 皆様にうれしいご報告があります。 / 会議の結果は、明日部長にご報告します。",
+        "romanization": "gohoukoku; Gohoukoku itashimasu. / Minasama ni ureshii gohoukoku ga arimasu. / Kaigi no kekka wa, ashita buchou ni gohoukoku shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich erstatte Bericht. / Ich habe eine erfreuliche Neuigkeit für Sie alle. / Das Ergebnis der Besprechung berichte ich morgen dem Abteilungsleiter.",
+        "contexts": [
+          "Formal report",
+          "Announcing personal news",
+          "Reporting to a manager"
+        ],
+        "lexical": "JMdict 1515670 sense 1 (報告) with polite ご, noun / suru verb: report, information",
+        "register": "polite / humble (ご報告いたします)",
+        "transitivity": "Nonverb (ご報告する: recipient with に)",
+        "conjugation": "Nonverb; humble pattern ご報告いたします",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1439 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Formal report; Announcing personal news; Reporting to a manager), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "648856899bc540ed088d61f17d85bad7341766dce45c8ba5d6412cef9260f7bf",
+        "approvalHash": "f231921af8bdee8378767ae06e0bc0a5ca4f2a6abf3954f35d296ebb1cf43be3"
+      }
+    },
+    {
+      "id": "vocab-n3:1440",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1440",
+      "state": "accepted",
+      "predecessorHash": "b4cc69107cc9b60bc2d7380edebcf3e95246010460a9528f56faebb9849f3ccf",
+      "originalHash": "b4cc69107cc9b60bc2d7380edebcf3e95246010460a9528f56faebb9849f3ccf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご案内いたします。",
+            "romaji": "Goannai itashimasu.",
+            "german": "Ich führe Sie."
+          }
+        ],
+        "meaning": "Führung (höflich)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご案内 ist das höfliche 案内 mit zwei Hauptbedeutungen: (1) jemanden führen, den Weg zeigen – お席へご案内いたします; (2) Mitteilung, Information, Einladung – 新商品のご案内, 説明会のご案内 (oft als Betreffzeile). In Durchsagen leitet ご案内いたします eine Information ein. Wie bei ご連絡 steht ご im bescheidenen Muster ご案内いたします auch für die eigene Handlung. 案内所 ist der Informationsschalter.",
+        "examples": [
+          {
+            "japanese": "ご案内いたします。",
+            "romaji": "Goannai itashimasu.",
+            "german": "Ich begleite Sie dorthin."
+          },
+          {
+            "japanese": "新商品のご案内をお送りします。",
+            "romaji": "Shinshouhin no goannai o ookuri shimasu.",
+            "german": "Wir senden Ihnen Informationen zu unseren neuen Produkten."
+          },
+          {
+            "japanese": "結婚式のご案内が届きました。",
+            "romaji": "Kekkonshiki no goannai ga todokimashita.",
+            "german": "Die Einladung zur Hochzeit ist angekommen."
+          }
+        ],
+        "meaning": "Führung, Information, Einladung (höflich)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2833392 senses 1, 2 and 4, noun / suru verb: guidance, showing around; information, notice; invitation (polite) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご案内 ist das höfliche 案内 mit zwei Hauptbedeutungen: (1) jemanden führen, den Weg zeigen – お席へご案内いたします; (2) Mitteilung, Information, Einladung – 新商品のご案内, 説明会のご案内 (oft als Betreffzeile). In Durchsagen leitet ご案内いたします eine Information ein. Wie bei ご連絡 steht ご im bescheidenen Muster ご案内いたします auch für die eigene Handlung. 案内所 ist der Informationsschalter. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2833392; spelling=ご案内; reading=ごあんない",
+          "selected": {
+            "sequence": "2833392",
+            "spelling": "ご案内",
+            "reading": "ごあんない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "guidance",
+                  "leading (the way)",
+                  "showing around"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "information",
+                  "notice",
+                  "notification"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "announcement (of one's arrival)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "invitation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "acquaintance",
+                  "knowledge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2833392 senses 1, 2 and 4, noun / suru verb: guidance, showing around; information, notice; invitation (polite)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご案内/ごあんない scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E6%A1%88%E5%86%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご案内/ごあんない scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Führung, Information, Einladung (höflich). JMdict 2833392 senses 1, 2 and 4, noun / suru verb: guidance, showing around; information, notice; invitation (polite)",
+        "japanese": "ご案内いたします。 / 新商品のご案内をお送りします。 / 結婚式のご案内が届きました。",
+        "romanization": "goannai; Goannai itashimasu. / Shinshouhin no goannai o ookuri shimasu. / Kekkonshiki no goannai ga todokimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich begleite Sie dorthin. / Wir senden Ihnen Informationen zu unseren neuen Produkten. / Die Einladung zur Hochzeit ist angekommen.",
+        "contexts": [
+          "Showing a guest the way",
+          "Product information mailing",
+          "Wedding invitation"
+        ],
+        "lexical": "JMdict 2833392 senses 1, 2 and 4, noun / suru verb: guidance, showing around; information, notice; invitation (polite)",
+        "register": "polite / business",
+        "transitivity": "Nonverb (ご案内する: person guided is the object)",
+        "conjugation": "Nonverb; humble pattern ご案内いたします",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1440 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Showing a guest the way; Product information mailing; Wedding invitation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "99859532de18eae3bf53f6dfe3b6b7e4469c645dea67f5fd6f72d329b7e6a263",
+        "approvalHash": "8a6cd5fa1b8b306b0d28676102604db64f99a8ce51a3deb5fcc554ccad7b3d01"
+      }
+    },
+    {
+      "id": "vocab-n3:1441",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1441",
+      "state": "accepted",
+      "predecessorHash": "27269de6a0794e425e93896953989f92fac1e7ad9689ae7ea86f162c3337888a",
+      "originalHash": "27269de6a0794e425e93896953989f92fac1e7ad9689ae7ea86f162c3337888a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご注文はお決まりですか。",
+            "romaji": "Gochuumon wa okimari desu ka.",
+            "german": "Haben Sie sich schon entschieden?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ご注文 ist das höfliche 注文 „Bestellung“ und wird vom Personal für die Bestellung des Kunden gebraucht. Im Restaurant: ご注文はお決まりですか, ご注文は以上でよろしいですか, ご注文を繰り返します; im Onlinehandel: ご注文ありがとうございます. Der Kunde selbst sagt ohne ご: 注文をお願いします, 注文してもいいですか. Eine Reservierung ist dagegen 予約.",
+        "examples": [
+          {
+            "japanese": "ご注文はお決まりですか。",
+            "romaji": "Gochuumon wa okimari desu ka.",
+            "german": "Haben Sie sich schon entschieden?"
+          },
+          {
+            "japanese": "ご注文を繰り返します。",
+            "romaji": "Gochuumon o kurikaeshimasu.",
+            "german": "Ich wiederhole Ihre Bestellung."
+          },
+          {
+            "japanese": "ご注文の商品は明日発送いたします。",
+            "romaji": "Gochuumon no shouhin wa ashita hassou itashimasu.",
+            "german": "Die bestellte Ware wird morgen verschickt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1930020 sense 1, noun / suru verb: order, request (polite) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). ご注文 ist das höfliche 注文 „Bestellung“ und wird vom Personal für die Bestellung des Kunden gebraucht. Im Restaurant: ご注文はお決まりですか, ご注文は以上でよろしいですか, ご注文を繰り返します; im Onlinehandel: ご注文ありがとうございます. Der Kunde selbst sagt ohne ご: 注文をお願いします, 注文してもいいですか. Eine Reservierung ist dagegen 予約. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1930020; spelling=ご注文; reading=ごちゅうもん",
+          "selected": {
+            "sequence": "1930020",
+            "spelling": "ご注文",
+            "reading": "ごちゅうもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "polite (teineigo) language"
+                ],
+                "gloss": [
+                  "order",
+                  "request"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1930020 sense 1, noun / suru verb: order, request (polite)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ご注文/ごちゅうもん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%94%E6%B3%A8%E6%96%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ご注文/ごちゅうもん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bestellung (höflich). JMdict 1930020 sense 1, noun / suru verb: order, request (polite)",
+        "japanese": "ご注文はお決まりですか。 / ご注文を繰り返します。 / ご注文の商品は明日発送いたします。",
+        "romanization": "gochuumon; Gochuumon wa okimari desu ka. / Gochuumon o kurikaeshimasu. / Gochuumon no shouhin wa ashita hassou itashimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Haben Sie sich schon entschieden? / Ich wiederhole Ihre Bestellung. / Die bestellte Ware wird morgen verschickt.",
+        "contexts": [
+          "Waiter taking an order",
+          "Repeating the order",
+          "Online shop notice"
+        ],
+        "lexical": "JMdict 1930020 sense 1, noun / suru verb: order, request (polite)",
+        "register": "polite (service language)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1441 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Waiter taking an order; Repeating the order; Online shop notice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "756cba9a7057b3e29a796ec7d8ee938fd3925e09ea9fa391be51ab68223f72b2",
+        "approvalHash": "a73d740a2017fab23394e153c1e93373fe7ac1cacb26d2e0decc85d78b9f75d4"
+      }
+    },
+    {
+      "id": "vocab-n3:1442",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1442",
+      "state": "accepted",
+      "predecessorHash": "c97a26013850f76ffc26aebc623b4e0ccefa7f7110827319132533190f35704c",
+      "originalHash": "c97a26013850f76ffc26aebc623b4e0ccefa7f7110827319132533190f35704c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "公共施設を利用します。",
+            "romaji": "Koukyou shisetsu o riyou shimasu.",
+            "german": "Ich nutze öffentliche Einrichtungen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "施設 bezeichnet eine Einrichtung als Gebäude oder Anlage mit bestimmtem Zweck: 公共施設, スポーツ施設, 医療施設, 研究施設. Allein kann 施設 auch ein Heim (Kinder- oder Pflegeheim) meinen: 施設で育つ „im Heim aufwachsen“. Abgrenzung: 設備 ist die technische Ausstattung innerhalb eines Gebäudes (Klimaanlage, Leitungen), 施設 die Einrichtung als Ganzes. Als する-Verb ist es kaum gebräuchlich.",
+        "examples": [
+          {
+            "japanese": "公共施設を利用します。",
+            "romaji": "Koukyou shisetsu o riyou shimasu.",
+            "german": "Ich nutze öffentliche Einrichtungen."
+          },
+          {
+            "japanese": "このホテルにはプールやジムなどの施設があります。",
+            "romaji": "Kono hoteru ni wa puuru ya jimu nado no shisetsu ga arimasu.",
+            "german": "Dieses Hotel hat Einrichtungen wie Pool und Fitnessraum."
+          },
+          {
+            "japanese": "祖母は去年から介護施設で暮らしています。",
+            "romaji": "Sobo wa kyonen kara kaigo shisetsu de kurashite imasu.",
+            "german": "Meine Großmutter lebt seit letztem Jahr in einem Pflegeheim."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135615935",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 施設/シセツ; lemma 施設; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+            "match": {
+              "word": "施設",
+              "reading": "しせつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 施設/しせつ \"Einrichtung, Anlage\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1310410 senses 1–2, noun: facility, institution; home (for the elderly, orphans, etc.) Pitch: Verified [1,2] via exact UniDic row. 施設 bezeichnet eine Einrichtung als Gebäude oder Anlage mit bestimmtem Zweck: 公共施設, スポーツ施設, 医療施設, 研究施設. Allein kann 施設 auch ein Heim (Kinder- oder Pflegeheim) meinen: 施設で育つ „im Heim aufwachsen“. Abgrenzung: 設備 ist die technische Ausstattung innerhalb eines Gebäudes (Klimaanlage, Leitungen), 施設 die Einrichtung als Ganzes. Als する-Verb ist es kaum gebräuchlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310410; spelling=施設; reading=しせつ",
+          "selected": {
+            "sequence": "1310410",
+            "spelling": "施設",
+            "reading": "しせつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "facility",
+                  "facilities",
+                  "institution",
+                  "establishment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "home (for the elderly, orphans, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1310410 senses 1–2, noun: facility, institution; home (for the elderly, orphans, etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row. Exact whole 施設/シセツ; lemma 施設; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135615935",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 施設/シセツ; lemma 施設; 名詞/普通名詞/サ変可能/*; *; *; aType 1,2.",
+            "match": {
+              "word": "施設",
+              "reading": "しせつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 施設/しせつ \"Einrichtung, Anlage\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einrichtung, Anlage. JMdict 1310410 senses 1–2, noun: facility, institution; home (for the elderly, orphans, etc.)",
+        "japanese": "公共施設を利用します。 / このホテルにはプールやジムなどの施設があります。 / 祖母は去年から介護施設で暮らしています。",
+        "romanization": "shisetsu; Koukyou shisetsu o riyou shimasu. / Kono hoteru ni wa puuru ya jimu nado no shisetsu ga arimasu. / Sobo wa kyonen kara kaigo shisetsu de kurashite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nutze öffentliche Einrichtungen. / Dieses Hotel hat Einrichtungen wie Pool und Fitnessraum. / Meine Großmutter lebt seit letztem Jahr in einem Pflegeheim.",
+        "contexts": [
+          "Using public facilities",
+          "Hotel amenities",
+          "Grandmother in a care home"
+        ],
+        "lexical": "JMdict 1310410 senses 1–2, noun: facility, institution; home (for the elderly, orphans, etc.)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1442 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Using public facilities; Hotel amenities; Grandmother in a care home), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "51d5e7cfeef7496a706ac159103e7fd96af6793b4ffd8afc952fa11aea5d4fe1",
+        "approvalHash": "6fb8f7aebc9ddcc5393ce34c122d9d68b088da6a844d48a3f7afd079780620f2"
+      }
+    },
+    {
+      "id": "vocab-n3:1443",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1443",
+      "state": "accepted",
+      "predecessorHash": "1846f4294fb1de157c881fa9ea40b241edf94dd2f419b1a99d866904568fa625",
+      "originalHash": "1846f4294fb1de157c881fa9ea40b241edf94dd2f419b1a99d866904568fa625",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "設備が整っています。",
+            "romaji": "Setsubi ga totonoteimasu.",
+            "german": "Die Ausstattung ist komplett."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "設備 ist die fest installierte technische Ausstattung: Heizung, Leitungen, Maschinen, Sicherheitstechnik. Kollokationen: 設備が整う „gut ausgestattet sein“, 設備投資 „Investitionen in Anlagen“, 設備の点検/故障. Abgrenzung: 施設 ist die Einrichtung selbst (Gebäude, Anlage), 設備 das, was darin installiert ist; 装置 ist ein einzelnes Gerät, 備品 bewegliches Inventar wie Möbel oder Büromaterial.",
+        "examples": [
+          {
+            "japanese": "設備が整っています。",
+            "romaji": "Setsubi ga totonotte imasu.",
+            "german": "Die Ausstattung ist komplett."
+          },
+          {
+            "japanese": "この工場は古い設備を新しくしました。",
+            "romaji": "Kono koujou wa furui setsubi o atarashiku shimashita.",
+            "german": "Diese Fabrik hat ihre alten Anlagen erneuert."
+          },
+          {
+            "japanese": "設備の故障で、電車が止まっています。",
+            "romaji": "Setsubi no koshou de, densha ga tomatte imasu.",
+            "german": "Wegen einer technischen Störung stehen die Züge still."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153094648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 設備/セツビ; lemma 設備; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "設備",
+              "reading": "せつび",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 設備/せつび \"Ausstattung, Ausrüstung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1386070 sense 1, noun: equipment, facilities, installation Pitch: Verified [1] via exact UniDic row. 設備 ist die fest installierte technische Ausstattung: Heizung, Leitungen, Maschinen, Sicherheitstechnik. Kollokationen: 設備が整う „gut ausgestattet sein“, 設備投資 „Investitionen in Anlagen“, 設備の点検/故障. Abgrenzung: 施設 ist die Einrichtung selbst (Gebäude, Anlage), 設備 das, was darin installiert ist; 装置 ist ein einzelnes Gerät, 備品 bewegliches Inventar wie Möbel oder Büromaterial. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1386070; spelling=設備; reading=せつび",
+          "selected": {
+            "sequence": "1386070",
+            "spelling": "設備",
+            "reading": "せつび",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "equipment",
+                  "facilities",
+                  "installation",
+                  "accommodations",
+                  "conveniences",
+                  "arrangements"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1386070 sense 1, noun: equipment, facilities, installation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 設備/セツビ; lemma 設備; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153094648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 設備/セツビ; lemma 設備; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "設備",
+              "reading": "せつび",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 設備/せつび \"Ausstattung, Ausrüstung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ausstattung, Ausrüstung. JMdict 1386070 sense 1, noun: equipment, facilities, installation",
+        "japanese": "設備が整っています。 / この工場は古い設備を新しくしました。 / 設備の故障で、電車が止まっています。",
+        "romanization": "setsubi; Setsubi ga totonotte imasu. / Kono koujou wa furui setsubi o atarashiku shimashita. / Setsubi no koshou de, densha ga tomatte imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Ausstattung ist komplett. / Diese Fabrik hat ihre alten Anlagen erneuert. / Wegen einer technischen Störung stehen die Züge still.",
+        "contexts": [
+          "Well-equipped building",
+          "Factory modernization",
+          "Train service disruption"
+        ],
+        "lexical": "JMdict 1386070 sense 1, noun: equipment, facilities, installation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1443 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Well-equipped building; Factory modernization; Train service disruption), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8d8f02bf0c4674e0d12f366d2752ba3972549c2fdd6256ba9a3b34031ec372ae",
+        "approvalHash": "4a39f72daabcd5aa5679d7f9df52322fa095f2d39291d31dbeb93ae2e08020aa"
+      }
+    },
+    {
+      "id": "vocab-n3:1444",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1444",
+      "state": "accepted",
+      "predecessorHash": "6507d34ba17d656cd44f3c3012cd6a5a54dd0c56a708e94e0c1afc804aa8cec9",
+      "originalHash": "6507d34ba17d656cd44f3c3012cd6a5a54dd0c56a708e94e0c1afc804aa8cec9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "少し譲歩しましょう。",
+            "romaji": "Sukoshi jouho shimashou.",
+            "german": "Lassen Sie uns etwas nachgeben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "譲歩 bedeutet „Zugeständnis, Nachgeben“ in Verhandlungen und Konflikten; man gibt jemandem gegenüber mit に nach: 相手に譲歩する. Typisch: お互いに譲歩する, 譲歩を引き出す „Zugeständnisse herausholen“, 一歩も譲歩しない. Im Alltag sagt man 譲る (Platz, Weg überlassen); 妥協 „Kompromiss“ hat oft den Beigeschmack, sich mit weniger abzufinden. In der Grammatik bezeichnet 譲歩 auch konzessive Sätze (〜ても).",
+        "examples": [
+          {
+            "japanese": "少し譲歩しましょう。",
+            "romaji": "Sukoshi jouho shimashou.",
+            "german": "Lassen Sie uns etwas nachgeben."
+          },
+          {
+            "japanese": "交渉で相手に大きく譲歩しました。",
+            "romaji": "Koushou de aite ni ookiku jouho shimashita.",
+            "german": "In den Verhandlungen haben wir der Gegenseite große Zugeständnisse gemacht."
+          },
+          {
+            "japanese": "これ以上の譲歩はできません。",
+            "romaji": "Kore ijou no jouho wa dekimasen.",
+            "german": "Weitere Zugeständnisse sind nicht möglich."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144981085",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 譲歩/ジョウホ; lemma 譲歩; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "譲歩",
+              "reading": "じょうほ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 譲歩/じょうほ \"Zugeständnis, Nachgeben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1357050 sense 1, noun / suru verb: concession, compromise Pitch: Verified [1] via exact UniDic row. 譲歩 bedeutet „Zugeständnis, Nachgeben“ in Verhandlungen und Konflikten; man gibt jemandem gegenüber mit に nach: 相手に譲歩する. Typisch: お互いに譲歩する, 譲歩を引き出す „Zugeständnisse herausholen“, 一歩も譲歩しない. Im Alltag sagt man 譲る (Platz, Weg überlassen); 妥協 „Kompromiss“ hat oft den Beigeschmack, sich mit weniger abzufinden. In der Grammatik bezeichnet 譲歩 auch konzessive Sätze (〜ても). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1357050; spelling=譲歩; reading=じょうほ",
+          "selected": {
+            "sequence": "1357050",
+            "spelling": "譲歩",
+            "reading": "じょうほ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "concession",
+                  "conciliation",
+                  "compromise"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1357050 sense 1, noun / suru verb: concession, compromise"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 譲歩/ジョウホ; lemma 譲歩; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144981085",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 譲歩/ジョウホ; lemma 譲歩; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "譲歩",
+              "reading": "じょうほ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 譲歩/じょうほ \"Zugeständnis, Nachgeben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zugeständnis, Nachgeben. JMdict 1357050 sense 1, noun / suru verb: concession, compromise",
+        "japanese": "少し譲歩しましょう。 / 交渉で相手に大きく譲歩しました。 / これ以上の譲歩はできません。",
+        "romanization": "jouho; Sukoshi jouho shimashou. / Koushou de aite ni ookiku jouho shimashita. / Kore ijou no jouho wa dekimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Lassen Sie uns etwas nachgeben. / In den Verhandlungen haben wir der Gegenseite große Zugeständnisse gemacht. / Weitere Zugeständnisse sind nicht möglich.",
+        "contexts": [
+          "Suggesting a compromise",
+          "Business negotiation",
+          "Drawing a line"
+        ],
+        "lexical": "JMdict 1357050 sense 1, noun / suru verb: concession, compromise",
+        "register": "neutral to formal",
+        "transitivity": "mainly intransitive as 譲歩する (相手に譲歩する)",
+        "conjugation": "noun; suru verb (譲歩する → 譲歩して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1444 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Suggesting a compromise; Business negotiation; Drawing a line), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c51953a7ef1185a3e2fd9b8d529cde3ffe579b1a5d07b014ad101e719053107b",
+        "approvalHash": "93ee1bdd6eff9f69322ab5b80ff57c782bd7691819e35653d9784d5168067932"
+      }
+    },
+    {
+      "id": "vocab-n3:1445",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1445",
+      "state": "accepted",
+      "predecessorHash": "70b0b21844a6846d8900e3fea8eebcca892deee389bd0f87c3355360d6ec3dc8",
+      "originalHash": "70b0b21844a6846d8900e3fea8eebcca892deee389bd0f87c3355360d6ec3dc8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "貿易摩擦が起きています。",
+            "romaji": "Boueki masatsu ga okiteimasu.",
+            "german": "Es gibt Handelsreibungen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摩擦 heißt wörtlich physikalische „Reibung“ (摩擦が大きい, 摩擦熱) und übertragen „Reibereien, Spannungen“ zwischen Menschen, Gruppen oder Staaten: 貿易摩擦, 〜との間に摩擦が起きる/生じる. Als する-Verb („reiben“) ist es selten; im Alltag sagt man こする. 対立 „Konfrontation“ ist stärker, 摩擦 deutet eher auf kleinere, andauernde Spannungen hin.",
+        "examples": [
+          {
+            "japanese": "貿易摩擦が起きています。",
+            "romaji": "Boueki masatsu ga okiteimasu.",
+            "german": "Es gibt Handelsreibungen."
+          },
+          {
+            "japanese": "手をこすると、摩擦で温かくなります。",
+            "romaji": "Te o kosuru to, masatsu de atatakaku narimasu.",
+            "german": "Wenn man die Hände reibt, werden sie durch die Reibung warm."
+          },
+          {
+            "japanese": "部署の間で摩擦があるようだ。",
+            "romaji": "Busho no aida de masatsu ga aru you da.",
+            "german": "Zwischen den Abteilungen scheint es Spannungen zu geben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249463654",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摩擦/マサツ; lemma 摩擦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "摩擦",
+              "reading": "まさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 摩擦/まさつ \"Reibung, Konflikt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1523830 senses 1 and 3, noun: friction; discord, conflict Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 摩擦 heißt wörtlich physikalische „Reibung“ (摩擦が大きい, 摩擦熱) und übertragen „Reibereien, Spannungen“ zwischen Menschen, Gruppen oder Staaten: 貿易摩擦, 〜との間に摩擦が起きる/生じる. Als する-Verb („reiben“) ist es selten; im Alltag sagt man こする. 対立 „Konfrontation“ ist stärker, 摩擦 deutet eher auf kleinere, andauernde Spannungen hin. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1523830; spelling=摩擦; reading=まさつ",
+          "selected": {
+            "sequence": "1523830",
+            "spelling": "摩擦",
+            "reading": "まさつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "friction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rubbing",
+                  "chafing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discord",
+                  "friction",
+                  "strife",
+                  "conflict"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1523830 senses 1 and 3, noun: friction; discord, conflict"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 摩擦/マサツ; lemma 摩擦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249463654",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摩擦/マサツ; lemma 摩擦; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "摩擦",
+              "reading": "まさつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 摩擦/まさつ \"Reibung, Konflikt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reibung, Konflikt. JMdict 1523830 senses 1 and 3, noun: friction; discord, conflict",
+        "japanese": "貿易摩擦が起きています。 / 手をこすると、摩擦で温かくなります。 / 部署の間で摩擦があるようだ。",
+        "romanization": "masatsu; Boueki masatsu ga okiteimasu. / Te o kosuru to, masatsu de atatakaku narimasu. / Busho no aida de masatsu ga aru you da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt Handelsreibungen. / Wenn man die Hände reibt, werden sie durch die Reibung warm. / Zwischen den Abteilungen scheint es Spannungen zu geben.",
+        "contexts": [
+          "International trade news",
+          "Physics of warming hands",
+          "Tension at work"
+        ],
+        "lexical": "JMdict 1523830 senses 1 and 3, noun: friction; discord, conflict",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb (摩擦する 'to rub' is rare)",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1445 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (International trade news; Physics of warming hands; Tension at work), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c8eec6b0e0f4013229500132d80ea284974c44aacb8a026014a5d21d74076497",
+        "approvalHash": "2607196f42c8ac2cdfc97a08b2194d2eaa67f9f770f2ab6301968c42da3509e1"
+      }
+    },
+    {
+      "id": "vocab-n3:1446",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1446",
+      "state": "accepted",
+      "predecessorHash": "abcfa866136ecdf4ca2f365cb74454dec816399c8b8b46f547657467c64fb049",
+      "originalHash": "abcfa866136ecdf4ca2f365cb74454dec816399c8b8b46f547657467c64fb049",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "和解に至りました。",
+            "romaji": "Wakai ni itarimashita.",
+            "german": "Wir haben uns versöhnt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "和解 ist die Versöhnung bzw. gütliche Einigung nach einem ernsthaften Streit; der Partner steht mit と: 父と和解する. Juristisch bedeutet es „Vergleich“: 和解が成立する, 和解金. Für kleine Alltagskräche unter Freunden sagt man lieber 仲直りする – 和解 klingt formeller und gewichtiger. Feste Wendungen: 和解に至る, 和解を図る.",
+        "examples": [
+          {
+            "japanese": "和解に至りました。",
+            "romaji": "Wakai ni itarimashita.",
+            "german": "Wir haben uns versöhnt."
+          },
+          {
+            "japanese": "長年仲が悪かった兄弟が、ついに和解した。",
+            "romaji": "Naganen naka ga warukatta kyoudai ga, tsui ni wakai shita.",
+            "german": "Die Brüder, die jahrelang zerstritten waren, haben sich endlich versöhnt."
+          },
+          {
+            "japanese": "裁判は和解で終わりました。",
+            "romaji": "Saiban wa wakai de owarimashita.",
+            "german": "Der Prozess endete mit einem Vergleich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280872003",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 和解/ワカイ; lemma 和解; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "和解",
+              "reading": "わかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 和解/わかい \"Versöhnung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1562030 senses 1–2, noun / suru verb: reconciliation, amicable settlement; court-mediated settlement Pitch: Verified [0] via exact UniDic row. 和解 ist die Versöhnung bzw. gütliche Einigung nach einem ernsthaften Streit; der Partner steht mit と: 父と和解する. Juristisch bedeutet es „Vergleich“: 和解が成立する, 和解金. Für kleine Alltagskräche unter Freunden sagt man lieber 仲直りする – 和解 klingt formeller und gewichtiger. Feste Wendungen: 和解に至る, 和解を図る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1562030; spelling=和解; reading=わかい",
+          "selected": {
+            "sequence": "1562030",
+            "spelling": "和解",
+            "reading": "わかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reconciliation",
+                  "amicable settlement",
+                  "accommodation",
+                  "compromise",
+                  "mediation",
+                  "rapprochement"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "court-mediated settlement"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "わかい"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "translation of a foreign language into Japanese"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1562030 senses 1–2, noun / suru verb: reconciliation, amicable settlement; court-mediated settlement"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 和解/ワカイ; lemma 和解; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280872003",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 和解/ワカイ; lemma 和解; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "和解",
+              "reading": "わかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 和解/わかい \"Versöhnung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Versöhnung. JMdict 1562030 senses 1–2, noun / suru verb: reconciliation, amicable settlement; court-mediated settlement",
+        "japanese": "和解に至りました。 / 長年仲が悪かった兄弟が、ついに和解した。 / 裁判は和解で終わりました。",
+        "romanization": "wakai; Wakai ni itarimashita. / Naganen naka ga warukatta kyoudai ga, tsui ni wakai shita. / Saiban wa wakai de owarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben uns versöhnt. / Die Brüder, die jahrelang zerstritten waren, haben sich endlich versöhnt. / Der Prozess endete mit einem Vergleich.",
+        "contexts": [
+          "Settling a dispute",
+          "Family reconciliation",
+          "Court settlement"
+        ],
+        "lexical": "JMdict 1562030 senses 1–2, noun / suru verb: reconciliation, amicable settlement; court-mediated settlement",
+        "register": "formal",
+        "transitivity": "intransitive as 和解する (partner with と)",
+        "conjugation": "noun; suru verb (和解する → 和解して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1446 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Settling a dispute; Family reconciliation; Court settlement), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0da3ff0b369a6eea3e4ebc6cfc7f1f1a74172422e705ae3231cebee5e580200e",
+        "approvalHash": "4d534d4015270f752d29a59425e864a25af457ee436cbee06320ac71e81e78dd"
+      }
+    },
+    {
+      "id": "vocab-n3:1447",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1447",
+      "state": "accepted",
+      "predecessorHash": "bcc93861137b21e14640cef2b61a4798a5369439bc3484a8e54503c96f84cdc4",
+      "originalHash": "bcc93861137b21e14640cef2b61a4798a5369439bc3484a8e54503c96f84cdc4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "業務妨害になります。",
+            "romaji": "Gyoumu bougai ni narimasu.",
+            "german": "Das behindert die Arbeit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "妨害 ist das (oft absichtliche) Behindern oder Stören einer Tätigkeit: 〜を妨害する, 〜に妨害される. Häufige Komposita: 業務妨害 (Straftatbestand), 営業妨害, 睡眠妨害, 電波妨害. Es klingt härter und formeller als das Alltagswort 邪魔 („stören, im Weg sein“: 邪魔しないで); bei 妨害 schwingen oft Absicht oder Rechtswidrigkeit mit.",
+        "examples": [
+          {
+            "japanese": "業務妨害になります。",
+            "romaji": "Gyoumu bougai ni narimasu.",
+            "german": "Das gilt als Störung des Geschäftsbetriebs."
+          },
+          {
+            "japanese": "隣の工事の音で睡眠を妨害されています。",
+            "romaji": "Tonari no kouji no oto de suimin o bougai sarete imasu.",
+            "german": "Der Baulärm nebenan raubt mir den Schlaf."
+          },
+          {
+            "japanese": "電波が妨害されて、テレビが映らない。",
+            "romaji": "Denpa ga bougai sarete, terebi ga utsuranai.",
+            "german": "Das Signal wird gestört, deshalb hat der Fernseher kein Bild."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245944869",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 妨害/ボウガイ; lemma 妨害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "妨害",
+              "reading": "ぼうがい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 妨害/ぼうがい \"Behinderung, Störung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1519130 sense 1, noun / suru verb: obstruction, hindrance, disturbance, interference Pitch: Verified [0] via exact UniDic row. 妨害 ist das (oft absichtliche) Behindern oder Stören einer Tätigkeit: 〜を妨害する, 〜に妨害される. Häufige Komposita: 業務妨害 (Straftatbestand), 営業妨害, 睡眠妨害, 電波妨害. Es klingt härter und formeller als das Alltagswort 邪魔 („stören, im Weg sein“: 邪魔しないで); bei 妨害 schwingen oft Absicht oder Rechtswidrigkeit mit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1519130; spelling=妨害; reading=ぼうがい",
+          "selected": {
+            "sequence": "1519130",
+            "spelling": "妨害",
+            "reading": "ぼうがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "obstruction",
+                  "hindrance",
+                  "blocking",
+                  "disturbance",
+                  "interference",
+                  "interruption",
+                  "sabotage",
+                  "jamming (a signal)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1519130 sense 1, noun / suru verb: obstruction, hindrance, disturbance, interference"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 妨害/ボウガイ; lemma 妨害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@245944869",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 妨害/ボウガイ; lemma 妨害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "妨害",
+              "reading": "ぼうがい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 妨害/ぼうがい \"Behinderung, Störung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Behinderung, Störung. JMdict 1519130 sense 1, noun / suru verb: obstruction, hindrance, disturbance, interference",
+        "japanese": "業務妨害になります。 / 隣の工事の音で睡眠を妨害されています。 / 電波が妨害されて、テレビが映らない。",
+        "romanization": "bougai; Gyoumu bougai ni narimasu. / Tonari no kouji no oto de suimin o bougai sarete imasu. / Denpa ga bougai sarete, terebi ga utsuranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das gilt als Störung des Geschäftsbetriebs. / Der Baulärm nebenan raubt mir den Schlaf. / Das Signal wird gestört, deshalb hat der Fernseher kein Bild.",
+        "contexts": [
+          "Warning about disruption",
+          "Noisy construction next door",
+          "Signal interference"
+        ],
+        "lexical": "JMdict 1519130 sense 1, noun / suru verb: obstruction, hindrance, disturbance, interference",
+        "register": "formal",
+        "transitivity": "transitive as 妨害する (X を妨害する; passive 妨害される)",
+        "conjugation": "noun; suru verb (妨害する → 妨害して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1447 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Warning about disruption; Noisy construction next door; Signal interference), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d1f46df98991e5fadd909a6a9929ecb5d68b29f8fad01884ee257df274b48aa0",
+        "approvalHash": "d7bffbadf36b71d6a82f8409b3681028d1c21d7d8a884013c1253e94ed4dd47b"
+      }
+    },
+    {
+      "id": "vocab-n3:1448",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1448",
+      "state": "accepted",
+      "predecessorHash": "487033fc6051c3212436e5c50f66b7fbcaae6cf2be8aef1f8d3e6970ef41493a",
+      "originalHash": "487033fc6051c3212436e5c50f66b7fbcaae6cf2be8aef1f8d3e6970ef41493a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "権利の侵害です。",
+            "romaji": "Kenri no shingai desu.",
+            "german": "Das ist eine Rechtsverletzung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "侵害 ist die Verletzung von Rechten oder geschützten Bereichen: 権利を侵害する, 人権侵害, 著作権侵害, プライバシーの侵害. Das Wort ist formell und typisch für Recht, Medien und Politik. Abgrenzung: 侵略 ist eine militärische Invasion, 違反 der Verstoß gegen eine Regel (交通違反) – 侵害 betrifft immer Rechte oder Interessen einer Person oder Gruppe.",
+        "examples": [
+          {
+            "japanese": "権利の侵害です。",
+            "romaji": "Kenri no shingai desu.",
+            "german": "Das ist eine Rechtsverletzung."
+          },
+          {
+            "japanese": "他人の写真を勝手に使うと、著作権の侵害になります。",
+            "romaji": "Tanin no shashin o katte ni tsukau to, chosakuken no shingai ni narimasu.",
+            "german": "Wer fremde Fotos einfach verwendet, verletzt das Urheberrecht."
+          },
+          {
+            "japanese": "そのアプリはプライバシーを侵害するおそれがある。",
+            "romaji": "Sono apuri wa puraibashii o shingai suru osore ga aru.",
+            "german": "Diese App könnte die Privatsphäre verletzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142609347",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 侵害/シンガイ; lemma 侵害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "侵害",
+              "reading": "しんがい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 侵害/しんがい \"Verletzung, Eingriff\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1359810 sense 1, noun / suru verb: infringement, violation, invasion Pitch: Verified [0] via exact UniDic row. 侵害 ist die Verletzung von Rechten oder geschützten Bereichen: 権利を侵害する, 人権侵害, 著作権侵害, プライバシーの侵害. Das Wort ist formell und typisch für Recht, Medien und Politik. Abgrenzung: 侵略 ist eine militärische Invasion, 違反 der Verstoß gegen eine Regel (交通違反) – 侵害 betrifft immer Rechte oder Interessen einer Person oder Gruppe. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1359810; spelling=侵害; reading=しんがい",
+          "selected": {
+            "sequence": "1359810",
+            "spelling": "侵害",
+            "reading": "しんがい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "infringement",
+                  "violation",
+                  "invasion",
+                  "encroachment",
+                  "trespass"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1359810 sense 1, noun / suru verb: infringement, violation, invasion"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 侵害/シンガイ; lemma 侵害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142609347",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 侵害/シンガイ; lemma 侵害; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "侵害",
+              "reading": "しんがい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 侵害/しんがい \"Verletzung, Eingriff\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verletzung, Eingriff. JMdict 1359810 sense 1, noun / suru verb: infringement, violation, invasion",
+        "japanese": "権利の侵害です。 / 他人の写真を勝手に使うと、著作権の侵害になります。 / そのアプリはプライバシーを侵害するおそれがある。",
+        "romanization": "shingai; Kenri no shingai desu. / Tanin no shashin o katte ni tsukau to, chosakuken no shingai ni narimasu. / Sono apuri wa puraibashii o shingai suru osore ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das ist eine Rechtsverletzung. / Wer fremde Fotos einfach verwendet, verletzt das Urheberrecht. / Diese App könnte die Privatsphäre verletzen.",
+        "contexts": [
+          "Protesting a violation",
+          "Copyright on the internet",
+          "Privacy concerns"
+        ],
+        "lexical": "JMdict 1359810 sense 1, noun / suru verb: infringement, violation, invasion",
+        "register": "formal / legal",
+        "transitivity": "transitive as 侵害する (権利を侵害する)",
+        "conjugation": "noun; suru verb (侵害する → 侵害して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1448 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Protesting a violation; Copyright on the internet; Privacy concerns), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "081f9dc120f323a6cf14974bf15dbd9b50b16113a9d0c4b8a75aa0d8524c1a78",
+        "approvalHash": "baae6dbd0c122097bc77ab030e95f87db93e9cf4021899a2850a6e6001013e0e"
+      }
+    },
+    {
+      "id": "vocab-n3:1449",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1449",
+      "state": "accepted",
+      "predecessorHash": "2f8c7d1bbd6dcfec61bac8e9161d52c63d285d0df17e0b66392d251af548808c",
+      "originalHash": "2f8c7d1bbd6dcfec61bac8e9161d52c63d285d0df17e0b66392d251af548808c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "町の繁栄を願います。",
+            "romaji": "Machi no han'ei o negaimasu.",
+            "german": "Ich wünsche der Stadt Wohlstand."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "繁栄 „Blüte, Wohlstand“ beschreibt das Gedeihen von Städten, Ländern, Firmen oder Familien über längere Zeit; als intransitives する-Verb: 〜で繁栄する. Gegenwort ist 衰退 „Niedergang“. Anders als 繁盛 (ein Laden „läuft gut“: 店が繁盛する) ist 繁栄 größer gedacht und formeller. In Reden und Grußworten: ますますのご繁栄をお祈りします.",
+        "examples": [
+          {
+            "japanese": "町の繁栄を願います。",
+            "romaji": "Machi no han'ei o negaimasu.",
+            "german": "Ich wünsche der Stadt Wohlstand."
+          },
+          {
+            "japanese": "この港町は江戸時代に貿易で繁栄した。",
+            "romaji": "Kono minatomachi wa Edo jidai ni boueki de han'ei shita.",
+            "german": "Diese Hafenstadt blühte in der Edo-Zeit durch den Handel auf."
+          },
+          {
+            "japanese": "会社の繁栄は社員の努力のおかげです。",
+            "romaji": "Kaisha no han'ei wa shain no doryoku no okage desu.",
+            "german": "Der Erfolg der Firma ist dem Einsatz der Mitarbeiter zu verdanken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219715374",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 繁栄/ハンエイ; lemma 繁栄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "繁栄",
+              "reading": "はんえい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 繁栄/はんえい \"Wohlstand, Blüte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1481670 sense 1, noun / suru verb: prosperity, thriving, flourishing Pitch: Verified [0] via exact UniDic row. 繁栄 „Blüte, Wohlstand“ beschreibt das Gedeihen von Städten, Ländern, Firmen oder Familien über längere Zeit; als intransitives する-Verb: 〜で繁栄する. Gegenwort ist 衰退 „Niedergang“. Anders als 繁盛 (ein Laden „läuft gut“: 店が繁盛する) ist 繁栄 größer gedacht und formeller. In Reden und Grußworten: ますますのご繁栄をお祈りします. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1481670; spelling=繁栄; reading=はんえい",
+          "selected": {
+            "sequence": "1481670",
+            "spelling": "繁栄",
+            "reading": "はんえい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prosperity",
+                  "thriving",
+                  "flourishing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1481670 sense 1, noun / suru verb: prosperity, thriving, flourishing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 繁栄/ハンエイ; lemma 繁栄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219715374",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 繁栄/ハンエイ; lemma 繁栄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "繁栄",
+              "reading": "はんえい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 繁栄/はんえい \"Wohlstand, Blüte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wohlstand, Blüte. JMdict 1481670 sense 1, noun / suru verb: prosperity, thriving, flourishing",
+        "japanese": "町の繁栄を願います。 / この港町は江戸時代に貿易で繁栄した。 / 会社の繁栄は社員の努力のおかげです。",
+        "romanization": "han'ei; Machi no han'ei o negaimasu. / Kono minatomachi wa Edo jidai ni boueki de han'ei shita. / Kaisha no han'ei wa shain no doryoku no okage desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wünsche der Stadt Wohlstand. / Diese Hafenstadt blühte in der Edo-Zeit durch den Handel auf. / Der Erfolg der Firma ist dem Einsatz der Mitarbeiter zu verdanken.",
+        "contexts": [
+          "Wishing a town well",
+          "History of a port town",
+          "Company anniversary speech"
+        ],
+        "lexical": "JMdict 1481670 sense 1, noun / suru verb: prosperity, thriving, flourishing",
+        "register": "formal",
+        "transitivity": "intransitive as 繁栄する (〜で繁栄する)",
+        "conjugation": "noun; suru verb (繁栄する → 繁栄して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1449 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Wishing a town well; History of a port town; Company anniversary speech), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b959f14c8778644afe2ebe4a429edc86a382dab3d602dd1833f8638600e1c898",
+        "approvalHash": "c7f4d048a24b03a4de9340ff9f09c9b9f1142ac782e5526d7361b9d8af5df929"
+      }
+    },
+    {
+      "id": "vocab-n3:1450",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1450",
+      "state": "accepted",
+      "predecessorHash": "70b8e0b78e114baced55eb7b3a1b04beafa0221bb2f62080bfe38883712740bd",
+      "originalHash": "70b8e0b78e114baced55eb7b3a1b04beafa0221bb2f62080bfe38883712740bd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "産業が衰退しています。",
+            "romaji": "Sangyou ga suitai shiteimasu.",
+            "german": "Die Industrie ist im Niedergang."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "衰退 „Niedergang, Verfall“ ist ein formelles, intransitives する-Verb für das langsame Schwächerwerden von Branchen, Städten, Kulturen oder Staaten: 産業が衰退する, 地方の衰退. Gegenwörter sind 繁栄 und 発展. Für nachlassende Körperkraft sagt man 衰える (体力が衰える), nicht 衰退; 衰弱 ist körperliche Entkräftung.",
+        "examples": [
+          {
+            "japanese": "産業が衰退しています。",
+            "romaji": "Sangyou ga suitai shiteimasu.",
+            "german": "Die Industrie ist im Niedergang."
+          },
+          {
+            "japanese": "若い人が減って、商店街が衰退してしまった。",
+            "romaji": "Wakai hito ga hette, shoutengai ga suitai shite shimatta.",
+            "german": "Weil die jungen Leute weggezogen sind, ist die Einkaufsstraße verödet."
+          },
+          {
+            "japanese": "ローマ帝国の衰退について調べています。",
+            "romaji": "Rooma teikoku no suitai ni tsuite shirabete imasu.",
+            "german": "Ich beschäftige mich mit dem Niedergang des Römischen Reiches."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145656613",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 衰退/スイタイ; lemma 衰退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "衰退",
+              "reading": "すいたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 衰退/すいたい \"Niedergang, Verfall\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1372550 sense 1, noun / suru verb: decline, decay, waning Pitch: Verified [0] via exact UniDic row. 衰退 „Niedergang, Verfall“ ist ein formelles, intransitives する-Verb für das langsame Schwächerwerden von Branchen, Städten, Kulturen oder Staaten: 産業が衰退する, 地方の衰退. Gegenwörter sind 繁栄 und 発展. Für nachlassende Körperkraft sagt man 衰える (体力が衰える), nicht 衰退; 衰弱 ist körperliche Entkräftung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1372550; spelling=衰退; reading=すいたい",
+          "selected": {
+            "sequence": "1372550",
+            "spelling": "衰退",
+            "reading": "すいたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "decline",
+                  "degeneration",
+                  "decay",
+                  "waning",
+                  "ebbing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1372550 sense 1, noun / suru verb: decline, decay, waning"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 衰退/スイタイ; lemma 衰退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145656613",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 衰退/スイタイ; lemma 衰退; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "衰退",
+              "reading": "すいたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 衰退/すいたい \"Niedergang, Verfall\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Niedergang, Verfall. JMdict 1372550 sense 1, noun / suru verb: decline, decay, waning",
+        "japanese": "産業が衰退しています。 / 若い人が減って、商店街が衰退してしまった。 / ローマ帝国の衰退について調べています。",
+        "romanization": "suitai; Sangyou ga suitai shiteimasu. / Wakai hito ga hette, shoutengai ga suitai shite shimatta. / Rooma teikoku no suitai ni tsuite shirabete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Industrie ist im Niedergang. / Weil die jungen Leute weggezogen sind, ist die Einkaufsstraße verödet. / Ich beschäftige mich mit dem Niedergang des Römischen Reiches.",
+        "contexts": [
+          "Declining industry",
+          "Dying shopping street",
+          "History research"
+        ],
+        "lexical": "JMdict 1372550 sense 1, noun / suru verb: decline, decay, waning",
+        "register": "formal",
+        "transitivity": "intransitive as 衰退する (subject with が)",
+        "conjugation": "noun; suru verb (衰退する → 衰退して)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1450 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Declining industry; Dying shopping street; History research), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5bede0a243ece11ccb2eff063013e3b57e97c580cb7fb4784dd90ad9d0019a46",
+        "approvalHash": "0ea84306b1b14aa218436ea0349b8e19e0514a30ad86e75483f0e95233a4f617"
+      }
+    },
+    {
+      "id": "vocab-n3:1451",
+      "revisionId": "181a-n3-enrichment-vocab-n3-1451",
+      "state": "accepted",
+      "predecessorHash": "1fd139a5af1523a99636833e892425634e08cb1c5b9c86541b7989518b31c26e",
+      "originalHash": "1fd139a5af1523a99636833e892425634e08cb1c5b9c86541b7989518b31c26e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "技術革新が進んでいます。",
+            "romaji": "Gijutsu kakushin ga susundeimasu.",
+            "german": "Die technologische Innovation schreitet voran."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "革新 bedeutet „Innovation, grundlegende Erneuerung“ und ist formell: 技術革新, 革新的な „innovativ“, als transitives する-Verb 制度を革新する. In der Politik steht 革新 für „progressiv, links“ als Gegenpol zu 保守 „konservativ“. 改革 „Reform“ betont den Umbau bestehender Systeme, 革新 das völlig Neue; im Alltag hört man auch イノベーション. Nicht verwechseln mit den gleich gelesenen 確信 „Überzeugung“ und 核心 „Kern“.",
+        "examples": [
+          {
+            "japanese": "技術革新が進んでいます。",
+            "romaji": "Gijutsu kakushin ga susundeimasu.",
+            "german": "Die technologische Innovation schreitet voran."
+          },
+          {
+            "japanese": "この会社は革新的な製品を次々に出している。",
+            "romaji": "Kono kaisha wa kakushinteki na seihin o tsugitsugi ni dashite iru.",
+            "german": "Diese Firma bringt ein innovatives Produkt nach dem anderen heraus."
+          },
+          {
+            "japanese": "古い制度を革新する必要がある。",
+            "romaji": "Furui seido o kakushin suru hitsuyou ga aru.",
+            "german": "Das veraltete System muss grundlegend erneuert werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90617656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 革新/カクシン; lemma 革新; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "革新",
+              "reading": "かくしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 革新/かくしん \"Innovation, Reform\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1206470 sense 1, noun / suru verb: reform, innovation Pitch: Verified [0] via exact UniDic row. 革新 bedeutet „Innovation, grundlegende Erneuerung“ und ist formell: 技術革新, 革新的な „innovativ“, als transitives する-Verb 制度を革新する. In der Politik steht 革新 für „progressiv, links“ als Gegenpol zu 保守 „konservativ“. 改革 „Reform“ betont den Umbau bestehender Systeme, 革新 das völlig Neue; im Alltag hört man auch イノベーション. Nicht verwechseln mit den gleich gelesenen 確信 „Überzeugung“ und 核心 „Kern“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1206470; spelling=革新; reading=かくしん",
+          "selected": {
+            "sequence": "1206470",
+            "spelling": "革新",
+            "reading": "かくしん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reform",
+                  "innovation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1206470 sense 1, noun / suru verb: reform, innovation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 革新/カクシン; lemma 革新; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90617656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 革新/カクシン; lemma 革新; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "革新",
+              "reading": "かくしん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 革新/かくしん \"Innovation, Reform\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "reviewedDistinctContexts": true,
+        "meaning": "Innovation, Reform. JMdict 1206470 sense 1, noun / suru verb: reform, innovation",
+        "japanese": "技術革新が進んでいます。 / この会社は革新的な製品を次々に出している。 / 古い制度を革新する必要がある。",
+        "romanization": "kakushin; Gijutsu kakushin ga susundeimasu. / Kono kaisha wa kakushinteki na seihin o tsugitsugi ni dashite iru. / Furui seido o kakushin suru hitsuyou ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die technologische Innovation schreitet voran. / Diese Firma bringt ein innovatives Produkt nach dem anderen heraus. / Das veraltete System muss grundlegend erneuert werden.",
+        "contexts": [
+          "Technological progress",
+          "Innovative company",
+          "Calling for reform"
+        ],
+        "lexical": "JMdict 1206470 sense 1, noun / suru verb: reform, innovation",
+        "register": "formal",
+        "transitivity": "transitive as 革新する (制度を革新する)",
+        "conjugation": "noun; suru verb (革新する → 革新して); adjective 革新的な",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-181",
+        "finding": "Author reread the exact final card vocab-n3:1451 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Technological progress; Innovative company; Calling for reform), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5d99d89dc43a0ea9ced941dd32825cd70f9e1f95ba22c724cfef7c62919733a2",
+        "approvalHash": "ffebe57451ded2110dfe2e33fb27e20611e2d1968b8859db9ec8a1f32188242f"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

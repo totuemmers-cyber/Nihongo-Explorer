@@ -1,0 +1,3948 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1683",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1683",
+      "state": "accepted",
+      "predecessorHash": "52d27fbe43af5fbaacdc4e641b1e1dcb611c1ef5281797997069f33350b2cb88",
+      "originalHash": "52d27fbe43af5fbaacdc4e641b1e1dcb611c1ef5281797997069f33350b2cb88",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お中元を頂きました。",
+            "romaji": "Ochuugen o itadakimashita.",
+            "german": "Ich habe ein Sommergeschenk erhalten."
+          }
+        ],
+        "meaning": "Sommermittegeschenk",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "お中元 ist das Dankesgeschenk, das man im Sommer (im Raum Tokio Anfang bis Mitte Juli, in Westjapan oft bis Mitte August) an Vorgesetzte, Geschäftspartner, Lehrer oder Verwandte schickt; das Gegenstück im Winter ist お歳暮. Man sagt fast immer mit dem höflichen お: お中元を贈る, お中元を頂く, お中元のお礼を言う. Ohne お erscheint 中元 vor allem in Geschäftssprache wie 中元セール.",
+        "examples": [
+          {
+            "japanese": "お中元を頂きました。",
+            "romaji": "Ochuugen o itadakimashita.",
+            "german": "Ich habe ein Sommergeschenk erhalten."
+          },
+          {
+            "japanese": "取引先にお中元を贈りました。",
+            "romaji": "Torihikisaki ni ochuugen o okurimashita.",
+            "german": "Wir haben unseren Geschäftspartnern ein Sommergeschenk geschickt."
+          },
+          {
+            "japanese": "デパートでお中元にビールのセットを選びました。",
+            "romaji": "Depaato de ochuugen ni biiru no setto o erabimashita.",
+            "german": "Im Kaufhaus habe ich als Sommergeschenk ein Bierset ausgesucht."
+          }
+        ],
+        "meaning": "Sommergeschenk (zur Jahresmitte)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1270540 sense 1, noun: mid-year gift, summer gift Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). お中元 ist das Dankesgeschenk, das man im Sommer (im Raum Tokio Anfang bis Mitte Juli, in Westjapan oft bis Mitte August) an Vorgesetzte, Geschäftspartner, Lehrer oder Verwandte schickt; das Gegenstück im Winter ist お歳暮. Man sagt fast immer mit dem höflichen お: お中元を贈る, お中元を頂く, お中元のお礼を言う. Ohne お erscheint 中元 vor allem in Geschäftssprache wie 中元セール. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270540; spelling=お中元; reading=おちゅうげん",
+          "selected": {
+            "sequence": "1270540",
+            "spelling": "お中元",
+            "reading": "おちゅうげん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mid-year gift",
+                  "summer gift"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1270540 sense 1, noun: mid-year gift, summer gift"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole お中元/おちゅうげん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%8A%E4%B8%AD%E5%85%83",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole お中元/おちゅうげん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sommergeschenk (zur Jahresmitte). JMdict 1270540 sense 1, noun: mid-year gift, summer gift",
+        "japanese": "お中元を頂きました。 / 取引先にお中元を贈りました。 / デパートでお中元にビールのセットを選びました。",
+        "romanization": "ochuugen; Ochuugen o itadakimashita. / Torihikisaki ni ochuugen o okurimashita. / Depaato de ochuugen ni biiru no setto o erabimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe ein Sommergeschenk erhalten. / Wir haben unseren Geschäftspartnern ein Sommergeschenk geschickt. / Im Kaufhaus habe ich als Sommergeschenk ein Bierset ausgesucht.",
+        "contexts": [
+          "Receiving a summer gift",
+          "Business gift to clients",
+          "Shopping at a department store"
+        ],
+        "lexical": "JMdict 1270540 sense 1, noun: mid-year gift, summer gift",
+        "register": "neutral; polite prefix お almost obligatory",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1683 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Receiving a summer gift; Business gift to clients; Shopping at a department store), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "605c309299d0cf4c50353e4267afaff688f3551a5be150aa2d2b7b35e9fb7831",
+        "approvalHash": "84935aabc9f9a3ce28730773d5a6a908d653c07958fb03a71f603e456be721a3"
+      }
+    },
+    {
+      "id": "vocab-n3:1684",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1684",
+      "state": "accepted",
+      "predecessorHash": "ba2ce9717a20f88f4ab32faa61746860cecdc98e69a5c3cb5f5ac2ba8091fc23",
+      "originalHash": "ba2ce9717a20f88f4ab32faa61746860cecdc98e69a5c3cb5f5ac2ba8091fc23",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "結婚式の祝儀を準備します。",
+            "romaji": "Kekkonshiki no shuugi o junbi shimasu.",
+            "german": "Ich bereite das Geldgeschenk für die Hochzeit vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "祝儀 bezeichnet vor allem das Geldgeschenk zu einem freudigen Anlass, besonders zur Hochzeit; im Alltag sagt man fast immer ご祝儀. Das Geld steckt man in einen ご祝儀袋 und verwendet möglichst neue Scheine. Daneben kann ご祝儀 auch ein Trinkgeld oder eine Belohnung für Künstler und Handwerker sein. Das Gegenstück für traurige Anlässe ist 不祝儀 bzw. 香典.",
+        "examples": [
+          {
+            "japanese": "結婚式の祝儀を準備します。",
+            "romaji": "Kekkonshiki no shuugi o junbi shimasu.",
+            "german": "Ich bereite das Geldgeschenk für die Hochzeit vor."
+          },
+          {
+            "japanese": "受付でご祝儀を渡しました。",
+            "romaji": "Uketsuke de goshuugi o watashimashita.",
+            "german": "Am Empfang habe ich das Geldgeschenk überreicht."
+          },
+          {
+            "japanese": "ご祝儀には新しいお札を入れるのがマナーです。",
+            "romaji": "Goshuugi ni wa atarashii osatsu o ireru no ga manaa desu.",
+            "german": "Es gehört sich, für das Hochzeitsgeld neue Geldscheine zu nehmen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139857011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 祝儀/シュウギ; lemma 祝儀; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "祝儀",
+              "reading": "しゅうぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 祝儀/しゅうぎ \"Geldgeschenk (Feier)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1337420 senses 2–3, noun: congratulatory gift (money), tip Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 祝儀 bezeichnet vor allem das Geldgeschenk zu einem freudigen Anlass, besonders zur Hochzeit; im Alltag sagt man fast immer ご祝儀. Das Geld steckt man in einen ご祝儀袋 und verwendet möglichst neue Scheine. Daneben kann ご祝儀 auch ein Trinkgeld oder eine Belohnung für Künstler und Handwerker sein. Das Gegenstück für traurige Anlässe ist 不祝儀 bzw. 香典. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1337420; spelling=祝儀; reading=しゅうぎ",
+          "selected": {
+            "sequence": "1337420",
+            "spelling": "祝儀",
+            "reading": "しゅうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "celebration",
+                  "celebratory event",
+                  "wedding ceremony"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "congratulatory gift"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tip",
+                  "gratuity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1337420 senses 2–3, noun: congratulatory gift (money), tip"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 祝儀/シュウギ; lemma 祝儀; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139857011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 祝儀/シュウギ; lemma 祝儀; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "祝儀",
+              "reading": "しゅうぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 祝儀/しゅうぎ \"Geldgeschenk (Feier)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geldgeschenk (Feier). JMdict 1337420 senses 2–3, noun: congratulatory gift (money), tip",
+        "japanese": "結婚式の祝儀を準備します。 / 受付でご祝儀を渡しました。 / ご祝儀には新しいお札を入れるのがマナーです。",
+        "romanization": "shuugi; Kekkonshiki no shuugi o junbi shimasu. / Uketsuke de goshuugi o watashimashita. / Goshuugi ni wa atarashii osatsu o ireru no ga manaa desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bereite das Geldgeschenk für die Hochzeit vor. / Am Empfang habe ich das Geldgeschenk überreicht. / Es gehört sich, für das Hochzeitsgeld neue Geldscheine zu nehmen.",
+        "contexts": [
+          "Preparing for a wedding",
+          "Handing over the gift at reception",
+          "Etiquette for gift money"
+        ],
+        "lexical": "JMdict 1337420 senses 2–3, noun: congratulatory gift (money), tip",
+        "register": "neutral; usually ご祝儀",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1684 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preparing for a wedding; Handing over the gift at reception; Etiquette for gift money), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f96a1fce7d3ad0689e9a168ee62b5f5c149adf790d8cd2782c40533d5c3e0128",
+        "approvalHash": "cc505680be533d94222ae603be0bdd2cbaf5ed6f764ed676fb79ce829ea2aaf0"
+      }
+    },
+    {
+      "id": "vocab-n3:1685",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1685",
+      "state": "accepted",
+      "predecessorHash": "77deedbf24f67796c4ff4d76e97b94695bfcc971f32d309aa74e024801e094ff",
+      "originalHash": "77deedbf24f67796c4ff4d76e97b94695bfcc971f32d309aa74e024801e094ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不祝儀袋を買いました。",
+            "romaji": "Bushuugi bukuro o kaimashita.",
+            "german": "Ich habe einen Kondolenzumschlag gekauft."
+          }
+        ],
+        "meaning": "Kondolenzgeld",
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不祝儀 ist wörtlich „Nicht-Feier“, also ein trauriger Anlass, vor allem Beerdigung oder Totengedenken – das Gegenteil von 祝儀. Am häufigsten begegnet das Wort in 不祝儀袋, dem schwarz-weißen Umschlag, in dem man das Kondolenzgeld (香典) überreicht. Es ist ein etwas formelles Wort aus dem Bereich der Umgangsformen; im Gespräch sagt man eher お葬式 oder お通夜.",
+        "examples": [
+          {
+            "japanese": "不祝儀袋を買いました。",
+            "romaji": "Bushuugi bukuro o kaimashita.",
+            "german": "Ich habe einen Kondolenzumschlag gekauft."
+          },
+          {
+            "japanese": "不祝儀の場では、派手な服は避けましょう。",
+            "romaji": "Bushuugi no ba de wa, hade na fuku wa sakemashou.",
+            "german": "Bei Trauerfällen sollte man auffällige Kleidung vermeiden."
+          },
+          {
+            "japanese": "祝儀と不祝儀では、お金の包み方が違います。",
+            "romaji": "Shuugi to bushuugi de wa, okane no tsutsumikata ga chigaimasu.",
+            "german": "Bei freudigen und traurigen Anlässen wird das Geld unterschiedlich eingepackt."
+          }
+        ],
+        "meaning": "Trauerfall, trauriger Anlass (bes. Beerdigung)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1492760 sense 1, noun: sad occasion (esp. a funeral) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 不祝儀 ist wörtlich „Nicht-Feier“, also ein trauriger Anlass, vor allem Beerdigung oder Totengedenken – das Gegenteil von 祝儀. Am häufigsten begegnet das Wort in 不祝儀袋, dem schwarz-weißen Umschlag, in dem man das Kondolenzgeld (香典) überreicht. Es ist ein etwas formelles Wort aus dem Bereich der Umgangsformen; im Gespräch sagt man eher お葬式 oder お通夜. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1492760; spelling=不祝儀; reading=ぶしゅうぎ",
+          "selected": {
+            "sequence": "1492760",
+            "spelling": "不祝儀",
+            "reading": "ぶしゅうぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sad occasion (esp. a funeral)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1492760 sense 1, noun: sad occasion (esp. a funeral)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不祝儀/ぶしゅうぎ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E7%A5%9D%E5%84%80",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不祝儀/ぶしゅうぎ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Trauerfall, trauriger Anlass (bes. Beerdigung). JMdict 1492760 sense 1, noun: sad occasion (esp. a funeral)",
+        "japanese": "不祝儀袋を買いました。 / 不祝儀の場では、派手な服は避けましょう。 / 祝儀と不祝儀では、お金の包み方が違います。",
+        "romanization": "bushuugi; Bushuugi bukuro o kaimashita. / Bushuugi no ba de wa, hade na fuku wa sakemashou. / Shuugi to bushuugi de wa, okane no tsutsumikata ga chigaimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen Kondolenzumschlag gekauft. / Bei Trauerfällen sollte man auffällige Kleidung vermeiden. / Bei freudigen und traurigen Anlässen wird das Geld unterschiedlich eingepackt.",
+        "contexts": [
+          "Buying a condolence envelope",
+          "Dress code at a funeral",
+          "Etiquette comparison"
+        ],
+        "lexical": "JMdict 1492760 sense 1, noun: sad occasion (esp. a funeral)",
+        "register": "formal / etiquette term",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1685 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Buying a condolence envelope; Dress code at a funeral; Etiquette comparison), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5866adf610c2ee3a744fba23fdd79ce04aa0fc7bf5b274c78074a082d009d7dd",
+        "approvalHash": "79482052a0d4775bedc7b5f09e138bdb4a1d42c2715c28bef3067f8eaf21dc9e"
+      }
+    },
+    {
+      "id": "vocab-n3:1686",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1686",
+      "state": "accepted",
+      "predecessorHash": "5aabbff8948b9ce8d6cb98ab2792e0ea885c10ba3a3e814e42fc2f8335521dee",
+      "originalHash": "5aabbff8948b9ce8d6cb98ab2792e0ea885c10ba3a3e814e42fc2f8335521dee",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "香典を持って行きます。",
+            "romaji": "Kouden o motte ikimasu.",
+            "german": "Ich bringe Kondolenzgeld mit."
+          }
+        ],
+        "meaning": "Räuchergeld (Beerdigung)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "香典 ist das Geld, das man zur Totenwache (お通夜) oder Beerdigung mitbringt; wörtlich war es ursprünglich eine Gabe für Räucherwerk (香). Man steckt es in einen Trauerumschlag und sagt 香典を包む, 香典を渡す oder 香典を供える; neue Geldscheine vermeidet man hier. Die Familie bedankt sich später mit einem Gegengeschenk, dem 香典返し.",
+        "examples": [
+          {
+            "japanese": "香典を持って行きます。",
+            "romaji": "Kouden o motte ikimasu.",
+            "german": "Ich bringe Kondolenzgeld mit."
+          },
+          {
+            "japanese": "お通夜で香典を受付に渡しました。",
+            "romaji": "Otsuya de kouden o uketsuke ni watashimashita.",
+            "german": "Bei der Totenwache habe ich das Kondolenzgeld am Empfang abgegeben."
+          },
+          {
+            "japanese": "香典返しにお茶が届きました。",
+            "romaji": "Kouden-gaeshi ni ocha ga todokimashita.",
+            "german": "Als Dank für das Kondolenzgeld wurde uns Tee geschickt."
+          }
+        ],
+        "meaning": "Kondolenzgeld, Trauergeld (Beerdigung)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120420503",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 香典/コウデン; lemma 香典; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "香典",
+              "reading": "こうでん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 香典/こうでん \"Räuchergeld (Beerdigung)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1283090 sense 1, noun: condolence gift (usu. money) brought to a funeral Pitch: Verified [0] via exact UniDic row. 香典 ist das Geld, das man zur Totenwache (お通夜) oder Beerdigung mitbringt; wörtlich war es ursprünglich eine Gabe für Räucherwerk (香). Man steckt es in einen Trauerumschlag und sagt 香典を包む, 香典を渡す oder 香典を供える; neue Geldscheine vermeidet man hier. Die Familie bedankt sich später mit einem Gegengeschenk, dem 香典返し. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1283090; spelling=香典; reading=こうでん",
+          "selected": {
+            "sequence": "1283090",
+            "spelling": "香典",
+            "reading": "こうでん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gift brought to a funeral (usu. money)",
+                  "funeral offering",
+                  "condolence gift",
+                  "incense money"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1283090 sense 1, noun: condolence gift (usu. money) brought to a funeral"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 香典/コウデン; lemma 香典; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120420503",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 香典/コウデン; lemma 香典; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "香典",
+              "reading": "こうでん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 香典/こうでん \"Räuchergeld (Beerdigung)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kondolenzgeld, Trauergeld (Beerdigung). JMdict 1283090 sense 1, noun: condolence gift (usu. money) brought to a funeral",
+        "japanese": "香典を持って行きます。 / お通夜で香典を受付に渡しました。 / 香典返しにお茶が届きました。",
+        "romanization": "kouden; Kouden o motte ikimasu. / Otsuya de kouden o uketsuke ni watashimashita. / Kouden-gaeshi ni ocha ga todokimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bringe Kondolenzgeld mit. / Bei der Totenwache habe ich das Kondolenzgeld am Empfang abgegeben. / Als Dank für das Kondolenzgeld wurde uns Tee geschickt.",
+        "contexts": [
+          "Going to a funeral",
+          "At the wake reception",
+          "Receiving a return gift"
+        ],
+        "lexical": "JMdict 1283090 sense 1, noun: condolence gift (usu. money) brought to a funeral",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1686 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Going to a funeral; At the wake reception; Receiving a return gift), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "43e4bae0a711dd2203607e5ba47f6ed23f2116986385c3ac43e283118c8305c0",
+        "approvalHash": "583207ecccca82d97db7b1b082ec5b9daf3c76868898839bbe4670818edafb4d"
+      }
+    },
+    {
+      "id": "vocab-n3:1687",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1687",
+      "state": "accepted",
+      "predecessorHash": "49c7980e2c7538aae87b58d52fc3b0c61b7675d2c45a0e073b92ec36c55c584c",
+      "originalHash": "49c7980e2c7538aae87b58d52fc3b0c61b7675d2c45a0e073b92ec36c55c584c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "数珠を持って参列します。",
+            "romaji": "Juzu o motte sanretsu shimasu.",
+            "german": "Ich nehme mit der Gebetskette an der Zeremonie teil."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "数珠 ist die buddhistische Gebetskette, die man bei Beerdigungen, Gedenkfeiern und Grabbesuchen in der Hand hält oder beim Beten über die gefalteten Hände legt: 数珠を持つ, 数珠を手にかける. Die Lesung じゅず ist unregelmäßig und muss gelernt werden. Sehr gebräuchlich ist auch 数珠つなぎ „aufgereiht wie Perlen“, etwa für eine lange Autoschlange.",
+        "examples": [
+          {
+            "japanese": "数珠を持って参列します。",
+            "romaji": "Juzu o motte sanretsu shimasu.",
+            "german": "Ich nehme mit der Gebetskette an der Zeremonie teil."
+          },
+          {
+            "japanese": "祖母はいつも数珠を手にお経を読んでいます。",
+            "romaji": "Sobo wa itsumo juzu o te ni okyou o yonde imasu.",
+            "german": "Meine Großmutter liest die Sutras immer mit der Gebetskette in der Hand."
+          },
+          {
+            "japanese": "連休で車が数珠つなぎになっています。",
+            "romaji": "Renkyuu de kuruma ga juzu-tsunagi ni natte imasu.",
+            "german": "Wegen der Feiertage stehen die Autos Stoßstange an Stoßstange."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144475502",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 数珠/ジュズ; lemma 数珠; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "数珠",
+              "reading": "じゅず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 数珠/じゅず \"Gebetskette\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1373080 sense 1, noun: rosary, string of prayer beads Pitch: Verified [0,2] via exact UniDic row; stored primary 1 corrected to 0. 数珠 ist die buddhistische Gebetskette, die man bei Beerdigungen, Gedenkfeiern und Grabbesuchen in der Hand hält oder beim Beten über die gefalteten Hände legt: 数珠を持つ, 数珠を手にかける. Die Lesung じゅず ist unregelmäßig und muss gelernt werden. Sehr gebräuchlich ist auch 数珠つなぎ „aufgereiht wie Perlen“, etwa für eine lange Autoschlange. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1373080; spelling=数珠; reading=じゅず",
+          "selected": {
+            "sequence": "1373080",
+            "spelling": "数珠",
+            "reading": "じゅず",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rosary",
+                  "string of prayer beads"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1373080 sense 1, noun: rosary, string of prayer beads"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 数珠/ジュズ; lemma 数珠; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144475502",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 数珠/ジュズ; lemma 数珠; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "数珠",
+              "reading": "じゅず",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 数珠/じゅず \"Gebetskette\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gebetskette. JMdict 1373080 sense 1, noun: rosary, string of prayer beads",
+        "japanese": "数珠を持って参列します。 / 祖母はいつも数珠を手にお経を読んでいます。 / 連休で車が数珠つなぎになっています。",
+        "romanization": "juzu; Juzu o motte sanretsu shimasu. / Sobo wa itsumo juzu o te ni okyou o yonde imasu. / Renkyuu de kuruma ga juzu-tsunagi ni natte imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich nehme mit der Gebetskette an der Zeremonie teil. / Meine Großmutter liest die Sutras immer mit der Gebetskette in der Hand. / Wegen der Feiertage stehen die Autos Stoßstange an Stoßstange.",
+        "contexts": [
+          "Attending a funeral",
+          "Grandmother praying",
+          "Traffic queue (figurative)"
+        ],
+        "lexical": "JMdict 1373080 sense 1, noun: rosary, string of prayer beads",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1687 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Attending a funeral; Grandmother praying; Traffic queue (figurative)), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "343e32c773339e07a16f155b3ebf0d2aee0c0e517f2212dfc04cac5d07a70757",
+        "approvalHash": "a5610755bd5e59e831a811dae585ca3f469d925bfa5b1eefe773677598f086bd"
+      }
+    },
+    {
+      "id": "vocab-n3:1688",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1688",
+      "state": "accepted",
+      "predecessorHash": "a8be94610319029e095ec2a2e8edd19c6faa8ce4b516fb0ff8740d2c80db0434",
+      "originalHash": "a8be94610319029e095ec2a2e8edd19c6faa8ce4b516fb0ff8740d2c80db0434",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "戒名を頂きました。",
+            "romaji": "Kaimyou o itadakimashita.",
+            "german": "Wir haben einen postumen Namen erhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "戒名 ist der buddhistische Name, den ein Mönch einem Verstorbenen verleiht; er steht auf der Ahnentafel (位牌) und auf dem Grabstein. Man sagt 戒名をつける oder höflich 戒名をつけていただく, die Familie 戒名をもらう. Ursprünglich war es der Name, den man bei der Aufnahme der buddhistischen Gebote (戒) erhielt; in der Jōdo-Shinshū-Schule heißt er 法名.",
+        "examples": [
+          {
+            "japanese": "戒名を頂きました。",
+            "romaji": "Kaimyou o itadakimashita.",
+            "german": "Wir haben einen postumen Namen erhalten."
+          },
+          {
+            "japanese": "お坊さんに父の戒名をつけていただきました。",
+            "romaji": "Obousan ni chichi no kaimyou o tsukete itadakimashita.",
+            "german": "Der Mönch hat meinem verstorbenen Vater einen buddhistischen Namen gegeben."
+          },
+          {
+            "japanese": "お墓には祖父の戒名が刻まれています。",
+            "romaji": "Ohaka ni wa sofu no kaimyou ga kizamarete imasu.",
+            "german": "In den Grabstein ist der postume Name meines Großvaters eingraviert."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86609445",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 戒名/カイミョウ; lemma 戒名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "戒名",
+              "reading": "かいみょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 戒名/かいみょう \"postumer buddhistischer Name\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1200690 sense 1, noun: posthumous Buddhist name Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 戒名 ist der buddhistische Name, den ein Mönch einem Verstorbenen verleiht; er steht auf der Ahnentafel (位牌) und auf dem Grabstein. Man sagt 戒名をつける oder höflich 戒名をつけていただく, die Familie 戒名をもらう. Ursprünglich war es der Name, den man bei der Aufnahme der buddhistischen Gebote (戒) erhielt; in der Jōdo-Shinshū-Schule heißt er 法名. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1200690; spelling=戒名; reading=かいみょう",
+          "selected": {
+            "sequence": "1200690",
+            "spelling": "戒名",
+            "reading": "かいみょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "posthumous Buddhist name"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1200690 sense 1, noun: posthumous Buddhist name"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 戒名/カイミョウ; lemma 戒名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86609445",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 戒名/カイミョウ; lemma 戒名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "戒名",
+              "reading": "かいみょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 戒名/かいみょう \"postumer buddhistischer Name\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "postumer buddhistischer Name. JMdict 1200690 sense 1, noun: posthumous Buddhist name",
+        "japanese": "戒名を頂きました。 / お坊さんに父の戒名をつけていただきました。 / お墓には祖父の戒名が刻まれています。",
+        "romanization": "kaimyou; Kaimyou o itadakimashita. / Obousan ni chichi no kaimyou o tsukete itadakimashita. / Ohaka ni wa sofu no kaimyou ga kizamarete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben einen postumen Namen erhalten. / Der Mönch hat meinem verstorbenen Vater einen buddhistischen Namen gegeben. / In den Grabstein ist der postume Name meines Großvaters eingraviert.",
+        "contexts": [
+          "After the funeral",
+          "Name given by a monk",
+          "Inscription on a grave"
+        ],
+        "lexical": "JMdict 1200690 sense 1, noun: posthumous Buddhist name",
+        "register": "neutral (Buddhist term)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1688 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (After the funeral; Name given by a monk; Inscription on a grave), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "36ff0130ba041f236fd1b363cbd5b23b03c0c6c913dbee7efa95b14698e02765",
+        "approvalHash": "abfbe4cd338921dee8af6a3ed8f5ecf8fefbfc5397c06b72d096e26ffd1c0059"
+      }
+    },
+    {
+      "id": "vocab-n3:1689",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1689",
+      "state": "accepted",
+      "predecessorHash": "ed4484667e1f5e24239643c886635fa89ab7742248140124e338328d732bb5ef",
+      "originalHash": "ed4484667e1f5e24239643c886635fa89ab7742248140124e338328d732bb5ef",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "盂蘭盆に先祖を祀ります。",
+            "romaji": "Urabon ni senzo o matsurimasu.",
+            "german": "Zu Obon ehren wir die Ahnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "盂蘭盆 ist der volle, buddhistische Name des Totenfests, das man im Alltag einfach お盆 nennt; das Wort stammt aus dem Sanskrit (ullambana). Man begegnet ihm vor allem im Tempel- und Schriftkontext, etwa in 盂蘭盆会, der Obon-Gedenkfeier. Zu Obon (Mitte Juli oder Mitte August, je nach Region) werden die Ahnengeister empfangen und wieder verabschiedet; die schwierigen Kanji schreibt man oft auch als うら盆.",
+        "examples": [
+          {
+            "japanese": "盂蘭盆に先祖を祀ります。",
+            "romaji": "Urabon ni senzo o matsurimasu.",
+            "german": "Zu Obon ehren wir die Ahnen."
+          },
+          {
+            "japanese": "お寺で盂蘭盆の行事が行われます。",
+            "romaji": "Otera de urabon no gyouji ga okonawaremasu.",
+            "german": "Im Tempel finden die Veranstaltungen zum Obon-Fest statt."
+          },
+          {
+            "japanese": "盂蘭盆は、普通は「お盆」と呼ばれています。",
+            "romaji": "Urabon wa, futsuu wa obon to yobarete imasu.",
+            "german": "Urabon wird gewöhnlich einfach „Obon“ genannt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68329601",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 盂蘭盆/ウラボン; lemma ウラボン-ullambana; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "盂蘭盆",
+              "reading": "うらぼん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 盂蘭盆/うらぼん \"Obon (Totenfest)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1588480 sense 1, noun: Bon festival (Buddhist ceremony for the dead) Pitch: Verified [0,2] via exact UniDic row. 盂蘭盆 ist der volle, buddhistische Name des Totenfests, das man im Alltag einfach お盆 nennt; das Wort stammt aus dem Sanskrit (ullambana). Man begegnet ihm vor allem im Tempel- und Schriftkontext, etwa in 盂蘭盆会, der Obon-Gedenkfeier. Zu Obon (Mitte Juli oder Mitte August, je nach Region) werden die Ahnengeister empfangen und wieder verabschiedet; die schwierigen Kanji schreibt man oft auch als うら盆. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1588480; spelling=盂蘭盆; reading=うらぼん",
+          "selected": {
+            "sequence": "1588480",
+            "spelling": "盂蘭盆",
+            "reading": "うらぼん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Bon festival (Buddhist ceremony held around July 15)",
+                  "Feast of Lanterns"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1588480 sense 1, noun: Bon festival (Buddhist ceremony for the dead)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row. Exact whole 盂蘭盆/ウラボン; lemma ウラボン-ullambana; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68329601",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 盂蘭盆/ウラボン; lemma ウラボン-ullambana; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "盂蘭盆",
+              "reading": "うらぼん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 盂蘭盆/うらぼん \"Obon (Totenfest)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Obon (Totenfest). JMdict 1588480 sense 1, noun: Bon festival (Buddhist ceremony for the dead)",
+        "japanese": "盂蘭盆に先祖を祀ります。 / お寺で盂蘭盆の行事が行われます。 / 盂蘭盆は、普通は「お盆」と呼ばれています。",
+        "romanization": "urabon; Urabon ni senzo o matsurimasu. / Otera de urabon no gyouji ga okonawaremasu. / Urabon wa, futsuu wa obon to yobarete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zu Obon ehren wir die Ahnen. / Im Tempel finden die Veranstaltungen zum Obon-Fest statt. / Urabon wird gewöhnlich einfach „Obon“ genannt.",
+        "contexts": [
+          "Honouring ancestors",
+          "Temple events",
+          "Explaining the everyday name"
+        ],
+        "lexical": "JMdict 1588480 sense 1, noun: Bon festival (Buddhist ceremony for the dead)",
+        "register": "formal / Buddhist term; everyday: お盆",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1689 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Honouring ancestors; Temple events; Explaining the everyday name), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3811bdc3bed3914ad1858da95e4df214e9f203db9fdeef90f6dba61733c80eb7",
+        "approvalHash": "764ded09ea2f546d18180e8e17544b51b08c8337a6bbbb19c897138a8d10f841"
+      }
+    },
+    {
+      "id": "vocab-n3:1690",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1690",
+      "state": "accepted",
+      "predecessorHash": "52b75752f0fe710c10afab4b6d01ad249728d806973ead857e97ee26a4ca13b9",
+      "originalHash": "52b75752f0fe710c10afab4b6d01ad249728d806973ead857e97ee26a4ca13b9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お盆に墓参りをします。",
+            "romaji": "Obon ni hakamairi o shimasu.",
+            "german": "Zu Obon besuche ich die Gräber."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "墓参り ist der Besuch am Familiengrab; höflich und sehr häufig auch お墓参り. Man sagt 墓参りに行く oder als する-Verb 墓参りする. Typische Anlässe sind お盆, お彼岸, Neujahr und der Todestag (命日); dabei reinigt man das Grab, gießt Wasser darüber, stellt Blumen hin und zündet Räucherstäbchen an (線香をあげる).",
+        "examples": [
+          {
+            "japanese": "お盆に墓参りをします。",
+            "romaji": "Obon ni hakamairi o shimasu.",
+            "german": "Zu Obon besuche ich die Gräber."
+          },
+          {
+            "japanese": "祖父の命日に家族で墓参りに行きました。",
+            "romaji": "Sofu no meinichi ni kazoku de hakamairi ni ikimashita.",
+            "german": "Am Todestag meines Großvaters sind wir als Familie zum Grab gegangen."
+          },
+          {
+            "japanese": "墓参りの前に、花と線香を買いました。",
+            "romaji": "Hakamairi no mae ni, hana to senkou o kaimashita.",
+            "german": "Vor dem Grabbesuch habe ich Blumen und Räucherstäbchen gekauft."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212045619",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 墓参り/ハカマイリ; lemma 墓参り; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "墓参り",
+              "reading": "はかまいり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 墓参り/はかまいり \"Grabbesuch\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1584020 sense 1, noun / suru verb: visit to a grave Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 墓参り ist der Besuch am Familiengrab; höflich und sehr häufig auch お墓参り. Man sagt 墓参りに行く oder als する-Verb 墓参りする. Typische Anlässe sind お盆, お彼岸, Neujahr und der Todestag (命日); dabei reinigt man das Grab, gießt Wasser darüber, stellt Blumen hin und zündet Räucherstäbchen an (線香をあげる). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1584020; spelling=墓参り; reading=はかまいり",
+          "selected": {
+            "sequence": "1584020",
+            "spelling": "墓参り",
+            "reading": "はかまいり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "visit to a grave"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1584020 sense 1, noun / suru verb: visit to a grave"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 墓参り/ハカマイリ; lemma 墓参り; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212045619",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 墓参り/ハカマイリ; lemma 墓参り; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "墓参り",
+              "reading": "はかまいり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 墓参り/はかまいり \"Grabbesuch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Grabbesuch. JMdict 1584020 sense 1, noun / suru verb: visit to a grave",
+        "japanese": "お盆に墓参りをします。 / 祖父の命日に家族で墓参りに行きました。 / 墓参りの前に、花と線香を買いました。",
+        "romanization": "hakamairi; Obon ni hakamairi o shimasu. / Sofu no meinichi ni kazoku de hakamairi ni ikimashita. / Hakamairi no mae ni, hana to senkou o kaimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zu Obon besuche ich die Gräber. / Am Todestag meines Großvaters sind wir als Familie zum Grab gegangen. / Vor dem Grabbesuch habe ich Blumen und Räucherstäbchen gekauft.",
+        "contexts": [
+          "Obon custom",
+          "Death anniversary",
+          "Preparing for the visit"
+        ],
+        "lexical": "JMdict 1584020 sense 1, noun / suru verb: visit to a grave",
+        "register": "neutral; politer お墓参り",
+        "transitivity": "intransitive as 墓参りする; often 墓参りに行く",
+        "conjugation": "noun; suru verb (墓参りする)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1690 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Obon custom; Death anniversary; Preparing for the visit), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8b415899c9a09d35f9a440647e2b3b0ff67c033393d53ff9694a0f20116076f0",
+        "approvalHash": "399a943bfba67605df9f205553fadbaa8b1dfc5fabbfe1cfc5ad8f99443a97c1"
+      }
+    },
+    {
+      "id": "vocab-n3:1692",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1692",
+      "state": "accepted",
+      "predecessorHash": "1a78cf8f0e980b08de9c4b268eb8c576979802400f13bcb4651919bf9816485a",
+      "originalHash": "1a78cf8f0e980b08de9c4b268eb8c576979802400f13bcb4651919bf9816485a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "今年は厄年です。",
+            "romaji": "Kotoshi wa yakudoshi desu.",
+            "german": "Dieses Jahr ist ein Unglücksjahr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "厄年 sind die Lebensjahre, in denen man nach altem Volksglauben besonders anfällig für Unglück ist – nach traditioneller Zählung (数え年) für Männer vor allem 25 und 42, für Frauen 19 und 33; das jeweils schlimmste heißt 大厄, das Jahr davor 前厄, danach 後厄. Viele lassen sich dann am Schrein reinigen (厄払い, 厄除け). Locker gebraucht man 厄年 auch für ein Jahr, in dem alles schiefgeht.",
+        "examples": [
+          {
+            "japanese": "今年は厄年です。",
+            "romaji": "Kotoshi wa yakudoshi desu.",
+            "german": "Dieses Jahr ist ein Unglücksjahr."
+          },
+          {
+            "japanese": "厄年なので、神社で厄払いをしてもらいました。",
+            "romaji": "Yakudoshi na node, jinja de yakubarai o shite moraimashita.",
+            "german": "Weil ich in einem Unglücksjahr bin, habe ich mich am Schrein vom Unheil reinigen lassen."
+          },
+          {
+            "japanese": "事故に病気に、今年はまるで厄年のようだった。",
+            "romaji": "Jiko ni byouki ni, kotoshi wa marude yakudoshi no you datta.",
+            "german": "Erst ein Unfall, dann Krankheit – dieses Jahr war wie verhext."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267798798",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 厄年/ヤクドシ; lemma 厄年; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "厄年",
+              "reading": "やくどし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 厄年/やくどし \"Unglücksjahr\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1537910 senses 1–2, noun: unlucky year (by age), bad year Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 厄年 sind die Lebensjahre, in denen man nach altem Volksglauben besonders anfällig für Unglück ist – nach traditioneller Zählung (数え年) für Männer vor allem 25 und 42, für Frauen 19 und 33; das jeweils schlimmste heißt 大厄, das Jahr davor 前厄, danach 後厄. Viele lassen sich dann am Schrein reinigen (厄払い, 厄除け). Locker gebraucht man 厄年 auch für ein Jahr, in dem alles schiefgeht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1537910; spelling=厄年; reading=やくどし",
+          "selected": {
+            "sequence": "1537910",
+            "spelling": "厄年",
+            "reading": "やくどし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unlucky year",
+                  "critical year",
+                  "year (esp. age 25 and 42 for men, 19 and 33 for women) that is considered unlucky (orig. in Onmyōdō)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bad year",
+                  "annus horribilis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1537910 senses 1–2, noun: unlucky year (by age), bad year"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 厄年/ヤクドシ; lemma 厄年; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@267798798",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 厄年/ヤクドシ; lemma 厄年; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "厄年",
+              "reading": "やくどし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 厄年/やくどし \"Unglücksjahr\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unglücksjahr. JMdict 1537910 senses 1–2, noun: unlucky year (by age), bad year",
+        "japanese": "今年は厄年です。 / 厄年なので、神社で厄払いをしてもらいました。 / 事故に病気に、今年はまるで厄年のようだった。",
+        "romanization": "yakudoshi; Kotoshi wa yakudoshi desu. / Yakudoshi na node, jinja de yakubarai o shite moraimashita. / Jiko ni byouki ni, kotoshi wa marude yakudoshi no you datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dieses Jahr ist ein Unglücksjahr. / Weil ich in einem Unglücksjahr bin, habe ich mich am Schrein vom Unheil reinigen lassen. / Erst ein Unfall, dann Krankheit – dieses Jahr war wie verhext.",
+        "contexts": [
+          "Talking about one's age",
+          "Purification at a shrine",
+          "Looking back on a bad year"
+        ],
+        "lexical": "JMdict 1537910 senses 1–2, noun: unlucky year (by age), bad year",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1692 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Talking about one's age; Purification at a shrine; Looking back on a bad year), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b7fdce166b0124acf391489ad79dd84d561780bd00a9ad3979c08a4fc11aedbb",
+        "approvalHash": "a52d8d92ef834c60511f192424a1a3b0096357629eac3316fa48d6c49bb5ff25"
+      }
+    },
+    {
+      "id": "vocab-n3:1693",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1693",
+      "state": "accepted",
+      "predecessorHash": "c99e95a00a64c7d838812e527192ad3838ad4a9c6f7189b5824b301a9b31c10e",
+      "originalHash": "c99e95a00a64c7d838812e527192ad3838ad4a9c6f7189b5824b301a9b31c10e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "旧暦で祝います。",
+            "romaji": "Kyuureki de iwaimasu.",
+            "german": "Wir feiern nach dem alten Kalender."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "暦 bezeichnet den Kalender als Zeitrechnung oder Almanach, etwa mit Mondphasen, Glückstagen und Jahreszeitenabschnitten; den Wandkalender im Alltag nennt man カレンダー. Sehr typisch ist die Wendung 暦の上では „laut Kalender“, etwa wenn nach dem Kalender schon Frühling ist, es aber noch kalt ist. In Komposita wird 暦 れき gelesen: 旧暦, 西暦, 還暦.",
+        "examples": [
+          {
+            "japanese": "旧暦で祝います。",
+            "romaji": "Kyuureki de iwaimasu.",
+            "german": "Wir feiern nach dem alten Kalender."
+          },
+          {
+            "japanese": "暦の上ではもう春ですが、まだ寒い日が続いています。",
+            "romaji": "Koyomi no ue de wa mou haru desu ga, mada samui hi ga tsuzuite imasu.",
+            "german": "Laut Kalender ist schon Frühling, aber es ist immer noch kalt."
+          },
+          {
+            "japanese": "昔の人は暦を見て、田植えの時期を決めました。",
+            "romaji": "Mukashi no hito wa koyomi o mite, taue no jiki o kimemashita.",
+            "german": "Früher richteten sich die Menschen beim Reispflanzen nach dem Kalender."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124904583",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 暦/コヨミ; lemma 暦; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "暦",
+              "reading": "こよみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 暦/こよみ \"Kalender (traditionell)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1557950 sense 1, noun: calendar, almanac Pitch: Verified [0,3] via exact UniDic row. 暦 bezeichnet den Kalender als Zeitrechnung oder Almanach, etwa mit Mondphasen, Glückstagen und Jahreszeitenabschnitten; den Wandkalender im Alltag nennt man カレンダー. Sehr typisch ist die Wendung 暦の上では „laut Kalender“, etwa wenn nach dem Kalender schon Frühling ist, es aber noch kalt ist. In Komposita wird 暦 れき gelesen: 旧暦, 西暦, 還暦. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1557950; spelling=暦; reading=こよみ",
+          "selected": {
+            "sequence": "1557950",
+            "spelling": "暦",
+            "reading": "こよみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "calendar",
+                  "almanac"
+                ],
+                "notes": [
+                  "れき when a suffix"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1557950 sense 1, noun: calendar, almanac"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 暦/コヨミ; lemma 暦; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124904583",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 暦/コヨミ; lemma 暦; 名詞/普通名詞/一般/*; *; *; aType 0,3.",
+            "match": {
+              "word": "暦",
+              "reading": "こよみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 暦/こよみ \"Kalender (traditionell)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kalender (traditionell). JMdict 1557950 sense 1, noun: calendar, almanac",
+        "japanese": "旧暦で祝います。 / 暦の上ではもう春ですが、まだ寒い日が続いています。 / 昔の人は暦を見て、田植えの時期を決めました。",
+        "romanization": "koyomi; Kyuureki de iwaimasu. / Koyomi no ue de wa mou haru desu ga, mada samui hi ga tsuzuite imasu. / Mukashi no hito wa koyomi o mite, taue no jiki o kimemashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir feiern nach dem alten Kalender. / Laut Kalender ist schon Frühling, aber es ist immer noch kalt. / Früher richteten sich die Menschen beim Reispflanzen nach dem Kalender.",
+        "contexts": [
+          "Festival by the lunar calendar",
+          "Seasonal greeting",
+          "Farming in the past"
+        ],
+        "lexical": "JMdict 1557950 sense 1, noun: calendar, almanac",
+        "register": "neutral, somewhat traditional; everyday wall calendar = カレンダー",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1693 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Festival by the lunar calendar; Seasonal greeting; Farming in the past), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "700700a51ae273d80850c8aba11a9e8a4eb40eaecee75432fe986518952eebb2",
+        "approvalHash": "c92ce357ca7747209e05b722a7397887e11825e3890ef49038a9478d0575629b"
+      }
+    },
+    {
+      "id": "vocab-n3:1695",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1695",
+      "state": "accepted",
+      "predecessorHash": "6d3b0f08353d5ff985d73299a07b636c3d7108a688579dd69109548385152bb1",
+      "originalHash": "6d3b0f08353d5ff985d73299a07b636c3d7108a688579dd69109548385152bb1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "土用の丑の日に鰻を食べます。",
+            "romaji": "Doyou no ushi no hi ni unagi o tabemasu.",
+            "german": "Am Tag des Ochsen esse ich Aal."
+          }
+        ],
+        "meaning": "Übergangszeit zw. Jahreszeiten",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "土用 sind nach dem alten Kalender die rund 18 Tage vor Beginn jeder Jahreszeit; heute meint man damit fast immer den Sommer-土用 von etwa Ende Juli bis Anfang August, die heißesten Tage des Jahres. Bekannt ist 土用の丑の日, an dem man traditionell Aal (うなぎ) isst. Weitere Komposita sind 土用干し (Kleidung und Bücher im Hochsommer lüften) und 土用波 (hohe Wellen im Spätsommer).",
+        "examples": [
+          {
+            "japanese": "土用の丑の日に鰻を食べます。",
+            "romaji": "Doyou no ushi no hi ni unagi o tabemasu.",
+            "german": "Am Tag des Ochsen esse ich Aal."
+          },
+          {
+            "japanese": "土用に入ると、暑さが一段と厳しくなります。",
+            "romaji": "Doyou ni hairu to, atsusa ga ichidan to kibishiku narimasu.",
+            "german": "Mit Beginn der Hundstage wird die Hitze noch einmal drückender."
+          },
+          {
+            "japanese": "母は毎年、夏の土用に着物を干します。",
+            "romaji": "Haha wa maitoshi, natsu no doyou ni kimono o hoshimasu.",
+            "german": "Meine Mutter lüftet jedes Jahr in den Hundstagen ihre Kimonos."
+          }
+        ],
+        "meaning": "Hundstage (Hochsommer), Übergangszeit vor Jahreszeitenwechsel",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193130253",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 土用/ドヨウ; lemma 土用; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "土用",
+              "reading": "どよう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 土用/どよう \"Übergangszeit zw. Jahreszeiten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1445600 senses 1–2, noun: midsummer dog days; final 18 days of each season Pitch: Verified [0] via exact UniDic row. 土用 sind nach dem alten Kalender die rund 18 Tage vor Beginn jeder Jahreszeit; heute meint man damit fast immer den Sommer-土用 von etwa Ende Juli bis Anfang August, die heißesten Tage des Jahres. Bekannt ist 土用の丑の日, an dem man traditionell Aal (うなぎ) isst. Weitere Komposita sind 土用干し (Kleidung und Bücher im Hochsommer lüften) und 土用波 (hohe Wellen im Spätsommer). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1445600; spelling=土用; reading=どよう",
+          "selected": {
+            "sequence": "1445600",
+            "spelling": "土用",
+            "reading": "どよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "midsummer (late July through early August)",
+                  "dog days (of summer)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "final 18 days of each season on the traditional solar calendar"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1445600 senses 1–2, noun: midsummer dog days; final 18 days of each season"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 土用/ドヨウ; lemma 土用; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193130253",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 土用/ドヨウ; lemma 土用; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "土用",
+              "reading": "どよう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 土用/どよう \"Übergangszeit zw. Jahreszeiten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hundstage (Hochsommer), Übergangszeit vor Jahreszeitenwechsel. JMdict 1445600 senses 1–2, noun: midsummer dog days; final 18 days of each season",
+        "japanese": "土用の丑の日に鰻を食べます。 / 土用に入ると、暑さが一段と厳しくなります。 / 母は毎年、夏の土用に着物を干します。",
+        "romanization": "doyou; Doyou no ushi no hi ni unagi o tabemasu. / Doyou ni hairu to, atsusa ga ichidan to kibishiku narimasu. / Haha wa maitoshi, natsu no doyou ni kimono o hoshimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Am Tag des Ochsen esse ich Aal. / Mit Beginn der Hundstage wird die Hitze noch einmal drückender. / Meine Mutter lüftet jedes Jahr in den Hundstagen ihre Kimonos.",
+        "contexts": [
+          "Eel-eating custom",
+          "Weather in midsummer",
+          "Airing out clothes"
+        ],
+        "lexical": "JMdict 1445600 senses 1–2, noun: midsummer dog days; final 18 days of each season",
+        "register": "neutral, traditional calendar term",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1695 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Eel-eating custom; Weather in midsummer; Airing out clothes), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3530d76d7e8438470eef221e486692a31c3738c68509a429fc10a7e6e9e635ef",
+        "approvalHash": "6e11d531033d0ffffffb4b343ce129c73c3a924d47b40e299d40596b6f7b12b8"
+      }
+    },
+    {
+      "id": "vocab-n3:1696",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1696",
+      "state": "accepted",
+      "predecessorHash": "e4666bd4a8b0de0344ed36fa6699e6b56460ae76c709d68651750a49cdad5e49",
+      "originalHash": "e4666bd4a8b0de0344ed36fa6699e6b56460ae76c709d68651750a49cdad5e49",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お彼岸にお墓参りをします。",
+            "romaji": "Ohigan ni ohakamairi o shimasu.",
+            "german": "Zur Tag- und Nachtgleiche besuche ich Gräber."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "彼岸 meint im Alltag die Woche um die Tagundnachtgleiche im Frühling und Herbst, in der man Gräber besucht und Süßigkeiten wie おはぎ opfert; man sagt meist お彼岸. Wörtlich heißt es „das andere Ufer“, im Buddhismus das Nirwana jenseits dieser Welt. Bekannt ist das Sprichwort 暑さ寒さも彼岸まで: Hitze und Kälte halten nur bis zur Tagundnachtgleiche an.",
+        "examples": [
+          {
+            "japanese": "お彼岸にお墓参りをします。",
+            "romaji": "Ohigan ni ohakamairi o shimasu.",
+            "german": "Zur Tag- und Nachtgleiche besuche ich Gräber."
+          },
+          {
+            "japanese": "「暑さ寒さも彼岸まで」と言いますね。",
+            "romaji": "Atsusa samusa mo higan made to iimasu ne.",
+            "german": "Man sagt ja: Hitze und Kälte dauern nur bis zur Tagundnachtgleiche."
+          },
+          {
+            "japanese": "秋のお彼岸に、祖母とおはぎを作りました。",
+            "romaji": "Aki no ohigan ni, sobo to ohagi o tsukurimashita.",
+            "german": "In der herbstlichen Higan-Woche habe ich mit meiner Großmutter Ohagi gemacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222228617",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 彼岸/ヒガン; lemma 彼岸; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "彼岸",
+              "reading": "ひがん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 彼岸/ひがん \"Tag- und Nachtgleiche (buddhistisch)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1483100 sense 1 (also 3), noun: equinoctial week; (Buddhism) the other shore, nirvana Pitch: Verified [0,2] via exact UniDic row. 彼岸 meint im Alltag die Woche um die Tagundnachtgleiche im Frühling und Herbst, in der man Gräber besucht und Süßigkeiten wie おはぎ opfert; man sagt meist お彼岸. Wörtlich heißt es „das andere Ufer“, im Buddhismus das Nirwana jenseits dieser Welt. Bekannt ist das Sprichwort 暑さ寒さも彼岸まで: Hitze und Kälte halten nur bis zur Tagundnachtgleiche an. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483100; spelling=彼岸; reading=ひがん",
+          "selected": {
+            "sequence": "1483100",
+            "spelling": "彼岸",
+            "reading": "ひがん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "equinoctial week (when Buddhist services are held)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "Buddhist services during the equinoctial week"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nirvana"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "formal or literary term"
+                ],
+                "gloss": [
+                  "opposite bank",
+                  "opposite shore",
+                  "shore on the other side"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1483100 sense 1 (also 3), noun: equinoctial week; (Buddhism) the other shore, nirvana"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row. Exact whole 彼岸/ヒガン; lemma 彼岸; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222228617",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 彼岸/ヒガン; lemma 彼岸; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "彼岸",
+              "reading": "ひがん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 彼岸/ひがん \"Tag- und Nachtgleiche (buddhistisch)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tag- und Nachtgleiche (buddhistisch). JMdict 1483100 sense 1 (also 3), noun: equinoctial week; (Buddhism) the other shore, nirvana",
+        "japanese": "お彼岸にお墓参りをします。 / 「暑さ寒さも彼岸まで」と言いますね。 / 秋のお彼岸に、祖母とおはぎを作りました。",
+        "romanization": "higan; Ohigan ni ohakamairi o shimasu. / Atsusa samusa mo higan made to iimasu ne. / Aki no ohigan ni, sobo to ohagi o tsukurimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zur Tag- und Nachtgleiche besuche ich Gräber. / Man sagt ja: Hitze und Kälte dauern nur bis zur Tagundnachtgleiche. / In der herbstlichen Higan-Woche habe ich mit meiner Großmutter Ohagi gemacht.",
+        "contexts": [
+          "Grave visit",
+          "Proverb about the weather",
+          "Seasonal sweets"
+        ],
+        "lexical": "JMdict 1483100 sense 1 (also 3), noun: equinoctial week; (Buddhism) the other shore, nirvana",
+        "register": "neutral; usually お彼岸",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1696 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Grave visit; Proverb about the weather; Seasonal sweets), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b26427f97eed41a26051275c9c6f88fa79d956b16391f1b2bfce14d885e99efa",
+        "approvalHash": "045cd42d6164bb79909f6ec052172212163abaf089644ec1d5136624ca343d06"
+      }
+    },
+    {
+      "id": "vocab-n3:1697",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1697",
+      "state": "accepted",
+      "predecessorHash": "fbec4c45ef82b4f70415879f7c665a5f2a2e775f3cec92f3bb78670a664dab65",
+      "originalHash": "fbec4c45ef82b4f70415879f7c665a5f2a2e775f3cec92f3bb78670a664dab65",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "結婚式は大安の日にします。",
+            "romaji": "Kekkonshiki wa taian no hi ni shimasu.",
+            "german": "Die Hochzeit halten wir an einem Glückstag."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大安 ist der glücklichste der sechs Tagestypen des traditionellen Kalenders (六曜), zu denen auch 仏滅 und 友引 gehören. An 大安-Tagen heiratet man gern, eröffnet Geschäfte oder holt ein neues Auto ab; die feste Wendung 大安吉日 betont den besonders günstigen Tag. Man sagt 大安の日 oder einfach 大安に.",
+        "examples": [
+          {
+            "japanese": "結婚式は大安の日にします。",
+            "romaji": "Kekkonshiki wa taian no hi ni shimasu.",
+            "german": "Die Hochzeit halten wir an einem Glückstag."
+          },
+          {
+            "japanese": "大安の土曜日は、式場の予約がすぐ埋まります。",
+            "romaji": "Taian no doyoubi wa, shikijou no yoyaku ga sugu umarimasu.",
+            "german": "Samstage, die auf einen Glückstag fallen, sind bei Hochzeitssälen schnell ausgebucht."
+          },
+          {
+            "japanese": "店のオープンは大安を選びました。",
+            "romaji": "Mise no oopun wa taian o erabimashita.",
+            "german": "Für die Eröffnung des Ladens haben wir einen Glückstag gewählt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157924708",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 大安/タイアン; lemma 大安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "大安",
+              "reading": "たいあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大安/たいあん \"Glückstag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1413010 sense 1, noun: lucky day in the traditional calendar Pitch: Verified [0] via exact UniDic row. 大安 ist der glücklichste der sechs Tagestypen des traditionellen Kalenders (六曜), zu denen auch 仏滅 und 友引 gehören. An 大安-Tagen heiratet man gern, eröffnet Geschäfte oder holt ein neues Auto ab; die feste Wendung 大安吉日 betont den besonders günstigen Tag. Man sagt 大安の日 oder einfach 大安に. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1413010; spelling=大安; reading=たいあん",
+          "selected": {
+            "sequence": "1413010",
+            "spelling": "大安",
+            "reading": "たいあん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "day that is lucky the whole day (in the traditional calendar)",
+                  "auspicious day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1413010 sense 1, noun: lucky day in the traditional calendar"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 大安/タイアン; lemma 大安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157924708",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 大安/タイアン; lemma 大安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "大安",
+              "reading": "たいあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大安/たいあん \"Glückstag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Glückstag. JMdict 1413010 sense 1, noun: lucky day in the traditional calendar",
+        "japanese": "結婚式は大安の日にします。 / 大安の土曜日は、式場の予約がすぐ埋まります。 / 店のオープンは大安を選びました。",
+        "romanization": "taian; Kekkonshiki wa taian no hi ni shimasu. / Taian no doyoubi wa, shikijou no yoyaku ga sugu umarimasu. / Mise no oopun wa taian o erabimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Hochzeit halten wir an einem Glückstag. / Samstage, die auf einen Glückstag fallen, sind bei Hochzeitssälen schnell ausgebucht. / Für die Eröffnung des Ladens haben wir einen Glückstag gewählt.",
+        "contexts": [
+          "Planning a wedding",
+          "Booking a venue",
+          "Opening a shop"
+        ],
+        "lexical": "JMdict 1413010 sense 1, noun: lucky day in the traditional calendar",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1697 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Planning a wedding; Booking a venue; Opening a shop), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d7fc760946a0627c6c6b160461d711c90530e030d602409ef6d02bfb5ede8bd9",
+        "approvalHash": "1a7f5c46884ea801e74314cee80edc8041da05029ee79d298bc362f958ec9d09"
+      }
+    },
+    {
+      "id": "vocab-n3:1698",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1698",
+      "state": "accepted",
+      "predecessorHash": "728e014fc393ca81d294fcff64416585c4390a58266fd036b6d9399b7f256579",
+      "originalHash": "728e014fc393ca81d294fcff64416585c4390a58266fd036b6d9399b7f256579",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "仏滅の日は避けます。",
+            "romaji": "Butsumetsu no hi wa sakemasu.",
+            "german": "Wir meiden Unglückstage."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "仏滅 ist der ungünstigste Tag im sechsteiligen Kalenderzyklus 六曜 und das Gegenteil von 大安. Für Hochzeiten, Umzüge oder Eröffnungen meidet man ihn, weshalb Hochzeitssäle an 仏滅 oft Rabatte geben. Wörtlich bedeutet es „Buddhas Tod“, mit dem Buddhismus hat der Kalenderbrauch aber eigentlich nichts zu tun.",
+        "examples": [
+          {
+            "japanese": "仏滅の日は避けます。",
+            "romaji": "Butsumetsu no hi wa sakemasu.",
+            "german": "Wir meiden Unglückstage."
+          },
+          {
+            "japanese": "仏滅だと結婚式場が安くなるそうです。",
+            "romaji": "Butsumetsu da to kekkonshikijou ga yasuku naru sou desu.",
+            "german": "An Unglückstagen sollen Hochzeitssäle günstiger sein."
+          },
+          {
+            "japanese": "祖母は仏滅に引っ越すのを嫌がりました。",
+            "romaji": "Sobo wa butsumetsu ni hikkosu no o iyagarimashita.",
+            "german": "Meine Großmutter wollte nicht an einem Unglückstag umziehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239542451",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仏滅/ブツメツ; lemma 仏滅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仏滅",
+              "reading": "ぶつめつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仏滅/ぶつめつ \"Unglückstag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1502340 sense 2, noun: very unlucky day (traditional calendar) Pitch: Verified [0] via exact UniDic row. 仏滅 ist der ungünstigste Tag im sechsteiligen Kalenderzyklus 六曜 und das Gegenteil von 大安. Für Hochzeiten, Umzüge oder Eröffnungen meidet man ihn, weshalb Hochzeitssäle an 仏滅 oft Rabatte geben. Wörtlich bedeutet es „Buddhas Tod“, mit dem Buddhismus hat der Kalenderbrauch aber eigentlich nichts zu tun. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1502340; spelling=仏滅; reading=ぶつめつ",
+          "selected": {
+            "sequence": "1502340",
+            "spelling": "仏滅",
+            "reading": "ぶつめつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Buddha's death"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "very unlucky day (in the traditional calendar)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1502340 sense 2, noun: very unlucky day (traditional calendar)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 仏滅/ブツメツ; lemma 仏滅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239542451",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仏滅/ブツメツ; lemma 仏滅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仏滅",
+              "reading": "ぶつめつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仏滅/ぶつめつ \"Unglückstag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unglückstag. JMdict 1502340 sense 2, noun: very unlucky day (traditional calendar)",
+        "japanese": "仏滅の日は避けます。 / 仏滅だと結婚式場が安くなるそうです。 / 祖母は仏滅に引っ越すのを嫌がりました。",
+        "romanization": "butsumetsu; Butsumetsu no hi wa sakemasu. / Butsumetsu da to kekkonshikijou ga yasuku naru sou desu. / Sobo wa butsumetsu ni hikkosu no o iyagarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir meiden Unglückstage. / An Unglückstagen sollen Hochzeitssäle günstiger sein. / Meine Großmutter wollte nicht an einem Unglückstag umziehen.",
+        "contexts": [
+          "Choosing a date",
+          "Wedding discounts",
+          "Superstitious grandmother"
+        ],
+        "lexical": "JMdict 1502340 sense 2, noun: very unlucky day (traditional calendar)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1698 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Choosing a date; Wedding discounts; Superstitious grandmother), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7c9119c7d3ba17a7e5db30ebdab39c740bbe7118e5df20b1355fedc64f9f0bd9",
+        "approvalHash": "d514101810ef6e0aa047a0b1a71ee7b9c2806293b7844a84fa2f2c600f6ccee2"
+      }
+    },
+    {
+      "id": "vocab-n3:1699",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1699",
+      "state": "accepted",
+      "predecessorHash": "d80279e360ce274b3d88247f31dee216d260db0f31a033e8e69a0fc6d307adbf",
+      "originalHash": "d80279e360ce274b3d88247f31dee216d260db0f31a033e8e69a0fc6d307adbf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "吉日に引っ越します。",
+            "romaji": "Kichijitsu ni hikkoshimasu.",
+            "german": "Ich ziehe an einem Glückstag um."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "吉日 (auch きちにち gelesen) ist ein glückverheißender Tag, oft verstärkt als 大安吉日. Sehr bekannt ist das Sprichwort 思い立ったが吉日: Der Tag, an dem man sich zu etwas entschließt, ist der richtige, um anzufangen. In Briefen und Einladungen schreibt man statt eines genauen Datums oft „〇月吉日“, um den Schreibtag offenzulassen.",
+        "examples": [
+          {
+            "japanese": "吉日に引っ越します。",
+            "romaji": "Kichijitsu ni hikkoshimasu.",
+            "german": "Ich ziehe an einem Glückstag um."
+          },
+          {
+            "japanese": "思い立ったが吉日、今日から運動を始めよう。",
+            "romaji": "Omoitatta ga kichijitsu, kyou kara undou o hajimeyou.",
+            "german": "Kein Tag ist besser als heute – ich fange gleich heute mit Sport an."
+          },
+          {
+            "japanese": "招待状の日付は「十月吉日」と書きます。",
+            "romaji": "Shoutaijou no hizuke wa juugatsu kichijitsu to kakimasu.",
+            "german": "Als Datum schreibt man auf die Einladung „an einem glücklichen Tag im Oktober“."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104786995",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 吉日/キチジツ; lemma 吉日; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "吉日",
+              "reading": "きちじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 吉日/きちじつ \"Glückstag, guter Tag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1577870 senses 1–2, noun: lucky day; unspecified day of the month (in letters) Pitch: Verified [0] via exact UniDic row. 吉日 (auch きちにち gelesen) ist ein glückverheißender Tag, oft verstärkt als 大安吉日. Sehr bekannt ist das Sprichwort 思い立ったが吉日: Der Tag, an dem man sich zu etwas entschließt, ist der richtige, um anzufangen. In Briefen und Einladungen schreibt man statt eines genauen Datums oft „〇月吉日“, um den Schreibtag offenzulassen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1577870; spelling=吉日; reading=きちじつ",
+          "selected": {
+            "sequence": "1577870",
+            "spelling": "吉日",
+            "reading": "きちじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lucky day",
+                  "auspicious day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unspecified day of the month (used to obscure the date a letter, invitation, etc. was written)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1577870 senses 1–2, noun: lucky day; unspecified day of the month (in letters)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 吉日/キチジツ; lemma 吉日; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104786995",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 吉日/キチジツ; lemma 吉日; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "吉日",
+              "reading": "きちじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 吉日/きちじつ \"Glückstag, guter Tag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Glückstag, guter Tag. JMdict 1577870 senses 1–2, noun: lucky day; unspecified day of the month (in letters)",
+        "japanese": "吉日に引っ越します。 / 思い立ったが吉日、今日から運動を始めよう。 / 招待状の日付は「十月吉日」と書きます。",
+        "romanization": "kichijitsu; Kichijitsu ni hikkoshimasu. / Omoitatta ga kichijitsu, kyou kara undou o hajimeyou. / Shoutaijou no hizuke wa juugatsu kichijitsu to kakimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich ziehe an einem Glückstag um. / Kein Tag ist besser als heute – ich fange gleich heute mit Sport an. / Als Datum schreibt man auf die Einladung „an einem glücklichen Tag im Oktober“.",
+        "contexts": [
+          "Moving house",
+          "Proverb as motivation",
+          "Writing an invitation"
+        ],
+        "lexical": "JMdict 1577870 senses 1–2, noun: lucky day; unspecified day of the month (in letters)",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1699 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Moving house; Proverb as motivation; Writing an invitation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3dad55c92f86d7675498fe2725379382affbedcdf3e365024f9fce4be50483d3",
+        "approvalHash": "a05e511843f3eb672924085d76b152fb9cd9544060ada6a68e34f3c2aff41234"
+      }
+    },
+    {
+      "id": "vocab-n3:1700",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1700",
+      "state": "accepted",
+      "predecessorHash": "ef815ef825dc357d98faebd68f7b3e97649a8895af55b0e5c1b152084b0be76d",
+      "originalHash": "ef815ef825dc357d98faebd68f7b3e97649a8895af55b0e5c1b152084b0be76d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日柄のいい日を選びます。",
+            "romaji": "Higara no ii hi o erabimasu.",
+            "german": "Ich wähle einen günstigen Tag."
+          }
+        ],
+        "meaning": "Tageslauf, guter/schlechter Tag",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "日柄 ist die nach dem traditionellen Kalender bestimmte Glücks- oder Unglücksqualität eines Tages, also ob es z. B. ein 大安 oder 仏滅 ist. Man sagt 日柄がいい/悪い oder höflich お日柄; besonders bekannt ist die Floskel 本日はお日柄もよく am Anfang von Hochzeitsreden. Nicht verwechseln mit 日付 (Datum).",
+        "examples": [
+          {
+            "japanese": "日柄のいい日を選びます。",
+            "romaji": "Higara no ii hi o erabimasu.",
+            "german": "Ich wähle einen günstigen Tag."
+          },
+          {
+            "japanese": "本日はお日柄もよく、誠におめでとうございます。",
+            "romaji": "Honjitsu wa ohigara mo yoku, makoto ni omedetou gozaimasu.",
+            "german": "An diesem glückverheißenden Tag gratuliere ich Ihnen von Herzen."
+          },
+          {
+            "japanese": "父は日柄を気にして、仏滅に契約するのを嫌がります。",
+            "romaji": "Chichi wa higara o ki ni shite, butsumetsu ni keiyaku suru no o iyagarimasu.",
+            "german": "Mein Vater achtet auf den Tagescharakter und unterschreibt ungern an einem Unglückstag Verträge."
+          }
+        ],
+        "meaning": "günstiger oder ungünstiger Charakter eines Tages",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222225778",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 日柄/ヒガラ; lemma 日柄; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "日柄",
+              "reading": "ひがら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 日柄/ひがら \"Tageslauf, guter/schlechter Tag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1730350 sense 1, noun: lucky or unlucky aspect of a given day Pitch: Verified [0] via exact UniDic row. 日柄 ist die nach dem traditionellen Kalender bestimmte Glücks- oder Unglücksqualität eines Tages, also ob es z. B. ein 大安 oder 仏滅 ist. Man sagt 日柄がいい/悪い oder höflich お日柄; besonders bekannt ist die Floskel 本日はお日柄もよく am Anfang von Hochzeitsreden. Nicht verwechseln mit 日付 (Datum). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1730350; spelling=日柄; reading=ひがら",
+          "selected": {
+            "sequence": "1730350",
+            "spelling": "日柄",
+            "reading": "ひがら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lucky or unlucky aspect of a given day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1730350 sense 1, noun: lucky or unlucky aspect of a given day"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 日柄/ヒガラ; lemma 日柄; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@222225778",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 日柄/ヒガラ; lemma 日柄; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "日柄",
+              "reading": "ひがら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 日柄/ひがら \"Tageslauf, guter/schlechter Tag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "günstiger oder ungünstiger Charakter eines Tages. JMdict 1730350 sense 1, noun: lucky or unlucky aspect of a given day",
+        "japanese": "日柄のいい日を選びます。 / 本日はお日柄もよく、誠におめでとうございます。 / 父は日柄を気にして、仏滅に契約するのを嫌がります。",
+        "romanization": "higara; Higara no ii hi o erabimasu. / Honjitsu wa ohigara mo yoku, makoto ni omedetou gozaimasu. / Chichi wa higara o ki ni shite, butsumetsu ni keiyaku suru no o iyagarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wähle einen günstigen Tag. / An diesem glückverheißenden Tag gratuliere ich Ihnen von Herzen. / Mein Vater achtet auf den Tagescharakter und unterschreibt ungern an einem Unglückstag Verträge.",
+        "contexts": [
+          "Picking a date",
+          "Opening of a wedding speech",
+          "Superstitious father"
+        ],
+        "lexical": "JMdict 1730350 sense 1, noun: lucky or unlucky aspect of a given day",
+        "register": "formal; often お日柄 in set phrases",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1700 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Picking a date; Opening of a wedding speech; Superstitious father), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ed2547cf799e0b7811607701e38f495cc590a9bf13719475af1dbc06783b0c62",
+        "approvalHash": "efca84002350edc09341a4c7b37d16b184cdc1e6b6e67725c395014da60d8d8a"
+      }
+    },
+    {
+      "id": "vocab-n3:1701",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1701",
+      "state": "accepted",
+      "predecessorHash": "3f34e5f84ae9dbd511fab32e29436eb1f7bf9fe95e52755593ea30899f9d86e6",
+      "originalHash": "3f34e5f84ae9dbd511fab32e29436eb1f7bf9fe95e52755593ea30899f9d86e6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "人生の節目です。",
+            "romaji": "Jinsei no fushime desu.",
+            "german": "Es ist ein Wendepunkt im Leben."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "節目 ist ursprünglich der Knoten an Bambus oder Holz, im übertragenen Sinn ein Einschnitt oder Meilenstein, an dem ein Abschnitt endet und ein neuer beginnt. Typisch sind 人生の節目, 節目の年 und 〜周年という節目を迎える. Anders als 転機 (Wendepunkt, der etwas verändert) betont 節目 eher den markanten Abschnitt im Ablauf, etwa Jubiläen, Abschlüsse oder Jahreswechsel.",
+        "examples": [
+          {
+            "japanese": "人生の節目です。",
+            "romaji": "Jinsei no fushime desu.",
+            "german": "Es ist ein Wendepunkt im Leben."
+          },
+          {
+            "japanese": "創立五十周年という節目を迎えました。",
+            "romaji": "Souritsu gojusshuunen to iu fushime o mukaemashita.",
+            "german": "Wir haben den Meilenstein des 50-jährigen Bestehens erreicht."
+          },
+          {
+            "japanese": "年度の節目に、目標を見直しましょう。",
+            "romaji": "Nendo no fushime ni, mokuhyou o minaoshimashou.",
+            "german": "Lasst uns zum Abschluss des Geschäftsjahres unsere Ziele überprüfen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233578680",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 節目/フシメ; lemma 節目; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "節目",
+              "reading": "ふしめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 節目/ふしめ \"Wendepunkt, Meilenstein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1722070 sense 1, noun: turning point, critical juncture, milestone Pitch: Verified [3] via exact UniDic row; stored primary 2 corrected to 3. 節目 ist ursprünglich der Knoten an Bambus oder Holz, im übertragenen Sinn ein Einschnitt oder Meilenstein, an dem ein Abschnitt endet und ein neuer beginnt. Typisch sind 人生の節目, 節目の年 und 〜周年という節目を迎える. Anders als 転機 (Wendepunkt, der etwas verändert) betont 節目 eher den markanten Abschnitt im Ablauf, etwa Jubiläen, Abschlüsse oder Jahreswechsel. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1722070; spelling=節目; reading=ふしめ",
+          "selected": {
+            "sequence": "1722070",
+            "spelling": "節目",
+            "reading": "ふしめ",
+            "readingRestrictions": [
+              "節目"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "turning point",
+                  "critical juncture"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "knot (in a tree, etc.)"
+                ],
+                "notes": [],
+                "stagk": [
+                  "節目"
+                ],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1722070 sense 1, noun: turning point, critical juncture, milestone"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 2 corrected to 3. Exact whole 節目/フシメ; lemma 節目; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233578680",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 節目/フシメ; lemma 節目; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "節目",
+              "reading": "ふしめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 節目/ふしめ \"Wendepunkt, Meilenstein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wendepunkt, Meilenstein. JMdict 1722070 sense 1, noun: turning point, critical juncture, milestone",
+        "japanese": "人生の節目です。 / 創立五十周年という節目を迎えました。 / 年度の節目に、目標を見直しましょう。",
+        "romanization": "fushime; Jinsei no fushime desu. / Souritsu gojusshuunen to iu fushime o mukaemashita. / Nendo no fushime ni, mokuhyou o minaoshimashou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist ein Wendepunkt im Leben. / Wir haben den Meilenstein des 50-jährigen Bestehens erreicht. / Lasst uns zum Abschluss des Geschäftsjahres unsere Ziele überprüfen.",
+        "contexts": [
+          "Life event",
+          "Company anniversary",
+          "End of the fiscal year"
+        ],
+        "lexical": "JMdict 1722070 sense 1, noun: turning point, critical juncture, milestone",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1701 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Life event; Company anniversary; End of the fiscal year), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2649d8f40b8cf9a5a1adcc0830f818fe9cd058032b376bdbec8bb075e0007c10",
+        "approvalHash": "e1dca689bb4d706391f4d221f9c6b5a1a989b6a6bfb9d9faa29fd69de99bd209"
+      }
+    },
+    {
+      "id": "vocab-n3:1702",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1702",
+      "state": "accepted",
+      "predecessorHash": "7258bba8819175111ccff39c8e2892b48cf15f111828b8a121e246becb995382",
+      "originalHash": "7258bba8819175111ccff39c8e2892b48cf15f111828b8a121e246becb995382",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "人生の岐路に立っています。",
+            "romaji": "Jinsei no kiro ni tatteimasu.",
+            "german": "Ich stehe am Scheideweg des Lebens."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "岐路 ist wörtlich eine Weggabelung, wird aber fast nur übertragen gebraucht: 岐路に立つ „am Scheideweg stehen“, 人生の岐路, 重大な岐路. Das Wort klingt schriftsprachlich und gehoben; im Gespräch sagt man eher 分かれ道. Im Unterschied zu 瀬戸際 (am Rand von Erfolg oder Untergang) geht es bei 岐路 um die Wahl zwischen verschiedenen Richtungen.",
+        "examples": [
+          {
+            "japanese": "人生の岐路に立っています。",
+            "romaji": "Jinsei no kiro ni tatteimasu.",
+            "german": "Ich stehe am Scheideweg des Lebens."
+          },
+          {
+            "japanese": "会社は今、大きな岐路に立たされている。",
+            "romaji": "Kaisha wa ima, ookina kiro ni tatasarete iru.",
+            "german": "Die Firma steht gerade vor einer wichtigen Weichenstellung."
+          },
+          {
+            "japanese": "進学か就職か、その岐路で彼は迷った。",
+            "romaji": "Shingaku ka shuushoku ka, sono kiro de kare wa mayotta.",
+            "german": "Studium oder Job – an diesem Scheideweg war er unschlüssig."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108580742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 岐路/キロ; lemma 岐路; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "岐路",
+              "reading": "きろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 岐路/きろ \"Scheideweg\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1219840 sense 1, noun: forked road, crossroads (mostly figurative) Pitch: Verified [1] via exact UniDic row. 岐路 ist wörtlich eine Weggabelung, wird aber fast nur übertragen gebraucht: 岐路に立つ „am Scheideweg stehen“, 人生の岐路, 重大な岐路. Das Wort klingt schriftsprachlich und gehoben; im Gespräch sagt man eher 分かれ道. Im Unterschied zu 瀬戸際 (am Rand von Erfolg oder Untergang) geht es bei 岐路 um die Wahl zwischen verschiedenen Richtungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1219840; spelling=岐路; reading=きろ",
+          "selected": {
+            "sequence": "1219840",
+            "spelling": "岐路",
+            "reading": "きろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "forked road",
+                  "crossroads"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1219840 sense 1, noun: forked road, crossroads (mostly figurative)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 岐路/キロ; lemma 岐路; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108580742",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 岐路/キロ; lemma 岐路; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "岐路",
+              "reading": "きろ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 岐路/きろ \"Scheideweg\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Scheideweg. JMdict 1219840 sense 1, noun: forked road, crossroads (mostly figurative)",
+        "japanese": "人生の岐路に立っています。 / 会社は今、大きな岐路に立たされている。 / 進学か就職か、その岐路で彼は迷った。",
+        "romanization": "kiro; Jinsei no kiro ni tatteimasu. / Kaisha wa ima, ookina kiro ni tatasarete iru. / Shingaku ka shuushoku ka, sono kiro de kare wa mayotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich stehe am Scheideweg des Lebens. / Die Firma steht gerade vor einer wichtigen Weichenstellung. / Studium oder Job – an diesem Scheideweg war er unschlüssig.",
+        "contexts": [
+          "Personal decision",
+          "Company at a turning point",
+          "Choosing a career path"
+        ],
+        "lexical": "JMdict 1219840 sense 1, noun: forked road, crossroads (mostly figurative)",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1702 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Personal decision; Company at a turning point; Choosing a career path), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "46823c6f0755a464bd1dd9fa4c3d84094a962dee124280417f81580a810eb8bb",
+        "approvalHash": "49882c5f1cb7fd554b5fbe9f3602d3e033532f54f3ecc3d77e8beb93376521f7"
+      }
+    },
+    {
+      "id": "vocab-n3:1703",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1703",
+      "state": "accepted",
+      "predecessorHash": "1b605e14aaee9f629636183cac920a5096fe9c5c0619b19f71561ce5a7c18809",
+      "originalHash": "1b605e14aaee9f629636183cac920a5096fe9c5c0619b19f71561ce5a7c18809",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "病気は峠を越えました。",
+            "romaji": "Byouki wa touge o koemashita.",
+            "german": "Die Krankheit hat den Höhepunkt überschritten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "峠 ist ein Gebirgspass; 峠を越える heißt wörtlich „den Pass überqueren“, übertragen „das Schlimmste hinter sich haben, den Höhepunkt überschreiten“. Typisch für Krankheiten (病気が峠を越える), Hitze, Arbeitsspitzen oder Krisen; gleichbedeutend ist 峠を越す. Mit 峠 allein sagt man auch 今が峠だ „jetzt ist der kritischste Punkt“.",
+        "examples": [
+          {
+            "japanese": "病気は峠を越えました。",
+            "romaji": "Byouki wa touge o koemashita.",
+            "german": "Die Krankheit hat den Höhepunkt überschritten."
+          },
+          {
+            "japanese": "暑さもようやく峠を越えたようです。",
+            "romaji": "Atsusa mo youyaku touge o koeta you desu.",
+            "german": "Die größte Hitze scheint endlich vorbei zu sein."
+          },
+          {
+            "japanese": "忙しい時期はもう峠を越えたので、来週は休めそうです。",
+            "romaji": "Isogashii jiki wa mou touge o koeta node, raishuu wa yasumesou desu.",
+            "german": "Die stressigste Phase ist überstanden, nächste Woche kann ich wohl freinehmen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1896840 sense 1 (also 2), expression / ichidan verb: to be over the worst, to pass the peak; to cross a pass Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 峠 ist ein Gebirgspass; 峠を越える heißt wörtlich „den Pass überqueren“, übertragen „das Schlimmste hinter sich haben, den Höhepunkt überschreiten“. Typisch für Krankheiten (病気が峠を越える), Hitze, Arbeitsspitzen oder Krisen; gleichbedeutend ist 峠を越す. Mit 峠 allein sagt man auch 今が峠だ „jetzt ist der kritischste Punkt“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1896840; spelling=峠を越える; reading=とうげをこえる",
+          "selected": {
+            "sequence": "1896840",
+            "spelling": "峠を越える",
+            "reading": "とうげをこえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to pass the peak (of something)",
+                  "to get through the most difficult part",
+                  "to be over the worst (e.g. an illness)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to cross a pass"
+                ],
+                "notes": [
+                  "orig. meaning"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1896840 sense 1 (also 2), expression / ichidan verb: to be over the worst, to pass the peak; to cross a pass"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 峠を越える/とうげをこえる scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 峠を越える/とうげをこえる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B3%A0%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 峠を越える/とうげをこえる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 baa6ded30909b079d7e8e612ed24f64abf9dbeac064f8777d2be37d77211cc13",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%B3%A0%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 峠を越える/とうげをこえる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "den Höhepunkt überschreiten. JMdict 1896840 sense 1 (also 2), expression / ichidan verb: to be over the worst, to pass the peak; to cross a pass",
+        "japanese": "病気は峠を越えました。 / 暑さもようやく峠を越えたようです。 / 忙しい時期はもう峠を越えたので、来週は休めそうです。",
+        "romanization": "touge o koeru; Byouki wa touge o koemashita. / Atsusa mo youyaku touge o koeta you desu. / Isogashii jiki wa mou touge o koeta node, raishuu wa yasumesou desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Krankheit hat den Höhepunkt überschritten. / Die größte Hitze scheint endlich vorbei zu sein. / Die stressigste Phase ist überstanden, nächste Woche kann ich wohl freinehmen.",
+        "contexts": [
+          "Recovering from illness",
+          "End of the summer heat",
+          "Busy season at work"
+        ],
+        "lexical": "JMdict 1896840 sense 1 (also 2), expression / ichidan verb: to be over the worst, to pass the peak; to cross a pass",
+        "register": "neutral idiom",
+        "transitivity": "set phrase with 峠を as object; intransitive in meaning (subject: illness, heat, crisis); variant 峠を越す",
+        "conjugation": "ichidan (越える → 越えて, 越えない, 越えた)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1703 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Recovering from illness; End of the summer heat; Busy season at work), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "240b424ab3a3150183a2cacca2e23313399577086fc99cf0b27ba02470e61071",
+        "approvalHash": "a467f6b97b34c8485dfe292615da728324e42503039cf3ca0c7ee939a9487153"
+      }
+    },
+    {
+      "id": "vocab-n3:1704",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1704",
+      "state": "accepted",
+      "predecessorHash": "a960a6d92e589e78144f54a8bec682ee9fb65f73ae3fa1260f6f2f813cc58074",
+      "originalHash": "a960a6d92e589e78144f54a8bec682ee9fb65f73ae3fa1260f6f2f813cc58074",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "技術革新に拍車をかけます。",
+            "romaji": "Gijutsu kakushin ni hakusha o kakemasu.",
+            "german": "Es treibt die technologische Innovation voran."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "拍車 ist der Sporn des Reiters; X に拍車をかける heißt „X anspornen, beschleunigen, verstärken“. Oft geht es um Entwicklungen, die sich ohnehin schon bewegen, häufig auch negative: 少子化に拍車をかける, 物価高に拍車をかける. Die intransitive Form lautet 拍車がかかる „an Fahrt gewinnen“. Das Idiom ist typisch für Nachrichten und Schriftsprache.",
+        "examples": [
+          {
+            "japanese": "技術革新に拍車をかけます。",
+            "romaji": "Gijutsu kakushin ni hakusha o kakemasu.",
+            "german": "Es treibt die technologische Innovation voran."
+          },
+          {
+            "japanese": "円安が物価の上昇に拍車をかけています。",
+            "romaji": "En'yasu ga bukka no joushou ni hakusha o kakete imasu.",
+            "german": "Der schwache Yen heizt den Preisanstieg zusätzlich an."
+          },
+          {
+            "japanese": "新しいコーチが来て、チームの練習に拍車がかかった。",
+            "romaji": "Atarashii koochi ga kite, chiimu no renshuu ni hakusha ga kakatta.",
+            "german": "Mit dem neuen Trainer hat das Training des Teams richtig Fahrt aufgenommen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1474810 sense 1, expression / ichidan verb: to spur on, to expedite, to accelerate Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 拍車 ist der Sporn des Reiters; X に拍車をかける heißt „X anspornen, beschleunigen, verstärken“. Oft geht es um Entwicklungen, die sich ohnehin schon bewegen, häufig auch negative: 少子化に拍車をかける, 物価高に拍車をかける. Die intransitive Form lautet 拍車がかかる „an Fahrt gewinnen“. Das Idiom ist typisch für Nachrichten und Schriftsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1474810; spelling=拍車をかける; reading=はくしゃをかける",
+          "selected": {
+            "sequence": "1474810",
+            "spelling": "拍車をかける",
+            "reading": "はくしゃをかける",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [
+                  "idiomatic expression"
+                ],
+                "gloss": [
+                  "to spur (on)",
+                  "to expedite",
+                  "to encourage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1474810 sense 1, expression / ichidan verb: to spur on, to expedite, to accelerate"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 拍車をかける/はくしゃをかける scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 拍車をかける/はくしゃをかける with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8B%8D%E8%BB%8A%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 拍車をかける/はくしゃをかける scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 5fdf6f538ab983a4159a45b78fa4fc4c404fb9020c16853c4525ee09f9bcbe40",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8B%8D%E8%BB%8A%E3%82%92%E3%81%8B%E3%81%91%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 拍車をかける/はくしゃをかける with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "beschleunigen, antreiben. JMdict 1474810 sense 1, expression / ichidan verb: to spur on, to expedite, to accelerate",
+        "japanese": "技術革新に拍車をかけます。 / 円安が物価の上昇に拍車をかけています。 / 新しいコーチが来て、チームの練習に拍車がかかった。",
+        "romanization": "hakusha o kakeru; Gijutsu kakushin ni hakusha o kakemasu. / En'yasu ga bukka no joushou ni hakusha o kakete imasu. / Atarashii koochi ga kite, chiimu no renshuu ni hakusha ga kakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es treibt die technologische Innovation voran. / Der schwache Yen heizt den Preisanstieg zusätzlich an. / Mit dem neuen Trainer hat das Training des Teams richtig Fahrt aufgenommen.",
+        "contexts": [
+          "Driving innovation",
+          "Economic news",
+          "Sports team gaining momentum"
+        ],
+        "lexical": "JMdict 1474810 sense 1, expression / ichidan verb: to spur on, to expedite, to accelerate",
+        "register": "written / news, also neutral",
+        "transitivity": "transitive (X に拍車をかける); intransitive counterpart 拍車がかかる",
+        "conjugation": "ichidan (かける → かけて, かけない, かけた)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1704 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Driving innovation; Economic news; Sports team gaining momentum), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "02e0c60565014d30e2c1e7f1a508f37f44bf9ccf5358985cb0c0fa56027e7fb1",
+        "approvalHash": "7e5650f81bd29549cbf806dfd5ce065700dfeccd6ef7f9b26da9bf6dad68c528"
+      }
+    },
+    {
+      "id": "vocab-n3:1705",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1705",
+      "state": "accepted",
+      "predecessorHash": "4eb1a10bfb32f89a965caa4bf0eb85ef5e4a9b04c65abdef05659259272ab25f",
+      "originalHash": "4eb1a10bfb32f89a965caa4bf0eb85ef5e4a9b04c65abdef05659259272ab25f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "事業が軌道に乗りました。",
+            "romaji": "Jigyou ga kidou ni norimashita.",
+            "german": "Das Geschäft ist in Gang gekommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "軌道 ist eine Umlaufbahn oder Gleisbahn; 軌道に乗る heißt „in die Bahn kommen“, übertragen „in Gang kommen, laufen wie geplant“. Typische Subjekte mit が sind 事業, 仕事, 計画 oder 新しい生活. Die transitive Entsprechung ist 軌道に乗せる „etwas auf Kurs bringen“; wörtlich kann der Ausdruck auch das Erreichen einer Umlaufbahn bei Satelliten bezeichnen.",
+        "examples": [
+          {
+            "japanese": "事業が軌道に乗りました。",
+            "romaji": "Jigyou ga kidou ni norimashita.",
+            "german": "Das Geschäft ist in Gang gekommen."
+          },
+          {
+            "japanese": "新しい生活もやっと軌道に乗ってきました。",
+            "romaji": "Atarashii seikatsu mo yatto kidou ni notte kimashita.",
+            "german": "Auch mein neues Leben hat sich endlich eingespielt."
+          },
+          {
+            "japanese": "まずは新しいプロジェクトを軌道に乗せることが大事です。",
+            "romaji": "Mazu wa atarashii purojekuto o kidou ni noseru koto ga daiji desu.",
+            "german": "Zuerst kommt es darauf an, das neue Projekt ins Laufen zu bringen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2152120 sense 1, expression / godan verb: to be on track, to get going as planned Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 軌道 ist eine Umlaufbahn oder Gleisbahn; 軌道に乗る heißt „in die Bahn kommen“, übertragen „in Gang kommen, laufen wie geplant“. Typische Subjekte mit が sind 事業, 仕事, 計画 oder 新しい生活. Die transitive Entsprechung ist 軌道に乗せる „etwas auf Kurs bringen“; wörtlich kann der Ausdruck auch das Erreichen einer Umlaufbahn bei Satelliten bezeichnen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2152120; spelling=軌道に乗る; reading=きどうにのる",
+          "selected": {
+            "sequence": "2152120",
+            "spelling": "軌道に乗る",
+            "reading": "きどうにのる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be on track",
+                  "to be going to plan"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Godan verb with 'ru' ending"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to enter orbit"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2152120 sense 1, expression / godan verb: to be on track, to get going as planned"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 軌道に乗る/きどうにのる scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 軌道に乗る/きどうにのる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%BB%8C%E9%81%93%E3%81%AB%E4%B9%97%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 軌道に乗る/きどうにのる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 3f47088b69383c3e21c93c611fb6e52e873346abe57bf17a3c993bb71947dc68",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%BB%8C%E9%81%93%E3%81%AB%E4%B9%97%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 軌道に乗る/きどうにのる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "auf Kurs kommen, in Gang kommen. JMdict 2152120 sense 1, expression / godan verb: to be on track, to get going as planned",
+        "japanese": "事業が軌道に乗りました。 / 新しい生活もやっと軌道に乗ってきました。 / まずは新しいプロジェクトを軌道に乗せることが大事です。",
+        "romanization": "kidou ni noru; Jigyou ga kidou ni norimashita. / Atarashii seikatsu mo yatto kidou ni notte kimashita. / Mazu wa atarashii purojekuto o kidou ni noseru koto ga daiji desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Geschäft ist in Gang gekommen. / Auch mein neues Leben hat sich endlich eingespielt. / Zuerst kommt es darauf an, das neue Projekt ins Laufen zu bringen.",
+        "contexts": [
+          "Business taking off",
+          "Settling into a new life",
+          "Launching a project"
+        ],
+        "lexical": "JMdict 2152120 sense 1, expression / godan verb: to be on track, to get going as planned",
+        "register": "neutral",
+        "transitivity": "intransitive (subject with が); transitive partner 軌道に乗せる",
+        "conjugation": "godan -ru (乗る → 乗って, 乗らない, 乗った)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1705 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Business taking off; Settling into a new life; Launching a project), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "22fa067fe942a6de0658a38f3625c256a4060e00f16b9acd331aec0d609abd05",
+        "approvalHash": "045c937c5abc9bab5c198f95f32e97630bbb27aee6a9dc622c515b9f295e61bb"
+      }
+    },
+    {
+      "id": "vocab-n3:1706",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1706",
+      "state": "accepted",
+      "predecessorHash": "5c8b9d429bf9cb4b7d8659a099b1d9d11164211125a90105c0d47c1e50651386",
+      "originalHash": "5c8b9d429bf9cb4b7d8659a099b1d9d11164211125a90105c0d47c1e50651386",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "資金の算段をつけます。",
+            "romaji": "Shikin no sandan o tsukemasu.",
+            "german": "Ich beschaffe die Mittel."
+          }
+        ],
+        "meaning": "Plan, Kalkül",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "算段 bedeutet, sich Mittel und Wege auszudenken, um etwas hinzubekommen, besonders um Geld aufzutreiben. Typisch sind 金の算段, 算段をつける „einen Weg finden“ und als する-Verb 〜か算段する „überlegen, wie man …“. Das Wort klingt etwas altmodisch; nahe Synonyme sind 工面 (Geld beschaffen) und 段取り (Ablaufplanung), während 計画 allgemein „Plan“ ist.",
+        "examples": [
+          {
+            "japanese": "資金の算段をつけます。",
+            "romaji": "Shikin no sandan o tsukemasu.",
+            "german": "Ich finde einen Weg, das nötige Geld aufzutreiben."
+          },
+          {
+            "japanese": "家賃をどうやって払うか、算段しなければならない。",
+            "romaji": "Yachin o dou yatte harau ka, sandan shinakereba naranai.",
+            "german": "Ich muss mir überlegen, wie ich die Miete bezahlen soll."
+          },
+          {
+            "japanese": "彼はうまく休みを取る算段をしている。",
+            "romaji": "Kare wa umaku yasumi o toru sandan o shite iru.",
+            "german": "Er tüftelt daran, wie er geschickt freibekommt."
+          }
+        ],
+        "meaning": "Mittel und Wege finden, Beschaffung (bes. von Geld)",
+        "pitch": 1,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133145906",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              3
+            ],
+            "finding": "Exact whole 算段/サンダン; lemma 算段; 名詞/普通名詞/サ変可能/*; *; *; aType 1,3.",
+            "match": {
+              "word": "算段",
+              "reading": "さんだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 算段/さんだん \"Plan, Kalkül\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1618810 senses 1–2, noun / suru verb: devising means, working out how to do; contriving to raise money Pitch: Verified [1,3] via exact UniDic row; stored primary 0 corrected to 1. 算段 bedeutet, sich Mittel und Wege auszudenken, um etwas hinzubekommen, besonders um Geld aufzutreiben. Typisch sind 金の算段, 算段をつける „einen Weg finden“ und als する-Verb 〜か算段する „überlegen, wie man …“. Das Wort klingt etwas altmodisch; nahe Synonyme sind 工面 (Geld beschaffen) und 段取り (Ablaufplanung), während 計画 allgemein „Plan“ ist. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1618810; spelling=算段; reading=さんだん",
+          "selected": {
+            "sequence": "1618810",
+            "spelling": "算段",
+            "reading": "さんだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trying to think of a way (to do)",
+                  "devising means (to do)",
+                  "working out (how to do)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "contriving (to raise money)",
+                  "managing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1618810 senses 1–2, noun / suru verb: devising means, working out how to do; contriving to raise money"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,3] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 算段/サンダン; lemma 算段; 名詞/普通名詞/サ変可能/*; *; *; aType 1,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133145906",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              3
+            ],
+            "finding": "Exact whole 算段/サンダン; lemma 算段; 名詞/普通名詞/サ変可能/*; *; *; aType 1,3.",
+            "match": {
+              "word": "算段",
+              "reading": "さんだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 算段/さんだん \"Plan, Kalkül\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mittel und Wege finden, Beschaffung (bes. von Geld). JMdict 1618810 senses 1–2, noun / suru verb: devising means, working out how to do; contriving to raise money",
+        "japanese": "資金の算段をつけます。 / 家賃をどうやって払うか、算段しなければならない。 / 彼はうまく休みを取る算段をしている。",
+        "romanization": "sandan; Shikin no sandan o tsukemasu. / Yachin o dou yatte harau ka, sandan shinakereba naranai. / Kare wa umaku yasumi o toru sandan o shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich finde einen Weg, das nötige Geld aufzutreiben. / Ich muss mir überlegen, wie ich die Miete bezahlen soll. / Er tüftelt daran, wie er geschickt freibekommt.",
+        "contexts": [
+          "Raising funds",
+          "Struggling with rent",
+          "Scheming for time off"
+        ],
+        "lexical": "JMdict 1618810 senses 1–2, noun / suru verb: devising means, working out how to do; contriving to raise money",
+        "register": "neutral, slightly old-fashioned",
+        "transitivity": "transitive as 算段する; also 算段をつける",
+        "conjugation": "noun; suru verb (算段する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1706 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Raising funds; Struggling with rent; Scheming for time off), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0060bd760bfd3590445da076c99e8053768b9af05181c2a4f0c1ad8c439866a8",
+        "approvalHash": "f12dead25677d46b3276de44f7225c449de523791942a7e400271eef60b72e17"
+      }
+    },
+    {
+      "id": "vocab-n3:1707",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1707",
+      "state": "accepted",
+      "predecessorHash": "32d064ee630f94850a5162213cfc8ad90f71ad4f89cff0ab2c2395f8d744dcbe",
+      "originalHash": "32d064ee630f94850a5162213cfc8ad90f71ad4f89cff0ab2c2395f8d744dcbe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "完成の目処が立ちました。",
+            "romaji": "Kansei no medo ga tachimashita.",
+            "german": "Die Fertigstellung ist in Sicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "目処 wird meist in Kana めど (seltener 目途) geschrieben und bezeichnet eine absehbare Perspektive oder ein Ziel. Die wichtigsten Muster sind めどが立つ/つく „absehbar werden“ (intransitiv), めどを立てる/つける (transitiv) und 〜をめどに „mit Ziel etwa …“, z. B. 月末をめどに. Im Unterschied zu 見通し (Prognose, Aussicht) betont めど den greifbaren Anhaltspunkt, wann oder wie etwas gelingt.",
+        "examples": [
+          {
+            "japanese": "完成の目処が立ちました。",
+            "romaji": "Kansei no medo ga tachimashita.",
+            "german": "Die Fertigstellung ist in Sicht."
+          },
+          {
+            "japanese": "来月末をめどに報告書をまとめます。",
+            "romaji": "Raigetsumatsu o medo ni houkokusho o matomemasu.",
+            "german": "Wir wollen den Bericht bis etwa Ende nächsten Monats fertigstellen."
+          },
+          {
+            "japanese": "電車の運転再開のめどは立っていません。",
+            "romaji": "Densha no unten saikai no medo wa tatte imasen.",
+            "german": "Wann der Zugverkehr wieder aufgenommen wird, ist noch nicht absehbar."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261646273",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 目処/メド; lemma 目処; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "目処",
+              "reading": "めど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 目処/めど \"Aussicht, Anhaltspunkt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1535470 senses 1–2, noun: aim, goal; prospect, outlook Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 目処 wird meist in Kana めど (seltener 目途) geschrieben und bezeichnet eine absehbare Perspektive oder ein Ziel. Die wichtigsten Muster sind めどが立つ/つく „absehbar werden“ (intransitiv), めどを立てる/つける (transitiv) und 〜をめどに „mit Ziel etwa …“, z. B. 月末をめどに. Im Unterschied zu 見通し (Prognose, Aussicht) betont めど den greifbaren Anhaltspunkt, wann oder wie etwas gelingt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1535470; spelling=目処; reading=めど",
+          "selected": {
+            "sequence": "1535470",
+            "spelling": "目処",
+            "reading": "めど",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "aim",
+                  "goal"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prospect",
+                  "outlook"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1535470 senses 1–2, noun: aim, goal; prospect, outlook"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 目処/メド; lemma 目処; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261646273",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 目処/メド; lemma 目処; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "目処",
+              "reading": "めど",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 目処/めど \"Aussicht, Anhaltspunkt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Aussicht, Anhaltspunkt. JMdict 1535470 senses 1–2, noun: aim, goal; prospect, outlook",
+        "japanese": "完成の目処が立ちました。 / 来月末をめどに報告書をまとめます。 / 電車の運転再開のめどは立っていません。",
+        "romanization": "medo; Kansei no medo ga tachimashita. / Raigetsumatsu o medo ni houkokusho o matomemasu. / Densha no unten saikai no medo wa tatte imasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Fertigstellung ist in Sicht. / Wir wollen den Bericht bis etwa Ende nächsten Monats fertigstellen. / Wann der Zugverkehr wieder aufgenommen wird, ist noch nicht absehbar.",
+        "contexts": [
+          "Project nearing completion",
+          "Setting a target date",
+          "Train service announcement"
+        ],
+        "lexical": "JMdict 1535470 senses 1–2, noun: aim, goal; prospect, outlook",
+        "register": "neutral; usually written in kana",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1707 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Project nearing completion; Setting a target date; Train service announcement), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3160ada409a3804aae3a69f1ced047e467b29a45330832a11a3cf585023ae144",
+        "approvalHash": "931cada7db7c56f7f1fac2e5e02b4cbe910d08bcfeeee9fab0f3c0513de88ae9"
+      }
+    },
+    {
+      "id": "vocab-n3:1708",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1708",
+      "state": "accepted",
+      "predecessorHash": "648dd823d7a782c6423550f7cd0cdb4005b9b079e79d6d19fcec1f8b699c02af",
+      "originalHash": "648dd823d7a782c6423550f7cd0cdb4005b9b079e79d6d19fcec1f8b699c02af",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "口実を見つけました。",
+            "romaji": "Koujitsu o mitsukemashita.",
+            "german": "Ich habe einen Vorwand gefunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "口実 ist ein Vorwand, den man vorschiebt, um etwas zu tun oder zu vermeiden. Typische Muster sind 〜を口実に(して) „unter dem Vorwand …“ und 口実を作る/見つける. Im Unterschied zu 言い訳 (Ausrede, Rechtfertigung im Nachhinein) wird 口実 meist vorab als Grund benutzt, der nicht der wahre ist.",
+        "examples": [
+          {
+            "japanese": "口実を見つけました。",
+            "romaji": "Koujitsu o mitsukemashita.",
+            "german": "Ich habe einen Vorwand gefunden."
+          },
+          {
+            "japanese": "彼は体調不良を口実に、飲み会を断った。",
+            "romaji": "Kare wa taichou furyou o koujitsu ni, nomikai o kotowatta.",
+            "german": "Er sagte die Trinkrunde unter dem Vorwand ab, er fühle sich nicht wohl."
+          },
+          {
+            "japanese": "彼女に会う口実を作るために、本を借りた。",
+            "romaji": "Kanojo ni au koujitsu o tsukuru tame ni, hon o karita.",
+            "german": "Um einen Vorwand zu haben, sie wiederzusehen, habe ich mir ein Buch von ihr geliehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120145735",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口実/コウジツ; lemma 口実; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口実",
+              "reading": "こうじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口実/こうじつ \"Vorwand, Ausrede\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1276220 sense 1, noun: excuse, pretext Pitch: Verified [0] via exact UniDic row. 口実 ist ein Vorwand, den man vorschiebt, um etwas zu tun oder zu vermeiden. Typische Muster sind 〜を口実に(して) „unter dem Vorwand …“ und 口実を作る/見つける. Im Unterschied zu 言い訳 (Ausrede, Rechtfertigung im Nachhinein) wird 口実 meist vorab als Grund benutzt, der nicht der wahre ist. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1276220; spelling=口実; reading=こうじつ",
+          "selected": {
+            "sequence": "1276220",
+            "spelling": "口実",
+            "reading": "こうじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "excuse",
+                  "pretext"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1276220 sense 1, noun: excuse, pretext"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 口実/コウジツ; lemma 口実; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120145735",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口実/コウジツ; lemma 口実; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口実",
+              "reading": "こうじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口実/こうじつ \"Vorwand, Ausrede\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorwand, Ausrede. JMdict 1276220 sense 1, noun: excuse, pretext",
+        "japanese": "口実を見つけました。 / 彼は体調不良を口実に、飲み会を断った。 / 彼女に会う口実を作るために、本を借りた。",
+        "romanization": "koujitsu; Koujitsu o mitsukemashita. / Kare wa taichou furyou o koujitsu ni, nomikai o kotowatta. / Kanojo ni au koujitsu o tsukuru tame ni, hon o karita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen Vorwand gefunden. / Er sagte die Trinkrunde unter dem Vorwand ab, er fühle sich nicht wohl. / Um einen Vorwand zu haben, sie wiederzusehen, habe ich mir ein Buch von ihr geliehen.",
+        "contexts": [
+          "Finding a way out",
+          "Declining an invitation",
+          "Excuse to meet someone"
+        ],
+        "lexical": "JMdict 1276220 sense 1, noun: excuse, pretext",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1708 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Finding a way out; Declining an invitation; Excuse to meet someone), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "30fdea72c2014f771509f02394b4cc85af0f5460a25b42e6f4793d8876cd14ec",
+        "approvalHash": "0c86ae8f8f5e69158c82ee71031c44fc4ebff799ae2b5ff0b34bb9f94ebe8c72"
+      }
+    },
+    {
+      "id": "vocab-n3:1709",
+      "revisionId": "182a-n3-enrichment-vocab-n3-1709",
+      "state": "accepted",
+      "predecessorHash": "ffc1840bb76a2f8a64ac8f76901f82f99eba75333054c34019b0f45241406c99",
+      "originalHash": "ffc1840bb76a2f8a64ac8f76901f82f99eba75333054c34019b0f45241406c99",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "裏付けのある情報です。",
+            "romaji": "Uradzuke no aru jouhou desu.",
+            "german": "Es sind belegte Informationen."
+          }
+        ],
+        "romaji": "uradzuke",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "裏付け ist ein Beleg, der eine Aussage oder Vermutung stützt, wörtlich etwas, das von hinten (裏) angebracht wird. Häufig sind 裏付けがある/ない, 裏付けを取る „etwas überprüfen und belegen“ (Presse, Polizei) und das Verb 裏付ける „untermauern“. 証拠 ist der Beweis selbst, 根拠 die Begründung; 裏付け betont die Bestätigung durch Fakten oder Daten.",
+        "examples": [
+          {
+            "japanese": "裏付けのある情報です。",
+            "romaji": "Urazuke no aru jouhou desu.",
+            "german": "Es sind belegte Informationen."
+          },
+          {
+            "japanese": "記者は情報の裏付けを取ってから記事を書きます。",
+            "romaji": "Kisha wa jouhou no urazuke o totte kara kiji o kakimasu.",
+            "german": "Journalisten überprüfen Informationen, bevor sie einen Artikel schreiben."
+          },
+          {
+            "japanese": "彼の話を裏付ける証拠は見つからなかった。",
+            "romaji": "Kare no hanashi o urazukeru shouko wa mitsukaranakatta.",
+            "german": "Es fanden sich keine Beweise, die seine Aussage stützen."
+          }
+        ],
+        "romaji": "urazuke",
+        "pitch": 0,
+        "pitchVariants": [
+          4,
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68254513",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4,
+              3
+            ],
+            "finding": "Exact whole 裏付け/ウラヅケ; lemma 裏付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4,3. Rejected for this role: 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "裏付け",
+              "reading": "うらづけ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 裏付け/うらづけ \"Beleg, Nachweis\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1588450 sense 1, noun: support, backing, proof, corroboration Pitch: Verified [0,4,3] via exact UniDic row. 裏付け ist ein Beleg, der eine Aussage oder Vermutung stützt, wörtlich etwas, das von hinten (裏) angebracht wird. Häufig sind 裏付けがある/ない, 裏付けを取る „etwas überprüfen und belegen“ (Presse, Polizei) und das Verb 裏付ける „untermauern“. 証拠 ist der Beweis selbst, 根拠 die Begründung; 裏付け betont die Bestätigung durch Fakten oder Daten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1588450; spelling=裏付け; reading=うらづけ",
+          "selected": {
+            "sequence": "1588450",
+            "spelling": "裏付け",
+            "reading": "うらづけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "support (e.g. for an argument)",
+                  "backing",
+                  "proof",
+                  "evidence",
+                  "corroboration",
+                  "substantiation",
+                  "guarantee",
+                  "security"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1588450 sense 1, noun: support, backing, proof, corroboration"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,4,3] via exact UniDic row. Exact whole 裏付け/ウラヅケ; lemma 裏付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4,3. Rejected for this role: 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68254513",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4,
+              3
+            ],
+            "finding": "Exact whole 裏付け/ウラヅケ; lemma 裏付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4,3. Rejected for this role: 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 裏付け/ウラヅケ; lemma 裏付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "裏付け",
+              "reading": "うらづけ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 裏付け/うらづけ \"Beleg, Nachweis\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "romanization-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "reviewedDistinctContexts": true,
+        "meaning": "Beleg, Nachweis. JMdict 1588450 sense 1, noun: support, backing, proof, corroboration",
+        "japanese": "裏付けのある情報です。 / 記者は情報の裏付けを取ってから記事を書きます。 / 彼の話を裏付ける証拠は見つからなかった。",
+        "romanization": "urazuke; Urazuke no aru jouhou desu. / Kisha wa jouhou no urazuke o totte kara kiji o kakimasu. / Kare no hanashi o urazukeru shouko wa mitsukaranakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es sind belegte Informationen. / Journalisten überprüfen Informationen, bevor sie einen Artikel schreiben. / Es fanden sich keine Beweise, die seine Aussage stützen.",
+        "contexts": [
+          "Reliable information",
+          "Journalistic fact-checking",
+          "Police investigation"
+        ],
+        "lexical": "JMdict 1588450 sense 1, noun: support, backing, proof, corroboration",
+        "register": "neutral to written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n3-author-182",
+        "finding": "Author reread the exact final card vocab-n3:1709 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reliable information; Journalistic fact-checking; Police investigation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ef9870c1346ca6252fe5192ca3a4d33f24fb698e73a18c619f9ae3282c35727d",
+        "approvalHash": "a10006fc29eda221577e6b459872cf8ab7eee8aaaeb9ecbf37e2abb977d188ae"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
