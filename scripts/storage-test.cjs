@@ -75,7 +75,9 @@ async function run() {
         sec.filters.bookmarks = 'starred'; sec.applyFilters();
         assert.equal(sec.filteredItems.length, 1, name + ' bookmark filter');
       }
+      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Dunkles Design');
       f.d.getElementById('theme-toggle').click();
+      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Helles Design');
       assert.equal(f.d.documentElement.dataset.theme, 'dark');
       f.d.getElementById('sound-toggle').click();
       assert.equal(f.d.getElementById('sound-toggle').getAttribute('aria-pressed'), 'true');

@@ -566,7 +566,8 @@
     }
   }, true);
   function preferences() {
-    document.getElementById('theme-toggle').setAttribute('aria-pressed', String(document.documentElement.dataset.theme === 'dark'));
+    var dark = document.documentElement.dataset.theme === 'dark';
+    document.querySelector('#theme-toggle span').textContent = dark ? 'Helles Design' : 'Dunkles Design';
     var sound = document.getElementById('sound-toggle'); var enabled = sound.classList.contains('active');
     sound.setAttribute('aria-pressed', String(enabled)); sound.querySelector('.sound-state').textContent = enabled ? 'An' : 'Aus';
   }
