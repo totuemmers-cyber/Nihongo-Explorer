@@ -553,6 +553,22 @@ cards are retyped: plain nouns typed Adjektiv, Partikel or Adverb become Nomen (
 (アメリカ製, 二巻, 岡山城, 第一段, 徳川) record the complete scan instead of a sequence.
 No source references were resolved. N3 now has 371 pending reviews and 422 open references.
 
+**Fifth N3 checkpoint (7 October 2026).** Batches 187a–187j and 188a–188e enrich the last 371
+N3 entries (vocab-n3:3082–3360 plus 106 yojijukugo and idiom cards), so every N3 entry now has
+a German usage note and 2–3 examples in distinct situations: 636 new sentences and 99 entries
+with corrected original examples. The pitch of 224 entries is verified (209 from exact UniDic
+rows, 15 from OJAD dictionary-form cells): 23 stored primary accents are corrected, 109 cards
+that had no pitch get one, and 29 stored values without an exact attestation become
+investigated unknowns. Including the idioms and four-character compounds, 147 entries are
+investigated unknowns. 65 German meanings are corrected. Examples: 三日坊主 „Strohfeuer“, no
+longer „Dreitagemond“, which is 三日月; 誤用 „falscher Gebrauch“ against deliberate 乱用;
+賃貸 „Vermietung“, while the rent you pay is 家賃; 鼻が高い „stolz sein“, while „sich brüsten“
+is 鼻にかける. 11 nouns typed Adjektiv or Adverb become Nomen (e.g. 裏口, 沿岸, 沿線, 己, 自己,
+長寿, 遅滞). 山中湖 records the complete JMdict scan instead of a sequence. Re-enriching the
+cards 板, 丘 and 画家, which earlier decisions had added, makes those 6 accepted references
+stale; they will be renewed when the N3 references are closed. N3 now has 0 pending reviews
+and 428 open references (422 pending, 6 needing renewal).
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

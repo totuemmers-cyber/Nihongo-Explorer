@@ -5,23 +5,23 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 | Measure | Count |
 | --- | ---: |
 | Entries | 15861 |
-| Accepted editorial reviews | 9246 |
-| Pending entry reviews | 6615 |
-| Unresolved candidate groups | 759 |
-| Unresolved candidate references | 1035 |
-| Missing usage notes | 6507 |
-| Missing second example | 6429 |
-| Missing two reviewed contexts | 6892 |
-| Verified pitch | 7716 |
-| Investigated unknown pitch | 1530 |
-| Uninvestigated pitch | 6615 |
+| Accepted editorial reviews | 9617 |
+| Pending entry reviews | 6244 |
+| Unresolved candidate groups | 762 |
+| Unresolved candidate references | 1041 |
+| Missing usage notes | 6253 |
+| Missing second example | 6201 |
+| Missing two reviewed contexts | 6521 |
+| Verified pitch | 7940 |
+| Investigated unknown pitch | 1677 |
+| Uninvestigated pitch | 6244 |
 | Optional missing notes among accepted reviews | 269 |
 | Optional missing second context among accepted reviews | 268 |
 | Open sample defects | 0 |
 
 Review completion: **open**. Strict enrichment: **open**.
 
-Ledger SHA256: `07e3ced5f1492eb3d00cafe715fc1c5d822a112dec706ce214be8d7594af882d`.
+Ledger SHA256: `be65a28baed0960fff5b7e604cb08293ae593f6738a799d36305645e75561827`.
 
 ## Level phases
 
@@ -29,7 +29,7 @@ Ledger SHA256: `07e3ced5f1492eb3d00cafe715fc1c5d822a112dec706ce214be8d7594af882d
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
 | N5 | 1686 | 0 | 0 | 0 | 0 | 0 | yes |
 | N4 | 1682 | 0 | 0 | 0 | 0 | 0 | yes |
-| N3 | 3826 | 254 | 228 | 371 | 371 | 422 | no |
+| N3 | 3826 | 0 | 0 | 0 | 0 | 428 | no |
 | N2 | 3218 | 2385 | 2357 | 2509 | 2402 | 271 | no |
 | N1 | 5449 | 3868 | 3844 | 4012 | 3842 | 342 | no |
 
