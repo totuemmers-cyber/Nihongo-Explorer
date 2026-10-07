@@ -36,7 +36,7 @@
     "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation. Independent review was later made optional by the user (author-only-v1, 4 October 2026; see reviewPolicyChanges).",
     "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
     "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
-    "activeLevel": "N3",
+    "activeLevel": "N2",
     "levelOrder": [
       "N5",
       "N4",
@@ -130,7 +130,7 @@
         }
       },
       "N3": {
-        "status": "active",
+        "status": "complete",
         "baseline": {
           "level": "N3",
           "total": 3757,
@@ -146,10 +146,28 @@
           "pendingAdditions": 0,
           "openSampleDefects": 0,
           "complete": false
+        },
+        "completedAt": "2026-10-07T19:23:19.159Z",
+        "result": {
+          "level": "N3",
+          "total": 3908,
+          "reviewed": 3908,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       },
       "N2": {
-        "status": "pending",
+        "status": "active",
         "baseline": {
           "level": "N2",
           "total": 3169,
@@ -3257,6 +3275,108 @@
         "verification": {
           "policy": "author-only-v1, first pass by the batch author; no independent pass",
           "fullChecksPassed": 22
+        }
+      },
+      {
+        "id": "n3-source-closure-189-190",
+        "status": "verified-level-complete",
+        "recordedAt": "2026-10-07T19:23:19.413Z",
+        "newExistingEntriesEnriched": 0,
+        "existingTargetReviews": {
+          "total": 96,
+          "aliasOnly": 80,
+          "authored": 16,
+          "aliasesAdded": 102,
+          "meaningChanges": 14,
+          "sensesAdded": 6
+        },
+        "newAdditions": 136,
+        "cumulativeAdditions": 439,
+        "additionLevels": {
+          "N5": 2,
+          "N4": 5,
+          "N3": 82,
+          "N2": 28,
+          "N1": 19
+        },
+        "additionPitch": {
+          "verified": 118,
+          "investigatedUnknown": 18
+        },
+        "newBaselineCandidateReferencesResolved": 422,
+        "dispositions": {
+          "verified-spelling-variant": 127,
+          "added": 164,
+          "additional-reading": 69,
+          "verified-source-notation": 2,
+          "additional-sense": 6,
+          "excluded": 54
+        },
+        "exclusions": {
+          "source-error": 36,
+          "archaic-or-rare-reading": 15,
+          "kanji-reading-row": 3
+        },
+        "renewedStaleDecisions": {
+          "total": 19,
+          "N4": 3,
+          "N3": 14,
+          "N2": 2,
+          "legacyExactFormRenewals": 6,
+          "cause": "Target cards re-reviewed in batches 175-189 made earlier accepted decisions stale; each was renewed against the current target content. The six 板/丘/画家 decisions were recorded as added, but their cards came from the earlier additions importer (no correction-pipeline addition seed), so they were renewed as exact-form matches (verified-spelling-variant)."
+        },
+        "batches": [
+          "189a-references-n3.json",
+          "189b-references-n3.json",
+          "189c-references-n3.json",
+          "189d-references-n3.json",
+          "189e-references-n3.json",
+          "189f-references-n3.json",
+          "189g-references-n3.json",
+          "189h-references-n3.json",
+          "190a-references-n3.json",
+          "190b-references-n3.json",
+          "190c-references-n3.json",
+          "190d-references-n3.json",
+          "190e-references-n3.json",
+          "190f-references-n3.json",
+          "190g-references-n3.json",
+          "190h-references-n3.json",
+          "190i-references-n3.json",
+          "190j-references-n3.json",
+          "190k-references-n3.json",
+          "190l-references-n3.json",
+          "190m-references-n3.json",
+          "190n-references-n3.json",
+          "190o-references-n3.json",
+          "190p-references-n3.json",
+          "190q-references-n3.json",
+          "190r-references-n3.json",
+          "190s-references-n3.json",
+          "190t-references-n3.json"
+        ],
+        "verification": {
+          "policy": "author-only-v1, first pass by the batch author; no independent pass",
+          "fullChecksPassed": 22,
+          "campaignAdvanceDryRun": "passed: N3 complete, next level N2",
+          "campaignAdvanced": "N3 -> N2"
+        },
+        "phase": {
+          "level": "N3",
+          "total": 3908,
+          "reviewed": 3908,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       }
     ],

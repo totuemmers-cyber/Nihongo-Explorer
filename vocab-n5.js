@@ -40008,5 +40008,69 @@ window.VOCAB_N5 = [
       }
     ],
     "correctionId": "vocab-n5:correction:to-ten-general-counter"
+  },
+  {
+    "word": "お〜",
+    "reading": "お",
+    "romaji": "o",
+    "meaning": "höfliche oder ehrerbietige Vorsilbe, meist vor japanischen Wörtern (Präfix, z. B. お茶, お名前)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N5",
+    "notes": "Höfliche Vorsilbe vor Nomen und Adjektiven, meist vor japanischstämmigen Wörtern: お茶, お金, お名前, お元気. Vor sinojapanischen Wörtern steht meist ご (御/ご, eigene Karte): ご家族, ご連絡; Ausnahmen wie お電話 und お時間 sind aber häufig. Auch Teil der Bescheidenheitsform お＋Verbstamm＋する (お持ちします). Fast immer in Kana; das Kanji 御 sieht man vor allem in formellen Texten.",
+    "examples": [
+      {
+        "japanese": "お茶をもう一杯いかがですか。",
+        "romaji": "Ocha o mō ippai ikaga desu ka.",
+        "german": "Möchten Sie noch eine Tasse Tee?"
+      },
+      {
+        "japanese": "すみません、お名前をもう一度お願いします。",
+        "romaji": "Sumimasen, onamae o mō ichido onegai shimasu.",
+        "german": "Entschuldigung, könnten Sie Ihren Namen noch einmal sagen?"
+      },
+      {
+        "japanese": "先生、お元気ですか。",
+        "romaji": "Sensei, ogenki desu ka.",
+        "german": "Herr Lehrer, wie geht es Ihnen?"
+      }
+    ],
+    "aliases": [
+      "御",
+      "御〜"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n5:correction:o-honorific-prefix"
+  },
+  {
+    "word": "も",
+    "reading": "も",
+    "romaji": "mo",
+    "meaning": "auch, ebenfalls; sowohl … als auch (AもBも); sogar, ganze (三時間も); (verneint) auch nicht, weder … noch",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N5",
+    "notes": "Grundpartikel, die は oder が ersetzt (bei を meist auch, bei anderen Partikeln wird sie angehängt: にも, からも) und „auch“ ausdrückt: 私も学生です. Doppelt gesetzt bedeutet AもBも „sowohl A als auch B“, verneint „weder A noch B“. Nach Mengenangaben betont も eine überraschend große Menge (三時間も „ganze drei Stunden“), nach Fragewörtern mit Verneinung ergibt sich „gar nichts / niemand“ (何も…ない, 誰も…ない). Im Gegensatz zu は (Thema, Kontrast) und が (Subjekt) fügt も etwas Gleichartiges hinzu.",
+    "examples": [
+      {
+        "japanese": "田中さんは学生です。私も学生です。",
+        "romaji": "Tanaka-san wa gakusei desu. Watashi mo gakusei desu.",
+        "german": "Herr Tanaka ist Student. Ich bin auch Student."
+      },
+      {
+        "japanese": "妹は肉も魚も食べません。",
+        "romaji": "Imouto wa niku mo sakana mo tabemasen.",
+        "german": "Meine jüngere Schwester isst weder Fleisch noch Fisch."
+      },
+      {
+        "japanese": "電車が止まって、三時間も待ちました。",
+        "romaji": "Densha ga tomatte, sanjikan mo machimashita.",
+        "german": "Der Zug blieb stehen, und ich habe ganze drei Stunden gewartet."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n5:correction:mo-also-particle"
   }
 ];

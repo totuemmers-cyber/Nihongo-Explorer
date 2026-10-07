@@ -135296,5 +135296,904 @@ window.VOCAB_N1 = [
       }
     ],
     "correctionId": "vocab-n1:correction:taika-expert"
+  },
+  {
+    "word": "相対",
+    "reading": "あいたい",
+    "romaji": "aitai",
+    "meaning": "nur zwischen den Beteiligten, unter vier Augen",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N1",
+    "notes": "Seltene, eigenständige Lesung von 相対: „nur zwischen den Beteiligten, ohne Dritte“. Heute fast nur noch in Komposita wie 相対取引 „direkter (außerbörslicher) Handel zwischen zwei Parteien“ oder 相対売買 sowie in 相対で決める „unter sich ausmachen“. Die übliche Lesung そうたい (eigene Karte) bedeutet „relativ“ (相対的, Gegenteil 絶対); welche Lesung gemeint ist, ergibt sich aus dem Kontext – bei Handel und Verhandlung meist あいたい.",
+    "examples": [
+      {
+        "japanese": "その株は取引所を通さず、相対取引で売られた。",
+        "romaji": "Sono kabu wa torihikijo o tōsazu, aitai torihiki de urareta.",
+        "german": "Die Aktien wurden nicht über die Börse, sondern im direkten Handel zwischen den Parteien verkauft."
+      },
+      {
+        "japanese": "価格は市場ではなく、相対で決められた。",
+        "romaji": "Kakaku wa shijō de wa naku, aitai de kimerareta.",
+        "german": "Der Preis wurde nicht am Markt, sondern direkt zwischen den Beteiligten festgelegt."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      1
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@39746046",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          1
+        ],
+        "finding": "Exact whole 相対/アイタイ; lemma 相対; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+        "match": {
+          "word": "相対",
+          "reading": "あいたい",
+          "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+          "sense": "Nomen 相対/あいたい \"nur zwischen den Beteiligten, unter vier Augen\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:aitai-between-parties"
+  },
+  {
+    "word": "域外",
+    "reading": "いきがい",
+    "romaji": "ikigai",
+    "meaning": "außerhalb des Gebiets, Außengebiet",
+    "type": "Nomen",
+    "category": "Geographie",
+    "level": "N1",
+    "notes": "域外 ist ein formelles Wort aus Politik, Wirtschaft und Nachrichten und bedeutet „außerhalb eines (Wirtschafts-)Gebiets“: EU域外 „außerhalb der EU“, 域外からの輸入 „Importe von außerhalb“. Als Attribut steht es mit の (域外の国). Das Gegenteil ist 域内 „innerhalb des Gebiets“. Nicht verwechseln mit dem gleich klingenden 生き甲斐/いきがい „Lebenssinn“ (eigene Karte).",
+    "examples": [
+      {
+        "japanese": "EU域外からの輸入品には関税がかかります。",
+        "romaji": "EU ikigai kara no yunyūhin ni wa kanzei ga kakarimasu.",
+        "german": "Auf Importwaren von außerhalb der EU werden Zölle erhoben."
+      },
+      {
+        "japanese": "この保険は域外での事故には使えません。",
+        "romaji": "Kono hoken wa ikigai de no jiko ni wa tsukaemasen.",
+        "german": "Diese Versicherung gilt nicht für Unfälle außerhalb des Gebiets."
+      },
+      {
+        "japanese": "域外の国とも協力していく必要がある。",
+        "romaji": "Ikigai no kuni to mo kyōryoku shite iku hitsuyō ga aru.",
+        "german": "Wir müssen auch mit Ländern außerhalb der Region zusammenarbeiten."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@53278988",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Exact whole 域外/イキガイ; lemma 域外; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "match": {
+          "word": "域外",
+          "reading": "いきがい",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 域外/いきがい \"außerhalb des Gebiets, Außengebiet\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:ikigai-outside-area"
+  },
+  {
+    "word": "一見",
+    "reading": "いちげん",
+    "romaji": "ichigen",
+    "meaning": "Erstbesuch (ohne Empfehlung), neuer unbekannter Gast",
+    "type": "Nomen",
+    "category": "Gesellschaft",
+    "level": "N1",
+    "notes": "一見/いちげん bezeichnet den ersten Besuch in einem Gasthaus oder Lokal ohne Empfehlung durch einen Stammgast und auch einen solchen unbekannten Gast. Bekannt ist es vor allem aus 一見さんお断り „keine Gäste ohne Empfehlung“, typisch für traditionelle Teehäuser und Restaurants in Kyōto. Die Karte 一見/いっけん mit gleicher Schreibung bedeutet dagegen „auf den ersten Blick“ und ist viel häufiger; いちげん wird fast nur im Zusammenhang mit Gästen und Lokalen gebraucht.",
+    "examples": [
+      {
+        "japanese": "この店は一見さんお断りです。",
+        "romaji": "Kono mise wa ichigen-san okotowari desu.",
+        "german": "Dieses Lokal nimmt keine Gäste ohne Empfehlung auf."
+      },
+      {
+        "japanese": "京都には一見の客を入れないお茶屋がまだある。",
+        "romaji": "Kyōto ni wa ichigen no kyaku o irenai ochaya ga mada aru.",
+        "german": "In Kyōto gibt es noch Teehäuser, die keine unbekannten Erstbesucher hereinlassen."
+      },
+      {
+        "japanese": "一見の客でも気軽に入れるバーを探しています。",
+        "romaji": "Ichigen no kyaku demo kigaru ni haireru bā o sagashite imasu.",
+        "german": "Ich suche eine Bar, in die man auch als neuer Gast ohne Bekanntschaft unkompliziert gehen kann."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55992897",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          2
+        ],
+        "finding": "Exact whole 一見/イチゲン; lemma 一見; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "match": {
+          "word": "一見",
+          "reading": "いちげん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 一見/いちげん \"Erstbesuch (ohne Empfehlung), neuer unbekannter Gast\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:ichigen-first-visit"
+  },
+  {
+    "word": "埋まる",
+    "reading": "うずまる",
+    "romaji": "uzumaru",
+    "meaning": "begraben werden, verschüttet sein, überfüllt sein",
+    "type": "Verb",
+    "category": "Allgemein",
+    "level": "N1",
+    "notes": "うずまる ist eine Nebenlesung von 埋まる (eigene Karte 埋まる/うまる) mit denselben Bedeutungen: „begraben, verschüttet, ganz bedeckt werden“ und „überfüllt sein“. Sie klingt etwas literarischer und steht besonders beim Versinken oder Eingebettetsein in etwas: 雪にうずまる, がれきにうずまる. Im Alltag sagt man meist うまる (席がうまる); weil 埋まる so gelesen wird, schreibt man うずまる oft in Kana. Das transitive Gegenstück ist うずめる „vergraben, ausfüllen“.",
+    "examples": [
+      {
+        "japanese": "車が雪にうずまって動けなくなった。",
+        "romaji": "Kuruma ga yuki ni uzumatte ugokenaku natta.",
+        "german": "Das Auto steckte im Schnee fest und kam nicht mehr weiter."
+      },
+      {
+        "japanese": "地震で多くの家ががれきにうずまった。",
+        "romaji": "Jishin de ōku no ie ga gareki ni uzumatta.",
+        "german": "Durch das Erdbeben wurden viele Häuser unter Trümmern begraben."
+      },
+      {
+        "japanese": "広場は祭りの見物客でうずまっていた。",
+        "romaji": "Hiroba wa matsuri no kenbutsukyaku de uzumatte ita.",
+        "german": "Der Platz war voller Festbesucher."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "うずまる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "うずまる",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@62544547",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 埋まる/ウズマル; lemma 埋まる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. Rejected for this role: 埋まる/ウズマル; lemma 埋まる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0.",
+        "match": {
+          "word": "埋まる",
+          "reading": "うずまる",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+          "sense": "Verb 埋まる/うずまる \"begraben werden, verschüttet sein, überfüllt sein\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:uzumaru-be-buried"
+  },
+  {
+    "word": "甕",
+    "reading": "かめ",
+    "romaji": "kame",
+    "meaning": "(Ton-)Krug, irdener Topf",
+    "type": "Nomen",
+    "category": "Haushalt",
+    "level": "N1",
+    "notes": "甕 ist ein großes, bauchiges Gefäß aus Ton zum Aufbewahren von Wasser, Sake, Miso oder Eingelegtem: 水がめ „Wasserkrug“, 甕に漬ける „im Tontopf einlegen“. Man schreibt es auch 瓶, doch 瓶 wird meist びん „Flasche“ gelesen (eigene Karte); der Zusammenhang entscheidet. Das gleich klingende 亀/かめ „Schildkröte“ ist ein ganz anderes Wort. Da das Kanji 甕 schwierig ist, sieht man oft かめ in Kana.",
+    "examples": [
+      {
+        "japanese": "昔は台所の甕に水をためていた。",
+        "romaji": "Mukashi wa daidokoro no kame ni mizu o tamete ita.",
+        "german": "Früher sammelte man das Wasser in einem Tonkrug in der Küche."
+      },
+      {
+        "japanese": "祖母は甕で梅干しを漬けている。",
+        "romaji": "Sobo wa kame de umeboshi o tsukete iru.",
+        "german": "Meine Großmutter legt Umeboshi in einem Tontopf ein."
+      },
+      {
+        "japanese": "この酒蔵では大きな甕で焼酎を寝かせます。",
+        "romaji": "Kono sakagura de wa ōki na kame de shōchū o nekasemasu.",
+        "german": "In dieser Brennerei lässt man den Shōchū in großen Tonkrügen reifen."
+      }
+    ],
+    "aliases": [
+      "瓶"
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@97656829",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Exact whole 瓶/カメ; lemma 瓶; 名詞/普通名詞/一般/*; *; *; aType 2 | 甕/カメ; lemma 瓶; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "match": {
+          "word": "甕",
+          "reading": "かめ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 甕/かめ \"(Ton-)Krug, irdener Topf\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kame-pot"
+  },
+  {
+    "word": "桐",
+    "reading": "きり",
+    "romaji": "kiri",
+    "meaning": "Paulownie, Blauglockenbaum",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N1",
+    "notes": "桐 ist die Paulownie (Blauglockenbaum), ein schnell wachsender Baum mit großen Blättern und violetten Blüten. Ihr leichtes, feuchtigkeitsabweisendes Holz wird für 桐のたんす „Kleidertruhe aus Paulownienholz“, 桐の箱 und das Instrument Koto verwendet; das Paulownienwappen ist das Emblem der japanischen Regierung. Nicht verwechseln mit dem gleich klingenden 霧 „Nebel“. In der Biologie schreibt man キリ.",
+    "examples": [
+      {
+        "japanese": "祖母は着物を桐のたんすにしまっています。",
+        "romaji": "Sobo wa kimono o kiri no tansu ni shimatte imasu.",
+        "german": "Meine Großmutter bewahrt ihre Kimonos in einer Paulownientruhe auf."
+      },
+      {
+        "japanese": "五月になると、桐の花が紫色に咲く。",
+        "romaji": "Gogatsu ni naru to, kiri no hana ga murasakiiro ni saku.",
+        "german": "Im Mai blüht die Paulownie violett."
+      },
+      {
+        "japanese": "高い茶碗は桐の箱に入って売られている。",
+        "romaji": "Takai chawan wa kiri no hako ni haitte urarete iru.",
+        "german": "Teure Teeschalen werden in Kästchen aus Paulownienholz verkauft."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106766029",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 桐/キリ; lemma 桐; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 桐/キリ; lemma キリ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "match": {
+          "word": "桐",
+          "reading": "きり",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 桐/きり \"Paulownie, Blauglockenbaum\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:kiri-paulownia"
+  },
+  {
+    "word": "したためる",
+    "reading": "したためる",
+    "romaji": "shitatameru",
+    "meaning": "(einen Brief) schreiben, niederschreiben, aufsetzen (gehoben)",
+    "type": "Verb",
+    "category": "Kommunikation",
+    "level": "N1",
+    "notes": "したためる ist ein gehobenes, schriftsprachliches Verb für „(einen Brief, ein Schriftstück) sorgfältig verfassen“: 手紙をしたためる, 一筆したためる „ein paar Zeilen schreiben“. Man schreibt es meist in Kana, weil die Kanji-Schreibung 認める normalerweise みとめる „anerkennen, zugeben“ gelesen wird (eigene Karte). Im Alltag sagt man einfach 書く; したためる klingt feierlich oder altmodisch. Die Bedeutung „(eine Mahlzeit) einnehmen“ ist veraltet.",
+    "examples": [
+      {
+        "japanese": "祖父は毎年、恩師に手紙をしたためていた。",
+        "romaji": "Sofu wa maitoshi, onshi ni tegami o shitatamete ita.",
+        "german": "Mein Großvater schrieb jedes Jahr seinem früheren Lehrer einen Brief."
+      },
+      {
+        "japanese": "お礼の気持ちを一筆したためました。",
+        "romaji": "Orei no kimochi o ippitsu shitatamemashita.",
+        "german": "Ich habe ein paar Zeilen geschrieben, um meinen Dank auszudrücken."
+      },
+      {
+        "japanese": "彼は旅の思い出を日記にしたためた。",
+        "romaji": "Kare wa tabi no omoide o nikki ni shitatameta.",
+        "german": "Er hielt seine Reiseerinnerungen in seinem Tagebuch fest."
+      }
+    ],
+    "aliases": [
+      "認める"
+    ],
+    "pitch": 4,
+    "verbGroup": "ichidan",
+    "conjugation": {
+      "verbGroup": "ichidan",
+      "conjugationReading": "したためる",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "したためる",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135845656",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          4
+        ],
+        "finding": "Exact whole したためる/シタタメル; lemma 認める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 4 | 認める/シタタメル; lemma 認める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 4. Rejected for this role: したためる/シタタメル; lemma 認める; 動詞/一般/*/*; 下一段-マ行; 連体形-一般; aType 4 | 認める/シタタメル; lemma 認める; 動詞/一般/*/*; 下一段-マ行; 連体形-一般; aType 4.",
+        "match": {
+          "word": "したためる",
+          "reading": "したためる",
+          "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+          "sense": "Verb したためる/したためる \"(einen Brief) schreiben, niederschreiben, aufsetzen (gehoben)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:shitatameru-write"
+  },
+  {
+    "word": "背負う",
+    "reading": "しょう",
+    "romaji": "shō",
+    "meaning": "auf dem Rücken tragen, aufbürden (umgangssprachlich); しょってる: eingebildet sein",
+    "type": "Verb",
+    "category": "Handlung",
+    "level": "N1",
+    "notes": "しょう ist eine umgangssprachliche Lesung von 背負う (eigene Karte 背負う/せおう) und bedeutet ebenfalls „auf dem Rücken tragen“ und übertragen „etwas auf sich nehmen“. Man hört es vor allem in der て-Form: リュックをしょって. しょってる (von しょっている) heißt außerdem „eingebildet sein, sehr von sich überzeugt sein“; diese Bedeutung gibt es nur bei しょう, nicht bei せおう. Da 背負う normalerweise せおう gelesen wird, schreibt man しょう meist in Kana.",
+    "examples": [
+      {
+        "japanese": "子どもたちはランドセルをしょって学校へ行く。",
+        "romaji": "Kodomotachi wa randoseru o shotte gakkō e iku.",
+        "german": "Die Kinder gehen mit dem Schulranzen auf dem Rücken zur Schule."
+      },
+      {
+        "japanese": "重い荷物をしょって山を登った。",
+        "romaji": "Omoi nimotsu o shotte yama o nobotta.",
+        "german": "Ich bin mit schwerem Gepäck auf dem Rücken den Berg hinaufgestiegen."
+      },
+      {
+        "japanese": "自分のことを天才だなんて、ずいぶんしょってるね。",
+        "romaji": "Jibun no koto o tensai da nante, zuibun shotteru ne.",
+        "german": "Sich selbst ein Genie zu nennen – der ist ja ganz schön eingebildet."
+      }
+    ],
+    "pitch": 0,
+    "verbGroup": "godan",
+    "conjugation": {
+      "verbGroup": "godan",
+      "conjugationReading": "しょう",
+      "conjugationKind": "verb"
+    },
+    "conjugationKind": "verb",
+    "conjugationReading": "しょう",
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140604155",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 背負う/ショウ; lemma 背負う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. Rejected for this role: 背負う/ショウ; lemma 背負う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 0 | 背負う/ショウ; lemma 背負う; 動詞/一般/*/*; 五段-ワア行; 連用形-ウ音便; aType 0.",
+        "match": {
+          "word": "背負う",
+          "reading": "しょう",
+          "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+          "sense": "Verb 背負う/しょう \"auf dem Rücken tragen, aufbürden (umgangssprachlich); しょってる: eingebildet sein\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:shou-carry-on-back"
+  },
+  {
+    "word": "代",
+    "reading": "しろ",
+    "romaji": "shiro",
+    "meaning": "Ersatz; Material; Preis, Entgelt; (Rand-)Fläche (z. B. Klebefalz)",
+    "type": "Nomen",
+    "category": "Wirtschaft",
+    "level": "N1",
+    "notes": "Die Lesung しろ kommt fast nur noch in festen Komposita vor: 身代金 „Lösegeld“, 糊代 „Klebefalz“, 苗代 „Reisanzuchtbeet“, 代物 „Ding, Ware“ (oft abwertend). Allein steht 代 meist als だい: Die Karte 〜代 „-kosten, -gebühr“ (電気代, 食事代) ist ein anderes Wort. 城 „Burg“ und 白 „Weiß“ klingen gleich, haben aber nichts damit zu tun.",
+    "examples": [
+      {
+        "japanese": "犯人は一億円の身代金を要求した。",
+        "romaji": "Hannin wa ichioku-en no minoshirokin o yōkyū shita.",
+        "german": "Der Täter forderte ein Lösegeld von hundert Millionen Yen."
+      },
+      {
+        "japanese": "紙を切るときは、端に糊代を残してください。",
+        "romaji": "Kami o kiru toki wa, hashi ni norishiro o nokoshite kudasai.",
+        "german": "Lassen Sie beim Ausschneiden des Papiers am Rand einen Klebefalz stehen."
+      },
+      {
+        "japanese": "春になると、農家は苗代で稲の苗を育てる。",
+        "romaji": "Haru ni naru to, nōka wa nawashiro de ine no nae o sodateru.",
+        "german": "Im Frühling ziehen die Bauern in Anzuchtbeeten die Reissetzlinge heran."
+      }
+    ],
+    "pitch": 2,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142257096",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          2
+        ],
+        "finding": "Exact whole 代/シロ; lemma 代; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "match": {
+          "word": "代",
+          "reading": "しろ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 代/しろ \"Ersatz; Material; Preis, Entgelt; (Rand-)Fläche (z. B. Klebefalz)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:shiro-substitute"
+  },
+  {
+    "word": "長大",
+    "reading": "ちょうだい",
+    "romaji": "chōdai",
+    "meaning": "sehr lang und groß, gewaltig, riesig (na-Adj.)",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N1",
+    "notes": "長大 ist ein schriftsprachliches na-Adjektiv, das vor allem große Länge betont: 長大な橋, 長大な小説, 長大な報告書. 巨大 (eigene Karte) meint dagegen allgemein enorme Größe oder Masse. Das gleich gelesene 頂戴 „bekommen; gib mir“ ist ein völlig anderes Wort; in Gesprächen benutzt man statt 長大 meist とても長い oder 大きい.",
+    "examples": [
+      {
+        "japanese": "明石海峡大橋は、世界でも有数の長大な吊り橋だ。",
+        "romaji": "Akashi Kaikyō Ōhashi wa, sekai de mo yūsū no chōdai na tsuribashi da.",
+        "german": "Die Akashi-Kaikyō-Brücke ist eine der längsten und gewaltigsten Hängebrücken der Welt."
+      },
+      {
+        "japanese": "その小説は全十巻にもなる長大な作品だ。",
+        "romaji": "Sono shōsetsu wa zen-jikkan ni mo naru chōdai na sakuhin da.",
+        "german": "Dieser Roman ist ein gewaltiges Werk, das ganze zehn Bände umfasst."
+      },
+      {
+        "japanese": "こんなに長大な報告書を、一晩で読むのは無理だ。",
+        "romaji": "Konna ni chōdai na hōkokusho o, hitoban de yomu no wa muri da.",
+        "german": "So einen langen, umfangreichen Bericht kann man unmöglich in einer Nacht lesen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170259132",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 長大/チョウダイ; lemma 長大; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "match": {
+          "word": "長大",
+          "reading": "ちょうだい",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "Adjektiv 長大/ちょうだい \"sehr lang und groß, gewaltig, riesig (na-Adj.)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:choudai-huge"
+  },
+  {
+    "word": "土産",
+    "reading": "どさん",
+    "romaji": "dosan",
+    "meaning": "Landesprodukt, örtliches Erzeugnis",
+    "type": "Nomen",
+    "category": "Wirtschaft",
+    "level": "N1",
+    "notes": "どさん ist die sinojapanische Lesung von 土産 und bedeutet „Erzeugnis eines Landes oder einer Gegend“; sie kommt fast nur in historischen oder sehr förmlichen Texten vor. Im normalen Text liest man 土産 immer みやげ „Souvenir, Mitbringsel“ (eigene Karte), deshalb erkennt man どさん nur am Kontext oder an Lesehilfen. Heute sagt man für regionale Erzeugnisse eher 特産品 oder 名産.",
+    "examples": [
+      {
+        "japanese": "江戸時代、絹はこの地方の重要な土産であった。",
+        "romaji": "Edo jidai, kinu wa kono chihō no jūyō na dosan de atta.",
+        "german": "In der Edo-Zeit war Seide ein wichtiges Erzeugnis dieser Gegend."
+      },
+      {
+        "japanese": "古い記録には、各国の土産が詳しく書かれている。",
+        "romaji": "Furui kiroku ni wa, kakkoku no dosan ga kuwashiku kakarete iru.",
+        "german": "In alten Aufzeichnungen sind die Erzeugnisse der einzelnen Provinzen ausführlich beschrieben."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192711801",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 土産/ドサン; lemma 土産; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "match": {
+          "word": "土産",
+          "reading": "どさん",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 土産/どさん \"Landesprodukt, örtliches Erzeugnis\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:dosan-local-product"
+  },
+  {
+    "word": "夜中",
+    "reading": "やちゅう",
+    "romaji": "yachū",
+    "meaning": "nachts, während der Nacht (Schriftsprache)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N1",
+    "notes": "やちゅう ist eine seltene, schriftsprachliche Lesung von 夜中 und bedeutet allgemein „während der Nacht“, oft im Gegensatz zu 日中 „tagsüber“. Die übliche Lesung ist よなか „mitten in der Nacht“ (eigene Karte), und ohne Lesehilfe liest man das Kanji fast immer so. Im förmlichen Stil sagt man statt やちゅう meist 夜間 (eigene Karte).",
+    "examples": [
+      {
+        "japanese": "砂漠では、日中は暑いが夜中は氷点下まで冷え込む。",
+        "romaji": "Sabaku de wa, nitchū wa atsui ga yachū wa hyōtenka made hiekomu.",
+        "german": "In der Wüste ist es tagsüber heiß, nachts kühlt es aber bis unter den Gefrierpunkt ab."
+      },
+      {
+        "japanese": "警察は住民に、夜中の外出を控えるよう呼びかけた。",
+        "romaji": "Keisatsu wa jūmin ni, yachū no gaishutsu o hikaeru yō yobikaketa.",
+        "german": "Die Polizei rief die Anwohner auf, nachts nicht aus dem Haus zu gehen."
+      }
+    ],
+    "pitch": 1,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@268757922",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1,
+          0
+        ],
+        "finding": "Exact whole 夜中/ヤチュウ; lemma 夜中; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+        "match": {
+          "word": "夜中",
+          "reading": "やちゅう",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 夜中/やちゅう \"nachts, während der Nacht (Schriftsprache)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:yachuu-at-night"
+  },
+  {
+    "word": "面",
+    "reading": "おもて",
+    "romaji": "omote",
+    "meaning": "Gesicht, Antlitz (gehoben); Oberfläche (水の面); Maske (Nō)",
+    "type": "Nomen",
+    "category": "Körper",
+    "level": "N1",
+    "notes": "Gehobene, literarische Lesung von 面 für „Gesicht, Antlitz“ (面を上げる „den Blick heben“, 面を伏せる „das Gesicht senken“), für eine Wasseroberfläche (湖の面) und für die Nō-Maske. Die Karte 面/めん lehrt die übliche On-Lesung („Seite, Aspekt; Fläche“, z. B. この面では); 表/おもて „Vorderseite, draußen“ ist ein anderes Wort. In der Alltagssprache sagt man für „Gesicht“ 顔.",
+    "examples": [
+      {
+        "japanese": "「面を上げよ」と殿様が家来に命じた。",
+        "romaji": "\"Omote o ageyo\" to tonosama ga kerai ni meijita.",
+        "german": "„Erhebe dein Antlitz“, befahl der Fürst seinem Gefolgsmann."
+      },
+      {
+        "japanese": "静かな湖の面に月が映っていた。",
+        "romaji": "Shizuka na mizuumi no omote ni tsuki ga utsutte ita.",
+        "german": "Auf der stillen Seeoberfläche spiegelte sich der Mond."
+      },
+      {
+        "japanese": "彼女は恥ずかしさに面を伏せた。",
+        "romaji": "Kanojo wa hazukashisa ni omote o fuseta.",
+        "german": "Vor Scham senkte sie das Gesicht."
+      }
+    ],
+    "pitch": 3,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@83547533",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3
+        ],
+        "finding": "Exact whole 面/オモテ; lemma 面; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "match": {
+          "word": "面",
+          "reading": "おもて",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 面/おもて \"Gesicht, Antlitz (gehoben); Oberfläche (水の面); Maske (Nō)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:omote-face"
+  },
+  {
+    "word": "胼胝",
+    "reading": "たこ",
+    "romaji": "tako",
+    "meaning": "Schwiele, Hornhaut (ペンだこ; 耳にたこができる: etw. schon zu oft gehört haben)",
+    "type": "Nomen",
+    "category": "Körper",
+    "level": "N1",
+    "notes": "Verhärtete Hautstelle durch ständige Reibung, fast immer in Kana geschrieben (たこ oder タコ); die Kanji 胼胝 sind sehr selten. Typisch: 指にたこができる, ペンだこ „Schreibschwiele“. Die Redewendung 耳にたこができる bedeutet „etwas schon bis zum Überdruss gehört haben“. Gleich klingend, aber andere Wörter: 蛸/たこ „Oktopus“ und 凧/たこ „Drachen“.",
+    "examples": [
+      {
+        "japanese": "毎日ギターを弾いていたら、指先にたこができた。",
+        "romaji": "Mainichi gitaa o hiite itara, yubisaki ni tako ga dekita.",
+        "german": "Weil ich jeden Tag Gitarre gespielt habe, habe ich Schwielen an den Fingerspitzen bekommen."
+      },
+      {
+        "japanese": "その話は耳にたこができるほど聞いたよ。",
+        "romaji": "Sono hanashi wa mimi ni tako ga dekiru hodo kiita yo.",
+        "german": "Die Geschichte habe ich schon bis zum Überdruss gehört."
+      },
+      {
+        "japanese": "靴が合わなくて、足の裏にたこができてしまった。",
+        "romaji": "Kutsu ga awanakute, ashi no ura ni tako ga dekite shimatta.",
+        "german": "Weil die Schuhe nicht passten, habe ich Hornhaut an der Fußsohle bekommen."
+      }
+    ],
+    "aliases": [
+      "たこ"
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@159949585",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole たこ/タコ; lemma 胼胝; 名詞/普通名詞/一般/*; *; *; aType 1 | 胼胝/タコ; lemma 胼胝; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: たこ/タコ; lemma 高い; 形容詞/一般/*/*; 形容詞; 連体形-ウ音便; aType 2 | たこ/タコ; lemma たく; 動詞/一般/*/*; 五段-カ行; 意志推量形; aType * | たこ/タコ; lemma 焚く; 動詞/一般/*/*; 五段-カ行; 意志推量形; aType 0 | たこ/タコ; lemma 凧; 名詞/普通名詞/一般/*; *; *; aType 1 | たこ/タコ; lemma 蛸; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "胼胝",
+          "reading": "たこ",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 胼胝/たこ \"Schwiele, Hornhaut (ペンだこ; 耳にたこができる: etw. schon zu oft gehört haben)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:tako-callus"
+  },
+  {
+    "word": "畑地",
+    "reading": "はたち",
+    "romaji": "hatachi",
+    "meaning": "Ackerland, Feldflur (trockenes Feldland)",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N1",
+    "notes": "Schriftsprachlicher Begriff für (trockenes) Feldland im Gegensatz zu Reisfeldern (水田), häufig in Nachrichten, Statistiken und Verwaltungstexten (畑地を宅地に転用する). Im Alltag sagt man einfach 畑/はたけ; 田畑/たはた umfasst Reis- und Trockenfelder. Gleich klingend wie 二十歳/はたち „zwanzig Jahre alt“, was nur aus dem Kontext unterschieden wird.",
+    "examples": [
+      {
+        "japanese": "この地域には広い畑地が広がっている。",
+        "romaji": "Kono chiiki ni wa hiroi hatachi ga hirogatte iru.",
+        "german": "In dieser Gegend erstreckt sich weites Ackerland."
+      },
+      {
+        "japanese": "市は畑地の一部を住宅地に転用する計画だ。",
+        "romaji": "Shi wa hatachi no ichibu o juutakuchi ni ten'you suru keikaku da.",
+        "german": "Die Stadt plant, einen Teil des Ackerlands in Wohngebiet umzuwidmen."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215537504",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 畑地/ハタチ; lemma 畑地; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "match": {
+          "word": "畑地",
+          "reading": "はたち",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 畑地/はたち \"Ackerland, Feldflur (trockenes Feldland)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:hatachi-farmland"
+  },
+  {
+    "word": "〜艘",
+    "reading": "そう",
+    "romaji": "sou",
+    "meaning": "Zählwort für (kleine) Boote (Zähleinheitswort)",
+    "type": "Partikel",
+    "category": "Zähleinheitswörter",
+    "level": "N1",
+    "notes": "Zählwort für kleine Boote wie Ruder-, Fischer- oder Schlauchboote: 一艘 (いっそう), 二艘, 三艘, 数艘. Für große Schiffe wird eher 隻/せき verwendet (タンカー三隻), in der Umgangssprache auch einfach 〜つ oder 台. Das Kanji ist selten; der Ausdruck kommt vor allem in Erzählungen, Nachrichten und Redewendungen wie 二艘の舟に乗る vor.",
+    "examples": [
+      {
+        "japanese": "港には小さな漁船が三艘つないであった。",
+        "romaji": "Minato ni wa chiisa na gyosen ga sansou tsunaide atta.",
+        "german": "Im Hafen waren drei kleine Fischerboote vertäut."
+      },
+      {
+        "japanese": "一艘のボートが湖の真ん中に浮かんでいる。",
+        "romaji": "Issou no booto ga mizuumi no mannaka ni ukande iru.",
+        "german": "Ein Boot treibt mitten auf dem See."
+      },
+      {
+        "japanese": "救助のため、ゴムボート数艘が出された。",
+        "romaji": "Kyuujo no tame, gomu booto suusou ga dasareta.",
+        "german": "Zur Rettung wurden mehrere Schlauchboote ausgesetzt."
+      }
+    ],
+    "aliases": [
+      "艘"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n1:correction:sou-boat-counter"
+  },
+  {
+    "word": "属",
+    "reading": "ぞく",
+    "romaji": "zoku",
+    "meaning": "Gattung (Biologie)",
+    "type": "Nomen",
+    "category": "Wissenschaft",
+    "level": "N1",
+    "notes": "Fachbegriff der biologischen Systematik für die Gattung, die zwischen 科 „Familie“ und 種 „Art“ steht; meist als Suffix nach dem Gattungsnamen (ヒョウ属, バラ属). Das Verb 属する „angehören“ verwendet das gleiche Kanji und wird oft zusammen damit benutzt (ヒョウ属に属する). Außerhalb von Biologie und Fachtexten selten.",
+    "examples": [
+      {
+        "japanese": "ライオンはネコ科ヒョウ属に属する動物だ。",
+        "romaji": "Raion wa nekoka hyouzoku ni zokusuru doubutsu da.",
+        "german": "Der Löwe ist ein Tier aus der Gattung Panthera der Familie der Katzen."
+      },
+      {
+        "japanese": "分類では、科の下に属、属の下に種がある。",
+        "romaji": "Bunrui de wa, ka no shita ni zoku, zoku no shita ni shu ga aru.",
+        "german": "In der Systematik steht unter der Familie die Gattung und unter der Gattung die Art."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157768062",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 属/ゾク; lemma 属; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 属/ゾク; lemma 属; 接尾辞/名詞的/一般/*; *; *; aType * | 属/ゾク; lemma 属する; 動詞/一般/*/*; 五段-サ行; 連体形-省略; aType 2.",
+        "match": {
+          "word": "属",
+          "reading": "ぞく",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 属/ぞく \"Gattung (Biologie)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:zoku-genus"
+  },
+  {
+    "word": "雑木",
+    "reading": "ぞうき",
+    "romaji": "zōki",
+    "meaning": "verschiedene kleine Bäume, Gestrüpp; Nutz- und Brennholzbäume",
+    "type": "Nomen",
+    "category": "Natur",
+    "level": "N1",
+    "notes": "Sammelbegriff für bunt gemischte, wirtschaftlich wenig wertvolle Bäume, die früher als Brennholz dienten; selten auch ざつぼく gelesen. Weit häufiger ist das Kompositum 雑木林/ぞうきばやし „Mischwäldchen“. Nicht verwechseln mit dem Homophon 臓器 „Organ“.",
+    "examples": [
+      {
+        "japanese": "家の裏には雑木が生い茂っている。",
+        "romaji": "Ie no ura ni wa zōki ga oishigette iru.",
+        "german": "Hinter dem Haus wuchert dichtes Gestrüpp aus allerlei Bäumen."
+      },
+      {
+        "japanese": "秋になると、山の雑木が赤や黄色に色づく。",
+        "romaji": "Aki ni naru to, yama no zōki ga aka ya kiiro ni irozuku.",
+        "german": "Im Herbst färben sich die Laubbäume am Berg rot und gelb."
+      },
+      {
+        "japanese": "昔はこの辺りの雑木を切って薪にしていた。",
+        "romaji": "Mukashi wa kono atari no zōki o kitte maki ni shite ita.",
+        "german": "Früher fällte man die Bäume hier in der Gegend und machte Brennholz daraus."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157697370",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 雑木/ゾウキ; lemma 雑木; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "match": {
+          "word": "雑木",
+          "reading": "ぞうき",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 雑木/ぞうき \"verschiedene kleine Bäume, Gestrüpp; Nutz- und Brennholzbäume\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:zouki-assorted-trees"
+  },
+  {
+    "word": "相",
+    "reading": "そう",
+    "romaji": "sō",
+    "meaning": "Aussehen, Erscheinung; Physiognomie (Wahrsagerei, vgl. 人相, 手相); Phase (Physik)",
+    "type": "Nomen",
+    "category": "Wissenschaft",
+    "level": "N1",
+    "notes": "Als selbstständiges Nomen selten: in der Wahrsagerei „Gesichts- oder Handzeichen“ (良い相をしている, 死相), in der Physik „Phase“ (固相, 液相). Vertrauter in Komposita wie 人相, 手相, 様相. Die Karte 相〜/あい ist das Präfix in 相手, 相変わらず; in 首相 wird es しょう gelesen.",
+    "examples": [
+      {
+        "japanese": "占い師は私の顔を見て「珍しい相をしている」と言った。",
+        "romaji": "Uranaishi wa watashi no kao o mite \"mezurashii sō o shite iru\" to itta.",
+        "german": "Die Wahrsagerin sah mir ins Gesicht und sagte: „Sie haben ungewöhnliche Züge.“"
+      },
+      {
+        "japanese": "水は温度によって固体、液体、気体の三つの相に変化する。",
+        "romaji": "Mizu wa ondo ni yotte kotai, ekitai, kitai no mittsu no sō ni henka suru.",
+        "german": "Wasser wechselt je nach Temperatur zwischen den drei Phasen fest, flüssig und gasförmig."
+      },
+      {
+        "japanese": "祭りで手相を見てもらったら、長生きする相だと言われた。",
+        "romaji": "Matsuri de tesō o mite morattara, nagaiki suru sō da to iwareta.",
+        "german": "Als ich mir auf dem Fest aus der Hand lesen ließ, hieß es, ich hätte die Zeichen eines langen Lebens."
+      }
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155086693",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole 相/ソウ; lemma 相; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "match": {
+          "word": "相",
+          "reading": "そう",
+          "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+          "sense": "Nomen 相/そう \"Aussehen, Erscheinung; Physiognomie (Wahrsagerei, vgl. 人相, 手相); Phase (Physik)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n1:correction:sou-appearance"
   }
 ];

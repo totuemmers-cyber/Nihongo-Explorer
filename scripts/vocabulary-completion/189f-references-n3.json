@@ -1,0 +1,279 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n4:429",
+      "revisionId": "189f-reference-target-vocab-n4-429",
+      "state": "accepted",
+      "predecessorHash": "d8275db3364f816d24f88bab433227f6d14533564bcfba5f67375bd78b27e5aa",
+      "originalHash": "d8275db3364f816d24f88bab433227f6d14533564bcfba5f67375bd78b27e5aa",
+      "predecessorRevisionHash": "3031ec3e64298ae01c9ebf58413b1a3022924dc94853f9347026c88cb8f122be",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "釣"
+        ]
+      },
+      "rationale": "Spelling alias review: 釣 added to 釣り/つり. TANOS row repeats the spelling 釣 in the reading column and puts the kana reading つり in the gloss column (misplaced-reading notation). JMdict 1434040 釣り/釣【つり】 lists 釣 as a spelling: fishing; angling; (uk,abbr) change. Card vocab-n4:429 釣り/つり 'Angeln' teaches it; add alias 釣. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1434040; spelling=釣り; reading=つり",
+          "selected": {
+            "sequence": "1434040",
+            "spelling": "釣り",
+            "reading": "つり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fishing",
+                  "angling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "change (for a purchase)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "clickbaiting"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "Internet slang"
+                ],
+                "gloss": [
+                  "trolling",
+                  "bait",
+                  "making deliberately inflammatory posts online"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1434040 sense 1, noun: fishing, angling"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1434040; 釣り/釣/つり",
+          "finding": "釣 is a listed spelling of つり 'fishing' (reference 釣|釣#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 釣り/ツリ; lemma 釣り; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 釣り/ツリ; lemma 吊る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@178737555",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 釣り/ツリ; lemma 釣り; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 釣り/ツリ; lemma 吊る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0.",
+            "match": {
+              "word": "釣り",
+              "reading": "つり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 釣り/つり \"Angeln\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n3-reference-closing-author-189",
+        "reviewedDistinctContexts": true,
+        "meaning": "Angeln. JMdict 1434040 sense 1, noun: fishing, angling",
+        "japanese": "父と一緒に釣りに行きました。 / 趣味は釣りです。 / この川は釣り禁止です。",
+        "romanization": "tsuri; Chichi to issho ni tsuri ni ikimashita. / Shumi wa tsuri desu. / Kono kawa wa tsuri kinshi desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin mit meinem Vater angeln gegangen. / Mein Hobby ist Angeln. / An diesem Fluss ist Angeln verboten.",
+        "contexts": [
+          "Fishing trip with father",
+          "Fishing as a hobby",
+          "No-fishing river"
+        ],
+        "lexical": "JMdict 1434040 sense 1, noun: fishing, angling Added reviewed spelling alias(es) 釣 for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N4 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n3-reference-closing-author-189",
+        "finding": "Author reread the exact final card vocab-n4:429: aliases [\"釣\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "11958f4a2d6898ba232b1c650c1b83abe704c01ae87c9a4b33545a54b3e3a846",
+        "approvalHash": "1f7a60e1a0b779bfcdfe756a5855b87d82fb53714605b0493e80d5eabc8a6adb"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:yooroppa",
+      "revisionId": "189f-reference-target-vocab-n4-correction-yooroppa",
+      "state": "accepted",
+      "predecessorHash": "4f3ab3aa8901b9b7b08bc3998aebddf4c72abf38ab2ae7eb56400dc5d3d7c939",
+      "originalHash": "4f3ab3aa8901b9b7b08bc3998aebddf4c72abf38ab2ae7eb56400dc5d3d7c939",
+      "predecessorRevisionHash": "ac7cb55a3c75ecc024d28a16b90e91dc1f27db235f6636020875bbbd5aaf193a",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "欧羅巴"
+        ]
+      },
+      "rationale": "Spelling alias review: 欧羅巴 added to ヨーロッパ/ヨーロッパ. Nihongo Master row 欧羅巴/ヨーロッパ 'Europe' is the ateji headword of JMdict 1137570 欧羅巴【ヨーロッパ】 (ateji, uk). Reviewed card vocab-n4:correction:yooroppa ヨーロッパ/ヨーロッパ 'Europa' has the identical katakana reading and sense, so 欧羅巴 becomes an alias (as for 亜細亜/アジア, 亜米利加/アメリカ). Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137570; spelling=ヨーロッパ; reading=ヨーロッパ; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "JMdict 1137570 ヨーロッパ/ヨーロッパ sense(s) 1 support \"Europa\"; absence from the corrected runtime was checked under word, reading and aliases.",
+          "selected": {
+            "sequence": "1137570",
+            "spelling": "ヨーロッパ",
+            "reading": "ヨーロッパ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "Europe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1137570; 欧羅巴/ヨーロッパ",
+          "finding": "n uk: Europe; 欧羅巴 ateji (reference 欧羅巴|よーろっぱ#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exact UniDic row(s) sys.dic@277334303 attest 3; primary 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277334303",
+            "patterns": [
+              3
+            ],
+            "finding": "ヨーロッパ / ヨーロッパ; 名詞/固有名詞/地名/一般; *; *; lemma ヨーロッパ-Europa; aType 3. Exact written-form/kana row for the taught lexeme.",
+            "match": {
+              "word": "ヨーロッパ",
+              "reading": "ヨーロッパ",
+              "grammaticalForm": "名詞/固有名詞/地名/一般; *; *",
+              "sense": "ヨーロッパ as \"Europa\"."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n3-reference-closing-author-189",
+        "meaning": "\"Europa\" matches JMdict 1137570 sense(s) 1.",
+        "japanese": "Both example sentences authored for this entry and checked for grammar and natural usage.",
+        "romanization": "Headword romaji from scripts/vocabulary-romaji.cjs (long vowels doubled); example romaji checked word by word.",
+        "translation": "German translations are faithful and idiomatic.",
+        "contexts": [
+          "Travel through a region.",
+          "Characteristic of a continent."
+        ],
+        "reviewedDistinctContexts": true,
+        "lexical": "Single lexeme JMdict 1137570; no homophone merged. Added reviewed spelling alias(es) 欧羅巴 for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Register explained where relevant in the German note.",
+        "transitivity": "Not a verb.",
+        "conjugation": "Not a conjugating verb.",
+        "level": "Publisher reference: tanos N3. Placed with アジア and アフリカ, which two publishers list at N4. Editorial N4."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n3-reference-closing-author-189",
+        "finding": "Author reread the exact final card vocab-n4:correction:yooroppa: aliases [\"欧羅巴\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2d7caa721172be520deab82e3896d5b5a2b0520b592be3b0ac0ddcef4b5e1057",
+        "approvalHash": "60ef7338f069c68fb49820f183020af017e000d87c813e62cc3428b7857a5c8c"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

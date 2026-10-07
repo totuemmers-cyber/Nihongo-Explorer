@@ -569,6 +569,39 @@ cards 板, 丘 and 画家, which earlier decisions had added, makes those 6 acce
 stale; they will be renewed when the N3 references are closed. N3 now has 0 pending reviews
 and 428 open references (422 pending, 6 needing renewal).
 
+**N3 certified (7 October 2026).** Batches 189a–190t (`author-only-v1`) close all 422 pending
+N3-owned source references with the two-wave method used for N4. Nine parallel triage
+passes decided each row from JMdict and the current cards: 127 `verified-spelling-variant`,
+2 `verified-source-notation` (misplaced-reading rows 釣 and 番), 6 `additional-sense`,
+69 `additional-reading`, 164 `added` and 54 `excluded`. Wave A (189a–189h) reviews 96
+existing target cards first: 80 gain reviewed spelling aliases only (102 aliases in total,
+e.g. 益々, 見掛ける, 取り引き, 傷付く), and 16 are rewritten. Of these, 9 never-reviewed
+targets at N2/N1 (悪戯, 可哀想, 然も, 支払い, 勤め, 測る, もっとも, 宜しく, ほぼ) get full
+enrichment, and 6 cards gain a sense (ダイヤ „Diamant“, 元 „ehemalig, Ex-“, 霰 „Arare“,
+いずれ „welche(r/s)“, 兆 „Anzeichen“, もっとも „berechtigt“). Wave B (190a–190t) adds 136
+new cards (2 N5, 5 N4, 82 N3, 28 N2, 19 N1), for example:
+- bare nouns next to an existing Xする card, following the 招待 and 設置 precedent: 支配,
+  修正, 進歩, 注目, 確立, 蓄積
+- weekday short forms: 月曜 … 日曜
+- single-kanji words: 大, 小, 性, 損, 列, 技
+- affixes and counters: お〜, 不〜, 旧〜, 〜圏, 〜権, 〜羽, 〜艘
+- alternative readings: 市場/いちば, 抱く/いだく, 注ぐ/つぐ, 退く/どく, 後/のち
+- basic expressions: いけない, かもしれない, いつか, どうか
+
+Their pitch is verified for 118 of the new cards; 18 (mostly affixes and expressions) are
+investigated unknowns. The 54 exclusions are:
+- 36 source errors: truncated rows such as したがっ and 立ち上が, a garbled reading of 賛成,
+  and glosses that belong to another word, such as 額/がく „forehead“ = 額/ひたい
+- 15 rare or archaic readings that the existing card already teaches with its usual
+  reading, such as 梯子/ていし and 雷/いかずち
+- 3 kanji-reading rows
+
+Re-reviewed targets made 19 accepted decisions stale (N4 3, N3 14, N2 2), and all were
+renewed. Six of them are the 板/丘/画家 decisions. They were recorded as `added`, but those
+cards came from the older additions importer and have no correction-pipeline addition seed,
+so they were renewed as exact-form matches (`verified-spelling-variant`). All 22 full checks
+pass; `advance --dry-run` passed and the campaign advanced from N3 to N2.
+
 ## Historical campaign freeze
 
 The exhaustive campaign was frozen on 22 September 2026 and replaced by one

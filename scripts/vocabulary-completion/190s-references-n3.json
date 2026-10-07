@@ -1,0 +1,176 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "ごちそう|ごちそう",
+      "referenceIndex": 0,
+      "referenceHash": "19c78d853a74bc5dc3534a2339c2363f946dd4fc0d218b26a8510115509cfbbf",
+      "revisionId": "190s-reference-ごちそう|ごちそう-0",
+      "state": "accepted",
+      "predecessorHash": "ce6745ec03c587d1c153f24871e51dd1dbf2a3da0b4d0f3e3e3c2e5171b520ec",
+      "predecessorRevisionHash": "f25e1a37e8f22cf10ec93209d6b5ca57e7ef54fb96f43ceb6036ad0501b40d21",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:1121"
+      ],
+      "targetHashes": {
+        "vocab-n3:1121": "c81cdae5772b718797fb10647b928ec74707ac7c8f27593972cdb05ee36f9a8a"
+      },
+      "reason": "The tanos row gives the kana form ごちそう 'a feast'. JMdict 1593590 ご馳走/御馳走 【ごちそう】 means feast/treat. Card vocab-n3:1121 ご馳走/ごちそう 'Festmahl, Leckerbissen' teaches the same word and reading, so the kana form becomes an alias. Renewed unchanged: the target card(s) vocab-n3:1121 were re-reviewed (enrichment or alias review in batches 175-189); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N4)",
+          "version": "Frozen candidate reference SHA256 19c78d853a74bc5dc3534a2339c2363f946dd4fc0d218b26a8510115509cfbbf",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt4/vocab/VocabList.N4.pdf#page=12",
+          "finding": "ごちそう/ごちそう glossed \"a feast\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1593590; ご馳走/ごちそう",
+          "finding": "feast; treat. The kana writing is very common but is not tagged uk"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n3-reference-closing-author-190",
+        "finding": "Author reread the frozen reference ごちそう|ごちそう#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n3:1121.",
+        "contentHash": "d0d8dd91e7cbb2793e6c75b0c1ad497426b874fd25cc6f03d29fc9ddb1f2de76",
+        "approvalHash": "d0d8dd91e7cbb2793e6c75b0c1ad497426b874fd25cc6f03d29fc9ddb1f2de76"
+      }
+    },
+    {
+      "key": "ごちそう|ごちそう",
+      "referenceIndex": 1,
+      "referenceHash": "e1f115f3a9f9200593ea5ca8157423688b729a8261246bc569573d96bbc791b7",
+      "revisionId": "190s-reference-ごちそう|ごちそう-1",
+      "state": "accepted",
+      "predecessorHash": "4a9b9472dc69adef62dd60567218c3e23b6df9622ddd21fa043b2c9968860786",
+      "predecessorRevisionHash": "4d883e0f30a10f74451c174ea68d09367cf2103992260efdb26b3cdde973d4e9",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:1121"
+      ],
+      "targetHashes": {
+        "vocab-n3:1121": "c81cdae5772b718797fb10647b928ec74707ac7c8f27593972cdb05ee36f9a8a"
+      },
+      "reason": "The sensei row is the same as tanos: kana ごちそう 'a feast'. JMdict 1593590 ご馳走 【ごちそう】. Card vocab-n3:1121 ご馳走/ごちそう has the same reading and sense, so the kana form becomes an alias. Renewed unchanged: the target card(s) vocab-n3:1121 were re-reviewed (enrichment or alias review in batches 175-189); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (sensei N4)",
+          "version": "Frozen candidate reference SHA256 e1f115f3a9f9200593ea5ca8157423688b729a8261246bc569573d96bbc791b7",
+          "locator": "https://jlptsensei.com/jlpt-n4-vocabulary-list/",
+          "finding": "ごちそう/ごちそう glossed \"a feast\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1593590; ご馳走/ごちそう",
+          "finding": "feast; treat; kana form of the same entry"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n3-reference-closing-author-190",
+        "finding": "Author reread the frozen reference ごちそう|ごちそう#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n3:1121.",
+        "contentHash": "7bd75bac0409634ecba40893b9ccbe6e69f0ae35683440d1af25c9098bf657e4",
+        "approvalHash": "7bd75bac0409634ecba40893b9ccbe6e69f0ae35683440d1af25c9098bf657e4"
+      }
+    },
+    {
+      "key": "よーろっぱ|よーろっぱ",
+      "referenceIndex": 0,
+      "referenceHash": "081667716b729199e621125c643467f30ac816cdab743ae6491beaadea597e68",
+      "revisionId": "190s-reference-よーろっぱ|よーろっぱ-0",
+      "state": "accepted",
+      "predecessorHash": "e2d1a6051160f282e3783116ca4d0fa49d493a086c992754bf41a1d2cf052207",
+      "predecessorRevisionHash": "efe370abfda075fddbc213a891dd7bfddd329feb0c19f2775766854423ba8012",
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:yooroppa"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:yooroppa": "2d7caa721172be520deab82e3896d5b5a2b0520b592be3b0ac0ddcef4b5e1057"
+      },
+      "reason": "Reference ヨーロッパ/ヨーロッパ (tanos N3) is the same lexeme as the new entry ヨーロッパ【ヨーロッパ】. Renewed unchanged: the target card(s) vocab-n4:correction:yooroppa were re-reviewed (enrichment or alias review in batches 175-189); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt3/vocab/VocabList.N3.pdf#page=90",
+          "finding": "tanos lists ヨーロッパ/ヨーロッパ at N3 (gloss: Europe)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1137570; spelling=ヨーロッパ; reading=ヨーロッパ; senses=1; scripts/vocabulary-completion/maintenance-025/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1137570 as the reference form.",
+          "selected": {
+            "sequence": "1137570",
+            "spelling": "ヨーロッパ",
+            "reading": "ヨーロッパ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "Europe"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n3-reference-closing-author-190",
+        "finding": "Author reread the frozen reference よーろっぱ|よーろっぱ#0, its evidence and the added decision against the exact current target card(s) vocab-n4:correction:yooroppa.",
+        "contentHash": "04c03e8aee4492edbb702f0b7b4ccb695c5f6da724f6675903f87d7725d5352e",
+        "approvalHash": "04c03e8aee4492edbb702f0b7b4ccb695c5f6da724f6675903f87d7725d5352e"
+      }
+    }
+  ]
+}

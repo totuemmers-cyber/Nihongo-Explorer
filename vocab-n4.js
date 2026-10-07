@@ -37874,6 +37874,9 @@ window.VOCAB_N4 = [
         "german": "In Europa gibt es viele alte Städte."
       }
     ],
+    "aliases": [
+      "欧羅巴"
+    ],
     "pitch": 3,
     "pitchProvenance": [
       {
@@ -41089,5 +41092,206 @@ window.VOCAB_N4 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n4:correction:ikemasen"
+  },
+  {
+    "word": "いけない",
+    "reading": "いけない",
+    "romaji": "ikenai",
+    "meaning": "nicht dürfen (…てはいけない); schlecht, falsch; nutzlos; schade",
+    "type": "Ausdruck",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Einfache (nicht-höfliche) Form von いけません (eigene Karte); Kern der Muster …てはいけない „man darf nicht“ und …なければいけない „man muss“. Allein bedeutet いけない „schlecht, falsch“ (いけない子) oder dient als Ausruf „Mist!, Oh nein!“, wenn man einen Fehler bemerkt. Fast immer in Kana; geschrieben 行けない liest man eher als „nicht gehen können“ (Potential von 行く).",
+    "examples": [
+      {
+        "japanese": "図書館で大きな声で話してはいけない。",
+        "romaji": "Toshokan de ōkina koe de hanashite wa ikenai.",
+        "german": "In der Bibliothek darf man nicht laut sprechen."
+      },
+      {
+        "japanese": "明日までにレポートを出さなければいけない。",
+        "romaji": "Ashita made ni repōto o dasanakereba ikenai.",
+        "german": "Ich muss den Bericht bis morgen abgeben."
+      },
+      {
+        "japanese": "いけない、傘を電車に忘れてきた！",
+        "romaji": "Ikenai, kasa o densha ni wasurete kita!",
+        "german": "Mist, ich habe meinen Schirm im Zug vergessen!"
+      }
+    ],
+    "aliases": [
+      "行けない"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:ikenai"
+  },
+  {
+    "word": "いつか",
+    "reading": "いつか",
+    "romaji": "itsuka",
+    "meaning": "irgendwann, eines Tages; neulich",
+    "type": "Adverb",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "Bezeichnet einen unbestimmten Zeitpunkt, meist in der Zukunft („eines Tages“), seltener in der Vergangenheit („neulich, einmal“). Fast immer in Kana; 何時か ist eine seltene Schreibung. Nicht verwechseln mit 五日/いつか „der 5. des Monats; fünf Tage“ (eigene Karte), das gleich klingt. Abzugrenzen auch von いつでも „jederzeit“ und いつも „immer“.",
+    "examples": [
+      {
+        "japanese": "いつか富士山に登ってみたい。",
+        "romaji": "Itsuka Fujisan ni nobotte mitai.",
+        "german": "Eines Tages möchte ich den Fuji besteigen."
+      },
+      {
+        "japanese": "いつかまたどこかで会いましょう。",
+        "romaji": "Itsuka mata doko ka de aimashō.",
+        "german": "Lass uns irgendwann irgendwo wiedersehen."
+      },
+      {
+        "japanese": "いつか話したラーメン屋に行ってみた。",
+        "romaji": "Itsuka hanashita rāmen'ya ni itte mita.",
+        "german": "Ich war in dem Ramenladen, von dem ich neulich erzählt habe."
+      }
+    ],
+    "aliases": [
+      "何時か"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:itsuka-someday"
+  },
+  {
+    "word": "かもしれない",
+    "reading": "かもしれない",
+    "romaji": "kamoshirenai",
+    "meaning": "vielleicht, möglicherweise, könnte sein",
+    "type": "Ausdruck",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Drückt eine Möglichkeit aus und steht am Satzende nach der einfachen Form von Verben und i-Adjektiven bzw. direkt nach Nomen und na-Adjektiven (本当かもしれない, 静かかもしれない). Höflich: かもしれません; umgangssprachlich verkürzt: かも. Unsicherer als でしょう/だろう „wahrscheinlich“. Meist in Kana; かも知れない ist seltener.",
+    "examples": [
+      {
+        "japanese": "午後から雨が降るかもしれない。",
+        "romaji": "Gogo kara ame ga furu kamoshirenai.",
+        "german": "Ab dem Nachmittag könnte es regnen."
+      },
+      {
+        "japanese": "道が混んでいるので、少し遅れるかもしれません。",
+        "romaji": "Michi ga konde iru node, sukoshi okureru kamoshiremasen.",
+        "german": "Weil die Straßen voll sind, komme ich vielleicht etwas später."
+      },
+      {
+        "japanese": "彼の言っていることは本当かもしれない。",
+        "romaji": "Kare no itte iru koto wa hontō kamoshirenai.",
+        "german": "Was er sagt, könnte wahr sein."
+      }
+    ],
+    "aliases": [
+      "かも知れない"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:kamoshirenai"
+  },
+  {
+    "word": "土曜",
+    "reading": "どよう",
+    "romaji": "doyō",
+    "meaning": "Samstag (kurz für 土曜日)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "土曜 ist die Kurzform von 土曜日 (eigene Karte) und in Gesprächen, Fahrplänen und Öffnungszeiten sehr häufig: 土曜の夜, 土曜休み; 土日 heißt „Wochenende“. Die Bedeutung ist gleich, die Kurzform klingt nur etwas lockerer; in Briefen und Ansagen steht eher 土曜日. Nicht verwechseln mit dem Homophon 土用 „Hundstage“.",
+    "examples": [
+      {
+        "japanese": "土曜の夜は友達と飲みに行く。",
+        "romaji": "Doyō no yoru wa tomodachi to nomi ni iku.",
+        "german": "Am Samstagabend gehe ich mit Freunden etwas trinken."
+      },
+      {
+        "japanese": "土曜も午前中だけ営業しています。",
+        "romaji": "Doyō mo gozenchū dake eigyō shite imasu.",
+        "german": "Samstags haben wir auch geöffnet, aber nur vormittags."
+      },
+      {
+        "japanese": "次の土曜、空いてる？",
+        "romaji": "Tsugi no doyō, aiteru?",
+        "german": "Hast du nächsten Samstag Zeit?"
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193130069",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          2
+        ],
+        "finding": "Exact whole 土曜/ドヨウ; lemma 土曜; 名詞/普通名詞/副詞可能/*; *; *; aType 0,2.",
+        "match": {
+          "word": "土曜",
+          "reading": "どよう",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "Nomen 土曜/どよう \"Samstag (kurz für 土曜日)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:doyou-saturday"
+  },
+  {
+    "word": "日曜",
+    "reading": "にちよう",
+    "romaji": "nichiyō",
+    "meaning": "Sonntag (kurz für 日曜日)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "日曜 ist die Kurzform von 日曜日 (eigene Karte) mit gleicher Bedeutung, typisch für Gespräche, Fahrpläne und Öffnungszeiten (日曜休み, 日曜の朝). Fest steht es in Zusammensetzungen wie 日曜大工 „Heimwerken“ und 日曜版 „Sonntagsausgabe“. In formellen Texten und Ansagen steht eher die volle Form 日曜日.",
+    "examples": [
+      {
+        "japanese": "日曜の朝はゆっくり寝ている。",
+        "romaji": "Nichiyō no asa wa yukkuri nete iru.",
+        "german": "Sonntagmorgens schlafe ich lange aus."
+      },
+      {
+        "japanese": "父の趣味は日曜大工だ。",
+        "romaji": "Chichi no shumi wa nichiyō daiku da.",
+        "german": "Das Hobby meines Vaters ist Heimwerken."
+      },
+      {
+        "japanese": "その店は日曜が定休日です。",
+        "romaji": "Sono mise wa nichiyō ga teikyūbi desu.",
+        "german": "Der Laden hat sonntags Ruhetag."
+      }
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      3
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202089564",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          3
+        ],
+        "finding": "Exact whole 日曜/ニチヨウ; lemma 日曜; 名詞/普通名詞/副詞可能/*; *; *; aType 0,3.",
+        "match": {
+          "word": "日曜",
+          "reading": "にちよう",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "Nomen 日曜/にちよう \"Sonntag (kurz für 日曜日)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:nichiyou-sunday"
   }
 ];
