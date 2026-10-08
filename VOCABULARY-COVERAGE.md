@@ -10,20 +10,20 @@ new work uses the `author-only-v1` review policy (an independent second pass is
 optional). Live counts are generated in
 [current review coverage](scripts/vocabulary-completion/COVERAGE.md).
 
-As of 8 October 2026 the runtime contains **15,997 entries**; 10,407 have accepted
-full reviews and 5,590 are pending. **N5, N4 and N3 are complete.** Batch 167a closed the
+As of 8 October 2026 the runtime contains **15,997 entries**; 11,157 have accepted
+full reviews and 4,840 are pending. **N5, N4 and N3 are complete.** Batch 167a closed the
 last N5 source references; batches 168a–172l enriched every N4 entry and batches
 173a–174p closed all 291 N4 source references (70 new cards, 110 reviewed spelling
 aliases). Batches 175a–188e enriched every N3 entry and batches 189a–190t closed all
 422 N3 source references (136 new cards, 102 reviewed spelling aliases). N2 is the
-active phase; batches 191a–193j enriched its first 750 entries.
+active phase; batches 191a–197j enriched its first 1,500 entries.
 
 | Level | Entries | Pending reviews | Open source references | Complete |
 | --- | ---: | ---: | ---: | --- |
 | N5 | 1,688 | 0 | 0 | yes |
 | N4 | 1,687 | 0 | 0 | yes |
 | N3 | 3,908 | 0 | 0 | yes |
-| N2 | 3,246 | 1,750 | 271 | no |
+| N2 | 3,246 | 1,000 | 271 | no |
 | N1 | 5,468 | 3,840 | 342 | no |
 
 ## History

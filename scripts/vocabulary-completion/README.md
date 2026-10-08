@@ -616,6 +616,20 @@ Adverb. 第一弾 records the complete JMdict scan instead of a sequence. Five m
 Re-reviewing 唯一, 但し and 勧め made 7 accepted spelling-variant decisions stale (N3 3, N2 4).
 Batches 194a–194b renew them unchanged, so N3 stays complete. N2 now has 1,750 pending reviews
 and 271 open references.
+**Second N2 checkpoint (8 October 2026).** Batches 195a–195j, 196a–196j and 197a–197j enrich
+750 more N2 entries (vocab-n2:672–1461): 1,513 new sentences, and 103 entries had original examples
+corrected (wrong German, inconsistent romaji such as を written "wo", a typo like satorte). Pitch is
+verified for 487 entries: 456 from exact UniDic rows and 31 from OJAD. For na-adjective cards headed
+with the attributive な (丈夫な, 派手な), pitch research now reads the exact UniDic rows of the stem
+(丈夫/じょうぶ, 派手/はで), since な carries no accent of its own; this verifies 67 of them, where
+earlier batches had left such cards as investigated unknowns. 71 stored primary accents are
+corrected, and 263 stored values without an exact attestation become investigated unknowns. 62
+German meanings are corrected, e.g. 〜にかかわらず „unabhängig von“ (not „trotz“, which is
+にもかかわらず) and 一般道 „mautfreie Straße“. 12 nouns typed Adjektiv or Adverb become Nomen
+(e.g. 漁師, 台湾, 医療, 兆候, 以降, 各自). 後進的な, 娯楽費, 顕在的な, 周辺部 and 市境 record the
+complete JMdict scan instead of a sequence. The frames 前提とする and 有効にする, whose
+conjugation is excluded, now state why. No accepted decision became stale. N2 now has 1,000
+pending reviews and 271 open references.
 
 ## Historical campaign freeze
 

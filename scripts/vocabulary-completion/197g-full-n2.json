@@ -1,0 +1,3670 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1353",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1353",
+      "state": "accepted",
+      "predecessorHash": "8f24a7eb6b5ec0c4f51b4237c2b0604db18cf633dfcc22399908734f84d788a7",
+      "originalHash": "8f24a7eb6b5ec0c4f51b4237c2b0604db18cf633dfcc22399908734f84d788a7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "親子丼ほど美味しいものはない。",
+            "romaji": "Oyako donburi hodo oishii mono wa nai.",
+            "german": "Es gibt nichts Leckereres als eine Hähnchen-Ei-Reisschüssel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "親子丼 heißt wörtlich „Eltern-Kind-Schüssel“: Hähnchen (Eltern) und Ei (Kind) werden mit Zwiebeln in süßlicher Brühe gegart und auf Reis serviert. Umgangssprachlich wird es oft verkürzt als おやこどん gelesen. Verwandte Gerichte sind 他人丼 („Fremde-Schüssel“ mit Rind- oder Schweinefleisch und Ei), カツ丼 und 牛丼. Man bestellt es mit 親子丼をください oder 親子丼にします.",
+        "examples": [
+          {
+            "japanese": "親子丼ほど美味しいものはない。",
+            "romaji": "Oyako donburi hodo oishii mono wa nai.",
+            "german": "Es gibt nichts Leckereres als eine Hähnchen-Ei-Reisschüssel."
+          },
+          {
+            "japanese": "昼ご飯に親子丼を作りました。",
+            "romaji": "Hirugohan ni oyako donburi o tsukurimashita.",
+            "german": "Zum Mittagessen habe ich Oyakodon gekocht."
+          },
+          {
+            "japanese": "この店の親子丼は卵がとろとろでおいしいです。",
+            "romaji": "Kono mise no oyako donburi wa tamago ga torotoro de oishii desu.",
+            "german": "Das Oyakodon in diesem Laden ist lecker, weil das Ei so schön cremig ist."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1365180 sense 1, noun: oyakodon, rice bowl topped with chicken and egg Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 親子丼 heißt wörtlich „Eltern-Kind-Schüssel“: Hähnchen (Eltern) und Ei (Kind) werden mit Zwiebeln in süßlicher Brühe gegart und auf Reis serviert. Umgangssprachlich wird es oft verkürzt als おやこどん gelesen. Verwandte Gerichte sind 他人丼 („Fremde-Schüssel“ mit Rind- oder Schweinefleisch und Ei), カツ丼 und 牛丼. Man bestellt es mit 親子丼をください oder 親子丼にします. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1365180; spelling=親子丼; reading=おやこどんぶり",
+          "selected": {
+            "sequence": "1365180",
+            "spelling": "親子丼",
+            "reading": "おやこどんぶり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "oyakodon",
+                  "bowl of rice topped with chicken and egg (or other parent-child ingredient pairing)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "vulgar expression or word",
+                  "slang"
+                ],
+                "gloss": [
+                  "threesome including a parent and child"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1365180 sense 1, noun: oyakodon, rice bowl topped with chicken and egg"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 親子丼/おやこどんぶり scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A6%AA%E5%AD%90%E4%B8%BC",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 親子丼/おやこどんぶり scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hähnchen-Ei-Reisschüssel. JMdict 1365180 sense 1, noun: oyakodon, rice bowl topped with chicken and egg",
+        "japanese": "親子丼ほど美味しいものはない。 / 昼ご飯に親子丼を作りました。 / この店の親子丼は卵がとろとろでおいしいです。",
+        "romanization": "oyakodonburi; Oyako donburi hodo oishii mono wa nai. / Hirugohan ni oyako donburi o tsukurimashita. / Kono mise no oyako donburi wa tamago ga torotoro de oishii desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt nichts Leckereres als eine Hähnchen-Ei-Reisschüssel. / Zum Mittagessen habe ich Oyakodon gekocht. / Das Oyakodon in diesem Laden ist lecker, weil das Ei so schön cremig ist.",
+        "contexts": [
+          "Praising a favourite dish",
+          "Cooking lunch at home",
+          "Restaurant recommendation"
+        ],
+        "lexical": "JMdict 1365180 sense 1, noun: oyakodon, rice bowl topped with chicken and egg",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1353 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Praising a favourite dish; Cooking lunch at home; Restaurant recommendation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d93afd2a491f52b0de430ce64ab09c0997af9b85b6514f7434268484128ad17b",
+        "approvalHash": "c4a21912086aedd9f9b1760594ea723b40c64a3deee98d23ea26bb2edf6b1f7c"
+      }
+    },
+    {
+      "id": "vocab-n2:1354",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1354",
+      "state": "accepted",
+      "predecessorHash": "870a50ccc0fa13c66d45081373dabd8cd773997a5f3e2ae5410c2516abc530a7",
+      "originalHash": "870a50ccc0fa13c66d45081373dabd8cd773997a5f3e2ae5410c2516abc530a7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "男は舐めていた飴を吐き出しました。",
+            "romaji": "Otoko wa namete ita ame o hakidashimashita.",
+            "german": "Der Mann spuckte das Bonbon aus, an dem er gelutscht hatte."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "吐き出す (aus 吐く „ausstoßen, erbrechen“ + 出す „heraus-“) betont, dass etwas ganz aus dem Mund oder Inneren herauskommt: Essen ausspucken (ガムを吐き出す), Rauch oder Luft ausstoßen (煙を吐き出す) und übertragen aufgestaute Gefühle loswerden (不満を吐き出す, 本音を吐き出す). Das Verb ist transitiv mit を. Für „sich übergeben“ sagt man eher einfach 吐く oder höflich 戻す.",
+        "examples": [
+          {
+            "japanese": "男は舐めていた飴を吐き出しました。",
+            "romaji": "Otoko wa namete ita ame o hakidashimashita.",
+            "german": "Der Mann spuckte das Bonbon aus, an dem er gelutscht hatte."
+          },
+          {
+            "japanese": "工場の煙突が黒い煙を吐き出している。",
+            "romaji": "Koujou no entotsu ga kuroi kemuri o hakidashite iru.",
+            "german": "Der Fabrikschornstein stößt schwarzen Rauch aus."
+          },
+          {
+            "japanese": "友達に不満を全部吐き出したら、少しすっきりした。",
+            "romaji": "Tomodachi ni fuman o zenbu hakidashitara, sukoshi sukkiri shita.",
+            "german": "Nachdem ich meinem Freund meinen ganzen Frust erzählt hatte, ging es mir etwas besser."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212710049",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Exact whole 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 終止形-一般; aType 3,0. Rejected for this role: 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 連体形-一般; aType 3,0.",
+            "match": {
+              "word": "吐き出す",
+              "reading": "はきだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "Verb 吐き出す/はきだす \"ausspucken\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1444140 senses 1, 2, 4, godan verb: to spit out; to emit, to exhale (smoke, air); to give vent to (feelings) Pitch: Verified [3,0] via exact UniDic row. 吐き出す (aus 吐く „ausstoßen, erbrechen“ + 出す „heraus-“) betont, dass etwas ganz aus dem Mund oder Inneren herauskommt: Essen ausspucken (ガムを吐き出す), Rauch oder Luft ausstoßen (煙を吐き出す) und übertragen aufgestaute Gefühle loswerden (不満を吐き出す, 本音を吐き出す). Das Verb ist transitiv mit を. Für „sich übergeben“ sagt man eher einfach 吐く oder höflich 戻す. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1444140; spelling=吐き出す; reading=はきだす",
+          "selected": {
+            "sequence": "1444140",
+            "spelling": "吐き出す",
+            "reading": "はきだす",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to vomit",
+                  "to spit out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to breathe out (e.g. air)",
+                  "to exhale",
+                  "to blow out",
+                  "to spew out (e.g. smoke)",
+                  "to belch out",
+                  "to emit",
+                  "to disgorge (e.g. passengers)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to spend (e.g. saved money)",
+                  "to cough up"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to give vent to (e.g. pent-up feelings)",
+                  "to let out"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'su' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to output",
+                  "to export"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1444140 senses 1, 2, 4, godan verb: to spit out; to emit, to exhale (smoke, air); to give vent to (feelings)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3,0] via exact UniDic row. Exact whole 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 終止形-一般; aType 3,0. Rejected for this role: 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 連体形-一般; aType 3,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@212710049",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              0
+            ],
+            "finding": "Exact whole 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 終止形-一般; aType 3,0. Rejected for this role: 吐き出す/ハキダス; lemma 吐き出す; 動詞/一般/*/*; 五段-サ行; 連体形-一般; aType 3,0.",
+            "match": {
+              "word": "吐き出す",
+              "reading": "はきだす",
+              "grammaticalForm": "動詞/一般/*/*; 五段-サ行; 終止形-一般",
+              "sense": "Verb 吐き出す/はきだす \"ausspucken\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "ausspucken. JMdict 1444140 senses 1, 2, 4, godan verb: to spit out; to emit, to exhale (smoke, air); to give vent to (feelings)",
+        "japanese": "男は舐めていた飴を吐き出しました。 / 工場の煙突が黒い煙を吐き出している。 / 友達に不満を全部吐き出したら、少しすっきりした。",
+        "romanization": "hakidasu; Otoko wa namete ita ame o hakidashimashita. / Koujou no entotsu ga kuroi kemuri o hakidashite iru. / Tomodachi ni fuman o zenbu hakidashitara, sukoshi sukkiri shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Mann spuckte das Bonbon aus, an dem er gelutscht hatte. / Der Fabrikschornstein stößt schwarzen Rauch aus. / Nachdem ich meinem Freund meinen ganzen Frust erzählt hatte, ging es mir etwas besser.",
+        "contexts": [
+          "Spitting out a candy",
+          "Factory pollution",
+          "Venting frustration to a friend"
+        ],
+        "lexical": "JMdict 1444140 senses 1, 2, 4, godan verb: to spit out; to emit, to exhale (smoke, air); to give vent to (feelings)",
+        "register": "neutral",
+        "transitivity": "transitive (X を吐き出す); compound of 吐く + 出す",
+        "conjugation": "godan -su (吐き出す → 吐き出して, 吐き出さない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1354 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Spitting out a candy; Factory pollution; Venting frustration to a friend), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7af1c5b8d4f16afd3f7835f2037510e7e533d8bebc91f090f1315f6a9a4956f5",
+        "approvalHash": "b7cc70669384f7c48f681ad5cd65201f1dc5a2276050b71dcbe9ac7038c437c8"
+      }
+    },
+    {
+      "id": "vocab-n2:1355",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1355",
+      "state": "accepted",
+      "predecessorHash": "d91178b612cdee84760367f2a25eb65d05ea71cb72e7acf6f1411b8255090a95",
+      "originalHash": "d91178b612cdee84760367f2a25eb65d05ea71cb72e7acf6f1411b8255090a95",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "奴ら、俺たちは働いてるってのに、呑気に日光浴なんかしてやがるぜ。",
+            "romaji": "Yatsura, oretachi wa hatarai teru tte noni, nonki ni nikkouyoku nanka shiteya garu ze.",
+            "german": "Diese Typen sonnen sich entspannt, während wir arbeiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "奴ら ist der Plural von 奴 „Kerl, Typ“ und bedeutet abwertend „diese Typen, die da“. Es ist grob, umgangssprachlich und eher männlich; man hört es vor allem in Krimis, Mangas oder unter Freunden, wenn über Gegner oder unliebsame Leute geredet wird. Oft wird es in Kana geschrieben (やつら, ヤツら). Neutral sagt man 彼ら oder あの人たち, höflich あの方々.",
+        "examples": [
+          {
+            "japanese": "奴ら、俺たちは働いてるってのに、呑気に日光浴なんかしてやがるぜ。",
+            "romaji": "Yatsura, oretachi wa hataraiteru tte noni, nonki ni nikkouyoku nanka shiteyagaru ze.",
+            "german": "Diese Typen sonnen sich entspannt, während wir arbeiten."
+          },
+          {
+            "japanese": "奴らにだけは絶対に負けたくない。",
+            "romaji": "Yatsura ni dake wa zettai ni maketakunai.",
+            "german": "Gegen die will ich auf keinen Fall verlieren."
+          },
+          {
+            "japanese": "奴らがまた来たぞ。気をつけろ。",
+            "romaji": "Yatsura ga mata kita zo. Ki o tsukero.",
+            "german": "Die Typen sind wieder da. Pass auf!"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1913290 sense 1, pronoun: they, those guys (derogatory, familiar) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 奴ら ist der Plural von 奴 „Kerl, Typ“ und bedeutet abwertend „diese Typen, die da“. Es ist grob, umgangssprachlich und eher männlich; man hört es vor allem in Krimis, Mangas oder unter Freunden, wenn über Gegner oder unliebsame Leute geredet wird. Oft wird es in Kana geschrieben (やつら, ヤツら). Neutral sagt man 彼ら oder あの人たち, höflich あの方々. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1913290; spelling=奴ら; reading=やつら",
+          "selected": {
+            "sequence": "1913290",
+            "spelling": "奴ら",
+            "reading": "やつら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "pronoun"
+                ],
+                "misc": [
+                  "derogatory",
+                  "familiar language"
+                ],
+                "gloss": [
+                  "they",
+                  "those guys"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1913290 sense 1, pronoun: they, those guys (derogatory, familiar)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 奴ら/やつら scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A5%B4%E3%82%89",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 奴ら/やつら scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "diese Typen. JMdict 1913290 sense 1, pronoun: they, those guys (derogatory, familiar)",
+        "japanese": "奴ら、俺たちは働いてるってのに、呑気に日光浴なんかしてやがるぜ。 / 奴らにだけは絶対に負けたくない。 / 奴らがまた来たぞ。気をつけろ。",
+        "romanization": "yatsura; Yatsura, oretachi wa hataraiteru tte noni, nonki ni nikkouyoku nanka shiteyagaru ze. / Yatsura ni dake wa zettai ni maketakunai. / Yatsura ga mata kita zo. Ki o tsukero. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese Typen sonnen sich entspannt, während wir arbeiten. / Gegen die will ich auf keinen Fall verlieren. / Die Typen sind wieder da. Pass auf!",
+        "contexts": [
+          "Complaining about slackers",
+          "Rivalry before a match",
+          "Warning about intruders"
+        ],
+        "lexical": "JMdict 1913290 sense 1, pronoun: they, those guys (derogatory, familiar)",
+        "register": "colloquial, rough / derogatory, mostly male speech",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1355 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Complaining about slackers; Rivalry before a match; Warning about intruders), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3d358a46ac436b8752ca512339c37ba0dd28383a9f58c9a0186a682b657ea27e",
+        "approvalHash": "c4fc306bc13c04c7f24c0643631720dacaa40c2567eb76fd70fc6d2bd2cb7ae4"
+      }
+    },
+    {
+      "id": "vocab-n2:1356",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1356",
+      "state": "accepted",
+      "predecessorHash": "859d36719bb00f0b13de9a1841a82345c565c7dab710f556786dd9fce6e1584c",
+      "originalHash": "859d36719bb00f0b13de9a1841a82345c565c7dab710f556786dd9fce6e1584c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "口紅をポケットに入れっぱなしにしてたみたいで、乾燥機の中で溶けちゃったのよね。",
+            "romaji": "Kuchibeni o poketto ni ireppanashi ni shi teta mitai de, kansouki no naka de toke chatta no yo ne.",
+            "german": "Ich habe meinen Lippenstift in der Tasche gelassen und er ist im Trockner geschmolzen."
+          }
+        ],
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "口紅 (wörtlich „Mund-Rot“) ist der Lippenstift. Typische Verbindungen sind 口紅を塗る oder 口紅をつける „auftragen“, 口紅を落とす „entfernen“ und 口紅がつく „abfärben“ (z. B. auf einem Glas). Im modernen Alltag und in der Werbung sagt man oft リップ oder リップスティック; 口紅 klingt etwas klassischer. リップクリーム ist dagegen der Lippenpflegestift.",
+        "examples": [
+          {
+            "japanese": "口紅をポケットに入れっぱなしにしてたみたいで、乾燥機の中で溶けちゃったのよね。",
+            "romaji": "Kuchibeni o poketto ni ireppanashi ni shi teta mitai de, kansouki no naka de toke chatta no yo ne.",
+            "german": "Ich habe meinen Lippenstift in der Tasche gelassen und er ist im Trockner geschmolzen."
+          },
+          {
+            "japanese": "出かける前に赤い口紅を塗った。",
+            "romaji": "Dekakeru mae ni akai kuchibeni o nutta.",
+            "german": "Bevor sie ausging, trug sie roten Lippenstift auf."
+          },
+          {
+            "japanese": "コップに口紅がついてしまった。",
+            "romaji": "Koppu ni kuchibeni ga tsuite shimatta.",
+            "german": "Am Glas ist Lippenstift hängen geblieben."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112249808",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口紅/クチベニ; lemma 口紅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口紅",
+              "reading": "くちべに",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口紅/くちべに \"Lippenstift\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1276110 sense 1, noun: lipstick Pitch: Verified [0] via exact UniDic row. 口紅 (wörtlich „Mund-Rot“) ist der Lippenstift. Typische Verbindungen sind 口紅を塗る oder 口紅をつける „auftragen“, 口紅を落とす „entfernen“ und 口紅がつく „abfärben“ (z. B. auf einem Glas). Im modernen Alltag und in der Werbung sagt man oft リップ oder リップスティック; 口紅 klingt etwas klassischer. リップクリーム ist dagegen der Lippenpflegestift. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1276110; spelling=口紅; reading=くちべに",
+          "selected": {
+            "sequence": "1276110",
+            "spelling": "口紅",
+            "reading": "くちべに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lipstick"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1276110 sense 1, noun: lipstick"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 口紅/クチベニ; lemma 口紅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112249808",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口紅/クチベニ; lemma 口紅; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口紅",
+              "reading": "くちべに",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口紅/くちべに \"Lippenstift\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lippenstift. JMdict 1276110 sense 1, noun: lipstick",
+        "japanese": "口紅をポケットに入れっぱなしにしてたみたいで、乾燥機の中で溶けちゃったのよね。 / 出かける前に赤い口紅を塗った。 / コップに口紅がついてしまった。",
+        "romanization": "kuchibeni; Kuchibeni o poketto ni ireppanashi ni shi teta mitai de, kansouki no naka de toke chatta no yo ne. / Dekakeru mae ni akai kuchibeni o nutta. / Koppu ni kuchibeni ga tsuite shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe meinen Lippenstift in der Tasche gelassen und er ist im Trockner geschmolzen. / Bevor sie ausging, trug sie roten Lippenstift auf. / Am Glas ist Lippenstift hängen geblieben.",
+        "contexts": [
+          "Laundry mishap",
+          "Getting ready to go out",
+          "Lipstick mark on a glass"
+        ],
+        "lexical": "JMdict 1276110 sense 1, noun: lipstick",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1356 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Laundry mishap; Getting ready to go out; Lipstick mark on a glass), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9118498d9e314a0e18a9155a10fbb3fef874135774a33f59d0cbf8631c556718",
+        "approvalHash": "b9774716067c4f2685ef186876af93e4d944e29ac5f21647226d49356d02e830"
+      }
+    },
+    {
+      "id": "vocab-n2:1359",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1359",
+      "state": "accepted",
+      "predecessorHash": "f642b923db6cb25b3890ad6fbd23db85a75183cf52ea121b52e020c33446de2e",
+      "originalHash": "f642b923db6cb25b3890ad6fbd23db85a75183cf52ea121b52e020c33446de2e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私の父は、電磁場発生装置の特許を持っているんですが、私はそれが何のためのものなのかよく分かりません。",
+            "romaji": "Watashi no chichi wa, denjiba hassei souchi no tokkyo o motte iru n desu ga, watashi wa sore ga nani no tame no mono na no ka yoku wakarimasen.",
+            "german": "Mein Vater hat ein Patent für einen Elektromagnetfeldgenerator, aber ich bin mir nicht sicher, wofür er ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "電磁場 setzt sich aus 電磁 „elektromagnetisch“ und 場 „Feld“ zusammen und ist ein Fachbegriff aus Physik und Technik. In Normen und Behördentexten liest man auch 電磁界 (でんじかい). Einzeln heißen das elektrische Feld 電場 und das Magnetfeld 磁場. Im Alltag spricht man eher von 電磁波 „elektromagnetische Wellen“, etwa bei Handys oder Mikrowellen.",
+        "examples": [
+          {
+            "japanese": "私の父は、電磁場発生装置の特許を持っているんですが、私はそれが何のためのものなのかよく分かりません。",
+            "romaji": "Watashi no chichi wa, denjiba hassei souchi no tokkyo o motte iru n desu ga, watashi wa sore ga nani no tame no mono na no ka yoku wakarimasen.",
+            "german": "Mein Vater hat ein Patent für einen Elektromagnetfeldgenerator, aber ich bin mir nicht sicher, wofür er ist."
+          },
+          {
+            "japanese": "電流が流れると、そのまわりに電磁場が生じる。",
+            "romaji": "Denryuu ga nagareru to, sono mawari ni denjiba ga shoujiru.",
+            "german": "Wenn Strom fließt, entsteht um ihn herum ein elektromagnetisches Feld."
+          },
+          {
+            "japanese": "強い電磁場は精密機器に影響を与えることがある。",
+            "romaji": "Tsuyoi denjiba wa seimitsu kiki ni eikyou o ataeru koto ga aru.",
+            "german": "Starke elektromagnetische Felder können Präzisionsgeräte beeinträchtigen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1766070 sense 1, noun: electromagnetic field Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 電磁場 setzt sich aus 電磁 „elektromagnetisch“ und 場 „Feld“ zusammen und ist ein Fachbegriff aus Physik und Technik. In Normen und Behördentexten liest man auch 電磁界 (でんじかい). Einzeln heißen das elektrische Feld 電場 und das Magnetfeld 磁場. Im Alltag spricht man eher von 電磁波 „elektromagnetische Wellen“, etwa bei Handys oder Mikrowellen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1766070; spelling=電磁場; reading=でんじば",
+          "selected": {
+            "sequence": "1766070",
+            "spelling": "電磁場",
+            "reading": "でんじば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "electromagnetic field"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1766070 sense 1, noun: electromagnetic field"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 電磁場/でんじば scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9B%BB%E7%A3%81%E5%A0%B4",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 電磁場/でんじば scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "elektromagnetisches Feld. JMdict 1766070 sense 1, noun: electromagnetic field",
+        "japanese": "私の父は、電磁場発生装置の特許を持っているんですが、私はそれが何のためのものなのかよく分かりません。 / 電流が流れると、そのまわりに電磁場が生じる。 / 強い電磁場は精密機器に影響を与えることがある。",
+        "romanization": "denjiba; Watashi no chichi wa, denjiba hassei souchi no tokkyo o motte iru n desu ga, watashi wa sore ga nani no tame no mono na no ka yoku wakarimasen. / Denryuu ga nagareru to, sono mawari ni denjiba ga shoujiru. / Tsuyoi denjiba wa seimitsu kiki ni eikyou o ataeru koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mein Vater hat ein Patent für einen Elektromagnetfeldgenerator, aber ich bin mir nicht sicher, wofür er ist. / Wenn Strom fließt, entsteht um ihn herum ein elektromagnetisches Feld. / Starke elektromagnetische Felder können Präzisionsgeräte beeinträchtigen.",
+        "contexts": [
+          "Father's patent",
+          "Physics lesson",
+          "Interference with equipment"
+        ],
+        "lexical": "JMdict 1766070 sense 1, noun: electromagnetic field",
+        "register": "technical / scientific",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1359 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Father's patent; Physics lesson; Interference with equipment), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "392d0f1db689994e0d74f3ae08d0df0ad377e1677657e17ef2af6905d6ea5ed4",
+        "approvalHash": "b195300bba20a3bcc6504cf81500bcc18042ea51c10976cc511662e261e96476"
+      }
+    },
+    {
+      "id": "vocab-n2:1360",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1360",
+      "state": "accepted",
+      "predecessorHash": "f714f1664078f7f1d0cb6c07c77d316d32168e15aa3bf2cfc3464563561cbca3",
+      "originalHash": "f714f1664078f7f1d0cb6c07c77d316d32168e15aa3bf2cfc3464563561cbca3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私は源氏物語を漫画でしか読んだことがありません。",
+            "romaji": "Watashi wa genjimonogatari o manga de shika yonda koto ga arimasen.",
+            "german": "Ich habe die Geschichte des Genji nur als Manga gelesen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "源氏物語 ist der berühmte höfische Roman der Heian-Zeit, um das Jahr 1000 von der Hofdame 紫式部 verfasst; er erzählt vom Leben und den Liebschaften des „leuchtenden Prinzen“ 光源氏. 物語 bedeutet „Erzählung“. Japanische Schüler lesen Auszüge im 古文-Unterricht; viele kennen ihn aber über 現代語訳 (Übertragungen ins moderne Japanisch) oder Manga-Fassungen.",
+        "examples": [
+          {
+            "japanese": "私は源氏物語を漫画でしか読んだことがありません。",
+            "romaji": "Watashi wa genjimonogatari o manga de shika yonda koto ga arimasen.",
+            "german": "Ich habe die Geschichte des Genji nur als Manga gelesen."
+          },
+          {
+            "japanese": "源氏物語は紫式部によって書かれた。",
+            "romaji": "Genji monogatari wa Murasaki Shikibu ni yotte kakareta.",
+            "german": "Die Geschichte des Genji wurde von Murasaki Shikibu geschrieben."
+          },
+          {
+            "japanese": "高校の古文の授業で源氏物語の一部を読みました。",
+            "romaji": "Koukou no kobun no jugyou de Genji monogatari no ichibu o yomimashita.",
+            "german": "Im Unterricht für klassisches Japanisch an der Oberschule haben wir einen Auszug aus der Geschichte des Genji gelesen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1263370 sense 1, noun: The Tale of Genji (Heian-period classic) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 源氏物語 ist der berühmte höfische Roman der Heian-Zeit, um das Jahr 1000 von der Hofdame 紫式部 verfasst; er erzählt vom Leben und den Liebschaften des „leuchtenden Prinzen“ 光源氏. 物語 bedeutet „Erzählung“. Japanische Schüler lesen Auszüge im 古文-Unterricht; viele kennen ihn aber über 現代語訳 (Übertragungen ins moderne Japanisch) oder Manga-Fassungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1263370; spelling=源氏物語; reading=げんじものがたり",
+          "selected": {
+            "sequence": "1263370",
+            "spelling": "源氏物語",
+            "reading": "げんじものがたり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "The Tale of Genji (Heian-period classic)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1263370 sense 1, noun: The Tale of Genji (Heian-period classic)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 源氏物語/げんじものがたり scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BA%90%E6%B0%8F%E7%89%A9%E8%AA%9E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 源氏物語/げんじものがたり scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geschichte des Genji. JMdict 1263370 sense 1, noun: The Tale of Genji (Heian-period classic)",
+        "japanese": "私は源氏物語を漫画でしか読んだことがありません。 / 源氏物語は紫式部によって書かれた。 / 高校の古文の授業で源氏物語の一部を読みました。",
+        "romanization": "genjimonogatari; Watashi wa genjimonogatari o manga de shika yonda koto ga arimasen. / Genji monogatari wa Murasaki Shikibu ni yotte kakareta. / Koukou no kobun no jugyou de Genji monogatari no ichibu o yomimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe die Geschichte des Genji nur als Manga gelesen. / Die Geschichte des Genji wurde von Murasaki Shikibu geschrieben. / Im Unterricht für klassisches Japanisch an der Oberschule haben wir einen Auszug aus der Geschichte des Genji gelesen.",
+        "contexts": [
+          "Reading it as a manga",
+          "Literary history fact",
+          "High-school classics class"
+        ],
+        "lexical": "JMdict 1263370 sense 1, noun: The Tale of Genji (Heian-period classic)",
+        "register": "neutral (proper noun)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1360 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reading it as a manga; Literary history fact; High-school classics class), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "37340f398c0b05b2113f0ad9f3ddc6e9553a1bc604e240e81dfc08b183427190",
+        "approvalHash": "d299f44352deeba0be274d1b8617129562e632c4e2a3c089241b179051e4ca1a"
+      }
+    },
+    {
+      "id": "vocab-n2:1361",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1361",
+      "state": "accepted",
+      "predecessorHash": "d9fba910ab14b7569bc6a1ce67818aa53219556362c6d0a42bb7ded757748ba9",
+      "originalHash": "d9fba910ab14b7569bc6a1ce67818aa53219556362c6d0a42bb7ded757748ba9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼の言葉を信じて投資信託を買ったんですが、結局大きく損害してしまいました。",
+            "romaji": "Kare no kotoba o shinjite toushi shintaku o katta n desu ga, kekkyoku ookiku songai shite shimaimashita.",
+            "german": "Ich habe ihm geglaubt und einen Investmentfonds gekauft, aber am Ende viel Geld verloren."
+          }
+        ],
+        "meaning": "Schaden erleiden",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "損害 ist ein Nomen für „Schaden, Verlust“, besonders materiellen oder finanziellen Schaden. Als Verb 損害する ist es selten und klingt unnatürlich; man sagt 損害を受ける oder 損害を被る „Schaden erleiden“, 損害を与える „Schaden zufügen“ und 損害が出る „es entsteht Schaden“. Häufig ist 損害賠償 „Schadenersatz“. Für persönliche Geldverluste im Alltag sagt man eher 損をする; 被害 betont dagegen die Sicht der Geschädigten bei Katastrophen oder Verbrechen.",
+        "examples": [
+          {
+            "japanese": "台風で農作物が大きな損害を受けた。",
+            "romaji": "Taifuu de nousakubutsu ga ookina songai o uketa.",
+            "german": "Der Taifun hat der Ernte großen Schaden zugefügt."
+          },
+          {
+            "japanese": "自分のミスで会社に大きな損害を与えてしまった。",
+            "romaji": "Jibun no misu de kaisha ni ookina songai o ataete shimatta.",
+            "german": "Durch meinen Fehler habe ich der Firma großen Schaden zugefügt."
+          },
+          {
+            "japanese": "事故の相手に損害賠償を請求した。",
+            "romaji": "Jiko no aite ni songai baishou o seikyuu shita.",
+            "german": "Ich habe vom Unfallgegner Schadenersatz verlangt."
+          }
+        ],
+        "meaning": "Schaden, Verlust",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1406710 sense 1, noun / suru verb: damage, injury, loss Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 損害 ist ein Nomen für „Schaden, Verlust“, besonders materiellen oder finanziellen Schaden. Als Verb 損害する ist es selten und klingt unnatürlich; man sagt 損害を受ける oder 損害を被る „Schaden erleiden“, 損害を与える „Schaden zufügen“ und 損害が出る „es entsteht Schaden“. Häufig ist 損害賠償 „Schadenersatz“. Für persönliche Geldverluste im Alltag sagt man eher 損をする; 被害 betont dagegen die Sicht der Geschädigten bei Katastrophen oder Verbrechen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1406710; spelling=損害する; reading=そんがいする",
+          "finding": "JMdict 1406710 sense 1, noun / suru verb: damage, injury, loss"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 損害する/そんがいする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (損害); none is the exact head 損害する/そんがいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%90%8D%E5%AE%B3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 損害する/そんがいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 b0e11a66b99c6d05c8b79df798483823f54bb10f3306d46d35e0e7e2f325a0de",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%90%8D%E5%AE%B3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (損害); none is the exact head 損害する/そんがいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schaden, Verlust. JMdict 1406710 sense 1, noun / suru verb: damage, injury, loss",
+        "japanese": "台風で農作物が大きな損害を受けた。 / 自分のミスで会社に大きな損害を与えてしまった。 / 事故の相手に損害賠償を請求した。",
+        "romanization": "songaisuru; Taifuu de nousakubutsu ga ookina songai o uketa. / Jibun no misu de kaisha ni ookina songai o ataete shimatta. / Jiko no aite ni songai baishou o seikyuu shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Taifun hat der Ernte großen Schaden zugefügt. / Durch meinen Fehler habe ich der Firma großen Schaden zugefügt. / Ich habe vom Unfallgegner Schadenersatz verlangt.",
+        "contexts": [
+          "Typhoon damage to crops",
+          "Costly mistake at work",
+          "Claiming compensation after an accident"
+        ],
+        "lexical": "JMdict 1406710 sense 1, noun / suru verb: damage, injury, loss",
+        "register": "neutral to formal (news, insurance, business)",
+        "transitivity": "JMdict lists 損害する as transitive, but it is rare; normally noun + verb: 損害を受ける/被る (suffer), 損害を与える (cause)",
+        "conjugation": "noun; suru verb (損害する → 損害して), rarely used",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1361 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Typhoon damage to crops; Costly mistake at work; Claiming compensation after an accident), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e81ed560a4d744daa6863925798f7a1160a83396a140dfe961eeef8e9bde5211",
+        "approvalHash": "244fa0e1074df8f4af772b48992a39cd8f61380196ea4d474b125dbe2b39abac"
+      }
+    },
+    {
+      "id": "vocab-n2:1362",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1362",
+      "state": "accepted",
+      "predecessorHash": "ca7631d2a1ed600b87d1a155cdce6068a3e5e303bcd75bd03b1ef1065d6e79db",
+      "originalHash": "ca7631d2a1ed600b87d1a155cdce6068a3e5e303bcd75bd03b1ef1065d6e79db",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "「お早うございます。何にいたしましょうか？」「いつものやつ頼むよ。」「かしこまりました。ビールと枝豆でございますね。」「そうだよ。」",
+            "romaji": "Ohayou gozaimasu. Nani ni itashimashou ka? Itsumo no yatsu tanomu yo. Kashikomarimashita. Biiru to edamame degozai masu ne. Sou da yo.",
+            "german": "\"Guten Morgen. Was darf es sein?\" \"Das Übliche, bitte.\" \"Sehr wohl. Bier und Edamame, richtig?\" \"Genau.\""
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "枝豆 bedeutet wörtlich „Zweig-Bohne“: unreife grüne Sojabohnen, die früher samt Zweig verkauft wurden. Man kocht sie in Salzwasser (塩ゆで) und drückt die Bohnen aus der Hülse (さや). In Japan sind sie der klassische Snack zum Bier im 居酒屋, besonders im Sommer. Reife, getrocknete Sojabohnen heißen dagegen 大豆.",
+        "examples": [
+          {
+            "japanese": "「お早うございます。何にいたしましょうか？」「いつものやつ頼むよ。」「かしこまりました。ビールと枝豆でございますね。」「そうだよ。」",
+            "romaji": "Ohayou gozaimasu. Nani ni itashimashou ka? Itsumo no yatsu tanomu yo. Kashikomarimashita. Biiru to edamame de gozaimasu ne. Sou da yo.",
+            "german": "\"Guten Morgen. Was darf es sein?\" \"Das Übliche, bitte.\" \"Sehr wohl. Bier und Edamame, richtig?\" \"Genau.\""
+          },
+          {
+            "japanese": "夏はやっぱりビールと枝豆だね。",
+            "romaji": "Natsu wa yappari biiru to edamame da ne.",
+            "german": "Im Sommer gehören Bier und Edamame einfach zusammen."
+          },
+          {
+            "japanese": "枝豆を塩ゆでして、おつまみにした。",
+            "romaji": "Edamame o shioyude shite, otsumami ni shita.",
+            "german": "Ich habe Edamame in Salzwasser gekocht und als Knabberei serviert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70550227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 枝豆/エダマメ; lemma 枝豆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "枝豆",
+              "reading": "えだまめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 枝豆/えだまめ \"Edamame\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1310570 sense 1, noun: edamame (green soybeans) Pitch: Verified [0] via exact UniDic row. 枝豆 bedeutet wörtlich „Zweig-Bohne“: unreife grüne Sojabohnen, die früher samt Zweig verkauft wurden. Man kocht sie in Salzwasser (塩ゆで) und drückt die Bohnen aus der Hülse (さや). In Japan sind sie der klassische Snack zum Bier im 居酒屋, besonders im Sommer. Reife, getrocknete Sojabohnen heißen dagegen 大豆. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310570; spelling=枝豆; reading=えだまめ",
+          "selected": {
+            "sequence": "1310570",
+            "spelling": "枝豆",
+            "reading": "えだまめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "edamame (green soybeans)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1310570 sense 1, noun: edamame (green soybeans)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 枝豆/エダマメ; lemma 枝豆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70550227",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 枝豆/エダマメ; lemma 枝豆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "枝豆",
+              "reading": "えだまめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 枝豆/えだまめ \"Edamame\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Edamame. JMdict 1310570 sense 1, noun: edamame (green soybeans)",
+        "japanese": "「お早うございます。何にいたしましょうか？」「いつものやつ頼むよ。」「かしこまりました。ビールと枝豆でございますね。」「そうだよ。」 / 夏はやっぱりビールと枝豆だね。 / 枝豆を塩ゆでして、おつまみにした。",
+        "romanization": "edamame; Ohayou gozaimasu. Nani ni itashimashou ka? Itsumo no yatsu tanomu yo. Kashikomarimashita. Biiru to edamame de gozaimasu ne. Sou da yo. / Natsu wa yappari biiru to edamame da ne. / Edamame o shioyude shite, otsumami ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "\"Guten Morgen. Was darf es sein?\" \"Das Übliche, bitte.\" \"Sehr wohl. Bier und Edamame, richtig?\" \"Genau.\" / Im Sommer gehören Bier und Edamame einfach zusammen. / Ich habe Edamame in Salzwasser gekocht und als Knabberei serviert.",
+        "contexts": [
+          "Regular customer's order",
+          "Summer evening drink",
+          "Preparing a snack"
+        ],
+        "lexical": "JMdict 1310570 sense 1, noun: edamame (green soybeans)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1362 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Regular customer's order; Summer evening drink; Preparing a snack), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "18d886b06c57930d1114bcef0a89e6e1d9fb00fc8ce9159d26fbb39460713b5c",
+        "approvalHash": "112592e801926060538212de82bdbdfd0df84cfed40c774630ac8d10b0e16227"
+      }
+    },
+    {
+      "id": "vocab-n2:1363",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1363",
+      "state": "accepted",
+      "predecessorHash": "3b127fcd1c82670127b0c87c9131aed5e2674129b66ff507720b0bcdad9812ee",
+      "originalHash": "3b127fcd1c82670127b0c87c9131aed5e2674129b66ff507720b0bcdad9812ee",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "いつもパスワードに母親の旧姓を使うんですよ。",
+            "romaji": "Itsumo pasuwaado ni hahaoya no kyuusei o tsukau n desu yo.",
+            "german": "Ich benutze immer den Mädchennamen meiner Mutter als Passwort."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "旧姓 (旧 „früher“ + 姓 „Familienname“) ist der Familienname vor einer Namensänderung, meist der Geburtsname einer verheirateten Frau. Typisch sind 旧姓は〜です, 旧姓を使う (im Beruf weiter den alten Namen führen, 旧姓使用) und 旧姓に戻る nach einer Scheidung. Das Wort ist neutral und kommt oft in Formularen und Ausweisen vor.",
+        "examples": [
+          {
+            "japanese": "いつもパスワードに母親の旧姓を使うんですよ。",
+            "romaji": "Itsumo pasuwaado ni hahaoya no kyuusei o tsukau n desu yo.",
+            "german": "Ich benutze immer den Mädchennamen meiner Mutter als Passwort."
+          },
+          {
+            "japanese": "結婚後も、職場では旧姓を使っています。",
+            "romaji": "Kekkon go mo, shokuba de wa kyuusei o tsukatte imasu.",
+            "german": "Auch nach der Hochzeit verwende ich am Arbeitsplatz meinen Geburtsnamen."
+          },
+          {
+            "japanese": "離婚して旧姓に戻りました。",
+            "romaji": "Rikon shite kyuusei ni modorimashita.",
+            "german": "Nach der Scheidung habe ich wieder meinen Geburtsnamen angenommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105925017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 旧姓/キュウセイ; lemma 旧姓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "旧姓",
+              "reading": "きゅうせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 旧姓/きゅうせい \"Geburtsname\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1230930 sense 1, noun: one's original family name, maiden name Pitch: Verified [0] via exact UniDic row. 旧姓 (旧 „früher“ + 姓 „Familienname“) ist der Familienname vor einer Namensänderung, meist der Geburtsname einer verheirateten Frau. Typisch sind 旧姓は〜です, 旧姓を使う (im Beruf weiter den alten Namen führen, 旧姓使用) und 旧姓に戻る nach einer Scheidung. Das Wort ist neutral und kommt oft in Formularen und Ausweisen vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1230930; spelling=旧姓; reading=きゅうせい",
+          "selected": {
+            "sequence": "1230930",
+            "spelling": "旧姓",
+            "reading": "きゅうせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's original family name",
+                  "maiden name"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1230930 sense 1, noun: one's original family name, maiden name"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 旧姓/キュウセイ; lemma 旧姓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105925017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 旧姓/キュウセイ; lemma 旧姓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "旧姓",
+              "reading": "きゅうせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 旧姓/きゅうせい \"Geburtsname\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geburtsname. JMdict 1230930 sense 1, noun: one's original family name, maiden name",
+        "japanese": "いつもパスワードに母親の旧姓を使うんですよ。 / 結婚後も、職場では旧姓を使っています。 / 離婚して旧姓に戻りました。",
+        "romanization": "kyuusei; Itsumo pasuwaado ni hahaoya no kyuusei o tsukau n desu yo. / Kekkon go mo, shokuba de wa kyuusei o tsukatte imasu. / Rikon shite kyuusei ni modorimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich benutze immer den Mädchennamen meiner Mutter als Passwort. / Auch nach der Hochzeit verwende ich am Arbeitsplatz meinen Geburtsnamen. / Nach der Scheidung habe ich wieder meinen Geburtsnamen angenommen.",
+        "contexts": [
+          "Choosing a password",
+          "Keeping the old name at work",
+          "Name change after divorce"
+        ],
+        "lexical": "JMdict 1230930 sense 1, noun: one's original family name, maiden name",
+        "register": "neutral (administrative)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1363 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Choosing a password; Keeping the old name at work; Name change after divorce), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "97d60e035e44207c6f5148ecbe7983379ff3f3755cc0c390074c539b88ddec64",
+        "approvalHash": "566838e0998c1fb09158bce6d39d50078a9aa2a26d545095b0243b1cb7983667"
+      }
+    },
+    {
+      "id": "vocab-n2:1364",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1364",
+      "state": "accepted",
+      "predecessorHash": "d13c6013b5c5c70493176a1c71f6ac0abc3ea7ef05145581ea92c84748afc341",
+      "originalHash": "d13c6013b5c5c70493176a1c71f6ac0abc3ea7ef05145581ea92c84748afc341",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私の姓名を使用しないでください。",
+            "romaji": "Watashi no seimei o shiyou shinaide kudasai.",
+            "german": "Bitte verwenden Sie nicht meinen vollständigen Namen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "姓名 verbindet 姓 „Familienname“ und 名 „Vorname“ zum vollständigen Namen. Es ist förmlich und schriftsprachlich; auf Formularen steht häufiger 氏名, im Gespräch sagt man einfach 名前 oder フルネーム. Bekannt ist auch 姓名判断, die Namensdeutung anhand der Strichzahl der Kanji.",
+        "examples": [
+          {
+            "japanese": "私の姓名を使用しないでください。",
+            "romaji": "Watashi no seimei o shiyou shinaide kudasai.",
+            "german": "Bitte verwenden Sie nicht meinen vollständigen Namen."
+          },
+          {
+            "japanese": "申込書には姓名を漢字で正確に書いてください。",
+            "romaji": "Moushikomisho ni wa seimei o kanji de seikaku ni kaite kudasai.",
+            "german": "Bitte tragen Sie Ihren vollständigen Namen korrekt in Kanji in das Antragsformular ein."
+          },
+          {
+            "japanese": "姓名判断で名前の画数を調べてもらった。",
+            "romaji": "Seimei handan de namae no kakusuu o shirabete moratta.",
+            "german": "Ich habe bei einer Namensdeutung die Strichzahl meines Namens prüfen lassen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152285749",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 姓名/セイメイ; lemma 姓名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "姓名",
+              "reading": "せいめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 姓名/せいめい \"vollständiger Name\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1375210 sense 1, noun: (full) name, family name and given name Pitch: Verified [1] via exact UniDic row. 姓名 verbindet 姓 „Familienname“ und 名 „Vorname“ zum vollständigen Namen. Es ist förmlich und schriftsprachlich; auf Formularen steht häufiger 氏名, im Gespräch sagt man einfach 名前 oder フルネーム. Bekannt ist auch 姓名判断, die Namensdeutung anhand der Strichzahl der Kanji. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1375210; spelling=姓名; reading=せいめい",
+          "selected": {
+            "sequence": "1375210",
+            "spelling": "姓名",
+            "reading": "せいめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(full) name",
+                  "family name and given name"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1375210 sense 1, noun: (full) name, family name and given name"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 姓名/セイメイ; lemma 姓名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152285749",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 姓名/セイメイ; lemma 姓名; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "姓名",
+              "reading": "せいめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 姓名/せいめい \"vollständiger Name\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "vollständiger Name. JMdict 1375210 sense 1, noun: (full) name, family name and given name",
+        "japanese": "私の姓名を使用しないでください。 / 申込書には姓名を漢字で正確に書いてください。 / 姓名判断で名前の画数を調べてもらった。",
+        "romanization": "seimei; Watashi no seimei o shiyou shinaide kudasai. / Moushikomisho ni wa seimei o kanji de seikaku ni kaite kudasai. / Seimei handan de namae no kakusuu o shirabete moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte verwenden Sie nicht meinen vollständigen Namen. / Bitte tragen Sie Ihren vollständigen Namen korrekt in Kanji in das Antragsformular ein. / Ich habe bei einer Namensdeutung die Strichzahl meines Namens prüfen lassen.",
+        "contexts": [
+          "Privacy request",
+          "Filling in an application form",
+          "Name fortune-telling"
+        ],
+        "lexical": "JMdict 1375210 sense 1, noun: (full) name, family name and given name",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1364 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Privacy request; Filling in an application form; Name fortune-telling), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a033bdb46def343674f911ecec0ce8522a1c47d0709ced8bcb34505bc203c346",
+        "approvalHash": "c370736f6a808ab1433b74524aae4ccd1e3d356c0c8a86a6032ad4aaf0148ee1"
+      }
+    },
+    {
+      "id": "vocab-n2:1365",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1365",
+      "state": "accepted",
+      "predecessorHash": "ca3dd1635f9b0d327a3460c0234e833d0082064b90bc1f8c48c0bc6102004b73",
+      "originalHash": "ca3dd1635f9b0d327a3460c0234e833d0082064b90bc1f8c48c0bc6102004b73",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "シャツを入れないと、お客さんに甘く見られるかもしれないよ。",
+            "romaji": "Shatsu o irenai to, okyakusan ni amaku mi rareru kamo shirenai yo.",
+            "german": "Steck dein Hemd rein, sonst könnte dein Kunde dich nicht ernst nehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "甘く見る (甘い „süß, nachsichtig“ + 見る) bedeutet „unterschätzen, nicht ernst nehmen“: 〜を甘く見る. Sehr häufig als Warnung: 〜を甘く見てはいけない oder 甘く見ないほうがいい. Im Passiv 甘く見られる heißt es „nicht ernst genommen werden“. Ähnlich sind umgangssprachlich なめる und schriftsprachlich 侮る (あなどる); 甘く考える betont dagegen „zu optimistisch denken“.",
+        "examples": [
+          {
+            "japanese": "シャツを入れないと、お客さんに甘く見られるかもしれないよ。",
+            "romaji": "Shatsu o irenai to, okyakusan ni amaku mirareru kamo shirenai yo.",
+            "german": "Steck dein Hemd rein, sonst könnte dein Kunde dich nicht ernst nehmen."
+          },
+          {
+            "japanese": "山の天気を甘く見てはいけません。",
+            "romaji": "Yama no tenki o amaku mite wa ikemasen.",
+            "german": "Man darf das Wetter in den Bergen nicht unterschätzen."
+          },
+          {
+            "japanese": "試験を甘く見ていたら、半分も解けなかった。",
+            "romaji": "Shiken o amaku mite itara, hanbun mo tokenakatta.",
+            "german": "Ich hatte die Prüfung unterschätzt und konnte nicht einmal die Hälfte lösen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1213450 sense 1, expression / ichidan verb: to not take seriously, to take lightly Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 甘く見る (甘い „süß, nachsichtig“ + 見る) bedeutet „unterschätzen, nicht ernst nehmen“: 〜を甘く見る. Sehr häufig als Warnung: 〜を甘く見てはいけない oder 甘く見ないほうがいい. Im Passiv 甘く見られる heißt es „nicht ernst genommen werden“. Ähnlich sind umgangssprachlich なめる und schriftsprachlich 侮る (あなどる); 甘く考える betont dagegen „zu optimistisch denken“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1213450; spelling=甘く見る; reading=あまくみる",
+          "selected": {
+            "sequence": "1213450",
+            "spelling": "甘く見る",
+            "reading": "あまくみる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "Ichidan verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to not take seriously",
+                  "to take lightly"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1213450 sense 1, expression / ichidan verb: to not take seriously, to take lightly"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 甘く見る/あまくみる scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 甘く見る/あまくみる with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%98%E3%81%8F%E8%A6%8B%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 甘く見る/あまくみる scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 5a52a34e292ff6ca16448e862618d52dd67faf28196a1d5f5cdf98e64455cbb4",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%94%98%E3%81%8F%E8%A6%8B%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 甘く見る/あまくみる with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "unterschätzen. JMdict 1213450 sense 1, expression / ichidan verb: to not take seriously, to take lightly",
+        "japanese": "シャツを入れないと、お客さんに甘く見られるかもしれないよ。 / 山の天気を甘く見てはいけません。 / 試験を甘く見ていたら、半分も解けなかった。",
+        "romanization": "amakumiru; Shatsu o irenai to, okyakusan ni amaku mirareru kamo shirenai yo. / Yama no tenki o amaku mite wa ikemasen. / Shiken o amaku mite itara, hanbun mo tokenakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Steck dein Hemd rein, sonst könnte dein Kunde dich nicht ernst nehmen. / Man darf das Wetter in den Bergen nicht unterschätzen. / Ich hatte die Prüfung unterschätzt und konnte nicht einmal die Hälfte lösen.",
+        "contexts": [
+          "Dress advice before a client meeting",
+          "Mountain safety warning",
+          "Underestimated exam"
+        ],
+        "lexical": "JMdict 1213450 sense 1, expression / ichidan verb: to not take seriously, to take lightly",
+        "register": "neutral",
+        "transitivity": "transitive (X を甘く見る); passive 甘く見られる",
+        "conjugation": "ichidan (甘く見る → 甘く見て, 甘く見ない, 甘く見られる)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1365 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dress advice before a client meeting; Mountain safety warning; Underestimated exam), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "020929b547f2544bf1110aa0b494d2ce78cdb43affe8b35f7d2e0b81b0664b91",
+        "approvalHash": "d6e31b8a555e780a0f811ea4b19fa5376865081c84eff6f576812a4b5fb14a04"
+      }
+    },
+    {
+      "id": "vocab-n2:1366",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1366",
+      "state": "accepted",
+      "predecessorHash": "2a9aa5c6e09d5b3b54ca57330d176cd50a4476cc01d25a4271059885c4538bbb",
+      "originalHash": "2a9aa5c6e09d5b3b54ca57330d176cd50a4476cc01d25a4271059885c4538bbb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私は甘党で、ケーキには目がないの。",
+            "romaji": "Watashi wa amatou de, keeki ni wa me ga nai no.",
+            "german": "Ich bin eine Naschkatze und kann bei Kuchen nicht widerstehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "甘党 (wörtlich „Partei der Süßen“) ist jemand, der gern Süßes isst. Traditionell steht es im Gegensatz zu 辛党, dem Menschen, der lieber Alkohol trinkt; ein 甘党 bevorzugt also eher Kuchen als Sake. Typisch sind 私は甘党です, かなりの甘党 und die Wendung 甘いものに目がない „bei Süßem nicht widerstehen können“.",
+        "examples": [
+          {
+            "japanese": "私は甘党で、ケーキには目がないの。",
+            "romaji": "Watashi wa amatou de, keeki ni wa me ga nai no.",
+            "german": "Ich bin eine Naschkatze und kann bei Kuchen nicht widerstehen."
+          },
+          {
+            "japanese": "父は辛党だが、母はかなりの甘党だ。",
+            "romaji": "Chichi wa karatou da ga, haha wa kanari no amatou da.",
+            "german": "Mein Vater trinkt lieber Alkohol, aber meine Mutter ist eine echte Naschkatze."
+          },
+          {
+            "japanese": "甘党の友達のために、駅前のケーキ屋でお土産を買った。",
+            "romaji": "Amatou no tomodachi no tame ni, ekimae no keekiya de omiyage o katta.",
+            "german": "Für meine naschhafte Freundin habe ich in der Konditorei am Bahnhof ein Mitbringsel gekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46459269",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 甘党/アマトウ; lemma 甘党; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "甘党",
+              "reading": "あまとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 甘党/あまとう \"Naschkatze\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1213560 sense 1, noun: person with a sweet tooth (rather than for alcohol) Pitch: Verified [0] via exact UniDic row. 甘党 (wörtlich „Partei der Süßen“) ist jemand, der gern Süßes isst. Traditionell steht es im Gegensatz zu 辛党, dem Menschen, der lieber Alkohol trinkt; ein 甘党 bevorzugt also eher Kuchen als Sake. Typisch sind 私は甘党です, かなりの甘党 und die Wendung 甘いものに目がない „bei Süßem nicht widerstehen können“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1213560; spelling=甘党; reading=あまとう",
+          "selected": {
+            "sequence": "1213560",
+            "spelling": "甘党",
+            "reading": "あまとう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "person who prefers sweet things to alcoholic drinks",
+                  "person with a sweet tooth"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1213560 sense 1, noun: person with a sweet tooth (rather than for alcohol)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 甘党/アマトウ; lemma 甘党; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@46459269",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 甘党/アマトウ; lemma 甘党; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "甘党",
+              "reading": "あまとう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 甘党/あまとう \"Naschkatze\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Naschkatze. JMdict 1213560 sense 1, noun: person with a sweet tooth (rather than for alcohol)",
+        "japanese": "私は甘党で、ケーキには目がないの。 / 父は辛党だが、母はかなりの甘党だ。 / 甘党の友達のために、駅前のケーキ屋でお土産を買った。",
+        "romanization": "amatou; Watashi wa amatou de, keeki ni wa me ga nai no. / Chichi wa karatou da ga, haha wa kanari no amatou da. / Amatou no tomodachi no tame ni, ekimae no keekiya de omiyage o katta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin eine Naschkatze und kann bei Kuchen nicht widerstehen. / Mein Vater trinkt lieber Alkohol, aber meine Mutter ist eine echte Naschkatze. / Für meine naschhafte Freundin habe ich in der Konditorei am Bahnhof ein Mitbringsel gekauft.",
+        "contexts": [
+          "Confessing a sweet tooth",
+          "Comparing parents' tastes",
+          "Buying a gift"
+        ],
+        "lexical": "JMdict 1213560 sense 1, noun: person with a sweet tooth (rather than for alcohol)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1366 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Confessing a sweet tooth; Comparing parents' tastes; Buying a gift), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "990dfab3a768819976411f2d27cae9b6c41a3ba55d2915bdce99b97300fa1628",
+        "approvalHash": "4c468af09e7240cf7aa8e36c64bd65be226304c74fdaa877c6af272ac82010ee"
+      }
+    },
+    {
+      "id": "vocab-n2:1367",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1367",
+      "state": "accepted",
+      "predecessorHash": "0ea917a4baefa85df618f0ceedf356969807202213d2ac0d8f76a59c6ea0a05f",
+      "originalHash": "0ea917a4baefa85df618f0ceedf356969807202213d2ac0d8f76a59c6ea0a05f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大将が机の角に頭をぶつけて、たんこぶを作っちまったんだよ。",
+            "romaji": "Taishou ga tsukue no kaku ni atama o butsukete, tankobu o tsuku chimatta n da yo.",
+            "german": "Der Admiral stieß sich den Kopf an der Tischkante und bekam eine Beule."
+          }
+        ],
+        "meaning": "Admiral",
+        "type": "Adjektiv",
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大将 ist ursprünglich der höchste Offiziersrang, „General“ bzw. bei der Marine „Admiral“ (陸軍大将, 海軍大将). Im Alltag hört man es viel öfter umgangssprachlich als Anrede für den Chef oder Wirt eines kleinen Lokals, besonders im Sushi-Restaurant: 大将、いつもの！ Auch im Mannschaftswettkampf (Kendō, Jūdō) heißt der letzte Kämpfer 大将. お山の大将 bezeichnet spöttisch jemanden, der sich als „kleiner König“ aufspielt.",
+        "examples": [
+          {
+            "japanese": "大将が机の角に頭をぶつけて、たんこぶを作っちまったんだよ。",
+            "romaji": "Taishou ga tsukue no kaku ni atama o butsukete, tankobu o tsukutchimatta n da yo.",
+            "german": "Der Chef hat sich den Kopf an der Tischkante gestoßen und eine Beule bekommen."
+          },
+          {
+            "japanese": "寿司屋の大将に今日のおすすめを聞いた。",
+            "romaji": "Sushiya no taishou ni kyou no osusume o kiita.",
+            "german": "Ich habe den Chef des Sushi-Lokals nach seiner Empfehlung des Tages gefragt."
+          },
+          {
+            "japanese": "彼の祖父は海軍の大将だった。",
+            "romaji": "Kare no sofu wa kaigun no taishou datta.",
+            "german": "Sein Großvater war Admiral bei der Marine."
+          }
+        ],
+        "meaning": "General, Admiral, Chef, Anführer",
+        "type": "Nomen",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158036298",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大将/タイショウ; lemma 大将; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "大将",
+              "reading": "たいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大将/たいしょう \"Admiral\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1581510 senses 1–4, noun: general, admiral; head, boss; (familiar) chief, owner of a small restaurant; last competitor in a team match Pitch: Verified [1] via exact UniDic row; stored primary 3 corrected to 1. 大将 ist ursprünglich der höchste Offiziersrang, „General“ bzw. bei der Marine „Admiral“ (陸軍大将, 海軍大将). Im Alltag hört man es viel öfter umgangssprachlich als Anrede für den Chef oder Wirt eines kleinen Lokals, besonders im Sushi-Restaurant: 大将、いつもの！ Auch im Mannschaftswettkampf (Kendō, Jūdō) heißt der letzte Kämpfer 大将. お山の大将 bezeichnet spöttisch jemanden, der sich als „kleiner König“ aufspielt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581510; spelling=大将; reading=たいしょう",
+          "selected": {
+            "sequence": "1581510",
+            "spelling": "大将",
+            "reading": "たいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "general",
+                  "admiral"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "head",
+                  "chief",
+                  "leader",
+                  "boss",
+                  "kingpin"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "familiar language"
+                ],
+                "gloss": [
+                  "old chap",
+                  "mate",
+                  "boss",
+                  "chief",
+                  "man"
+                ],
+                "notes": [
+                  "familiar or jocular term for addressing a male"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "athlete who competes in the last match of a team competition (kendo, judo, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1581510 senses 1–4, noun: general, admiral; head, boss; (familiar) chief, owner of a small restaurant; last competitor in a team match"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 3 corrected to 1. Exact whole 大将/タイショウ; lemma 大将; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158036298",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大将/タイショウ; lemma 大将; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "大将",
+              "reading": "たいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大将/たいしょう \"Admiral\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "part-of-speech-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "General, Admiral, Chef, Anführer. JMdict 1581510 senses 1–4, noun: general, admiral; head, boss; (familiar) chief, owner of a small restaurant; last competitor in a team match",
+        "japanese": "大将が机の角に頭をぶつけて、たんこぶを作っちまったんだよ。 / 寿司屋の大将に今日のおすすめを聞いた。 / 彼の祖父は海軍の大将だった。",
+        "romanization": "taishou; Taishou ga tsukue no kaku ni atama o butsukete, tankobu o tsukutchimatta n da yo. / Sushiya no taishou ni kyou no osusume o kiita. / Kare no sofu wa kaigun no taishou datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Chef hat sich den Kopf an der Tischkante gestoßen und eine Beule bekommen. / Ich habe den Chef des Sushi-Lokals nach seiner Empfehlung des Tages gefragt. / Sein Großvater war Admiral bei der Marine.",
+        "contexts": [
+          "Boss bumped his head",
+          "Ordering at a sushi bar",
+          "Military family history"
+        ],
+        "lexical": "JMdict 1581510 senses 1–4, noun: general, admiral; head, boss; (familiar) chief, owner of a small restaurant; last competitor in a team match",
+        "register": "neutral (military rank); colloquial as address for a boss / restaurant owner",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1367 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Boss bumped his head; Ordering at a sushi bar; Military family history), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "62b5bf0f69079af41d90c8e1a43168762dddd7cbcbf8275c1d1e906c234f32ef",
+        "approvalHash": "b75f82ebc7d9557c9e766ff86ca2dba2cd3b1b5463b560fa2cb6d1d5584ef445"
+      }
+    },
+    {
+      "id": "vocab-n2:1368",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1368",
+      "state": "accepted",
+      "predecessorHash": "a215f8fe5c205045ccb03708114f6a0597854314337d2a1a18a5f90f461f5d8d",
+      "originalHash": "a215f8fe5c205045ccb03708114f6a0597854314337d2a1a18a5f90f461f5d8d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "どちらの主将もそんなに強くはなかった。",
+            "romaji": "Dochira no shushou mo sonnani tsuyoku wa nakatta.",
+            "german": "Keiner der beiden Mannschaftskapitäne war besonders stark."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "主将 ist der Kapitän einer Sportmannschaft, vor allem in Schul- und Universitätsclubs (野球部の主将, 主将に選ばれる); der Stellvertreter heißt 副主将. Im Profisport und im Alltag sagt man meist キャプテン. Die ältere Bedeutung „Oberbefehlshaber“ findet man nur in historischen Texten. Nicht verwechseln mit 部長, dem organisatorischen Leiter eines Clubs.",
+        "examples": [
+          {
+            "japanese": "どちらの主将もそんなに強くはなかった。",
+            "romaji": "Dochira no shushou mo sonnani tsuyoku wa nakatta.",
+            "german": "Keiner der beiden Mannschaftskapitäne war besonders stark."
+          },
+          {
+            "japanese": "彼女はバレー部の主将に選ばれた。",
+            "romaji": "Kanojo wa bareebu no shushou ni erabareta.",
+            "german": "Sie wurde zur Kapitänin der Volleyballmannschaft gewählt."
+          },
+          {
+            "japanese": "主将として、チームをまとめるのは簡単ではない。",
+            "romaji": "Shushou to shite, chiimu o matomeru no wa kantan de wa nai.",
+            "german": "Als Kapitän ist es nicht leicht, das Team zusammenzuhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140180758",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 主将/シュショウ; lemma 主将; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "主将",
+              "reading": "しゅしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 主将/しゅしょう \"Mannschaftskapitän\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1325590 sense 2, noun: captain (of a team) Pitch: Verified [0] via exact UniDic row. 主将 ist der Kapitän einer Sportmannschaft, vor allem in Schul- und Universitätsclubs (野球部の主将, 主将に選ばれる); der Stellvertreter heißt 副主将. Im Profisport und im Alltag sagt man meist キャプテン. Die ältere Bedeutung „Oberbefehlshaber“ findet man nur in historischen Texten. Nicht verwechseln mit 部長, dem organisatorischen Leiter eines Clubs. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1325590; spelling=主将; reading=しゅしょう",
+          "selected": {
+            "sequence": "1325590",
+            "spelling": "主将",
+            "reading": "しゅしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commander-in-chief",
+                  "supreme commander"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "captain (of a team)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1325590 sense 2, noun: captain (of a team)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 主将/シュショウ; lemma 主将; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140180758",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 主将/シュショウ; lemma 主将; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "主将",
+              "reading": "しゅしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 主将/しゅしょう \"Mannschaftskapitän\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mannschaftskapitän. JMdict 1325590 sense 2, noun: captain (of a team)",
+        "japanese": "どちらの主将もそんなに強くはなかった。 / 彼女はバレー部の主将に選ばれた。 / 主将として、チームをまとめるのは簡単ではない。",
+        "romanization": "shushou; Dochira no shushou mo sonnani tsuyoku wa nakatta. / Kanojo wa bareebu no shushou ni erabareta. / Shushou to shite, chiimu o matomeru no wa kantan de wa nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Keiner der beiden Mannschaftskapitäne war besonders stark. / Sie wurde zur Kapitänin der Volleyballmannschaft gewählt. / Als Kapitän ist es nicht leicht, das Team zusammenzuhalten.",
+        "contexts": [
+          "Comparing two captains",
+          "Elected team captain",
+          "Responsibility of leadership"
+        ],
+        "lexical": "JMdict 1325590 sense 2, noun: captain (of a team)",
+        "register": "neutral, somewhat formal (school/university sports)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1368 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Comparing two captains; Elected team captain; Responsibility of leadership), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1f39dace3100f3b44fbc3240ca63887e60bbdbde98f739c12d59944490290fbc",
+        "approvalHash": "5e5c4dbf44e0f062b1942fab8d45ee3039877d1f45508dbe84198be0bd492bce"
+      }
+    },
+    {
+      "id": "vocab-n2:1369",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1369",
+      "state": "accepted",
+      "predecessorHash": "bbd66659e0ccea993e86ed528b08071a18a8e232e5460fdd9d03870b3575940c",
+      "originalHash": "bbd66659e0ccea993e86ed528b08071a18a8e232e5460fdd9d03870b3575940c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "スケート選手たちは、日本スケート連盟について不平を漏らしています。",
+            "romaji": "Sukeeto senshutachi wa, Nippon sukeeto renmei nitsuite fuhei o morashite imasu.",
+            "german": "Eiskunstläufer beschweren sich über den Japanischen Eiskunstlaufverband."
+          }
+        ],
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "連盟 ist ein Bund oder Verband, in dem sich Organisationen, Vereine oder Staaten zusammenschließen, z. B. 日本スケート連盟 oder historisch 国際連盟 „Völkerbund“. Man tritt mit 連盟に加盟する bei. Ähnlich sind 協会 „Verein, Verband“ (日本サッカー協会), 連合 „Union“ (国際連合 = UNO) und 同盟 „Bündnis“ zwischen Staaten. Das Wort ist eher formell und kommt oft in Organisationsnamen vor.",
+        "examples": [
+          {
+            "japanese": "スケート選手たちは、日本スケート連盟について不平を漏らしています。",
+            "romaji": "Sukeeto senshutachi wa, Nippon sukeeto renmei nitsuite fuhei o morashite imasu.",
+            "german": "Die Eisläufer beklagen sich über den Japanischen Eislaufverband."
+          },
+          {
+            "japanese": "国際連盟は第一次世界大戦の後に作られた。",
+            "romaji": "Kokusai Renmei wa daiichiji sekai taisen no ato ni tsukurareta.",
+            "german": "Der Völkerbund wurde nach dem Ersten Weltkrieg gegründet."
+          },
+          {
+            "japanese": "うちの大学の空手部は学生連盟に加盟している。",
+            "romaji": "Uchi no daigaku no karatebu wa gakusei renmei ni kamei shite iru.",
+            "german": "Der Karateclub unserer Uni ist Mitglied im Studentenverband."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280135229",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 連盟/レンメイ; lemma 連盟; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "連盟",
+              "reading": "れんめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 連盟/れんめい \"Verband\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1559870 sense 1, noun: league, federation, union Pitch: Verified [0] via exact UniDic row. 連盟 ist ein Bund oder Verband, in dem sich Organisationen, Vereine oder Staaten zusammenschließen, z. B. 日本スケート連盟 oder historisch 国際連盟 „Völkerbund“. Man tritt mit 連盟に加盟する bei. Ähnlich sind 協会 „Verein, Verband“ (日本サッカー協会), 連合 „Union“ (国際連合 = UNO) und 同盟 „Bündnis“ zwischen Staaten. Das Wort ist eher formell und kommt oft in Organisationsnamen vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1559870; spelling=連盟; reading=れんめい",
+          "selected": {
+            "sequence": "1559870",
+            "spelling": "連盟",
+            "reading": "れんめい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "league",
+                  "federation",
+                  "union"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1559870 sense 1, noun: league, federation, union"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 連盟/レンメイ; lemma 連盟; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280135229",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 連盟/レンメイ; lemma 連盟; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "連盟",
+              "reading": "れんめい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 連盟/れんめい \"Verband\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verband. JMdict 1559870 sense 1, noun: league, federation, union",
+        "japanese": "スケート選手たちは、日本スケート連盟について不平を漏らしています。 / 国際連盟は第一次世界大戦の後に作られた。 / うちの大学の空手部は学生連盟に加盟している。",
+        "romanization": "renmei; Sukeeto senshutachi wa, Nippon sukeeto renmei nitsuite fuhei o morashite imasu. / Kokusai Renmei wa daiichiji sekai taisen no ato ni tsukurareta. / Uchi no daigaku no karatebu wa gakusei renmei ni kamei shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Eisläufer beklagen sich über den Japanischen Eislaufverband. / Der Völkerbund wurde nach dem Ersten Weltkrieg gegründet. / Der Karateclub unserer Uni ist Mitglied im Studentenverband.",
+        "contexts": [
+          "Athletes' complaints",
+          "History lesson",
+          "University club membership"
+        ],
+        "lexical": "JMdict 1559870 sense 1, noun: league, federation, union",
+        "register": "formal / organisational",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1369 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Athletes' complaints; History lesson; University club membership), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "22481934c22694a14235b26d5b268ab564247531a7d643299e008b9cf91645cc",
+        "approvalHash": "7fd2339f211b4eb57ee2cb2e3d705151aef5b785188f2818824a2f236b8c3f6e"
+      }
+    },
+    {
+      "id": "vocab-n2:1370",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1370",
+      "state": "accepted",
+      "predecessorHash": "162a6a8594906b00689faa10ebcba2acf51dca75c5eb41b38ed9bf25e01475ed",
+      "originalHash": "162a6a8594906b00689faa10ebcba2acf51dca75c5eb41b38ed9bf25e01475ed",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この空港に遺失物取扱所があるかどうかをご存知ですか。",
+            "romaji": "Kono kuukou ni ishitsubutsu toriatsukaisho ga aru ka dou ka o gozonji desu ka.",
+            "german": "Wissen Sie, ob es in diesem Flughafen ein Fundbüro gibt?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遺失 ist ein amtliches Wort für „Verlust“ von Gegenständen. Man findet es fast nur in Komposita wie 遺失物 „verlorener Gegenstand, Fundsache“, 遺失物取扱所 „Fundbüro“ und 遺失届 „Verlustanzeige“ bei der Polizei. Als Verb 遺失する steht es nur in offiziellen Texten; im Alltag sagt man なくす oder 落とす, und Fundsachen heißen 落とし物 oder 忘れ物.",
+        "examples": [
+          {
+            "japanese": "この空港に遺失物取扱所があるかどうかをご存知ですか。",
+            "romaji": "Kono kuukou ni ishitsubutsu toriatsukaisho ga aru ka dou ka o gozonji desu ka.",
+            "german": "Wissen Sie, ob es in diesem Flughafen ein Fundbüro gibt?"
+          },
+          {
+            "japanese": "警察に財布の遺失届を出しました。",
+            "romaji": "Keisatsu ni saifu no ishitsu todoke o dashimashita.",
+            "german": "Ich habe bei der Polizei eine Verlustanzeige für meinen Geldbeutel aufgegeben."
+          },
+          {
+            "japanese": "書類を遺失した場合は、速やかに担当者に報告してください。",
+            "romaji": "Shorui o ishitsu shita baai wa, sumiyaka ni tantousha ni houkoku shite kudasai.",
+            "german": "Falls Sie Unterlagen verlieren, melden Sie dies bitte umgehend der zuständigen Person."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1159320 sense 1, noun / suru verb: loss (of an object) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 遺失 ist ein amtliches Wort für „Verlust“ von Gegenständen. Man findet es fast nur in Komposita wie 遺失物 „verlorener Gegenstand, Fundsache“, 遺失物取扱所 „Fundbüro“ und 遺失届 „Verlustanzeige“ bei der Polizei. Als Verb 遺失する steht es nur in offiziellen Texten; im Alltag sagt man なくす oder 落とす, und Fundsachen heißen 落とし物 oder 忘れ物. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1159320; spelling=遺失; reading=いしつ",
+          "selected": {
+            "sequence": "1159320",
+            "spelling": "遺失",
+            "reading": "いしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "loss"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1159320 sense 1, noun / suru verb: loss (of an object)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 遺失/イシツ; lemma 遺失; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer. Query returned 0 rows (); none is the exact head 遺失/いしつ with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%BA%E5%A4%B1",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 遺失/イシツ; lemma 遺失; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 3d0b1e65153ee67514e5e83046b7cc8307e0c9efa5b4b6de8a4408629f26d58d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%BA%E5%A4%B1",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 遺失/いしつ with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verlust. JMdict 1159320 sense 1, noun / suru verb: loss (of an object)",
+        "japanese": "この空港に遺失物取扱所があるかどうかをご存知ですか。 / 警察に財布の遺失届を出しました。 / 書類を遺失した場合は、速やかに担当者に報告してください。",
+        "romanization": "ishitsu; Kono kuukou ni ishitsubutsu toriatsukaisho ga aru ka dou ka o gozonji desu ka. / Keisatsu ni saifu no ishitsu todoke o dashimashita. / Shorui o ishitsu shita baai wa, sumiyaka ni tantousha ni houkoku shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wissen Sie, ob es in diesem Flughafen ein Fundbüro gibt? / Ich habe bei der Polizei eine Verlustanzeige für meinen Geldbeutel aufgegeben. / Falls Sie Unterlagen verlieren, melden Sie dies bitte umgehend der zuständigen Person.",
+        "contexts": [
+          "Looking for the lost-and-found",
+          "Reporting a lost wallet",
+          "Company regulations"
+        ],
+        "lexical": "JMdict 1159320 sense 1, noun / suru verb: loss (of an object)",
+        "register": "formal / official",
+        "transitivity": "transitive as 遺失する (X を遺失する), official texts only",
+        "conjugation": "noun; suru verb (遺失する → 遺失して)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1370 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Looking for the lost-and-found; Reporting a lost wallet; Company regulations), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fff70d85aadc8a3737c40882a597f80d62ca5a2620848b3ae73d63a9eb731864",
+        "approvalHash": "c606d80a41ade40462fdd9787e8fb82570fa38e132a238da7e79e94ddac48219"
+      }
+    },
+    {
+      "id": "vocab-n2:1371",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1371",
+      "state": "accepted",
+      "predecessorHash": "e165fcebdc72b5dcc54d55dd19304276d38e4a2e73c9552a23530ac7d2069a19",
+      "originalHash": "e165fcebdc72b5dcc54d55dd19304276d38e4a2e73c9552a23530ac7d2069a19",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "どうして犯人が遺体の唇を舐めたのかは不明です。",
+            "romaji": "Doushite hannin ga itai no kuchibiru o nameta no ka wa fumei desu.",
+            "german": "Wir haben keine Ahnung, warum der Mörder die Lippen des Leichnams geleckt hat."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遺体 ist das respektvolle Wort für den Leichnam eines Menschen und wird in Nachrichten und bei Trauerfeiern verwendet (遺体が見つかる, 遺体で発見される „tot aufgefunden werden“, höflich ご遺体). 死体 ist dagegen sachlich-nüchtern und klingt in Bezug auf Angehörige kalt; es wird auch für Tiere gebraucht. 遺骨 sind die Gebeine bzw. die Asche nach der Einäscherung.",
+        "examples": [
+          {
+            "japanese": "どうして犯人が遺体の唇を舐めたのかは不明です。",
+            "romaji": "Doushite hannin ga itai no kuchibiru o nameta no ka wa fumei desu.",
+            "german": "Wir haben keine Ahnung, warum der Mörder die Lippen des Leichnams geleckt hat."
+          },
+          {
+            "japanese": "山で行方不明になっていた男性が、遺体で発見された。",
+            "romaji": "Yama de yukue fumei ni natte ita dansei ga, itai de hakken sareta.",
+            "german": "Der in den Bergen vermisste Mann wurde tot aufgefunden."
+          },
+          {
+            "japanese": "葬儀の前に、家族は遺体と最後のお別れをした。",
+            "romaji": "Sougi no mae ni, kazoku wa itai to saigo no owakare o shita.",
+            "german": "Vor der Trauerfeier nahm die Familie Abschied von dem Verstorbenen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55288182",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遺体/イタイ; lemma 遺体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遺体",
+              "reading": "いたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遺体/いたい \"Leichnam\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1159430 sense 1, noun: (dead) body, corpse, remains Pitch: Verified [0] via exact UniDic row. 遺体 ist das respektvolle Wort für den Leichnam eines Menschen und wird in Nachrichten und bei Trauerfeiern verwendet (遺体が見つかる, 遺体で発見される „tot aufgefunden werden“, höflich ご遺体). 死体 ist dagegen sachlich-nüchtern und klingt in Bezug auf Angehörige kalt; es wird auch für Tiere gebraucht. 遺骨 sind die Gebeine bzw. die Asche nach der Einäscherung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1159430; spelling=遺体; reading=いたい",
+          "selected": {
+            "sequence": "1159430",
+            "spelling": "遺体",
+            "reading": "いたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(dead) body",
+                  "corpse",
+                  "remains"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1159430 sense 1, noun: (dead) body, corpse, remains"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 遺体/イタイ; lemma 遺体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55288182",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遺体/イタイ; lemma 遺体; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遺体",
+              "reading": "いたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遺体/いたい \"Leichnam\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leichnam. JMdict 1159430 sense 1, noun: (dead) body, corpse, remains",
+        "japanese": "どうして犯人が遺体の唇を舐めたのかは不明です。 / 山で行方不明になっていた男性が、遺体で発見された。 / 葬儀の前に、家族は遺体と最後のお別れをした。",
+        "romanization": "itai; Doushite hannin ga itai no kuchibiru o nameta no ka wa fumei desu. / Yama de yukue fumei ni natte ita dansei ga, itai de hakken sareta. / Sougi no mae ni, kazoku wa itai to saigo no owakare o shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben keine Ahnung, warum der Mörder die Lippen des Leichnams geleckt hat. / Der in den Bergen vermisste Mann wurde tot aufgefunden. / Vor der Trauerfeier nahm die Familie Abschied von dem Verstorbenen.",
+        "contexts": [
+          "Crime investigation",
+          "News report on a missing person",
+          "Farewell before a funeral"
+        ],
+        "lexical": "JMdict 1159430 sense 1, noun: (dead) body, corpse, remains",
+        "register": "formal / respectful (news, funerals)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1371 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Crime investigation; News report on a missing person; Farewell before a funeral), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1b06015968d31e0f58045dcd1d5c74d86f81d165d820b2030bcc7e27941d9272",
+        "approvalHash": "38b4a0b50a24b8c939ecdcbacf7ace589f10c814a31e780cfa355d9de0014b54"
+      }
+    },
+    {
+      "id": "vocab-n2:1372",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1372",
+      "state": "accepted",
+      "predecessorHash": "9ac7f5927fb308f51bf17a42c7f84b32b9c71286dbf40abcb591c2ffc5202ec9",
+      "originalHash": "9ac7f5927fb308f51bf17a42c7f84b32b9c71286dbf40abcb591c2ffc5202ec9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私は歯のしつこい着色汚れを奈良の歯医者さんで落としました。",
+            "romaji": "Watashi wa ha no shitsukoi chakushoku yogore o Nara no haishasan de otoshimashita.",
+            "german": "Ich habe hartnäckige Verfärbungen meiner Zähne in einer Zahnarztpraxis in Nara entfernen lassen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "奈良 bezeichnet sowohl die Stadt 奈良市 als auch die Präfektur 奈良県 in der Kansai-Region. Von 710 bis 784 war Nara als 平城京 die Hauptstadt Japans, daher der Name der 奈良時代. Bekannt sind der Große Buddha im 東大寺 und die zahmen Hirsche (鹿) im 奈良公園. Zusammen mit Kyoto ist es ein klassisches Ziel für Klassenfahrten.",
+        "examples": [
+          {
+            "japanese": "私は歯のしつこい着色汚れを奈良の歯医者さんで落としました。",
+            "romaji": "Watashi wa ha no shitsukoi chakushoku yogore o Nara no haishasan de otoshimashita.",
+            "german": "Ich habe hartnäckige Verfärbungen meiner Zähne in einer Zahnarztpraxis in Nara entfernen lassen."
+          },
+          {
+            "japanese": "奈良の公園では、たくさんの鹿が自由に歩いている。",
+            "romaji": "Nara no kouen de wa, takusan no shika ga jiyuu ni aruite iru.",
+            "german": "In den Parks von Nara laufen viele Hirsche frei herum."
+          },
+          {
+            "japanese": "修学旅行で奈良と京都に行きました。",
+            "romaji": "Shuugaku ryokou de Nara to Kyouto ni ikimashita.",
+            "german": "Auf der Klassenfahrt waren wir in Nara und Kyoto."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198788123",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 奈良/ナラ; lemma ナラ; 名詞/固有名詞/人名/姓; *; *; aType 0 | 奈良/ナラ; lemma ナラ; 名詞/固有名詞/地名/一般; *; *; aType 1.",
+            "match": {
+              "word": "奈良",
+              "reading": "なら",
+              "grammaticalForm": "名詞/固有名詞/人名/姓; *; *",
+              "sense": "Nomen 奈良/なら \"Nara\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2827768 sense 1, noun: Nara (city, prefecture) Pitch: Verified [0,1] via exact UniDic row. 奈良 bezeichnet sowohl die Stadt 奈良市 als auch die Präfektur 奈良県 in der Kansai-Region. Von 710 bis 784 war Nara als 平城京 die Hauptstadt Japans, daher der Name der 奈良時代. Bekannt sind der Große Buddha im 東大寺 und die zahmen Hirsche (鹿) im 奈良公園. Zusammen mit Kyoto ist es ein klassisches Ziel für Klassenfahrten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2827768; spelling=奈良; reading=なら",
+          "selected": {
+            "sequence": "2827768",
+            "spelling": "奈良",
+            "reading": "なら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Nara (city, prefecture)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2827768 sense 1, noun: Nara (city, prefecture)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 奈良/ナラ; lemma ナラ; 名詞/固有名詞/人名/姓; *; *; aType 0 | 奈良/ナラ; lemma ナラ; 名詞/固有名詞/地名/一般; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@198788123",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 奈良/ナラ; lemma ナラ; 名詞/固有名詞/人名/姓; *; *; aType 0 | 奈良/ナラ; lemma ナラ; 名詞/固有名詞/地名/一般; *; *; aType 1.",
+            "match": {
+              "word": "奈良",
+              "reading": "なら",
+              "grammaticalForm": "名詞/固有名詞/人名/姓; *; *",
+              "sense": "Nomen 奈良/なら \"Nara\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nara. JMdict 2827768 sense 1, noun: Nara (city, prefecture)",
+        "japanese": "私は歯のしつこい着色汚れを奈良の歯医者さんで落としました。 / 奈良の公園では、たくさんの鹿が自由に歩いている。 / 修学旅行で奈良と京都に行きました。",
+        "romanization": "nara; Watashi wa ha no shitsukoi chakushoku yogore o Nara no haishasan de otoshimashita. / Nara no kouen de wa, takusan no shika ga jiyuu ni aruite iru. / Shuugaku ryokou de Nara to Kyouto ni ikimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe hartnäckige Verfärbungen meiner Zähne in einer Zahnarztpraxis in Nara entfernen lassen. / In den Parks von Nara laufen viele Hirsche frei herum. / Auf der Klassenfahrt waren wir in Nara und Kyoto.",
+        "contexts": [
+          "Dentist visit",
+          "Deer in the park",
+          "School trip"
+        ],
+        "lexical": "JMdict 2827768 sense 1, noun: Nara (city, prefecture)",
+        "register": "neutral (place name)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1372 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dentist visit; Deer in the park; School trip), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6cf15040485e8bd17cd2682a040b87e6f73bf98c2309bd8af4a37660e73788b5",
+        "approvalHash": "72526c4addca108c4ffefaa6c8ddfadc3ead3fea404e6cacbddad7c028ecedf3"
+      }
+    },
+    {
+      "id": "vocab-n2:1373",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1373",
+      "state": "accepted",
+      "predecessorHash": "c3ce81ee8c856bb4e69f600b9a075caece74963c26cb99a07db5804cb7501a3d",
+      "originalHash": "c3ce81ee8c856bb4e69f600b9a075caece74963c26cb99a07db5804cb7501a3d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "神奈川県では漫画がブームです。",
+            "romaji": "Kanagawaken de wa manga ga buumu desu.",
+            "german": "In der Präfektur Kanagawa gibt es einen Manga-Boom."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "神奈川県 liegt in der Kantō-Region direkt südwestlich von Tokio; Präfekturhauptstadt (県庁所在地) ist 横浜市. Bekannte Orte sind 鎌倉 mit seinem Großen Buddha und das Thermalbadgebiet 箱根. Viele Einwohner pendeln täglich nach Tokio. Im Gespräch sagt man oft nur 神奈川, etwa 神奈川に住んでいます.",
+        "examples": [
+          {
+            "japanese": "神奈川県では漫画がブームです。",
+            "romaji": "Kanagawaken de wa manga ga buumu desu.",
+            "german": "In der Präfektur Kanagawa gibt es einen Manga-Boom."
+          },
+          {
+            "japanese": "神奈川県の県庁所在地は横浜市です。",
+            "romaji": "Kanagawa-ken no kenchou shozaichi wa Yokohama-shi desu.",
+            "german": "Die Hauptstadt der Präfektur Kanagawa ist Yokohama."
+          },
+          {
+            "japanese": "東京の会社に、神奈川県から電車で通っています。",
+            "romaji": "Toukyou no kaisha ni, Kanagawa-ken kara densha de kayotte imasu.",
+            "german": "Ich pendle mit dem Zug aus der Präfektur Kanagawa zu meiner Firma in Tokio."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1364820 sense 1, noun: Kanagawa Prefecture (Kanto area) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 神奈川県 liegt in der Kantō-Region direkt südwestlich von Tokio; Präfekturhauptstadt (県庁所在地) ist 横浜市. Bekannte Orte sind 鎌倉 mit seinem Großen Buddha und das Thermalbadgebiet 箱根. Viele Einwohner pendeln täglich nach Tokio. Im Gespräch sagt man oft nur 神奈川, etwa 神奈川に住んでいます. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1364820; spelling=神奈川県; reading=かながわけん",
+          "selected": {
+            "sequence": "1364820",
+            "spelling": "神奈川県",
+            "reading": "かながわけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Kanagawa Prefecture (Kanto area)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1364820 sense 1, noun: Kanagawa Prefecture (Kanto area)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 神奈川県/かながわけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 神奈川県/かながわけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Präfektur Kanagawa. JMdict 1364820 sense 1, noun: Kanagawa Prefecture (Kanto area)",
+        "japanese": "神奈川県では漫画がブームです。 / 神奈川県の県庁所在地は横浜市です。 / 東京の会社に、神奈川県から電車で通っています。",
+        "romanization": "kanagawaken; Kanagawaken de wa manga ga buumu desu. / Kanagawa-ken no kenchou shozaichi wa Yokohama-shi desu. / Toukyou no kaisha ni, Kanagawa-ken kara densha de kayotte imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der Präfektur Kanagawa gibt es einen Manga-Boom. / Die Hauptstadt der Präfektur Kanagawa ist Yokohama. / Ich pendle mit dem Zug aus der Präfektur Kanagawa zu meiner Firma in Tokio.",
+        "contexts": [
+          "Local trend",
+          "Geography fact",
+          "Daily commute"
+        ],
+        "lexical": "JMdict 1364820 sense 1, noun: Kanagawa Prefecture (Kanto area)",
+        "register": "neutral (place name)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1373 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Local trend; Geography fact; Daily commute), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9b3f21880bb51d6a8456a3e2d87dc5e981a87029eebbc1bd8b24e7360e7e76a3",
+        "approvalHash": "e6df352974f8be2235eb110a5a0cead5a12414adfdca2c9db80bc2fbea2fe9ff"
+      }
+    },
+    {
+      "id": "vocab-n2:1374",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1374",
+      "state": "accepted",
+      "predecessorHash": "d94a2c10d132bed7bcbbb0d1ab5489bbf39f1b43a3124ee4317ddb0e57039276",
+      "originalHash": "d94a2c10d132bed7bcbbb0d1ab5489bbf39f1b43a3124ee4317ddb0e57039276",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女は薔薇の花びらを一枚一枚丁寧に手で摘んでいきます。",
+            "romaji": "Kanojo wa bara no hanabira o ichimai ichimai teinei ni te de tsunde ikimasu.",
+            "german": "Sie pflückt sorgfältig jedes Rosenblatt einzeln von Hand."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摘む heißt „mit den Fingerspitzen pflücken“, etwa Blumen, Kräuter, Teeblätter oder Erdbeeren (花を摘む, 茶を摘む, いちご摘み). Die zweite Bedeutung „abknipsen, stutzen“ steckt in der Redewendung 芽を摘む „im Keim ersticken“ (悪の芽を摘む, auch negativ: 才能の芽を摘む). Achtung: Dasselbe Kanji wird auch für つまむ „mit den Fingern greifen“ verwendet, das man meist in Kana schreibt. Für Obst vom Baum sagt man eher 採る oder もぐ.",
+        "examples": [
+          {
+            "japanese": "彼女は薔薇の花びらを一枚一枚丁寧に手で摘んでいきます。",
+            "romaji": "Kanojo wa bara no hanabira o ichimai ichimai teinei ni te de tsunde ikimasu.",
+            "german": "Sie zupft sorgfältig ein Rosenblütenblatt nach dem anderen von Hand ab."
+          },
+          {
+            "japanese": "子どもたちは野原で花を摘んで、母親にプレゼントした。",
+            "romaji": "Kodomotachi wa nohara de hana o tsunde, hahaoya ni purezento shita.",
+            "german": "Die Kinder pflückten auf der Wiese Blumen und schenkten sie ihrer Mutter."
+          },
+          {
+            "japanese": "問題が大きくなる前に、その芽を摘んでおくべきだ。",
+            "romaji": "Mondai ga ookiku naru mae ni, sono me o tsunde oku beki da.",
+            "german": "Man sollte das Problem im Keim ersticken, bevor es größer wird."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@178030383",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "摘む",
+              "reading": "つむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 摘む/つむ \"pflücken\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1437060 senses 1–2, godan verb: to pick, to pluck; to snip, to nip (芽を摘む) Pitch: Verified [0] via exact UniDic row. 摘む heißt „mit den Fingerspitzen pflücken“, etwa Blumen, Kräuter, Teeblätter oder Erdbeeren (花を摘む, 茶を摘む, いちご摘み). Die zweite Bedeutung „abknipsen, stutzen“ steckt in der Redewendung 芽を摘む „im Keim ersticken“ (悪の芽を摘む, auch negativ: 才能の芽を摘む). Achtung: Dasselbe Kanji wird auch für つまむ „mit den Fingern greifen“ verwendet, das man meist in Kana schreibt. Für Obst vom Baum sagt man eher 採る oder もぐ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437060; spelling=摘む; reading=つむ",
+          "selected": {
+            "sequence": "1437060",
+            "spelling": "摘む",
+            "reading": "つむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pick",
+                  "to pluck"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to snip",
+                  "to cut",
+                  "to nip",
+                  "to trim"
+                ],
+                "notes": [],
+                "stagk": [
+                  "摘む"
+                ],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1437060 senses 1–2, godan verb: to pick, to pluck; to snip, to nip (芽を摘む)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@178030383",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 摘む/ツム; lemma 摘む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "摘む",
+              "reading": "つむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 摘む/つむ \"pflücken\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "pflücken. JMdict 1437060 senses 1–2, godan verb: to pick, to pluck; to snip, to nip (芽を摘む)",
+        "japanese": "彼女は薔薇の花びらを一枚一枚丁寧に手で摘んでいきます。 / 子どもたちは野原で花を摘んで、母親にプレゼントした。 / 問題が大きくなる前に、その芽を摘んでおくべきだ。",
+        "romanization": "tsumu; Kanojo wa bara no hanabira o ichimai ichimai teinei ni te de tsunde ikimasu. / Kodomotachi wa nohara de hana o tsunde, hahaoya ni purezento shita. / Mondai ga ookiku naru mae ni, sono me o tsunde oku beki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie zupft sorgfältig ein Rosenblütenblatt nach dem anderen von Hand ab. / Die Kinder pflückten auf der Wiese Blumen und schenkten sie ihrer Mutter. / Man sollte das Problem im Keim ersticken, bevor es größer wird.",
+        "contexts": [
+          "Plucking rose petals",
+          "Picking flowers for mother",
+          "Nipping a problem in the bud"
+        ],
+        "lexical": "JMdict 1437060 senses 1–2, godan verb: to pick, to pluck; to snip, to nip (芽を摘む)",
+        "register": "neutral",
+        "transitivity": "transitive (X を摘む)",
+        "conjugation": "godan -mu (摘む → 摘んで, 摘まない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1374 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Plucking rose petals; Picking flowers for mother; Nipping a problem in the bud), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c69db8310059b16183dcadab7c8dc49839f21e56b561a1460d1730fdbe0d510c",
+        "approvalHash": "abd6d3fc19a45b1b1f957c30bd680a881a164d43485ca2f51c5800f060ae5466"
+      }
+    },
+    {
+      "id": "vocab-n2:1375",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1375",
+      "state": "accepted",
+      "predecessorHash": "5ee2274146a1af9842551ef1059c14caa94e24cabc92e9106ca3a17ae0b58a38",
+      "originalHash": "5ee2274146a1af9842551ef1059c14caa94e24cabc92e9106ca3a17ae0b58a38",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ちょっと間違いを指摘させてもらってもいいですか。",
+            "romaji": "Chotto machigai o shiteki sa sete moratte mo ii desu ka.",
+            "german": "Hätten Sie etwas dagegen, wenn ich Sie auf Ihre Fehler hinweise?"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "指摘 bedeutet „auf etwas hinweisen, (Fehler, Probleme) aufzeigen“ und wird meist als する-Verb gebraucht: ミスを指摘する, 〜と指摘する „darauf hinweisen, dass…“. Im Passiv 指摘される heißt es „auf etwas hingewiesen werden“, oft unangenehm. In Geschäftssprache ist ご指摘ありがとうございます eine feste Dankesformel für Korrekturen. Anders als 注意する enthält 指摘 keine Ermahnung, sondern nur das Benennen des Problems.",
+        "examples": [
+          {
+            "japanese": "ちょっと間違いを指摘させてもらってもいいですか。",
+            "romaji": "Chotto machigai o shiteki sasete moratte mo ii desu ka.",
+            "german": "Hätten Sie etwas dagegen, wenn ich Sie auf Ihre Fehler hinweise?"
+          },
+          {
+            "japanese": "上司に報告書のミスを指摘された。",
+            "romaji": "Joushi ni houkokusho no misu o shiteki sareta.",
+            "german": "Mein Chef hat mich auf einen Fehler im Bericht hingewiesen."
+          },
+          {
+            "japanese": "専門家は、温暖化の影響が深刻だと指摘している。",
+            "romaji": "Senmonka wa, ondanka no eikyou ga shinkoku da to shiteki shite iru.",
+            "german": "Experten weisen darauf hin, dass die Folgen der Erderwärmung gravierend sind."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136415791",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 指摘/シテキ; lemma 指摘; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "指摘",
+              "reading": "してき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 指摘/してき \"Hinweis\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1309940 sense 1, noun / suru verb: pointing out, identification Pitch: Verified [0] via exact UniDic row. 指摘 bedeutet „auf etwas hinweisen, (Fehler, Probleme) aufzeigen“ und wird meist als する-Verb gebraucht: ミスを指摘する, 〜と指摘する „darauf hinweisen, dass…“. Im Passiv 指摘される heißt es „auf etwas hingewiesen werden“, oft unangenehm. In Geschäftssprache ist ご指摘ありがとうございます eine feste Dankesformel für Korrekturen. Anders als 注意する enthält 指摘 keine Ermahnung, sondern nur das Benennen des Problems. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1309940; spelling=指摘; reading=してき",
+          "selected": {
+            "sequence": "1309940",
+            "spelling": "指摘",
+            "reading": "してき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pointing out",
+                  "identification"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1309940 sense 1, noun / suru verb: pointing out, identification"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 指摘/シテキ; lemma 指摘; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136415791",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 指摘/シテキ; lemma 指摘; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "指摘",
+              "reading": "してき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 指摘/してき \"Hinweis\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hinweis. JMdict 1309940 sense 1, noun / suru verb: pointing out, identification",
+        "japanese": "ちょっと間違いを指摘させてもらってもいいですか。 / 上司に報告書のミスを指摘された。 / 専門家は、温暖化の影響が深刻だと指摘している。",
+        "romanization": "shiteki; Chotto machigai o shiteki sasete moratte mo ii desu ka. / Joushi ni houkokusho no misu o shiteki sareta. / Senmonka wa, ondanka no eikyou ga shinkoku da to shiteki shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Hätten Sie etwas dagegen, wenn ich Sie auf Ihre Fehler hinweise? / Mein Chef hat mich auf einen Fehler im Bericht hingewiesen. / Experten weisen darauf hin, dass die Folgen der Erderwärmung gravierend sind.",
+        "contexts": [
+          "Politely offering corrections",
+          "Feedback from the boss",
+          "Experts' warning in the news"
+        ],
+        "lexical": "JMdict 1309940 sense 1, noun / suru verb: pointing out, identification",
+        "register": "neutral to formal",
+        "transitivity": "transitive as 指摘する (X を指摘する; 〜と指摘する)",
+        "conjugation": "noun; suru verb (指摘する → 指摘して, 指摘される)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1375 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Politely offering corrections; Feedback from the boss; Experts' warning in the news), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "daee51b22475c08c591687399596d98fe19443e3cfc910b3f7e4de5d9e59c4ca",
+        "approvalHash": "a6d48ed61cdc853aa9f37d5c0c4a57610bf4c0c9e0fe0f26f0a545494ed27598"
+      }
+    },
+    {
+      "id": "vocab-n2:1376",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1376",
+      "state": "accepted",
+      "predecessorHash": "8414fcd6d2fb3c62a21f8f74ab92710755936244fbc167072f9d8c30586b32d0",
+      "originalHash": "8414fcd6d2fb3c62a21f8f74ab92710755936244fbc167072f9d8c30586b32d0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "私は警察官ですが、麻薬の密売組織を摘発するような機会に出くわしたことがありません。",
+            "romaji": "Watashi wa keisatsukan desu ga, mayaku no mitsubai soshiki o tekihatsu suru you na kikai ni dekuwashita koto ga arimasen.",
+            "german": "Ich bin Polizist, aber ich hatte noch nie die Gelegenheit, einen Drogenhandelsring auffliegen zu lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摘発する heißt, dass Behörden Straftaten oder Missstände aufdecken und dagegen vorgehen: 警察が密売組織を摘発する, 脱税で摘発される. Es ist ein typisches Nachrichtenwort. 逮捕 ist die Festnahme einer Person, 取り締まる die laufende Kontrolle, 暴く allgemeines „Geheimnisse enthüllen“; wenn ein Insider Missstände meldet, sagt man 内部告発.",
+        "examples": [
+          {
+            "japanese": "私は警察官ですが、麻薬の密売組織を摘発するような機会に出くわしたことがありません。",
+            "romaji": "Watashi wa keisatsukan desu ga, mayaku no mitsubai soshiki o tekihatsu suru you na kikai ni dekuwashita koto ga arimasen.",
+            "german": "Ich bin Polizist, aber ich hatte noch nie die Gelegenheit, einen Drogenhandelsring auffliegen zu lassen."
+          },
+          {
+            "japanese": "警察は違法カジノを摘発し、経営者を逮捕した。",
+            "romaji": "Keisatsu wa ihou kajino o tekihatsu shi, keieisha o taiho shita.",
+            "german": "Die Polizei hob ein illegales Casino aus und verhaftete den Betreiber."
+          },
+          {
+            "japanese": "その会社は脱税で摘発された。",
+            "romaji": "Sono kaisha wa datsuzei de tekihatsu sareta.",
+            "german": "Die Firma flog wegen Steuerhinterziehung auf."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1437080 sense 1, noun / suru verb: exposing, unmasking, cracking down on (crime) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 摘発する heißt, dass Behörden Straftaten oder Missstände aufdecken und dagegen vorgehen: 警察が密売組織を摘発する, 脱税で摘発される. Es ist ein typisches Nachrichtenwort. 逮捕 ist die Festnahme einer Person, 取り締まる die laufende Kontrolle, 暴く allgemeines „Geheimnisse enthüllen“; wenn ein Insider Missstände meldet, sagt man 内部告発. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437080; spelling=摘発する; reading=てきはつする",
+          "finding": "JMdict 1437080 sense 1, noun / suru verb: exposing, unmasking, cracking down on (crime)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 摘発する/てきはつする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 摘発する/てきはつする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%91%98%E7%99%BA%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 摘発する/てきはつする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 50a8be3af3e32e44b226025bbdb6e2388ad5d1e17aff3edf3898eff42a2979f6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%91%98%E7%99%BA%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 摘発する/てきはつする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "aufdecken. JMdict 1437080 sense 1, noun / suru verb: exposing, unmasking, cracking down on (crime)",
+        "japanese": "私は警察官ですが、麻薬の密売組織を摘発するような機会に出くわしたことがありません。 / 警察は違法カジノを摘発し、経営者を逮捕した。 / その会社は脱税で摘発された。",
+        "romanization": "tekihatsusuru; Watashi wa keisatsukan desu ga, mayaku no mitsubai soshiki o tekihatsu suru you na kikai ni dekuwashita koto ga arimasen. / Keisatsu wa ihou kajino o tekihatsu shi, keieisha o taiho shita. / Sono kaisha wa datsuzei de tekihatsu sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin Polizist, aber ich hatte noch nie die Gelegenheit, einen Drogenhandelsring auffliegen zu lassen. / Die Polizei hob ein illegales Casino aus und verhaftete den Betreiber. / Die Firma flog wegen Steuerhinterziehung auf.",
+        "contexts": [
+          "Police officer's career",
+          "Raid on an illegal casino",
+          "Tax evasion scandal"
+        ],
+        "lexical": "JMdict 1437080 sense 1, noun / suru verb: exposing, unmasking, cracking down on (crime)",
+        "register": "formal (news, legal)",
+        "transitivity": "transitive (X を摘発する); passive 摘発される",
+        "conjugation": "suru verb (摘発する → 摘発して, 摘発される)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1376 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Police officer's career; Raid on an illegal casino; Tax evasion scandal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "69b38c4b3bfa0ab4067c73f925f574dd8866b459429d827f8657b86aaff33f5e",
+        "approvalHash": "ad36e348a7d919fbccc6c6de02c87da7b0bff294c078e9680eb1593d54c58e21"
+      }
+    },
+    {
+      "id": "vocab-n2:1377",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1377",
+      "state": "accepted",
+      "predecessorHash": "acafde4fb4d52998a42545cd047c99ba22b70d53df5252e22843b6acb6be4b62",
+      "originalHash": "acafde4fb4d52998a42545cd047c99ba22b70d53df5252e22843b6acb6be4b62",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "核兵器を使用する前に、説明書に書かれている操作方法を必ずお読みください。",
+            "romaji": "Kakuheiki o shiyou suru mae ni, setsumeisho ni kaka rete iru sousa houhou o kanarazu o yomi kudasai.",
+            "german": "Bitte lesen Sie vor Gebrauch der Atomwaffe die Bedienungsanleitung sorgfältig durch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "核兵器 sind Atom- bzw. Kernwaffen; 核 bedeutet „Kern“. Typische Verbindungen: 核兵器を保有する „besitzen“, 核兵器の廃絶 „Abschaffung“, 核兵器を持たない国. Japan vertritt die 非核三原則 „drei nichtnuklearen Prinzipien“. 原爆 bezeichnet konkret die Atombombe (z. B. Hiroshima). Achtung: 核家族 heißt „Kleinfamilie“ und hat mit Waffen nichts zu tun.",
+        "examples": [
+          {
+            "japanese": "核兵器を使用する前に、説明書に書かれている操作方法を必ずお読みください。",
+            "romaji": "Kakuheiki o shiyou suru mae ni, setsumeisho ni kaka rete iru sousa houhou o kanarazu o yomi kudasai.",
+            "german": "Bitte lesen Sie vor Gebrauch der Atomwaffe die Bedienungsanleitung sorgfältig durch."
+          },
+          {
+            "japanese": "世界から核兵器をなくすことを目指している。",
+            "romaji": "Sekai kara kakuheiki o nakusu koto o mezashite iru.",
+            "german": "Wir setzen uns dafür ein, Atomwaffen aus der Welt zu schaffen."
+          },
+          {
+            "japanese": "現在、核兵器を保有している国は九か国あると言われている。",
+            "romaji": "Genzai, kakuheiki o hoyuu shite iru kuni wa kyuukakoku aru to iwarete iru.",
+            "german": "Derzeit sollen neun Länder Atomwaffen besitzen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1205700 sense 1, noun: nuclear weapon Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 核兵器 sind Atom- bzw. Kernwaffen; 核 bedeutet „Kern“. Typische Verbindungen: 核兵器を保有する „besitzen“, 核兵器の廃絶 „Abschaffung“, 核兵器を持たない国. Japan vertritt die 非核三原則 „drei nichtnuklearen Prinzipien“. 原爆 bezeichnet konkret die Atombombe (z. B. Hiroshima). Achtung: 核家族 heißt „Kleinfamilie“ und hat mit Waffen nichts zu tun. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1205700; spelling=核兵器; reading=かくへいき",
+          "selected": {
+            "sequence": "1205700",
+            "spelling": "核兵器",
+            "reading": "かくへいき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nuclear weapon"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1205700 sense 1, noun: nuclear weapon"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 核兵器/かくへいき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A0%B8%E5%85%B5%E5%99%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 核兵器/かくへいき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Atomwaffen. JMdict 1205700 sense 1, noun: nuclear weapon",
+        "japanese": "核兵器を使用する前に、説明書に書かれている操作方法を必ずお読みください。 / 世界から核兵器をなくすことを目指している。 / 現在、核兵器を保有している国は九か国あると言われている。",
+        "romanization": "kakuheiki; Kakuheiki o shiyou suru mae ni, setsumeisho ni kaka rete iru sousa houhou o kanarazu o yomi kudasai. / Sekai kara kakuheiki o nakusu koto o mezashite iru. / Genzai, kakuheiki o hoyuu shite iru kuni wa kyuukakoku aru to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte lesen Sie vor Gebrauch der Atomwaffe die Bedienungsanleitung sorgfältig durch. / Wir setzen uns dafür ein, Atomwaffen aus der Welt zu schaffen. / Derzeit sollen neun Länder Atomwaffen besitzen.",
+        "contexts": [
+          "Absurd user manual",
+          "Disarmament goal",
+          "Nuclear-armed states"
+        ],
+        "lexical": "JMdict 1205700 sense 1, noun: nuclear weapon",
+        "register": "neutral to formal (news, politics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1377 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Absurd user manual; Disarmament goal; Nuclear-armed states), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3f747bd7d1afc9e5854c6520afd35d7bc856a1c3d98e890040b192487bb4de64",
+        "approvalHash": "fad5c3ce0e327c498bc7ec6415c3671ee359c3dad935dc5a03da518ae6231049"
+      }
+    },
+    {
+      "id": "vocab-n2:1378",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1378",
+      "state": "accepted",
+      "predecessorHash": "9afe9906bb221978e795f21965e6f2baa27a75f9dc6fec07dd97070546524112",
+      "originalHash": "9afe9906bb221978e795f21965e6f2baa27a75f9dc6fec07dd97070546524112",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "予算の都合上、核実験への臨時スタッフの採用は増やせない。",
+            "romaji": "Yosan no tsugoujou, kaku jikken e no rinji sutaffu no saiyou wa fuyasenai.",
+            "german": "Aus Budgetgründen können wir die Anzahl der Aushilfskräfte für Atomtests nicht erhöhen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "核実験 ist ein Atomwaffentest. Man sagt 核実験を行う oder 核実験を実施する; in Nachrichten liest man auch 地下核実験 „unterirdischer Atomtest“ und 核実験の禁止. Das Wort gehört zur politischen und Nachrichtensprache. Allgemeiner ist 実験 „Experiment“; 核 als Präfix bildet weitere Begriffe wie 核兵器 und 核戦争.",
+        "examples": [
+          {
+            "japanese": "その国は国際社会の反対を無視して核実験を行った。",
+            "romaji": "Sono kuni wa kokusai shakai no hantai o mushi shite kakujikken o okonatta.",
+            "german": "Das Land führte trotz des Widerstands der internationalen Gemeinschaft einen Atomtest durch."
+          },
+          {
+            "japanese": "核実験の影響で、周辺の住民に健康被害が出た。",
+            "romaji": "Kakujikken no eikyou de, shuuhen no juumin ni kenkou higai ga deta.",
+            "german": "Infolge der Atomtests erlitten die Anwohner der Umgebung gesundheitliche Schäden."
+          },
+          {
+            "japanese": "核実験の全面禁止を求める声が高まっている。",
+            "romaji": "Kakujikken no zenmen kinshi o motomeru koe ga takamatte iru.",
+            "german": "Die Forderungen nach einem vollständigen Verbot von Atomtests werden lauter."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1205580 sense 1, noun: nuclear (bomb) test Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 核実験 ist ein Atomwaffentest. Man sagt 核実験を行う oder 核実験を実施する; in Nachrichten liest man auch 地下核実験 „unterirdischer Atomtest“ und 核実験の禁止. Das Wort gehört zur politischen und Nachrichtensprache. Allgemeiner ist 実験 „Experiment“; 核 als Präfix bildet weitere Begriffe wie 核兵器 und 核戦争. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1205580; spelling=核実験; reading=かくじっけん",
+          "selected": {
+            "sequence": "1205580",
+            "spelling": "核実験",
+            "reading": "かくじっけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "nuclear (bomb) test"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1205580 sense 1, noun: nuclear (bomb) test"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 核実験/かくじっけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A0%B8%E5%AE%9F%E9%A8%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 核実験/かくじっけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Atomtest. JMdict 1205580 sense 1, noun: nuclear (bomb) test",
+        "japanese": "その国は国際社会の反対を無視して核実験を行った。 / 核実験の影響で、周辺の住民に健康被害が出た。 / 核実験の全面禁止を求める声が高まっている。",
+        "romanization": "kakujikken; Sono kuni wa kokusai shakai no hantai o mushi shite kakujikken o okonatta. / Kakujikken no eikyou de, shuuhen no juumin ni kenkou higai ga deta. / Kakujikken no zenmen kinshi o motomeru koe ga takamatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Land führte trotz des Widerstands der internationalen Gemeinschaft einen Atomtest durch. / Infolge der Atomtests erlitten die Anwohner der Umgebung gesundheitliche Schäden. / Die Forderungen nach einem vollständigen Verbot von Atomtests werden lauter.",
+        "contexts": [
+          "International news",
+          "Health effects on residents",
+          "Calls for a test ban"
+        ],
+        "lexical": "JMdict 1205580 sense 1, noun: nuclear (bomb) test",
+        "register": "formal (news, politics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1378 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (International news; Health effects on residents; Calls for a test ban), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "302df21a1115b3f3d8e7cd1032ccbf09eadc417ed944b6144a5136e4de01ce59",
+        "approvalHash": "9d200588290cd64df6794b3ce3bddd65bf4900ff7504120b78fa7397fdca863d"
+      }
+    },
+    {
+      "id": "vocab-n2:1380",
+      "revisionId": "197g-n2-enrichment-vocab-n2-1380",
+      "state": "accepted",
+      "predecessorHash": "47b4b9a8eabd1afea52cd08a23da533677a03fa48fd830886ff9274119338f16",
+      "originalHash": "47b4b9a8eabd1afea52cd08a23da533677a03fa48fd830886ff9274119338f16",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "車が移動献血車に衝突するのを見ました。",
+            "romaji": "Kuruma ga idou kenketsusha ni shoutotsu suru no o mimashita.",
+            "german": "Ich sah, wie ein Auto gegen den mobilen Blutspendebus fuhr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "献血 (献 „darbringen“ + 血 „Blut“) ist die Blutspende; als intransitives する-Verb: 献血する, 献血に行く. Gespendet wird in 献血ルーム oder im mobilen 献血車. Davon zu unterscheiden sind 輸血 „Bluttransfusion“ (man bekommt Blut) und 採血 „Blutabnahme“ für Untersuchungen. Ähnlich gebildet ist 献金 „Geldspende“.",
+        "examples": [
+          {
+            "japanese": "車が移動献血車に衝突するのを見ました。",
+            "romaji": "Kuruma ga idou kenketsusha ni shoutotsu suru no o mimashita.",
+            "german": "Ich sah, wie ein Auto gegen den mobilen Blutspendebus fuhr."
+          },
+          {
+            "japanese": "駅前の献血ルームで献血をしてきた。",
+            "romaji": "Ekimae no kenketsu ruumu de kenketsu o shite kita.",
+            "german": "Ich war im Blutspendezentrum am Bahnhof Blut spenden."
+          },
+          {
+            "japanese": "体重が少ない人は献血できないことがある。",
+            "romaji": "Taijuu ga sukunai hito wa kenketsu dekinai koto ga aru.",
+            "german": "Menschen mit geringem Körpergewicht dürfen manchmal kein Blut spenden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 85e60b7b5b235f505e94738ec5baede9f8806bc16f657b52007f17073a74c8e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8C%AE%E8%A1%80#word_5783",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 献血/けんけつ read; accent_top positions [0] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 献血/ケンケツ; lemma 献血; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer.",
+            "match": {
+              "word": "献血",
+              "reading": "けんけつ",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 献血/けんけつ \"Blutspende\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1258430 sense 1, noun / suru verb: blood donation Pitch: Verified [0] via exact OJAD dictionary-form cell. 献血 (献 „darbringen“ + 血 „Blut“) ist die Blutspende; als intransitives する-Verb: 献血する, 献血に行く. Gespendet wird in 献血ルーム oder im mobilen 献血車. Davon zu unterscheiden sind 輸血 „Bluttransfusion“ (man bekommt Blut) und 採血 „Blutabnahme“ für Untersuchungen. Ähnlich gebildet ist 献金 „Geldspende“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1258430; spelling=献血; reading=けんけつ",
+          "selected": {
+            "sequence": "1258430",
+            "spelling": "献血",
+            "reading": "けんけつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "blood donation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1258430 sense 1, noun / suru verb: blood donation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 献血/けんけつ read; accent_top positions [0] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 献血/ケンケツ; lemma 献血; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 85e60b7b5b235f505e94738ec5baede9f8806bc16f657b52007f17073a74c8e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8C%AE%E8%A1%80#word_5783",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 献血/けんけつ read; accent_top positions [0] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 献血/ケンケツ; lemma 献血; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer.",
+            "match": {
+              "word": "献血",
+              "reading": "けんけつ",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 献血/けんけつ \"Blutspende\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "Blutspende. JMdict 1258430 sense 1, noun / suru verb: blood donation",
+        "japanese": "車が移動献血車に衝突するのを見ました。 / 駅前の献血ルームで献血をしてきた。 / 体重が少ない人は献血できないことがある。",
+        "romanization": "kenketsu; Kuruma ga idou kenketsusha ni shoutotsu suru no o mimashita. / Ekimae no kenketsu ruumu de kenketsu o shite kita. / Taijuu ga sukunai hito wa kenketsu dekinai koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich sah, wie ein Auto gegen den mobilen Blutspendebus fuhr. / Ich war im Blutspendezentrum am Bahnhof Blut spenden. / Menschen mit geringem Körpergewicht dürfen manchmal kein Blut spenden.",
+        "contexts": [
+          "Witnessing an accident",
+          "Donating blood after work",
+          "Eligibility rules"
+        ],
+        "lexical": "JMdict 1258430 sense 1, noun / suru verb: blood donation",
+        "register": "neutral",
+        "transitivity": "intransitive as 献血する",
+        "conjugation": "noun; suru verb (献血する → 献血して, 献血できる)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1380 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Witnessing an accident; Donating blood after work; Eligibility rules), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ff8718f934985ac2a8c030b1ca9b76623df9fce51ead3e908a8f0197c9c33305",
+        "approvalHash": "6dae016b158a71ff45aea21945d41b05985ce1b50d85ff75bca1b378471f5b0a"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

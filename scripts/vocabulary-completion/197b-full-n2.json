@@ -1,0 +1,2879 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1226",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1226",
+      "state": "accepted",
+      "predecessorHash": "c85c976193f356db5ea3360b2483efd1fae1f21457ff5b9c9aec7d676a3b64ff",
+      "originalHash": "c85c976193f356db5ea3360b2483efd1fae1f21457ff5b9c9aec7d676a3b64ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "理論的には可能だが実行は難しい。",
+            "romaji": "Rironteki ni wa kanō da ga jikkō wa muzukashii.",
+            "german": "Theoretisch ist es möglich, aber die Umsetzung ist schwierig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "理論的な heißt „theoretisch, auf Theorie beruhend“: 理論的な研究, 理論的に説明する. Sehr häufig ist 理論的には „theoretisch (aber praktisch nicht)“, gleichbedeutend mit 理論上は. Gegenstück ist 実践的 bzw. 実際的. Nicht verwechseln mit 論理的 „logisch“ – die beiden Wörter haben dieselben Kanji in umgekehrter Reihenfolge.",
+        "examples": [
+          {
+            "japanese": "理論的には可能だが実行は難しい。",
+            "romaji": "Rironteki ni wa kanō da ga jikkō wa muzukashii.",
+            "german": "Theoretisch ist es möglich, aber die Umsetzung ist schwierig."
+          },
+          {
+            "japanese": "理論的な研究と実験の両方が必要だ。",
+            "romaji": "Rironteki na kenkyū to jikken no ryōhō ga hitsuyō da.",
+            "german": "Man braucht sowohl theoretische Forschung als auch Experimente."
+          },
+          {
+            "japanese": "先生はその現象を理論的に説明してくれた。",
+            "romaji": "Sensei wa sono genshō o rironteki ni setsumei shite kureta.",
+            "german": "Der Lehrer hat uns das Phänomen theoretisch erklärt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1795880, na-adjective: theoretical Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 理論的な heißt „theoretisch, auf Theorie beruhend“: 理論的な研究, 理論的に説明する. Sehr häufig ist 理論的には „theoretisch (aber praktisch nicht)“, gleichbedeutend mit 理論上は. Gegenstück ist 実践的 bzw. 実際的. Nicht verwechseln mit 論理的 „logisch“ – die beiden Wörter haben dieselben Kanji in umgekehrter Reihenfolge. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1795880; spelling=理論的な; reading=りろんてきな",
+          "finding": "JMdict 1795880, na-adjective: theoretical"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 理論的な/りろんてきな scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (理論的[な]); none is the exact head 理論的な/りろんてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%90%86%E8%AB%96%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 理論的な/りろんてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 3f4c8a2acee7f1843155b02ace60c6e11251febb6061ed7190633de4f4e39090",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%90%86%E8%AB%96%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (理論的[な]); none is the exact head 理論的な/りろんてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "theoretisch. JMdict 1795880, na-adjective: theoretical",
+        "japanese": "理論的には可能だが実行は難しい。 / 理論的な研究と実験の両方が必要だ。 / 先生はその現象を理論的に説明してくれた。",
+        "romanization": "rironteki na; Rironteki ni wa kanō da ga jikkō wa muzukashii. / Rironteki na kenkyū to jikken no ryōhō ga hitsuyō da. / Sensei wa sono genshō o rironteki ni setsumei shite kureta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Theoretisch ist es möglich, aber die Umsetzung ist schwierig. / Man braucht sowohl theoretische Forschung als auch Experimente. / Der Lehrer hat uns das Phänomen theoretisch erklärt.",
+        "contexts": [
+          "Feasibility of a plan",
+          "Research approach",
+          "Physics lesson"
+        ],
+        "lexical": "JMdict 1795880, na-adjective: theoretical",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (理論的な, 理論的に, 理論的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1226 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Feasibility of a plan; Research approach; Physics lesson), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "70e67b4ee4a9316e6a128d8db6d64763358a9157589a3982f2417b2adef463cb",
+        "approvalHash": "7325ace519e10c8523d4444d2a09062f7b3f41972a986b3360baba638ca86b0d"
+      }
+    },
+    {
+      "id": "vocab-n2:1227",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1227",
+      "state": "accepted",
+      "predecessorHash": "385bb4e051d5ab02f8b81f6f7ea26db59c9331ec83f527c1cfb45f61b0cb37dd",
+      "originalHash": "385bb4e051d5ab02f8b81f6f7ea26db59c9331ec83f527c1cfb45f61b0cb37dd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "実践的なスキルを身につける。",
+            "romaji": "Jissenteki na sukiru o mi ni tsukeru.",
+            "german": "Praktische Fähigkeiten erwerben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "実践的な heißt „praxisnah, praktisch anwendbar“ und beschreibt Wissen, Fähigkeiten und Unterricht: 実践的なスキル, 実践的な英語, 実践的な訓練. Gegenstück ist 理論的. 実用的 meint dagegen „praktisch, nützlich“ bei Gegenständen (実用的なカバン). Grundwort: 実践 „Praxis, Umsetzung“ (実践する „in die Tat umsetzen“).",
+        "examples": [
+          {
+            "japanese": "実践的なスキルを身につける。",
+            "romaji": "Jissenteki na sukiru o mi ni tsukeru.",
+            "german": "Praktische Fähigkeiten erwerben."
+          },
+          {
+            "japanese": "この講座では実践的な会話を中心に学ぶ。",
+            "romaji": "Kono kōza de wa jissenteki na kaiwa o chūshin ni manabu.",
+            "german": "In diesem Kurs lernt man vor allem praxisnahe Konversation."
+          },
+          {
+            "japanese": "理論だけでなく、実践的な経験も大切だ。",
+            "romaji": "Riron dake de naku, jissenteki na keiken mo taisetsu da.",
+            "german": "Nicht nur Theorie, auch praktische Erfahrung ist wichtig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1321270, na-adjective: practical, pragmatic, hands-on Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 実践的な heißt „praxisnah, praktisch anwendbar“ und beschreibt Wissen, Fähigkeiten und Unterricht: 実践的なスキル, 実践的な英語, 実践的な訓練. Gegenstück ist 理論的. 実用的 meint dagegen „praktisch, nützlich“ bei Gegenständen (実用的なカバン). Grundwort: 実践 „Praxis, Umsetzung“ (実践する „in die Tat umsetzen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1321270; spelling=実践的な; reading=じっせんてきな",
+          "finding": "JMdict 1321270, na-adjective: practical, pragmatic, hands-on"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 実践的な/じっせんてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 実践的な/じっせんてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 実践的な/じっせんてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 97e2ca211f9f71bb2460b81d1e9d33c7488bc2da9b838429af720e4468cf081c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%9F%E8%B7%B5%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 実践的な/じっせんてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "praktisch; praxisnah. JMdict 1321270, na-adjective: practical, pragmatic, hands-on",
+        "japanese": "実践的なスキルを身につける。 / この講座では実践的な会話を中心に学ぶ。 / 理論だけでなく、実践的な経験も大切だ。",
+        "romanization": "jissenteki na; Jissenteki na sukiru o mi ni tsukeru. / Kono kōza de wa jissenteki na kaiwa o chūshin ni manabu. / Riron dake de naku, jissenteki na keiken mo taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Praktische Fähigkeiten erwerben. / In diesem Kurs lernt man vor allem praxisnahe Konversation. / Nicht nur Theorie, auch praktische Erfahrung ist wichtig.",
+        "contexts": [
+          "Career skills",
+          "Language course",
+          "Theory versus practice"
+        ],
+        "lexical": "JMdict 1321270, na-adjective: practical, pragmatic, hands-on",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (実践的な, 実践的に, 実践的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1227 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Career skills; Language course; Theory versus practice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1877b5f32fd389ecc591d8f9946036f8c56d404d38534a9066bf70f25ccdb597",
+        "approvalHash": "a179d075b060634e6a5779e01e42424181c8e5d066b534be533772203bab88cc"
+      }
+    },
+    {
+      "id": "vocab-n2:1228",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1228",
+      "state": "accepted",
+      "predecessorHash": "5f2fa6d0dbf35b3bd53bdb5494fe305872c6070a2dcda827db368badd74f009d",
+      "originalHash": "5f2fa6d0dbf35b3bd53bdb5494fe305872c6070a2dcda827db368badd74f009d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "もっと現実的な目標を設定しよう。",
+            "romaji": "Motto genjitsuteki na mokuhyō o settei shiyō.",
+            "german": "Lasst uns realistischere Ziele setzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "現実的な heißt „realistisch, wirklichkeitsnah“: 現実的な目標, 現実的な案, 現実的に考える „realistisch betrachtet“. Es kann auch „nüchtern, pragmatisch“ als Charakterzug bedeuten (彼は現実的な人だ). Gegenteil: 非現実的 oder 理想的 im Sinne von „idealistisch“. Grundwort: 現実 „Wirklichkeit“.",
+        "examples": [
+          {
+            "japanese": "もっと現実的な目標を設定しよう。",
+            "romaji": "Motto genjitsuteki na mokuhyō o settei shiyō.",
+            "german": "Lasst uns realistischere Ziele setzen."
+          },
+          {
+            "japanese": "現実的に考えると、今年中の完成は難しい。",
+            "romaji": "Genjitsuteki ni kangaeru to, kotoshijū no kansei wa muzukashii.",
+            "german": "Realistisch betrachtet ist eine Fertigstellung noch in diesem Jahr schwierig."
+          },
+          {
+            "japanese": "彼は夢を追うより、現実的な道を選んだ。",
+            "romaji": "Kare wa yume o ou yori, genjitsuteki na michi o eranda.",
+            "german": "Statt seinem Traum nachzujagen, wählte er einen realistischen Weg."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1263730, na-adjective: realistic, pragmatic Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 現実的な heißt „realistisch, wirklichkeitsnah“: 現実的な目標, 現実的な案, 現実的に考える „realistisch betrachtet“. Es kann auch „nüchtern, pragmatisch“ als Charakterzug bedeuten (彼は現実的な人だ). Gegenteil: 非現実的 oder 理想的 im Sinne von „idealistisch“. Grundwort: 現実 „Wirklichkeit“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1263730; spelling=現実的な; reading=げんじつてきな",
+          "finding": "JMdict 1263730, na-adjective: realistic, pragmatic"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 現実的な/げんじつてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 現実的な/げんじつてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%8F%BE%E5%AE%9F%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 現実的な/げんじつてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 cfc3335b9a174ef1b6eef69785ab29a207a0b5e06d85d5ada78b20fc76aaf7fe",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8F%BE%E5%AE%9F%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 現実的な/げんじつてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "realistisch. JMdict 1263730, na-adjective: realistic, pragmatic",
+        "japanese": "もっと現実的な目標を設定しよう。 / 現実的に考えると、今年中の完成は難しい。 / 彼は夢を追うより、現実的な道を選んだ。",
+        "romanization": "genjitsuteki na; Motto genjitsuteki na mokuhyō o settei shiyō. / Genjitsuteki ni kangaeru to, kotoshijū no kansei wa muzukashii. / Kare wa yume o ou yori, genjitsuteki na michi o eranda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Lasst uns realistischere Ziele setzen. / Realistisch betrachtet ist eine Fertigstellung noch in diesem Jahr schwierig. / Statt seinem Traum nachzujagen, wählte er einen realistischen Weg.",
+        "contexts": [
+          "Goal setting",
+          "Project deadline",
+          "Career choice"
+        ],
+        "lexical": "JMdict 1263730, na-adjective: realistic, pragmatic",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (現実的な, 現実的に, 現実的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1228 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Goal setting; Project deadline; Career choice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8020db6f4a71be3cd15c95944fe8d8f4ec1440325b1742bc2b8a0c0e6daeb72b",
+        "approvalHash": "488e81673d197ee0ced4813bf784a670c3428dec32d99431d83e668954a5f7a3"
+      }
+    },
+    {
+      "id": "vocab-n2:1229",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1229",
+      "state": "accepted",
+      "predecessorHash": "9fffd88beb610d2353398bdcfd3fb6272bdc62fa8850588a638e9f5a58a6cff8",
+      "originalHash": "9fffd88beb610d2353398bdcfd3fb6272bdc62fa8850588a638e9f5a58a6cff8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "その計画は非現実的だ。",
+            "romaji": "Sono keikaku wa higenjitsuteki da.",
+            "german": "Dieser Plan ist unrealistisch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "非現実的な ist die Verneinung von 現実的 mit der Vorsilbe 非 „nicht“. Meist heißt es „unrealistisch, nicht machbar“ (非現実的な計画, 非現実的な目標); es kann aber auch „unwirklich, wie im Traum“ bedeuten, etwa bei Landschaften oder Erlebnissen. Ähnlich: 現実離れした „wirklichkeitsfremd“.",
+        "examples": [
+          {
+            "japanese": "その計画は非現実的だ。",
+            "romaji": "Sono keikaku wa higenjitsuteki da.",
+            "german": "Dieser Plan ist unrealistisch."
+          },
+          {
+            "japanese": "一か月で十キロ痩せるなんて、非現実的な目標だ。",
+            "romaji": "Ikkagetsu de jukkiro yaseru nante, higenjitsuteki na mokuhyō da.",
+            "german": "In einem Monat zehn Kilo abzunehmen ist ein unrealistisches Ziel."
+          },
+          {
+            "japanese": "目の前に、映画のような非現実的な光景が広がっていた。",
+            "romaji": "Me no mae ni, eiga no yō na higenjitsuteki na kōkei ga hirogatte ita.",
+            "german": "Vor mir breitete sich eine unwirkliche Szenerie wie aus einem Film aus."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1484830, na-adjective: unrealistic, impractical; unreal Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 非現実的な ist die Verneinung von 現実的 mit der Vorsilbe 非 „nicht“. Meist heißt es „unrealistisch, nicht machbar“ (非現実的な計画, 非現実的な目標); es kann aber auch „unwirklich, wie im Traum“ bedeuten, etwa bei Landschaften oder Erlebnissen. Ähnlich: 現実離れした „wirklichkeitsfremd“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1484830; spelling=非現実的な; reading=ひげんじつてきな",
+          "finding": "JMdict 1484830, na-adjective: unrealistic, impractical; unreal"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 非現実的な/ひげんじつてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 非現実的な/ひげんじつてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9D%9E%E7%8F%BE%E5%AE%9F%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 非現実的な/ひげんじつてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 ab2f67baf801e8bb70b2503c7719c1020e6f5579b347b8ee0ba7af3f363d1bd3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%9D%9E%E7%8F%BE%E5%AE%9F%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 非現実的な/ひげんじつてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "unrealistisch. JMdict 1484830, na-adjective: unrealistic, impractical; unreal",
+        "japanese": "その計画は非現実的だ。 / 一か月で十キロ痩せるなんて、非現実的な目標だ。 / 目の前に、映画のような非現実的な光景が広がっていた。",
+        "romanization": "higenjitsuteki na; Sono keikaku wa higenjitsuteki da. / Ikkagetsu de jukkiro yaseru nante, higenjitsuteki na mokuhyō da. / Me no mae ni, eiga no yō na higenjitsuteki na kōkei ga hirogatte ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dieser Plan ist unrealistisch. / In einem Monat zehn Kilo abzunehmen ist ein unrealistisches Ziel. / Vor mir breitete sich eine unwirkliche Szenerie wie aus einem Film aus.",
+        "contexts": [
+          "Rejecting a plan",
+          "Diet goal",
+          "Surreal scenery"
+        ],
+        "lexical": "JMdict 1484830, na-adjective: unrealistic, impractical; unreal",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (非現実的な, 非現実的に, 非現実的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1229 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rejecting a plan; Diet goal; Surreal scenery), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "24f4c3e4991049b6a0395530fb8b0159321db8154a2f178da802282cd382c5e8",
+        "approvalHash": "16030be90fcd0b13ffc10c191fae8268280acddcb27cf0d340ff25c30ac41eb8"
+      }
+    },
+    {
+      "id": "vocab-n2:1230",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1230",
+      "state": "accepted",
+      "predecessorHash": "e00866a5b076b3b847dd40511db72198387d085d0f7fbccf1f97ad9c5de5f555",
+      "originalHash": "e00866a5b076b3b847dd40511db72198387d085d0f7fbccf1f97ad9c5de5f555",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女はいつも楽観的な考え方をする。",
+            "romaji": "Kanojo wa itsumo rakkanteki na kangaekata o suru.",
+            "german": "Sie hat immer eine optimistische Denkweise."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "楽観的な heißt „optimistisch“ und beschreibt eine Sichtweise auf künftige Entwicklungen: 楽観的な見方, 楽観的に考える, 見通しは楽観的だ. Gegenteil: 悲観的. Das Verb 楽観する bzw. 楽観視する bedeutet „zuversichtlich sehen“, oft verneint: 楽観できない. 楽天的 beschreibt eher ein grundsätzlich sorgloses Naturell.",
+        "examples": [
+          {
+            "japanese": "彼女はいつも楽観的な考え方をする。",
+            "romaji": "Kanojo wa itsumo rakkanteki na kangaekata o suru.",
+            "german": "Sie hat immer eine optimistische Denkweise."
+          },
+          {
+            "japanese": "専門家は景気の回復について楽観的な見方をしている。",
+            "romaji": "Senmonka wa keiki no kaifuku ni tsuite rakkanteki na mikata o shite iru.",
+            "german": "Experten sehen die wirtschaftliche Erholung optimistisch."
+          },
+          {
+            "japanese": "そんなに楽観的に考えていると、後で困るよ。",
+            "romaji": "Sonna ni rakkanteki ni kangaete iru to, ato de komaru yo.",
+            "german": "Wenn du das so optimistisch siehst, bekommst du später Probleme."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1207320, na-adjective: optimistic, hopeful Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 楽観的な heißt „optimistisch“ und beschreibt eine Sichtweise auf künftige Entwicklungen: 楽観的な見方, 楽観的に考える, 見通しは楽観的だ. Gegenteil: 悲観的. Das Verb 楽観する bzw. 楽観視する bedeutet „zuversichtlich sehen“, oft verneint: 楽観できない. 楽天的 beschreibt eher ein grundsätzlich sorgloses Naturell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1207320; spelling=楽観的な; reading=らっかんてきな",
+          "finding": "JMdict 1207320, na-adjective: optimistic, hopeful"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 楽観的な/らっかんてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 楽観的な/らっかんてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A5%BD%E8%A6%B3%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 楽観的な/らっかんてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 03cbbca50a239add3e0622d27a88860dae7a84dd24f84cea2bc4935f0196774d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%A5%BD%E8%A6%B3%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 楽観的な/らっかんてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "optimistisch. JMdict 1207320, na-adjective: optimistic, hopeful",
+        "japanese": "彼女はいつも楽観的な考え方をする。 / 専門家は景気の回復について楽観的な見方をしている。 / そんなに楽観的に考えていると、後で困るよ。",
+        "romanization": "rakkanteki na; Kanojo wa itsumo rakkanteki na kangaekata o suru. / Senmonka wa keiki no kaifuku ni tsuite rakkanteki na mikata o shite iru. / Sonna ni rakkanteki ni kangaete iru to, ato de komaru yo. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie hat immer eine optimistische Denkweise. / Experten sehen die wirtschaftliche Erholung optimistisch. / Wenn du das so optimistisch siehst, bekommst du später Probleme.",
+        "contexts": [
+          "Describing a friend",
+          "Economic forecast",
+          "Warning someone"
+        ],
+        "lexical": "JMdict 1207320, na-adjective: optimistic, hopeful",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (楽観的な, 楽観的に, 楽観的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1230 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing a friend; Economic forecast; Warning someone), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b1044dfd895078e2decbdaa0f95f07b75fc6f5c40bdc3a3f86e33021417f4e94",
+        "approvalHash": "66a76fafca102916fb2027a55ae5efa8067610647df603a057ab72da32359682"
+      }
+    },
+    {
+      "id": "vocab-n2:1231",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1231",
+      "state": "accepted",
+      "predecessorHash": "bfaf47d1f219067c1096f03014a2995e51eae838c7f1797f4072d856aaa7baa5",
+      "originalHash": "bfaf47d1f219067c1096f03014a2995e51eae838c7f1797f4072d856aaa7baa5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "あまり悲観的にならないでください。",
+            "romaji": "Amari hikanteki ni naranaide kudasai.",
+            "german": "Bitte werden Sie nicht zu pessimistisch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "悲観的な heißt „pessimistisch, düster“: 悲観的な見方, 悲観的になる, 将来に悲観的だ. Gegenteil: 楽観的. Das Verb 悲観する bedeutet „schwarzsehen, verzweifeln“ (将来を悲観する). Häufig in Ratschlägen: そんなに悲観的にならないで.",
+        "examples": [
+          {
+            "japanese": "あまり悲観的にならないでください。",
+            "romaji": "Amari hikanteki ni naranaide kudasai.",
+            "german": "Bitte werden Sie nicht zu pessimistisch."
+          },
+          {
+            "japanese": "彼は自分の将来について悲観的だ。",
+            "romaji": "Kare wa jibun no shōrai ni tsuite hikanteki da.",
+            "german": "Er sieht seine Zukunft pessimistisch."
+          },
+          {
+            "japanese": "調査では、景気の先行きに悲観的な人が増えている。",
+            "romaji": "Chōsa de wa, keiki no sakiyuki ni hikanteki na hito ga fuete iru.",
+            "german": "Laut Umfrage blicken immer mehr Menschen pessimistisch auf die Konjunktur."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1483250, na-adjective: pessimistic, gloomy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 悲観的な heißt „pessimistisch, düster“: 悲観的な見方, 悲観的になる, 将来に悲観的だ. Gegenteil: 楽観的. Das Verb 悲観する bedeutet „schwarzsehen, verzweifeln“ (将来を悲観する). Häufig in Ratschlägen: そんなに悲観的にならないで. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483250; spelling=悲観的な; reading=ひかんてきな",
+          "finding": "JMdict 1483250, na-adjective: pessimistic, gloomy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 悲観的な/ひかんてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 悲観的な/ひかんてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%82%B2%E8%A6%B3%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 悲観的な/ひかんてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 e751056a888ca1f6309dc659b1600c796806587e39db4335f7b221ae5b64838b",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%82%B2%E8%A6%B3%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 悲観的な/ひかんてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "pessimistisch. JMdict 1483250, na-adjective: pessimistic, gloomy",
+        "japanese": "あまり悲観的にならないでください。 / 彼は自分の将来について悲観的だ。 / 調査では、景気の先行きに悲観的な人が増えている。",
+        "romanization": "hikanteki na; Amari hikanteki ni naranaide kudasai. / Kare wa jibun no shōrai ni tsuite hikanteki da. / Chōsa de wa, keiki no sakiyuki ni hikanteki na hito ga fuete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte werden Sie nicht zu pessimistisch. / Er sieht seine Zukunft pessimistisch. / Laut Umfrage blicken immer mehr Menschen pessimistisch auf die Konjunktur.",
+        "contexts": [
+          "Encouraging someone",
+          "Worried young man",
+          "Opinion survey"
+        ],
+        "lexical": "JMdict 1483250, na-adjective: pessimistic, gloomy",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (悲観的な, 悲観的に, 悲観的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1231 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Encouraging someone; Worried young man; Opinion survey), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cb08fbb941cc9b842db9efc5957ea9a71c7d6ccc33c5153ce72c4a0cccf2106f",
+        "approvalHash": "4ec5c3a5d3089bf851e6c616ad686bedb19e31029a575f7ed4acf51d6b98c7d7"
+      }
+    },
+    {
+      "id": "vocab-n2:1232",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1232",
+      "state": "accepted",
+      "predecessorHash": "5ff751664e59882a7cc29fc66903d8da6e213df5c910f5c0af71a6a0f211fa59",
+      "originalHash": "5ff751664e59882a7cc29fc66903d8da6e213df5c910f5c0af71a6a0f211fa59",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "中立的な立場から意見を述べる。",
+            "romaji": "Chūritsuteki na tachiba kara iken o noberu.",
+            "german": "Von einem neutralen Standpunkt aus die Meinung äußern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "中立的な heißt „neutral, unparteiisch“: 中立的な立場, 中立的な態度, 中立的に報道する. Grundwort ist 中立 „Neutralität“, das auch allein steht (中立を守る, 中立国 „neutrales Land“). Im Alltag sagt man auch どちらの味方もしない „sich auf keine Seite schlagen“. 公平 betont eher „gerecht, fair“.",
+        "examples": [
+          {
+            "japanese": "中立的な立場から意見を述べる。",
+            "romaji": "Chūritsuteki na tachiba kara iken o noberu.",
+            "german": "Von einem neutralen Standpunkt aus die Meinung äußern."
+          },
+          {
+            "japanese": "記者は中立的な態度で報道するべきだ。",
+            "romaji": "Kisha wa chūritsuteki na taido de hōdō suru beki da.",
+            "german": "Journalisten sollten neutral berichten."
+          },
+          {
+            "japanese": "友達同士のけんかでは、どちらの味方もせず中立的でいたい。",
+            "romaji": "Tomodachi dōshi no kenka de wa, dochira no mikata mo sezu chūritsuteki de itai.",
+            "german": "Wenn sich Freunde streiten, möchte ich mich auf keine Seite schlagen und neutral bleiben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2869464, na-adjective: neutral Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 中立的な heißt „neutral, unparteiisch“: 中立的な立場, 中立的な態度, 中立的に報道する. Grundwort ist 中立 „Neutralität“, das auch allein steht (中立を守る, 中立国 „neutrales Land“). Im Alltag sagt man auch どちらの味方もしない „sich auf keine Seite schlagen“. 公平 betont eher „gerecht, fair“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2869464; spelling=中立的な; reading=ちゅうりつてきな",
+          "finding": "JMdict 2869464, na-adjective: neutral"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 中立的な/ちゅうりつてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 中立的な/ちゅうりつてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%AD%E7%AB%8B%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 中立的な/ちゅうりつてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 d8d62accf991fb78387e82170b857c3e632fd3aa6ea7b3522207fa0f8033859a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%AD%E7%AB%8B%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 中立的な/ちゅうりつてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "neutral. JMdict 2869464, na-adjective: neutral",
+        "japanese": "中立的な立場から意見を述べる。 / 記者は中立的な態度で報道するべきだ。 / 友達同士のけんかでは、どちらの味方もせず中立的でいたい。",
+        "romanization": "chūritsuteki na; Chūritsuteki na tachiba kara iken o noberu. / Kisha wa chūritsuteki na taido de hōdō suru beki da. / Tomodachi dōshi no kenka de wa, dochira no mikata mo sezu chūritsuteki de itai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Von einem neutralen Standpunkt aus die Meinung äußern. / Journalisten sollten neutral berichten. / Wenn sich Freunde streiten, möchte ich mich auf keine Seite schlagen und neutral bleiben.",
+        "contexts": [
+          "Formal statement",
+          "Journalism ethics",
+          "Friends arguing"
+        ],
+        "lexical": "JMdict 2869464, na-adjective: neutral",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (中立的な, 中立的に, 中立的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1232 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Formal statement; Journalism ethics; Friends arguing), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9d704727045be3aab98b4dd27a5b5b1de2ae6815f4014c63dcfe1b99590926d7",
+        "approvalHash": "fe64a425e3b9c5d96214352d4677ed535415203532b82b4e236f0f92e5d6e202"
+      }
+    },
+    {
+      "id": "vocab-n2:1233",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1233",
+      "state": "accepted",
+      "predecessorHash": "785ad1ed27c3052f1d77a9c3ff5074382fafcef0afcae38e4c53e79d70ef9ccd",
+      "originalHash": "785ad1ed27c3052f1d77a9c3ff5074382fafcef0afcae38e4c53e79d70ef9ccd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "漠然とした不安を感じている。",
+            "romaji": "Bakuzen to shita fuan o kanjite iru.",
+            "german": "Ich empfinde eine vage Unruhe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "漠然 ist ein たる-Adjektiv: attributiv 漠然とした „vage, verschwommen“ (漠然とした不安, 漠然としたイメージ), adverbial 漠然と (漠然と考える „nur vage überlegen“). Es beschreibt etwas Unbestimmtes, ohne klare Umrisse. 曖昧 bedeutet dagegen „mehrdeutig, unklar“ – etwa eine ausweichende Antwort. Vor allem im geschriebenen Japanisch.",
+        "examples": [
+          {
+            "japanese": "漠然とした不安を感じている。",
+            "romaji": "Bakuzen to shita fuan o kanjite iru.",
+            "german": "Ich empfinde eine vage Unruhe."
+          },
+          {
+            "japanese": "将来のことを漠然と考えている。",
+            "romaji": "Shōrai no koto o bakuzen to kangaete iru.",
+            "german": "Ich mache mir nur vage Gedanken über die Zukunft."
+          },
+          {
+            "japanese": "そんな漠然とした質問には答えにくい。",
+            "romaji": "Sonna bakuzen to shita shitsumon ni wa kotaenikui.",
+            "german": "Auf so eine vage Frage kann man schwer antworten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1475790, taru-adjective / adverb (と): vague, obscure, indistinct Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 漠然 ist ein たる-Adjektiv: attributiv 漠然とした „vage, verschwommen“ (漠然とした不安, 漠然としたイメージ), adverbial 漠然と (漠然と考える „nur vage überlegen“). Es beschreibt etwas Unbestimmtes, ohne klare Umrisse. 曖昧 bedeutet dagegen „mehrdeutig, unklar“ – etwa eine ausweichende Antwort. Vor allem im geschriebenen Japanisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1475790; spelling=漠然とした; reading=ばくぜんとした",
+          "finding": "JMdict 1475790, taru-adjective / adverb (と): vague, obscure, indistinct"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 漠然とした/ばくぜんとした scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (漠然); none is the exact head 漠然とした/ばくぜんとした with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BC%A0%E7%84%B6%E3%81%A8%E3%81%97%E3%81%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 漠然とした/ばくぜんとした scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 c3367d8a92dc3a7b92b92593324a8508372414e4a20a9b1de85509ffd2361c27",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%BC%A0%E7%84%B6%E3%81%A8%E3%81%97%E3%81%9F",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (漠然); none is the exact head 漠然とした/ばくぜんとした with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "vage; undeutlich. JMdict 1475790, taru-adjective / adverb (と): vague, obscure, indistinct",
+        "japanese": "漠然とした不安を感じている。 / 将来のことを漠然と考えている。 / そんな漠然とした質問には答えにくい。",
+        "romanization": "bakuzen to shita; Bakuzen to shita fuan o kanjite iru. / Shōrai no koto o bakuzen to kangaete iru. / Sonna bakuzen to shita shitsumon ni wa kotaenikui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich empfinde eine vage Unruhe. / Ich mache mir nur vage Gedanken über die Zukunft. / Auf so eine vage Frage kann man schwer antworten.",
+        "contexts": [
+          "Vague anxiety",
+          "Thinking about the future",
+          "Interview question"
+        ],
+        "lexical": "JMdict 1475790, taru-adjective / adverb (と): vague, obscure, indistinct",
+        "register": "neutral to written",
+        "transitivity": "Nonverb",
+        "conjugation": "taru adjective (漠然とした, 漠然としている, 漠然と)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1233 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Vague anxiety; Thinking about the future; Interview question), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c4370a80cf97ef760db859c2fbe7efc1abfdff7fe89401768ee95e2d6faa298d",
+        "approvalHash": "3dea8c217eeede342b8e89f516295feaf0bf3cb5779c8df41c44ac2b34c67118"
+      }
+    },
+    {
+      "id": "vocab-n2:1234",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1234",
+      "state": "accepted",
+      "predecessorHash": "e63e9fbaaf544a9daa6446d2d8bea6b7327b4aed5ecc232ab298a3f6ba43c4ae",
+      "originalHash": "e63e9fbaaf544a9daa6446d2d8bea6b7327b4aed5ecc232ab298a3f6ba43c4ae",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "先行きが不透明な状況だ。",
+            "romaji": "Sakiyuki ga futōmei na jōkyō da.",
+            "german": "Die Aussichten sind unklar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不透明な heißt wörtlich „undurchsichtig, opak“ (不透明な袋, 不透明なガラス), übertragen „unklar, undurchschaubar“. Sehr häufig in Nachrichten: 先行き不透明 „unsichere Aussichten“, 不透明な資金の流れ „undurchsichtige Geldflüsse“. Gegenteil: 透明. Für Unklarheit in Aussagen passt eher 曖昧.",
+        "examples": [
+          {
+            "japanese": "先行きが不透明な状況だ。",
+            "romaji": "Sakiyuki ga futōmei na jōkyō da.",
+            "german": "Die Aussichten sind unklar."
+          },
+          {
+            "japanese": "政治資金の流れが不透明だと批判されている。",
+            "romaji": "Seiji shikin no nagare ga futōmei da to hihan sarete iru.",
+            "german": "Es wird kritisiert, dass die Geldflüsse in der Politik undurchsichtig sind."
+          },
+          {
+            "japanese": "中身が見えないように、不透明な袋に入れてください。",
+            "romaji": "Nakami ga mienai yō ni, futōmei na fukuro ni irete kudasai.",
+            "german": "Bitte stecken Sie es in eine undurchsichtige Tüte, damit man den Inhalt nicht sieht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1494200, na-adjective / noun: opaque; unclear, unpredictable Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 不透明な heißt wörtlich „undurchsichtig, opak“ (不透明な袋, 不透明なガラス), übertragen „unklar, undurchschaubar“. Sehr häufig in Nachrichten: 先行き不透明 „unsichere Aussichten“, 不透明な資金の流れ „undurchsichtige Geldflüsse“. Gegenteil: 透明. Für Unklarheit in Aussagen passt eher 曖昧. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1494200; spelling=不透明な; reading=ふとうめいな",
+          "finding": "JMdict 1494200, na-adjective / noun: opaque; unclear, unpredictable"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不透明な/ふとうめいな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 不透明な/ふとうめいな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E9%80%8F%E6%98%8E%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不透明な/ふとうめいな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 70ca59d33a408ee93a2bfc37be7075d734d04f86c8b37562c5ed2959880d0073",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%8D%E9%80%8F%E6%98%8E%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 不透明な/ふとうめいな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "undurchsichtig; unklar. JMdict 1494200, na-adjective / noun: opaque; unclear, unpredictable",
+        "japanese": "先行きが不透明な状況だ。 / 政治資金の流れが不透明だと批判されている。 / 中身が見えないように、不透明な袋に入れてください。",
+        "romanization": "futōmei na; Sakiyuki ga futōmei na jōkyō da. / Seiji shikin no nagare ga futōmei da to hihan sarete iru. / Nakami ga mienai yō ni, futōmei na fukuro ni irete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Aussichten sind unklar. / Es wird kritisiert, dass die Geldflüsse in der Politik undurchsichtig sind. / Bitte stecken Sie es in eine undurchsichtige Tüte, damit man den Inhalt nicht sieht.",
+        "contexts": [
+          "Economic outlook",
+          "Political scandal",
+          "Packing an item"
+        ],
+        "lexical": "JMdict 1494200, na-adjective / noun: opaque; unclear, unpredictable",
+        "register": "neutral; figurative use common in news",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (不透明な, 不透明に, 不透明だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1234 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Economic outlook; Political scandal; Packing an item), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "df97f3e56b12849fd9633fe98bdc2d6bee5b4f7ea3a4afe4bd1e70eafa0e19da",
+        "approvalHash": "2d2774d119192c3c53e6ab656391263c169604434899a2e77577c739bf2ad823"
+      }
+    },
+    {
+      "id": "vocab-n2:1235",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1235",
+      "state": "accepted",
+      "predecessorHash": "940a006384c31ecead288c82845e8514847f9e8eba0b4e0983684ff52c85115a",
+      "originalHash": "940a006384c31ecead288c82845e8514847f9e8eba0b4e0983684ff52c85115a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "透明なガラスのコップを使う。",
+            "romaji": "Tōmei na garasu no koppu o tsukau.",
+            "german": "Ein durchsichtiges Glas benutzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "透明な heißt „durchsichtig, klar“ für Glas, Wasser oder Folien (透明なガラス, 透明な水). Übertragen bedeutet es „transparent, nachvollziehbar“ bei Verfahren und Geldflüssen; dafür ist das Nomen 透明性 „Transparenz“ sehr gebräuchlich. Gegenteil: 不透明. 透明人間 ist der „unsichtbare Mensch“.",
+        "examples": [
+          {
+            "japanese": "透明なガラスのコップを使う。",
+            "romaji": "Tōmei na garasu no koppu o tsukau.",
+            "german": "Ein durchsichtiges Glas benutzen."
+          },
+          {
+            "japanese": "沖縄の海は透明で、底まではっきり見える。",
+            "romaji": "Okinawa no umi wa tōmei de, soko made hakkiri mieru.",
+            "german": "Das Meer in Okinawa ist so klar, dass man bis auf den Grund sieht."
+          },
+          {
+            "japanese": "選挙の手続きはもっと透明であるべきだ。",
+            "romaji": "Senkyo no tetsuzuki wa motto tōmei de aru beki da.",
+            "german": "Das Wahlverfahren sollte transparenter sein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183633306",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 透明/トウメイ; lemma 透明; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "透明な",
+              "reading": "とうめいな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 透明な/とうめいな \"transparent; durchsichtig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1450590, na-adjective / noun: transparent, clear Pitch: Verified [0] via exact UniDic row. 透明な heißt „durchsichtig, klar“ für Glas, Wasser oder Folien (透明なガラス, 透明な水). Übertragen bedeutet es „transparent, nachvollziehbar“ bei Verfahren und Geldflüssen; dafür ist das Nomen 透明性 „Transparenz“ sehr gebräuchlich. Gegenteil: 不透明. 透明人間 ist der „unsichtbare Mensch“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1450590; spelling=透明な; reading=とうめいな",
+          "finding": "JMdict 1450590, na-adjective / noun: transparent, clear"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 透明/トウメイ; lemma 透明; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183633306",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 透明/トウメイ; lemma 透明; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "透明な",
+              "reading": "とうめいな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 透明な/とうめいな \"transparent; durchsichtig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "transparent; durchsichtig. JMdict 1450590, na-adjective / noun: transparent, clear",
+        "japanese": "透明なガラスのコップを使う。 / 沖縄の海は透明で、底まではっきり見える。 / 選挙の手続きはもっと透明であるべきだ。",
+        "romanization": "tōmei na; Tōmei na garasu no koppu o tsukau. / Okinawa no umi wa tōmei de, soko made hakkiri mieru. / Senkyo no tetsuzuki wa motto tōmei de aru beki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein durchsichtiges Glas benutzen. / Das Meer in Okinawa ist so klar, dass man bis auf den Grund sieht. / Das Wahlverfahren sollte transparenter sein.",
+        "contexts": [
+          "Kitchenware",
+          "Clear sea water",
+          "Election procedures"
+        ],
+        "lexical": "JMdict 1450590, na-adjective / noun: transparent, clear",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (透明な, 透明に, 透明だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1235 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Kitchenware; Clear sea water; Election procedures), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c88bc4b484e0e87dd88b032a9e4a1590922b98142c0f7b48e1e6f53d76028749",
+        "approvalHash": "babbc8ad40f2ffcee25167fa9da9704e2363ec8bad16fb8c76a8c4c047f11688"
+      }
+    },
+    {
+      "id": "vocab-n2:1236",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1236",
+      "state": "accepted",
+      "predecessorHash": "a3fc33d62b2410e0797afdac6758d482708828cb5a72ee13dfb5f9f8e474743a",
+      "originalHash": "a3fc33d62b2410e0797afdac6758d482708828cb5a72ee13dfb5f9f8e474743a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "明白な証拠が見つかった。",
+            "romaji": "Meihaku na shōko ga mitsukatta.",
+            "german": "Ein offensichtlicher Beweis wurde gefunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "明白な heißt „offenkundig, eindeutig, unbestreitbar“ und klingt formeller als das alltägliche 明らか: 明白な事実, 明白な証拠, 明白な違反, 〜のは明白だ. Typisch für Berichte, Gerichte und Diskussionen. Im Gespräch sagt man meist はっきりしている oder 明らかだ.",
+        "examples": [
+          {
+            "japanese": "明白な証拠が見つかった。",
+            "romaji": "Meihaku na shōko ga mitsukatta.",
+            "german": "Ein offensichtlicher Beweis wurde gefunden."
+          },
+          {
+            "japanese": "彼がうそをついているのは明白だ。",
+            "romaji": "Kare ga uso o tsuite iru no wa meihaku da.",
+            "german": "Es ist offensichtlich, dass er lügt."
+          },
+          {
+            "japanese": "これは明白なルール違反だ。",
+            "romaji": "Kore wa meihaku na rūru ihan da.",
+            "german": "Das ist ein klarer Regelverstoß."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260163064",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 明白/メイハク; lemma 明白; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "明白な",
+              "reading": "めいはくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 明白な/めいはくな \"offensichtlich; klar\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1000220 (reading めいはく), na-adjective / noun: obvious, clear, evident Pitch: Verified [0] via exact UniDic row. 明白な heißt „offenkundig, eindeutig, unbestreitbar“ und klingt formeller als das alltägliche 明らか: 明白な事実, 明白な証拠, 明白な違反, 〜のは明白だ. Typisch für Berichte, Gerichte und Diskussionen. Im Gespräch sagt man meist はっきりしている oder 明らかだ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1000220; spelling=明白な; reading=めいはくな",
+          "finding": "JMdict 1000220 (reading めいはく), na-adjective / noun: obvious, clear, evident"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 明白/メイハク; lemma 明白; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260163064",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 明白/メイハク; lemma 明白; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "明白な",
+              "reading": "めいはくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 明白な/めいはくな \"offensichtlich; klar\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "offensichtlich; klar. JMdict 1000220 (reading めいはく), na-adjective / noun: obvious, clear, evident",
+        "japanese": "明白な証拠が見つかった。 / 彼がうそをついているのは明白だ。 / これは明白なルール違反だ。",
+        "romanization": "meihaku na; Meihaku na shōko ga mitsukatta. / Kare ga uso o tsuite iru no wa meihaku da. / Kore wa meihaku na rūru ihan da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein offensichtlicher Beweis wurde gefunden. / Es ist offensichtlich, dass er lügt. / Das ist ein klarer Regelverstoß.",
+        "contexts": [
+          "Criminal case",
+          "Catching a liar",
+          "Sports referee decision"
+        ],
+        "lexical": "JMdict 1000220 (reading めいはく), na-adjective / noun: obvious, clear, evident",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (明白な, 明白に, 明白だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1236 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Criminal case; Catching a liar; Sports referee decision), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "960ab46c59d627ebad8edfad982a918711a93ccf961a5f09381eba5dba5ce512",
+        "approvalHash": "8524e96484634a9498ed8af3349d70f1d0b4866772a55a01a1152095959af0e1"
+      }
+    },
+    {
+      "id": "vocab-n2:1237",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1237",
+      "state": "accepted",
+      "predecessorHash": "d15bdaa62415bdabd92e71083c753ce8044ac20918fa728e63fc558a71748592",
+      "originalHash": "d15bdaa62415bdabd92e71083c753ce8044ac20918fa728e63fc558a71748592",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "顕著な成果を上げた。",
+            "romaji": "Kencho na seika o ageta.",
+            "german": "Bemerkenswerte Ergebnisse erzielt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "顕著な heißt „deutlich hervortretend, auffällig, markant“ und beschreibt messbare Unterschiede, Tendenzen oder Wirkungen: 顕著な効果, 顕著な傾向, 〜が顕著になる / 顕著に表れる. Es ist ein formelles Wort der Berichte und Nachrichten; im Alltag sagt man eher 目立つ oder はっきりした. Lob im Sinne von „hervorragend“ drückt eher 優れた aus.",
+        "examples": [
+          {
+            "japanese": "顕著な成果を上げた。",
+            "romaji": "Kencho na seika o ageta.",
+            "german": "Man hat bemerkenswerte Ergebnisse erzielt."
+          },
+          {
+            "japanese": "最近、若者の読書離れが顕著になっている。",
+            "romaji": "Saikin, wakamono no dokusho banare ga kencho ni natte iru.",
+            "german": "In letzter Zeit zeigt sich deutlich, dass junge Leute immer weniger lesen."
+          },
+          {
+            "japanese": "この薬は特に高齢者に顕著な効果が見られた。",
+            "romaji": "Kono kusuri wa toku ni kōreisha ni kencho na kōka ga mirareta.",
+            "german": "Bei diesem Medikament zeigte sich vor allem bei älteren Menschen eine deutliche Wirkung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118882897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+            "match": {
+              "word": "顕著な",
+              "reading": "けんちょな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 顕著な/けんちょな \"bemerkenswert; auffällig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1260640, na-adjective: remarkable, striking, obvious Pitch: Verified [1] via exact UniDic row. 顕著な heißt „deutlich hervortretend, auffällig, markant“ und beschreibt messbare Unterschiede, Tendenzen oder Wirkungen: 顕著な効果, 顕著な傾向, 〜が顕著になる / 顕著に表れる. Es ist ein formelles Wort der Berichte und Nachrichten; im Alltag sagt man eher 目立つ oder はっきりした. Lob im Sinne von „hervorragend“ drückt eher 優れた aus. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1260640; spelling=顕著な; reading=けんちょな",
+          "finding": "JMdict 1260640, na-adjective: remarkable, striking, obvious"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118882897",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 顕著/ケンチョ; lemma 顕著; 形状詞/一般/*/*; *; *; aType 1.",
+            "match": {
+              "word": "顕著な",
+              "reading": "けんちょな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 顕著な/けんちょな \"bemerkenswert; auffällig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "bemerkenswert; auffällig. JMdict 1260640, na-adjective: remarkable, striking, obvious",
+        "japanese": "顕著な成果を上げた。 / 最近、若者の読書離れが顕著になっている。 / この薬は特に高齢者に顕著な効果が見られた。",
+        "romanization": "kencho na; Kencho na seika o ageta. / Saikin, wakamono no dokusho banare ga kencho ni natte iru. / Kono kusuri wa toku ni kōreisha ni kencho na kōka ga mirareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man hat bemerkenswerte Ergebnisse erzielt. / In letzter Zeit zeigt sich deutlich, dass junge Leute immer weniger lesen. / Bei diesem Medikament zeigte sich vor allem bei älteren Menschen eine deutliche Wirkung.",
+        "contexts": [
+          "Project results",
+          "Social trend",
+          "Clinical study"
+        ],
+        "lexical": "JMdict 1260640, na-adjective: remarkable, striking, obvious",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (顕著な, 顕著に, 顕著だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1237 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Project results; Social trend; Clinical study), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d65ed0af5d683aa19f7d04a29418d624b1d85ccc7cb85ed9f946c9283a29ee18",
+        "approvalHash": "4f6c5121a703d9f547d8d942dd8e71499b3cdbb126b01b5bab1c729f62fac287"
+      }
+    },
+    {
+      "id": "vocab-n2:1238",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1238",
+      "state": "accepted",
+      "predecessorHash": "85e31331a1164219869c2957a4eb29c7991a9b51067976635a7fa8ae6c9b57ba",
+      "originalHash": "85e31331a1164219869c2957a4eb29c7991a9b51067976635a7fa8ae6c9b57ba",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "問題が顕在的になってきた。",
+            "romaji": "Mondai ga kenzaiteki ni natte kita.",
+            "german": "Das Problem ist offenkundig geworden."
+          }
+        ],
+        "meaning": "offenkundig; sichtbar",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "顕在的な ist ein Fachwort („manifest, offen zutage tretend“) und das Gegenstück zu 潜在的 „latent“. Es erscheint vor allem in Marketing und Fachtexten, z. B. 顕在的なニーズ „geäußerte, bewusste Bedürfnisse“ im Gegensatz zu 潜在的なニーズ. Viel häufiger ist das Verb 顕在化する „zutage treten, sichtbar werden“ (問題が顕在化する); 顕在的になる klingt unnatürlich.",
+        "examples": [
+          {
+            "japanese": "問題が顕在化してきた。",
+            "romaji": "Mondai ga kenzaika shite kita.",
+            "german": "Das Problem ist offen zutage getreten."
+          },
+          {
+            "japanese": "顧客の顕在的なニーズだけでなく、潜在的なニーズにも目を向けるべきだ。",
+            "romaji": "Kokyaku no kenzaiteki na nīzu dake de naku, senzaiteki na nīzu ni mo me o mukeru beki da.",
+            "german": "Man sollte nicht nur auf die offenkundigen Bedürfnisse der Kunden achten, sondern auch auf die latenten."
+          },
+          {
+            "japanese": "顕在的なリスクより、まだ見えていないリスクのほうが怖い。",
+            "romaji": "Kenzaiteki na risuku yori, mada miete inai risuku no hō ga kowai.",
+            "german": "Mehr als die offen erkennbaren Risiken fürchte ich die, die noch niemand sieht."
+          }
+        ],
+        "meaning": "manifest; offenkundig",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1260620 (顕在) + suffix 的; na-adjective: manifest, apparent (as opposed to latent) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 顕在的な ist ein Fachwort („manifest, offen zutage tretend“) und das Gegenstück zu 潜在的 „latent“. Es erscheint vor allem in Marketing und Fachtexten, z. B. 顕在的なニーズ „geäußerte, bewusste Bedürfnisse“ im Gegensatz zu 潜在的なニーズ. Viel häufiger ist das Verb 顕在化する „zutage treten, sichtbar werden“ (問題が顕在化する); 顕在的になる klingt unnatürlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=顕在的な; reading=けんざいてきな; no entry",
+          "finding": "JMdict 1260620 (顕在) + suffix 的; na-adjective: manifest, apparent (as opposed to latent)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 顕在的な/けんざいてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 顕在的な/けんざいてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%A1%95%E5%9C%A8%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 顕在的な/けんざいてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 be5c292fbc73672b321a56c7b458b6a8b92a3a7be8acf7827cb9e21b9d72a68c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%A1%95%E5%9C%A8%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 顕在的な/けんざいてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "manifest; offenkundig. JMdict 1260620 (顕在) + suffix 的; na-adjective: manifest, apparent (as opposed to latent)",
+        "japanese": "問題が顕在化してきた。 / 顧客の顕在的なニーズだけでなく、潜在的なニーズにも目を向けるべきだ。 / 顕在的なリスクより、まだ見えていないリスクのほうが怖い。",
+        "romanization": "kenzaiteki na; Mondai ga kenzaika shite kita. / Kokyaku no kenzaiteki na nīzu dake de naku, senzaiteki na nīzu ni mo me o mukeru beki da. / Kenzaiteki na risuku yori, mada miete inai risuku no hō ga kowai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Problem ist offen zutage getreten. / Man sollte nicht nur auf die offenkundigen Bedürfnisse der Kunden achten, sondern auch auf die latenten. / Mehr als die offen erkennbaren Risiken fürchte ich die, die noch niemand sieht.",
+        "contexts": [
+          "Problem surfacing",
+          "Marketing strategy",
+          "Risk management"
+        ],
+        "lexical": "JMdict 1260620 (顕在) + suffix 的; na-adjective: manifest, apparent (as opposed to latent)",
+        "register": "written / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (顕在的な, 顕在的に, 顕在的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1238 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Problem surfacing; Marketing strategy; Risk management), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9640ed279d1b4d26d6e9d7e9ccdd144a96b985c46ead9dd429d02df17a549659",
+        "approvalHash": "7aa24460fb8ccaac2fedb905e6c21a65114a62486dba6a91f39d2fd5f1b17429"
+      }
+    },
+    {
+      "id": "vocab-n2:1239",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1239",
+      "state": "accepted",
+      "predecessorHash": "bb080b0c6328b1f06217d9a4ef08ee31596b110c1ef68cdabdbd478df6dd79e0",
+      "originalHash": "bb080b0c6328b1f06217d9a4ef08ee31596b110c1ef68cdabdbd478df6dd79e0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "潜在的なリスクを見逃さない。",
+            "romaji": "Senzaiteki na risuku o minogasanai.",
+            "german": "Latente Risiken nicht übersehen."
+          }
+        ],
+        "meaning": "latent; verborgen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "潜在的な heißt „latent, potenziell, unterschwellig vorhanden“: 潜在的なリスク, 潜在的な需要, 潜在的な能力. Es beschreibt etwas, das bereits existiert, aber noch nicht sichtbar oder wirksam ist. Gegenstück ist 顕在的. Verwandte Wörter: 潜在能力 „verborgenes Potenzial“, 潜在意識 „Unterbewusstsein“.",
+        "examples": [
+          {
+            "japanese": "潜在的なリスクを見逃さない。",
+            "romaji": "Senzaiteki na risuku o minogasanai.",
+            "german": "Latente Risiken nicht übersehen."
+          },
+          {
+            "japanese": "彼女には潜在的な能力があると思う。",
+            "romaji": "Kanojo ni wa senzaiteki na nōryoku ga aru to omou.",
+            "german": "Ich glaube, in ihr steckt verborgenes Potenzial."
+          },
+          {
+            "japanese": "高齢化が進み、この商品には大きな潜在的需要がある。",
+            "romaji": "Kōreika ga susumi, kono shōhin ni wa ōki na senzaiteki juyō ga aru.",
+            "german": "Durch die alternde Gesellschaft gibt es für dieses Produkt eine große potenzielle Nachfrage."
+          }
+        ],
+        "meaning": "latent; potenziell",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1793130, na-adjective: latent, potential Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 潜在的な heißt „latent, potenziell, unterschwellig vorhanden“: 潜在的なリスク, 潜在的な需要, 潜在的な能力. Es beschreibt etwas, das bereits existiert, aber noch nicht sichtbar oder wirksam ist. Gegenstück ist 顕在的. Verwandte Wörter: 潜在能力 „verborgenes Potenzial“, 潜在意識 „Unterbewusstsein“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1793130; spelling=潜在的な; reading=せんざいてきな",
+          "finding": "JMdict 1793130, na-adjective: latent, potential"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 潜在的な/せんざいてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 潜在的な/せんざいてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BD%9C%E5%9C%A8%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 潜在的な/せんざいてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 6684b488530d1c3bc1f00e0c6c33cc3c431404c184c2bc576572cabd8e232768",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%BD%9C%E5%9C%A8%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 潜在的な/せんざいてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "latent; potenziell. JMdict 1793130, na-adjective: latent, potential",
+        "japanese": "潜在的なリスクを見逃さない。 / 彼女には潜在的な能力があると思う。 / 高齢化が進み、この商品には大きな潜在的需要がある。",
+        "romanization": "senzaiteki na; Senzaiteki na risuku o minogasanai. / Kanojo ni wa senzaiteki na nōryoku ga aru to omou. / Kōreika ga susumi, kono shōhin ni wa ōki na senzaiteki juyō ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Latente Risiken nicht übersehen. / Ich glaube, in ihr steckt verborgenes Potenzial. / Durch die alternde Gesellschaft gibt es für dieses Produkt eine große potenzielle Nachfrage.",
+        "contexts": [
+          "Safety check",
+          "Talent spotting",
+          "Market analysis"
+        ],
+        "lexical": "JMdict 1793130, na-adjective: latent, potential",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (潜在的な, 潜在的に, 潜在的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1239 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Safety check; Talent spotting; Market analysis), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5476ee849d4d93a5072eb56672ab66a5fd58600c79d014f51a5ced792446a236",
+        "approvalHash": "24c01a0a16499d4f9b54c1ae20c37299d1eec2b15cfebe68aec3cc02784386b9"
+      }
+    },
+    {
+      "id": "vocab-n2:1240",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1240",
+      "state": "accepted",
+      "predecessorHash": "6200bfd22fbeb16a02116a0ee0c358e8b8d7a4f9cc654dbf9f3f87b2e27a9086",
+      "originalHash": "6200bfd22fbeb16a02116a0ee0c358e8b8d7a4f9cc654dbf9f3f87b2e27a9086",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "これは典型的な例だ。",
+            "romaji": "Kore wa tenkeiteki na rei da.",
+            "german": "Dies ist ein typisches Beispiel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "典型的な heißt „typisch, ein Musterbeispiel für etwas“: 典型的な例, 典型的な日本人, 典型的なパターン. Es wird oft auch leicht kritisch verwendet, wenn etwas einem Klischee entspricht. 代表的 bedeutet dagegen „repräsentativ, besonders bekannt“ (代表的な料理). Grundwort: 典型 „Typus, Musterbeispiel“.",
+        "examples": [
+          {
+            "japanese": "これは典型的な例だ。",
+            "romaji": "Kore wa tenkeiteki na rei da.",
+            "german": "Dies ist ein typisches Beispiel."
+          },
+          {
+            "japanese": "彼は典型的な日本のサラリーマンだ。",
+            "romaji": "Kare wa tenkeiteki na Nihon no sararīman da.",
+            "german": "Er ist ein typischer japanischer Büroangestellter."
+          },
+          {
+            "japanese": "これは詐欺によくある典型的なパターンだ。",
+            "romaji": "Kore wa sagi ni yoku aru tenkeiteki na patān da.",
+            "german": "Das ist ein typisches Muster bei Betrügereien."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1438090, na-adjective: typical, representative, archetypal Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 典型的な heißt „typisch, ein Musterbeispiel für etwas“: 典型的な例, 典型的な日本人, 典型的なパターン. Es wird oft auch leicht kritisch verwendet, wenn etwas einem Klischee entspricht. 代表的 bedeutet dagegen „repräsentativ, besonders bekannt“ (代表的な料理). Grundwort: 典型 „Typus, Musterbeispiel“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1438090; spelling=典型的な; reading=てんけいてきな",
+          "finding": "JMdict 1438090, na-adjective: typical, representative, archetypal"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 典型的な/てんけいてきな scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (典型的[な]); none is the exact head 典型的な/てんけいてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%85%B8%E5%9E%8B%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 典型的な/てんけいてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 c4ae29a7d4a89cb9f2f8acf327e9f7c1628e7bd74de91b12174c2d97dd1e7cd1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%B8%E5%9E%8B%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (典型的[な]); none is the exact head 典型的な/てんけいてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "typisch. JMdict 1438090, na-adjective: typical, representative, archetypal",
+        "japanese": "これは典型的な例だ。 / 彼は典型的な日本のサラリーマンだ。 / これは詐欺によくある典型的なパターンだ。",
+        "romanization": "tenkeiteki na; Kore wa tenkeiteki na rei da. / Kare wa tenkeiteki na Nihon no sararīman da. / Kore wa sagi ni yoku aru tenkeiteki na patān da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dies ist ein typisches Beispiel. / Er ist ein typischer japanischer Büroangestellter. / Das ist ein typisches Muster bei Betrügereien.",
+        "contexts": [
+          "Explaining in class",
+          "Describing a person",
+          "Fraud warning"
+        ],
+        "lexical": "JMdict 1438090, na-adjective: typical, representative, archetypal",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (典型的な, 典型的に, 典型的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1240 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Explaining in class; Describing a person; Fraud warning), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "16f83879e92ef1f0f43f57266820cfeca4563cb7900105ccf1cb5a6b4d36db8a",
+        "approvalHash": "d463ae7d3cb9542a476b80f25d991f911bbeb5ed3dc3da3d173c6820e2f3375e"
+      }
+    },
+    {
+      "id": "vocab-n2:1241",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1241",
+      "state": "accepted",
+      "predecessorHash": "2c2550784f7eb144f1f9c8dd9859f5088403fee5e70e7ed19daae1bdad7841be",
+      "originalHash": "2c2550784f7eb144f1f9c8dd9859f5088403fee5e70e7ed19daae1bdad7841be",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この建物は時代の象徴的な存在だ。",
+            "romaji": "Kono tatemono wa jidai no shōchōteki na sonzai da.",
+            "german": "Dieses Gebäude ist ein symbolisches Wahrzeichen der Epoche."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "象徴的な heißt „symbolisch, sinnbildlich, symbolträchtig“: 象徴的な存在, 象徴的な出来事, 〜を象徴的に表す. Grundwort ist 象徴 „Symbol“ (平和の象徴, 象徴する „symbolisieren“). Es beschreibt etwas, das stellvertretend für eine größere Idee oder Epoche steht; im Sinne von „rein formal, nur pro forma“ benutzt man es kaum.",
+        "examples": [
+          {
+            "japanese": "この建物は時代の象徴的な存在だ。",
+            "romaji": "Kono tatemono wa jidai no shōchōteki na sonzai da.",
+            "german": "Dieses Gebäude ist ein symbolisches Wahrzeichen der Epoche."
+          },
+          {
+            "japanese": "その事件は時代の変化を象徴的に表している。",
+            "romaji": "Sono jiken wa jidai no henka o shōchōteki ni arawashite iru.",
+            "german": "Dieser Vorfall steht sinnbildlich für den Wandel der Zeit."
+          },
+          {
+            "japanese": "開会式では、平和を願う象徴的な場面がいくつもあった。",
+            "romaji": "Kaikaishiki de wa, heiwa o negau shōchōteki na bamen ga ikutsu mo atta.",
+            "german": "Bei der Eröffnungsfeier gab es mehrere symbolträchtige Momente, die den Wunsch nach Frieden ausdrückten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1794680, na-adjective: symbolic Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 象徴的な heißt „symbolisch, sinnbildlich, symbolträchtig“: 象徴的な存在, 象徴的な出来事, 〜を象徴的に表す. Grundwort ist 象徴 „Symbol“ (平和の象徴, 象徴する „symbolisieren“). Es beschreibt etwas, das stellvertretend für eine größere Idee oder Epoche steht; im Sinne von „rein formal, nur pro forma“ benutzt man es kaum. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1794680; spelling=象徴的な; reading=しょうちょうてきな",
+          "finding": "JMdict 1794680, na-adjective: symbolic"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 象徴的な/しょうちょうてきな scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (象徴的[な]); none is the exact head 象徴的な/しょうちょうてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%B1%A1%E5%BE%B4%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 象徴的な/しょうちょうてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 ef5cb1d2d38ba59154f536a9dcdba867f42a821017ccd587943855861e4ada7d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%B1%A1%E5%BE%B4%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (象徴的[な]); none is the exact head 象徴的な/しょうちょうてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "symbolisch. JMdict 1794680, na-adjective: symbolic",
+        "japanese": "この建物は時代の象徴的な存在だ。 / その事件は時代の変化を象徴的に表している。 / 開会式では、平和を願う象徴的な場面がいくつもあった。",
+        "romanization": "shōchōteki na; Kono tatemono wa jidai no shōchōteki na sonzai da. / Sono jiken wa jidai no henka o shōchōteki ni arawashite iru. / Kaikaishiki de wa, heiwa o negau shōchōteki na bamen ga ikutsu mo atta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dieses Gebäude ist ein symbolisches Wahrzeichen der Epoche. / Dieser Vorfall steht sinnbildlich für den Wandel der Zeit. / Bei der Eröffnungsfeier gab es mehrere symbolträchtige Momente, die den Wunsch nach Frieden ausdrückten.",
+        "contexts": [
+          "Famous landmark",
+          "Historical analysis",
+          "Opening ceremony"
+        ],
+        "lexical": "JMdict 1794680, na-adjective: symbolic",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (象徴的な, 象徴的に, 象徴的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1241 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Famous landmark; Historical analysis; Opening ceremony), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8d7509f7de27adbe4f63422d9136fdc3e69ba93e8f3f531b85289fa28b203d77",
+        "approvalHash": "923b3f614b4a08165724323ef2941843945f2806a6f76c85db269b017578e73e"
+      }
+    },
+    {
+      "id": "vocab-n2:1242",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1242",
+      "state": "accepted",
+      "predecessorHash": "a5221eda270c7a8fe13d8e98661a7aa356dedf9df93f95797c4786956177d2de",
+      "originalHash": "a5221eda270c7a8fe13d8e98661a7aa356dedf9df93f95797c4786956177d2de",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "特殊な技術が必要とされる。",
+            "romaji": "Tokushu na gijutsu ga hitsuyō to sareru.",
+            "german": "Es werden spezielle Techniken benötigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "特殊な heißt „speziell, besonders, von ungewöhnlicher Art“ und betont, dass etwas vom Normalen abweicht: 特殊な技術, 特殊なケース, 特殊な素材. 特別 heißt dagegen „besonders, extra“ im Sinne von Sonderbehandlung oder Wertschätzung (特別な日, 特別に許可する). Gegenteil von 特殊: 一般的 oder 普通.",
+        "examples": [
+          {
+            "japanese": "特殊な技術が必要とされる。",
+            "romaji": "Tokushu na gijutsu ga hitsuyō to sareru.",
+            "german": "Es werden spezielle Techniken benötigt."
+          },
+          {
+            "japanese": "特殊なケースを除いて、返品はできません。",
+            "romaji": "Tokushu na kēsu o nozoite, henpin wa dekimasen.",
+            "german": "Abgesehen von Sonderfällen ist eine Rückgabe nicht möglich."
+          },
+          {
+            "japanese": "この部屋のドアは特殊なカギでしか開けられない。",
+            "romaji": "Kono heya no doa wa tokushu na kagi de shika akerarenai.",
+            "german": "Die Tür dieses Raums lässt sich nur mit einem Spezialschlüssel öffnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184910970",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 特殊/トクシュ; lemma 特殊; 形状詞/一般/*/*; *; *; aType 0,1.",
+            "match": {
+              "word": "特殊な",
+              "reading": "とくしゅな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 特殊な/とくしゅな \"besonders; speziell\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1454970, na-adjective / noun: special, particular, peculiar Pitch: Verified [0,1] via exact UniDic row. 特殊な heißt „speziell, besonders, von ungewöhnlicher Art“ und betont, dass etwas vom Normalen abweicht: 特殊な技術, 特殊なケース, 特殊な素材. 特別 heißt dagegen „besonders, extra“ im Sinne von Sonderbehandlung oder Wertschätzung (特別な日, 特別に許可する). Gegenteil von 特殊: 一般的 oder 普通. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1454970; spelling=特殊な; reading=とくしゅな",
+          "finding": "JMdict 1454970, na-adjective / noun: special, particular, peculiar"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 特殊/トクシュ; lemma 特殊; 形状詞/一般/*/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184910970",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 特殊/トクシュ; lemma 特殊; 形状詞/一般/*/*; *; *; aType 0,1.",
+            "match": {
+              "word": "特殊な",
+              "reading": "とくしゅな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 特殊な/とくしゅな \"besonders; speziell\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "besonders; speziell. JMdict 1454970, na-adjective / noun: special, particular, peculiar",
+        "japanese": "特殊な技術が必要とされる。 / 特殊なケースを除いて、返品はできません。 / この部屋のドアは特殊なカギでしか開けられない。",
+        "romanization": "tokushu na; Tokushu na gijutsu ga hitsuyō to sareru. / Tokushu na kēsu o nozoite, henpin wa dekimasen. / Kono heya no doa wa tokushu na kagi de shika akerarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es werden spezielle Techniken benötigt. / Abgesehen von Sonderfällen ist eine Rückgabe nicht möglich. / Die Tür dieses Raums lässt sich nur mit einem Spezialschlüssel öffnen.",
+        "contexts": [
+          "Job requirements",
+          "Return policy",
+          "Security door"
+        ],
+        "lexical": "JMdict 1454970, na-adjective / noun: special, particular, peculiar",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (特殊な, 特殊に, 特殊だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1242 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Job requirements; Return policy; Security door), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "50fbfb76e345f41743841a4244e6d898e1002c749e565c88b26912ab65117ef1",
+        "approvalHash": "b99786fa8c6344d38ea3837fce4c1ab186edb80e73f5fe8ab1c9f51c5317c9ec"
+      }
+    },
+    {
+      "id": "vocab-n2:1243",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1243",
+      "state": "accepted",
+      "predecessorHash": "dffe0a06eb1350fe6ad411950cd0161e9a68312d7e927347f6b27abbdd65323b",
+      "originalHash": "dffe0a06eb1350fe6ad411950cd0161e9a68312d7e927347f6b27abbdd65323b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "特異な才能の持ち主だ。",
+            "romaji": "Tokui na sainō no mochinushi da.",
+            "german": "Er ist eine Person mit einer einzigartigen Begabung."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "特異な heißt „eigentümlich, einzigartig, aus dem Rahmen fallend“: 特異な才能, 特異な性格, 特異な事件. Es ist schriftsprachlich und betont das Ungewöhnliche, nicht unbedingt positiv. Bekannte Komposita: 特異体質 „besondere (allergische) Veranlagung“, 特異点 „Singularität“. Achtung: gleich gelesen wie 得意 „gut in etwas, Stärke“.",
+        "examples": [
+          {
+            "japanese": "特異な才能の持ち主だ。",
+            "romaji": "Tokui na sainō no mochinushi da.",
+            "german": "Er ist eine Person mit einer einzigartigen Begabung."
+          },
+          {
+            "japanese": "この地域は特異な気候で知られている。",
+            "romaji": "Kono chiiki wa tokui na kikō de shirarete iru.",
+            "german": "Diese Region ist für ihr eigentümliches Klima bekannt."
+          },
+          {
+            "japanese": "その事件は特異なケースとして、新聞に大きく取り上げられた。",
+            "romaji": "Sono jiken wa tokui na kēsu to shite, shinbun ni ōkiku toriagerareta.",
+            "german": "Der Fall wurde als ungewöhnlicher Einzelfall groß in der Zeitung berichtet."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184886184",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 特異/トクイ; lemma 特異; 名詞/普通名詞/形状詞可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "特異な",
+              "reading": "とくいな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 特異な/とくいな \"eigenartig; einzigartig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1454690, na-adjective / noun: unique, peculiar, singular Pitch: Verified [0,1] via exact UniDic row. 特異な heißt „eigentümlich, einzigartig, aus dem Rahmen fallend“: 特異な才能, 特異な性格, 特異な事件. Es ist schriftsprachlich und betont das Ungewöhnliche, nicht unbedingt positiv. Bekannte Komposita: 特異体質 „besondere (allergische) Veranlagung“, 特異点 „Singularität“. Achtung: gleich gelesen wie 得意 „gut in etwas, Stärke“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1454690; spelling=特異な; reading=とくいな",
+          "finding": "JMdict 1454690, na-adjective / noun: unique, peculiar, singular"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 特異/トクイ; lemma 特異; 名詞/普通名詞/形状詞可能/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184886184",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 特異/トクイ; lemma 特異; 名詞/普通名詞/形状詞可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "特異な",
+              "reading": "とくいな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 特異な/とくいな \"eigenartig; einzigartig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "eigenartig; einzigartig. JMdict 1454690, na-adjective / noun: unique, peculiar, singular",
+        "japanese": "特異な才能の持ち主だ。 / この地域は特異な気候で知られている。 / その事件は特異なケースとして、新聞に大きく取り上げられた。",
+        "romanization": "tokui na; Tokui na sainō no mochinushi da. / Kono chiiki wa tokui na kikō de shirarete iru. / Sono jiken wa tokui na kēsu to shite, shinbun ni ōkiku toriagerareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er ist eine Person mit einer einzigartigen Begabung. / Diese Region ist für ihr eigentümliches Klima bekannt. / Der Fall wurde als ungewöhnlicher Einzelfall groß in der Zeitung berichtet.",
+        "contexts": [
+          "Exceptional talent",
+          "Regional climate",
+          "Unusual criminal case"
+        ],
+        "lexical": "JMdict 1454690, na-adjective / noun: unique, peculiar, singular",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (特異な, 特異に, 特異だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1243 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Exceptional talent; Regional climate; Unusual criminal case), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2ecfe69fe73e1eaa7a3b99a80bfe427e58c439e840b018760abe94418fa61a64",
+        "approvalHash": "c5ba50b7964f93df75740255cd3c0493829c1f7c4abf12352dab36fda845f2df"
+      }
+    },
+    {
+      "id": "vocab-n2:1244",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1244",
+      "state": "accepted",
+      "predecessorHash": "d6d697658f0612c479440d2e398e5bc1dee068b2fc76205bfbb3ce4de1903f4c",
+      "originalHash": "d6d697658f0612c479440d2e398e5bc1dee068b2fc76205bfbb3ce4de1903f4c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "異常な暑さが続いている。",
+            "romaji": "Ijō na atsusa ga tsuzuite iru.",
+            "german": "Die ungewöhnliche Hitze hält an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "異常な heißt „abnormal, ungewöhnlich, nicht normal“: 異常な暑さ, 異常な音, 異常気象 „Wetteranomalie“. Als Nomen steht es in Befunden: 異常なし „ohne Befund“, 異常が見つかる. Gegenteil: 正常. Im Vergleich zu 珍しい („selten“) klingt 異常 nach Störung oder Gefahr.",
+        "examples": [
+          {
+            "japanese": "異常な暑さが続いている。",
+            "romaji": "Ijō na atsusa ga tsuzuite iru.",
+            "german": "Die ungewöhnliche Hitze hält an."
+          },
+          {
+            "japanese": "夜中に異常な音がしたので目が覚めた。",
+            "romaji": "Yonaka ni ijō na oto ga shita node me ga sameta.",
+            "german": "Mitten in der Nacht wachte ich von einem merkwürdigen Geräusch auf."
+          },
+          {
+            "japanese": "検査の結果、特に異常は見つからなかった。",
+            "romaji": "Kensa no kekka, toku ni ijō wa mitsukaranakatta.",
+            "german": "Die Untersuchung ergab keine Auffälligkeiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54820222",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 異常/イジョウ; lemma 異常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "異常な",
+              "reading": "いじょうな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 異常な/いじょうな \"abnormal; ungewöhnlich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1157760, na-adjective / noun: abnormal, unusual, extraordinary Pitch: Verified [0] via exact UniDic row. 異常な heißt „abnormal, ungewöhnlich, nicht normal“: 異常な暑さ, 異常な音, 異常気象 „Wetteranomalie“. Als Nomen steht es in Befunden: 異常なし „ohne Befund“, 異常が見つかる. Gegenteil: 正常. Im Vergleich zu 珍しい („selten“) klingt 異常 nach Störung oder Gefahr. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1157760; spelling=異常な; reading=いじょうな",
+          "finding": "JMdict 1157760, na-adjective / noun: abnormal, unusual, extraordinary"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 異常/イジョウ; lemma 異常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54820222",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 異常/イジョウ; lemma 異常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "異常な",
+              "reading": "いじょうな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 異常な/いじょうな \"abnormal; ungewöhnlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "abnormal; ungewöhnlich. JMdict 1157760, na-adjective / noun: abnormal, unusual, extraordinary",
+        "japanese": "異常な暑さが続いている。 / 夜中に異常な音がしたので目が覚めた。 / 検査の結果、特に異常は見つからなかった。",
+        "romanization": "ijō na; Ijō na atsusa ga tsuzuite iru. / Yonaka ni ijō na oto ga shita node me ga sameta. / Kensa no kekka, toku ni ijō wa mitsukaranakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die ungewöhnliche Hitze hält an. / Mitten in der Nacht wachte ich von einem merkwürdigen Geräusch auf. / Die Untersuchung ergab keine Auffälligkeiten.",
+        "contexts": [
+          "Heat wave",
+          "Strange noise at night",
+          "Medical checkup"
+        ],
+        "lexical": "JMdict 1157760, na-adjective / noun: abnormal, unusual, extraordinary",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (異常な, 異常に, 異常だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1244 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Heat wave; Strange noise at night; Medical checkup), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d164718f96de1b86bfd4ad255d34107e073cb352d538a66c733fadd4740445f3",
+        "approvalHash": "9c00e5fcd95a05772650f914c5cafa638ca1a91d8afd69f4444b95c3b214d341"
+      }
+    },
+    {
+      "id": "vocab-n2:1245",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1245",
+      "state": "accepted",
+      "predecessorHash": "020068fd2428ac65f5eddd588c41b1d2c2b8a0d9a9f6d6683a57942186821aca",
+      "originalHash": "020068fd2428ac65f5eddd588c41b1d2c2b8a0d9a9f6d6683a57942186821aca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "システムは正常に動作している。",
+            "romaji": "Shisutemu wa seijō ni dōsa shite iru.",
+            "german": "Das System funktioniert ordnungsgemäß."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "正常な heißt „normal, ordnungsgemäß, funktionsfähig“ im Sinne eines fehlerfreien Zustands: 正常に動作する, 正常な値, 正常に戻る. Gegenteil: 異常. 普通 meint dagegen „gewöhnlich, durchschnittlich“, 通常 „üblicherweise“. 正常 passt für Technik, Medizin und Abläufe, nicht für Menschen im Sinne von „durchschnittlich“.",
+        "examples": [
+          {
+            "japanese": "システムは正常に動作している。",
+            "romaji": "Shisutemu wa seijō ni dōsa shite iru.",
+            "german": "Das System funktioniert ordnungsgemäß."
+          },
+          {
+            "japanese": "健康診断の結果、血圧は正常だった。",
+            "romaji": "Kenkō shindan no kekka, ketsuatsu wa seijō datta.",
+            "german": "Beim Gesundheitscheck war der Blutdruck normal."
+          },
+          {
+            "japanese": "事故で遅れていた電車は、夕方には正常な運行に戻った。",
+            "romaji": "Jiko de okurete ita densha wa, yūgata ni wa seijō na unkō ni modotta.",
+            "german": "Die wegen des Unfalls verspäteten Züge fuhren am Abend wieder planmäßig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152088623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 正常/セイジョウ; lemma 正常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "正常な",
+              "reading": "せいじょうな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 正常な/せいじょうな \"normal; ordnungsgemäß\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1377390, na-adjective / noun: normal, regular Pitch: Verified [0] via exact UniDic row. 正常な heißt „normal, ordnungsgemäß, funktionsfähig“ im Sinne eines fehlerfreien Zustands: 正常に動作する, 正常な値, 正常に戻る. Gegenteil: 異常. 普通 meint dagegen „gewöhnlich, durchschnittlich“, 通常 „üblicherweise“. 正常 passt für Technik, Medizin und Abläufe, nicht für Menschen im Sinne von „durchschnittlich“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1377390; spelling=正常な; reading=せいじょうな",
+          "finding": "JMdict 1377390, na-adjective / noun: normal, regular"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 正常/セイジョウ; lemma 正常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152088623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 正常/セイジョウ; lemma 正常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "正常な",
+              "reading": "せいじょうな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 正常な/せいじょうな \"normal; ordnungsgemäß\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "normal; ordnungsgemäß. JMdict 1377390, na-adjective / noun: normal, regular",
+        "japanese": "システムは正常に動作している。 / 健康診断の結果、血圧は正常だった。 / 事故で遅れていた電車は、夕方には正常な運行に戻った。",
+        "romanization": "seijō na; Shisutemu wa seijō ni dōsa shite iru. / Kenkō shindan no kekka, ketsuatsu wa seijō datta. / Jiko de okurete ita densha wa, yūgata ni wa seijō na unkō ni modotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das System funktioniert ordnungsgemäß. / Beim Gesundheitscheck war der Blutdruck normal. / Die wegen des Unfalls verspäteten Züge fuhren am Abend wieder planmäßig.",
+        "contexts": [
+          "IT system status",
+          "Health checkup",
+          "Train service restored"
+        ],
+        "lexical": "JMdict 1377390, na-adjective / noun: normal, regular",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (正常な, 正常に, 正常だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1245 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (IT system status; Health checkup; Train service restored), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "59e62fd5417f5f8ff9bcef34de6605106f5b67cb04e3629299d4e33da7a85eaf",
+        "approvalHash": "0f4807ddd736f4fb70efb445a77a6aee60b26209434635cd5906125ecd093c2a"
+      }
+    },
+    {
+      "id": "vocab-n2:1246",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1246",
+      "state": "accepted",
+      "predecessorHash": "29964d2215d7d6ac9328e2fb0535d782524c930fdf7a8ef3e8ad5df303f40696",
+      "originalHash": "29964d2215d7d6ac9328e2fb0535d782524c930fdf7a8ef3e8ad5df303f40696",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "平常な状態に戻った。",
+            "romaji": "Heijō na jōtai ni modotta.",
+            "german": "Es ist zum Normalzustand zurückgekehrt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "平常 bedeutet „der normale, gewohnte Zustand“ und wird vor allem als Nomen gebraucht: 平常の状態, 平常に戻る, 平常通り „wie gewohnt“ (typisch in Durchsagen nach Störungen). Wichtig ist 平常心 „innere Ruhe, Gelassenheit“. Die Form 平常な ist selten und klingt unnatürlich; man sagt 平常の oder 通常の. 正常 betont dagegen „fehlerfrei, nicht gestört“.",
+        "examples": [
+          {
+            "japanese": "台風が去り、町は平常の状態に戻った。",
+            "romaji": "Taifū ga sari, machi wa heijō no jōtai ni modotta.",
+            "german": "Nach dem Taifun kehrte die Stadt zum Normalzustand zurück."
+          },
+          {
+            "japanese": "電車は今朝から平常通り運転している。",
+            "romaji": "Densha wa kesa kara heijō dōri unten shite iru.",
+            "german": "Die Züge fahren seit heute Morgen wieder wie gewohnt."
+          },
+          {
+            "japanese": "試合の前は、平常心を保つことが大切だ。",
+            "romaji": "Shiai no mae wa, heijōshin o tamotsu koto ga taisetsu da.",
+            "german": "Vor einem Wettkampf ist es wichtig, die Ruhe zu bewahren."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1507420, noun / adverb: normal, usual, ordinary Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 平常 bedeutet „der normale, gewohnte Zustand“ und wird vor allem als Nomen gebraucht: 平常の状態, 平常に戻る, 平常通り „wie gewohnt“ (typisch in Durchsagen nach Störungen). Wichtig ist 平常心 „innere Ruhe, Gelassenheit“. Die Form 平常な ist selten und klingt unnatürlich; man sagt 平常の oder 通常の. 正常 betont dagegen „fehlerfrei, nicht gestört“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1507420; spelling=平常な; reading=へいじょうな",
+          "finding": "JMdict 1507420, noun / adverb: normal, usual, ordinary"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 平常/ヘイジョウ; lemma 平常; 名詞/普通名詞/一般/*; *; *; aType 0. No transfer. Query returned 1 rows (平常); none is the exact head 平常な/へいじょうな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B9%B3%E5%B8%B8%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 平常/ヘイジョウ; lemma 平常; 名詞/普通名詞/一般/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 a60292577c764e88144eaf2411bad0a0f322662440559ebd550e1169eef6e58e",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%B9%B3%E5%B8%B8%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (平常); none is the exact head 平常な/へいじょうな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "gewöhnlich; normal. JMdict 1507420, noun / adverb: normal, usual, ordinary",
+        "japanese": "台風が去り、町は平常の状態に戻った。 / 電車は今朝から平常通り運転している。 / 試合の前は、平常心を保つことが大切だ。",
+        "romanization": "heijō na; Taifū ga sari, machi wa heijō no jōtai ni modotta. / Densha wa kesa kara heijō dōri unten shite iru. / Shiai no mae wa, heijōshin o tamotsu koto ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nach dem Taifun kehrte die Stadt zum Normalzustand zurück. / Die Züge fahren seit heute Morgen wieder wie gewohnt. / Vor einem Wettkampf ist es wichtig, die Ruhe zu bewahren.",
+        "contexts": [
+          "After a typhoon",
+          "Train service announcement",
+          "Before a competition"
+        ],
+        "lexical": "JMdict 1507420, noun / adverb: normal, usual, ordinary",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "noun (平常の, 平常通り); 平常な rare",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1246 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (After a typhoon; Train service announcement; Before a competition), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b04b38e466cdf46b937b360793a142b39b40f050849f9348a3f0d1fb8bfe4661",
+        "approvalHash": "91c1d0df532e214cce16eeddcbc66fde412a2afcd72a0cc7f21a2359bed73895"
+      }
+    },
+    {
+      "id": "vocab-n2:1247",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1247",
+      "state": "accepted",
+      "predecessorHash": "55b013d9659a88ce8a350f01d278bab28149c3f45e4fbb9cbd6400051400c662",
+      "originalHash": "55b013d9659a88ce8a350f01d278bab28149c3f45e4fbb9cbd6400051400c662",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "通常の営業時間は九時から六時までだ。",
+            "romaji": "Tsūjō no eigyō jikan wa kuji kara rokuji made da.",
+            "german": "Die üblichen Geschäftszeiten sind von neun bis sechs Uhr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "通常 heißt „üblich, normal, regulär“ und ist formeller als いつも oder 普通. Attributiv steht es mit の: 通常の営業時間, 通常の料金. Adverbial heißt es „normalerweise“: 通常、〜です. Weitere Muster: 通常通り „wie üblich“, 通常は. Typisch für Geschäftssprache, Hinweise und Durchsagen.",
+        "examples": [
+          {
+            "japanese": "通常の営業時間は九時から六時までだ。",
+            "romaji": "Tsūjō no eigyō jikan wa kuji kara rokuji made da.",
+            "german": "Die üblichen Geschäftszeiten sind von neun bis sechs Uhr."
+          },
+          {
+            "japanese": "通常、返事には三日ほどかかります。",
+            "romaji": "Tsūjō, henji ni wa mikka hodo kakarimasu.",
+            "german": "Eine Antwort dauert normalerweise etwa drei Tage."
+          },
+          {
+            "japanese": "このセールでは、通常の半額で買える。",
+            "romaji": "Kono sēru de wa, tsūjō no hangaku de kaeru.",
+            "german": "In diesem Ausverkauf bekommt man es zum halben regulären Preis."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1433280, noun (の-adjective) / adverb: usual, ordinary, normal, regular Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 通常 heißt „üblich, normal, regulär“ und ist formeller als いつも oder 普通. Attributiv steht es mit の: 通常の営業時間, 通常の料金. Adverbial heißt es „normalerweise“: 通常、〜です. Weitere Muster: 通常通り „wie üblich“, 通常は. Typisch für Geschäftssprache, Hinweise und Durchsagen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1433280; spelling=通常の; reading=つうじょうの",
+          "finding": "JMdict 1433280, noun (の-adjective) / adverb: usual, ordinary, normal, regular"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 通常の/つうじょうの scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (通常); none is the exact head 通常の/つうじょうの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%80%9A%E5%B8%B8%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 通常の/つうじょうの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 c064a64efc67f59c7a466a98ff6f3a1b5d1695add04d590f1580365ff98b6977",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%80%9A%E5%B8%B8%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (通常); none is the exact head 通常の/つうじょうの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "gewöhnlich; üblich. JMdict 1433280, noun (の-adjective) / adverb: usual, ordinary, normal, regular",
+        "japanese": "通常の営業時間は九時から六時までだ。 / 通常、返事には三日ほどかかります。 / このセールでは、通常の半額で買える。",
+        "romanization": "tsūjō no; Tsūjō no eigyō jikan wa kuji kara rokuji made da. / Tsūjō, henji ni wa mikka hodo kakarimasu. / Kono sēru de wa, tsūjō no hangaku de kaeru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die üblichen Geschäftszeiten sind von neun bis sechs Uhr. / Eine Antwort dauert normalerweise etwa drei Tage. / In diesem Ausverkauf bekommt man es zum halben regulären Preis.",
+        "contexts": [
+          "Opening hours",
+          "Customer service reply",
+          "Shopping sale"
+        ],
+        "lexical": "JMdict 1433280, noun (の-adjective) / adverb: usual, ordinary, normal, regular",
+        "register": "formal / business",
+        "transitivity": "Nonverb",
+        "conjugation": "no-adjective (通常の); adverb 通常",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1247 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Opening hours; Customer service reply; Shopping sale), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5c6b613e451cc133fa5fc985eaff21c72c83db09579335f1b006778daa6a6016",
+        "approvalHash": "ca93c4e592fa90f306f426b01dc6033851a450ed62780d8617c2d793fe91e491"
+      }
+    },
+    {
+      "id": "vocab-n2:1248",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1248",
+      "state": "accepted",
+      "predecessorHash": "325a628054f1b5e3715d6e094d6f5ffcc69ca591a52d0e7525240d06069be968",
+      "originalHash": "325a628054f1b5e3715d6e094d6f5ffcc69ca591a52d0e7525240d06069be968",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日常的な会話ができるようになりたい。",
+            "romaji": "Nichijōteki na kaiwa ga dekiru yō ni naritai.",
+            "german": "Ich möchte alltägliche Gespräche führen können."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "日常的な heißt „alltäglich, regelmäßig, an der Tagesordnung“: 日常的な会話, 日常的に使う, 日常的に起きる. Es kann neutral „zum Alltag gehörend“ oder kritisch „ständig vorkommend“ bedeuten (暴力が日常的に行われる). Grundwort: 日常 „Alltag“ (日常生活). Gegenteil: 非日常的.",
+        "examples": [
+          {
+            "japanese": "日常的な会話ができるようになりたい。",
+            "romaji": "Nichijōteki na kaiwa ga dekiru yō ni naritai.",
+            "german": "Ich möchte alltägliche Gespräche führen können."
+          },
+          {
+            "japanese": "彼女は日常的にジョギングをしている。",
+            "romaji": "Kanojo wa nichijōteki ni jogingu o shite iru.",
+            "german": "Joggen gehört bei ihr zum Alltag."
+          },
+          {
+            "japanese": "この地域では、停電が日常的に起きている。",
+            "romaji": "Kono chiiki de wa, teiden ga nichijōteki ni okite iru.",
+            "german": "In dieser Gegend sind Stromausfälle an der Tagesordnung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2726220, na-adjective: everyday, routine, day-to-day Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 日常的な heißt „alltäglich, regelmäßig, an der Tagesordnung“: 日常的な会話, 日常的に使う, 日常的に起きる. Es kann neutral „zum Alltag gehörend“ oder kritisch „ständig vorkommend“ bedeuten (暴力が日常的に行われる). Grundwort: 日常 „Alltag“ (日常生活). Gegenteil: 非日常的. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2726220; spelling=日常的な; reading=にちじょうてきな",
+          "finding": "JMdict 2726220, na-adjective: everyday, routine, day-to-day"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 日常的な/にちじょうてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 日常的な/にちじょうてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%97%A5%E5%B8%B8%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 日常的な/にちじょうてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 cec8a145c01217ed5def0b235af7e8f408275dd28f352f9992feb746b18a318b",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%97%A5%E5%B8%B8%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 日常的な/にちじょうてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "alltäglich. JMdict 2726220, na-adjective: everyday, routine, day-to-day",
+        "japanese": "日常的な会話ができるようになりたい。 / 彼女は日常的にジョギングをしている。 / この地域では、停電が日常的に起きている。",
+        "romanization": "nichijōteki na; Nichijōteki na kaiwa ga dekiru yō ni naritai. / Kanojo wa nichijōteki ni jogingu o shite iru. / Kono chiiki de wa, teiden ga nichijōteki ni okite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich möchte alltägliche Gespräche führen können. / Joggen gehört bei ihr zum Alltag. / In dieser Gegend sind Stromausfälle an der Tagesordnung.",
+        "contexts": [
+          "Language learning goal",
+          "Exercise habit",
+          "Infrastructure problems"
+        ],
+        "lexical": "JMdict 2726220, na-adjective: everyday, routine, day-to-day",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (日常的な, 日常的に, 日常的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1248 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Language learning goal; Exercise habit; Infrastructure problems), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7b89315e5a5e11b5dd29f2e53d4891129210d821b09b3962462617d8126fa963",
+        "approvalHash": "13ac0f1dbc119e5e193ccce171eb0e1339971c4d5ae92d8177aa512a85c920ae"
+      }
+    },
+    {
+      "id": "vocab-n2:1249",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1249",
+      "state": "accepted",
+      "predecessorHash": "ab93fd8367cb2687d89be75653abd1aa452bac644b91e3db1bdae972fe9b861a",
+      "originalHash": "ab93fd8367cb2687d89be75653abd1aa452bac644b91e3db1bdae972fe9b861a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "旅行は非日常的な体験を与えてくれる。",
+            "romaji": "Ryokō wa hinichijōteki na taiken o ataete kureru.",
+            "german": "Reisen bieten außeralltägliche Erfahrungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "非日常的な heißt „außeralltäglich, jenseits des Alltags“ und ist das Gegenteil von 日常的. In Werbung für Reisen, Hotels und Freizeitparks ist es positiv („besonders, aufregend“), oft als Nomen: 非日常を味わう „etwas Außergewöhnliches erleben“. In anderen Kontexten kann es auch einen belastenden Ausnahmezustand beschreiben.",
+        "examples": [
+          {
+            "japanese": "旅行は非日常的な体験を与えてくれる。",
+            "romaji": "Ryokō wa hinichijōteki na taiken o ataete kureru.",
+            "german": "Reisen bieten außeralltägliche Erfahrungen."
+          },
+          {
+            "japanese": "高級ホテルで非日常的な時間を過ごした。",
+            "romaji": "Kōkyū hoteru de hinichijōteki na jikan o sugoshita.",
+            "german": "Im Luxushotel verbrachten wir eine Zeit fernab vom Alltag."
+          },
+          {
+            "japanese": "地震の後、しばらく避難所での非日常的な生活が続いた。",
+            "romaji": "Jishin no ato, shibaraku hinanjo de no hinichijōteki na seikatsu ga tsuzuita.",
+            "german": "Nach dem Erdbeben lebten wir eine Weile im Ausnahmezustand in einer Notunterkunft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2271860, na-adjective: extraordinary, unusual, out of the everyday Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 非日常的な heißt „außeralltäglich, jenseits des Alltags“ und ist das Gegenteil von 日常的. In Werbung für Reisen, Hotels und Freizeitparks ist es positiv („besonders, aufregend“), oft als Nomen: 非日常を味わう „etwas Außergewöhnliches erleben“. In anderen Kontexten kann es auch einen belastenden Ausnahmezustand beschreiben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2271860; spelling=非日常的な; reading=ひにちじょうてきな",
+          "finding": "JMdict 2271860, na-adjective: extraordinary, unusual, out of the everyday"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 非日常的な/ひにちじょうてきな scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 非日常的な/ひにちじょうてきな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9D%9E%E6%97%A5%E5%B8%B8%E7%9A%84%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 非日常的な/ひにちじょうてきな scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 8a6966284cb3206053f2ca16d0da7a568944db0d3da6de8c177e145ca6c61419",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%9D%9E%E6%97%A5%E5%B8%B8%E7%9A%84%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 非日常的な/ひにちじょうてきな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "außeralltäglich; ungewöhnlich. JMdict 2271860, na-adjective: extraordinary, unusual, out of the everyday",
+        "japanese": "旅行は非日常的な体験を与えてくれる。 / 高級ホテルで非日常的な時間を過ごした。 / 地震の後、しばらく避難所での非日常的な生活が続いた。",
+        "romanization": "hinichijōteki na; Ryokō wa hinichijōteki na taiken o ataete kureru. / Kōkyū hoteru de hinichijōteki na jikan o sugoshita. / Jishin no ato, shibaraku hinanjo de no hinichijōteki na seikatsu ga tsuzuita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Reisen bieten außeralltägliche Erfahrungen. / Im Luxushotel verbrachten wir eine Zeit fernab vom Alltag. / Nach dem Erdbeben lebten wir eine Weile im Ausnahmezustand in einer Notunterkunft.",
+        "contexts": [
+          "Why we travel",
+          "Luxury hotel stay",
+          "Life in an evacuation shelter"
+        ],
+        "lexical": "JMdict 2271860, na-adjective: extraordinary, unusual, out of the everyday",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (非日常的な, 非日常的に, 非日常的だ)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1249 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Why we travel; Luxury hotel stay; Life in an evacuation shelter), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4ee4375b773e2021cf7db050be1f61f64922aa43acd5d8dd92e5154dea7f475d",
+        "approvalHash": "2104f687b061b3d71ac930255fd050ef0199604a487ffb2c403434bef272b8e4"
+      }
+    },
+    {
+      "id": "vocab-n2:1250",
+      "revisionId": "197b-n2-enrichment-vocab-n2-1250",
+      "state": "accepted",
+      "predecessorHash": "2ca27939c22c856375a5c11a8d7e088c228818889fe9b422ec8921eaacf5e6ab",
+      "originalHash": "2ca27939c22c856375a5c11a8d7e088c228818889fe9b422ec8921eaacf5e6ab",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日頃の努力が実を結んだ。",
+            "romaji": "Higoro no doryoku ga mi o musunda.",
+            "german": "Die alltäglichen Bemühungen haben Früchte getragen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "日頃 ist ein Nomen/Adverb für „gewöhnlich, ständig, im Alltag“. Mit の steht es vor Nomen: 日頃の努力, 日頃の感謝, 日頃の行い „das alltägliche Verhalten“. Sehr häufig ist 日頃から „schon im Alltag, stets“ (日頃から備える). Typisch auch in Dankesformeln: 日頃より大変お世話になっております. Verstärkt: 常日頃.",
+        "examples": [
+          {
+            "japanese": "日頃の努力が実を結んだ。",
+            "romaji": "Higoro no doryoku ga mi o musunda.",
+            "german": "Die alltäglichen Bemühungen haben Früchte getragen."
+          },
+          {
+            "japanese": "日頃の感謝の気持ちを込めて、母に花を贈った。",
+            "romaji": "Higoro no kansha no kimochi o komete, haha ni hana o okutta.",
+            "german": "Als Dank für alles, was sie täglich für mich tut, schenkte ich meiner Mutter Blumen."
+          },
+          {
+            "japanese": "日頃から災害に備えておくことが大切だ。",
+            "romaji": "Higoro kara saigai ni sonaete oku koto ga taisetsu da.",
+            "german": "Es ist wichtig, sich schon im Alltag auf Katastrophen vorzubereiten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1464070, noun / adverb: usually, habitually, everyday Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 日頃 ist ein Nomen/Adverb für „gewöhnlich, ständig, im Alltag“. Mit の steht es vor Nomen: 日頃の努力, 日頃の感謝, 日頃の行い „das alltägliche Verhalten“. Sehr häufig ist 日頃から „schon im Alltag, stets“ (日頃から備える). Typisch auch in Dankesformeln: 日頃より大変お世話になっております. Verstärkt: 常日頃. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1464070; spelling=日頃の; reading=ひごろの",
+          "finding": "JMdict 1464070, noun / adverb: usually, habitually, everyday"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 日頃の/ひごろの scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (日頃); none is the exact head 日頃の/ひごろの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%97%A5%E9%A0%83%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 日頃の/ひごろの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 414ef3a26bee68382e75b1d8eb03ef2cb4859478ecdd584cb4ecb414cb2fd654",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%97%A5%E9%A0%83%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (日頃); none is the exact head 日頃の/ひごろの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "alltäglich; gewöhnlich. JMdict 1464070, noun / adverb: usually, habitually, everyday",
+        "japanese": "日頃の努力が実を結んだ。 / 日頃の感謝の気持ちを込めて、母に花を贈った。 / 日頃から災害に備えておくことが大切だ。",
+        "romanization": "higoro no; Higoro no doryoku ga mi o musunda. / Higoro no kansha no kimochi o komete, haha ni hana o okutta. / Higoro kara saigai ni sonaete oku koto ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die alltäglichen Bemühungen haben Früchte getragen. / Als Dank für alles, was sie täglich für mich tut, schenkte ich meiner Mutter Blumen. / Es ist wichtig, sich schon im Alltag auf Katastrophen vorzubereiten.",
+        "contexts": [
+          "Exam success",
+          "Mother's Day gift",
+          "Disaster preparedness"
+        ],
+        "lexical": "JMdict 1464070, noun / adverb: usually, habitually, everyday",
+        "register": "neutral; common in polite set phrases",
+        "transitivity": "Nonverb",
+        "conjugation": "no-adjective (日頃の); adverb 日頃(から)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1250 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Exam success; Mother's Day gift; Disaster preparedness), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0fdc6a6b91716f1e26a89180de06b69dfcf04b5a5e90d982244ed078792d0942",
+        "approvalHash": "f792861b789108942e2bbadb360037831339400afbfe906dc6cd74f6f132ed7a"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

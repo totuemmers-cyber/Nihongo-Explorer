@@ -1,0 +1,3042 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1019",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1019",
+      "state": "accepted",
+      "predecessorHash": "7e59a774d2647749c4385cc10ec06e97e425f92987d573671e4e98b9137949a1",
+      "originalHash": "7e59a774d2647749c4385cc10ec06e97e425f92987d573671e4e98b9137949a1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新薬がようやく認可された。",
+            "romaji": "Shin'yaku ga yōyaku ninka sareta.",
+            "german": "Das neue Medikament wurde endlich zugelassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "認可する heißt, dass eine Behörde etwas offiziell „genehmigt, zulässt, lizenziert“: 国が設立を認可する, 認可を受ける/得る. Typische Komposita sind 認可保育園 („staatlich anerkannte Kita“) und 無認可 („ohne Zulassung“). Im Vergleich zu 許可する („erlauben“, auch im Alltag) ist 認可 ein Verwaltungsbegriff für Unternehmen, Schulen, Produkte oder Tarife. Bei Arzneimitteln spricht man fachlich meist von 承認.",
+        "examples": [
+          {
+            "japanese": "新薬がようやく認可された。",
+            "romaji": "Shin'yaku ga yōyaku ninka sareta.",
+            "german": "Das neue Medikament wurde endlich zugelassen."
+          },
+          {
+            "japanese": "新しい大学の設立が、国に認可された。",
+            "romaji": "Atarashii daigaku no setsuritsu ga, kuni ni ninka sareta.",
+            "german": "Die Gründung der neuen Universität wurde vom Staat genehmigt."
+          },
+          {
+            "japanese": "子どもを認可保育園に入れたいが、空きがない。",
+            "romaji": "Kodomo o ninka hoikuen ni iretai ga, aki ga nai.",
+            "german": "Ich möchte mein Kind in eine staatlich anerkannte Kita geben, aber es gibt keinen freien Platz."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1467540 sense 1, noun / suru verb: approval, license, permission (official) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 認可する heißt, dass eine Behörde etwas offiziell „genehmigt, zulässt, lizenziert“: 国が設立を認可する, 認可を受ける/得る. Typische Komposita sind 認可保育園 („staatlich anerkannte Kita“) und 無認可 („ohne Zulassung“). Im Vergleich zu 許可する („erlauben“, auch im Alltag) ist 認可 ein Verwaltungsbegriff für Unternehmen, Schulen, Produkte oder Tarife. Bei Arzneimitteln spricht man fachlich meist von 承認. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1467540; spelling=認可する; reading=にんかする",
+          "finding": "JMdict 1467540 sense 1, noun / suru verb: approval, license, permission (official)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 認可する/にんかする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 認可する/にんかする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AA%8D%E5%8F%AF%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 認可する/にんかする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 cbf475aee9eb9c4f32bb55cbe3fcd847a2d7b92f12ce5789be53722027105ead",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%AA%8D%E5%8F%AF%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 認可する/にんかする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "genehmigen, bewilligen. JMdict 1467540 sense 1, noun / suru verb: approval, license, permission (official)",
+        "japanese": "新薬がようやく認可された。 / 新しい大学の設立が、国に認可された。 / 子どもを認可保育園に入れたいが、空きがない。",
+        "romanization": "ninka suru; Shin'yaku ga yōyaku ninka sareta. / Atarashii daigaku no setsuritsu ga, kuni ni ninka sareta. / Kodomo o ninka hoikuen ni iretai ga, aki ga nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das neue Medikament wurde endlich zugelassen. / Die Gründung der neuen Universität wurde vom Staat genehmigt. / Ich möchte mein Kind in eine staatlich anerkannte Kita geben, aber es gibt keinen freien Platz.",
+        "contexts": [
+          "Drug approval",
+          "New university approved",
+          "Looking for a daycare place"
+        ],
+        "lexical": "JMdict 1467540 sense 1, noun / suru verb: approval, license, permission (official)",
+        "register": "formal / administrative",
+        "transitivity": "transitive (X を認可する); mostly passive (X が認可される)",
+        "conjugation": "suru verb (認可する → 認可して, 認可しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1019 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Drug approval; New university approved; Looking for a daycare place), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "30d2c049c3fcea5ebc6d8741eda7dca260ac38ef7028df9339f2dafe76c4fed9",
+        "approvalHash": "ec89d03eedbeff9b9dd31306ecaef5f568853e226add58509236bebc34477a0c"
+      }
+    },
+    {
+      "id": "vocab-n2:1020",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1020",
+      "state": "accepted",
+      "predecessorHash": "7e1986f557e1807eb4cbf0f776f80c244fe9adfe9159d592e18926347cb74634",
+      "originalHash": "7e1986f557e1807eb4cbf0f776f80c244fe9adfe9159d592e18926347cb74634",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼の提案は会議で却下された。",
+            "romaji": "Kare no teian wa kaigi de kyakka sareta.",
+            "german": "Sein Vorschlag wurde in der Konferenz abgelehnt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "却下する heißt, einen Antrag, Vorschlag oder eine Forderung „ablehnen, zurückweisen“: 申請を却下する, 提案が却下される – meist im Passiv. Es ist formell, wird aber auch scherzhaft im Alltag gebraucht (却下! – „Abgelehnt!“). Im Gericht meint 却下 die Abweisung aus formalen Gründen ohne Prüfung in der Sache, während 棄却 die Abweisung nach inhaltlicher Prüfung ist. Allgemeiner und weniger amtlich ist 断る („absagen, ablehnen“).",
+        "examples": [
+          {
+            "japanese": "彼の提案は会議で却下された。",
+            "romaji": "Kare no teian wa kaigi de kyakka sareta.",
+            "german": "Sein Vorschlag wurde in der Konferenz abgelehnt."
+          },
+          {
+            "japanese": "ビザの申請が却下されたので、旅行をあきらめた。",
+            "romaji": "Biza no shinsei ga kyakka sareta node, ryokō o akirameta.",
+            "german": "Weil mein Visumsantrag abgelehnt wurde, habe ich die Reise aufgegeben."
+          },
+          {
+            "japanese": "「週休三日にしようよ。」「却下！」",
+            "romaji": "\"Shūkyū mikka ni shiyō yo.\" \"Kyakka!\"",
+            "german": "„Lass uns doch drei freie Tage pro Woche einführen!“ – „Abgelehnt!“"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1226620 sense 1, noun / suru verb: rejection, dismissal Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 却下する heißt, einen Antrag, Vorschlag oder eine Forderung „ablehnen, zurückweisen“: 申請を却下する, 提案が却下される – meist im Passiv. Es ist formell, wird aber auch scherzhaft im Alltag gebraucht (却下! – „Abgelehnt!“). Im Gericht meint 却下 die Abweisung aus formalen Gründen ohne Prüfung in der Sache, während 棄却 die Abweisung nach inhaltlicher Prüfung ist. Allgemeiner und weniger amtlich ist 断る („absagen, ablehnen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1226620; spelling=却下する; reading=きゃっかする",
+          "finding": "JMdict 1226620 sense 1, noun / suru verb: rejection, dismissal"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 却下する/きゃっかする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 却下する/きゃっかする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8D%B4%E4%B8%8B%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 却下する/きゃっかする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 4b15c3a0be8a9adc7cb77736a3a48158692e6bf440dae85c1b695405a6a9f865",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8D%B4%E4%B8%8B%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 却下する/きゃっかする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "ablehnen, zurückweisen. JMdict 1226620 sense 1, noun / suru verb: rejection, dismissal",
+        "japanese": "彼の提案は会議で却下された。 / ビザの申請が却下されたので、旅行をあきらめた。 / 「週休三日にしようよ。」「却下！」",
+        "romanization": "kyakka suru; Kare no teian wa kaigi de kyakka sareta. / Biza no shinsei ga kyakka sareta node, ryokō o akirameta. / \"Shūkyū mikka ni shiyō yo.\" \"Kyakka!\" Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sein Vorschlag wurde in der Konferenz abgelehnt. / Weil mein Visumsantrag abgelehnt wurde, habe ich die Reise aufgegeben. / „Lass uns doch drei freie Tage pro Woche einführen!“ – „Abgelehnt!“",
+        "contexts": [
+          "Proposal rejected in meeting",
+          "Visa refused",
+          "Joking refusal"
+        ],
+        "lexical": "JMdict 1226620 sense 1, noun / suru verb: rejection, dismissal",
+        "register": "formal / administrative; jokingly colloquial",
+        "transitivity": "transitive (X を却下する); mostly passive (X が却下される)",
+        "conjugation": "suru verb (却下する → 却下して, 却下しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1020 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Proposal rejected in meeting; Visa refused; Joking refusal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e17afbec0f7e5c5f7c0c0e33dd9f0a259de40d7e32a07c19a44d13cb77c2c05d",
+        "approvalHash": "e3ebcc14bbfd8d10a7d30138b12c26fd1491722bbb9b75682cfa34df561ea605"
+      }
+    },
+    {
+      "id": "vocab-n2:1021",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1021",
+      "state": "accepted",
+      "predecessorHash": "937345e40de91d89dabbad7970e5d996ded33a5bceb02d5e25854d896b3d448d",
+      "originalHash": "937345e40de91d89dabbad7970e5d996ded33a5bceb02d5e25854d896b3d448d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "裁判所が訴えを棄却した。",
+            "romaji": "Saibansho ga uttae o kikyaku shita.",
+            "german": "Das Gericht hat die Klage abgewiesen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "棄却する ist ein juristischer Fachausdruck: Ein Gericht „weist“ eine Klage, Berufung oder einen Antrag nach inhaltlicher Prüfung als unbegründet „ab“: 訴えを棄却する, 控訴が棄却される. Im Unterschied dazu bezeichnet 却下 die Abweisung als unzulässig aus formalen Gründen. Außerhalb des Rechts begegnet das Wort in der Statistik: 仮説を棄却する („eine Hypothese verwerfen“). Im Alltag kommt es praktisch nur in Nachrichten vor.",
+        "examples": [
+          {
+            "japanese": "裁判所が訴えを棄却した。",
+            "romaji": "Saibansho ga uttae o kikyaku shita.",
+            "german": "Das Gericht hat die Klage abgewiesen."
+          },
+          {
+            "japanese": "高等裁判所は、被告の控訴を棄却した。",
+            "romaji": "Kōtō saibansho wa, hikoku no kōso o kikyaku shita.",
+            "german": "Das Obergericht wies die Berufung des Angeklagten zurück."
+          },
+          {
+            "japanese": "データを分析した結果、最初の仮説は棄却された。",
+            "romaji": "Dēta o bunseki shita kekka, saisho no kasetsu wa kikyaku sareta.",
+            "german": "Nach der Datenanalyse wurde die ursprüngliche Hypothese verworfen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1220660 sense 1, noun / suru verb: rejection, dismissal (legal), abandoning Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 棄却する ist ein juristischer Fachausdruck: Ein Gericht „weist“ eine Klage, Berufung oder einen Antrag nach inhaltlicher Prüfung als unbegründet „ab“: 訴えを棄却する, 控訴が棄却される. Im Unterschied dazu bezeichnet 却下 die Abweisung als unzulässig aus formalen Gründen. Außerhalb des Rechts begegnet das Wort in der Statistik: 仮説を棄却する („eine Hypothese verwerfen“). Im Alltag kommt es praktisch nur in Nachrichten vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1220660; spelling=棄却する; reading=ききゃくする",
+          "finding": "JMdict 1220660 sense 1, noun / suru verb: rejection, dismissal (legal), abandoning"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 棄却する/ききゃくする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 棄却する/ききゃくする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A3%84%E5%8D%B4%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 棄却する/ききゃくする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 93270f1878a68ae614f4d22aec397ff8669f00deded2c52e8dd52b6b4059b618",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%A3%84%E5%8D%B4%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 棄却する/ききゃくする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "verwerfen, abweisen. JMdict 1220660 sense 1, noun / suru verb: rejection, dismissal (legal), abandoning",
+        "japanese": "裁判所が訴えを棄却した。 / 高等裁判所は、被告の控訴を棄却した。 / データを分析した結果、最初の仮説は棄却された。",
+        "romanization": "kikyaku suru; Saibansho ga uttae o kikyaku shita. / Kōtō saibansho wa, hikoku no kōso o kikyaku shita. / Dēta o bunseki shita kekka, saisho no kasetsu wa kikyaku sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Gericht hat die Klage abgewiesen. / Das Obergericht wies die Berufung des Angeklagten zurück. / Nach der Datenanalyse wurde die ursprüngliche Hypothese verworfen.",
+        "contexts": [
+          "Lawsuit dismissed",
+          "Appeal rejected",
+          "Statistical hypothesis"
+        ],
+        "lexical": "JMdict 1220660 sense 1, noun / suru verb: rejection, dismissal (legal), abandoning",
+        "register": "written / legal",
+        "transitivity": "transitive (X を棄却する)",
+        "conjugation": "suru verb (棄却する → 棄却して, 棄却しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1021 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lawsuit dismissed; Appeal rejected; Statistical hypothesis), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "82d6fa175f03bfb634a9af4758a757293df5f107f051b3c69efffa1408052778",
+        "approvalHash": "2e2b49877b4f81a4a83c22ca5633874e89023d15ab10da282e2425739e8732ad"
+      }
+    },
+    {
+      "id": "vocab-n2:1022",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1022",
+      "state": "accepted",
+      "predecessorHash": "200fd202756c3ecb7bfe7f3602fe30406dd3a435988b93e343ebd9acd3efe6ae",
+      "originalHash": "200fd202756c3ecb7bfe7f3602fe30406dd3a435988b93e343ebd9acd3efe6ae",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "原告は訴訟を取り下げた。",
+            "romaji": "Genkoku wa soshō o torisageta.",
+            "german": "Der Kläger hat die Klage zurückgezogen."
+          }
+        ],
+        "pitch": 4,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "取り下げる heißt, etwas selbst Eingereichtes oder Vorgebrachtes von sich aus „zurückziehen“: 訴えを取り下げる, 申請を取り下げる, 提案を取り下げる. Anders als bei 却下される (von der Gegenseite abgelehnt werden) geht die Handlung hier vom Antragsteller selbst aus. Das Nomen lautet 取り下げ. Für das Zurücknehmen einer Aussage oder eines Versprechens passt eher 撤回する.",
+        "examples": [
+          {
+            "japanese": "原告は訴訟を取り下げた。",
+            "romaji": "Genkoku wa soshō o torisageta.",
+            "german": "Der Kläger hat die Klage zurückgezogen."
+          },
+          {
+            "japanese": "反対意見が多かったので、提案を取り下げることにした。",
+            "romaji": "Hantai iken ga ōkatta node, teian o torisageru koto ni shita.",
+            "german": "Da es viele Gegenstimmen gab, habe ich meinen Vorschlag zurückgezogen."
+          },
+          {
+            "japanese": "就職が決まったので、奨学金の申請を取り下げた。",
+            "romaji": "Shūshoku ga kimatta node, shōgakukin no shinsei o torisageta.",
+            "german": "Weil ich eine Stelle bekommen hatte, zog ich meinen Stipendienantrag zurück."
+          }
+        ],
+        "pitch": 4,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@189958475",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "Exact whole 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; aType 4,0. Rejected for this role: 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 連体形-一般; aType 4,0.",
+            "match": {
+              "word": "取り下げる",
+              "reading": "とりさげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "Verb 取り下げる/とりさげる \"zurückziehen, zurücknehmen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1326570 sense 1, ichidan verb: to withdraw, to abandon (e.g. a lawsuit) Pitch: Verified [4,0] via exact UniDic row. 取り下げる heißt, etwas selbst Eingereichtes oder Vorgebrachtes von sich aus „zurückziehen“: 訴えを取り下げる, 申請を取り下げる, 提案を取り下げる. Anders als bei 却下される (von der Gegenseite abgelehnt werden) geht die Handlung hier vom Antragsteller selbst aus. Das Nomen lautet 取り下げ. Für das Zurücknehmen einer Aussage oder eines Versprechens passt eher 撤回する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1326570; spelling=取り下げる; reading=とりさげる",
+          "selected": {
+            "sequence": "1326570",
+            "spelling": "取り下げる",
+            "reading": "とりさげる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to withdraw",
+                  "to abandon (e.g. a lawsuit)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1326570 sense 1, ichidan verb: to withdraw, to abandon (e.g. a lawsuit)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [4,0] via exact UniDic row. Exact whole 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; aType 4,0. Rejected for this role: 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 連体形-一般; aType 4,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@189958475",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              4,
+              0
+            ],
+            "finding": "Exact whole 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 終止形-一般; aType 4,0. Rejected for this role: 取り下げる/トリサゲル; lemma 取り下げる; 動詞/一般/*/*; 下一段-ガ行; 連体形-一般; aType 4,0.",
+            "match": {
+              "word": "取り下げる",
+              "reading": "とりさげる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ガ行; 終止形-一般",
+              "sense": "Verb 取り下げる/とりさげる \"zurückziehen, zurücknehmen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "zurückziehen, zurücknehmen. JMdict 1326570 sense 1, ichidan verb: to withdraw, to abandon (e.g. a lawsuit)",
+        "japanese": "原告は訴訟を取り下げた。 / 反対意見が多かったので、提案を取り下げることにした。 / 就職が決まったので、奨学金の申請を取り下げた。",
+        "romanization": "torisageru; Genkoku wa soshō o torisageta. / Hantai iken ga ōkatta node, teian o torisageru koto ni shita. / Shūshoku ga kimatta node, shōgakukin no shinsei o torisageta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Kläger hat die Klage zurückgezogen. / Da es viele Gegenstimmen gab, habe ich meinen Vorschlag zurückgezogen. / Weil ich eine Stelle bekommen hatte, zog ich meinen Stipendienantrag zurück.",
+        "contexts": [
+          "Lawsuit withdrawn",
+          "Proposal withdrawn",
+          "Cancelling an application"
+        ],
+        "lexical": "JMdict 1326570 sense 1, ichidan verb: to withdraw, to abandon (e.g. a lawsuit)",
+        "register": "formal",
+        "transitivity": "transitive (X を取り下げる); no common intransitive partner",
+        "conjugation": "ichidan (取り下げる → 取り下げて, 取り下げない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1022 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lawsuit withdrawn; Proposal withdrawn; Cancelling an application), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "da98af617a32f573352b05ac37cf34a2bd665451319834374d6941d2eeca6fc6",
+        "approvalHash": "3889e573cd51c14bc7a9b084009d11a22b3b6a36e18997c91887b137ba044323"
+      }
+    },
+    {
+      "id": "vocab-n2:1023",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1023",
+      "state": "accepted",
+      "predecessorHash": "4ac1cd8aacbe2938a7a50a8929d034fecaba7390e11b3c8b9a33a15f4d31c6c2",
+      "originalHash": "4ac1cd8aacbe2938a7a50a8929d034fecaba7390e11b3c8b9a33a15f4d31c6c2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい学生証が発行された。",
+            "romaji": "Atarashii gakuseishō ga hakkō sareta.",
+            "german": "Ein neuer Studentenausweis wurde ausgestellt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発行する heißt „herausgeben, ausstellen, emittieren“ und wird für Druckerzeugnisse (雑誌を発行する), Dokumente (証明書・パスポートを発行する), Geldscheine, Aktien und Tickets verwendet. Im Alltag hört man oft 領収書を発行する („eine Quittung ausstellen“) oder パスワードを再発行する. 発行 betont, dass eine Stelle etwas offiziell erzeugt und herausgibt; 交付 betont die Übergabe an eine Person, 発給 das amtliche Ausstellen von Pässen und Visa. 発行部数 ist die „Auflage“.",
+        "examples": [
+          {
+            "japanese": "新しい学生証が発行された。",
+            "romaji": "Atarashii gakuseishō ga hakkō sareta.",
+            "german": "Ein neuer Studentenausweis wurde ausgestellt."
+          },
+          {
+            "japanese": "すみません、領収書を発行していただけますか。",
+            "romaji": "Sumimasen, ryōshūsho o hakkō shite itadakemasu ka.",
+            "german": "Entschuldigung, könnten Sie mir bitte eine Quittung ausstellen?"
+          },
+          {
+            "japanese": "この雑誌は月に一回発行されている。",
+            "romaji": "Kono zasshi wa tsuki ni ikkai hakkō sarete iru.",
+            "german": "Diese Zeitschrift erscheint einmal im Monat."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 464f4d24b6ef16bc87e7eef2894eea6617251f9c8d9678d5392d426d412116df",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E8%A1%8C%E3%81%99%E3%82%8B#word_2592",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発行する/はっこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 発行する/はっこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発行する",
+              "reading": "はっこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発行する/はっこうする \"herausgeben, ausstellen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.) Pitch: Verified [0] via exact OJAD dictionary-form cell. 発行する heißt „herausgeben, ausstellen, emittieren“ und wird für Druckerzeugnisse (雑誌を発行する), Dokumente (証明書・パスポートを発行する), Geldscheine, Aktien und Tickets verwendet. Im Alltag hört man oft 領収書を発行する („eine Quittung ausstellen“) oder パスワードを再発行する. 発行 betont, dass eine Stelle etwas offiziell erzeugt und herausgibt; 交付 betont die Übergabe an eine Person, 発給 das amtliche Ausstellen von Pässen und Visa. 発行部数 ist die „Auflage“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477390; spelling=発行する; reading=はっこうする",
+          "finding": "JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 発行する/はっこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 発行する/はっこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 464f4d24b6ef16bc87e7eef2894eea6617251f9c8d9678d5392d426d412116df",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E8%A1%8C%E3%81%99%E3%82%8B#word_2592",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発行する/はっこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 発行する/はっこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発行する",
+              "reading": "はっこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発行する/はっこうする \"herausgeben, ausstellen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "herausgeben, ausstellen. JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.)",
+        "japanese": "新しい学生証が発行された。 / すみません、領収書を発行していただけますか。 / この雑誌は月に一回発行されている。",
+        "romanization": "hakkō suru; Atarashii gakuseishō ga hakkō sareta. / Sumimasen, ryōshūsho o hakkō shite itadakemasu ka. / Kono zasshi wa tsuki ni ikkai hakkō sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein neuer Studentenausweis wurde ausgestellt. / Entschuldigung, könnten Sie mir bitte eine Quittung ausstellen? / Diese Zeitschrift erscheint einmal im Monat.",
+        "contexts": [
+          "New student ID",
+          "Asking for a receipt",
+          "Monthly magazine"
+        ],
+        "lexical": "JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.)",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を発行する)",
+        "conjugation": "suru verb (発行する → 発行して, 発行しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1023 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New student ID; Asking for a receipt; Monthly magazine), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ee05cdb5d568b1717a77ddb38c214776b11878cec9171518b46cecb61c144c1e",
+        "approvalHash": "c1fda651627d56e632ccbdd9be310f64750e6f757110b35bc357003718268014"
+      }
+    },
+    {
+      "id": "vocab-n2:1024",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1024",
+      "state": "accepted",
+      "predecessorHash": "2d8b5c9e188fe25176f56fe97c4f4bc988f77a711e89d0a5311af194b27e5692",
+      "originalHash": "2d8b5c9e188fe25176f56fe97c4f4bc988f77a711e89d0a5311af194b27e5692",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "運転免許証が交付された。",
+            "romaji": "Unten menkyoshō ga kōfu sareta.",
+            "german": "Der Führerschein wurde ausgehändigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "交付する ist ein Amtswort für das offizielle „Aushändigen, Erteilen“ von Dokumenten oder Geldern durch eine Behörde: 免許証を交付する, 補助金を交付する. Aus Sicht des Empfängers steht es meist im Passiv (〜が交付される) oder als 交付を受ける. Am Schalter liest man oft 交付窓口 („Ausgabeschalter“). Im Vergleich zu 発行 (Erstellen und Herausgeben) liegt der Fokus auf der Übergabe an den Berechtigten; im Alltag sagt man einfach 渡す oder もらう.",
+        "examples": [
+          {
+            "japanese": "運転免許証が交付された。",
+            "romaji": "Unten menkyoshō ga kōfu sareta.",
+            "german": "Der Führerschein wurde ausgehändigt."
+          },
+          {
+            "japanese": "マイナンバーカードは、市役所の窓口で交付されます。",
+            "romaji": "Mainanbā kādo wa, shiyakusho no madoguchi de kōfu saremasu.",
+            "german": "Die My-Number-Karte wird am Schalter des Rathauses ausgegeben."
+          },
+          {
+            "japanese": "市から引っ越し費用の補助金が交付された。",
+            "romaji": "Shi kara hikkoshi hiyō no hojokin ga kōfu sareta.",
+            "german": "Die Stadt hat mir einen Zuschuss zu den Umzugskosten gewährt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 2090013928e6df7fbe245e581b8b2dba0ecafeb5d8482b3fed9994fd14bda172",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%A4%E4%BB%98%E3%81%99%E3%82%8B#word_2129",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 交付する/こうふする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 交付する/こうふする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "交付する",
+              "reading": "こうふする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 交付する/こうふする \"aushändigen, erteilen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting Pitch: Verified [1,0] via exact OJAD dictionary-form cell. 交付する ist ein Amtswort für das offizielle „Aushändigen, Erteilen“ von Dokumenten oder Geldern durch eine Behörde: 免許証を交付する, 補助金を交付する. Aus Sicht des Empfängers steht es meist im Passiv (〜が交付される) oder als 交付を受ける. Am Schalter liest man oft 交付窓口 („Ausgabeschalter“). Im Vergleich zu 発行 (Erstellen und Herausgeben) liegt der Fokus auf der Übergabe an den Berechtigten; im Alltag sagt man einfach 渡す oder もらう. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1272520; spelling=交付する; reading=こうふする",
+          "finding": "JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 交付する/こうふする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 交付する/こうふする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 2090013928e6df7fbe245e581b8b2dba0ecafeb5d8482b3fed9994fd14bda172",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%A4%E4%BB%98%E3%81%99%E3%82%8B#word_2129",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 交付する/こうふする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 交付する/こうふする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "交付する",
+              "reading": "こうふする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 交付する/こうふする \"aushändigen, erteilen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "aushändigen, erteilen. JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting",
+        "japanese": "運転免許証が交付された。 / マイナンバーカードは、市役所の窓口で交付されます。 / 市から引っ越し費用の補助金が交付された。",
+        "romanization": "kōfu suru; Unten menkyoshō ga kōfu sareta. / Mainanbā kādo wa, shiyakusho no madoguchi de kōfu saremasu. / Shi kara hikkoshi hiyō no hojokin ga kōfu sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Führerschein wurde ausgehändigt. / Die My-Number-Karte wird am Schalter des Rathauses ausgegeben. / Die Stadt hat mir einen Zuschuss zu den Umzugskosten gewährt.",
+        "contexts": [
+          "Driver's licence handed over",
+          "Picking up an ID card",
+          "Municipal subsidy"
+        ],
+        "lexical": "JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting",
+        "register": "formal / administrative",
+        "transitivity": "transitive (X を交付する); mostly passive (X が交付される)",
+        "conjugation": "suru verb (交付する → 交付して, 交付しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1024 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Driver's licence handed over; Picking up an ID card; Municipal subsidy), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5be21ce92dd7e3fe1f3f452b02315e39847721b967aaa710ee4f05e00c3c8a45",
+        "approvalHash": "88a725cff30f2ba57fed6e04601aacf3f10f8e7d60f2d5abaeea4f263cf6d37e"
+      }
+    },
+    {
+      "id": "vocab-n2:1025",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1025",
+      "state": "accepted",
+      "predecessorHash": "c87563ebf4a3b82056818b09b80557e4029c9de86eb3a3f70affa377db1d7f39",
+      "originalHash": "c87563ebf4a3b82056818b09b80557e4029c9de86eb3a3f70affa377db1d7f39",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ビザは大使館で発給される。",
+            "romaji": "Biza wa taishikan de hakkyū sareru.",
+            "german": "Das Visum wird in der Botschaft ausgestellt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発給する ist ein amtlicher Ausdruck für das „Ausstellen und Ausgeben“ von Pässen, Visa oder Genehmigungen durch eine Behörde: ビザを発給する, 旅券の発給. Er erscheint fast nur in Verwaltungstexten, auf Botschaftsseiten und in Nachrichten, meist im Passiv. Gegenüber dem breiteren 発行 (auch für Zeitschriften, Quittungen usw.) ist 発給 auf solche Papiere beschränkt; im Alltag sagt man oft einfach ビザが出る oder ビザが下りる.",
+        "examples": [
+          {
+            "japanese": "ビザは大使館で発給される。",
+            "romaji": "Biza wa taishikan de hakkyū sareru.",
+            "german": "Das Visum wird in der Botschaft ausgestellt."
+          },
+          {
+            "japanese": "パスポートの発給には、通常一週間ほどかかる。",
+            "romaji": "Pasupōto no hakkyū ni wa, tsūjō isshūkan hodo kakaru.",
+            "german": "Die Ausstellung eines Reisepasses dauert normalerweise etwa eine Woche."
+          },
+          {
+            "japanese": "その国は、観光客へのビザの発給を一時停止した。",
+            "romaji": "Sono kuni wa, kankōkyaku e no biza no hakkyū o ichiji teishi shita.",
+            "german": "Das Land hat die Ausstellung von Touristenvisa vorübergehend ausgesetzt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1679500 sense 1, noun / suru verb: issuance (e.g. of a passport), issuing Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 発給する ist ein amtlicher Ausdruck für das „Ausstellen und Ausgeben“ von Pässen, Visa oder Genehmigungen durch eine Behörde: ビザを発給する, 旅券の発給. Er erscheint fast nur in Verwaltungstexten, auf Botschaftsseiten und in Nachrichten, meist im Passiv. Gegenüber dem breiteren 発行 (auch für Zeitschriften, Quittungen usw.) ist 発給 auf solche Papiere beschränkt; im Alltag sagt man oft einfach ビザが出る oder ビザが下りる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1679500; spelling=発給する; reading=はっきゅうする",
+          "finding": "JMdict 1679500 sense 1, noun / suru verb: issuance (e.g. of a passport), issuing"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 発給する/はっきゅうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 発給する/はっきゅうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%99%BA%E7%B5%A6%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 発給する/はっきゅうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 55d2399664cfd27ef9487957d840112da07248946e744598cb222d4657462e28",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E7%B5%A6%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 発給する/はっきゅうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "ausstellen, ausgeben. JMdict 1679500 sense 1, noun / suru verb: issuance (e.g. of a passport), issuing",
+        "japanese": "ビザは大使館で発給される。 / パスポートの発給には、通常一週間ほどかかる。 / その国は、観光客へのビザの発給を一時停止した。",
+        "romanization": "hakkyū suru; Biza wa taishikan de hakkyū sareru. / Pasupōto no hakkyū ni wa, tsūjō isshūkan hodo kakaru. / Sono kuni wa, kankōkyaku e no biza no hakkyū o ichiji teishi shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Visum wird in der Botschaft ausgestellt. / Die Ausstellung eines Reisepasses dauert normalerweise etwa eine Woche. / Das Land hat die Ausstellung von Touristenvisa vorübergehend ausgesetzt.",
+        "contexts": [
+          "Visa at the embassy",
+          "Passport processing time",
+          "Visa suspension in the news"
+        ],
+        "lexical": "JMdict 1679500 sense 1, noun / suru verb: issuance (e.g. of a passport), issuing",
+        "register": "written / administrative",
+        "transitivity": "transitive (X を発給する); mostly passive (X が発給される)",
+        "conjugation": "suru verb (発給する → 発給して, 発給しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1025 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Visa at the embassy; Passport processing time; Visa suspension in the news), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "aa0d84473dacdb3ec511857a4ce9df178f61fdb1671a0d1c8b7c8a28ecb4749f",
+        "approvalHash": "c2ebb897a76b4a6ffd44c4af258b4ce15552c13abcbcb44055d5d18b2faadc28"
+      }
+    },
+    {
+      "id": "vocab-n2:1026",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1026",
+      "state": "accepted",
+      "predecessorHash": "8cbaab106f622bdad4693ca3ef590eb11bfa33215eab76ac8cf92ce5c441c424",
+      "originalHash": "8cbaab106f622bdad4693ca3ef590eb11bfa33215eab76ac8cf92ce5c441c424",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": "情報を更新する = aktualisieren; 契約を更新する = verlängern; 記録を更新する = einen Rekord verbessern.",
+        "examples": [
+          {
+            "japanese": "免許証を更新するために警察署に行った。",
+            "romaji": "Menkyoshō o kōshin suru tame ni keisatsusho ni itta.",
+            "german": "Ich bin zur Polizeistation gegangen, um meinen Führerschein zu erneuern."
+          },
+          {
+            "kind": "natural",
+            "japanese": "住所が変わったら、登録情報を更新してください。",
+            "romaji": "Juusho ga kawattara, touroku jouhou o koushin shite kudasai.",
+            "german": "Bitte aktualisieren Sie Ihre Registrierungsdaten bei einer Adressänderung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "更新する heißt „erneuern, verlängern, aktualisieren“ – je nach Objekt unterschiedlich zu übersetzen: 契約・免許を更新する („verlängern“), 情報・ページを更新する („aktualisieren“), 記録を更新する („einen Rekord brechen“). In der IT ist es das Standardwort für „Update“ bzw. „neu laden“ (ページを更新する); daneben ist アップデート verbreitet. Im Gegensatz zu 新しくする („neu machen“) bezeichnet 更新 meist das Fortführen von etwas Bestehendem in neuer Fassung. Häufig im Passiv: 世界記録が更新された.",
+        "examples": [
+          {
+            "japanese": "免許証を更新するために警察署に行った。",
+            "romaji": "Menkyoshō o kōshin suru tame ni keisatsusho ni itta.",
+            "german": "Ich bin zur Polizeistation gegangen, um meinen Führerschein zu erneuern."
+          },
+          {
+            "japanese": "住所が変わったら、登録情報を更新してください。",
+            "romaji": "Juusho ga kawattara, touroku jouhou o koushin shite kudasai.",
+            "german": "Bitte aktualisieren Sie Ihre Registrierungsdaten bei einer Adressänderung."
+          },
+          {
+            "japanese": "彼女はマラソンの日本記録を更新した。",
+            "romaji": "Kanojo wa marason no Nihon kiroku o kōshin shita.",
+            "german": "Sie hat den japanischen Marathonrekord gebrochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 2f1afa8d17de03fecbe5d6861f5325f89357a22f5b1005bee8f8b53f23d9a5f3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B#word_2116",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 更新する/こうしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 更新する/こうしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "更新する",
+              "reading": "こうしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 更新する/こうしんする \"erneuern, aktualisieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1279370 sense 1, noun / suru verb: renewal, update, replacement, breaking (a record) Pitch: Verified [0] via exact OJAD dictionary-form cell. 更新する heißt „erneuern, verlängern, aktualisieren“ – je nach Objekt unterschiedlich zu übersetzen: 契約・免許を更新する („verlängern“), 情報・ページを更新する („aktualisieren“), 記録を更新する („einen Rekord brechen“). In der IT ist es das Standardwort für „Update“ bzw. „neu laden“ (ページを更新する); daneben ist アップデート verbreitet. Im Gegensatz zu 新しくする („neu machen“) bezeichnet 更新 meist das Fortführen von etwas Bestehendem in neuer Fassung. Häufig im Passiv: 世界記録が更新された. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1279370; spelling=更新する; reading=こうしんする",
+          "finding": "JMdict 1279370 sense 1, noun / suru verb: renewal, update, replacement, breaking (a record)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 更新する/こうしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 更新する/こうしんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 2f1afa8d17de03fecbe5d6861f5325f89357a22f5b1005bee8f8b53f23d9a5f3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%9B%B4%E6%96%B0%E3%81%99%E3%82%8B#word_2116",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 更新する/こうしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 更新する/こうしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "更新する",
+              "reading": "こうしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 更新する/こうしんする \"erneuern, aktualisieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "erneuern, aktualisieren. JMdict 1279370 sense 1, noun / suru verb: renewal, update, replacement, breaking (a record)",
+        "japanese": "免許証を更新するために警察署に行った。 / 住所が変わったら、登録情報を更新してください。 / 彼女はマラソンの日本記録を更新した。",
+        "romanization": "kōshin suru; Menkyoshō o kōshin suru tame ni keisatsusho ni itta. / Juusho ga kawattara, touroku jouhou o koushin shite kudasai. / Kanojo wa marason no Nihon kiroku o kōshin shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin zur Polizeistation gegangen, um meinen Führerschein zu erneuern. / Bitte aktualisieren Sie Ihre Registrierungsdaten bei einer Adressänderung. / Sie hat den japanischen Marathonrekord gebrochen.",
+        "contexts": [
+          "Renewing a licence",
+          "Updating registration data",
+          "Breaking a national record"
+        ],
+        "lexical": "JMdict 1279370 sense 1, noun / suru verb: renewal, update, replacement, breaking (a record)",
+        "register": "neutral",
+        "transitivity": "transitive (X を更新する)",
+        "conjugation": "suru verb (更新する → 更新して, 更新しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1026 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Renewing a licence; Updating registration data; Breaking a national record), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "50351cca81a586ae115057f8d166fdb2cc856689ffa9e955243e8e6ea40ad1de",
+        "approvalHash": "aca27adbbafaf26554e49024f37815a05471415b67a8f4c49bf2c969816822f5"
+      }
+    },
+    {
+      "id": "vocab-n2:1027",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1027",
+      "state": "accepted",
+      "predecessorHash": "a985cedb78a052e97740640cc544c7ac381c528292a86548dbb46b7c9230c4ac",
+      "originalHash": "a985cedb78a052e97740640cc544c7ac381c528292a86548dbb46b7c9230c4ac",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい設定を有効にするには再起動が必要だ。",
+            "romaji": "Atarashii settei o yūkō ni suru ni wa saikidō ga hitsuyō da.",
+            "german": "Um die neuen Einstellungen zu aktivieren, ist ein Neustart erforderlich."
+          }
+        ],
+        "conjugation": {
+          "conjugationKind": "excluded",
+          "verbGroup": null,
+          "conjugationReading": null
+        },
+        "conjugationReason": null,
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "有効にする heißt „gültig machen, aktivieren, wirksam machen“ und ist vor allem in IT-Anleitungen das Standardwort für „aktivieren, einschalten“: 機能を有効にする, 設定を有効にする. Gegenteil: 無効にする („deaktivieren“). Grammatisch ist es das Na-Adjektiv 有効 + にする („zu … machen“); als Zustand sagt man 有効になっている. Für sich bedeutet 有効 „gültig“ (このチケットは三日間有効だ) bzw. „wirksam“ (有効な方法).",
+        "examples": [
+          {
+            "japanese": "新しい設定を有効にするには再起動が必要だ。",
+            "romaji": "Atarashii settei o yūkō ni suru ni wa saikidō ga hitsuyō da.",
+            "german": "Um die neuen Einstellungen zu aktivieren, ist ein Neustart erforderlich."
+          },
+          {
+            "japanese": "安全のため、二段階認証を有効にしてください。",
+            "romaji": "Anzen no tame, nidankai ninshō o yūkō ni shite kudasai.",
+            "german": "Aktivieren Sie aus Sicherheitsgründen bitte die Zwei-Faktor-Authentifizierung."
+          },
+          {
+            "japanese": "期限が切れたポイントを、もう一度有効にすることはできません。",
+            "romaji": "Kigen ga kireta pointo o, mō ichido yūkō ni suru koto wa dekimasen.",
+            "german": "Abgelaufene Punkte können nicht wieder aktiviert werden."
+          }
+        ],
+        "conjugation": {
+          "conjugationKind": "excluded",
+          "verbGroup": null,
+          "conjugationReading": null,
+          "conjugationReason": "Fixed noun + にする frame (有効にする): only the final する inflects, regularly (有効にして, 有効にした), as the reviewed examples show. The frame is not a lexical suru verb with its own JMdict entry, so no 19-form drill is generated."
+        },
+        "conjugationReason": "Fixed noun + にする frame (有効にする): only the final する inflects, regularly (有効にして, 有効にした), as the reviewed examples show. The frame is not a lexical suru verb with its own JMdict entry, so no 19-form drill is generated.",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1541290 sense 1 (有効 + にする): valid, effective → to make valid, to enable Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 有効にする heißt „gültig machen, aktivieren, wirksam machen“ und ist vor allem in IT-Anleitungen das Standardwort für „aktivieren, einschalten“: 機能を有効にする, 設定を有効にする. Gegenteil: 無効にする („deaktivieren“). Grammatisch ist es das Na-Adjektiv 有効 + にする („zu … machen“); als Zustand sagt man 有効になっている. Für sich bedeutet 有効 „gültig“ (このチケットは三日間有効だ) bzw. „wirksam“ (有効な方法). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1541290; spelling=有効にする; reading=ゆうこうにする",
+          "finding": "JMdict 1541290 sense 1 (有効 + にする): valid, effective → to make valid, to enable"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 有効にする/ゆうこうにする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (有効[な]); none is the exact head 有効にする/ゆうこうにする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 有効にする/ゆうこうにする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 5d7c98667eaf9d2351a208378fbce8d7173c41248944d45fd074da125e964ea7",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%9C%89%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (有効[な]); none is the exact head 有効にする/ゆうこうにする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "aktivieren, gültig machen. JMdict 1541290 sense 1 (有効 + にする): valid, effective → to make valid, to enable",
+        "japanese": "新しい設定を有効にするには再起動が必要だ。 / 安全のため、二段階認証を有効にしてください。 / 期限が切れたポイントを、もう一度有効にすることはできません。",
+        "romanization": "yūkō ni suru; Atarashii settei o yūkō ni suru ni wa saikidō ga hitsuyō da. / Anzen no tame, nidankai ninshō o yūkō ni shite kudasai. / Kigen ga kireta pointo o, mō ichido yūkō ni suru koto wa dekimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Um die neuen Einstellungen zu aktivieren, ist ein Neustart erforderlich. / Aktivieren Sie aus Sicherheitsgründen bitte die Zwei-Faktor-Authentifizierung. / Abgelaufene Punkte können nicht wieder aktiviert werden.",
+        "contexts": [
+          "Applying new settings",
+          "Enabling two-factor login",
+          "Expired loyalty points"
+        ],
+        "lexical": "JMdict 1541290 sense 1 (有効 + にする): valid, effective → to make valid, to enable",
+        "register": "neutral; common in IT",
+        "transitivity": "transitive (X を有効にする); state: 有効になる / 有効になっている",
+        "conjugation": "na-adjective + にする; する inflects (有効にして, 有効にしない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1027 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Applying new settings; Enabling two-factor login; Expired loyalty points), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3260a37f5d10eb173e8039f21ddbc1e540a2620cf592c1223982ae6816b44aa2",
+        "approvalHash": "38d1ef174bdc6fa88b67d6f14e7d9b3e73e8b3bf470898300a9281a0b5f6d513"
+      }
+    },
+    {
+      "id": "vocab-n2:1028",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1028",
+      "state": "accepted",
+      "predecessorHash": "e2076e409af55c86e80707d1efbdeb5161f7590c81c925b371caccb1ca8c7c8f",
+      "originalHash": "e2076e409af55c86e80707d1efbdeb5161f7590c81c925b371caccb1ca8c7c8f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "古いパスワードを無効にした。",
+            "romaji": "Furui pasuwādo o mukō ni shita.",
+            "german": "Das alte Passwort wurde ungültig gemacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "無効にする heißt „ungültig machen, außer Kraft setzen, deaktivieren“: パスワードを無効にする, 契約を無効にする. In Software-Menüs ist es das Gegenstück zu 有効にする („aktivieren“). Grammatisch: Na-Adjektiv 無効 („ungültig, unwirksam“) + にする; der Zustand heißt 無効になる („ungültig werden“), etwa bei abgelaufenen Gutscheinen. Achtung: 無効 (むこう) klingt genauso wie 向こう („drüben, die andere Seite“).",
+        "examples": [
+          {
+            "japanese": "古いパスワードを無効にした。",
+            "romaji": "Furui pasuwādo o mukō ni shita.",
+            "german": "Das alte Passwort wurde ungültig gemacht."
+          },
+          {
+            "japanese": "通知が多すぎるので、このアプリの通知を無効にした。",
+            "romaji": "Tsūchi ga ōsugiru node, kono apuri no tsūchi o mukō ni shita.",
+            "german": "Weil es zu viele Benachrichtigungen gab, habe ich sie für diese App deaktiviert."
+          },
+          {
+            "japanese": "カードをなくしたら、すぐに銀行に連絡して無効にしてもらいましょう。",
+            "romaji": "Kādo o nakushitara, sugu ni ginkō ni renraku shite mukō ni shite moraimashō.",
+            "german": "Wenn Sie Ihre Karte verlieren, rufen Sie sofort die Bank an und lassen Sie sie sperren."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2389850 sense 1, expression / suru verb: to disable, to override (make invalid) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 無効にする heißt „ungültig machen, außer Kraft setzen, deaktivieren“: パスワードを無効にする, 契約を無効にする. In Software-Menüs ist es das Gegenstück zu 有効にする („aktivieren“). Grammatisch: Na-Adjektiv 無効 („ungültig, unwirksam“) + にする; der Zustand heißt 無効になる („ungültig werden“), etwa bei abgelaufenen Gutscheinen. Achtung: 無効 (むこう) klingt genauso wie 向こう („drüben, die andere Seite“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2389850; spelling=無効にする; reading=むこうにする",
+          "selected": {
+            "sequence": "2389850",
+            "spelling": "無効にする",
+            "reading": "むこうにする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "suru verb - included"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to disable",
+                  "to override"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2389850 sense 1, expression / suru verb: to disable, to override (make invalid)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 無効にする/むこうにする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (無効); none is the exact head 無効にする/むこうにする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%84%A1%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 無効にする/むこうにする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 10910ef2f62cb958c629a4f3cd66a842e12a423ee69a87244bb3b5fea0d24873",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%84%A1%E5%8A%B9%E3%81%AB%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (無効); none is the exact head 無効にする/むこうにする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "deaktivieren, ungültig machen. JMdict 2389850 sense 1, expression / suru verb: to disable, to override (make invalid)",
+        "japanese": "古いパスワードを無効にした。 / 通知が多すぎるので、このアプリの通知を無効にした。 / カードをなくしたら、すぐに銀行に連絡して無効にしてもらいましょう。",
+        "romanization": "mukō ni suru; Furui pasuwādo o mukō ni shita. / Tsūchi ga ōsugiru node, kono apuri no tsūchi o mukō ni shita. / Kādo o nakushitara, sugu ni ginkō ni renraku shite mukō ni shite moraimashō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das alte Passwort wurde ungültig gemacht. / Weil es zu viele Benachrichtigungen gab, habe ich sie für diese App deaktiviert. / Wenn Sie Ihre Karte verlieren, rufen Sie sofort die Bank an und lassen Sie sie sperren.",
+        "contexts": [
+          "Disabling an old password",
+          "Turning off notifications",
+          "Blocking a lost card"
+        ],
+        "lexical": "JMdict 2389850 sense 1, expression / suru verb: to disable, to override (make invalid)",
+        "register": "neutral; common in IT",
+        "transitivity": "transitive (X を無効にする); state: 無効になる",
+        "conjugation": "na-adjective + にする; する inflects (無効にして, 無効にしない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1028 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Disabling an old password; Turning off notifications; Blocking a lost card), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2d815f4b5fa7f494ca5fe9eb8c18fd2196f0997f6d00e7d8c5228c833fe3a3ff",
+        "approvalHash": "15c017f77a18dae2b17d8ff3ea231d280b7c7ffc477a9230e4170efa30270f3d"
+      }
+    },
+    {
+      "id": "vocab-n2:1029",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1029",
+      "state": "accepted",
+      "predecessorHash": "aaf347731c7bdbc56d606d93ac1bfce5b337c33299d63f183d19c6d75f8b106c",
+      "originalHash": "aaf347731c7bdbc56d606d93ac1bfce5b337c33299d63f183d19c6d75f8b106c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい法律が来月から施行される。",
+            "romaji": "Atarashii hōritsu ga raigetsu kara shikō sareru.",
+            "german": "Das neue Gesetz tritt ab nächstem Monat in Kraft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "施行する heißt, ein Gesetz oder eine Verordnung „in Kraft setzen“: 法律を施行する, 〜から施行される. Meist steht es im Passiv mit Zeitangabe; das Nomen erscheint in 施行日 („Tag des Inkrafttretens“). Juristen lesen es zur Unterscheidung von 試行 („Probelauf“) teils せこう. Zu unterscheiden ist es von 実施 („durchführen“, z. B. Umfragen, Prüfungen) und 制定 („erlassen“): Ein Gesetz wird erst 制定 und dann 施行. Sehr formell, typisch für Nachrichten und Amtstexte.",
+        "examples": [
+          {
+            "japanese": "新しい法律が来月から施行される。",
+            "romaji": "Atarashii hōritsu ga raigetsu kara shikō sareru.",
+            "german": "Das neue Gesetz tritt ab nächstem Monat in Kraft."
+          },
+          {
+            "japanese": "この規則は、施行されてから一度も変更されていない。",
+            "romaji": "Kono kisoku wa, shikō sarete kara ichido mo henkō sarete inai.",
+            "german": "Diese Vorschrift wurde seit ihrem Inkrafttreten kein einziges Mal geändert."
+          },
+          {
+            "japanese": "政府は、法律の施行に向けて準備を進めている。",
+            "romaji": "Seifu wa, hōritsu no shikō ni mukete junbi o susumete iru.",
+            "german": "Die Regierung bereitet das Inkrafttreten des Gesetzes vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 609a102ef66f6310dcd7779bc43af21c3464faaf3e07c47ef4ea34403c9dfba1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%96%BD%E8%A1%8C%E3%81%99%E3%82%8B#word_2177",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 施行する/しこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 施行する/しこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "施行する",
+              "reading": "しこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 施行する/しこうする \"in Kraft setzen, durchführen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement Pitch: Verified [0] via exact OJAD dictionary-form cell. 施行する heißt, ein Gesetz oder eine Verordnung „in Kraft setzen“: 法律を施行する, 〜から施行される. Meist steht es im Passiv mit Zeitangabe; das Nomen erscheint in 施行日 („Tag des Inkrafttretens“). Juristen lesen es zur Unterscheidung von 試行 („Probelauf“) teils せこう. Zu unterscheiden ist es von 実施 („durchführen“, z. B. Umfragen, Prüfungen) und 制定 („erlassen“): Ein Gesetz wird erst 制定 und dann 施行. Sehr formell, typisch für Nachrichten und Amtstexte. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1579510; spelling=施行する; reading=しこうする",
+          "finding": "JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 施行する/しこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 施行する/しこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 609a102ef66f6310dcd7779bc43af21c3464faaf3e07c47ef4ea34403c9dfba1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%96%BD%E8%A1%8C%E3%81%99%E3%82%8B#word_2177",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 施行する/しこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 施行する/しこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "施行する",
+              "reading": "しこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 施行する/しこうする \"in Kraft setzen, durchführen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "in Kraft setzen, durchführen. JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement",
+        "japanese": "新しい法律が来月から施行される。 / この規則は、施行されてから一度も変更されていない。 / 政府は、法律の施行に向けて準備を進めている。",
+        "romanization": "shikō suru; Atarashii hōritsu ga raigetsu kara shikō sareru. / Kono kisoku wa, shikō sarete kara ichido mo henkō sarete inai. / Seifu wa, hōritsu no shikō ni mukete junbi o susumete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das neue Gesetz tritt ab nächstem Monat in Kraft. / Diese Vorschrift wurde seit ihrem Inkrafttreten kein einziges Mal geändert. / Die Regierung bereitet das Inkrafttreten des Gesetzes vor.",
+        "contexts": [
+          "New law next month",
+          "Unchanged regulation",
+          "Government preparations"
+        ],
+        "lexical": "JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement",
+        "register": "written / legal",
+        "transitivity": "transitive (X を施行する); usually passive (X が施行される)",
+        "conjugation": "suru verb (施行する → 施行して, 施行しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1029 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New law next month; Unchanged regulation; Government preparations), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3b8e7eae80d9705841d24afe71c72c1a4a9a0182a3bc766253615a112cf9d92e",
+        "approvalHash": "c9f40800e6f15588de2f9ef61f52cd95ef800b01301eb68cd3098ec2c6c7ad7d"
+      }
+    },
+    {
+      "id": "vocab-n2:1030",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1030",
+      "state": "accepted",
+      "predecessorHash": "77439169ad16f6c16b747a48e71440dd428d8005cd12852dc2e8602e7e939000",
+      "originalHash": "77439169ad16f6c16b747a48e71440dd428d8005cd12852dc2e8602e7e939000",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "留学生は授業料を免除された。",
+            "romaji": "Ryūgakusei wa jugyōryō o menjo sareta.",
+            "german": "Der Austauschstudent wurde von den Studiengebühren befreit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "免除する heißt, jemanden von einer Pflicht, Gebühr oder Prüfung „befreien“ bzw. sie ihm „erlassen“: 授業料を免除する, 試験を免除する. Im Passiv steht die Person mit は, die erlassene Sache mit を oder als Subjekt mit が: 学生は授業料を免除された / 授業料が免除された. Häufige Komposita: 授業料免除, 免除申請, 一部免除 („teilweiser Erlass“). Es ist formell; im Gegensatz zu 許す („verzeihen, erlauben“) geht es um eine geregelte, offizielle Ausnahme.",
+        "examples": [
+          {
+            "japanese": "留学生は授業料を免除された。",
+            "romaji": "Ryūgakusei wa jugyōryō o menjo sareta.",
+            "german": "Der Austauschstudent wurde von den Studiengebühren befreit."
+          },
+          {
+            "japanese": "日本語能力試験のN2を持っている人は、筆記試験が免除される。",
+            "romaji": "Nihongo Nōryoku Shiken no N2 o motte iru hito wa, hikki shiken ga menjo sareru.",
+            "german": "Wer das JLPT N2 hat, ist von der schriftlichen Prüfung befreit."
+          },
+          {
+            "japanese": "収入が少ない場合は、保険料の支払いが免除されることがある。",
+            "romaji": "Shūnyū ga sukunai baai wa, hokenryō no shiharai ga menjo sareru koto ga aru.",
+            "german": "Bei geringem Einkommen kann man von den Versicherungsbeiträgen befreit werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 免除する heißt, jemanden von einer Pflicht, Gebühr oder Prüfung „befreien“ bzw. sie ihm „erlassen“: 授業料を免除する, 試験を免除する. Im Passiv steht die Person mit は, die erlassene Sache mit を oder als Subjekt mit が: 学生は授業料を免除された / 授業料が免除された. Häufige Komposita: 授業料免除, 免除申請, 一部免除 („teilweiser Erlass“). Es ist formell; im Gegensatz zu 許す („verzeihen, erlauben“) geht es um eine geregelte, offizielle Ausnahme. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1533200; spelling=免除する; reading=めんじょする",
+          "finding": "JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 免除する/めんじょする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (免除); none is the exact head 免除する/めんじょする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%85%8D%E9%99%A4%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 免除する/めんじょする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 1a7663832386378fe78871e867d6b4bc264a491b7f08a95707fd120987305a31",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%8D%E9%99%A4%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (免除); none is the exact head 免除する/めんじょする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "befreien, erlassen. JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge",
+        "japanese": "留学生は授業料を免除された。 / 日本語能力試験のN2を持っている人は、筆記試験が免除される。 / 収入が少ない場合は、保険料の支払いが免除されることがある。",
+        "romanization": "menjo suru; Ryūgakusei wa jugyōryō o menjo sareta. / Nihongo Nōryoku Shiken no N2 o motte iru hito wa, hikki shiken ga menjo sareru. / Shūnyū ga sukunai baai wa, hokenryō no shiharai ga menjo sareru koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Austauschstudent wurde von den Studiengebühren befreit. / Wer das JLPT N2 hat, ist von der schriftlichen Prüfung befreit. / Bei geringem Einkommen kann man von den Versicherungsbeiträgen befreit werden.",
+        "contexts": [
+          "Tuition waiver",
+          "Exam exemption",
+          "Insurance premium relief"
+        ],
+        "lexical": "JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge",
+        "register": "formal / administrative",
+        "transitivity": "transitive (人の X を免除する); mostly passive",
+        "conjugation": "suru verb (免除する → 免除して, 免除しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1030 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Tuition waiver; Exam exemption; Insurance premium relief), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "63b6c1d4dd52f7733eed7b2344234451d4e6e8b043b8e85f38cf9dcaa36ce577",
+        "approvalHash": "d2aba1122fd4304fcde66feb3d87c15f2948fa0fe299fa9bee3425d5e765502d"
+      }
+    },
+    {
+      "id": "vocab-n2:1031",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1031",
+      "state": "accepted",
+      "predecessorHash": "571dd5a1dad88836aa5d462ff3a9a7abeee1ce401f95ea540749eabd2bdbc444",
+      "originalHash": "571dd5a1dad88836aa5d462ff3a9a7abeee1ce401f95ea540749eabd2bdbc444",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ひらがなを漢字に変換する。",
+            "romaji": "Hiragana o kanji ni henkan suru.",
+            "german": "Hiragana in Kanji umwandeln."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "変換する heißt „umwandeln, konvertieren“ und bezeichnet das Überführen von einer Form in eine andere: AをBに変換する. Im Alltag begegnet es vor allem am Computer: ひらがなを漢字に変換する (Kanji-Umwandlung beim Tippen), ファイルをPDFに変換する, 変換ミス („Fehler bei der Kanji-Umwandlung“). In der Technik heißt es z. B. 電気を熱に変換する. Im Unterschied zu 変更する („ändern“) und 変える („verändern“) bleibt der Inhalt gleich, nur die Form wechselt.",
+        "examples": [
+          {
+            "japanese": "ひらがなを漢字に変換する。",
+            "romaji": "Hiragana o kanji ni henkan suru.",
+            "german": "Hiragana in Kanji umwandeln."
+          },
+          {
+            "japanese": "この資料をPDFに変換してから送ってください。",
+            "romaji": "Kono shiryō o PDF ni henkan shite kara okutte kudasai.",
+            "german": "Bitte wandeln Sie diese Unterlagen in PDF um, bevor Sie sie schicken."
+          },
+          {
+            "japanese": "変換ミスで、メールに変な漢字が入っていた。",
+            "romaji": "Henkan misu de, mēru ni hen na kanji ga haitte ita.",
+            "german": "Wegen eines Umwandlungsfehlers stand ein falsches Kanji in der Mail."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1510950 sense 1, noun / suru verb: change, conversion, transformation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 変換する heißt „umwandeln, konvertieren“ und bezeichnet das Überführen von einer Form in eine andere: AをBに変換する. Im Alltag begegnet es vor allem am Computer: ひらがなを漢字に変換する (Kanji-Umwandlung beim Tippen), ファイルをPDFに変換する, 変換ミス („Fehler bei der Kanji-Umwandlung“). In der Technik heißt es z. B. 電気を熱に変換する. Im Unterschied zu 変更する („ändern“) und 変える („verändern“) bleibt der Inhalt gleich, nur die Form wechselt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1510950; spelling=変換する; reading=へんかんする",
+          "finding": "JMdict 1510950 sense 1, noun / suru verb: change, conversion, transformation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 変換する/へんかんする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 変換する/へんかんする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 変換する/へんかんする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 13c94f2dc29a017e29033983707485654b54e84d5fec98ac24bd59c22cc7efb1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 変換する/へんかんする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "umwandeln, konvertieren. JMdict 1510950 sense 1, noun / suru verb: change, conversion, transformation",
+        "japanese": "ひらがなを漢字に変換する。 / この資料をPDFに変換してから送ってください。 / 変換ミスで、メールに変な漢字が入っていた。",
+        "romanization": "henkan suru; Hiragana o kanji ni henkan suru. / Kono shiryō o PDF ni henkan shite kara okutte kudasai. / Henkan misu de, mēru ni hen na kanji ga haitte ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Hiragana in Kanji umwandeln. / Bitte wandeln Sie diese Unterlagen in PDF um, bevor Sie sie schicken. / Wegen eines Umwandlungsfehlers stand ein falsches Kanji in der Mail.",
+        "contexts": [
+          "Typing Japanese",
+          "Converting a document",
+          "Typo in an email"
+        ],
+        "lexical": "JMdict 1510950 sense 1, noun / suru verb: change, conversion, transformation",
+        "register": "neutral; common in IT",
+        "transitivity": "transitive (A を B に変換する)",
+        "conjugation": "suru verb (変換する → 変換して, 変換しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1031 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Typing Japanese; Converting a document; Typo in an email), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b5a167f1dd1a60c02222ba517b199105576f65741f482b379537a8195c62c4cd",
+        "approvalHash": "80537bde25bb2ddc4a5e77630103cda358132a09138a7560232ee8d7602f3409"
+      }
+    },
+    {
+      "id": "vocab-n2:1032",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1032",
+      "state": "accepted",
+      "predecessorHash": "98514c6e86d68e15516bd8c3cd90393b6e43d7620d161b8641e4402d1ce36371",
+      "originalHash": "98514c6e86d68e15516bd8c3cd90393b6e43d7620d161b8641e4402d1ce36371",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "会議の日程を変更した。",
+            "romaji": "Kaigi no nittei o henkō shita.",
+            "german": "Der Zeitplan der Konferenz wurde geändert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "変更する heißt „ändern, abändern“ – vor allem Pläne, Termine, Einstellungen und Regeln: 予定を変更する, パスワードを変更する. In Ankündigungen steht oft 〜が変更になりました („wurde geändert“). Gegenüber 変える ist es sachlicher und formeller; im Unterschied zu 変換 („Form umwandeln“) und 改正 („Gesetz ändern“) ist es das allgemeine Wort für Änderungen an etwas Festgelegtem. Häufige Komposita: 変更点 („Änderung“), 予定変更, 住所変更.",
+        "examples": [
+          {
+            "japanese": "会議の日程を変更した。",
+            "romaji": "Kaigi no nittei o henkō shita.",
+            "german": "Der Zeitplan der Konferenz wurde geändert."
+          },
+          {
+            "japanese": "雨のため、試合の会場が変更になりました。",
+            "romaji": "Ame no tame, shiai no kaijō ga henkō ni narimashita.",
+            "german": "Wegen Regens wurde der Austragungsort des Spiels verlegt."
+          },
+          {
+            "japanese": "三か月ごとにパスワードを変更するように言われている。",
+            "romaji": "Sankagetsu goto ni pasuwādo o henkō suru yō ni iwarete iru.",
+            "german": "Wir sollen unser Passwort alle drei Monate ändern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 55f4936a8d7a58e1ade9e4afc4aa9c82a08810daba579b69bf937b4bff9494c8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B#word_2684",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 変更する/へんこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 変更する/へんこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "変更する",
+              "reading": "へんこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 変更する/へんこうする \"ändern, abändern\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration Pitch: Verified [0] via exact OJAD dictionary-form cell. 変更する heißt „ändern, abändern“ – vor allem Pläne, Termine, Einstellungen und Regeln: 予定を変更する, パスワードを変更する. In Ankündigungen steht oft 〜が変更になりました („wurde geändert“). Gegenüber 変える ist es sachlicher und formeller; im Unterschied zu 変換 („Form umwandeln“) und 改正 („Gesetz ändern“) ist es das allgemeine Wort für Änderungen an etwas Festgelegtem. Häufige Komposita: 変更点 („Änderung“), 予定変更, 住所変更. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1511040; spelling=変更する; reading=へんこうする",
+          "finding": "JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 変更する/へんこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 変更する/へんこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 55f4936a8d7a58e1ade9e4afc4aa9c82a08810daba579b69bf937b4bff9494c8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B#word_2684",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 変更する/へんこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 変更する/へんこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "変更する",
+              "reading": "へんこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 変更する/へんこうする \"ändern, abändern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "ändern, abändern. JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration",
+        "japanese": "会議の日程を変更した。 / 雨のため、試合の会場が変更になりました。 / 三か月ごとにパスワードを変更するように言われている。",
+        "romanization": "henkō suru; Kaigi no nittei o henkō shita. / Ame no tame, shiai no kaijō ga henkō ni narimashita. / Sankagetsu goto ni pasuwādo o henkō suru yō ni iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Zeitplan der Konferenz wurde geändert. / Wegen Regens wurde der Austragungsort des Spiels verlegt. / Wir sollen unser Passwort alle drei Monate ändern.",
+        "contexts": [
+          "Rescheduling a meeting",
+          "Venue change announcement",
+          "Password policy"
+        ],
+        "lexical": "JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を変更する); 変更になる for announcements",
+        "conjugation": "suru verb (変更する → 変更して, 変更しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1032 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rescheduling a meeting; Venue change announcement; Password policy), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "858e6c036e1a5061f0fb2e6e924a8aa437ff468be81507a3ef9e9bb167407f7c",
+        "approvalHash": "fedd78fa23d805a09b44c87dbb349b6fb24e61d7c3fac90eab023b726ff58113"
+      }
+    },
+    {
+      "id": "vocab-n2:1033",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1033",
+      "state": "accepted",
+      "predecessorHash": "9feb48391c635e23f7055d3f60a65b7b7305b17058e938a1f8d8812db5ce3373",
+      "originalHash": "9feb48391c635e23f7055d3f60a65b7b7305b17058e938a1f8d8812db5ce3373",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "憲法を改正するには国民投票が必要だ。",
+            "romaji": "Kenpō o kaisei suru ni wa kokumin tōhyō ga hitsuyō da.",
+            "german": "Zur Verfassungsänderung ist eine Volksabstimmung erforderlich."
+          }
+        ],
+        "meaning": "reformieren, novellieren",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "改正する heißt, Gesetze, Verordnungen oder Regeln förmlich „ändern, novellieren“: 法律を改正する, 憲法改正, 〜の一部を改正する. Es gehört zur Rechts- und Nachrichtensprache; die Objekte sind fast immer Normen. Davon zu unterscheiden sind die beiden かいてい-Wörter 改定 („Preise, Tarife neu festsetzen“) und 改訂 („Texte, Bücher überarbeiten“). 改革 ist eine umfassendere „Reform“ von Systemen.",
+        "examples": [
+          {
+            "japanese": "憲法を改正するには国民投票が必要だ。",
+            "romaji": "Kenpō o kaisei suru ni wa kokumin tōhyō ga hitsuyō da.",
+            "german": "Zur Verfassungsänderung ist eine Volksabstimmung erforderlich."
+          },
+          {
+            "japanese": "法律が改正されて、十八歳から成人になった。",
+            "romaji": "Hōritsu ga kaisei sarete, jūhassai kara seijin ni natta.",
+            "german": "Durch eine Gesetzesänderung ist man jetzt mit 18 volljährig."
+          },
+          {
+            "japanese": "クラブの規則を改正して、新しい会員も投票できるようにした。",
+            "romaji": "Kurabu no kisoku o kaisei shite, atarashii kaiin mo tōhyō dekiru yō ni shita.",
+            "german": "Wir haben die Vereinsregeln geändert, damit auch neue Mitglieder abstimmen können."
+          }
+        ],
+        "meaning": "novellieren, (Gesetz) ändern",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1200930 sense 1, noun / suru verb: revision, amendment (of laws, rules) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 改正する heißt, Gesetze, Verordnungen oder Regeln förmlich „ändern, novellieren“: 法律を改正する, 憲法改正, 〜の一部を改正する. Es gehört zur Rechts- und Nachrichtensprache; die Objekte sind fast immer Normen. Davon zu unterscheiden sind die beiden かいてい-Wörter 改定 („Preise, Tarife neu festsetzen“) und 改訂 („Texte, Bücher überarbeiten“). 改革 ist eine umfassendere „Reform“ von Systemen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1200930; spelling=改正する; reading=かいせいする",
+          "finding": "JMdict 1200930 sense 1, noun / suru verb: revision, amendment (of laws, rules)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 改正する/かいせいする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (改正); none is the exact head 改正する/かいせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%94%B9%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 改正する/かいせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 e0d3cd4a01db2c4cda88bd0a6cbe9fb452f3e9d755410e37f161a7c80e0e2745",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (改正); none is the exact head 改正する/かいせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "novellieren, (Gesetz) ändern. JMdict 1200930 sense 1, noun / suru verb: revision, amendment (of laws, rules)",
+        "japanese": "憲法を改正するには国民投票が必要だ。 / 法律が改正されて、十八歳から成人になった。 / クラブの規則を改正して、新しい会員も投票できるようにした。",
+        "romanization": "kaisei suru; Kenpō o kaisei suru ni wa kokumin tōhyō ga hitsuyō da. / Hōritsu ga kaisei sarete, jūhassai kara seijin ni natta. / Kurabu no kisoku o kaisei shite, atarashii kaiin mo tōhyō dekiru yō ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zur Verfassungsänderung ist eine Volksabstimmung erforderlich. / Durch eine Gesetzesänderung ist man jetzt mit 18 volljährig. / Wir haben die Vereinsregeln geändert, damit auch neue Mitglieder abstimmen können.",
+        "contexts": [
+          "Constitutional amendment",
+          "Age of majority lowered",
+          "Changing club rules"
+        ],
+        "lexical": "JMdict 1200930 sense 1, noun / suru verb: revision, amendment (of laws, rules)",
+        "register": "written / legal",
+        "transitivity": "transitive (X を改正する)",
+        "conjugation": "suru verb (改正する → 改正して, 改正しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1033 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Constitutional amendment; Age of majority lowered; Changing club rules), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "832f5ddb31b12ad1c712e68852bbda6223136867185b6a2bc452558a0ff163eb",
+        "approvalHash": "12b632ac101ad2d99700328248a24f237a25cbda2d02ee154e0eedea5f4a31c1"
+      }
+    },
+    {
+      "id": "vocab-n2:1034",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1034",
+      "state": "accepted",
+      "predecessorHash": "5c8cd2ab9b8fba89652fac378372ede7faa5885aab47ea50d5cc8ed0d0fb42d3",
+      "originalHash": "5c8cd2ab9b8fba89652fac378372ede7faa5885aab47ea50d5cc8ed0d0fb42d3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "来月から料金が改定される。",
+            "romaji": "Raigetsu kara ryōkin ga kaitei sareru.",
+            "german": "Ab nächstem Monat werden die Gebühren neu festgesetzt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "改定する heißt, festgelegte Werte wie Preise, Gebühren, Löhne oder Regelwerke „neu festsetzen, revidieren“: 料金を改定する, 運賃改定, 価格改定のお知らせ. In Firmenmitteilungen ist es oft die neutrale Umschreibung für eine Preiserhöhung. Nicht verwechseln mit dem gleich gelesenen 改訂 („Texte überarbeiten“, z. B. Lehrbücher) und mit 改正 („Gesetze ändern“). Sehr formell, typisch für Aushänge, Bescheide und Nachrichten.",
+        "examples": [
+          {
+            "japanese": "来月から料金が改定される。",
+            "romaji": "Raigetsu kara ryōkin ga kaitei sareru.",
+            "german": "Ab nächstem Monat werden die Gebühren neu festgesetzt."
+          },
+          {
+            "japanese": "会社は四月に給与規定を改定した。",
+            "romaji": "Kaisha wa shigatsu ni kyūyo kitei o kaitei shita.",
+            "german": "Die Firma hat im April ihre Gehaltsordnung angepasst."
+          },
+          {
+            "japanese": "最低賃金が改定され、時給が五十円上がった。",
+            "romaji": "Saitei chingin ga kaitei sare, jikyū ga gojū en agatta.",
+            "german": "Der Mindestlohn wurde angepasst, und der Stundenlohn stieg um 50 Yen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 bdb8e7e09e98b093025c141419ef6a1ac4581234b4f9e804e68fc8d45d9a13c3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E5%AE%9A%E3%81%99%E3%82%8B#word_1948",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 改定する/かいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 改定する/かいていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "改定する",
+              "reading": "かいていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 改定する/かいていする \"neu festsetzen, revidieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration Pitch: Verified [0] via exact OJAD dictionary-form cell. 改定する heißt, festgelegte Werte wie Preise, Gebühren, Löhne oder Regelwerke „neu festsetzen, revidieren“: 料金を改定する, 運賃改定, 価格改定のお知らせ. In Firmenmitteilungen ist es oft die neutrale Umschreibung für eine Preiserhöhung. Nicht verwechseln mit dem gleich gelesenen 改訂 („Texte überarbeiten“, z. B. Lehrbücher) und mit 改正 („Gesetze ändern“). Sehr formell, typisch für Aushänge, Bescheide und Nachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1201040; spelling=改定する; reading=かいていする",
+          "finding": "JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 改定する/かいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 改定する/かいていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 bdb8e7e09e98b093025c141419ef6a1ac4581234b4f9e804e68fc8d45d9a13c3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E5%AE%9A%E3%81%99%E3%82%8B#word_1948",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 改定する/かいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 改定する/かいていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "改定する",
+              "reading": "かいていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 改定する/かいていする \"neu festsetzen, revidieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "neu festsetzen, revidieren. JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration",
+        "japanese": "来月から料金が改定される。 / 会社は四月に給与規定を改定した。 / 最低賃金が改定され、時給が五十円上がった。",
+        "romanization": "kaitei suru; Raigetsu kara ryōkin ga kaitei sareru. / Kaisha wa shigatsu ni kyūyo kitei o kaitei shita. / Saitei chingin ga kaitei sare, jikyū ga gojū en agatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ab nächstem Monat werden die Gebühren neu festgesetzt. / Die Firma hat im April ihre Gehaltsordnung angepasst. / Der Mindestlohn wurde angepasst, und der Stundenlohn stieg um 50 Yen.",
+        "contexts": [
+          "Fee change notice",
+          "Revised salary rules",
+          "Minimum wage increase"
+        ],
+        "lexical": "JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration",
+        "register": "written / formal",
+        "transitivity": "transitive (X を改定する); often passive",
+        "conjugation": "suru verb (改定する → 改定して, 改定しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1034 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Fee change notice; Revised salary rules; Minimum wage increase), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "106ebc974c8be79500ae08a3fb2eb63eba0d0a1ad2fc0cdf19c405bb0ed5b1a7",
+        "approvalHash": "ceaecb9bf2994ede6c1ad3103c50ada0c9e4ef6f2c069c10219b89c92513ff1f"
+      }
+    },
+    {
+      "id": "vocab-n2:1035",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1035",
+      "state": "accepted",
+      "predecessorHash": "c30c172e4fdeb8e054ab4fd3ae652466fc72b132082245ca41eb005d4a72440e",
+      "originalHash": "c30c172e4fdeb8e054ab4fd3ae652466fc72b132082245ca41eb005d4a72440e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "教科書が十年ぶりに改訂された。",
+            "romaji": "Kyōkasho ga jūnenburi ni kaitei sareta.",
+            "german": "Das Lehrbuch wurde nach zehn Jahren überarbeitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "改訂する heißt, einen bestehenden Text – Buch, Wörterbuch, Handbuch, Lehrplan – inhaltlich „überarbeiten, neu auflegen“: 教科書を改訂する, 辞書の改訂版 („überarbeitete Auflage“). Das Zeichen 訂 („berichtigen“) verweist auf Geschriebenes, wie in 訂正. Nicht verwechseln mit dem gleich gelesenen 改定 („Preise, Gebühren neu festsetzen“) und mit 改正 („Gesetze ändern“). Das Wort ist formell und typisch für Verlage und Bildungseinrichtungen.",
+        "examples": [
+          {
+            "japanese": "教科書が十年ぶりに改訂された。",
+            "romaji": "Kyōkasho ga jūnenburi ni kaitei sareta.",
+            "german": "Das Lehrbuch wurde nach zehn Jahren überarbeitet."
+          },
+          {
+            "japanese": "この辞書は、新しい言葉を加えて改訂された。",
+            "romaji": "Kono jisho wa, atarashii kotoba o kuwaete kaitei sareta.",
+            "german": "Dieses Wörterbuch wurde überarbeitet und um neue Wörter ergänzt."
+          },
+          {
+            "japanese": "マニュアルを改訂したので、新しい版を使ってください。",
+            "romaji": "Manyuaru o kaitei shita node, atarashii han o tsukatte kudasai.",
+            "german": "Wir haben das Handbuch überarbeitet, bitte verwenden Sie die neue Fassung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 改訂する heißt, einen bestehenden Text – Buch, Wörterbuch, Handbuch, Lehrplan – inhaltlich „überarbeiten, neu auflegen“: 教科書を改訂する, 辞書の改訂版 („überarbeitete Auflage“). Das Zeichen 訂 („berichtigen“) verweist auf Geschriebenes, wie in 訂正. Nicht verwechseln mit dem gleich gelesenen 改定 („Preise, Gebühren neu festsetzen“) und mit 改正 („Gesetze ändern“). Das Wort ist formell und typisch für Verlage und Bildungseinrichtungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1201060; spelling=改訂する; reading=かいていする",
+          "finding": "JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 改訂する/かいていする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (改訂); none is the exact head 改訂する/かいていする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%94%B9%E8%A8%82%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 改訂する/かいていする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 68fd372a748e819b9cbc9a4e315ef84926130a6d508ec4fed7272b1def6549e0",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E8%A8%82%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (改訂); none is the exact head 改訂する/かいていする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "überarbeiten, revidieren. JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration",
+        "japanese": "教科書が十年ぶりに改訂された。 / この辞書は、新しい言葉を加えて改訂された。 / マニュアルを改訂したので、新しい版を使ってください。",
+        "romanization": "kaitei suru; Kyōkasho ga jūnenburi ni kaitei sareta. / Kono jisho wa, atarashii kotoba o kuwaete kaitei sareta. / Manyuaru o kaitei shita node, atarashii han o tsukatte kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Lehrbuch wurde nach zehn Jahren überarbeitet. / Dieses Wörterbuch wurde überarbeitet und um neue Wörter ergänzt. / Wir haben das Handbuch überarbeitet, bitte verwenden Sie die neue Fassung.",
+        "contexts": [
+          "Textbook revision",
+          "Updated dictionary edition",
+          "Revised manual at work"
+        ],
+        "lexical": "JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration",
+        "register": "written / formal",
+        "transitivity": "transitive (X を改訂する); often passive",
+        "conjugation": "suru verb (改訂する → 改訂して, 改訂しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1035 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Textbook revision; Updated dictionary edition; Revised manual at work), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ef04a46cfab367e9277750f72f4840ddfe490cc0371d306f13f1a950dd0777d7",
+        "approvalHash": "90b734c9846bd78bbe71c7b083b3d95f00d88fa0ec5c511c850b9cf14f890ea3"
+      }
+    },
+    {
+      "id": "vocab-n2:1036",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1036",
+      "state": "accepted",
+      "predecessorHash": "bbbc0ded2021e202ba9740dc37dc76e9803a4271c16ad1198e624b1310c5d4bb",
+      "originalHash": "bbbc0ded2021e202ba9740dc37dc76e9803a4271c16ad1198e624b1310c5d4bb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不公平な制度を是正する必要がある。",
+            "romaji": "Fukōhei na seido o zesei suru hitsuyō ga aru.",
+            "german": "Es ist notwendig, das ungerechte System zu korrigieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "是正する heißt, einen Missstand oder eine Ungleichheit „korrigieren, beheben“: 格差を是正する, 不平等を是正する, 長時間労働の是正. Das Objekt ist fast immer ein gesellschaftliches oder organisatorisches Problem, kein einzelner Fehler – für Tipp- oder Rechenfehler sagt man 訂正する oder 直す. Das Wort ist formell und typisch für Politik, Verwaltung und Nachrichten; Behörden erteilen z. B. eine 是正勧告 („Aufforderung zur Behebung“).",
+        "examples": [
+          {
+            "japanese": "不公平な制度を是正する必要がある。",
+            "romaji": "Fukōhei na seido o zesei suru hitsuyō ga aru.",
+            "german": "Es ist notwendig, das ungerechte System zu korrigieren."
+          },
+          {
+            "japanese": "政府は、地方と都市の格差を是正するための政策を発表した。",
+            "romaji": "Seifu wa, chihō to toshi no kakusa o zesei suru tame no seisaku o happyō shita.",
+            "german": "Die Regierung kündigte Maßnahmen an, um das Gefälle zwischen Land und Stadt zu verringern."
+          },
+          {
+            "japanese": "残業が多すぎると指摘され、会社は働き方を是正した。",
+            "romaji": "Zangyō ga ōsugiru to shiteki sare, kaisha wa hatarakikata o zesei shita.",
+            "german": "Nachdem man die Firma auf die vielen Überstunden hingewiesen hatte, stellte sie ihre Arbeitsbedingungen um."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 是正する heißt, einen Missstand oder eine Ungleichheit „korrigieren, beheben“: 格差を是正する, 不平等を是正する, 長時間労働の是正. Das Objekt ist fast immer ein gesellschaftliches oder organisatorisches Problem, kein einzelner Fehler – für Tipp- oder Rechenfehler sagt man 訂正する oder 直す. Das Wort ist formell und typisch für Politik, Verwaltung und Nachrichten; Behörden erteilen z. B. eine 是正勧告 („Aufforderung zur Behebung“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1374510; spelling=是正する; reading=ぜせいする",
+          "finding": "JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 是正する/ぜせいする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (是正); none is the exact head 是正する/ぜせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%98%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 是正する/ぜせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 62803408c366b0e504cb4305f5cbb60bf96e4947e54dff9151cd8f50f34eac18",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%98%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (是正); none is the exact head 是正する/ぜせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "berichtigen, richtigstellen. JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying",
+        "japanese": "不公平な制度を是正する必要がある。 / 政府は、地方と都市の格差を是正するための政策を発表した。 / 残業が多すぎると指摘され、会社は働き方を是正した。",
+        "romanization": "zesei suru; Fukōhei na seido o zesei suru hitsuyō ga aru. / Seifu wa, chihō to toshi no kakusa o zesei suru tame no seisaku o happyō shita. / Zangyō ga ōsugiru to shiteki sare, kaisha wa hatarakikata o zesei shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist notwendig, das ungerechte System zu korrigieren. / Die Regierung kündigte Maßnahmen an, um das Gefälle zwischen Land und Stadt zu verringern. / Nachdem man die Firma auf die vielen Überstunden hingewiesen hatte, stellte sie ihre Arbeitsbedingungen um.",
+        "contexts": [
+          "Unfair system",
+          "Regional inequality",
+          "Excessive overtime"
+        ],
+        "lexical": "JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying",
+        "register": "written / formal",
+        "transitivity": "transitive (X を是正する)",
+        "conjugation": "suru verb (是正する → 是正して, 是正しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1036 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Unfair system; Regional inequality; Excessive overtime), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c8eac543733c30590dcd8b11414d462faf4fa45e010bd9f5947ff1a2fd209642",
+        "approvalHash": "f71dc44b3e6df113edd4e568aa67f8d01602b3a722f23ac0e23e7673f9cb14ba"
+      }
+    },
+    {
+      "id": "vocab-n2:1037",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1037",
+      "state": "accepted",
+      "predecessorHash": "a7ee71fb98fc267cc301dc92ea45da09d8f8efcfccbd4d4a21ba2df6a9049134",
+      "originalHash": "a7ee71fb98fc267cc301dc92ea45da09d8f8efcfccbd4d4a21ba2df6a9049134",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "歯並びを矯正するために歯医者に通っている。",
+            "romaji": "Hanarabi o kyōsei suru tame ni haisha ni kayotte iru.",
+            "german": "Ich gehe zum Zahnarzt, um meine Zahnstellung korrigieren zu lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "矯正する heißt, etwas Schiefes oder eine schlechte Gewohnheit gezielt „korrigieren, geraderichten“: 歯並びを矯正する, 姿勢を矯正する, 視力を矯正する („die Sehschwäche korrigieren“, z. B. mit Brille). Bekannt ist 歯列矯正 („kieferorthopädische Behandlung, Zahnspange“). Im Unterschied zu 是正 (gesellschaftliche Missstände) und 訂正 (Fehler in Texten) betrifft 矯正 meist den Körper oder Verhalten. In der Justiz bezeichnet es auch die Resozialisierung von Straftätern.",
+        "examples": [
+          {
+            "japanese": "歯並びを矯正するために歯医者に通っている。",
+            "romaji": "Hanarabi o kyōsei suru tame ni haisha ni kayotte iru.",
+            "german": "Ich gehe zum Zahnarzt, um meine Zahnstellung korrigieren zu lassen."
+          },
+          {
+            "japanese": "毎日ストレッチをして、悪い姿勢を矯正している。",
+            "romaji": "Mainichi sutoretchi o shite, warui shisei o kyōsei shite iru.",
+            "german": "Ich dehne mich jeden Tag, um meine schlechte Haltung zu korrigieren."
+          },
+          {
+            "japanese": "左利きを無理に矯正するのは、よくないと言われている。",
+            "romaji": "Hidarikiki o muri ni kyōsei suru no wa, yoku nai to iwarete iru.",
+            "german": "Es heißt, man solle Linkshändigkeit nicht gewaltsam umerziehen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1237800 sense 1, noun / suru verb: correction (of a defect), rectification, straightening (of teeth) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 矯正する heißt, etwas Schiefes oder eine schlechte Gewohnheit gezielt „korrigieren, geraderichten“: 歯並びを矯正する, 姿勢を矯正する, 視力を矯正する („die Sehschwäche korrigieren“, z. B. mit Brille). Bekannt ist 歯列矯正 („kieferorthopädische Behandlung, Zahnspange“). Im Unterschied zu 是正 (gesellschaftliche Missstände) und 訂正 (Fehler in Texten) betrifft 矯正 meist den Körper oder Verhalten. In der Justiz bezeichnet es auch die Resozialisierung von Straftätern. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1237800; spelling=矯正する; reading=きょうせいする",
+          "finding": "JMdict 1237800 sense 1, noun / suru verb: correction (of a defect), rectification, straightening (of teeth)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 矯正する/きょうせいする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 矯正する/きょうせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9F%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 矯正する/きょうせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 13d36b4298e898db2de5892adfe88689d9572bb52ee5bfa46f4db6e7b35f960a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%9F%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 矯正する/きょうせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "korrigieren, richten. JMdict 1237800 sense 1, noun / suru verb: correction (of a defect), rectification, straightening (of teeth)",
+        "japanese": "歯並びを矯正するために歯医者に通っている。 / 毎日ストレッチをして、悪い姿勢を矯正している。 / 左利きを無理に矯正するのは、よくないと言われている。",
+        "romanization": "kyōsei suru; Hanarabi o kyōsei suru tame ni haisha ni kayotte iru. / Mainichi sutoretchi o shite, warui shisei o kyōsei shite iru. / Hidarikiki o muri ni kyōsei suru no wa, yoku nai to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich gehe zum Zahnarzt, um meine Zahnstellung korrigieren zu lassen. / Ich dehne mich jeden Tag, um meine schlechte Haltung zu korrigieren. / Es heißt, man solle Linkshändigkeit nicht gewaltsam umerziehen.",
+        "contexts": [
+          "Orthodontic treatment",
+          "Fixing bad posture",
+          "Left-handedness debate"
+        ],
+        "lexical": "JMdict 1237800 sense 1, noun / suru verb: correction (of a defect), rectification, straightening (of teeth)",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を矯正する)",
+        "conjugation": "suru verb (矯正する → 矯正して, 矯正しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1037 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Orthodontic treatment; Fixing bad posture; Left-handedness debate), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "61b3e06948e837b815fd3eaebc9cf45580b522984d3a94833fccc4fb73267813",
+        "approvalHash": "a12a70adcecee14716f45a2fd4ed4c10d2a17f0ea4c6c911481a10043557b534"
+      }
+    },
+    {
+      "id": "vocab-n2:1038",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1038",
+      "state": "accepted",
+      "predecessorHash": "e0c6e8c7463bd8e62229eaa70b4df2fd364aff6d11ba4a960125549af89b4a3e",
+      "originalHash": "e0c6e8c7463bd8e62229eaa70b4df2fd364aff6d11ba4a960125549af89b4a3e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "写真の明るさを補正した。",
+            "romaji": "Shashin no akarusa o hosei shita.",
+            "german": "Die Helligkeit des Fotos wurde nachgebessert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "補正する heißt, Werte oder Abweichungen durch Ergänzen oder Ausgleichen „korrigieren, nachjustieren“: 明るさを補正する, 誤差を補正する. Häufig ist es in Technik und Fotografie (手ぶれ補正 „Bildstabilisator“, 色補正 „Farbkorrektur“) sowie in der Haushaltspolitik: 補正予算 („Nachtragshaushalt“). Im Unterschied zu 修正 („berichtigen, ändern“) betont 補正 das Ausgleichen auf einen Soll-Wert.",
+        "examples": [
+          {
+            "japanese": "写真の明るさを補正した。",
+            "romaji": "Shashin no akarusa o hosei shita.",
+            "german": "Die Helligkeit des Fotos wurde nachgebessert."
+          },
+          {
+            "japanese": "このカメラには、手ぶれ補正の機能が付いている。",
+            "romaji": "Kono kamera ni wa, tebure hosei no kinō ga tsuite iru.",
+            "german": "Diese Kamera hat einen eingebauten Bildstabilisator."
+          },
+          {
+            "japanese": "政府は災害対策のため、補正予算を組んだ。",
+            "romaji": "Seifu wa saigai taisaku no tame, hosei yosan o kunda.",
+            "german": "Die Regierung hat für Katastrophenschutzmaßnahmen einen Nachtragshaushalt aufgestellt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1514680 sense 1, noun / suru verb: correction, revision, compensation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 補正する heißt, Werte oder Abweichungen durch Ergänzen oder Ausgleichen „korrigieren, nachjustieren“: 明るさを補正する, 誤差を補正する. Häufig ist es in Technik und Fotografie (手ぶれ補正 „Bildstabilisator“, 色補正 „Farbkorrektur“) sowie in der Haushaltspolitik: 補正予算 („Nachtragshaushalt“). Im Unterschied zu 修正 („berichtigen, ändern“) betont 補正 das Ausgleichen auf einen Soll-Wert. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1514680; spelling=補正する; reading=ほせいする",
+          "finding": "JMdict 1514680 sense 1, noun / suru verb: correction, revision, compensation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 補正する/ほせいする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 補正する/ほせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A3%9C%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 補正する/ほせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 f72f64f778260a7bc9bb19bb5c25f29793b79ba3fcda58bd121c4636d28a01a3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A3%9C%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 補正する/ほせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "nachbessern, justieren. JMdict 1514680 sense 1, noun / suru verb: correction, revision, compensation",
+        "japanese": "写真の明るさを補正した。 / このカメラには、手ぶれ補正の機能が付いている。 / 政府は災害対策のため、補正予算を組んだ。",
+        "romanization": "hosei suru; Shashin no akarusa o hosei shita. / Kono kamera ni wa, tebure hosei no kinō ga tsuite iru. / Seifu wa saigai taisaku no tame, hosei yosan o kunda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Helligkeit des Fotos wurde nachgebessert. / Diese Kamera hat einen eingebauten Bildstabilisator. / Die Regierung hat für Katastrophenschutzmaßnahmen einen Nachtragshaushalt aufgestellt.",
+        "contexts": [
+          "Editing a photo",
+          "Camera features",
+          "Supplementary budget"
+        ],
+        "lexical": "JMdict 1514680 sense 1, noun / suru verb: correction, revision, compensation",
+        "register": "neutral to technical",
+        "transitivity": "transitive (X を補正する)",
+        "conjugation": "suru verb (補正する → 補正して, 補正しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1038 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Editing a photo; Camera features; Supplementary budget), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "028e5a5d374d8463d2a7ea966cb4b407f1572148013c01b0e37f8fcae1e07a5b",
+        "approvalHash": "6d29e0746ff0a7e2e02ab4d2bef8b6ee79b0e1d98e1ac2766c5e3762cbd374fa"
+      }
+    },
+    {
+      "id": "vocab-n2:1039",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1039",
+      "state": "accepted",
+      "predecessorHash": "f1ac6e08695bb61db1f7387ce5fbec453b43dbf6c2f36e8cf2afc32bfaaa7c56",
+      "originalHash": "f1ac6e08695bb61db1f7387ce5fbec453b43dbf6c2f36e8cf2afc32bfaaa7c56",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": "日程を調整する = Termine abstimmen; 高さ・音量を調整する = einstellen.",
+        "examples": [
+          {
+            "japanese": "スケジュールを調整して会議に出席した。",
+            "romaji": "Sukejūru o chōsei shite kaigi ni shusseki shita.",
+            "german": "Ich habe meinen Zeitplan angepasst und an der Konferenz teilgenommen."
+          },
+          {
+            "kind": "natural",
+            "japanese": "椅子の高さを調整して、画面を見やすくした。",
+            "romaji": "Isu no takasa o chousei shite, gamen o miyasuku shita.",
+            "german": "Ich stellte die Sitzhöhe so ein, dass ich den Bildschirm besser sehen konnte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "調整する heißt „anpassen, einstellen, abstimmen“ – technisch wie organisatorisch: 音量・温度を調整する („einstellen“), 日程を調整する („Termine abstimmen“), 意見を調整する („Meinungen in Einklang bringen“). In der Geschäftswelt ist 調整中 („wird gerade abgestimmt“) eine häufige, oft auch ausweichende Antwort. Im Unterschied zu 調節 (Mengen oder Grade technisch regulieren, z. B. 温度調節) umfasst 調整 auch das Koordinieren zwischen Personen.",
+        "examples": [
+          {
+            "japanese": "スケジュールを調整して会議に出席した。",
+            "romaji": "Sukejūru o chōsei shite kaigi ni shusseki shita.",
+            "german": "Ich habe meinen Zeitplan angepasst und an der Konferenz teilgenommen."
+          },
+          {
+            "japanese": "椅子の高さを調整して、画面を見やすくした。",
+            "romaji": "Isu no takasa o chousei shite, gamen o miyasuku shita.",
+            "german": "Ich stellte die Sitzhöhe so ein, dass ich den Bildschirm besser sehen konnte."
+          },
+          {
+            "japanese": "来週の打ち合わせの日時は、現在調整中です。",
+            "romaji": "Raishū no uchiawase no nichiji wa, genzai chōseichū desu.",
+            "german": "Der Termin für die Besprechung nächste Woche wird gerade abgestimmt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 7f317b7ba0ed09433cc9a506ecc32276b760f4ac1ef2b3e8d1ba3c24cfd0ea32",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B#word_2447",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 調整する/ちょうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 調整する/ちょうせいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "調整する",
+              "reading": "ちょうせいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 調整する/ちょうせいする \"einstellen, regulieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1429200 sense 1, noun / suru verb: adjustment, regulation, coordination, tuning Pitch: Verified [0] via exact OJAD dictionary-form cell. 調整する heißt „anpassen, einstellen, abstimmen“ – technisch wie organisatorisch: 音量・温度を調整する („einstellen“), 日程を調整する („Termine abstimmen“), 意見を調整する („Meinungen in Einklang bringen“). In der Geschäftswelt ist 調整中 („wird gerade abgestimmt“) eine häufige, oft auch ausweichende Antwort. Im Unterschied zu 調節 (Mengen oder Grade technisch regulieren, z. B. 温度調節) umfasst 調整 auch das Koordinieren zwischen Personen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1429200; spelling=調整する; reading=ちょうせいする",
+          "finding": "JMdict 1429200 sense 1, noun / suru verb: adjustment, regulation, coordination, tuning"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 調整する/ちょうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 調整する/ちょうせいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 7f317b7ba0ed09433cc9a506ecc32276b760f4ac1ef2b3e8d1ba3c24cfd0ea32",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%AA%BF%E6%95%B4%E3%81%99%E3%82%8B#word_2447",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 調整する/ちょうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 調整する/ちょうせいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "調整する",
+              "reading": "ちょうせいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 調整する/ちょうせいする \"einstellen, regulieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "einstellen, regulieren. JMdict 1429200 sense 1, noun / suru verb: adjustment, regulation, coordination, tuning",
+        "japanese": "スケジュールを調整して会議に出席した。 / 椅子の高さを調整して、画面を見やすくした。 / 来週の打ち合わせの日時は、現在調整中です。",
+        "romanization": "chōsei suru; Sukejūru o chōsei shite kaigi ni shusseki shita. / Isu no takasa o chousei shite, gamen o miyasuku shita. / Raishū no uchiawase no nichiji wa, genzai chōseichū desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe meinen Zeitplan angepasst und an der Konferenz teilgenommen. / Ich stellte die Sitzhöhe so ein, dass ich den Bildschirm besser sehen konnte. / Der Termin für die Besprechung nächste Woche wird gerade abgestimmt.",
+        "contexts": [
+          "Juggling a schedule",
+          "Adjusting chair height",
+          "Pending meeting date"
+        ],
+        "lexical": "JMdict 1429200 sense 1, noun / suru verb: adjustment, regulation, coordination, tuning",
+        "register": "neutral; common in business",
+        "transitivity": "transitive (X を調整する)",
+        "conjugation": "suru verb (調整する → 調整して, 調整しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1039 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Juggling a schedule; Adjusting chair height; Pending meeting date), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5a0d730d458119919e7d062a5984ead4bdabdce17482c4c9684ea69a89125c40",
+        "approvalHash": "c69466b9f82186230487ba4837faa773f65f1031ef1c2af5f9cd910968247580"
+      }
+    },
+    {
+      "id": "vocab-n2:1040",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1040",
+      "state": "accepted",
+      "predecessorHash": "37ab5e20b3362725e98c4d723250b3fa840c0b80e98cf7e4de4bf22bc6677dfd",
+      "originalHash": "37ab5e20b3362725e98c4d723250b3fa840c0b80e98cf7e4de4bf22bc6677dfd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい環境に適応するのに時間がかかった。",
+            "romaji": "Atarashii kankyō ni tekiō suru no ni jikan ga kakatta.",
+            "german": "Es hat Zeit gebraucht, sich an die neue Umgebung anzupassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "適応する heißt „sich anpassen“ an eine Umgebung oder Lage und ist intransitiv: 環境に適応する, 変化に適応する. Typisch sind 適応力 („Anpassungsfähigkeit“) und in der Psychologie 適応障害 („Anpassungsstörung“). Im Unterschied zu 慣れる („sich gewöhnen“) klingt es sachlicher und betont die aktive Umstellung. Nicht verwechseln mit 適用 („eine Regel anwenden“) und 対応 („auf etwas reagieren“).",
+        "examples": [
+          {
+            "japanese": "新しい環境に適応するのに時間がかかった。",
+            "romaji": "Atarashii kankyō ni tekiō suru no ni jikan ga kakatta.",
+            "german": "Es hat Zeit gebraucht, sich an die neue Umgebung anzupassen."
+          },
+          {
+            "japanese": "この植物は、寒い気候にも適応できる。",
+            "romaji": "Kono shokubutsu wa, samui kikō ni mo tekiō dekiru.",
+            "german": "Diese Pflanze kann sich auch an kaltes Klima anpassen."
+          },
+          {
+            "japanese": "時代の変化に適応できない会社は、生き残れない。",
+            "romaji": "Jidai no henka ni tekiō dekinai kaisha wa, ikinokorenai.",
+            "german": "Firmen, die sich nicht an den Wandel der Zeit anpassen können, überleben nicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 d2af3b1892dc343ac03e1b474f2a422389dc042d43d0f6a6904b3b3e5b6378e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%A9%E5%BF%9C%E3%81%99%E3%82%8B#word_2493",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 適応する/てきおうする read; accent_top positions [0] (0 = no accent_top). Exact whole 適応する/てきおうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "適応する",
+              "reading": "てきおうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 適応する/てきおうする \"sich anpassen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity Pitch: Verified [0] via exact OJAD dictionary-form cell. 適応する heißt „sich anpassen“ an eine Umgebung oder Lage und ist intransitiv: 環境に適応する, 変化に適応する. Typisch sind 適応力 („Anpassungsfähigkeit“) und in der Psychologie 適応障害 („Anpassungsstörung“). Im Unterschied zu 慣れる („sich gewöhnen“) klingt es sachlicher und betont die aktive Umstellung. Nicht verwechseln mit 適用 („eine Regel anwenden“) und 対応 („auf etwas reagieren“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437350; spelling=適応する; reading=てきおうする",
+          "finding": "JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 適応する/てきおうする read; accent_top positions [0] (0 = no accent_top). Exact whole 適応する/てきおうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 d2af3b1892dc343ac03e1b474f2a422389dc042d43d0f6a6904b3b3e5b6378e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%A9%E5%BF%9C%E3%81%99%E3%82%8B#word_2493",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 適応する/てきおうする read; accent_top positions [0] (0 = no accent_top). Exact whole 適応する/てきおうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "適応する",
+              "reading": "てきおうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 適応する/てきおうする \"sich anpassen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich anpassen. JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity",
+        "japanese": "新しい環境に適応するのに時間がかかった。 / この植物は、寒い気候にも適応できる。 / 時代の変化に適応できない会社は、生き残れない。",
+        "romanization": "tekiō suru; Atarashii kankyō ni tekiō suru no ni jikan ga kakatta. / Kono shokubutsu wa, samui kikō ni mo tekiō dekiru. / Jidai no henka ni tekiō dekinai kaisha wa, ikinokorenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es hat Zeit gebraucht, sich an die neue Umgebung anzupassen. / Diese Pflanze kann sich auch an kaltes Klima anpassen. / Firmen, die sich nicht an den Wandel der Zeit anpassen können, überleben nicht.",
+        "contexts": [
+          "Settling into a new environment",
+          "Hardy plant",
+          "Business survival"
+        ],
+        "lexical": "JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity",
+        "register": "neutral to formal",
+        "transitivity": "intransitive (X に適応する)",
+        "conjugation": "suru verb (適応する → 適応して, 適応しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1040 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Settling into a new environment; Hardy plant; Business survival), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "de9d5b7bd7e5b2cfb32ef6e0e255608d103abfd8c9b09a6b4b15137caf67c0ff",
+        "approvalHash": "5194d588b5dd416298182a0dd125ffb289da87464bd1d96d9c7706e9bed3e647"
+      }
+    },
+    {
+      "id": "vocab-n2:1041",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1041",
+      "state": "accepted",
+      "predecessorHash": "094723a4807446fde1e28d64d80afa84c631e4809431bfa72f202186e3f79ced",
+      "originalHash": "094723a4807446fde1e28d64d80afa84c631e4809431bfa72f202186e3f79ced",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "問題に冷静に対処することが重要だ。",
+            "romaji": "Mondai ni reisei ni taisho suru koto ga jūyō da.",
+            "german": "Es ist wichtig, Probleme ruhig zu bewältigen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "対処する heißt, auf ein Problem oder eine Lage angemessen „reagieren, damit umgehen, Maßnahmen ergreifen“: 問題に対処する, トラブルに対処する. Das Problem steht mit に; typische Adverbien sind 冷静に, 迅速に, 適切に. Es ist neutral bis formell. 対応する ist ähnlich, aber breiter (auch „Kunden bedienen, entsprechen“), während 対処 gezielt das Bewältigen einer Schwierigkeit meint; 処理する betont eher das Abarbeiten von Aufgaben oder Daten.",
+        "examples": [
+          {
+            "japanese": "問題に冷静に対処することが重要だ。",
+            "romaji": "Mondai ni reisei ni taisho suru koto ga jūyō da.",
+            "german": "Es ist wichtig, Probleme ruhig zu bewältigen."
+          },
+          {
+            "japanese": "地震が起きたときにどう対処すればいいか、家族で話し合った。",
+            "romaji": "Jishin ga okita toki ni dō taisho sureba ii ka, kazoku de hanashiatta.",
+            "german": "Wir haben in der Familie besprochen, wie wir uns bei einem Erdbeben verhalten sollen."
+          },
+          {
+            "japanese": "お客様からのクレームには、責任者が対処します。",
+            "romaji": "Okyakusama kara no kurēmu ni wa, sekininsha ga taisho shimasu.",
+            "german": "Um Kundenbeschwerden kümmert sich der Verantwortliche."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 3f1ae4d759c07f74b170d3cebf36ef5f4fae4283eae78e0c1b63426c73cabdf6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AF%BE%E5%87%A6%E3%81%99%E3%82%8B#word_1736",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 対処する/たいしょする read; accent_top positions [1] (0 = no accent_top). Exact whole 対処する/たいしょする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "対処する",
+              "reading": "たいしょする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 対処する/たいしょする \"bewältigen, damit umgehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 対処する heißt, auf ein Problem oder eine Lage angemessen „reagieren, damit umgehen, Maßnahmen ergreifen“: 問題に対処する, トラブルに対処する. Das Problem steht mit に; typische Adverbien sind 冷静に, 迅速に, 適切に. Es ist neutral bis formell. 対応する ist ähnlich, aber breiter (auch „Kunden bedienen, entsprechen“), während 対処 gezielt das Bewältigen einer Schwierigkeit meint; 処理する betont eher das Abarbeiten von Aufgaben oder Daten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1410070; spelling=対処する; reading=たいしょする",
+          "finding": "JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 対処する/たいしょする read; accent_top positions [1] (0 = no accent_top). Exact whole 対処する/たいしょする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 3f1ae4d759c07f74b170d3cebf36ef5f4fae4283eae78e0c1b63426c73cabdf6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AF%BE%E5%87%A6%E3%81%99%E3%82%8B#word_1736",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 対処する/たいしょする read; accent_top positions [1] (0 = no accent_top). Exact whole 対処する/たいしょする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "対処する",
+              "reading": "たいしょする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 対処する/たいしょする \"bewältigen, damit umgehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "bewältigen, damit umgehen. JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with",
+        "japanese": "問題に冷静に対処することが重要だ。 / 地震が起きたときにどう対処すればいいか、家族で話し合った。 / お客様からのクレームには、責任者が対処します。",
+        "romanization": "taisho suru; Mondai ni reisei ni taisho suru koto ga jūyō da. / Jishin ga okita toki ni dō taisho sureba ii ka, kazoku de hanashiatta. / Okyakusama kara no kurēmu ni wa, sekininsha ga taisho shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, Probleme ruhig zu bewältigen. / Wir haben in der Familie besprochen, wie wir uns bei einem Erdbeben verhalten sollen. / Um Kundenbeschwerden kümmert sich der Verantwortliche.",
+        "contexts": [
+          "Handling problems calmly",
+          "Earthquake preparedness",
+          "Customer complaints"
+        ],
+        "lexical": "JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with",
+        "register": "neutral to formal",
+        "transitivity": "intransitive (X に対処する)",
+        "conjugation": "suru verb (対処する → 対処して, 対処しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1041 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Handling problems calmly; Earthquake preparedness; Customer complaints), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "345b8c5f70114baf127b93e1fe6fcfcd76e02ed61199ad6fcc2867018eae5239",
+        "approvalHash": "6bcc9d8e55d2190be9298f268d343b4b833baf09270fc3152da369000214273e"
+      }
+    },
+    {
+      "id": "vocab-n2:1042",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1042",
+      "state": "accepted",
+      "predecessorHash": "4e8d6654315c758508360cfe80d1e2a18ee7b030362cdb0f4b84da3fed3c50c2",
+      "originalHash": "4e8d6654315c758508360cfe80d1e2a18ee7b030362cdb0f4b84da3fed3c50c2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大量のデータを短時間で処理した。",
+            "romaji": "Tairyō no dēta o tanjikan de shori shita.",
+            "german": "Eine große Datenmenge wurde in kurzer Zeit verarbeitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "処理する heißt, Dinge oder Aufgaben „bearbeiten, erledigen, verarbeiten“: 仕事を処理する, データを処理する, ゴミを処理する („Müll entsorgen bzw. aufbereiten“). In der IT ist 処理 „Verarbeitung, Vorgang“ (処理速度, 処理中). Im Unterschied zu 対処する (auf ein Problem reagieren) liegt der Fokus auf dem sachlichen Abarbeiten; 処分する heißt dagegen „loswerden, entsorgen“ oder „bestrafen“. Das Wort ist neutral und in Büro, Verwaltung und Technik sehr häufig.",
+        "examples": [
+          {
+            "japanese": "大量のデータを短時間で処理した。",
+            "romaji": "Tairyō no dēta o tanjikan de shori shita.",
+            "german": "Eine große Datenmenge wurde in kurzer Zeit verarbeitet."
+          },
+          {
+            "japanese": "今日中に、たまったメールを全部処理しなければならない。",
+            "romaji": "Kyōjū ni, tamatta mēru o zenbu shori shinakereba naranai.",
+            "german": "Ich muss heute noch alle liegengebliebenen Mails abarbeiten."
+          },
+          {
+            "japanese": "この工場では、汚れた水をきれいに処理してから川に流している。",
+            "romaji": "Kono kōjō de wa, yogoreta mizu o kirei ni shori shite kara kawa ni nagashite iru.",
+            "german": "In dieser Fabrik wird das Abwasser gereinigt, bevor es in den Fluss geleitet wird."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 36f0c5dd35b1908ae891dd72db238c8a2209c7c9f44254116f0bd565b20e6f76",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B#word_1796",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処理する/しょりする read; accent_top positions [1] (0 = no accent_top). Exact whole 処理する/しょりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処理する",
+              "reading": "しょりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処理する/しょりする \"verarbeiten, bearbeiten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 処理する heißt, Dinge oder Aufgaben „bearbeiten, erledigen, verarbeiten“: 仕事を処理する, データを処理する, ゴミを処理する („Müll entsorgen bzw. aufbereiten“). In der IT ist 処理 „Verarbeitung, Vorgang“ (処理速度, 処理中). Im Unterschied zu 対処する (auf ein Problem reagieren) liegt der Fokus auf dem sachlichen Abarbeiten; 処分する heißt dagegen „loswerden, entsorgen“ oder „bestrafen“. Das Wort ist neutral und in Büro, Verwaltung und Technik sehr häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1342510; spelling=処理する; reading=しょりする",
+          "finding": "JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 処理する/しょりする read; accent_top positions [1] (0 = no accent_top). Exact whole 処理する/しょりする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 36f0c5dd35b1908ae891dd72db238c8a2209c7c9f44254116f0bd565b20e6f76",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B#word_1796",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処理する/しょりする read; accent_top positions [1] (0 = no accent_top). Exact whole 処理する/しょりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処理する",
+              "reading": "しょりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処理する/しょりする \"verarbeiten, bearbeiten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "verarbeiten, bearbeiten. JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal",
+        "japanese": "大量のデータを短時間で処理した。 / 今日中に、たまったメールを全部処理しなければならない。 / この工場では、汚れた水をきれいに処理してから川に流している。",
+        "romanization": "shori suru; Tairyō no dēta o tanjikan de shori shita. / Kyōjū ni, tamatta mēru o zenbu shori shinakereba naranai. / Kono kōjō de wa, yogoreta mizu o kirei ni shori shite kara kawa ni nagashite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine große Datenmenge wurde in kurzer Zeit verarbeitet. / Ich muss heute noch alle liegengebliebenen Mails abarbeiten. / In dieser Fabrik wird das Abwasser gereinigt, bevor es in den Fluss geleitet wird.",
+        "contexts": [
+          "Data processing",
+          "Clearing the inbox",
+          "Wastewater treatment"
+        ],
+        "lexical": "JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal",
+        "register": "neutral",
+        "transitivity": "transitive (X を処理する)",
+        "conjugation": "suru verb (処理する → 処理して, 処理しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1042 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Data processing; Clearing the inbox; Wastewater treatment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f499c3d9f7aee5f8312a92725025bd5c8a275eba1f8657496c1bcbdaf171ac16",
+        "approvalHash": "2ee87900dea40f7f7ce9114d999f582b140f477f8df82bab1fbcf3d23060e53e"
+      }
+    },
+    {
+      "id": "vocab-n2:1043",
+      "revisionId": "196d-n2-enrichment-vocab-n2-1043",
+      "state": "accepted",
+      "predecessorHash": "2d7316cd67a99d6beaf826703dbe50eda32c28fa14fbab4ec567ced8cb72dc22",
+      "originalHash": "2d7316cd67a99d6beaf826703dbe50eda32c28fa14fbab4ec567ced8cb72dc22",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "古い家具を処分することにした。",
+            "romaji": "Furui kagu o shobun suru koto ni shita.",
+            "german": "Wir haben beschlossen, die alten Möbel zu entsorgen."
+          }
+        ],
+        "meaning": "entsorgen, beseitigen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "処分する heißt zunächst „loswerden, entsorgen, verkaufen“: 古い家具を処分する, 不用品を処分する. Zweitens bedeutet es „bestrafen, disziplinarisch belangen“: 社員を処分する, 停学処分 („zeitweiliger Schulausschluss“), 懲戒処分 („Disziplinarmaßnahme“). Im Unterschied zu 捨てる („wegwerfen“) ist 処分 neutraler und umfasst auch Verkaufen oder Weggeben. Bei Tieren ist es ein Euphemismus für „töten, einschläfern“.",
+        "examples": [
+          {
+            "japanese": "古い家具を処分することにした。",
+            "romaji": "Furui kagu o shobun suru koto ni shita.",
+            "german": "Wir haben beschlossen, die alten Möbel zu entsorgen."
+          },
+          {
+            "japanese": "壊れた家電は、市のルールに従って処分してください。",
+            "romaji": "Kowareta kaden wa, shi no rūru ni shitagatte shobun shite kudasai.",
+            "german": "Entsorgen Sie defekte Elektrogeräte bitte nach den Vorschriften der Stadt."
+          },
+          {
+            "japanese": "会社は、情報を漏らした社員を処分した。",
+            "romaji": "Kaisha wa, jōhō o morashita shain o shobun shita.",
+            "german": "Die Firma hat den Mitarbeiter, der Informationen weitergegeben hatte, disziplinarisch bestraft."
+          }
+        ],
+        "meaning": "entsorgen, beseitigen, bestrafen",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 ce58428665712561fe2be4b2c61e4206e7f9bda8816261ff9a17ddac2edd8f02",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E5%88%86%E3%81%99%E3%82%8B#word_1720",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処分する/しょぶんする read; accent_top positions [1] (0 = no accent_top). Exact whole 処分する/しょぶんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処分する",
+              "reading": "しょぶんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処分する/しょぶんする \"entsorgen, beseitigen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 処分する heißt zunächst „loswerden, entsorgen, verkaufen“: 古い家具を処分する, 不用品を処分する. Zweitens bedeutet es „bestrafen, disziplinarisch belangen“: 社員を処分する, 停学処分 („zeitweiliger Schulausschluss“), 懲戒処分 („Disziplinarmaßnahme“). Im Unterschied zu 捨てる („wegwerfen“) ist 処分 neutraler und umfasst auch Verkaufen oder Weggeben. Bei Tieren ist es ein Euphemismus für „töten, einschläfern“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1342490; spelling=処分する; reading=しょぶんする",
+          "finding": "JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 処分する/しょぶんする read; accent_top positions [1] (0 = no accent_top). Exact whole 処分する/しょぶんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 ce58428665712561fe2be4b2c61e4206e7f9bda8816261ff9a17ddac2edd8f02",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E5%88%86%E3%81%99%E3%82%8B#word_1720",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処分する/しょぶんする read; accent_top positions [1] (0 = no accent_top). Exact whole 処分する/しょぶんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処分する",
+              "reading": "しょぶんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処分する/しょぶんする \"entsorgen, beseitigen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "entsorgen, beseitigen, bestrafen. JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty",
+        "japanese": "古い家具を処分することにした。 / 壊れた家電は、市のルールに従って処分してください。 / 会社は、情報を漏らした社員を処分した。",
+        "romanization": "shobun suru; Furui kagu o shobun suru koto ni shita. / Kowareta kaden wa, shi no rūru ni shitagatte shobun shite kudasai. / Kaisha wa, jōhō o morashita shain o shobun shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben beschlossen, die alten Möbel zu entsorgen. / Entsorgen Sie defekte Elektrogeräte bitte nach den Vorschriften der Stadt. / Die Firma hat den Mitarbeiter, der Informationen weitergegeben hatte, disziplinarisch bestraft.",
+        "contexts": [
+          "Getting rid of furniture",
+          "Disposing of appliances",
+          "Disciplinary action"
+        ],
+        "lexical": "JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty",
+        "register": "neutral",
+        "transitivity": "transitive (X を処分する)",
+        "conjugation": "suru verb (処分する → 処分して, 処分しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1043 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Getting rid of furniture; Disposing of appliances; Disciplinary action), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "19dd2984de13ed5ae865b59bd6ab1488a541b64fbec8d2cddeba036dc9385af7",
+        "approvalHash": "76e56043d4fd9b4fa78483f7f1522e9434682c76f00de228bc85f28c1d83e7da"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

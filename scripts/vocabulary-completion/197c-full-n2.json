@@ -1,0 +1,2971 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1251",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1251",
+      "state": "accepted",
+      "predecessorHash": "e2ad3cbf93699ee91250aea57dd96049b1df1cc54d6e814e647eb30fdae139f9",
+      "originalHash": "e2ad3cbf93699ee91250aea57dd96049b1df1cc54d6e814e647eb30fdae139f9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "普段の生活を大切にしている。",
+            "romaji": "Fudan no seikatsu o taisetsu ni shite iru.",
+            "german": "Ich schätze das alltägliche Leben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "普段 bezeichnet den normalen, alltäglichen Zustand im Gegensatz zu besonderen Anlässen; als Attribut steht es mit の: 普段の生活, 普段の服, 普段の自分. Adverbial sagt man 普段は „normalerweise“ oder 普段から „schon im Alltag, ständig“. Verglichen mit いつも betont 普段 den Kontrast zu einer Ausnahmesituation: 普段は静かな町 „eine sonst ruhige Stadt“. 普段着 heißt „Alltagskleidung“; das sachlichere 日常 klingt schriftlicher.",
+        "examples": [
+          {
+            "japanese": "普段の生活を大切にしている。",
+            "romaji": "Fudan no seikatsu o taisetsu ni shite iru.",
+            "german": "Ich schätze das alltägliche Leben."
+          },
+          {
+            "japanese": "今日はスーツではなく、普段の服で来てください。",
+            "romaji": "Kyō wa sūtsu de wa naku, fudan no fuku de kite kudasai.",
+            "german": "Kommen Sie heute bitte nicht im Anzug, sondern in Ihrer normalen Kleidung."
+          },
+          {
+            "japanese": "試験では普段の力を出せなかった。",
+            "romaji": "Shiken de wa fudan no chikara o dasenakatta.",
+            "german": "In der Prüfung konnte ich nicht zeigen, was ich normalerweise kann."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1497180 sense 1, noun / no-adjective (here attributive with の): usual, normal, everyday Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 普段 bezeichnet den normalen, alltäglichen Zustand im Gegensatz zu besonderen Anlässen; als Attribut steht es mit の: 普段の生活, 普段の服, 普段の自分. Adverbial sagt man 普段は „normalerweise“ oder 普段から „schon im Alltag, ständig“. Verglichen mit いつも betont 普段 den Kontrast zu einer Ausnahmesituation: 普段は静かな町 „eine sonst ruhige Stadt“. 普段着 heißt „Alltagskleidung“; das sachlichere 日常 klingt schriftlicher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1497180; spelling=普段の; reading=ふだんの",
+          "finding": "JMdict 1497180 sense 1, noun / no-adjective (here attributive with の): usual, normal, everyday"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 普段の/ふだんの scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (普段); none is the exact head 普段の/ふだんの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%99%AE%E6%AE%B5%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 普段の/ふだんの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 d022fbe09fac20b1b4f6dfaa1daca44e4be731ed84c497b73a520a1116d197c9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%99%AE%E6%AE%B5%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (普段); none is the exact head 普段の/ふだんの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "gewöhnlich; alltäglich. JMdict 1497180 sense 1, noun / no-adjective (here attributive with の): usual, normal, everyday",
+        "japanese": "普段の生活を大切にしている。 / 今日はスーツではなく、普段の服で来てください。 / 試験では普段の力を出せなかった。",
+        "romanization": "fudan no; Fudan no seikatsu o taisetsu ni shite iru. / Kyō wa sūtsu de wa naku, fudan no fuku de kite kudasai. / Shiken de wa fudan no chikara o dasenakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich schätze das alltägliche Leben. / Kommen Sie heute bitte nicht im Anzug, sondern in Ihrer normalen Kleidung. / In der Prüfung konnte ich nicht zeigen, was ich normalerweise kann.",
+        "contexts": [
+          "Valuing daily life",
+          "Dress code for an event",
+          "Exam nerves"
+        ],
+        "lexical": "JMdict 1497180 sense 1, noun / no-adjective (here attributive with の): usual, normal, everyday",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute; adverbial 普段は)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1251 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Valuing daily life; Dress code for an event; Exam nerves), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "64bb23a7f797680105c573c79ac82a4f3082d753148b042ec0ba6296d46d4536",
+        "approvalHash": "333ce241ac7e6a15cf5886e6985525d5634f6b49a5b75b04610d66630bb8466f"
+      }
+    },
+    {
+      "id": "vocab-n2:1252",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1252",
+      "state": "accepted",
+      "predecessorHash": "599dab7a8710310c1bb0b78b0c4c5898d18f1cfb7d287613dd050858d41907c2",
+      "originalHash": "599dab7a8710310c1bb0b78b0c4c5898d18f1cfb7d287613dd050858d41907c2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "恒例の夏祭りが開催された。",
+            "romaji": "Kōrei no natsumatsuri ga kaisai sareta.",
+            "german": "Das alljährliche Sommerfest wurde veranstaltet."
+          }
+        ],
+        "meaning": "alljährlich; regelmäßig",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "恒例 bezeichnet etwas, das als feste Gewohnheit oder Tradition regelmäßig wiederkehrt, meist jährlich: 恒例の行事, 毎年恒例の花火大会. Typisch sind 毎年恒例の und 〜が恒例になっている „ist zur Tradition geworden“. Im Unterschied zu 定例 (offiziell festgelegte Termine wie Sitzungen) klingt 恒例 nach Brauch und Vorfreude. Leicht gehoben, aber in Nachrichten und im Alltag gängig.",
+        "examples": [
+          {
+            "japanese": "恒例の夏祭りが開催された。",
+            "romaji": "Kōrei no natsumatsuri ga kaisai sareta.",
+            "german": "Das alljährliche Sommerfest wurde veranstaltet."
+          },
+          {
+            "japanese": "年末には毎年恒例の忘年会が開かれる。",
+            "romaji": "Nenmatsu ni wa maitoshi kōrei no bōnenkai ga hirakareru.",
+            "german": "Zum Jahresende findet die alljährliche Jahresabschlussfeier statt."
+          },
+          {
+            "japanese": "家族で初詣に行くのが我が家の恒例だ。",
+            "romaji": "Kazoku de hatsumōde ni iku no ga wagaya no kōrei da.",
+            "german": "Bei uns ist es Tradition, zu Neujahr gemeinsam zum Schrein zu gehen."
+          }
+        ],
+        "meaning": "traditionell; alljährlich; üblich",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1278800 sense 1, noun (attributive with の): established practice, custom → customary, traditional, annual Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 恒例 bezeichnet etwas, das als feste Gewohnheit oder Tradition regelmäßig wiederkehrt, meist jährlich: 恒例の行事, 毎年恒例の花火大会. Typisch sind 毎年恒例の und 〜が恒例になっている „ist zur Tradition geworden“. Im Unterschied zu 定例 (offiziell festgelegte Termine wie Sitzungen) klingt 恒例 nach Brauch und Vorfreude. Leicht gehoben, aber in Nachrichten und im Alltag gängig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1278800; spelling=恒例の; reading=こうれいの",
+          "finding": "JMdict 1278800 sense 1, noun (attributive with の): established practice, custom → customary, traditional, annual"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 恒例の/こうれいの scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 恒例の/こうれいの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%81%92%E4%BE%8B%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 恒例の/こうれいの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 c090b27e55c42142d69ec4001a31afad7c1baeff575616a21bf2db5aed203b3c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%81%92%E4%BE%8B%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 恒例の/こうれいの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "traditionell; alljährlich; üblich. JMdict 1278800 sense 1, noun (attributive with の): established practice, custom → customary, traditional, annual",
+        "japanese": "恒例の夏祭りが開催された。 / 年末には毎年恒例の忘年会が開かれる。 / 家族で初詣に行くのが我が家の恒例だ。",
+        "romanization": "kōrei no; Kōrei no natsumatsuri ga kaisai sareta. / Nenmatsu ni wa maitoshi kōrei no bōnenkai ga hirakareru. / Kazoku de hatsumōde ni iku no ga wagaya no kōrei da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das alljährliche Sommerfest wurde veranstaltet. / Zum Jahresende findet die alljährliche Jahresabschlussfeier statt. / Bei uns ist es Tradition, zu Neujahr gemeinsam zum Schrein zu gehen.",
+        "contexts": [
+          "Local festival report",
+          "Company year-end party",
+          "Family New Year tradition"
+        ],
+        "lexical": "JMdict 1278800 sense 1, noun (attributive with の): established practice, custom → customary, traditional, annual",
+        "register": "neutral to slightly formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1252 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Local festival report; Company year-end party; Family New Year tradition), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "06650eb5289c3dbdf8072d4479b41a0ada71d0106c0ae92d32520a0d83692348",
+        "approvalHash": "9eb488439202183080550f8aa62f9a17696110c4a6f0389507d9bcb535baa8c2"
+      }
+    },
+    {
+      "id": "vocab-n2:1253",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1253",
+      "state": "accepted",
+      "predecessorHash": "2e32200e3425f7df39271130a6f336e4cea5a4ce6c36fc3634190db63dd6d42f",
+      "originalHash": "2e32200e3425f7df39271130a6f336e4cea5a4ce6c36fc3634190db63dd6d42f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "定例の会議が毎週月曜日にある。",
+            "romaji": "Teirei no kaigi ga maishū getsuyōbi ni aru.",
+            "german": "Die regelmäßige Besprechung findet jeden Montag statt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "定例 bedeutet „regelmäßig nach festem Plan stattfindend“ und betrifft vor allem offizielle oder geschäftliche Termine: 定例会議, 定例会見, 定例の打ち合わせ. Das Gegenstück ist 臨時 „außerplanmäßig“ (臨時会議). Anders als 恒例, das nach Brauch und Tradition klingt, ist 定例 nüchtern-amtlich. Oft steht es als Präfix direkt ohne の vor dem Substantiv.",
+        "examples": [
+          {
+            "japanese": "定例の会議が毎週月曜日にある。",
+            "romaji": "Teirei no kaigi ga maishū getsuyōbi ni aru.",
+            "german": "Die regelmäßige Besprechung findet jeden Montag statt."
+          },
+          {
+            "japanese": "大臣は定例の記者会見で新しい方針を発表した。",
+            "romaji": "Daijin wa teirei no kisha kaiken de atarashii hōshin o happyō shita.",
+            "german": "Der Minister gab auf der turnusmäßigen Pressekonferenz die neue Linie bekannt."
+          },
+          {
+            "japanese": "今月の定例会は来週の水曜日に変更になりました。",
+            "romaji": "Kongetsu no teireikai wa raishū no suiyōbi ni henkō ni narimashita.",
+            "german": "Das reguläre Treffen in diesem Monat wurde auf nächsten Mittwoch verlegt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1435800 sense 1, noun (attributive with の or as prefix): regular, ordinary (session), scheduled Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 定例 bedeutet „regelmäßig nach festem Plan stattfindend“ und betrifft vor allem offizielle oder geschäftliche Termine: 定例会議, 定例会見, 定例の打ち合わせ. Das Gegenstück ist 臨時 „außerplanmäßig“ (臨時会議). Anders als 恒例, das nach Brauch und Tradition klingt, ist 定例 nüchtern-amtlich. Oft steht es als Präfix direkt ohne の vor dem Substantiv. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1435800; spelling=定例の; reading=ていれいの",
+          "finding": "JMdict 1435800 sense 1, noun (attributive with の or as prefix): regular, ordinary (session), scheduled"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 定例の/ていれいの scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 定例の/ていれいの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AE%9A%E4%BE%8B%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 定例の/ていれいの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 4693a02deab866fee5076aa633a8767699a739cf6bcef232705bad99e7cf6843",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%9A%E4%BE%8B%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 定例の/ていれいの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "regelmäßig; turnusmäßig. JMdict 1435800 sense 1, noun (attributive with の or as prefix): regular, ordinary (session), scheduled",
+        "japanese": "定例の会議が毎週月曜日にある。 / 大臣は定例の記者会見で新しい方針を発表した。 / 今月の定例会は来週の水曜日に変更になりました。",
+        "romanization": "teirei no; Teirei no kaigi ga maishū getsuyōbi ni aru. / Daijin wa teirei no kisha kaiken de atarashii hōshin o happyō shita. / Kongetsu no teireikai wa raishū no suiyōbi ni henkō ni narimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die regelmäßige Besprechung findet jeden Montag statt. / Der Minister gab auf der turnusmäßigen Pressekonferenz die neue Linie bekannt. / Das reguläre Treffen in diesem Monat wurde auf nächsten Mittwoch verlegt.",
+        "contexts": [
+          "Weekly office schedule",
+          "Government press briefing",
+          "Rescheduled club meeting"
+        ],
+        "lexical": "JMdict 1435800 sense 1, noun (attributive with の or as prefix): regular, ordinary (session), scheduled",
+        "register": "formal / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1253 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weekly office schedule; Government press briefing; Rescheduled club meeting), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d1022c32442b5ee8678f1a504cd8b4852bcf675c58f115e2590756b6e7eda2b5",
+        "approvalHash": "9f913fb2900b5cac700b5249ba2cd6f29b2e3a66d799ff743b20cd90cc4330c2"
+      }
+    },
+    {
+      "id": "vocab-n2:1254",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1254",
+      "state": "accepted",
+      "predecessorHash": "70b0e79d8282d8c78b234caca1872f51b8bc9181c9892541d9e340c48e8b1390",
+      "originalHash": "70b0e79d8282d8c78b234caca1872f51b8bc9181c9892541d9e340c48e8b1390",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "臨時の休業日が設けられた。",
+            "romaji": "Rinji no kyūgyōbi ga mōkerareta.",
+            "german": "Ein außerplanmäßiger Ruhetag wurde eingerichtet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "臨時 bezeichnet etwas, das nicht planmäßig, sondern aus besonderem Anlass zusätzlich oder vorübergehend eingerichtet wird: 臨時休業 „außerplanmäßig geschlossen“, 臨時列車 „Sonderzug“, 臨時ニュース „Sondermeldung“, 臨時収入 „unerwartete Zusatzeinnahme“. Gegenbegriffe sind 定例 bzw. 定期 „regulär“. Für befristete Arbeit sagt man 臨時職員; als Präfix steht 臨時 oft ohne の.",
+        "examples": [
+          {
+            "japanese": "臨時の休業日が設けられた。",
+            "romaji": "Rinji no kyūgyōbi ga mōkerareta.",
+            "german": "Ein außerplanmäßiger Ruhetag wurde eingerichtet."
+          },
+          {
+            "japanese": "花火大会の日は臨時の電車が出ます。",
+            "romaji": "Hanabi taikai no hi wa rinji no densha ga demasu.",
+            "german": "Am Tag des Feuerwerks fahren Sonderzüge."
+          },
+          {
+            "japanese": "今月は臨時の収入があったので、家族で外食した。",
+            "romaji": "Kongetsu wa rinji no shūnyū ga atta node, kazoku de gaishoku shita.",
+            "german": "Diesen Monat hatte ich eine unerwartete Zusatzeinnahme, also sind wir als Familie essen gegangen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1555610 sense 1, noun (attributive with の or as prefix): temporary, provisional, special, extra Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 臨時 bezeichnet etwas, das nicht planmäßig, sondern aus besonderem Anlass zusätzlich oder vorübergehend eingerichtet wird: 臨時休業 „außerplanmäßig geschlossen“, 臨時列車 „Sonderzug“, 臨時ニュース „Sondermeldung“, 臨時収入 „unerwartete Zusatzeinnahme“. Gegenbegriffe sind 定例 bzw. 定期 „regulär“. Für befristete Arbeit sagt man 臨時職員; als Präfix steht 臨時 oft ohne の. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1555610; spelling=臨時の; reading=りんじの",
+          "finding": "JMdict 1555610 sense 1, noun (attributive with の or as prefix): temporary, provisional, special, extra"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 臨時の/りんじの scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (臨時); none is the exact head 臨時の/りんじの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%87%A8%E6%99%82%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 臨時の/りんじの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 848652c3b02478e9159c2ce0cbada233bafe5fb2a76d8c9823e2b1064d3bff45",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%87%A8%E6%99%82%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (臨時); none is the exact head 臨時の/りんじの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "vorübergehend; außerplanmäßig. JMdict 1555610 sense 1, noun (attributive with の or as prefix): temporary, provisional, special, extra",
+        "japanese": "臨時の休業日が設けられた。 / 花火大会の日は臨時の電車が出ます。 / 今月は臨時の収入があったので、家族で外食した。",
+        "romanization": "rinji no; Rinji no kyūgyōbi ga mōkerareta. / Hanabi taikai no hi wa rinji no densha ga demasu. / Kongetsu wa rinji no shūnyū ga atta node, kazoku de gaishoku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein außerplanmäßiger Ruhetag wurde eingerichtet. / Am Tag des Feuerwerks fahren Sonderzüge. / Diesen Monat hatte ich eine unerwartete Zusatzeinnahme, also sind wir als Familie essen gegangen.",
+        "contexts": [
+          "Shop notice",
+          "Fireworks festival trains",
+          "Unexpected extra income"
+        ],
+        "lexical": "JMdict 1555610 sense 1, noun (attributive with の or as prefix): temporary, provisional, special, extra",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1254 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shop notice; Fireworks festival trains; Unexpected extra income), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7b493e3638cb2ae206f85836ef40edd91edb147df893617e38167d5b37d55fd3",
+        "approvalHash": "68fd0bbb016ddc17973a6ce03c2090a7fb0545de8822a306264cf1decab62a3e"
+      }
+    },
+    {
+      "id": "vocab-n2:1255",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1255",
+      "state": "accepted",
+      "predecessorHash": "cddb422af717a144f28488fac44013a65aeb40eb4214f3728b81b23c8aa65fad",
+      "originalHash": "cddb422af717a144f28488fac44013a65aeb40eb4214f3728b81b23c8aa65fad",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "緊急の連絡が入った。",
+            "romaji": "Kinkyū no renraku ga haitta.",
+            "german": "Eine dringende Nachricht ist eingegangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "緊急 bedeutet „dringend, akut, Notfall-“ und beschreibt eine Lage, die sofortiges Handeln verlangt: 緊急の用事, 緊急事態 „Notstand“, 緊急連絡先 „Notfallkontakt“, 緊急地震速報 „Erdbebenfrühwarnung“. Gegenüber 急ぎの „eilig“ aus dem Alltag ist 緊急 ernster und formeller; 至急 „umgehend“ steht eher in Aufforderungen (至急ご連絡ください). Als Präfix steht 緊急 oft ohne の.",
+        "examples": [
+          {
+            "japanese": "緊急の連絡が入った。",
+            "romaji": "Kinkyū no renraku ga haitta.",
+            "german": "Eine dringende Nachricht ist eingegangen."
+          },
+          {
+            "japanese": "緊急の場合は、この番号に電話してください。",
+            "romaji": "Kinkyū no baai wa, kono bangō ni denwa shite kudasai.",
+            "german": "Im Notfall rufen Sie bitte diese Nummer an."
+          },
+          {
+            "japanese": "部長は緊急の会議のため、出張を中止した。",
+            "romaji": "Buchō wa kinkyū no kaigi no tame, shutchō o chūshi shita.",
+            "german": "Wegen einer dringenden Sitzung sagte der Abteilungsleiter seine Dienstreise ab."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1241850 sense 1, noun / no-adjective (attributive with の): urgency, emergency → urgent Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 緊急 bedeutet „dringend, akut, Notfall-“ und beschreibt eine Lage, die sofortiges Handeln verlangt: 緊急の用事, 緊急事態 „Notstand“, 緊急連絡先 „Notfallkontakt“, 緊急地震速報 „Erdbebenfrühwarnung“. Gegenüber 急ぎの „eilig“ aus dem Alltag ist 緊急 ernster und formeller; 至急 „umgehend“ steht eher in Aufforderungen (至急ご連絡ください). Als Präfix steht 緊急 oft ohne の. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1241850; spelling=緊急の; reading=きんきゅうの",
+          "finding": "JMdict 1241850 sense 1, noun / no-adjective (attributive with の): urgency, emergency → urgent"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 緊急の/きんきゅうの scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (緊急); none is the exact head 緊急の/きんきゅうの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B7%8A%E6%80%A5%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 緊急の/きんきゅうの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 6ec8ac05c09db989c91ad7ec4f0c9f83dbb3c50d5c8c1f1691bc158f81d4607a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B7%8A%E6%80%A5%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (緊急); none is the exact head 緊急の/きんきゅうの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "dringend; Notfall-. JMdict 1241850 sense 1, noun / no-adjective (attributive with の): urgency, emergency → urgent",
+        "japanese": "緊急の連絡が入った。 / 緊急の場合は、この番号に電話してください。 / 部長は緊急の会議のため、出張を中止した。",
+        "romanization": "kinkyū no; Kinkyū no renraku ga haitta. / Kinkyū no baai wa, kono bangō ni denwa shite kudasai. / Buchō wa kinkyū no kaigi no tame, shutchō o chūshi shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine dringende Nachricht ist eingegangen. / Im Notfall rufen Sie bitte diese Nummer an. / Wegen einer dringenden Sitzung sagte der Abteilungsleiter seine Dienstreise ab.",
+        "contexts": [
+          "Urgent message arrives",
+          "Emergency phone number",
+          "Cancelled business trip"
+        ],
+        "lexical": "JMdict 1241850 sense 1, noun / no-adjective (attributive with の): urgency, emergency → urgent",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1255 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Urgent message arrives; Emergency phone number; Cancelled business trip), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d1ca0714a6e56964a835c07b5749f383032455894e203149d9c2c1f6c9bdf4d5",
+        "approvalHash": "654dc10314fe2cb18eb6c0903559d909cafa6ec78590582e21451cfdad73991f"
+      }
+    },
+    {
+      "id": "vocab-n2:1256",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1256",
+      "state": "accepted",
+      "predecessorHash": "91a433b0e7228ad4e14d890a1dc02bedc7d59d6614cbfa657ed21acfaa2d74b5",
+      "originalHash": "91a433b0e7228ad4e14d890a1dc02bedc7d59d6614cbfa657ed21acfaa2d74b5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "即座の対応が求められる。",
+            "romaji": "Sokuza no taiō ga motomerareru.",
+            "german": "Eine sofortige Reaktion wird verlangt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "即座 heißt „auf der Stelle, sofort“. Am häufigsten ist die adverbiale Form 即座に (即座に答える, 即座に断る); attributiv mit の klingt es schriftsprachlich: 即座の判断, 即座の対応. Bedeutungsnah sind すぐ (alltäglich), 直ちに (formell, in Anweisungen) und 即時 (technisch, z. B. 即時払い). 即座 betont, dass die Reaktion ohne jedes Zögern im selben Moment erfolgt.",
+        "examples": [
+          {
+            "japanese": "即座の対応が求められる。",
+            "romaji": "Sokuza no taiō ga motomerareru.",
+            "german": "Eine sofortige Reaktion wird verlangt."
+          },
+          {
+            "japanese": "事故の現場では即座の判断が命を救うこともある。",
+            "romaji": "Jiko no genba de wa sokuza no handan ga inochi o sukuu koto mo aru.",
+            "german": "Am Unfallort kann eine blitzschnelle Entscheidung Leben retten."
+          },
+          {
+            "japanese": "誘いを受けたが、彼女は即座に断った。",
+            "romaji": "Sasoi o uketa ga, kanojo wa sokuza ni kotowatta.",
+            "german": "Sie wurde eingeladen, lehnte aber sofort ab."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1404180 sense 1, noun (attributive with の, adverbial with に): immediate, instant, on the spot Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 1). 即座 heißt „auf der Stelle, sofort“. Am häufigsten ist die adverbiale Form 即座に (即座に答える, 即座に断る); attributiv mit の klingt es schriftsprachlich: 即座の判断, 即座の対応. Bedeutungsnah sind すぐ (alltäglich), 直ちに (formell, in Anweisungen) und 即時 (technisch, z. B. 即時払い). 即座 betont, dass die Reaktion ohne jedes Zögern im selben Moment erfolgt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1404180; spelling=即座の; reading=そくざの",
+          "finding": "JMdict 1404180 sense 1, noun (attributive with の, adverbial with に): immediate, instant, on the spot"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 即座の/そくざの scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 即座の/そくざの with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8D%B3%E5%BA%A7%E3%81%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 即座の/そくざの scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 3432c5b78891b75b616d7ea611c5b497c2288882792ed8ce6b71bd54bf8f2134",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8D%B3%E5%BA%A7%E3%81%AE",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 即座の/そくざの with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "sofortig; unverzüglich. JMdict 1404180 sense 1, noun (attributive with の, adverbial with に): immediate, instant, on the spot",
+        "japanese": "即座の対応が求められる。 / 事故の現場では即座の判断が命を救うこともある。 / 誘いを受けたが、彼女は即座に断った。",
+        "romanization": "sokuza no; Sokuza no taiō ga motomerareru. / Jiko no genba de wa sokuza no handan ga inochi o sukuu koto mo aru. / Sasoi o uketa ga, kanojo wa sokuza ni kotowatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine sofortige Reaktion wird verlangt. / Am Unfallort kann eine blitzschnelle Entscheidung Leben retten. / Sie wurde eingeladen, lehnte aber sofort ab.",
+        "contexts": [
+          "Demand for quick reaction",
+          "Accident scene",
+          "Turning down an invitation"
+        ],
+        "lexical": "JMdict 1404180 sense 1, noun (attributive with の, adverbial with に): immediate, instant, on the spot",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun + の as attribute; adverbial 即座に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1256 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Demand for quick reaction; Accident scene; Turning down an invitation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cb45a2a29be64c8d5faf8ad89ba7b44b808a8a43ef649c36de3485bcda38233f",
+        "approvalHash": "4e8b0ee9a9904709eabb9397480d7142e371ab999c85d99115382f29e8216912"
+      }
+    },
+    {
+      "id": "vocab-n2:1257",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1257",
+      "state": "accepted",
+      "predecessorHash": "eaabf3ee8bb3eef34d892e5ca1c5e99adb0803e2935b339bdfa06f2866e1d047",
+      "originalHash": "eaabf3ee8bb3eef34d892e5ca1c5e99adb0803e2935b339bdfa06f2866e1d047",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "早急な対策が必要だ。",
+            "romaji": "Sakkyū na taisaku ga hitsuyō da.",
+            "german": "Dringende Maßnahmen sind erforderlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "早急 bedeutet „dringend, so schnell wie möglich“ und steht vor allem in formellen Texten über Maßnahmen und Lösungen: 早急な対策, 早急な対応, adverbial 早急に検討する. Die Lesung さっきゅう ist die traditionelle, そうきゅう ist inzwischen ebenfalls weit verbreitet und anerkannt. Im Unterschied zu 迅速 (lobt das tatsächliche Tempo einer Ausführung) drückt 早急 aus, dass etwas eilig erledigt werden muss.",
+        "examples": [
+          {
+            "japanese": "早急な対策が必要だ。",
+            "romaji": "Sakkyū na taisaku ga hitsuyō da.",
+            "german": "Dringende Maßnahmen sind erforderlich."
+          },
+          {
+            "japanese": "この件については早急にご返答いただけますか。",
+            "romaji": "Kono ken ni tsuite wa sakkyū ni go-hentō itadakemasu ka.",
+            "german": "Könnten Sie mir in dieser Angelegenheit bitte umgehend antworten?"
+          },
+          {
+            "japanese": "古くなった橋の早急な修理を住民が求めている。",
+            "romaji": "Furuku natta hashi no sakkyū na shūri o jūmin ga motomete iru.",
+            "german": "Die Anwohner fordern die dringende Reparatur der alten Brücke."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131389287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 早急/サッキュウ; lemma 早急; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "早急な",
+              "reading": "さっきゅうな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 早急な/さっきゅうな \"dringend; eilig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1581270 sense 1, na-adjective / noun: immediate, prompt, urgent, pressing Pitch: Verified [0] via exact UniDic row. 早急 bedeutet „dringend, so schnell wie möglich“ und steht vor allem in formellen Texten über Maßnahmen und Lösungen: 早急な対策, 早急な対応, adverbial 早急に検討する. Die Lesung さっきゅう ist die traditionelle, そうきゅう ist inzwischen ebenfalls weit verbreitet und anerkannt. Im Unterschied zu 迅速 (lobt das tatsächliche Tempo einer Ausführung) drückt 早急 aus, dass etwas eilig erledigt werden muss. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581270; spelling=早急な; reading=さっきゅうな",
+          "finding": "JMdict 1581270 sense 1, na-adjective / noun: immediate, prompt, urgent, pressing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 早急/サッキュウ; lemma 早急; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131389287",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 早急/サッキュウ; lemma 早急; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "早急な",
+              "reading": "さっきゅうな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 早急な/さっきゅうな \"dringend; eilig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "dringend; eilig. JMdict 1581270 sense 1, na-adjective / noun: immediate, prompt, urgent, pressing",
+        "japanese": "早急な対策が必要だ。 / この件については早急にご返答いただけますか。 / 古くなった橋の早急な修理を住民が求めている。",
+        "romanization": "sakkyū na; Sakkyū na taisaku ga hitsuyō da. / Kono ken ni tsuite wa sakkyū ni go-hentō itadakemasu ka. / Furuku natta hashi no sakkyū na shūri o jūmin ga motomete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dringende Maßnahmen sind erforderlich. / Könnten Sie mir in dieser Angelegenheit bitte umgehend antworten? / Die Anwohner fordern die dringende Reparatur der alten Brücke.",
+        "contexts": [
+          "Policy statement",
+          "Business email request",
+          "Residents' demand"
+        ],
+        "lexical": "JMdict 1581270 sense 1, na-adjective / noun: immediate, prompt, urgent, pressing",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 早急な, 早急に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1257 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Policy statement; Business email request; Residents' demand), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ad30dded627440cc17b1cc7e399bffc1a8d276718d79734e08bc12d46e2bc397",
+        "approvalHash": "b63811628cbdfc36dbfeae5611539395f41445ab89e4bec1c3b466ea3984680a"
+      }
+    },
+    {
+      "id": "vocab-n2:1258",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1258",
+      "state": "accepted",
+      "predecessorHash": "1929a8d8e9235cfe2e7a2d8c425b4cdab6ad15bb450ab3c61c4445e6fff8a48d",
+      "originalHash": "1929a8d8e9235cfe2e7a2d8c425b4cdab6ad15bb450ab3c61c4445e6fff8a48d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "迅速な対応をありがとうございます。",
+            "romaji": "Jinsoku na taiō o arigatō gozaimasu.",
+            "german": "Vielen Dank für die prompte Reaktion."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "迅速 bedeutet „schnell und prompt“ in Bezug auf Handlungen und Abläufe, nicht auf physische Geschwindigkeit: 迅速な対応, 迅速な処理, 迅速に行動する. Es ist ein formelles Wort aus Geschäfts- und Behördensprache; im Alltag sagt man すばやい oder 早い. Anders als 急速 (rasche Veränderung oder Entwicklung) lobt 迅速 die Schnelligkeit einer bewusst ausgeführten Reaktion.",
+        "examples": [
+          {
+            "japanese": "迅速な対応をありがとうございます。",
+            "romaji": "Jinsoku na taiō o arigatō gozaimasu.",
+            "german": "Vielen Dank für die prompte Reaktion."
+          },
+          {
+            "japanese": "消防隊の迅速な行動で、火事はすぐに消された。",
+            "romaji": "Shōbōtai no jinsoku na kōdō de, kaji wa sugu ni kesareta.",
+            "german": "Dank des schnellen Handelns der Feuerwehr wurde der Brand rasch gelöscht."
+          },
+          {
+            "japanese": "注文した商品が迅速に届いて助かりました。",
+            "romaji": "Chūmon shita shōhin ga jinsoku ni todoite tasukarimashita.",
+            "german": "Die bestellte Ware kam schnell an, das war eine große Hilfe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145344716",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 迅速/ジンソク; lemma 迅速; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "迅速な",
+              "reading": "じんそくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 迅速な/じんそくな \"schnell; prompt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1370160 sense 1, na-adjective / noun: quick, swift, speedy, prompt Pitch: Verified [0] via exact UniDic row. 迅速 bedeutet „schnell und prompt“ in Bezug auf Handlungen und Abläufe, nicht auf physische Geschwindigkeit: 迅速な対応, 迅速な処理, 迅速に行動する. Es ist ein formelles Wort aus Geschäfts- und Behördensprache; im Alltag sagt man すばやい oder 早い. Anders als 急速 (rasche Veränderung oder Entwicklung) lobt 迅速 die Schnelligkeit einer bewusst ausgeführten Reaktion. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1370160; spelling=迅速な; reading=じんそくな",
+          "finding": "JMdict 1370160 sense 1, na-adjective / noun: quick, swift, speedy, prompt"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 迅速/ジンソク; lemma 迅速; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145344716",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 迅速/ジンソク; lemma 迅速; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "迅速な",
+              "reading": "じんそくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 迅速な/じんそくな \"schnell; prompt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "schnell; prompt. JMdict 1370160 sense 1, na-adjective / noun: quick, swift, speedy, prompt",
+        "japanese": "迅速な対応をありがとうございます。 / 消防隊の迅速な行動で、火事はすぐに消された。 / 注文した商品が迅速に届いて助かりました。",
+        "romanization": "jinsoku na; Jinsoku na taiō o arigatō gozaimasu. / Shōbōtai no jinsoku na kōdō de, kaji wa sugu ni kesareta. / Chūmon shita shōhin ga jinsoku ni todoite tasukarimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vielen Dank für die prompte Reaktion. / Dank des schnellen Handelns der Feuerwehr wurde der Brand rasch gelöscht. / Die bestellte Ware kam schnell an, das war eine große Hilfe.",
+        "contexts": [
+          "Thanking customer support",
+          "Fire brigade response",
+          "Online order review"
+        ],
+        "lexical": "JMdict 1370160 sense 1, na-adjective / noun: quick, swift, speedy, prompt",
+        "register": "formal / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 迅速な, 迅速に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1258 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Thanking customer support; Fire brigade response; Online order review), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bfd63f52614ae7eb69c6daa2fff378106b03cb453567b342b7dee791df6133eb",
+        "approvalHash": "6d6fc9a317e4ba99e3e33692fdf024bb669a7beefb330da7cf720c5443c4e021"
+      }
+    },
+    {
+      "id": "vocab-n2:1259",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1259",
+      "state": "accepted",
+      "predecessorHash": "d8a06b3948ca13cb59b130266797fc7a89b5523ad42ac3c15aaefdbfd5f25108",
+      "originalHash": "d8a06b3948ca13cb59b130266797fc7a89b5523ad42ac3c15aaefdbfd5f25108",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "技術の急速な発展に驚いている。",
+            "romaji": "Gijutsu no kyūsoku na hatten ni odoroite iru.",
+            "german": "Ich bin über die rasante technologische Entwicklung erstaunt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "急速 beschreibt eine sehr schnelle Veränderung oder Entwicklung: 急速な発展, 急速な成長, 急速に広がる, 急速に冷える. Es steht typischerweise bei Prozessen wie Wachstum, Verbreitung oder Wandel, nicht bei Handlungen von Personen – dort nimmt man 迅速. Neutral bis leicht formell; 急激 betont dagegen eine plötzliche, oft unerwünschte Änderung (急激な変化).",
+        "examples": [
+          {
+            "japanese": "技術の急速な発展に驚いている。",
+            "romaji": "Gijutsu no kyūsoku na hatten ni odoroite iru.",
+            "german": "Ich bin über die rasante technologische Entwicklung erstaunt."
+          },
+          {
+            "japanese": "インターネットの普及で、情報が急速に広がるようになった。",
+            "romaji": "Intānetto no fukyū de, jōhō ga kyūsoku ni hirogaru yō ni natta.",
+            "german": "Durch die Verbreitung des Internets verbreiten sich Informationen inzwischen rasend schnell."
+          },
+          {
+            "japanese": "この地域では急速な高齢化が進んでいる。",
+            "romaji": "Kono chiiki de wa kyūsoku na kōreika ga susunde iru.",
+            "german": "In dieser Region schreitet die Überalterung rasant voran."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105933252",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 急速/キュウソク; lemma 急速; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "急速な",
+              "reading": "きゅうそくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 急速な/きゅうそくな \"rasant; schnell\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1228890 sense 1, na-adjective / noun: rapid (progress, change) Pitch: Verified [0] via exact UniDic row. 急速 beschreibt eine sehr schnelle Veränderung oder Entwicklung: 急速な発展, 急速な成長, 急速に広がる, 急速に冷える. Es steht typischerweise bei Prozessen wie Wachstum, Verbreitung oder Wandel, nicht bei Handlungen von Personen – dort nimmt man 迅速. Neutral bis leicht formell; 急激 betont dagegen eine plötzliche, oft unerwünschte Änderung (急激な変化). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1228890; spelling=急速な; reading=きゅうそくな",
+          "finding": "JMdict 1228890 sense 1, na-adjective / noun: rapid (progress, change)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 急速/キュウソク; lemma 急速; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105933252",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 急速/キュウソク; lemma 急速; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "急速な",
+              "reading": "きゅうそくな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 急速な/きゅうそくな \"rasant; schnell\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "rasant; schnell. JMdict 1228890 sense 1, na-adjective / noun: rapid (progress, change)",
+        "japanese": "技術の急速な発展に驚いている。 / インターネットの普及で、情報が急速に広がるようになった。 / この地域では急速な高齢化が進んでいる。",
+        "romanization": "kyūsoku na; Gijutsu no kyūsoku na hatten ni odoroite iru. / Intānetto no fukyū de, jōhō ga kyūsoku ni hirogaru yō ni natta. / Kono chiiki de wa kyūsoku na kōreika ga susunde iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin über die rasante technologische Entwicklung erstaunt. / Durch die Verbreitung des Internets verbreiten sich Informationen inzwischen rasend schnell. / In dieser Region schreitet die Überalterung rasant voran.",
+        "contexts": [
+          "Amazement at technology",
+          "Spread of information",
+          "Demographic change"
+        ],
+        "lexical": "JMdict 1228890 sense 1, na-adjective / noun: rapid (progress, change)",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 急速な, 急速に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1259 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Amazement at technology; Spread of information; Demographic change), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8cd78014b98c3d0f61322ec95aa0eaa42d638a157654be707d13b4d625d98620",
+        "approvalHash": "0e01c13d3be2baedc2ce3c6ef1e46c7e3346a51080a15c240d2dd9a1c8f445aa"
+      }
+    },
+    {
+      "id": "vocab-n2:1260",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1260",
+      "state": "accepted",
+      "predecessorHash": "19f10e63215b9c511f648a752e3befcf86cc0d61d7742f70a3cea7c507221672",
+      "originalHash": "19f10e63215b9c511f648a752e3befcf86cc0d61d7742f70a3cea7c507221672",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "着実に成果を上げている。",
+            "romaji": "Chakujitsu ni seika o agete iru.",
+            "german": "Stetig Ergebnisse erzielen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "着実 bedeutet „stetig, Schritt für Schritt und dabei zuverlässig“: Fortschritte werden nicht sprunghaft, sondern sicher erzielt. Häufig adverbial: 着実に進む, 着実に成果を上げる, 着実に力をつける. Im Unterschied zu 堅実 (vorsichtig, risikoarm, solide) liegt der Akzent bei 着実 auf dem gleichmäßigen Vorankommen. Im Alltagsgespräch sagt man ähnlich こつこつ „beharrlich, Stück für Stück“.",
+        "examples": [
+          {
+            "japanese": "着実に成果を上げている。",
+            "romaji": "Chakujitsu ni seika o agete iru.",
+            "german": "Er erzielt stetig Ergebnisse."
+          },
+          {
+            "japanese": "工事は予定どおり着実に進んでいる。",
+            "romaji": "Kōji wa yotei dōri chakujitsu ni susunde iru.",
+            "german": "Die Bauarbeiten kommen planmäßig und stetig voran."
+          },
+          {
+            "japanese": "語学は毎日の着実な努力が大切だ。",
+            "romaji": "Gogaku wa mainichi no chakujitsu na doryoku ga taisetsu da.",
+            "german": "Beim Sprachenlernen kommt es auf beständige tägliche Mühe an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169531504",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 着実/チャクジツ; lemma 着実; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "着実な",
+              "reading": "ちゃくじつな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 着実な/ちゃくじつな \"stetig; zuverlässig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1423050 sense 1, na-adjective / noun: steady, sound, solid, reliable Pitch: Verified [0] via exact UniDic row. 着実 bedeutet „stetig, Schritt für Schritt und dabei zuverlässig“: Fortschritte werden nicht sprunghaft, sondern sicher erzielt. Häufig adverbial: 着実に進む, 着実に成果を上げる, 着実に力をつける. Im Unterschied zu 堅実 (vorsichtig, risikoarm, solide) liegt der Akzent bei 着実 auf dem gleichmäßigen Vorankommen. Im Alltagsgespräch sagt man ähnlich こつこつ „beharrlich, Stück für Stück“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1423050; spelling=着実な; reading=ちゃくじつな",
+          "finding": "JMdict 1423050 sense 1, na-adjective / noun: steady, sound, solid, reliable"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 着実/チャクジツ; lemma 着実; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169531504",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 着実/チャクジツ; lemma 着実; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "着実な",
+              "reading": "ちゃくじつな",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 着実な/ちゃくじつな \"stetig; zuverlässig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "stetig; zuverlässig. JMdict 1423050 sense 1, na-adjective / noun: steady, sound, solid, reliable",
+        "japanese": "着実に成果を上げている。 / 工事は予定どおり着実に進んでいる。 / 語学は毎日の着実な努力が大切だ。",
+        "romanization": "chakujitsu na; Chakujitsu ni seika o agete iru. / Kōji wa yotei dōri chakujitsu ni susunde iru. / Gogaku wa mainichi no chakujitsu na doryoku ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er erzielt stetig Ergebnisse. / Die Bauarbeiten kommen planmäßig und stetig voran. / Beim Sprachenlernen kommt es auf beständige tägliche Mühe an.",
+        "contexts": [
+          "Praising a colleague",
+          "Construction progress",
+          "Advice on language learning"
+        ],
+        "lexical": "JMdict 1423050 sense 1, na-adjective / noun: steady, sound, solid, reliable",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 着実な, 着実に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1260 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Praising a colleague; Construction progress; Advice on language learning), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "64a21e1409d62520cf53a16b12278ffb83530c8e46b32140d68e0681371c582b",
+        "approvalHash": "460f2ea27675e7c7e4918e488b3136058f61667ab3d142cb74ae630c5a2d5e46"
+      }
+    },
+    {
+      "id": "vocab-n2:1261",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1261",
+      "state": "accepted",
+      "predecessorHash": "0f8b8fe5b24c316d84a84c0d1c7ec072d6f33c82f3196826d187ae808d09e8cc",
+      "originalHash": "0f8b8fe5b24c316d84a84c0d1c7ec072d6f33c82f3196826d187ae808d09e8cc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "堅実な経営方針で信頼を得ている。",
+            "romaji": "Kenjitsu na keiei hōshin de shinrai o ete iru.",
+            "german": "Durch eine solide Geschäftspolitik Vertrauen gewinnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "堅実 bedeutet „solide, vernünftig, risikoarm“ und lobt eine Haltung, die auf Sicherheit statt auf Spekulation setzt: 堅実な経営, 堅実な生活, 堅実な人, 堅実に貯金する. Im Gegensatz zu 着実 (gleichmäßiger Fortschritt) betont 堅実 Zuverlässigkeit und Vorsicht. Es ist meist positiv, kann aber auch „etwas brav, ohne Wagnis“ mitschwingen lassen.",
+        "examples": [
+          {
+            "japanese": "堅実な経営方針で信頼を得ている。",
+            "romaji": "Kenjitsu na keiei hōshin de shinrai o ete iru.",
+            "german": "Mit seiner soliden Geschäftspolitik genießt das Unternehmen großes Vertrauen."
+          },
+          {
+            "japanese": "彼女は無駄遣いをしない堅実な人だ。",
+            "romaji": "Kanojo wa mudazukai o shinai kenjitsu na hito da.",
+            "german": "Sie ist ein vernünftiger Mensch, der kein Geld verschwendet."
+          },
+          {
+            "japanese": "若いうちから堅実に貯金している。",
+            "romaji": "Wakai uchi kara kenjitsu ni chokin shite iru.",
+            "german": "Er legt schon in jungen Jahren vernünftig Geld zurück."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118800058",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "堅実な",
+              "reading": "けんじつな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 堅実な/けんじつな \"solide; zuverlässig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1592720 sense 1, na-adjective / noun: steady, sound, stable, safe, reliable Pitch: Verified [0] via exact UniDic row. 堅実 bedeutet „solide, vernünftig, risikoarm“ und lobt eine Haltung, die auf Sicherheit statt auf Spekulation setzt: 堅実な経営, 堅実な生活, 堅実な人, 堅実に貯金する. Im Gegensatz zu 着実 (gleichmäßiger Fortschritt) betont 堅実 Zuverlässigkeit und Vorsicht. Es ist meist positiv, kann aber auch „etwas brav, ohne Wagnis“ mitschwingen lassen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1592720; spelling=堅実な; reading=けんじつな",
+          "finding": "JMdict 1592720 sense 1, na-adjective / noun: steady, sound, stable, safe, reliable"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact stem (headword without the attributive な, which carries no accent of its own) 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118800058",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 堅実/ケンジツ; lemma 堅実; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "堅実な",
+              "reading": "けんじつな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 堅実な/けんじつな \"solide; zuverlässig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "solide; zuverlässig. JMdict 1592720 sense 1, na-adjective / noun: steady, sound, stable, safe, reliable",
+        "japanese": "堅実な経営方針で信頼を得ている。 / 彼女は無駄遣いをしない堅実な人だ。 / 若いうちから堅実に貯金している。",
+        "romanization": "kenjitsu na; Kenjitsu na keiei hōshin de shinrai o ete iru. / Kanojo wa mudazukai o shinai kenjitsu na hito da. / Wakai uchi kara kenjitsu ni chokin shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mit seiner soliden Geschäftspolitik genießt das Unternehmen großes Vertrauen. / Sie ist ein vernünftiger Mensch, der kein Geld verschwendet. / Er legt schon in jungen Jahren vernünftig Geld zurück.",
+        "contexts": [
+          "Company reputation",
+          "Describing a thrifty person",
+          "Saving money"
+        ],
+        "lexical": "JMdict 1592720 sense 1, na-adjective / noun: steady, sound, stable, safe, reliable",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective: 堅実な, 堅実に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1261 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company reputation; Describing a thrifty person; Saving money), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "21b9567bbfe06b82b824ef2f544321a52cff74512549665da3f520c663c0db87",
+        "approvalHash": "12ef33931a313a05a2f913aeb94df38a904563f3e2a549d3934511d01b4b4b1c"
+      }
+    },
+    {
+      "id": "vocab-n2:1262",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1262",
+      "state": "accepted",
+      "predecessorHash": "ef78d7981c6f89c397f3b76e6e573ceaf7800b6f4e60bc53f91a019b36993ce1",
+      "originalHash": "ef78d7981c6f89c397f3b76e6e573ceaf7800b6f4e60bc53f91a019b36993ce1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "二つの作業を同時に進める。",
+            "romaji": "Futatsu no sagyō o dōji ni susumeru.",
+            "german": "Zwei Aufgaben gleichzeitig vorantreiben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "同時に heißt „gleichzeitig“ und hat drei Gebrauchsweisen: Als Adverb beschreibt es zeitgleiche Vorgänge (二つのことを同時にする); nach einem Verb mit と同時に heißt es „im selben Moment, als …“ (ベルが鳴ると同時に). Nach Adjektiven oder am Satzanfang bedeutet es „zugleich, andererseits“: うれしいと同時に寂しい. Im Gespräch sagt man auch いっぺんに; 一斉に heißt dagegen „alle auf einmal“.",
+        "examples": [
+          {
+            "japanese": "二つの作業を同時に進める。",
+            "romaji": "Futatsu no sagyō o dōji ni susumeru.",
+            "german": "Ich treibe zwei Aufgaben gleichzeitig voran."
+          },
+          {
+            "japanese": "ドアが開くと同時に、子どもたちが走り出した。",
+            "romaji": "Doa ga hiraku to dōji ni, kodomotachi ga hashiridashita.",
+            "german": "Sobald die Tür aufging, rannten die Kinder los."
+          },
+          {
+            "japanese": "卒業はうれしいと同時に、少し寂しい気もする。",
+            "romaji": "Sotsugyō wa ureshii to dōji ni, sukoshi sabishii ki mo suru.",
+            "german": "Der Abschluss freut mich, zugleich bin ich auch ein wenig wehmütig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1452510 senses 1–3, expression / adverb / conjunction: at the same time, simultaneously; just as; at the same time, also Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 同時に heißt „gleichzeitig“ und hat drei Gebrauchsweisen: Als Adverb beschreibt es zeitgleiche Vorgänge (二つのことを同時にする); nach einem Verb mit と同時に heißt es „im selben Moment, als …“ (ベルが鳴ると同時に). Nach Adjektiven oder am Satzanfang bedeutet es „zugleich, andererseits“: うれしいと同時に寂しい. Im Gespräch sagt man auch いっぺんに; 一斉に heißt dagegen „alle auf einmal“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1452510; spelling=同時に; reading=どうじに",
+          "selected": {
+            "sequence": "1452510",
+            "spelling": "同時に",
+            "reading": "どうじに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "at the same time",
+                  "at once",
+                  "simultaneously",
+                  "concurrently"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "just as ...",
+                  "the moment ...",
+                  "just after ..."
+                ],
+                "notes": [
+                  "as ...と同時に"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "expressions (phrases, clauses, etc.)",
+                  "conjunction"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(but) at the same time",
+                  "as well as",
+                  "also",
+                  "on the other hand"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1452510 senses 1–3, expression / adverb / conjunction: at the same time, simultaneously; just as; at the same time, also"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 同時に/どうじに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%90%8C%E6%99%82%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 同時に/どうじに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "gleichzeitig; zugleich. JMdict 1452510 senses 1–3, expression / adverb / conjunction: at the same time, simultaneously; just as; at the same time, also",
+        "japanese": "二つの作業を同時に進める。 / ドアが開くと同時に、子どもたちが走り出した。 / 卒業はうれしいと同時に、少し寂しい気もする。",
+        "romanization": "dōji ni; Futatsu no sagyō o dōji ni susumeru. / Doa ga hiraku to dōji ni, kodomotachi ga hashiridashita. / Sotsugyō wa ureshii to dōji ni, sukoshi sabishii ki mo suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich treibe zwei Aufgaben gleichzeitig voran. / Sobald die Tür aufging, rannten die Kinder los. / Der Abschluss freut mich, zugleich bin ich auch ein wenig wehmütig.",
+        "contexts": [
+          "Multitasking at work",
+          "Moment the door opens",
+          "Mixed feelings at graduation"
+        ],
+        "lexical": "JMdict 1452510 senses 1–3, expression / adverb / conjunction: at the same time, simultaneously; just as; at the same time, also",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (fixed adverbial form; と同時に after clauses)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1262 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Multitasking at work; Moment the door opens; Mixed feelings at graduation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "783d354f937a95a06dd5a192d5883e0f54b87ac67f567e02212f3b0ae36d77af",
+        "approvalHash": "dad6cadb24625922de103401a3790c7b88b1700277f5ace35717442d396af7c3"
+      }
+    },
+    {
+      "id": "vocab-n2:1263",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1263",
+      "state": "accepted",
+      "predecessorHash": "82b7b786edc505a9eba3cf2be10fb31ce220374e29d80c426f5c44dba3aea0bb",
+      "originalHash": "82b7b786edc505a9eba3cf2be10fb31ce220374e29d80c426f5c44dba3aea0bb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "順次対応していきます。",
+            "romaji": "Junji taiō shite ikimasu.",
+            "german": "Wir werden der Reihe nach darauf eingehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "順次 bedeutet „nacheinander, der Reihe nach, schrittweise“ und ist typisch für formelle Ankündigungen von Firmen und Behörden: 順次発送いたします „wird nach und nach versandt“, 順次対応いたします. Es steht meist ohne Partikel direkt vor dem Verb. Im Alltag sagt man stattdessen 順番に oder 一つずつ; 順次 betont weniger eine feste Reihenfolge als das schrittweise Abarbeiten.",
+        "examples": [
+          {
+            "japanese": "順次対応していきます。",
+            "romaji": "Junji taiō shite ikimasu.",
+            "german": "Wir werden der Reihe nach darauf eingehen."
+          },
+          {
+            "japanese": "ご注文の商品は、入荷しだい順次発送いたします。",
+            "romaji": "Go-chūmon no shōhin wa, nyūka shidai junji hassō itashimasu.",
+            "german": "Die bestellten Artikel werden nach Eingang nach und nach verschickt."
+          },
+          {
+            "japanese": "新しいシステムは来月から各支店に順次導入される。",
+            "romaji": "Atarashii shisutemu wa raigetsu kara kaku shiten ni junji dōnyū sareru.",
+            "german": "Das neue System wird ab nächstem Monat schrittweise in allen Filialen eingeführt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144638135",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 順次/ジュンジ; lemma 順次; 副詞/*/*/*; *; *; aType 1.",
+            "match": {
+              "word": "順次",
+              "reading": "じゅんじ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Adverb 順次/じゅんじ \"der Reihe nach; nacheinander\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1342330 sense 1, adverb: in order, sequentially, one after another Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 順次 bedeutet „nacheinander, der Reihe nach, schrittweise“ und ist typisch für formelle Ankündigungen von Firmen und Behörden: 順次発送いたします „wird nach und nach versandt“, 順次対応いたします. Es steht meist ohne Partikel direkt vor dem Verb. Im Alltag sagt man stattdessen 順番に oder 一つずつ; 順次 betont weniger eine feste Reihenfolge als das schrittweise Abarbeiten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1342330; spelling=順次; reading=じゅんじ",
+          "selected": {
+            "sequence": "1342330",
+            "spelling": "順次",
+            "reading": "じゅんじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in order",
+                  "sequential",
+                  "seriatim"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1342330 sense 1, adverb: in order, sequentially, one after another"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 順次/ジュンジ; lemma 順次; 副詞/*/*/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144638135",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 順次/ジュンジ; lemma 順次; 副詞/*/*/*; *; *; aType 1.",
+            "match": {
+              "word": "順次",
+              "reading": "じゅんじ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Adverb 順次/じゅんじ \"der Reihe nach; nacheinander\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "der Reihe nach; nacheinander. JMdict 1342330 sense 1, adverb: in order, sequentially, one after another",
+        "japanese": "順次対応していきます。 / ご注文の商品は、入荷しだい順次発送いたします。 / 新しいシステムは来月から各支店に順次導入される。",
+        "romanization": "junji; Junji taiō shite ikimasu. / Go-chūmon no shōhin wa, nyūka shidai junji hassō itashimasu. / Atarashii shisutemu wa raigetsu kara kaku shiten ni junji dōnyū sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir werden der Reihe nach darauf eingehen. / Die bestellten Artikel werden nach Eingang nach und nach verschickt. / Das neue System wird ab nächstem Monat schrittweise in allen Filialen eingeführt.",
+        "contexts": [
+          "Handling inquiries",
+          "Online shop shipping notice",
+          "Gradual system rollout"
+        ],
+        "lexical": "JMdict 1342330 sense 1, adverb: in order, sequentially, one after another",
+        "register": "formal / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1263 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Handling inquiries; Online shop shipping notice; Gradual system rollout), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "22f065decb1fb8633eab0c511780f577c1e3ad6586b80124e246de3e26819a1b",
+        "approvalHash": "16cc281f229c9ec5c4a8e49464990ccbd431141a64472ff348c1c1530aecb30b"
+      }
+    },
+    {
+      "id": "vocab-n2:1264",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1264",
+      "state": "accepted",
+      "predecessorHash": "dbbc961fd1208a886954605c694d4d0f1f50d41576d5b36966947b8e0e460ff8",
+      "originalHash": "dbbc961fd1208a886954605c694d4d0f1f50d41576d5b36966947b8e0e460ff8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "順番に名前を呼びます。",
+            "romaji": "Junban ni namae o yobimasu.",
+            "german": "Ich rufe die Namen der Reihe nach auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "順番に heißt „der Reihe nach, nacheinander“ und ist die alltägliche Form: 順番に並ぶ, 順番に話す, 順番に使う. Das Substantiv 順番 bedeutet „Reihenfolge, Reihe“: 順番を待つ „warten, bis man dran ist“, 私の順番だ „ich bin dran“. Formeller und eher schriftlich ist 順次; 交代で betont dagegen das gegenseitige Ablösen bei einer Tätigkeit.",
+        "examples": [
+          {
+            "japanese": "順番に名前を呼びます。",
+            "romaji": "Junban ni namae o yobimasu.",
+            "german": "Ich rufe die Namen der Reihe nach auf."
+          },
+          {
+            "japanese": "トイレは混んでいるので、順番に並んでください。",
+            "romaji": "Toire wa konde iru node, junban ni narande kudasai.",
+            "german": "Die Toilette ist voll, bitte stellen Sie sich der Reihe nach an."
+          },
+          {
+            "japanese": "兄弟で順番にゲームを使うことにした。",
+            "romaji": "Kyōdai de junban ni gēmu o tsukau koto ni shita.",
+            "german": "Die Geschwister haben beschlossen, die Spielkonsole reihum zu benutzen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2704010 sense 1, adverb: in turns, in order, by rotation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 順番に heißt „der Reihe nach, nacheinander“ und ist die alltägliche Form: 順番に並ぶ, 順番に話す, 順番に使う. Das Substantiv 順番 bedeutet „Reihenfolge, Reihe“: 順番を待つ „warten, bis man dran ist“, 私の順番だ „ich bin dran“. Formeller und eher schriftlich ist 順次; 交代で betont dagegen das gegenseitige Ablösen bei einer Tätigkeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2704010; spelling=順番に; reading=じゅんばんに",
+          "selected": {
+            "sequence": "2704010",
+            "spelling": "順番に",
+            "reading": "じゅんばんに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "in turns",
+                  "in series",
+                  "in order",
+                  "by rotation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2704010 sense 1, adverb: in turns, in order, by rotation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 順番に/じゅんばんに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%A0%86%E7%95%AA%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 順番に/じゅんばんに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "der Reihe nach. JMdict 2704010 sense 1, adverb: in turns, in order, by rotation",
+        "japanese": "順番に名前を呼びます。 / トイレは混んでいるので、順番に並んでください。 / 兄弟で順番にゲームを使うことにした。",
+        "romanization": "junban ni; Junban ni namae o yobimasu. / Toire wa konde iru node, junban ni narande kudasai. / Kyōdai de junban ni gēmu o tsukau koto ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich rufe die Namen der Reihe nach auf. / Die Toilette ist voll, bitte stellen Sie sich der Reihe nach an. / Die Geschwister haben beschlossen, die Spielkonsole reihum zu benutzen.",
+        "contexts": [
+          "Roll call in class",
+          "Queue at the toilet",
+          "Siblings sharing a console"
+        ],
+        "lexical": "JMdict 2704010 sense 1, adverb: in turns, in order, by rotation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1264 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Roll call in class; Queue at the toilet; Siblings sharing a console), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "754bfb2a441aa3b4845003340aedc46310e93fce95d169dbe2e2eb1df79c1e84",
+        "approvalHash": "07d141766d5f71887c201077d9922367faec004d76e12494a071d4c02860093f"
+      }
+    },
+    {
+      "id": "vocab-n2:1265",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1265",
+      "state": "accepted",
+      "predecessorHash": "bfa7787b473891e87d737e96fff7e0787bc71cc7bb6fc7de288ade55e49265da",
+      "originalHash": "bfa7787b473891e87d737e96fff7e0787bc71cc7bb6fc7de288ade55e49265da",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "赤と青を交互に並べた。",
+            "romaji": "Aka to ao o kōgo ni narabeta.",
+            "german": "Rot und Blau abwechselnd angeordnet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "交互に heißt „abwechselnd“ im Sinne eines regelmäßigen Wechsels zwischen zwei (oder mehr) Dingen: AとBを交互に並べる, 左右の足を交互に出す. Gegenüber 順番に (der Reihe nach, mehrere Beteiligte) und 交代で (sich bei einer Tätigkeit ablösen) betont 交互に das Muster A-B-A-B. Neutraler Stil, auch in Anleitungen und Rezepten.",
+        "examples": [
+          {
+            "japanese": "赤と青を交互に並べた。",
+            "romaji": "Aka to ao o kōgo ni narabeta.",
+            "german": "Ich habe Rot und Blau abwechselnd angeordnet."
+          },
+          {
+            "japanese": "肉と野菜を交互に串に刺して焼きます。",
+            "romaji": "Niku to yasai o kōgo ni kushi ni sashite yakimasu.",
+            "german": "Fleisch und Gemüse abwechselnd auf Spieße stecken und grillen."
+          },
+          {
+            "japanese": "長距離のドライブなので、父と交互に運転した。",
+            "romaji": "Chōkyori no doraibu na node, chichi to kōgo ni unten shita.",
+            "german": "Weil es eine lange Fahrt war, sind mein Vater und ich abwechselnd gefahren."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2846444 sense 1, adverb: alternately, by turns Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 交互に heißt „abwechselnd“ im Sinne eines regelmäßigen Wechsels zwischen zwei (oder mehr) Dingen: AとBを交互に並べる, 左右の足を交互に出す. Gegenüber 順番に (der Reihe nach, mehrere Beteiligte) und 交代で (sich bei einer Tätigkeit ablösen) betont 交互に das Muster A-B-A-B. Neutraler Stil, auch in Anleitungen und Rezepten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2846444; spelling=交互に; reading=こうごに",
+          "selected": {
+            "sequence": "2846444",
+            "spelling": "交互に",
+            "reading": "こうごに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "alternately",
+                  "by turns",
+                  "one after the other"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2846444 sense 1, adverb: alternately, by turns"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 交互に/こうごに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BA%A4%E4%BA%92%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 交互に/こうごに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "abwechselnd. JMdict 2846444 sense 1, adverb: alternately, by turns",
+        "japanese": "赤と青を交互に並べた。 / 肉と野菜を交互に串に刺して焼きます。 / 長距離のドライブなので、父と交互に運転した。",
+        "romanization": "kōgo ni; Aka to ao o kōgo ni narabeta. / Niku to yasai o kōgo ni kushi ni sashite yakimasu. / Chōkyori no doraibu na node, chichi to kōgo ni unten shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Rot und Blau abwechselnd angeordnet. / Fleisch und Gemüse abwechselnd auf Spieße stecken und grillen. / Weil es eine lange Fahrt war, sind mein Vater und ich abwechselnd gefahren.",
+        "contexts": [
+          "Arranging colours",
+          "Skewer recipe",
+          "Long road trip"
+        ],
+        "lexical": "JMdict 2846444 sense 1, adverb: alternately, by turns",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1265 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Arranging colours; Skewer recipe; Long road trip), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5e7f813db7ac9d3109d56be7d053fcc6759bd555d242d24e75eeaa8f209eb94f",
+        "approvalHash": "8c433f6d12f8053f9e6ea70ad13a617541f5b1b911a443d49859f3d48f6e2d11"
+      }
+    },
+    {
+      "id": "vocab-n2:1266",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1266",
+      "state": "accepted",
+      "predecessorHash": "de26c02ac4a4623258b4dbeef8c287c9f8134bae7b5466c21bb40fdf8301fea9",
+      "originalHash": "de26c02ac4a4623258b4dbeef8c287c9f8134bae7b5466c21bb40fdf8301fea9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "互いに助け合うことが大切だ。",
+            "romaji": "Tagai ni tasukeau koto ga taisetsu da.",
+            "german": "Es ist wichtig, einander zu helfen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "互いに heißt „gegenseitig, einander“ und steht oft mit Verben auf 〜合う: 互いに助け合う, 互いに理解し合う. Im Gespräch sagt man häufiger お互いに oder お互い (お互い様 „es geht uns beiden gleich“); das blanke 互いに wirkt etwas schriftlicher. Das formelle Synonym 相互に gehört eher in Fachtexte und Verträge.",
+        "examples": [
+          {
+            "japanese": "互いに助け合うことが大切だ。",
+            "romaji": "Tagai ni tasukeau koto ga taisetsu da.",
+            "german": "Es ist wichtig, einander zu helfen."
+          },
+          {
+            "japanese": "二人は互いに顔を見合わせて笑った。",
+            "romaji": "Futari wa tagai ni kao o miawasete waratta.",
+            "german": "Die beiden sahen sich an und lachten."
+          },
+          {
+            "japanese": "チームのメンバーは互いに競い合いながら成長した。",
+            "romaji": "Chīmu no menbā wa tagai ni kisoiai nagara seichō shita.",
+            "german": "Die Teammitglieder haben sich weiterentwickelt, indem sie miteinander wetteiferten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1268780 sense 1, adverb: mutually, with each other, reciprocally Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 互いに heißt „gegenseitig, einander“ und steht oft mit Verben auf 〜合う: 互いに助け合う, 互いに理解し合う. Im Gespräch sagt man häufiger お互いに oder お互い (お互い様 „es geht uns beiden gleich“); das blanke 互いに wirkt etwas schriftlicher. Das formelle Synonym 相互に gehört eher in Fachtexte und Verträge. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1268780; spelling=互いに; reading=たがいに",
+          "selected": {
+            "sequence": "1268780",
+            "spelling": "互いに",
+            "reading": "たがいに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mutually",
+                  "with each other",
+                  "reciprocally",
+                  "together"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1268780 sense 1, adverb: mutually, with each other, reciprocally"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 互いに/たがいに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BA%92%E3%81%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 互いに/たがいに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "gegenseitig; einander. JMdict 1268780 sense 1, adverb: mutually, with each other, reciprocally",
+        "japanese": "互いに助け合うことが大切だ。 / 二人は互いに顔を見合わせて笑った。 / チームのメンバーは互いに競い合いながら成長した。",
+        "romanization": "tagai ni; Tagai ni tasukeau koto ga taisetsu da. / Futari wa tagai ni kao o miawasete waratta. / Chīmu no menbā wa tagai ni kisoiai nagara seichō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, einander zu helfen. / Die beiden sahen sich an und lachten. / Die Teammitglieder haben sich weiterentwickelt, indem sie miteinander wetteiferten.",
+        "contexts": [
+          "Value of mutual help",
+          "Exchanged glances",
+          "Friendly rivalry in a team"
+        ],
+        "lexical": "JMdict 1268780 sense 1, adverb: mutually, with each other, reciprocally",
+        "register": "neutral to slightly written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1266 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Value of mutual help; Exchanged glances; Friendly rivalry in a team), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5c976ee60a5e984d223dfbf79da4eddd61fbe9f23524ae90db04e4501ba4dcb1",
+        "approvalHash": "8c6c1d9f11d67e4481c3a140e4e361fd7433505ebf060e3c5c8855d42b87f27f"
+      }
+    },
+    {
+      "id": "vocab-n2:1267",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1267",
+      "state": "accepted",
+      "predecessorHash": "79d444ba348f0b0979961c791b7a2e23bbe5a80060a7283c534b609bc7d51406",
+      "originalHash": "79d444ba348f0b0979961c791b7a2e23bbe5a80060a7283c534b609bc7d51406",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "相互に情報を共有する。",
+            "romaji": "Sōgo ni jōhō o kyōyū suru.",
+            "german": "Wechselseitig Informationen teilen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "相互に bedeutet „wechselseitig, gegenseitig“ und ist das formelle, schriftsprachliche Pendant zu 互いに. Es erscheint in Verträgen, Berichten und Fachtexten: 相互に協力する, 相互に影響し合う; als Präfix in Komposita wie 相互理解 „gegenseitiges Verständnis“ oder 相互作用 „Wechselwirkung“. Im Gespräch klingt お互いに natürlicher.",
+        "examples": [
+          {
+            "japanese": "相互に情報を共有する。",
+            "romaji": "Sōgo ni jōhō o kyōyū suru.",
+            "german": "Wir teilen Informationen untereinander."
+          },
+          {
+            "japanese": "両国は経済面で相互に協力することで合意した。",
+            "romaji": "Ryōkoku wa keizaimen de sōgo ni kyōryoku suru koto de gōi shita.",
+            "german": "Die beiden Staaten einigten sich auf eine wechselseitige wirtschaftliche Zusammenarbeit."
+          },
+          {
+            "japanese": "気温と湿度は相互に影響し合っている。",
+            "romaji": "Kion to shitsudo wa sōgo ni eikyō shiatte iru.",
+            "german": "Temperatur und Luftfeuchtigkeit beeinflussen sich gegenseitig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1596370 sense 1, noun (here adverbial with に): mutual, reciprocal Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 相互に bedeutet „wechselseitig, gegenseitig“ und ist das formelle, schriftsprachliche Pendant zu 互いに. Es erscheint in Verträgen, Berichten und Fachtexten: 相互に協力する, 相互に影響し合う; als Präfix in Komposita wie 相互理解 „gegenseitiges Verständnis“ oder 相互作用 „Wechselwirkung“. Im Gespräch klingt お互いに natürlicher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1596370; spelling=相互に; reading=そうごに",
+          "finding": "JMdict 1596370 sense 1, noun (here adverbial with に): mutual, reciprocal"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 相互に/そうごに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9B%B8%E4%BA%92%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 相互に/そうごに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "wechselseitig; gegenseitig. JMdict 1596370 sense 1, noun (here adverbial with に): mutual, reciprocal",
+        "japanese": "相互に情報を共有する。 / 両国は経済面で相互に協力することで合意した。 / 気温と湿度は相互に影響し合っている。",
+        "romanization": "sōgo ni; Sōgo ni jōhō o kyōyū suru. / Ryōkoku wa keizaimen de sōgo ni kyōryoku suru koto de gōi shita. / Kion to shitsudo wa sōgo ni eikyō shiatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir teilen Informationen untereinander. / Die beiden Staaten einigten sich auf eine wechselseitige wirtschaftliche Zusammenarbeit. / Temperatur und Luftfeuchtigkeit beeinflussen sich gegenseitig.",
+        "contexts": [
+          "Team information sharing",
+          "Bilateral agreement",
+          "Scientific explanation"
+        ],
+        "lexical": "JMdict 1596370 sense 1, noun (here adverbial with に): mutual, reciprocal",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1267 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Team information sharing; Bilateral agreement; Scientific explanation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "296f871a02160849e4a4a2f990483f6b43b886b9e342a03f9616990f069ed82f",
+        "approvalHash": "81a56228b47e4cf4e5026474640b088da02d17dfc0c15c4a2b3316d4ab1c70a5"
+      }
+    },
+    {
+      "id": "vocab-n2:1268",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1268",
+      "state": "accepted",
+      "predecessorHash": "ad2f17841fae3242489128b5da65e77762a71f803eca13a6850f0416740dcf8a",
+      "originalHash": "ad2f17841fae3242489128b5da65e77762a71f803eca13a6850f0416740dcf8a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "各自で昼食をとってください。",
+            "romaji": "Kakuji de chūshoku o totte kudasai.",
+            "german": "Bitte nehmen Sie das Mittagessen jeder für sich ein."
+          }
+        ],
+        "type": "Adverb",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "各自 bedeutet „jeder Einzelne, jeder für sich“ und wird vor allem in Anweisungen an eine Gruppe benutzt: 各自で準備する, 昼食は各自でお願いします „Mittagessen bitte selbst organisieren“, 各自の責任. Es steht als Substantiv mit の oder adverbial, oft mit で. Ähnlich sind それぞれ (neutraler, auch für Dinge) und 一人一人 (betont die einzelne Person); 各自 klingt nach Verwaltungs- oder Schulanweisung.",
+        "examples": [
+          {
+            "japanese": "各自で昼食をとってください。",
+            "romaji": "Kakuji de chūshoku o totte kudasai.",
+            "german": "Bitte nehmen Sie das Mittagessen jeder für sich ein."
+          },
+          {
+            "japanese": "旅行の費用は各自が負担することになった。",
+            "romaji": "Ryokō no hiyō wa kakuji ga futan suru koto ni natta.",
+            "german": "Es wurde beschlossen, dass jeder seine Reisekosten selbst trägt."
+          },
+          {
+            "japanese": "貴重品は各自で管理してください。",
+            "romaji": "Kichōhin wa kakuji de kanri shite kudasai.",
+            "german": "Bitte achten Sie selbst auf Ihre Wertsachen."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90619276",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 各自/カクジ; lemma 各自; 名詞/普通名詞/副詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "各自",
+              "reading": "かくじ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 各自/かくじ \"jeder für sich; individuell\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1205010 sense 1, noun / adverb: each (person), everyone, individually Pitch: Verified [1] via exact UniDic row. 各自 bedeutet „jeder Einzelne, jeder für sich“ und wird vor allem in Anweisungen an eine Gruppe benutzt: 各自で準備する, 昼食は各自でお願いします „Mittagessen bitte selbst organisieren“, 各自の責任. Es steht als Substantiv mit の oder adverbial, oft mit で. Ähnlich sind それぞれ (neutraler, auch für Dinge) und 一人一人 (betont die einzelne Person); 各自 klingt nach Verwaltungs- oder Schulanweisung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1205010; spelling=各自; reading=かくじ",
+          "selected": {
+            "sequence": "1205010",
+            "spelling": "各自",
+            "reading": "かくじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "each (person)",
+                  "everyone",
+                  "individual",
+                  "respective"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1205010 sense 1, noun / adverb: each (person), everyone, individually"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 各自/カクジ; lemma 各自; 名詞/普通名詞/副詞可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90619276",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 各自/カクジ; lemma 各自; 名詞/普通名詞/副詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "各自",
+              "reading": "かくじ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 各自/かくじ \"jeder für sich; individuell\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "jeder für sich; individuell. JMdict 1205010 sense 1, noun / adverb: each (person), everyone, individually",
+        "japanese": "各自で昼食をとってください。 / 旅行の費用は各自が負担することになった。 / 貴重品は各自で管理してください。",
+        "romanization": "kakuji; Kakuji de chūshoku o totte kudasai. / Ryokō no hiyō wa kakuji ga futan suru koto ni natta. / Kichōhin wa kakuji de kanri shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte nehmen Sie das Mittagessen jeder für sich ein. / Es wurde beschlossen, dass jeder seine Reisekosten selbst trägt. / Bitte achten Sie selbst auf Ihre Wertsachen.",
+        "contexts": [
+          "School trip lunch",
+          "Sharing travel costs",
+          "Valuables notice"
+        ],
+        "lexical": "JMdict 1205010 sense 1, noun / adverb: each (person), everyone, individually",
+        "register": "formal / instructions",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1268 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (School trip lunch; Sharing travel costs; Valuables notice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "601aa1e7fbcb640470ff03684b157e2d04d1fd09f39a97f21ceace9ec4c2bf2a",
+        "approvalHash": "96e768644e1b5605bb38ca3e9fce84bdf49b1ac8c5cb9aad405e05d6e9d7b439"
+      }
+    },
+    {
+      "id": "vocab-n2:1269",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1269",
+      "state": "accepted",
+      "predecessorHash": "29f83b9ecacc7e26966abea1c2ef76e51ca115643f41201c1756e5360031f794",
+      "originalHash": "29f83b9ecacc7e26966abea1c2ef76e51ca115643f41201c1756e5360031f794",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "個別に対応させていただきます。",
+            "romaji": "Kobetsu ni taiō sasete itadakimasu.",
+            "german": "Wir werden individuell darauf eingehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "個別に heißt „einzeln, gesondert, individuell“ – jeder Fall oder jede Person wird für sich behandelt: 個別に対応する, 個別に相談する, 個別に包装する. Das Gegenstück ist まとめて oder formell 一括して „gesammelt, auf einmal“. Als Präfix bildet 個別 Komposita wie 個別指導 „Einzelunterricht“ oder 個別面談 „Einzelgespräch“. Neutral bis formell, häufig in der Geschäftssprache.",
+        "examples": [
+          {
+            "japanese": "個別に対応させていただきます。",
+            "romaji": "Kobetsu ni taiō sasete itadakimasu.",
+            "german": "Wir werden individuell darauf eingehen."
+          },
+          {
+            "japanese": "お菓子は一つずつ個別に包装されている。",
+            "romaji": "Okashi wa hitotsu zutsu kobetsu ni hōsō sarete iru.",
+            "german": "Die Süßigkeiten sind einzeln verpackt."
+          },
+          {
+            "japanese": "成績について、先生が生徒と個別に話をした。",
+            "romaji": "Seiseki ni tsuite, sensei ga seito to kobetsu ni hanashi o shita.",
+            "german": "Der Lehrer sprach mit jedem Schüler einzeln über seine Noten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1265000 sense 1, noun / no-adjective (adverbial with に): individual, separate, case-by-case Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 個別に heißt „einzeln, gesondert, individuell“ – jeder Fall oder jede Person wird für sich behandelt: 個別に対応する, 個別に相談する, 個別に包装する. Das Gegenstück ist まとめて oder formell 一括して „gesammelt, auf einmal“. Als Präfix bildet 個別 Komposita wie 個別指導 „Einzelunterricht“ oder 個別面談 „Einzelgespräch“. Neutral bis formell, häufig in der Geschäftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1265000; spelling=個別に; reading=こべつに",
+          "finding": "JMdict 1265000 sense 1, noun / no-adjective (adverbial with に): individual, separate, case-by-case"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 個別に/こべつに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%80%8B%E5%88%A5%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 個別に/こべつに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "einzeln; individuell. JMdict 1265000 sense 1, noun / no-adjective (adverbial with に): individual, separate, case-by-case",
+        "japanese": "個別に対応させていただきます。 / お菓子は一つずつ個別に包装されている。 / 成績について、先生が生徒と個別に話をした。",
+        "romanization": "kobetsu ni; Kobetsu ni taiō sasete itadakimasu. / Okashi wa hitotsu zutsu kobetsu ni hōsō sarete iru. / Seiseki ni tsuite, sensei ga seito to kobetsu ni hanashi o shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir werden individuell darauf eingehen. / Die Süßigkeiten sind einzeln verpackt. / Der Lehrer sprach mit jedem Schüler einzeln über seine Noten.",
+        "contexts": [
+          "Customer service reply",
+          "Product packaging",
+          "Teacher-student meeting"
+        ],
+        "lexical": "JMdict 1265000 sense 1, noun / no-adjective (adverbial with に): individual, separate, case-by-case",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1269 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Customer service reply; Product packaging; Teacher-student meeting), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bcb1527e6ad1b27989f9181eca405831fa19e2ee615384283dc956e650e553dc",
+        "approvalHash": "409a6a663f82354897019005631d6a5bceef1551e31280869e33c4bd99350019"
+      }
+    },
+    {
+      "id": "vocab-n2:1270",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1270",
+      "state": "accepted",
+      "predecessorHash": "7b4bb3d61384dca65f03a1a218c849cbeabf6df11027708ed923f811e020d66b",
+      "originalHash": "7b4bb3d61384dca65f03a1a218c849cbeabf6df11027708ed923f811e020d66b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "全体的に見れば良い結果だった。",
+            "romaji": "Zentaiteki ni mireba yoi kekka datta.",
+            "german": "Insgesamt betrachtet war es ein gutes Ergebnis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "全体的に heißt „insgesamt, im Großen und Ganzen“ und fasst einen Gesamteindruck zusammen: 全体的に見ると, 全体的に良い, 全体的に暗い色. Oft folgt eine Einschränkung: 全体的にはいいが、細かいミスがある. Gegenstück ist 部分的に „teilweise“. Bedeutungsnah ist das etwas formellere 全般的に; im Gespräch sagt man auch だいたい.",
+        "examples": [
+          {
+            "japanese": "全体的に見れば良い結果だった。",
+            "romaji": "Zentaiteki ni mireba yoi kekka datta.",
+            "german": "Insgesamt betrachtet war es ein gutes Ergebnis."
+          },
+          {
+            "japanese": "この部屋は全体的に明るい色でまとめられている。",
+            "romaji": "Kono heya wa zentaiteki ni akarui iro de matomerarete iru.",
+            "german": "Das Zimmer ist insgesamt in hellen Farben gehalten."
+          },
+          {
+            "japanese": "レポートは全体的によく書けているが、結論が弱い。",
+            "romaji": "Repōto wa zentaiteki ni yoku kakete iru ga, ketsuron ga yowai.",
+            "german": "Der Bericht ist insgesamt gut geschrieben, aber das Fazit ist schwach."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2749060 sense 1, na-adjective (adverbial form with に): overall, general, as a whole Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 全体的に heißt „insgesamt, im Großen und Ganzen“ und fasst einen Gesamteindruck zusammen: 全体的に見ると, 全体的に良い, 全体的に暗い色. Oft folgt eine Einschränkung: 全体的にはいいが、細かいミスがある. Gegenstück ist 部分的に „teilweise“. Bedeutungsnah ist das etwas formellere 全般的に; im Gespräch sagt man auch だいたい. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2749060; spelling=全体的に; reading=ぜんたいてきに",
+          "finding": "JMdict 2749060 sense 1, na-adjective (adverbial form with に): overall, general, as a whole"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 全体的に/ぜんたいてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%85%A8%E4%BD%93%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 全体的に/ぜんたいてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "insgesamt; im Ganzen. JMdict 2749060 sense 1, na-adjective (adverbial form with に): overall, general, as a whole",
+        "japanese": "全体的に見れば良い結果だった。 / この部屋は全体的に明るい色でまとめられている。 / レポートは全体的によく書けているが、結論が弱い。",
+        "romanization": "zentaiteki ni; Zentaiteki ni mireba yoi kekka datta. / Kono heya wa zentaiteki ni akarui iro de matomerarete iru. / Repōto wa zentaiteki ni yoku kakete iru ga, ketsuron ga yowai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Insgesamt betrachtet war es ein gutes Ergebnis. / Das Zimmer ist insgesamt in hellen Farben gehalten. / Der Bericht ist insgesamt gut geschrieben, aber das Fazit ist schwach.",
+        "contexts": [
+          "Evaluating results",
+          "Interior design",
+          "Feedback on a report"
+        ],
+        "lexical": "JMdict 2749060 sense 1, na-adjective (adverbial form with に): overall, general, as a whole",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 全体的な / adverbial 全体的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1270 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Evaluating results; Interior design; Feedback on a report), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6410e04866248ce1b1fe70f649e8ae9ca2785f7be68b4af738898f326a801f07",
+        "approvalHash": "edb8f5bbc729e9f8671060f3976624fb7e984942172d4ae2a793e491399aff08"
+      }
+    },
+    {
+      "id": "vocab-n2:1271",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1271",
+      "state": "accepted",
+      "predecessorHash": "a7f2d68fe624174070e533221b7e2c85dee4a494a94c2f340b6fc7dbd79fc315",
+      "originalHash": "a7f2d68fe624174070e533221b7e2c85dee4a494a94c2f340b6fc7dbd79fc315",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "部分的に修正する必要がある。",
+            "romaji": "Bubunteki ni shūsei suru hitsuyō ga aru.",
+            "german": "Es muss teilweise korrigiert werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "部分的に heißt „teilweise, stellenweise“ und schränkt eine Aussage auf einen Teil ein: 部分的に修正する, 部分的に正しい, 部分的に壊れる. Gegenstück ist 全体的に. Im Alltag sagt man oft 一部 (一部だけ, 一部の人); 部分的に ist etwas sachlicher und typisch für Berichte, Bewertungen und Anleitungen.",
+        "examples": [
+          {
+            "japanese": "部分的に修正する必要がある。",
+            "romaji": "Bubunteki ni shūsei suru hitsuyō ga aru.",
+            "german": "Es muss teilweise korrigiert werden."
+          },
+          {
+            "japanese": "彼の意見は部分的には正しいと思う。",
+            "romaji": "Kare no iken wa bubunteki ni wa tadashii to omou.",
+            "german": "Ich finde, seine Meinung ist zum Teil richtig."
+          },
+          {
+            "japanese": "台風で、屋根が部分的に壊れてしまった。",
+            "romaji": "Taifū de, yane ga bubunteki ni kowarete shimatta.",
+            "german": "Durch den Taifun wurde das Dach teilweise beschädigt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1499510 sense 1, na-adjective (adverbial form with に): partial → partially Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 部分的に heißt „teilweise, stellenweise“ und schränkt eine Aussage auf einen Teil ein: 部分的に修正する, 部分的に正しい, 部分的に壊れる. Gegenstück ist 全体的に. Im Alltag sagt man oft 一部 (一部だけ, 一部の人); 部分的に ist etwas sachlicher und typisch für Berichte, Bewertungen und Anleitungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1499510; spelling=部分的に; reading=ぶぶんてきに",
+          "finding": "JMdict 1499510 sense 1, na-adjective (adverbial form with に): partial → partially"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 部分的に/ぶぶんてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%83%A8%E5%88%86%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 部分的に/ぶぶんてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "teilweise; partiell. JMdict 1499510 sense 1, na-adjective (adverbial form with に): partial → partially",
+        "japanese": "部分的に修正する必要がある。 / 彼の意見は部分的には正しいと思う。 / 台風で、屋根が部分的に壊れてしまった。",
+        "romanization": "bubunteki ni; Bubunteki ni shūsei suru hitsuyō ga aru. / Kare no iken wa bubunteki ni wa tadashii to omou. / Taifū de, yane ga bubunteki ni kowarete shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es muss teilweise korrigiert werden. / Ich finde, seine Meinung ist zum Teil richtig. / Durch den Taifun wurde das Dach teilweise beschädigt.",
+        "contexts": [
+          "Revising a document",
+          "Partial agreement in discussion",
+          "Storm damage"
+        ],
+        "lexical": "JMdict 1499510 sense 1, na-adjective (adverbial form with に): partial → partially",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 部分的な / adverbial 部分的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1271 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Revising a document; Partial agreement in discussion; Storm damage), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bb1d8d523be341d7571c0091433c42db43ba50645caafd14f85747c6f58ab755",
+        "approvalHash": "d462429487785333c8a309d3f32aacbd8856b428a1b4f2e92e8b0b0bceddce0a"
+      }
+    },
+    {
+      "id": "vocab-n2:1272",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1272",
+      "state": "accepted",
+      "predecessorHash": "eeb0f3f6b0f96124ac9d712c02e69165aadf666617e51e93792019c68d0f2f6f",
+      "originalHash": "eeb0f3f6b0f96124ac9d712c02e69165aadf666617e51e93792019c68d0f2f6f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "局所的に大雨が降っている。",
+            "romaji": "Kyokushoteki ni ōame ga futte iru.",
+            "german": "Örtlich begrenzt regnet es stark."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "局所的に heißt „örtlich begrenzt, lokal“ und stammt aus Fach- und Nachrichtensprache: in Wetterberichten (局所的に激しい雨 „örtlich heftiger Regen“) und in der Medizin (局所的に痛む, 局所麻酔 „örtliche Betäubung“). Im Alltag sagt man eher ところどころ oder 一部の地域で. Gegenüber 部分的に bezieht sich 局所的に auf einen räumlich eng umgrenzten Bereich.",
+        "examples": [
+          {
+            "japanese": "局所的に大雨が降っている。",
+            "romaji": "Kyokushoteki ni ōame ga futte iru.",
+            "german": "Örtlich begrenzt regnet es stark."
+          },
+          {
+            "japanese": "この薬は痛む部分に局所的に使います。",
+            "romaji": "Kono kusuri wa itamu bubun ni kyokushoteki ni tsukaimasu.",
+            "german": "Dieses Medikament wird lokal an der schmerzenden Stelle angewendet."
+          },
+          {
+            "japanese": "地震の被害は局所的に集中していた。",
+            "romaji": "Jishin no higai wa kyokushoteki ni shūchū shite ita.",
+            "german": "Die Erdbebenschäden konzentrierten sich auf einzelne Gebiete."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2351370 sense 1, na-adjective (adverbial form with に): local, localized Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 局所的に heißt „örtlich begrenzt, lokal“ und stammt aus Fach- und Nachrichtensprache: in Wetterberichten (局所的に激しい雨 „örtlich heftiger Regen“) und in der Medizin (局所的に痛む, 局所麻酔 „örtliche Betäubung“). Im Alltag sagt man eher ところどころ oder 一部の地域で. Gegenüber 部分的に bezieht sich 局所的に auf einen räumlich eng umgrenzten Bereich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2351370; spelling=局所的に; reading=きょくしょてきに",
+          "finding": "JMdict 2351370 sense 1, na-adjective (adverbial form with に): local, localized"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 局所的に/きょくしょてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B1%80%E6%89%80%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 局所的に/きょくしょてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "lokal; örtlich begrenzt. JMdict 2351370 sense 1, na-adjective (adverbial form with に): local, localized",
+        "japanese": "局所的に大雨が降っている。 / この薬は痛む部分に局所的に使います。 / 地震の被害は局所的に集中していた。",
+        "romanization": "kyokushoteki ni; Kyokushoteki ni ōame ga futte iru. / Kono kusuri wa itamu bubun ni kyokushoteki ni tsukaimasu. / Jishin no higai wa kyokushoteki ni shūchū shite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Örtlich begrenzt regnet es stark. / Dieses Medikament wird lokal an der schmerzenden Stelle angewendet. / Die Erdbebenschäden konzentrierten sich auf einzelne Gebiete.",
+        "contexts": [
+          "Weather report",
+          "Medicine instructions",
+          "Earthquake damage report"
+        ],
+        "lexical": "JMdict 2351370 sense 1, na-adjective (adverbial form with に): local, localized",
+        "register": "written / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 局所的な / adverbial 局所的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1272 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weather report; Medicine instructions; Earthquake damage report), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4aa1e69a9067c5bf8dd0ffc8a2507a157b9a7748236ec484f1f54e1519e8e3fd",
+        "approvalHash": "4a74297d832f503aa4b11d154f3429244dc6cc51274fac74d2083146bdab759e"
+      }
+    },
+    {
+      "id": "vocab-n2:1273",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1273",
+      "state": "accepted",
+      "predecessorHash": "bbdff990d93fd148943cf24c316e6512d07b3c9fc1c30913aae308c413e82991",
+      "originalHash": "bbdff990d93fd148943cf24c316e6512d07b3c9fc1c30913aae308c413e82991",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "考え方を根本的に変える必要がある。",
+            "romaji": "Kangaekata o konponteki ni kaeru hitsuyō ga aru.",
+            "german": "Man muss die Denkweise grundlegend ändern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "根本的に heißt „grundlegend, von Grund auf“ und zielt auf die Wurzel (根本) einer Sache: 根本的に見直す, 根本的に解決する, 根本的に違う. Typisch ist der Kontrast zu oberflächlichen Lösungen: 一時的な対策ではなく根本的な解決. Bedeutungsnah ist 抜本的 (formeller, vor allem bei Reformen); 本質的に beschreibt dagegen das Wesen einer Sache, nicht das Ausmaß einer Änderung.",
+        "examples": [
+          {
+            "japanese": "考え方を根本的に変える必要がある。",
+            "romaji": "Kangaekata o konponteki ni kaeru hitsuyō ga aru.",
+            "german": "Man muss die Denkweise grundlegend ändern."
+          },
+          {
+            "japanese": "この問題を根本的に解決するには時間がかかる。",
+            "romaji": "Kono mondai o konponteki ni kaiketsu suru ni wa jikan ga kakaru.",
+            "german": "Es braucht Zeit, dieses Problem von Grund auf zu lösen."
+          },
+          {
+            "japanese": "二人の意見は根本的に異なっている。",
+            "romaji": "Futari no iken wa konponteki ni kotonatte iru.",
+            "german": "Die Meinungen der beiden unterscheiden sich grundlegend."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1290290 sense 1, na-adjective (adverbial form with に): fundamental, basic → fundamentally Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 根本的に heißt „grundlegend, von Grund auf“ und zielt auf die Wurzel (根本) einer Sache: 根本的に見直す, 根本的に解決する, 根本的に違う. Typisch ist der Kontrast zu oberflächlichen Lösungen: 一時的な対策ではなく根本的な解決. Bedeutungsnah ist 抜本的 (formeller, vor allem bei Reformen); 本質的に beschreibt dagegen das Wesen einer Sache, nicht das Ausmaß einer Änderung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1290290; spelling=根本的に; reading=こんぽんてきに",
+          "finding": "JMdict 1290290 sense 1, na-adjective (adverbial form with に): fundamental, basic → fundamentally"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 根本的に/こんぽんてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A0%B9%E6%9C%AC%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 根本的に/こんぽんてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "grundlegend; von Grund auf. JMdict 1290290 sense 1, na-adjective (adverbial form with に): fundamental, basic → fundamentally",
+        "japanese": "考え方を根本的に変える必要がある。 / この問題を根本的に解決するには時間がかかる。 / 二人の意見は根本的に異なっている。",
+        "romanization": "konponteki ni; Kangaekata o konponteki ni kaeru hitsuyō ga aru. / Kono mondai o konponteki ni kaiketsu suru ni wa jikan ga kakaru. / Futari no iken wa konponteki ni kotonatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man muss die Denkweise grundlegend ändern. / Es braucht Zeit, dieses Problem von Grund auf zu lösen. / Die Meinungen der beiden unterscheiden sich grundlegend.",
+        "contexts": [
+          "Call for a new mindset",
+          "Solving a problem",
+          "Disagreement between two people"
+        ],
+        "lexical": "JMdict 1290290 sense 1, na-adjective (adverbial form with に): fundamental, basic → fundamentally",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 根本的な / adverbial 根本的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1273 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Call for a new mindset; Solving a problem; Disagreement between two people), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a0211592bb508045969288469fb3f9415f440cf0a190cde9f538bdd6843cbffb",
+        "approvalHash": "63989cf17ad9c34e56a95035396b5e0f01806720594b0b4e5b7d5ce23a476d61"
+      }
+    },
+    {
+      "id": "vocab-n2:1274",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1274",
+      "state": "accepted",
+      "predecessorHash": "0ff6f9c19bf5d7223b26681f29f3fb32efd356d3328498d3df6b468d6f5da0fc",
+      "originalHash": "0ff6f9c19bf5d7223b26681f29f3fb32efd356d3328498d3df6b468d6f5da0fc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この二つの問題は本質的に同じだ。",
+            "romaji": "Kono futatsu no mondai wa honshitsuteki ni onaji da.",
+            "german": "Diese beiden Probleme sind im Grunde gleich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "本質的に heißt „im Wesen, im Grunde genommen“ und bezieht sich auf das eigentliche Wesen (本質) einer Sache, unabhängig von äußeren Unterschieden: 本質的に同じ, 本質的に異なる, 本質的な問題 „das eigentliche Problem“. Gegenstück ist 表面的に „oberflächlich“. Es klingt sachlich bis akademisch; von 根本的に unterscheidet es sich darin, dass es das Wesen beschreibt, nicht das Ausmaß einer Änderung.",
+        "examples": [
+          {
+            "japanese": "この二つの問題は本質的に同じだ。",
+            "romaji": "Kono futatsu no mondai wa honshitsuteki ni onaji da.",
+            "german": "Diese beiden Probleme sind im Grunde gleich."
+          },
+          {
+            "japanese": "人間は本質的に社会的な生き物だ。",
+            "romaji": "Ningen wa honshitsuteki ni shakaiteki na ikimono da.",
+            "german": "Der Mensch ist seinem Wesen nach ein soziales Lebewesen."
+          },
+          {
+            "japanese": "彼の提案は本質的な問題を解決していない。",
+            "romaji": "Kare no teian wa honshitsuteki na mondai o kaiketsu shite inai.",
+            "german": "Sein Vorschlag löst das eigentliche Problem nicht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1822900 sense 1, na-adjective (adverbial form with に): essential, intrinsic → essentially Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 本質的に heißt „im Wesen, im Grunde genommen“ und bezieht sich auf das eigentliche Wesen (本質) einer Sache, unabhängig von äußeren Unterschieden: 本質的に同じ, 本質的に異なる, 本質的な問題 „das eigentliche Problem“. Gegenstück ist 表面的に „oberflächlich“. Es klingt sachlich bis akademisch; von 根本的に unterscheidet es sich darin, dass es das Wesen beschreibt, nicht das Ausmaß einer Änderung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1822900; spelling=本質的に; reading=ほんしつてきに",
+          "finding": "JMdict 1822900 sense 1, na-adjective (adverbial form with に): essential, intrinsic → essentially"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 本質的に/ほんしつてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%9C%AC%E8%B3%AA%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 本質的に/ほんしつてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "wesentlich; im Grunde. JMdict 1822900 sense 1, na-adjective (adverbial form with に): essential, intrinsic → essentially",
+        "japanese": "この二つの問題は本質的に同じだ。 / 人間は本質的に社会的な生き物だ。 / 彼の提案は本質的な問題を解決していない。",
+        "romanization": "honshitsuteki ni; Kono futatsu no mondai wa honshitsuteki ni onaji da. / Ningen wa honshitsuteki ni shakaiteki na ikimono da. / Kare no teian wa honshitsuteki na mondai o kaiketsu shite inai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese beiden Probleme sind im Grunde gleich. / Der Mensch ist seinem Wesen nach ein soziales Lebewesen. / Sein Vorschlag löst das eigentliche Problem nicht.",
+        "contexts": [
+          "Comparing two problems",
+          "Philosophy of human nature",
+          "Critiquing a proposal"
+        ],
+        "lexical": "JMdict 1822900 sense 1, na-adjective (adverbial form with に): essential, intrinsic → essentially",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 本質的な / adverbial 本質的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1274 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Comparing two problems; Philosophy of human nature; Critiquing a proposal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f37716233b40bd223f13556109acb8f6fe557ed5113e0108a1d770da48f89cac",
+        "approvalHash": "1916bf000ddeb259c7e9eef366dc341084edd45df771f672967433f07324b290"
+      }
+    },
+    {
+      "id": "vocab-n2:1275",
+      "revisionId": "197c-n2-enrichment-vocab-n2-1275",
+      "state": "accepted",
+      "predecessorHash": "329096c338cbc581ee8e5afcf29d0b75e05e154be1712352e5835a1484a81170",
+      "originalHash": "329096c338cbc581ee8e5afcf29d0b75e05e154be1712352e5835a1484a81170",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "表面的にしか理解していない。",
+            "romaji": "Hyōmenteki ni shika rikai shite inai.",
+            "german": "Ich verstehe es nur oberflächlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "表面的に heißt „oberflächlich, nur dem äußeren Anschein nach“: 表面的に理解する, 表面的には仲がいい „nach außen hin verstehen sie sich gut“. Oft steht es mit は oder しか und deutet an, dass es darunter anders aussieht. Gegenstück ist 本質的に bzw. 深く. Bedeutungsnah, aber umgangssprachlicher und abwertender ist うわべだけ.",
+        "examples": [
+          {
+            "japanese": "表面的にしか理解していない。",
+            "romaji": "Hyōmenteki ni shika rikai shite inai.",
+            "german": "Ich verstehe es nur oberflächlich."
+          },
+          {
+            "japanese": "あの二人は表面的には仲が良さそうに見える。",
+            "romaji": "Ano futari wa hyōmenteki ni wa naka ga yosasō ni mieru.",
+            "german": "Nach außen hin scheinen die beiden sich gut zu verstehen."
+          },
+          {
+            "japanese": "表面的な対策だけでは、事故は防げない。",
+            "romaji": "Hyōmenteki na taisaku dake de wa, jiko wa fusegenai.",
+            "german": "Mit bloß oberflächlichen Maßnahmen lassen sich Unfälle nicht verhindern."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1489920 sense 1, na-adjective (adverbial form with に): superficial, apparent, on the surface Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 表面的に heißt „oberflächlich, nur dem äußeren Anschein nach“: 表面的に理解する, 表面的には仲がいい „nach außen hin verstehen sie sich gut“. Oft steht es mit は oder しか und deutet an, dass es darunter anders aussieht. Gegenstück ist 本質的に bzw. 深く. Bedeutungsnah, aber umgangssprachlicher und abwertender ist うわべだけ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1489920; spelling=表面的に; reading=ひょうめんてきに",
+          "finding": "JMdict 1489920 sense 1, na-adjective (adverbial form with に): superficial, apparent, on the surface"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 表面的に/ひょうめんてきに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A1%A8%E9%9D%A2%E7%9A%84%E3%81%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 表面的に/ひょうめんてきに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "reviewedDistinctContexts": true,
+        "meaning": "oberflächlich. JMdict 1489920 sense 1, na-adjective (adverbial form with に): superficial, apparent, on the surface",
+        "japanese": "表面的にしか理解していない。 / あの二人は表面的には仲が良さそうに見える。 / 表面的な対策だけでは、事故は防げない。",
+        "romanization": "hyōmenteki ni; Hyōmenteki ni shika rikai shite inai. / Ano futari wa hyōmenteki ni wa naka ga yosasō ni mieru. / Hyōmenteki na taisaku dake de wa, jiko wa fusegenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich verstehe es nur oberflächlich. / Nach außen hin scheinen die beiden sich gut zu verstehen. / Mit bloß oberflächlichen Maßnahmen lassen sich Unfälle nicht verhindern.",
+        "contexts": [
+          "Admitting shallow understanding",
+          "Hidden tension between people",
+          "Safety policy criticism"
+        ],
+        "lexical": "JMdict 1489920 sense 1, na-adjective (adverbial form with に): superficial, apparent, on the surface",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (na-adjective 表面的な / adverbial 表面的に)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-197",
+        "finding": "Author reread the exact final card vocab-n2:1275 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Admitting shallow understanding; Hidden tension between people; Safety policy criticism), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9e95afdc9486f1e381fd9e727fd943f37f404130c5e76c254c73968f22d22ed5",
+        "approvalHash": "12e2ab3e5a18a149dfb29318e4709cf155d4c053db94722b740d4839d63f1813"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

@@ -1,0 +1,3829 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:1071",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1071",
+      "state": "accepted",
+      "predecessorHash": "9861f3dcb787295e19fdc9b4230faa8d6d8f280117f1edea3d872651685ba1c4",
+      "originalHash": "9861f3dcb787295e19fdc9b4230faa8d6d8f280117f1edea3d872651685ba1c4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高速道路が渋滞していたので一般道を走った。",
+            "romaji": "Kōsoku dōro ga jūtai shite ita node ippandō o hashitta.",
+            "german": "Da die Autobahn verstopft war, nahmen wir die Landstraße."
+          }
+        ],
+        "meaning": "Landstraße, normale Straße",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "一般道 (kurz für 一般道路) bezeichnet jede normale, mautfreie Straße im Gegensatz zum 高速道路 „Autobahn“. Es ist also nicht nur die „Landstraße“ außerorts, sondern schließt auch Stadtstraßen ein. Typisch: 一般道を走る, 一般道で行く, 高速を降りて一般道に入る. Das Wort begegnet oft in Navigationsgeräten, Verkehrsmeldungen und bei der Routenplanung.",
+        "examples": [
+          {
+            "japanese": "高速道路が渋滞していたので一般道を走った。",
+            "romaji": "Kōsoku dōro ga jūtai shite ita node ippandō o hashitta.",
+            "german": "Da die Autobahn verstopft war, nahmen wir die Landstraße."
+          },
+          {
+            "japanese": "高速を降りて、一般道で一時間ほど走った。",
+            "romaji": "Kōsoku o orite, ippandō de ichijikan hodo hashitta.",
+            "german": "Wir fuhren von der Autobahn ab und noch etwa eine Stunde auf normalen Straßen weiter."
+          },
+          {
+            "japanese": "一般道を使えば料金はかからないが、時間は倍かかる。",
+            "romaji": "Ippandō o tsukaeba ryōkin wa kakaranai ga, jikan wa bai kakaru.",
+            "german": "Auf normalen Straßen zahlt man keine Maut, braucht aber doppelt so lange."
+          }
+        ],
+        "meaning": "normale Straße, mautfreie Straße",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2710860 sense 1, noun: ordinary road, local street, non-toll road Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 一般道 (kurz für 一般道路) bezeichnet jede normale, mautfreie Straße im Gegensatz zum 高速道路 „Autobahn“. Es ist also nicht nur die „Landstraße“ außerorts, sondern schließt auch Stadtstraßen ein. Typisch: 一般道を走る, 一般道で行く, 高速を降りて一般道に入る. Das Wort begegnet oft in Navigationsgeräten, Verkehrsmeldungen und bei der Routenplanung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2710860; spelling=一般道; reading=いっぱんどう",
+          "selected": {
+            "sequence": "2710860",
+            "spelling": "一般道",
+            "reading": "いっぱんどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ordinary road",
+                  "local street",
+                  "non-toll road"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2710860 sense 1, noun: ordinary road, local street, non-toll road"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 一般道/いっぱんどう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%80%E8%88%AC%E9%81%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 一般道/いっぱんどう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "normale Straße, mautfreie Straße. JMdict 2710860 sense 1, noun: ordinary road, local street, non-toll road",
+        "japanese": "高速道路が渋滞していたので一般道を走った。 / 高速を降りて、一般道で一時間ほど走った。 / 一般道を使えば料金はかからないが、時間は倍かかる。",
+        "romanization": "ippandō; Kōsoku dōro ga jūtai shite ita node ippandō o hashitta. / Kōsoku o orite, ippandō de ichijikan hodo hashitta. / Ippandō o tsukaeba ryōkin wa kakaranai ga, jikan wa bai kakaru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Da die Autobahn verstopft war, nahmen wir die Landstraße. / Wir fuhren von der Autobahn ab und noch etwa eine Stunde auf normalen Straßen weiter. / Auf normalen Straßen zahlt man keine Maut, braucht aber doppelt so lange.",
+        "contexts": [
+          "Avoiding a motorway jam",
+          "Leaving the expressway",
+          "Toll versus travel time"
+        ],
+        "lexical": "JMdict 2710860 sense 1, noun: ordinary road, local street, non-toll road",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1071 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Avoiding a motorway jam; Leaving the expressway; Toll versus travel time), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f9ba514ded23b1cd2f44f361e7c23a9c3d5c43396e90838a70fd289d3a622519",
+        "approvalHash": "1171a2c3d923a3cc4680cadbda9f099586e8997a45ca5c1e1fbd221b550822f5"
+      }
+    },
+    {
+      "id": "vocab-n2:1072",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1072",
+      "state": "accepted",
+      "predecessorHash": "76d8ce57505a1b433788d31913b1c0a39c1bd00bbe2065a40ba96b2a773f277a",
+      "originalHash": "76d8ce57505a1b433788d31913b1c0a39c1bd00bbe2065a40ba96b2a773f277a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "国道一号線は東京から大阪まで続いている。",
+            "romaji": "Kokudō ichigōsen wa Tōkyō kara Ōsaka made tsuzuite iru.",
+            "german": "Die Nationalstraße Nr. 1 führt von Tokio bis Osaka."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "国道 ist eine vom Staat verwaltete „Nationalstraße“, vergleichbar mit einer deutschen Bundesstraße. Sie wird mit Nummer und 号線 genannt (国道1号線, oft kurz 1号). Anders als das 高速道路 ist sie mautfrei. Die Rangfolge lautet 国道 → 県道 (Präfektur) → 市道 (Stadt). Häufig ist 国道沿い „entlang der Nationalstraße“, etwa für Geschäfte und Restaurants.",
+        "examples": [
+          {
+            "japanese": "国道一号線は東京から大阪まで続いている。",
+            "romaji": "Kokudō ichigōsen wa Tōkyō kara Ōsaka made tsuzuite iru.",
+            "german": "Die Nationalstraße Nr. 1 führt von Tokio bis Osaka."
+          },
+          {
+            "japanese": "国道沿いには大きな店やファミレスが並んでいる。",
+            "romaji": "Kokudō zoi ni wa ōkina mise ya famiresu ga narande iru.",
+            "german": "Entlang der Nationalstraße reihen sich große Geschäfte und Familienrestaurants."
+          },
+          {
+            "japanese": "土砂崩れで国道が通行止めになっている。",
+            "romaji": "Dosha kuzure de kokudō ga tsūkōdome ni natte iru.",
+            "german": "Wegen eines Erdrutsches ist die Nationalstraße gesperrt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121463928",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 国道/コクドウ; lemma 国道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "国道",
+              "reading": "こくどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 国道/こくどう \"Nationalstraße, Bundesstraße\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1286920 sense 1, noun: national road, national highway Pitch: Verified [0] via exact UniDic row. 国道 ist eine vom Staat verwaltete „Nationalstraße“, vergleichbar mit einer deutschen Bundesstraße. Sie wird mit Nummer und 号線 genannt (国道1号線, oft kurz 1号). Anders als das 高速道路 ist sie mautfrei. Die Rangfolge lautet 国道 → 県道 (Präfektur) → 市道 (Stadt). Häufig ist 国道沿い „entlang der Nationalstraße“, etwa für Geschäfte und Restaurants. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1286920; spelling=国道; reading=こくどう",
+          "selected": {
+            "sequence": "1286920",
+            "spelling": "国道",
+            "reading": "こくどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "national road",
+                  "national highway"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1286920 sense 1, noun: national road, national highway"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 国道/コクドウ; lemma 国道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121463928",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 国道/コクドウ; lemma 国道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "国道",
+              "reading": "こくどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 国道/こくどう \"Nationalstraße, Bundesstraße\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nationalstraße, Bundesstraße. JMdict 1286920 sense 1, noun: national road, national highway",
+        "japanese": "国道一号線は東京から大阪まで続いている。 / 国道沿いには大きな店やファミレスが並んでいる。 / 土砂崩れで国道が通行止めになっている。",
+        "romanization": "kokudō; Kokudō ichigōsen wa Tōkyō kara Ōsaka made tsuzuite iru. / Kokudō zoi ni wa ōkina mise ya famiresu ga narande iru. / Dosha kuzure de kokudō ga tsūkōdome ni natte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Nationalstraße Nr. 1 führt von Tokio bis Osaka. / Entlang der Nationalstraße reihen sich große Geschäfte und Familienrestaurants. / Wegen eines Erdrutsches ist die Nationalstraße gesperrt.",
+        "contexts": [
+          "Route 1 across Japan",
+          "Roadside shops",
+          "Landslide closure"
+        ],
+        "lexical": "JMdict 1286920 sense 1, noun: national road, national highway",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1072 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Route 1 across Japan; Roadside shops; Landslide closure), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "48fe6b92875985839e61faf0bb397fac616796159e9ed78dd125c8dd943cf7c5",
+        "approvalHash": "583e707c932caa06f4237a28563fe610f8064f1cd5a45ea7a714169e1464bc62"
+      }
+    },
+    {
+      "id": "vocab-n2:1073",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1073",
+      "state": "accepted",
+      "predecessorHash": "5890045a243d5f49a0dfe0bebc53088cc1b8bf8c73685b6b9ea2bbbda128b10f",
+      "originalHash": "5890045a243d5f49a0dfe0bebc53088cc1b8bf8c73685b6b9ea2bbbda128b10f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "県道を通って目的地に向かった。",
+            "romaji": "Kendō o tōtte mokutekichi ni mukatta.",
+            "german": "Wir fuhren über die Präfekturstraße zum Ziel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "県道 ist eine von der Präfektur (県) verwaltete Straße, eine Stufe unter dem 国道 – etwa vergleichbar mit einer deutschen Landesstraße. In Tokio heißt sie 都道, in Hokkaido 道道, in Osaka und Kyoto 府道. Auf Schildern steht sie mit Nummer, z. B. 県道15号. Das Wort kommt vor allem in Wegbeschreibungen und Verkehrsmeldungen vor.",
+        "examples": [
+          {
+            "japanese": "県道を通って目的地に向かった。",
+            "romaji": "Kendō o tōtte mokutekichi ni mukatta.",
+            "german": "Wir fuhren über die Präfekturstraße zum Ziel."
+          },
+          {
+            "japanese": "この先の交差点を左に曲がると、県道に出ます。",
+            "romaji": "Kono saki no kōsaten o hidari ni magaru to, kendō ni demasu.",
+            "german": "Wenn Sie an der nächsten Kreuzung links abbiegen, kommen Sie auf die Präfekturstraße."
+          },
+          {
+            "japanese": "県道の工事が終わって、道がずいぶん広くなった。",
+            "romaji": "Kendō no kōji ga owatte, michi ga zuibun hiroku natta.",
+            "german": "Die Bauarbeiten an der Präfekturstraße sind fertig, und die Straße ist jetzt viel breiter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118905829",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 県道/ケンドウ; lemma 県道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "県道",
+              "reading": "けんどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 県道/けんどう \"Präfekturstraße\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1258900 sense 1, noun: prefectural road Pitch: Verified [0] via exact UniDic row. 県道 ist eine von der Präfektur (県) verwaltete Straße, eine Stufe unter dem 国道 – etwa vergleichbar mit einer deutschen Landesstraße. In Tokio heißt sie 都道, in Hokkaido 道道, in Osaka und Kyoto 府道. Auf Schildern steht sie mit Nummer, z. B. 県道15号. Das Wort kommt vor allem in Wegbeschreibungen und Verkehrsmeldungen vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1258900; spelling=県道; reading=けんどう",
+          "selected": {
+            "sequence": "1258900",
+            "spelling": "県道",
+            "reading": "けんどう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prefectural road"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1258900 sense 1, noun: prefectural road"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 県道/ケンドウ; lemma 県道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118905829",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 県道/ケンドウ; lemma 県道; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "県道",
+              "reading": "けんどう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 県道/けんどう \"Präfekturstraße\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Präfekturstraße. JMdict 1258900 sense 1, noun: prefectural road",
+        "japanese": "県道を通って目的地に向かった。 / この先の交差点を左に曲がると、県道に出ます。 / 県道の工事が終わって、道がずいぶん広くなった。",
+        "romanization": "kendō; Kendō o tōtte mokutekichi ni mukatta. / Kono saki no kōsaten o hidari ni magaru to, kendō ni demasu. / Kendō no kōji ga owatte, michi ga zuibun hiroku natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir fuhren über die Präfekturstraße zum Ziel. / Wenn Sie an der nächsten Kreuzung links abbiegen, kommen Sie auf die Präfekturstraße. / Die Bauarbeiten an der Präfekturstraße sind fertig, und die Straße ist jetzt viel breiter.",
+        "contexts": [
+          "Driving to a destination",
+          "Giving directions",
+          "Road widening finished"
+        ],
+        "lexical": "JMdict 1258900 sense 1, noun: prefectural road",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1073 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Driving to a destination; Giving directions; Road widening finished), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bfe95b8bd8a43c97bc048f3b9c0cd8b10c51783826f951500786bc1db3074709",
+        "approvalHash": "c7b3bbcce570c7faf9820af17d170456516ccd91190ae65020ee2fa25ef05f82"
+      }
+    },
+    {
+      "id": "vocab-n2:1075",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1075",
+      "state": "accepted",
+      "predecessorHash": "6edf11b4f526cbcdb70cc645acc1e9468c44cd483462b77350543355efa37cf1",
+      "originalHash": "6edf11b4f526cbcdb70cc645acc1e9468c44cd483462b77350543355efa37cf1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高速道路の料金所で通行料を払った。",
+            "romaji": "Kōsoku dōro no ryōkinjo de tsūkōryō o haratta.",
+            "german": "An der Mautstelle der Autobahn habe ich die Mautgebühr bezahlt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "料金所 ist die „Mautstelle“ an Autobahnen und mautpflichtigen Straßen, wo man das 通行料 bezahlt. Heute fährt man meist mit dem elektronischen ETC-System durch; dafür gibt es eigene ETCレーン neben den 一般レーン. Vor 料金所 bilden sich oft Staus (料金所付近で渋滞). Nicht verwechseln mit 料金 allein „Gebühr, Preis“.",
+        "examples": [
+          {
+            "japanese": "高速道路の料金所で通行料を払った。",
+            "romaji": "Kōsoku dōro no ryōkinjo de tsūkōryō o haratta.",
+            "german": "An der Mautstelle der Autobahn habe ich die Mautgebühr bezahlt."
+          },
+          {
+            "japanese": "料金所の手前で渋滞が五キロ続いている。",
+            "romaji": "Ryōkinjo no temae de jūtai ga go kiro tsuzuite iru.",
+            "german": "Vor der Mautstelle staut es sich auf fünf Kilometern."
+          },
+          {
+            "japanese": "ETCがあれば、料金所で止まらずに通過できる。",
+            "romaji": "ETC ga areba, ryōkinjo de tomarazu ni tsūka dekiru.",
+            "german": "Mit ETC kann man die Mautstelle ohne Anhalten passieren."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1554290 sense 1, noun: tollgate, tollbooth Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 料金所 ist die „Mautstelle“ an Autobahnen und mautpflichtigen Straßen, wo man das 通行料 bezahlt. Heute fährt man meist mit dem elektronischen ETC-System durch; dafür gibt es eigene ETCレーン neben den 一般レーン. Vor 料金所 bilden sich oft Staus (料金所付近で渋滞). Nicht verwechseln mit 料金 allein „Gebühr, Preis“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1554290; spelling=料金所; reading=りょうきんじょ",
+          "selected": {
+            "sequence": "1554290",
+            "spelling": "料金所",
+            "reading": "りょうきんじょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tollgate",
+                  "tollbooth",
+                  "tollhouse"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1554290 sense 1, noun: tollgate, tollbooth"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 料金所/りょうきんじょ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%96%99%E9%87%91%E6%89%80",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 料金所/りょうきんじょ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mautstelle. JMdict 1554290 sense 1, noun: tollgate, tollbooth",
+        "japanese": "高速道路の料金所で通行料を払った。 / 料金所の手前で渋滞が五キロ続いている。 / ETCがあれば、料金所で止まらずに通過できる。",
+        "romanization": "ryōkinjo; Kōsoku dōro no ryōkinjo de tsūkōryō o haratta. / Ryōkinjo no temae de jūtai ga go kiro tsuzuite iru. / ETC ga areba, ryōkinjo de tomarazu ni tsūka dekiru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "An der Mautstelle der Autobahn habe ich die Mautgebühr bezahlt. / Vor der Mautstelle staut es sich auf fünf Kilometern. / Mit ETC kann man die Mautstelle ohne Anhalten passieren.",
+        "contexts": [
+          "Paying the toll",
+          "Traffic report",
+          "Electronic toll collection"
+        ],
+        "lexical": "JMdict 1554290 sense 1, noun: tollgate, tollbooth",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1075 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Paying the toll; Traffic report; Electronic toll collection), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7f561f4798b3cb2b7e1771d50e21cf0071e73fd7ccbe3047c696c757af568785",
+        "approvalHash": "8c6e81faf51788992668ad8762ea74cf9007aae0105298b0829ac819a6d6c75c"
+      }
+    },
+    {
+      "id": "vocab-n2:1076",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1076",
+      "state": "accepted",
+      "predecessorHash": "cca924d4add1439a6e4fe87008db311aa9961ec161cbe8aa5a0cc4a01c1c7c8c",
+      "originalHash": "cca924d4add1439a6e4fe87008db311aa9961ec161cbe8aa5a0cc4a01c1c7c8c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "サービスエリアで休憩して食事をした。",
+            "romaji": "Sābisu eria de kyūkei shite shokuji o shita.",
+            "german": "Wir haben an der Raststätte eine Pause gemacht und gegessen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "サービスエリア (abgekürzt SA) ist eine große „Raststätte“ an japanischen Autobahnen mit Restaurants, Läden, Toiletten und oft einer Tankstelle. Kleinere Rastplätze heißen パーキングエリア (PA). Viele Raststätten verkaufen regionale Spezialitäten und sind selbst ein beliebtes Ausflugsziel. Typisch: サービスエリアで休憩する, サービスエリアに寄る.",
+        "examples": [
+          {
+            "japanese": "サービスエリアで休憩して食事をした。",
+            "romaji": "Sābisu eria de kyūkei shite shokuji o shita.",
+            "german": "Wir haben an der Raststätte eine Pause gemacht und gegessen."
+          },
+          {
+            "japanese": "次のサービスエリアでトイレに寄ろう。",
+            "romaji": "Tsugi no sābisu eria de toire ni yorō.",
+            "german": "Lass uns an der nächsten Raststätte kurz zur Toilette anhalten."
+          },
+          {
+            "japanese": "このサービスエリアは地元の名物が買えるので人気がある。",
+            "romaji": "Kono sābisu eria wa jimoto no meibutsu ga kaeru node ninki ga aru.",
+            "german": "Diese Raststätte ist beliebt, weil man dort regionale Spezialitäten kaufen kann."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1055020 sense 1, noun: service area, toll road rest stop Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). サービスエリア (abgekürzt SA) ist eine große „Raststätte“ an japanischen Autobahnen mit Restaurants, Läden, Toiletten und oft einer Tankstelle. Kleinere Rastplätze heißen パーキングエリア (PA). Viele Raststätten verkaufen regionale Spezialitäten und sind selbst ein beliebtes Ausflugsziel. Typisch: サービスエリアで休憩する, サービスエリアに寄る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1055020; spelling=サービスエリア; reading=サービスエリア",
+          "selected": {
+            "sequence": "1055020",
+            "spelling": "サービスエリア",
+            "reading": "サービスエリア",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "service area",
+                  "toll road rest stop",
+                  "rest area"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1055020 sense 1, noun: service area, toll road rest stop"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole サービスエリア/サービスエリア scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%E3%82%A8%E3%83%AA%E3%82%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole サービスエリア/サービスエリア scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Raststätte. JMdict 1055020 sense 1, noun: service area, toll road rest stop",
+        "japanese": "サービスエリアで休憩して食事をした。 / 次のサービスエリアでトイレに寄ろう。 / このサービスエリアは地元の名物が買えるので人気がある。",
+        "romanization": "sābisu eria; Sābisu eria de kyūkei shite shokuji o shita. / Tsugi no sābisu eria de toire ni yorō. / Kono sābisu eria wa jimoto no meibutsu ga kaeru node ninki ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben an der Raststätte eine Pause gemacht und gegessen. / Lass uns an der nächsten Raststätte kurz zur Toilette anhalten. / Diese Raststätte ist beliebt, weil man dort regionale Spezialitäten kaufen kann.",
+        "contexts": [
+          "Lunch break on a road trip",
+          "Toilet stop",
+          "Popular rest stop"
+        ],
+        "lexical": "JMdict 1055020 sense 1, noun: service area, toll road rest stop",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1076 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lunch break on a road trip; Toilet stop; Popular rest stop), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "51d901fbd1b996723f9c7dbbc6a3421fd158f8810b8410cb2d9222bd7e5ffa5c",
+        "approvalHash": "8f757646704260c3f59a4a265521362c3b03e66ca01beff3c6ef08b65ff66246"
+      }
+    },
+    {
+      "id": "vocab-n2:1077",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1077",
+      "state": "accepted",
+      "predecessorHash": "b5ded668b7b48f4172f148e99097e4396231d8a4b58e8ee073a9c062b5b1f330",
+      "originalHash": "b5ded668b7b48f4172f148e99097e4396231d8a4b58e8ee073a9c062b5b1f330",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自然との調和を大切にする生活を送りたい。",
+            "romaji": "Shizen to no chōwa o taisetsu ni suru seikatsu o okuritai.",
+            "german": "Ich möchte ein Leben im Einklang mit der Natur führen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "調和 bedeutet „Harmonie, Einklang“ zwischen verschiedenen Elementen: 自然との調和, 色の調和. Als intransitives する-Verb heißt AがBと調和する „mit B harmonieren, sich einfügen“. Sehr häufig ist 調和のとれた „ausgewogen, harmonisch“ (調和のとれた食事). Das Wort ist eher abstrakt und gehoben; für Eintracht in einer Gruppe sagt man eher 和 oder 協調.",
+        "examples": [
+          {
+            "japanese": "自然との調和を大切にする生活を送りたい。",
+            "romaji": "Shizen to no chōwa o taisetsu ni suru seikatsu o okuritai.",
+            "german": "Ich möchte ein Leben im Einklang mit der Natur führen."
+          },
+          {
+            "japanese": "この建物は周りの景色とよく調和している。",
+            "romaji": "Kono tatemono wa mawari no keshiki to yoku chōwa shite iru.",
+            "german": "Dieses Gebäude fügt sich gut in die umgebende Landschaft ein."
+          },
+          {
+            "japanese": "調和のとれた食事を心がけています。",
+            "romaji": "Chōwa no toreta shokuji o kokorogakete imasu.",
+            "german": "Ich achte auf eine ausgewogene Ernährung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170353847",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 調和/チョウワ; lemma 調和; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "調和",
+              "reading": "ちょうわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 調和/ちょうわ \"Harmonie, Einklang\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1429330 sense 1, noun / suru verb: harmony, accord Pitch: Verified [0] via exact UniDic row. 調和 bedeutet „Harmonie, Einklang“ zwischen verschiedenen Elementen: 自然との調和, 色の調和. Als intransitives する-Verb heißt AがBと調和する „mit B harmonieren, sich einfügen“. Sehr häufig ist 調和のとれた „ausgewogen, harmonisch“ (調和のとれた食事). Das Wort ist eher abstrakt und gehoben; für Eintracht in einer Gruppe sagt man eher 和 oder 協調. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1429330; spelling=調和; reading=ちょうわ",
+          "selected": {
+            "sequence": "1429330",
+            "spelling": "調和",
+            "reading": "ちょうわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "harmony",
+                  "accord",
+                  "reconciliation",
+                  "agreement"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1429330 sense 1, noun / suru verb: harmony, accord"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 調和/チョウワ; lemma 調和; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170353847",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 調和/チョウワ; lemma 調和; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "調和",
+              "reading": "ちょうわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 調和/ちょうわ \"Harmonie, Einklang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Harmonie, Einklang. JMdict 1429330 sense 1, noun / suru verb: harmony, accord",
+        "japanese": "自然との調和を大切にする生活を送りたい。 / この建物は周りの景色とよく調和している。 / 調和のとれた食事を心がけています。",
+        "romanization": "chōwa; Shizen to no chōwa o taisetsu ni suru seikatsu o okuritai. / Kono tatemono wa mawari no keshiki to yoku chōwa shite iru. / Chōwa no toreta shokuji o kokorogakete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich möchte ein Leben im Einklang mit der Natur führen. / Dieses Gebäude fügt sich gut in die umgebende Landschaft ein. / Ich achte auf eine ausgewogene Ernährung.",
+        "contexts": [
+          "Living with nature",
+          "Architecture and landscape",
+          "Balanced diet"
+        ],
+        "lexical": "JMdict 1429330 sense 1, noun / suru verb: harmony, accord",
+        "register": "neutral to formal",
+        "transitivity": "intransitive as 調和する (A が B と調和する)",
+        "conjugation": "noun; suru verb (調和する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1077 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Living with nature; Architecture and landscape; Balanced diet), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "12efeab655cb43e06281ec9c7da6787d6a45e114d8869c9a866a941c5f192c8f",
+        "approvalHash": "df2f0889409de856008f2851b9f0a21437ac64b22872a91aabcd998f07a86f69"
+      }
+    },
+    {
+      "id": "vocab-n2:1078",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1078",
+      "state": "accepted",
+      "predecessorHash": "b54a10f71f442d8e2af58abea9b55d76a4f88b97e7a4bcb27835404c4b4336fb",
+      "originalHash": "b54a10f71f442d8e2af58abea9b55d76a4f88b97e7a4bcb27835404c4b4336fb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "社会の秩序を守ることは重要だ。",
+            "romaji": "Shakai no chitsujo o mamoru koto wa jūyō da.",
+            "german": "Es ist wichtig, die gesellschaftliche Ordnung aufrechtzuerhalten."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "秩序 ist die „Ordnung“ eines Systems oder einer Gesellschaft: 社会の秩序, 秩序を守る/保つ/乱す, 秩序が回復する. Es ist formell und häufig in Politik und Nachrichten; 治安 meint dagegen speziell die öffentliche Sicherheit. Adverbial bedeutet 秩序正しく „geordnet, diszipliniert“. Für Ordnung im Zimmer sagt man nicht 秩序, sondern 片付いている oder 整理されている.",
+        "examples": [
+          {
+            "japanese": "社会の秩序を守ることは重要だ。",
+            "romaji": "Shakai no chitsujo o mamoru koto wa jūyō da.",
+            "german": "Es ist wichtig, die gesellschaftliche Ordnung aufrechtzuerhalten."
+          },
+          {
+            "japanese": "災害の後も、人々は秩序正しく列に並んでいた。",
+            "romaji": "Saigai no ato mo, hitobito wa chitsujo tadashiku retsu ni narande ita.",
+            "german": "Auch nach der Katastrophe standen die Menschen diszipliniert Schlange."
+          },
+          {
+            "japanese": "デモが暴力的になり、町の秩序が乱れた。",
+            "romaji": "Demo ga bōryokuteki ni nari, machi no chitsujo ga midareta.",
+            "german": "Die Demonstration wurde gewalttätig, und die Ordnung in der Stadt geriet aus den Fugen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169265538",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 秩序/チツジョ; lemma 秩序; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "秩序",
+              "reading": "ちつじょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 秩序/ちつじょ \"Ordnung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1422520 sense 1, noun: order, discipline, system Pitch: Verified [1,2] via exact UniDic row. 秩序 ist die „Ordnung“ eines Systems oder einer Gesellschaft: 社会の秩序, 秩序を守る/保つ/乱す, 秩序が回復する. Es ist formell und häufig in Politik und Nachrichten; 治安 meint dagegen speziell die öffentliche Sicherheit. Adverbial bedeutet 秩序正しく „geordnet, diszipliniert“. Für Ordnung im Zimmer sagt man nicht 秩序, sondern 片付いている oder 整理されている. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1422520; spelling=秩序; reading=ちつじょ",
+          "selected": {
+            "sequence": "1422520",
+            "spelling": "秩序",
+            "reading": "ちつじょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "order",
+                  "discipline",
+                  "regularity",
+                  "system",
+                  "method"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1422520 sense 1, noun: order, discipline, system"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row. Exact whole 秩序/チツジョ; lemma 秩序; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169265538",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 秩序/チツジョ; lemma 秩序; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "秩序",
+              "reading": "ちつじょ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 秩序/ちつじょ \"Ordnung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ordnung. JMdict 1422520 sense 1, noun: order, discipline, system",
+        "japanese": "社会の秩序を守ることは重要だ。 / 災害の後も、人々は秩序正しく列に並んでいた。 / デモが暴力的になり、町の秩序が乱れた。",
+        "romanization": "chitsujo; Shakai no chitsujo o mamoru koto wa jūyō da. / Saigai no ato mo, hitobito wa chitsujo tadashiku retsu ni narande ita. / Demo ga bōryokuteki ni nari, machi no chitsujo ga midareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, die gesellschaftliche Ordnung aufrechtzuerhalten. / Auch nach der Katastrophe standen die Menschen diszipliniert Schlange. / Die Demonstration wurde gewalttätig, und die Ordnung in der Stadt geriet aus den Fugen.",
+        "contexts": [
+          "Social stability",
+          "Orderly queue after a disaster",
+          "Unrest in the city"
+        ],
+        "lexical": "JMdict 1422520 sense 1, noun: order, discipline, system",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1078 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Social stability; Orderly queue after a disaster; Unrest in the city), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0fb3bf0cceabc8a1018774b42276d4c38302014bb9b644748ceb39de66022682",
+        "approvalHash": "18222f7b71cfaafe1adafe0a3a8a24d34473efbd0ffd074c90edfaebbbd15f71"
+      }
+    },
+    {
+      "id": "vocab-n2:1080",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1080",
+      "state": "accepted",
+      "predecessorHash": "8c977c6271d9f3842ffbc350d65a6e74a337638a623bb619c4bbd34d01d18c06",
+      "originalHash": "8c977c6271d9f3842ffbc350d65a6e74a337638a623bb619c4bbd34d01d18c06",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "全員の意見が一致した。",
+            "romaji": "Zen'in no iken ga icchi shita.",
+            "german": "Die Meinungen aller stimmten überein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "一致 bedeutet „Übereinstimmung“; als intransitives する-Verb: 意見が一致する, AがBと一致する, 指紋が一致する. Wichtige Wendungen sind 全員一致で „einstimmig“, 偶然の一致 „Zufall“ und 言行一致 „Wort und Tat stimmen überein“. Das Gegenteil ist 不一致 bzw. das Verb 食い違う. Das Wort ist neutral und reicht vom Alltag bis zu Nachrichten.",
+        "examples": [
+          {
+            "japanese": "全員の意見が一致した。",
+            "romaji": "Zen'in no iken ga icchi shita.",
+            "german": "Die Meinungen aller stimmten überein."
+          },
+          {
+            "japanese": "現場の指紋が容疑者のものと一致した。",
+            "romaji": "Genba no shimon ga yōgisha no mono to icchi shita.",
+            "german": "Die Fingerabdrücke vom Tatort stimmten mit denen des Verdächtigen überein."
+          },
+          {
+            "japanese": "同じ日に生まれたなんて、すごい偶然の一致だね。",
+            "romaji": "Onaji hi ni umareta nante, sugoi gūzen no icchi da ne.",
+            "german": "Am selben Tag geboren – was für ein Zufall!"
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56204278",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 一致/イッチ; lemma 一致; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "一致",
+              "reading": "いっち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 一致/いっち \"Übereinstimmung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1164740 sense 1, noun / suru verb: agreement, accord, coincidence, match Pitch: Verified [0] via exact UniDic row. 一致 bedeutet „Übereinstimmung“; als intransitives する-Verb: 意見が一致する, AがBと一致する, 指紋が一致する. Wichtige Wendungen sind 全員一致で „einstimmig“, 偶然の一致 „Zufall“ und 言行一致 „Wort und Tat stimmen überein“. Das Gegenteil ist 不一致 bzw. das Verb 食い違う. Das Wort ist neutral und reicht vom Alltag bis zu Nachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1164740; spelling=一致; reading=いっち",
+          "selected": {
+            "sequence": "1164740",
+            "spelling": "一致",
+            "reading": "いっち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "agreement",
+                  "accord",
+                  "correspondence",
+                  "consistency",
+                  "coincidence",
+                  "match"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "union",
+                  "unity",
+                  "cooperation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1164740 sense 1, noun / suru verb: agreement, accord, coincidence, match"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 一致/イッチ; lemma 一致; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56204278",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 一致/イッチ; lemma 一致; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "一致",
+              "reading": "いっち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 一致/いっち \"Übereinstimmung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Übereinstimmung. JMdict 1164740 sense 1, noun / suru verb: agreement, accord, coincidence, match",
+        "japanese": "全員の意見が一致した。 / 現場の指紋が容疑者のものと一致した。 / 同じ日に生まれたなんて、すごい偶然の一致だね。",
+        "romanization": "icchi; Zen'in no iken ga icchi shita. / Genba no shimon ga yōgisha no mono to icchi shita. / Onaji hi ni umareta nante, sugoi gūzen no icchi da ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Meinungen aller stimmten überein. / Die Fingerabdrücke vom Tatort stimmten mit denen des Verdächtigen überein. / Am selben Tag geboren – was für ein Zufall!",
+        "contexts": [
+          "Unanimous decision",
+          "Fingerprint match",
+          "Funny coincidence"
+        ],
+        "lexical": "JMdict 1164740 sense 1, noun / suru verb: agreement, accord, coincidence, match",
+        "register": "neutral",
+        "transitivity": "intransitive as 一致する (A が B と一致する)",
+        "conjugation": "noun; suru verb (一致する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1080 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Unanimous decision; Fingerprint match; Funny coincidence), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ded00c9e9946f5af689422d6b94033967bd7414f58076631bac5e675bc36f01f",
+        "approvalHash": "53cc0f2816facd6174a967f6fb29c80a2ac8ba055859a9a90e28a0cacaee1648"
+      }
+    },
+    {
+      "id": "vocab-n2:1081",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1081",
+      "state": "accepted",
+      "predecessorHash": "9652bfd0dbf17dd4d28a42c2c2cd1416aec74b6042e2cfb38ce1840fa5713382",
+      "originalHash": "9652bfd0dbf17dd4d28a42c2c2cd1416aec74b6042e2cfb38ce1840fa5713382",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "両者の見解に相違がある。",
+            "romaji": "Ryōsha no kenkai ni sōi ga aru.",
+            "german": "Zwischen den Ansichten beider Seiten bestehen Unterschiede."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "相違 bedeutet „Unterschied, Abweichung“ zwischen Ansichten, Angaben oder Tatsachen und ist formell: 意見の相違, 見解の相違, 事実と相違する. Feste Wendungen sind 〜に相違ない „zweifellos“ (schriftliche Variante von 違いない) und auf Formularen 上記の通り相違ありません „Obige Angaben sind korrekt“. Im Alltag sagt man 違い; 差異 betont eher messbare Differenzen.",
+        "examples": [
+          {
+            "japanese": "両者の見解に相違がある。",
+            "romaji": "Ryōsha no kenkai ni sōi ga aru.",
+            "german": "Zwischen den Ansichten beider Seiten bestehen Unterschiede."
+          },
+          {
+            "japanese": "申込書の内容に相違がないか、もう一度確認してください。",
+            "romaji": "Mōshikomisho no naiyō ni sōi ga nai ka, mō ichido kakunin shite kudasai.",
+            "german": "Bitte prüfen Sie noch einmal, ob die Angaben im Antrag stimmen."
+          },
+          {
+            "japanese": "彼の証言は事実と相違している。",
+            "romaji": "Kare no shōgen wa jijitsu to sōi shite iru.",
+            "german": "Seine Aussage weicht von den Tatsachen ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155096837",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 相違/ソウイ; lemma 相違; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "相違",
+              "reading": "そうい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 相違/そうい \"Unterschied, Abweichung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1400820 sense 1, noun / suru verb: difference, discrepancy Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 相違 bedeutet „Unterschied, Abweichung“ zwischen Ansichten, Angaben oder Tatsachen und ist formell: 意見の相違, 見解の相違, 事実と相違する. Feste Wendungen sind 〜に相違ない „zweifellos“ (schriftliche Variante von 違いない) und auf Formularen 上記の通り相違ありません „Obige Angaben sind korrekt“. Im Alltag sagt man 違い; 差異 betont eher messbare Differenzen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1400820; spelling=相違; reading=そうい",
+          "selected": {
+            "sequence": "1400820",
+            "spelling": "相違",
+            "reading": "そうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "difference",
+                  "discrepancy",
+                  "variation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1400820 sense 1, noun / suru verb: difference, discrepancy"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 相違/ソウイ; lemma 相違; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155096837",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 相違/ソウイ; lemma 相違; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "相違",
+              "reading": "そうい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 相違/そうい \"Unterschied, Abweichung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unterschied, Abweichung. JMdict 1400820 sense 1, noun / suru verb: difference, discrepancy",
+        "japanese": "両者の見解に相違がある。 / 申込書の内容に相違がないか、もう一度確認してください。 / 彼の証言は事実と相違している。",
+        "romanization": "sōi; Ryōsha no kenkai ni sōi ga aru. / Mōshikomisho no naiyō ni sōi ga nai ka, mō ichido kakunin shite kudasai. / Kare no shōgen wa jijitsu to sōi shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zwischen den Ansichten beider Seiten bestehen Unterschiede. / Bitte prüfen Sie noch einmal, ob die Angaben im Antrag stimmen. / Seine Aussage weicht von den Tatsachen ab.",
+        "contexts": [
+          "Differing opinions",
+          "Checking an application form",
+          "Testimony versus facts"
+        ],
+        "lexical": "JMdict 1400820 sense 1, noun / suru verb: difference, discrepancy",
+        "register": "written / formal",
+        "transitivity": "intransitive as 相違する (A が B と相違する)",
+        "conjugation": "noun; suru verb (相違する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1081 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Differing opinions; Checking an application form; Testimony versus facts), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "eab76b29a93d142b4b67ede28c95aa987c57078b6f0b8fad2572e5138badae72",
+        "approvalHash": "e0e47eaef0507c9dc8cc5572323f5f56d32de0b142719a5769e8b572ffe4b7b6"
+      }
+    },
+    {
+      "id": "vocab-n2:1082",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1082",
+      "state": "accepted",
+      "predecessorHash": "ba735242d8465c5666094496c3d4a6fa26cd812789f142907774aac5364a4f4b",
+      "originalHash": "ba735242d8465c5666094496c3d4a6fa26cd812789f142907774aac5364a4f4b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "文化的な差異を理解することが大切だ。",
+            "romaji": "Bunkateki na sai o rikai suru koto ga taisetsu da.",
+            "german": "Es ist wichtig, kulturelle Unterschiede zu verstehen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "差異 ist ein schriftsprachliches Wort für „Unterschied, Differenz“, besonders bei objektiv feststellbaren, oft messbaren Abweichungen: 〜の間に差異がある, 大きな差異は見られない, 文化的な差異. Im Alltag sagt man 違い oder 差. 相違 betont eher, dass Angaben oder Meinungen nicht übereinstimmen; für soziale Ungleichheit ist 格差 üblicher.",
+        "examples": [
+          {
+            "japanese": "文化的な差異を理解することが大切だ。",
+            "romaji": "Bunkateki na sai o rikai suru koto ga taisetsu da.",
+            "german": "Es ist wichtig, kulturelle Unterschiede zu verstehen."
+          },
+          {
+            "japanese": "二つのグループの結果に大きな差異は見られなかった。",
+            "romaji": "Futatsu no gurūpu no kekka ni ōkina sai wa mirarenakatta.",
+            "german": "Zwischen den Ergebnissen der beiden Gruppen zeigte sich kein großer Unterschied."
+          },
+          {
+            "japanese": "地域によって方言にはさまざまな差異がある。",
+            "romaji": "Chiiki ni yotte hōgen ni wa samazama na sai ga aru.",
+            "german": "Je nach Region gibt es bei den Dialekten verschiedene Unterschiede."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126887923",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 差異/サイ; lemma 差異; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "差異",
+              "reading": "さい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 差異/さい \"Differenz, Unterschied\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1291340 sense 1, noun: difference, disparity Pitch: Verified [1] via exact UniDic row. 差異 ist ein schriftsprachliches Wort für „Unterschied, Differenz“, besonders bei objektiv feststellbaren, oft messbaren Abweichungen: 〜の間に差異がある, 大きな差異は見られない, 文化的な差異. Im Alltag sagt man 違い oder 差. 相違 betont eher, dass Angaben oder Meinungen nicht übereinstimmen; für soziale Ungleichheit ist 格差 üblicher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1291340; spelling=差異; reading=さい",
+          "selected": {
+            "sequence": "1291340",
+            "spelling": "差異",
+            "reading": "さい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "difference",
+                  "disparity",
+                  "gap"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1291340 sense 1, noun: difference, disparity"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 差異/サイ; lemma 差異; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126887923",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 差異/サイ; lemma 差異; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "差異",
+              "reading": "さい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 差異/さい \"Differenz, Unterschied\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Differenz, Unterschied. JMdict 1291340 sense 1, noun: difference, disparity",
+        "japanese": "文化的な差異を理解することが大切だ。 / 二つのグループの結果に大きな差異は見られなかった。 / 地域によって方言にはさまざまな差異がある。",
+        "romanization": "sai; Bunkateki na sai o rikai suru koto ga taisetsu da. / Futatsu no gurūpu no kekka ni ōkina sai wa mirarenakatta. / Chiiki ni yotte hōgen ni wa samazama na sai ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, kulturelle Unterschiede zu verstehen. / Zwischen den Ergebnissen der beiden Gruppen zeigte sich kein großer Unterschied. / Je nach Region gibt es bei den Dialekten verschiedene Unterschiede.",
+        "contexts": [
+          "Cultural understanding",
+          "Research results",
+          "Regional dialects"
+        ],
+        "lexical": "JMdict 1291340 sense 1, noun: difference, disparity",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1082 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cultural understanding; Research results; Regional dialects), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dc68fe50919b6a1eae3e8e953d29671590322b1860fe06a823108073600f9727",
+        "approvalHash": "1d61f22b2ae158bbb0a90221863d588ed4ae3d9677be93dce658b9cd3bfcbec3"
+      }
+    },
+    {
+      "id": "vocab-n2:1083",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1083",
+      "state": "accepted",
+      "predecessorHash": "1571b0f13cdbcbcd73a24c255cca3c65af83da9d8ce472b02450d8cfa85bfd61",
+      "originalHash": "1571b0f13cdbcbcd73a24c255cca3c65af83da9d8ce472b02450d8cfa85bfd61",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この二つの事件には類似点が多い。",
+            "romaji": "Kono futatsu no jiken ni wa ruijiten ga ōi.",
+            "german": "Diese beiden Fälle weisen viele Ähnlichkeiten auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "類似 bedeutet „Ähnlichkeit“; als する-Verb steht AがBに類似する, attributiv oft 類似した oder 類似の. Häufige Zusammensetzungen sind 類似点 „Gemeinsamkeit“ und 類似品 „ähnliches Produkt, Nachahmung“. Das Wort ist formell und typisch in Berichten, Recht und Produkthinweisen (類似品にご注意ください); im Alltag sagt man 似ている.",
+        "examples": [
+          {
+            "japanese": "この二つの事件には類似点が多い。",
+            "romaji": "Kono futatsu no jiken ni wa ruijiten ga ōi.",
+            "german": "Diese beiden Fälle weisen viele Ähnlichkeiten auf."
+          },
+          {
+            "japanese": "類似品にご注意ください。",
+            "romaji": "Ruijihin ni go-chūi kudasai.",
+            "german": "Bitte achten Sie auf Nachahmerprodukte."
+          },
+          {
+            "japanese": "他社の商品に類似したデザインが問題になった。",
+            "romaji": "Tasha no shōhin ni ruiji shita dezain ga mondai ni natta.",
+            "german": "Ein Design, das dem Produkt eines Konkurrenten ähnelte, sorgte für Ärger."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279355042",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 類似/ルイジ; lemma 類似; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "類似",
+              "reading": "るいじ",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 類似/るいじ \"Ähnlichkeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1556100 sense 1, noun / suru verb: resemblance, similarity Pitch: Verified [0] via exact UniDic row. 類似 bedeutet „Ähnlichkeit“; als する-Verb steht AがBに類似する, attributiv oft 類似した oder 類似の. Häufige Zusammensetzungen sind 類似点 „Gemeinsamkeit“ und 類似品 „ähnliches Produkt, Nachahmung“. Das Wort ist formell und typisch in Berichten, Recht und Produkthinweisen (類似品にご注意ください); im Alltag sagt man 似ている. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1556100; spelling=類似; reading=るいじ",
+          "selected": {
+            "sequence": "1556100",
+            "spelling": "類似",
+            "reading": "るいじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "resemblance",
+                  "similarity",
+                  "likeness",
+                  "analogy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1556100 sense 1, noun / suru verb: resemblance, similarity"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 類似/ルイジ; lemma 類似; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@279355042",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 類似/ルイジ; lemma 類似; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "類似",
+              "reading": "るいじ",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 類似/るいじ \"Ähnlichkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ähnlichkeit. JMdict 1556100 sense 1, noun / suru verb: resemblance, similarity",
+        "japanese": "この二つの事件には類似点が多い。 / 類似品にご注意ください。 / 他社の商品に類似したデザインが問題になった。",
+        "romanization": "ruiji; Kono futatsu no jiken ni wa ruijiten ga ōi. / Ruijihin ni go-chūi kudasai. / Tasha no shōhin ni ruiji shita dezain ga mondai ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese beiden Fälle weisen viele Ähnlichkeiten auf. / Bitte achten Sie auf Nachahmerprodukte. / Ein Design, das dem Produkt eines Konkurrenten ähnelte, sorgte für Ärger.",
+        "contexts": [
+          "Comparing two cases",
+          "Warning about imitations",
+          "Design dispute"
+        ],
+        "lexical": "JMdict 1556100 sense 1, noun / suru verb: resemblance, similarity",
+        "register": "formal",
+        "transitivity": "intransitive as 類似する (A が B に類似する)",
+        "conjugation": "noun; suru verb (類似する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1083 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Comparing two cases; Warning about imitations; Design dispute), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c5264ca2a0e04fa1eb3b47c16549e0543dc0eba7d42914e6eb59ca0d65bb23a9",
+        "approvalHash": "4b161255ab570e15f8aaa4d101b1812a1a965fdb893146de7deb3fca8bf72e10"
+      }
+    },
+    {
+      "id": "vocab-n2:1084",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1084",
+      "state": "accepted",
+      "predecessorHash": "bb746c6702aafc670575d7b4555a20de03ba295b2865e012bfd5852c4d656934",
+      "originalHash": "bb746c6702aafc670575d7b4555a20de03ba295b2865e012bfd5852c4d656934",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この二つの事件に関連があるか調べている。",
+            "romaji": "Kono futatsu no jiken ni kanren ga aru ka shirabete iru.",
+            "german": "Es wird untersucht, ob ein Zusammenhang zwischen den beiden Fällen besteht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "関連 bezeichnet einen sachlichen „Zusammenhang, Bezug“: AとBの関連, Xに関連がある. Als する-Verb heißt Xに関連する „mit X zusammenhängen“, oft attributiv: 関連する資料. Sehr häufig als Vorderglied: 関連会社 „verbundenes Unternehmen“, 関連記事 „verwandte Artikel“, 関連商品. Das fast synonyme 関係 umfasst auch menschliche Beziehungen; 関連 ist sachlicher.",
+        "examples": [
+          {
+            "japanese": "この二つの事件に関連があるか調べている。",
+            "romaji": "Kono futatsu no jiken ni kanren ga aru ka shirabete iru.",
+            "german": "Es wird untersucht, ob ein Zusammenhang zwischen den beiden Fällen besteht."
+          },
+          {
+            "japanese": "環境問題に関連する本を何冊か読んだ。",
+            "romaji": "Kankyō mondai ni kanren suru hon o nansatsu ka yonda.",
+            "german": "Ich habe einige Bücher zum Thema Umweltprobleme gelesen."
+          },
+          {
+            "japanese": "この記事の下に関連記事が表示されます。",
+            "romaji": "Kono kiji no shita ni kanren kiji ga hyōji saremasu.",
+            "german": "Unter diesem Artikel werden verwandte Artikel angezeigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100991636",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 関連/カンレン; lemma 関連; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "関連",
+              "reading": "かんれん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 関連/かんれん \"Zusammenhang, Bezug\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1216060 sense 1, noun / suru verb: relation, connection, relevance Pitch: Verified [0] via exact UniDic row. 関連 bezeichnet einen sachlichen „Zusammenhang, Bezug“: AとBの関連, Xに関連がある. Als する-Verb heißt Xに関連する „mit X zusammenhängen“, oft attributiv: 関連する資料. Sehr häufig als Vorderglied: 関連会社 „verbundenes Unternehmen“, 関連記事 „verwandte Artikel“, 関連商品. Das fast synonyme 関係 umfasst auch menschliche Beziehungen; 関連 ist sachlicher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1216060; spelling=関連; reading=かんれん",
+          "selected": {
+            "sequence": "1216060",
+            "spelling": "関連",
+            "reading": "かんれん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "relation",
+                  "connection",
+                  "relevance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1216060 sense 1, noun / suru verb: relation, connection, relevance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 関連/カンレン; lemma 関連; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100991636",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 関連/カンレン; lemma 関連; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "関連",
+              "reading": "かんれん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 関連/かんれん \"Zusammenhang, Bezug\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zusammenhang, Bezug. JMdict 1216060 sense 1, noun / suru verb: relation, connection, relevance",
+        "japanese": "この二つの事件に関連があるか調べている。 / 環境問題に関連する本を何冊か読んだ。 / この記事の下に関連記事が表示されます。",
+        "romanization": "kanren; Kono futatsu no jiken ni kanren ga aru ka shirabete iru. / Kankyō mondai ni kanren suru hon o nansatsu ka yonda. / Kono kiji no shita ni kanren kiji ga hyōji saremasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es wird untersucht, ob ein Zusammenhang zwischen den beiden Fällen besteht. / Ich habe einige Bücher zum Thema Umweltprobleme gelesen. / Unter diesem Artikel werden verwandte Artikel angezeigt.",
+        "contexts": [
+          "Investigating two incidents",
+          "Reading up on a topic",
+          "Related articles online"
+        ],
+        "lexical": "JMdict 1216060 sense 1, noun / suru verb: relation, connection, relevance",
+        "register": "neutral to formal",
+        "transitivity": "intransitive as 関連する (X に関連する)",
+        "conjugation": "noun; suru verb (関連する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1084 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Investigating two incidents; Reading up on a topic; Related articles online), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3bc714bdd6af3ed01f83650b82bd8abf8b6037191d2074687dfc7d71b3bcffd7",
+        "approvalHash": "5ec616b36fa921e49da1381b185f118497d3df9966e81c1a748d2212d0d3e780"
+      }
+    },
+    {
+      "id": "vocab-n2:1085",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1085",
+      "state": "accepted",
+      "predecessorHash": "de0c77ee172740ad0fc90d77218a7706a19d2d4e171207f59591234baf6497f3",
+      "originalHash": "de0c77ee172740ad0fc90d77218a7706a19d2d4e171207f59591234baf6497f3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "喫煙と肺がんの因果関係が証明された。",
+            "romaji": "Kitsuen to haigan no inga kankei ga shōmei sareta.",
+            "german": "Der Kausalzusammenhang zwischen Rauchen und Lungenkrebs wurde bewiesen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "因果 bedeutet „Ursache und Wirkung“ und kommt heute vor allem in 因果関係 „Kausalzusammenhang“ vor, etwa in Wissenschaft und Recht. Aus dem Buddhismus stammt die Bedeutung „Karma, Schicksal“, bekannt aus 因果応報 „Jede Tat findet ihren Lohn“. Als Adjektiv 因果な „unglückselig“ ist es altmodisch-literarisch. Allein steht 因果 selten; für einfache Gründe sagt man 原因 und 結果.",
+        "examples": [
+          {
+            "japanese": "喫煙と肺がんの因果関係が証明された。",
+            "romaji": "Kitsuen to haigan no inga kankei ga shōmei sareta.",
+            "german": "Der Kausalzusammenhang zwischen Rauchen und Lungenkrebs wurde bewiesen."
+          },
+          {
+            "japanese": "事故と道路の設計に因果関係があるかが裁判で争われた。",
+            "romaji": "Jiko to dōro no sekkei ni inga kankei ga aru ka ga saiban de arasowareta.",
+            "german": "Vor Gericht wurde darüber gestritten, ob zwischen dem Unfall und der Straßenplanung ein Kausalzusammenhang besteht."
+          },
+          {
+            "japanese": "人をだましてばかりいた彼が最後にだまされたのは、因果応報だ。",
+            "romaji": "Hito o damashite bakari ita kare ga saigo ni damasareta no wa, inga ōhō da.",
+            "german": "Dass er, der ständig andere betrogen hat, am Ende selbst betrogen wurde, ist ausgleichende Gerechtigkeit."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59249316",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 因果/インガ; lemma 因果; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "因果",
+              "reading": "いんが",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 因果/いんが \"Ursache und Wirkung, Kausalität\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1168680 senses 1–2, noun: cause and effect, causality; karma Pitch: Verified [1] via exact UniDic row. 因果 bedeutet „Ursache und Wirkung“ und kommt heute vor allem in 因果関係 „Kausalzusammenhang“ vor, etwa in Wissenschaft und Recht. Aus dem Buddhismus stammt die Bedeutung „Karma, Schicksal“, bekannt aus 因果応報 „Jede Tat findet ihren Lohn“. Als Adjektiv 因果な „unglückselig“ ist es altmodisch-literarisch. Allein steht 因果 selten; für einfache Gründe sagt man 原因 und 結果. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1168680; spelling=因果; reading=いんが",
+          "selected": {
+            "sequence": "1168680",
+            "spelling": "因果",
+            "reading": "いんが",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cause and effect",
+                  "causality"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "karma",
+                  "fate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "unfortunate",
+                  "unlucky",
+                  "ill-fated"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1168680 senses 1–2, noun: cause and effect, causality; karma"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 因果/インガ; lemma 因果; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59249316",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 因果/インガ; lemma 因果; 名詞/普通名詞/形状詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "因果",
+              "reading": "いんが",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 因果/いんが \"Ursache und Wirkung, Kausalität\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ursache und Wirkung, Kausalität. JMdict 1168680 senses 1–2, noun: cause and effect, causality; karma",
+        "japanese": "喫煙と肺がんの因果関係が証明された。 / 事故と道路の設計に因果関係があるかが裁判で争われた。 / 人をだましてばかりいた彼が最後にだまされたのは、因果応報だ。",
+        "romanization": "inga; Kitsuen to haigan no inga kankei ga shōmei sareta. / Jiko to dōro no sekkei ni inga kankei ga aru ka ga saiban de arasowareta. / Hito o damashite bakari ita kare ga saigo ni damasareta no wa, inga ōhō da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Kausalzusammenhang zwischen Rauchen und Lungenkrebs wurde bewiesen. / Vor Gericht wurde darüber gestritten, ob zwischen dem Unfall und der Straßenplanung ein Kausalzusammenhang besteht. / Dass er, der ständig andere betrogen hat, am Ende selbst betrogen wurde, ist ausgleichende Gerechtigkeit.",
+        "contexts": [
+          "Medical research",
+          "Court dispute",
+          "Karma for a swindler"
+        ],
+        "lexical": "JMdict 1168680 senses 1–2, noun: cause and effect, causality; karma",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1085 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Medical research; Court dispute; Karma for a swindler), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0293375871ab4445cccf27af6eec1eca80b0de1c2539c3ec7c30503a24936792",
+        "approvalHash": "9e2d55100b3454727ee023300c4d37298dbb95242124bb430ad1b9ecc2366530"
+      }
+    },
+    {
+      "id": "vocab-n2:1086",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1086",
+      "state": "accepted",
+      "predecessorHash": "72c994062e5471c6bd2c8bf5a92549c48f565423fa88639f9bd413bd0009a5ea",
+      "originalHash": "72c994062e5471c6bd2c8bf5a92549c48f565423fa88639f9bd413bd0009a5ea",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "気温と電力消費量の相関を調べた。",
+            "romaji": "Kion to denryoku shōhiryō no sōkan o shirabeta.",
+            "german": "Die Korrelation zwischen Temperatur und Stromverbrauch wurde untersucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "相関 bedeutet „Korrelation, Wechselbeziehung“ und ist ein Fachwort aus Statistik und Wissenschaft: AとBの相関, 相関がある/ない, 相関関係, 正の相関/負の相関. Als する-Verb (AとBが相関する) ist es seltener. Wichtig: 相関関係 ist nicht dasselbe wie 因果関係 „Kausalzusammenhang“ – ein häufiger Hinweis in Fachtexten.",
+        "examples": [
+          {
+            "japanese": "気温と電力消費量の相関を調べた。",
+            "romaji": "Kion to denryoku shōhiryō no sōkan o shirabeta.",
+            "german": "Die Korrelation zwischen Temperatur und Stromverbrauch wurde untersucht."
+          },
+          {
+            "japanese": "睡眠時間と成績には相関があることが分かった。",
+            "romaji": "Suimin jikan to seiseki ni wa sōkan ga aru koto ga wakatta.",
+            "german": "Es zeigte sich, dass Schlafdauer und Schulnoten miteinander korrelieren."
+          },
+          {
+            "japanese": "相関関係があっても、因果関係があるとは限らない。",
+            "romaji": "Sōkan kankei ga atte mo, inga kankei ga aru to wa kagiranai.",
+            "german": "Eine Korrelation bedeutet nicht unbedingt einen Kausalzusammenhang."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155133509",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 相関/ソウカン; lemma 相関; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "相関",
+              "reading": "そうかん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 相関/そうかん \"Korrelation, Wechselbeziehung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1400860 sense 1, noun / suru verb: correlation, interrelation Pitch: Verified [0] via exact UniDic row. 相関 bedeutet „Korrelation, Wechselbeziehung“ und ist ein Fachwort aus Statistik und Wissenschaft: AとBの相関, 相関がある/ない, 相関関係, 正の相関/負の相関. Als する-Verb (AとBが相関する) ist es seltener. Wichtig: 相関関係 ist nicht dasselbe wie 因果関係 „Kausalzusammenhang“ – ein häufiger Hinweis in Fachtexten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1400860; spelling=相関; reading=そうかん",
+          "selected": {
+            "sequence": "1400860",
+            "spelling": "相関",
+            "reading": "そうかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "correlation",
+                  "interrelation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1400860 sense 1, noun / suru verb: correlation, interrelation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 相関/ソウカン; lemma 相関; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155133509",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 相関/ソウカン; lemma 相関; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "相関",
+              "reading": "そうかん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 相関/そうかん \"Korrelation, Wechselbeziehung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Korrelation, Wechselbeziehung. JMdict 1400860 sense 1, noun / suru verb: correlation, interrelation",
+        "japanese": "気温と電力消費量の相関を調べた。 / 睡眠時間と成績には相関があることが分かった。 / 相関関係があっても、因果関係があるとは限らない。",
+        "romanization": "sōkan; Kion to denryoku shōhiryō no sōkan o shirabeta. / Suimin jikan to seiseki ni wa sōkan ga aru koto ga wakatta. / Sōkan kankei ga atte mo, inga kankei ga aru to wa kagiranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Korrelation zwischen Temperatur und Stromverbrauch wurde untersucht. / Es zeigte sich, dass Schlafdauer und Schulnoten miteinander korrelieren. / Eine Korrelation bedeutet nicht unbedingt einen Kausalzusammenhang.",
+        "contexts": [
+          "Energy consumption study",
+          "Sleep and grades",
+          "Statistics lecture"
+        ],
+        "lexical": "JMdict 1400860 sense 1, noun / suru verb: correlation, interrelation",
+        "register": "technical / formal",
+        "transitivity": "intransitive as 相関する (rare)",
+        "conjugation": "noun; suru verb (相関する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1086 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Energy consumption study; Sleep and grades; Statistics lecture), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5d7f11cdb1062a07a17fe7a3aba2f8326355587d1ec9ffa370123c1424c45e0e",
+        "approvalHash": "8e832d136b8c67ec2ecdd955e883c77df5b8342c4a14924c669c7c9a45b70bf2"
+      }
+    },
+    {
+      "id": "vocab-n2:1087",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1087",
+      "state": "accepted",
+      "predecessorHash": "9f2b53691f18db7f4db847bbfc479847ddfb0c9c9b7052a7d99e00bede2bafec",
+      "originalHash": "9f2b53691f18db7f4db847bbfc479847ddfb0c9c9b7052a7d99e00bede2bafec",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高齢者の社会的な孤立が問題になっている。",
+            "romaji": "Kōreisha no shakaiteki na koritsu ga mondai ni natte iru.",
+            "german": "Die soziale Isolation älterer Menschen wird zum Problem."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "孤立 bedeutet „Isolation“, also das Abgeschnittensein von anderen – sozial, politisch oder räumlich. Als intransitives する-Verb: クラスで孤立する, 国際的に孤立する, 大雪で村が孤立する. Häufig sind 社会的孤立 und 孤立感 „Gefühl der Isolation“. Abgrenzung: 孤独 ist das innere Gefühl der Einsamkeit, 孤立 die objektive Lage, keine Verbindung zu anderen zu haben.",
+        "examples": [
+          {
+            "japanese": "高齢者の社会的な孤立が問題になっている。",
+            "romaji": "Kōreisha no shakaiteki na koritsu ga mondai ni natte iru.",
+            "german": "Die soziale Isolation älterer Menschen wird zum Problem."
+          },
+          {
+            "japanese": "大雪で道路が使えなくなり、山の村が孤立した。",
+            "romaji": "Ōyuki de dōro ga tsukaenaku nari, yama no mura ga koritsu shita.",
+            "german": "Durch den starken Schneefall waren die Straßen unbenutzbar, und das Bergdorf war von der Außenwelt abgeschnitten."
+          },
+          {
+            "japanese": "転校したばかりで、クラスで孤立しないか心配だ。",
+            "romaji": "Tenkō shita bakari de, kurasu de koritsu shinai ka shinpai da.",
+            "german": "Ich habe gerade die Schule gewechselt und habe Angst, in der Klasse allein dazustehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125050725",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 孤立/コリツ; lemma 孤立; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "孤立",
+              "reading": "こりつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 孤立/こりつ \"Isolation, Vereinsamung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1266860 sense 1, noun / suru verb: isolation, being alone Pitch: Verified [0] via exact UniDic row. 孤立 bedeutet „Isolation“, also das Abgeschnittensein von anderen – sozial, politisch oder räumlich. Als intransitives する-Verb: クラスで孤立する, 国際的に孤立する, 大雪で村が孤立する. Häufig sind 社会的孤立 und 孤立感 „Gefühl der Isolation“. Abgrenzung: 孤独 ist das innere Gefühl der Einsamkeit, 孤立 die objektive Lage, keine Verbindung zu anderen zu haben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1266860; spelling=孤立; reading=こりつ",
+          "selected": {
+            "sequence": "1266860",
+            "spelling": "孤立",
+            "reading": "こりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "isolation",
+                  "being alone",
+                  "being friendless"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1266860 sense 1, noun / suru verb: isolation, being alone"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 孤立/コリツ; lemma 孤立; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125050725",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 孤立/コリツ; lemma 孤立; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "孤立",
+              "reading": "こりつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 孤立/こりつ \"Isolation, Vereinsamung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Isolation, Vereinsamung. JMdict 1266860 sense 1, noun / suru verb: isolation, being alone",
+        "japanese": "高齢者の社会的な孤立が問題になっている。 / 大雪で道路が使えなくなり、山の村が孤立した。 / 転校したばかりで、クラスで孤立しないか心配だ。",
+        "romanization": "koritsu; Kōreisha no shakaiteki na koritsu ga mondai ni natte iru. / Ōyuki de dōro ga tsukaenaku nari, yama no mura ga koritsu shita. / Tenkō shita bakari de, kurasu de koritsu shinai ka shinpai da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die soziale Isolation älterer Menschen wird zum Problem. / Durch den starken Schneefall waren die Straßen unbenutzbar, und das Bergdorf war von der Außenwelt abgeschnitten. / Ich habe gerade die Schule gewechselt und habe Angst, in der Klasse allein dazustehen.",
+        "contexts": [
+          "Isolation of the elderly",
+          "Village cut off by snow",
+          "New student's worries"
+        ],
+        "lexical": "JMdict 1266860 sense 1, noun / suru verb: isolation, being alone",
+        "register": "neutral to formal",
+        "transitivity": "intransitive as 孤立する; causative 孤立させる",
+        "conjugation": "noun; suru verb (孤立する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1087 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Isolation of the elderly; Village cut off by snow; New student's worries), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d9e9e65bc152634b04323d3789033077696ebbe7519c7b70445d5be6e3b408e9",
+        "approvalHash": "544f2b3f36b98b21e515091fb5dcb2b0d3934fb2a111b46083cabd27b03d5ffb"
+      }
+    },
+    {
+      "id": "vocab-n2:1088",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1088",
+      "state": "accepted",
+      "predecessorHash": "41fcd2882490a8dea4b911a28e44e9fa2b1f42fa32978a55e03eac9ba759cfaf",
+      "originalHash": "41fcd2882490a8dea4b911a28e44e9fa2b1f42fa32978a55e03eac9ba759cfaf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "被災地への連帯を示すために寄付をした。",
+            "romaji": "Hisaichi e no rentai o shimesu tame ni kifu o shita.",
+            "german": "Um Solidarität mit dem Katastrophengebiet zu zeigen, habe ich gespendet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "連帯 bedeutet „Solidarität“, das Zusammenstehen einer Gruppe: 連帯を示す, 連帯感 „Gemeinschaftsgefühl“, 〜と連帯する. Im Recht und Alltag wichtig sind 連帯責任 „gemeinsame Haftung, Kollektivverantwortung“ und 連帯保証人 „Mitbürge“, der etwa bei Mietverträgen verlangt wird. Das Wort ist formell; 団結 betont das Sich-Zusammenschließen, 協力 die praktische Zusammenarbeit.",
+        "examples": [
+          {
+            "japanese": "被災地への連帯を示すために寄付をした。",
+            "romaji": "Hisaichi e no rentai o shimesu tame ni kifu o shita.",
+            "german": "Um Solidarität mit dem Katastrophengebiet zu zeigen, habe ich gespendet."
+          },
+          {
+            "japanese": "一人のミスでもチーム全体の連帯責任になる。",
+            "romaji": "Hitori no misu demo chīmu zentai no rentai sekinin ni naru.",
+            "german": "Selbst der Fehler eines Einzelnen wird zur gemeinsamen Verantwortung des ganzen Teams."
+          },
+          {
+            "japanese": "部屋を借りるときに、連帯保証人が必要だと言われた。",
+            "romaji": "Heya o kariru toki ni, rentai hoshōnin ga hitsuyō da to iwareta.",
+            "german": "Als ich eine Wohnung mieten wollte, sagte man mir, ich bräuchte einen Mitbürgen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280096320",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 連帯/レンタイ; lemma 連帯; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "連帯",
+              "reading": "れんたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 連帯/れんたい \"Solidarität\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1559660 senses 1–2, noun / suru verb: solidarity; joint, collective (連帯責任) Pitch: Verified [0] via exact UniDic row. 連帯 bedeutet „Solidarität“, das Zusammenstehen einer Gruppe: 連帯を示す, 連帯感 „Gemeinschaftsgefühl“, 〜と連帯する. Im Recht und Alltag wichtig sind 連帯責任 „gemeinsame Haftung, Kollektivverantwortung“ und 連帯保証人 „Mitbürge“, der etwa bei Mietverträgen verlangt wird. Das Wort ist formell; 団結 betont das Sich-Zusammenschließen, 協力 die praktische Zusammenarbeit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1559660; spelling=連帯; reading=れんたい",
+          "selected": {
+            "sequence": "1559660",
+            "spelling": "連帯",
+            "reading": "れんたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "solidarity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun or verb acting prenominally"
+                ],
+                "misc": [],
+                "gloss": [
+                  "joint",
+                  "collective"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1559660 senses 1–2, noun / suru verb: solidarity; joint, collective (連帯責任)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 連帯/レンタイ; lemma 連帯; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280096320",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 連帯/レンタイ; lemma 連帯; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "連帯",
+              "reading": "れんたい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 連帯/れんたい \"Solidarität\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Solidarität. JMdict 1559660 senses 1–2, noun / suru verb: solidarity; joint, collective (連帯責任)",
+        "japanese": "被災地への連帯を示すために寄付をした。 / 一人のミスでもチーム全体の連帯責任になる。 / 部屋を借りるときに、連帯保証人が必要だと言われた。",
+        "romanization": "rentai; Hisaichi e no rentai o shimesu tame ni kifu o shita. / Hitori no misu demo chīmu zentai no rentai sekinin ni naru. / Heya o kariru toki ni, rentai hoshōnin ga hitsuyō da to iwareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Um Solidarität mit dem Katastrophengebiet zu zeigen, habe ich gespendet. / Selbst der Fehler eines Einzelnen wird zur gemeinsamen Verantwortung des ganzen Teams. / Als ich eine Wohnung mieten wollte, sagte man mir, ich bräuchte einen Mitbürgen.",
+        "contexts": [
+          "Donating to a disaster area",
+          "Team responsibility",
+          "Renting an apartment"
+        ],
+        "lexical": "JMdict 1559660 senses 1–2, noun / suru verb: solidarity; joint, collective (連帯責任)",
+        "register": "formal",
+        "transitivity": "intransitive as 連帯する (〜と連帯する)",
+        "conjugation": "noun; suru verb (連帯する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1088 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Donating to a disaster area; Team responsibility; Renting an apartment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "be570c697b5c4c531f0a22dbdeb00d8462870b99c7f7021090321bd967b4a992",
+        "approvalHash": "0661da35b835f3c9dae6eb0a896cf8ca1d58f69c8a9c65e9dc7bdf2add4848a6"
+      }
+    },
+    {
+      "id": "vocab-n2:1089",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1089",
+      "state": "accepted",
+      "predecessorHash": "408e2e51c10e26221c9af3713a744234d1c53ed80f4a2ead7b633908aeff0b73",
+      "originalHash": "408e2e51c10e26221c9af3713a744234d1c53ed80f4a2ead7b633908aeff0b73",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "国際的な協調が不可欠だ。",
+            "romaji": "Kokusaiteki na kyōchō ga fukaketsu da.",
+            "german": "Internationale Zusammenarbeit ist unverzichtbar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "協調 bedeutet „Kooperation, Abstimmung“ im Sinne gegenseitiger Rücksichtnahme, um Konflikte zu vermeiden: 国際協調, 労使協調, 他国と協調する. Im Berufsleben wichtig ist 協調性 „Teamfähigkeit“ (協調性がある/に欠ける). Gegenüber 協力 (konkretes Mithelfen) betont 協調 das harmonische Abstimmen von Interessen. Nicht verwechseln mit dem Homophon 強調 „Betonung“.",
+        "examples": [
+          {
+            "japanese": "国際的な協調が不可欠だ。",
+            "romaji": "Kokusaiteki na kyōchō ga fukaketsu da.",
+            "german": "Internationale Zusammenarbeit ist unverzichtbar."
+          },
+          {
+            "japanese": "彼は能力は高いが、協調性に欠ける。",
+            "romaji": "Kare wa nōryoku wa takai ga, kyōchōsei ni kakeru.",
+            "german": "Er ist sehr fähig, aber es fehlt ihm an Teamfähigkeit."
+          },
+          {
+            "japanese": "各国が協調して金利を引き下げた。",
+            "romaji": "Kakkoku ga kyōchō shite kinri o hikisageta.",
+            "german": "Die Länder senkten in gemeinsamer Abstimmung die Zinsen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106299554",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 協調/キョウチョウ; lemma 協調; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "協調",
+              "reading": "きょうちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 協調/きょうちょう \"Kooperation, Zusammenarbeit\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1235700 sense 1, noun / suru verb: cooperation, conciliation, coordination Pitch: Verified [0] via exact UniDic row. 協調 bedeutet „Kooperation, Abstimmung“ im Sinne gegenseitiger Rücksichtnahme, um Konflikte zu vermeiden: 国際協調, 労使協調, 他国と協調する. Im Berufsleben wichtig ist 協調性 „Teamfähigkeit“ (協調性がある/に欠ける). Gegenüber 協力 (konkretes Mithelfen) betont 協調 das harmonische Abstimmen von Interessen. Nicht verwechseln mit dem Homophon 強調 „Betonung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1235700; spelling=協調; reading=きょうちょう",
+          "selected": {
+            "sequence": "1235700",
+            "spelling": "協調",
+            "reading": "きょうちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cooperation",
+                  "conciliation",
+                  "harmony",
+                  "coordination"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1235700 sense 1, noun / suru verb: cooperation, conciliation, coordination"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 協調/キョウチョウ; lemma 協調; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106299554",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 協調/キョウチョウ; lemma 協調; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "協調",
+              "reading": "きょうちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 協調/きょうちょう \"Kooperation, Zusammenarbeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kooperation, Zusammenarbeit. JMdict 1235700 sense 1, noun / suru verb: cooperation, conciliation, coordination",
+        "japanese": "国際的な協調が不可欠だ。 / 彼は能力は高いが、協調性に欠ける。 / 各国が協調して金利を引き下げた。",
+        "romanization": "kyōchō; Kokusaiteki na kyōchō ga fukaketsu da. / Kare wa nōryoku wa takai ga, kyōchōsei ni kakeru. / Kakkoku ga kyōchō shite kinri o hikisageta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Internationale Zusammenarbeit ist unverzichtbar. / Er ist sehr fähig, aber es fehlt ihm an Teamfähigkeit. / Die Länder senkten in gemeinsamer Abstimmung die Zinsen.",
+        "contexts": [
+          "Global challenges",
+          "Performance review",
+          "Coordinated interest rate cut"
+        ],
+        "lexical": "JMdict 1235700 sense 1, noun / suru verb: cooperation, conciliation, coordination",
+        "register": "formal",
+        "transitivity": "intransitive as 協調する (〜と協調する)",
+        "conjugation": "noun; suru verb (協調する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1089 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Global challenges; Performance review; Coordinated interest rate cut), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "742e949c7ea5a62acfaa9d6576d6fe3a39ec24910251a737d84eca57bb63d65c",
+        "approvalHash": "3343fcf7687c2a6d1d2f7f82c80e0db5ac2303a7f5cbe81066c734551a28c9c9"
+      }
+    },
+    {
+      "id": "vocab-n2:1090",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1090",
+      "state": "accepted",
+      "predecessorHash": "2aab4193875b1d055d42af1e6579b631397ba580c8d49711d1b54383d7f8c783",
+      "originalHash": "2aab4193875b1d055d42af1e6579b631397ba580c8d49711d1b54383d7f8c783",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "多文化共生の社会を築いていきたい。",
+            "romaji": "Tabunka kyōsei no shakai o kizuite ikitai.",
+            "german": "Wir möchten eine Gesellschaft des multikulturellen Zusammenlebens aufbauen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "共生 bedeutet „Zusammenleben, Koexistenz“ und in der Biologie „Symbiose“. Typisch sind 自然との共生, 多文化共生 „multikulturelles Zusammenleben“ und AとBが共生する. Das Wort ist formell und häufig in Umwelt-, Integrations- und Politikdiskussionen. 共存 „Koexistenz“ betont eher das bloße Nebeneinander, 共生 das gegenseitige Miteinander. Nicht verwechseln mit dem Homophon 強制 „Zwang“.",
+        "examples": [
+          {
+            "japanese": "多文化共生の社会を築いていきたい。",
+            "romaji": "Tabunka kyōsei no shakai o kizuite ikitai.",
+            "german": "Wir möchten eine Gesellschaft des multikulturellen Zusammenlebens aufbauen."
+          },
+          {
+            "japanese": "クマノミとイソギンチャクは共生している。",
+            "romaji": "Kumanomi to isoginchaku wa kyōsei shite iru.",
+            "german": "Clownfische und Seeanemonen leben in Symbiose."
+          },
+          {
+            "japanese": "人間と野生動物が共生できる町づくりを考えよう。",
+            "romaji": "Ningen to yasei dōbutsu ga kyōsei dekiru machizukuri o kangaeyō.",
+            "german": "Lasst uns über eine Stadtplanung nachdenken, in der Menschen und Wildtiere zusammenleben können."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106262295",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 共生/キョウセイ; lemma 共生; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 共生/キョウセイ; lemma キョウセイ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "共生",
+              "reading": "きょうせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 共生/きょうせい \"Symbiose, Zusammenleben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1234650 senses 1–2, noun / suru verb: coexistence, living together; symbiosis Pitch: Verified [0] via exact UniDic row. 共生 bedeutet „Zusammenleben, Koexistenz“ und in der Biologie „Symbiose“. Typisch sind 自然との共生, 多文化共生 „multikulturelles Zusammenleben“ und AとBが共生する. Das Wort ist formell und häufig in Umwelt-, Integrations- und Politikdiskussionen. 共存 „Koexistenz“ betont eher das bloße Nebeneinander, 共生 das gegenseitige Miteinander. Nicht verwechseln mit dem Homophon 強制 „Zwang“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1234650; spelling=共生; reading=きょうせい",
+          "selected": {
+            "sequence": "1234650",
+            "spelling": "共生",
+            "reading": "きょうせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "coexistence",
+                  "living together"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "symbiosis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paragenesis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1234650 senses 1–2, noun / suru verb: coexistence, living together; symbiosis"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 共生/キョウセイ; lemma 共生; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 共生/キョウセイ; lemma キョウセイ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106262295",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 共生/キョウセイ; lemma 共生; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 共生/キョウセイ; lemma キョウセイ; 名詞/固有名詞/人名/一般; *; *; aType 1.",
+            "match": {
+              "word": "共生",
+              "reading": "きょうせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 共生/きょうせい \"Symbiose, Zusammenleben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Symbiose, Zusammenleben. JMdict 1234650 senses 1–2, noun / suru verb: coexistence, living together; symbiosis",
+        "japanese": "多文化共生の社会を築いていきたい。 / クマノミとイソギンチャクは共生している。 / 人間と野生動物が共生できる町づくりを考えよう。",
+        "romanization": "kyōsei; Tabunka kyōsei no shakai o kizuite ikitai. / Kumanomi to isoginchaku wa kyōsei shite iru. / Ningen to yasei dōbutsu ga kyōsei dekiru machizukuri o kangaeyō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir möchten eine Gesellschaft des multikulturellen Zusammenlebens aufbauen. / Clownfische und Seeanemonen leben in Symbiose. / Lasst uns über eine Stadtplanung nachdenken, in der Menschen und Wildtiere zusammenleben können.",
+        "contexts": [
+          "Multicultural society",
+          "Marine biology",
+          "Urban wildlife"
+        ],
+        "lexical": "JMdict 1234650 senses 1–2, noun / suru verb: coexistence, living together; symbiosis",
+        "register": "formal",
+        "transitivity": "intransitive as 共生する (A が B と共生する)",
+        "conjugation": "noun; suru verb (共生する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1090 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Multicultural society; Marine biology; Urban wildlife), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2659f0dca49cfdf57d556f5dce6fee653da8c01fa967cfaf8a762f6595b3414f",
+        "approvalHash": "e4c4c8129f9fbf93a90a6d27f3bf32ac84a884f269527cc680c0e15ce615cd87"
+      }
+    },
+    {
+      "id": "vocab-n2:1091",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1091",
+      "state": "accepted",
+      "predecessorHash": "1a8ae225049a187175ce1d22e11ad4eda491e0403759de2b190600db66adb16a",
+      "originalHash": "1a8ae225049a187175ce1d22e11ad4eda491e0403759de2b190600db66adb16a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "犯人の心理を分析する。",
+            "romaji": "Hannin no shinri o bunseki suru.",
+            "german": "Die Psyche des Täters analysieren."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "心理 bezeichnet die „seelische Verfassung, Denkweise“ einer Person oder Gruppe: 犯人の心理, 消費者心理, 群集心理 „Massenpsychologie“. Sehr häufig sind 心理的な „psychisch“ (心理的な負担) und 心理状態 „Gemütszustand“. Die Wissenschaft heißt 心理学; 心理 allein meint meist die Gemütslage, nicht das Fach. 精神 bezieht sich eher auf Geist und psychische Gesundheit.",
+        "examples": [
+          {
+            "japanese": "犯人の心理を分析する。",
+            "romaji": "Hannin no shinri o bunseki suru.",
+            "german": "Die Psyche des Täters analysieren."
+          },
+          {
+            "japanese": "安くなると買いたくなるのが消費者の心理だ。",
+            "romaji": "Yasuku naru to kaitaku naru no ga shōhisha no shinri da.",
+            "german": "Wenn etwas billiger wird, will man es kaufen – so funktioniert die Psychologie der Verbraucher."
+          },
+          {
+            "japanese": "試験の前は心理的なプレッシャーが大きい。",
+            "romaji": "Shiken no mae wa shinriteki na puresshā ga ōkii.",
+            "german": "Vor Prüfungen ist der psychische Druck groß."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143118004",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 心理/シンリ; lemma 心理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "心理",
+              "reading": "しんり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 心理/しんり \"Psyche; Psychologie\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1361000 sense 1, noun: state of mind, mentality, psychology Pitch: Verified [1] via exact UniDic row. 心理 bezeichnet die „seelische Verfassung, Denkweise“ einer Person oder Gruppe: 犯人の心理, 消費者心理, 群集心理 „Massenpsychologie“. Sehr häufig sind 心理的な „psychisch“ (心理的な負担) und 心理状態 „Gemütszustand“. Die Wissenschaft heißt 心理学; 心理 allein meint meist die Gemütslage, nicht das Fach. 精神 bezieht sich eher auf Geist und psychische Gesundheit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1361000; spelling=心理; reading=しんり",
+          "selected": {
+            "sequence": "1361000",
+            "spelling": "心理",
+            "reading": "しんり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "state of mind",
+                  "mentality",
+                  "psychology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1361000 sense 1, noun: state of mind, mentality, psychology"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 心理/シンリ; lemma 心理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143118004",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 心理/シンリ; lemma 心理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "心理",
+              "reading": "しんり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 心理/しんり \"Psyche; Psychologie\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Psyche; Psychologie. JMdict 1361000 sense 1, noun: state of mind, mentality, psychology",
+        "japanese": "犯人の心理を分析する。 / 安くなると買いたくなるのが消費者の心理だ。 / 試験の前は心理的なプレッシャーが大きい。",
+        "romanization": "shinri; Hannin no shinri o bunseki suru. / Yasuku naru to kaitaku naru no ga shōhisha no shinri da. / Shiken no mae wa shinriteki na puresshā ga ōkii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Psyche des Täters analysieren. / Wenn etwas billiger wird, will man es kaufen – so funktioniert die Psychologie der Verbraucher. / Vor Prüfungen ist der psychische Druck groß.",
+        "contexts": [
+          "Criminal profiling",
+          "Consumer behaviour",
+          "Exam stress"
+        ],
+        "lexical": "JMdict 1361000 sense 1, noun: state of mind, mentality, psychology",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1091 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Criminal profiling; Consumer behaviour; Exam stress), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3e26bd955660ab0debc78eae5679f1d21f8cff537db41b57dad569eb4f49c962",
+        "approvalHash": "0a233de383b27f75fb2ab930ebff34a51eb096b02f069c2530b6c17812f3b2f4"
+      }
+    },
+    {
+      "id": "vocab-n2:1092",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1092",
+      "state": "accepted",
+      "predecessorHash": "ce8670e3b8ee9f0b54b81a8aa5dee7eace1cba411c71a530e2ac637a75d8e243",
+      "originalHash": "ce8670e3b8ee9f0b54b81a8aa5dee7eace1cba411c71a530e2ac637a75d8e243",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大学で心理学を専攻している。",
+            "romaji": "Daigaku de shinrigaku o senkō shite iru.",
+            "german": "Ich studiere Psychologie an der Universität."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "心理学 ist die Wissenschaft „Psychologie“: 心理学を学ぶ/専攻する, 心理学者 „Psychologe“. Teilgebiete heißen etwa 社会心理学, 発達心理学 oder 臨床心理学. Zu unterscheiden sind 心理 (Psyche, Gemütslage einer Person) und 精神科 (Psychiatrie als medizinische Fachrichtung). Das Wort ist neutral bis akademisch.",
+        "examples": [
+          {
+            "japanese": "大学で心理学を専攻している。",
+            "romaji": "Daigaku de shinrigaku o senkō shite iru.",
+            "german": "Ich studiere Psychologie an der Universität."
+          },
+          {
+            "japanese": "心理学者によると、人は第一印象を数秒で決めるそうだ。",
+            "romaji": "Shinrigakusha ni yoru to, hito wa daiichi inshō o sūbyō de kimeru sō da.",
+            "german": "Laut Psychologen bildet man sich den ersten Eindruck innerhalb weniger Sekunden."
+          },
+          {
+            "japanese": "心理学の知識はマーケティングにも役立つ。",
+            "romaji": "Shinrigaku no chishiki wa māketingu ni mo yakudatsu.",
+            "german": "Psychologisches Wissen ist auch im Marketing nützlich."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1361010 sense 1, noun: psychology Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 心理学 ist die Wissenschaft „Psychologie“: 心理学を学ぶ/専攻する, 心理学者 „Psychologe“. Teilgebiete heißen etwa 社会心理学, 発達心理学 oder 臨床心理学. Zu unterscheiden sind 心理 (Psyche, Gemütslage einer Person) und 精神科 (Psychiatrie als medizinische Fachrichtung). Das Wort ist neutral bis akademisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1361010; spelling=心理学; reading=しんりがく",
+          "selected": {
+            "sequence": "1361010",
+            "spelling": "心理学",
+            "reading": "しんりがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "psychology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1361010 sense 1, noun: psychology"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 心理学/しんりがく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BF%83%E7%90%86%E5%AD%A6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 心理学/しんりがく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Psychologie. JMdict 1361010 sense 1, noun: psychology",
+        "japanese": "大学で心理学を専攻している。 / 心理学者によると、人は第一印象を数秒で決めるそうだ。 / 心理学の知識はマーケティングにも役立つ。",
+        "romanization": "shinrigaku; Daigaku de shinrigaku o senkō shite iru. / Shinrigakusha ni yoru to, hito wa daiichi inshō o sūbyō de kimeru sō da. / Shinrigaku no chishiki wa māketingu ni mo yakudatsu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich studiere Psychologie an der Universität. / Laut Psychologen bildet man sich den ersten Eindruck innerhalb weniger Sekunden. / Psychologisches Wissen ist auch im Marketing nützlich.",
+        "contexts": [
+          "University major",
+          "Expert view on first impressions",
+          "Applying knowledge at work"
+        ],
+        "lexical": "JMdict 1361010 sense 1, noun: psychology",
+        "register": "neutral / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1092 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (University major; Expert view on first impressions; Applying knowledge at work), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c02231d8c5b3c1da7b502e530141b054204467765dbe3b78e2c6afe8b2b83098",
+        "approvalHash": "25d5ecc2be8ad4b090ceb494c1cbc9eeddeef9934f8197e0131c0f744dd0f0f5"
+      }
+    },
+    {
+      "id": "vocab-n2:1093",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1093",
+      "state": "accepted",
+      "predecessorHash": "e4edbdee5bb1f6ade077d489884b12064ded399d416455da55987935ae225778",
+      "originalHash": "e4edbdee5bb1f6ade077d489884b12064ded399d416455da55987935ae225778",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "精神科の医師に相談した。",
+            "romaji": "Seishinka no ishi ni sōdan shita.",
+            "german": "Ich habe einen Psychiater konsultiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "精神科 ist die medizinische Fachrichtung bzw. Klinikabteilung „Psychiatrie“: 精神科に通う „in psychiatrischer Behandlung sein“, 精神科医 „Psychiater“, 精神科を受診する. Weil 精神科 für manche abschreckend klingt, nennen sich viele Praxen 心療内科 (Psychosomatik) oder メンタルクリニック. Zu unterscheiden von 心理学 (Wissenschaft) und カウンセラー (Berater ohne ärztliche Zulassung).",
+        "examples": [
+          {
+            "japanese": "精神科の医師に相談した。",
+            "romaji": "Seishinka no ishi ni sōdan shita.",
+            "german": "Ich habe einen Psychiater konsultiert."
+          },
+          {
+            "japanese": "眠れない日が続いたので、精神科を受診した。",
+            "romaji": "Nemurenai hi ga tsuzuita node, seishinka o jushin shita.",
+            "german": "Weil ich lange nicht schlafen konnte, ließ ich mich psychiatrisch untersuchen."
+          },
+          {
+            "japanese": "姉は大学病院の精神科で看護師として働いている。",
+            "romaji": "Ane wa daigaku byōin no seishinka de kangoshi to shite hataraite iru.",
+            "german": "Meine ältere Schwester arbeitet als Krankenpflegerin in der Psychiatrie einer Uniklinik."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1379990 sense 1, noun: psychiatry, psychiatric department Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 精神科 ist die medizinische Fachrichtung bzw. Klinikabteilung „Psychiatrie“: 精神科に通う „in psychiatrischer Behandlung sein“, 精神科医 „Psychiater“, 精神科を受診する. Weil 精神科 für manche abschreckend klingt, nennen sich viele Praxen 心療内科 (Psychosomatik) oder メンタルクリニック. Zu unterscheiden von 心理学 (Wissenschaft) und カウンセラー (Berater ohne ärztliche Zulassung). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1379990; spelling=精神科; reading=せいしんか",
+          "selected": {
+            "sequence": "1379990",
+            "spelling": "精神科",
+            "reading": "せいしんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "psychiatry",
+                  "psychiatric department"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1379990 sense 1, noun: psychiatry, psychiatric department"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 精神科/せいしんか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B2%BE%E7%A5%9E%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 精神科/せいしんか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Psychiatrie. JMdict 1379990 sense 1, noun: psychiatry, psychiatric department",
+        "japanese": "精神科の医師に相談した。 / 眠れない日が続いたので、精神科を受診した。 / 姉は大学病院の精神科で看護師として働いている。",
+        "romanization": "seishinka; Seishinka no ishi ni sōdan shita. / Nemurenai hi ga tsuzuita node, seishinka o jushin shita. / Ane wa daigaku byōin no seishinka de kangoshi to shite hataraite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen Psychiater konsultiert. / Weil ich lange nicht schlafen konnte, ließ ich mich psychiatrisch untersuchen. / Meine ältere Schwester arbeitet als Krankenpflegerin in der Psychiatrie einer Uniklinik.",
+        "contexts": [
+          "Consulting a doctor",
+          "Seeking help for insomnia",
+          "Sister's workplace"
+        ],
+        "lexical": "JMdict 1379990 sense 1, noun: psychiatry, psychiatric department",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1093 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Consulting a doctor; Seeking help for insomnia; Sister's workplace), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c2f53b74078478cb485c0b30c113b6e9f1aaca913e6e55a10d1234877c152cc5",
+        "approvalHash": "fe39e63d1e3f99c825484cbec91a8a62144888676fc63ff40037e406e1801d42"
+      }
+    },
+    {
+      "id": "vocab-n2:1094",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1094",
+      "state": "accepted",
+      "predecessorHash": "dbf347984e2ccece750105da596617009029867fc8b7e6008fc9da7aaef7b120",
+      "originalHash": "dbf347984e2ccece750105da596617009029867fc8b7e6008fc9da7aaef7b120",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鬱になって会社を休んでいる。",
+            "romaji": "Utsu ni natte kaisha o yasunde iru.",
+            "german": "Wegen Depression fehlt er bei der Arbeit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鬱 steht für „Depression, Niedergeschlagenheit“ und wird wegen des sehr komplexen Kanji meist in Kana geschrieben (うつ). Die medizinische Diagnose heißt うつ病 (鬱病); うつになる bedeutet „depressiv werden“, うつっぽい „etwas depressiv“. Im Alltag noch häufiger ist 憂鬱 „bedrückt, schwermütig“ (月曜日は憂鬱だ). Das Gegenstück 躁 steckt in 躁うつ病 „bipolare Störung“.",
+        "examples": [
+          {
+            "japanese": "鬱になって会社を休んでいる。",
+            "romaji": "Utsu ni natte kaisha o yasunde iru.",
+            "german": "Wegen Depression fehlt er bei der Arbeit."
+          },
+          {
+            "japanese": "仕事のストレスから鬱病になる人が増えている。",
+            "romaji": "Shigoto no sutoresu kara utsubyō ni naru hito ga fuete iru.",
+            "german": "Immer mehr Menschen erkranken durch Arbeitsstress an Depressionen."
+          },
+          {
+            "japanese": "冬は日が短いので、鬱っぽくなる人もいる。",
+            "romaji": "Fuyu wa hi ga mijikai node, utsuppoku naru hito mo iru.",
+            "german": "Weil die Tage im Winter kurz sind, werden manche Menschen etwas depressiv."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65671864",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 鬱/ウツ; lemma 鬱; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "鬱",
+              "reading": "うつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鬱/うつ \"Depression\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2036080 sense 1, noun: depression, low spirits Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 鬱 steht für „Depression, Niedergeschlagenheit“ und wird wegen des sehr komplexen Kanji meist in Kana geschrieben (うつ). Die medizinische Diagnose heißt うつ病 (鬱病); うつになる bedeutet „depressiv werden“, うつっぽい „etwas depressiv“. Im Alltag noch häufiger ist 憂鬱 „bedrückt, schwermütig“ (月曜日は憂鬱だ). Das Gegenstück 躁 steckt in 躁うつ病 „bipolare Störung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2036080; spelling=鬱; reading=うつ",
+          "selected": {
+            "sequence": "2036080",
+            "spelling": "鬱",
+            "reading": "うつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "depression",
+                  "low spirits"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "'taru' adjective",
+                  "adverb taking the 'to' particle"
+                ],
+                "misc": [
+                  "rare term"
+                ],
+                "gloss": [
+                  "luxuriant (of vegetation)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2036080 sense 1, noun: depression, low spirits"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 鬱/ウツ; lemma 鬱; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@65671864",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 鬱/ウツ; lemma 鬱; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "鬱",
+              "reading": "うつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鬱/うつ \"Depression\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Depression. JMdict 2036080 sense 1, noun: depression, low spirits",
+        "japanese": "鬱になって会社を休んでいる。 / 仕事のストレスから鬱病になる人が増えている。 / 冬は日が短いので、鬱っぽくなる人もいる。",
+        "romanization": "utsu; Utsu ni natte kaisha o yasunde iru. / Shigoto no sutoresu kara utsubyō ni naru hito ga fuete iru. / Fuyu wa hi ga mijikai node, utsuppoku naru hito mo iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen Depression fehlt er bei der Arbeit. / Immer mehr Menschen erkranken durch Arbeitsstress an Depressionen. / Weil die Tage im Winter kurz sind, werden manche Menschen etwas depressiv.",
+        "contexts": [
+          "Sick leave",
+          "Work stress statistics",
+          "Winter blues"
+        ],
+        "lexical": "JMdict 2036080 sense 1, noun: depression, low spirits",
+        "register": "neutral; usually written うつ",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1094 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sick leave; Work stress statistics; Winter blues), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a64f14f24c82e9ab20304d9f7f79bb14d246c2a3f0a3831656d42264debbb7c4",
+        "approvalHash": "b4e5f90f2eabe0e04360b710ff52384293465254e2dfe3c9c5de2a0b91349262"
+      }
+    },
+    {
+      "id": "vocab-n2:1095",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1095",
+      "state": "accepted",
+      "predecessorHash": "ca1c3a8103bc50f115edc9d68fde48eb6a1310f7493805d5c7908e8dce44dab1",
+      "originalHash": "ca1c3a8103bc50f115edc9d68fde48eb6a1310f7493805d5c7908e8dce44dab1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "責任の重圧に押しつぶされそうだ。",
+            "romaji": "Sekinin no jūatsu ni oshitsubusaresō da.",
+            "german": "Ich werde fast von der Last der Verantwortung erdrückt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "重圧 bedeutet schweren, vor allem psychischen „Druck, Last“, der auf jemandem liegt: 責任の重圧, 期待の重圧, 重圧に耐える, 重圧に負ける, 重圧がかかる. Es ist formeller und stärker als das im Alltag häufigere プレッシャー. Wörtlich „schwerer Druck“, wird es heute fast nur übertragen gebraucht, typisch in Sport- und Wirtschaftsberichten.",
+        "examples": [
+          {
+            "japanese": "責任の重圧に押しつぶされそうだ。",
+            "romaji": "Sekinin no jūatsu ni oshitsubusaresō da.",
+            "german": "Ich werde fast von der Last der Verantwortung erdrückt."
+          },
+          {
+            "japanese": "国民の期待という重圧の中で、彼は金メダルを取った。",
+            "romaji": "Kokumin no kitai to iu jūatsu no naka de, kare wa kinmedaru o totta.",
+            "german": "Unter dem enormen Erwartungsdruck der ganzen Nation gewann er die Goldmedaille."
+          },
+          {
+            "japanese": "新しい社長は会社を立て直すという重圧に耐えている。",
+            "romaji": "Atarashii shachō wa kaisha o tatenaosu to iu jūatsu ni taete iru.",
+            "german": "Der neue Geschäftsführer hält dem Druck stand, die Firma wieder auf Kurs zu bringen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144286219",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 重圧/ジュウアツ; lemma 重圧; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "重圧",
+              "reading": "じゅうあつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 重圧/じゅうあつ \"schwerer Druck; Last\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1335970 sense 1, noun: strong pressure, heavy pressure Pitch: Verified [0] via exact UniDic row. 重圧 bedeutet schweren, vor allem psychischen „Druck, Last“, der auf jemandem liegt: 責任の重圧, 期待の重圧, 重圧に耐える, 重圧に負ける, 重圧がかかる. Es ist formeller und stärker als das im Alltag häufigere プレッシャー. Wörtlich „schwerer Druck“, wird es heute fast nur übertragen gebraucht, typisch in Sport- und Wirtschaftsberichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1335970; spelling=重圧; reading=じゅうあつ",
+          "selected": {
+            "sequence": "1335970",
+            "spelling": "重圧",
+            "reading": "じゅうあつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "strong pressure",
+                  "heavy pressure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1335970 sense 1, noun: strong pressure, heavy pressure"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 重圧/ジュウアツ; lemma 重圧; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144286219",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 重圧/ジュウアツ; lemma 重圧; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "重圧",
+              "reading": "じゅうあつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 重圧/じゅうあつ \"schwerer Druck; Last\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "schwerer Druck; Last. JMdict 1335970 sense 1, noun: strong pressure, heavy pressure",
+        "japanese": "責任の重圧に押しつぶされそうだ。 / 国民の期待という重圧の中で、彼は金メダルを取った。 / 新しい社長は会社を立て直すという重圧に耐えている。",
+        "romanization": "jūatsu; Sekinin no jūatsu ni oshitsubusaresō da. / Kokumin no kitai to iu jūatsu no naka de, kare wa kinmedaru o totta. / Atarashii shachō wa kaisha o tatenaosu to iu jūatsu ni taete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich werde fast von der Last der Verantwortung erdrückt. / Unter dem enormen Erwartungsdruck der ganzen Nation gewann er die Goldmedaille. / Der neue Geschäftsführer hält dem Druck stand, die Firma wieder auf Kurs zu bringen.",
+        "contexts": [
+          "Overwhelmed by responsibility",
+          "Olympic expectations",
+          "Corporate turnaround"
+        ],
+        "lexical": "JMdict 1335970 sense 1, noun: strong pressure, heavy pressure",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1095 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Overwhelmed by responsibility; Olympic expectations; Corporate turnaround), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7474fa954be43cbafa55a7442c1ca7a7112a1f04b4657cafcbdff3690d7f1e93",
+        "approvalHash": "ea20697592b0492e9bea8d338a4c29f41a78921e3245d70597840bdd6d864805"
+      }
+    },
+    {
+      "id": "vocab-n2:1096",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1096",
+      "state": "accepted",
+      "predecessorHash": "6d23462585f639887bbbbdcfee9fcb78a78c7898d37e52e859166768d5530dbc",
+      "originalHash": "6d23462585f639887bbbbdcfee9fcb78a78c7898d37e52e859166768d5530dbc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "翻訳の依頼を受けた。",
+            "romaji": "Hon'yaku no irai o uketa.",
+            "german": "Ich habe einen Übersetzungsauftrag erhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "依頼 bedeutet „Bitte, Auftrag“: Man bittet jemanden offiziell, etwas zu erledigen. Muster: Person に Sache を依頼する, 依頼を受ける/断る, 依頼人 „Auftraggeber, Mandant“. Es ist formeller als 頼む und typisch in Geschäftskorrespondenz (ご依頼ありがとうございます). 要請 ist ein noch offizielleres Ersuchen, meist von Behörden; 注文 ist eine Warenbestellung.",
+        "examples": [
+          {
+            "japanese": "翻訳の依頼を受けた。",
+            "romaji": "Hon'yaku no irai o uketa.",
+            "german": "Ich habe einen Übersetzungsauftrag erhalten."
+          },
+          {
+            "japanese": "専門家に調査を依頼することにした。",
+            "romaji": "Senmonka ni chōsa o irai suru koto ni shita.",
+            "german": "Wir haben beschlossen, einen Fachmann mit der Untersuchung zu beauftragen."
+          },
+          {
+            "japanese": "申し訳ありませんが、今回のご依頼はお受けできません。",
+            "romaji": "Mōshiwake arimasen ga, konkai no go-irai wa o-uke dekimasen.",
+            "german": "Es tut uns leid, aber diesen Auftrag können wir diesmal nicht annehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58010326",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 依頼/イライ; lemma 依頼; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "依頼",
+              "reading": "いらい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 依頼/いらい \"Auftrag; Bitte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1155710 sense 1, noun / suru verb: request, commission, entrusting Pitch: Verified [0] via exact UniDic row. 依頼 bedeutet „Bitte, Auftrag“: Man bittet jemanden offiziell, etwas zu erledigen. Muster: Person に Sache を依頼する, 依頼を受ける/断る, 依頼人 „Auftraggeber, Mandant“. Es ist formeller als 頼む und typisch in Geschäftskorrespondenz (ご依頼ありがとうございます). 要請 ist ein noch offizielleres Ersuchen, meist von Behörden; 注文 ist eine Warenbestellung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1155710; spelling=依頼; reading=いらい",
+          "selected": {
+            "sequence": "1155710",
+            "spelling": "依頼",
+            "reading": "いらい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "request",
+                  "commission",
+                  "entrusting (with a matter)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dependence",
+                  "reliance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1155710 sense 1, noun / suru verb: request, commission, entrusting"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 依頼/イライ; lemma 依頼; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@58010326",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 依頼/イライ; lemma 依頼; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "依頼",
+              "reading": "いらい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 依頼/いらい \"Auftrag; Bitte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Auftrag; Bitte. JMdict 1155710 sense 1, noun / suru verb: request, commission, entrusting",
+        "japanese": "翻訳の依頼を受けた。 / 専門家に調査を依頼することにした。 / 申し訳ありませんが、今回のご依頼はお受けできません。",
+        "romanization": "irai; Hon'yaku no irai o uketa. / Senmonka ni chōsa o irai suru koto ni shita. / Mōshiwake arimasen ga, konkai no go-irai wa o-uke dekimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe einen Übersetzungsauftrag erhalten. / Wir haben beschlossen, einen Fachmann mit der Untersuchung zu beauftragen. / Es tut uns leid, aber diesen Auftrag können wir diesmal nicht annehmen.",
+        "contexts": [
+          "Receiving a translation job",
+          "Commissioning an expert",
+          "Politely declining a request"
+        ],
+        "lexical": "JMdict 1155710 sense 1, noun / suru verb: request, commission, entrusting",
+        "register": "neutral to formal (business)",
+        "transitivity": "transitive as 依頼する (person に, task を)",
+        "conjugation": "noun; suru verb (依頼する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1096 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Receiving a translation job; Commissioning an expert; Politely declining a request), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bae0dd5d77abe05ad48aa6b32ef5703c303fd82a567dbd4ea14954bf6c1fa494",
+        "approvalHash": "fc08b7b010987085cbc98caab57530d1998e011714f6563fc6166638c5394699"
+      }
+    },
+    {
+      "id": "vocab-n2:1097",
+      "revisionId": "196f-n2-enrichment-vocab-n2-1097",
+      "state": "accepted",
+      "predecessorHash": "70ed43a0a3a24dd8d22c17e4ed795137b1c6e7ff268dc62ac26ca3d4ae7cbd8c",
+      "originalHash": "70ed43a0a3a24dd8d22c17e4ed795137b1c6e7ff268dc62ac26ca3d4ae7cbd8c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "政府に支援を要請した。",
+            "romaji": "Seifu ni shien o yōsei shita.",
+            "german": "Man hat die Regierung um Unterstützung ersucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "要請 ist ein formelles „Ersuchen“ oder eine „Aufforderung“, meist von oder an Institutionen: 政府に支援を要請する, 〜の要請を受けて, 協力を要請する. Es klingt offizieller und dringlicher als 依頼, ist aber weniger zwingend als 命令 „Befehl“ oder 要求 „Forderung“. Typisch in Nachrichten (出動要請, 協力要請); unter Freunden wird es nicht verwendet.",
+        "examples": [
+          {
+            "japanese": "政府に支援を要請した。",
+            "romaji": "Seifu ni shien o yōsei shita.",
+            "german": "Man hat die Regierung um Unterstützung ersucht."
+          },
+          {
+            "japanese": "県の要請を受けて、自衛隊が被災地に派遣された。",
+            "romaji": "Ken no yōsei o ukete, jieitai ga hisaichi ni haken sareta.",
+            "german": "Auf Ersuchen der Präfektur wurden die Selbstverteidigungsstreitkräfte ins Katastrophengebiet entsandt."
+          },
+          {
+            "japanese": "市は住民に節電への協力を要請している。",
+            "romaji": "Shi wa jūmin ni setsuden e no kyōryoku o yōsei shite iru.",
+            "german": "Die Stadt ruft die Bürger auf, beim Stromsparen mitzuhelfen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273054223",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 要請/ヨウセイ; lemma 要請; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "要請",
+              "reading": "ようせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 要請/ようせい \"Ersuchen; Anforderung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1546780 sense 1, noun / suru verb: request, appeal, demand Pitch: Verified [0] via exact UniDic row. 要請 ist ein formelles „Ersuchen“ oder eine „Aufforderung“, meist von oder an Institutionen: 政府に支援を要請する, 〜の要請を受けて, 協力を要請する. Es klingt offizieller und dringlicher als 依頼, ist aber weniger zwingend als 命令 „Befehl“ oder 要求 „Forderung“. Typisch in Nachrichten (出動要請, 協力要請); unter Freunden wird es nicht verwendet. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1546780; spelling=要請; reading=ようせい",
+          "selected": {
+            "sequence": "1546780",
+            "spelling": "要請",
+            "reading": "ようせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "appeal",
+                  "call for something",
+                  "request",
+                  "claim",
+                  "demand"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "axiom"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1546780 sense 1, noun / suru verb: request, appeal, demand"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 要請/ヨウセイ; lemma 要請; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273054223",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 要請/ヨウセイ; lemma 要請; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "要請",
+              "reading": "ようせい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 要請/ようせい \"Ersuchen; Anforderung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ersuchen; Anforderung. JMdict 1546780 sense 1, noun / suru verb: request, appeal, demand",
+        "japanese": "政府に支援を要請した。 / 県の要請を受けて、自衛隊が被災地に派遣された。 / 市は住民に節電への協力を要請している。",
+        "romanization": "yōsei; Seifu ni shien o yōsei shita. / Ken no yōsei o ukete, jieitai ga hisaichi ni haken sareta. / Shi wa jūmin ni setsuden e no kyōryoku o yōsei shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man hat die Regierung um Unterstützung ersucht. / Auf Ersuchen der Präfektur wurden die Selbstverteidigungsstreitkräfte ins Katastrophengebiet entsandt. / Die Stadt ruft die Bürger auf, beim Stromsparen mitzuhelfen.",
+        "contexts": [
+          "Asking the government for aid",
+          "Disaster deployment",
+          "Energy-saving appeal"
+        ],
+        "lexical": "JMdict 1546780 sense 1, noun / suru verb: request, appeal, demand",
+        "register": "formal (official, news)",
+        "transitivity": "transitive as 要請する (party に, thing を)",
+        "conjugation": "noun; suru verb (要請する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-196",
+        "finding": "Author reread the exact final card vocab-n2:1097 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asking the government for aid; Disaster deployment; Energy-saving appeal), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7757ef706aee5ebec92c91b47511c7f7fb60b3349ae0e4504bb4afb2bdbd9cd2",
+        "approvalHash": "11cc607a10e69157bd60d04e425548228217f2c6554325c431ffde3fe7877290"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
