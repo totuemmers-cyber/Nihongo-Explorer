@@ -630,6 +630,24 @@ German meanings are corrected, e.g. 〜にかかわらず „unabhängig von“ 
 complete JMdict scan instead of a sequence. The frames 前提とする and 有効にする, whose
 conjugation is excluded, now state why. No accepted decision became stale. N2 now has 1,000
 pending reviews and 271 open references.
+**Third N2 checkpoint (8 October 2026).** Batches 198a–198j, 199a–199j, 200a–200j and 201a–201j
+enrich the last 1,000 N2 entries (vocab-n2:1462–2394 plus 169 idiom and yojijukugo cards), so
+every N2 entry now has a German usage note and 2–3 examples in distinct situations: 2,030 new sentences,
+and 419 entries had original examples corrected (ungrammatical Japanese such as 眠れることすらできない,
+unnatural sentences, wrong German). Pitch is verified for 623 entries: 593 from exact UniDic rows and
+30 from OJAD. 107 stored primary accents are corrected and 82 cards that had no pitch get one; 201
+stored values without an exact attestation become investigated unknowns, so 377 entries in all are
+investigated unknowns (176 of them idioms and four-character compounds). 229 German meanings are
+corrected, e.g. 拳銃 „Pistole“ (not „Revolver“), 軍艦 „Kriegsschiff“ (not „Schlachtschiff“),
+風の便りに聞く „gerüchteweise hören“ (not „durch die Blume“) and 三つ子の魂百まで, which is about
+character, not learning. 73 cards change type, mostly nouns typed Adjektiv (e.g. 破片, 炭素, 芝生,
+金髪, 宮廷, 陛下); 大概 becomes Adverb. 募集中, 軍艦島, 淀川, 言外之意, 才能開花, 一蹴両断 and
+胸に手を当てる record the complete JMdict scan instead of a sequence. The literary godan verb 翔る
+keeps its conjugation drill excluded because its kana form かける coincides with the ichidan verbs
+掛ける and 駆ける; the reason is now recorded. Two cards are flagged but kept: 一蹴両断 is no real
+idiom (its note says so and teaches 一蹴 and 一刀両断), and 塊魂 is a video game title. Batch 202a
+renews 4 decisions that the re-reviewed 危うい and 衣食住 made stale. N2 now has 0 pending reviews;
+its 271 open source references remain before the level can be certified.
 
 ## Historical campaign freeze
 
