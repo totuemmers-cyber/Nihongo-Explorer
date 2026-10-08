@@ -36,7 +36,7 @@
     "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation. Independent review was later made optional by the user (author-only-v1, 4 October 2026; see reviewPolicyChanges).",
     "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
     "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
-    "activeLevel": "N2",
+    "activeLevel": "N1",
     "levelOrder": [
       "N5",
       "N4",
@@ -167,7 +167,7 @@
         }
       },
       "N2": {
-        "status": "active",
+        "status": "complete",
         "baseline": {
           "level": "N2",
           "total": 3169,
@@ -183,10 +183,28 @@
           "pendingAdditions": 0,
           "openSampleDefects": 0,
           "complete": false
+        },
+        "completedAt": "2026-10-08T18:28:27.295Z",
+        "result": {
+          "level": "N2",
+          "total": 3322,
+          "reviewed": 3322,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       },
       "N1": {
-        "status": "pending",
+        "status": "active",
         "baseline": {
           "level": "N1",
           "total": 5350,
@@ -3808,6 +3826,104 @@
         "verification": {
           "policy": "author-only-v1, first pass by the batch author; no independent pass",
           "fullChecksPassed": 22
+        }
+      },
+      {
+        "id": "n2-source-closure-203-204",
+        "status": "verified-level-complete",
+        "recordedAt": "2026-10-08T18:28:27.568Z",
+        "newExistingEntriesEnriched": 0,
+        "existingTargetReviews": {
+          "total": 56,
+          "aliasOnly": 44,
+          "authored": 12,
+          "aliasesAdded": 56,
+          "meaningChanges": 5,
+          "sensesAdded": 1
+        },
+        "newAdditions": 114,
+        "cumulativeAdditions": 553,
+        "additionLevels": {
+          "N4": 6,
+          "N3": 8,
+          "N2": 76,
+          "N1": 24
+        },
+        "additionPitch": {
+          "verified": 75,
+          "investigatedUnknown": 39
+        },
+        "newBaselineCandidateReferencesResolved": 271,
+        "dispositions": {
+          "verified-spelling-variant": 69,
+          "added": 152,
+          "additional-reading": 25,
+          "verified-source-notation": 5,
+          "additional-sense": 1,
+          "excluded": 19
+        },
+        "exclusions": {
+          "source-error": 13,
+          "archaic-or-rare-reading": 6
+        },
+        "renewedStaleDecisions": {
+          "total": 2,
+          "N2": 2,
+          "cause": "The wave-A alias reviews of 日日/ひにち and 非〜 made two accepted decisions stale; both were renewed unchanged against the current targets."
+        },
+        "zuruVerbs": {
+          "cards": [
+            "応ずる",
+            "感ずる",
+            "生ずる",
+            "信ずる",
+            "存ずる",
+            "通ずる"
+          ],
+          "verbGroup": "zuru",
+          "note": "Added with the zuru conjugation group used by the existing 論ずる/命ずる cards."
+        },
+        "batches": [
+          "203a-references-n2.json",
+          "203b-references-n2.json",
+          "203c-references-n2.json",
+          "203d-references-n2.json",
+          "203e-references-n2.json",
+          "203f-references-n2.json",
+          "204a-references-n2.json",
+          "204b-references-n2.json",
+          "204c-references-n2.json",
+          "204d-references-n2.json",
+          "204e-references-n2.json",
+          "204f-references-n2.json",
+          "204g-references-n2.json",
+          "204h-references-n2.json",
+          "204i-references-n2.json",
+          "204j-references-n2.json",
+          "204k-references-n2.json"
+        ],
+        "verification": {
+          "policy": "author-only-v1, first pass by the batch author; no independent pass",
+          "fullChecksPassed": 22,
+          "campaignAdvanceDryRun": "passed: N2 complete, next level N1",
+          "campaignAdvanced": "N2 -> N1"
+        },
+        "phase": {
+          "level": "N2",
+          "total": 3322,
+          "reviewed": 3322,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       }
     ],

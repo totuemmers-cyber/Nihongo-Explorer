@@ -1,0 +1,317 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:1337",
+      "revisionId": "203a-reference-target-vocab-n3-1337",
+      "state": "accepted",
+      "predecessorHash": "a1c65ecbc2d7a39f4a7b5d2dc68c54499363250e4b2fea99aedc796819759ef4",
+      "originalHash": "a1c65ecbc2d7a39f4a7b5d2dc68c54499363250e4b2fea99aedc796819759ef4",
+      "predecessorRevisionHash": "241ea4b4ce1f35f0fc3579d2338e3564eb397c3be07d8268056a9b3b6f3d8341",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "清む"
+        ]
+      },
+      "rationale": "Spelling alias review: 清む added to 澄む/すむ. Tanos row repeats 清む in the reading column and puts the reading すむ in the gloss column (misplaced-reading notation). JMdict 1373680 澄む/清む【すむ】 'to become clear; to become transparent' lists 清む in the same entry. Card vocab-n3:1337 澄む/すむ 'klar werden' is that entry; add 清む as alias (済む vocab-n3:2269 and 住む vocab-n5:55 are other entries). Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1373680; spelling=澄む; reading=すむ",
+          "selected": {
+            "sequence": "1373680",
+            "spelling": "澄む",
+            "reading": "すむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become clear (water, air, etc.)",
+                  "to become transparent"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to resonate clearly (e.g. voice)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to become serene",
+                  "to become tranquil",
+                  "to be free of worries"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to pronounce as an unvoiced sound"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1373680 senses 1–2, godan verb: to become clear, transparent; to resonate clearly"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1373680; 澄む/清む/すむ",
+          "finding": "清む is a listed spelling of the same entry (reference 清む|清む#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 澄む/スム; lemma 澄む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 1. Rejected for this role: 澄む/スム; lemma 澄む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@149904845",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 澄む/スム; lemma 澄む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 1. Rejected for this role: 澄む/スム; lemma 澄む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 1.",
+            "match": {
+              "word": "澄む",
+              "reading": "すむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 澄む/すむ \"klar werden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "klar werden. JMdict 1373680 senses 1–2, godan verb: to become clear, transparent; to resonate clearly",
+        "japanese": "空気が澄んでいます。 / この湖の水は、底が見えるほど澄んでいる。 / 彼女は澄んだ声で歌った。",
+        "romanization": "sumu; Kuuki ga sunde imasu. / Kono mizuumi no mizu wa, soko ga mieru hodo sunde iru. / Kanojo wa sunda koe de utatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Luft ist klar. / Das Wasser dieses Sees ist so klar, dass man bis auf den Grund sehen kann. / Sie sang mit klarer Stimme.",
+        "contexts": [
+          "Clear mountain air",
+          "Transparent lake",
+          "Singing with a clear voice"
+        ],
+        "lexical": "JMdict 1373680 senses 1–2, godan verb: to become clear, transparent; to resonate clearly Added reviewed spelling alias(es) 清む for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "neutral",
+        "transitivity": "intransitive; transitive partner 澄ます",
+        "conjugation": "godan -mu (澄む → 澄んで, 澄まない)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n3:1337: aliases [\"清む\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c85cd661a17b1919cdeefa0e2de279323f8c58b89abc3ff0d0b2e92a494697b9",
+        "approvalHash": "0dce61d0e47bc1c3c440e9629c951061b84440fd90ffbe28a764dce9ac25e6bc"
+      }
+    },
+    {
+      "id": "vocab-n3:3247",
+      "revisionId": "203a-reference-target-vocab-n3-3247",
+      "state": "accepted",
+      "predecessorHash": "102c0d7946c2449c9d35a95c4d09cbc6649cc8b0b2775cbaa3824735ed365f83",
+      "originalHash": "102c0d7946c2449c9d35a95c4d09cbc6649cc8b0b2775cbaa3824735ed365f83",
+      "predecessorRevisionHash": "c7b4de0b92089b03f75166b2d4518e9c0ca38890e312e29a8762296ea47b6390",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "出合い"
+        ]
+      },
+      "rationale": "Spelling alias review: 出合い added to 出会い/であい. tanos lists 出合い/であい 'an encounter'. JMdict 1338400 出会い/出逢い/出合い/出会/出合/出遭い【であい】 lists 出合い in the same entry ('meeting; encounter'). Reviewed card vocab-n3:3247 出会い/であい 'Begegnung; Kennenlernen' has identical reading and sense; 出合い is added as alias. Nihongo Master lists 出合い/であい 'encounter; Begegnung' — same as the tanos row: JMdict 1338400 lists 出合い as a spelling of 出会い【であい】; card vocab-n3:3247 出会い/であい takes the alias. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1338400; spelling=出会い; reading=であい",
+          "selected": {
+            "sequence": "1338400",
+            "spelling": "出会い",
+            "reading": "であい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting",
+                  "rendezvous",
+                  "encounter"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "meeting for the first time",
+                  "coming across"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confluence"
+                ],
+                "notes": [
+                  "esp. 出合い, 出合"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1338400 senses 1–2, noun: meeting, encounter; meeting for the first time"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1338400; 出会い/出合い/であい",
+          "finding": "n: meeting; encounter; confluence — 出合い is a listed spelling (reference 出合い|であい#0)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1338400; 出会い/出合い/であい",
+          "finding": "n: meeting; encounter — 出合い is a listed spelling (reference 出合い|であい#1)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary null corrected to 0. Exact whole 出会い/デアイ; lemma 出会い; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 出会い/デアイ; lemma 出会う; 動詞/一般/*/*; 五段-ワア行; 連用形-一般; aType 2,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181609659",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 出会い/デアイ; lemma 出会い; 名詞/普通名詞/一般/*; *; *; aType 0. Rejected for this role: 出会い/デアイ; lemma 出会う; 動詞/一般/*/*; 五段-ワア行; 連用形-一般; aType 2,0.",
+            "match": {
+              "word": "出会い",
+              "reading": "であい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 出会い/であい \"Begegnung; Kennenlernen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "Begegnung; Kennenlernen. JMdict 1338400 senses 1–2, noun: meeting, encounter; meeting for the first time",
+        "japanese": "旅では新しい出会いがあります。 / 先生との出会いが人生を変えました。 / 春は出会いと別れの季節です。",
+        "romanization": "deai; Tabi de wa atarashii deai ga arimasu. / Sensei to no deai ga jinsei o kaemashita. / Haru wa deai to wakare no kisetsu desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf Reisen gibt es neue Begegnungen. / Die Begegnung mit der Lehrperson hat mein Leben verändert. / Der Frühling ist die Zeit der Begegnungen und Abschiede.",
+        "contexts": [
+          "Travel experiences",
+          "Life-changing teacher",
+          "Spring in Japan"
+        ],
+        "lexical": "JMdict 1338400 senses 1–2, noun: meeting, encounter; meeting for the first time Added reviewed spelling alias(es) 出合い for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n3:3247: aliases [\"出合い\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0ebd5823be104c8bda7bd7fa4a9538cbd4a2e8b54af176d60eb073295f8c4a63",
+        "approvalHash": "cb38392d2c764788358b9aa3f6eb8918977a3ef71a73906ea9835a3843db6ec4"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

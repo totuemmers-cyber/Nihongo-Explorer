@@ -41293,5 +41293,216 @@ window.VOCAB_N4 = [
       }
     ],
     "correctionId": "vocab-n4:correction:nichiyou-sunday"
+  },
+  {
+    "word": "お帰り",
+    "reading": "おかえり",
+    "romaji": "okaeri",
+    "meaning": "Willkommen zurück! (kurz für お帰りなさい); Heimkehr, Rückweg (höflich)",
+    "type": "Ausdruck",
+    "category": "Alltag",
+    "level": "N4",
+    "notes": "Als Gruß die lockere Kurzform von お帰りなさい (eigene Karte): Familie und Freunde antworten damit auf ただいま, während お帰りなさい etwas höflicher und vollständiger klingt. Als höfliches Substantiv bedeutet お帰り „Heimkehr, Heimweg“ einer respektierten Person, etwa 社長のお帰り oder auf Schildern お帰りはこちら „Ausgang“. Im Gruß wird es oft in Kana geschrieben (おかえり).",
+    "examples": [
+      {
+        "japanese": "「ただいま！」「お帰り。今日は早かったね。」",
+        "romaji": "\"Tadaima!\" \"Okaeri. Kyou wa hayakatta ne.\"",
+        "german": "„Bin wieder da!“ – „Willkommen zurück. Du bist heute aber früh.“"
+      },
+      {
+        "japanese": "お帰りはあちらの出口をご利用ください。",
+        "romaji": "Okaeri wa achira no deguchi o goriyou kudasai.",
+        "german": "Für den Heimweg benutzen Sie bitte den Ausgang dort drüben."
+      },
+      {
+        "japanese": "社長のお帰りは何時ごろになりますか。",
+        "romaji": "Shachou no okaeri wa nanji goro ni narimasu ka.",
+        "german": "Um wie viel Uhr wird der Chef zurück sein?"
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:okaeri-welcome-home"
+  },
+  {
+    "word": "水曜",
+    "reading": "すいよう",
+    "romaji": "suiyou",
+    "meaning": "Mittwoch (Kurzform)",
+    "type": "Nomen",
+    "category": "Zeit",
+    "level": "N4",
+    "notes": "Kurzform von 水曜日 (eigene Karte), besonders in Zeitplänen, Aushängen und im lockeren Gespräch (水曜の夜, 毎週水曜, 水曜休み). Im Kalender steht oft nur 水. In formellen Texten und Durchsagen ist 水曜日 üblicher; alle Wochentage haben solche Kurzformen (月曜, 金曜).",
+    "examples": [
+      {
+        "japanese": "水曜は定休日なので、店は閉まっています。",
+        "romaji": "Suiyou wa teikyuubi na node, mise wa shimatte imasu.",
+        "german": "Mittwochs ist Ruhetag, deshalb ist der Laden geschlossen."
+      },
+      {
+        "japanese": "毎週水曜の夜にヨガ教室に通っている。",
+        "romaji": "Maishuu suiyou no yoru ni yoga kyoushitsu ni kayotte iru.",
+        "german": "Ich gehe jeden Mittwochabend zum Yogakurs."
+      },
+      {
+        "japanese": "会議は来週の水曜に延期になった。",
+        "romaji": "Kaigi wa raishuu no suiyou ni enki ni natta.",
+        "german": "Die Besprechung wurde auf nächsten Mittwoch verschoben."
+      }
+    ],
+    "pitch": 3,
+    "pitchVariants": [
+      0
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145861610",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          3,
+          0
+        ],
+        "finding": "Exact whole 水曜/スイヨウ; lemma 水曜; 名詞/普通名詞/副詞可能/*; *; *; aType 3,0.",
+        "match": {
+          "word": "水曜",
+          "reading": "すいよう",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "Nomen 水曜/すいよう \"Mittwoch (Kurzform)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n4:correction:suiyou-wednesday"
+  },
+  {
+    "word": "〜年生",
+    "reading": "ねんせい",
+    "romaji": "nensei",
+    "meaning": "Schüler/Student im n-ten Jahr (Suffix, z. B. 三年生, 大学二年生)",
+    "type": "Partikel",
+    "category": "Schule",
+    "level": "N4",
+    "notes": "Suffix nach einer Zahl für die Klassenstufe bzw. das Studienjahr: 小学三年生, 高校二年生, 大学四年生; gefragt wird mit 何年生ですか. Die eigene Karte 一年生 deckt zusätzlich „Anfänger, Neuling“ ab. Nicht verwechseln mit 〜年 (Jahre, Jahreszahl) und dem gleichlautenden 粘性 „Viskosität“.",
+    "examples": [
+      {
+        "japanese": "弟は小学三年生です。",
+        "romaji": "Otōto wa shōgaku sannensei desu.",
+        "german": "Mein jüngerer Bruder ist in der dritten Klasse der Grundschule."
+      },
+      {
+        "japanese": "「何年生ですか。」「大学二年生です。」",
+        "romaji": "\"Nannensei desu ka.\" \"Daigaku ninensei desu.\"",
+        "german": "„In welchem Jahrgang bist du?“ „Im zweiten Studienjahr.“"
+      },
+      {
+        "japanese": "六年生は来月、修学旅行に行きます。",
+        "romaji": "Rokunensei wa raigetsu, shūgaku ryokō ni ikimasu.",
+        "german": "Die Sechstklässler fahren nächsten Monat auf Klassenfahrt."
+      }
+    ],
+    "aliases": [
+      "年生"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:nensei-year-student"
+  },
+  {
+    "word": "〜番目",
+    "reading": "ばんめ",
+    "romaji": "banme",
+    "meaning": "der/die/das …-te, Ordinalzahl-Suffix (Suffix)",
+    "type": "Partikel",
+    "category": "Zahlen",
+    "level": "N4",
+    "notes": "Nachgestelltes Suffix für die Position in einer Reihenfolge: 二番目, 三番目, 何番目; mit に für Rangfolgen wie 二番目に高い „der zweithöchste“. Anders als 一番 („am meisten; Nummer eins“) zählt 〜番目 neutral ab; das vorangestellte 第〜 ist schriftlicher, 〜回目 zählt Wiederholungen. 一番目 und 三番目 haben eigene Karten.",
+    "examples": [
+      {
+        "japanese": "右から二番目の人が私の兄です。",
+        "romaji": "Migi kara ni-banme no hito ga watashi no ani desu.",
+        "german": "Die zweite Person von rechts ist mein älterer Bruder."
+      },
+      {
+        "japanese": "日本で二番目に高い山は何ですか。",
+        "romaji": "Nihon de ni-banme ni takai yama wa nan desu ka.",
+        "german": "Welcher ist der zweithöchste Berg Japans?"
+      },
+      {
+        "japanese": "名簿の上から何番目に名前がありますか。",
+        "romaji": "Meibo no ue kara nan-banme ni namae ga arimasu ka.",
+        "german": "An welcher Stelle von oben steht Ihr Name auf der Liste?"
+      }
+    ],
+    "aliases": [
+      "番目"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:banme-ordinal"
+  },
+  {
+    "word": "みたい",
+    "reading": "みたい",
+    "romaji": "mitai",
+    "meaning": "wie, ähnlich wie; anscheinend, scheint (Suffix, umgangssprachlich)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "みたい ist die umgangssprachliche Entsprechung von ようだ: Nomen + みたい „wie, ähnlich“ (子供みたい), Satz + みたい „anscheinend“ (雨みたいだ). Es flektiert wie ein na-Adjektiv: みたいな + Nomen, みたいに + Verb. Gegenüber らしい drückt みたい eher den eigenen Eindruck aus. Nicht verwechseln mit 〜てみたい „möchte ausprobieren“ (von みる).",
+    "examples": [
+      {
+        "japanese": "彼女は子供みたいに無邪気に笑った。",
+        "romaji": "Kanojo wa kodomo mitai ni mujaki ni waratta.",
+        "german": "Sie lachte unbeschwert wie ein Kind."
+      },
+      {
+        "japanese": "外が暗くなってきた。雨が降るみたいだ。",
+        "romaji": "Soto ga kuraku natte kita. Ame ga furu mitai da.",
+        "german": "Draußen wird es dunkel. Es sieht nach Regen aus."
+      },
+      {
+        "japanese": "宝くじが当たるなんて、夢みたいな話だ。",
+        "romaji": "Takarakuji ga ataru nante, yume mitai na hanashi da.",
+        "german": "Im Lotto zu gewinnen, das klingt wie ein Traum."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:mitai-like"
+  },
+  {
+    "word": "おかけください",
+    "reading": "おかけください",
+    "romaji": "okake kudasai",
+    "meaning": "Bitte nehmen Sie Platz",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N4",
+    "notes": "Höfliche Aufforderung, sich zu setzen, gebildet aus お + Stamm von 掛ける (hier „sich setzen“) + ください; meist in Kana geschrieben. Man hört sie am Empfang, in der Arztpraxis oder im Vorstellungsgespräch. Einfacher ist 座ってください, noch höflicher おかけになってください. Die Karte 掛ける lehrt nur „aufhängen“; dieser Sinn „sich setzen“ lebt vor allem in dieser Wendung.",
+    "examples": [
+      {
+        "japanese": "どうぞ、こちらにおかけください。",
+        "romaji": "Dōzo, kochira ni okake kudasai.",
+        "german": "Bitte, nehmen Sie hier Platz."
+      },
+      {
+        "japanese": "順番にお呼びしますので、そちらの椅子におかけください。",
+        "romaji": "Junban ni oyobi shimasu node, sochira no isu ni okake kudasai.",
+        "german": "Wir rufen Sie der Reihe nach auf, bitte setzen Sie sich solange dort auf einen Stuhl."
+      },
+      {
+        "japanese": "面接官：「どうぞおかけください。」学生：「失礼します。」",
+        "romaji": "Mensetsukan: \"Dōzo okake kudasai.\" Gakusei: \"Shitsurei shimasu.\"",
+        "german": "Interviewer: „Bitte setzen Sie sich.“ Student: „Danke sehr.“"
+      }
+    ],
+    "aliases": [
+      "お掛け下さい",
+      "お掛けください"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:okakekudasai"
   }
 ];

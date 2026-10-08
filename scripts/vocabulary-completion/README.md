@@ -648,6 +648,30 @@ keeps its conjugation drill excluded because its kana form かける coincides w
 idiom (its note says so and teaches 一蹴 and 一刀両断), and 塊魂 is a video game title. Batch 202a
 renews 4 decisions that the re-reviewed 危うい and 衣食住 made stale. N2 now has 0 pending reviews;
 its 271 open source references remain before the level can be certified.
+**N2 certified (8 October 2026).** Batches 203a–204k (`author-only-v1`) close all 271 N2-owned
+source references with the same two-wave method. Six parallel triage passes decided 69
+`verified-spelling-variant`, 5 `verified-source-notation` (misplaced-reading rows such as 炒る, 棄てる,
+茶色い), 1 `additional-sense` (非 „Fehler, Unrecht“), 25 `additional-reading`, 152 `added` and 19
+`excluded`. Wave A (203a–203f) reviews 56 existing target cards: 44 gain reviewed spelling aliases
+only (56 aliases, e.g. あわてる, 嘘つき, 頷く, 面倒くさい), and 12 are rewritten. Eleven never-reviewed N1 targets
+(拵える, 堪える, 躊躇う, 箪笥, 凭れる, 尊い, 膨張, 瓶詰 …) get full enrichment. Wave B (204a–204k) adds
+114 new cards (6 N4, 8 N3, 76 N2, 24 N1), for example:
+- bare nouns next to an existing Xする card: 移転, 接近, 到達, 突破, 保管, 改良, 参照
+- the literary ずる verbs 応ずる, 感ずる, 生ずる, 信ずる, 存ずる and 通ずる, with the `zuru`
+  conjugation group used by 論ずる and 命ずる
+- affixes and counters: 〜科, 〜校, 〜ごと, 第〜, 〜だらけ, 〜年生, 御〜/おん, 〜力
+- alternative readings: 擦る/こする, 擦る/かする, 敵/かたき, 国境/くにざかい, 大分/だいぶん
+- words such as しいんと, しみじみ, せっせと, 水曜, お帰り and なんて
+
+Two triage passes had created しいんと in different ways. Both rows now close onto the card for
+JMdict 1631970 しいんと (variant しーんと), because the lengthened form has its own entry. Pitch is
+verified for 75 of the new cards, and 39 are investigated unknowns. The 19 exclusions are:
+- 13 source errors: truncated rows such as おまたせしまし, a reading column holding （カーペット）, and
+  副 (the adverb marker) read as とりわけ
+- 6 rare or obsolete readings, such as 他人/あだびと and 問屋/といや
+
+Two accepted decisions made stale by the alias reviews (日日/ひにち, 非) were renewed. All 22 full
+checks pass; `advance --dry-run` passed and the campaign advanced from N2 to N1.
 
 ## Historical campaign freeze
 

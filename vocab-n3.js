@@ -86926,5 +86926,267 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:attou-overwhelming"
+  },
+  {
+    "word": "第〜",
+    "reading": "だい",
+    "romaji": "dai",
+    "meaning": "Ordinalzahl-Präfix: der/die/das n-te (Präfix, z. B. 第一, 第三章)",
+    "type": "Partikel",
+    "category": "Zahlen",
+    "level": "N3",
+    "notes": "Vorangestelltes Präfix, das aus einer Zahl eine Ordinalzahl macht: 第一回, 第二次世界大戦, 第三章. Eher schriftlich und formell (Kapitel, Sitzungen, Kriege, Gesetzesartikel); im Alltag sagt man oft nachgestellt 〜番目 oder 〜回目. Die Karte 第一 (だいいち) lehrt das eigenständige Wort „erstens, vor allem“; 台, 代, 題 und 大 sind gleichlautende, aber andere Wörter.",
+    "examples": [
+      {
+        "japanese": "第二次世界大戦は千九百四十五年に終わった。",
+        "romaji": "Dai-niji sekai taisen wa sen kyūhyaku yonjūgo-nen ni owatta.",
+        "german": "Der Zweite Weltkrieg endete 1945."
+      },
+      {
+        "japanese": "授業の前に、教科書の第三章を読んでおいてください。",
+        "romaji": "Jugyō no mae ni, kyōkasho no dai-sanshō o yonde oite kudasai.",
+        "german": "Bitte lesen Sie vor dem Unterricht Kapitel 3 des Lehrbuchs."
+      },
+      {
+        "japanese": "第十回の大会は大阪で開かれる。",
+        "romaji": "Dai-jukkai no taikai wa Ōsaka de hirakareru.",
+        "german": "Das zehnte Turnier findet in Osaka statt."
+      }
+    ],
+    "aliases": [
+      "第"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:dai-ordinal"
+  },
+  {
+    "word": "〜ぶり",
+    "reading": "ぶり",
+    "romaji": "buri",
+    "meaning": "Art und Weise, -Stil (Suffix, z. B. 話しぶり); zum ersten Mal seit … (z. B. 3年ぶり)",
+    "type": "Partikel",
+    "category": "Art und Weise",
+    "level": "N3",
+    "notes": "〜ぶり hat zwei Hauptbedeutungen: nach Verbstämmen und Nomen „Art und Weise“ (話しぶり, 仕事ぶり, 暮らしぶり), nach Zeitangaben „zum ersten Mal seit …“ (三年ぶり, 久しぶり – eigene Karte). Mit に wird es adverbial: 五年ぶりに会った. Geschrieben wird es fast immer in Kana; die Kanji-Form 振り ist selten und leicht mit ふり „so tun, als ob“ zu verwechseln.",
+    "examples": [
+      {
+        "japanese": "十年ぶりに故郷に帰った。",
+        "romaji": "Jūnen-buri ni kokyō ni kaetta.",
+        "german": "Zum ersten Mal seit zehn Jahren bin ich in meine Heimat zurückgekehrt."
+      },
+      {
+        "japanese": "彼の落ち着いた話しぶりに、皆が安心した。",
+        "romaji": "Kare no ochitsuita hanashiburi ni, mina ga anshin shita.",
+        "german": "Seine ruhige Art zu sprechen beruhigte alle."
+      },
+      {
+        "japanese": "部長は新入社員の仕事ぶりを褒めていた。",
+        "romaji": "Buchō wa shinnyū shain no shigotoburi o homete ita.",
+        "german": "Der Abteilungsleiter lobte die Arbeitsweise des neuen Mitarbeiters."
+      }
+    ],
+    "aliases": [
+      "振り"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:buri-manner-suffix"
+  },
+  {
+    "word": "お待ち",
+    "reading": "おまち",
+    "romaji": "omachi",
+    "meaning": "Warten (höflich), Wartezeit; vgl. お待ちください",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N3",
+    "notes": "Höfliche Form des Verbalnomens 待ち zu 待つ. Am häufigsten in festen Mustern: お待ちください (Bitte), お待ちしております (bescheiden), お待ちになる (respektvoll), dazu お待ちの間 „während Sie warten“. Davon zu unterscheiden ist die Dankesformel お待ちどおさま (eigene Karte). Fast immer mit お in Kana geschrieben; 御待ち ist selten.",
+    "examples": [
+      {
+        "japanese": "担当者が参りますので、少々お待ちください。",
+        "romaji": "Tantōsha ga mairimasu node, shōshō omachi kudasai.",
+        "german": "Die zuständige Person kommt gleich, bitte warten Sie einen Moment."
+      },
+      {
+        "japanese": "お待ちの間、こちらのパンフレットをご覧ください。",
+        "romaji": "Omachi no aida, kochira no panfuretto o goran kudasai.",
+        "german": "Bitte sehen Sie sich während der Wartezeit diese Broschüre an."
+      },
+      {
+        "japanese": "皆様のご来店を心よりお待ちしております。",
+        "romaji": "Minasama no goraiten o kokoro yori omachi shite orimasu.",
+        "german": "Wir freuen uns von Herzen auf Ihren Besuch."
+      }
+    ],
+    "aliases": [
+      "御待ち"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:omachi-waiting"
+  },
+  {
+    "word": "〜等",
+    "reading": "ら",
+    "romaji": "-ra",
+    "meaning": "Pluralsuffix, und andere (Suffix, meist in Kana: 彼ら, 僕ら, 子供ら)",
+    "type": "Partikel",
+    "category": "Sprache",
+    "level": "N3",
+    "notes": "Pluralsuffix für Personen, fast immer in Kana geschrieben (彼ら, 僕ら, 子供ら); 等 als Kanji wirkt altmodisch. Gegenüber 〜たち klingt 〜ら vertraulicher und kann bei anderen herablassend wirken (お前ら), bei der eigenen Gruppe bescheiden (私ら). Nicht verwechseln mit derselben Schreibung 〜等 in der Lesung とう „usw.; Rang“ (eigene Karte).",
+    "examples": [
+      {
+        "japanese": "彼らは毎朝一緒に駅まで歩いている。",
+        "romaji": "Karera wa maiasa issho ni eki made aruite iru.",
+        "german": "Sie gehen jeden Morgen zusammen zum Bahnhof."
+      },
+      {
+        "japanese": "僕らが子供の頃は、スマホなんてなかった。",
+        "romaji": "Bokura ga kodomo no koro wa, sumaho nante nakatta.",
+        "german": "Als wir Kinder waren, gab es so etwas wie Smartphones nicht."
+      },
+      {
+        "japanese": "公園では近所の子供らが元気に遊んでいた。",
+        "romaji": "Kōen de wa kinjo no kodomora ga genki ni asonde ita.",
+        "german": "Im Park spielten die Kinder aus der Nachbarschaft ausgelassen."
+      }
+    ],
+    "aliases": [
+      "等",
+      "ら"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:ra-plural-suffix"
+  },
+  {
+    "word": "〜日",
+    "reading": "か",
+    "romaji": "-ka",
+    "meaning": "Tag (Zähleinheitswort und Monatstag, z. B. 二日, 三日, 十日, 二十日)",
+    "type": "Partikel",
+    "category": "Zeit",
+    "level": "N3",
+    "notes": "Japanische Lesung von 日 in Datums- und Tagesangaben mit japanischen Zahlwörtern: ふつか, みっか, よっか bis とおか sowie じゅうよっか, はつか (20) und にじゅうよっか. Alle übrigen Zahlen nehmen 〜日/にち (eigene Karte), etwa じゅういちにち; der Erste heißt ついたち, „ein Tag“ いちにち. Dieselbe Form bezeichnet den Monatstag und die Dauer in Tagen.",
+    "examples": [
+      {
+        "japanese": "詳しいことは三日後にまた連絡します。",
+        "romaji": "Kuwashii koto wa mikka-go ni mata renraku shimasu.",
+        "german": "Wegen der Einzelheiten melde ich mich in drei Tagen wieder."
+      },
+      {
+        "japanese": "五月五日はこどもの日で、学校が休みになる。",
+        "romaji": "Gogatsu itsuka wa kodomo no hi de, gakkō ga yasumi ni naru.",
+        "german": "Der 5. Mai ist Kindertag, und die Schulen haben frei."
+      },
+      {
+        "japanese": "この作業なら十日もあれば終わるだろう。",
+        "romaji": "Kono sagyō nara tōka mo areba owaru darō.",
+        "german": "Diese Arbeit dürfte in zehn Tagen erledigt sein."
+      }
+    ],
+    "aliases": [
+      "日"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:ka-day-counter"
+  },
+  {
+    "word": "なんて",
+    "reading": "なんて",
+    "romaji": "nante",
+    "meaning": "so etwas wie, Dinge wie; (überrascht/abwertend) dass ...",
+    "type": "Partikel",
+    "category": "Sprache",
+    "level": "N3",
+    "notes": "Umgangssprachliche Partikel, die etwas herausgreift und dabei abwertet oder verharmlost (勉強なんて嫌い), nach Sätzen Überraschung oder Empörung ausdrückt (…なんて信じられない) und „jemand namens“ heißen kann (田中なんて人). Gegenüber なんか (eigene Karte) ist なんて etwas betonter und steht auch nach ganzen Sätzen. Nicht verwechseln mit dem Ausruf 何て „wie …!“ (なんてきれいなんだ).",
+    "examples": [
+      {
+        "japanese": "数学なんて、もう二度と勉強したくない。",
+        "romaji": "Sūgaku nante, mō nido to benkyō shitaku nai.",
+        "german": "So etwas wie Mathe will ich nie wieder lernen."
+      },
+      {
+        "japanese": "こんな所で君に会うなんて、思ってもみなかった。",
+        "romaji": "Konna tokoro de kimi ni au nante, omotte mo minakatta.",
+        "german": "Dass ich dich ausgerechnet hier treffe, hätte ich nie gedacht."
+      },
+      {
+        "japanese": "田中なんて人は、うちの部署にはいませんよ。",
+        "romaji": "Tanaka nante hito wa, uchi no busho ni wa imasen yo.",
+        "german": "Eine Person namens Tanaka gibt es in unserer Abteilung nicht."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:nante-such-as"
+  },
+  {
+    "word": "お世話",
+    "reading": "おせわ",
+    "romaji": "osewa",
+    "meaning": "Hilfe, Fürsorge, Betreuung (höflich; z. B. お世話になります)",
+    "type": "Nomen",
+    "category": "Kommunikation",
+    "level": "N3",
+    "notes": "Höfliche Form von 世話 „Fürsorge, Pflege“ (eigene Karte), freundlicher im Ton und typisch, wenn es um Kinder, Tiere oder Gäste geht: 猫のお世話をする. Sie ist der Kern fester Wendungen wie お世話になります / お世話になりました (eigene Karte お世話になる) und 余計なお世話 bzw. 大きなお世話 „Das geht dich nichts an“ (eigene Karte). Üblich ist die Schreibung お世話; 御世話 ist selten.",
+    "examples": [
+      {
+        "japanese": "旅行の間、猫のお世話をお願いできますか。",
+        "romaji": "Ryokō no aida, neko no osewa o onegai dekimasu ka.",
+        "german": "Könntest du dich während meiner Reise um die Katze kümmern?"
+      },
+      {
+        "japanese": "皆さまには大変お世話になりました。",
+        "romaji": "Minasama ni wa taihen osewa ni narimashita.",
+        "german": "Ich danke Ihnen allen herzlich für Ihre Unterstützung."
+      },
+      {
+        "japanese": "「早く結婚したら？」「余計なお世話だよ。」",
+        "romaji": "\"Hayaku kekkon shitara?\" \"Yokei na osewa da yo.\"",
+        "german": "„Willst du nicht bald heiraten?“ – „Das geht dich nichts an.“"
+      }
+    ],
+    "aliases": [
+      "御世話"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:osewa-help"
+  },
+  {
+    "word": "〜者",
+    "reading": "しゃ",
+    "romaji": "sha",
+    "meaning": "Person, -er (Suffix, z. B. 研究者, 参加者, 医者)",
+    "type": "Partikel",
+    "category": "Menschen",
+    "level": "N3",
+    "notes": "Sehr produktives Suffix, das an sinojapanische Wörter tritt und Personen bezeichnet: 研究者 „Forscher“, 参加者 „Teilnehmer“, 責任者 „Verantwortlicher“; es steckt auch in Grundwörtern wie 医者 und 学者. Allein gelesen ist 者 dagegen もの (eigene Karte 者/もの, z. B. 田中という者です). Bei Nationalität oder Beruf steht oft 〜人 bzw. 〜家 (日本人, 作家) statt 〜者.",
+    "examples": [
+      {
+        "japanese": "会議の参加者は全部で二十人です。",
+        "romaji": "Kaigi no sankasha wa zenbu de nijūnin desu.",
+        "german": "Insgesamt nehmen zwanzig Personen an der Besprechung teil."
+      },
+      {
+        "japanese": "責任者と話をさせてください。",
+        "romaji": "Sekininsha to hanashi o sasete kudasai.",
+        "german": "Lassen Sie mich bitte mit dem Verantwortlichen sprechen."
+      },
+      {
+        "japanese": "姉は大学で研究者として働いている。",
+        "romaji": "Ane wa daigaku de kenkyūsha to shite hataraite iru.",
+        "german": "Meine ältere Schwester arbeitet als Forscherin an der Universität."
+      }
+    ],
+    "aliases": [
+      "者"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n3:correction:sha-person-suffix"
   }
 ];

@@ -1,0 +1,531 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n5:1351",
+      "revisionId": "203b-reference-target-vocab-n5-1351",
+      "state": "accepted",
+      "predecessorHash": "fd390f86c541385e0c044fed5d1a42c0a5218028edb933dc48f581bdb87b4e58",
+      "originalHash": "fd390f86c541385e0c044fed5d1a42c0a5218028edb933dc48f581bdb87b4e58",
+      "predecessorRevisionHash": "1479d8b575575783923f812b138e1339e30288201bb2bbf6c5dc89aa15e6826d",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "小父さん"
+        ]
+      },
+      "rationale": "Spelling alias review: 小父さん added to おじさん/おじさん. Tanos row 小父さん/おじさん 'middle-aged gentleman, uncle'. JMdict 2261490 伯父さん/叔父さん/小父さん【おじさん】 (uk) lists 小父さん (the 'middle-aged man' spelling) in the same entry. Card vocab-n5:1351 おじさん/おじさん 'Onkel; Mann mittleren Alters' teaches the uk kana form with both senses; add 小父さん as alias. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=2261490; spelling=おじさん; reading=おじさん; senses=1,2",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "2261490/1 uncle and2 familiarmister/person, fish3 excluded rawrestrictionsnotesread. Allthree actualwholeOJAD4386/4387/12012 flat0 directlyinspected. Ownexplicituncle versus explicitlyunknownman distinct removesambiguity. No prefixedaccentscalarinference. 私の kinownership/おじさんtopic/大阪にresidence versus 知らないattributiveunknownperson/にaskedperson/駅までの道をquestioncontent/聞くGodanpolitepast. Ōsaka macro/ojisan shorti/shiranai negative知る and Germanchecked.",
+          "selected": {
+            "sequence": "2261490",
+            "spelling": "おじさん",
+            "reading": "おじさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "familiar language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "uncle"
+                ],
+                "notes": [
+                  "伯父さん is older than one's parent and 叔父さん is younger"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "familiar language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "old man",
+                  "mister"
+                ],
+                "notes": [
+                  "usu. 小父さん or おじさん; vocative"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2261490; 小父さん/おじさん",
+          "finding": "same entry; uk; senses uncle / old man, mister (reference 小父さん|おじさん#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Actual OJAD4386伯父さん,4387叔父さん and exact12012おじさん all dictionaryお/じ/さ/ん fourmora postinitialplainhigh/nopeak0. Complete prefixedforms directlyobserved; no inferencefromじ orじさん.",
+        "evidence": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved whole-form UTF-8 HTML SHA256 7473be4b87707d6ade1ce319b32fc969c712ba6b47894d733b850541b9766c8a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E3%81%98%E3%81%95%E3%82%93#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual OJAD4386伯父さん,4387叔父さん and exact12012おじさん all dictionaryお/じ/さ/ん fourmora postinitialplainhigh/nopeak0. Complete prefixedforms directlyobserved; no inferencefromじ orじさん.",
+            "match": {
+              "word": "おじさん",
+              "reading": "おじさん",
+              "grammaticalForm": "Nomen; exact complete dictionary form",
+              "sense": "おじさん als Onkel; Mann mittleren Alters"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "Onkel; Mann mittleren Alters — 2261490/1 uncle and2 familiarmister/person, fish3 excluded rawrestrictionsnotesread. Allthree actualwholeOJAD4386/4387/12012 flat0 directlyinspected. Ownexplicituncle versus explicitlyunknownman distinct removesambiguity. No prefixedaccentscalarinference.",
+        "japanese": "私のおじさんは大阪に住んでいます。 / 知らないおじさんに駅までの道を聞きました。 — 私の kinownership/おじさんtopic/大阪にresidence versus 知らないattributiveunknownperson/にaskedperson/駅までの道をquestioncontent/聞くGodanpolitepast. Ōsaka macro/ojisan shorti/shiranai negative知る and Germanchecked.",
+        "romanization": "Watashi no ojisan wa Ōsaka ni sunde imasu. / Shiranai ojisan ni eki made no michi o kikimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Mein Onkel wohnt in Osaka. / Ich habe einen mir unbekannten Mann nach dem Weg zum Bahnhof gefragt. — 私の kinownership/おじさんtopic/大阪にresidence versus 知らないattributiveunknownperson/にaskedperson/駅までの道をquestioncontent/聞くGodanpolitepast. Ōsaka macro/ojisan shorti/shiranai negative知る and Germanchecked.",
+        "contexts": [
+          "Eigenen Onkel in Osaka verorten",
+          "Unbekannten Mann nach Bahnhofweg fragen"
+        ],
+        "lexical": "2261490/1 uncle and2 familiarmister/person, fish3 excluded rawrestrictionsnotesread. Allthree actualwholeOJAD4386/4387/12012 flat0 directlyinspected. Ownexplicituncle versus explicitlyunknownman distinct removesambiguity. No prefixedaccentscalarinference. Added reviewed spelling alias(es) 小父さん for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Familyfamiliarterm and descriptivereferencetostranger, bothpolitereports.",
+        "transitivity": "私の kinownership/おじさんtopic/大阪にresidence versus 知らないattributiveunknownperson/にaskedperson/駅までの道をquestioncontent/聞くGodanpolitepast. Ōsaka macro/ojisan shorti/shiranai negative知る and Germanchecked.",
+        "conjugation": "Kartenwortart Nomen; Wortformen und begleitende Verben/Adjektive einzeln geprüft. 私の kinownership/おじさんtopic/大阪にresidence versus 知らないattributiveunknownperson/にaskedperson/駅までの道をquestioncontent/聞くGodanpolitepast. Ōsaka macro/ojisan shorti/shiranai negative知る and Germanchecked.",
+        "level": "N5 unverändert; konkrete alltägliche Aussagefunktionen: Eigenen Onkel in Osaka verorten / Unbekannten Mann nach Bahnhofweg fragen"
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n5:1351: aliases [\"小父さん\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "676f05f4dd3e9288576ee46c245cb020c32390ba3e47dc1d232642767dfa3b21",
+        "approvalHash": "3c41cabaa663f43edf027b6cdfe8f494522d9f4f923bbc908a1882871a1d48a0"
+      }
+    },
+    {
+      "id": "vocab-n5:637",
+      "revisionId": "203b-reference-target-vocab-n5-637",
+      "state": "accepted",
+      "predecessorHash": "2d550d291c566a184283cc10bec3b5ff7703bc9c1605b0e506c310ebfdf198ee",
+      "originalHash": "2d550d291c566a184283cc10bec3b5ff7703bc9c1605b0e506c310ebfdf198ee",
+      "predecessorRevisionHash": "5812700e8fe0c712ff58b2e9ef3044b9414adffdd90963442ee221804658a6ce",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "棄てる"
+        ]
+      },
+      "rationale": "Spelling alias review: 棄てる added to 捨てる/すてる. Tanos row repeats 棄てる in the reading column and puts the reading すてる in the gloss column (misplaced-reading notation). JMdict 1322320 捨てる/棄てる【すてる】 lists 棄てる in the same entry ('to throw away; to abandon'). Card vocab-n5:637 捨てる/すてる 'wegwerfen' is that entry; add 棄てる as alias so the normalized form matches. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1322320; spelling=捨てる; reading=すてる; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Exact 捨てる/すてる, JMdict 1322320, senses 1: to throw away, to cast away, to dump, to discard. Spelling, reading and restrictions reviewed. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded. Every retained/new Japanese context, German rendering and guidance matches selected scope.",
+          "selected": {
+            "sequence": "1322320",
+            "spelling": "捨てる",
+            "reading": "すてる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to throw away",
+                  "to cast away",
+                  "to dump",
+                  "to discard"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1322320; 捨てる/棄てる/すてる",
+          "finding": "棄てる is a listed spelling of the same entry (tagged rK) (reference 棄てる|棄てる#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@148598256: exact 捨てる/ステル, lemma 捨てる, 動詞/一般/*/*; 下一段-タ行; 終止形-一般; aType 0. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@148598256",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@148598256: 捨てる/ステル, lemma 捨てる, 動詞/一般/*/*; 下一段-タ行; 終止形-一般; aType 0. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded. Whole-form patterns 0 bind selected complete headword roles, no name or component extrapolation.",
+            "match": {
+              "word": "捨てる",
+              "reading": "すてる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-タ行; 終止形-一般",
+              "sense": "Exact 捨てる/すてる, JMdict 1322320, senses 1: to throw away, to cast away, to dump, to discard. Spelling, reading and restrictions reviewed. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded. Every retained/new Japanese context, German rendering and guidance matches selected scope."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "wegwerfen. Exact 捨てる/すてる, JMdict 1322320, senses 1: to throw away, to cast away, to dump, to discard. Spelling, reading and restrictions reviewed. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded. Every retained/new Japanese context, German rendering and guidance matches selected scope.",
+        "japanese": "ゴミを捨てます。 / 古い新聞を捨ててください。 / ここにゴミを捨てないでください。持って帰ってください。",
+        "romanization": "Headword suteru; Gomi o sutemasu. / Furui shinbun o sutete kudasai. / Koko ni gomi o sutenaide kudasai. Motte kaette kudasai.. Modified Hepburn checked: full expressions, compounds, particles, long vowels and doubled consonants.",
+        "translation": "Ich werfe den Müll weg. / Bitte werfen Sie die alten Zeitungen weg. / Bitte werfen Sie hier keinen Müll weg. Nehmen Sie ihn mit nach Hause.",
+        "contexts": [
+          "Müll entsorgen: allgemeine Handlung.",
+          "Zum Entsorgen alter Zeitungen auffordern.",
+          "Müllablage an einem Ort verbieten und Mitnehmen verlangen: Ortsregel und Alternative."
+        ],
+        "lexical": "Exact 捨てる/すてる, JMdict 1322320, senses 1: to throw away, to cast away, to dump, to discard. Spelling, reading and restrictions reviewed. Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded. Every retained/new Japanese context, German rendering and guidance matches selected scope. Added reviewed spelling alias(es) 棄てる for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Neutral modern everyday selected vocabulary. Concrete request, comparison, preparation, physical-state and change contexts inspected; standard register matches each example.",
+        "transitivity": "Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded.",
+        "conjugation": "Transitive Ichidan physical discard1, destinationに and objectを. Prohibition followed by alternative action; abandon-person2/give-up3 excluded.",
+        "level": "Existing N5 retained: familiar everyday verbs and adverbs, physical changes and common licensed Suru uses. Guided German explanations clarify useful everyday contexts while all progress identities stay stable."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n5:637: aliases [\"棄てる\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2047a38b73951868fd6a0ffcaf642579aaedde167207e9c59e6c1180a28a548b",
+        "approvalHash": "3260f15983d4f7bd992f9851b8a558481ec33e1d61dcabee9566c5847c85ccd0"
+      }
+    },
+    {
+      "id": "vocab-n5:455",
+      "revisionId": "203b-reference-target-vocab-n5-455",
+      "state": "accepted",
+      "predecessorHash": "1568febdab1c6ec3577bfad75187c21e4e2d524d5d03811f3f04078c8574e2bc",
+      "originalHash": "1568febdab1c6ec3577bfad75187c21e4e2d524d5d03811f3f04078c8574e2bc",
+      "predecessorRevisionHash": "37adad8a80c56565be725dbde2125ebafcc445253e47e04d4c12a81d199bd5e2",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "慶ぶ"
+        ]
+      },
+      "rationale": "Spelling alias review: 慶ぶ added to 喜ぶ/よろこぶ. tanos row repeats the spelling 慶ぶ in the reading column and puts the kana reading よろこぶ in the gloss column (misplaced-reading notation). JMdict 1218760 喜ぶ/悦ぶ/歓ぶ/慶ぶ/欣ぶ【よろこぶ】 lists 慶ぶ (a rare-kanji form, used for congratulatory joy) in the same entry 'to be delighted; to congratulate'. Reviewed card vocab-n5:455 喜ぶ/よろこぶ 'sich freuen' teaches this word; 慶ぶ is added as alias. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1218760; spelling=喜ぶ; reading=よろこぶ; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "JMdict1218760 Bedeutung1: sich freuen, ausdrücklich transitiv und intransitiv zulässig. Objektlose beobachtete Freude und positive Geschenkannahme mit Sprecherbezug sind getrennt; gratulieren und bereitwillig tun aus weiteren Bedeutungen nicht ausgewählt. Godan-バ mit 子供が bei intransitiver Freude beziehungsweise プレゼントを als erfreulich aufgenommenem Objekt. 喜んで ist korrekte て-Form; くれました bringt die wertschätzende Sprecherperspektive zum Ausdruck.",
+          "selected": {
+            "sequence": "1218760",
+            "spelling": "喜ぶ",
+            "reading": "よろこぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'bu' ending",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be delighted",
+                  "to be glad",
+                  "to be pleased",
+                  "to rejoice"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1218760; 喜ぶ/慶ぶ/よろこぶ",
+          "finding": "v5b: to be delighted; to congratulate — 慶ぶ listed (rare kanji form) (reference 慶ぶ|慶ぶ#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Exakte UniDic-Gesamtform sys.dic@277061960 mit orth=喜ぶ, kana=ヨロコブ, lemma=喜ぶ, POS=動詞/一般/*/*, 五段-バ行/終止形-一般, aType=3. Gewählter Sinn und aktuelle Wörterbuchform geprüft.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@277061960",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Genau 喜ぶ/ヨロコブ, Lexeme 喜ぶ, 動詞/一般/*/*, 五段-バ行, 終止形-一般, aType 3. JMdict1218760 Bedeutung1: sich freuen, ausdrücklich transitiv und intransitiv zulässig. Objektlose beobachtete Freude und positive Geschenkannahme mit Sprecherbezug sind getrennt; gratulieren und bereitwillig tun aus weiteren Bedeutungen nicht ausgewählt.",
+            "match": {
+              "word": "喜ぶ",
+              "reading": "よろこぶ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-バ行; 終止形-一般",
+              "sense": "喜ぶ als sich freuen"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich freuen — JMdict1218760 Bedeutung1: sich freuen, ausdrücklich transitiv und intransitiv zulässig. Objektlose beobachtete Freude und positive Geschenkannahme mit Sprecherbezug sind getrennt; gratulieren und bereitwillig tun aus weiteren Bedeutungen nicht ausgewählt.",
+        "japanese": "子供が喜んでいます。 / 友達はプレゼントを喜んでくれました。 — Godan-バ mit 子供が bei intransitiver Freude beziehungsweise プレゼントを als erfreulich aufgenommenem Objekt. 喜んで ist korrekte て-Form; くれました bringt die wertschätzende Sprecherperspektive zum Ausdruck.",
+        "romanization": "Kodomo ga yorokonde imasu. / Tomodachi wa purezento o yorokonde kuremashita. — Modified Hepburn, Makronen, richtige て-Formen und Partikeln wa/o/e einzeln geprüft; moraisches n vor Vokal in ten'in getrennt.",
+        "translation": "Das Kind freut sich. / Zu meiner Freude hat sich mein Freund über das Geschenk gefreut. — Godan-バ mit 子供が bei intransitiver Freude beziehungsweise プレゼントを als erfreulich aufgenommenem Objekt. 喜んで ist korrekte て-Form; くれました bringt die wertschätzende Sprecherperspektive zum Ausdruck. Zustandsresultat, Handlungsrichtung und Auslöser sind treu übersetzt; kein unbelegter Trocknungsgrund oder laufende Zustandsveränderung ergänzt.",
+        "contexts": [
+          "Ein erfreutes Kind beobachten.",
+          "Wertschätzend berichten, dass ein Freund ein Geschenk freudig aufgenommen hat."
+        ],
+        "lexical": "JMdict1218760 Bedeutung1: sich freuen, ausdrücklich transitiv und intransitiv zulässig. Objektlose beobachtete Freude und positive Geschenkannahme mit Sprecherbezug sind getrennt; gratulieren und bereitwillig tun aus weiteren Bedeutungen nicht ausgewählt. Added reviewed spelling alias(es) 慶ぶ for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Neutraler Alltag in höflichen Fragen, Bitten und Aussagen; wörtlich ausgewählte Grundbedeutungen.",
+        "transitivity": "Godan-バ mit 子供が bei intransitiver Freude beziehungsweise プレゼントを als erfreulich aufgenommenem Objekt. 喜んで ist korrekte て-Form; くれました bringt die wertschätzende Sprecherperspektive zum Ausdruck.",
+        "conjugation": "Vorhandene Verbgruppe/Lesung erhalten und genaue Satzformen sowie mögliche resultative ている-Auslegung geprüft. Godan-バ mit 子供が bei intransitiver Freude beziehungsweise プレゼントを als erfreulich aufgenommenem Objekt. 喜んで ist korrekte て-Form; くれました bringt die wertschätzende Sprecherperspektive zum Ausdruck.",
+        "level": "N5 bleibt erhalten; konkrete Grundwortfunktionen in diesen einzeln geprüften Kontexten: Ein erfreutes Kind beobachten. / Wertschätzend berichten, dass ein Freund ein Geschenk freudig aufgenommen hat."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n5:455: aliases [\"慶ぶ\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "09b8a5a79f9a9c648e9424d36594937a9dea44881a39a60f034a762dfb189b82",
+        "approvalHash": "d37511efa455e30a4380c08f93e0944235451c49e40e61570929ec275b89a3bb"
+      }
+    },
+    {
+      "id": "vocab-n5:1352",
+      "revisionId": "203b-reference-target-vocab-n5-1352",
+      "state": "accepted",
+      "predecessorHash": "d43d3e5a42d9c5929608162b389d45f4a165907c8cdf4bbf3731a414ea0e11e2",
+      "originalHash": "d43d3e5a42d9c5929608162b389d45f4a165907c8cdf4bbf3731a414ea0e11e2",
+      "predecessorRevisionHash": "776d800f706a9d00b6f3a8ae2d8a866bc594d65211977353f5128dc0d0f48f74",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "小母さん"
+        ]
+      },
+      "rationale": "Spelling alias review: 小母さん added to おばさん/おばさん. Source 小母さん/おばさん (old lady; ma'am) is JMdict 2261510 小母さん【おばさん】 (fam, uk), so the kana form おばさん is its usual spelling. Card vocab-n5:1352 おばさん/おばさん teaches 'Frau mittleren Alters' with the identical reading, so 小母さん is added as alias. Notes, examples, meaning and pitch of the accepted card are unchanged and were reread against the alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=2261500; spelling=おばさん; reading=おばさん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "2261500/1 aunt exact rawhon/fam/uk and relative-ageorthnotes reviewed; separate2261510/1 familiarlady actualrawinspected and boundadditionaldictionaryproof. ActualcompleteOJAD4456/4457/12022 all0. Explicitownauntteapartnership versus unfamiliarwomanaskedfordirections substantivelydistinct. 私の kinrelation/おばさんと partner/お茶をdrunkobject/飲むGodanpast versus 知らないattributiveunknownperson/にaskedperson/道をaskedcontent/聞くGodanpolitepast. Obasan shorta/ochaboundprefix/no falsegrandmothertranslation.",
+          "selected": {
+            "sequence": "2261500",
+            "spelling": "おばさん",
+            "reading": "おばさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "familiar language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "aunt"
+                ],
+                "notes": [
+                  "伯母さん is older than one's parent and 叔母さん is younger"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict (EDRDG)",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=2261510; kanaおばさん; sense1 familiarlady",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Separateraw2261510/1 familiarlady/Maam usu.kana,vocative inspected; supportsnonkinreferencenoteandexplicitunknownwomancontext, notmergedwithaunt2261500.",
+          "selected": {
+            "sequence": "2261510",
+            "spelling": "おばさん",
+            "reading": "おばさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "familiar language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "old lady",
+                  "ma'am"
+                ],
+                "notes": [
+                  "vocative"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2261510; 小母さん/おばさん",
+          "finding": "n fam uk: old lady; ma'am; kana is usual form (reference 小母さん|おばさん#0)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "ActualwholeOJAD4456伯母さん/4457叔母さん and exact12022おばさん dictionaryお/ば/さ/ん fourmora, postinitialplainhigh/nopeak0 all directlyinspected. Numericcontournotderivedfrombaseば orばさん.",
+        "evidence": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved whole-form UTF-8 HTML SHA256 9990c203e8e5d7cb7f104ddbd5e482af7eb283e0ae1100fa8d198b0efe78c870",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%8A%E3%81%B0%E3%81%95%E3%82%93#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "patterns": [
+              0
+            ],
+            "finding": "ActualwholeOJAD4456伯母さん/4457叔母さん and exact12022おばさん dictionaryお/ば/さ/ん fourmora, postinitialplainhigh/nopeak0 all directlyinspected. Numericcontournotderivedfrombaseば orばさん.",
+            "match": {
+              "word": "おばさん",
+              "reading": "おばさん",
+              "grammaticalForm": "Nomen; exact complete dictionary form",
+              "sense": "おばさん als Tante; Frau mittleren Alters"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "candidate-coverage"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tante; Frau mittleren Alters — 2261500/1 aunt exact rawhon/fam/uk and relative-ageorthnotes reviewed; separate2261510/1 familiarlady actualrawinspected and boundadditionaldictionaryproof. ActualcompleteOJAD4456/4457/12022 all0. Explicitownauntteapartnership versus unfamiliarwomanaskedfordirections substantivelydistinct.",
+        "japanese": "私のおばさんとお茶を飲みました。 / 知らないおばさんに道を聞きました。 — 私の kinrelation/おばさんと partner/お茶をdrunkobject/飲むGodanpast versus 知らないattributiveunknownperson/にaskedperson/道をaskedcontent/聞くGodanpolitepast. Obasan shorta/ochaboundprefix/no falsegrandmothertranslation.",
+        "romanization": "Watashi no obasan to ocha o nomimashita. / Shiranai obasan ni michi o kikimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ich habe mit meiner Tante Tee getrunken. / Ich habe eine mir unbekannte Frau nach dem Weg gefragt. — 私の kinrelation/おばさんと partner/お茶をdrunkobject/飲むGodanpast versus 知らないattributiveunknownperson/にaskedperson/道をaskedcontent/聞くGodanpolitepast. Obasan shorta/ochaboundprefix/no falsegrandmothertranslation.",
+        "contexts": [
+          "Mit eigener Tante Tee trinken",
+          "Unbekannte Frau nach Weg fragen"
+        ],
+        "lexical": "2261500/1 aunt exact rawhon/fam/uk and relative-ageorthnotes reviewed; separate2261510/1 familiarlady actualrawinspected and boundadditionaldictionaryproof. ActualcompleteOJAD4456/4457/12022 all0. Explicitownauntteapartnership versus unfamiliarwomanaskedfordirections substantivelydistinct. Added reviewed spelling alias(es) 小母さん for the same reading and sense (form of the same JMdict entry or its usual kana writing).",
+        "register": "Familypolitefamiliarlabel and descriptivestrangerreference; notformaladdressadvice.",
+        "transitivity": "私の kinrelation/おばさんと partner/お茶をdrunkobject/飲むGodanpast versus 知らないattributiveunknownperson/にaskedperson/道をaskedcontent/聞くGodanpolitepast. Obasan shorta/ochaboundprefix/no falsegrandmothertranslation.",
+        "conjugation": "Kartenwortart Nomen; Wortformen und begleitende Verben/Adjektive einzeln geprüft. 私の kinrelation/おばさんと partner/お茶をdrunkobject/飲むGodanpast versus 知らないattributiveunknownperson/にaskedperson/道をaskedcontent/聞くGodanpolitepast. Obasan shorta/ochaboundprefix/no falsegrandmothertranslation.",
+        "level": "N5 unverändert; konkrete alltägliche Aussagefunktionen: Mit eigener Tante Tee trinken / Unbekannte Frau nach Weg fragen"
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n2-reference-closing-author-203",
+        "finding": "Author reread the exact final card vocab-n5:1352: aliases [\"小母さん\"], German note, every Japanese example with Modified Hepburn and German, the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "839136178aa1d874d7b82606e445d6c62c8065430f3d8e06547dc104c080f73f",
+        "approvalHash": "a34e3dae69f8e952819c265b5d7e68bcacbd360725ce8dc710418bcc0fe4e75b"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
