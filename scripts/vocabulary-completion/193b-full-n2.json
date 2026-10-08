@@ -1,0 +1,3077 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:432",
+      "revisionId": "193b-n2-enrichment-vocab-n2-432",
+      "state": "accepted",
+      "predecessorHash": "5c8c2bc094900d39cf730ecebb076ccae8cf67ec7587cda27e42da2a93a21717",
+      "originalHash": "5c8c2bc094900d39cf730ecebb076ccae8cf67ec7587cda27e42da2a93a21717",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "患者の容態が安定した。",
+            "romaji": "Kanja no youtai ga antei shita.",
+            "german": "Der Zustand des Patienten hat sich stabilisiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "安定する heißt „stabil werden/sein, sich stabilisieren“ und ist intransitiv: 容態が安定する, 収入が安定している, 天気が安定する. Attributiv steht meist 安定した: 安定した生活 „ein gesichertes Leben“; das Gegenteil ist 不安定 „instabil, unbeständig“. Transitiv „etwas stabilisieren“ heißt 安定させる.",
+        "examples": [
+          {
+            "japanese": "患者の容態が安定した。",
+            "romaji": "Kanja no youtai ga antei shita.",
+            "german": "Der Zustand des Patienten hat sich stabilisiert."
+          },
+          {
+            "japanese": "公務員は収入が安定しているので人気がある。",
+            "romaji": "Koumuin wa shuunyuu ga antei shite iru node ninki ga aru.",
+            "german": "Stellen im öffentlichen Dienst sind beliebt, weil das Einkommen sicher ist."
+          },
+          {
+            "japanese": "週末は天気が安定しないでしょう。",
+            "romaji": "Shuumatsu wa tenki ga antei shinai deshou.",
+            "german": "Am Wochenende wird das Wetter wohl unbeständig sein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 9ab40a47d201efaca99bf5a15da1af7ac60cce480048de8e3407d226080d96f2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%89%E5%AE%9A%E3%81%99%E3%82%8B#word_1879",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 安定する/あんていする read; accent_top positions [0] (0 = no accent_top). Exact whole 安定する/あんていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "安定する",
+              "reading": "あんていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 安定する/あんていする \"sich stabilisieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1154120 sense 1, noun / suru verb: stability, steadiness, equilibrium Pitch: Verified [0] via exact OJAD dictionary-form cell. 安定する heißt „stabil werden/sein, sich stabilisieren“ und ist intransitiv: 容態が安定する, 収入が安定している, 天気が安定する. Attributiv steht meist 安定した: 安定した生活 „ein gesichertes Leben“; das Gegenteil ist 不安定 „instabil, unbeständig“. Transitiv „etwas stabilisieren“ heißt 安定させる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1154120; spelling=安定する; reading=あんていする",
+          "finding": "JMdict 1154120 sense 1, noun / suru verb: stability, steadiness, equilibrium"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 安定する/あんていする read; accent_top positions [0] (0 = no accent_top). Exact whole 安定する/あんていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 9ab40a47d201efaca99bf5a15da1af7ac60cce480048de8e3407d226080d96f2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AE%89%E5%AE%9A%E3%81%99%E3%82%8B#word_1879",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 安定する/あんていする read; accent_top positions [0] (0 = no accent_top). Exact whole 安定する/あんていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "安定する",
+              "reading": "あんていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 安定する/あんていする \"sich stabilisieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich stabilisieren. JMdict 1154120 sense 1, noun / suru verb: stability, steadiness, equilibrium",
+        "japanese": "患者の容態が安定した。 / 公務員は収入が安定しているので人気がある。 / 週末は天気が安定しないでしょう。",
+        "romanization": "antei suru; Kanja no youtai ga antei shita. / Koumuin wa shuunyuu ga antei shite iru node ninki ga aru. / Shuumatsu wa tenki ga antei shinai deshou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Zustand des Patienten hat sich stabilisiert. / Stellen im öffentlichen Dienst sind beliebt, weil das Einkommen sicher ist. / Am Wochenende wird das Wetter wohl unbeständig sein.",
+        "contexts": [
+          "Patient in hospital",
+          "Secure civil-service income",
+          "Weekend weather forecast"
+        ],
+        "lexical": "JMdict 1154120 sense 1, noun / suru verb: stability, steadiness, equilibrium",
+        "register": "neutral",
+        "transitivity": "intransitive (〜が安定する); causative 安定させる for 'stabilize something'",
+        "conjugation": "suru verb (安定する → 安定して, 安定しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:432 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Patient in hospital; Secure civil-service income; Weekend weather forecast), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7e2b9a36c733a7db24e3ebb610d8a688dbbfba0ec1795b4042147735d6ab8195",
+        "approvalHash": "3033b319617dcaee78809d4aa65dc187989d3ecb464577f1b5ca6a575954e0ee"
+      }
+    },
+    {
+      "id": "vocab-n2:433",
+      "revisionId": "193b-n2-enrichment-vocab-n2-433",
+      "state": "accepted",
+      "predecessorHash": "d745f5529dea343c364d5da0b67780c1685e590028ffadfa7fd8f706656d2a40",
+      "originalHash": "d745f5529dea343c364d5da0b67780c1685e590028ffadfa7fd8f706656d2a40",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "経済成長が停滞している。",
+            "romaji": "Keizai seichou ga teitai shite iru.",
+            "german": "Das Wirtschaftswachstum stagniert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "停滞する heißt „stagnieren, stocken, nicht vorankommen“ und ist intransitiv: 経済が停滞する, 議論が停滞する, im Wetterbericht 前線が停滞する „eine Front verharrt“. Es betont, dass etwas, das sich bewegen sollte, auf der Stelle tritt. Für den Verkehrsstau sagt man dagegen 渋滞; 低迷 beschreibt eher ein längeres Verharren auf niedrigem Niveau (Umsätze, Kurse).",
+        "examples": [
+          {
+            "japanese": "経済成長が停滞している。",
+            "romaji": "Keizai seichou ga teitai shite iru.",
+            "german": "Das Wirtschaftswachstum stagniert."
+          },
+          {
+            "japanese": "リーダーが不在で、プロジェクトが停滞している。",
+            "romaji": "Riidaa ga fuzai de, purojekuto ga teitai shite iru.",
+            "german": "Ohne Leiter tritt das Projekt auf der Stelle."
+          },
+          {
+            "japanese": "梅雨前線が本州付近に停滞し、雨が続いている。",
+            "romaji": "Tsuyu zensen ga Honshuu fukin ni teitai shi, ame ga tsuzuite iru.",
+            "german": "Die Regenfront verharrt über Honshū, und es regnet weiter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 e5d06b1f5375f5f4df920bc4639582cf22f27f2791b7c0ae31789e3ef3b66e36",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%81%9C%E6%BB%9E%E3%81%99%E3%82%8B#word_2489",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 停滞する/ていたいする read; accent_top positions [0] (0 = no accent_top). Exact whole 停滞する/ていたいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "停滞する",
+              "reading": "ていたいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 停滞する/ていたいする \"stagnieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1435010 sense 1, noun / suru verb: stagnation, standstill, tie-up, delay Pitch: Verified [0] via exact OJAD dictionary-form cell. 停滞する heißt „stagnieren, stocken, nicht vorankommen“ und ist intransitiv: 経済が停滞する, 議論が停滞する, im Wetterbericht 前線が停滞する „eine Front verharrt“. Es betont, dass etwas, das sich bewegen sollte, auf der Stelle tritt. Für den Verkehrsstau sagt man dagegen 渋滞; 低迷 beschreibt eher ein längeres Verharren auf niedrigem Niveau (Umsätze, Kurse). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1435010; spelling=停滞する; reading=ていたいする",
+          "finding": "JMdict 1435010 sense 1, noun / suru verb: stagnation, standstill, tie-up, delay"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 停滞する/ていたいする read; accent_top positions [0] (0 = no accent_top). Exact whole 停滞する/ていたいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 e5d06b1f5375f5f4df920bc4639582cf22f27f2791b7c0ae31789e3ef3b66e36",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%81%9C%E6%BB%9E%E3%81%99%E3%82%8B#word_2489",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 停滞する/ていたいする read; accent_top positions [0] (0 = no accent_top). Exact whole 停滞する/ていたいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "停滞する",
+              "reading": "ていたいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 停滞する/ていたいする \"stagnieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "stagnieren. JMdict 1435010 sense 1, noun / suru verb: stagnation, standstill, tie-up, delay",
+        "japanese": "経済成長が停滞している。 / リーダーが不在で、プロジェクトが停滞している。 / 梅雨前線が本州付近に停滞し、雨が続いている。",
+        "romanization": "teitai suru; Keizai seichou ga teitai shite iru. / Riidaa ga fuzai de, purojekuto ga teitai shite iru. / Tsuyu zensen ga Honshuu fukin ni teitai shi, ame ga tsuzuite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Wirtschaftswachstum stagniert. / Ohne Leiter tritt das Projekt auf der Stelle. / Die Regenfront verharrt über Honshū, und es regnet weiter.",
+        "contexts": [
+          "Stagnant economy",
+          "Project without a leader",
+          "Rainy-season weather report"
+        ],
+        "lexical": "JMdict 1435010 sense 1, noun / suru verb: stagnation, standstill, tie-up, delay",
+        "register": "formal / written",
+        "transitivity": "intransitive (〜が停滞する)",
+        "conjugation": "suru verb (停滞する → 停滞して, 停滞しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:433 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Stagnant economy; Project without a leader; Rainy-season weather report), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fbb695549ba3f6136a8ddf8770b1bd1ba14288a6f7416d573035b89f86f1800b",
+        "approvalHash": "a58e87db5702138d7147c24f4784f172b52170888fd8bff8eb006274513b63bb"
+      }
+    },
+    {
+      "id": "vocab-n2:434",
+      "revisionId": "193b-n2-enrichment-vocab-n2-434",
+      "state": "accepted",
+      "predecessorHash": "96b12f6c71728cff19a95b6159547bcbe10bb37312f8b71f86f18d32dfee8310",
+      "originalHash": "96b12f6c71728cff19a95b6159547bcbe10bb37312f8b71f86f18d32dfee8310",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "地球は二十四時間で一回転する。",
+            "romaji": "Chikyuu wa nijuuyo jikan de ikkaiten suru.",
+            "german": "Die Erde dreht sich einmal in vierundzwanzig Stunden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "回転する heißt „sich drehen, rotieren“ und ist intransitiv: 車輪が回転する, 地球が回転する; transitiv sagt man 回転させる oder alltäglich 回す (intransitiv 回る). Übertragen: 頭の回転が速い „schnell denken“, 客の回転がいい „hoher Kundendurchlauf“, 回転ずし „Förderband-Sushi“. Im Vergleich zu 回る klingt 回転 technischer und präziser.",
+        "examples": [
+          {
+            "japanese": "地球は二十四時間で一回転する。",
+            "romaji": "Chikyuu wa nijuuyo jikan de ikkaiten suru.",
+            "german": "Die Erde dreht sich einmal in vierundzwanzig Stunden."
+          },
+          {
+            "japanese": "あの人は頭の回転が速くて、すぐに答えを出す。",
+            "romaji": "Ano hito wa atama no kaiten ga hayakute, sugu ni kotae o dasu.",
+            "german": "Er denkt sehr schnell und hat sofort eine Antwort parat."
+          },
+          {
+            "japanese": "扇風機の羽根が回転しなくなった。",
+            "romaji": "Senpuuki no hane ga kaiten shinaku natta.",
+            "german": "Die Flügel des Ventilators drehen sich nicht mehr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 057d1a54d7fa5f0e4f95fa0234db1d62c9901324d6e4398e1c6312cea5bdd56a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%9B%9E%E8%BB%A2%E3%81%99%E3%82%8B#word_1949",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 回転する/かいてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 回転する/かいてんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "回転する",
+              "reading": "かいてんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 回転する/かいてんする \"sich drehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1199640 senses 1–3, noun / suru verb: rotation, turn, spin; working (of the mind); turnover Pitch: Verified [0] via exact OJAD dictionary-form cell. 回転する heißt „sich drehen, rotieren“ und ist intransitiv: 車輪が回転する, 地球が回転する; transitiv sagt man 回転させる oder alltäglich 回す (intransitiv 回る). Übertragen: 頭の回転が速い „schnell denken“, 客の回転がいい „hoher Kundendurchlauf“, 回転ずし „Förderband-Sushi“. Im Vergleich zu 回る klingt 回転 technischer und präziser. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1199640; spelling=回転する; reading=かいてんする",
+          "finding": "JMdict 1199640 senses 1–3, noun / suru verb: rotation, turn, spin; working (of the mind); turnover"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 回転する/かいてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 回転する/かいてんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 057d1a54d7fa5f0e4f95fa0234db1d62c9901324d6e4398e1c6312cea5bdd56a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%9B%9E%E8%BB%A2%E3%81%99%E3%82%8B#word_1949",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 回転する/かいてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 回転する/かいてんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "回転する",
+              "reading": "かいてんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 回転する/かいてんする \"sich drehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich drehen. JMdict 1199640 senses 1–3, noun / suru verb: rotation, turn, spin; working (of the mind); turnover",
+        "japanese": "地球は二十四時間で一回転する。 / あの人は頭の回転が速くて、すぐに答えを出す。 / 扇風機の羽根が回転しなくなった。",
+        "romanization": "kaiten suru; Chikyuu wa nijuuyo jikan de ikkaiten suru. / Ano hito wa atama no kaiten ga hayakute, sugu ni kotae o dasu. / Senpuuki no hane ga kaiten shinaku natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Erde dreht sich einmal in vierundzwanzig Stunden. / Er denkt sehr schnell und hat sofort eine Antwort parat. / Die Flügel des Ventilators drehen sich nicht mehr.",
+        "contexts": [
+          "Earth's rotation",
+          "Quick-witted person",
+          "Broken fan"
+        ],
+        "lexical": "JMdict 1199640 senses 1–3, noun / suru verb: rotation, turn, spin; working (of the mind); turnover",
+        "register": "neutral",
+        "transitivity": "intransitive (〜が回転する); causative 回転させる (cf. 回す / 回る)",
+        "conjugation": "suru verb (回転する → 回転して, 回転しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:434 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Earth's rotation; Quick-witted person; Broken fan), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e3d9af821beb7ed9199728164bd3a50b484a7e13e921bf6eb7cc1a4c2c6249bc",
+        "approvalHash": "a22a24ceab48b0543adf3ffc0174f9a31574845d298a32c2ee3134c0a4dbd2ea"
+      }
+    },
+    {
+      "id": "vocab-n2:435",
+      "revisionId": "193b-n2-enrichment-vocab-n2-435",
+      "state": "accepted",
+      "predecessorHash": "aa24216e6251d094a0c2d098647e735dbcd1a38717929ec47c20df5ba4250c21",
+      "originalHash": "aa24216e6251d094a0c2d098647e735dbcd1a38717929ec47c20df5ba4250c21",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "地震で建物が激しく振動した。",
+            "romaji": "Jishin de tatemono ga hageshiku shindou shita.",
+            "german": "Das Gebäude vibrierte durch das Erdbeben heftig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "振動する heißt „vibrieren, schwingen“ und ist intransitiv: 携帯が振動する, 振り子が振動する; als Nomen 振動を感じる „eine Erschütterung spüren“, 振動数 „Frequenz“. Alltäglicher ist 揺れる („schwanken, wackeln“); 振動 klingt technisch und meint schnelle, wiederholte Bewegungen. Bei Erdbeben findet man auch die Schreibung 震動.",
+        "examples": [
+          {
+            "japanese": "地震で建物が激しく振動した。",
+            "romaji": "Jishin de tatemono ga hageshiku shindou shita.",
+            "german": "Das Gebäude vibrierte durch das Erdbeben heftig."
+          },
+          {
+            "japanese": "会議中にポケットの中でスマホが振動した。",
+            "romaji": "Kaigichuu ni poketto no naka de sumaho ga shindou shita.",
+            "german": "Während der Besprechung vibrierte das Smartphone in meiner Tasche."
+          },
+          {
+            "japanese": "洗濯機の振動がうるさくて眠れない。",
+            "romaji": "Sentakuki no shindou ga urusakute nemurenai.",
+            "german": "Die Waschmaschine vibriert so laut, dass ich nicht schlafen kann."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 f08de42bbec4b379b0848deb922a1306c4eb4c4266b6c0cc73b734d8fab2edae",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8C%AF%E5%8B%95%E3%81%99%E3%82%8B#word_2304",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 振動する/しんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 振動する/しんどうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "振動する",
+              "reading": "しんどうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 振動する/しんどうする \"vibrieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1361420 sense 1, noun / suru verb: oscillation, vibration, swing Pitch: Verified [0] via exact OJAD dictionary-form cell. 振動する heißt „vibrieren, schwingen“ und ist intransitiv: 携帯が振動する, 振り子が振動する; als Nomen 振動を感じる „eine Erschütterung spüren“, 振動数 „Frequenz“. Alltäglicher ist 揺れる („schwanken, wackeln“); 振動 klingt technisch und meint schnelle, wiederholte Bewegungen. Bei Erdbeben findet man auch die Schreibung 震動. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1361420; spelling=振動する; reading=しんどうする",
+          "finding": "JMdict 1361420 sense 1, noun / suru verb: oscillation, vibration, swing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 振動する/しんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 振動する/しんどうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 f08de42bbec4b379b0848deb922a1306c4eb4c4266b6c0cc73b734d8fab2edae",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8C%AF%E5%8B%95%E3%81%99%E3%82%8B#word_2304",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 振動する/しんどうする read; accent_top positions [0] (0 = no accent_top). Exact whole 振動する/しんどうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "振動する",
+              "reading": "しんどうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 振動する/しんどうする \"vibrieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "vibrieren. JMdict 1361420 sense 1, noun / suru verb: oscillation, vibration, swing",
+        "japanese": "地震で建物が激しく振動した。 / 会議中にポケットの中でスマホが振動した。 / 洗濯機の振動がうるさくて眠れない。",
+        "romanization": "shindou suru; Jishin de tatemono ga hageshiku shindou shita. / Kaigichuu ni poketto no naka de sumaho ga shindou shita. / Sentakuki no shindou ga urusakute nemurenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Gebäude vibrierte durch das Erdbeben heftig. / Während der Besprechung vibrierte das Smartphone in meiner Tasche. / Die Waschmaschine vibriert so laut, dass ich nicht schlafen kann.",
+        "contexts": [
+          "Earthquake shaking",
+          "Phone in a meeting",
+          "Noisy washing machine"
+        ],
+        "lexical": "JMdict 1361420 sense 1, noun / suru verb: oscillation, vibration, swing",
+        "register": "neutral / technical",
+        "transitivity": "intransitive (〜が振動する)",
+        "conjugation": "suru verb (振動する → 振動して, 振動しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:435 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Earthquake shaking; Phone in a meeting; Noisy washing machine), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "aae18d7c5f84ce7518a779565f884294d48c642a2aa6520913606a69354a2110",
+        "approvalHash": "eed45756646e08c62995e41add6e2e0adc4e323f359d77cb916947ef5abebadc"
+      }
+    },
+    {
+      "id": "vocab-n2:436",
+      "revisionId": "193b-n2-enrichment-vocab-n2-436",
+      "state": "accepted",
+      "predecessorHash": "ad27113a05e428fbe20a708ecce4fc87b97373936655d32752d125bafb380598",
+      "originalHash": "ad27113a05e428fbe20a708ecce4fc87b97373936655d32752d125bafb380598",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "金属は熱を加えると膨張する。",
+            "romaji": "Kinzoku wa netsu wo kuwaeru to bouchou suru.",
+            "german": "Metall dehnt sich aus, wenn man es erhitzt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "膨張する heißt „sich ausdehnen, anschwellen“ und ist intransitiv: 金属が熱で膨張する, 宇宙が膨張する. Übertragen wird es für Haushalte, Städte oder Kosten gebraucht, die immer weiter wachsen: 予算が膨張する, 都市の膨張. Gegenteil: 収縮. Im Alltag sagt man für einen Ballon oder Hoffnungen eher 膨らむ; 膨張 ist fach- und schriftsprachlich.",
+        "examples": [
+          {
+            "japanese": "金属は熱を加えると膨張する。",
+            "romaji": "Kinzoku wa netsu wo kuwaeru to bouchou suru.",
+            "german": "Metall dehnt sich aus, wenn man es erhitzt."
+          },
+          {
+            "japanese": "宇宙は今も膨張し続けていると考えられている。",
+            "romaji": "Uchuu wa ima mo bouchou shitsuzukete iru to kangaerarete iru.",
+            "german": "Man nimmt an, dass sich das Universum noch immer ausdehnt."
+          },
+          {
+            "japanese": "国の予算が年々膨張している。",
+            "romaji": "Kuni no yosan ga nennen bouchou shite iru.",
+            "german": "Der Staatshaushalt bläht sich von Jahr zu Jahr weiter auf."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1520010 sense 1, noun / suru verb: expansion, swelling, increase, growth Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 膨張する heißt „sich ausdehnen, anschwellen“ und ist intransitiv: 金属が熱で膨張する, 宇宙が膨張する. Übertragen wird es für Haushalte, Städte oder Kosten gebraucht, die immer weiter wachsen: 予算が膨張する, 都市の膨張. Gegenteil: 収縮. Im Alltag sagt man für einen Ballon oder Hoffnungen eher 膨らむ; 膨張 ist fach- und schriftsprachlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1520010; spelling=膨張する; reading=ぼうちょうする",
+          "finding": "JMdict 1520010 sense 1, noun / suru verb: expansion, swelling, increase, growth"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 膨張する/ぼうちょうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 膨張する/ぼうちょうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%86%A8%E5%BC%B5%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 膨張する/ぼうちょうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 04d08ae71508e879875436a876aa14343cdc62a2384cc96de1b5f95adbeab6f8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%86%A8%E5%BC%B5%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 膨張する/ぼうちょうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich ausdehnen. JMdict 1520010 sense 1, noun / suru verb: expansion, swelling, increase, growth",
+        "japanese": "金属は熱を加えると膨張する。 / 宇宙は今も膨張し続けていると考えられている。 / 国の予算が年々膨張している。",
+        "romanization": "bouchou suru; Kinzoku wa netsu wo kuwaeru to bouchou suru. / Uchuu wa ima mo bouchou shitsuzukete iru to kangaerarete iru. / Kuni no yosan ga nennen bouchou shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Metall dehnt sich aus, wenn man es erhitzt. / Man nimmt an, dass sich das Universum noch immer ausdehnt. / Der Staatshaushalt bläht sich von Jahr zu Jahr weiter auf.",
+        "contexts": [
+          "Heated metal",
+          "Expanding universe",
+          "Growing state budget"
+        ],
+        "lexical": "JMdict 1520010 sense 1, noun / suru verb: expansion, swelling, increase, growth",
+        "register": "written / technical",
+        "transitivity": "intransitive (〜が膨張する)",
+        "conjugation": "suru verb (膨張する → 膨張して, 膨張しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:436 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Heated metal; Expanding universe; Growing state budget), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9ebf5c702d309050c96fd7aa77d347fd763aeeb373644198a601d2ba3e0ff3fb",
+        "approvalHash": "7cdc0a4030f86dbe9fe16f9af7c38aa9b8d9039c69666bc190a2f77d117ff199"
+      }
+    },
+    {
+      "id": "vocab-n2:437",
+      "revisionId": "193b-n2-enrichment-vocab-n2-437",
+      "state": "accepted",
+      "predecessorHash": "4b3dbe0b647eda07b4d8e1f9f5b70f387c71fa1972268aa1facaf9e077066825",
+      "originalHash": "4b3dbe0b647eda07b4d8e1f9f5b70f387c71fa1972268aa1facaf9e077066825",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "筋肉が収縮して力が生まれる。",
+            "romaji": "Kinniku ga shuushuku shite chikara ga umareru.",
+            "german": "Kraft entsteht, wenn sich die Muskeln zusammenziehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "収縮する heißt „sich zusammenziehen, schrumpfen“ und ist intransitiv: 筋肉が収縮する, 血管が収縮する. Es ist das Gegenteil von 膨張 und wird auch in der Wirtschaft gebraucht (市場が収縮する „der Markt schrumpft“). Für Kleidung, die beim Waschen einläuft, sagt man im Alltag 縮む; 収縮 klingt fachsprachlich (Medizin, Physik, Wirtschaft).",
+        "examples": [
+          {
+            "japanese": "筋肉が収縮して力が生まれる。",
+            "romaji": "Kinniku ga shuushuku shite chikara ga umareru.",
+            "german": "Kraft entsteht, wenn sich die Muskeln zusammenziehen."
+          },
+          {
+            "japanese": "寒いと血管が収縮して、手足が冷たくなる。",
+            "romaji": "Samui to kekkan ga shuushuku shite, teashi ga tsumetaku naru.",
+            "german": "Bei Kälte ziehen sich die Blutgefäße zusammen, und Hände und Füße werden kalt."
+          },
+          {
+            "japanese": "景気が悪くなり、国内市場が収縮している。",
+            "romaji": "Keiki ga waruku nari, kokunai shijou ga shuushuku shite iru.",
+            "german": "Durch die schlechte Konjunktur schrumpft der Binnenmarkt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1330670 sense 1, noun / suru verb: contraction, shrinking, constriction Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 収縮する heißt „sich zusammenziehen, schrumpfen“ und ist intransitiv: 筋肉が収縮する, 血管が収縮する. Es ist das Gegenteil von 膨張 und wird auch in der Wirtschaft gebraucht (市場が収縮する „der Markt schrumpft“). Für Kleidung, die beim Waschen einläuft, sagt man im Alltag 縮む; 収縮 klingt fachsprachlich (Medizin, Physik, Wirtschaft). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1330670; spelling=収縮する; reading=しゅうしゅくする",
+          "finding": "JMdict 1330670 sense 1, noun / suru verb: contraction, shrinking, constriction"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 収縮する/しゅうしゅくする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 収縮する/しゅうしゅくする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8F%8E%E7%B8%AE%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 収縮する/しゅうしゅくする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 87d90f915c1dafc257aff12f4cf0c553164d1801299eff21fe95f741da9bf3bc",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8F%8E%E7%B8%AE%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 収縮する/しゅうしゅくする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich zusammenziehen. JMdict 1330670 sense 1, noun / suru verb: contraction, shrinking, constriction",
+        "japanese": "筋肉が収縮して力が生まれる。 / 寒いと血管が収縮して、手足が冷たくなる。 / 景気が悪くなり、国内市場が収縮している。",
+        "romanization": "shuushuku suru; Kinniku ga shuushuku shite chikara ga umareru. / Samui to kekkan ga shuushuku shite, teashi ga tsumetaku naru. / Keiki ga waruku nari, kokunai shijou ga shuushuku shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Kraft entsteht, wenn sich die Muskeln zusammenziehen. / Bei Kälte ziehen sich die Blutgefäße zusammen, und Hände und Füße werden kalt. / Durch die schlechte Konjunktur schrumpft der Binnenmarkt.",
+        "contexts": [
+          "Muscle contraction",
+          "Cold hands and feet",
+          "Shrinking market"
+        ],
+        "lexical": "JMdict 1330670 sense 1, noun / suru verb: contraction, shrinking, constriction",
+        "register": "written / technical",
+        "transitivity": "intransitive (〜が収縮する)",
+        "conjugation": "suru verb (収縮する → 収縮して, 収縮しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:437 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Muscle contraction; Cold hands and feet; Shrinking market), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c34a886e6b4beb60700af78049ebdd2ebfdc76e783f8574e4148fa23d10c3269",
+        "approvalHash": "c65dde868ff44f3cb769081923d3fc062f65ba0ba8c5a1b9358e79778e06dd8b"
+      }
+    },
+    {
+      "id": "vocab-n2:438",
+      "revisionId": "193b-n2-enrichment-vocab-n2-438",
+      "state": "accepted",
+      "predecessorHash": "a326c9121110dd686588b58f93835188163526d715dc3f666df87437bf82562e",
+      "originalHash": "a326c9121110dd686588b58f93835188163526d715dc3f666df87437bf82562e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "細胞が分裂して増えていく。",
+            "romaji": "Saibou ga bunretsu shite fuete iku.",
+            "german": "Zellen vermehren sich durch Teilung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分裂する heißt „sich spalten, sich teilen“ und ist intransitiv: 細胞が分裂する (細胞分裂 „Zellteilung“), 党が二つに分裂する, 意見が分裂する. Es betont das Auseinanderbrechen von etwas, das ein Ganzes war – oft bei Gruppen, Parteien oder Ländern. Für neutrales „trennen“ benutzt man 分ける bzw. 分離; in der Physik: 核分裂 „Kernspaltung“.",
+        "examples": [
+          {
+            "japanese": "細胞が分裂して増えていく。",
+            "romaji": "Saibou ga bunretsu shite fuete iku.",
+            "german": "Zellen vermehren sich durch Teilung."
+          },
+          {
+            "japanese": "意見の対立から、党が二つに分裂した。",
+            "romaji": "Iken no tairitsu kara, tou ga futatsu ni bunretsu shita.",
+            "german": "Wegen Meinungsverschiedenheiten spaltete sich die Partei in zwei Lager."
+          },
+          {
+            "japanese": "原子力発電は核分裂のエネルギーを利用している。",
+            "romaji": "Genshiryoku hatsuden wa kakubunretsu no enerugii o riyou shite iru.",
+            "german": "Kernkraftwerke nutzen die Energie der Kernspaltung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 0cb1bfcbf55a23e066322d14e5b4181194219531df087af58d3b0224c9c1e7ab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E8%A3%82%E3%81%99%E3%82%8B#word_2673",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分裂する/ぶんれつする read; accent_top positions [0] (0 = no accent_top). Exact whole 分裂する/ぶんれつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分裂する",
+              "reading": "ぶんれつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分裂する/ぶんれつする \"sich spalten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1504510 sense 1, noun / suru verb: split, division, break up Pitch: Verified [0] via exact OJAD dictionary-form cell. 分裂する heißt „sich spalten, sich teilen“ und ist intransitiv: 細胞が分裂する (細胞分裂 „Zellteilung“), 党が二つに分裂する, 意見が分裂する. Es betont das Auseinanderbrechen von etwas, das ein Ganzes war – oft bei Gruppen, Parteien oder Ländern. Für neutrales „trennen“ benutzt man 分ける bzw. 分離; in der Physik: 核分裂 „Kernspaltung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1504510; spelling=分裂する; reading=ぶんれつする",
+          "finding": "JMdict 1504510 sense 1, noun / suru verb: split, division, break up"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 分裂する/ぶんれつする read; accent_top positions [0] (0 = no accent_top). Exact whole 分裂する/ぶんれつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 0cb1bfcbf55a23e066322d14e5b4181194219531df087af58d3b0224c9c1e7ab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E8%A3%82%E3%81%99%E3%82%8B#word_2673",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分裂する/ぶんれつする read; accent_top positions [0] (0 = no accent_top). Exact whole 分裂する/ぶんれつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分裂する",
+              "reading": "ぶんれつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分裂する/ぶんれつする \"sich spalten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich spalten. JMdict 1504510 sense 1, noun / suru verb: split, division, break up",
+        "japanese": "細胞が分裂して増えていく。 / 意見の対立から、党が二つに分裂した。 / 原子力発電は核分裂のエネルギーを利用している。",
+        "romanization": "bunretsu suru; Saibou ga bunretsu shite fuete iku. / Iken no tairitsu kara, tou ga futatsu ni bunretsu shita. / Genshiryoku hatsuden wa kakubunretsu no enerugii o riyou shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zellen vermehren sich durch Teilung. / Wegen Meinungsverschiedenheiten spaltete sich die Partei in zwei Lager. / Kernkraftwerke nutzen die Energie der Kernspaltung.",
+        "contexts": [
+          "Cell division",
+          "Party split",
+          "Nuclear power"
+        ],
+        "lexical": "JMdict 1504510 sense 1, noun / suru verb: split, division, break up",
+        "register": "neutral / formal",
+        "transitivity": "intransitive (〜が分裂する)",
+        "conjugation": "suru verb (分裂する → 分裂して, 分裂しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:438 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cell division; Party split; Nuclear power), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4f71f73dd37ad5df9968316d0c93a563439bb6c12ceecdcc69d97a1188a128c1",
+        "approvalHash": "74a8e25b9abd0c7971a1140f09b077abd2524d08b92179d2aad4b9d1104c50bc"
+      }
+    },
+    {
+      "id": "vocab-n2:439",
+      "revisionId": "193b-n2-enrichment-vocab-n2-439",
+      "state": "accepted",
+      "predecessorHash": "c04da429c06736fc67f6c9886a25ee8d65fe9d1ced52256757d019d5265e8380",
+      "originalHash": "c04da429c06736fc67f6c9886a25ee8d65fe9d1ced52256757d019d5265e8380",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "二つの文化が融合して新しい文化が生まれた。",
+            "romaji": "Futatsu no bunka ga yuugou shite atarashii bunka ga umareta.",
+            "german": "Zwei Kulturen fusionierten und eine neue Kultur entstand."
+          }
+        ],
+        "meaning": "fusionieren",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "融合する heißt „verschmelzen, sich vereinigen“ und ist intransitiv: AとBが融合する, 伝統と現代が融合する; transitiv sagt man 融合させる. Fachsprachlich: 核融合 „Kernfusion“, 細胞融合 „Zellfusion“. Für den Zusammenschluss von Firmen sagt man nicht 融合, sondern 合併. 融合 betont, dass verschiedene Elemente zu einer neuen Einheit verschmelzen.",
+        "examples": [
+          {
+            "japanese": "二つの文化が融合して新しい文化が生まれた。",
+            "romaji": "Futatsu no bunka ga yuugou shite atarashii bunka ga umareta.",
+            "german": "Zwei Kulturen verschmolzen miteinander, und eine neue Kultur entstand."
+          },
+          {
+            "japanese": "この店では和食とフランス料理が見事に融合している。",
+            "romaji": "Kono mise de wa washoku to Furansu ryouri ga migoto ni yuugou shite iru.",
+            "german": "In diesem Restaurant verbinden sich japanische und französische Küche auf großartige Weise."
+          },
+          {
+            "japanese": "太陽は水素の核融合によって光を出している。",
+            "romaji": "Taiyou wa suiso no kakuyuugou ni yotte hikari o dashite iru.",
+            "german": "Die Sonne erzeugt ihr Licht durch die Kernfusion von Wasserstoff."
+          }
+        ],
+        "meaning": "verschmelzen, sich vereinigen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1542590 sense 1, noun / suru verb: fusion, combination, blending, uniting Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 融合する heißt „verschmelzen, sich vereinigen“ und ist intransitiv: AとBが融合する, 伝統と現代が融合する; transitiv sagt man 融合させる. Fachsprachlich: 核融合 „Kernfusion“, 細胞融合 „Zellfusion“. Für den Zusammenschluss von Firmen sagt man nicht 融合, sondern 合併. 融合 betont, dass verschiedene Elemente zu einer neuen Einheit verschmelzen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1542590; spelling=融合する; reading=ゆうごうする",
+          "finding": "JMdict 1542590 sense 1, noun / suru verb: fusion, combination, blending, uniting"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 融合する/ゆうごうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 融合する/ゆうごうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%9E%8D%E5%90%88%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 融合する/ゆうごうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 6434fd066e013810fab64600b9a86b1685d0af5f1d61ce803e30bb90470bcda7",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%9E%8D%E5%90%88%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 融合する/ゆうごうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verschmelzen, sich vereinigen. JMdict 1542590 sense 1, noun / suru verb: fusion, combination, blending, uniting",
+        "japanese": "二つの文化が融合して新しい文化が生まれた。 / この店では和食とフランス料理が見事に融合している。 / 太陽は水素の核融合によって光を出している。",
+        "romanization": "yuugou suru; Futatsu no bunka ga yuugou shite atarashii bunka ga umareta. / Kono mise de wa washoku to Furansu ryouri ga migoto ni yuugou shite iru. / Taiyou wa suiso no kakuyuugou ni yotte hikari o dashite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zwei Kulturen verschmolzen miteinander, und eine neue Kultur entstand. / In diesem Restaurant verbinden sich japanische und französische Küche auf großartige Weise. / Die Sonne erzeugt ihr Licht durch die Kernfusion von Wasserstoff.",
+        "contexts": [
+          "Cultural blending",
+          "Fusion cuisine",
+          "Nuclear fusion in the sun"
+        ],
+        "lexical": "JMdict 1542590 sense 1, noun / suru verb: fusion, combination, blending, uniting",
+        "register": "formal / written",
+        "transitivity": "intransitive (AとBが融合する); causative 融合させる",
+        "conjugation": "suru verb (融合する → 融合して, 融合しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:439 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cultural blending; Fusion cuisine; Nuclear fusion in the sun), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "baf77d09319973d884c7f79f8e9bd1af6b41660c680620d890be5bc2d0132037",
+        "approvalHash": "7204664e80f09d29916adc025761e651f150cec385f6f2c8fabe7b675c51e906"
+      }
+    },
+    {
+      "id": "vocab-n2:440",
+      "revisionId": "193b-n2-enrichment-vocab-n2-440",
+      "state": "accepted",
+      "predecessorHash": "8602f26119e11aa0def51f05b640be2047b26b49d832c9e47722f3d01d2eb632",
+      "originalHash": "8602f26119e11aa0def51f05b640be2047b26b49d832c9e47722f3d01d2eb632",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "研究室で新しい化合物を合成した。",
+            "romaji": "Kenkyuushitsu de atarashii kagoubutsu wo gousei shita.",
+            "german": "Im Labor wurde eine neue Verbindung synthetisiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "合成する heißt „zusammensetzen, synthetisieren“ und ist transitiv: chemisch 化合物を合成する, 合成繊維 „Kunstfaser“, 合成洗剤 „synthetisches Waschmittel“; bei Bild und Ton 写真を合成する „eine Fotomontage machen“, 合成音声 „synthetische Stimme“. 合成 betont die künstliche Herstellung aus mehreren Teilen; 加工 dagegen ist das Bearbeiten eines vorhandenen Materials.",
+        "examples": [
+          {
+            "japanese": "研究室で新しい化合物を合成した。",
+            "romaji": "Kenkyuushitsu de atarashii kagoubutsu wo gousei shita.",
+            "german": "Im Labor wurde eine neue Verbindung synthetisiert."
+          },
+          {
+            "japanese": "この写真は二枚の画像を合成して作ったものだ。",
+            "romaji": "Kono shashin wa nimai no gazou o gousei shite tsukutta mono da.",
+            "german": "Dieses Foto ist eine Montage aus zwei Bildern."
+          },
+          {
+            "japanese": "駅のアナウンスには合成音声が使われている。",
+            "romaji": "Eki no anaunsu ni wa gousei onsei ga tsukawarete iru.",
+            "german": "Für die Bahnhofsdurchsagen wird eine synthetische Stimme verwendet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 438ca521c3294988f29475954d0edbe450273f22af008fd31efa8229d2f6c5ea",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%90%88%E6%88%90%E3%81%99%E3%82%8B#word_2119",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 合成する/ごうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 合成する/ごうせいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "合成する",
+              "reading": "ごうせいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 合成する/ごうせいする \"synthetisieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1284940 senses 1–2, noun / suru verb: composition, synthesis, compounding; composite photo Pitch: Verified [0] via exact OJAD dictionary-form cell. 合成する heißt „zusammensetzen, synthetisieren“ und ist transitiv: chemisch 化合物を合成する, 合成繊維 „Kunstfaser“, 合成洗剤 „synthetisches Waschmittel“; bei Bild und Ton 写真を合成する „eine Fotomontage machen“, 合成音声 „synthetische Stimme“. 合成 betont die künstliche Herstellung aus mehreren Teilen; 加工 dagegen ist das Bearbeiten eines vorhandenen Materials. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1284940; spelling=合成する; reading=ごうせいする",
+          "finding": "JMdict 1284940 senses 1–2, noun / suru verb: composition, synthesis, compounding; composite photo"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 合成する/ごうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 合成する/ごうせいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 438ca521c3294988f29475954d0edbe450273f22af008fd31efa8229d2f6c5ea",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%90%88%E6%88%90%E3%81%99%E3%82%8B#word_2119",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 合成する/ごうせいする read; accent_top positions [0] (0 = no accent_top). Exact whole 合成する/ごうせいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "合成する",
+              "reading": "ごうせいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 合成する/ごうせいする \"synthetisieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "synthetisieren. JMdict 1284940 senses 1–2, noun / suru verb: composition, synthesis, compounding; composite photo",
+        "japanese": "研究室で新しい化合物を合成した。 / この写真は二枚の画像を合成して作ったものだ。 / 駅のアナウンスには合成音声が使われている。",
+        "romanization": "gousei suru; Kenkyuushitsu de atarashii kagoubutsu wo gousei shita. / Kono shashin wa nimai no gazou o gousei shite tsukutta mono da. / Eki no anaunsu ni wa gousei onsei ga tsukawarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Labor wurde eine neue Verbindung synthetisiert. / Dieses Foto ist eine Montage aus zwei Bildern. / Für die Bahnhofsdurchsagen wird eine synthetische Stimme verwendet.",
+        "contexts": [
+          "Chemistry lab",
+          "Photo montage",
+          "Station announcements"
+        ],
+        "lexical": "JMdict 1284940 senses 1–2, noun / suru verb: composition, synthesis, compounding; composite photo",
+        "register": "neutral / technical",
+        "transitivity": "transitive (〜を合成する)",
+        "conjugation": "suru verb (合成する → 合成して, 合成しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:440 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Chemistry lab; Photo montage; Station announcements), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e89254ec39b6424a54f89db9e2888a5518ab6b9c1dc1b9024d02ea733951ea87",
+        "approvalHash": "388f8676447785329b440fe78ba3100aee3ee85cba1f57b598f30d7d4e376369"
+      }
+    },
+    {
+      "id": "vocab-n2:441",
+      "revisionId": "193b-n2-enrichment-vocab-n2-441",
+      "state": "accepted",
+      "predecessorHash": "6fdca63b04d5db6c2a7633606d37289e474dc527759ece1a59d94b7fb5dd0228",
+      "originalHash": "6fdca63b04d5db6c2a7633606d37289e474dc527759ece1a59d94b7fb5dd0228",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "機械を分解して原因を調べた。",
+            "romaji": "Kikai wo bunkai shite gen'in wo shirabeta.",
+            "german": "Die Maschine wurde zerlegt, um die Ursache zu untersuchen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分解する hat zwei Seiten: transitiv „zerlegen, auseinandernehmen“ (時計を分解する) und intransitiv bzw. im Passiv „sich zersetzen, abgebaut werden“ (プラスチックは分解されにくい, 微生物が落ち葉を分解する). Das Gegenteil von Zerlegen ist 組み立てる („zusammenbauen“). In der Mathematik bedeutet 因数分解 „Faktorisierung“.",
+        "examples": [
+          {
+            "japanese": "機械を分解して原因を調べた。",
+            "romaji": "Kikai wo bunkai shite gen'in wo shirabeta.",
+            "german": "Die Maschine wurde zerlegt, um die Ursache zu untersuchen."
+          },
+          {
+            "japanese": "プラスチックは自然の中ではなかなか分解されない。",
+            "romaji": "Purasuchikku wa shizen no naka de wa nakanaka bunkai sarenai.",
+            "german": "Plastik wird in der Natur kaum abgebaut."
+          },
+          {
+            "japanese": "子どもの頃、おもちゃを分解して父に怒られた。",
+            "romaji": "Kodomo no koro, omocha o bunkai shite chichi ni okorareta.",
+            "german": "Als Kind habe ich Spielzeug auseinandergenommen und wurde dafür von meinem Vater ausgeschimpft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 a4875260ad46cf20a94fef3662dd5759f440ffae101581cc6ab85e74f7ec260e",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E8%A7%A3%E3%81%99%E3%82%8B#word_2660",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分解する/ぶんかいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分解する/ぶんかいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分解する",
+              "reading": "ぶんかいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分解する/ぶんかいする \"zerlegen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1503210 senses 1–2, noun / suru verb: disassembly, taking apart; decomposition, degradation Pitch: Verified [0] via exact OJAD dictionary-form cell. 分解する hat zwei Seiten: transitiv „zerlegen, auseinandernehmen“ (時計を分解する) und intransitiv bzw. im Passiv „sich zersetzen, abgebaut werden“ (プラスチックは分解されにくい, 微生物が落ち葉を分解する). Das Gegenteil von Zerlegen ist 組み立てる („zusammenbauen“). In der Mathematik bedeutet 因数分解 „Faktorisierung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1503210; spelling=分解する; reading=ぶんかいする",
+          "finding": "JMdict 1503210 senses 1–2, noun / suru verb: disassembly, taking apart; decomposition, degradation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 分解する/ぶんかいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分解する/ぶんかいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 a4875260ad46cf20a94fef3662dd5759f440ffae101581cc6ab85e74f7ec260e",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E8%A7%A3%E3%81%99%E3%82%8B#word_2660",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分解する/ぶんかいする read; accent_top positions [0] (0 = no accent_top). Exact whole 分解する/ぶんかいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分解する",
+              "reading": "ぶんかいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分解する/ぶんかいする \"zerlegen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "zerlegen. JMdict 1503210 senses 1–2, noun / suru verb: disassembly, taking apart; decomposition, degradation",
+        "japanese": "機械を分解して原因を調べた。 / プラスチックは自然の中ではなかなか分解されない。 / 子どもの頃、おもちゃを分解して父に怒られた。",
+        "romanization": "bunkai suru; Kikai wo bunkai shite gen'in wo shirabeta. / Purasuchikku wa shizen no naka de wa nakanaka bunkai sarenai. / Kodomo no koro, omocha o bunkai shite chichi ni okorareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Maschine wurde zerlegt, um die Ursache zu untersuchen. / Plastik wird in der Natur kaum abgebaut. / Als Kind habe ich Spielzeug auseinandergenommen und wurde dafür von meinem Vater ausgeschimpft.",
+        "contexts": [
+          "Repairing a machine",
+          "Plastic pollution",
+          "Childhood mischief"
+        ],
+        "lexical": "JMdict 1503210 senses 1–2, noun / suru verb: disassembly, taking apart; decomposition, degradation",
+        "register": "neutral",
+        "transitivity": "transitive (〜を分解する); also intransitive (〜が分解する) for decomposition",
+        "conjugation": "suru verb (分解する → 分解して, 分解しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:441 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Repairing a machine; Plastic pollution; Childhood mischief), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ff78529fc928613850d2fa21ac4eb5d14564b7bde574a0d6618c08fe9fa7204e",
+        "approvalHash": "8667c7c237df7d3d2588dea4ee4a8ba8d9d6ba13d305e611292001601208e244"
+      }
+    },
+    {
+      "id": "vocab-n2:442",
+      "revisionId": "193b-n2-enrichment-vocab-n2-442",
+      "state": "accepted",
+      "predecessorHash": "9f2cbb26824cabe59cba5b18a474bc36f420201a4ab32af35b9b07fb84f56670",
+      "originalHash": "9f2cbb26824cabe59cba5b18a474bc36f420201a4ab32af35b9b07fb84f56670",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "砂糖が水に溶解する。",
+            "romaji": "Satou ga mizu ni youkai suru.",
+            "german": "Zucker löst sich in Wasser auf."
+          }
+        ],
+        "meaning": "auflösen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "溶解する heißt „sich (in einer Flüssigkeit) auflösen“ und auch „schmelzen“ (Metalle durch Hitze). Meist intransitiv: 砂糖が水に溶解する; in Technik und Industrie auch transitiv: 鉄を溶解する „Eisen einschmelzen“. Das Wort ist fachsprachlich – im Alltag sagt man 溶ける bzw. 溶かす. Typisch sind 溶解度 „Löslichkeit“ und 溶解炉 „Schmelzofen“.",
+        "examples": [
+          {
+            "japanese": "砂糖が水に溶解する。",
+            "romaji": "Satou ga mizu ni youkai suru.",
+            "german": "Zucker löst sich in Wasser auf."
+          },
+          {
+            "japanese": "この薬は水に溶解しやすい。",
+            "romaji": "Kono kusuri wa mizu ni youkai shiyasui.",
+            "german": "Dieses Medikament löst sich leicht in Wasser."
+          },
+          {
+            "japanese": "工場では古い鉄を高温で溶解して再利用している。",
+            "romaji": "Koujou de wa furui tetsu o kouon de youkai shite sairiyou shite iru.",
+            "german": "Im Werk wird Alteisen bei hoher Temperatur eingeschmolzen und wiederverwertet."
+          }
+        ],
+        "meaning": "sich auflösen, schmelzen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1546110 senses 1–2, noun / suru verb: dissolution, dissolving; melting, liquefying Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 溶解する heißt „sich (in einer Flüssigkeit) auflösen“ und auch „schmelzen“ (Metalle durch Hitze). Meist intransitiv: 砂糖が水に溶解する; in Technik und Industrie auch transitiv: 鉄を溶解する „Eisen einschmelzen“. Das Wort ist fachsprachlich – im Alltag sagt man 溶ける bzw. 溶かす. Typisch sind 溶解度 „Löslichkeit“ und 溶解炉 „Schmelzofen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1546110; spelling=溶解する; reading=ようかいする",
+          "finding": "JMdict 1546110 senses 1–2, noun / suru verb: dissolution, dissolving; melting, liquefying"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 溶解する/ようかいする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 溶解する/ようかいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BA%B6%E8%A7%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 溶解する/ようかいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 ae2ebfc6b77c59f8a5c2067a7ba17e12233a9c137be34c65faed53aec7017e40",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%BA%B6%E8%A7%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 溶解する/ようかいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich auflösen, schmelzen. JMdict 1546110 senses 1–2, noun / suru verb: dissolution, dissolving; melting, liquefying",
+        "japanese": "砂糖が水に溶解する。 / この薬は水に溶解しやすい。 / 工場では古い鉄を高温で溶解して再利用している。",
+        "romanization": "youkai suru; Satou ga mizu ni youkai suru. / Kono kusuri wa mizu ni youkai shiyasui. / Koujou de wa furui tetsu o kouon de youkai shite sairiyou shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zucker löst sich in Wasser auf. / Dieses Medikament löst sich leicht in Wasser. / Im Werk wird Alteisen bei hoher Temperatur eingeschmolzen und wiederverwertet.",
+        "contexts": [
+          "Sugar in water",
+          "Soluble medicine",
+          "Recycling scrap iron"
+        ],
+        "lexical": "JMdict 1546110 senses 1–2, noun / suru verb: dissolution, dissolving; melting, liquefying",
+        "register": "written / technical",
+        "transitivity": "mostly intransitive (〜が溶解する); transitive in industry (〜を溶解する)",
+        "conjugation": "suru verb (溶解する → 溶解して, 溶解しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:442 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sugar in water; Soluble medicine; Recycling scrap iron), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a84d9709a1cae5f7001b324566817354f5a72533ef5eec87ec792de5e5b1a625",
+        "approvalHash": "11b590d050790f5c3bb821eb65d95136201b88c5f3dc3bd4f74147da1e66f13a"
+      }
+    },
+    {
+      "id": "vocab-n2:443",
+      "revisionId": "193b-n2-enrichment-vocab-n2-443",
+      "state": "accepted",
+      "predecessorHash": "7a44e33908d975ae558a6600a1243f4dead24321c2beeea83c41d60f78407ba2",
+      "originalHash": "7a44e33908d975ae558a6600a1243f4dead24321c2beeea83c41d60f78407ba2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "太陽の熱で水が蒸発する。",
+            "romaji": "Taiyou no netsu de mizu ga jouhatsu suru.",
+            "german": "Wasser verdampft durch die Sonnenwärme."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "蒸発する heißt „verdunsten, verdampfen“ und ist intransitiv: 水が蒸発する; transitiv 蒸発させる. Umgangssprachlich bedeutet es auch „spurlos verschwinden, untertauchen“ von Menschen (夫が蒸発した). Im Unterschied zu 沸騰 („kochen, sieden“) kann 蒸発 auch ohne Kochen an der Oberfläche einer Flüssigkeit geschehen.",
+        "examples": [
+          {
+            "japanese": "太陽の熱で水が蒸発する。",
+            "romaji": "Taiyou no netsu de mizu ga jouhatsu suru.",
+            "german": "Wasser verdampft durch die Sonnenwärme."
+          },
+          {
+            "japanese": "鍋のスープが蒸発して、半分に減ってしまった。",
+            "romaji": "Nabe no suupu ga jouhatsu shite, hanbun ni hette shimatta.",
+            "german": "Die Suppe im Topf ist verkocht, es ist nur noch die Hälfte übrig."
+          },
+          {
+            "japanese": "借金を抱えた男が、ある日突然蒸発した。",
+            "romaji": "Shakkin o kakaeta otoko ga, aru hi totsuzen jouhatsu shita.",
+            "german": "Ein verschuldeter Mann verschwand eines Tages spurlos."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 14764172a8d0bf51a3d7e4ccc469d5e2c0d9062516d620d073e88bd1ad9f326a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%92%B8%E7%99%BA%E3%81%99%E3%82%8B#word_2279",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 蒸発する/じょうはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 蒸発する/じょうはつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "蒸発する",
+              "reading": "じょうはつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 蒸発する/じょうはつする \"verdampfen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1356960 senses 1–2, noun / suru verb: evaporation; disappearance (of a person) Pitch: Verified [0] via exact OJAD dictionary-form cell. 蒸発する heißt „verdunsten, verdampfen“ und ist intransitiv: 水が蒸発する; transitiv 蒸発させる. Umgangssprachlich bedeutet es auch „spurlos verschwinden, untertauchen“ von Menschen (夫が蒸発した). Im Unterschied zu 沸騰 („kochen, sieden“) kann 蒸発 auch ohne Kochen an der Oberfläche einer Flüssigkeit geschehen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1356960; spelling=蒸発する; reading=じょうはつする",
+          "finding": "JMdict 1356960 senses 1–2, noun / suru verb: evaporation; disappearance (of a person)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 蒸発する/じょうはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 蒸発する/じょうはつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 14764172a8d0bf51a3d7e4ccc469d5e2c0d9062516d620d073e88bd1ad9f326a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%92%B8%E7%99%BA%E3%81%99%E3%82%8B#word_2279",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 蒸発する/じょうはつする read; accent_top positions [0] (0 = no accent_top). Exact whole 蒸発する/じょうはつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "蒸発する",
+              "reading": "じょうはつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 蒸発する/じょうはつする \"verdampfen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verdampfen. JMdict 1356960 senses 1–2, noun / suru verb: evaporation; disappearance (of a person)",
+        "japanese": "太陽の熱で水が蒸発する。 / 鍋のスープが蒸発して、半分に減ってしまった。 / 借金を抱えた男が、ある日突然蒸発した。",
+        "romanization": "jouhatsu suru; Taiyou no netsu de mizu ga jouhatsu suru. / Nabe no suupu ga jouhatsu shite, hanbun ni hette shimatta. / Shakkin o kakaeta otoko ga, aru hi totsuzen jouhatsu shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wasser verdampft durch die Sonnenwärme. / Die Suppe im Topf ist verkocht, es ist nur noch die Hälfte übrig. / Ein verschuldeter Mann verschwand eines Tages spurlos.",
+        "contexts": [
+          "Sun drying water",
+          "Soup boiling down",
+          "Man vanishing"
+        ],
+        "lexical": "JMdict 1356960 senses 1–2, noun / suru verb: evaporation; disappearance (of a person)",
+        "register": "neutral; sense 2 colloquial",
+        "transitivity": "intransitive (〜が蒸発する); causative 蒸発させる",
+        "conjugation": "suru verb (蒸発する → 蒸発して, 蒸発しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:443 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sun drying water; Soup boiling down; Man vanishing), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c4a019228a48c10fa82e2f0f0afcc354b2996dd925458bee71944f5ca08720f9",
+        "approvalHash": "542d03a75793cbfc1cbb560f941b970e17bcdc1e635fed162e47cd913b86eccb"
+      }
+    },
+    {
+      "id": "vocab-n2:444",
+      "revisionId": "193b-n2-enrichment-vocab-n2-444",
+      "state": "accepted",
+      "predecessorHash": "42bdb3bd78e38c772ea75de338b751007a13ca7469bcc7e07a45f33cdc8d0daf",
+      "originalHash": "42bdb3bd78e38c772ea75de338b751007a13ca7469bcc7e07a45f33cdc8d0daf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "溶岩が冷えて凝固した。",
+            "romaji": "Yougan ga hiete gyouko shita.",
+            "german": "Die Lava kühlte ab und erstarrte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "凝固する heißt „erstarren, fest werden, gerinnen“ und ist intransitiv; es ist fachsprachlich und wird für Flüssigkeiten gebraucht: 溶岩が凝固する, 血液が凝固する „Blut gerinnt“, 凝固点 „Erstarrungspunkt“. Im Alltag sagt man 固まる. Das Gegenteil (Schmelzen) heißt fachsprachlich 融解.",
+        "examples": [
+          {
+            "japanese": "溶岩が冷えて凝固した。",
+            "romaji": "Yougan ga hiete gyouko shita.",
+            "german": "Die Lava kühlte ab und erstarrte."
+          },
+          {
+            "japanese": "傷口の血液が凝固して、出血が止まった。",
+            "romaji": "Kizuguchi no ketsueki ga gyouko shite, shukketsu ga tomatta.",
+            "german": "Das Blut in der Wunde gerann, und die Blutung hörte auf."
+          },
+          {
+            "japanese": "水は零度で凝固して氷になる。",
+            "romaji": "Mizu wa reido de gyouko shite koori ni naru.",
+            "german": "Wasser erstarrt bei null Grad zu Eis."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1239120 sense 1, noun / suru verb: coagulation, freezing, solidification Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 凝固する heißt „erstarren, fest werden, gerinnen“ und ist intransitiv; es ist fachsprachlich und wird für Flüssigkeiten gebraucht: 溶岩が凝固する, 血液が凝固する „Blut gerinnt“, 凝固点 „Erstarrungspunkt“. Im Alltag sagt man 固まる. Das Gegenteil (Schmelzen) heißt fachsprachlich 融解. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1239120; spelling=凝固する; reading=ぎょうこする",
+          "finding": "JMdict 1239120 sense 1, noun / suru verb: coagulation, freezing, solidification"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 凝固する/ぎょうこする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 凝固する/ぎょうこする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%87%9D%E5%9B%BA%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 凝固する/ぎょうこする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 94e0a85d40a723e4deaac0f3f5356e05f8ef0b2752ff8601c96b2a990d40d337",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%9D%E5%9B%BA%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 凝固する/ぎょうこする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "erstarren. JMdict 1239120 sense 1, noun / suru verb: coagulation, freezing, solidification",
+        "japanese": "溶岩が冷えて凝固した。 / 傷口の血液が凝固して、出血が止まった。 / 水は零度で凝固して氷になる。",
+        "romanization": "gyouko suru; Yougan ga hiete gyouko shita. / Kizuguchi no ketsueki ga gyouko shite, shukketsu ga tomatta. / Mizu wa reido de gyouko shite koori ni naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Lava kühlte ab und erstarrte. / Das Blut in der Wunde gerann, und die Blutung hörte auf. / Wasser erstarrt bei null Grad zu Eis.",
+        "contexts": [
+          "Cooling lava",
+          "Wound clotting",
+          "Water freezing"
+        ],
+        "lexical": "JMdict 1239120 sense 1, noun / suru verb: coagulation, freezing, solidification",
+        "register": "written / technical",
+        "transitivity": "intransitive (〜が凝固する)",
+        "conjugation": "suru verb (凝固する → 凝固して, 凝固しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:444 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cooling lava; Wound clotting; Water freezing), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "246680da963c53d055d221cec0d5f570ae971b766c0e53d1df13a6c5c8adf815",
+        "approvalHash": "78872aa0206400d2598c919fd0ee9475257a1176d0ee856aacdaa1ae88ee6aa9"
+      }
+    },
+    {
+      "id": "vocab-n2:445",
+      "revisionId": "193b-n2-enrichment-vocab-n2-445",
+      "state": "accepted",
+      "predecessorHash": "bc177205f5ad9a16000dc8836b81e95d9745ec9f2e3eea01604921dc97bf937a",
+      "originalHash": "bc177205f5ad9a16000dc8836b81e95d9745ec9f2e3eea01604921dc97bf937a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鉄は空気中で酸化して錆びる。",
+            "romaji": "Tetsu wa kuukichuu de sanka shite sabiru.",
+            "german": "Eisen oxidiert an der Luft und rostet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "酸化する heißt „oxidieren“ und ist intransitiv: 鉄が酸化する, 油が酸化する („ranzig werden“); transitiv 酸化させる, als Nomen 酸化を防ぐ „Oxidation verhindern“. Das chemische Gegenteil ist 還元 („Reduktion“). Für Metalle sagt man im Alltag 錆びる („rosten“); bei Lebensmitteln wie aufgeschnittenen Äpfeln spricht man ebenfalls von 酸化.",
+        "examples": [
+          {
+            "japanese": "鉄は空気中で酸化して錆びる。",
+            "romaji": "Tetsu wa kuukichuu de sanka shite sabiru.",
+            "german": "Eisen oxidiert an der Luft und rostet."
+          },
+          {
+            "japanese": "古い油は酸化しているので、使わないほうがいい。",
+            "romaji": "Furui abura wa sanka shite iru node, tsukawanai hou ga ii.",
+            "german": "Altes Öl ist oxidiert, also benutzt man es besser nicht."
+          },
+          {
+            "japanese": "リンゴは切ってしばらく置くと、酸化して茶色くなる。",
+            "romaji": "Ringo wa kitte shibaraku oku to, sanka shite chairoku naru.",
+            "german": "Lässt man einen aufgeschnittenen Apfel liegen, oxidiert er und wird braun."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 fda2f0f995ac2062ab2a0f8d1d9161f3dd594e9598fb5f2d5ae827798c7fd5d3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%85%B8%E5%8C%96%E3%81%99%E3%82%8B#word_2165",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 酸化する/さんかする read; accent_top positions [0] (0 = no accent_top). Exact whole 酸化する/さんかする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "酸化する",
+              "reading": "さんかする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 酸化する/さんかする \"oxidieren\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1304290 sense 1, noun / suru verb: oxidation Pitch: Verified [0] via exact OJAD dictionary-form cell. 酸化する heißt „oxidieren“ und ist intransitiv: 鉄が酸化する, 油が酸化する („ranzig werden“); transitiv 酸化させる, als Nomen 酸化を防ぐ „Oxidation verhindern“. Das chemische Gegenteil ist 還元 („Reduktion“). Für Metalle sagt man im Alltag 錆びる („rosten“); bei Lebensmitteln wie aufgeschnittenen Äpfeln spricht man ebenfalls von 酸化. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1304290; spelling=酸化する; reading=さんかする",
+          "finding": "JMdict 1304290 sense 1, noun / suru verb: oxidation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 酸化する/さんかする read; accent_top positions [0] (0 = no accent_top). Exact whole 酸化する/さんかする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 fda2f0f995ac2062ab2a0f8d1d9161f3dd594e9598fb5f2d5ae827798c7fd5d3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%85%B8%E5%8C%96%E3%81%99%E3%82%8B#word_2165",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 酸化する/さんかする read; accent_top positions [0] (0 = no accent_top). Exact whole 酸化する/さんかする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "酸化する",
+              "reading": "さんかする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 酸化する/さんかする \"oxidieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "oxidieren. JMdict 1304290 sense 1, noun / suru verb: oxidation",
+        "japanese": "鉄は空気中で酸化して錆びる。 / 古い油は酸化しているので、使わないほうがいい。 / リンゴは切ってしばらく置くと、酸化して茶色くなる。",
+        "romanization": "sanka suru; Tetsu wa kuukichuu de sanka shite sabiru. / Furui abura wa sanka shite iru node, tsukawanai hou ga ii. / Ringo wa kitte shibaraku oku to, sanka shite chairoku naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eisen oxidiert an der Luft und rostet. / Altes Öl ist oxidiert, also benutzt man es besser nicht. / Lässt man einen aufgeschnittenen Apfel liegen, oxidiert er und wird braun.",
+        "contexts": [
+          "Rusting iron",
+          "Old cooking oil",
+          "Browning apple"
+        ],
+        "lexical": "JMdict 1304290 sense 1, noun / suru verb: oxidation",
+        "register": "neutral / technical",
+        "transitivity": "intransitive (〜が酸化する); causative 酸化させる",
+        "conjugation": "suru verb (酸化する → 酸化して, 酸化しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:445 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rusting iron; Old cooking oil; Browning apple), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c99b06c69c21d212368dcd03347194389c22867129e186b93e3a374209b2bce3",
+        "approvalHash": "9f697e0c8afcf2d4b4bb16775bae9f96cd7496d5db2e589b4a6782051c25cc95"
+      }
+    },
+    {
+      "id": "vocab-n2:446",
+      "revisionId": "193b-n2-enrichment-vocab-n2-446",
+      "state": "accepted",
+      "predecessorHash": "5476b96b8b0a458150aa7e994d2ad94d1fb88d6ac6acb324a71534ecb60ea5c4",
+      "originalHash": "5476b96b8b0a458150aa7e994d2ad94d1fb88d6ac6acb324a71534ecb60ea5c4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": "化学では還元 = Reduktion; 利益を還元する = Gewinne zugutekommen lassen/zurückgeben.",
+        "examples": [
+          {
+            "japanese": "酸化した金属を還元する実験を行った。",
+            "romaji": "Sanka shita kinzoku wo kangen suru jikken wo okonatta.",
+            "german": "Es wurde ein Experiment zur Reduktion von oxidiertem Metall durchgeführt."
+          },
+          {
+            "kind": "natural",
+            "japanese": "店は利益の一部をポイントとして客に還元する。",
+            "romaji": "Mise wa rieki no ichibu o pointo to shite kyaku ni kangen suru.",
+            "german": "Das Geschäft gibt einen Teil des Gewinns als Punkte an die Kunden zurück."
+          }
+        ],
+        "meaning": "reduzieren",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "還元する hat zwei Gebrauchsbereiche: In der Chemie bedeutet es „reduzieren“ (einem Stoff Sauerstoff entziehen), das Gegenteil von 酸化. Im Alltag und in der Wirtschaft heißt es „(Gewinne, Vorteile) zurückgeben, zugutekommen lassen“ im Muster AをBに還元する: 利益を社会に還元する, ポイント還元 „Rückvergütung in Punkten“. Für „reduzieren“ im Sinne von „verringern“ sagt man nicht 還元, sondern 減らす oder 削減する.",
+        "examples": [
+          {
+            "japanese": "酸化した金属を還元する実験を行った。",
+            "romaji": "Sanka shita kinzoku wo kangen suru jikken wo okonatta.",
+            "german": "Es wurde ein Experiment zur Reduktion von oxidiertem Metall durchgeführt."
+          },
+          {
+            "japanese": "店は利益の一部をポイントとして客に還元する。",
+            "romaji": "Mise wa rieki no ichibu o pointo to shite kyaku ni kangen suru.",
+            "german": "Das Geschäft gibt einen Teil des Gewinns als Punkte an die Kunden zurück."
+          },
+          {
+            "japanese": "研究の成果を社会に還元したい。",
+            "romaji": "Kenkyuu no seika o shakai ni kangen shitai.",
+            "german": "Ich möchte, dass die Ergebnisse meiner Forschung der Gesellschaft zugutekommen."
+          }
+        ],
+        "meaning": "zurückgeben, zugutekommen lassen; (Chemie) reduzieren",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1215130 senses 1–2, noun / suru verb: restoration, return; reduction, deoxidation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 還元する hat zwei Gebrauchsbereiche: In der Chemie bedeutet es „reduzieren“ (einem Stoff Sauerstoff entziehen), das Gegenteil von 酸化. Im Alltag und in der Wirtschaft heißt es „(Gewinne, Vorteile) zurückgeben, zugutekommen lassen“ im Muster AをBに還元する: 利益を社会に還元する, ポイント還元 „Rückvergütung in Punkten“. Für „reduzieren“ im Sinne von „verringern“ sagt man nicht 還元, sondern 減らす oder 削減する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1215130; spelling=還元する; reading=かんげんする",
+          "finding": "JMdict 1215130 senses 1–2, noun / suru verb: restoration, return; reduction, deoxidation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 還元する/かんげんする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (還元); none is the exact head 還元する/かんげんする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%82%84%E5%85%83%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 還元する/かんげんする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 5759ba3c9d977a9a0e362603cbd34559c7bf8973ec5c8b54ebcdd4d3f37622b6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%82%84%E5%85%83%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (還元); none is the exact head 還元する/かんげんする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "zurückgeben, zugutekommen lassen; (Chemie) reduzieren. JMdict 1215130 senses 1–2, noun / suru verb: restoration, return; reduction, deoxidation",
+        "japanese": "酸化した金属を還元する実験を行った。 / 店は利益の一部をポイントとして客に還元する。 / 研究の成果を社会に還元したい。",
+        "romanization": "kangen suru; Sanka shita kinzoku wo kangen suru jikken wo okonatta. / Mise wa rieki no ichibu o pointo to shite kyaku ni kangen suru. / Kenkyuu no seika o shakai ni kangen shitai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es wurde ein Experiment zur Reduktion von oxidiertem Metall durchgeführt. / Das Geschäft gibt einen Teil des Gewinns als Punkte an die Kunden zurück. / Ich möchte, dass die Ergebnisse meiner Forschung der Gesellschaft zugutekommen.",
+        "contexts": [
+          "Chemistry experiment",
+          "Customer loyalty points",
+          "Researcher's aspiration"
+        ],
+        "lexical": "JMdict 1215130 senses 1–2, noun / suru verb: restoration, return; reduction, deoxidation",
+        "register": "formal / written",
+        "transitivity": "transitive (AをBに還元する)",
+        "conjugation": "suru verb (還元する → 還元して, 還元しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:446 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Chemistry experiment; Customer loyalty points; Researcher's aspiration), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7d703164b63e5f5f2e6050981661355634b027db25dc37676147253b64661732",
+        "approvalHash": "47023e85be760422bfba5365cd603d3355a59b167cff0869d3d467684125e731"
+      }
+    },
+    {
+      "id": "vocab-n2:447",
+      "revisionId": "193b-n2-enrichment-vocab-n2-447",
+      "state": "accepted",
+      "predecessorHash": "3b6b444955dcb1aab8a1a70e29f76accb9a27ade798e3ecd61648fca4be0a0dc",
+      "originalHash": "3b6b444955dcb1aab8a1a70e29f76accb9a27ade798e3ecd61648fca4be0a0dc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "違法に設置された看板を撤去する。",
+            "romaji": "Ihou ni secchi sareta kanban wo tekkyo suru.",
+            "german": "Illegal aufgestellte Schilder werden entfernt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "撤去する heißt „entfernen, abbauen, räumen“: Etwas, das irgendwo aufgestellt oder errichtet wurde, wird beseitigt – 看板を撤去する, 放置自転車を撤去する, 古い建物を撤去する. Es ist transitiv und steht in Mitteilungen und Nachrichten oft im Passiv (撤去される). Allgemeiner ist 取り除く; den Rückzug aus einem Markt oder von Truppen bezeichnet man meist mit 撤退.",
+        "examples": [
+          {
+            "japanese": "違法に設置された看板を撤去する。",
+            "romaji": "Ihou ni secchi sareta kanban wo tekkyo suru.",
+            "german": "Illegal aufgestellte Schilder werden entfernt."
+          },
+          {
+            "japanese": "駅前に置かれた自転車は、市によって撤去されます。",
+            "romaji": "Ekimae ni okareta jitensha wa, shi ni yotte tekkyo saremasu.",
+            "german": "Vor dem Bahnhof abgestellte Fahrräder werden von der Stadt entfernt."
+          },
+          {
+            "japanese": "イベントが終わると、すぐにステージが撤去された。",
+            "romaji": "Ibento ga owaru to, sugu ni suteeji ga tekkyo sareta.",
+            "german": "Nach der Veranstaltung wurde die Bühne sofort abgebaut."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1437720 sense 1, noun / suru verb: removal, taking away, dismantling Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 撤去する heißt „entfernen, abbauen, räumen“: Etwas, das irgendwo aufgestellt oder errichtet wurde, wird beseitigt – 看板を撤去する, 放置自転車を撤去する, 古い建物を撤去する. Es ist transitiv und steht in Mitteilungen und Nachrichten oft im Passiv (撤去される). Allgemeiner ist 取り除く; den Rückzug aus einem Markt oder von Truppen bezeichnet man meist mit 撤退. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437720; spelling=撤去する; reading=てっきょする",
+          "finding": "JMdict 1437720 sense 1, noun / suru verb: removal, taking away, dismantling"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 撤去する/てっきょする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 撤去する/てっきょする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%92%A4%E5%8E%BB%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 撤去する/てっきょする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 17600b11b044ef3c3d9a7bac503458348e6eee14010d2d8d69d9e6c31285daab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%92%A4%E5%8E%BB%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 撤去する/てっきょする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "entfernen. JMdict 1437720 sense 1, noun / suru verb: removal, taking away, dismantling",
+        "japanese": "違法に設置された看板を撤去する。 / 駅前に置かれた自転車は、市によって撤去されます。 / イベントが終わると、すぐにステージが撤去された。",
+        "romanization": "tekkyo suru; Ihou ni secchi sareta kanban wo tekkyo suru. / Ekimae ni okareta jitensha wa, shi ni yotte tekkyo saremasu. / Ibento ga owaru to, sugu ni suteeji ga tekkyo sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Illegal aufgestellte Schilder werden entfernt. / Vor dem Bahnhof abgestellte Fahrräder werden von der Stadt entfernt. / Nach der Veranstaltung wurde die Bühne sofort abgebaut.",
+        "contexts": [
+          "Illegal signboards",
+          "Bicycle removal notice",
+          "Dismantling a stage"
+        ],
+        "lexical": "JMdict 1437720 sense 1, noun / suru verb: removal, taking away, dismantling",
+        "register": "formal / official",
+        "transitivity": "transitive (〜を撤去する); passive 撤去される common",
+        "conjugation": "suru verb (撤去する → 撤去して, 撤去しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:447 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Illegal signboards; Bicycle removal notice; Dismantling a stage), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e2623cfcef6ad1793e7980bf64f5ec72a50a6e0c2a9a4c0749a941cdfbb44777",
+        "approvalHash": "6ea95423f6659e2076ffadabf1c69ad979a0de673164e573c9242ad3a5b6b30f"
+      }
+    },
+    {
+      "id": "vocab-n2:448",
+      "revisionId": "193b-n2-enrichment-vocab-n2-448",
+      "state": "accepted",
+      "predecessorHash": "7905d276bedae72f6ca223dcb47f6703cdedd108584ebc24dfda8258ed25a368",
+      "originalHash": "7905d276bedae72f6ca223dcb47f6703cdedd108584ebc24dfda8258ed25a368",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "本社を東京から大阪に移転する。",
+            "romaji": "Honsha wo Toukyou kara Oosaka ni iten suru.",
+            "german": "Der Hauptsitz wird von Tokio nach Osaka verlegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "移転する heißt „umziehen, verlegen“ – von Firmen, Geschäften, Behörden oder Einrichtungen, nicht von Privatpersonen (dafür 引っ越す). Es geht transitiv (本社を大阪に移転する) und intransitiv (店が駅前に移転した); auf Aushängen liest man 移転のお知らせ „Umzugsmitteilung“. Außerdem bedeutet es „Übertragung“, etwa 技術移転 „Technologietransfer“.",
+        "examples": [
+          {
+            "japanese": "本社を東京から大阪に移転する。",
+            "romaji": "Honsha wo Toukyou kara Oosaka ni iten suru.",
+            "german": "Der Hauptsitz wird von Tokio nach Osaka verlegt."
+          },
+          {
+            "japanese": "いつも行っていたパン屋が駅前に移転した。",
+            "romaji": "Itsumo itte ita pan'ya ga ekimae ni iten shita.",
+            "german": "Die Bäckerei, in die ich immer gegangen bin, ist in die Nähe des Bahnhofs umgezogen."
+          },
+          {
+            "japanese": "この技術は海外の工場に移転される予定だ。",
+            "romaji": "Kono gijutsu wa kaigai no koujou ni iten sareru yotei da.",
+            "german": "Diese Technologie soll an ein Werk im Ausland übertragen werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 621e5ba739cfefb2734b73bbda55588c56686a5302ef4c06cdfc998fcbccbeda",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%A7%BB%E8%BB%A2%E3%81%99%E3%82%8B#word_1891",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 移転する/いてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 移転する/いてんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "移転する",
+              "reading": "いてんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 移転する/いてんする \"verlegen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1158390 senses 1–2, noun / suru verb: moving, relocation; transfer Pitch: Verified [0] via exact OJAD dictionary-form cell. 移転する heißt „umziehen, verlegen“ – von Firmen, Geschäften, Behörden oder Einrichtungen, nicht von Privatpersonen (dafür 引っ越す). Es geht transitiv (本社を大阪に移転する) und intransitiv (店が駅前に移転した); auf Aushängen liest man 移転のお知らせ „Umzugsmitteilung“. Außerdem bedeutet es „Übertragung“, etwa 技術移転 „Technologietransfer“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1158390; spelling=移転する; reading=いてんする",
+          "finding": "JMdict 1158390 senses 1–2, noun / suru verb: moving, relocation; transfer"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 移転する/いてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 移転する/いてんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 621e5ba739cfefb2734b73bbda55588c56686a5302ef4c06cdfc998fcbccbeda",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%A7%BB%E8%BB%A2%E3%81%99%E3%82%8B#word_1891",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 移転する/いてんする read; accent_top positions [0] (0 = no accent_top). Exact whole 移転する/いてんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "移転する",
+              "reading": "いてんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 移転する/いてんする \"verlegen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verlegen. JMdict 1158390 senses 1–2, noun / suru verb: moving, relocation; transfer",
+        "japanese": "本社を東京から大阪に移転する。 / いつも行っていたパン屋が駅前に移転した。 / この技術は海外の工場に移転される予定だ。",
+        "romanization": "iten suru; Honsha wo Toukyou kara Oosaka ni iten suru. / Itsumo itte ita pan'ya ga ekimae ni iten shita. / Kono gijutsu wa kaigai no koujou ni iten sareru yotei da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Hauptsitz wird von Tokio nach Osaka verlegt. / Die Bäckerei, in die ich immer gegangen bin, ist in die Nähe des Bahnhofs umgezogen. / Diese Technologie soll an ein Werk im Ausland übertragen werden.",
+        "contexts": [
+          "Moving headquarters",
+          "Bakery relocation",
+          "Technology transfer"
+        ],
+        "lexical": "JMdict 1158390 senses 1–2, noun / suru verb: moving, relocation; transfer",
+        "register": "neutral / formal",
+        "transitivity": "transitive (〜を移転する) and intransitive (〜が移転する)",
+        "conjugation": "suru verb (移転する → 移転して, 移転しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:448 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Moving headquarters; Bakery relocation; Technology transfer), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d1003f0059ae03df7cce4fd2175d6398b060cc25f0bd15d46b61b88d0c5565a8",
+        "approvalHash": "77a036a7b846d665dc62e11963fd34982e3fec971899316d7840599bdbc0534d"
+      }
+    },
+    {
+      "id": "vocab-n2:449",
+      "revisionId": "193b-n2-enrichment-vocab-n2-449",
+      "state": "accepted",
+      "predecessorHash": "c02e5f1aa24b249009b848a99bbae58f84b2caec5d83fe87cf74b60f49a6d705",
+      "originalHash": "c02e5f1aa24b249009b848a99bbae58f84b2caec5d83fe87cf74b60f49a6d705",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "空港のターミナルを拡張する工事が始まった。",
+            "romaji": "Kuukou no taaminaru wo kakuchou suru kouji ga hajimatta.",
+            "german": "Die Bauarbeiten zur Erweiterung des Flughafenterminals haben begonnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "拡張する heißt „erweitern, ausbauen, vergrößern“ und ist transitiv: 道路を拡張する, 事業を拡張する, 機能を拡張する. In der IT: 拡張子 „Dateiendung“, 拡張機能 „Erweiterung, Add-on“. Ähnlich ist 拡大 („vergrößern, ausweiten“), das auch intransitiv geht (被害が拡大する); 拡張 wird eher für Anlagen, Flächen und Funktionen gebraucht.",
+        "examples": [
+          {
+            "japanese": "空港のターミナルを拡張する工事が始まった。",
+            "romaji": "Kuukou no taaminaru wo kakuchou suru kouji ga hajimatta.",
+            "german": "Die Bauarbeiten zur Erweiterung des Flughafenterminals haben begonnen."
+          },
+          {
+            "japanese": "駅前の道路を拡張して、渋滞を減らす計画だ。",
+            "romaji": "Ekimae no douro o kakuchou shite, juutai o herasu keikaku da.",
+            "german": "Man plant, die Straße vor dem Bahnhof zu verbreitern, um Staus zu verringern."
+          },
+          {
+            "japanese": "ブラウザに翻訳の拡張機能を入れた。",
+            "romaji": "Burauza ni hon'yaku no kakuchou kinou o ireta.",
+            "german": "Ich habe im Browser eine Übersetzungserweiterung installiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 8284c983a1c6487ff107d8bb24c78fba5cb8c5c1b35aa2b5015456ce56091d45",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8B%A1%E5%BC%B5%E3%81%99%E3%82%8B#word_1970",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 拡張する/かくちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 拡張する/かくちょうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "拡張する",
+              "reading": "かくちょうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 拡張する/かくちょうする \"ausbauen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1205220 sense 1, noun / suru verb: expansion, extension, enlargement Pitch: Verified [0] via exact OJAD dictionary-form cell. 拡張する heißt „erweitern, ausbauen, vergrößern“ und ist transitiv: 道路を拡張する, 事業を拡張する, 機能を拡張する. In der IT: 拡張子 „Dateiendung“, 拡張機能 „Erweiterung, Add-on“. Ähnlich ist 拡大 („vergrößern, ausweiten“), das auch intransitiv geht (被害が拡大する); 拡張 wird eher für Anlagen, Flächen und Funktionen gebraucht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1205220; spelling=拡張する; reading=かくちょうする",
+          "finding": "JMdict 1205220 sense 1, noun / suru verb: expansion, extension, enlargement"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 拡張する/かくちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 拡張する/かくちょうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 8284c983a1c6487ff107d8bb24c78fba5cb8c5c1b35aa2b5015456ce56091d45",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8B%A1%E5%BC%B5%E3%81%99%E3%82%8B#word_1970",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 拡張する/かくちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 拡張する/かくちょうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "拡張する",
+              "reading": "かくちょうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 拡張する/かくちょうする \"ausbauen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "ausbauen. JMdict 1205220 sense 1, noun / suru verb: expansion, extension, enlargement",
+        "japanese": "空港のターミナルを拡張する工事が始まった。 / 駅前の道路を拡張して、渋滞を減らす計画だ。 / ブラウザに翻訳の拡張機能を入れた。",
+        "romanization": "kakuchou suru; Kuukou no taaminaru wo kakuchou suru kouji ga hajimatta. / Ekimae no douro o kakuchou shite, juutai o herasu keikaku da. / Burauza ni hon'yaku no kakuchou kinou o ireta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Bauarbeiten zur Erweiterung des Flughafenterminals haben begonnen. / Man plant, die Straße vor dem Bahnhof zu verbreitern, um Staus zu verringern. / Ich habe im Browser eine Übersetzungserweiterung installiert.",
+        "contexts": [
+          "Airport expansion",
+          "Road widening",
+          "Browser add-on"
+        ],
+        "lexical": "JMdict 1205220 sense 1, noun / suru verb: expansion, extension, enlargement",
+        "register": "neutral / formal",
+        "transitivity": "transitive (〜を拡張する)",
+        "conjugation": "suru verb (拡張する → 拡張して, 拡張しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:449 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Airport expansion; Road widening; Browser add-on), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "032e425c40485616da92b32bfea10adb8fe7112acfb1c90793d7b23b5bb4be54",
+        "approvalHash": "44ccf3efe88a40c8371f8f3e25a6d598d3ecca5c077fdc1712ffe566d8174bc3"
+      }
+    },
+    {
+      "id": "vocab-n2:450",
+      "revisionId": "193b-n2-enrichment-vocab-n2-450",
+      "state": "accepted",
+      "predecessorHash": "74c1971b99258cdb7634095e745a4146c650c8fa1053009ef9fb790a6952d06d",
+      "originalHash": "74c1971b99258cdb7634095e745a4146c650c8fa1053009ef9fb790a6952d06d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "契約期間を一年延長した。",
+            "romaji": "Keiyaku kikan wo ichinen enchou shita.",
+            "german": "Die Vertragslaufzeit wurde um ein Jahr verlängert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "延長する heißt „verlängern“ – zeitlich (期間を延長する, 営業時間を延長する) und räumlich (線路を延長する). Es ist transitiv; als Nomen kennt man 延長戦 „Verlängerung (Sport)“ und 延長コード „Verlängerungskabel“. Nicht verwechseln mit 延期 („verschieben“): 延長 macht etwas länger, 延期 verlegt einen Termin nach hinten. Gegenteil: 短縮.",
+        "examples": [
+          {
+            "japanese": "契約期間を一年延長した。",
+            "romaji": "Keiyaku kikan wo ichinen enchou shita.",
+            "german": "Die Vertragslaufzeit wurde um ein Jahr verlängert."
+          },
+          {
+            "japanese": "試合は同点のまま延長戦に入った。",
+            "romaji": "Shiai wa douten no mama enchousen ni haitta.",
+            "german": "Beim Unentschieden ging das Spiel in die Verlängerung."
+          },
+          {
+            "japanese": "図書館で借りた本の貸出期間を延長してもらった。",
+            "romaji": "Toshokan de karita hon no kashidashi kikan o enchou shite moratta.",
+            "german": "Ich habe die Leihfrist für das Bibliotheksbuch verlängern lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 4cf346aa1a0c04a41a102cc943e7e901f7ed2268504159381c32016eebff2d56",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BB%B6%E9%95%B7%E3%81%99%E3%82%8B#word_1916",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 延長する/えんちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 延長する/えんちょうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "延長する",
+              "reading": "えんちょうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 延長する/えんちょうする \"verlängern\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1176510 senses 1 and 7, noun / suru verb: extension, prolongation; overtime, extra time Pitch: Verified [0] via exact OJAD dictionary-form cell. 延長する heißt „verlängern“ – zeitlich (期間を延長する, 営業時間を延長する) und räumlich (線路を延長する). Es ist transitiv; als Nomen kennt man 延長戦 „Verlängerung (Sport)“ und 延長コード „Verlängerungskabel“. Nicht verwechseln mit 延期 („verschieben“): 延長 macht etwas länger, 延期 verlegt einen Termin nach hinten. Gegenteil: 短縮. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1176510; spelling=延長する; reading=えんちょうする",
+          "finding": "JMdict 1176510 senses 1 and 7, noun / suru verb: extension, prolongation; overtime, extra time"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 延長する/えんちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 延長する/えんちょうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 4cf346aa1a0c04a41a102cc943e7e901f7ed2268504159381c32016eebff2d56",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BB%B6%E9%95%B7%E3%81%99%E3%82%8B#word_1916",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 延長する/えんちょうする read; accent_top positions [0] (0 = no accent_top). Exact whole 延長する/えんちょうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "延長する",
+              "reading": "えんちょうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 延長する/えんちょうする \"verlängern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verlängern. JMdict 1176510 senses 1 and 7, noun / suru verb: extension, prolongation; overtime, extra time",
+        "japanese": "契約期間を一年延長した。 / 試合は同点のまま延長戦に入った。 / 図書館で借りた本の貸出期間を延長してもらった。",
+        "romanization": "enchou suru; Keiyaku kikan wo ichinen enchou shita. / Shiai wa douten no mama enchousen ni haitta. / Toshokan de karita hon no kashidashi kikan o enchou shite moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Vertragslaufzeit wurde um ein Jahr verlängert. / Beim Unentschieden ging das Spiel in die Verlängerung. / Ich habe die Leihfrist für das Bibliotheksbuch verlängern lassen.",
+        "contexts": [
+          "Contract extension",
+          "Overtime in a match",
+          "Library loan"
+        ],
+        "lexical": "JMdict 1176510 senses 1 and 7, noun / suru verb: extension, prolongation; overtime, extra time",
+        "register": "neutral",
+        "transitivity": "transitive (〜を延長する)",
+        "conjugation": "suru verb (延長する → 延長して, 延長しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:450 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Contract extension; Overtime in a match; Library loan), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "eb37dc0d13d2fa9aba37f93084ad44402c4910d280621da3f96b5738bd27ab2d",
+        "approvalHash": "ab4d48f2496b2b60ae981d6d538f162f504cdddccd8fff8178cb6ec4a31d64b8"
+      }
+    },
+    {
+      "id": "vocab-n2:451",
+      "revisionId": "193b-n2-enrichment-vocab-n2-451",
+      "state": "accepted",
+      "predecessorHash": "230d8b75d5567d78c1e62c282995154e69cf1f396bba5ee73f0f710b0267d993",
+      "originalHash": "230d8b75d5567d78c1e62c282995154e69cf1f396bba5ee73f0f710b0267d993",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "労働時間を短縮する方針が決まった。",
+            "romaji": "Roudou jikan wo tanshuku suru houshin ga kimatta.",
+            "german": "Die Richtlinie zur Verkürzung der Arbeitszeit wurde beschlossen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "短縮する heißt „verkürzen, abkürzen“ und ist transitiv: 時間を短縮する, 距離を短縮する, 営業時間を短縮する „die Öffnungszeiten verkürzen“. Sehr verbreitet ist die Abkürzung 時短 (aus 時間短縮) für Zeitersparnis oder verkürzte Arbeitszeit. Gegenteil: 延長. 省略 dagegen bedeutet „weglassen, auslassen“.",
+        "examples": [
+          {
+            "japanese": "労働時間を短縮する方針が決まった。",
+            "romaji": "Roudou jikan wo tanshuku suru houshin ga kimatta.",
+            "german": "Die Richtlinie zur Verkürzung der Arbeitszeit wurde beschlossen."
+          },
+          {
+            "japanese": "新しい道路ができて、通勤時間が二十分短縮された。",
+            "romaji": "Atarashii douro ga dekite, tsuukin jikan ga nijuppun tanshuku sareta.",
+            "german": "Durch die neue Straße hat sich der Arbeitsweg um zwanzig Minuten verkürzt."
+          },
+          {
+            "japanese": "この店は今月から営業時間を短縮している。",
+            "romaji": "Kono mise wa kongetsu kara eigyou jikan o tanshuku shite iru.",
+            "german": "Dieser Laden hat seit diesem Monat verkürzte Öffnungszeiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 471216d5d96f0965eb1112b756937abb8f58bd1bc7d69865e1e3deb3a33a7f94",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%9F%AD%E7%B8%AE%E3%81%99%E3%82%8B#word_2414",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 短縮する/たんしゅくする read; accent_top positions [0] (0 = no accent_top). Exact whole 短縮する/たんしゅくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "短縮する",
+              "reading": "たんしゅくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 短縮する/たんしゅくする \"verkürzen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1418740 sense 1, noun / suru verb: shortening, reduction, curtailment Pitch: Verified [0] via exact OJAD dictionary-form cell. 短縮する heißt „verkürzen, abkürzen“ und ist transitiv: 時間を短縮する, 距離を短縮する, 営業時間を短縮する „die Öffnungszeiten verkürzen“. Sehr verbreitet ist die Abkürzung 時短 (aus 時間短縮) für Zeitersparnis oder verkürzte Arbeitszeit. Gegenteil: 延長. 省略 dagegen bedeutet „weglassen, auslassen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1418740; spelling=短縮する; reading=たんしゅくする",
+          "finding": "JMdict 1418740 sense 1, noun / suru verb: shortening, reduction, curtailment"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 短縮する/たんしゅくする read; accent_top positions [0] (0 = no accent_top). Exact whole 短縮する/たんしゅくする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 471216d5d96f0965eb1112b756937abb8f58bd1bc7d69865e1e3deb3a33a7f94",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%9F%AD%E7%B8%AE%E3%81%99%E3%82%8B#word_2414",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 短縮する/たんしゅくする read; accent_top positions [0] (0 = no accent_top). Exact whole 短縮する/たんしゅくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "短縮する",
+              "reading": "たんしゅくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 短縮する/たんしゅくする \"verkürzen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verkürzen. JMdict 1418740 sense 1, noun / suru verb: shortening, reduction, curtailment",
+        "japanese": "労働時間を短縮する方針が決まった。 / 新しい道路ができて、通勤時間が二十分短縮された。 / この店は今月から営業時間を短縮している。",
+        "romanization": "tanshuku suru; Roudou jikan wo tanshuku suru houshin ga kimatta. / Atarashii douro ga dekite, tsuukin jikan ga nijuppun tanshuku sareta. / Kono mise wa kongetsu kara eigyou jikan o tanshuku shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Richtlinie zur Verkürzung der Arbeitszeit wurde beschlossen. / Durch die neue Straße hat sich der Arbeitsweg um zwanzig Minuten verkürzt. / Dieser Laden hat seit diesem Monat verkürzte Öffnungszeiten.",
+        "contexts": [
+          "Working-hours policy",
+          "Shorter commute",
+          "Reduced opening hours"
+        ],
+        "lexical": "JMdict 1418740 sense 1, noun / suru verb: shortening, reduction, curtailment",
+        "register": "neutral / formal",
+        "transitivity": "transitive (〜を短縮する); passive 短縮される",
+        "conjugation": "suru verb (短縮する → 短縮して, 短縮しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:451 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Working-hours policy; Shorter commute; Reduced opening hours), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e6a90ce687a652a773a1662dcba0a6e404a0ade6465406fb6515586454c66841",
+        "approvalHash": "eb6f7fef0e200bb3388bc7065c683cbb516b324c733d21348abcf012d6f9fb94"
+      }
+    },
+    {
+      "id": "vocab-n2:452",
+      "revisionId": "193b-n2-enrichment-vocab-n2-452",
+      "state": "accepted",
+      "predecessorHash": "2ab48de6e24805685ed06aeaecc12fdd4c6f1b827ea89d2f384b15bb995bfded",
+      "originalHash": "2ab48de6e24805685ed06aeaecc12fdd4c6f1b827ea89d2f384b15bb995bfded",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "油と水は自然に分離する。",
+            "romaji": "Abura to mizu wa shizen ni bunri suru.",
+            "german": "Öl und Wasser trennen sich von Natur aus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分離する heißt „trennen, sich trennen, abspalten“ und wird transitiv (AからBを分離する) wie intransitiv (油と水が分離する) gebraucht. Es klingt sachlich-technisch; bekannte Komposita sind 政教分離 „Trennung von Staat und Religion“ und 中央分離帯 „Mittelstreifen“. Im Alltag sagt man 分ける / 分かれる; 分裂 betont dagegen das Zerbrechen eines Ganzen.",
+        "examples": [
+          {
+            "japanese": "油と水は自然に分離する。",
+            "romaji": "Abura to mizu wa shizen ni bunri suru.",
+            "german": "Öl und Wasser trennen sich von Natur aus."
+          },
+          {
+            "japanese": "打ち上げの数分後、ブースターがロケットから分離した。",
+            "romaji": "Uchiage no suufungo, buusutaa ga roketto kara bunri shita.",
+            "german": "Einige Minuten nach dem Start trennte sich der Booster von der Rakete."
+          },
+          {
+            "japanese": "この装置は水から汚れを分離する。",
+            "romaji": "Kono souchi wa mizu kara yogore o bunri suru.",
+            "german": "Dieses Gerät trennt Schmutz vom Wasser."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 f3d7e2e711868ff33347a4d98bcb965ef2fdca0526ebd87e01f0ba9814db5a6c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E9%9B%A2%E3%81%99%E3%82%8B#word_2671",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分離する/ぶんりする read; accent_top positions [0] (0 = no accent_top). Exact whole 分離する/ぶんりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分離する",
+              "reading": "ぶんりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分離する/ぶんりする \"trennen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1504370 sense 1, noun / suru verb: separation, detachment, isolation Pitch: Verified [0] via exact OJAD dictionary-form cell. 分離する heißt „trennen, sich trennen, abspalten“ und wird transitiv (AからBを分離する) wie intransitiv (油と水が分離する) gebraucht. Es klingt sachlich-technisch; bekannte Komposita sind 政教分離 „Trennung von Staat und Religion“ und 中央分離帯 „Mittelstreifen“. Im Alltag sagt man 分ける / 分かれる; 分裂 betont dagegen das Zerbrechen eines Ganzen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1504370; spelling=分離する; reading=ぶんりする",
+          "finding": "JMdict 1504370 sense 1, noun / suru verb: separation, detachment, isolation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 分離する/ぶんりする read; accent_top positions [0] (0 = no accent_top). Exact whole 分離する/ぶんりする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 f3d7e2e711868ff33347a4d98bcb965ef2fdca0526ebd87e01f0ba9814db5a6c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%88%86%E9%9B%A2%E3%81%99%E3%82%8B#word_2671",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 分離する/ぶんりする read; accent_top positions [0] (0 = no accent_top). Exact whole 分離する/ぶんりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "分離する",
+              "reading": "ぶんりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 分離する/ぶんりする \"trennen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "trennen. JMdict 1504370 sense 1, noun / suru verb: separation, detachment, isolation",
+        "japanese": "油と水は自然に分離する。 / 打ち上げの数分後、ブースターがロケットから分離した。 / この装置は水から汚れを分離する。",
+        "romanization": "bunri suru; Abura to mizu wa shizen ni bunri suru. / Uchiage no suufungo, buusutaa ga roketto kara bunri shita. / Kono souchi wa mizu kara yogore o bunri suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Öl und Wasser trennen sich von Natur aus. / Einige Minuten nach dem Start trennte sich der Booster von der Rakete. / Dieses Gerät trennt Schmutz vom Wasser.",
+        "contexts": [
+          "Oil and water",
+          "Rocket launch",
+          "Water filter device"
+        ],
+        "lexical": "JMdict 1504370 sense 1, noun / suru verb: separation, detachment, isolation",
+        "register": "neutral / technical",
+        "transitivity": "transitive (AからBを分離する) and intransitive (〜が分離する)",
+        "conjugation": "suru verb (分離する → 分離して, 分離しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:452 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Oil and water; Rocket launch; Water filter device), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b0468c7b731578e8bfbe1f4b2c18dc473a80a0136b265ca9f182e090f48b880a",
+        "approvalHash": "b7bfae1b7b28aac762c0395841d3dac534e89e5259a5042eab8a2195e0c2d53b"
+      }
+    },
+    {
+      "id": "vocab-n2:453",
+      "revisionId": "193b-n2-enrichment-vocab-n2-453",
+      "state": "accepted",
+      "predecessorHash": "0a1112818c774e5068dac620808b62839c79fb7c627d3ccd5fbc71055a141dcb",
+      "originalHash": "0a1112818c774e5068dac620808b62839c79fb7c627d3ccd5fbc71055a141dcb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女は二十歳で親から独立した。",
+            "romaji": "Kanojo wa hatachi de oya kara dokuritsu shita.",
+            "german": "Sie machte sich mit zwanzig Jahren von ihren Eltern unabhängig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "独立する heißt „unabhängig werden, sich selbstständig machen“ und ist intransitiv, meist mit から: 親から独立する „auf eigenen Beinen stehen“, 会社を辞めて独立する „sich selbstständig machen“, 国が独立する. Als Nomen in 独立記念日 „Unabhängigkeitstag“ oder 独立心 „Unabhängigkeitsgeist“. Bedeutungsnah ist 自立 („selbstständig leben“), das stärker die persönliche Reife betont.",
+        "examples": [
+          {
+            "japanese": "彼女は二十歳で親から独立した。",
+            "romaji": "Kanojo wa hatachi de oya kara dokuritsu shita.",
+            "german": "Sie machte sich mit zwanzig Jahren von ihren Eltern unabhängig."
+          },
+          {
+            "japanese": "彼は十年会社に勤めた後、独立して自分の店を開いた。",
+            "romaji": "Kare wa juunen kaisha ni tsutometa ato, dokuritsu shite jibun no mise o hiraita.",
+            "german": "Nach zehn Jahren in der Firma machte er sich selbstständig und eröffnete seinen eigenen Laden."
+          },
+          {
+            "japanese": "その国は二十世紀の半ばに独立した。",
+            "romaji": "Sono kuni wa nijusseiki no nakaba ni dokuritsu shita.",
+            "german": "Das Land wurde Mitte des 20. Jahrhunderts unabhängig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 66dcb8ce29f2146f17facfb00aa05e9444e8f271d14044acfe7108b75691e0a9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8B%AC%E7%AB%8B%E3%81%99%E3%82%8B#word_2547",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 独立する/どくりつする read; accent_top positions [0] (0 = no accent_top). Exact whole 独立する/どくりつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "独立する",
+              "reading": "どくりつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 独立する/どくりつする \"sich unabhängig machen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1456040 senses 1–2, noun / suru verb: independence, self-reliance; independence of a nation Pitch: Verified [0] via exact OJAD dictionary-form cell. 独立する heißt „unabhängig werden, sich selbstständig machen“ und ist intransitiv, meist mit から: 親から独立する „auf eigenen Beinen stehen“, 会社を辞めて独立する „sich selbstständig machen“, 国が独立する. Als Nomen in 独立記念日 „Unabhängigkeitstag“ oder 独立心 „Unabhängigkeitsgeist“. Bedeutungsnah ist 自立 („selbstständig leben“), das stärker die persönliche Reife betont. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1456040; spelling=独立する; reading=どくりつする",
+          "finding": "JMdict 1456040 senses 1–2, noun / suru verb: independence, self-reliance; independence of a nation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 独立する/どくりつする read; accent_top positions [0] (0 = no accent_top). Exact whole 独立する/どくりつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 66dcb8ce29f2146f17facfb00aa05e9444e8f271d14044acfe7108b75691e0a9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%8B%AC%E7%AB%8B%E3%81%99%E3%82%8B#word_2547",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 独立する/どくりつする read; accent_top positions [0] (0 = no accent_top). Exact whole 独立する/どくりつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "独立する",
+              "reading": "どくりつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 独立する/どくりつする \"sich unabhängig machen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich unabhängig machen. JMdict 1456040 senses 1–2, noun / suru verb: independence, self-reliance; independence of a nation",
+        "japanese": "彼女は二十歳で親から独立した。 / 彼は十年会社に勤めた後、独立して自分の店を開いた。 / その国は二十世紀の半ばに独立した。",
+        "romanization": "dokuritsu suru; Kanojo wa hatachi de oya kara dokuritsu shita. / Kare wa juunen kaisha ni tsutometa ato, dokuritsu shite jibun no mise o hiraita. / Sono kuni wa nijusseiki no nakaba ni dokuritsu shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie machte sich mit zwanzig Jahren von ihren Eltern unabhängig. / Nach zehn Jahren in der Firma machte er sich selbstständig und eröffnete seinen eigenen Laden. / Das Land wurde Mitte des 20. Jahrhunderts unabhängig.",
+        "contexts": [
+          "Leaving the parents' home",
+          "Starting one's own business",
+          "National independence"
+        ],
+        "lexical": "JMdict 1456040 senses 1–2, noun / suru verb: independence, self-reliance; independence of a nation",
+        "register": "neutral",
+        "transitivity": "intransitive (〜から独立する)",
+        "conjugation": "suru verb (独立する → 独立して, 独立しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:453 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Leaving the parents' home; Starting one's own business; National independence), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c35b53a777c4096ef679de92792ee46822b4864b1f396e30736425b5ae8da10d",
+        "approvalHash": "62521df3804f8644b6f7786724f78b74765b09be27cc4422576c110365eab088"
+      }
+    },
+    {
+      "id": "vocab-n2:454",
+      "revisionId": "193b-n2-enrichment-vocab-n2-454",
+      "state": "accepted",
+      "predecessorHash": "80df39518cae925fdf31f6c73b94790d6e669846739f597eb758e806d21f5821",
+      "originalHash": "80df39518cae925fdf31f6c73b94790d6e669846739f597eb758e806d21f5821",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "他人に依存しすぎてはいけない。",
+            "romaji": "Tanin ni izon shisugite wa ikenai.",
+            "german": "Man sollte nicht zu sehr von anderen abhängig sein."
+          }
+        ],
+        "meaning": "abhängen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "依存する heißt „abhängig sein (von), sich stützen auf“ und ist intransitiv mit に: 輸入に依存する, 親に依存する. Oft negativ gefärbt, besonders in Komposita wie スマホ依存 „Handysucht“ oder アルコール依存症 „Alkoholabhängigkeit“. Das deutsche „es hängt davon ab“ heißt dagegen 〜による / 〜次第だ, nicht 依存. Alltäglicher für „sich verlassen auf“ ist 頼る; die Lesung いそん ist ebenfalls korrekt.",
+        "examples": [
+          {
+            "japanese": "他人に依存しすぎてはいけない。",
+            "romaji": "Tanin ni izon shisugite wa ikenai.",
+            "german": "Man sollte nicht zu sehr von anderen abhängig sein."
+          },
+          {
+            "japanese": "日本はエネルギーの多くを輸入に依存している。",
+            "romaji": "Nihon wa enerugii no ooku o yunyuu ni izon shite iru.",
+            "german": "Japan ist bei seiner Energie größtenteils auf Importe angewiesen."
+          },
+          {
+            "japanese": "彼はアルコール依存症の治療を受けている。",
+            "romaji": "Kare wa arukooru izonshou no chiryou o ukete iru.",
+            "german": "Er ist wegen Alkoholabhängigkeit in Behandlung."
+          }
+        ],
+        "meaning": "abhängig sein (von)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 b0ca7627acb5888088ba31689b78363602c358c75d94dd89e38de967ab746621",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BE%9D%E5%AD%98%E3%81%99%E3%82%8B#word_1886",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 依存する/いぞんする read; accent_top positions [0] (0 = no accent_top). Exact whole 依存する/いぞんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "依存する",
+              "reading": "いぞんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 依存する/いぞんする \"abhängen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1575870 sense 1, noun / suru verb: dependence, reliance Pitch: Verified [0] via exact OJAD dictionary-form cell. 依存する heißt „abhängig sein (von), sich stützen auf“ und ist intransitiv mit に: 輸入に依存する, 親に依存する. Oft negativ gefärbt, besonders in Komposita wie スマホ依存 „Handysucht“ oder アルコール依存症 „Alkoholabhängigkeit“. Das deutsche „es hängt davon ab“ heißt dagegen 〜による / 〜次第だ, nicht 依存. Alltäglicher für „sich verlassen auf“ ist 頼る; die Lesung いそん ist ebenfalls korrekt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1575870; spelling=依存する; reading=いぞんする",
+          "finding": "JMdict 1575870 sense 1, noun / suru verb: dependence, reliance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 依存する/いぞんする read; accent_top positions [0] (0 = no accent_top). Exact whole 依存する/いぞんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 b0ca7627acb5888088ba31689b78363602c358c75d94dd89e38de967ab746621",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BE%9D%E5%AD%98%E3%81%99%E3%82%8B#word_1886",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 依存する/いぞんする read; accent_top positions [0] (0 = no accent_top). Exact whole 依存する/いぞんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "依存する",
+              "reading": "いぞんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 依存する/いぞんする \"abhängen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "abhängig sein (von). JMdict 1575870 sense 1, noun / suru verb: dependence, reliance",
+        "japanese": "他人に依存しすぎてはいけない。 / 日本はエネルギーの多くを輸入に依存している。 / 彼はアルコール依存症の治療を受けている。",
+        "romanization": "izon suru; Tanin ni izon shisugite wa ikenai. / Nihon wa enerugii no ooku o yunyuu ni izon shite iru. / Kare wa arukooru izonshou no chiryou o ukete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man sollte nicht zu sehr von anderen abhängig sein. / Japan ist bei seiner Energie größtenteils auf Importe angewiesen. / Er ist wegen Alkoholabhängigkeit in Behandlung.",
+        "contexts": [
+          "Personal independence",
+          "Energy imports",
+          "Addiction treatment"
+        ],
+        "lexical": "JMdict 1575870 sense 1, noun / suru verb: dependence, reliance",
+        "register": "neutral / formal",
+        "transitivity": "intransitive (〜に依存する)",
+        "conjugation": "suru verb (依存する → 依存して, 依存しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:454 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Personal independence; Energy imports; Addiction treatment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a84f6be78f0223b7d6554cb4154ae52ce825e07fb6000e0a2e1cc0260bfba30b",
+        "approvalHash": "905255f6241ed2bbb56d902f341a9a77461f6bfe9f24ffaf920251955b72f675"
+      }
+    },
+    {
+      "id": "vocab-n2:455",
+      "revisionId": "193b-n2-enrichment-vocab-n2-455",
+      "state": "accepted",
+      "predecessorHash": "6235f0f46b316d820e8963f13433fd2b170e144b36e8bb6ee1c81af7f077bf79",
+      "originalHash": "6235f0f46b316d820e8963f13433fd2b170e144b36e8bb6ee1c81af7f077bf79",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "その王は広大な領土を支配していた。",
+            "romaji": "Sono ou wa koudai na ryoudo wo shihai shite ita.",
+            "german": "Der König beherrschte ein weites Gebiet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "支配する heißt „beherrschen, regieren, kontrollieren“ und ist transitiv: 国を支配する, 市場を支配する. Übertragen auch für Gefühle oder Stimmungen, die jemanden bestimmen: 恐怖に支配される „von Angst beherrscht werden“. 支配人 ist der „Geschäftsführer“ eines Hotels oder Kinos. Im Vergleich zu 管理 („verwalten“) hat 支配 immer einen Aspekt von Macht und Herrschaft.",
+        "examples": [
+          {
+            "japanese": "その王は広大な領土を支配していた。",
+            "romaji": "Sono ou wa koudai na ryoudo wo shihai shite ita.",
+            "german": "Der König beherrschte ein weites Gebiet."
+          },
+          {
+            "japanese": "彼は恐怖に支配されて、何も言えなかった。",
+            "romaji": "Kare wa kyoufu ni shihai sarete, nani mo ienakatta.",
+            "german": "Von Angst beherrscht, brachte er kein Wort heraus."
+          },
+          {
+            "japanese": "その会社は国内市場をほぼ支配している。",
+            "romaji": "Sono kaisha wa kokunai shijou o hobo shihai shite iru.",
+            "german": "Die Firma beherrscht nahezu den gesamten Binnenmarkt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 879a9440ab00efab1bb5db57a9192bf03722ecc2e7cc271a90df00a6a80441e9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B#word_1707",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 支配する/しはいする read; accent_top positions [1] (0 = no accent_top). Exact whole 支配する/しはいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "支配する",
+              "reading": "しはいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 支配する/しはいする \"beherrschen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1310270 senses 1 and 3, noun / suru verb: rule, domination, control; sway, influence Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 支配する heißt „beherrschen, regieren, kontrollieren“ und ist transitiv: 国を支配する, 市場を支配する. Übertragen auch für Gefühle oder Stimmungen, die jemanden bestimmen: 恐怖に支配される „von Angst beherrscht werden“. 支配人 ist der „Geschäftsführer“ eines Hotels oder Kinos. Im Vergleich zu 管理 („verwalten“) hat 支配 immer einen Aspekt von Macht und Herrschaft. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310270; spelling=支配する; reading=しはいする",
+          "finding": "JMdict 1310270 senses 1 and 3, noun / suru verb: rule, domination, control; sway, influence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 支配する/しはいする read; accent_top positions [1] (0 = no accent_top). Exact whole 支配する/しはいする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 879a9440ab00efab1bb5db57a9192bf03722ecc2e7cc271a90df00a6a80441e9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%AF%E9%85%8D%E3%81%99%E3%82%8B#word_1707",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 支配する/しはいする read; accent_top positions [1] (0 = no accent_top). Exact whole 支配する/しはいする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "支配する",
+              "reading": "しはいする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 支配する/しはいする \"beherrschen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "beherrschen. JMdict 1310270 senses 1 and 3, noun / suru verb: rule, domination, control; sway, influence",
+        "japanese": "その王は広大な領土を支配していた。 / 彼は恐怖に支配されて、何も言えなかった。 / その会社は国内市場をほぼ支配している。",
+        "romanization": "shihai suru; Sono ou wa koudai na ryoudo wo shihai shite ita. / Kare wa kyoufu ni shihai sarete, nani mo ienakatta. / Sono kaisha wa kokunai shijou o hobo shihai shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der König beherrschte ein weites Gebiet. / Von Angst beherrscht, brachte er kein Wort heraus. / Die Firma beherrscht nahezu den gesamten Binnenmarkt.",
+        "contexts": [
+          "Historical king",
+          "Paralysed by fear",
+          "Market dominance"
+        ],
+        "lexical": "JMdict 1310270 senses 1 and 3, noun / suru verb: rule, domination, control; sway, influence",
+        "register": "neutral / formal",
+        "transitivity": "transitive (〜を支配する); passive 〜に支配される",
+        "conjugation": "suru verb (支配する → 支配して, 支配しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:455 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Historical king; Paralysed by fear; Market dominance), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "25c265565d2f4933b1eaf922ec5f85ba11204cbc875115588856800cc3de27a2",
+        "approvalHash": "fa61736d4a799ba067029e134ba0b40387615da679e0b3da16fecb0568ab5a61"
+      }
+    },
+    {
+      "id": "vocab-n2:456",
+      "revisionId": "193b-n2-enrichment-vocab-n2-456",
+      "state": "accepted",
+      "predecessorHash": "123e54fd311317b64e855988238c3f6fda7d436c1d129fa85253c4f047cbed17",
+      "originalHash": "123e54fd311317b64e855988238c3f6fda7d436c1d129fa85253c4f047cbed17",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "データを安全に管理する必要がある。",
+            "romaji": "Deeta wo anzen ni kanri suru hitsuyou ga aru.",
+            "german": "Daten müssen sicher verwaltet werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "管理する heißt „verwalten, beaufsichtigen, betreuen“ und ist transitiv: データを管理する, 建物を管理する, 健康を管理する. Sehr häufig sind 管理人 „Hausmeister, Hausverwalter“, 管理職 „Führungsposition“ und 体調管理 „auf seine Gesundheit achten“. 経営 meint dagegen „ein Unternehmen führen“, 支配 hat einen Machtaspekt; 管理 betont Ordnung, Kontrolle und Pflege.",
+        "examples": [
+          {
+            "japanese": "データを安全に管理する必要がある。",
+            "romaji": "Deeta wo anzen ni kanri suru hitsuyou ga aru.",
+            "german": "Daten müssen sicher verwaltet werden."
+          },
+          {
+            "japanese": "マンションの管理人に鍵を預けておいた。",
+            "romaji": "Manshon no kanrinin ni kagi o azukete oita.",
+            "german": "Ich habe den Schlüssel beim Hausmeister der Wohnanlage hinterlegt."
+          },
+          {
+            "japanese": "試験前は、体調をしっかり管理することが大切だ。",
+            "romaji": "Shiken mae wa, taichou o shikkari kanri suru koto ga taisetsu da.",
+            "german": "Vor Prüfungen ist es wichtig, gut auf die eigene Gesundheit zu achten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 8621473330d2b080494419f7a743d8458db5bbcf7320f11d5d3247b6a153d54d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B#word_1679",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 管理する/かんりする read; accent_top positions [1] (0 = no accent_top). Exact whole 管理する/かんりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "管理する",
+              "reading": "かんりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 管理する/かんりする \"verwalten\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1214200 sense 1, noun / suru verb: control, management Pitch: Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. 管理する heißt „verwalten, beaufsichtigen, betreuen“ und ist transitiv: データを管理する, 建物を管理する, 健康を管理する. Sehr häufig sind 管理人 „Hausmeister, Hausverwalter“, 管理職 „Führungsposition“ und 体調管理 „auf seine Gesundheit achten“. 経営 meint dagegen „ein Unternehmen führen“, 支配 hat einen Machtaspekt; 管理 betont Ordnung, Kontrolle und Pflege. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1214200; spelling=管理する; reading=かんりする",
+          "finding": "JMdict 1214200 sense 1, noun / suru verb: control, management"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 管理する/かんりする read; accent_top positions [1] (0 = no accent_top). Exact whole 管理する/かんりする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 8621473330d2b080494419f7a743d8458db5bbcf7320f11d5d3247b6a153d54d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B#word_1679",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 管理する/かんりする read; accent_top positions [1] (0 = no accent_top). Exact whole 管理する/かんりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "管理する",
+              "reading": "かんりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 管理する/かんりする \"verwalten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "reviewedDistinctContexts": true,
+        "meaning": "verwalten. JMdict 1214200 sense 1, noun / suru verb: control, management",
+        "japanese": "データを安全に管理する必要がある。 / マンションの管理人に鍵を預けておいた。 / 試験前は、体調をしっかり管理することが大切だ。",
+        "romanization": "kanri suru; Deeta wo anzen ni kanri suru hitsuyou ga aru. / Manshon no kanrinin ni kagi o azukete oita. / Shiken mae wa, taichou o shikkari kanri suru koto ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Daten müssen sicher verwaltet werden. / Ich habe den Schlüssel beim Hausmeister der Wohnanlage hinterlegt. / Vor Prüfungen ist es wichtig, gut auf die eigene Gesundheit zu achten.",
+        "contexts": [
+          "Data security",
+          "Leaving keys with the caretaker",
+          "Staying healthy before exams"
+        ],
+        "lexical": "JMdict 1214200 sense 1, noun / suru verb: control, management",
+        "register": "neutral",
+        "transitivity": "transitive (〜を管理する)",
+        "conjugation": "suru verb (管理する → 管理して, 管理しない)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-193",
+        "finding": "Author reread the exact final card vocab-n2:456 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Data security; Leaving keys with the caretaker; Staying healthy before exams), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0d55d97800dbffdcee07aeea554e3ffd400c38bb652abfe3546d775838736c93",
+        "approvalHash": "a958c91597f86b89a8fb24b8010abe723665ca10b9e66606769798ea60a04b10"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

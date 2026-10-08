@@ -601,6 +601,21 @@ renewed. Six of them are the 板/丘/画家 decisions. They were recorded as `ad
 cards came from the older additions importer and have no correction-pipeline addition seed,
 so they were renewed as exact-form matches (`verified-spelling-variant`). All 22 full checks
 pass; `advance --dry-run` passed and the campaign advanced from N3 to N2.
+**First N2 checkpoint (8 October 2026).** Batches 191a–191j, 192a–192j and 193a–193j
+(`author-only-v1`) enrich 750 N2 entries, from vocab-n5:1044 to vocab-n2:671, including idiom and
+yojijukugo cards. Each now has a German usage note and 2–3 examples in distinct situations: 1,485
+new sentences, and 71 entries had original examples corrected (wrong German, unnatural Japanese,
+受賞式 → 授賞式). The pitch of 610 entries is verified: 506 from exact UniDic rows and 104 from
+OJAD dictionary-form cells. 82 stored primary accents are corrected and 3 cards that had no pitch
+get one; 107 stored values without an exact attestation become investigated unknowns, so 140
+entries in all are investigated unknowns. 98 German meanings are corrected. Examples: 供述
+„Aussage“ is no longer „Geständnis“, which is 自白; 嘆く now reads „beklagen, betrauern“; 研ぐ
+now includes „(Reis) waschen“. 虹色 and 水溶性 are retyped from Adjektiv to Nomen and 粘々 becomes
+Adverb. 第一弾 records the complete JMdict scan instead of a sequence. Five merge survivors
+(idioms:122, idioms:47, yojijukugo:0, yojijukugo:24, yojijukugo:101) renew their merge records.
+Re-reviewing 唯一, 但し and 勧め made 7 accepted spelling-variant decisions stale (N3 3, N2 4).
+Batches 194a–194b renew them unchanged, so N3 stays complete. N2 now has 1,750 pending reviews
+and 271 open references.
 
 ## Historical campaign freeze
 

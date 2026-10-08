@@ -1,0 +1,3980 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:323",
+      "revisionId": "192h-n2-enrichment-vocab-n2-323",
+      "state": "accepted",
+      "predecessorHash": "95ceefab9134659cf4ceffc2a797715311e2deda9467e7717b054d20dfec5f11",
+      "originalHash": "95ceefab9134659cf4ceffc2a797715311e2deda9467e7717b054d20dfec5f11",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "塩分の取りすぎは高血圧の原因になります。",
+            "romaji": "Enbun no torisugi wa kōketsuatsu no gen'in ni narimasu.",
+            "german": "Zu viel Salz kann zu Bluthochdruck führen."
+          }
+        ],
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "高血圧 ist „Bluthochdruck“ (高 + 血圧 „Blutdruck“), das Gegenteil ist 低血圧, mit dem man in Japan oft auch Morgenmuffeligkeit erklärt (低血圧で朝が弱い). Typisch: 高血圧になる, 高血圧の薬, 高血圧気味 („leicht erhöhter Blutdruck“). Im Gespräch sagt man häufig einfach 血圧が高い.",
+        "examples": [
+          {
+            "japanese": "塩分の取りすぎは高血圧の原因になります。",
+            "romaji": "Enbun no torisugi wa kōketsuatsu no gen'in ni narimasu.",
+            "german": "Zu viel Salz kann zu Bluthochdruck führen."
+          },
+          {
+            "japanese": "祖母は高血圧の薬を毎日飲んでいる。",
+            "romaji": "Sobo wa kōketsuatsu no kusuri o mainichi nonde iru.",
+            "german": "Meine Großmutter nimmt täglich Blutdrucksenker."
+          },
+          {
+            "japanese": "健康診断で、高血圧気味だと言われた。",
+            "romaji": "Kenkō shindan de, kōketsuatsu gimi da to iwareta.",
+            "german": "Beim Gesundheitscheck sagte man mir, mein Blutdruck sei etwas zu hoch."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1283450 sense 1, noun: high blood pressure, hypertension Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 4). 高血圧 ist „Bluthochdruck“ (高 + 血圧 „Blutdruck“), das Gegenteil ist 低血圧, mit dem man in Japan oft auch Morgenmuffeligkeit erklärt (低血圧で朝が弱い). Typisch: 高血圧になる, 高血圧の薬, 高血圧気味 („leicht erhöhter Blutdruck“). Im Gespräch sagt man häufig einfach 血圧が高い. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1283450; spelling=高血圧; reading=こうけつあつ",
+          "selected": {
+            "sequence": "1283450",
+            "spelling": "高血圧",
+            "reading": "こうけつあつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "high blood pressure",
+                  "hypertension"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1283450 sense 1, noun: high blood pressure, hypertension"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 高血圧/こうけつあつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%AB%98%E8%A1%80%E5%9C%A7",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 高血圧/こうけつあつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bluthochdruck. JMdict 1283450 sense 1, noun: high blood pressure, hypertension",
+        "japanese": "塩分の取りすぎは高血圧の原因になります。 / 祖母は高血圧の薬を毎日飲んでいる。 / 健康診断で、高血圧気味だと言われた。",
+        "romanization": "kōketsuatsu; Enbun no torisugi wa kōketsuatsu no gen'in ni narimasu. / Sobo wa kōketsuatsu no kusuri o mainichi nonde iru. / Kenkō shindan de, kōketsuatsu gimi da to iwareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zu viel Salz kann zu Bluthochdruck führen. / Meine Großmutter nimmt täglich Blutdrucksenker. / Beim Gesundheitscheck sagte man mir, mein Blutdruck sei etwas zu hoch.",
+        "contexts": [
+          "Salt and health",
+          "Daily medication",
+          "Checkup result"
+        ],
+        "lexical": "JMdict 1283450 sense 1, noun: high blood pressure, hypertension",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:323 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Salt and health; Daily medication; Checkup result), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2acc7f682950a55d563be09188c8248618406ef35474aabae1294346227cda3e",
+        "approvalHash": "e7ac89ff026eb8b13ce3e9cf79552fdc990721ba502d4d68b4d8cbbc23e64fc5"
+      }
+    },
+    {
+      "id": "vocab-n2:324",
+      "revisionId": "192h-n2-enrichment-vocab-n2-324",
+      "state": "accepted",
+      "predecessorHash": "7513b69c3565bf969fc188fcd458450fa4bb08057da3371eeeaef38e6dab7c2f",
+      "originalHash": "7513b69c3565bf969fc188fcd458450fa4bb08057da3371eeeaef38e6dab7c2f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "心臓病の予防には適度な運動が大切です。",
+            "romaji": "Shinzōbyō no yobō ni wa tekido na undō ga taisetsu desu.",
+            "german": "Moderate Bewegung ist wichtig für die Vorbeugung von Herzkrankheiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "心臓病 ist der Oberbegriff „Herzkrankheit“ (心臓 „Herz“ + 病 „Krankheit“). Konkrete Diagnosen sind z. B. 心筋梗塞 („Herzinfarkt“) oder 狭心症 („Angina pectoris“); Fachtexte sagen auch 心疾患. Typisch: 心臓病を抱える, 心臓病で亡くなる, 心臓病の予防. Im Alltag heißt es oft einfach 心臓が悪い.",
+        "examples": [
+          {
+            "japanese": "心臓病の予防には適度な運動が大切です。",
+            "romaji": "Shinzōbyō no yobō ni wa tekido na undō ga taisetsu desu.",
+            "german": "Moderate Bewegung ist wichtig für die Vorbeugung von Herzkrankheiten."
+          },
+          {
+            "japanese": "彼は心臓病を抱えながらも、仕事を続けている。",
+            "romaji": "Kare wa shinzōbyō o kakaenagara mo, shigoto o tsuzukete iru.",
+            "german": "Trotz seiner Herzkrankheit arbeitet er weiter."
+          },
+          {
+            "japanese": "祖父は心臓病で手術を受けたことがある。",
+            "romaji": "Sofu wa shinzōbyō de shujutsu o uketa koto ga aru.",
+            "german": "Mein Großvater wurde schon einmal wegen einer Herzkrankheit operiert."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1793880 sense 1, noun: heart disease, heart trouble Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 心臓病 ist der Oberbegriff „Herzkrankheit“ (心臓 „Herz“ + 病 „Krankheit“). Konkrete Diagnosen sind z. B. 心筋梗塞 („Herzinfarkt“) oder 狭心症 („Angina pectoris“); Fachtexte sagen auch 心疾患. Typisch: 心臓病を抱える, 心臓病で亡くなる, 心臓病の予防. Im Alltag heißt es oft einfach 心臓が悪い. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1793880; spelling=心臓病; reading=しんぞうびょう",
+          "selected": {
+            "sequence": "1793880",
+            "spelling": "心臓病",
+            "reading": "しんぞうびょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heart disease",
+                  "heart trouble",
+                  "cardiopathy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1793880 sense 1, noun: heart disease, heart trouble"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 心臓病/しんぞうびょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BF%83%E8%87%93%E7%97%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 心臓病/しんぞうびょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Herzkrankheit. JMdict 1793880 sense 1, noun: heart disease, heart trouble",
+        "japanese": "心臓病の予防には適度な運動が大切です。 / 彼は心臓病を抱えながらも、仕事を続けている。 / 祖父は心臓病で手術を受けたことがある。",
+        "romanization": "shinzōbyō; Shinzōbyō no yobō ni wa tekido na undō ga taisetsu desu. / Kare wa shinzōbyō o kakaenagara mo, shigoto o tsuzukete iru. / Sofu wa shinzōbyō de shujutsu o uketa koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Moderate Bewegung ist wichtig für die Vorbeugung von Herzkrankheiten. / Trotz seiner Herzkrankheit arbeitet er weiter. / Mein Großvater wurde schon einmal wegen einer Herzkrankheit operiert.",
+        "contexts": [
+          "Prevention advice",
+          "Working despite illness",
+          "Grandfather's surgery"
+        ],
+        "lexical": "JMdict 1793880 sense 1, noun: heart disease, heart trouble",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:324 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Prevention advice; Working despite illness; Grandfather's surgery), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3a9e976f6ad5267b6dd9902b7b4dbdb01353b4c46cd75f4a642aeff442850d7f",
+        "approvalHash": "bb34c9c607797fb226c156e7083844ff24ade17c01a4fd9d53eb745326f0e4fb"
+      }
+    },
+    {
+      "id": "vocab-n2:325",
+      "revisionId": "192h-n2-enrichment-vocab-n2-325",
+      "state": "accepted",
+      "predecessorHash": "886e63b4ac73387eed0d03b3c0b8ca6110fd2124fbb1a80a5cfba285c02bb8fe",
+      "originalHash": "886e63b4ac73387eed0d03b3c0b8ca6110fd2124fbb1a80a5cfba285c02bb8fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "早期発見ができればがんは治療できます。",
+            "romaji": "Sōki hakken ga dekireba gan wa chiryō dekimasu.",
+            "german": "Wenn Krebs früh entdeckt wird, kann er behandelt werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "がん („Krebs“) schreibt man meist in Hiragana oder als ガン; das Kanji 癌 ist selten. Als Suffix bildet es Krebsarten: 胃がん, 肺がん, 乳がん, dazu がん検診 und 末期がん („Krebs im Endstadium“). Typisch: がんになる, がんが見つかる, がんと診断される, がんで亡くなる. Bildlich ist 〜のがん das „Krebsgeschwür“, also das Grundübel einer Organisation.",
+        "examples": [
+          {
+            "japanese": "早期発見ができればがんは治療できます。",
+            "romaji": "Sōki hakken ga dekireba gan wa chiryō dekimasu.",
+            "german": "Wenn Krebs früh entdeckt wird, kann er behandelt werden."
+          },
+          {
+            "japanese": "叔父は肺がんで亡くなりました。",
+            "romaji": "Oji wa haigan de nakunarimashita.",
+            "german": "Mein Onkel ist an Lungenkrebs gestorben."
+          },
+          {
+            "japanese": "タバコはがんのリスクを高めると言われている。",
+            "romaji": "Tabako wa gan no risuku o takameru to iwarete iru.",
+            "german": "Rauchen soll das Krebsrisiko erhöhen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1217110 sense 1, noun: cancer (usually kana) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). がん („Krebs“) schreibt man meist in Hiragana oder als ガン; das Kanji 癌 ist selten. Als Suffix bildet es Krebsarten: 胃がん, 肺がん, 乳がん, dazu がん検診 und 末期がん („Krebs im Endstadium“). Typisch: がんになる, がんが見つかる, がんと診断される, がんで亡くなる. Bildlich ist 〜のがん das „Krebsgeschwür“, also das Grundübel einer Organisation. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1217110; spelling=がん; reading=がん",
+          "selected": {
+            "sequence": "1217110",
+            "spelling": "がん",
+            "reading": "がん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "cancer"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1217110 sense 1, noun: cancer (usually kana)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 未然形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 終止形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 連体形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 連用形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 未然形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 終止形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 連体形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 連用形-撥音便; aType * | がん/ガン; lemma がん; 副詞/*/*/*; *; *; aType 1,0 | がん/ガン; lemma ガン; 名詞/固有名詞/人名/姓; *; *; aType 1 | がん/ガン; lemma 丸; 接尾辞/名詞的/一般/*; *; *; aType * | がん/ガン; lemma 岩; 接尾辞/名詞的/一般/*; *; *; aType * | がん/ガン; lemma 癌; 名詞/普通名詞/一般/*; *; *; aType 1 | がん/ガン; lemma 雁; 名詞/普通名詞/一般/*; *; *; aType 1. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%8C%E3%82%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 未然形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 終止形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 連体形-撥音便; aType * | がん/ガン; lemma がる; 動詞/一般/*/*; 五段-ラ行; 連用形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 未然形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 終止形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 連体形-撥音便; aType * | がん/ガン; lemma がる; 接尾辞/動詞的/*/*; 五段-ラ行; 連用形-撥音便; aType * | がん/ガン; lemma がん; 副詞/*/*/*; *; *; aType 1,0 | がん/ガン; lemma ガン; 名詞/固有名詞/人名/姓; *; *; aType 1 | がん/ガン; lemma 丸; 接尾辞/名詞的/一般/*; *; *; aType * | がん/ガン; lemma 岩; 接尾辞/名詞的/一般/*; *; *; aType * | がん/ガン; lemma 癌; 名詞/普通名詞/一般/*; *; *; aType 1 | がん/ガン; lemma 雁; 名詞/普通名詞/一般/*; *; *; aType 1. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Krebs. JMdict 1217110 sense 1, noun: cancer (usually kana)",
+        "japanese": "早期発見ができればがんは治療できます。 / 叔父は肺がんで亡くなりました。 / タバコはがんのリスクを高めると言われている。",
+        "romanization": "gan; Sōki hakken ga dekireba gan wa chiryō dekimasu. / Oji wa haigan de nakunarimashita. / Tabako wa gan no risuku o takameru to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn Krebs früh entdeckt wird, kann er behandelt werden. / Mein Onkel ist an Lungenkrebs gestorben. / Rauchen soll das Krebsrisiko erhöhen.",
+        "contexts": [
+          "Early detection",
+          "Family loss",
+          "Smoking risks"
+        ],
+        "lexical": "JMdict 1217110 sense 1, noun: cancer (usually kana)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:325 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Early detection; Family loss; Smoking risks), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e339a36103aff8b6ed5be0bca1fe3aa5700bbff78ef7c040de0ddfd92b99873e",
+        "approvalHash": "286d07dbfbf2aae567ee0c3ea23c2d41577fa571616d97b7619364dfadbe6325"
+      }
+    },
+    {
+      "id": "vocab-n2:326",
+      "revisionId": "192h-n2-enrichment-vocab-n2-326",
+      "state": "accepted",
+      "predecessorHash": "fb38fc49341108832a6759d9ac98d6d42fd24a0441ff40702d2381e4e57e4db8",
+      "originalHash": "fb38fc49341108832a6759d9ac98d6d42fd24a0441ff40702d2381e4e57e4db8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "検査で腫瘍が見つかりましたが良性でした。",
+            "romaji": "Kensa de shuyō ga mitsukarimashita ga ryōsei deshita.",
+            "german": "Bei der Untersuchung wurde ein Tumor gefunden, aber er war gutartig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "腫瘍 ist der medizinische Begriff für „Tumor, Geschwulst“ (腫 wie in 腫れる „anschwellen“). Unterschieden wird 良性腫瘍 („gutartig“) und 悪性腫瘍 („bösartig“, also がん). Typisch: 腫瘍が見つかる / できる, 腫瘍を摘出する / 取り除く, 脳腫瘍. Eine harmlose Beule oder ein Pickel heißt im Alltag できもの.",
+        "examples": [
+          {
+            "japanese": "検査で腫瘍が見つかりましたが良性でした。",
+            "romaji": "Kensa de shuyō ga mitsukarimashita ga ryōsei deshita.",
+            "german": "Bei der Untersuchung wurde ein Tumor gefunden, aber er war gutartig."
+          },
+          {
+            "japanese": "腫瘍を取り除く手術は無事に終わった。",
+            "romaji": "Shuyō o torinozoku shujutsu wa buji ni owatta.",
+            "german": "Die Operation zur Entfernung des Tumors verlief erfolgreich."
+          },
+          {
+            "japanese": "悪性の腫瘍かどうかは、詳しい検査をしないとわからない。",
+            "romaji": "Akusei no shuyō ka dō ka wa, kuwashii kensa o shinai to wakaranai.",
+            "german": "Ob der Tumor bösartig ist, weiß man erst nach einer genaueren Untersuchung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140381593",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 腫瘍/シュヨウ; lemma 腫瘍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "腫瘍",
+              "reading": "しゅよう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腫瘍/しゅよう \"Tumor\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1328950 sense 1, noun: tumor, neoplasm Pitch: Verified [0] via exact UniDic row. 腫瘍 ist der medizinische Begriff für „Tumor, Geschwulst“ (腫 wie in 腫れる „anschwellen“). Unterschieden wird 良性腫瘍 („gutartig“) und 悪性腫瘍 („bösartig“, also がん). Typisch: 腫瘍が見つかる / できる, 腫瘍を摘出する / 取り除く, 脳腫瘍. Eine harmlose Beule oder ein Pickel heißt im Alltag できもの. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1328950; spelling=腫瘍; reading=しゅよう",
+          "selected": {
+            "sequence": "1328950",
+            "spelling": "腫瘍",
+            "reading": "しゅよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tumor",
+                  "tumour",
+                  "neoplasm",
+                  "neoplasia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1328950 sense 1, noun: tumor, neoplasm"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 腫瘍/シュヨウ; lemma 腫瘍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140381593",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 腫瘍/シュヨウ; lemma 腫瘍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "腫瘍",
+              "reading": "しゅよう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腫瘍/しゅよう \"Tumor\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tumor. JMdict 1328950 sense 1, noun: tumor, neoplasm",
+        "japanese": "検査で腫瘍が見つかりましたが良性でした。 / 腫瘍を取り除く手術は無事に終わった。 / 悪性の腫瘍かどうかは、詳しい検査をしないとわからない。",
+        "romanization": "shuyō; Kensa de shuyō ga mitsukarimashita ga ryōsei deshita. / Shuyō o torinozoku shujutsu wa buji ni owatta. / Akusei no shuyō ka dō ka wa, kuwashii kensa o shinai to wakaranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei der Untersuchung wurde ein Tumor gefunden, aber er war gutartig. / Die Operation zur Entfernung des Tumors verlief erfolgreich. / Ob der Tumor bösartig ist, weiß man erst nach einer genaueren Untersuchung.",
+        "contexts": [
+          "Benign finding",
+          "Successful surgery",
+          "Waiting for a diagnosis"
+        ],
+        "lexical": "JMdict 1328950 sense 1, noun: tumor, neoplasm",
+        "register": "medical / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:326 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Benign finding; Successful surgery; Waiting for a diagnosis), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "460d05f80e9c20468ddb36c7043155bb8ebdbea0fcc077e8242e013098a8049c",
+        "approvalHash": "7f438d16b7e4fcefc259de3ee8096f3b9bcd85d60b0bcf3a4f2ae5d9704f622c"
+      }
+    },
+    {
+      "id": "vocab-n2:327",
+      "revisionId": "192h-n2-enrichment-vocab-n2-327",
+      "state": "accepted",
+      "predecessorHash": "c3b24733a56aa5d5c362377d85134695b34e048f5c4d578308a45279feacce0e",
+      "originalHash": "c3b24733a56aa5d5c362377d85134695b34e048f5c4d578308a45279feacce0e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "骨折が完治するまで三ヶ月かかりました。",
+            "romaji": "Kossetsu ga kanchi suru made sankagetsu kakarimashita.",
+            "german": "Es dauerte drei Monate, bis der Knochenbruch vollständig verheilt war."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "完治 („vollständige Heilung“) ist ein intransitives する-Verb mit der Krankheit oder Verletzung als Subjekt: 病気 / けがが完治する; transitiv sagt man 完治させる. Gegenüber dem alltäglichen 治る ist es formeller und betont, dass nichts zurückbleibt. 全快 sagt man eher von der Person („wieder ganz gesund“), 回復 ist allgemeine Erholung, 治療 die Behandlung. Seltener wird es auch かんじ gelesen.",
+        "examples": [
+          {
+            "japanese": "骨折が完治するまで三ヶ月かかりました。",
+            "romaji": "Kossetsu ga kanchi suru made sankagetsu kakarimashita.",
+            "german": "Es dauerte drei Monate, bis der Knochenbruch vollständig verheilt war."
+          },
+          {
+            "japanese": "この病気は完治が難しいと言われている。",
+            "romaji": "Kono byōki wa kanchi ga muzukashii to iwarete iru.",
+            "german": "Diese Krankheit gilt als schwer heilbar."
+          },
+          {
+            "japanese": "けがが完治したので、来週から練習に復帰します。",
+            "romaji": "Kega ga kanchi shita node, raishū kara renshū ni fukki shimasu.",
+            "german": "Da die Verletzung völlig ausgeheilt ist, steige ich nächste Woche wieder ins Training ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100722425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 完治/カンチ; lemma 完治; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "完治",
+              "reading": "かんち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 完治/かんち \"Vollständige Heilung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1614110 sense 1, noun / suru verb: complete recovery Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 完治 („vollständige Heilung“) ist ein intransitives する-Verb mit der Krankheit oder Verletzung als Subjekt: 病気 / けがが完治する; transitiv sagt man 完治させる. Gegenüber dem alltäglichen 治る ist es formeller und betont, dass nichts zurückbleibt. 全快 sagt man eher von der Person („wieder ganz gesund“), 回復 ist allgemeine Erholung, 治療 die Behandlung. Seltener wird es auch かんじ gelesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1614110; spelling=完治; reading=かんち",
+          "selected": {
+            "sequence": "1614110",
+            "spelling": "完治",
+            "reading": "かんち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "complete recovery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1614110 sense 1, noun / suru verb: complete recovery"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 完治/カンチ; lemma 完治; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100722425",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 完治/カンチ; lemma 完治; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "完治",
+              "reading": "かんち",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 完治/かんち \"Vollständige Heilung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vollständige Heilung. JMdict 1614110 sense 1, noun / suru verb: complete recovery",
+        "japanese": "骨折が完治するまで三ヶ月かかりました。 / この病気は完治が難しいと言われている。 / けがが完治したので、来週から練習に復帰します。",
+        "romanization": "kanchi; Kossetsu ga kanchi suru made sankagetsu kakarimashita. / Kono byōki wa kanchi ga muzukashii to iwarete iru. / Kega ga kanchi shita node, raishū kara renshū ni fukki shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es dauerte drei Monate, bis der Knochenbruch vollständig verheilt war. / Diese Krankheit gilt als schwer heilbar. / Da die Verletzung völlig ausgeheilt ist, steige ich nächste Woche wieder ins Training ein.",
+        "contexts": [
+          "Healing a fracture",
+          "Hard-to-cure disease",
+          "Athlete returning to training"
+        ],
+        "lexical": "JMdict 1614110 sense 1, noun / suru verb: complete recovery",
+        "register": "formal / medical",
+        "transitivity": "intransitive as 完治する (illness / injury が完治する); causative 完治させる",
+        "conjugation": "noun; suru verb (完治する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:327 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Healing a fracture; Hard-to-cure disease; Athlete returning to training), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "81921920d4a36b84a7a27557ed94ee06f168c8fea495e63b4059a09cc8a746bd",
+        "approvalHash": "63f6a70bfd9c318b79c1f2581d83fde269c705391e090d942cfdb830b39a9f26"
+      }
+    },
+    {
+      "id": "vocab-n2:328",
+      "revisionId": "192h-n2-enrichment-vocab-n2-328",
+      "state": "accepted",
+      "predecessorHash": "3f53c3ed6b6f252a291fb64bbd268192e2e6a90b5af304f5f0161bf83a54f18b",
+      "originalHash": "3f53c3ed6b6f252a291fb64bbd268192e2e6a90b5af304f5f0161bf83a54f18b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "慢性的な腰痛に悩んでいます。",
+            "romaji": "Manseiteki na yōtsū ni nayande imasu.",
+            "german": "Ich leide an chronischen Rückenschmerzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "慢性 („chronisch“) steht vor Krankheitsnamen wie ein Präfix (慢性胃炎, 慢性疲労) oder mit の: 慢性の病気. Für Missstände außerhalb der Medizin nimmt man das な-Adjektiv 慢性的な: 慢性的な人手不足, 慢性的な渋滞. 慢性化する heißt „chronisch werden“; das Gegenteil ist 急性 („akut“).",
+        "examples": [
+          {
+            "japanese": "慢性的な腰痛に悩んでいます。",
+            "romaji": "Manseiteki na yōtsū ni nayande imasu.",
+            "german": "Ich leide an chronischen Rückenschmerzen."
+          },
+          {
+            "japanese": "慢性胃炎と診断されました。",
+            "romaji": "Mansei ien to shindan saremashita.",
+            "german": "Bei mir wurde eine chronische Gastritis diagnostiziert."
+          },
+          {
+            "japanese": "その会社では、慢性的な赤字が続いている。",
+            "romaji": "Sono kaisha de wa, manseiteki na akaji ga tsuzuite iru.",
+            "german": "Die Firma schreibt chronisch rote Zahlen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253226983",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 慢性/マンセイ; lemma 慢性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "慢性",
+              "reading": "まんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 慢性/まんせい \"Chronisch\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1526640 sense 1, no-adjective / noun: chronic (illness) Pitch: Verified [0] via exact UniDic row. 慢性 („chronisch“) steht vor Krankheitsnamen wie ein Präfix (慢性胃炎, 慢性疲労) oder mit の: 慢性の病気. Für Missstände außerhalb der Medizin nimmt man das な-Adjektiv 慢性的な: 慢性的な人手不足, 慢性的な渋滞. 慢性化する heißt „chronisch werden“; das Gegenteil ist 急性 („akut“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1526640; spelling=慢性; reading=まんせい",
+          "selected": {
+            "sequence": "1526640",
+            "spelling": "慢性",
+            "reading": "まんせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chronic (illness)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1526640 sense 1, no-adjective / noun: chronic (illness)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 慢性/マンセイ; lemma 慢性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@253226983",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 慢性/マンセイ; lemma 慢性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "慢性",
+              "reading": "まんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 慢性/まんせい \"Chronisch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Chronisch. JMdict 1526640 sense 1, no-adjective / noun: chronic (illness)",
+        "japanese": "慢性的な腰痛に悩んでいます。 / 慢性胃炎と診断されました。 / その会社では、慢性的な赤字が続いている。",
+        "romanization": "mansei; Manseiteki na yōtsū ni nayande imasu. / Mansei ien to shindan saremashita. / Sono kaisha de wa, manseiteki na akaji ga tsuzuite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich leide an chronischen Rückenschmerzen. / Bei mir wurde eine chronische Gastritis diagnostiziert. / Die Firma schreibt chronisch rote Zahlen.",
+        "contexts": [
+          "Long-term back pain",
+          "Doctor's diagnosis",
+          "Company finances"
+        ],
+        "lexical": "JMdict 1526640 sense 1, no-adjective / noun: chronic (illness)",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (慢性の; na-adjective derivative 慢性的な)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:328 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Long-term back pain; Doctor's diagnosis; Company finances), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6396dee293e82e3be9d5c8d661944cbb7f6fd5d760e4e9570e7fde8eb2f190ef",
+        "approvalHash": "4f4b5474e43abe644a7b0a04ed358c667020c96aae9372ee84d97752ef9e5afa"
+      }
+    },
+    {
+      "id": "vocab-n2:329",
+      "revisionId": "192h-n2-enrichment-vocab-n2-329",
+      "state": "accepted",
+      "predecessorHash": "f5455f1211e2ba112d889e8394e063e74bca334dfaf3faa63c05823a0e399f78",
+      "originalHash": "f5455f1211e2ba112d889e8394e063e74bca334dfaf3faa63c05823a0e399f78",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "急性の胃炎で入院しました。",
+            "romaji": "Kyūsei no ien de nyūin shimashita.",
+            "german": "Ich wurde wegen einer akuten Magenentzündung ins Krankenhaus eingeliefert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "急性 („akut“) beschreibt eine plötzlich und heftig auftretende Krankheit und steht meist vor dem Krankheitsnamen: 急性胃腸炎, 急性アルコール中毒, 急性心不全, oder mit の: 急性の症状. Das Gegenteil ist 慢性. Für „akut“ im Sinne von „dringend“ passt 急性 nicht – dafür sagt man 緊急 oder 差し迫った.",
+        "examples": [
+          {
+            "japanese": "急性の胃炎で入院しました。",
+            "romaji": "Kyūsei no ien de nyūin shimashita.",
+            "german": "Ich wurde wegen einer akuten Magenentzündung ins Krankenhaus eingeliefert."
+          },
+          {
+            "japanese": "飲み会で一気飲みをして、急性アルコール中毒になった学生がいた。",
+            "romaji": "Nomikai de ikkinomi o shite, kyūsei arukōru chūdoku ni natta gakusei ga ita.",
+            "german": "Bei einer Trinkparty hat sich ein Student durch Exen eine akute Alkoholvergiftung zugezogen."
+          },
+          {
+            "japanese": "急性の症状が治まれば、退院できるでしょう。",
+            "romaji": "Kyūsei no shōjō ga osamareba, taiin dekiru deshō.",
+            "german": "Wenn die akuten Symptome abklingen, können Sie wohl entlassen werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105924151",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 急性/キュウセイ; lemma 急性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "急性",
+              "reading": "きゅうせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 急性/きゅうせい \"Akut\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1228820 sense 1, no-adjective / noun: acute (illness) Pitch: Verified [0] via exact UniDic row. 急性 („akut“) beschreibt eine plötzlich und heftig auftretende Krankheit und steht meist vor dem Krankheitsnamen: 急性胃腸炎, 急性アルコール中毒, 急性心不全, oder mit の: 急性の症状. Das Gegenteil ist 慢性. Für „akut“ im Sinne von „dringend“ passt 急性 nicht – dafür sagt man 緊急 oder 差し迫った. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1228820; spelling=急性; reading=きゅうせい",
+          "selected": {
+            "sequence": "1228820",
+            "spelling": "急性",
+            "reading": "きゅうせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "acute (illness)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1228820 sense 1, no-adjective / noun: acute (illness)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 急性/キュウセイ; lemma 急性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105924151",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 急性/キュウセイ; lemma 急性; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "急性",
+              "reading": "きゅうせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 急性/きゅうせい \"Akut\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Akut. JMdict 1228820 sense 1, no-adjective / noun: acute (illness)",
+        "japanese": "急性の胃炎で入院しました。 / 飲み会で一気飲みをして、急性アルコール中毒になった学生がいた。 / 急性の症状が治まれば、退院できるでしょう。",
+        "romanization": "kyūsei; Kyūsei no ien de nyūin shimashita. / Nomikai de ikkinomi o shite, kyūsei arukōru chūdoku ni natta gakusei ga ita. / Kyūsei no shōjō ga osamareba, taiin dekiru deshō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wurde wegen einer akuten Magenentzündung ins Krankenhaus eingeliefert. / Bei einer Trinkparty hat sich ein Student durch Exen eine akute Alkoholvergiftung zugezogen. / Wenn die akuten Symptome abklingen, können Sie wohl entlassen werden.",
+        "contexts": [
+          "Hospital admission",
+          "Drinking party incident",
+          "Doctor's prognosis"
+        ],
+        "lexical": "JMdict 1228820 sense 1, no-adjective / noun: acute (illness)",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:329 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hospital admission; Drinking party incident; Doctor's prognosis), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ebe4a756617d84b95b3c613e9db021b7e1b8e1be725c47e6f38294fff6e06516",
+        "approvalHash": "372a035389bdcf8d50e2584d20e011953cafb8b49290ff9b4b83ff10323f657c"
+      }
+    },
+    {
+      "id": "vocab-n2:330",
+      "revisionId": "192h-n2-enrichment-vocab-n2-330",
+      "state": "accepted",
+      "predecessorHash": "fd2323db72b696d095c9a1befc70fe43eb6fd13952db28185d1ecf42e2ab961a",
+      "originalHash": "fd2323db72b696d095c9a1befc70fe43eb6fd13952db28185d1ecf42e2ab961a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "重症の患者は集中治療室に運ばれました。",
+            "romaji": "Jūshō no kanja wa shūchū chiryōshitsu ni hakobaremashita.",
+            "german": "Der schwer erkrankte Patient wurde auf die Intensivstation gebracht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "重症 bezeichnet einen schweren Krankheitsverlauf: 重症患者, 重症になる, 重症化する („sich verschlimmern“). Vorsicht vor dem gleich gelesenen 重傷 („schwere Verletzung“), das bei Unfällen steht: 重傷を負う. Das Gegenteil ist 軽症. Scherzhaft sagt man über eine Leidenschaft 〜はもう重症だ („ein hoffnungsloser Fall“).",
+        "examples": [
+          {
+            "japanese": "重症の患者は集中治療室に運ばれました。",
+            "romaji": "Jūshō no kanja wa shūchū chiryōshitsu ni hakobaremashita.",
+            "german": "Der schwer erkrankte Patient wurde auf die Intensivstation gebracht."
+          },
+          {
+            "japanese": "コロナに感染したが、重症にはならなかった。",
+            "romaji": "Korona ni kansen shita ga, jūshō ni wa naranakatta.",
+            "german": "Ich habe mich mit Corona infiziert, aber es verlief nicht schwer."
+          },
+          {
+            "japanese": "うちの夫のゲーム好きはもう重症だ。",
+            "romaji": "Uchi no otto no gēmuzuki wa mō jūshō da.",
+            "german": "Bei der Spieleleidenschaft meines Mannes ist Hopfen und Malz verloren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144320148",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 重症/ジュウショウ; lemma 重症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "重症",
+              "reading": "じゅうしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 重症/じゅうしょう \"Schwerer Fall\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1336310 sense 1, noun / no-adjective: serious illness Pitch: Verified [0] via exact UniDic row. 重症 bezeichnet einen schweren Krankheitsverlauf: 重症患者, 重症になる, 重症化する („sich verschlimmern“). Vorsicht vor dem gleich gelesenen 重傷 („schwere Verletzung“), das bei Unfällen steht: 重傷を負う. Das Gegenteil ist 軽症. Scherzhaft sagt man über eine Leidenschaft 〜はもう重症だ („ein hoffnungsloser Fall“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1336310; spelling=重症; reading=じゅうしょう",
+          "selected": {
+            "sequence": "1336310",
+            "spelling": "重症",
+            "reading": "じゅうしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "serious illness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1336310 sense 1, noun / no-adjective: serious illness"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 重症/ジュウショウ; lemma 重症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144320148",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 重症/ジュウショウ; lemma 重症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "重症",
+              "reading": "じゅうしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 重症/じゅうしょう \"Schwerer Fall\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schwerer Fall. JMdict 1336310 sense 1, noun / no-adjective: serious illness",
+        "japanese": "重症の患者は集中治療室に運ばれました。 / コロナに感染したが、重症にはならなかった。 / うちの夫のゲーム好きはもう重症だ。",
+        "romanization": "jūshō; Jūshō no kanja wa shūchū chiryōshitsu ni hakobaremashita. / Korona ni kansen shita ga, jūshō ni wa naranakatta. / Uchi no otto no gēmuzuki wa mō jūshō da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der schwer erkrankte Patient wurde auf die Intensivstation gebracht. / Ich habe mich mit Corona infiziert, aber es verlief nicht schwer. / Bei der Spieleleidenschaft meines Mannes ist Hopfen und Malz verloren.",
+        "contexts": [
+          "Intensive care",
+          "Mild COVID course",
+          "Joking about a hobby"
+        ],
+        "lexical": "JMdict 1336310 sense 1, noun / no-adjective: serious illness",
+        "register": "neutral / medical; figurative use colloquial",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:330 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Intensive care; Mild COVID course; Joking about a hobby), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c0be8b2ce406ee98deab5b4cfbe115ff0b5e46da4a92f6cb981cf4a0c56dca22",
+        "approvalHash": "22a8cc3700e6e30c1700dae0047cd2b72528d553af8b65af8425911953e6232f"
+      }
+    },
+    {
+      "id": "vocab-n2:331",
+      "revisionId": "192h-n2-enrichment-vocab-n2-331",
+      "state": "accepted",
+      "predecessorHash": "5b417417f4c1cc85000a485c5096a0668fa573f8f4cbcb95d67557d2553208f6",
+      "originalHash": "5b417417f4c1cc85000a485c5096a0668fa573f8f4cbcb95d67557d2553208f6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "幸い軽症で済んだので入院の必要はありません。",
+            "romaji": "Saiwai keishō de sunda node nyūin no hitsuyō wa arimasen.",
+            "german": "Glücklicherweise war es nur leicht und ein Krankenhausaufenthalt ist nicht nötig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "軽症 ist ein leichter Krankheitsverlauf: 軽症で済む („glimpflich davonkommen“), 軽症者, 軽症患者. Das gleich gelesene 軽傷 bedeutet dagegen „leichte Verletzung“ (bei Unfällen: 軽傷を負う). Gegenbegriff ist 重症; dazwischen spricht man im Krankenhaus von 中等症.",
+        "examples": [
+          {
+            "japanese": "幸い軽症で済んだので入院の必要はありません。",
+            "romaji": "Saiwai keishō de sunda node nyūin no hitsuyō wa arimasen.",
+            "german": "Zum Glück war es nur ein leichter Fall, ein Krankenhausaufenthalt ist nicht nötig."
+          },
+          {
+            "japanese": "感染者の多くは軽症で、自宅で休んでいる。",
+            "romaji": "Kansensha no ōku wa keishō de, jitaku de yasunde iru.",
+            "german": "Die meisten Infizierten haben einen leichten Verlauf und kurieren sich zu Hause aus."
+          },
+          {
+            "japanese": "軽症の患者は、まず近くのクリニックを受診してください。",
+            "romaji": "Keishō no kanja wa, mazu chikaku no kurinikku o jushin shite kudasai.",
+            "german": "Patienten mit leichten Beschwerden wenden sich bitte zuerst an eine Praxis in der Nähe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116969632",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 軽症/ケイショウ; lemma 軽症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "軽症",
+              "reading": "けいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 軽症/けいしょう \"Leichter Fall\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1252750 sense 1, noun / no-adjective: minor illness Pitch: Verified [0] via exact UniDic row. 軽症 ist ein leichter Krankheitsverlauf: 軽症で済む („glimpflich davonkommen“), 軽症者, 軽症患者. Das gleich gelesene 軽傷 bedeutet dagegen „leichte Verletzung“ (bei Unfällen: 軽傷を負う). Gegenbegriff ist 重症; dazwischen spricht man im Krankenhaus von 中等症. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1252750; spelling=軽症; reading=けいしょう",
+          "selected": {
+            "sequence": "1252750",
+            "spelling": "軽症",
+            "reading": "けいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "minor illness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1252750 sense 1, noun / no-adjective: minor illness"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 軽症/ケイショウ; lemma 軽症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116969632",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 軽症/ケイショウ; lemma 軽症; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "軽症",
+              "reading": "けいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 軽症/けいしょう \"Leichter Fall\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leichter Fall. JMdict 1252750 sense 1, noun / no-adjective: minor illness",
+        "japanese": "幸い軽症で済んだので入院の必要はありません。 / 感染者の多くは軽症で、自宅で休んでいる。 / 軽症の患者は、まず近くのクリニックを受診してください。",
+        "romanization": "keishō; Saiwai keishō de sunda node nyūin no hitsuyō wa arimasen. / Kansensha no ōku wa keishō de, jitaku de yasunde iru. / Keishō no kanja wa, mazu chikaku no kurinikku o jushin shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zum Glück war es nur ein leichter Fall, ein Krankenhausaufenthalt ist nicht nötig. / Die meisten Infizierten haben einen leichten Verlauf und kurieren sich zu Hause aus. / Patienten mit leichten Beschwerden wenden sich bitte zuerst an eine Praxis in der Nähe.",
+        "contexts": [
+          "Relief after diagnosis",
+          "Infection statistics",
+          "Hospital guidance"
+        ],
+        "lexical": "JMdict 1252750 sense 1, noun / no-adjective: minor illness",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:331 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Relief after diagnosis; Infection statistics; Hospital guidance), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "aeb04b5e15618cef96805dd404d5daa592bb4700645570786998c873b90fc6f1",
+        "approvalHash": "db5e58b5d8fbf90b09320b7b155a90c04e1dab66c8d4096557d56a3faaa899c0"
+      }
+    },
+    {
+      "id": "vocab-n2:332",
+      "revisionId": "192h-n2-enrichment-vocab-n2-332",
+      "state": "accepted",
+      "predecessorHash": "4369af61d2501c24f73a703e671bf3f335ba2d13253e1b22acc57430ea03d2e0",
+      "originalHash": "4369af61d2501c24f73a703e671bf3f335ba2d13253e1b22acc57430ea03d2e0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "身体を動かすことが健康につながります。",
+            "romaji": "Shintai o ugokasu koto ga kenkō ni tsunagarimasu.",
+            "german": "Körperliche Bewegung führt zu Gesundheit."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "身体 mit der Lesung しんたい ist das formelle Wort für „Körper“ und steht vor allem in Komposita: 身体検査, 身体測定, 身体能力, 身体障害, 身体的な. Im Alltag sagt man 体 (からだ); steht 身体 allein im Text, wird es oft ebenfalls からだ gelesen (meist mit Furigana). 肉体 betont den Körper im Gegensatz zum Geist, 人体 den menschlichen Körper anatomisch.",
+        "examples": [
+          {
+            "japanese": "学校で身体測定があって、身長が五センチ伸びていた。",
+            "romaji": "Gakkō de shintai sokutei ga atte, shinchō ga go-senchi nobite ita.",
+            "german": "Bei der Messung in der Schule kam heraus, dass ich fünf Zentimeter gewachsen war."
+          },
+          {
+            "japanese": "この仕事は身体的な負担が大きい。",
+            "romaji": "Kono shigoto wa shintaiteki na futan ga ōkii.",
+            "german": "Diese Arbeit ist körperlich sehr belastend."
+          },
+          {
+            "japanese": "彼は身体能力が高く、どんなスポーツもすぐ上手になる。",
+            "romaji": "Kare wa shintai nōryoku ga takaku, donna supōtsu mo sugu jōzu ni naru.",
+            "german": "Er ist körperlich sehr begabt und wird in jedem Sport schnell gut."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142920576",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 身体/シンタイ; lemma 身体; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "身体",
+              "reading": "しんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 身体/しんたい \"Körper\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2830705 sense 1, noun: body, physical system Pitch: Verified [1] via exact UniDic row. 身体 mit der Lesung しんたい ist das formelle Wort für „Körper“ und steht vor allem in Komposita: 身体検査, 身体測定, 身体能力, 身体障害, 身体的な. Im Alltag sagt man 体 (からだ); steht 身体 allein im Text, wird es oft ebenfalls からだ gelesen (meist mit Furigana). 肉体 betont den Körper im Gegensatz zum Geist, 人体 den menschlichen Körper anatomisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2830705; spelling=身体; reading=しんたい",
+          "selected": {
+            "sequence": "2830705",
+            "spelling": "身体",
+            "reading": "しんたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "body",
+                  "physical system",
+                  "(the) person"
+                ],
+                "notes": [
+                  "oft. read からだ"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2830705 sense 1, noun: body, physical system"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 身体/シンタイ; lemma 身体; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142920576",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 身体/シンタイ; lemma 身体; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "身体",
+              "reading": "しんたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 身体/しんたい \"Körper\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Körper. JMdict 2830705 sense 1, noun: body, physical system",
+        "japanese": "学校で身体測定があって、身長が五センチ伸びていた。 / この仕事は身体的な負担が大きい。 / 彼は身体能力が高く、どんなスポーツもすぐ上手になる。",
+        "romanization": "shintai; Gakkō de shintai sokutei ga atte, shinchō ga go-senchi nobite ita. / Kono shigoto wa shintaiteki na futan ga ōkii. / Kare wa shintai nōryoku ga takaku, donna supōtsu mo sugu jōzu ni naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei der Messung in der Schule kam heraus, dass ich fünf Zentimeter gewachsen war. / Diese Arbeit ist körperlich sehr belastend. / Er ist körperlich sehr begabt und wird in jedem Sport schnell gut.",
+        "contexts": [
+          "School body measurements",
+          "Physically demanding job",
+          "Natural athlete"
+        ],
+        "lexical": "JMdict 2830705 sense 1, noun: body, physical system",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:332 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (School body measurements; Physically demanding job; Natural athlete), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "04cf9c2358a519ec5ba3c897c5fbb229a7d851cdb85eee528508613109e9e146",
+        "approvalHash": "bf41e21c3c2c36a37971849ca2a4c722f5100dd92f93312a5650501af6301f35"
+      }
+    },
+    {
+      "id": "vocab-n2:333",
+      "revisionId": "192h-n2-enrichment-vocab-n2-333",
+      "state": "accepted",
+      "predecessorHash": "90ab0999a0925397da98a14549571b5a349d77d3878cc913f9dacc07497f31b2",
+      "originalHash": "90ab0999a0925397da98a14549571b5a349d77d3878cc913f9dacc07497f31b2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "人間の脳は非常に複雑な器官です。",
+            "romaji": "Ningen no nō wa hijō ni fukuzatsu na kikan desu.",
+            "german": "Das menschliche Gehirn ist ein sehr komplexes Organ."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脳 ist das „Gehirn“ im anatomischen und wissenschaftlichen Sinn: 脳の病気, 脳卒中 („Schlaganfall“), 脳死, 脳を鍛える, 脳トレ. Für Intelligenz im Alltag sagt man 頭 (頭がいい), nicht 脳; 頭脳 („Verstand, kluger Kopf“) ist gehobener. Umgangssprachlich heißt das Hirn auch 脳みそ.",
+        "examples": [
+          {
+            "japanese": "人間の脳は非常に複雑な器官です。",
+            "romaji": "Ningen no nō wa hijō ni fukuzatsu na kikan desu.",
+            "german": "Das menschliche Gehirn ist ein sehr komplexes Organ."
+          },
+          {
+            "japanese": "祖父は脳の病気で倒れ、入院している。",
+            "romaji": "Sofu wa nō no byōki de taore, nyūin shite iru.",
+            "german": "Mein Großvater ist wegen einer Hirnerkrankung zusammengebrochen und liegt im Krankenhaus."
+          },
+          {
+            "japanese": "毎日パズルを解いて、脳を鍛えています。",
+            "romaji": "Mainichi pazuru o toite, nō o kitaete imasu.",
+            "german": "Ich löse jeden Tag Rätsel, um mein Gehirn zu trainieren."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207174408",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 脳/ノウ; lemma 脳; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "脳",
+              "reading": "のう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脳/のう \"Gehirn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1470380 senses 1-2, noun: brain; brains, mind Pitch: Verified [1] via exact UniDic row; stored primary 2 corrected to 1. 脳 ist das „Gehirn“ im anatomischen und wissenschaftlichen Sinn: 脳の病気, 脳卒中 („Schlaganfall“), 脳死, 脳を鍛える, 脳トレ. Für Intelligenz im Alltag sagt man 頭 (頭がいい), nicht 脳; 頭脳 („Verstand, kluger Kopf“) ist gehobener. Umgangssprachlich heißt das Hirn auch 脳みそ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1470380; spelling=脳; reading=のう",
+          "selected": {
+            "sequence": "1470380",
+            "spelling": "脳",
+            "reading": "のう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brain"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brains",
+                  "mind"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1470380 senses 1-2, noun: brain; brains, mind"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 2 corrected to 1. Exact whole 脳/ノウ; lemma 脳; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207174408",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 脳/ノウ; lemma 脳; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "脳",
+              "reading": "のう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脳/のう \"Gehirn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gehirn. JMdict 1470380 senses 1-2, noun: brain; brains, mind",
+        "japanese": "人間の脳は非常に複雑な器官です。 / 祖父は脳の病気で倒れ、入院している。 / 毎日パズルを解いて、脳を鍛えています。",
+        "romanization": "nō; Ningen no nō wa hijō ni fukuzatsu na kikan desu. / Sofu wa nō no byōki de taore, nyūin shite iru. / Mainichi pazuru o toite, nō o kitaete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das menschliche Gehirn ist ein sehr komplexes Organ. / Mein Großvater ist wegen einer Hirnerkrankung zusammengebrochen und liegt im Krankenhaus. / Ich löse jeden Tag Rätsel, um mein Gehirn zu trainieren.",
+        "contexts": [
+          "Science documentary",
+          "Grandfather in hospital",
+          "Brain training"
+        ],
+        "lexical": "JMdict 1470380 senses 1-2, noun: brain; brains, mind",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:333 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Science documentary; Grandfather in hospital; Brain training), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d96317b4a8bd5abd36a162a4027e8a8a5f348536790deb975aa2d0aa718fecd8",
+        "approvalHash": "e83e49c5539f44ace6ae20f367a7140780be60527782d367238dc0410d6f6472"
+      }
+    },
+    {
+      "id": "vocab-n2:334",
+      "revisionId": "192h-n2-enrichment-vocab-n2-334",
+      "state": "accepted",
+      "predecessorHash": "f41aec6018d9c954c1c9507e01e5fe8cb993bd77fbce1d3983c38c17d1f1a75c",
+      "originalHash": "f41aec6018d9c954c1c9507e01e5fe8cb993bd77fbce1d3983c38c17d1f1a75c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "熱があるか確認するために額に手を当てました。",
+            "romaji": "Netsu ga aru ka kakunin suru tame ni hitai ni te o atemashita.",
+            "german": "Ich legte die Hand auf die Stirn, um zu prüfen, ob Fieber da ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "額 mit der Lesung ひたい ist die „Stirn“; dasselbe Kanji gelesen がく bedeutet „Bilderrahmen“ (額縁) oder „Betrag“ (金額) – der Kontext entscheidet. Typisch: 額に手を当てる, 額に汗をかく, 額に汗して働く („im Schweiße seines Angesichts arbeiten“); 猫の額 bezeichnet ein winziges Grundstück. Im Alltag, besonders mit Kindern, sagt man meist おでこ.",
+        "examples": [
+          {
+            "japanese": "熱があるか確認するために額に手を当てました。",
+            "romaji": "Netsu ga aru ka kakunin suru tame ni hitai ni te o atemashita.",
+            "german": "Ich legte die Hand auf die Stirn, um zu prüfen, ob Fieber da ist."
+          },
+          {
+            "japanese": "暑さで額から汗が流れてきた。",
+            "romaji": "Atsusa de hitai kara ase ga nagarete kita.",
+            "german": "Vor Hitze lief mir der Schweiß von der Stirn."
+          },
+          {
+            "japanese": "猫の額ほどの庭ですが、野菜を育てています。",
+            "romaji": "Neko no hitai hodo no niwa desu ga, yasai o sodatete imasu.",
+            "german": "Unser Garten ist winzig, aber wir bauen Gemüse an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225644395",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 額/ヒタイ; lemma 額; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "額",
+              "reading": "ひたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 額/ひたい \"Stirn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1207510 sense 1, noun: forehead, brow Pitch: Verified [0] via exact UniDic row. 額 mit der Lesung ひたい ist die „Stirn“; dasselbe Kanji gelesen がく bedeutet „Bilderrahmen“ (額縁) oder „Betrag“ (金額) – der Kontext entscheidet. Typisch: 額に手を当てる, 額に汗をかく, 額に汗して働く („im Schweiße seines Angesichts arbeiten“); 猫の額 bezeichnet ein winziges Grundstück. Im Alltag, besonders mit Kindern, sagt man meist おでこ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1207510; spelling=額; reading=ひたい",
+          "selected": {
+            "sequence": "1207510",
+            "spelling": "額",
+            "reading": "ひたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "forehead",
+                  "brow"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1207510 sense 1, noun: forehead, brow"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 額/ヒタイ; lemma 額; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225644395",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 額/ヒタイ; lemma 額; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "額",
+              "reading": "ひたい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 額/ひたい \"Stirn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stirn. JMdict 1207510 sense 1, noun: forehead, brow",
+        "japanese": "熱があるか確認するために額に手を当てました。 / 暑さで額から汗が流れてきた。 / 猫の額ほどの庭ですが、野菜を育てています。",
+        "romanization": "hitai; Netsu ga aru ka kakunin suru tame ni hitai ni te o atemashita. / Atsusa de hitai kara ase ga nagarete kita. / Neko no hitai hodo no niwa desu ga, yasai o sodatete imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich legte die Hand auf die Stirn, um zu prüfen, ob Fieber da ist. / Vor Hitze lief mir der Schweiß von der Stirn. / Unser Garten ist winzig, aber wir bauen Gemüse an.",
+        "contexts": [
+          "Checking for fever",
+          "Summer heat",
+          "Tiny garden"
+        ],
+        "lexical": "JMdict 1207510 sense 1, noun: forehead, brow",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:334 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Checking for fever; Summer heat; Tiny garden), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "512cbbbe5c3ba56fed919528deb95d435b15f4ba55dc1ec217230cd809091cb0",
+        "approvalHash": "075c82d0567aa87907218130c6c2656c0930f15afc9c48791c1aa62eac34a0a4"
+      }
+    },
+    {
+      "id": "vocab-n2:335",
+      "revisionId": "192h-n2-enrichment-vocab-n2-335",
+      "state": "accepted",
+      "predecessorHash": "cd1682df2a0da1e1cacbb6c8d80f59e278a1d260a1ae3e1e5707379f06c4d24a",
+      "originalHash": "cd1682df2a0da1e1cacbb6c8d80f59e278a1d260a1ae3e1e5707379f06c4d24a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女は驚いて眉を上げました。",
+            "romaji": "Kanojo wa odoroite mayu o agemashita.",
+            "german": "Sie hob überrascht die Augenbrauen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "眉 ist die „Augenbraue“; im Alltag sagt man meist 眉毛 (まゆげ), während 眉 allein vor allem in festen Wendungen und in der Kosmetik vorkommt: 眉をひそめる („missbilligend die Stirn runzeln“), 眉を寄せる, 眉を描く / 整える. Die Stelle zwischen den Brauen heißt 眉間 (みけん); 眉唾 bedeutet „zweifelhaft, unglaubwürdig“.",
+        "examples": [
+          {
+            "japanese": "彼女は驚いて眉を上げました。",
+            "romaji": "Kanojo wa odoroite mayu o agemashita.",
+            "german": "Sie hob überrascht die Augenbrauen."
+          },
+          {
+            "japanese": "彼は話を聞いて、不快そうに眉をひそめた。",
+            "romaji": "Kare wa hanashi o kiite, fukai sō ni mayu o hisometa.",
+            "german": "Als er das hörte, runzelte er missbilligend die Stirn."
+          },
+          {
+            "japanese": "毎朝鏡の前で眉を描いています。",
+            "romaji": "Maiasa kagami no mae de mayu o kaite imasu.",
+            "german": "Jeden Morgen ziehe ich mir vor dem Spiegel die Augenbrauen nach."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252286725",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 眉/マユ; lemma 眉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "眉",
+              "reading": "まゆ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 眉/まゆ \"Augenbraue\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1486270 sense 1, noun: eyebrow, eyebrows Pitch: Verified [1] via exact UniDic row. 眉 ist die „Augenbraue“; im Alltag sagt man meist 眉毛 (まゆげ), während 眉 allein vor allem in festen Wendungen und in der Kosmetik vorkommt: 眉をひそめる („missbilligend die Stirn runzeln“), 眉を寄せる, 眉を描く / 整える. Die Stelle zwischen den Brauen heißt 眉間 (みけん); 眉唾 bedeutet „zweifelhaft, unglaubwürdig“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1486270; spelling=眉; reading=まゆ",
+          "selected": {
+            "sequence": "1486270",
+            "spelling": "眉",
+            "reading": "まゆ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "eyebrow",
+                  "eyebrows"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1486270 sense 1, noun: eyebrow, eyebrows"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 眉/マユ; lemma 眉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252286725",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 眉/マユ; lemma 眉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "眉",
+              "reading": "まゆ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 眉/まゆ \"Augenbraue\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Augenbraue. JMdict 1486270 sense 1, noun: eyebrow, eyebrows",
+        "japanese": "彼女は驚いて眉を上げました。 / 彼は話を聞いて、不快そうに眉をひそめた。 / 毎朝鏡の前で眉を描いています。",
+        "romanization": "mayu; Kanojo wa odoroite mayu o agemashita. / Kare wa hanashi o kiite, fukai sō ni mayu o hisometa. / Maiasa kagami no mae de mayu o kaite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie hob überrascht die Augenbrauen. / Als er das hörte, runzelte er missbilligend die Stirn. / Jeden Morgen ziehe ich mir vor dem Spiegel die Augenbrauen nach.",
+        "contexts": [
+          "Surprised reaction",
+          "Disapproval",
+          "Morning makeup"
+        ],
+        "lexical": "JMdict 1486270 sense 1, noun: eyebrow, eyebrows",
+        "register": "neutral; 眉毛 more colloquial",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:335 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Surprised reaction; Disapproval; Morning makeup), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "be692bc03229e8d3855beb96e1e39e6724c79b4c4b9915a865f78b87bff8c9f4",
+        "approvalHash": "451c3fc59009d65d6de7cc1d7a08abfb390a1cdcdd637247d96a6f9522599543"
+      }
+    },
+    {
+      "id": "vocab-n2:336",
+      "revisionId": "192h-n2-enrichment-vocab-n2-336",
+      "state": "accepted",
+      "predecessorHash": "e21ae0c80d23ac63e84d329c3a4c96efbb1225838efadd1ccaf396abd05cfb7a",
+      "originalHash": "e21ae0c80d23ac63e84d329c3a4c96efbb1225838efadd1ccaf396abd05cfb7a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "疲れてまぶたが重くなってきました。",
+            "romaji": "Tsukarete mabuta ga omoku natte kimashita.",
+            "german": "Vor Müdigkeit wurden meine Augenlider schwer."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "まぶた („Augenlid“) schreibt man fast immer in Kana (Kanji 瞼 / 目蓋 sind selten). Typisch: まぶたが重い („müde sein“), まぶたが腫れる, 二重まぶた / 一重まぶた („Doppel- / Einfachlid“, ein häufiges Schönheitsthema). Bildlich: まぶたに浮かぶ („vor dem inneren Auge erscheinen“).",
+        "examples": [
+          {
+            "japanese": "疲れてまぶたが重くなってきました。",
+            "romaji": "Tsukarete mabuta ga omoku natte kimashita.",
+            "german": "Vor Müdigkeit wurden meine Augenlider schwer."
+          },
+          {
+            "japanese": "朝起きたら、まぶたが腫れていた。",
+            "romaji": "Asa okitara, mabuta ga harete ita.",
+            "german": "Als ich morgens aufwachte, waren meine Augenlider geschwollen."
+          },
+          {
+            "japanese": "目を閉じると、故郷の景色がまぶたに浮かぶ。",
+            "romaji": "Me o tojiru to, kokyō no keshiki ga mabuta ni ukabu.",
+            "german": "Wenn ich die Augen schließe, sehe ich die Landschaft meiner Heimat vor mir."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252033118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole まぶた/マブタ; lemma 瞼; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "まぶた",
+              "reading": "まぶた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen まぶた/まぶた \"Augenlid\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1569920 sense 1, noun: eyelid Pitch: Verified [1] via exact UniDic row. まぶた („Augenlid“) schreibt man fast immer in Kana (Kanji 瞼 / 目蓋 sind selten). Typisch: まぶたが重い („müde sein“), まぶたが腫れる, 二重まぶた / 一重まぶた („Doppel- / Einfachlid“, ein häufiges Schönheitsthema). Bildlich: まぶたに浮かぶ („vor dem inneren Auge erscheinen“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1569920; spelling=まぶた; reading=まぶた",
+          "selected": {
+            "sequence": "1569920",
+            "spelling": "まぶた",
+            "reading": "まぶた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "eyelid"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1569920 sense 1, noun: eyelid"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole まぶた/マブタ; lemma 瞼; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@252033118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole まぶた/マブタ; lemma 瞼; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "まぶた",
+              "reading": "まぶた",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen まぶた/まぶた \"Augenlid\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Augenlid. JMdict 1569920 sense 1, noun: eyelid",
+        "japanese": "疲れてまぶたが重くなってきました。 / 朝起きたら、まぶたが腫れていた。 / 目を閉じると、故郷の景色がまぶたに浮かぶ。",
+        "romanization": "mabuta; Tsukarete mabuta ga omoku natte kimashita. / Asa okitara, mabuta ga harete ita. / Me o tojiru to, kokyō no keshiki ga mabuta ni ukabu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vor Müdigkeit wurden meine Augenlider schwer. / Als ich morgens aufwachte, waren meine Augenlider geschwollen. / Wenn ich die Augen schließe, sehe ich die Landschaft meiner Heimat vor mir.",
+        "contexts": [
+          "Getting sleepy",
+          "Puffy eyes in the morning",
+          "Remembering home"
+        ],
+        "lexical": "JMdict 1569920 sense 1, noun: eyelid",
+        "register": "neutral; usually written in kana",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:336 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Getting sleepy; Puffy eyes in the morning; Remembering home), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "414769c9693c9ce083bf631c51fcd634f1f9acc3d9a3d243cb43290ae9de368c",
+        "approvalHash": "a5eb2bb5f104204f6421619512eb0cae18fb302eb36669e2af5c7301a398c778"
+      }
+    },
+    {
+      "id": "vocab-n2:337",
+      "revisionId": "192h-n2-enrichment-vocab-n2-337",
+      "state": "accepted",
+      "predecessorHash": "0f409e956b03e7dbe0023145fb002e279a72164140a0dae1afb3cb605463edf5",
+      "originalHash": "0f409e956b03e7dbe0023145fb002e279a72164140a0dae1afb3cb605463edf5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "走った後、胸がドキドキしています。",
+            "romaji": "Hashitta ato, mune ga dokidoki shite imasu.",
+            "german": "Nach dem Laufen schlägt mein Herz heftig in der Brust."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "胸 ist die „Brust“ (Brustkorb, auch Busen) und bildlich das fühlende „Herz“. Viele Wendungen: 胸が痛む („Mitgefühl, Kummer“), 胸がいっぱい („überwältigt“), 胸が熱くなる („gerührt sein“), 胸がドキドキする, 胸を張る („stolz auftreten“). Das Organ selbst heißt 心臓, das abstrakte Herz bzw. der Geist 心.",
+        "examples": [
+          {
+            "japanese": "走った後、胸がドキドキしています。",
+            "romaji": "Hashitta ato, mune ga dokidoki shite imasu.",
+            "german": "Nach dem Laufen schlägt mein Herz heftig in der Brust."
+          },
+          {
+            "japanese": "彼女の優しい言葉に胸が熱くなった。",
+            "romaji": "Kanojo no yasashii kotoba ni mune ga atsuku natta.",
+            "german": "Ihre freundlichen Worte haben mich tief gerührt."
+          },
+          {
+            "japanese": "彼は胸を張って自分の作品を発表した。",
+            "romaji": "Kare wa mune o hatte jibun no sakuhin o happyō shita.",
+            "german": "Er stellte sein Werk voller Stolz vor."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259546780",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 胸/ムネ; lemma 胸; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "胸",
+              "reading": "むね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 胸/むね \"Brust\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1237820 senses 1, 6, noun: chest, breast; heart, feelings Pitch: Verified [2] via exact UniDic row. 胸 ist die „Brust“ (Brustkorb, auch Busen) und bildlich das fühlende „Herz“. Viele Wendungen: 胸が痛む („Mitgefühl, Kummer“), 胸がいっぱい („überwältigt“), 胸が熱くなる („gerührt sein“), 胸がドキドキする, 胸を張る („stolz auftreten“). Das Organ selbst heißt 心臓, das abstrakte Herz bzw. der Geist 心. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1237820; spelling=胸; reading=むね",
+          "selected": {
+            "sequence": "1237820",
+            "spelling": "胸",
+            "reading": "むね",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chest",
+                  "breast"
+                ],
+                "notes": [
+                  "むな is usually used in compounds"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breasts",
+                  "bosom",
+                  "bust"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heart"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lungs"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stomach"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heart",
+                  "mind",
+                  "feelings"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1237820 senses 1, 6, noun: chest, breast; heart, feelings"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 胸/ムネ; lemma 胸; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259546780",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 胸/ムネ; lemma 胸; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "胸",
+              "reading": "むね",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 胸/むね \"Brust\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Brust. JMdict 1237820 senses 1, 6, noun: chest, breast; heart, feelings",
+        "japanese": "走った後、胸がドキドキしています。 / 彼女の優しい言葉に胸が熱くなった。 / 彼は胸を張って自分の作品を発表した。",
+        "romanization": "mune; Hashitta ato, mune ga dokidoki shite imasu. / Kanojo no yasashii kotoba ni mune ga atsuku natta. / Kare wa mune o hatte jibun no sakuhin o happyō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nach dem Laufen schlägt mein Herz heftig in der Brust. / Ihre freundlichen Worte haben mich tief gerührt. / Er stellte sein Werk voller Stolz vor.",
+        "contexts": [
+          "After running",
+          "Moved by kind words",
+          "Proud presentation"
+        ],
+        "lexical": "JMdict 1237820 senses 1, 6, noun: chest, breast; heart, feelings",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:337 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (After running; Moved by kind words; Proud presentation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3014b871c42538dddf2aa6ec2e218f549d67a7eb00dcb20f1e51953c05f4361e",
+        "approvalHash": "ad26944f6ecb71a267e364b794f8e4cf5e93c96828506bbfb940d8066bf2ea11"
+      }
+    },
+    {
+      "id": "vocab-n2:338",
+      "revisionId": "192h-n2-enrichment-vocab-n2-338",
+      "state": "accepted",
+      "predecessorHash": "e6bc7f4193a35791ddff22135459525839ee55f4d94af2b0a6794b76f8d2d6dd",
+      "originalHash": "e6bc7f4193a35791ddff22135459525839ee55f4d94af2b0a6794b76f8d2d6dd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "腹が減ったので何か食べたいです。",
+            "romaji": "Hara ga hetta node nanika tabetai desu.",
+            "german": "Ich habe Hunger und möchte etwas essen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "腹 ist „Bauch“, klingt aber direkter und eher männlich-salopp als das neutrale お腹 (おなか): 腹が減った vs. お腹が空いた. In vielen Redewendungen ist nur 腹 möglich: 腹が立つ („sich ärgern“), 腹を立てる („wütend werden“), 腹黒い („hinterhältig“), 腹を割って話す („offen reden“). Medizinisch sagt man 腹部.",
+        "examples": [
+          {
+            "japanese": "腹が減ったので何か食べたいです。",
+            "romaji": "Hara ga hetta node nanika tabetai desu.",
+            "german": "Ich habe Hunger und möchte etwas essen."
+          },
+          {
+            "japanese": "彼の失礼な態度に腹が立った。",
+            "romaji": "Kare no shitsurei na taido ni hara ga tatta.",
+            "german": "Sein unhöfliches Verhalten hat mich geärgert."
+          },
+          {
+            "japanese": "食べすぎて腹が出てきたので、ダイエットを始めた。",
+            "romaji": "Tabesugite hara ga dete kita node, daietto o hajimeta.",
+            "german": "Weil ich vom vielen Essen einen Bauch bekommen habe, habe ich mit einer Diät angefangen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@218132515",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 腹/ハラ; lemma 腹; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "腹",
+              "reading": "はら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腹/はら \"Bauch\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1501110 sense 1, noun: abdomen, belly, stomach (idiomatic uses: anger, true intentions) Pitch: Verified [2] via exact UniDic row. 腹 ist „Bauch“, klingt aber direkter und eher männlich-salopp als das neutrale お腹 (おなか): 腹が減った vs. お腹が空いた. In vielen Redewendungen ist nur 腹 möglich: 腹が立つ („sich ärgern“), 腹を立てる („wütend werden“), 腹黒い („hinterhältig“), 腹を割って話す („offen reden“). Medizinisch sagt man 腹部. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1501110; spelling=腹; reading=はら",
+          "selected": {
+            "sequence": "1501110",
+            "spelling": "腹",
+            "reading": "はら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "abdomen",
+                  "belly",
+                  "stomach"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "womb"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's mind",
+                  "one's real intentions",
+                  "one's true motive"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "courage",
+                  "nerve",
+                  "willpower"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "generosity",
+                  "magnanimity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 6,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "feelings",
+                  "emotions"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wide middle part",
+                  "bulging part"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 8,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "inside",
+                  "interior",
+                  "inner part"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 9,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "anti-node"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 10,
+                "pos": [
+                  "suffix",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for hard roe"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 11,
+                "pos": [
+                  "suffix",
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counter for containers with bulging middles (pots, vases, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1501110 sense 1, noun: abdomen, belly, stomach (idiomatic uses: anger, true intentions)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 腹/ハラ; lemma 腹; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@218132515",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 腹/ハラ; lemma 腹; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "腹",
+              "reading": "はら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腹/はら \"Bauch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bauch. JMdict 1501110 sense 1, noun: abdomen, belly, stomach (idiomatic uses: anger, true intentions)",
+        "japanese": "腹が減ったので何か食べたいです。 / 彼の失礼な態度に腹が立った。 / 食べすぎて腹が出てきたので、ダイエットを始めた。",
+        "romanization": "hara; Hara ga hetta node nanika tabetai desu. / Kare no shitsurei na taido ni hara ga tatta. / Tabesugite hara ga dete kita node, daietto o hajimeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Hunger und möchte etwas essen. / Sein unhöfliches Verhalten hat mich geärgert. / Weil ich vom vielen Essen einen Bauch bekommen habe, habe ich mit einer Diät angefangen.",
+        "contexts": [
+          "Feeling hungry",
+          "Getting angry",
+          "Starting a diet"
+        ],
+        "lexical": "JMdict 1501110 sense 1, noun: abdomen, belly, stomach (idiomatic uses: anger, true intentions)",
+        "register": "colloquial / blunt (neutral: お腹)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:338 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Feeling hungry; Getting angry; Starting a diet), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d902414fdb423f7454b6282ea808245296824eaee298d8d2217e628de8b55fa4",
+        "approvalHash": "d9c226db1bd5304a9f3673eaedc467677b2315f296acdd2623dc526bdc6051c3"
+      }
+    },
+    {
+      "id": "vocab-n2:339",
+      "revisionId": "192h-n2-enrichment-vocab-n2-339",
+      "state": "accepted",
+      "predecessorHash": "6bfbce0043cb788a4d0cb7bf0866c38a779aab0430c0b9ec10f12471c7965021",
+      "originalHash": "6bfbce0043cb788a4d0cb7bf0866c38a779aab0430c0b9ec10f12471c7965021",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "テーブルに肘をつくのは行儀が悪いです。",
+            "romaji": "Tēburu ni hiji o tsuku no wa gyōgi ga warui desu.",
+            "german": "Es ist unhöflich, die Ellbogen auf den Tisch zu stützen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "肘 („Ellbogen“) wird auch oft in Kana ひじ geschrieben. Typisch: 肘をつく („die Ellbogen aufstützen“, Thema Tischmanieren), 肘を曲げる / 伸ばす, 肘を打つ, テニス肘. 肘掛け ist die „Armlehne“. Nicht verwechseln mit dem ähnlich klingenden 膝 (ひざ, „Knie“).",
+        "examples": [
+          {
+            "japanese": "テーブルに肘をつくのは行儀が悪いです。",
+            "romaji": "Tēburu ni hiji o tsuku no wa gyōgi ga warui desu.",
+            "german": "Es ist unhöflich, die Ellbogen auf den Tisch zu stützen."
+          },
+          {
+            "japanese": "転んだときに、肘を強く打ってしまった。",
+            "romaji": "Koronda toki ni, hiji o tsuyoku utte shimatta.",
+            "german": "Beim Hinfallen habe ich mir den Ellbogen heftig angeschlagen."
+          },
+          {
+            "japanese": "このいすは肘掛けがあって楽だ。",
+            "romaji": "Kono isu wa hijikake ga atte raku da.",
+            "german": "Dieser Stuhl hat Armlehnen und ist bequem."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225460541",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 肘/ヒジ; lemma 肘; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "肘",
+              "reading": "ひじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肘/ひじ \"Ellbogen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1487380 sense 1, noun: elbow Pitch: Verified [2] via exact UniDic row. 肘 („Ellbogen“) wird auch oft in Kana ひじ geschrieben. Typisch: 肘をつく („die Ellbogen aufstützen“, Thema Tischmanieren), 肘を曲げる / 伸ばす, 肘を打つ, テニス肘. 肘掛け ist die „Armlehne“. Nicht verwechseln mit dem ähnlich klingenden 膝 (ひざ, „Knie“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1487380; spelling=肘; reading=ひじ",
+          "selected": {
+            "sequence": "1487380",
+            "spelling": "肘",
+            "reading": "ひじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "elbow"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1487380 sense 1, noun: elbow"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 肘/ヒジ; lemma 肘; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225460541",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 肘/ヒジ; lemma 肘; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "肘",
+              "reading": "ひじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肘/ひじ \"Ellbogen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ellbogen. JMdict 1487380 sense 1, noun: elbow",
+        "japanese": "テーブルに肘をつくのは行儀が悪いです。 / 転んだときに、肘を強く打ってしまった。 / このいすは肘掛けがあって楽だ。",
+        "romanization": "hiji; Tēburu ni hiji o tsuku no wa gyōgi ga warui desu. / Koronda toki ni, hiji o tsuyoku utte shimatta. / Kono isu wa hijikake ga atte raku da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist unhöflich, die Ellbogen auf den Tisch zu stützen. / Beim Hinfallen habe ich mir den Ellbogen heftig angeschlagen. / Dieser Stuhl hat Armlehnen und ist bequem.",
+        "contexts": [
+          "Table manners",
+          "Falling down",
+          "Comfortable chair"
+        ],
+        "lexical": "JMdict 1487380 sense 1, noun: elbow",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:339 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Table manners; Falling down; Comfortable chair), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dd938047d30c97bdfdb3e7bcb08974e1d2ce745b1f7e6288604b2eeb0788f832",
+        "approvalHash": "be4bd7cff1c0d5304ea846d6d044664ef4bbe48798bddc290a384cabefa8094d"
+      }
+    },
+    {
+      "id": "vocab-n2:340",
+      "revisionId": "192h-n2-enrichment-vocab-n2-340",
+      "state": "accepted",
+      "predecessorHash": "2ea3b213c0dfea735a1af9cd3b539f4a114fdd65249af7a50306e4c241b5a849",
+      "originalHash": "2ea3b213c0dfea735a1af9cd3b539f4a114fdd65249af7a50306e4c241b5a849",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "テニスのしすぎで手首が痛くなりました。",
+            "romaji": "Tenisu no shisugi de tekubi ga itaku narimashita.",
+            "german": "Vom vielen Tennisspielen tut mir das Handgelenk weh."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "手首 ist das „Handgelenk“ (手 „Hand“ + 首 „Hals“), analog zu 足首 („Fußgelenk, Knöchel“). Typisch: 手首が痛い, 手首をひねる / くじく („sich das Handgelenk verstauchen“), 手首を回す, 手首をつかむ, 手首に時計をつける. 腕 ist der ganze Arm, 手 die Hand.",
+        "examples": [
+          {
+            "japanese": "テニスのしすぎで手首が痛くなりました。",
+            "romaji": "Tenisu no shisugi de tekubi ga itaku narimashita.",
+            "german": "Vom vielen Tennisspielen tut mir das Handgelenk weh."
+          },
+          {
+            "japanese": "腕時計を右の手首につけています。",
+            "romaji": "Udedokei o migi no tekubi ni tsukete imasu.",
+            "german": "Ich trage die Armbanduhr am rechten Handgelenk."
+          },
+          {
+            "japanese": "転んで手をついたら、手首をひねってしまった。",
+            "romaji": "Koronde te o tsuitara, tekubi o hinette shimatta.",
+            "german": "Als ich mich beim Sturz mit der Hand abfing, habe ich mir das Handgelenk verstaucht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180259329",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 手首/テクビ; lemma 手首; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "手首",
+              "reading": "てくび",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 手首/てくび \"Handgelenk\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1327770 sense 1, noun: wrist Pitch: Verified [1] via exact UniDic row. 手首 ist das „Handgelenk“ (手 „Hand“ + 首 „Hals“), analog zu 足首 („Fußgelenk, Knöchel“). Typisch: 手首が痛い, 手首をひねる / くじく („sich das Handgelenk verstauchen“), 手首を回す, 手首をつかむ, 手首に時計をつける. 腕 ist der ganze Arm, 手 die Hand. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1327770; spelling=手首; reading=てくび",
+          "selected": {
+            "sequence": "1327770",
+            "spelling": "手首",
+            "reading": "てくび",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wrist"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1327770 sense 1, noun: wrist"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 手首/テクビ; lemma 手首; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180259329",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 手首/テクビ; lemma 手首; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "手首",
+              "reading": "てくび",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 手首/てくび \"Handgelenk\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Handgelenk. JMdict 1327770 sense 1, noun: wrist",
+        "japanese": "テニスのしすぎで手首が痛くなりました。 / 腕時計を右の手首につけています。 / 転んで手をついたら、手首をひねってしまった。",
+        "romanization": "tekubi; Tenisu no shisugi de tekubi ga itaku narimashita. / Udedokei o migi no tekubi ni tsukete imasu. / Koronde te o tsuitara, tekubi o hinette shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vom vielen Tennisspielen tut mir das Handgelenk weh. / Ich trage die Armbanduhr am rechten Handgelenk. / Als ich mich beim Sturz mit der Hand abfing, habe ich mir das Handgelenk verstaucht.",
+        "contexts": [
+          "Sports overuse",
+          "Wearing a watch",
+          "Sprain from a fall"
+        ],
+        "lexical": "JMdict 1327770 sense 1, noun: wrist",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:340 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sports overuse; Wearing a watch; Sprain from a fall), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4165d4df9355b6927a1bd6a3be5f431e6329b52ce1bee37f2bc1fc3faaa3603a",
+        "approvalHash": "5a7c227713a69d4835dbd382ab8c0c2e7e9c37b57e4d52ab81a79133e557c1a3"
+      }
+    },
+    {
+      "id": "vocab-n2:341",
+      "revisionId": "192h-n2-enrichment-vocab-n2-341",
+      "state": "accepted",
+      "predecessorHash": "12a40a1347ba6c1bdbd192a88296d5dc72892e1321ccf37a315c53a24c095d9e",
+      "originalHash": "12a40a1347ba6c1bdbd192a88296d5dc72892e1321ccf37a315c53a24c095d9e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "マラソンの後、脚が筋肉痛です。",
+            "romaji": "Marason no ato, ashi ga kinnikutsū desu.",
+            "german": "Nach dem Marathon habe ich Muskelkater in den Beinen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脚 und 足 werden beide あし gelesen: 足 ist der Fuß und allgemein auch das Bein, 脚 bezeichnet genauer das Bein von der Hüfte bis zum Knöchel sowie die Beine von Möbeln (机の脚). Daher 脚が長い, aber 足が速い („schnell laufen“) oder 足のサイズ. Im Alltag schreibt man oft für beides 足. Als Zählwort 〜脚 (きゃく) zählt man Stühle.",
+        "examples": [
+          {
+            "japanese": "マラソンの後、脚が筋肉痛です。",
+            "romaji": "Marason no ato, ashi ga kinnikutsū desu.",
+            "german": "Nach dem Marathon habe ich Muskelkater in den Beinen."
+          },
+          {
+            "japanese": "このテーブルは脚が一本ぐらぐらしている。",
+            "romaji": "Kono tēburu wa ashi ga ippon guragura shite iru.",
+            "german": "Bei diesem Tisch wackelt ein Bein."
+          },
+          {
+            "japanese": "モデルの彼女は脚が長くて細い。",
+            "romaji": "Moderu no kanojo wa ashi ga nagakute hosoi.",
+            "german": "Sie ist Model und hat lange, schlanke Beine."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42838915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 脚/アシ; lemma 脚; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "脚",
+              "reading": "あし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脚/あし \"Bein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1404630 sense 2, noun: leg (also legs of furniture) Pitch: Verified [2] via exact UniDic row. 脚 und 足 werden beide あし gelesen: 足 ist der Fuß und allgemein auch das Bein, 脚 bezeichnet genauer das Bein von der Hüfte bis zum Knöchel sowie die Beine von Möbeln (机の脚). Daher 脚が長い, aber 足が速い („schnell laufen“) oder 足のサイズ. Im Alltag schreibt man oft für beides 足. Als Zählwort 〜脚 (きゃく) zählt man Stühle. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1404630; spelling=脚; reading=あし",
+          "selected": {
+            "sequence": "1404630",
+            "spelling": "脚",
+            "reading": "あし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "foot",
+                  "paw",
+                  "arm (of an octopus, squid, etc.)"
+                ],
+                "notes": [
+                  "esp. 足"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "leg"
+                ],
+                "notes": [
+                  "esp. 脚, 肢"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gait"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pace"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lower radical of a kanji"
+                ],
+                "notes": [
+                  "usu. 脚"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 7,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "money",
+                  "coin"
+                ],
+                "notes": [
+                  "usu お〜"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1404630 sense 2, noun: leg (also legs of furniture)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 脚/アシ; lemma 脚; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@42838915",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 脚/アシ; lemma 脚; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "脚",
+              "reading": "あし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脚/あし \"Bein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bein. JMdict 1404630 sense 2, noun: leg (also legs of furniture)",
+        "japanese": "マラソンの後、脚が筋肉痛です。 / このテーブルは脚が一本ぐらぐらしている。 / モデルの彼女は脚が長くて細い。",
+        "romanization": "ashi; Marason no ato, ashi ga kinnikutsū desu. / Kono tēburu wa ashi ga ippon guragura shite iru. / Moderu no kanojo wa ashi ga nagakute hosoi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nach dem Marathon habe ich Muskelkater in den Beinen. / Bei diesem Tisch wackelt ein Bein. / Sie ist Model und hat lange, schlanke Beine.",
+        "contexts": [
+          "After a marathon",
+          "Wobbly table",
+          "Describing a model"
+        ],
+        "lexical": "JMdict 1404630 sense 2, noun: leg (also legs of furniture)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:341 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (After a marathon; Wobbly table; Describing a model), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0626346e7fed8009af9c86c1c827e0e4576592804ec2331355440eac35bfb750",
+        "approvalHash": "2d2be0dbd307ac859a9d9efe279f084aba314f5d6e34060fb9b56d40e7900b65"
+      }
+    },
+    {
+      "id": "vocab-n2:342",
+      "revisionId": "192h-n2-enrichment-vocab-n2-342",
+      "state": "accepted",
+      "predecessorHash": "b923150bd03725619e6e094b136468a65538db0026797d0b46e5a5a6bf8df490",
+      "originalHash": "b923150bd03725619e6e094b136468a65538db0026797d0b46e5a5a6bf8df490",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい靴を履いたら踵が痛くなりました。",
+            "romaji": "Atarashii kutsu o haitara kakato ga itaku narimashita.",
+            "german": "Als ich neue Schuhe anzog, tat mir die Ferse weh."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "踵 bedeutet „Ferse“ und auch „Absatz“ eines Schuhs oder die Ferse eines Strumpfes; man schreibt es fast immer in Kana かかと. Typisch: かかとが痛い, かかとの高い靴 („Schuhe mit hohen Absätzen“), 靴のかかとを踏む („den Schuh hinten heruntertreten“). In der gehobenen Wendung 踵を返す („kehrtmachen“) wird das Kanji きびす gelesen.",
+        "examples": [
+          {
+            "japanese": "新しい靴を履いたら踵が痛くなりました。",
+            "romaji": "Atarashii kutsu o haitara kakato ga itaku narimashita.",
+            "german": "Als ich neue Schuhe anzog, tat mir die Ferse weh."
+          },
+          {
+            "japanese": "かかとの高い靴を履くと、足が疲れる。",
+            "romaji": "Kakato no takai kutsu o haku to, ashi ga tsukareru.",
+            "german": "Wenn ich Schuhe mit hohen Absätzen trage, werden meine Füße müde."
+          },
+          {
+            "japanese": "冬はかかとがかさかさになりやすい。",
+            "romaji": "Fuyu wa kakato ga kasakasa ni nariyasui.",
+            "german": "Im Winter werden die Fersen leicht rau und trocken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87474774",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 踵/カカト; lemma 踵; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "踵",
+              "reading": "かかと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 踵/かかと \"Ferse\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1573310 sense 1, noun: heel (of foot, shoe, stocking) Pitch: Verified [0] via exact UniDic row. 踵 bedeutet „Ferse“ und auch „Absatz“ eines Schuhs oder die Ferse eines Strumpfes; man schreibt es fast immer in Kana かかと. Typisch: かかとが痛い, かかとの高い靴 („Schuhe mit hohen Absätzen“), 靴のかかとを踏む („den Schuh hinten heruntertreten“). In der gehobenen Wendung 踵を返す („kehrtmachen“) wird das Kanji きびす gelesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1573310; spelling=踵; reading=かかと",
+          "selected": {
+            "sequence": "1573310",
+            "spelling": "踵",
+            "reading": "かかと",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "heel (of foot, shoe, stocking, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1573310 sense 1, noun: heel (of foot, shoe, stocking)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 踵/カカト; lemma 踵; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@87474774",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 踵/カカト; lemma 踵; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "踵",
+              "reading": "かかと",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 踵/かかと \"Ferse\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ferse. JMdict 1573310 sense 1, noun: heel (of foot, shoe, stocking)",
+        "japanese": "新しい靴を履いたら踵が痛くなりました。 / かかとの高い靴を履くと、足が疲れる。 / 冬はかかとがかさかさになりやすい。",
+        "romanization": "kakato; Atarashii kutsu o haitara kakato ga itaku narimashita. / Kakato no takai kutsu o haku to, ashi ga tsukareru. / Fuyu wa kakato ga kasakasa ni nariyasui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als ich neue Schuhe anzog, tat mir die Ferse weh. / Wenn ich Schuhe mit hohen Absätzen trage, werden meine Füße müde. / Im Winter werden die Fersen leicht rau und trocken.",
+        "contexts": [
+          "New shoes rubbing",
+          "High heels",
+          "Dry skin in winter"
+        ],
+        "lexical": "JMdict 1573310 sense 1, noun: heel (of foot, shoe, stocking)",
+        "register": "neutral; usually written in kana",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:342 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New shoes rubbing; High heels; Dry skin in winter), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fab945f5f504aaedb5ded66d878a7e7de1ed44b2898d709c432e98b845eda580",
+        "approvalHash": "aa823e1e6d4013fa807482263404d5e3fa69cfe30473f8362c477d5ad1d4389c"
+      }
+    },
+    {
+      "id": "vocab-n2:343",
+      "revisionId": "192h-n2-enrichment-vocab-n2-343",
+      "state": "accepted",
+      "predecessorHash": "8422569cce348113e3ec5c2ce45e2cb4c785ec1736539b73c02a4b0e94c3e247",
+      "originalHash": "8422569cce348113e3ec5c2ce45e2cb4c785ec1736539b73c02a4b0e94c3e247",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "内臓の健康を保つためにバランスの良い食事が大切です。",
+            "romaji": "Naizō no kenkō o tamotsu tame ni baransu no yoi shokuji ga taisetsu desu.",
+            "german": "Eine ausgewogene Ernährung ist wichtig für gesunde innere Organe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "内臓 bezeichnet die inneren Organe als Ganzes („Eingeweide“), in Medizin, Biologie und Küche: 内臓脂肪 („Bauchfett“), 内臓を取る („einen Fisch ausnehmen“). Ein einzelnes Organ heißt 臓器 (臓器移植). Klassische Verwechslung: das gleich gelesene 内蔵 bedeutet „eingebaut“ (カメラ内蔵のスマホ).",
+        "examples": [
+          {
+            "japanese": "内臓の健康を保つためにバランスの良い食事が大切です。",
+            "romaji": "Naizō no kenkō o tamotsu tame ni baransu no yoi shokuji ga taisetsu desu.",
+            "german": "Eine ausgewogene Ernährung ist wichtig für gesunde innere Organe."
+          },
+          {
+            "japanese": "魚の内臓を取ってから焼きます。",
+            "romaji": "Sakana no naizō o totte kara yakimasu.",
+            "german": "Ich nehme den Fisch aus, bevor ich ihn brate."
+          },
+          {
+            "japanese": "事故で内臓を傷つけ、緊急手術を受けた。",
+            "romaji": "Jiko de naizō o kizutsuke, kinkyū shujutsu o uketa.",
+            "german": "Bei dem Unfall wurden innere Organe verletzt, und er wurde notoperiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193602073",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 内臓/ナイゾウ; lemma 内臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "内臓",
+              "reading": "ないぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内臓/ないぞう \"Innere Organe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1458740 sense 1, noun: internal organs, viscera Pitch: Verified [0] via exact UniDic row. 内臓 bezeichnet die inneren Organe als Ganzes („Eingeweide“), in Medizin, Biologie und Küche: 内臓脂肪 („Bauchfett“), 内臓を取る („einen Fisch ausnehmen“). Ein einzelnes Organ heißt 臓器 (臓器移植). Klassische Verwechslung: das gleich gelesene 内蔵 bedeutet „eingebaut“ (カメラ内蔵のスマホ). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1458740; spelling=内臓; reading=ないぞう",
+          "selected": {
+            "sequence": "1458740",
+            "spelling": "内臓",
+            "reading": "ないぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "internal organs",
+                  "viscera"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1458740 sense 1, noun: internal organs, viscera"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 内臓/ナイゾウ; lemma 内臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193602073",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 内臓/ナイゾウ; lemma 内臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "内臓",
+              "reading": "ないぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内臓/ないぞう \"Innere Organe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Innere Organe. JMdict 1458740 sense 1, noun: internal organs, viscera",
+        "japanese": "内臓の健康を保つためにバランスの良い食事が大切です。 / 魚の内臓を取ってから焼きます。 / 事故で内臓を傷つけ、緊急手術を受けた。",
+        "romanization": "naizō; Naizō no kenkō o tamotsu tame ni baransu no yoi shokuji ga taisetsu desu. / Sakana no naizō o totte kara yakimasu. / Jiko de naizō o kizutsuke, kinkyū shujutsu o uketa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine ausgewogene Ernährung ist wichtig für gesunde innere Organe. / Ich nehme den Fisch aus, bevor ich ihn brate. / Bei dem Unfall wurden innere Organe verletzt, und er wurde notoperiert.",
+        "contexts": [
+          "Healthy diet",
+          "Cleaning fish",
+          "Accident injury"
+        ],
+        "lexical": "JMdict 1458740 sense 1, noun: internal organs, viscera",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:343 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Healthy diet; Cleaning fish; Accident injury), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "12ac8187b0e1b51e37a531c89ca01a3cb3ab41dd78660a55590809719bfc2700",
+        "approvalHash": "ace66bf176db1b6d753135479ea90f5e85e34a1a524135766a1f52b96a2a3769"
+      }
+    },
+    {
+      "id": "vocab-n2:344",
+      "revisionId": "192h-n2-enrichment-vocab-n2-344",
+      "state": "accepted",
+      "predecessorHash": "b1b71aa1cc0295421d1370203e6a776288ec1109c8f0db2e4832f584699fd1fa",
+      "originalHash": "b1b71aa1cc0295421d1370203e6a776288ec1109c8f0db2e4832f584699fd1fa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お酒の飲みすぎは肝臓に悪いです。",
+            "romaji": "Osake no nomisugi wa kanzō ni warui desu.",
+            "german": "Zu viel Alkohol ist schlecht für die Leber."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "肝臓 ist die „Leber“ als Organ. Typisch: 肝臓を悪くする, 肝臓に負担をかける, 肝臓の数値 („Leberwerte“), 肝臓がん; da Schäden lange unbemerkt bleiben, nennt man sie 沈黙の臓器. Als Lebensmittel sagt man レバー. Das ältere 肝 (きも) steckt in Wendungen wie 肝に銘じる („sich zu Herzen nehmen“) und 肝試し („Mutprobe“).",
+        "examples": [
+          {
+            "japanese": "お酒の飲みすぎは肝臓に悪いです。",
+            "romaji": "Osake no nomisugi wa kanzō ni warui desu.",
+            "german": "Zu viel Alkohol ist schlecht für die Leber."
+          },
+          {
+            "japanese": "健康診断で肝臓の数値が高いと言われた。",
+            "romaji": "Kenkō shindan de kanzō no sūchi ga takai to iwareta.",
+            "german": "Beim Gesundheitscheck hieß es, meine Leberwerte seien erhöht."
+          },
+          {
+            "japanese": "レバーは牛や鶏の肝臓のことです。",
+            "romaji": "Rebā wa ushi ya niwatori no kanzō no koto desu.",
+            "german": "Mit „Rebā“ ist Rinder- oder Hühnerleber gemeint."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100668823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 肝臓/カンゾウ; lemma 肝臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "肝臓",
+              "reading": "かんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肝臓/かんぞう \"Leber\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1214660 sense 1, noun: liver Pitch: Verified [0] via exact UniDic row. 肝臓 ist die „Leber“ als Organ. Typisch: 肝臓を悪くする, 肝臓に負担をかける, 肝臓の数値 („Leberwerte“), 肝臓がん; da Schäden lange unbemerkt bleiben, nennt man sie 沈黙の臓器. Als Lebensmittel sagt man レバー. Das ältere 肝 (きも) steckt in Wendungen wie 肝に銘じる („sich zu Herzen nehmen“) und 肝試し („Mutprobe“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1214660; spelling=肝臓; reading=かんぞう",
+          "selected": {
+            "sequence": "1214660",
+            "spelling": "肝臓",
+            "reading": "かんぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "liver"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1214660 sense 1, noun: liver"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 肝臓/カンゾウ; lemma 肝臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100668823",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 肝臓/カンゾウ; lemma 肝臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "肝臓",
+              "reading": "かんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肝臓/かんぞう \"Leber\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leber. JMdict 1214660 sense 1, noun: liver",
+        "japanese": "お酒の飲みすぎは肝臓に悪いです。 / 健康診断で肝臓の数値が高いと言われた。 / レバーは牛や鶏の肝臓のことです。",
+        "romanization": "kanzō; Osake no nomisugi wa kanzō ni warui desu. / Kenkō shindan de kanzō no sūchi ga takai to iwareta. / Rebā wa ushi ya niwatori no kanzō no koto desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zu viel Alkohol ist schlecht für die Leber. / Beim Gesundheitscheck hieß es, meine Leberwerte seien erhöht. / Mit „Rebā“ ist Rinder- oder Hühnerleber gemeint.",
+        "contexts": [
+          "Alcohol warning",
+          "Checkup results",
+          "Food vocabulary"
+        ],
+        "lexical": "JMdict 1214660 sense 1, noun: liver",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:344 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Alcohol warning; Checkup results; Food vocabulary), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5d1ab36489e93d3d18b0ce015fb7fba2463fa90a45f4d7693176b9d0b0182be9",
+        "approvalHash": "1c665cb6269658992568c03e06c4233b97bb8a4b1587726d963b123147030233"
+      }
+    },
+    {
+      "id": "vocab-n2:345",
+      "revisionId": "192h-n2-enrichment-vocab-n2-345",
+      "state": "accepted",
+      "predecessorHash": "a33fd2adb61e53d53b387b8bcf1c71eca56149b28373694cc9ee29da0114c5e0",
+      "originalHash": "a33fd2adb61e53d53b387b8bcf1c71eca56149b28373694cc9ee29da0114c5e0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "腎臓は血液をろ過する大切な臓器です。",
+            "romaji": "Jinzō wa ketsueki o roka suru taisetsu na zōki desu.",
+            "german": "Die Niere ist ein wichtiges Organ, das das Blut filtert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "腎臓 ist die „Niere“; in Fachwörtern steht oft nur 腎: 腎不全 („Nierenversagen“), 副腎 („Nebenniere“). Typisch: 腎臓が悪い, 腎臓病, 腎臓移植. Interessant: 肝心 („entscheidend, wichtig“) wurde früher auch 肝腎 geschrieben – Leber und Niere als lebenswichtige Organe.",
+        "examples": [
+          {
+            "japanese": "腎臓は血液をろ過する大切な臓器です。",
+            "romaji": "Jinzō wa ketsueki o roka suru taisetsu na zōki desu.",
+            "german": "Die Niere ist ein wichtiges Organ, das das Blut filtert."
+          },
+          {
+            "japanese": "父は腎臓が悪く、週に三回透析を受けている。",
+            "romaji": "Chichi wa jinzō ga waruku, shū ni sankai tōseki o ukete iru.",
+            "german": "Mein Vater hat ein Nierenleiden und muss dreimal pro Woche zur Dialyse."
+          },
+          {
+            "japanese": "母に腎臓を一つ提供することに決めた。",
+            "romaji": "Haha ni jinzō o hitotsu teikyō suru koto ni kimeta.",
+            "german": "Ich habe beschlossen, meiner Mutter eine Niere zu spenden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145347353",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 腎臓/ジンゾウ; lemma 腎臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "腎臓",
+              "reading": "じんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腎臓/じんぞう \"Niere\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1370110 sense 1, noun: kidney Pitch: Verified [0] via exact UniDic row. 腎臓 ist die „Niere“; in Fachwörtern steht oft nur 腎: 腎不全 („Nierenversagen“), 副腎 („Nebenniere“). Typisch: 腎臓が悪い, 腎臓病, 腎臓移植. Interessant: 肝心 („entscheidend, wichtig“) wurde früher auch 肝腎 geschrieben – Leber und Niere als lebenswichtige Organe. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1370110; spelling=腎臓; reading=じんぞう",
+          "selected": {
+            "sequence": "1370110",
+            "spelling": "腎臓",
+            "reading": "じんぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "kidney"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1370110 sense 1, noun: kidney"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 腎臓/ジンゾウ; lemma 腎臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145347353",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 腎臓/ジンゾウ; lemma 腎臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "腎臓",
+              "reading": "じんぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 腎臓/じんぞう \"Niere\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Niere. JMdict 1370110 sense 1, noun: kidney",
+        "japanese": "腎臓は血液をろ過する大切な臓器です。 / 父は腎臓が悪く、週に三回透析を受けている。 / 母に腎臓を一つ提供することに決めた。",
+        "romanization": "jinzō; Jinzō wa ketsueki o roka suru taisetsu na zōki desu. / Chichi wa jinzō ga waruku, shū ni sankai tōseki o ukete iru. / Haha ni jinzō o hitotsu teikyō suru koto ni kimeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Niere ist ein wichtiges Organ, das das Blut filtert. / Mein Vater hat ein Nierenleiden und muss dreimal pro Woche zur Dialyse. / Ich habe beschlossen, meiner Mutter eine Niere zu spenden.",
+        "contexts": [
+          "Biology explanation",
+          "Father on dialysis",
+          "Organ donation"
+        ],
+        "lexical": "JMdict 1370110 sense 1, noun: kidney",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:345 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Biology explanation; Father on dialysis; Organ donation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6dfc564d9ad614d39399cda69d82f0470ca1bda34bcdcfaafb212323009de603",
+        "approvalHash": "48dd5ca93311c81d74cf38410f52777d056ca37460db2963e4232e82f83e637f"
+      }
+    },
+    {
+      "id": "vocab-n2:346",
+      "revisionId": "192h-n2-enrichment-vocab-n2-346",
+      "state": "accepted",
+      "predecessorHash": "c71cf68553a1f5101e7883095ee1c61eab4dd285f3c77ef5aadbfaa69f78180f",
+      "originalHash": "c71cf68553a1f5101e7883095ee1c61eab4dd285f3c77ef5aadbfaa69f78180f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大学院で言語学を研究しています。",
+            "romaji": "Daigakuin de gengogaku o kenkyū shite imasu.",
+            "german": "Ich forsche an der Graduiertenschule im Bereich Linguistik."
+          }
+        ],
+        "meaning": "Graduiertenschule",
+        "pitch": 4,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大学院 ist die Stufe nach dem Bachelorstudium im 学部: 修士課程 („Master“) und 博士課程 („Promotion“). Typisch: 大学院に進む / 進学する, 大学院に入る, 大学院を修了する (formell „abschließen“ statt 卒業). Ein Studierender dort ist ein 大学院生, kurz 院生; die Aufnahmeprüfung heißt 院試.",
+        "examples": [
+          {
+            "japanese": "大学院で言語学を研究しています。",
+            "romaji": "Daigakuin de gengogaku o kenkyū shite imasu.",
+            "german": "Ich forsche an der Graduiertenschule im Bereich Linguistik."
+          },
+          {
+            "japanese": "大学を卒業したら、大学院に進むつもりです。",
+            "romaji": "Daigaku o sotsugyō shitara, daigakuin ni susumu tsumori desu.",
+            "german": "Nach dem Bachelor möchte ich ein Masterstudium anschließen."
+          },
+          {
+            "japanese": "大学院の入試に向けて、毎日英語を勉強している。",
+            "romaji": "Daigakuin no nyūshi ni mukete, mainichi eigo o benkyō shite iru.",
+            "german": "Für die Aufnahmeprüfung zum Masterstudium lerne ich jeden Tag Englisch."
+          }
+        ],
+        "meaning": "Graduate School, Master- und Promotionsstudium",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1413250 sense 1, noun: graduate school Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 4). 大学院 ist die Stufe nach dem Bachelorstudium im 学部: 修士課程 („Master“) und 博士課程 („Promotion“). Typisch: 大学院に進む / 進学する, 大学院に入る, 大学院を修了する (formell „abschließen“ statt 卒業). Ein Studierender dort ist ein 大学院生, kurz 院生; die Aufnahmeprüfung heißt 院試. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1413250; spelling=大学院; reading=だいがくいん",
+          "selected": {
+            "sequence": "1413250",
+            "spelling": "大学院",
+            "reading": "だいがくいん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "graduate school"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1413250 sense 1, noun: graduate school"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 大学院/だいがくいん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A4%A7%E5%AD%A6%E9%99%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 大学院/だいがくいん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Graduate School, Master- und Promotionsstudium. JMdict 1413250 sense 1, noun: graduate school",
+        "japanese": "大学院で言語学を研究しています。 / 大学を卒業したら、大学院に進むつもりです。 / 大学院の入試に向けて、毎日英語を勉強している。",
+        "romanization": "daigakuin; Daigakuin de gengogaku o kenkyū shite imasu. / Daigaku o sotsugyō shitara, daigakuin ni susumu tsumori desu. / Daigakuin no nyūshi ni mukete, mainichi eigo o benkyō shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich forsche an der Graduiertenschule im Bereich Linguistik. / Nach dem Bachelor möchte ich ein Masterstudium anschließen. / Für die Aufnahmeprüfung zum Masterstudium lerne ich jeden Tag Englisch.",
+        "contexts": [
+          "Research field",
+          "Plans after graduation",
+          "Entrance exam preparation"
+        ],
+        "lexical": "JMdict 1413250 sense 1, noun: graduate school",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:346 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Research field; Plans after graduation; Entrance exam preparation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ae0469818baa5a589fedd6972d3b7790c8e57aaae6d5a3122ef46edd79348cdd",
+        "approvalHash": "3b0d98e7911f904510fecbba59cbe4eceefc99414d0360e1ffd73a4b4d4baffa"
+      }
+    },
+    {
+      "id": "vocab-n2:347",
+      "revisionId": "192h-n2-enrichment-vocab-n2-347",
+      "state": "accepted",
+      "predecessorHash": "8a333c86495cfed2ac38e2d7a403524151a17f44af9930563a45909d18485bad",
+      "originalHash": "8a333c86495cfed2ac38e2d7a403524151a17f44af9930563a45909d18485bad",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼は法学部に所属しています。",
+            "romaji": "Kare wa hōgakubu ni shozoku shite imasu.",
+            "german": "Er gehört zur juristischen Fakultät."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "学部 ist die „Fakultät“ einer Universität und steht meist als Suffix: 法学部, 経済学部, 医学部, 文学部. Darunter liegt der 学科 („Fachbereich, Studiengang“). Im Gegensatz zu 大学院 bezeichnet 学部 auch die Bachelorstufe: 学部生 („Bachelorstudent“), 学部時代. Typisch: 〜学部に入る / 所属する, 〜学部の学生.",
+        "examples": [
+          {
+            "japanese": "彼は法学部に所属しています。",
+            "romaji": "Kare wa hōgakubu ni shozoku shite imasu.",
+            "german": "Er gehört zur juristischen Fakultät."
+          },
+          {
+            "japanese": "経済学部の三年生です。",
+            "romaji": "Keizai gakubu no sannensei desu.",
+            "german": "Ich bin im dritten Jahr an der wirtschaftswissenschaftlichen Fakultät."
+          },
+          {
+            "japanese": "学部を卒業してすぐ、大学院に進学した。",
+            "romaji": "Gakubu o sotsugyō shite sugu, daigakuin ni shingaku shita.",
+            "german": "Gleich nach dem Bachelorabschluss habe ich ein Masterstudium begonnen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101294126",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 学部/ガクブ; lemma 学部; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "学部",
+              "reading": "がくぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 学部/がくぶ \"Fakultät\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1207080 sense 1, noun: faculty (of a university), school, department Pitch: Verified [0,1] via exact UniDic row. 学部 ist die „Fakultät“ einer Universität und steht meist als Suffix: 法学部, 経済学部, 医学部, 文学部. Darunter liegt der 学科 („Fachbereich, Studiengang“). Im Gegensatz zu 大学院 bezeichnet 学部 auch die Bachelorstufe: 学部生 („Bachelorstudent“), 学部時代. Typisch: 〜学部に入る / 所属する, 〜学部の学生. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1207080; spelling=学部; reading=がくぶ",
+          "selected": {
+            "sequence": "1207080",
+            "spelling": "学部",
+            "reading": "がくぶ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "faculty (of a university)",
+                  "school",
+                  "college",
+                  "department"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1207080 sense 1, noun: faculty (of a university), school, department"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 学部/ガクブ; lemma 学部; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101294126",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 学部/ガクブ; lemma 学部; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "学部",
+              "reading": "がくぶ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 学部/がくぶ \"Fakultät\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fakultät. JMdict 1207080 sense 1, noun: faculty (of a university), school, department",
+        "japanese": "彼は法学部に所属しています。 / 経済学部の三年生です。 / 学部を卒業してすぐ、大学院に進学した。",
+        "romanization": "gakubu; Kare wa hōgakubu ni shozoku shite imasu. / Keizai gakubu no sannensei desu. / Gakubu o sotsugyō shite sugu, daigakuin ni shingaku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er gehört zur juristischen Fakultät. / Ich bin im dritten Jahr an der wirtschaftswissenschaftlichen Fakultät. / Gleich nach dem Bachelorabschluss habe ich ein Masterstudium begonnen.",
+        "contexts": [
+          "Faculty membership",
+          "Self-introduction",
+          "Academic career path"
+        ],
+        "lexical": "JMdict 1207080 sense 1, noun: faculty (of a university), school, department",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:347 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Faculty membership; Self-introduction; Academic career path), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0fad6d3d23c38fce29ebb64aa1c5ecb19ecd11574fabcedd09c23c71acb95d4d",
+        "approvalHash": "ee711f9ec855e459eb2327598aeb3091f4408e3b027449111d47bba05dce076d"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

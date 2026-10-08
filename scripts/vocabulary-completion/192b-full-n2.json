@@ -1,0 +1,3826 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:167",
+      "revisionId": "192b-n2-enrichment-vocab-n2-167",
+      "state": "accepted",
+      "predecessorHash": "2fd8e9d1280612310565b7b582645762ff671bc74038bd50a2f2d41e8c9e170f",
+      "originalHash": "2fd8e9d1280612310565b7b582645762ff671bc74038bd50a2f2d41e8c9e170f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "振込の手数料は三百円です。",
+            "romaji": "Furikomi no tesūryō wa sanbyakuen desu.",
+            "german": "Die Überweisungsgebühr beträgt dreihundert Yen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "手数料 ist eine „Gebühr“ für eine Dienstleistung oder Abwicklung, etwa bei Banküberweisungen und Stornierungen, bei Vermittlung auch „Provision“. Typisch sind 手数料がかかる, 手数料を払う／取る, 手数料無料, 振込手数料 und キャンセル手数料. Im Unterschied zu 料金 (allgemein „Preis, Tarif“) und 費用 („Kosten“) meint 手数料 speziell das Entgelt für einen Bearbeitungsaufwand. Neutral und im Alltag sehr häufig.",
+        "examples": [
+          {
+            "japanese": "振込の手数料は三百円です。",
+            "romaji": "Furikomi no tesūryō wa sanbyakuen desu.",
+            "german": "Die Überweisungsgebühr beträgt dreihundert Yen."
+          },
+          {
+            "japanese": "前日のキャンセルには手数料がかかります。",
+            "romaji": "Zenjitsu no kyanseru ni wa tesūryō ga kakarimasu.",
+            "german": "Bei einer Stornierung am Vortag fällt eine Gebühr an."
+          },
+          {
+            "japanese": "不動産会社に家賃一か月分の手数料を払った。",
+            "romaji": "Fudōsan gaisha ni yachin ikkagetsubun no tesūryō o haratta.",
+            "german": "Ich habe der Immobilienfirma eine Provision in Höhe einer Monatsmiete gezahlt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1327980 sense 1, noun: (handling) fee, charge, commission Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 手数料 ist eine „Gebühr“ für eine Dienstleistung oder Abwicklung, etwa bei Banküberweisungen und Stornierungen, bei Vermittlung auch „Provision“. Typisch sind 手数料がかかる, 手数料を払う／取る, 手数料無料, 振込手数料 und キャンセル手数料. Im Unterschied zu 料金 (allgemein „Preis, Tarif“) und 費用 („Kosten“) meint 手数料 speziell das Entgelt für einen Bearbeitungsaufwand. Neutral und im Alltag sehr häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1327980; spelling=手数料; reading=てすうりょう",
+          "selected": {
+            "sequence": "1327980",
+            "spelling": "手数料",
+            "reading": "てすうりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(handling) fee",
+                  "charge (e.g. for a cancellation)",
+                  "commission",
+                  "brokerage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1327980 sense 1, noun: (handling) fee, charge, commission"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 手数料/てすうりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%89%8B%E6%95%B0%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 手数料/てすうりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gebühr. JMdict 1327980 sense 1, noun: (handling) fee, charge, commission",
+        "japanese": "振込の手数料は三百円です。 / 前日のキャンセルには手数料がかかります。 / 不動産会社に家賃一か月分の手数料を払った。",
+        "romanization": "tesūryō; Furikomi no tesūryō wa sanbyakuen desu. / Zenjitsu no kyanseru ni wa tesūryō ga kakarimasu. / Fudōsan gaisha ni yachin ikkagetsubun no tesūryō o haratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Überweisungsgebühr beträgt dreihundert Yen. / Bei einer Stornierung am Vortag fällt eine Gebühr an. / Ich habe der Immobilienfirma eine Provision in Höhe einer Monatsmiete gezahlt.",
+        "contexts": [
+          "Bank transfer fee",
+          "Cancellation fee",
+          "Real estate commission"
+        ],
+        "lexical": "JMdict 1327980 sense 1, noun: (handling) fee, charge, commission",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:167 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Bank transfer fee; Cancellation fee; Real estate commission), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a4f194f07dab333b62881f15b94ea899fcf511c5400443f671e236420ddc494e",
+        "approvalHash": "5ba5bc3a1a9b9e0aef6d3654404b9cce98e918cbb7ea8390ddf3f79eaf87510a"
+      }
+    },
+    {
+      "id": "vocab-n2:168",
+      "revisionId": "192b-n2-enrichment-vocab-n2-168",
+      "state": "accepted",
+      "predecessorHash": "8baffa0b17171326bae40eb13f3d2c33b6252222595bc3769e80bd2fb006b3f4",
+      "originalHash": "8baffa0b17171326bae40eb13f3d2c33b6252222595bc3769e80bd2fb006b3f4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "長年の取引で信用を築いた。",
+            "romaji": "Naganen no torihiki de shin'yō o kizuita.",
+            "german": "Durch jahrelange Geschäftsbeziehungen wurde Vertrauen aufgebaut."
+          }
+        ],
+        "meaning": "Vertrauen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "信用 ist das Vertrauen in die Zuverlässigkeit einer Person oder Firma und der gute Ruf, den man sich dadurch erwirbt; im Finanzbereich auch „Kredit(würdigkeit)“, etwa in 信用取引 oder 信用金庫. Als transitives する-Verb: 人を信用する, 彼の話は信用できない; typisch sind außerdem 信用を得る／失う／築く. Im Unterschied zu 信頼, das ein tieferes Sich-Verlassen ausdrückt, betont 信用 die Glaubwürdigkeit aufgrund bisheriger Erfahrungen.",
+        "examples": [
+          {
+            "japanese": "長年の取引で信用を築いた。",
+            "romaji": "Naganen no torihiki de shin'yō o kizuita.",
+            "german": "Durch jahrelange Geschäftsbeziehungen wurde Vertrauen aufgebaut."
+          },
+          {
+            "japanese": "一度失った信用を取り戻すのは難しい。",
+            "romaji": "Ichido ushinatta shin'yō o torimodosu no wa muzukashii.",
+            "german": "Hat man Vertrauen einmal verspielt, ist es schwer, es zurückzugewinnen."
+          },
+          {
+            "japanese": "あの人の言うことは、あまり信用しないほうがいい。",
+            "romaji": "Ano hito no iu koto wa, amari shin'yō shinai hō ga ii.",
+            "german": "Du solltest dem, was er sagt, nicht allzu sehr trauen."
+          }
+        ],
+        "meaning": "Vertrauen, Glaubwürdigkeit; Kredit",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143110842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 信用/シンヨウ; lemma 信用; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "信用",
+              "reading": "しんよう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 信用/しんよう \"Vertrauen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1359620 senses 1–2, noun / suru verb: confidence, trust, reputation; credit Pitch: Verified [0] via exact UniDic row. 信用 ist das Vertrauen in die Zuverlässigkeit einer Person oder Firma und der gute Ruf, den man sich dadurch erwirbt; im Finanzbereich auch „Kredit(würdigkeit)“, etwa in 信用取引 oder 信用金庫. Als transitives する-Verb: 人を信用する, 彼の話は信用できない; typisch sind außerdem 信用を得る／失う／築く. Im Unterschied zu 信頼, das ein tieferes Sich-Verlassen ausdrückt, betont 信用 die Glaubwürdigkeit aufgrund bisheriger Erfahrungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1359620; spelling=信用; reading=しんよう",
+          "selected": {
+            "sequence": "1359620",
+            "spelling": "信用",
+            "reading": "しんよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "confidence",
+                  "trust",
+                  "faith",
+                  "reputation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "credit"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1359620 senses 1–2, noun / suru verb: confidence, trust, reputation; credit"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 信用/シンヨウ; lemma 信用; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143110842",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 信用/シンヨウ; lemma 信用; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "信用",
+              "reading": "しんよう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 信用/しんよう \"Vertrauen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vertrauen, Glaubwürdigkeit; Kredit. JMdict 1359620 senses 1–2, noun / suru verb: confidence, trust, reputation; credit",
+        "japanese": "長年の取引で信用を築いた。 / 一度失った信用を取り戻すのは難しい。 / あの人の言うことは、あまり信用しないほうがいい。",
+        "romanization": "shin'yō; Naganen no torihiki de shin'yō o kizuita. / Ichido ushinatta shin'yō o torimodosu no wa muzukashii. / Ano hito no iu koto wa, amari shin'yō shinai hō ga ii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch jahrelange Geschäftsbeziehungen wurde Vertrauen aufgebaut. / Hat man Vertrauen einmal verspielt, ist es schwer, es zurückzugewinnen. / Du solltest dem, was er sagt, nicht allzu sehr trauen.",
+        "contexts": [
+          "Long-term business trust",
+          "Lost reputation",
+          "Warning about someone"
+        ],
+        "lexical": "JMdict 1359620 senses 1–2, noun / suru verb: confidence, trust, reputation; credit",
+        "register": "neutral",
+        "transitivity": "transitive as 信用する (人を信用する)",
+        "conjugation": "noun; suru verb (信用する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:168 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Long-term business trust; Lost reputation; Warning about someone), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "35512e877acadc5b7a7f1e3d40d4c5528b9dd7144db7fa12b25fa26b82a7e534",
+        "approvalHash": "908769836c10d321362f9e52d1378fd26b7b4eb3066970665b05109e2acb0ac7"
+      }
+    },
+    {
+      "id": "vocab-n2:169",
+      "revisionId": "192b-n2-enrichment-vocab-n2-169",
+      "state": "accepted",
+      "predecessorHash": "583e6128c54d23d5f68b75fca531890e35b48302c994ccb98689a360118b2564",
+      "originalHash": "583e6128c54d23d5f68b75fca531890e35b48302c994ccb98689a360118b2564",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "午後から大事な商談がある。",
+            "romaji": "Gogo kara daiji na shōdan ga aru.",
+            "german": "Am Nachmittag steht eine wichtige Geschäftsverhandlung an."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "商談 ist ein „Geschäftsgespräch“ bzw. eine Verhandlung über Kauf, Verkauf oder Zusammenarbeit. Typisch sind 商談がある, 商談をする, 商談に行く, 商談がまとまる („zum Abschluss kommen“) und 商談が成立する. Im Unterschied zu 交渉 (jede Art von Verhandlung) und 会議 („Besprechung“) bezieht sich 商談 immer auf ein konkretes Geschäft mit einem Kunden oder Partner. Neutrale Geschäftssprache.",
+        "examples": [
+          {
+            "japanese": "午後から大事な商談がある。",
+            "romaji": "Gogo kara daiji na shōdan ga aru.",
+            "german": "Am Nachmittag steht eine wichtige Geschäftsverhandlung an."
+          },
+          {
+            "japanese": "何度も話し合った結果、ついに商談がまとまった。",
+            "romaji": "Nando mo hanashiatta kekka, tsui ni shōdan ga matomatta.",
+            "german": "Nach mehreren Gesprächen kam das Geschäft endlich zustande."
+          },
+          {
+            "japanese": "商談のため、来週大阪に出張します。",
+            "romaji": "Shōdan no tame, raishū Ōsaka ni shutchō shimasu.",
+            "german": "Für ein Geschäftsgespräch reise ich nächste Woche dienstlich nach Osaka."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141069615",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 商談/ショウダン; lemma 商談; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "商談",
+              "reading": "しょうだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 商談/しょうだん \"Geschäftsverhandlung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1347170 sense 1, noun / suru verb: business discussion, negotiation Pitch: Verified [0] via exact UniDic row. 商談 ist ein „Geschäftsgespräch“ bzw. eine Verhandlung über Kauf, Verkauf oder Zusammenarbeit. Typisch sind 商談がある, 商談をする, 商談に行く, 商談がまとまる („zum Abschluss kommen“) und 商談が成立する. Im Unterschied zu 交渉 (jede Art von Verhandlung) und 会議 („Besprechung“) bezieht sich 商談 immer auf ein konkretes Geschäft mit einem Kunden oder Partner. Neutrale Geschäftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1347170; spelling=商談; reading=しょうだん",
+          "selected": {
+            "sequence": "1347170",
+            "spelling": "商談",
+            "reading": "しょうだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "business discussion",
+                  "negotiation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1347170 sense 1, noun / suru verb: business discussion, negotiation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 商談/ショウダン; lemma 商談; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141069615",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 商談/ショウダン; lemma 商談; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "商談",
+              "reading": "しょうだん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 商談/しょうだん \"Geschäftsverhandlung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geschäftsverhandlung. JMdict 1347170 sense 1, noun / suru verb: business discussion, negotiation",
+        "japanese": "午後から大事な商談がある。 / 何度も話し合った結果、ついに商談がまとまった。 / 商談のため、来週大阪に出張します。",
+        "romanization": "shōdan; Gogo kara daiji na shōdan ga aru. / Nando mo hanashiatta kekka, tsui ni shōdan ga matomatta. / Shōdan no tame, raishū Ōsaka ni shutchō shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Am Nachmittag steht eine wichtige Geschäftsverhandlung an. / Nach mehreren Gesprächen kam das Geschäft endlich zustande. / Für ein Geschäftsgespräch reise ich nächste Woche dienstlich nach Osaka.",
+        "contexts": [
+          "Afternoon schedule",
+          "Deal closed",
+          "Business trip"
+        ],
+        "lexical": "JMdict 1347170 sense 1, noun / suru verb: business discussion, negotiation",
+        "register": "business",
+        "transitivity": "intransitive as 商談する (〜と商談する)",
+        "conjugation": "noun; suru verb (商談する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:169 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Afternoon schedule; Deal closed; Business trip), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e573f4d5f2496cffbc8d967bf5dc6e3205208c511bc551688a914a7a5ce2c71b",
+        "approvalHash": "9f185f662bb2378e8d9ec5acd952f0fc16c6c220d3ba57941fdcbf89884c67fd"
+      }
+    },
+    {
+      "id": "vocab-n2:170",
+      "revisionId": "192b-n2-enrichment-vocab-n2-170",
+      "state": "accepted",
+      "predecessorHash": "cf06d90d02b93e3b7d6f5c300c271c81a2abb72b8e1cc0f0b04530888e3494a8",
+      "originalHash": "cf06d90d02b93e3b7d6f5c300c271c81a2abb72b8e1cc0f0b04530888e3494a8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "納税は国民の義務だ。",
+            "romaji": "Nōzei wa kokumin no gimu da.",
+            "german": "Die Steuerzahlung ist die Pflicht jedes Bürgers."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "納税 ist das Entrichten von Steuern an Staat oder Gemeinde, also „Steuerzahlung“; als する-Verb 納税する. Typisch sind 納税者 („Steuerzahler“), 納税の義務, 納税期限 und ふるさと納税 – ein japanisches System, bei dem man Gemeinden spendet und dies von der Steuer abziehen kann. Es ist amtlich-sachlich; im Alltag sagt man meist 税金を払う.",
+        "examples": [
+          {
+            "japanese": "納税は国民の義務だ。",
+            "romaji": "Nōzei wa kokumin no gimu da.",
+            "german": "Die Steuerzahlung ist die Pflicht jedes Bürgers."
+          },
+          {
+            "japanese": "納税の期限は今月末までです。",
+            "romaji": "Nōzei no kigen wa kongetsumatsu made desu.",
+            "german": "Die Frist für die Steuerzahlung läuft bis Ende dieses Monats."
+          },
+          {
+            "japanese": "ふるさと納税で、地方の特産品をもらった。",
+            "romaji": "Furusato nōzei de, chihō no tokusanhin o moratta.",
+            "german": "Über die Heimatsteuer-Spende habe ich regionale Spezialitäten bekommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207210693",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 納税/ノウゼイ; lemma 納税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "納税",
+              "reading": "のうぜい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 納税/のうぜい \"Steuerzahlung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1470060 sense 1, noun / suru verb: payment of taxes Pitch: Verified [0] via exact UniDic row. 納税 ist das Entrichten von Steuern an Staat oder Gemeinde, also „Steuerzahlung“; als する-Verb 納税する. Typisch sind 納税者 („Steuerzahler“), 納税の義務, 納税期限 und ふるさと納税 – ein japanisches System, bei dem man Gemeinden spendet und dies von der Steuer abziehen kann. Es ist amtlich-sachlich; im Alltag sagt man meist 税金を払う. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1470060; spelling=納税; reading=のうぜい",
+          "selected": {
+            "sequence": "1470060",
+            "spelling": "納税",
+            "reading": "のうぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "payment of taxes"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1470060 sense 1, noun / suru verb: payment of taxes"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 納税/ノウゼイ; lemma 納税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207210693",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 納税/ノウゼイ; lemma 納税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "納税",
+              "reading": "のうぜい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 納税/のうぜい \"Steuerzahlung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Steuerzahlung. JMdict 1470060 sense 1, noun / suru verb: payment of taxes",
+        "japanese": "納税は国民の義務だ。 / 納税の期限は今月末までです。 / ふるさと納税で、地方の特産品をもらった。",
+        "romanization": "nōzei; Nōzei wa kokumin no gimu da. / Nōzei no kigen wa kongetsumatsu made desu. / Furusato nōzei de, chihō no tokusanhin o moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Steuerzahlung ist die Pflicht jedes Bürgers. / Die Frist für die Steuerzahlung läuft bis Ende dieses Monats. / Über die Heimatsteuer-Spende habe ich regionale Spezialitäten bekommen.",
+        "contexts": [
+          "Civic duty",
+          "Payment deadline",
+          "Hometown tax donation"
+        ],
+        "lexical": "JMdict 1470060 sense 1, noun / suru verb: payment of taxes",
+        "register": "formal / administrative",
+        "transitivity": "mostly intransitive as 納税する",
+        "conjugation": "noun; suru verb (納税する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:170 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Civic duty; Payment deadline; Hometown tax donation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "692bc6193db17b837fe4451dffeacc5b5d41aad6fd8e09c967860b0e37908f46",
+        "approvalHash": "4652b64c02310df537f5879002bbc0fdcc68fb4c795e8b5857193145fe896302"
+      }
+    },
+    {
+      "id": "vocab-n2:171",
+      "revisionId": "192b-n2-enrichment-vocab-n2-171",
+      "state": "accepted",
+      "predecessorHash": "e2892fd7447067f48ed1008f16d62ea1406442cab3d5bbfae6995f0345dbb69a",
+      "originalHash": "e2892fd7447067f48ed1008f16d62ea1406442cab3d5bbfae6995f0345dbb69a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "合法的な節税対策を行っている。",
+            "romaji": "Gōhōteki na setsuzei taisaku o okonatte iru.",
+            "german": "Wir führen legale Steuerersparungsmaßnahmen durch."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "節税 bedeutet, mit legalen Mitteln die Steuerlast zu senken – „Steuern sparen“. Es ist neutral bis positiv gemeint, im Gegensatz zu 脱税 („Steuerhinterziehung“), das illegal ist. Typische Verbindungen sind 節税する, 節税対策, 節税効果 und 節税になる. Das Wort folgt dem Muster von 節約 und 節電 („Strom sparen“), in dem 節 „sparsam einteilen“ bedeutet.",
+        "examples": [
+          {
+            "japanese": "合法的な節税対策を行っている。",
+            "romaji": "Gōhōteki na setsuzei taisaku o okonatte iru.",
+            "german": "Wir ergreifen legale Maßnahmen, um Steuern zu sparen."
+          },
+          {
+            "japanese": "この保険に入ると節税になるそうだ。",
+            "romaji": "Kono hoken ni hairu to setsuzei ni naru sō da.",
+            "german": "Angeblich spart man Steuern, wenn man diese Versicherung abschließt."
+          },
+          {
+            "japanese": "税理士に節税の方法を相談した。",
+            "romaji": "Zeirishi ni setsuzei no hōhō o sōdan shita.",
+            "german": "Ich habe mich bei einem Steuerberater beraten lassen, wie man Steuern sparen kann."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153070990",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 節税/セツゼイ; lemma 節税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "節税",
+              "reading": "せつぜい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 節税/せつぜい \"Steuerersparnis\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1386280 sense 1, noun / suru verb: tax reduction, tax planning Pitch: Verified [0] via exact UniDic row. 節税 bedeutet, mit legalen Mitteln die Steuerlast zu senken – „Steuern sparen“. Es ist neutral bis positiv gemeint, im Gegensatz zu 脱税 („Steuerhinterziehung“), das illegal ist. Typische Verbindungen sind 節税する, 節税対策, 節税効果 und 節税になる. Das Wort folgt dem Muster von 節約 und 節電 („Strom sparen“), in dem 節 „sparsam einteilen“ bedeutet. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1386280; spelling=節税; reading=せつぜい",
+          "selected": {
+            "sequence": "1386280",
+            "spelling": "節税",
+            "reading": "せつぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tax reduction",
+                  "tax avoidance",
+                  "tax planning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1386280 sense 1, noun / suru verb: tax reduction, tax planning"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 節税/セツゼイ; lemma 節税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153070990",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 節税/セツゼイ; lemma 節税; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "節税",
+              "reading": "せつぜい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 節税/せつぜい \"Steuerersparnis\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Steuerersparnis. JMdict 1386280 sense 1, noun / suru verb: tax reduction, tax planning",
+        "japanese": "合法的な節税対策を行っている。 / この保険に入ると節税になるそうだ。 / 税理士に節税の方法を相談した。",
+        "romanization": "setsuzei; Gōhōteki na setsuzei taisaku o okonatte iru. / Kono hoken ni hairu to setsuzei ni naru sō da. / Zeirishi ni setsuzei no hōhō o sōdan shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir ergreifen legale Maßnahmen, um Steuern zu sparen. / Angeblich spart man Steuern, wenn man diese Versicherung abschließt. / Ich habe mich bei einem Steuerberater beraten lassen, wie man Steuern sparen kann.",
+        "contexts": [
+          "Company tax planning",
+          "Insurance tax benefit",
+          "Consulting a tax adviser"
+        ],
+        "lexical": "JMdict 1386280 sense 1, noun / suru verb: tax reduction, tax planning",
+        "register": "neutral / business",
+        "transitivity": "mostly intransitive as 節税する",
+        "conjugation": "noun; suru verb (節税する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:171 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company tax planning; Insurance tax benefit; Consulting a tax adviser), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f132e8b3dca9ac6a3643cccc79acc00be0aa957caf5e9d16d9d70ebd2d775b10",
+        "approvalHash": "4d9f232af5b3a44937c8100df28a239a576cd11904ecd55ede616577e49a9d13"
+      }
+    },
+    {
+      "id": "vocab-n2:172",
+      "revisionId": "192b-n2-enrichment-vocab-n2-172",
+      "state": "accepted",
+      "predecessorHash": "200ad5c7ba69c113acf02a277fb768a0ee75715314b97a104ba7775850f3cd72",
+      "originalHash": "200ad5c7ba69c113acf02a277fb768a0ee75715314b97a104ba7775850f3cd72",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "インターネットで求人情報を探した。",
+            "romaji": "Intānetto de kyūjin jōhō o sagashita.",
+            "german": "Ich habe im Internet nach Stellenangeboten gesucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "求人 ist die Suche eines Arbeitgebers nach Arbeitskräften, also „Stellenangebot, Stellenausschreibung“. Typisch sind 求人を出す, 求人広告, 求人情報, 求人サイト und 有効求人倍率 („Verhältnis offener Stellen zu Bewerbern“). Das Gegenstück aus Sicht der Arbeitsuchenden ist 求職 („Arbeitssuche“). Neutral, sehr häufig in Anzeigen und Wirtschaftsnachrichten.",
+        "examples": [
+          {
+            "japanese": "インターネットで求人情報を探した。",
+            "romaji": "Intānetto de kyūjin jōhō o sagashita.",
+            "german": "Ich habe im Internet nach Stellenangeboten gesucht."
+          },
+          {
+            "japanese": "駅前のコンビニがアルバイトの求人を出している。",
+            "romaji": "Ekimae no konbini ga arubaito no kyūjin o dashite iru.",
+            "german": "Der Konbini am Bahnhof sucht Aushilfskräfte."
+          },
+          {
+            "japanese": "人手不足で、求人の数が増えている。",
+            "romaji": "Hitode busoku de, kyūjin no kazu ga fuete iru.",
+            "german": "Wegen des Arbeitskräftemangels gibt es immer mehr offene Stellen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105906926",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 求人/キュウジン; lemma 求人; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "求人",
+              "reading": "きゅうじん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 求人/きゅうじん \"Stellenangebot\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1229500 sense 1, noun / suru verb: recruiting, job offer, job vacancy Pitch: Verified [0] via exact UniDic row. 求人 ist die Suche eines Arbeitgebers nach Arbeitskräften, also „Stellenangebot, Stellenausschreibung“. Typisch sind 求人を出す, 求人広告, 求人情報, 求人サイト und 有効求人倍率 („Verhältnis offener Stellen zu Bewerbern“). Das Gegenstück aus Sicht der Arbeitsuchenden ist 求職 („Arbeitssuche“). Neutral, sehr häufig in Anzeigen und Wirtschaftsnachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1229500; spelling=求人; reading=きゅうじん",
+          "selected": {
+            "sequence": "1229500",
+            "spelling": "求人",
+            "reading": "きゅうじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "recruiting",
+                  "job offer",
+                  "job vacancy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1229500 sense 1, noun / suru verb: recruiting, job offer, job vacancy"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 求人/キュウジン; lemma 求人; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105906926",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 求人/キュウジン; lemma 求人; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "求人",
+              "reading": "きゅうじん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 求人/きゅうじん \"Stellenangebot\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stellenangebot. JMdict 1229500 sense 1, noun / suru verb: recruiting, job offer, job vacancy",
+        "japanese": "インターネットで求人情報を探した。 / 駅前のコンビニがアルバイトの求人を出している。 / 人手不足で、求人の数が増えている。",
+        "romanization": "kyūjin; Intānetto de kyūjin jōhō o sagashita. / Ekimae no konbini ga arubaito no kyūjin o dashite iru. / Hitode busoku de, kyūjin no kazu ga fuete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe im Internet nach Stellenangeboten gesucht. / Der Konbini am Bahnhof sucht Aushilfskräfte. / Wegen des Arbeitskräftemangels gibt es immer mehr offene Stellen.",
+        "contexts": [
+          "Online job search",
+          "Part-time job notice",
+          "Labour shortage"
+        ],
+        "lexical": "JMdict 1229500 sense 1, noun / suru verb: recruiting, job offer, job vacancy",
+        "register": "neutral",
+        "transitivity": "Nonverb in practice (求人する rare)",
+        "conjugation": "noun; suru verb rare (求人する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:172 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Online job search; Part-time job notice; Labour shortage), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0889ed6b4ef418730de4ffe1e531f77529b72beb136327d58569e163521ae9c8",
+        "approvalHash": "d631d90b530e4d7c1ba72ef4556f56b7e2a17a5b401a63ee3be793e8e03657f9"
+      }
+    },
+    {
+      "id": "vocab-n2:173",
+      "revisionId": "192b-n2-enrichment-vocab-n2-173",
+      "state": "accepted",
+      "predecessorHash": "c41b9d7812b64bc566e2efac01b61945b75a134eee74fc0ccd756552a3ccfc83",
+      "originalHash": "c41b9d7812b64bc566e2efac01b61945b75a134eee74fc0ccd756552a3ccfc83",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "毎年一回昇給がある。",
+            "romaji": "Maitoshi ikkai shōkyū ga aru.",
+            "german": "Es gibt einmal jährlich eine Gehaltserhöhung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "昇給 ist die „Gehaltserhöhung“ für einen Beschäftigten, meist im Rahmen regelmäßiger Anpassungen; das Gegenteil ist 減給 („Gehaltskürzung“). Typisch sind 昇給がある, 昇給する, 定期昇給 und 昇給率. Im Unterschied zu 昇進 („Beförderung“) geht es nur ums Geld, nicht um die Position; die allgemeine Lohnerhöhung in Tarifverhandlungen heißt 賃上げ oder ベースアップ. Neutrale Sprache der Arbeitswelt.",
+        "examples": [
+          {
+            "japanese": "毎年一回昇給がある。",
+            "romaji": "Maitoshi ikkai shōkyū ga aru.",
+            "german": "Es gibt einmal jährlich eine Gehaltserhöhung."
+          },
+          {
+            "japanese": "今年は業績がよかったので、全員昇給した。",
+            "romaji": "Kotoshi wa gyōseki ga yokatta node, zen'in shōkyū shita.",
+            "german": "Weil die Geschäftszahlen dieses Jahr gut waren, bekamen alle eine Gehaltserhöhung."
+          },
+          {
+            "japanese": "昇給を求めて、上司と話し合うことにした。",
+            "romaji": "Shōkyū o motomete, jōshi to hanashiau koto ni shita.",
+            "german": "Ich habe beschlossen, mit meinem Chef über eine Gehaltserhöhung zu sprechen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140704489",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 昇給/ショウキュウ; lemma 昇給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "昇給",
+              "reading": "しょうきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 昇給/しょうきゅう \"Gehaltserhöhung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1349760 sense 1, noun / suru verb: salary raise Pitch: Verified [0] via exact UniDic row. 昇給 ist die „Gehaltserhöhung“ für einen Beschäftigten, meist im Rahmen regelmäßiger Anpassungen; das Gegenteil ist 減給 („Gehaltskürzung“). Typisch sind 昇給がある, 昇給する, 定期昇給 und 昇給率. Im Unterschied zu 昇進 („Beförderung“) geht es nur ums Geld, nicht um die Position; die allgemeine Lohnerhöhung in Tarifverhandlungen heißt 賃上げ oder ベースアップ. Neutrale Sprache der Arbeitswelt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1349760; spelling=昇給; reading=しょうきゅう",
+          "selected": {
+            "sequence": "1349760",
+            "spelling": "昇給",
+            "reading": "しょうきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "salary raise"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1349760 sense 1, noun / suru verb: salary raise"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 昇給/ショウキュウ; lemma 昇給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140704489",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 昇給/ショウキュウ; lemma 昇給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "昇給",
+              "reading": "しょうきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 昇給/しょうきゅう \"Gehaltserhöhung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gehaltserhöhung. JMdict 1349760 sense 1, noun / suru verb: salary raise",
+        "japanese": "毎年一回昇給がある。 / 今年は業績がよかったので、全員昇給した。 / 昇給を求めて、上司と話し合うことにした。",
+        "romanization": "shōkyū; Maitoshi ikkai shōkyū ga aru. / Kotoshi wa gyōseki ga yokatta node, zen'in shōkyū shita. / Shōkyū o motomete, jōshi to hanashiau koto ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt einmal jährlich eine Gehaltserhöhung. / Weil die Geschäftszahlen dieses Jahr gut waren, bekamen alle eine Gehaltserhöhung. / Ich habe beschlossen, mit meinem Chef über eine Gehaltserhöhung zu sprechen.",
+        "contexts": [
+          "Annual raise",
+          "Good company results",
+          "Asking for a raise"
+        ],
+        "lexical": "JMdict 1349760 sense 1, noun / suru verb: salary raise",
+        "register": "neutral",
+        "transitivity": "intransitive as 昇給する",
+        "conjugation": "noun; suru verb (昇給する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:173 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Annual raise; Good company results; Asking for a raise), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "106841d3b9d9f10d84aa53b427bcd5c6a0d263d720efe4e382e285685794b774",
+        "approvalHash": "8e9c1e7277d163b9838190395170837861d620ec4835e62c994c8ccb688965f5"
+      }
+    },
+    {
+      "id": "vocab-n2:174",
+      "revisionId": "192b-n2-enrichment-vocab-n2-174",
+      "state": "accepted",
+      "predecessorHash": "dcf39641ac0550df7e1ce9a7a291152e2a1d43c7b2d6941b32d78c8adcd1c3b4",
+      "originalHash": "dcf39641ac0550df7e1ce9a7a291152e2a1d43c7b2d6941b32d78c8adcd1c3b4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "失敗の責任を取って降格された。",
+            "romaji": "Shippai no sekinin o totte kōkaku sareta.",
+            "german": "Er wurde wegen der Verantwortung für den Fehler degradiert."
+          }
+        ],
+        "meaning": "Degradierung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "降格 ist die Herabsetzung auf eine niedrigere Stufe: im Beruf die „Degradierung“, im Sport der „Abstieg“ in eine niedrigere Liga. Es wird transitiv und intransitiv gebraucht: 部長を降格させる／降格する, 課長に降格される, チームが二部に降格する. Das Gegenteil ist 昇格 („Aufstieg, Höherstufung“); verwandt ist 昇進 („Beförderung“). Sachlich, häufig in Firmen- und Sportnachrichten.",
+        "examples": [
+          {
+            "japanese": "失敗の責任を問われて降格された。",
+            "romaji": "Shippai no sekinin o towarete kōkaku sareta.",
+            "german": "Er wurde für den Fehler zur Verantwortung gezogen und degradiert."
+          },
+          {
+            "japanese": "そのチームは成績が悪く、二部リーグに降格した。",
+            "romaji": "Sono chīmu wa seiseki ga waruku, nibu rīgu ni kōkaku shita.",
+            "german": "Wegen schlechter Ergebnisse stieg die Mannschaft in die zweite Liga ab."
+          },
+          {
+            "japanese": "降格人事に納得できず、彼は会社を辞めた。",
+            "romaji": "Kōkaku jinji ni nattoku dekizu, kare wa kaisha o yameta.",
+            "german": "Er war mit seiner Herabstufung nicht einverstanden und kündigte."
+          }
+        ],
+        "meaning": "Degradierung, Herabstufung; Abstieg (Sport)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119861452",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 降格/コウカク; lemma 降格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "降格",
+              "reading": "こうかく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 降格/こうかく \"Degradierung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1631480 sense 1, noun / suru verb: demotion, relegation, downgrading Pitch: Verified [0] via exact UniDic row. 降格 ist die Herabsetzung auf eine niedrigere Stufe: im Beruf die „Degradierung“, im Sport der „Abstieg“ in eine niedrigere Liga. Es wird transitiv und intransitiv gebraucht: 部長を降格させる／降格する, 課長に降格される, チームが二部に降格する. Das Gegenteil ist 昇格 („Aufstieg, Höherstufung“); verwandt ist 昇進 („Beförderung“). Sachlich, häufig in Firmen- und Sportnachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1631480; spelling=降格; reading=こうかく",
+          "selected": {
+            "sequence": "1631480",
+            "spelling": "降格",
+            "reading": "こうかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "demotion",
+                  "relegation",
+                  "downgrading"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1631480 sense 1, noun / suru verb: demotion, relegation, downgrading"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 降格/コウカク; lemma 降格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119861452",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 降格/コウカク; lemma 降格; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "降格",
+              "reading": "こうかく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 降格/こうかく \"Degradierung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Degradierung, Herabstufung; Abstieg (Sport). JMdict 1631480 sense 1, noun / suru verb: demotion, relegation, downgrading",
+        "japanese": "失敗の責任を問われて降格された。 / そのチームは成績が悪く、二部リーグに降格した。 / 降格人事に納得できず、彼は会社を辞めた。",
+        "romanization": "kōkaku; Shippai no sekinin o towarete kōkaku sareta. / Sono chīmu wa seiseki ga waruku, nibu rīgu ni kōkaku shita. / Kōkaku jinji ni nattoku dekizu, kare wa kaisha o yameta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er wurde für den Fehler zur Verantwortung gezogen und degradiert. / Wegen schlechter Ergebnisse stieg die Mannschaft in die zweite Liga ab. / Er war mit seiner Herabstufung nicht einverstanden und kündigte.",
+        "contexts": [
+          "Punishment for failure",
+          "Sports relegation",
+          "Quitting after demotion"
+        ],
+        "lexical": "JMdict 1631480 sense 1, noun / suru verb: demotion, relegation, downgrading",
+        "register": "neutral / formal",
+        "transitivity": "transitive and intransitive as 降格する; persons usually in passive 降格される",
+        "conjugation": "noun; suru verb (降格する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:174 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Punishment for failure; Sports relegation; Quitting after demotion), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "04815da179b599366a62d255f5bbea968caeb663e10172feba6eda376cf60890",
+        "approvalHash": "382b549f94afc15f5d8b975775eb9892ef657fb4a5c5460473555335a5ae37f6"
+      }
+    },
+    {
+      "id": "vocab-n2:175",
+      "revisionId": "192b-n2-enrichment-vocab-n2-175",
+      "state": "accepted",
+      "predecessorHash": "d06f9554e8db3436e7e872fcd8a5d3dccc7111fb6f25088b5c801cab9f1fa409",
+      "originalHash": "d06f9554e8db3436e7e872fcd8a5d3dccc7111fb6f25088b5c801cab9f1fa409",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "最低賃金が引き上げられた。",
+            "romaji": "Saitei chingin ga hikiagerareta.",
+            "german": "Der Mindestlohn wurde angehoben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "賃金 ist das Arbeitsentgelt im allgemeinen, sachlichen Sinn, „Lohn“. Typisch sind 最低賃金 („Mindestlohn“), 賃金を引き上げる, 賃金格差 („Lohngefälle“) und die Kurzform 賃上げ („Lohnerhöhung“). Über das eigene Einkommen spricht man im Alltag eher von 給料 oder 給与; 賃金 klingt nach Statistik, Arbeitsrecht und Gewerkschaft. Für Stunden- oder Monatslohn gibt es 時給 und 月給.",
+        "examples": [
+          {
+            "japanese": "最低賃金が引き上げられた。",
+            "romaji": "Saitei chingin ga hikiagerareta.",
+            "german": "Der Mindestlohn wurde angehoben."
+          },
+          {
+            "japanese": "男女の賃金格差はまだ大きい。",
+            "romaji": "Danjo no chingin kakusa wa mada ōkii.",
+            "german": "Das Lohngefälle zwischen Männern und Frauen ist noch immer groß."
+          },
+          {
+            "japanese": "労働組合は会社に賃金の引き上げを求めた。",
+            "romaji": "Rōdō kumiai wa kaisha ni chingin no hikiage o motometa.",
+            "german": "Die Gewerkschaft forderte von der Firma eine Lohnerhöhung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170924210",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 賃金/チンギン; lemma 賃金; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "賃金",
+              "reading": "ちんぎん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 賃金/ちんぎん \"Lohn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1431990 sense 1, noun: wages, pay Pitch: Verified [1] via exact UniDic row. 賃金 ist das Arbeitsentgelt im allgemeinen, sachlichen Sinn, „Lohn“. Typisch sind 最低賃金 („Mindestlohn“), 賃金を引き上げる, 賃金格差 („Lohngefälle“) und die Kurzform 賃上げ („Lohnerhöhung“). Über das eigene Einkommen spricht man im Alltag eher von 給料 oder 給与; 賃金 klingt nach Statistik, Arbeitsrecht und Gewerkschaft. Für Stunden- oder Monatslohn gibt es 時給 und 月給. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1431990; spelling=賃金; reading=ちんぎん",
+          "selected": {
+            "sequence": "1431990",
+            "spelling": "賃金",
+            "reading": "ちんぎん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wages",
+                  "pay"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1431990 sense 1, noun: wages, pay"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 賃金/チンギン; lemma 賃金; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170924210",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 賃金/チンギン; lemma 賃金; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "賃金",
+              "reading": "ちんぎん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 賃金/ちんぎん \"Lohn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lohn. JMdict 1431990 sense 1, noun: wages, pay",
+        "japanese": "最低賃金が引き上げられた。 / 男女の賃金格差はまだ大きい。 / 労働組合は会社に賃金の引き上げを求めた。",
+        "romanization": "chingin; Saitei chingin ga hikiagerareta. / Danjo no chingin kakusa wa mada ōkii. / Rōdō kumiai wa kaisha ni chingin no hikiage o motometa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Mindestlohn wurde angehoben. / Das Lohngefälle zwischen Männern und Frauen ist noch immer groß. / Die Gewerkschaft forderte von der Firma eine Lohnerhöhung.",
+        "contexts": [
+          "Minimum wage hike",
+          "Gender pay gap",
+          "Union demands"
+        ],
+        "lexical": "JMdict 1431990 sense 1, noun: wages, pay",
+        "register": "neutral / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:175 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Minimum wage hike; Gender pay gap; Union demands), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4762b1eed7231307e45eb62d2721796207e6e1240b30e8e612a4931151c682c7",
+        "approvalHash": "b9fee55df8b99e10382f5947b7b40f21a03445c49b86a474fad50f6f1441d459"
+      }
+    },
+    {
+      "id": "vocab-n2:176",
+      "revisionId": "192b-n2-enrichment-vocab-n2-176",
+      "state": "accepted",
+      "predecessorHash": "652d714e75d7957ff48b98988c3e584e3f8a755eb86dfe5fb8a171fdc633e318",
+      "originalHash": "652d714e75d7957ff48b98988c3e584e3f8a755eb86dfe5fb8a171fdc633e318",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "このアルバイトの時給は千円だ。",
+            "romaji": "Kono arubaito no jikyū wa sen'en da.",
+            "german": "Der Stundenlohn für diesen Nebenjob beträgt tausend Yen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "時給 ist der Lohn pro Stunde, „Stundenlohn“, typisch für アルバイト und パート. Häufige Wendungen sind 時給千円, 時給がいい／高い, 時給が上がる und 時給で働く. Daneben gibt es 日給 („Tageslohn“), 月給 („Monatsgehalt“) und 年収 („Jahreseinkommen“). Alltagswort, in Stellenanzeigen allgegenwärtig.",
+        "examples": [
+          {
+            "japanese": "このアルバイトの時給は千円だ。",
+            "romaji": "Kono arubaito no jikyū wa sen'en da.",
+            "german": "Der Stundenlohn für diesen Nebenjob beträgt tausend Yen."
+          },
+          {
+            "japanese": "深夜は時給が二十五パーセント上がる。",
+            "romaji": "Shin'ya wa jikyū ga nijūgo pāsento agaru.",
+            "german": "Nachts steigt der Stundenlohn um 25 Prozent."
+          },
+          {
+            "japanese": "時給は安いけど、仕事が楽だから続けている。",
+            "romaji": "Jikyū wa yasui kedo, shigoto ga raku da kara tsuzukete iru.",
+            "german": "Der Stundenlohn ist niedrig, aber die Arbeit ist leicht, deshalb bleibe ich dabei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143525296",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 時給/ジキュウ; lemma 時給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "時給",
+              "reading": "じきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 時給/じきゅう \"Stundenlohn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1316100 sense 1, noun: hourly pay, hourly wage Pitch: Verified [0] via exact UniDic row. 時給 ist der Lohn pro Stunde, „Stundenlohn“, typisch für アルバイト und パート. Häufige Wendungen sind 時給千円, 時給がいい／高い, 時給が上がる und 時給で働く. Daneben gibt es 日給 („Tageslohn“), 月給 („Monatsgehalt“) und 年収 („Jahreseinkommen“). Alltagswort, in Stellenanzeigen allgegenwärtig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1316100; spelling=時給; reading=じきゅう",
+          "selected": {
+            "sequence": "1316100",
+            "spelling": "時給",
+            "reading": "じきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hourly pay",
+                  "hourly wage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1316100 sense 1, noun: hourly pay, hourly wage"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 時給/ジキュウ; lemma 時給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143525296",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 時給/ジキュウ; lemma 時給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "時給",
+              "reading": "じきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 時給/じきゅう \"Stundenlohn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stundenlohn. JMdict 1316100 sense 1, noun: hourly pay, hourly wage",
+        "japanese": "このアルバイトの時給は千円だ。 / 深夜は時給が二十五パーセント上がる。 / 時給は安いけど、仕事が楽だから続けている。",
+        "romanization": "jikyū; Kono arubaito no jikyū wa sen'en da. / Shin'ya wa jikyū ga nijūgo pāsento agaru. / Jikyū wa yasui kedo, shigoto ga raku da kara tsuzukete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Stundenlohn für diesen Nebenjob beträgt tausend Yen. / Nachts steigt der Stundenlohn um 25 Prozent. / Der Stundenlohn ist niedrig, aber die Arbeit ist leicht, deshalb bleibe ich dabei.",
+        "contexts": [
+          "Part-time pay",
+          "Night shift premium",
+          "Low pay but easy job"
+        ],
+        "lexical": "JMdict 1316100 sense 1, noun: hourly pay, hourly wage",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:176 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Part-time pay; Night shift premium; Low pay but easy job), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b04387e61b1d38bcc5ad58c32ee5a9ee8a39a2aef6d0b7e738f766ede6546415",
+        "approvalHash": "815d4d498530e1b1a099c139af3fc0496893bd09da414076ea957745d0abf970"
+      }
+    },
+    {
+      "id": "vocab-n2:177",
+      "revisionId": "192b-n2-enrichment-vocab-n2-177",
+      "state": "accepted",
+      "predecessorHash": "6a5c346ab4cdc59e49e6ffc7f1debb00f482af804e78ddd4f16a33f2da934284",
+      "originalHash": "6a5c346ab4cdc59e49e6ffc7f1debb00f482af804e78ddd4f16a33f2da934284",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "有給を使って旅行に行った。",
+            "romaji": "Yūkyū o tsukatte ryokō ni itta.",
+            "german": "Ich habe bezahlten Urlaub genommen und bin verreist."
+          }
+        ],
+        "meaning": "bezahlter Urlaub",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "有給 bedeutet zunächst „bezahlt, mit Lohnfortzahlung“ (有給の仕事, 有給休暇); im Alltag ist es die gängige Kurzform für 有給休暇 („bezahlter Urlaub“). Typisch sind 有給を取る, 有給を使う und 有給を消化する („den Resturlaub aufbrauchen“). Das Gegenteil ist 無給 („unbezahlt“). Man liest auch 有休 – gleiche Lesung, anderes Zeichen – mit derselben Bedeutung „bezahlter Urlaub“.",
+        "examples": [
+          {
+            "japanese": "有給を使って旅行に行った。",
+            "romaji": "Yūkyū o tsukatte ryokō ni itta.",
+            "german": "Ich habe bezahlten Urlaub genommen und bin verreist."
+          },
+          {
+            "japanese": "有給休暇は年に二十日ある。",
+            "romaji": "Yūkyū kyūka wa nen ni hatsuka aru.",
+            "german": "Ich habe zwanzig Tage bezahlten Urlaub im Jahr."
+          },
+          {
+            "japanese": "退職する前に、残りの有給を全部消化した。",
+            "romaji": "Taishoku suru mae ni, nokori no yūkyū o zenbu shōka shita.",
+            "german": "Vor meinem Ausscheiden habe ich den gesamten Resturlaub genommen."
+          }
+        ],
+        "meaning": "bezahlt; bezahlter Urlaub",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270574297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 有給/ユウキュウ; lemma 有給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "有給",
+              "reading": "ゆうきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 有給/ゆうきゅう \"bezahlter Urlaub\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1541200 senses 1–2, noun / no-adjective: salaried, paid; paid leave (abbreviation) Pitch: Verified [0] via exact UniDic row. 有給 bedeutet zunächst „bezahlt, mit Lohnfortzahlung“ (有給の仕事, 有給休暇); im Alltag ist es die gängige Kurzform für 有給休暇 („bezahlter Urlaub“). Typisch sind 有給を取る, 有給を使う und 有給を消化する („den Resturlaub aufbrauchen“). Das Gegenteil ist 無給 („unbezahlt“). Man liest auch 有休 – gleiche Lesung, anderes Zeichen – mit derselben Bedeutung „bezahlter Urlaub“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1541200; spelling=有給; reading=ゆうきゅう",
+          "selected": {
+            "sequence": "1541200",
+            "spelling": "有給",
+            "reading": "ゆうきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "salaried",
+                  "paid",
+                  "with pay"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "paid vacation",
+                  "paid holiday",
+                  "paid leave"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1541200 senses 1–2, noun / no-adjective: salaried, paid; paid leave (abbreviation)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 有給/ユウキュウ; lemma 有給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270574297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 有給/ユウキュウ; lemma 有給; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "有給",
+              "reading": "ゆうきゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 有給/ゆうきゅう \"bezahlter Urlaub\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "bezahlt; bezahlter Urlaub. JMdict 1541200 senses 1–2, noun / no-adjective: salaried, paid; paid leave (abbreviation)",
+        "japanese": "有給を使って旅行に行った。 / 有給休暇は年に二十日ある。 / 退職する前に、残りの有給を全部消化した。",
+        "romanization": "yūkyū; Yūkyū o tsukatte ryokō ni itta. / Yūkyū kyūka wa nen ni hatsuka aru. / Taishoku suru mae ni, nokori no yūkyū o zenbu shōka shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe bezahlten Urlaub genommen und bin verreist. / Ich habe zwanzig Tage bezahlten Urlaub im Jahr. / Vor meinem Ausscheiden habe ich den gesamten Resturlaub genommen.",
+        "contexts": [
+          "Travel on paid leave",
+          "Annual entitlement",
+          "Using up leave before quitting"
+        ],
+        "lexical": "JMdict 1541200 senses 1–2, noun / no-adjective: salaried, paid; paid leave (abbreviation)",
+        "register": "neutral / colloquial as short form",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:177 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Travel on paid leave; Annual entitlement; Using up leave before quitting), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d95852dfbc166a55ceb02efe402c42e9d28da35101a8950f02b9a47352dacaae",
+        "approvalHash": "050e592fa1acbce4da71b4085504818c7b324792388d553428d6873cd3b9dfc9"
+      }
+    },
+    {
+      "id": "vocab-n2:178",
+      "revisionId": "192b-n2-enrichment-vocab-n2-178",
+      "state": "accepted",
+      "predecessorHash": "5b632d8d663864d649f2056b158ebda57f9d62250b2a3e468b4b1710f78fe4b3",
+      "originalHash": "5b632d8d663864d649f2056b158ebda57f9d62250b2a3e468b4b1710f78fe4b3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "夏季休暇は八月に取る予定だ。",
+            "romaji": "Kaki kyūka wa hachigatsu ni toru yotei da.",
+            "german": "Den Sommerurlaub plane ich im August zu nehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "休暇 ist eine offiziell genommene Freizeit von Arbeit oder Dienst – „Urlaub“. Typisch sind 休暇を取る, 休暇をもらう, 夏季休暇, 育児休暇 („Elternzeit“) und 有給休暇. Im Unterschied zu 休み (allgemeines Wort für freie Tage, Pausen, Ferien) und 休日 („freier Tag“) klingt 休暇 formeller und meint vor allem beim Arbeitgeber genommenen Urlaub. Schulferien heißen dagegen 夏休み usw.",
+        "examples": [
+          {
+            "japanese": "夏季休暇は八月に取る予定だ。",
+            "romaji": "Kaki kyūka wa hachigatsu ni toru yotei da.",
+            "german": "Den Sommerurlaub plane ich im August zu nehmen."
+          },
+          {
+            "japanese": "妻の出産に合わせて一週間の休暇を取った。",
+            "romaji": "Tsuma no shussan ni awasete isshūkan no kyūka o totta.",
+            "german": "Zur Geburt unseres Kindes habe ich eine Woche Urlaub genommen."
+          },
+          {
+            "japanese": "長い休暇明けで、なかなか仕事に集中できない。",
+            "romaji": "Nagai kyūka ake de, nakanaka shigoto ni shūchū dekinai.",
+            "german": "Nach dem langen Urlaub kann ich mich kaum auf die Arbeit konzentrieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105820586",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 休暇/キュウカ; lemma 休暇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "休暇",
+              "reading": "きゅうか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 休暇/きゅうか \"Urlaub\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1227610 sense 1, noun: holiday, vacation, leave Pitch: Verified [0] via exact UniDic row. 休暇 ist eine offiziell genommene Freizeit von Arbeit oder Dienst – „Urlaub“. Typisch sind 休暇を取る, 休暇をもらう, 夏季休暇, 育児休暇 („Elternzeit“) und 有給休暇. Im Unterschied zu 休み (allgemeines Wort für freie Tage, Pausen, Ferien) und 休日 („freier Tag“) klingt 休暇 formeller und meint vor allem beim Arbeitgeber genommenen Urlaub. Schulferien heißen dagegen 夏休み usw. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1227610; spelling=休暇; reading=きゅうか",
+          "selected": {
+            "sequence": "1227610",
+            "spelling": "休暇",
+            "reading": "きゅうか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "holiday",
+                  "vacation",
+                  "day off",
+                  "time off",
+                  "leave",
+                  "furlough"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1227610 sense 1, noun: holiday, vacation, leave"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 休暇/キュウカ; lemma 休暇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105820586",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 休暇/キュウカ; lemma 休暇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "休暇",
+              "reading": "きゅうか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 休暇/きゅうか \"Urlaub\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Urlaub. JMdict 1227610 sense 1, noun: holiday, vacation, leave",
+        "japanese": "夏季休暇は八月に取る予定だ。 / 妻の出産に合わせて一週間の休暇を取った。 / 長い休暇明けで、なかなか仕事に集中できない。",
+        "romanization": "kyūka; Kaki kyūka wa hachigatsu ni toru yotei da. / Tsuma no shussan ni awasete isshūkan no kyūka o totta. / Nagai kyūka ake de, nakanaka shigoto ni shūchū dekinai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Den Sommerurlaub plane ich im August zu nehmen. / Zur Geburt unseres Kindes habe ich eine Woche Urlaub genommen. / Nach dem langen Urlaub kann ich mich kaum auf die Arbeit konzentrieren.",
+        "contexts": [
+          "Planning summer leave",
+          "Paternity leave",
+          "Back from vacation"
+        ],
+        "lexical": "JMdict 1227610 sense 1, noun: holiday, vacation, leave",
+        "register": "neutral / somewhat formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:178 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Planning summer leave; Paternity leave; Back from vacation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f81f65c87405b9e70fd7ec81fd925212dc72d9364a59068cf5cecaf7dd91c21b",
+        "approvalHash": "961a8725665fe7a6901655e1209b41bda2f14f07adeff1aeb564851f33bd40b8"
+      }
+    },
+    {
+      "id": "vocab-n2:179",
+      "revisionId": "192b-n2-enrichment-vocab-n2-179",
+      "state": "accepted",
+      "predecessorHash": "8b4c65085e3f6ef1eedc767d26ef3a7493c9ffeccb0a7fe3cb85411c47f2615f",
+      "originalHash": "8b4c65085e3f6ef1eedc767d26ef3a7493c9ffeccb0a7fe3cb85411c47f2615f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "勤務時間は朝九時から夕方五時までだ。",
+            "romaji": "Kinmu jikan wa asa kuji kara yūgata goji made da.",
+            "german": "Die Arbeitszeit ist von neun Uhr morgens bis fünf Uhr abends."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "勤務 bezeichnet die regelmäßige Arbeit in einer Firma oder Behörde – „Dienst, Arbeit“. Als intransitives する-Verb: 〜に勤務する („bei … beschäftigt sein“), z. B. 銀行に勤務している. Typische Komposita sind 勤務時間, 勤務先 („Arbeitsstelle“), 夜間勤務 und 在宅勤務 („Homeoffice“). Es klingt formeller als 働く oder 勤める und steht oft in Lebensläufen, Formularen und Arbeitsverträgen.",
+        "examples": [
+          {
+            "japanese": "勤務時間は朝九時から夕方五時までだ。",
+            "romaji": "Kinmu jikan wa asa kuji kara yūgata goji made da.",
+            "german": "Die Arbeitszeit ist von neun Uhr morgens bis fünf Uhr abends."
+          },
+          {
+            "japanese": "兄は東京の商社に勤務している。",
+            "romaji": "Ani wa Tōkyō no shōsha ni kinmu shite iru.",
+            "german": "Mein älterer Bruder arbeitet bei einem Handelshaus in Tokio."
+          },
+          {
+            "japanese": "週に二日は在宅勤務をしている。",
+            "romaji": "Shū ni futsuka wa zaitaku kinmu o shite iru.",
+            "german": "Zwei Tage pro Woche arbeite ich im Homeoffice."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108943527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勤務/キンム; lemma 勤務; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "勤務",
+              "reading": "きんむ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 勤務/きんむ \"Dienst\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1241070 sense 1, noun / suru verb: service, duty, work Pitch: Verified [1] via exact UniDic row. 勤務 bezeichnet die regelmäßige Arbeit in einer Firma oder Behörde – „Dienst, Arbeit“. Als intransitives する-Verb: 〜に勤務する („bei … beschäftigt sein“), z. B. 銀行に勤務している. Typische Komposita sind 勤務時間, 勤務先 („Arbeitsstelle“), 夜間勤務 und 在宅勤務 („Homeoffice“). Es klingt formeller als 働く oder 勤める und steht oft in Lebensläufen, Formularen und Arbeitsverträgen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1241070; spelling=勤務; reading=きんむ",
+          "selected": {
+            "sequence": "1241070",
+            "spelling": "勤務",
+            "reading": "きんむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "service",
+                  "duty",
+                  "work"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1241070 sense 1, noun / suru verb: service, duty, work"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 勤務/キンム; lemma 勤務; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108943527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 勤務/キンム; lemma 勤務; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "勤務",
+              "reading": "きんむ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 勤務/きんむ \"Dienst\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dienst. JMdict 1241070 sense 1, noun / suru verb: service, duty, work",
+        "japanese": "勤務時間は朝九時から夕方五時までだ。 / 兄は東京の商社に勤務している。 / 週に二日は在宅勤務をしている。",
+        "romanization": "kinmu; Kinmu jikan wa asa kuji kara yūgata goji made da. / Ani wa Tōkyō no shōsha ni kinmu shite iru. / Shū ni futsuka wa zaitaku kinmu o shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Arbeitszeit ist von neun Uhr morgens bis fünf Uhr abends. / Mein älterer Bruder arbeitet bei einem Handelshaus in Tokio. / Zwei Tage pro Woche arbeite ich im Homeoffice.",
+        "contexts": [
+          "Working hours",
+          "Brother's employer",
+          "Remote work"
+        ],
+        "lexical": "JMdict 1241070 sense 1, noun / suru verb: service, duty, work",
+        "register": "neutral / formal",
+        "transitivity": "intransitive as 勤務する (〜に勤務する)",
+        "conjugation": "noun; suru verb (勤務する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:179 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Working hours; Brother's employer; Remote work), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3a08799c44753428e8d243a49d39d1331cde60a71e9fa1576f083cef41a5a820",
+        "approvalHash": "c7a62f378502d3c215019129ef4b72b1769e810221c683cebd795ca4a5a9dfb3"
+      }
+    },
+    {
+      "id": "vocab-n2:180",
+      "revisionId": "192b-n2-enrichment-vocab-n2-180",
+      "state": "accepted",
+      "predecessorHash": "7dd3d41078f3afd3eebf8d559175dd26f367aebef6d4e5e077cc10b934fe57ce",
+      "originalHash": "7dd3d41078f3afd3eebf8d559175dd26f367aebef6d4e5e077cc10b934fe57ce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "営業部に配属された。",
+            "romaji": "Eigyōbu ni haizoku sareta.",
+            "german": "Ich wurde der Vertriebsabteilung zugeteilt."
+          }
+        ],
+        "meaning": "Vertrieb",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "営業 hat zwei Hauptbedeutungen: den Geschäftsbetrieb eines Ladens oder Unternehmens (営業中 „geöffnet“, 営業時間 „Öffnungszeiten“, 24時間営業) und den „Vertrieb“ bzw. die Kundenakquise (営業部, 営業の仕事, 営業に回る). Als する-Verb steht es meist ohne Objekt: 店が営業している. Im Unterschied zu 販売 („Verkauf“ einer Ware) umfasst 営業 die ganze Kundenbetreuung und Akquise. Neutral, im Arbeitsalltag sehr häufig.",
+        "examples": [
+          {
+            "japanese": "営業部に配属された。",
+            "romaji": "Eigyōbu ni haizoku sareta.",
+            "german": "Ich wurde der Vertriebsabteilung zugeteilt."
+          },
+          {
+            "japanese": "このスーパーは二十四時間営業している。",
+            "romaji": "Kono sūpā wa nijūyo jikan eigyō shite iru.",
+            "german": "Dieser Supermarkt hat rund um die Uhr geöffnet."
+          },
+          {
+            "japanese": "年末年始の営業時間をホームページで確認した。",
+            "romaji": "Nenmatsu nenshi no eigyō jikan o hōmupēji de kakunin shita.",
+            "german": "Ich habe die Öffnungszeiten über Neujahr auf der Website nachgesehen."
+          }
+        ],
+        "meaning": "Geschäftsbetrieb, Öffnung; Vertrieb",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69613364",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 営業/エイギョウ; lemma 営業; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "営業",
+              "reading": "えいぎょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 営業/えいぎょう \"Vertrieb\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1173430 senses 1–2, noun / suru verb: business, operations; sales Pitch: Verified [0] via exact UniDic row. 営業 hat zwei Hauptbedeutungen: den Geschäftsbetrieb eines Ladens oder Unternehmens (営業中 „geöffnet“, 営業時間 „Öffnungszeiten“, 24時間営業) und den „Vertrieb“ bzw. die Kundenakquise (営業部, 営業の仕事, 営業に回る). Als する-Verb steht es meist ohne Objekt: 店が営業している. Im Unterschied zu 販売 („Verkauf“ einer Ware) umfasst 営業 die ganze Kundenbetreuung und Akquise. Neutral, im Arbeitsalltag sehr häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1173430; spelling=営業; reading=えいぎょう",
+          "selected": {
+            "sequence": "1173430",
+            "spelling": "営業",
+            "reading": "えいぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "business",
+                  "trade",
+                  "operations"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sales"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1173430 senses 1–2, noun / suru verb: business, operations; sales"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 営業/エイギョウ; lemma 営業; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69613364",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 営業/エイギョウ; lemma 営業; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "営業",
+              "reading": "えいぎょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 営業/えいぎょう \"Vertrieb\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geschäftsbetrieb, Öffnung; Vertrieb. JMdict 1173430 senses 1–2, noun / suru verb: business, operations; sales",
+        "japanese": "営業部に配属された。 / このスーパーは二十四時間営業している。 / 年末年始の営業時間をホームページで確認した。",
+        "romanization": "eigyō; Eigyōbu ni haizoku sareta. / Kono sūpā wa nijūyo jikan eigyō shite iru. / Nenmatsu nenshi no eigyō jikan o hōmupēji de kakunin shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich wurde der Vertriebsabteilung zugeteilt. / Dieser Supermarkt hat rund um die Uhr geöffnet. / Ich habe die Öffnungszeiten über Neujahr auf der Website nachgesehen.",
+        "contexts": [
+          "Assignment to sales",
+          "24-hour store",
+          "Holiday opening hours"
+        ],
+        "lexical": "JMdict 1173430 senses 1–2, noun / suru verb: business, operations; sales",
+        "register": "neutral",
+        "transitivity": "mostly intransitive as 営業する (店が営業している)",
+        "conjugation": "noun; suru verb (営業する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:180 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Assignment to sales; 24-hour store; Holiday opening hours), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f2a6cadb5d748d779175bc497676dbb505e9a5d0f9a1a65d709935cab70c327d",
+        "approvalHash": "1e6c397ca9492afe7d83b08a3c23139f8bc36cb86b722710665cef6f64163ccb"
+      }
+    },
+    {
+      "id": "vocab-n2:181",
+      "revisionId": "192b-n2-enrichment-vocab-n2-181",
+      "state": "accepted",
+      "predecessorHash": "d143ebf1f9e0cf501849f31088bf89c3bc3c2321e5d57227592f2047b432de7c",
+      "originalHash": "d143ebf1f9e0cf501849f31088bf89c3bc3c2321e5d57227592f2047b432de7c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この製品の販売が好調だ。",
+            "romaji": "Kono seihin no hanbai ga kōchō da.",
+            "german": "Der Verkauf dieses Produkts läuft gut."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "販売 ist der Verkauf von Waren, meist aus Sicht des Anbieters und im geschäftlichen Rahmen. Als transitives する-Verb: 商品を販売する; typisch sind 販売店, 自動販売機, 通信販売 („Versandhandel“, kurz 通販) und 販売中. Nicht verwechseln mit 発売 („Markteinführung, Verkaufsstart“): 新製品を発売する, aber 店で販売する. Im Alltag sagt man eher 売る; 販売 ist sachlicher und steht auf Schildern und in Nachrichten.",
+        "examples": [
+          {
+            "japanese": "この製品の販売が好調だ。",
+            "romaji": "Kono seihin no hanbai ga kōchō da.",
+            "german": "Der Verkauf dieses Produkts läuft gut."
+          },
+          {
+            "japanese": "チケットは来週の月曜日から販売されます。",
+            "romaji": "Chiketto wa raishū no getsuyōbi kara hanbai saremasu.",
+            "german": "Die Tickets werden ab nächstem Montag verkauft."
+          },
+          {
+            "japanese": "この店では地元の野菜を販売している。",
+            "romaji": "Kono mise de wa jimoto no yasai o hanbai shite iru.",
+            "german": "In diesem Laden wird Gemüse aus der Region verkauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219881727",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 販売/ハンバイ; lemma 販売; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "販売",
+              "reading": "はんばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 販売/はんばい \"Verkauf\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1481800 sense 1, noun / suru verb: sale, selling, marketing Pitch: Verified [0] via exact UniDic row. 販売 ist der Verkauf von Waren, meist aus Sicht des Anbieters und im geschäftlichen Rahmen. Als transitives する-Verb: 商品を販売する; typisch sind 販売店, 自動販売機, 通信販売 („Versandhandel“, kurz 通販) und 販売中. Nicht verwechseln mit 発売 („Markteinführung, Verkaufsstart“): 新製品を発売する, aber 店で販売する. Im Alltag sagt man eher 売る; 販売 ist sachlicher und steht auf Schildern und in Nachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1481800; spelling=販売; reading=はんばい",
+          "selected": {
+            "sequence": "1481800",
+            "spelling": "販売",
+            "reading": "はんばい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sale",
+                  "sales",
+                  "selling",
+                  "marketing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1481800 sense 1, noun / suru verb: sale, selling, marketing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 販売/ハンバイ; lemma 販売; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@219881727",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 販売/ハンバイ; lemma 販売; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "販売",
+              "reading": "はんばい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 販売/はんばい \"Verkauf\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verkauf. JMdict 1481800 sense 1, noun / suru verb: sale, selling, marketing",
+        "japanese": "この製品の販売が好調だ。 / チケットは来週の月曜日から販売されます。 / この店では地元の野菜を販売している。",
+        "romanization": "hanbai; Kono seihin no hanbai ga kōchō da. / Chiketto wa raishū no getsuyōbi kara hanbai saremasu. / Kono mise de wa jimoto no yasai o hanbai shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Verkauf dieses Produkts läuft gut. / Die Tickets werden ab nächstem Montag verkauft. / In diesem Laden wird Gemüse aus der Region verkauft.",
+        "contexts": [
+          "Strong product sales",
+          "Ticket sale start",
+          "Local produce shop"
+        ],
+        "lexical": "JMdict 1481800 sense 1, noun / suru verb: sale, selling, marketing",
+        "register": "neutral / business",
+        "transitivity": "transitive as 販売する (〜を販売する)",
+        "conjugation": "noun; suru verb (販売する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:181 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Strong product sales; Ticket sale start; Local produce shop), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "90b8765703d94f761d2dc39696a70e9b9c642a284854e64f4590c4d8e5a220d8",
+        "approvalHash": "f58cc3c540c38cf7245de78715b420a7ef3973a492c42d527ba12f57be372a5f"
+      }
+    },
+    {
+      "id": "vocab-n2:182",
+      "revisionId": "192b-n2-enrichment-vocab-n2-182",
+      "state": "accepted",
+      "predecessorHash": "34b45b3a5d5407ac4bb66c1420d95c9fc39a5e97b03bb4c76574f330aab15333",
+      "originalHash": "34b45b3a5d5407ac4bb66c1420d95c9fc39a5e97b03bb4c76574f330aab15333",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "部品の発注を急いでください。",
+            "romaji": "Buhin no hacchū o isoide kudasai.",
+            "german": "Bitte beeilen Sie sich mit der Bestellung der Bauteile."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発注 bedeutet, eine Bestellung bzw. einen Auftrag an einen Lieferanten oder Dienstleister zu erteilen. Als transitives する-Verb: 部品を発注する, 〜に…を発注する. Das Gegenstück aus Sicht des Lieferanten ist 受注 („Auftragseingang“); Komposita sind 発注書 („Bestellschein“) und 発注ミス. Als Privatkunde sagt man 注文する; 発注 ist Geschäftssprache für den Einkauf von Material oder Leistungen.",
+        "examples": [
+          {
+            "japanese": "部品の発注を急いでください。",
+            "romaji": "Buhin no hacchū o isoide kudasai.",
+            "german": "Bitte beeilen Sie sich mit der Bestellung der Bauteile."
+          },
+          {
+            "japanese": "ウェブサイトの制作を外部の会社に発注した。",
+            "romaji": "Webusaito no seisaku o gaibu no kaisha ni hacchū shita.",
+            "german": "Wir haben die Erstellung der Website an eine externe Firma vergeben."
+          },
+          {
+            "japanese": "発注ミスで、商品が百個も多く届いてしまった。",
+            "romaji": "Hacchū misu de, shōhin ga hyakko mo ōku todoite shimatta.",
+            "german": "Wegen eines Bestellfehlers wurden ganze hundert Artikel zu viel geliefert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215878251",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 発注/ハッチュウ; lemma 発注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "発注",
+              "reading": "はっちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 発注/はっちゅう \"Bestellung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1477710 sense 1, noun / suru verb: ordering (materials), placing an order Pitch: Verified [0] via exact UniDic row. 発注 bedeutet, eine Bestellung bzw. einen Auftrag an einen Lieferanten oder Dienstleister zu erteilen. Als transitives する-Verb: 部品を発注する, 〜に…を発注する. Das Gegenstück aus Sicht des Lieferanten ist 受注 („Auftragseingang“); Komposita sind 発注書 („Bestellschein“) und 発注ミス. Als Privatkunde sagt man 注文する; 発注 ist Geschäftssprache für den Einkauf von Material oder Leistungen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477710; spelling=発注; reading=はっちゅう",
+          "selected": {
+            "sequence": "1477710",
+            "spelling": "発注",
+            "reading": "はっちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ordering (materials)",
+                  "placing an order",
+                  "order"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1477710 sense 1, noun / suru verb: ordering (materials), placing an order"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 発注/ハッチュウ; lemma 発注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215878251",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 発注/ハッチュウ; lemma 発注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "発注",
+              "reading": "はっちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 発注/はっちゅう \"Bestellung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bestellung. JMdict 1477710 sense 1, noun / suru verb: ordering (materials), placing an order",
+        "japanese": "部品の発注を急いでください。 / ウェブサイトの制作を外部の会社に発注した。 / 発注ミスで、商品が百個も多く届いてしまった。",
+        "romanization": "hacchū; Buhin no hacchū o isoide kudasai. / Webusaito no seisaku o gaibu no kaisha ni hacchū shita. / Hacchū misu de, shōhin ga hyakko mo ōku todoite shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte beeilen Sie sich mit der Bestellung der Bauteile. / Wir haben die Erstellung der Website an eine externe Firma vergeben. / Wegen eines Bestellfehlers wurden ganze hundert Artikel zu viel geliefert.",
+        "contexts": [
+          "Urgent parts order",
+          "Outsourcing a website",
+          "Ordering mistake"
+        ],
+        "lexical": "JMdict 1477710 sense 1, noun / suru verb: ordering (materials), placing an order",
+        "register": "business",
+        "transitivity": "transitive as 発注する (〜に…を発注する)",
+        "conjugation": "noun; suru verb (発注する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:182 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Urgent parts order; Outsourcing a website; Ordering mistake), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a5ed975ce95ae9d33df0ae091f0397d937393df582b2005b1f38cf32ed847235",
+        "approvalHash": "2d5ba1db25a8984d39f58a53b99ec2802feaba7e8e5f58ef34fda6036caa2d89"
+      }
+    },
+    {
+      "id": "vocab-n2:183",
+      "revisionId": "192b-n2-enrichment-vocab-n2-183",
+      "state": "accepted",
+      "predecessorHash": "3afbe32a8f5713e5897e6cb187fb5e54b8febb6336b36be5ffd37e6adb5cc578",
+      "originalHash": "3afbe32a8f5713e5897e6cb187fb5e54b8febb6336b36be5ffd37e6adb5cc578",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大型の受注を獲得した。",
+            "romaji": "Ōgata no juchū o kakutoku shita.",
+            "german": "Wir haben einen großen Auftrag erhalten."
+          }
+        ],
+        "meaning": "Auftragseingang",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "受注 ist die Annahme bzw. der Eingang eines Auftrags aus Sicht des Lieferanten oder Herstellers – das Gegenstück zu 発注. Als transitives する-Verb: 工事を受注する; typische Komposita sind 受注生産 („Fertigung auf Bestellung“), 受注額 und 大型受注 („Großauftrag“). Geschäftssprache, häufig in Wirtschaftsmeldungen und im B2B-Bereich.",
+        "examples": [
+          {
+            "japanese": "大型の受注を獲得した。",
+            "romaji": "Ōgata no juchū o kakutoku shita.",
+            "german": "Wir haben einen großen Auftrag erhalten."
+          },
+          {
+            "japanese": "この家具は受注生産なので、届くまで二か月かかります。",
+            "romaji": "Kono kagu wa juchū seisan na node, todoku made nikagetsu kakarimasu.",
+            "german": "Diese Möbel werden auf Bestellung gefertigt, daher dauert die Lieferung zwei Monate."
+          },
+          {
+            "japanese": "その建設会社は新しい空港の工事を受注した。",
+            "romaji": "Sono kensetsu gaisha wa atarashii kūkō no kōji o juchū shita.",
+            "german": "Das Bauunternehmen erhielt den Auftrag für den Bau des neuen Flughafens."
+          }
+        ],
+        "meaning": "Auftragseingang, Auftragsannahme",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144485708",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 受注/ジュチュウ; lemma 受注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "受注",
+              "reading": "じゅちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 受注/じゅちゅう \"Auftragseingang\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1329970 sense 1, noun / suru verb: accepting an order, orders received Pitch: Verified [0] via exact UniDic row. 受注 ist die Annahme bzw. der Eingang eines Auftrags aus Sicht des Lieferanten oder Herstellers – das Gegenstück zu 発注. Als transitives する-Verb: 工事を受注する; typische Komposita sind 受注生産 („Fertigung auf Bestellung“), 受注額 und 大型受注 („Großauftrag“). Geschäftssprache, häufig in Wirtschaftsmeldungen und im B2B-Bereich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1329970; spelling=受注; reading=じゅちゅう",
+          "selected": {
+            "sequence": "1329970",
+            "spelling": "受注",
+            "reading": "じゅちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "accepting an order",
+                  "receiving an order",
+                  "orders received",
+                  "closed won"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1329970 sense 1, noun / suru verb: accepting an order, orders received"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 受注/ジュチュウ; lemma 受注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144485708",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 受注/ジュチュウ; lemma 受注; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "受注",
+              "reading": "じゅちゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 受注/じゅちゅう \"Auftragseingang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Auftragseingang, Auftragsannahme. JMdict 1329970 sense 1, noun / suru verb: accepting an order, orders received",
+        "japanese": "大型の受注を獲得した。 / この家具は受注生産なので、届くまで二か月かかります。 / その建設会社は新しい空港の工事を受注した。",
+        "romanization": "juchū; Ōgata no juchū o kakutoku shita. / Kono kagu wa juchū seisan na node, todoku made nikagetsu kakarimasu. / Sono kensetsu gaisha wa atarashii kūkō no kōji o juchū shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben einen großen Auftrag erhalten. / Diese Möbel werden auf Bestellung gefertigt, daher dauert die Lieferung zwei Monate. / Das Bauunternehmen erhielt den Auftrag für den Bau des neuen Flughafens.",
+        "contexts": [
+          "Landing a big order",
+          "Made-to-order furniture",
+          "Construction contract"
+        ],
+        "lexical": "JMdict 1329970 sense 1, noun / suru verb: accepting an order, orders received",
+        "register": "business",
+        "transitivity": "transitive as 受注する (〜を受注する)",
+        "conjugation": "noun; suru verb (受注する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:183 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Landing a big order; Made-to-order furniture; Construction contract), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "13af5f2aeb51ef96c180db0bb0c620a1711dd83a25d61afea915208d85b08ff2",
+        "approvalHash": "da0d113ccd646495a1b8201cdc608d9713496aacdf1fe9b503c26cad3ff27d21"
+      }
+    },
+    {
+      "id": "vocab-n2:184",
+      "revisionId": "192b-n2-enrichment-vocab-n2-184",
+      "state": "accepted",
+      "predecessorHash": "4dd673f888214e42d06b708309c27a93b475207f5e42a516dfbd70a411d6e453",
+      "originalHash": "4dd673f888214e42d06b708309c27a93b475207f5e42a516dfbd70a411d6e453",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "配送は三日以内に届きます。",
+            "romaji": "Haisō wa mikka inai ni todokimasu.",
+            "german": "Die Zustellung erfolgt innerhalb von drei Tagen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "配送 bedeutet, Waren an die jeweiligen Empfänger auszuliefern – „Zustellung, Lieferung“. Als transitives する-Verb: 商品を配送する; typisch sind 配送料 („Versandkosten“), 配送先 („Lieferadresse“), 配送センター und 配送無料. Im Vergleich zu 配達 (Zustellung durch den Boten an die Tür, z. B. 新聞配達) klingt 配送 nach Logistik; 発送 ist dagegen das Absenden. Sehr häufig im Onlinehandel.",
+        "examples": [
+          {
+            "japanese": "ご注文の商品は三日以内に配送いたします。",
+            "romaji": "Gochūmon no shōhin wa mikka inai ni haisō itashimasu.",
+            "german": "Ihre Bestellung wird innerhalb von drei Tagen geliefert."
+          },
+          {
+            "japanese": "配送先の住所を間違えて入力してしまった。",
+            "romaji": "Haisōsaki no jūsho o machigaete nyūryoku shite shimatta.",
+            "german": "Ich habe die Lieferadresse falsch eingegeben."
+          },
+          {
+            "japanese": "五千円以上お買い上げで配送料が無料になります。",
+            "romaji": "Gosen'en ijō okaiage de haisōryō ga muryō ni narimasu.",
+            "german": "Ab einem Einkaufswert von 5.000 Yen ist der Versand kostenlos."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211210584",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 配送/ハイソウ; lemma 配送; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "配送",
+              "reading": "はいそう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 配送/はいそう \"Zustellung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1473120 sense 1, noun / suru verb: delivery Pitch: Verified [0] via exact UniDic row. 配送 bedeutet, Waren an die jeweiligen Empfänger auszuliefern – „Zustellung, Lieferung“. Als transitives する-Verb: 商品を配送する; typisch sind 配送料 („Versandkosten“), 配送先 („Lieferadresse“), 配送センター und 配送無料. Im Vergleich zu 配達 (Zustellung durch den Boten an die Tür, z. B. 新聞配達) klingt 配送 nach Logistik; 発送 ist dagegen das Absenden. Sehr häufig im Onlinehandel. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1473120; spelling=配送; reading=はいそう",
+          "selected": {
+            "sequence": "1473120",
+            "spelling": "配送",
+            "reading": "はいそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "delivery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1473120 sense 1, noun / suru verb: delivery"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 配送/ハイソウ; lemma 配送; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211210584",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 配送/ハイソウ; lemma 配送; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "配送",
+              "reading": "はいそう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 配送/はいそう \"Zustellung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zustellung. JMdict 1473120 sense 1, noun / suru verb: delivery",
+        "japanese": "ご注文の商品は三日以内に配送いたします。 / 配送先の住所を間違えて入力してしまった。 / 五千円以上お買い上げで配送料が無料になります。",
+        "romanization": "haisō; Gochūmon no shōhin wa mikka inai ni haisō itashimasu. / Haisōsaki no jūsho o machigaete nyūryoku shite shimatta. / Gosen'en ijō okaiage de haisōryō ga muryō ni narimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ihre Bestellung wird innerhalb von drei Tagen geliefert. / Ich habe die Lieferadresse falsch eingegeben. / Ab einem Einkaufswert von 5.000 Yen ist der Versand kostenlos.",
+        "contexts": [
+          "Delivery promise",
+          "Wrong address",
+          "Free shipping threshold"
+        ],
+        "lexical": "JMdict 1473120 sense 1, noun / suru verb: delivery",
+        "register": "neutral / business",
+        "transitivity": "transitive as 配送する (〜を配送する)",
+        "conjugation": "noun; suru verb (配送する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:184 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Delivery promise; Wrong address; Free shipping threshold), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "76f95273f0e246f52b789b9d1719512b59be84d44f8493440d6ef243b760eeea",
+        "approvalHash": "53fdd4887c18c08aa46b19b6bd3d5d90c0e933d35a82514694b2475c5b78981c"
+      }
+    },
+    {
+      "id": "vocab-n2:185",
+      "revisionId": "192b-n2-enrichment-vocab-n2-185",
+      "state": "accepted",
+      "predecessorHash": "409ee4ab4e7a4691d0ddb74333d8568aaac2bccb67a1bc925ae419e57f46a5f8",
+      "originalHash": "409ee4ab4e7a4691d0ddb74333d8568aaac2bccb67a1bc925ae419e57f46a5f8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "原材料の価格が高騰している。",
+            "romaji": "Genzairyō no kakaku ga kōtō shite iru.",
+            "german": "Die Rohstoffpreise steigen stark an."
+          }
+        ],
+        "meaning": "Rohstoff",
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "原材料 umfasst die Ausgangsstoffe, aus denen ein Produkt hergestellt wird: Rohstoffe und Zutaten. Auf Lebensmittelverpackungen steht 原材料名 für die „Zutatenliste“. Typisch sind 原材料費, 原材料の価格 und 原材料を輸入する. Verwandt sind 原料 (der Grundstoff, z. B. 石油を原料とする) und 材料 („Material, Zutat“ im weiteren Sinn); 原材料 fasst beides zusammen und ist sachlich-geschäftlich.",
+        "examples": [
+          {
+            "japanese": "原材料の価格が高騰している。",
+            "romaji": "Genzairyō no kakaku ga kōtō shite iru.",
+            "german": "Die Rohstoffpreise steigen stark an."
+          },
+          {
+            "japanese": "アレルギーがあるので、原材料をよく確認してから買う。",
+            "romaji": "Arerugī ga aru node, genzairyō o yoku kakunin shite kara kau.",
+            "german": "Weil ich eine Allergie habe, prüfe ich die Zutaten genau, bevor ich etwas kaufe."
+          },
+          {
+            "japanese": "この工場では、原材料を海外から輸入している。",
+            "romaji": "Kono kōjō de wa, genzairyō o kaigai kara yunyū shite iru.",
+            "german": "Diese Fabrik importiert ihre Rohstoffe aus dem Ausland."
+          }
+        ],
+        "meaning": "Rohstoffe, Zutaten",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1261430 sense 1, noun: raw materials, ingredients Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 原材料 umfasst die Ausgangsstoffe, aus denen ein Produkt hergestellt wird: Rohstoffe und Zutaten. Auf Lebensmittelverpackungen steht 原材料名 für die „Zutatenliste“. Typisch sind 原材料費, 原材料の価格 und 原材料を輸入する. Verwandt sind 原料 (der Grundstoff, z. B. 石油を原料とする) und 材料 („Material, Zutat“ im weiteren Sinn); 原材料 fasst beides zusammen und ist sachlich-geschäftlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1261430; spelling=原材料; reading=げんざいりょう",
+          "selected": {
+            "sequence": "1261430",
+            "spelling": "原材料",
+            "reading": "げんざいりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "raw materials",
+                  "ingredients"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1261430 sense 1, noun: raw materials, ingredients"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 原材料/げんざいりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8E%9F%E6%9D%90%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 原材料/げんざいりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rohstoffe, Zutaten. JMdict 1261430 sense 1, noun: raw materials, ingredients",
+        "japanese": "原材料の価格が高騰している。 / アレルギーがあるので、原材料をよく確認してから買う。 / この工場では、原材料を海外から輸入している。",
+        "romanization": "genzairyō; Genzairyō no kakaku ga kōtō shite iru. / Arerugī ga aru node, genzairyō o yoku kakunin shite kara kau. / Kono kōjō de wa, genzairyō o kaigai kara yunyū shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Rohstoffpreise steigen stark an. / Weil ich eine Allergie habe, prüfe ich die Zutaten genau, bevor ich etwas kaufe. / Diese Fabrik importiert ihre Rohstoffe aus dem Ausland.",
+        "contexts": [
+          "Rising material costs",
+          "Checking food labels",
+          "Imported raw materials"
+        ],
+        "lexical": "JMdict 1261430 sense 1, noun: raw materials, ingredients",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:185 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rising material costs; Checking food labels; Imported raw materials), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d6acd159044b57b750b6db8244761c93a7974ef716be4ff6b37eb9522c4887ca",
+        "approvalHash": "f4f02676bbdf594e357d689788ed8f7f459de28caf7c28ff46a0b937e4fcdf08"
+      }
+    },
+    {
+      "id": "vocab-n2:186",
+      "revisionId": "192b-n2-enrichment-vocab-n2-186",
+      "state": "accepted",
+      "predecessorHash": "41c02ff8e1f80a279ff08e49b843ce50267001b5f81a7fc8cfe301d9a35ee98b",
+      "originalHash": "41c02ff8e1f80a279ff08e49b843ce50267001b5f81a7fc8cfe301d9a35ee98b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自動車の部品を海外から仕入れている。",
+            "romaji": "Jidōsha no buhin o kaigai kara shiirete iru.",
+            "german": "Wir beziehen Autobauteile aus dem Ausland."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "部品 sind Einzelteile, aus denen eine Maschine, ein Gerät oder Fahrzeug zusammengesetzt wird – „Bauteil, Ersatzteil“. Typisch sind 部品を交換する, 部品を組み立てる, 自動車部品, 交換部品 und 部品メーカー. Im Unterschied zu 部分 („Teil eines Ganzen“ allgemein) meint 部品 immer ein physisches Bauteil. Neutral, aus Technik und Industrie, aber auch im Alltag bei Reparaturen.",
+        "examples": [
+          {
+            "japanese": "自動車の部品を海外から仕入れている。",
+            "romaji": "Jidōsha no buhin o kaigai kara shiirete iru.",
+            "german": "Wir beziehen Autobauteile aus dem Ausland."
+          },
+          {
+            "japanese": "壊れた部品を交換したら、また動くようになった。",
+            "romaji": "Kowareta buhin o kōkan shitara, mata ugoku yō ni natta.",
+            "german": "Nachdem ich das kaputte Teil ausgetauscht hatte, funktionierte es wieder."
+          },
+          {
+            "japanese": "古い型なので、部品がもう手に入らないそうです。",
+            "romaji": "Furui kata na node, buhin ga mō te ni hairanai sō desu.",
+            "german": "Da es ein altes Modell ist, gibt es angeblich keine Ersatzteile mehr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239597273",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 部品/ブヒン; lemma 部品; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "部品",
+              "reading": "ぶひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部品/ぶひん \"Bauteil\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1499480 sense 1, noun: parts, components Pitch: Verified [0] via exact UniDic row. 部品 sind Einzelteile, aus denen eine Maschine, ein Gerät oder Fahrzeug zusammengesetzt wird – „Bauteil, Ersatzteil“. Typisch sind 部品を交換する, 部品を組み立てる, 自動車部品, 交換部品 und 部品メーカー. Im Unterschied zu 部分 („Teil eines Ganzen“ allgemein) meint 部品 immer ein physisches Bauteil. Neutral, aus Technik und Industrie, aber auch im Alltag bei Reparaturen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1499480; spelling=部品; reading=ぶひん",
+          "selected": {
+            "sequence": "1499480",
+            "spelling": "部品",
+            "reading": "ぶひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "parts",
+                  "accessories",
+                  "components"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1499480 sense 1, noun: parts, components"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 部品/ブヒン; lemma 部品; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@239597273",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 部品/ブヒン; lemma 部品; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "部品",
+              "reading": "ぶひん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 部品/ぶひん \"Bauteil\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bauteil. JMdict 1499480 sense 1, noun: parts, components",
+        "japanese": "自動車の部品を海外から仕入れている。 / 壊れた部品を交換したら、また動くようになった。 / 古い型なので、部品がもう手に入らないそうです。",
+        "romanization": "buhin; Jidōsha no buhin o kaigai kara shiirete iru. / Kowareta buhin o kōkan shitara, mata ugoku yō ni natta. / Furui kata na node, buhin ga mō te ni hairanai sō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir beziehen Autobauteile aus dem Ausland. / Nachdem ich das kaputte Teil ausgetauscht hatte, funktionierte es wieder. / Da es ein altes Modell ist, gibt es angeblich keine Ersatzteile mehr.",
+        "contexts": [
+          "Sourcing car parts",
+          "Repair at home",
+          "Obsolete model"
+        ],
+        "lexical": "JMdict 1499480 sense 1, noun: parts, components",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:186 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sourcing car parts; Repair at home; Obsolete model), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "744bff89fd71b409c8e2c049a8964a60a38a7b93db52a38e7c027f8f8a66c5c4",
+        "approvalHash": "2bf2432e24034d40342025fff1f6471a6c79a6967f99dae7eea3f7ae3b914dbb"
+      }
+    },
+    {
+      "id": "vocab-n2:187",
+      "revisionId": "192b-n2-enrichment-vocab-n2-187",
+      "state": "accepted",
+      "predecessorHash": "3d31d7baa231c3632820392a44441db699933dcd48962a788e5a25d27b28dbd8",
+      "originalHash": "3d31d7baa231c3632820392a44441db699933dcd48962a788e5a25d27b28dbd8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "完成品を倉庫に保管する。",
+            "romaji": "Kanseihin o sōko ni hokan suru.",
+            "german": "Die Fertigprodukte werden im Lager aufbewahrt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "完成品 ist ein fertig hergestelltes Erzeugnis, „Fertigprodukt“, im Gegensatz zu 部品, 半製品 („Halbfabrikat“) oder 原材料. Typisch sind 完成品を出荷する, 完成品を検査する und 完成品の在庫. Bei Möbeln oder Modellen steht es auch im Gegensatz zu 組み立て式 bzw. キット und bedeutet dann „fertig montiert“. Sachlich, aus Produktion und Handel.",
+        "examples": [
+          {
+            "japanese": "完成品を倉庫に保管する。",
+            "romaji": "Kanseihin o sōko ni hokan suru.",
+            "german": "Die Fertigprodukte werden im Lager aufbewahrt."
+          },
+          {
+            "japanese": "出荷する前に、完成品を一つずつ検査します。",
+            "romaji": "Shukka suru mae ni, kanseihin o hitotsuzutsu kensa shimasu.",
+            "german": "Vor dem Versand prüfen wir jedes fertige Produkt einzeln."
+          },
+          {
+            "japanese": "組み立てが苦手なので、完成品の棚を買った。",
+            "romaji": "Kumitate ga nigate na node, kanseihin no tana o katta.",
+            "german": "Weil ich nicht gut im Zusammenbauen bin, habe ich ein fertig montiertes Regal gekauft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1211500 sense 1, noun: finished product, finished goods Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 完成品 ist ein fertig hergestelltes Erzeugnis, „Fertigprodukt“, im Gegensatz zu 部品, 半製品 („Halbfabrikat“) oder 原材料. Typisch sind 完成品を出荷する, 完成品を検査する und 完成品の在庫. Bei Möbeln oder Modellen steht es auch im Gegensatz zu 組み立て式 bzw. キット und bedeutet dann „fertig montiert“. Sachlich, aus Produktion und Handel. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1211500; spelling=完成品; reading=かんせいひん",
+          "selected": {
+            "sequence": "1211500",
+            "spelling": "完成品",
+            "reading": "かんせいひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "finished product",
+                  "finished goods",
+                  "completed article"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1211500 sense 1, noun: finished product, finished goods"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 完成品/かんせいひん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AE%8C%E6%88%90%E5%93%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 完成品/かんせいひん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fertigprodukt. JMdict 1211500 sense 1, noun: finished product, finished goods",
+        "japanese": "完成品を倉庫に保管する。 / 出荷する前に、完成品を一つずつ検査します。 / 組み立てが苦手なので、完成品の棚を買った。",
+        "romanization": "kanseihin; Kanseihin o sōko ni hokan suru. / Shukka suru mae ni, kanseihin o hitotsuzutsu kensa shimasu. / Kumitate ga nigate na node, kanseihin no tana o katta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Fertigprodukte werden im Lager aufbewahrt. / Vor dem Versand prüfen wir jedes fertige Produkt einzeln. / Weil ich nicht gut im Zusammenbauen bin, habe ich ein fertig montiertes Regal gekauft.",
+        "contexts": [
+          "Warehouse storage",
+          "Quality inspection",
+          "Buying pre-assembled furniture"
+        ],
+        "lexical": "JMdict 1211500 sense 1, noun: finished product, finished goods",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:187 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Warehouse storage; Quality inspection; Buying pre-assembled furniture), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "84998def556f4f07791b80ef5698ce481e249730bcdc92fd507db1cce91f79a1",
+        "approvalHash": "9393ccbfb6d709a86bde56ba606afd0e2a25ee1ae37bc86212a5202a6f373fc6"
+      }
+    },
+    {
+      "id": "vocab-n2:188",
+      "revisionId": "192b-n2-enrichment-vocab-n2-188",
+      "state": "accepted",
+      "predecessorHash": "35152666aa719909a4fa8870cf8a28016845ed2da1d07b7ccb67ec521952cd6a",
+      "originalHash": "35152666aa719909a4fa8870cf8a28016845ed2da1d07b7ccb67ec521952cd6a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "お客様からクレームが来た。",
+            "romaji": "Okyakusama kara kurēmu ga kita.",
+            "german": "Wir haben eine Reklamation von einem Kunden erhalten."
+          }
+        ],
+        "meaning": "Reklamation",
+        "pitch": 2,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "Das japanische クレーム stammt vom englischen „claim“, bedeutet aber meist „Beschwerde, Reklamation“, vor allem von Kunden. Typisch sind クレームをつける („sich beschweren, reklamieren“), クレームが来る／入る, クレーム対応 („Beschwerdemanagement“) und クレーマー für notorische Beschwerdeführer. Sachlicher ist 苦情; gegenüber dem Kunden selbst spricht man höflich von ご指摘 oder ご意見. Ein gleich geschriebenes Lehnwort aus dem Französischen bedeutet „Creme“ (in Süßspeisen).",
+        "examples": [
+          {
+            "japanese": "お客様からクレームが来た。",
+            "romaji": "Okyakusama kara kurēmu ga kita.",
+            "german": "Wir haben eine Reklamation von einem Kunden erhalten."
+          },
+          {
+            "japanese": "隣の客が料理が冷たいとクレームをつけていた。",
+            "romaji": "Tonari no kyaku ga ryōri ga tsumetai to kurēmu o tsukete ita.",
+            "german": "Der Gast am Nebentisch beschwerte sich, dass das Essen kalt sei."
+          },
+          {
+            "japanese": "新入社員はクレーム対応の研修を受けた。",
+            "romaji": "Shinnyū shain wa kurēmu taiō no kenshū o uketa.",
+            "german": "Die neuen Mitarbeiter wurden im Umgang mit Beschwerden geschult."
+          }
+        ],
+        "meaning": "Beschwerde, Reklamation",
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115498852",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole クレーム/クレーム; lemma クレーム-claim; 名詞/普通名詞/一般/*; *; *; aType 2,0. Rejected for this role: クレーム/クレーム; lemma クリーム-cream; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "クレーム",
+              "reading": "クレーム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen クレーム/クレーム \"Reklamation\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1045270 senses 1–2, noun: customer complaint, claim; (general) complaint, objection Pitch: Verified [2,0] via exact UniDic row. Das japanische クレーム stammt vom englischen „claim“, bedeutet aber meist „Beschwerde, Reklamation“, vor allem von Kunden. Typisch sind クレームをつける („sich beschweren, reklamieren“), クレームが来る／入る, クレーム対応 („Beschwerdemanagement“) und クレーマー für notorische Beschwerdeführer. Sachlicher ist 苦情; gegenüber dem Kunden selbst spricht man höflich von ご指摘 oder ご意見. Ein gleich geschriebenes Lehnwort aus dem Französischen bedeutet „Creme“ (in Süßspeisen). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1045270; spelling=クレーム; reading=クレーム",
+          "selected": {
+            "sequence": "1045270",
+            "spelling": "クレーム",
+            "reading": "クレーム",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "claim (for compensation)",
+                  "customer complaint seeking compensation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(general) complaint",
+                  "objection"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1045270 senses 1–2, noun: customer complaint, claim; (general) complaint, objection"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2,0] via exact UniDic row. Exact whole クレーム/クレーム; lemma クレーム-claim; 名詞/普通名詞/一般/*; *; *; aType 2,0. Rejected for this role: クレーム/クレーム; lemma クリーム-cream; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@115498852",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole クレーム/クレーム; lemma クレーム-claim; 名詞/普通名詞/一般/*; *; *; aType 2,0. Rejected for this role: クレーム/クレーム; lemma クリーム-cream; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "クレーム",
+              "reading": "クレーム",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen クレーム/クレーム \"Reklamation\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Beschwerde, Reklamation. JMdict 1045270 senses 1–2, noun: customer complaint, claim; (general) complaint, objection",
+        "japanese": "お客様からクレームが来た。 / 隣の客が料理が冷たいとクレームをつけていた。 / 新入社員はクレーム対応の研修を受けた。",
+        "romanization": "kurēmu; Okyakusama kara kurēmu ga kita. / Tonari no kyaku ga ryōri ga tsumetai to kurēmu o tsukete ita. / Shinnyū shain wa kurēmu taiō no kenshū o uketa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben eine Reklamation von einem Kunden erhalten. / Der Gast am Nebentisch beschwerte sich, dass das Essen kalt sei. / Die neuen Mitarbeiter wurden im Umgang mit Beschwerden geschult.",
+        "contexts": [
+          "Customer complaint arrives",
+          "Restaurant complaint",
+          "Complaint-handling training"
+        ],
+        "lexical": "JMdict 1045270 senses 1–2, noun: customer complaint, claim; (general) complaint, objection",
+        "register": "neutral / colloquial",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:188 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Customer complaint arrives; Restaurant complaint; Complaint-handling training), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b76f7267c7a0aac0d5b638f0c1132f233863438c23c0388a134021e7edf804c9",
+        "approvalHash": "69702e3a0fbec82696899ebbe417832e4540d0d1bd42511b62333e123457b018"
+      }
+    },
+    {
+      "id": "vocab-n2:189",
+      "revisionId": "192b-n2-enrichment-vocab-n2-189",
+      "state": "accepted",
+      "predecessorHash": "0d0f73b6ea737e1af2ccb3bd26e2ee5a171caf8e06ce2143470d53f0244ecaee",
+      "originalHash": "0d0f73b6ea737e1af2ccb3bd26e2ee5a171caf8e06ce2143470d53f0244ecaee",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい仕入先を探している。",
+            "romaji": "Atarashii shiiresaki o sagashite iru.",
+            "german": "Wir suchen einen neuen Lieferanten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "仕入先 ist der „Lieferant“, bei dem ein Geschäft Waren oder Material zum Weiterverkauf oder zur Verarbeitung einkauft – aus 仕入れる („einkaufen, beziehen“) und 先 („Gegenüber, Adresse“). Verwandt ist 取引先 („Geschäftspartner“ allgemein); das Gegenstück ist 販売先 („Abnehmer“). Typisch sind 仕入先を探す／変える und 仕入先との交渉. Die Schreibung schwankt zwischen 仕入先 und 仕入れ先; Geschäftssprache.",
+        "examples": [
+          {
+            "japanese": "新しい仕入先を探している。",
+            "romaji": "Atarashii shiiresaki o sagashite iru.",
+            "german": "Wir suchen einen neuen Lieferanten."
+          },
+          {
+            "japanese": "仕入先から値上げの連絡があった。",
+            "romaji": "Shiiresaki kara neage no renraku ga atta.",
+            "german": "Der Lieferant hat uns eine Preiserhöhung mitgeteilt."
+          },
+          {
+            "japanese": "仕入先を変えたら、コストが一割下がった。",
+            "romaji": "Shiiresaki o kaetara, kosuto ga ichiwari sagatta.",
+            "german": "Nachdem wir den Lieferanten gewechselt hatten, sanken die Kosten um zehn Prozent."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133869011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仕入先/シイレサキ; lemma 仕入れ先; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仕入先",
+              "reading": "しいれさき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仕入先/しいれさき \"Lieferant\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1305320 sense 1, noun: supplier Pitch: Verified [0] via exact UniDic row. 仕入先 ist der „Lieferant“, bei dem ein Geschäft Waren oder Material zum Weiterverkauf oder zur Verarbeitung einkauft – aus 仕入れる („einkaufen, beziehen“) und 先 („Gegenüber, Adresse“). Verwandt ist 取引先 („Geschäftspartner“ allgemein); das Gegenstück ist 販売先 („Abnehmer“). Typisch sind 仕入先を探す／変える und 仕入先との交渉. Die Schreibung schwankt zwischen 仕入先 und 仕入れ先; Geschäftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1305320; spelling=仕入先; reading=しいれさき",
+          "selected": {
+            "sequence": "1305320",
+            "spelling": "仕入先",
+            "reading": "しいれさき",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "irregular okurigana usage"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "supplier"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1305320 sense 1, noun: supplier"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 仕入先/シイレサキ; lemma 仕入れ先; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133869011",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仕入先/シイレサキ; lemma 仕入れ先; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "仕入先",
+              "reading": "しいれさき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 仕入先/しいれさき \"Lieferant\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lieferant. JMdict 1305320 sense 1, noun: supplier",
+        "japanese": "新しい仕入先を探している。 / 仕入先から値上げの連絡があった。 / 仕入先を変えたら、コストが一割下がった。",
+        "romanization": "shiiresaki; Atarashii shiiresaki o sagashite iru. / Shiiresaki kara neage no renraku ga atta. / Shiiresaki o kaetara, kosuto ga ichiwari sagatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir suchen einen neuen Lieferanten. / Der Lieferant hat uns eine Preiserhöhung mitgeteilt. / Nachdem wir den Lieferanten gewechselt hatten, sanken die Kosten um zehn Prozent.",
+        "contexts": [
+          "Looking for a new supplier",
+          "Price increase notice",
+          "Switching suppliers"
+        ],
+        "lexical": "JMdict 1305320 sense 1, noun: supplier",
+        "register": "business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:189 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Looking for a new supplier; Price increase notice; Switching suppliers), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "68a34729540e380d348815ac69e4581acccb28202757e0303476ea06ac3c3840",
+        "approvalHash": "e53c86859ef0c1f514829b6c58944156dcb1ea0d820939e3866bca83a5279e16"
+      }
+    },
+    {
+      "id": "vocab-n2:190",
+      "revisionId": "192b-n2-enrichment-vocab-n2-190",
+      "state": "accepted",
+      "predecessorHash": "46f4c8b48930cd2195dfbb2aa36936fa696df884f0b53dff1f94cc77ebaebf95",
+      "originalHash": "46f4c8b48930cd2195dfbb2aa36936fa696df884f0b53dff1f94cc77ebaebf95",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "卸売価格で商品を仕入れた。",
+            "romaji": "Oroshiuri kakaku de shōhin o shiireta.",
+            "german": "Wir haben Waren zum Großhandelspreis eingekauft."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "卸売 ist der Verkauf von Waren in großen Mengen an Händler statt an Endkunden – „Großhandel“; das Gegenstück ist 小売 („Einzelhandel“). Typisch sind 卸売業者 („Großhändler“), 卸売市場 („Großmarkt“) und 卸売価格. Das zugehörige Verb ist 卸す („an Händler verkaufen“); kurz sagt man auch 卸, etwa in 卸値. Schreibweisen: 卸売 und 卸売り.",
+        "examples": [
+          {
+            "japanese": "卸売価格で商品を仕入れた。",
+            "romaji": "Oroshiuri kakaku de shōhin o shiireta.",
+            "german": "Wir haben Waren zum Großhandelspreis eingekauft."
+          },
+          {
+            "japanese": "毎朝、卸売市場で新鮮な魚を仕入れている。",
+            "romaji": "Maiasa, oroshiuri shijō de shinsen na sakana o shiirete iru.",
+            "german": "Jeden Morgen kaufen wir frischen Fisch auf dem Großmarkt ein."
+          },
+          {
+            "japanese": "父は食品の卸売の会社を経営している。",
+            "romaji": "Chichi wa shokuhin no oroshiuri no kaisha o keiei shite iru.",
+            "german": "Mein Vater leitet ein Großhandelsunternehmen für Lebensmittel."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85000579",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 卸売/オロシウリ; lemma 卸売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0,3.",
+            "match": {
+              "word": "卸売",
+              "reading": "おろしうり",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 卸売/おろしうり \"Großhandel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1589540 sense 1, noun: wholesale, wholesaling Pitch: Verified [0,3] via exact UniDic row. 卸売 ist der Verkauf von Waren in großen Mengen an Händler statt an Endkunden – „Großhandel“; das Gegenstück ist 小売 („Einzelhandel“). Typisch sind 卸売業者 („Großhändler“), 卸売市場 („Großmarkt“) und 卸売価格. Das zugehörige Verb ist 卸す („an Händler verkaufen“); kurz sagt man auch 卸, etwa in 卸値. Schreibweisen: 卸売 und 卸売り. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1589540; spelling=卸売; reading=おろしうり",
+          "selected": {
+            "sequence": "1589540",
+            "spelling": "卸売",
+            "reading": "おろしうり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wholesale",
+                  "wholesaling"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1589540 sense 1, noun: wholesale, wholesaling"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 卸売/オロシウリ; lemma 卸売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85000579",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 卸売/オロシウリ; lemma 卸売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0,3.",
+            "match": {
+              "word": "卸売",
+              "reading": "おろしうり",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 卸売/おろしうり \"Großhandel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Großhandel. JMdict 1589540 sense 1, noun: wholesale, wholesaling",
+        "japanese": "卸売価格で商品を仕入れた。 / 毎朝、卸売市場で新鮮な魚を仕入れている。 / 父は食品の卸売の会社を経営している。",
+        "romanization": "oroshiuri; Oroshiuri kakaku de shōhin o shiireta. / Maiasa, oroshiuri shijō de shinsen na sakana o shiirete iru. / Chichi wa shokuhin no oroshiuri no kaisha o keiei shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben Waren zum Großhandelspreis eingekauft. / Jeden Morgen kaufen wir frischen Fisch auf dem Großmarkt ein. / Mein Vater leitet ein Großhandelsunternehmen für Lebensmittel.",
+        "contexts": [
+          "Buying at wholesale price",
+          "Fish market",
+          "Family business"
+        ],
+        "lexical": "JMdict 1589540 sense 1, noun: wholesale, wholesaling",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:190 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Buying at wholesale price; Fish market; Family business), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9406ae43febc6fe01da7f179501a1effd25400b6d1f758076b1f546fc352df3c",
+        "approvalHash": "741731d3e92ee4652f68d7472f77f860009696716cc0ab9d777fb9836dfd5ae5"
+      }
+    },
+    {
+      "id": "vocab-n2:191",
+      "revisionId": "192b-n2-enrichment-vocab-n2-191",
+      "state": "accepted",
+      "predecessorHash": "f6b6f94a11a8e81f6fce33eb7cecba08de414a70d3e60e69380183e869356ea5",
+      "originalHash": "f6b6f94a11a8e81f6fce33eb7cecba08de414a70d3e60e69380183e869356ea5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "小売店の数が減っている。",
+            "romaji": "Kouriten no kazu ga hette iru.",
+            "german": "Die Zahl der Einzelhandelsgeschäfte nimmt ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "小売 ist der Verkauf in kleinen Mengen direkt an Endverbraucher – „Einzelhandel“, das Gegenstück zu 卸売. Typisch sind 小売店 („Einzelhandelsgeschäft“), 小売業, 小売価格 und メーカー希望小売価格 („unverbindliche Preisempfehlung“). Die Lesung ist こうり aus こ＋うり, also kein langes o; geschrieben wird auch 小売り. Sachliche Wirtschaftssprache.",
+        "examples": [
+          {
+            "japanese": "小売店の数が減っている。",
+            "romaji": "Kouriten no kazu ga hette iru.",
+            "german": "Die Zahl der Einzelhandelsgeschäfte nimmt ab."
+          },
+          {
+            "japanese": "メーカー希望小売価格より二割安く売られている。",
+            "romaji": "Mēkā kibō kouri kakaku yori niwari yasuku urarete iru.",
+            "german": "Es wird zwanzig Prozent unter der unverbindlichen Preisempfehlung verkauft."
+          },
+          {
+            "japanese": "彼は大学を出てから小売業で働いている。",
+            "romaji": "Kare wa daigaku o dete kara kourigyō de hataraite iru.",
+            "german": "Er arbeitet seit dem Studium im Einzelhandel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120655243",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 小売/コウリ; lemma 小売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "小売",
+              "reading": "こうり",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 小売/こうり \"Einzelhandel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1593050 sense 1, noun / suru verb: retail Pitch: Verified [0] via exact UniDic row. 小売 ist der Verkauf in kleinen Mengen direkt an Endverbraucher – „Einzelhandel“, das Gegenstück zu 卸売. Typisch sind 小売店 („Einzelhandelsgeschäft“), 小売業, 小売価格 und メーカー希望小売価格 („unverbindliche Preisempfehlung“). Die Lesung ist こうり aus こ＋うり, also kein langes o; geschrieben wird auch 小売り. Sachliche Wirtschaftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1593050; spelling=小売; reading=こうり",
+          "selected": {
+            "sequence": "1593050",
+            "spelling": "小売",
+            "reading": "こうり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "retail"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1593050 sense 1, noun / suru verb: retail"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 小売/コウリ; lemma 小売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120655243",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 小売/コウリ; lemma 小売り; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "小売",
+              "reading": "こうり",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 小売/こうり \"Einzelhandel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einzelhandel. JMdict 1593050 sense 1, noun / suru verb: retail",
+        "japanese": "小売店の数が減っている。 / メーカー希望小売価格より二割安く売られている。 / 彼は大学を出てから小売業で働いている。",
+        "romanization": "kouri; Kouriten no kazu ga hette iru. / Mēkā kibō kouri kakaku yori niwari yasuku urarete iru. / Kare wa daigaku o dete kara kourigyō de hataraite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zahl der Einzelhandelsgeschäfte nimmt ab. / Es wird zwanzig Prozent unter der unverbindlichen Preisempfehlung verkauft. / Er arbeitet seit dem Studium im Einzelhandel.",
+        "contexts": [
+          "Shrinking shop numbers",
+          "Discount price tag",
+          "Career in retail"
+        ],
+        "lexical": "JMdict 1593050 sense 1, noun / suru verb: retail",
+        "register": "neutral / business",
+        "transitivity": "Nonverb in practice (小売りする rare, transitive)",
+        "conjugation": "noun; suru verb rare (小売りする)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:191 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shrinking shop numbers; Discount price tag; Career in retail), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8f6ad79e6f39295ce4005039ec03e29f11bd11e5f471ef4fffac7013f9b3acba",
+        "approvalHash": "254d27cc38d3db1e0c1077a160aecb6457f3d634ec18224f2eeb0884f21689b9"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

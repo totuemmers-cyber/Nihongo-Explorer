@@ -1,0 +1,3842 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n2:142",
+      "revisionId": "192a-n2-enrichment-vocab-n2-142",
+      "state": "accepted",
+      "predecessorHash": "38669110c1ee21d7872114e05603f42cd8e8c3bd08cd0189ada07e47ffa633b9",
+      "originalHash": "38669110c1ee21d7872114e05603f42cd8e8c3bd08cd0189ada07e47ffa633b9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女はメディアで大きな影響力を持っている。",
+            "romaji": "Kanojo wa media de ōkina eikyōryoku o motte iru.",
+            "german": "Sie hat großen Einfluss in den Medien."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "影響力 ist die Fähigkeit, auf andere einzuwirken – „Einfluss“ im Sinne von Macht oder Gewicht einer Person, Firma oder eines Landes. Typisch sind 影響力がある／大きい／強い, 影響力を持つ, 影響力を失う und 〜に対する影響力. Im Unterschied zu 影響, das die konkrete Wirkung selbst bezeichnet (天気の影響で遅れる), meint 影響力 das Potenzial zur Einflussnahme. Sachlich-neutral, häufig in Medien, Politik und Wirtschaft.",
+        "examples": [
+          {
+            "japanese": "彼女はメディアで大きな影響力を持っている。",
+            "romaji": "Kanojo wa media de ōkina eikyōryoku o motte iru.",
+            "german": "Sie hat großen Einfluss in den Medien."
+          },
+          {
+            "japanese": "その国は国際社会での影響力を失いつつある。",
+            "romaji": "Sono kuni wa kokusai shakai de no eikyōryoku o ushinaitsutsu aru.",
+            "german": "Dieses Land verliert zunehmend an Einfluss in der internationalen Gemeinschaft."
+          },
+          {
+            "japanese": "先生の言葉は子どもたちに対して強い影響力がある。",
+            "romaji": "Sensei no kotoba wa kodomotachi ni taishite tsuyoi eikyōryoku ga aru.",
+            "german": "Die Worte des Lehrers haben großen Einfluss auf die Kinder."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1173680 sense 1, noun: influence, clout, leverage Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 影響力 ist die Fähigkeit, auf andere einzuwirken – „Einfluss“ im Sinne von Macht oder Gewicht einer Person, Firma oder eines Landes. Typisch sind 影響力がある／大きい／強い, 影響力を持つ, 影響力を失う und 〜に対する影響力. Im Unterschied zu 影響, das die konkrete Wirkung selbst bezeichnet (天気の影響で遅れる), meint 影響力 das Potenzial zur Einflussnahme. Sachlich-neutral, häufig in Medien, Politik und Wirtschaft. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1173680; spelling=影響力; reading=えいきょうりょく",
+          "selected": {
+            "sequence": "1173680",
+            "spelling": "影響力",
+            "reading": "えいきょうりょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "influence",
+                  "clout",
+                  "leverage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1173680 sense 1, noun: influence, clout, leverage"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 影響力/えいきょうりょく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BD%B1%E9%9F%BF%E5%8A%9B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 影響力/えいきょうりょく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einfluss; Einflusskraft. JMdict 1173680 sense 1, noun: influence, clout, leverage",
+        "japanese": "彼女はメディアで大きな影響力を持っている。 / その国は国際社会での影響力を失いつつある。 / 先生の言葉は子どもたちに対して強い影響力がある。",
+        "romanization": "eikyōryoku; Kanojo wa media de ōkina eikyōryoku o motte iru. / Sono kuni wa kokusai shakai de no eikyōryoku o ushinaitsutsu aru. / Sensei no kotoba wa kodomotachi ni taishite tsuyoi eikyōryoku ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie hat großen Einfluss in den Medien. / Dieses Land verliert zunehmend an Einfluss in der internationalen Gemeinschaft. / Die Worte des Lehrers haben großen Einfluss auf die Kinder.",
+        "contexts": [
+          "Media personality",
+          "Declining international standing",
+          "Teacher's words"
+        ],
+        "lexical": "JMdict 1173680 sense 1, noun: influence, clout, leverage",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:142 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Media personality; Declining international standing; Teacher's words), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2a9d3a7a2badd3ff9a95c9aadaf8dcb13f599156f97aba1279d803193b29cfdb",
+        "approvalHash": "a10819699b50b708b52b9820496a26a36d5b8a199a34b80b327b89f216762d56"
+      }
+    },
+    {
+      "id": "vocab-n2:143",
+      "revisionId": "192a-n2-enrichment-vocab-n2-143",
+      "state": "accepted",
+      "predecessorHash": "9ec9fcba78b5d363e44d2ca3cc1a8227f69e53327bb4ec0dcd9df8308c327c6c",
+      "originalHash": "9ec9fcba78b5d363e44d2ca3cc1a8227f69e53327bb4ec0dcd9df8308c327c6c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "多数決で決めることにした。",
+            "romaji": "Tasūketsu de kimeru koto ni shita.",
+            "german": "Wir beschlossen, per Mehrheitsentscheid zu entscheiden."
+          }
+        ],
+        "meaning": "Mehrheit; Mehrzahl",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "多数 bedeutet „eine große Zahl, viele“ und als Gegensatz zu 少数 „die Mehrheit“. Attributiv steht es mit の (多数の人々, 多数の応募), es kann aber auch adverbial stehen: 応募が多数寄せられた. Feste Verbindungen sind 多数決 („Mehrheitsentscheid“) und 多数派 („Mehrheitsfraktion“). Es klingt sachlich-schriftsprachlich; im Alltag sagt man meist たくさん oder 多くの, und für „mehr als die Hälfte“ präziser 過半数.",
+        "examples": [
+          {
+            "japanese": "多数決で決めることにした。",
+            "romaji": "Tasūketsu de kimeru koto ni shita.",
+            "german": "Wir haben beschlossen, es per Mehrheitsentscheid zu regeln."
+          },
+          {
+            "japanese": "この事故で多数の負傷者が出た。",
+            "romaji": "Kono jiko de tasū no fushōsha ga deta.",
+            "german": "Bei dem Unfall gab es zahlreiche Verletzte."
+          },
+          {
+            "japanese": "賛成が多数を占め、計画は承認された。",
+            "romaji": "Sansei ga tasū o shime, keikaku wa shōnin sareta.",
+            "german": "Die Befürworter waren in der Mehrheit, und der Plan wurde genehmigt."
+          }
+        ],
+        "meaning": "große Anzahl, Vielzahl; Mehrheit",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@160165688",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 多数/タスウ; lemma 多数; 名詞/普通名詞/副詞可能/*; *; *; aType 2.",
+            "match": {
+              "word": "多数",
+              "reading": "たすう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 多数/たすう \"Mehrheit; Mehrzahl\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1407860 senses 1–2, noun / no-adjective: large number, many; majority Pitch: Verified [2] via exact UniDic row; stored primary 1 corrected to 2. 多数 bedeutet „eine große Zahl, viele“ und als Gegensatz zu 少数 „die Mehrheit“. Attributiv steht es mit の (多数の人々, 多数の応募), es kann aber auch adverbial stehen: 応募が多数寄せられた. Feste Verbindungen sind 多数決 („Mehrheitsentscheid“) und 多数派 („Mehrheitsfraktion“). Es klingt sachlich-schriftsprachlich; im Alltag sagt man meist たくさん oder 多くの, und für „mehr als die Hälfte“ präziser 過半数. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1407860; spelling=多数; reading=たすう",
+          "selected": {
+            "sequence": "1407860",
+            "spelling": "多数",
+            "reading": "たすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "large number (of)",
+                  "many"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "majority"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1407860 senses 1–2, noun / no-adjective: large number, many; majority"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 1 corrected to 2. Exact whole 多数/タスウ; lemma 多数; 名詞/普通名詞/副詞可能/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@160165688",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 多数/タスウ; lemma 多数; 名詞/普通名詞/副詞可能/*; *; *; aType 2.",
+            "match": {
+              "word": "多数",
+              "reading": "たすう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 多数/たすう \"Mehrheit; Mehrzahl\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "große Anzahl, Vielzahl; Mehrheit. JMdict 1407860 senses 1–2, noun / no-adjective: large number, many; majority",
+        "japanese": "多数決で決めることにした。 / この事故で多数の負傷者が出た。 / 賛成が多数を占め、計画は承認された。",
+        "romanization": "tasū; Tasūketsu de kimeru koto ni shita. / Kono jiko de tasū no fushōsha ga deta. / Sansei ga tasū o shime, keikaku wa shōnin sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben beschlossen, es per Mehrheitsentscheid zu regeln. / Bei dem Unfall gab es zahlreiche Verletzte. / Die Befürworter waren in der Mehrheit, und der Plan wurde genehmigt.",
+        "contexts": [
+          "Deciding by vote",
+          "Accident report",
+          "Vote outcome"
+        ],
+        "lexical": "JMdict 1407860 senses 1–2, noun / no-adjective: large number, many; majority",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:143 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Deciding by vote; Accident report; Vote outcome), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d416069e34194e2a893b9878fa928d84fdf897ddca1dba6233d62e9d8e17bade",
+        "approvalHash": "f8604c131c5c02c56b5a7101fec23798df4f7b332665e44fa09d568ca17d8e93"
+      }
+    },
+    {
+      "id": "vocab-n2:144",
+      "revisionId": "192a-n2-enrichment-vocab-n2-144",
+      "state": "accepted",
+      "predecessorHash": "bfee6d1aff7ab8fd0e7566079a8bca87a6080f5a23426a3ce1257dd7cf0c077d",
+      "originalHash": "bfee6d1aff7ab8fd0e7566079a8bca87a6080f5a23426a3ce1257dd7cf0c077d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "少数意見も尊重するべきだ。",
+            "romaji": "Shōsū iken mo sonchō suru beki da.",
+            "german": "Auch die Meinung der Minderheit sollte respektiert werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "少数 bedeutet „eine kleine Zahl, wenige“ und ist das Gegenstück zu 多数. Häufige Verbindungen sind 少数意見 („Minderheitsmeinung“), 少数派 („Minderheit, Minderheitsfraktion“) und 少数民族 („ethnische Minderheit“); attributiv steht es mit の: ごく少数の人. Achtung: 小数 mit 小 ist die „Dezimalzahl“ in der Mathematik – gleiche Lesung, andere Bedeutung.",
+        "examples": [
+          {
+            "japanese": "少数意見も尊重するべきだ。",
+            "romaji": "Shōsū iken mo sonchō suru beki da.",
+            "german": "Auch die Meinung der Minderheit sollte respektiert werden."
+          },
+          {
+            "japanese": "この村には少数民族が暮らしている。",
+            "romaji": "Kono mura ni wa shōsū minzoku ga kurashite iru.",
+            "german": "In diesem Dorf lebt eine ethnische Minderheit."
+          },
+          {
+            "japanese": "反対したのはごく少数の人だけだった。",
+            "romaji": "Hantai shita no wa goku shōsū no hito dake datta.",
+            "german": "Nur sehr wenige waren dagegen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140932591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 少数/ショウスウ; lemma 少数; 名詞/普通名詞/副詞可能/*; *; *; aType 3.",
+            "match": {
+              "word": "少数",
+              "reading": "しょうすう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 少数/しょうすう \"Minderheit; kleine Anzahl\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1349070 sense 1, noun / no-adjective: small number, few, minority Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 少数 bedeutet „eine kleine Zahl, wenige“ und ist das Gegenstück zu 多数. Häufige Verbindungen sind 少数意見 („Minderheitsmeinung“), 少数派 („Minderheit, Minderheitsfraktion“) und 少数民族 („ethnische Minderheit“); attributiv steht es mit の: ごく少数の人. Achtung: 小数 mit 小 ist die „Dezimalzahl“ in der Mathematik – gleiche Lesung, andere Bedeutung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1349070; spelling=少数; reading=しょうすう",
+          "selected": {
+            "sequence": "1349070",
+            "spelling": "少数",
+            "reading": "しょうすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "small number",
+                  "few",
+                  "minority"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1349070 sense 1, noun / no-adjective: small number, few, minority"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 少数/ショウスウ; lemma 少数; 名詞/普通名詞/副詞可能/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140932591",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 少数/ショウスウ; lemma 少数; 名詞/普通名詞/副詞可能/*; *; *; aType 3.",
+            "match": {
+              "word": "少数",
+              "reading": "しょうすう",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 少数/しょうすう \"Minderheit; kleine Anzahl\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Minderheit; kleine Anzahl. JMdict 1349070 sense 1, noun / no-adjective: small number, few, minority",
+        "japanese": "少数意見も尊重するべきだ。 / この村には少数民族が暮らしている。 / 反対したのはごく少数の人だけだった。",
+        "romanization": "shōsū; Shōsū iken mo sonchō suru beki da. / Kono mura ni wa shōsū minzoku ga kurashite iru. / Hantai shita no wa goku shōsū no hito dake datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auch die Meinung der Minderheit sollte respektiert werden. / In diesem Dorf lebt eine ethnische Minderheit. / Nur sehr wenige waren dagegen.",
+        "contexts": [
+          "Respecting dissent",
+          "Ethnic minority village",
+          "Few objections"
+        ],
+        "lexical": "JMdict 1349070 sense 1, noun / no-adjective: small number, few, minority",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:144 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Respecting dissent; Ethnic minority village; Few objections), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "396ccd14d5783935c534dc1cfdf6fc241a2b26ba0e134c940a6f64747277d9ff",
+        "approvalHash": "eca7a074a52cec5aa627eacbffac6d0979f88cc0429b98e0a7bd0079c1fd5c34"
+      }
+    },
+    {
+      "id": "vocab-n2:145",
+      "revisionId": "192a-n2-enrichment-vocab-n2-145",
+      "state": "accepted",
+      "predecessorHash": "9258ac0f097296aac42df0cdb762e104d02c3456fa5ead5e93bdf0aa7e619e30",
+      "originalHash": "9258ac0f097296aac42df0cdb762e104d02c3456fa5ead5e93bdf0aa7e619e30",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "過半数の賛成で議案が通った。",
+            "romaji": "Kahansū no sansei de gian ga tōtta.",
+            "german": "Der Antrag wurde mit absoluter Mehrheit angenommen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "過半数 ist „mehr als die Hälfte“, also die absolute Mehrheit – im Unterschied zu 多数, das nur „die größere Zahl“ meint. Typische Wendungen sind 過半数を占める („die Mehrheit stellen“), 過半数を超える, 過半数に達する／届かない und 過半数の賛成. Das Wort ist sachlich und begegnet vor allem bei Wahlen, Abstimmungen und Umfragen.",
+        "examples": [
+          {
+            "japanese": "過半数の賛成で議案が通った。",
+            "romaji": "Kahansū no sansei de gian ga tōtta.",
+            "german": "Der Antrag wurde mit absoluter Mehrheit angenommen."
+          },
+          {
+            "japanese": "その政党は選挙で過半数を獲得した。",
+            "romaji": "Sono seitō wa senkyo de kahansū o kakutoku shita.",
+            "german": "Die Partei errang bei der Wahl die absolute Mehrheit."
+          },
+          {
+            "japanese": "回答者の過半数が今の生活に満足していると答えた。",
+            "romaji": "Kaitōsha no kahansū ga ima no seikatsu ni manzoku shite iru to kotaeta.",
+            "german": "Mehr als die Hälfte der Befragten gab an, mit ihrem jetzigen Leben zufrieden zu sein."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1196380 sense 1, noun: majority (more than half) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 3). 過半数 ist „mehr als die Hälfte“, also die absolute Mehrheit – im Unterschied zu 多数, das nur „die größere Zahl“ meint. Typische Wendungen sind 過半数を占める („die Mehrheit stellen“), 過半数を超える, 過半数に達する／届かない und 過半数の賛成. Das Wort ist sachlich und begegnet vor allem bei Wahlen, Abstimmungen und Umfragen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1196380; spelling=過半数; reading=かはんすう",
+          "selected": {
+            "sequence": "1196380",
+            "spelling": "過半数",
+            "reading": "かはんすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "majority"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1196380 sense 1, noun: majority (more than half)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 過半数/かはんすう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%8E%E5%8D%8A%E6%95%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 過半数/かはんすう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mehrheit; absolute Mehrheit. JMdict 1196380 sense 1, noun: majority (more than half)",
+        "japanese": "過半数の賛成で議案が通った。 / その政党は選挙で過半数を獲得した。 / 回答者の過半数が今の生活に満足していると答えた。",
+        "romanization": "kahansū; Kahansū no sansei de gian ga tōtta. / Sono seitō wa senkyo de kahansū o kakutoku shita. / Kaitōsha no kahansū ga ima no seikatsu ni manzoku shite iru to kotaeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Antrag wurde mit absoluter Mehrheit angenommen. / Die Partei errang bei der Wahl die absolute Mehrheit. / Mehr als die Hälfte der Befragten gab an, mit ihrem jetzigen Leben zufrieden zu sein.",
+        "contexts": [
+          "Parliamentary vote",
+          "Election result",
+          "Survey result"
+        ],
+        "lexical": "JMdict 1196380 sense 1, noun: majority (more than half)",
+        "register": "neutral / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:145 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Parliamentary vote; Election result; Survey result), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8565c194cb666c3d56dbe2b3f547682e048f2449c9b152fa5def38907d294666",
+        "approvalHash": "e312ca01d0f6037470b6071a1a2c9a4a14cc513ae3a9f6832280069b65b8a83a"
+      }
+    },
+    {
+      "id": "vocab-n2:146",
+      "revisionId": "192a-n2-enrichment-vocab-n2-146",
+      "state": "accepted",
+      "predecessorHash": "05e5e8aae0e26701dd8e687c0b97c3cbdc017ed84ca559983b7f401f7f85fb00",
+      "originalHash": "05e5e8aae0e26701dd8e687c0b97c3cbdc017ed84ca559983b7f401f7f85fb00",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "問題解決には対話が欠かせない。",
+            "romaji": "Mondai kaiketsu ni wa taiwa ga kakasenai.",
+            "german": "Zur Problemlösung ist Dialog unerlässlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "対話 ist ein Gespräch mit echtem Austausch, besonders der „Dialog“ zwischen Parteien mit unterschiedlichen Standpunkten. Typisch sind 〜と対話する, 対話を重ねる, 対話を通じて und 対話の場を設ける. Anders als 会話, das jedes alltägliche Gespräch meint, klingt 対話 ernsthafter und zielt auf gegenseitiges Verständnis; 会談 ist dagegen ein offizielles Treffen hochrangiger Vertreter. Häufig in Politik, Bildung und Diplomatie.",
+        "examples": [
+          {
+            "japanese": "問題解決には対話が欠かせない。",
+            "romaji": "Mondai kaiketsu ni wa taiwa ga kakasenai.",
+            "german": "Zur Problemlösung ist Dialog unerlässlich."
+          },
+          {
+            "japanese": "市長は住民と直接対話する機会を設けた。",
+            "romaji": "Shichō wa jūmin to chokusetsu taiwa suru kikai o mōketa.",
+            "german": "Der Bürgermeister schuf eine Gelegenheit zum direkten Dialog mit den Einwohnern."
+          },
+          {
+            "japanese": "親子の対話が減っていると言われている。",
+            "romaji": "Oyako no taiwa ga hette iru to iwarete iru.",
+            "german": "Es heißt, dass Eltern und Kinder immer weniger miteinander reden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158257297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 対話/タイワ; lemma 対話; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "対話",
+              "reading": "たいわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 対話/たいわ \"Dialog; Gespräch\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1410300 sense 1, noun / suru verb: dialogue, conversation, communication Pitch: Verified [0] via exact UniDic row. 対話 ist ein Gespräch mit echtem Austausch, besonders der „Dialog“ zwischen Parteien mit unterschiedlichen Standpunkten. Typisch sind 〜と対話する, 対話を重ねる, 対話を通じて und 対話の場を設ける. Anders als 会話, das jedes alltägliche Gespräch meint, klingt 対話 ernsthafter und zielt auf gegenseitiges Verständnis; 会談 ist dagegen ein offizielles Treffen hochrangiger Vertreter. Häufig in Politik, Bildung und Diplomatie. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1410300; spelling=対話; reading=たいわ",
+          "selected": {
+            "sequence": "1410300",
+            "spelling": "対話",
+            "reading": "たいわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dialogue",
+                  "conversation",
+                  "talk",
+                  "discussion",
+                  "communication"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1410300 sense 1, noun / suru verb: dialogue, conversation, communication"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 対話/タイワ; lemma 対話; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158257297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 対話/タイワ; lemma 対話; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "対話",
+              "reading": "たいわ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 対話/たいわ \"Dialog; Gespräch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dialog; Gespräch. JMdict 1410300 sense 1, noun / suru verb: dialogue, conversation, communication",
+        "japanese": "問題解決には対話が欠かせない。 / 市長は住民と直接対話する機会を設けた。 / 親子の対話が減っていると言われている。",
+        "romanization": "taiwa; Mondai kaiketsu ni wa taiwa ga kakasenai. / Shichō wa jūmin to chokusetsu taiwa suru kikai o mōketa. / Oyako no taiwa ga hette iru to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zur Problemlösung ist Dialog unerlässlich. / Der Bürgermeister schuf eine Gelegenheit zum direkten Dialog mit den Einwohnern. / Es heißt, dass Eltern und Kinder immer weniger miteinander reden.",
+        "contexts": [
+          "Conflict resolution",
+          "Town hall meeting",
+          "Family communication"
+        ],
+        "lexical": "JMdict 1410300 sense 1, noun / suru verb: dialogue, conversation, communication",
+        "register": "neutral / somewhat formal",
+        "transitivity": "intransitive in practice as 対話する (〜と対話する)",
+        "conjugation": "noun; suru verb (対話する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:146 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Conflict resolution; Town hall meeting; Family communication), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f702333955e4d8186b6c597a1bcc91436e6193cfab3f2dbb7a3f5705f8ec73e1",
+        "approvalHash": "2b528180ab2195098c43fc1729aeb003f1d40b6e2affa1de6eb444f6f2cb301a"
+      }
+    },
+    {
+      "id": "vocab-n2:147",
+      "revisionId": "192a-n2-enrichment-vocab-n2-147",
+      "state": "accepted",
+      "predecessorHash": "7eee03ab921b7fb427ec11838d3b4d0a2cc441d7a699492259b2d40089ca93f7",
+      "originalHash": "7eee03ab921b7fb427ec11838d3b4d0a2cc441d7a699492259b2d40089ca93f7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不景気のせいで多くの店が閉まった。",
+            "romaji": "Fukeiki no sei de ōku no mise ga shimatta.",
+            "german": "Wegen der Rezession haben viele Geschäfte geschlossen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不景気 bezeichnet eine schlechte Wirtschaftslage, eine „Konjunkturflaute“ oder „Rezession“; das Gegenteil ist 好景気. Es wird als Nomen (不景気が続く, 不景気のせいで) und als な-Adjektiv gebraucht (不景気な世の中). Im Gespräch sagt man auch einfach 景気が悪い; das fachlichere Wort für eine tiefe Krise ist 不況. Übertragen bedeutet 不景気な顔 ein „trübsinniges Gesicht“.",
+        "examples": [
+          {
+            "japanese": "不景気のせいで多くの店が閉まった。",
+            "romaji": "Fukeiki no sei de ōku no mise ga shimatta.",
+            "german": "Wegen der Rezession haben viele Geschäfte geschlossen."
+          },
+          {
+            "japanese": "不景気が続いて、なかなか給料が上がらない。",
+            "romaji": "Fukeiki ga tsuzuite, nakanaka kyūryō ga agaranai.",
+            "german": "Die Flaute hält an, und die Löhne steigen einfach nicht."
+          },
+          {
+            "japanese": "朝から不景気な顔をして、どうしたの？",
+            "romaji": "Asa kara fukeiki na kao o shite, dō shita no?",
+            "german": "Du machst schon seit dem Morgen so ein trübes Gesicht – was ist los?"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1492120 senses 1 and 3, noun / na-adjective: recession, hard times; gloomy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 不景気 bezeichnet eine schlechte Wirtschaftslage, eine „Konjunkturflaute“ oder „Rezession“; das Gegenteil ist 好景気. Es wird als Nomen (不景気が続く, 不景気のせいで) und als な-Adjektiv gebraucht (不景気な世の中). Im Gespräch sagt man auch einfach 景気が悪い; das fachlichere Wort für eine tiefe Krise ist 不況. Übertragen bedeutet 不景気な顔 ein „trübsinniges Gesicht“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1492120; spelling=不景気; reading=ふけいき",
+          "selected": {
+            "sequence": "1492120",
+            "spelling": "不景気",
+            "reading": "ふけいき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "economic slump",
+                  "hard times",
+                  "depression",
+                  "recession"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poor (business)",
+                  "dull",
+                  "slack",
+                  "inactive"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gloomy",
+                  "cheerless",
+                  "dismal"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1492120 senses 1 and 3, noun / na-adjective: recession, hard times; gloomy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不景気/ふけいき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E6%99%AF%E6%B0%97",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不景気/ふけいき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rezession. JMdict 1492120 senses 1 and 3, noun / na-adjective: recession, hard times; gloomy",
+        "japanese": "不景気のせいで多くの店が閉まった。 / 不景気が続いて、なかなか給料が上がらない。 / 朝から不景気な顔をして、どうしたの？",
+        "romanization": "fukeiki; Fukeiki no sei de ōku no mise ga shimatta. / Fukeiki ga tsuzuite, nakanaka kyūryō ga agaranai. / Asa kara fukeiki na kao o shite, dō shita no? Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen der Rezession haben viele Geschäfte geschlossen. / Die Flaute hält an, und die Löhne steigen einfach nicht. / Du machst schon seit dem Morgen so ein trübes Gesicht – was ist los?",
+        "contexts": [
+          "Shop closures",
+          "Stagnant wages",
+          "Gloomy face"
+        ],
+        "lexical": "JMdict 1492120 senses 1 and 3, noun / na-adjective: recession, hard times; gloomy",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "noun; na-adjective (不景気な)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:147 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shop closures; Stagnant wages; Gloomy face), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4acfd78e5a57d763e5b7d5926a3894d6373d00d530486f0676cc4ec1b1e5b70b",
+        "approvalHash": "d5f9fbe31274d9ef2c06791fb03888999f578374b4abe6688b0adff7f88f7c47"
+      }
+    },
+    {
+      "id": "vocab-n2:148",
+      "revisionId": "192a-n2-enrichment-vocab-n2-148",
+      "state": "accepted",
+      "predecessorHash": "21f730cc6bd93dad0429b184a497b300ef1d13ac99825ffe3813f7b0db201669",
+      "originalHash": "21f730cc6bd93dad0429b184a497b300ef1d13ac99825ffe3813f7b0db201669",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "好景気が続き、失業率が下がった。",
+            "romaji": "Kōkeiki ga tsuzuki, shitsugyōritsu ga sagatta.",
+            "german": "Die Hochkonjunktur hielt an und die Arbeitslosenquote sank."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "好景気 ist eine gute Wirtschaftslage, „Hochkonjunktur“ oder „Boom“, das Gegenteil von 不景気. Typisch sind 好景気が続く, 好景気に沸く („von einem Boom erfasst sein“) und 好景気の波に乗る. Im Gespräch sagt man meist einfach 景気がいい; 好景気 klingt sachlicher und steht oft in Nachrichten und Wirtschaftstexten.",
+        "examples": [
+          {
+            "japanese": "好景気が続き、失業率が下がった。",
+            "romaji": "Kōkeiki ga tsuzuki, shitsugyōritsu ga sagatta.",
+            "german": "Die Hochkonjunktur hielt an und die Arbeitslosenquote sank."
+          },
+          {
+            "japanese": "好景気のおかげで、ボーナスが去年より増えた。",
+            "romaji": "Kōkeiki no okage de, bōnasu ga kyonen yori fueta.",
+            "german": "Dank der guten Konjunktur fiel der Bonus höher aus als letztes Jahr."
+          },
+          {
+            "japanese": "当時の日本は好景気に沸いていた。",
+            "romaji": "Tōji no Nihon wa kōkeiki ni waite ita.",
+            "german": "Japan erlebte damals einen regelrechten Wirtschaftsboom."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1631220 sense 1, noun: good times, boom, prosperity Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 1). 好景気 ist eine gute Wirtschaftslage, „Hochkonjunktur“ oder „Boom“, das Gegenteil von 不景気. Typisch sind 好景気が続く, 好景気に沸く („von einem Boom erfasst sein“) und 好景気の波に乗る. Im Gespräch sagt man meist einfach 景気がいい; 好景気 klingt sachlicher und steht oft in Nachrichten und Wirtschaftstexten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1631220; spelling=好景気; reading=こうけいき",
+          "selected": {
+            "sequence": "1631220",
+            "spelling": "好景気",
+            "reading": "こうけいき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "good times",
+                  "boom",
+                  "(wave of) prosperity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1631220 sense 1, noun: good times, boom, prosperity"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 好景気/こうけいき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A5%BD%E6%99%AF%E6%B0%97",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 好景気/こうけいき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hochkonjunktur. JMdict 1631220 sense 1, noun: good times, boom, prosperity",
+        "japanese": "好景気が続き、失業率が下がった。 / 好景気のおかげで、ボーナスが去年より増えた。 / 当時の日本は好景気に沸いていた。",
+        "romanization": "kōkeiki; Kōkeiki ga tsuzuki, shitsugyōritsu ga sagatta. / Kōkeiki no okage de, bōnasu ga kyonen yori fueta. / Tōji no Nihon wa kōkeiki ni waite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Hochkonjunktur hielt an und die Arbeitslosenquote sank. / Dank der guten Konjunktur fiel der Bonus höher aus als letztes Jahr. / Japan erlebte damals einen regelrechten Wirtschaftsboom.",
+        "contexts": [
+          "Falling unemployment",
+          "Bigger bonus",
+          "Historical boom"
+        ],
+        "lexical": "JMdict 1631220 sense 1, noun: good times, boom, prosperity",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:148 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Falling unemployment; Bigger bonus; Historical boom), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ef6db68749672f8273ae37e89c23efe13a23c78e1325aeea1b5a175efcc9068f",
+        "approvalHash": "8708fe054ccbb50cba09a11ee8f69b81eebe8e15a0ef8217359b454781fa447e"
+      }
+    },
+    {
+      "id": "vocab-n2:149",
+      "revisionId": "192a-n2-enrichment-vocab-n2-149",
+      "state": "accepted",
+      "predecessorHash": "b56847397151a39d607548b3e5ab70db360efe195a9474f3e4a58cbc2c4b902a",
+      "originalHash": "b56847397151a39d607548b3e5ab70db360efe195a9474f3e4a58cbc2c4b902a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この国の経済成長は著しい。",
+            "romaji": "Kono kuni no keizai seichō wa ichijirushii.",
+            "german": "Das Wirtschaftswachstum dieses Landes ist bemerkenswert."
+          }
+        ],
+        "meaning": "Wachstum",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "成長 ist das Wachsen und Reifen von Lebewesen – Kinder, Tiere, aber auch die persönliche Entwicklung – sowie das Wachstum von Firmen und Volkswirtschaften. Als intransitives する-Verb: 子どもが成長する, 会社が成長する; typische Komposita sind 経済成長 und 成長率. Im Unterschied zu 発展 („Entwicklung, Aufschwung“) betont 成長 das Größer- und Reiferwerden; für Pflanzen schreibt man fachsprachlich auch 生長.",
+        "examples": [
+          {
+            "japanese": "この国の経済成長は著しい。",
+            "romaji": "Kono kuni no keizai seichō wa ichijirushii.",
+            "german": "Das Wirtschaftswachstum dieses Landes ist bemerkenswert."
+          },
+          {
+            "japanese": "しばらく会わないうちに、ずいぶん成長したね。",
+            "romaji": "Shibaraku awanai uchi ni, zuibun seichō shita ne.",
+            "german": "Du bist ja richtig groß geworden, seit wir uns zuletzt gesehen haben."
+          },
+          {
+            "japanese": "この仕事を通じて、人として大きく成長できた。",
+            "romaji": "Kono shigoto o tsūjite, hito to shite ōkiku seichō dekita.",
+            "german": "Durch diese Arbeit bin ich als Mensch sehr gereift."
+          }
+        ],
+        "meaning": "Wachstum; Heranwachsen, Entwicklung",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152187909",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 成長/セイチョウ; lemma 成長; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "成長",
+              "reading": "せいちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 成長/せいちょう \"Wachstum\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1375790 senses 1–2, noun / suru verb: growth, growing up; growth of a company or economy Pitch: Verified [0] via exact UniDic row. 成長 ist das Wachsen und Reifen von Lebewesen – Kinder, Tiere, aber auch die persönliche Entwicklung – sowie das Wachstum von Firmen und Volkswirtschaften. Als intransitives する-Verb: 子どもが成長する, 会社が成長する; typische Komposita sind 経済成長 und 成長率. Im Unterschied zu 発展 („Entwicklung, Aufschwung“) betont 成長 das Größer- und Reiferwerden; für Pflanzen schreibt man fachsprachlich auch 生長. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1375790; spelling=成長; reading=せいちょう",
+          "selected": {
+            "sequence": "1375790",
+            "spelling": "成長",
+            "reading": "せいちょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "growth",
+                  "development",
+                  "growing up",
+                  "becoming an adult"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "growth (of a company, the economy, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1375790 senses 1–2, noun / suru verb: growth, growing up; growth of a company or economy"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 成長/セイチョウ; lemma 成長; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152187909",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 成長/セイチョウ; lemma 成長; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "成長",
+              "reading": "せいちょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 成長/せいちょう \"Wachstum\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wachstum; Heranwachsen, Entwicklung. JMdict 1375790 senses 1–2, noun / suru verb: growth, growing up; growth of a company or economy",
+        "japanese": "この国の経済成長は著しい。 / しばらく会わないうちに、ずいぶん成長したね。 / この仕事を通じて、人として大きく成長できた。",
+        "romanization": "seichō; Kono kuni no keizai seichō wa ichijirushii. / Shibaraku awanai uchi ni, zuibun seichō shita ne. / Kono shigoto o tsūjite, hito to shite ōkiku seichō dekita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Wirtschaftswachstum dieses Landes ist bemerkenswert. / Du bist ja richtig groß geworden, seit wir uns zuletzt gesehen haben. / Durch diese Arbeit bin ich als Mensch sehr gereift.",
+        "contexts": [
+          "Economic growth",
+          "Seeing a child again",
+          "Personal growth"
+        ],
+        "lexical": "JMdict 1375790 senses 1–2, noun / suru verb: growth, growing up; growth of a company or economy",
+        "register": "neutral",
+        "transitivity": "intransitive as 成長する",
+        "conjugation": "noun; suru verb (成長する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:149 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Economic growth; Seeing a child again; Personal growth), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "85deaef2cefeb136cfba8bb22c708dfc42543c0953aadd3a74f9994f3065c359",
+        "approvalHash": "6b4a0d67eca3e8e35dfb51f8eab519192cb10ce880edc15aee36168d6e9adf07"
+      }
+    },
+    {
+      "id": "vocab-n2:150",
+      "revisionId": "192a-n2-enrichment-vocab-n2-150",
+      "state": "accepted",
+      "predecessorHash": "424d99beb59aadf380275010b199b8eb5f3eaad7cb6a47801ebf4f4b9b90324a",
+      "originalHash": "424d99beb59aadf380275010b199b8eb5f3eaad7cb6a47801ebf4f4b9b90324a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "アジアの経済発展は目覚ましい。",
+            "romaji": "Ajia no keizai hatten wa mezamashii.",
+            "german": "Die wirtschaftliche Entwicklung Asiens ist beeindruckend."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "発展 bedeutet „Entwicklung, Aufschwung“ hin zu einem größeren, höheren oder blühenderen Zustand: 経済が発展する, 町が発展する, 発展途上国 („Entwicklungsland“). Außerdem beschreibt es, wie sich eine Lage weiterentwickelt: 〜に発展する („sich zu … auswachsen“). Es ist ein intransitives する-Verb; „etwas entwickeln“ (Produkt, Technik) heißt dagegen 開発する. Neben 成長 (Größer- und Reiferwerden) betont 発展 Ausbreitung und Fortschritt.",
+        "examples": [
+          {
+            "japanese": "アジアの経済発展は目覚ましい。",
+            "romaji": "Ajia no keizai hatten wa mezamashii.",
+            "german": "Die wirtschaftliche Entwicklung Asiens ist beeindruckend."
+          },
+          {
+            "japanese": "この町は鉄道が開通してから大きく発展した。",
+            "romaji": "Kono machi wa tetsudō ga kaitsū shite kara ōkiku hatten shita.",
+            "german": "Diese Stadt hat sich stark entwickelt, seit die Bahnlinie eröffnet wurde."
+          },
+          {
+            "japanese": "小さな口げんかが大きなトラブルに発展した。",
+            "romaji": "Chiisana kuchigenka ga ōkina toraburu ni hatten shita.",
+            "german": "Aus einem kleinen Wortwechsel wurde ein handfester Streit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215882669",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 発展/ハッテン; lemma 発展; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "発展",
+              "reading": "はってん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 発展/はってん \"Entwicklung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1477720 senses 1–2, noun / suru verb: development, growth, expansion; development of a situation Pitch: Verified [0] via exact UniDic row. 発展 bedeutet „Entwicklung, Aufschwung“ hin zu einem größeren, höheren oder blühenderen Zustand: 経済が発展する, 町が発展する, 発展途上国 („Entwicklungsland“). Außerdem beschreibt es, wie sich eine Lage weiterentwickelt: 〜に発展する („sich zu … auswachsen“). Es ist ein intransitives する-Verb; „etwas entwickeln“ (Produkt, Technik) heißt dagegen 開発する. Neben 成長 (Größer- und Reiferwerden) betont 発展 Ausbreitung und Fortschritt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477720; spelling=発展; reading=はってん",
+          "selected": {
+            "sequence": "1477720",
+            "spelling": "発展",
+            "reading": "はってん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "development",
+                  "growth",
+                  "expansion",
+                  "extension",
+                  "flourishing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "development (of a situation, story, etc.)",
+                  "advancement",
+                  "progression",
+                  "unfolding"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "playing around (sexually; esp. of a male homosexual)",
+                  "having an active sex life"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1477720 senses 1–2, noun / suru verb: development, growth, expansion; development of a situation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 発展/ハッテン; lemma 発展; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215882669",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 発展/ハッテン; lemma 発展; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "発展",
+              "reading": "はってん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 発展/はってん \"Entwicklung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entwicklung. JMdict 1477720 senses 1–2, noun / suru verb: development, growth, expansion; development of a situation",
+        "japanese": "アジアの経済発展は目覚ましい。 / この町は鉄道が開通してから大きく発展した。 / 小さな口げんかが大きなトラブルに発展した。",
+        "romanization": "hatten; Ajia no keizai hatten wa mezamashii. / Kono machi wa tetsudō ga kaitsū shite kara ōkiku hatten shita. / Chiisana kuchigenka ga ōkina toraburu ni hatten shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die wirtschaftliche Entwicklung Asiens ist beeindruckend. / Diese Stadt hat sich stark entwickelt, seit die Bahnlinie eröffnet wurde. / Aus einem kleinen Wortwechsel wurde ein handfester Streit.",
+        "contexts": [
+          "Asian economies",
+          "Town growth after railway",
+          "Escalating quarrel"
+        ],
+        "lexical": "JMdict 1477720 senses 1–2, noun / suru verb: development, growth, expansion; development of a situation",
+        "register": "neutral",
+        "transitivity": "intransitive as 発展する (〜に発展する)",
+        "conjugation": "noun; suru verb (発展する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:150 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Asian economies; Town growth after railway; Escalating quarrel), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "788d395cdda5e52254a387d1bd6d13a8ba3bfd62226f1a37615c04430d1f83d2",
+        "approvalHash": "0b380f48d563f2bff781af7ea64085af15bf35f029bc370a684f7f9699770254"
+      }
+    },
+    {
+      "id": "vocab-n2:151",
+      "revisionId": "192a-n2-enrichment-vocab-n2-151",
+      "state": "accepted",
+      "predecessorHash": "6c637389dc9854d46ddd577a940af71a3f29df0989bcea33bfbba235ca51e72d",
+      "originalHash": "6c637389dc9854d46ddd577a940af71a3f29df0989bcea33bfbba235ca51e72d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "毎月の収支を記録している。",
+            "romaji": "Maitsuki no shūshi o kiroku shite iru.",
+            "german": "Ich zeichne die monatliche Bilanz auf."
+          }
+        ],
+        "meaning": "Bilanz",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "収支 setzt sich aus 収 („Einnahmen“) und 支 („Ausgaben“) zusammen und meint die Gegenüberstellung beider, also Bilanz oder Haushaltslage. Typisch sind 収支が合う („aufgehen“), 収支のバランス, 収支が赤字／黒字になる sowie 貿易収支 („Handelsbilanz“). Es ist sachlich und wird für Privathaushalte wie für Firmen und Staaten verwendet; im Alltag sagt man auch einfach 収入と支出.",
+        "examples": [
+          {
+            "japanese": "毎月の収支を記録している。",
+            "romaji": "Maitsuki no shūshi o kiroku shite iru.",
+            "german": "Ich notiere jeden Monat meine Einnahmen und Ausgaben."
+          },
+          {
+            "japanese": "今月は収支が赤字になってしまった。",
+            "romaji": "Kongetsu wa shūshi ga akaji ni natte shimatta.",
+            "german": "Diesen Monat habe ich mehr ausgegeben als eingenommen."
+          },
+          {
+            "japanese": "日本の貿易収支は三か月ぶりに黒字となった。",
+            "romaji": "Nihon no bōeki shūshi wa sankagetsu buri ni kuroji to natta.",
+            "german": "Japans Handelsbilanz wies zum ersten Mal seit drei Monaten einen Überschuss auf."
+          }
+        ],
+        "meaning": "Einnahmen und Ausgaben, Bilanz",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139893594",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 収支/シュウシ; lemma 収支; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "収支",
+              "reading": "しゅうし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 収支/しゅうし \"Bilanz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1330640 sense 1, noun: income and expenditure, balance Pitch: Verified [1] via exact UniDic row. 収支 setzt sich aus 収 („Einnahmen“) und 支 („Ausgaben“) zusammen und meint die Gegenüberstellung beider, also Bilanz oder Haushaltslage. Typisch sind 収支が合う („aufgehen“), 収支のバランス, 収支が赤字／黒字になる sowie 貿易収支 („Handelsbilanz“). Es ist sachlich und wird für Privathaushalte wie für Firmen und Staaten verwendet; im Alltag sagt man auch einfach 収入と支出. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1330640; spelling=収支; reading=しゅうし",
+          "selected": {
+            "sequence": "1330640",
+            "spelling": "収支",
+            "reading": "しゅうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "income and expenditure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1330640 sense 1, noun: income and expenditure, balance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 収支/シュウシ; lemma 収支; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139893594",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 収支/シュウシ; lemma 収支; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "収支",
+              "reading": "しゅうし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 収支/しゅうし \"Bilanz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einnahmen und Ausgaben, Bilanz. JMdict 1330640 sense 1, noun: income and expenditure, balance",
+        "japanese": "毎月の収支を記録している。 / 今月は収支が赤字になってしまった。 / 日本の貿易収支は三か月ぶりに黒字となった。",
+        "romanization": "shūshi; Maitsuki no shūshi o kiroku shite iru. / Kongetsu wa shūshi ga akaji ni natte shimatta. / Nihon no bōeki shūshi wa sankagetsu buri ni kuroji to natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich notiere jeden Monat meine Einnahmen und Ausgaben. / Diesen Monat habe ich mehr ausgegeben als eingenommen. / Japans Handelsbilanz wies zum ersten Mal seit drei Monaten einen Überschuss auf.",
+        "contexts": [
+          "Household bookkeeping",
+          "Monthly deficit",
+          "Trade balance news"
+        ],
+        "lexical": "JMdict 1330640 sense 1, noun: income and expenditure, balance",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:151 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Household bookkeeping; Monthly deficit; Trade balance news), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9ad68e8153f89cb7bbe26a5895abbd34f34b6364edc31de758755eff83d419a0",
+        "approvalHash": "3704275052a98e702c74754147e7136e34537e50af3140453ccab1e9fbfec97e"
+      }
+    },
+    {
+      "id": "vocab-n2:152",
+      "revisionId": "192a-n2-enrichment-vocab-n2-152",
+      "state": "accepted",
+      "predecessorHash": "1fb68b0d4e2bacb23288184fe51f06d8307a2b119e3cdaea20c6102b9ce7a434",
+      "originalHash": "1fb68b0d4e2bacb23288184fe51f06d8307a2b119e3cdaea20c6102b9ce7a434",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "決算の結果、利益が出た。",
+            "romaji": "Kessan no kekka, rieki ga deta.",
+            "german": "Der Jahresabschluss ergab einen Gewinn."
+          }
+        ],
+        "meaning": "Jahresabschluss",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "決算 ist der Abschluss der Bücher am Ende einer Rechnungsperiode und das daraus resultierende Geschäftsergebnis. Häufig sind 決算期 („Abschlusszeitraum“), 決算発表 („Bekanntgabe der Geschäftszahlen“), 四半期決算 („Quartalsabschluss“) und 決算書 („Jahresabschlussbericht“). Als する-Verb ist es selten; meist steht es als Nomen. Gegenüber dem allgemeineren 会計 („Buchhaltung, Rechnung“) bezeichnet 決算 speziell den Periodenabschluss.",
+        "examples": [
+          {
+            "japanese": "決算の結果、利益が出た。",
+            "romaji": "Kessan no kekka, rieki ga deta.",
+            "german": "Der Jahresabschluss ergab einen Gewinn."
+          },
+          {
+            "japanese": "三月は決算期なので、経理部はとても忙しい。",
+            "romaji": "Sangatsu wa kessanki na node, keiribu wa totemo isogashii.",
+            "german": "Im März ist Abschlusszeit, deshalb hat die Buchhaltung sehr viel zu tun."
+          },
+          {
+            "japanese": "その会社は明日、四半期決算を発表する。",
+            "romaji": "Sono kaisha wa ashita, shihanki kessan o happyō suru.",
+            "german": "Das Unternehmen gibt morgen seine Quartalszahlen bekannt."
+          }
+        ],
+        "meaning": "Rechnungsabschluss, Jahresabschluss",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117882669",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 決算/ケッサン; lemma 決算; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "決算",
+              "reading": "けっさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 決算/けっさん \"Jahresabschluss\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1254290 sense 1, noun / suru verb: settlement of accounts, closing accounts, financial results Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 決算 ist der Abschluss der Bücher am Ende einer Rechnungsperiode und das daraus resultierende Geschäftsergebnis. Häufig sind 決算期 („Abschlusszeitraum“), 決算発表 („Bekanntgabe der Geschäftszahlen“), 四半期決算 („Quartalsabschluss“) und 決算書 („Jahresabschlussbericht“). Als する-Verb ist es selten; meist steht es als Nomen. Gegenüber dem allgemeineren 会計 („Buchhaltung, Rechnung“) bezeichnet 決算 speziell den Periodenabschluss. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1254290; spelling=決算; reading=けっさん",
+          "selected": {
+            "sequence": "1254290",
+            "spelling": "決算",
+            "reading": "けっさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "settlement of accounts",
+                  "closing accounts",
+                  "financial results",
+                  "reporting (of accounts)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1254290 sense 1, noun / suru verb: settlement of accounts, closing accounts, financial results"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 決算/ケッサン; lemma 決算; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117882669",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 決算/ケッサン; lemma 決算; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "決算",
+              "reading": "けっさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 決算/けっさん \"Jahresabschluss\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rechnungsabschluss, Jahresabschluss. JMdict 1254290 sense 1, noun / suru verb: settlement of accounts, closing accounts, financial results",
+        "japanese": "決算の結果、利益が出た。 / 三月は決算期なので、経理部はとても忙しい。 / その会社は明日、四半期決算を発表する。",
+        "romanization": "kessan; Kessan no kekka, rieki ga deta. / Sangatsu wa kessanki na node, keiribu wa totemo isogashii. / Sono kaisha wa ashita, shihanki kessan o happyō suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Jahresabschluss ergab einen Gewinn. / Im März ist Abschlusszeit, deshalb hat die Buchhaltung sehr viel zu tun. / Das Unternehmen gibt morgen seine Quartalszahlen bekannt.",
+        "contexts": [
+          "Profit result",
+          "Fiscal year-end rush",
+          "Quarterly earnings"
+        ],
+        "lexical": "JMdict 1254290 sense 1, noun / suru verb: settlement of accounts, closing accounts, financial results",
+        "register": "business / formal",
+        "transitivity": "Nonverb in practice (決算する rare, intransitive)",
+        "conjugation": "noun; suru verb rare (決算する)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:152 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Profit result; Fiscal year-end rush; Quarterly earnings), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7c026d9d0c537de781acda115f8d6c0622d6aeb54d4770a6a7de7ad97a48b5a7",
+        "approvalHash": "65e7d193bc3e791db09cbd8124068c0ab734d25053e466a56d29a1c48ff57684"
+      }
+    },
+    {
+      "id": "vocab-n2:153",
+      "revisionId": "192a-n2-enrichment-vocab-n2-153",
+      "state": "accepted",
+      "predecessorHash": "f43022018adb79c81742c21a5171225799ab36ffc854fdd600863f8e1cafcb3e",
+      "originalHash": "f43022018adb79c81742c21a5171225799ab36ffc854fdd600863f8e1cafcb3e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼の資産は数億円にのぼる。",
+            "romaji": "Kare no shisan wa sūokuen ni noboru.",
+            "german": "Sein Vermögen beläuft sich auf mehrere hundert Millionen Yen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "資産 bezeichnet Vermögen und Vermögenswerte, also alles mit Geldwert wie Bargeld, Immobilien oder Aktien. Typisch sind 資産を持つ／築く／運用する („anlegen“), 資産家 („vermögende Person“) und 資産価値; das Gegenstück in der Bilanz ist 負債 („Verbindlichkeiten“). Im Unterschied zu 財産, das eher den persönlichen Besitz und das Erbe meint, klingt 資産 betriebswirtschaftlich. Übertragen auch: 社員は会社の資産だ.",
+        "examples": [
+          {
+            "japanese": "彼の資産は数億円にのぼる。",
+            "romaji": "Kare no shisan wa sūokuen ni noboru.",
+            "german": "Sein Vermögen beläuft sich auf mehrere hundert Millionen Yen."
+          },
+          {
+            "japanese": "老後のために資産を運用している。",
+            "romaji": "Rōgo no tame ni shisan o un'yō shite iru.",
+            "german": "Ich lege mein Vermögen für den Ruhestand an."
+          },
+          {
+            "japanese": "社員こそが会社の一番の資産だ。",
+            "romaji": "Shain koso ga kaisha no ichiban no shisan da.",
+            "german": "Die Mitarbeiter sind das wertvollste Kapital einer Firma."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135211665",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 資産/シサン; lemma 資産; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "資産",
+              "reading": "しさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 資産/しさん \"Vermögen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1312750 sense 1, noun: property, fortune, means, assets Pitch: Verified [0,1] via exact UniDic row. 資産 bezeichnet Vermögen und Vermögenswerte, also alles mit Geldwert wie Bargeld, Immobilien oder Aktien. Typisch sind 資産を持つ／築く／運用する („anlegen“), 資産家 („vermögende Person“) und 資産価値; das Gegenstück in der Bilanz ist 負債 („Verbindlichkeiten“). Im Unterschied zu 財産, das eher den persönlichen Besitz und das Erbe meint, klingt 資産 betriebswirtschaftlich. Übertragen auch: 社員は会社の資産だ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1312750; spelling=資産; reading=しさん",
+          "selected": {
+            "sequence": "1312750",
+            "spelling": "資産",
+            "reading": "しさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "property",
+                  "fortune",
+                  "means",
+                  "assets"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1312750 sense 1, noun: property, fortune, means, assets"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 資産/シサン; lemma 資産; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135211665",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 資産/シサン; lemma 資産; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "資産",
+              "reading": "しさん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 資産/しさん \"Vermögen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vermögen. JMdict 1312750 sense 1, noun: property, fortune, means, assets",
+        "japanese": "彼の資産は数億円にのぼる。 / 老後のために資産を運用している。 / 社員こそが会社の一番の資産だ。",
+        "romanization": "shisan; Kare no shisan wa sūokuen ni noboru. / Rōgo no tame ni shisan o un'yō shite iru. / Shain koso ga kaisha no ichiban no shisan da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sein Vermögen beläuft sich auf mehrere hundert Millionen Yen. / Ich lege mein Vermögen für den Ruhestand an. / Die Mitarbeiter sind das wertvollste Kapital einer Firma.",
+        "contexts": [
+          "Wealthy person",
+          "Retirement investing",
+          "Employees as assets"
+        ],
+        "lexical": "JMdict 1312750 sense 1, noun: property, fortune, means, assets",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:153 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Wealthy person; Retirement investing; Employees as assets), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2f0c512862d5b50212f0fdeb3c7d94b31c78ad28b9eaa4bf5e59778df9c3cf5c",
+        "approvalHash": "c2981ed2640b994663ad239a5d19ddf66cc4e57dd379fbbb48fc6ee6e796079c"
+      }
+    },
+    {
+      "id": "vocab-n2:154",
+      "revisionId": "192a-n2-enrichment-vocab-n2-154",
+      "state": "accepted",
+      "predecessorHash": "3e5cffb55e1ca0646e81ab206637712f1d4c201c9840ff4561952ffb04793b41",
+      "originalHash": "3e5cffb55e1ca0646e81ab206637712f1d4c201c9840ff4561952ffb04793b41",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "事業を始めるための資金が必要だ。",
+            "romaji": "Jigyō o hajimeru tame no shikin ga hitsuyō da.",
+            "german": "Man braucht Kapital, um ein Geschäft zu starten."
+          }
+        ],
+        "meaning": "Kapital",
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "資金 sind die Geldmittel, die für einen bestimmten Zweck bereitstehen oder gebraucht werden – für ein Unternehmen, ein Projekt oder auch privat. Typisch sind 資金を集める, 資金を調達する („beschaffen“), 資金が足りない, 資金不足 und Komposita wie 結婚資金 oder 開業資金. Anders als 資産 (vorhandenes Vermögen) bezeichnet 資金 Geld, das eingesetzt werden soll; 資本 ist das Kapital im volkswirtschaftlichen Sinn.",
+        "examples": [
+          {
+            "japanese": "事業を始めるための資金が必要だ。",
+            "romaji": "Jigyō o hajimeru tame no shikin ga hitsuyō da.",
+            "german": "Man braucht Kapital, um ein Geschäft zu starten."
+          },
+          {
+            "japanese": "クラウドファンディングで映画の制作資金を集めた。",
+            "romaji": "Kuraudo fandingu de eiga no seisaku shikin o atsumeta.",
+            "german": "Per Crowdfunding haben wir die Mittel für die Filmproduktion gesammelt."
+          },
+          {
+            "japanese": "資金不足のため、計画は中止になった。",
+            "romaji": "Shikin busoku no tame, keikaku wa chūshi ni natta.",
+            "german": "Aus Geldmangel wurde das Vorhaben abgesagt."
+          }
+        ],
+        "meaning": "Geldmittel, Kapital",
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134698648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 資金/シキン; lemma 資金; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "資金",
+              "reading": "しきん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 資金/しきん \"Kapital\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1312700 sense 1, noun: funds, capital Pitch: Verified [1,2] via exact UniDic row. 資金 sind die Geldmittel, die für einen bestimmten Zweck bereitstehen oder gebraucht werden – für ein Unternehmen, ein Projekt oder auch privat. Typisch sind 資金を集める, 資金を調達する („beschaffen“), 資金が足りない, 資金不足 und Komposita wie 結婚資金 oder 開業資金. Anders als 資産 (vorhandenes Vermögen) bezeichnet 資金 Geld, das eingesetzt werden soll; 資本 ist das Kapital im volkswirtschaftlichen Sinn. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1312700; spelling=資金; reading=しきん",
+          "selected": {
+            "sequence": "1312700",
+            "spelling": "資金",
+            "reading": "しきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "funds",
+                  "capital"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1312700 sense 1, noun: funds, capital"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row. Exact whole 資金/シキン; lemma 資金; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@134698648",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 資金/シキン; lemma 資金; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "資金",
+              "reading": "しきん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 資金/しきん \"Kapital\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geldmittel, Kapital. JMdict 1312700 sense 1, noun: funds, capital",
+        "japanese": "事業を始めるための資金が必要だ。 / クラウドファンディングで映画の制作資金を集めた。 / 資金不足のため、計画は中止になった。",
+        "romanization": "shikin; Jigyō o hajimeru tame no shikin ga hitsuyō da. / Kuraudo fandingu de eiga no seisaku shikin o atsumeta. / Shikin busoku no tame, keikaku wa chūshi ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man braucht Kapital, um ein Geschäft zu starten. / Per Crowdfunding haben wir die Mittel für die Filmproduktion gesammelt. / Aus Geldmangel wurde das Vorhaben abgesagt.",
+        "contexts": [
+          "Starting a business",
+          "Crowdfunding a film",
+          "Project cancelled"
+        ],
+        "lexical": "JMdict 1312700 sense 1, noun: funds, capital",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:154 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Starting a business; Crowdfunding a film; Project cancelled), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dc97e7a80bf15391abdce07f9b1e752f9c1e15569bdea3a5178ee118f16e5e43",
+        "approvalHash": "78d3c0c7285c8809f6c186dd7d6d349bafef72fc735f5884dedd400e3e850913"
+      }
+    },
+    {
+      "id": "vocab-n2:155",
+      "revisionId": "192a-n2-enrichment-vocab-n2-155",
+      "state": "accepted",
+      "predecessorHash": "d0d5301e58df163f332aa75922b172c35a783128f023764d42cbd06ef78e538a",
+      "originalHash": "d0d5301e58df163f332aa75922b172c35a783128f023764d42cbd06ef78e538a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "低金利の貸付を利用した。",
+            "romaji": "Teikinri no kashitsuke o riyō shita.",
+            "german": "Wir nutzten ein Darlehen mit niedrigem Zinssatz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "貸付 ist das Verleihen von Geld aus Sicht des Gläubigers, also „Darlehen, Kreditvergabe“; das Gegenstück aus Sicht des Schuldners ist 借入. Es ist ein Fachwort der Bank- und Verwaltungssprache: 貸付金, 貸付制度, 貸付を受ける („ein Darlehen erhalten“), als Verb 〜に貸し付ける. Im Alltag sagt man eher ローン oder お金を貸す. Die Schreibung schwankt zwischen 貸付, 貸付け und 貸し付け.",
+        "examples": [
+          {
+            "japanese": "低金利の貸付を利用した。",
+            "romaji": "Teikinri no kashitsuke o riyō shita.",
+            "german": "Wir nutzten ein Darlehen mit niedrigem Zinssatz."
+          },
+          {
+            "japanese": "銀行は中小企業への貸付を増やしている。",
+            "romaji": "Ginkō wa chūshō kigyō e no kashitsuke o fuyashite iru.",
+            "german": "Die Banken vergeben mehr Kredite an kleine und mittlere Unternehmen."
+          },
+          {
+            "japanese": "学生向けの貸付制度について市役所に問い合わせた。",
+            "romaji": "Gakusei muke no kashitsuke seido ni tsuite shiyakusho ni toiawaseta.",
+            "german": "Ich habe mich beim Rathaus nach dem Darlehensprogramm für Studierende erkundigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93215527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 貸付/カシツケ; lemma 貸し付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "貸付",
+              "reading": "かしつけ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 貸付/かしつけ \"Darlehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1411150 sense 1, noun / suru verb: loan, lending Pitch: Verified [0] via exact UniDic row. 貸付 ist das Verleihen von Geld aus Sicht des Gläubigers, also „Darlehen, Kreditvergabe“; das Gegenstück aus Sicht des Schuldners ist 借入. Es ist ein Fachwort der Bank- und Verwaltungssprache: 貸付金, 貸付制度, 貸付を受ける („ein Darlehen erhalten“), als Verb 〜に貸し付ける. Im Alltag sagt man eher ローン oder お金を貸す. Die Schreibung schwankt zwischen 貸付, 貸付け und 貸し付け. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1411150; spelling=貸付; reading=かしつけ",
+          "selected": {
+            "sequence": "1411150",
+            "spelling": "貸付",
+            "reading": "かしつけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "loan"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1411150 sense 1, noun / suru verb: loan, lending"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 貸付/カシツケ; lemma 貸し付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93215527",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 貸付/カシツケ; lemma 貸し付け; 名詞/普通名詞/サ変可能/*; *; *; aType 0. Rejected for this role: 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 未然形-一般; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連体形-省略; aType 4 | 貸付/カシツケ; lemma 貸し付ける; 動詞/一般/*/*; 下一段-カ行; 連用形-一般; aType 4.",
+            "match": {
+              "word": "貸付",
+              "reading": "かしつけ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 貸付/かしつけ \"Darlehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Darlehen. JMdict 1411150 sense 1, noun / suru verb: loan, lending",
+        "japanese": "低金利の貸付を利用した。 / 銀行は中小企業への貸付を増やしている。 / 学生向けの貸付制度について市役所に問い合わせた。",
+        "romanization": "kashitsuke; Teikinri no kashitsuke o riyō shita. / Ginkō wa chūshō kigyō e no kashitsuke o fuyashite iru. / Gakusei muke no kashitsuke seido ni tsuite shiyakusho ni toiawaseta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir nutzten ein Darlehen mit niedrigem Zinssatz. / Die Banken vergeben mehr Kredite an kleine und mittlere Unternehmen. / Ich habe mich beim Rathaus nach dem Darlehensprogramm für Studierende erkundigt.",
+        "contexts": [
+          "Low-interest loan",
+          "Bank lending to SMEs",
+          "Student loan inquiry"
+        ],
+        "lexical": "JMdict 1411150 sense 1, noun / suru verb: loan, lending",
+        "register": "business / formal",
+        "transitivity": "noun; verb form 貸し付ける is transitive (〜に…を貸し付ける)",
+        "conjugation": "noun; related verb 貸し付ける (ichidan)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:155 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Low-interest loan; Bank lending to SMEs; Student loan inquiry), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ccb6f9d0ab3ed4b3de6363956c1fc81e97bd2171ef3eba49b13d0c405f3672e9",
+        "approvalHash": "236aa8c01a2653696222a0aebad9512e5aa001ae310197b7b8144a154a42ba51"
+      }
+    },
+    {
+      "id": "vocab-n2:156",
+      "revisionId": "192a-n2-enrichment-vocab-n2-156",
+      "state": "accepted",
+      "predecessorHash": "33a97841e200c67c3b7480c456f2854e9e1d1098bc7452273a25c1b59cc2f4a3",
+      "originalHash": "33a97841e200c67c3b7480c456f2854e9e1d1098bc7452273a25c1b59cc2f4a3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "借入の返済期限が迫っている。",
+            "romaji": "Kariire no hensai kigen ga sematte iru.",
+            "german": "Die Rückzahlungsfrist der Kreditaufnahme rückt näher."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "借入 bezeichnet das Aufnehmen von Geld, also „Kreditaufnahme“ aus Sicht des Schuldners – das Gegenstück zu 貸付. Typisch sind 借入金 („aufgenommene Kredite, Kreditschulden“), 借入額, 借入を返済する und als Verb 銀行から借り入れる. Es gehört zur Geschäfts- und Bankensprache; im Alltag sagt man お金を借りる oder ローンを組む. Die Schreibung variiert: 借入, 借入れ, 借り入れ.",
+        "examples": [
+          {
+            "japanese": "借入の返済期限が迫っている。",
+            "romaji": "Kariire no hensai kigen ga sematte iru.",
+            "german": "Die Frist für die Rückzahlung des Kredits rückt näher."
+          },
+          {
+            "japanese": "設備投資のため、銀行から五千万円を借り入れた。",
+            "romaji": "Setsubi tōshi no tame, ginkō kara gosenman'en o kariireta.",
+            "german": "Für Investitionen in die Ausstattung haben wir bei der Bank 50 Millionen Yen aufgenommen."
+          },
+          {
+            "japanese": "会社の借入金は年々減っている。",
+            "romaji": "Kaisha no kariirekin wa nennen hette iru.",
+            "german": "Die Kreditschulden der Firma sinken von Jahr zu Jahr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@98545164",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 借入/カリイレ; lemma 借り入れ; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "借入",
+              "reading": "かりいれ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 借入/かりいれ \"Kreditaufnahme\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1323860 sense 1, noun / suru verb: borrowing (money) Pitch: Verified [0] via exact UniDic row. 借入 bezeichnet das Aufnehmen von Geld, also „Kreditaufnahme“ aus Sicht des Schuldners – das Gegenstück zu 貸付. Typisch sind 借入金 („aufgenommene Kredite, Kreditschulden“), 借入額, 借入を返済する und als Verb 銀行から借り入れる. Es gehört zur Geschäfts- und Bankensprache; im Alltag sagt man お金を借りる oder ローンを組む. Die Schreibung variiert: 借入, 借入れ, 借り入れ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1323860; spelling=借入; reading=かりいれ",
+          "selected": {
+            "sequence": "1323860",
+            "spelling": "借入",
+            "reading": "かりいれ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "borrowing (money)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1323860 sense 1, noun / suru verb: borrowing (money)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 借入/カリイレ; lemma 借り入れ; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@98545164",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 借入/カリイレ; lemma 借り入れ; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "借入",
+              "reading": "かりいれ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 借入/かりいれ \"Kreditaufnahme\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kreditaufnahme. JMdict 1323860 sense 1, noun / suru verb: borrowing (money)",
+        "japanese": "借入の返済期限が迫っている。 / 設備投資のため、銀行から五千万円を借り入れた。 / 会社の借入金は年々減っている。",
+        "romanization": "kariire; Kariire no hensai kigen ga sematte iru. / Setsubi tōshi no tame, ginkō kara gosenman'en o kariireta. / Kaisha no kariirekin wa nennen hette iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Frist für die Rückzahlung des Kredits rückt näher. / Für Investitionen in die Ausstattung haben wir bei der Bank 50 Millionen Yen aufgenommen. / Die Kreditschulden der Firma sinken von Jahr zu Jahr.",
+        "contexts": [
+          "Repayment deadline",
+          "Bank loan for equipment",
+          "Reducing corporate debt"
+        ],
+        "lexical": "JMdict 1323860 sense 1, noun / suru verb: borrowing (money)",
+        "register": "business / formal",
+        "transitivity": "noun; verb form 借り入れる is transitive (〜から…を借り入れる)",
+        "conjugation": "noun; related verb 借り入れる (ichidan)",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:156 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Repayment deadline; Bank loan for equipment; Reducing corporate debt), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e0f1f868a69274979c85003798e6bc45ed49e00e3dd7eb1383e1b613cfb6e10d",
+        "approvalHash": "58bb947168c17150727155a2243e6f49b83150990e76e4bd9fa53414b4c4e7d1"
+      }
+    },
+    {
+      "id": "vocab-n2:157",
+      "revisionId": "192a-n2-enrichment-vocab-n2-157",
+      "state": "accepted",
+      "predecessorHash": "eb129ea1c8c7daa616e099205241551a5c22d18e1bd766151522e6a28bddb9f9",
+      "originalHash": "eb129ea1c8c7daa616e099205241551a5c22d18e1bd766151522e6a28bddb9f9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "金利が上がると住宅ローンの負担が増える。",
+            "romaji": "Kinri ga agaru to jūtaku rōn no futan ga fueru.",
+            "german": "Wenn der Zinssatz steigt, erhöht sich die Belastung durch Hypotheken."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "金利 ist der Zinssatz bzw. allgemein das Zinsniveau, also wie hoch die Zinsen prozentual sind. Typisch sind 金利が上がる／下がる, 金利を引き上げる／引き下げる, 低金利, 高金利 und 住宅ローンの金利. Im Unterschied zu 利子 und 利息, die den konkret gezahlten oder erhaltenen Zinsbetrag meinen, bezeichnet 金利 eher die Rate. Häufig in Wirtschaftsnachrichten und Bankgesprächen.",
+        "examples": [
+          {
+            "japanese": "金利が上がると住宅ローンの負担が増える。",
+            "romaji": "Kinri ga agaru to jūtaku rōn no futan ga fueru.",
+            "german": "Wenn der Zinssatz steigt, erhöht sich die Belastung durch Hypotheken."
+          },
+          {
+            "japanese": "中央銀行は金利を引き下げると発表した。",
+            "romaji": "Chūō ginkō wa kinri o hikisageru to happyō shita.",
+            "german": "Die Zentralbank kündigte eine Zinssenkung an."
+          },
+          {
+            "japanese": "どの銀行が一番金利が低いか比べてみた。",
+            "romaji": "Dono ginkō ga ichiban kinri ga hikui ka kurabete mita.",
+            "german": "Ich habe verglichen, welche Bank die niedrigsten Zinsen hat."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108957858",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 金利/キンリ; lemma 金利; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "金利",
+              "reading": "きんり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 金利/きんり \"Zinssatz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1243330 sense 1, noun: interest rate, interest Pitch: Verified [0,1] via exact UniDic row. 金利 ist der Zinssatz bzw. allgemein das Zinsniveau, also wie hoch die Zinsen prozentual sind. Typisch sind 金利が上がる／下がる, 金利を引き上げる／引き下げる, 低金利, 高金利 und 住宅ローンの金利. Im Unterschied zu 利子 und 利息, die den konkret gezahlten oder erhaltenen Zinsbetrag meinen, bezeichnet 金利 eher die Rate. Häufig in Wirtschaftsnachrichten und Bankgesprächen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1243330; spelling=金利; reading=きんり",
+          "selected": {
+            "sequence": "1243330",
+            "spelling": "金利",
+            "reading": "きんり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "interest rate",
+                  "interest"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1243330 sense 1, noun: interest rate, interest"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 金利/キンリ; lemma 金利; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108957858",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 金利/キンリ; lemma 金利; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "金利",
+              "reading": "きんり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 金利/きんり \"Zinssatz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zinssatz. JMdict 1243330 sense 1, noun: interest rate, interest",
+        "japanese": "金利が上がると住宅ローンの負担が増える。 / 中央銀行は金利を引き下げると発表した。 / どの銀行が一番金利が低いか比べてみた。",
+        "romanization": "kinri; Kinri ga agaru to jūtaku rōn no futan ga fueru. / Chūō ginkō wa kinri o hikisageru to happyō shita. / Dono ginkō ga ichiban kinri ga hikui ka kurabete mita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn der Zinssatz steigt, erhöht sich die Belastung durch Hypotheken. / Die Zentralbank kündigte eine Zinssenkung an. / Ich habe verglichen, welche Bank die niedrigsten Zinsen hat.",
+        "contexts": [
+          "Mortgage burden",
+          "Central bank decision",
+          "Comparing banks"
+        ],
+        "lexical": "JMdict 1243330 sense 1, noun: interest rate, interest",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:157 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Mortgage burden; Central bank decision; Comparing banks), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "cb676b7ce97a839521e304a4a02ed5f7a663c3df9c34679d02e451b8c89425f9",
+        "approvalHash": "9010448f8b35f42eaa941766b12bf76c32e238aa6e112ddf89746ea24fd755b4"
+      }
+    },
+    {
+      "id": "vocab-n2:158",
+      "revisionId": "192a-n2-enrichment-vocab-n2-158",
+      "state": "accepted",
+      "predecessorHash": "c547915927be305038ed2f22bd23b8ee403ea6f78d3e3e088b12f7ca7288c1a5",
+      "originalHash": "c547915927be305038ed2f22bd23b8ee403ea6f78d3e3e088b12f7ca7288c1a5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "預金の利子はとても低い。",
+            "romaji": "Yokin no rishi wa totemo hikui.",
+            "german": "Die Zinsen auf Einlagen sind sehr niedrig."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "利子 sind die „Zinsen“, die man auf Ersparnisse bekommt oder für geliehenes Geld zahlt – also der konkrete Betrag. Typisch sind 利子がつく, 利子を払う, 利子が高い／低い und 無利子 („zinslos“). Inhaltlich fast gleich ist 利息, das in Verträgen und bei Banken häufiger steht; 金利 meint dagegen den Zinssatz. Übertragen sagt man auch 利子をつけて返す „mit Zinsen zurückzahlen“.",
+        "examples": [
+          {
+            "japanese": "預金の利子はとても低い。",
+            "romaji": "Yokin no rishi wa totemo hikui.",
+            "german": "Die Zinsen auf Einlagen sind sehr niedrig."
+          },
+          {
+            "japanese": "この奨学金は無利子で借りられる。",
+            "romaji": "Kono shōgakukin wa murishi de karirareru.",
+            "german": "Dieses Studiendarlehen ist zinsfrei."
+          },
+          {
+            "japanese": "借金には毎月利子がつくので、早く返したほうがいい。",
+            "romaji": "Shakkin ni wa maitsuki rishi ga tsuku node, hayaku kaeshita hō ga ii.",
+            "german": "Auf Schulden fallen jeden Monat Zinsen an, also zahlt man sie besser schnell zurück."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278252088",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 利子/リシ; lemma 利子; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 利子/リシ; lemma リシ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "利子",
+              "reading": "りし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 利子/りし \"Zinsen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1549560 sense 1, noun: interest (on a deposit, loan, etc.) Pitch: Verified [1] via exact UniDic row. 利子 sind die „Zinsen“, die man auf Ersparnisse bekommt oder für geliehenes Geld zahlt – also der konkrete Betrag. Typisch sind 利子がつく, 利子を払う, 利子が高い／低い und 無利子 („zinslos“). Inhaltlich fast gleich ist 利息, das in Verträgen und bei Banken häufiger steht; 金利 meint dagegen den Zinssatz. Übertragen sagt man auch 利子をつけて返す „mit Zinsen zurückzahlen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1549560; spelling=利子; reading=りし",
+          "selected": {
+            "sequence": "1549560",
+            "spelling": "利子",
+            "reading": "りし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "interest (on a deposit, loan, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1549560 sense 1, noun: interest (on a deposit, loan, etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 利子/リシ; lemma 利子; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 利子/リシ; lemma リシ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278252088",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 利子/リシ; lemma 利子; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 利子/リシ; lemma リシ; 名詞/固有名詞/人名/名; *; *; aType 1.",
+            "match": {
+              "word": "利子",
+              "reading": "りし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 利子/りし \"Zinsen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zinsen. JMdict 1549560 sense 1, noun: interest (on a deposit, loan, etc.)",
+        "japanese": "預金の利子はとても低い。 / この奨学金は無利子で借りられる。 / 借金には毎月利子がつくので、早く返したほうがいい。",
+        "romanization": "rishi; Yokin no rishi wa totemo hikui. / Kono shōgakukin wa murishi de karirareru. / Shakkin ni wa maitsuki rishi ga tsuku node, hayaku kaeshita hō ga ii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zinsen auf Einlagen sind sehr niedrig. / Dieses Studiendarlehen ist zinsfrei. / Auf Schulden fallen jeden Monat Zinsen an, also zahlt man sie besser schnell zurück.",
+        "contexts": [
+          "Savings interest",
+          "Interest-free student loan",
+          "Advice on debt"
+        ],
+        "lexical": "JMdict 1549560 sense 1, noun: interest (on a deposit, loan, etc.)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:158 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Savings interest; Interest-free student loan; Advice on debt), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b10a28c9e88b6df47b33a7b2cca3ddcdaee754058f92b50e39e921bbb134ec26",
+        "approvalHash": "ad1c12ad04765359675731f272862427d80fd73589d76baed054d8e31d64f3a3"
+      }
+    },
+    {
+      "id": "vocab-n2:159",
+      "revisionId": "192a-n2-enrichment-vocab-n2-159",
+      "state": "accepted",
+      "predecessorHash": "553508c7a3af7a364b02c6fa4117918b5fad6bddc1d77f4c014db1ed0f882161",
+      "originalHash": "553508c7a3af7a364b02c6fa4117918b5fad6bddc1d77f4c014db1ed0f882161",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "インフレが進むと生活が苦しくなる。",
+            "romaji": "Infure ga susumu to seikatsu ga kurushiku naru.",
+            "german": "Wenn die Inflation voranschreitet, wird das Leben schwieriger."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "インフレ ist die Kurzform von インフレーション, „Inflation“; das Gegenteil ist デフレ. Typisch sind インフレが進む, インフレが起こる, インフレ率 und インフレ対策. Es beschreibt den allgemeinen Anstieg des Preisniveaus; für einzelne Preissteigerungen sagt man 値上がり oder 物価の上昇. Neutral, in Nachrichten wie im Alltag verbreitet.",
+        "examples": [
+          {
+            "japanese": "インフレが進むと生活が苦しくなる。",
+            "romaji": "Infure ga susumu to seikatsu ga kurushiku naru.",
+            "german": "Wenn die Inflation voranschreitet, wird das Leben schwieriger."
+          },
+          {
+            "japanese": "今年のインフレ率は三パーセントを超えた。",
+            "romaji": "Kotoshi no infureritsu wa san pāsento o koeta.",
+            "german": "Die Inflationsrate lag dieses Jahr über drei Prozent."
+          },
+          {
+            "japanese": "政府はインフレ対策として電気代の補助を始めた。",
+            "romaji": "Seifu wa infure taisaku to shite denkidai no hojo o hajimeta.",
+            "german": "Als Maßnahme gegen die Inflation begann die Regierung, die Stromkosten zu bezuschussen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59550255",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole インフレ/インフレ; lemma インフレ-inflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "インフレ",
+              "reading": "インフレ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen インフレ/インフレ \"Inflation\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1024430 sense 1, noun (abbreviation): inflation Pitch: Verified [0] via exact UniDic row. インフレ ist die Kurzform von インフレーション, „Inflation“; das Gegenteil ist デフレ. Typisch sind インフレが進む, インフレが起こる, インフレ率 und インフレ対策. Es beschreibt den allgemeinen Anstieg des Preisniveaus; für einzelne Preissteigerungen sagt man 値上がり oder 物価の上昇. Neutral, in Nachrichten wie im Alltag verbreitet. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1024430; spelling=インフレ; reading=インフレ",
+          "selected": {
+            "sequence": "1024430",
+            "spelling": "インフレ",
+            "reading": "インフレ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "inflation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1024430 sense 1, noun (abbreviation): inflation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole インフレ/インフレ; lemma インフレ-inflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59550255",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole インフレ/インフレ; lemma インフレ-inflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "インフレ",
+              "reading": "インフレ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen インフレ/インフレ \"Inflation\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Inflation. JMdict 1024430 sense 1, noun (abbreviation): inflation",
+        "japanese": "インフレが進むと生活が苦しくなる。 / 今年のインフレ率は三パーセントを超えた。 / 政府はインフレ対策として電気代の補助を始めた。",
+        "romanization": "infure; Infure ga susumu to seikatsu ga kurushiku naru. / Kotoshi no infureritsu wa san pāsento o koeta. / Seifu wa infure taisaku to shite denkidai no hojo o hajimeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn die Inflation voranschreitet, wird das Leben schwieriger. / Die Inflationsrate lag dieses Jahr über drei Prozent. / Als Maßnahme gegen die Inflation begann die Regierung, die Stromkosten zu bezuschussen.",
+        "contexts": [
+          "Cost of living",
+          "Inflation rate report",
+          "Government countermeasures"
+        ],
+        "lexical": "JMdict 1024430 sense 1, noun (abbreviation): inflation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:159 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cost of living; Inflation rate report; Government countermeasures), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b4d51a26f922b996452f7e6b901cae855959db64ef56d1ec68c7e9901dc0b093",
+        "approvalHash": "99cc68c3ed330c7c0e8b3136595750855e65e4c43c570c0e9b7f6b4d6bfd40fe"
+      }
+    },
+    {
+      "id": "vocab-n2:160",
+      "revisionId": "192a-n2-enrichment-vocab-n2-160",
+      "state": "accepted",
+      "predecessorHash": "182d332f517497084f4640edff29dc3424c60af07ccbcd76dd7af6dbb215542b",
+      "originalHash": "182d332f517497084f4640edff29dc3424c60af07ccbcd76dd7af6dbb215542b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "デフレから脱却するのは難しい。",
+            "romaji": "Defure kara dakkyaku suru no wa muzukashii.",
+            "german": "Es ist schwierig, aus der Deflation herauszukommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "デフレ ist die Kurzform von デフレーション, „Deflation“, also ein anhaltender Rückgang des allgemeinen Preisniveaus – das Gegenteil von インフレ. Typisch sind デフレが続く, デフレから脱却する („die Deflation überwinden“) und デフレ経済. In Japan ist das Wort eng mit den Jahrzehnten nach dem Platzen der Blasenwirtschaft verbunden; eine Abwärtsspirale heißt デフレスパイラル.",
+        "examples": [
+          {
+            "japanese": "デフレから脱却するのは難しい。",
+            "romaji": "Defure kara dakkyaku suru no wa muzukashii.",
+            "german": "Es ist schwierig, aus der Deflation herauszukommen."
+          },
+          {
+            "japanese": "日本は長い間デフレに苦しんできた。",
+            "romaji": "Nihon wa nagai aida defure ni kurushinde kita.",
+            "german": "Japan hat lange unter der Deflation gelitten."
+          },
+          {
+            "japanese": "デフレが続くと、企業は給料を上げにくくなる。",
+            "romaji": "Defure ga tsuzuku to, kigyō wa kyūryō o agenikuku naru.",
+            "german": "Hält die Deflation an, fällt es Unternehmen schwer, die Löhne zu erhöhen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182573038",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole デフレ/デフレ; lemma デフレ-deflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "デフレ",
+              "reading": "デフレ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen デフレ/デフレ \"Deflation\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1083780 sense 1, noun (abbreviation): deflation Pitch: Verified [0] via exact UniDic row. デフレ ist die Kurzform von デフレーション, „Deflation“, also ein anhaltender Rückgang des allgemeinen Preisniveaus – das Gegenteil von インフレ. Typisch sind デフレが続く, デフレから脱却する („die Deflation überwinden“) und デフレ経済. In Japan ist das Wort eng mit den Jahrzehnten nach dem Platzen der Blasenwirtschaft verbunden; eine Abwärtsspirale heißt デフレスパイラル. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1083780; spelling=デフレ; reading=デフレ",
+          "selected": {
+            "sequence": "1083780",
+            "spelling": "デフレ",
+            "reading": "デフレ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "deflation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1083780 sense 1, noun (abbreviation): deflation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole デフレ/デフレ; lemma デフレ-deflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@182573038",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole デフレ/デフレ; lemma デフレ-deflation; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "デフレ",
+              "reading": "デフレ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen デフレ/デフレ \"Deflation\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Deflation. JMdict 1083780 sense 1, noun (abbreviation): deflation",
+        "japanese": "デフレから脱却するのは難しい。 / 日本は長い間デフレに苦しんできた。 / デフレが続くと、企業は給料を上げにくくなる。",
+        "romanization": "defure; Defure kara dakkyaku suru no wa muzukashii. / Nihon wa nagai aida defure ni kurushinde kita. / Defure ga tsuzuku to, kigyō wa kyūryō o agenikuku naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist schwierig, aus der Deflation herauszukommen. / Japan hat lange unter der Deflation gelitten. / Hält die Deflation an, fällt es Unternehmen schwer, die Löhne zu erhöhen.",
+        "contexts": [
+          "Escaping deflation",
+          "Japan's lost decades",
+          "Wage stagnation"
+        ],
+        "lexical": "JMdict 1083780 sense 1, noun (abbreviation): deflation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:160 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Escaping deflation; Japan's lost decades; Wage stagnation), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "673bef6a29e0568bc6916b356de5d64d85a91887ccce6d6252cc903f87cabb86",
+        "approvalHash": "9bbd4568367c3113a061554523d5945509ba8f6c1eb4c24241821b7b05f7e295"
+      }
+    },
+    {
+      "id": "vocab-n2:161",
+      "revisionId": "192a-n2-enrichment-vocab-n2-161",
+      "state": "accepted",
+      "predecessorHash": "b83a7f9134b86bd7ee0c51c9cca13c2887395cdb30509d8ce69def29f31dc99b",
+      "originalHash": "b83a7f9134b86bd7ee0c51c9cca13c2887395cdb30509d8ce69def29f31dc99b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "法人税が引き下げられた。",
+            "romaji": "Hōjinzei ga hikisagerareta.",
+            "german": "Die Körperschaftssteuer wurde gesenkt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "法人 ist eine „juristische Person“ – eine Organisation wie eine Firma, ein Verein oder eine Stiftung, die rechtlich wie eine Person handeln kann; Gegenbegriff ist 個人. Häufig in Komposita: 法人税 („Körperschaftsteuer“), 法人化 („Umwandlung in eine Gesellschaft“), 法人向け („für Geschäftskunden“), NPO法人 und 学校法人. Fach- und Verwaltungssprache; im Alltag spricht man eher von 会社 oder 企業.",
+        "examples": [
+          {
+            "japanese": "法人税が引き下げられた。",
+            "romaji": "Hōjinzei ga hikisagerareta.",
+            "german": "Die Körperschaftssteuer wurde gesenkt."
+          },
+          {
+            "japanese": "このサービスは個人ではなく法人向けです。",
+            "romaji": "Kono sābisu wa kojin de wa naku hōjin muke desu.",
+            "german": "Dieser Service richtet sich nicht an Privatpersonen, sondern an Unternehmen."
+          },
+          {
+            "japanese": "事業が大きくなったので、個人事業から法人にした。",
+            "romaji": "Jigyō ga ōkiku natta node, kojin jigyō kara hōjin ni shita.",
+            "german": "Da das Geschäft gewachsen war, habe ich es vom Einzelunternehmen in eine Gesellschaft umgewandelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242731453",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 法人/ホウジン; lemma 法人; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "法人",
+              "reading": "ほうじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 法人/ほうじん \"juristische Person\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1517310 sense 1, noun: corporation, legal entity, juridical person Pitch: Verified [0] via exact UniDic row. 法人 ist eine „juristische Person“ – eine Organisation wie eine Firma, ein Verein oder eine Stiftung, die rechtlich wie eine Person handeln kann; Gegenbegriff ist 個人. Häufig in Komposita: 法人税 („Körperschaftsteuer“), 法人化 („Umwandlung in eine Gesellschaft“), 法人向け („für Geschäftskunden“), NPO法人 und 学校法人. Fach- und Verwaltungssprache; im Alltag spricht man eher von 会社 oder 企業. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1517310; spelling=法人; reading=ほうじん",
+          "selected": {
+            "sequence": "1517310",
+            "spelling": "法人",
+            "reading": "ほうじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "corporation",
+                  "corporate body",
+                  "company",
+                  "legal entity",
+                  "legal person",
+                  "juridical person"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1517310 sense 1, noun: corporation, legal entity, juridical person"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 法人/ホウジン; lemma 法人; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242731453",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 法人/ホウジン; lemma 法人; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "法人",
+              "reading": "ほうじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 法人/ほうじん \"juristische Person\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "juristische Person. JMdict 1517310 sense 1, noun: corporation, legal entity, juridical person",
+        "japanese": "法人税が引き下げられた。 / このサービスは個人ではなく法人向けです。 / 事業が大きくなったので、個人事業から法人にした。",
+        "romanization": "hōjin; Hōjinzei ga hikisagerareta. / Kono sābisu wa kojin de wa naku hōjin muke desu. / Jigyō ga ōkiku natta node, kojin jigyō kara hōjin ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Körperschaftssteuer wurde gesenkt. / Dieser Service richtet sich nicht an Privatpersonen, sondern an Unternehmen. / Da das Geschäft gewachsen war, habe ich es vom Einzelunternehmen in eine Gesellschaft umgewandelt.",
+        "contexts": [
+          "Corporate tax cut",
+          "B2B service",
+          "Incorporating a business"
+        ],
+        "lexical": "JMdict 1517310 sense 1, noun: corporation, legal entity, juridical person",
+        "register": "formal / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:161 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Corporate tax cut; B2B service; Incorporating a business), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "26c1b9491b842e4ca2d66bddd75f894fd092fb519d9faec23e4b9f58d4e1ee5d",
+        "approvalHash": "d1dd06385ab5ba1489ca39aa121e5cb1803cd3aa340b323fc1768c42bcd1fa4a"
+      }
+    },
+    {
+      "id": "vocab-n2:162",
+      "revisionId": "192a-n2-enrichment-vocab-n2-162",
+      "state": "accepted",
+      "predecessorHash": "3e92ec07325c27b6216ed29c3b4abd3af8ed16eadab5c581ebad354a6a16df3d",
+      "originalHash": "3e92ec07325c27b6216ed29c3b4abd3af8ed16eadab5c581ebad354a6a16df3d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "株主総会が来月開かれる。",
+            "romaji": "Kabunushi sōkai ga raigetsu hirakareru.",
+            "german": "Die Hauptversammlung findet nächsten Monat statt."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "株主 ist der „Aktionär“, also wer Anteile (株) an einer Aktiengesellschaft besitzt. Häufige Verbindungen sind 株主総会 („Hauptversammlung“), 大株主 („Großaktionär“), 株主優待 („Aktionärsvergünstigungen“ – in Japan beliebte Gutscheine oder Sachgeschenke) und 株主への配当 („Dividende“). Sachlicher Wortschatz aus Wirtschaft und Finanzen; die Aktien selbst heißen 株 oder 株式.",
+        "examples": [
+          {
+            "japanese": "株主総会が来月開かれる。",
+            "romaji": "Kabunushi sōkai ga raigetsu hirakareru.",
+            "german": "Die Hauptversammlung findet nächsten Monat statt."
+          },
+          {
+            "japanese": "株主優待で食事券がもらえる。",
+            "romaji": "Kabunushi yūtai de shokujiken ga moraeru.",
+            "german": "Als Aktionärsvergünstigung bekommt man Essensgutscheine."
+          },
+          {
+            "japanese": "会社は株主への配当を増やすことにした。",
+            "romaji": "Kaisha wa kabunushi e no haitō o fuyasu koto ni shita.",
+            "german": "Das Unternehmen beschloss, die Dividende an die Aktionäre zu erhöhen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96601679",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 株主/カブヌシ; lemma 株主; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "株主",
+              "reading": "かぶぬし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 株主/かぶぬし \"Aktionär\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1209010 sense 1, noun: shareholder, stockholder Pitch: Verified [0,2] via exact UniDic row; stored primary 1 corrected to 0. 株主 ist der „Aktionär“, also wer Anteile (株) an einer Aktiengesellschaft besitzt. Häufige Verbindungen sind 株主総会 („Hauptversammlung“), 大株主 („Großaktionär“), 株主優待 („Aktionärsvergünstigungen“ – in Japan beliebte Gutscheine oder Sachgeschenke) und 株主への配当 („Dividende“). Sachlicher Wortschatz aus Wirtschaft und Finanzen; die Aktien selbst heißen 株 oder 株式. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1209010; spelling=株主; reading=かぶぬし",
+          "selected": {
+            "sequence": "1209010",
+            "spelling": "株主",
+            "reading": "かぶぬし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shareholder",
+                  "stockholder"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1209010 sense 1, noun: shareholder, stockholder"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 株主/カブヌシ; lemma 株主; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96601679",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 株主/カブヌシ; lemma 株主; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "株主",
+              "reading": "かぶぬし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 株主/かぶぬし \"Aktionär\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Aktionär. JMdict 1209010 sense 1, noun: shareholder, stockholder",
+        "japanese": "株主総会が来月開かれる。 / 株主優待で食事券がもらえる。 / 会社は株主への配当を増やすことにした。",
+        "romanization": "kabunushi; Kabunushi sōkai ga raigetsu hirakareru. / Kabunushi yūtai de shokujiken ga moraeru. / Kaisha wa kabunushi e no haitō o fuyasu koto ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Hauptversammlung findet nächsten Monat statt. / Als Aktionärsvergünstigung bekommt man Essensgutscheine. / Das Unternehmen beschloss, die Dividende an die Aktionäre zu erhöhen.",
+        "contexts": [
+          "Shareholders' meeting",
+          "Shareholder perks",
+          "Dividend increase"
+        ],
+        "lexical": "JMdict 1209010 sense 1, noun: shareholder, stockholder",
+        "register": "neutral / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:162 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shareholders' meeting; Shareholder perks; Dividend increase), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "90b3450d2b48b581055ddfbf37b7553efc5b63a93ee3e47eea6e1e8f4a1af3ed",
+        "approvalHash": "e6d4dada63a5b9012acbe418b9052e028762766bbea8e48952756565abbb1e36"
+      }
+    },
+    {
+      "id": "vocab-n2:163",
+      "revisionId": "192a-n2-enrichment-vocab-n2-163",
+      "state": "accepted",
+      "predecessorHash": "4274b4ad8ed6b0da4632525c4d7b4a18ea365488d5a04f2852742785fd627ae4",
+      "originalHash": "4274b4ad8ed6b0da4632525c4d7b4a18ea365488d5a04f2852742785fd627ae4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "証券会社に口座を開いた。",
+            "romaji": "Shōken gaisha ni kōza o hiraita.",
+            "german": "Ich habe ein Konto bei einer Wertpapierfirma eröffnet."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "証券 bezeichnet „Wertpapiere“ wie Aktien und Anleihen sowie allgemein Urkunden über Rechte, z. B. 保険証券 („Versicherungspolice“). Am häufigsten begegnet es in 証券会社 („Wertpapierfirma, Broker“), 証券取引所 („Börse“) und 証券口座 („Depot“). Es ist Fachwortschatz der Finanzwelt; für konkrete Papiere sagt man meist 株 oder 債券.",
+        "examples": [
+          {
+            "japanese": "証券会社に口座を開いた。",
+            "romaji": "Shōken gaisha ni kōza o hiraita.",
+            "german": "Ich habe ein Konto bei einer Wertpapierfirma eröffnet."
+          },
+          {
+            "japanese": "東京証券取引所は日本最大の取引所だ。",
+            "romaji": "Tōkyō shōken torihikijo wa Nihon saidai no torihikijo da.",
+            "german": "Die Tokioter Börse ist die größte Börse Japans."
+          },
+          {
+            "japanese": "保険証券は大切に保管しておいてください。",
+            "romaji": "Hoken shōken wa taisetsu ni hokan shite oite kudasai.",
+            "german": "Bitte bewahren Sie die Versicherungspolice sorgfältig auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140740938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 証券/ショウケン; lemma 証券; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "証券",
+              "reading": "しょうけん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 証券/しょうけん \"Wertpapier\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1351610 sense 1, noun: bond, bill, certificate, security Pitch: Verified [0,1] via exact UniDic row. 証券 bezeichnet „Wertpapiere“ wie Aktien und Anleihen sowie allgemein Urkunden über Rechte, z. B. 保険証券 („Versicherungspolice“). Am häufigsten begegnet es in 証券会社 („Wertpapierfirma, Broker“), 証券取引所 („Börse“) und 証券口座 („Depot“). Es ist Fachwortschatz der Finanzwelt; für konkrete Papiere sagt man meist 株 oder 債券. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1351610; spelling=証券; reading=しょうけん",
+          "selected": {
+            "sequence": "1351610",
+            "spelling": "証券",
+            "reading": "しょうけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bond",
+                  "bill",
+                  "certificate",
+                  "security"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1351610 sense 1, noun: bond, bill, certificate, security"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 証券/ショウケン; lemma 証券; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140740938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 証券/ショウケン; lemma 証券; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "証券",
+              "reading": "しょうけん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 証券/しょうけん \"Wertpapier\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wertpapier. JMdict 1351610 sense 1, noun: bond, bill, certificate, security",
+        "japanese": "証券会社に口座を開いた。 / 東京証券取引所は日本最大の取引所だ。 / 保険証券は大切に保管しておいてください。",
+        "romanization": "shōken; Shōken gaisha ni kōza o hiraita. / Tōkyō shōken torihikijo wa Nihon saidai no torihikijo da. / Hoken shōken wa taisetsu ni hokan shite oite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe ein Konto bei einer Wertpapierfirma eröffnet. / Die Tokioter Börse ist die größte Börse Japans. / Bitte bewahren Sie die Versicherungspolice sorgfältig auf.",
+        "contexts": [
+          "Opening a brokerage account",
+          "Stock exchange",
+          "Insurance policy"
+        ],
+        "lexical": "JMdict 1351610 sense 1, noun: bond, bill, certificate, security",
+        "register": "business / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:163 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Opening a brokerage account; Stock exchange; Insurance policy), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ad4f2b88664adc3d0143a37fea43efedba13ba61487bc15b9e895700a272058e",
+        "approvalHash": "96b88cc721e7f5222e81b683610a88f1d75bf1904b32fc343083f6f7dfd77169"
+      }
+    },
+    {
+      "id": "vocab-n2:164",
+      "revisionId": "192a-n2-enrichment-vocab-n2-164",
+      "state": "accepted",
+      "predecessorHash": "011a7de90978972a4286a0145969c59218a512aab7a5831cd7ebfdc8e3996d4b",
+      "originalHash": "011a7de90978972a4286a0145969c59218a512aab7a5831cd7ebfdc8e3996d4b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "国債は安全な債券とされている。",
+            "romaji": "Kokusai wa anzen na saiken to sarete iru.",
+            "german": "Staatsanleihen gelten als sichere Anleihen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "債券 ist eine „Anleihe“ oder „Schuldverschreibung“: ein Wertpapier, mit dem sich Staat oder Firmen Geld leihen und dafür Zinsen zahlen. Unterarten sind 国債 („Staatsanleihe“) und 社債 („Unternehmensanleihe“); typische Verben sind 債券を発行する und 債券を買う. Nicht verwechseln mit dem gleich gelesenen 債権 („Forderung“), dem Gegenstück zu 債務 („Schuld“). Fachwortschatz der Finanzwelt.",
+        "examples": [
+          {
+            "japanese": "国債は安全な債券とされている。",
+            "romaji": "Kokusai wa anzen na saiken to sarete iru.",
+            "german": "Staatsanleihen gelten als sichere Anleihen."
+          },
+          {
+            "japanese": "金利が上がると、債券の価格は下がる。",
+            "romaji": "Kinri ga agaru to, saiken no kakaku wa sagaru.",
+            "german": "Wenn die Zinsen steigen, fallen die Anleihekurse."
+          },
+          {
+            "japanese": "その会社は資金を集めるために債券を発行した。",
+            "romaji": "Sono kaisha wa shikin o atsumeru tame ni saiken o hakkō shita.",
+            "german": "Das Unternehmen gab Anleihen aus, um Kapital zu beschaffen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126957025",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 債券/サイケン; lemma 債券; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "債券",
+              "reading": "さいけん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 債券/さいけん \"Anleihe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1292070 sense 1, noun: bond, debenture Pitch: Verified [0] via exact UniDic row. 債券 ist eine „Anleihe“ oder „Schuldverschreibung“: ein Wertpapier, mit dem sich Staat oder Firmen Geld leihen und dafür Zinsen zahlen. Unterarten sind 国債 („Staatsanleihe“) und 社債 („Unternehmensanleihe“); typische Verben sind 債券を発行する und 債券を買う. Nicht verwechseln mit dem gleich gelesenen 債権 („Forderung“), dem Gegenstück zu 債務 („Schuld“). Fachwortschatz der Finanzwelt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1292070; spelling=債券; reading=さいけん",
+          "selected": {
+            "sequence": "1292070",
+            "spelling": "債券",
+            "reading": "さいけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bond",
+                  "debenture"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1292070 sense 1, noun: bond, debenture"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 債券/サイケン; lemma 債券; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126957025",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 債券/サイケン; lemma 債券; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "債券",
+              "reading": "さいけん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 債券/さいけん \"Anleihe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anleihe. JMdict 1292070 sense 1, noun: bond, debenture",
+        "japanese": "国債は安全な債券とされている。 / 金利が上がると、債券の価格は下がる。 / その会社は資金を集めるために債券を発行した。",
+        "romanization": "saiken; Kokusai wa anzen na saiken to sarete iru. / Kinri ga agaru to, saiken no kakaku wa sagaru. / Sono kaisha wa shikin o atsumeru tame ni saiken o hakkō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Staatsanleihen gelten als sichere Anleihen. / Wenn die Zinsen steigen, fallen die Anleihekurse. / Das Unternehmen gab Anleihen aus, um Kapital zu beschaffen.",
+        "contexts": [
+          "Safe investments",
+          "Interest and bond prices",
+          "Corporate bond issue"
+        ],
+        "lexical": "JMdict 1292070 sense 1, noun: bond, debenture",
+        "register": "business / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:164 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Safe investments; Interest and bond prices; Corporate bond issue), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "78f3726417d6d4f0653ce19083f64330bc316c8fc8a49768497bd39790e46ccb",
+        "approvalHash": "b5ee1b05a6123e90df21ed1c7e7a9d12cdcc3d8a5c04fefdfc3a6abfed2b8824"
+      }
+    },
+    {
+      "id": "vocab-n2:165",
+      "revisionId": "192a-n2-enrichment-vocab-n2-165",
+      "state": "accepted",
+      "predecessorHash": "ef2cbde7ae80dd4b8f4955560f301dc4af391b37b3f6a22e30499d0a2e48fa8f",
+      "originalHash": "ef2cbde7ae80dd4b8f4955560f301dc4af391b37b3f6a22e30499d0a2e48fa8f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しいデザインの紙幣が発行された。",
+            "romaji": "Atarashii dezain no shihei ga hakkō sareta.",
+            "german": "Geldscheine mit neuem Design wurden ausgegeben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "紙幣 ist das offizielle, eher schriftsprachliche Wort für „Banknote, Geldschein“; im Alltag sagt man meist お札. Das Gegenstück sind 硬貨 („Münzen“). Typisch sind 紙幣を発行する, 新紙幣, 一万円紙幣 und 紙幣を両替する. Auf Automaten, in Bekanntmachungen und Nachrichten liest man 紙幣, im Gespräch dagegen eher 千円札 oder 一万円札.",
+        "examples": [
+          {
+            "japanese": "新しいデザインの紙幣が発行された。",
+            "romaji": "Atarashii dezain no shihei ga hakkō sareta.",
+            "german": "Geldscheine mit neuem Design wurden ausgegeben."
+          },
+          {
+            "japanese": "この自動販売機は一万円紙幣が使えない。",
+            "romaji": "Kono jidō hanbaiki wa ichiman'en shihei ga tsukaenai.",
+            "german": "An diesem Automaten kann man keine 10.000-Yen-Scheine verwenden."
+          },
+          {
+            "japanese": "空港で紙幣を現地のお金に両替した。",
+            "romaji": "Kūkō de shihei o genchi no okane ni ryōgae shita.",
+            "german": "Am Flughafen habe ich die Geldscheine in die Landeswährung umgetauscht."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137437442",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 紙幣/シヘイ; lemma 紙幣; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "紙幣",
+              "reading": "しへい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 紙幣/しへい \"Geldschein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1311600 sense 1, noun: paper money, note, bill Pitch: Verified [1] via exact UniDic row. 紙幣 ist das offizielle, eher schriftsprachliche Wort für „Banknote, Geldschein“; im Alltag sagt man meist お札. Das Gegenstück sind 硬貨 („Münzen“). Typisch sind 紙幣を発行する, 新紙幣, 一万円紙幣 und 紙幣を両替する. Auf Automaten, in Bekanntmachungen und Nachrichten liest man 紙幣, im Gespräch dagegen eher 千円札 oder 一万円札. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1311600; spelling=紙幣; reading=しへい",
+          "selected": {
+            "sequence": "1311600",
+            "spelling": "紙幣",
+            "reading": "しへい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "paper money",
+                  "note",
+                  "bill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1311600 sense 1, noun: paper money, note, bill"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 紙幣/シヘイ; lemma 紙幣; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@137437442",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 紙幣/シヘイ; lemma 紙幣; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "紙幣",
+              "reading": "しへい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 紙幣/しへい \"Geldschein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geldschein. JMdict 1311600 sense 1, noun: paper money, note, bill",
+        "japanese": "新しいデザインの紙幣が発行された。 / この自動販売機は一万円紙幣が使えない。 / 空港で紙幣を現地のお金に両替した。",
+        "romanization": "shihei; Atarashii dezain no shihei ga hakkō sareta. / Kono jidō hanbaiki wa ichiman'en shihei ga tsukaenai. / Kūkō de shihei o genchi no okane ni ryōgae shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Geldscheine mit neuem Design wurden ausgegeben. / An diesem Automaten kann man keine 10.000-Yen-Scheine verwenden. / Am Flughafen habe ich die Geldscheine in die Landeswährung umgetauscht.",
+        "contexts": [
+          "New banknote design",
+          "Vending machine limits",
+          "Currency exchange"
+        ],
+        "lexical": "JMdict 1311600 sense 1, noun: paper money, note, bill",
+        "register": "formal / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:165 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New banknote design; Vending machine limits; Currency exchange), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f2f8493181879214e689877db25a5b5c57daa10fc2516bce5652089cf8fca40e",
+        "approvalHash": "6167b43cf313278d5abdd8f40e4b50c0696b2a3b98377da335fee10b124a8f7d"
+      }
+    },
+    {
+      "id": "vocab-n2:166",
+      "revisionId": "192a-n2-enrichment-vocab-n2-166",
+      "state": "accepted",
+      "predecessorHash": "a9f252bb68d837e5a17315bf7b4611d9d7757dff57bf661fa9ba3a7bbfb2b772",
+      "originalHash": "a9f252bb68d837e5a17315bf7b4611d9d7757dff57bf661fa9ba3a7bbfb2b772",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい銀行口座を開設した。",
+            "romaji": "Atarashii ginkō kōza o kaisetsu shita.",
+            "german": "Ich habe ein neues Bankkonto eröffnet."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "口座 ist ein „Konto“, vor allem 銀行口座; auch 証券口座 („Depot“). Typische Verben sind 口座を開く／開設する／作る, 口座に振り込む („auf ein Konto überweisen“), 口座から引き落とす („abbuchen“) und 口座を解約する („auflösen“). Die Kontonummer heißt 口座番号, der Kontoinhaber 口座名義. Nicht verwechseln mit dem gleich gelesenen 講座 („Kurs, Lehrgang“).",
+        "examples": [
+          {
+            "japanese": "新しい銀行口座を開設した。",
+            "romaji": "Atarashii ginkō kōza o kaisetsu shita.",
+            "german": "Ich habe ein neues Bankkonto eröffnet."
+          },
+          {
+            "japanese": "家賃は毎月二十七日に口座から引き落とされます。",
+            "romaji": "Yachin wa maitsuki nijūshichinichi ni kōza kara hikiotosaremasu.",
+            "german": "Die Miete wird jeden Monat am 27. vom Konto abgebucht."
+          },
+          {
+            "japanese": "給料の振込先の口座番号を教えてください。",
+            "romaji": "Kyūryō no furikomisaki no kōza bangō o oshiete kudasai.",
+            "german": "Bitte nennen Sie mir die Kontonummer, auf die das Gehalt überwiesen werden soll."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120037560",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口座/コウザ; lemma 口座; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口座",
+              "reading": "こうざ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口座/こうざ \"Konto\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1276150 sense 1, noun: account (e.g. bank) Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 口座 ist ein „Konto“, vor allem 銀行口座; auch 証券口座 („Depot“). Typische Verben sind 口座を開く／開設する／作る, 口座に振り込む („auf ein Konto überweisen“), 口座から引き落とす („abbuchen“) und 口座を解約する („auflösen“). Die Kontonummer heißt 口座番号, der Kontoinhaber 口座名義. Nicht verwechseln mit dem gleich gelesenen 講座 („Kurs, Lehrgang“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1276150; spelling=口座; reading=こうざ",
+          "selected": {
+            "sequence": "1276150",
+            "spelling": "口座",
+            "reading": "こうざ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "account (e.g. bank)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1276150 sense 1, noun: account (e.g. bank)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 口座/コウザ; lemma 口座; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120037560",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 口座/コウザ; lemma 口座; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "口座",
+              "reading": "こうざ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 口座/こうざ \"Konto\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "reviewedDistinctContexts": true,
+        "meaning": "Konto. JMdict 1276150 sense 1, noun: account (e.g. bank)",
+        "japanese": "新しい銀行口座を開設した。 / 家賃は毎月二十七日に口座から引き落とされます。 / 給料の振込先の口座番号を教えてください。",
+        "romanization": "kōza; Atarashii ginkō kōza o kaisetsu shita. / Yachin wa maitsuki nijūshichinichi ni kōza kara hikiotosaremasu. / Kyūryō no furikomisaki no kōza bangō o oshiete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe ein neues Bankkonto eröffnet. / Die Miete wird jeden Monat am 27. vom Konto abgebucht. / Bitte nennen Sie mir die Kontonummer, auf die das Gehalt überwiesen werden soll.",
+        "contexts": [
+          "Opening a bank account",
+          "Rent direct debit",
+          "Salary payment details"
+        ],
+        "lexical": "JMdict 1276150 sense 1, noun: account (e.g. bank)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N2 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n2-author-192",
+        "finding": "Author reread the exact final card vocab-n2:166 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Opening a bank account; Rent direct debit; Salary payment details), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6d0b2b428ab99410cffd4515692d724e2168be29a770b1033505caf231414c91",
+        "approvalHash": "e91d7f08f9bc15558b6f5876e9370f91e9dcdad79cd0c38d0306c1d1deb23af9"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
