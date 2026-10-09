@@ -1,0 +1,3762 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:3500",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3500",
+      "state": "accepted",
+      "predecessorHash": "fd4a80a483a0382853ac437bb114266a37d6954815b54b36cc6f89246ef0f003",
+      "originalHash": "fd4a80a483a0382853ac437bb114266a37d6954815b54b36cc6f89246ef0f003",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "医者に鎮痛剤を注射してもらいました。",
+            "romaji": "Isha ni chintsuuzai o chuusha shite moraimashita.",
+            "german": "Ich bekam vom Arzt eine Spritze mit Schmerzmittel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鎮痛剤 ist das fachsprachliche Wort für „Schmerzmittel“, wie es auf Beipackzetteln und beim Arzt verwendet wird; im Alltag sagt man meist 痛み止め. Tabletten nimmt man mit 飲む, gespritzt wird es mit 注射する. Typisch sind 鎮痛剤が効く „das Schmerzmittel wirkt“ und 鎮痛剤が切れる „die Wirkung lässt nach“. Abzugrenzen: 解熱剤 „fiebersenkendes Mittel“ und 麻酔 „Betäubung, Narkose“ – ein 鎮痛剤 lindert nur, es betäubt nicht.",
+        "examples": [
+          {
+            "japanese": "医者に鎮痛剤を注射してもらいました。",
+            "romaji": "Isha ni chintsuuzai o chuusha shite moraimashita.",
+            "german": "Ich bekam vom Arzt eine Spritze mit Schmerzmittel."
+          },
+          {
+            "japanese": "頭痛がひどいので、鎮痛剤を飲みました。",
+            "romaji": "Zutsuu ga hidoi node, chintsuuzai o nomimashita.",
+            "german": "Weil ich starke Kopfschmerzen hatte, habe ich ein Schmerzmittel genommen."
+          },
+          {
+            "japanese": "鎮痛剤が切れてきたのか、また傷が痛み出した。",
+            "romaji": "Chintsuuzai ga kirete kita no ka, mata kizu ga itamidashita.",
+            "german": "Wohl weil das Schmerzmittel nachlässt, fängt die Wunde wieder an wehzutun."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1432140 sense 1, noun: analgesic, painkiller Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 鎮痛剤 ist das fachsprachliche Wort für „Schmerzmittel“, wie es auf Beipackzetteln und beim Arzt verwendet wird; im Alltag sagt man meist 痛み止め. Tabletten nimmt man mit 飲む, gespritzt wird es mit 注射する. Typisch sind 鎮痛剤が効く „das Schmerzmittel wirkt“ und 鎮痛剤が切れる „die Wirkung lässt nach“. Abzugrenzen: 解熱剤 „fiebersenkendes Mittel“ und 麻酔 „Betäubung, Narkose“ – ein 鎮痛剤 lindert nur, es betäubt nicht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1432140; spelling=鎮痛剤; reading=ちんつうざい",
+          "selected": {
+            "sequence": "1432140",
+            "spelling": "鎮痛剤",
+            "reading": "ちんつうざい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "analgesic",
+                  "painkiller",
+                  "sedative",
+                  "tranquilizer (tranquiliser)",
+                  "anodyne"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1432140 sense 1, noun: analgesic, painkiller"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 鎮痛剤/ちんつうざい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%8E%AE%E7%97%9B%E5%89%A4",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 鎮痛剤/ちんつうざい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schmerzmittel. JMdict 1432140 sense 1, noun: analgesic, painkiller",
+        "japanese": "医者に鎮痛剤を注射してもらいました。 / 頭痛がひどいので、鎮痛剤を飲みました。 / 鎮痛剤が切れてきたのか、また傷が痛み出した。",
+        "romanization": "chintsuuzai; Isha ni chintsuuzai o chuusha shite moraimashita. / Zutsuu ga hidoi node, chintsuuzai o nomimashita. / Chintsuuzai ga kirete kita no ka, mata kizu ga itamidashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bekam vom Arzt eine Spritze mit Schmerzmittel. / Weil ich starke Kopfschmerzen hatte, habe ich ein Schmerzmittel genommen. / Wohl weil das Schmerzmittel nachlässt, fängt die Wunde wieder an wehzutun.",
+        "contexts": [
+          "Injection at the doctor's",
+          "Headache at home",
+          "Medication wearing off"
+        ],
+        "lexical": "JMdict 1432140 sense 1, noun: analgesic, painkiller",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3500 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Injection at the doctor's; Headache at home; Medication wearing off), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3956fc6290928c63b0bed02486c1757d4f2e8b7675a39f3363efe304b75a40b7",
+        "approvalHash": "f2d9dc205a9109a1c5f96b23d6e4fc043dc6ba2731af39f20f02c1476d821b60"
+      }
+    },
+    {
+      "id": "vocab-n1:3501",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3501",
+      "state": "accepted",
+      "predecessorHash": "b3ec86aaab93467e0043439d6493324e3d102a8da6fe9211b912047174c69203",
+      "originalHash": "b3ec86aaab93467e0043439d6493324e3d102a8da6fe9211b912047174c69203",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "プロの神髄を見せつけられました。",
+            "romaji": "Puro no shinzui o misetsuke raremashita.",
+            "german": "Man zeigte mir, was es wirklich bedeutet, ein Profi zu sein."
+          }
+        ],
+        "meaning": "Wesen",
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "神髄 (auch 真髄 geschrieben) ist der innerste Kern, das eigentliche „Wesen“ einer Kunst, Lehre oder Fertigkeit – ein gehobenes, eher schriftliches Wort. Typische Wendungen: 〜の神髄を極める „das Wesen von … bis ins Letzte meistern“, 〜の神髄に触れる „mit dem Wesen von … in Berührung kommen“, 神髄を見せる. Im Unterschied zum neutralen 本質 „Wesen, Natur einer Sache“ schwingt Bewunderung mit: Gemeint ist das Höchste, was ein Meister erreicht.",
+        "examples": [
+          {
+            "japanese": "プロの神髄を見せつけられました。",
+            "romaji": "Puro no shinzui o misetsukeraremashita.",
+            "german": "Man zeigte mir, was es wirklich bedeutet, ein Profi zu sein."
+          },
+          {
+            "japanese": "茶道の神髄は、もてなしの心にあると言われる。",
+            "romaji": "Sadou no shinzui wa, motenashi no kokoro ni aru to iwareru.",
+            "german": "Man sagt, das Wesen der Teezeremonie liege in der Gastfreundschaft."
+          },
+          {
+            "japanese": "彼は一生をかけて武道の神髄を極めた。",
+            "romaji": "Kare wa isshou o kakete budou no shinzui o kiwameta.",
+            "german": "Er widmete sein ganzes Leben der Kampfkunst und drang bis zu ihrem innersten Kern vor."
+          }
+        ],
+        "meaning": "Essenz, Quintessenz, wahres Wesen",
+        "type": "Nomen",
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142849405",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 神髄/シンズイ; lemma 真髄; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "神髄",
+              "reading": "しんずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 神髄/しんずい \"Wesen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1364710 sense 1, noun: essence, quintessence, soul, heart Pitch: Verified [0,1] via exact UniDic row. 神髄 (auch 真髄 geschrieben) ist der innerste Kern, das eigentliche „Wesen“ einer Kunst, Lehre oder Fertigkeit – ein gehobenes, eher schriftliches Wort. Typische Wendungen: 〜の神髄を極める „das Wesen von … bis ins Letzte meistern“, 〜の神髄に触れる „mit dem Wesen von … in Berührung kommen“, 神髄を見せる. Im Unterschied zum neutralen 本質 „Wesen, Natur einer Sache“ schwingt Bewunderung mit: Gemeint ist das Höchste, was ein Meister erreicht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1364710; spelling=神髄; reading=しんずい",
+          "selected": {
+            "sequence": "1364710",
+            "spelling": "神髄",
+            "reading": "しんずい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "essence",
+                  "quintessence",
+                  "spirit",
+                  "soul",
+                  "heart",
+                  "pith (and marrow)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1364710 sense 1, noun: essence, quintessence, soul, heart"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 神髄/シンズイ; lemma 真髄; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142849405",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 神髄/シンズイ; lemma 真髄; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "神髄",
+              "reading": "しんずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 神髄/しんずい \"Wesen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "part-of-speech-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Essenz, Quintessenz, wahres Wesen. JMdict 1364710 sense 1, noun: essence, quintessence, soul, heart",
+        "japanese": "プロの神髄を見せつけられました。 / 茶道の神髄は、もてなしの心にあると言われる。 / 彼は一生をかけて武道の神髄を極めた。",
+        "romanization": "shinzui; Puro no shinzui o misetsukeraremashita. / Sadou no shinzui wa, motenashi no kokoro ni aru to iwareru. / Kare wa isshou o kakete budou no shinzui o kiwameta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man zeigte mir, was es wirklich bedeutet, ein Profi zu sein. / Man sagt, das Wesen der Teezeremonie liege in der Gastfreundschaft. / Er widmete sein ganzes Leben der Kampfkunst und drang bis zu ihrem innersten Kern vor.",
+        "contexts": [
+          "Watching a pro perform",
+          "Spirit of the tea ceremony",
+          "Lifelong martial arts mastery"
+        ],
+        "lexical": "JMdict 1364710 sense 1, noun: essence, quintessence, soul, heart",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3501 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Watching a pro perform; Spirit of the tea ceremony; Lifelong martial arts mastery), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f1260a0e25c28e80092c7c7fb123d368207df3684e4aef5b66a0de5ea415d9ee",
+        "approvalHash": "e1301b8a2590bc7c6aebd25e1d0b2353fd6124a881f5ab5cecc91fa2987622c0"
+      }
+    },
+    {
+      "id": "vocab-n1:3502",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3502",
+      "state": "accepted",
+      "predecessorHash": "c6f5eb9fdd39f871b051fad71f03ac3d12b685bd726f957338938199120af303",
+      "originalHash": "c6f5eb9fdd39f871b051fad71f03ac3d12b685bd726f957338938199120af303",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "事故で脊髄に傷がついてしまったのです。",
+            "romaji": "Jiko de sekizui ni kizu ga tsuite shimatta no desu.",
+            "german": "Mein Rückenmark wurde bei dem Unfall verletzt."
+          }
+        ],
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脊髄 ist das „Rückenmark“ im Wirbelkanal – nicht die Wirbelsäule selbst, die 背骨 bzw. fachlich 脊椎 oder 脊柱 heißt. Häufige Komposita: 脊髄損傷 „Rückenmarksverletzung“ und 脊髄反射 „Rückenmarksreflex“; Letzteres wird umgangssprachlich auch für unüberlegte, reflexhafte Reaktionen gebraucht, besonders im Internet. Nicht verwechseln mit 骨髄 „Knochenmark“ (骨髄移植).",
+        "examples": [
+          {
+            "japanese": "事故で脊髄に傷がついてしまったのです。",
+            "romaji": "Jiko de sekizui ni kizu ga tsuite shimatta no desu.",
+            "german": "Mein Rückenmark wurde bei dem Unfall verletzt."
+          },
+          {
+            "japanese": "熱いものに触って手を引っ込めるのは、脊髄反射だ。",
+            "romaji": "Atsui mono ni sawatte te o hikkomeru no wa, sekizui hansha da.",
+            "german": "Dass man die Hand zurückzieht, wenn man etwas Heißes berührt, ist ein Rückenmarksreflex."
+          },
+          {
+            "japanese": "記事をよく読まずに、脊髄反射で反論する人が多い。",
+            "romaji": "Kiji o yoku yomazu ni, sekizui hansha de hanron suru hito ga ooi.",
+            "german": "Viele widersprechen reflexartig, ohne den Artikel richtig gelesen zu haben."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152549717",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 脊髄/セキズイ; lemma 脊髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "脊髄",
+              "reading": "せきずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脊髄/せきずい \"Rückenmark\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1383120 sense 1, noun: spinal cord Pitch: Verified [2,0] via exact UniDic row. 脊髄 ist das „Rückenmark“ im Wirbelkanal – nicht die Wirbelsäule selbst, die 背骨 bzw. fachlich 脊椎 oder 脊柱 heißt. Häufige Komposita: 脊髄損傷 „Rückenmarksverletzung“ und 脊髄反射 „Rückenmarksreflex“; Letzteres wird umgangssprachlich auch für unüberlegte, reflexhafte Reaktionen gebraucht, besonders im Internet. Nicht verwechseln mit 骨髄 „Knochenmark“ (骨髄移植). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1383120; spelling=脊髄; reading=せきずい",
+          "selected": {
+            "sequence": "1383120",
+            "spelling": "脊髄",
+            "reading": "せきずい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spinal cord"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1383120 sense 1, noun: spinal cord"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2,0] via exact UniDic row. Exact whole 脊髄/セキズイ; lemma 脊髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152549717",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 脊髄/セキズイ; lemma 脊髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "脊髄",
+              "reading": "せきずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脊髄/せきずい \"Rückenmark\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rückenmark. JMdict 1383120 sense 1, noun: spinal cord",
+        "japanese": "事故で脊髄に傷がついてしまったのです。 / 熱いものに触って手を引っ込めるのは、脊髄反射だ。 / 記事をよく読まずに、脊髄反射で反論する人が多い。",
+        "romanization": "sekizui; Jiko de sekizui ni kizu ga tsuite shimatta no desu. / Atsui mono ni sawatte te o hikkomeru no wa, sekizui hansha da. / Kiji o yoku yomazu ni, sekizui hansha de hanron suru hito ga ooi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mein Rückenmark wurde bei dem Unfall verletzt. / Dass man die Hand zurückzieht, wenn man etwas Heißes berührt, ist ein Rückenmarksreflex. / Viele widersprechen reflexartig, ohne den Artikel richtig gelesen zu haben.",
+        "contexts": [
+          "Accident injury",
+          "Biology lesson on reflexes",
+          "Knee-jerk online comments"
+        ],
+        "lexical": "JMdict 1383120 sense 1, noun: spinal cord",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3502 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accident injury; Biology lesson on reflexes; Knee-jerk online comments), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e333666fa7210128c1e8e33a99d04aa234d95da2e1882e3c308aea02fc7033c6",
+        "approvalHash": "303fde15e55d88a7de1ae8648ba36f5a6912ee258955bdc4ee2473c645a271f4"
+      }
+    },
+    {
+      "id": "vocab-n1:3503",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3503",
+      "state": "accepted",
+      "predecessorHash": "762ab8f490d4d47e8dc17b1baf51768f9a207102e87e4557f9e3d2f12c27f415",
+      "originalHash": "762ab8f490d4d47e8dc17b1baf51768f9a207102e87e4557f9e3d2f12c27f415",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "頑張れよ、瑛斗。",
+            "romaji": "Ganbare yo, Akira to.",
+            "german": "Gib dein Bestes, Eito."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "瑛斗 ist ein moderner japanischer Jungenvorname, kein Wörterbuchwort. 瑛 bedeutet „Glanz eines Edelsteins“, 斗 kennt man aus 北斗 „Großer Wagen“. Wie bei vielen heutigen Vornamen ist die Lesung aus den Kanji nicht sicher ableitbar, deshalb fragt man oft nach: 何と読みますか. Freunde und Familie rufen ihn beim Vornamen ohne Anrede oder mit 君 (瑛斗君); Fremde und Lehrer sprechen ihn eher mit dem Familiennamen an.",
+        "examples": [
+          {
+            "japanese": "頑張れよ、瑛斗。",
+            "romaji": "Ganbare yo, Eito.",
+            "german": "Gib dein Bestes, Eito."
+          },
+          {
+            "japanese": "瑛斗君は、クラスで一番足が速い。",
+            "romaji": "Eito-kun wa, kurasu de ichiban ashi ga hayai.",
+            "german": "Eito ist der schnellste Läufer in seiner Klasse."
+          },
+          {
+            "japanese": "息子の名前は瑛斗で、「えいと」と読みます。",
+            "romaji": "Musuko no namae wa Eito de, \"Eito\" to yomimasu.",
+            "german": "Mein Sohn heißt Eito – die Kanji liest man „Ei-to“."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Eito Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 瑛斗 ist ein moderner japanischer Jungenvorname, kein Wörterbuchwort. 瑛 bedeutet „Glanz eines Edelsteins“, 斗 kennt man aus 北斗 „Großer Wagen“. Wie bei vielen heutigen Vornamen ist die Lesung aus den Kanji nicht sicher ableitbar, deshalb fragt man oft nach: 何と読みますか. Freunde und Familie rufen ihn beim Vornamen ohne Anrede oder mit 君 (瑛斗君); Fremde und Lehrer sprechen ihn eher mit dem Familiennamen an. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=瑛斗; reading=えいと; no entry",
+          "finding": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Eito"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 瑛斗/えいと scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%91%9B%E6%96%97",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 瑛斗/えいと scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Eito. No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Eito",
+        "japanese": "頑張れよ、瑛斗。 / 瑛斗君は、クラスで一番足が速い。 / 息子の名前は瑛斗で、「えいと」と読みます。",
+        "romanization": "eito; Ganbare yo, Eito. / Eito-kun wa, kurasu de ichiban ashi ga hayai. / Musuko no namae wa Eito de, \"Eito\" to yomimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gib dein Bestes, Eito. / Eito ist der schnellste Läufer in seiner Klasse. / Mein Sohn heißt Eito – die Kanji liest man „Ei-to“.",
+        "contexts": [
+          "Cheering on a friend",
+          "Fastest runner in class",
+          "Explaining a name's reading"
+        ],
+        "lexical": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Eito",
+        "register": "proper noun (given name)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3503 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cheering on a friend; Fastest runner in class; Explaining a name's reading), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d29569a28ceaf6fba40ccec4ccfdfcef91e3e52075cf0c8d74f08423bec7cd7a",
+        "approvalHash": "99694ac40e4b58ef8db9da76f94da1a0645fe5c0cc611cc1d5ea129a5af9ce53"
+      }
+    },
+    {
+      "id": "vocab-n1:3504",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3504",
+      "state": "accepted",
+      "predecessorHash": "051ba06f1d8447330c9b59baf1936398a7890fba4d3bf133073f18b7a1053378",
+      "originalHash": "051ba06f1d8447330c9b59baf1936398a7890fba4d3bf133073f18b7a1053378",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "今朝、夢に遼太君が現れた。",
+            "romaji": "Kesa, yume ni Ryou Futoshikun ga arawareta.",
+            "german": "Heute Morgen erschien Ryota-kun in meinem Traum."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遼太 ist ein japanischer Jungenvorname, kein Wörterbuchwort. 遼 bedeutet „weit, fern“, 太 „dick, groß, kräftig“ und ist ein klassischer Bestandteil männlicher Vornamen (vgl. 健太, 翔太). Derselbe Name りょうた kann auch 涼太 oder 亮太 geschrieben werden – aus der Aussprache lässt sich die Schreibung nicht erschließen. Unter Freunden und in der Familie ruft man ihn beim Vornamen, oft mit 君.",
+        "examples": [
+          {
+            "japanese": "今朝、夢に遼太君が現れた。",
+            "romaji": "Kesa, yume ni Ryouta-kun ga arawareta.",
+            "german": "Heute Morgen erschien Ryota-kun in meinem Traum."
+          },
+          {
+            "japanese": "遼太、ご飯できたよ。",
+            "romaji": "Ryouta, gohan dekita yo.",
+            "german": "Ryota, das Essen ist fertig!"
+          },
+          {
+            "japanese": "遼太君とは、小学校からの友達です。",
+            "romaji": "Ryouta-kun to wa, shougakkou kara no tomodachi desu.",
+            "german": "Ryota und ich sind seit der Grundschule befreundet."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Ryōta Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 遼太 ist ein japanischer Jungenvorname, kein Wörterbuchwort. 遼 bedeutet „weit, fern“, 太 „dick, groß, kräftig“ und ist ein klassischer Bestandteil männlicher Vornamen (vgl. 健太, 翔太). Derselbe Name りょうた kann auch 涼太 oder 亮太 geschrieben werden – aus der Aussprache lässt sich die Schreibung nicht erschließen. Unter Freunden und in der Familie ruft man ihn beim Vornamen, oft mit 君. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=遼太; reading=りょうた; no entry",
+          "finding": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Ryōta"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 遼太/りょうた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%BC%E5%A4%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 遼太/りょうた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ryota. No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Ryōta",
+        "japanese": "今朝、夢に遼太君が現れた。 / 遼太、ご飯できたよ。 / 遼太君とは、小学校からの友達です。",
+        "romanization": "ryouta; Kesa, yume ni Ryouta-kun ga arawareta. / Ryouta, gohan dekita yo. / Ryouta-kun to wa, shougakkou kara no tomodachi desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Heute Morgen erschien Ryota-kun in meinem Traum. / Ryota, das Essen ist fertig! / Ryota und ich sind seit der Grundschule befreundet.",
+        "contexts": [
+          "Dream this morning",
+          "Mother calling to dinner",
+          "Childhood friend"
+        ],
+        "lexical": "No JMdict entry (personal given name, JMnedict only); closest JMdict 2127570 下の名前 'given name'. Boy's given name Ryōta",
+        "register": "proper noun (given name)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3504 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dream this morning; Mother calling to dinner; Childhood friend), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b514074f9526eb7ed209fea36e51417ef8a597c7db4cd9695370c658c801b094",
+        "approvalHash": "3d9cfa1a7924c9cc12adb101ce61da67d513edeecc48d71aa508ac381ca2b562"
+      }
+    },
+    {
+      "id": "vocab-n1:3507",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3507",
+      "state": "accepted",
+      "predecessorHash": "2dc942e06d952b112da744baf50f1ccc5001c02c06dc9ddcf86be052a0af0094",
+      "originalHash": "2dc942e06d952b112da744baf50f1ccc5001c02c06dc9ddcf86be052a0af0094",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "みんな、彼の非凡な才能を妬んでいたんだと思います。",
+            "romaji": "Minna, kare no hibon na sainou o netande ita n da to omoimasu.",
+            "german": "Ich glaube, alle waren neidisch auf sein außergewöhnliches Talent."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "非凡 („nicht gewöhnlich“) ist das gehobene Gegenstück zu 平凡 und lobt eine herausragende Begabung. Es steht fast immer attributiv mit な vor Wörtern wie 才能, 能力, センス: 非凡な才能 „außergewöhnliches Talent“; als Nomen 非凡さ. Prädikativ (〜は非凡だ) ist es seltener. Im Gespräch sagt man eher すごい oder 並外れた; nicht verwechseln mit 非常 „Notfall; äußerst“.",
+        "examples": [
+          {
+            "japanese": "みんな、彼の非凡な才能を妬んでいたんだと思います。",
+            "romaji": "Minna, kare no hibon na sainou o netande ita n da to omoimasu.",
+            "german": "Ich glaube, alle waren neidisch auf sein außergewöhnliches Talent."
+          },
+          {
+            "japanese": "彼女は幼い頃から、音楽に非凡な才能を示した。",
+            "romaji": "Kanojo wa osanai koro kara, ongaku ni hibon na sainou o shimeshita.",
+            "german": "Schon als kleines Kind zeigte sie eine außergewöhnliche musikalische Begabung."
+          },
+          {
+            "japanese": "監督は、この新人選手の非凡さをすぐに見抜いた。",
+            "romaji": "Kantoku wa, kono shinjin senshu no hibonsa o sugu ni minuita.",
+            "german": "Der Trainer erkannte sofort das außergewöhnliche Können des jungen Spielers."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@227474262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 非凡/ヒボン; lemma 非凡; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "非凡",
+              "reading": "ひぼん",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 非凡/ひぼん \"außergewöhnlich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1485170 sense 1, na-adjective / noun: extraordinary, remarkable, prodigious Pitch: Verified [0] via exact UniDic row. 非凡 („nicht gewöhnlich“) ist das gehobene Gegenstück zu 平凡 und lobt eine herausragende Begabung. Es steht fast immer attributiv mit な vor Wörtern wie 才能, 能力, センス: 非凡な才能 „außergewöhnliches Talent“; als Nomen 非凡さ. Prädikativ (〜は非凡だ) ist es seltener. Im Gespräch sagt man eher すごい oder 並外れた; nicht verwechseln mit 非常 „Notfall; äußerst“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1485170; spelling=非凡; reading=ひぼん",
+          "selected": {
+            "sequence": "1485170",
+            "spelling": "非凡",
+            "reading": "ひぼん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "extraordinary",
+                  "uncommon",
+                  "remarkable",
+                  "unusual",
+                  "rare",
+                  "prodigious"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1485170 sense 1, na-adjective / noun: extraordinary, remarkable, prodigious"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 非凡/ヒボン; lemma 非凡; 形状詞/一般/*/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@227474262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 非凡/ヒボン; lemma 非凡; 形状詞/一般/*/*; *; *; aType 0.",
+            "match": {
+              "word": "非凡",
+              "reading": "ひぼん",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 非凡/ひぼん \"außergewöhnlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "außergewöhnlich. JMdict 1485170 sense 1, na-adjective / noun: extraordinary, remarkable, prodigious",
+        "japanese": "みんな、彼の非凡な才能を妬んでいたんだと思います。 / 彼女は幼い頃から、音楽に非凡な才能を示した。 / 監督は、この新人選手の非凡さをすぐに見抜いた。",
+        "romanization": "hibon; Minna, kare no hibon na sainou o netande ita n da to omoimasu. / Kanojo wa osanai koro kara, ongaku ni hibon na sainou o shimeshita. / Kantoku wa, kono shinjin senshu no hibonsa o sugu ni minuita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich glaube, alle waren neidisch auf sein außergewöhnliches Talent. / Schon als kleines Kind zeigte sie eine außergewöhnliche musikalische Begabung. / Der Trainer erkannte sofort das außergewöhnliche Können des jungen Spielers.",
+        "contexts": [
+          "Envy of a gifted colleague",
+          "Musical child prodigy",
+          "Coach spotting talent"
+        ],
+        "lexical": "JMdict 1485170 sense 1, na-adjective / noun: extraordinary, remarkable, prodigious",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb; na-adjective (非凡な, 非凡さ)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3507 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Envy of a gifted colleague; Musical child prodigy; Coach spotting talent), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "10de183a0248910f5bc715374f9f80be65e1db4d1345f0a07ef001aaabea418a",
+        "approvalHash": "36f0028829e54d32da62ddc804a334d175009ce0ec5a24190dc71875e364a666"
+      }
+    },
+    {
+      "id": "vocab-n1:3508",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3508",
+      "state": "accepted",
+      "predecessorHash": "1b7be008e31333796aea46671c5ed501536616a9b9fc20314e073eec8f7e6d8d",
+      "originalHash": "1b7be008e31333796aea46671c5ed501536616a9b9fc20314e073eec8f7e6d8d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "平凡な毎日に退屈していたんです。",
+            "romaji": "Heibon na mainichi ni taikutsu shite ita n desu.",
+            "german": "Mir war der gewöhnliche Alltag langweilig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "平凡 bedeutet „gewöhnlich, alltäglich, ohne Besonderheiten“: 平凡な人生, 平凡な毎日, 平凡なサラリーマン. Anders als das wertfreie 普通 „normal, üblich“ betont 平凡 das Fehlen von Glanz und kann leicht abwertend sein („einfallslos“). Oft ist es aber auch positiv gemeint, als ruhiges, bescheidenes Glück: 平凡が一番. Gegenteil: 非凡; deutlich abwertender ist 凡庸.",
+        "examples": [
+          {
+            "japanese": "平凡な毎日に退屈していたんです。",
+            "romaji": "Heibon na mainichi ni taikutsu shite ita n desu.",
+            "german": "Mir war der gewöhnliche Alltag langweilig."
+          },
+          {
+            "japanese": "私は平凡な家庭に生まれ育ちました。",
+            "romaji": "Watashi wa heibon na katei ni umaresodachimashita.",
+            "german": "Ich bin in einer ganz gewöhnlichen Familie aufgewachsen."
+          },
+          {
+            "japanese": "そのアイデアは悪くないが、少し平凡すぎる。",
+            "romaji": "Sono aidea wa warukunai ga, sukoshi heibon sugiru.",
+            "german": "Die Idee ist nicht schlecht, aber etwas zu einfallslos."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240905819",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 平凡/ヘイボン; lemma 平凡; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 平凡/ヘイボン; lemma 平凡; 名詞/固有名詞/一般/*; *; *; aType *.",
+            "match": {
+              "word": "平凡",
+              "reading": "へいぼん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 平凡/へいぼん \"gewöhnlich\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1507910 sense 1, na-adjective / noun: ordinary, commonplace, unremarkable Pitch: Verified [0] via exact UniDic row. 平凡 bedeutet „gewöhnlich, alltäglich, ohne Besonderheiten“: 平凡な人生, 平凡な毎日, 平凡なサラリーマン. Anders als das wertfreie 普通 „normal, üblich“ betont 平凡 das Fehlen von Glanz und kann leicht abwertend sein („einfallslos“). Oft ist es aber auch positiv gemeint, als ruhiges, bescheidenes Glück: 平凡が一番. Gegenteil: 非凡; deutlich abwertender ist 凡庸. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1507910; spelling=平凡; reading=へいぼん",
+          "selected": {
+            "sequence": "1507910",
+            "spelling": "平凡",
+            "reading": "へいぼん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ordinary",
+                  "common",
+                  "commonplace",
+                  "mediocre",
+                  "unremarkable",
+                  "undistinguished",
+                  "uneventful"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1507910 sense 1, na-adjective / noun: ordinary, commonplace, unremarkable"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 平凡/ヘイボン; lemma 平凡; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 平凡/ヘイボン; lemma 平凡; 名詞/固有名詞/一般/*; *; *; aType *.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240905819",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 平凡/ヘイボン; lemma 平凡; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: 平凡/ヘイボン; lemma 平凡; 名詞/固有名詞/一般/*; *; *; aType *.",
+            "match": {
+              "word": "平凡",
+              "reading": "へいぼん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 平凡/へいぼん \"gewöhnlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "gewöhnlich. JMdict 1507910 sense 1, na-adjective / noun: ordinary, commonplace, unremarkable",
+        "japanese": "平凡な毎日に退屈していたんです。 / 私は平凡な家庭に生まれ育ちました。 / そのアイデアは悪くないが、少し平凡すぎる。",
+        "romanization": "heibon; Heibon na mainichi ni taikutsu shite ita n desu. / Watashi wa heibon na katei ni umaresodachimashita. / Sono aidea wa warukunai ga, sukoshi heibon sugiru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mir war der gewöhnliche Alltag langweilig. / Ich bin in einer ganz gewöhnlichen Familie aufgewachsen. / Die Idee ist nicht schlecht, aber etwas zu einfallslos.",
+        "contexts": [
+          "Bored with daily routine",
+          "Self-introduction",
+          "Feedback on an idea"
+        ],
+        "lexical": "JMdict 1507910 sense 1, na-adjective / noun: ordinary, commonplace, unremarkable",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb; na-adjective (平凡な, 平凡すぎる)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3508 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Bored with daily routine; Self-introduction; Feedback on an idea), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bd5fd971a31e243cecd88709fa983a12522cfd7ee046675e7aa3271d4bffe04b",
+        "approvalHash": "2b845be9b66db613b53382b5575e47283a158d6e0d35425778841b33a458eb22"
+      }
+    },
+    {
+      "id": "vocab-n1:3509",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3509",
+      "state": "accepted",
+      "predecessorHash": "b07ce6ef57b244a921650eef8749b690f0d13cb65dbe61d04e406ed0c3ab7f73",
+      "originalHash": "b07ce6ef57b244a921650eef8749b690f0d13cb65dbe61d04e406ed0c3ab7f73",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼は凡庸な男ですが、愛に満ちあふれていました。",
+            "romaji": "Kare wa bon'you na otoko desu ga, ai ni michi afurete imashita.",
+            "german": "Er war ein mittelmäßiger Mann, aber voller Liebe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "凡庸 „mittelmäßig, ohne besondere Begabung“ ist gehoben und deutlich abwertender als 平凡. Während 平凡 eher ein ruhiges, unauffälliges Leben beschreibt, beurteilt 凡庸 Fähigkeiten oder Leistungen: 凡庸な作品, 凡庸な政治家, 凡庸な才能. Typisch in Kritiken und Kommentaren; im Gespräch wären ありきたり oder 大したことない üblicher. Gegenteil: 非凡, 卓越した.",
+        "examples": [
+          {
+            "japanese": "彼は凡庸な男でしたが、愛に満ちあふれていました。",
+            "romaji": "Kare wa bon'you na otoko deshita ga, ai ni michiafurete imashita.",
+            "german": "Er war ein mittelmäßiger Mann, aber voller Liebe."
+          },
+          {
+            "japanese": "批評家は、その小説を「凡庸な作品」と切り捨てた。",
+            "romaji": "Hihyouka wa, sono shousetsu o \"bon'you na sakuhin\" to kirisuteta.",
+            "german": "Der Kritiker tat den Roman als „mittelmäßiges Werk“ ab."
+          },
+          {
+            "japanese": "凡庸な指導者では、この危機は乗り越えられない。",
+            "romaji": "Bon'you na shidousha de wa, kono kiki wa norikoerarenai.",
+            "german": "Mit einer mittelmäßigen Führung lässt sich diese Krise nicht bewältigen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246597323",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 凡庸/ボンヨウ; lemma 凡庸; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "凡庸",
+              "reading": "ぼんよう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 凡庸/ぼんよう \"mittelmäßig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1523660 sense 1, na-adjective / noun: mediocre, commonplace, banal Pitch: Verified [0] via exact UniDic row. 凡庸 „mittelmäßig, ohne besondere Begabung“ ist gehoben und deutlich abwertender als 平凡. Während 平凡 eher ein ruhiges, unauffälliges Leben beschreibt, beurteilt 凡庸 Fähigkeiten oder Leistungen: 凡庸な作品, 凡庸な政治家, 凡庸な才能. Typisch in Kritiken und Kommentaren; im Gespräch wären ありきたり oder 大したことない üblicher. Gegenteil: 非凡, 卓越した. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1523660; spelling=凡庸; reading=ぼんよう",
+          "selected": {
+            "sequence": "1523660",
+            "spelling": "凡庸",
+            "reading": "ぼんよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "nouns which may take the genitive case particle 'no'",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mediocre",
+                  "ordinary",
+                  "commonplace",
+                  "banal"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1523660 sense 1, na-adjective / noun: mediocre, commonplace, banal"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 凡庸/ボンヨウ; lemma 凡庸; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@246597323",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 凡庸/ボンヨウ; lemma 凡庸; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "凡庸",
+              "reading": "ぼんよう",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 凡庸/ぼんよう \"mittelmäßig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "mittelmäßig. JMdict 1523660 sense 1, na-adjective / noun: mediocre, commonplace, banal",
+        "japanese": "彼は凡庸な男でしたが、愛に満ちあふれていました。 / 批評家は、その小説を「凡庸な作品」と切り捨てた。 / 凡庸な指導者では、この危機は乗り越えられない。",
+        "romanization": "bon'you; Kare wa bon'you na otoko deshita ga, ai ni michiafurete imashita. / Hihyouka wa, sono shousetsu o \"bon'you na sakuhin\" to kirisuteta. / Bon'you na shidousha de wa, kono kiki wa norikoerarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er war ein mittelmäßiger Mann, aber voller Liebe. / Der Kritiker tat den Roman als „mittelmäßiges Werk“ ab. / Mit einer mittelmäßigen Führung lässt sich diese Krise nicht bewältigen.",
+        "contexts": [
+          "Remembering a loving man",
+          "Harsh book review",
+          "Leadership in a crisis"
+        ],
+        "lexical": "JMdict 1523660 sense 1, na-adjective / noun: mediocre, commonplace, banal",
+        "register": "written / formal, pejorative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb; na-adjective (凡庸な)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3509 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Remembering a loving man; Harsh book review; Leadership in a crisis), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "71ec075c8a9359a636b7ade028a8eb41c397a69eaddc03368753cfabaa175ef1",
+        "approvalHash": "efe20765a671bc81d4373c1320033d40a04957e722ef9a5e216139e1b6a643a3"
+      }
+    },
+    {
+      "id": "vocab-n1:3510",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3510",
+      "state": "accepted",
+      "predecessorHash": "acf076c7b0661d876c62f7bf7d4f4c5dd6af4a6b1f5e8c6d721459fa7bb0b30a",
+      "originalHash": "acf076c7b0661d876c62f7bf7d4f4c5dd6af4a6b1f5e8c6d721459fa7bb0b30a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼は呉服屋の一人息子でした。",
+            "romaji": "Kare wa gofukuya no ichinin musuko deshita.",
+            "german": "Er war der einzige Sohn eines Stoffhändlers."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "呉服 bezeichnet Stoffe für japanische Kleidung, vor allem Kimonostoffe, und im weiteren Sinn den Kimono als Handelsware. Am häufigsten begegnet es in 呉服屋 bzw. 呉服店 „Kimonogeschäft“; große Kaufhäuser wie 三越 oder 大丸 begannen als 呉服店. Westliche Kleidung heißt dagegen 洋服, Stoff allgemein 生地 oder 布. Der Name erinnert an das alte chinesische Reich 呉, aus dem die Webkunst kam.",
+        "examples": [
+          {
+            "japanese": "彼は呉服屋の一人息子でした。",
+            "romaji": "Kare wa gofukuya no hitori musuko deshita.",
+            "german": "Er war der einzige Sohn eines Kimonohändlers."
+          },
+          {
+            "japanese": "この百貨店は、もともと江戸時代の呉服店だった。",
+            "romaji": "Kono hyakkaten wa, motomoto Edo jidai no gofukuten datta.",
+            "german": "Dieses Kaufhaus war ursprünglich ein Kimonogeschäft aus der Edo-Zeit."
+          },
+          {
+            "japanese": "成人式の着物は、祖母が呉服屋で選んでくれた。",
+            "romaji": "Seijinshiki no kimono wa, sobo ga gofukuya de erande kureta.",
+            "german": "Den Kimono für die Volljährigkeitsfeier hat meine Großmutter im Kimonogeschäft für mich ausgesucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126639908",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 呉服/ゴフク; lemma 呉服; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "呉服",
+              "reading": "ごふく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 呉服/ごふく \"Kimono-Stoff\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1269190 senses 1–2, noun: cloth for Japanese clothes, kimono fabrics; silk fabrics Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 呉服 bezeichnet Stoffe für japanische Kleidung, vor allem Kimonostoffe, und im weiteren Sinn den Kimono als Handelsware. Am häufigsten begegnet es in 呉服屋 bzw. 呉服店 „Kimonogeschäft“; große Kaufhäuser wie 三越 oder 大丸 begannen als 呉服店. Westliche Kleidung heißt dagegen 洋服, Stoff allgemein 生地 oder 布. Der Name erinnert an das alte chinesische Reich 呉, aus dem die Webkunst kam. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1269190; spelling=呉服; reading=ごふく",
+          "selected": {
+            "sequence": "1269190",
+            "spelling": "呉服",
+            "reading": "ごふく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cloth (for Japanese clothes)",
+                  "kimono fabrics",
+                  "textile",
+                  "drapery",
+                  "dry goods",
+                  "piece goods"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "silk fabrics"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1269190 senses 1–2, noun: cloth for Japanese clothes, kimono fabrics; silk fabrics"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 呉服/ゴフク; lemma 呉服; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@126639908",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 呉服/ゴフク; lemma 呉服; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "呉服",
+              "reading": "ごふく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 呉服/ごふく \"Kimono-Stoff\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kimono-Stoff. JMdict 1269190 senses 1–2, noun: cloth for Japanese clothes, kimono fabrics; silk fabrics",
+        "japanese": "彼は呉服屋の一人息子でした。 / この百貨店は、もともと江戸時代の呉服店だった。 / 成人式の着物は、祖母が呉服屋で選んでくれた。",
+        "romanization": "gofuku; Kare wa gofukuya no hitori musuko deshita. / Kono hyakkaten wa, motomoto Edo jidai no gofukuten datta. / Seijinshiki no kimono wa, sobo ga gofukuya de erande kureta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er war der einzige Sohn eines Kimonohändlers. / Dieses Kaufhaus war ursprünglich ein Kimonogeschäft aus der Edo-Zeit. / Den Kimono für die Volljährigkeitsfeier hat meine Großmutter im Kimonogeschäft für mich ausgesucht.",
+        "contexts": [
+          "Family background",
+          "History of a department store",
+          "Coming-of-age kimono"
+        ],
+        "lexical": "JMdict 1269190 senses 1–2, noun: cloth for Japanese clothes, kimono fabrics; silk fabrics",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3510 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Family background; History of a department store; Coming-of-age kimono), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "443208def0d522d7a5ca461170e1d70b2e5638e218a8918cda7a8db205441826",
+        "approvalHash": "2b33911515c6ed96ac9b256ca0ac6801f4e21a679edfb63869ea7732cac2fd4f"
+      }
+    },
+    {
+      "id": "vocab-n1:3512",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3512",
+      "state": "accepted",
+      "predecessorHash": "7cac55f678b894f2d63866a499870401befb5cf34401f4f12c1500fa19b8c49b",
+      "originalHash": "7cac55f678b894f2d63866a499870401befb5cf34401f4f12c1500fa19b8c49b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "本日は、皇太子殿下御生誕の嘉日なり。",
+            "romaji": "Honjitsu wa, koutaishi denka go seitan no kajitsu nari.",
+            "german": "Heute ist der glückverheißende Tag der Geburt des Kronprinzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "嘉日 „glückverheißender, festlicher Tag“ ist sehr gehoben und altertümlich; man findet es in Festreden, Glückwunschformeln und älteren Texten. 嘉 bedeutet „gut, glücklich“. Geläufiger sind 吉日 (きちじつ, z. B. im Briefdatum 〇月吉日) und das gleich gelesene 佳日 „schöner Tag“. Vorsicht vor dem Homophon 過日 „neulich, vor einigen Tagen“.",
+        "examples": [
+          {
+            "japanese": "本日は、皇太子殿下御生誕の嘉日なり。",
+            "romaji": "Honjitsu wa, koutaishi denka go seitan no kajitsu nari.",
+            "german": "Heute ist der glückverheißende Tag der Geburt des Kronprinzen."
+          },
+          {
+            "japanese": "本日の嘉日を迎え、心よりお祝い申し上げます。",
+            "romaji": "Honjitsu no kajitsu o mukae, kokoro yori oiwai moushiagemasu.",
+            "german": "Zu diesem festlichen Tag gratuliere ich von ganzem Herzen."
+          },
+          {
+            "japanese": "祖父母は嘉日を選んで、新しい家に引っ越した。",
+            "romaji": "Sofubo wa kajitsu o erande, atarashii ie ni hikkoshita.",
+            "german": "Meine Großeltern wählten für den Umzug ins neue Haus einen Glückstag."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93381544",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 嘉日/カジツ; lemma 佳日; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "嘉日",
+              "reading": "かじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 嘉日/かじつ \"Glückstag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1189840 sense 1, noun: auspicious day, lucky day Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 嘉日 „glückverheißender, festlicher Tag“ ist sehr gehoben und altertümlich; man findet es in Festreden, Glückwunschformeln und älteren Texten. 嘉 bedeutet „gut, glücklich“. Geläufiger sind 吉日 (きちじつ, z. B. im Briefdatum 〇月吉日) und das gleich gelesene 佳日 „schöner Tag“. Vorsicht vor dem Homophon 過日 „neulich, vor einigen Tagen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1189840; spelling=嘉日; reading=かじつ",
+          "selected": {
+            "sequence": "1189840",
+            "spelling": "嘉日",
+            "reading": "かじつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "auspicious day",
+                  "good day",
+                  "lucky day",
+                  "beautiful day"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1189840 sense 1, noun: auspicious day, lucky day"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 嘉日/カジツ; lemma 佳日; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93381544",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 嘉日/カジツ; lemma 佳日; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "嘉日",
+              "reading": "かじつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 嘉日/かじつ \"Glückstag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Glückstag. JMdict 1189840 sense 1, noun: auspicious day, lucky day",
+        "japanese": "本日は、皇太子殿下御生誕の嘉日なり。 / 本日の嘉日を迎え、心よりお祝い申し上げます。 / 祖父母は嘉日を選んで、新しい家に引っ越した。",
+        "romanization": "kajitsu; Honjitsu wa, koutaishi denka go seitan no kajitsu nari. / Honjitsu no kajitsu o mukae, kokoro yori oiwai moushiagemasu. / Sofubo wa kajitsu o erande, atarashii ie ni hikkoshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Heute ist der glückverheißende Tag der Geburt des Kronprinzen. / Zu diesem festlichen Tag gratuliere ich von ganzem Herzen. / Meine Großeltern wählten für den Umzug ins neue Haus einen Glückstag.",
+        "contexts": [
+          "Imperial birthday proclamation",
+          "Formal congratulatory speech",
+          "Choosing a lucky moving day"
+        ],
+        "lexical": "JMdict 1189840 sense 1, noun: auspicious day, lucky day",
+        "register": "archaic / very formal written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3512 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Imperial birthday proclamation; Formal congratulatory speech; Choosing a lucky moving day), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c57aba911b35c05f82a37f3669a0fc2027fdafa73693e335cd3b67e08165dba1",
+        "approvalHash": "b6b5ac86fe4e67570f408a75a80c9e7290c366a1a1070fd99a93a1b033f092c3"
+      }
+    },
+    {
+      "id": "vocab-n1:3513",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3513",
+      "state": "accepted",
+      "predecessorHash": "0ba169329096f9a2f1c047f28f5a7d61df10a73cfe19f65291bf5d6e871a2c41",
+      "originalHash": "0ba169329096f9a2f1c047f28f5a7d61df10a73cfe19f65291bf5d6e871a2c41",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "いつか自分の劇団を主宰するのが夢です。",
+            "romaji": "Itsuka jibun no gekidan o shusai suru no ga yume desu.",
+            "german": "Mein Traum ist es, eines Tages meine eigene Theatergruppe zu leiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "主宰 bedeutet, eine Gruppe als Gründer und Oberhaupt zu leiten – typisch bei Theatergruppen, Haiku-Kreisen, Studienzirkeln oder Kunstschulen: 劇団を主宰する. Die Person selbst heißt ebenfalls 主宰 (劇団の主宰). Nicht verwechseln mit dem gleich gelesenen 主催 „eine Veranstaltung ausrichten“ (イベントを主催する). Für Firmen sagt man 経営する, für Sitzungen 司会する oder 議長を務める.",
+        "examples": [
+          {
+            "japanese": "いつか自分の劇団を主宰するのが夢です。",
+            "romaji": "Itsuka jibun no gekidan o shusai suru no ga yume desu.",
+            "german": "Mein Traum ist es, eines Tages meine eigene Theatergruppe zu leiten."
+          },
+          {
+            "japanese": "彼女は二十年間、俳句の会を主宰してきた。",
+            "romaji": "Kanojo wa nijuunenkan, haiku no kai o shusai shite kita.",
+            "german": "Sie leitet seit zwanzig Jahren einen Haiku-Kreis."
+          },
+          {
+            "japanese": "この劇団の主宰は、脚本も演出も自分で手がけている。",
+            "romaji": "Kono gekidan no shusai wa, kyakuhon mo enshutsu mo jibun de tegakete iru.",
+            "german": "Der Leiter dieser Theatergruppe schreibt die Stücke selbst und führt auch Regie."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1325480 senses 1–2, noun / suru verb: presiding over, leadership; head, president (of a group) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 主宰 bedeutet, eine Gruppe als Gründer und Oberhaupt zu leiten – typisch bei Theatergruppen, Haiku-Kreisen, Studienzirkeln oder Kunstschulen: 劇団を主宰する. Die Person selbst heißt ebenfalls 主宰 (劇団の主宰). Nicht verwechseln mit dem gleich gelesenen 主催 „eine Veranstaltung ausrichten“ (イベントを主催する). Für Firmen sagt man 経営する, für Sitzungen 司会する oder 議長を務める. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1325480; spelling=主宰; reading=しゅさい",
+          "selected": {
+            "sequence": "1325480",
+            "spelling": "主宰",
+            "reading": "しゅさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chairmanship",
+                  "presidency",
+                  "management"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "president",
+                  "chairman"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1325480 senses 1–2, noun / suru verb: presiding over, leadership; head, president (of a group)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 主宰/シュサイ; lemma 主宰; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer. Query returned 0 rows (); none is the exact head 主宰/しゅさい with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%BB%E5%AE%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 主宰/シュサイ; lemma 主宰; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 3a2c536cb73df014a63c509f64fd44f0f14d8ef7a4666674af64531bc799c92a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%BB%E5%AE%B0",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 主宰/しゅさい with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leitung. JMdict 1325480 senses 1–2, noun / suru verb: presiding over, leadership; head, president (of a group)",
+        "japanese": "いつか自分の劇団を主宰するのが夢です。 / 彼女は二十年間、俳句の会を主宰してきた。 / この劇団の主宰は、脚本も演出も自分で手がけている。",
+        "romanization": "shusai; Itsuka jibun no gekidan o shusai suru no ga yume desu. / Kanojo wa nijuunenkan, haiku no kai o shusai shite kita. / Kono gekidan no shusai wa, kyakuhon mo enshutsu mo jibun de tegakete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mein Traum ist es, eines Tages meine eigene Theatergruppe zu leiten. / Sie leitet seit zwanzig Jahren einen Haiku-Kreis. / Der Leiter dieser Theatergruppe schreibt die Stücke selbst und führt auch Regie.",
+        "contexts": [
+          "Dream of a theatre troupe",
+          "Long-running haiku circle",
+          "Troupe founder's many roles"
+        ],
+        "lexical": "JMdict 1325480 senses 1–2, noun / suru verb: presiding over, leadership; head, president (of a group)",
+        "register": "formal",
+        "transitivity": "transitive (団体を主宰する)",
+        "conjugation": "suru verb (主宰する → 主宰して, 主宰しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3513 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Dream of a theatre troupe; Long-running haiku circle; Troupe founder's many roles), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "165e7551cad8ff9a365530b788f230ac0ecc554371a54ba27a28e9899ea3f5af",
+        "approvalHash": "8ce88cf6ea870a1c1a124c35cbd13b2a837ff609c7d11e8561c447c45d6f93e1"
+      }
+    },
+    {
+      "id": "vocab-n1:3514",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3514",
+      "state": "accepted",
+      "predecessorHash": "faf7fe0efca2033ad858a3cdc69467f78197d54b2dc92dc26316f072fd6779c1",
+      "originalHash": "faf7fe0efca2033ad858a3cdc69467f78197d54b2dc92dc26316f072fd6779c1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "英国宰相から直々に手紙を頂きました。",
+            "romaji": "Eikoku saishou kara jikijiki ni tegami o itadakimashita.",
+            "german": "Ich erhielt persönlich einen Brief vom britischen Premierminister."
+          }
+        ],
+        "meaning": "Premierminister",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "宰相 ist ein gehobenes, etwas altertümliches Wort für den Regierungschef. Der japanische Premierminister heißt heute offiziell 内閣総理大臣, kurz 首相; 宰相 findet man in Geschichtsdarstellungen, Biografien, Leitartikeln und für ausländische Regierungschefs, etwa den deutschen Kanzler (鉄血宰相ビスマルク). Das Wort klingt würdevoll und betont staatsmännisches Format: 一国の宰相.",
+        "examples": [
+          {
+            "japanese": "英国宰相から直々に手紙を頂きました。",
+            "romaji": "Eikoku saishou kara jikijiki ni tegami o itadakimashita.",
+            "german": "Ich erhielt persönlich einen Brief vom britischen Premierminister."
+          },
+          {
+            "japanese": "ビスマルクは「鉄血宰相」と呼ばれた。",
+            "romaji": "Bisumaruku wa \"tekketsu saishou\" to yobareta.",
+            "german": "Bismarck wurde der „Eiserne Kanzler“ genannt."
+          },
+          {
+            "japanese": "彼には一国の宰相としての器がない。",
+            "romaji": "Kare ni wa ikkoku no saishou to shite no utsuwa ga nai.",
+            "german": "Ihm fehlt das Format, ein Land als Regierungschef zu führen."
+          }
+        ],
+        "meaning": "Premierminister, Kanzler",
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127002650",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 宰相/サイショウ; lemma 宰相; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "宰相",
+              "reading": "さいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 宰相/さいしょう \"Premierminister\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1294380 sense 1, noun: prime minister, premier, chancellor Pitch: Verified [0,1] via exact UniDic row. 宰相 ist ein gehobenes, etwas altertümliches Wort für den Regierungschef. Der japanische Premierminister heißt heute offiziell 内閣総理大臣, kurz 首相; 宰相 findet man in Geschichtsdarstellungen, Biografien, Leitartikeln und für ausländische Regierungschefs, etwa den deutschen Kanzler (鉄血宰相ビスマルク). Das Wort klingt würdevoll und betont staatsmännisches Format: 一国の宰相. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1294380; spelling=宰相; reading=さいしょう",
+          "selected": {
+            "sequence": "1294380",
+            "spelling": "宰相",
+            "reading": "さいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prime minister",
+                  "premier",
+                  "chancellor"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1294380 sense 1, noun: prime minister, premier, chancellor"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 宰相/サイショウ; lemma 宰相; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127002650",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 宰相/サイショウ; lemma 宰相; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "宰相",
+              "reading": "さいしょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 宰相/さいしょう \"Premierminister\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Premierminister, Kanzler. JMdict 1294380 sense 1, noun: prime minister, premier, chancellor",
+        "japanese": "英国宰相から直々に手紙を頂きました。 / ビスマルクは「鉄血宰相」と呼ばれた。 / 彼には一国の宰相としての器がない。",
+        "romanization": "saishou; Eikoku saishou kara jikijiki ni tegami o itadakimashita. / Bisumaruku wa \"tekketsu saishou\" to yobareta. / Kare ni wa ikkoku no saishou to shite no utsuwa ga nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich erhielt persönlich einen Brief vom britischen Premierminister. / Bismarck wurde der „Eiserne Kanzler“ genannt. / Ihm fehlt das Format, ein Land als Regierungschef zu führen.",
+        "contexts": [
+          "Letter from abroad",
+          "History lesson on Bismarck",
+          "Political commentary"
+        ],
+        "lexical": "JMdict 1294380 sense 1, noun: prime minister, premier, chancellor",
+        "register": "formal / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3514 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Letter from abroad; History lesson on Bismarck; Political commentary), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "04a8ebef96c6430ac4632f843d82c35ec2c1b6a7cf051b50e634bd71c4c58ea2",
+        "approvalHash": "f28144323770a93c2f6b2f72b4457ccf0220325815e61993dcb433f9467170fb"
+      }
+    },
+    {
+      "id": "vocab-n1:3515",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3515",
+      "state": "accepted",
+      "predecessorHash": "68f3d2911b3f7e91ff7013105d9577313682fc4708d8611fac1edee96a14a8fa",
+      "originalHash": "68f3d2911b3f7e91ff7013105d9577313682fc4708d8611fac1edee96a14a8fa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "赤ん坊の泣き声が静寂を破った。",
+            "romaji": "Akanbou no nakigoe ga seijaku o yabutta.",
+            "german": "Das Weinen des Babys durchbrach die Stille."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "静寂 ist die tiefe, feierliche „Stille“ eines Ortes – gehoben und literarisch. Feste Wendungen: 静寂を破る „die Stille durchbrechen“, 静寂に包まれる „in Stille gehüllt sein“, 夜の静寂. In Dichtung wird es auch しじま gelesen. Im Alltag sagt man eher 静けさ oder einfach 静か; 沈黙 meint dagegen das „Schweigen“ von Menschen.",
+        "examples": [
+          {
+            "japanese": "赤ん坊の泣き声が静寂を破った。",
+            "romaji": "Akanbou no nakigoe ga seijaku o yabutta.",
+            "german": "Das Weinen des Babys durchbrach die Stille."
+          },
+          {
+            "japanese": "雪の降る夜、町は静寂に包まれていた。",
+            "romaji": "Yuki no furu yoru, machi wa seijaku ni tsutsumarete ita.",
+            "german": "In der verschneiten Nacht lag die Stadt in tiefer Stille."
+          },
+          {
+            "japanese": "森の静寂の中で、鳥の声だけが聞こえた。",
+            "romaji": "Mori no seijaku no naka de, tori no koe dake ga kikoeta.",
+            "german": "In der Stille des Waldes waren nur die Vögel zu hören."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152076940",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 静寂/セイジャク; lemma 静寂; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "静寂",
+              "reading": "せいじゃく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 静寂/せいじゃく \"Stille\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1381910 sense 1, noun / na-adjective: silence, stillness Pitch: Verified [0] via exact UniDic row. 静寂 ist die tiefe, feierliche „Stille“ eines Ortes – gehoben und literarisch. Feste Wendungen: 静寂を破る „die Stille durchbrechen“, 静寂に包まれる „in Stille gehüllt sein“, 夜の静寂. In Dichtung wird es auch しじま gelesen. Im Alltag sagt man eher 静けさ oder einfach 静か; 沈黙 meint dagegen das „Schweigen“ von Menschen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1381910; spelling=静寂; reading=せいじゃく",
+          "selected": {
+            "sequence": "1381910",
+            "spelling": "静寂",
+            "reading": "せいじゃく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "silence",
+                  "stillness",
+                  "quietness"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1381910 sense 1, noun / na-adjective: silence, stillness"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 静寂/セイジャク; lemma 静寂; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152076940",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 静寂/セイジャク; lemma 静寂; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "静寂",
+              "reading": "せいじゃく",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 静寂/せいじゃく \"Stille\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stille. JMdict 1381910 sense 1, noun / na-adjective: silence, stillness",
+        "japanese": "赤ん坊の泣き声が静寂を破った。 / 雪の降る夜、町は静寂に包まれていた。 / 森の静寂の中で、鳥の声だけが聞こえた。",
+        "romanization": "seijaku; Akanbou no nakigoe ga seijaku o yabutta. / Yuki no furu yoru, machi wa seijaku ni tsutsumarete ita. / Mori no seijaku no naka de, tori no koe dake ga kikoeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Weinen des Babys durchbrach die Stille. / In der verschneiten Nacht lag die Stadt in tiefer Stille. / In der Stille des Waldes waren nur die Vögel zu hören.",
+        "contexts": [
+          "Baby crying at night",
+          "Snowy town",
+          "Walk in the forest"
+        ],
+        "lexical": "JMdict 1381910 sense 1, noun / na-adjective: silence, stillness",
+        "register": "written / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3515 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Baby crying at night; Snowy town; Walk in the forest), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dd2db1acbfbe95a39e6219f825e2eea7d4eb43785c05569acf69d477ce9bf51a",
+        "approvalHash": "0903bc897e6612be1c2895ac8c8a23eb523397312bbc0a57cac61f36e4cad458"
+      }
+    },
+    {
+      "id": "vocab-n1:3516",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3516",
+      "state": "accepted",
+      "predecessorHash": "89533611dc77737ae9339e1ac12204f1e52e9b9cf94ddb339666aceadec1c342",
+      "originalHash": "89533611dc77737ae9339e1ac12204f1e52e9b9cf94ddb339666aceadec1c342",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大尉の死は決して無駄ではなかった。",
+            "romaji": "Taii no shi wa kesshite muda de wa nakatta.",
+            "german": "Der Tod des Hauptmanns war keineswegs vergeblich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大尉 ist ein Offiziersrang: beim Heer „Hauptmann“, bei der Marine „Kapitänleutnant“. Die Leutnantsränge steigen 少尉 < 中尉 < 大尉 auf, darüber folgen 少佐 usw. Die japanischen Selbstverteidigungsstreitkräfte nennen den Rang offiziell 一尉; 大尉 begegnet man daher vor allem in historischen Texten, bei ausländischen Armeen und in Filmen. Als Anrede steht es nach dem Namen: 田中大尉.",
+        "examples": [
+          {
+            "japanese": "大尉の死は決して無駄ではなかった。",
+            "romaji": "Taii no shi wa kesshite muda de wa nakatta.",
+            "german": "Der Tod des Hauptmanns war keineswegs vergeblich."
+          },
+          {
+            "japanese": "彼は二十八歳で大尉に昇進した。",
+            "romaji": "Kare wa nijuuhassai de taii ni shoushin shita.",
+            "german": "Mit achtundzwanzig wurde er zum Hauptmann befördert."
+          },
+          {
+            "japanese": "「了解しました、田中大尉！」",
+            "romaji": "\"Ryoukai shimashita, Tanaka taii!\"",
+            "german": "„Verstanden, Hauptmann Tanaka!“"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157926081",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大尉/タイイ; lemma 大尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "大尉",
+              "reading": "たいい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大尉/たいい \"Hauptmann\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1413030 sense 1, noun: captain (army), lieutenant (navy) Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 大尉 ist ein Offiziersrang: beim Heer „Hauptmann“, bei der Marine „Kapitänleutnant“. Die Leutnantsränge steigen 少尉 < 中尉 < 大尉 auf, darüber folgen 少佐 usw. Die japanischen Selbstverteidigungsstreitkräfte nennen den Rang offiziell 一尉; 大尉 begegnet man daher vor allem in historischen Texten, bei ausländischen Armeen und in Filmen. Als Anrede steht es nach dem Namen: 田中大尉. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1413030; spelling=大尉; reading=たいい",
+          "selected": {
+            "sequence": "1413030",
+            "spelling": "大尉",
+            "reading": "たいい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "captain (Army, US Marine Corps, USAF)",
+                  "lieutenant (Navy)",
+                  "flight lieutenant (RAF, RAAF, RNZAF, etc.)"
+                ],
+                "notes": [
+                  "だいい used by Imperial Japanese Navy"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1413030 sense 1, noun: captain (army), lieutenant (navy)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 大尉/タイイ; lemma 大尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@157926081",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 大尉/タイイ; lemma 大尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "大尉",
+              "reading": "たいい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 大尉/たいい \"Hauptmann\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hauptmann. JMdict 1413030 sense 1, noun: captain (army), lieutenant (navy)",
+        "japanese": "大尉の死は決して無駄ではなかった。 / 彼は二十八歳で大尉に昇進した。 / 「了解しました、田中大尉！」",
+        "romanization": "taii; Taii no shi wa kesshite muda de wa nakatta. / Kare wa nijuuhassai de taii ni shoushin shita. / \"Ryoukai shimashita, Tanaka taii!\" Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Tod des Hauptmanns war keineswegs vergeblich. / Mit achtundzwanzig wurde er zum Hauptmann befördert. / „Verstanden, Hauptmann Tanaka!“",
+        "contexts": [
+          "Memorial for a fallen officer",
+          "Military career",
+          "Acknowledging an order"
+        ],
+        "lexical": "JMdict 1413030 sense 1, noun: captain (army), lieutenant (navy)",
+        "register": "neutral / military",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3516 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Memorial for a fallen officer; Military career; Acknowledging an order), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bb5018c46513fd75b5588334afc349d54a63efeca7f2d8795393c6534ccce124",
+        "approvalHash": "8bc28b6573368339dfe8c5c2bd976d9ea9ccc9a2442b16f582eb131793a2d895"
+      }
+    },
+    {
+      "id": "vocab-n1:3518",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3518",
+      "state": "accepted",
+      "predecessorHash": "f84d177ff73b2ce578cbe1dc88f85bac4b74b29189004a36fcc8911530e51d40",
+      "originalHash": "f84d177ff73b2ce578cbe1dc88f85bac4b74b29189004a36fcc8911530e51d40",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "我が軍の中尉が敵軍に拉致され、処刑されました。",
+            "romaji": "Waga gun no chuui ga tekigun ni rachi sa re, shokei sa remashita.",
+            "german": "Unser Oberleutnant wurde vom Feind entführt und hingerichtet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "中尉 ist der „Oberleutnant“ (Marine: „Oberleutnant zur See“), der mittlere Leutnantsrang zwischen 少尉 „Leutnant“ und 大尉 „Hauptmann“. In den heutigen Selbstverteidigungsstreitkräften heißt der Rang 二尉, deshalb gehört 中尉 zu historischen und ausländischen Militärkontexten. Achtung: gleich gelesen wie 注意 „Vorsicht, Aufmerksamkeit“.",
+        "examples": [
+          {
+            "japanese": "我が軍の中尉が敵軍に拉致され、処刑されました。",
+            "romaji": "Waga gun no chuui ga tekigun ni rachi sare, shokei saremashita.",
+            "german": "Unser Oberleutnant wurde vom Feind entführt und hingerichtet."
+          },
+          {
+            "japanese": "祖父は戦時中、海軍の中尉だった。",
+            "romaji": "Sofu wa senjichuu, kaigun no chuui datta.",
+            "german": "Mein Großvater war im Krieg Oberleutnant zur See."
+          },
+          {
+            "japanese": "少尉から中尉に昇進するまで、二年かかった。",
+            "romaji": "Shoui kara chuui ni shoushin suru made, ninen kakatta.",
+            "german": "Die Beförderung vom Leutnant zum Oberleutnant dauerte zwei Jahre."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169775934",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 中尉/チュウイ; lemma 中尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "中尉",
+              "reading": "ちゅうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 中尉/ちゅうい \"Oberleutnant\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1423370 sense 1, noun: first lieutenant, lieutenant junior grade Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 中尉 ist der „Oberleutnant“ (Marine: „Oberleutnant zur See“), der mittlere Leutnantsrang zwischen 少尉 „Leutnant“ und 大尉 „Hauptmann“. In den heutigen Selbstverteidigungsstreitkräften heißt der Rang 二尉, deshalb gehört 中尉 zu historischen und ausländischen Militärkontexten. Achtung: gleich gelesen wie 注意 „Vorsicht, Aufmerksamkeit“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1423370; spelling=中尉; reading=ちゅうい",
+          "selected": {
+            "sequence": "1423370",
+            "spelling": "中尉",
+            "reading": "ちゅうい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first lieutenant",
+                  "lieutenant junior grade"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1423370 sense 1, noun: first lieutenant, lieutenant junior grade"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 中尉/チュウイ; lemma 中尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@169775934",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 中尉/チュウイ; lemma 中尉; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "中尉",
+              "reading": "ちゅうい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 中尉/ちゅうい \"Oberleutnant\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Oberleutnant. JMdict 1423370 sense 1, noun: first lieutenant, lieutenant junior grade",
+        "japanese": "我が軍の中尉が敵軍に拉致され、処刑されました。 / 祖父は戦時中、海軍の中尉だった。 / 少尉から中尉に昇進するまで、二年かかった。",
+        "romanization": "chuui; Waga gun no chuui ga tekigun ni rachi sare, shokei saremashita. / Sofu wa senjichuu, kaigun no chuui datta. / Shoui kara chuui ni shoushin suru made, ninen kakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Unser Oberleutnant wurde vom Feind entführt und hingerichtet. / Mein Großvater war im Krieg Oberleutnant zur See. / Die Beförderung vom Leutnant zum Oberleutnant dauerte zwei Jahre.",
+        "contexts": [
+          "War report",
+          "Grandfather's wartime past",
+          "Promotion timeline"
+        ],
+        "lexical": "JMdict 1423370 sense 1, noun: first lieutenant, lieutenant junior grade",
+        "register": "neutral / military",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3518 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (War report; Grandfather's wartime past; Promotion timeline), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7e0da806e2661fa86cf47cca6288150b8432cc300f480366652b67309cdda54d",
+        "approvalHash": "bc81768adabc6d8aa1fd681fb3930662dd3ac3911fd5fa9505f8dd0edae544ca"
+      }
+    },
+    {
+      "id": "vocab-n1:3519",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3519",
+      "state": "accepted",
+      "predecessorHash": "099d98635c8bb3b0961cf89708c2381b3b8b3df49987c86f5e388e0a76887727",
+      "originalHash": "099d98635c8bb3b0961cf89708c2381b3b8b3df49987c86f5e388e0a76887727",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女は、美しく、尚且つ頭も良いが、性格は悪い。",
+            "romaji": "Kanojo wa, utsukushiku, nao katsu atama mo yoi ga, seikaku wa warui.",
+            "german": "Sie ist schön und außerdem klug, aber sie hat einen schlechten Charakter."
+          }
+        ],
+        "meaning": "außerdem",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "なおかつ verbindet zwei Eigenschaften oder Bedingungen, die gleichzeitig erfüllt sind: „und zudem, und zugleich“ – 安くて、なおかつ美味しい. Daneben bedeutet es „und trotzdem, dennoch“, oft verstärkt als それでもなおかつ. Meist in Kana geschrieben; 尚且つ wirkt altmodisch. Es ist etwas förmlicher als そして oder しかも, wobei しかも eher eine Steigerung betont, なおかつ das gleichzeitige Erfüllen beider Punkte.",
+        "examples": [
+          {
+            "japanese": "彼女は、美しく、尚且つ頭も良いが、性格は悪い。",
+            "romaji": "Kanojo wa, utsukushiku, naokatsu atama mo yoi ga, seikaku wa warui.",
+            "german": "Sie ist schön und außerdem klug, aber sie hat einen schlechten Charakter."
+          },
+          {
+            "japanese": "安くて、なおかつ栄養のある料理を考えています。",
+            "romaji": "Yasukute, naokatsu eiyou no aru ryouri o kangaete imasu.",
+            "german": "Ich überlege mir Gerichte, die günstig und zugleich nahrhaft sind."
+          },
+          {
+            "japanese": "何度失敗しても、それでもなおかつ挑戦し続けることが大切だ。",
+            "romaji": "Nando shippai shite mo, soredemo naokatsu chousen shitsuzukeru koto ga taisetsu da.",
+            "german": "Wichtig ist, es trotz aller Fehlschläge dennoch immer weiter zu versuchen."
+          }
+        ],
+        "meaning": "außerdem, zudem; und dennoch",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193740688",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 尚且つ/ナオカツ; lemma 尚且つ; 副詞/*/*/*; *; *; aType 1.",
+            "match": {
+              "word": "尚且つ",
+              "reading": "なおかつ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Adverb 尚且つ/なおかつ \"außerdem\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1349310 senses 1–2, adverb: besides, furthermore; and yet, nevertheless Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. なおかつ verbindet zwei Eigenschaften oder Bedingungen, die gleichzeitig erfüllt sind: „und zudem, und zugleich“ – 安くて、なおかつ美味しい. Daneben bedeutet es „und trotzdem, dennoch“, oft verstärkt als それでもなおかつ. Meist in Kana geschrieben; 尚且つ wirkt altmodisch. Es ist etwas förmlicher als そして oder しかも, wobei しかも eher eine Steigerung betont, なおかつ das gleichzeitige Erfüllen beider Punkte. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1349310; spelling=尚且つ; reading=なおかつ",
+          "selected": {
+            "sequence": "1349310",
+            "spelling": "尚且つ",
+            "reading": "なおかつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "besides",
+                  "furthermore",
+                  "on top of that"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "and yet",
+                  "nevertheless",
+                  "even so"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1349310 senses 1–2, adverb: besides, furthermore; and yet, nevertheless"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 尚且つ/ナオカツ; lemma 尚且つ; 副詞/*/*/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193740688",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 尚且つ/ナオカツ; lemma 尚且つ; 副詞/*/*/*; *; *; aType 1.",
+            "match": {
+              "word": "尚且つ",
+              "reading": "なおかつ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Adverb 尚且つ/なおかつ \"außerdem\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "außerdem, zudem; und dennoch. JMdict 1349310 senses 1–2, adverb: besides, furthermore; and yet, nevertheless",
+        "japanese": "彼女は、美しく、尚且つ頭も良いが、性格は悪い。 / 安くて、なおかつ栄養のある料理を考えています。 / 何度失敗しても、それでもなおかつ挑戦し続けることが大切だ。",
+        "romanization": "naokatsu; Kanojo wa, utsukushiku, naokatsu atama mo yoi ga, seikaku wa warui. / Yasukute, naokatsu eiyou no aru ryouri o kangaete imasu. / Nando shippai shite mo, soredemo naokatsu chousen shitsuzukeru koto ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie ist schön und außerdem klug, aber sie hat einen schlechten Charakter. / Ich überlege mir Gerichte, die günstig und zugleich nahrhaft sind. / Wichtig ist, es trotz aller Fehlschläge dennoch immer weiter zu versuchen.",
+        "contexts": [
+          "Describing a person",
+          "Planning budget meals",
+          "Motivational advice"
+        ],
+        "lexical": "JMdict 1349310 senses 1–2, adverb: besides, furthermore; and yet, nevertheless",
+        "register": "slightly formal; usually written in kana",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3519 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing a person; Planning budget meals; Motivational advice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "1c3c74adad777149c65e2485dd6eb5eda79ec9a1bd44a4dd1d73c7509a942de2",
+        "approvalHash": "d2149ceea19f26c346a66f6a6984114f7484e8778ef2f87fcb29deb88fbc60df"
+      }
+    },
+    {
+      "id": "vocab-n1:3520",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3520",
+      "state": "accepted",
+      "predecessorHash": "52562d1786807c01c0be9d3a18d989a78f84505e843e867e5a08c429a4be5ecf",
+      "originalHash": "52562d1786807c01c0be9d3a18d989a78f84505e843e867e5a08c429a4be5ecf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ここの饂飩はこの庶民的な味がいいんだよ。",
+            "romaji": "Koko no udon wa kono shominteki na aji ga ii n da yo.",
+            "german": "Der volkstümliche Geschmack der Udon hier ist gut."
+          }
+        ],
+        "meaning": "volkstümlich",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "庶民的 bedeutet „volksnah, bodenständig, für einfache Leute erschwinglich“ und ist meist positiv: 庶民的な店, 庶民的な味, 庶民的な値段, 庶民的な雰囲気. Bei Personen heißt es „volksnah, ohne Allüren“: 庶民的な政治家. Gegenteil: 高級, 上品, 貴族的. 庶民 allein ist „das einfache Volk“; mit 的 wird es zum な-Adjektiv.",
+        "examples": [
+          {
+            "japanese": "ここのうどんは、この庶民的な味がいいんだよ。",
+            "romaji": "Koko no udon wa, kono shominteki na aji ga ii n da yo.",
+            "german": "Das Schöne an den Udon hier ist dieser einfache, bodenständige Geschmack."
+          },
+          {
+            "japanese": "下町には、庶民的な商店街が今も残っている。",
+            "romaji": "Shitamachi ni wa, shominteki na shoutengai ga ima mo nokotte iru.",
+            "german": "In der Altstadt gibt es noch heute volkstümliche Einkaufsstraßen."
+          },
+          {
+            "japanese": "新しい大臣は、庶民的な人柄で人気がある。",
+            "romaji": "Atarashii daijin wa, shominteki na hitogara de ninki ga aru.",
+            "german": "Der neue Minister ist wegen seiner volksnahen Art beliebt."
+          }
+        ],
+        "meaning": "volkstümlich, volksnah, bodenständig",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1343580 sense 1, na-adjective: popular, folksy, ordinary, unpretentious Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 庶民的 bedeutet „volksnah, bodenständig, für einfache Leute erschwinglich“ und ist meist positiv: 庶民的な店, 庶民的な味, 庶民的な値段, 庶民的な雰囲気. Bei Personen heißt es „volksnah, ohne Allüren“: 庶民的な政治家. Gegenteil: 高級, 上品, 貴族的. 庶民 allein ist „das einfache Volk“; mit 的 wird es zum な-Adjektiv. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1343580; spelling=庶民的; reading=しょみんてき",
+          "selected": {
+            "sequence": "1343580",
+            "spelling": "庶民的",
+            "reading": "しょみんてき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "popular",
+                  "folksy",
+                  "plebeian",
+                  "ordinary",
+                  "unpretentious"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1343580 sense 1, na-adjective: popular, folksy, ordinary, unpretentious"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 庶民的/しょみんてき scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 庶民的/しょみんてき with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BA%B6%E6%B0%91%E7%9A%84",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 庶民的/しょみんてき scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 29e835264ecf7d8f3cadd55630d2e0429f6e278f8749cdd399bea2cb78a7f509",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BA%B6%E6%B0%91%E7%9A%84",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 庶民的/しょみんてき with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "volkstümlich, volksnah, bodenständig. JMdict 1343580 sense 1, na-adjective: popular, folksy, ordinary, unpretentious",
+        "japanese": "ここのうどんは、この庶民的な味がいいんだよ。 / 下町には、庶民的な商店街が今も残っている。 / 新しい大臣は、庶民的な人柄で人気がある。",
+        "romanization": "shominteki; Koko no udon wa, kono shominteki na aji ga ii n da yo. / Shitamachi ni wa, shominteki na shoutengai ga ima mo nokotte iru. / Atarashii daijin wa, shominteki na hitogara de ninki ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Schöne an den Udon hier ist dieser einfache, bodenständige Geschmack. / In der Altstadt gibt es noch heute volkstümliche Einkaufsstraßen. / Der neue Minister ist wegen seiner volksnahen Art beliebt.",
+        "contexts": [
+          "Favourite noodle shop",
+          "Old downtown shopping street",
+          "Popular politician"
+        ],
+        "lexical": "JMdict 1343580 sense 1, na-adjective: popular, folksy, ordinary, unpretentious",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb; na-adjective (庶民的な)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3520 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Favourite noodle shop; Old downtown shopping street; Popular politician), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "004222b77686b1b429dee0af968fa1932f48e68afb91692820663c258596c310",
+        "approvalHash": "bcaeb18c6ef485e941b17bb18bcfc74dfb676bdf8e338ca24c0d864e4b3257fe"
+      }
+    },
+    {
+      "id": "vocab-n1:3521",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3521",
+      "state": "accepted",
+      "predecessorHash": "4386b1a06aed5a4f8db76ba36f4f726c850ff21397646f3c2617cca68071e10f",
+      "originalHash": "4386b1a06aed5a4f8db76ba36f4f726c850ff21397646f3c2617cca68071e10f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "学生時代に数年ほど弦楽をやっていました。",
+            "romaji": "Gakusei jidai ni suunen hodo gengaku o yatte imashita.",
+            "german": "Während meiner Schulzeit spielte ich einige Jahre Streichmusik."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "弦楽 ist Musik für Streichinstrumente (Violine, Bratsche, Cello, Kontrabass) und steht meist in Komposita: 弦楽四重奏 „Streichquartett“, 弦楽合奏 „Streichensemble“, 弦楽部 „Streicher-AG“ an Schulen. 弦楽器 heißt allgemeiner „Saiteninstrument“ und umfasst auch Gitarre oder Koto. Gegenstück: 管楽 „Bläsermusik“. Allein als Objekt (弦楽をやる) klingt es ungewöhnlich; man sagt eher バイオリンを習う.",
+        "examples": [
+          {
+            "japanese": "学生時代は弦楽部でチェロを弾いていました。",
+            "romaji": "Gakusei jidai wa gengakubu de chero o hiite imashita.",
+            "german": "In meiner Schulzeit habe ich in der Streicher-AG Cello gespielt."
+          },
+          {
+            "japanese": "今夜は、モーツァルトの弦楽四重奏を聴きに行きます。",
+            "romaji": "Kon'ya wa, Moutsaruto no gengaku shijuusou o kiki ni ikimasu.",
+            "german": "Heute Abend gehe ich zu einem Mozart-Streichquartett."
+          },
+          {
+            "japanese": "この映画の音楽は、弦楽の響きがとても美しい。",
+            "romaji": "Kono eiga no ongaku wa, gengaku no hibiki ga totemo utsukushii.",
+            "german": "Die Filmmusik hat einen wunderschönen Streicherklang."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119294297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 弦楽/ゲンガク; lemma 弦楽; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "弦楽",
+              "reading": "げんがく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 弦楽/げんがく \"Streichmusik\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1263050 sense 1, noun: music for strings Pitch: Verified [0] via exact UniDic row. 弦楽 ist Musik für Streichinstrumente (Violine, Bratsche, Cello, Kontrabass) und steht meist in Komposita: 弦楽四重奏 „Streichquartett“, 弦楽合奏 „Streichensemble“, 弦楽部 „Streicher-AG“ an Schulen. 弦楽器 heißt allgemeiner „Saiteninstrument“ und umfasst auch Gitarre oder Koto. Gegenstück: 管楽 „Bläsermusik“. Allein als Objekt (弦楽をやる) klingt es ungewöhnlich; man sagt eher バイオリンを習う. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1263050; spelling=弦楽; reading=げんがく",
+          "selected": {
+            "sequence": "1263050",
+            "spelling": "弦楽",
+            "reading": "げんがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "music for strings",
+                  "string music"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1263050 sense 1, noun: music for strings"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 弦楽/ゲンガク; lemma 弦楽; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119294297",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 弦楽/ゲンガク; lemma 弦楽; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "弦楽",
+              "reading": "げんがく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 弦楽/げんがく \"Streichmusik\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Streichmusik. JMdict 1263050 sense 1, noun: music for strings",
+        "japanese": "学生時代は弦楽部でチェロを弾いていました。 / 今夜は、モーツァルトの弦楽四重奏を聴きに行きます。 / この映画の音楽は、弦楽の響きがとても美しい。",
+        "romanization": "gengaku; Gakusei jidai wa gengakubu de chero o hiite imashita. / Kon'ya wa, Moutsaruto no gengaku shijuusou o kiki ni ikimasu. / Kono eiga no ongaku wa, gengaku no hibiki ga totemo utsukushii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In meiner Schulzeit habe ich in der Streicher-AG Cello gespielt. / Heute Abend gehe ich zu einem Mozart-Streichquartett. / Die Filmmusik hat einen wunderschönen Streicherklang.",
+        "contexts": [
+          "School club memories",
+          "Evening concert",
+          "Film soundtrack"
+        ],
+        "lexical": "JMdict 1263050 sense 1, noun: music for strings",
+        "register": "neutral / musical term",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3521 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (School club memories; Evening concert; Film soundtrack), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9d5ed1f06181eb71ccbf0ec7b85ce96a1c975a6d90c2f676b086fb0a0ed5e1f3",
+        "approvalHash": "45eba18fc488353e8478fd2d051f59d1f173c9853b985dc575239cfe19dab8d0"
+      }
+    },
+    {
+      "id": "vocab-n1:3523",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3523",
+      "state": "accepted",
+      "predecessorHash": "adb96e0c1ba4dfbb762d7c095c8dcd7c216b630e9abe93fbe46ae7fa9fe0175a",
+      "originalHash": "adb96e0c1ba4dfbb762d7c095c8dcd7c216b630e9abe93fbe46ae7fa9fe0175a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼は会社で一番の怠け者だが、一番成績を上げている。",
+            "romaji": "Kare wa kaisha de ichiban no namakemono da ga, ichiban seiseki o agete iru.",
+            "german": "Er ist der faulste Mensch in der Firma, erzielt aber die besten Ergebnisse."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "怠け者 ist ein „Faulpelz“, jemand, der sich vor Arbeit drückt – deutlich abwertend. Es kommt vom Verb 怠ける „faulenzen, sich drücken“. Umgangssprachlicher sind ぐうたら oder 面倒くさがり. In Katakana bezeichnet ナマケモノ das Faultier. Bekanntes Sprichwort: 怠け者の節句働き „Faulpelze arbeiten ausgerechnet an Feiertagen“.",
+        "examples": [
+          {
+            "japanese": "彼は会社で一番の怠け者だが、一番成績を上げている。",
+            "romaji": "Kare wa kaisha de ichiban no namakemono da ga, ichiban seiseki o agete iru.",
+            "german": "Er ist der faulste Mensch in der Firma, erzielt aber die besten Ergebnisse."
+          },
+          {
+            "japanese": "怠け者だと思われたくないので、毎朝早く出社している。",
+            "romaji": "Namakemono da to omowaretakunai node, maiasa hayaku shussha shite iru.",
+            "german": "Weil ich nicht für faul gehalten werden will, bin ich jeden Morgen früh im Büro."
+          },
+          {
+            "japanese": "「この怠け者！いつまで寝ているの？」",
+            "romaji": "\"Kono namakemono! Itsu made nete iru no?\"",
+            "german": "„Du Faulpelz! Wie lange willst du denn noch schlafen?“"
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          5
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197830097",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              5
+            ],
+            "finding": "Exact whole 怠け者/ナマケモノ; lemma 懶け者; 名詞/普通名詞/一般/*; *; *; aType 0,5.",
+            "match": {
+              "word": "怠け者",
+              "reading": "なまけもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 怠け者/なまけもの \"Faulpelz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1410670 sense 1, noun: lazy person, idler Pitch: Verified [0,5] via exact UniDic row. 怠け者 ist ein „Faulpelz“, jemand, der sich vor Arbeit drückt – deutlich abwertend. Es kommt vom Verb 怠ける „faulenzen, sich drücken“. Umgangssprachlicher sind ぐうたら oder 面倒くさがり. In Katakana bezeichnet ナマケモノ das Faultier. Bekanntes Sprichwort: 怠け者の節句働き „Faulpelze arbeiten ausgerechnet an Feiertagen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1410670; spelling=怠け者; reading=なまけもの",
+          "selected": {
+            "sequence": "1410670",
+            "spelling": "怠け者",
+            "reading": "なまけもの",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lazy person",
+                  "lazy fellow",
+                  "slothful person"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1410670 sense 1, noun: lazy person, idler"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,5] via exact UniDic row. Exact whole 怠け者/ナマケモノ; lemma 懶け者; 名詞/普通名詞/一般/*; *; *; aType 0,5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@197830097",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              5
+            ],
+            "finding": "Exact whole 怠け者/ナマケモノ; lemma 懶け者; 名詞/普通名詞/一般/*; *; *; aType 0,5.",
+            "match": {
+              "word": "怠け者",
+              "reading": "なまけもの",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 怠け者/なまけもの \"Faulpelz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Faulpelz. JMdict 1410670 sense 1, noun: lazy person, idler",
+        "japanese": "彼は会社で一番の怠け者だが、一番成績を上げている。 / 怠け者だと思われたくないので、毎朝早く出社している。 / 「この怠け者！いつまで寝ているの？」",
+        "romanization": "namakemono; Kare wa kaisha de ichiban no namakemono da ga, ichiban seiseki o agete iru. / Namakemono da to omowaretakunai node, maiasa hayaku shussha shite iru. / \"Kono namakemono! Itsu made nete iru no?\" Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er ist der faulste Mensch in der Firma, erzielt aber die besten Ergebnisse. / Weil ich nicht für faul gehalten werden will, bin ich jeden Morgen früh im Büro. / „Du Faulpelz! Wie lange willst du denn noch schlafen?“",
+        "contexts": [
+          "Paradoxical top performer",
+          "Office reputation",
+          "Scolding a late sleeper"
+        ],
+        "lexical": "JMdict 1410670 sense 1, noun: lazy person, idler",
+        "register": "neutral, pejorative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3523 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Paradoxical top performer; Office reputation; Scolding a late sleeper), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0bd4e765b6fd3f8b859fe0ccbbe52c2a145f98d47b97d6ee6e4b20a0dae4a103",
+        "approvalHash": "d8976bb3d2c2d7d038857feb78539efd96984c73de8be1286f62bc174e446f5d"
+      }
+    },
+    {
+      "id": "vocab-n1:3524",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3524",
+      "state": "accepted",
+      "predecessorHash": "fd1d200f9a27dc4c57042abacd4ee71fa6658af43a640b3a97f9abf72c227c9f",
+      "originalHash": "fd1d200f9a27dc4c57042abacd4ee71fa6658af43a640b3a97f9abf72c227c9f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "二人は神前で恭しく頭を下げた。",
+            "romaji": "Ninin wa shinzen de uyauyashiku atama o sageta.",
+            "german": "Das Paar verneigte sich ehrfürchtig vor dem Altar."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "恭しい beschreibt ehrfürchtiges, feierlich-respektvolles Verhalten, besonders gegenüber Göttern, Höhergestellten oder heiligen Dingen. Meist steht es adverbial: 恭しく頭を下げる, 恭しく差し出す, 恭しく受け取る. Das Wort ist schriftsprachlich und gehoben; im Alltag sagt man 丁寧に oder 礼儀正しく. Anders als 丁寧 „sorgfältig, höflich“ betont 恭しい Ehrfurcht und eine oft zeremonielle Geste.",
+        "examples": [
+          {
+            "japanese": "二人は神前で恭しく頭を下げた。",
+            "romaji": "Futari wa shinzen de uyauyashiku atama o sageta.",
+            "german": "Das Paar verneigte sich ehrfürchtig vor dem Altar."
+          },
+          {
+            "japanese": "執事は恭しく手紙を差し出した。",
+            "romaji": "Shitsuji wa uyauyashiku tegami o sashidashita.",
+            "german": "Der Butler überreichte den Brief mit ehrerbietiger Geste."
+          },
+          {
+            "japanese": "優勝者は、恭しい態度で賞状を受け取った。",
+            "romaji": "Yuushousha wa, uyauyashii taido de shoujou o uketotta.",
+            "german": "Der Sieger nahm die Urkunde mit respektvoller Haltung entgegen."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68046529",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+            "match": {
+              "word": "恭しい",
+              "reading": "うやうやしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Adjektiv 恭しい/うやうやしい \"ehrfürchtig\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1236790 sense 1, i-adjective: respectful, reverent Pitch: Verified [5] via exact UniDic row. 恭しい beschreibt ehrfürchtiges, feierlich-respektvolles Verhalten, besonders gegenüber Göttern, Höhergestellten oder heiligen Dingen. Meist steht es adverbial: 恭しく頭を下げる, 恭しく差し出す, 恭しく受け取る. Das Wort ist schriftsprachlich und gehoben; im Alltag sagt man 丁寧に oder 礼儀正しく. Anders als 丁寧 „sorgfältig, höflich“ betont 恭しい Ehrfurcht und eine oft zeremonielle Geste. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1236790; spelling=恭しい; reading=うやうやしい",
+          "selected": {
+            "sequence": "1236790",
+            "spelling": "恭しい",
+            "reading": "うやうやしい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "polite",
+                  "respectful",
+                  "reverent"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1236790 sense 1, i-adjective: respectful, reverent"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [5] via exact UniDic row. Exact whole 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68046529",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 終止形-一般; aType 5. Rejected for this role: 恭しい/ウヤウヤシイ; lemma 恭しい; 形容詞/一般/*/*; 形容詞; 連体形-一般; aType 5.",
+            "match": {
+              "word": "恭しい",
+              "reading": "うやうやしい",
+              "grammaticalForm": "形容詞/一般/*/*; 形容詞; 終止形-一般",
+              "sense": "Adjektiv 恭しい/うやうやしい \"ehrfürchtig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "ehrfürchtig. JMdict 1236790 sense 1, i-adjective: respectful, reverent",
+        "japanese": "二人は神前で恭しく頭を下げた。 / 執事は恭しく手紙を差し出した。 / 優勝者は、恭しい態度で賞状を受け取った。",
+        "romanization": "uyauyashii; Futari wa shinzen de uyauyashiku atama o sageta. / Shitsuji wa uyauyashiku tegami o sashidashita. / Yuushousha wa, uyauyashii taido de shoujou o uketotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Paar verneigte sich ehrfürchtig vor dem Altar. / Der Butler überreichte den Brief mit ehrerbietiger Geste. / Der Sieger nahm die Urkunde mit respektvoller Haltung entgegen.",
+        "contexts": [
+          "Shinto wedding",
+          "Butler serving his master",
+          "Award ceremony"
+        ],
+        "lexical": "JMdict 1236790 sense 1, i-adjective: respectful, reverent",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb; i-adjective (恭しく, 恭しかった)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3524 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shinto wedding; Butler serving his master; Award ceremony), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a681f628dd09e7cd20aee189eac3bc6523464fbd4f3abf605899f0c6d9e361ad",
+        "approvalHash": "fd5ed638d9b568c2bfa3b4047e02c1023bc39a9295a8fd4f10ecbe326d0ffb15"
+      }
+    },
+    {
+      "id": "vocab-n1:3525",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3525",
+      "state": "accepted",
+      "predecessorHash": "25a77e8dfdab009ea1751a70165d614c7d211337cd32b4179b7d6d75df5e9db7",
+      "originalHash": "25a77e8dfdab009ea1751a70165d614c7d211337cd32b4179b7d6d75df5e9db7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ご満悦のようですね。",
+            "romaji": "Go man'etsu no you desu ne.",
+            "german": "Er scheint ganz entzückt zu sein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "満悦 „großes Vergnügen, Wohlgefallen“ steht fast immer als ご満悦: ご満悦だ, ご満悦の様子, ご満悦の表情. Es wird gern leicht ironisch über jemanden gesagt, der sichtlich mit sich und der Welt zufrieden ist – auch über Kinder oder Haustiere. Die Verbform 満悦する ist selten und schriftsprachlich. Neutral wären 大満足 oder とても喜んでいる.",
+        "examples": [
+          {
+            "japanese": "ご満悦のようですね。",
+            "romaji": "Go man'etsu no you desu ne.",
+            "german": "Er scheint ganz entzückt zu sein."
+          },
+          {
+            "japanese": "孫にプレゼントをもらって、祖父はご満悦だった。",
+            "romaji": "Mago ni purezento o moratte, sofu wa go man'etsu datta.",
+            "german": "Großvater war hocherfreut über das Geschenk seines Enkels."
+          },
+          {
+            "japanese": "猫はひなたで寝そべって、ご満悦の表情だ。",
+            "romaji": "Neko wa hinata de nesobette, go man'etsu no hyoujou da.",
+            "german": "Die Katze räkelt sich in der Sonne und sieht höchst zufrieden aus."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1526740 sense 1, noun / suru verb: great delight, great satisfaction Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 満悦 „großes Vergnügen, Wohlgefallen“ steht fast immer als ご満悦: ご満悦だ, ご満悦の様子, ご満悦の表情. Es wird gern leicht ironisch über jemanden gesagt, der sichtlich mit sich und der Welt zufrieden ist – auch über Kinder oder Haustiere. Die Verbform 満悦する ist selten und schriftsprachlich. Neutral wären 大満足 oder とても喜んでいる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1526740; spelling=満悦; reading=まんえつ",
+          "selected": {
+            "sequence": "1526740",
+            "spelling": "満悦",
+            "reading": "まんえつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "great delight",
+                  "great satisfaction",
+                  "rapture"
+                ],
+                "notes": [
+                  "usu. as ご満悦"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1526740 sense 1, noun / suru verb: great delight, great satisfaction"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 満悦/マンエツ; lemma 満悦; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer. Query returned 0 rows (); none is the exact head 満悦/まんえつ with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BA%80%E6%82%A6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 満悦/マンエツ; lemma 満悦; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 0f2365f62cc888810f61ef9b4442a47a51a4b0d8f7010ffc4d7c59e14d362687",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%BA%80%E6%82%A6",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 満悦/まんえつ with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entzücken. JMdict 1526740 sense 1, noun / suru verb: great delight, great satisfaction",
+        "japanese": "ご満悦のようですね。 / 孫にプレゼントをもらって、祖父はご満悦だった。 / 猫はひなたで寝そべって、ご満悦の表情だ。",
+        "romanization": "man'etsu; Go man'etsu no you desu ne. / Mago ni purezento o moratte, sofu wa go man'etsu datta. / Neko wa hinata de nesobette, go man'etsu no hyoujou da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er scheint ganz entzückt zu sein. / Großvater war hocherfreut über das Geschenk seines Enkels. / Die Katze räkelt sich in der Sonne und sieht höchst zufrieden aus.",
+        "contexts": [
+          "Teasing a satisfied boss",
+          "Grandfather's present",
+          "Cat in the sun"
+        ],
+        "lexical": "JMdict 1526740 sense 1, noun / suru verb: great delight, great satisfaction",
+        "register": "neutral, often humorous (ご満悦)",
+        "transitivity": "intransitive (rare 満悦する); usually as ご満悦だ",
+        "conjugation": "suru verb (満悦する), mostly used as noun ご満悦",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3525 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Teasing a satisfied boss; Grandfather's present; Cat in the sun), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "af8360284efb7a17b5911de3200a489d603e4b30b0fd0f9b6974b67fec5bf61c",
+        "approvalHash": "0bb9a5abd97895d511798be186832d75dc6430ab5c83db288a5ba5bf16cf602d"
+      }
+    },
+    {
+      "id": "vocab-n1:3526",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3526",
+      "state": "accepted",
+      "predecessorHash": "e68d068f682e016bc0e4d0c5e50817ca4503ec50763a1001a2301387cfb10974",
+      "originalHash": "e68d068f682e016bc0e4d0c5e50817ca4503ec50763a1001a2301387cfb10974",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "すでに脈拍が止まっている。",
+            "romaji": "Sudeni myakuhaku ga tomatte iru.",
+            "german": "Der Puls hat bereits aufgehört."
+          }
+        ],
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脈拍 ist der „Puls“ bzw. die Pulsfrequenz – sachlich-medizinisch, etwa beim Arzt oder auf Messgeräten. Typisch: 脈拍を測る, 脈拍が速い, 脈拍が乱れる, 脈拍数. Im Alltag sagt man meist kürzer 脈: 脈をとる „den Puls fühlen“. Ähnlich ist 心拍 „Herzschlag“ (心拍数 bei Fitnessuhren).",
+        "examples": [
+          {
+            "japanese": "すでに脈拍が止まっている。",
+            "romaji": "Sudeni myakuhaku ga tomatte iru.",
+            "german": "Es ist schon kein Puls mehr zu fühlen."
+          },
+          {
+            "japanese": "看護師が血圧と脈拍を測ってくれた。",
+            "romaji": "Kangoshi ga ketsuatsu to myakuhaku o hakatte kureta.",
+            "german": "Die Krankenschwester hat mir Blutdruck und Puls gemessen."
+          },
+          {
+            "japanese": "走った後、脈拍が一分間に百五十まで上がった。",
+            "romaji": "Hashitta ato, myakuhaku ga ippunkan ni hyakugojuu made agatta.",
+            "german": "Nach dem Laufen stieg mein Puls auf 150 Schläge pro Minute."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257276623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 脈拍/ミャクハク; lemma 脈拍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "脈拍",
+              "reading": "みゃくはく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脈拍/みゃくはく \"Puls\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1604710 sense 1, noun: pulse, pulse rate Pitch: Verified [0] via exact UniDic row. 脈拍 ist der „Puls“ bzw. die Pulsfrequenz – sachlich-medizinisch, etwa beim Arzt oder auf Messgeräten. Typisch: 脈拍を測る, 脈拍が速い, 脈拍が乱れる, 脈拍数. Im Alltag sagt man meist kürzer 脈: 脈をとる „den Puls fühlen“. Ähnlich ist 心拍 „Herzschlag“ (心拍数 bei Fitnessuhren). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1604710; spelling=脈拍; reading=みゃくはく",
+          "selected": {
+            "sequence": "1604710",
+            "spelling": "脈拍",
+            "reading": "みゃくはく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pulse",
+                  "pulse rate",
+                  "pulsation",
+                  "stroke of pulse"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1604710 sense 1, noun: pulse, pulse rate"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 脈拍/ミャクハク; lemma 脈拍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@257276623",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 脈拍/ミャクハク; lemma 脈拍; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "脈拍",
+              "reading": "みゃくはく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脈拍/みゃくはく \"Puls\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Puls. JMdict 1604710 sense 1, noun: pulse, pulse rate",
+        "japanese": "すでに脈拍が止まっている。 / 看護師が血圧と脈拍を測ってくれた。 / 走った後、脈拍が一分間に百五十まで上がった。",
+        "romanization": "myakuhaku; Sudeni myakuhaku ga tomatte iru. / Kangoshi ga ketsuatsu to myakuhaku o hakatte kureta. / Hashitta ato, myakuhaku ga ippunkan ni hyakugojuu made agatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist schon kein Puls mehr zu fühlen. / Die Krankenschwester hat mir Blutdruck und Puls gemessen. / Nach dem Laufen stieg mein Puls auf 150 Schläge pro Minute.",
+        "contexts": [
+          "Emergency scene",
+          "Hospital check-up",
+          "After a run"
+        ],
+        "lexical": "JMdict 1604710 sense 1, noun: pulse, pulse rate",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3526 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Emergency scene; Hospital check-up; After a run), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "55c6cbc218c4c7d2d42dc16b72000469d5f705c5bddb07326622da1fa9bc480d",
+        "approvalHash": "7d5a097928592f3bf409ac3007e06a4cffcb66a398a7df4b95e1056801df7b0d"
+      }
+    },
+    {
+      "id": "vocab-n1:3528",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3528",
+      "state": "accepted",
+      "predecessorHash": "a8696b470c551274848c849ff7d3591e6684f8bb180e6689ce8cbffa7d9c197e",
+      "originalHash": "a8696b470c551274848c849ff7d3591e6684f8bb180e6689ce8cbffa7d9c197e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "牧場で搾乳体験をしてきました。",
+            "romaji": "Bokujou de sakunyuu taiken o shite kimashita.",
+            "german": "Ich habe auf dem Bauernhof das Melken ausprobiert."
+          }
+        ],
+        "meaning": "Melken",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "搾乳 ist das „Melken“ von Kühen, Ziegen usw. – ein Fachwort aus der Landwirtschaft (搾乳機 „Melkmaschine“, 搾乳体験). Außerdem bezeichnet es das Abpumpen von Muttermilch (搾乳器 „Milchpumpe“). Umgangssprachlich sagt man 乳を搾る oder 乳搾り. Als Verb steht es mit oder ohne Objekt: 牛を搾乳する, 一日二回搾乳する.",
+        "examples": [
+          {
+            "japanese": "牧場で搾乳体験をしてきました。",
+            "romaji": "Bokujou de sakunyuu taiken o shite kimashita.",
+            "german": "Ich habe auf dem Bauernhof das Melken ausprobiert."
+          },
+          {
+            "japanese": "この牧場では、一日二回機械で搾乳している。",
+            "romaji": "Kono bokujou de wa, ichinichi nikai kikai de sakunyuu shite iru.",
+            "german": "Auf diesem Hof wird zweimal täglich maschinell gemolken."
+          },
+          {
+            "japanese": "職場に復帰してからは、休憩時間に搾乳しています。",
+            "romaji": "Shokuba ni fukki shite kara wa, kyuukei jikan ni sakunyuu shite imasu.",
+            "german": "Seit ich wieder arbeite, pumpe ich in den Pausen Milch ab."
+          }
+        ],
+        "meaning": "Melken, Abpumpen (Muttermilch)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1298180 senses 1–2, noun / suru verb: milking (a cow, goat); breast pumping Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 搾乳 ist das „Melken“ von Kühen, Ziegen usw. – ein Fachwort aus der Landwirtschaft (搾乳機 „Melkmaschine“, 搾乳体験). Außerdem bezeichnet es das Abpumpen von Muttermilch (搾乳器 „Milchpumpe“). Umgangssprachlich sagt man 乳を搾る oder 乳搾り. Als Verb steht es mit oder ohne Objekt: 牛を搾乳する, 一日二回搾乳する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1298180; spelling=搾乳; reading=さくにゅう",
+          "selected": {
+            "sequence": "1298180",
+            "spelling": "搾乳",
+            "reading": "さくにゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "milking (a cow, goat, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breast pumping",
+                  "milk expression"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1298180 senses 1–2, noun / suru verb: milking (a cow, goat); breast pumping"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 搾乳/サクニュウ; lemma 搾乳; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer. Query returned 0 rows (); none is the exact head 搾乳/さくにゅう with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%90%BE%E4%B9%B3",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 搾乳/サクニュウ; lemma 搾乳; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 387ed021f561fde7a39dc141aee1500558ae2f701081f572014780009d3c53d2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%90%BE%E4%B9%B3",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 搾乳/さくにゅう with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Melken, Abpumpen (Muttermilch). JMdict 1298180 senses 1–2, noun / suru verb: milking (a cow, goat); breast pumping",
+        "japanese": "牧場で搾乳体験をしてきました。 / この牧場では、一日二回機械で搾乳している。 / 職場に復帰してからは、休憩時間に搾乳しています。",
+        "romanization": "sakunyuu; Bokujou de sakunyuu taiken o shite kimashita. / Kono bokujou de wa, ichinichi nikai kikai de sakunyuu shite iru. / Shokuba ni fukki shite kara wa, kyuukei jikan ni sakunyuu shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe auf dem Bauernhof das Melken ausprobiert. / Auf diesem Hof wird zweimal täglich maschinell gemolken. / Seit ich wieder arbeite, pumpe ich in den Pausen Milch ab.",
+        "contexts": [
+          "Farm visit",
+          "Dairy farm routine",
+          "Breastfeeding mother at work"
+        ],
+        "lexical": "JMdict 1298180 senses 1–2, noun / suru verb: milking (a cow, goat); breast pumping",
+        "register": "neutral / technical",
+        "transitivity": "transitive or intransitive (牛を搾乳する / 搾乳する)",
+        "conjugation": "suru verb (搾乳する → 搾乳して, 搾乳しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3528 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Farm visit; Dairy farm routine; Breastfeeding mother at work), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bba09a909f4e47a7358b1555e516537a41a7726163aa7e08922c34e8247ec6b4",
+        "approvalHash": "c1c5894b3ac25e28986d8c8d792018df0354e1eb6282d162879559a8b8de440f"
+      }
+    },
+    {
+      "id": "vocab-n1:3529",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3529",
+      "state": "accepted",
+      "predecessorHash": "e7522aba7efe9db9b5d1a702d0e649b6958e86675bb31956b99fa8bbede6eaf4",
+      "originalHash": "e7522aba7efe9db9b5d1a702d0e649b6958e86675bb31956b99fa8bbede6eaf4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "今日の最高気温は、摂氏二十五度です。",
+            "romaji": "Kyou no saikou kion wa, sesshi ni juu godo desu.",
+            "german": "Die heutige Höchsttemperatur beträgt fünfundzwanzig Grad Celsius."
+          }
+        ],
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摂氏 bedeutet „Celsius“; es geht auf die chinesische Umschrift des Namens Celsius zurück. Es steht vor der Zahl: 摂氏二十五度, Zeichen ℃. Im Alltag lässt man es meist weg und sagt einfach 二十五度, weil Celsius in Japan Standard ist; 摂氏 dient vor allem zur Abgrenzung von 華氏 „Fahrenheit“ und in sachlichen, wissenschaftlichen Texten.",
+        "examples": [
+          {
+            "japanese": "今日の最高気温は、摂氏二十五度です。",
+            "romaji": "Kyou no saikou kion wa, sesshi nijuugo do desu.",
+            "german": "Die heutige Höchsttemperatur beträgt fünfundzwanzig Grad Celsius."
+          },
+          {
+            "japanese": "水は摂氏百度で沸騰する。",
+            "romaji": "Mizu wa sesshi hyaku do de futtou suru.",
+            "german": "Wasser kocht bei hundert Grad Celsius."
+          },
+          {
+            "japanese": "アメリカでは、気温を摂氏ではなく華氏で表す。",
+            "romaji": "Amerika de wa, kion o sesshi de wa naku kashi de arawasu.",
+            "german": "In Amerika wird die Temperatur nicht in Celsius, sondern in Fahrenheit angegeben."
+          }
+        ],
+        "type": "Nomen",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152938949",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 摂氏/セッシ; lemma 摂氏; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "摂氏",
+              "reading": "せっし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 摂氏/せっし \"Celsius\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1385690 sense 1, noun: Celsius, centigrade Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 摂氏 bedeutet „Celsius“; es geht auf die chinesische Umschrift des Namens Celsius zurück. Es steht vor der Zahl: 摂氏二十五度, Zeichen ℃. Im Alltag lässt man es meist weg und sagt einfach 二十五度, weil Celsius in Japan Standard ist; 摂氏 dient vor allem zur Abgrenzung von 華氏 „Fahrenheit“ und in sachlichen, wissenschaftlichen Texten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1385690; spelling=摂氏; reading=せっし",
+          "selected": {
+            "sequence": "1385690",
+            "spelling": "摂氏",
+            "reading": "せっし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "Celsius",
+                  "centigrade"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1385690 sense 1, noun: Celsius, centigrade"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 摂氏/セッシ; lemma 摂氏; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152938949",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 摂氏/セッシ; lemma 摂氏; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "摂氏",
+              "reading": "せっし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 摂氏/せっし \"Celsius\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "part-of-speech-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Celsius. JMdict 1385690 sense 1, noun: Celsius, centigrade",
+        "japanese": "今日の最高気温は、摂氏二十五度です。 / 水は摂氏百度で沸騰する。 / アメリカでは、気温を摂氏ではなく華氏で表す。",
+        "romanization": "sesshi; Kyou no saikou kion wa, sesshi nijuugo do desu. / Mizu wa sesshi hyaku do de futtou suru. / Amerika de wa, kion o sesshi de wa naku kashi de arawasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die heutige Höchsttemperatur beträgt fünfundzwanzig Grad Celsius. / Wasser kocht bei hundert Grad Celsius. / In Amerika wird die Temperatur nicht in Celsius, sondern in Fahrenheit angegeben.",
+        "contexts": [
+          "Weather forecast",
+          "Science class",
+          "Comparing units abroad"
+        ],
+        "lexical": "JMdict 1385690 sense 1, noun: Celsius, centigrade",
+        "register": "neutral / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3529 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weather forecast; Science class; Comparing units abroad), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0dc471b0f75f12ce4329376e02bc1ee10f4a89fe329b85582615999b80a8b5e0",
+        "approvalHash": "e550f0f01620eef39c7ffc95fd0df325bc8bbdc932b969ae99426d503652dd13"
+      }
+    },
+    {
+      "id": "vocab-n1:3530",
+      "revisionId": "219a-n1-enrichment-vocab-n1-3530",
+      "state": "accepted",
+      "predecessorHash": "658ef5ce6e5d8b7bd1f07abcaaa1af453c495c2febd3ce93a16c3763f64740f5",
+      "originalHash": "658ef5ce6e5d8b7bd1f07abcaaa1af453c495c2febd3ce93a16c3763f64740f5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "誰も自然の摂理には逆らえないよ。",
+            "romaji": "Dare mo shizen no setsuri ni wa sakaraenai yo.",
+            "german": "Niemand kann sich den Gesetzen der Natur widersetzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摂理 bezeichnet einerseits die ordnende Gesetzmäßigkeit der Natur – 自然の摂理 „Lauf der Natur, Naturgesetz“ –, andererseits religiös die göttliche „Vorsehung“ (神の摂理). Das Wort ist gehoben; typische Verben sind 逆らう und 従う. Anders als 法則, ein wissenschaftlich formuliertes Gesetz, meint 摂理 eine unausweichliche, größere Ordnung, etwa von Werden und Vergehen.",
+        "examples": [
+          {
+            "japanese": "誰も自然の摂理には逆らえないよ。",
+            "romaji": "Dare mo shizen no setsuri ni wa sakaraenai yo.",
+            "german": "Niemand kann sich den Gesetzen der Natur widersetzen."
+          },
+          {
+            "japanese": "すべては神の摂理によるものだと、彼女は信じている。",
+            "romaji": "Subete wa kami no setsuri ni yoru mono da to, kanojo wa shinjite iru.",
+            "german": "Sie glaubt, dass alles nach Gottes Vorsehung geschieht."
+          },
+          {
+            "japanese": "親が子を守ろうとするのは、生命の摂理なのだろう。",
+            "romaji": "Oya ga ko o mamorou to suru no wa, seimei no setsuri na no darou.",
+            "german": "Dass Eltern ihre Kinder beschützen wollen, ist wohl ein Grundgesetz des Lebens."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153102195",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 摂理/セツリ; lemma 摂理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "摂理",
+              "reading": "せつり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 摂理/せつり \"Vorsehung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1385770 senses 1–2, noun: laws of nature; divine providence Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 摂理 bezeichnet einerseits die ordnende Gesetzmäßigkeit der Natur – 自然の摂理 „Lauf der Natur, Naturgesetz“ –, andererseits religiös die göttliche „Vorsehung“ (神の摂理). Das Wort ist gehoben; typische Verben sind 逆らう und 従う. Anders als 法則, ein wissenschaftlich formuliertes Gesetz, meint 摂理 eine unausweichliche, größere Ordnung, etwa von Werden und Vergehen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1385770; spelling=摂理; reading=せつり",
+          "selected": {
+            "sequence": "1385770",
+            "spelling": "摂理",
+            "reading": "せつり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "laws (of nature)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(divine) providence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1385770 senses 1–2, noun: laws of nature; divine providence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 摂理/セツリ; lemma 摂理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@153102195",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 摂理/セツリ; lemma 摂理; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "摂理",
+              "reading": "せつり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 摂理/せつり \"Vorsehung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorsehung. JMdict 1385770 senses 1–2, noun: laws of nature; divine providence",
+        "japanese": "誰も自然の摂理には逆らえないよ。 / すべては神の摂理によるものだと、彼女は信じている。 / 親が子を守ろうとするのは、生命の摂理なのだろう。",
+        "romanization": "setsuri; Dare mo shizen no setsuri ni wa sakaraenai yo. / Subete wa kami no setsuri ni yoru mono da to, kanojo wa shinjite iru. / Oya ga ko o mamorou to suru no wa, seimei no setsuri na no darou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Niemand kann sich den Gesetzen der Natur widersetzen. / Sie glaubt, dass alles nach Gottes Vorsehung geschieht. / Dass Eltern ihre Kinder beschützen wollen, ist wohl ein Grundgesetz des Lebens.",
+        "contexts": [
+          "Accepting aging and death",
+          "Religious belief",
+          "Parental instinct"
+        ],
+        "lexical": "JMdict 1385770 senses 1–2, noun: laws of nature; divine providence",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-219",
+        "finding": "Author reread the exact final card vocab-n1:3530 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accepting aging and death; Religious belief; Parental instinct), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "e24a9b147eb4cd3ecd00c60f32d9dcffe490dc9964e68d97bab57afbeee2e310",
+        "approvalHash": "0c93ed6bc65c9fa13cf7e8daeb7c2d2b56dc3227eba9558f9aee28d6a0cd6662"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

@@ -729,6 +729,29 @@ kept: 寂寥な and 精鋭な are non-standard な-headwords, 款項 is rare and
 and 汎用する are rare as verbs, 填める/纏める/齎す are usually written in kana, and に即して/に即する
 and に他ならない/他ならない are duplicates. No accepted decision became stale.
 N1 now has 999 pending reviews and 342 open references.
+**Fourth N1 checkpoint (9 October 2026).** Batches 217a–217j, 218a–218j, 219a–219j and 220a–220j
+enrich the last 999 N1 entries (vocab-n1:2963–3894 plus 130 remaining idiom and yojijukugo
+cards), so every N1 entry now has a German usage note and 2–3 examples in distinct situations:
+1,964 new sentences, and 313 entries had original examples corrected, e.g. 酌む used for
+scooping water (汲む), 擬装 for food fraud (偽装), 銀杏/いちょう for the edible nuts (ぎんなん),
+ヒトラー総帥 (his title was 総統), 東北大震災 (東日本大震災), 九死一生を得て (九死に一生を得て),
+an unverifiable racehorse claim and a quote from a juvenile murderer on 愉快, plus many romaji
+fixes (粗塩 arajio, 犬小屋 inugoya, 桜島 Sakurajima). Pitch is verified for 647 entries: 628 from
+exact UniDic rows and 19 from OJAD. 123 stored primary accents are corrected and 108 idiom cards
+that had no pitch get one; 218 stored values without an exact attestation become investigated
+unknowns. 231 German meanings are corrected, e.g. 錦鯉 „Koi“ (not „Buntbarsch“, a cichlid),
+起訴猶予 „Absehen von der Anklage“ (not „Strafaussetzung“, which is 執行猶予), 灯台下暗し (the
+灯台 is an old lamp stand, not a lighthouse), 虎の威を借る狐 (not „sich mit fremden Federn
+schmücken“) and 一貫, which now teaches „Konsequenz“ besides the sushi counter. 50 nouns typed
+Adjektiv, Adverb or Partikel become Nomen (e.g. 孤児, 恒久, 脊椎, 捕虜, 瞠目, 某/なにがし, 郡), and
+然るべき becomes Adjektiv like the prenominal 我が〜. 15 cards without their own JMdict entry
+record the complete JMdict scan instead of a sequence. Batch 221a renews 2 decisions that the
+re-reviewed あやふや made stale. Flagged but kept as removal candidates: the given names 亮平, 綾乃,
+大輔, 諒一郎, 莉子, 瑛斗, 遼太 and 拓哉, the place name 梓川, 鰐蟹 (WaniKani in joke kanji), the
+Chinese chengyu 一望無際 (Japanese: 一望千里) and the rare 苛々しい; 据え膳食わぬは男の恥 is
+marked as crude, 平壌 keeps the historical reading へいじょう (today ピョンヤン), and 縫目 is a rare
+spelling of 縫い目. N1 now has 0 pending reviews; its 342 open source references remain before
+the level can be certified.
 
 ## Historical campaign freeze
 
