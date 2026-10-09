@@ -752,6 +752,22 @@ Chinese chengyu 一望無際 (Japanese: 一望千里) and the rare 苛々しい;
 marked as crude, 平壌 keeps the historical reading へいじょう (today ピョンヤン), and 縫目 is a rare
 spelling of 縫い目. N1 now has 0 pending reviews; its 342 open source references remain before
 the level can be certified.
+**Maintenance batch 222 (9 October 2026).** By user decision, 18 cards that the N1 enrichment authors
+flagged as non-vocabulary are retired through redirects into their closest real cards (the
+existing merge/retirement mechanism of batch 022; old IDs keep working for bookmarks and deep
+links):
+- the given names 亮平, 綾乃, 大輔, 諒一郎, 莉子, 瑛斗, 遼太 and 拓哉 → 名前
+- the place name 梓川 → 川, and the game title 塊魂 → 塊
+- 鰐蟹 (WaniKani in joke kanji) → 鰐
+- invented or foreign compounds: 一望無際 (a Chinese chengyu; Japanese 一望千里) → 見渡す,
+  一蹴両断 → 一刀両断, 改閣 → 内閣, 立件送致 → 立件, 款項 → 規定, the dated 苛々しい → いらいら
+- the crude proverb 据え膳食わぬは男の恥 → 機会
+
+Three readings are corrected: 早出料 そうしゅつりょう → はやでりょう (the shipping-trade reading the
+examples already used), 懺悔 さんげ → ざんげ (the common reading; the note keeps さんげ as the
+Buddhist one) and 平壌 へいじょう → ピョンヤン (the historical example keeps Heijou). The romaji
+layer rows of the retired cards are removed. The runtime now has 16,093 entries (N2 3,320,
+N1 5,476), all with accepted full reviews; no accepted decision became stale.
 
 ## Historical campaign freeze
 

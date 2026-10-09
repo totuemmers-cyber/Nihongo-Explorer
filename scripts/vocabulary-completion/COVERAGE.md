@@ -4,16 +4,16 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 | Measure | Count |
 | --- | ---: |
-| Entries | 16111 |
-| Accepted editorial reviews | 16111 |
+| Entries | 16093 |
+| Accepted editorial reviews | 16093 |
 | Pending entry reviews | 0 |
 | Unresolved candidate groups | 261 |
 | Unresolved candidate references | 342 |
 | Missing usage notes | 0 |
 | Missing second example | 0 |
 | Missing two reviewed contexts | 0 |
-| Verified pitch | 12192 |
-| Investigated unknown pitch | 3919 |
+| Verified pitch | 12190 |
+| Investigated unknown pitch | 3903 |
 | Uninvestigated pitch | 0 |
 | Optional missing notes among accepted reviews | 0 |
 | Optional missing second context among accepted reviews | 0 |
@@ -21,7 +21,7 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 Review completion: **open**. Strict enrichment: **open**.
 
-Ledger SHA256: `814a51c5272d5f411c51fd30e6a789eda8813ff26c45efe7e8ada64cd2cee7da`.
+Ledger SHA256: `a1542493419a992e146d3cb588a93c8a64209ed74155472a166974215c50e824`.
 
 ## Level phases
 
@@ -30,7 +30,7 @@ Ledger SHA256: `814a51c5272d5f411c51fd30e6a789eda8813ff26c45efe7e8ada64cd2cee7da
 | N5 | 1688 | 0 | 0 | 0 | 0 | 0 | yes |
 | N4 | 1693 | 0 | 0 | 0 | 0 | 0 | yes |
 | N3 | 3916 | 0 | 0 | 0 | 0 | 0 | yes |
-| N2 | 3322 | 0 | 0 | 0 | 0 | 0 | yes |
-| N1 | 5492 | 0 | 0 | 0 | 0 | 342 | no |
+| N2 | 3320 | 0 | 0 | 0 | 0 | 0 | yes |
+| N1 | 5476 | 0 | 0 | 0 | 0 | 342 | no |
 
 Shared candidate groups belong to the earliest level among their reference levels and current target-entry levels, including targets allocated by later decisions (historical target levels are used only when no current entry exists). Every reference in such a group must be resolved before that phase completes. Open review defects block all phase gates.
