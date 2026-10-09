@@ -16,6 +16,8 @@
     openRadicalInTab: openRadicalInTab,
     ensureSectionLoaded: ensureSectionLoaded,
     ensureGrammarLessonsLoaded: ensureGrammarLessonsLoaded,
+    ensureVocabDetailsLoaded: ensureVocabDetailsLoaded,
+    vocabDetailsLoaded: false,
     renderBasicNumbers: renderBasicNumbers,
     speakJP: speakJP
   };
@@ -114,6 +116,7 @@
   var quizDataLoaded = false;
   var quizDataPromise = null;
   var grammarLessonsPromise = null;
+  var vocabDetailsPromise = null;
   var jpSpeechVoice = null;
   var jpSpeechInitStarted = false;
   var jpSpeechSpeakTimer = null;
@@ -305,23 +308,13 @@
       }
     },
     vocab: {
-      // The correction rules are only needed to hydrate vocab, so they load with it instead of at startup.
-      scripts: ['vocab-correction-rules.js', 'vocab-romaji-hepburn.js', 'vocab-n5.js', 'vocab-n4.js', 'vocab-n3.js', 'vocab-n2.js', 'vocab-n1.js', 'yojijukugo-data.js', 'idioms-data.js'],
+      // scripts/build-vocab-runtime.cjs bakes the sources through the normalization and mergeVocabSources
+      // above, so the tab loads only the list fields; examples and notes follow in the background.
+      scripts: ['vocab-runtime.js'],
       message: 'Lade Vokabel-Daten...',
       hydrate: function () {
-        var rawVocabSources = [
-          { name: 'vocab-n5', items: window.VOCAB_N5 || [] },
-          { name: 'vocab-n4', items: window.VOCAB_N4 || [] },
-          { name: 'vocab-n3', items: window.VOCAB_N3 || [] },
-          { name: 'vocab-n2', items: window.VOCAB_N2 || [] },
-          { name: 'vocab-n1', items: window.VOCAB_N1 || [] },
-          { name: 'yojijukugo', items: dedupeSpecialistItems(window.YOJIJUKUGO_DATA || [], getEntryKey) },
-          { name: 'idioms', items: window.IDIOMS_DATA || [] }
-        ];
-        var vocabSources = window.getNormalizedVocabSources
-          ? window.getNormalizedVocabSources(rawVocabSources)
-          : rawVocabSources;
-        app.sections.vocab.setItems(mergeVocabSources(vocabSources));
+        app.sections.vocab.setItems(window.VOCAB_RUNTIME ? window.VOCAB_RUNTIME.items : []);
+        ensureVocabDetailsLoaded().catch(function () {});
       }
     },
     onomatopoeia: {
@@ -523,7 +516,7 @@
     quizDataPromise = Promise.all([
       ensureSectionLoaded('kanji'),
       ensureSectionLoaded('grammar'),
-      ensureSectionLoaded('vocab'),
+      ensureSectionLoaded('vocab').then(ensureVocabDetailsLoaded),
       ensureSectionLoaded('onomatopoeia')
     ]).then(function () {
       quizDataLoaded = true;
@@ -535,6 +528,36 @@
     });
 
     return quizDataPromise;
+  }
+
+  // Attaches examples and notes (vocab-runtime-details.js) to the loaded vocabulary entries by index.
+  function ensureVocabDetailsLoaded() {
+    if (app.vocabDetailsLoaded) return Promise.resolve();
+    if (vocabDetailsPromise) return vocabDetailsPromise;
+
+    vocabDetailsPromise = ensureSectionLoaded('vocab')
+      .then(function () {
+        return loadScript('vocab-runtime-details.js');
+      })
+      .then(function () {
+        var items = window.VOCAB_RUNTIME ? window.VOCAB_RUNTIME.items : [];
+        var details = window.VOCAB_RUNTIME_DETAILS || [];
+        if (details.length !== items.length) throw new Error('Vokabel-Details passen nicht zu den Vokabeln.');
+        for (var i = 0; i < items.length; i++) {
+          for (var key in details[i]) {
+            if (details[i].hasOwnProperty(key)) items[i][key] = details[i][key];
+          }
+        }
+        window.VOCAB_RUNTIME_DETAILS = null;
+        app.vocabDetailsLoaded = true;
+      })
+      .catch(function (err) {
+        vocabDetailsPromise = null;
+        console.error(err);
+        throw err;
+      });
+
+    return vocabDetailsPromise;
   }
 
   function ensureGrammarLessonsLoaded() {

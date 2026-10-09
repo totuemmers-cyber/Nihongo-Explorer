@@ -71,6 +71,7 @@ function importEntries() {
   const rulesFile = path.join(root,'vocab-correction-rules.js');
   const rulesText = '// Reviewed normalization rules; JLPT changes documented in scripts/vocabulary-review.json.\nwindow.VOCAB_CORRECTION_RULES = '+JSON.stringify(before.c.VOCAB_CORRECTION_RULES,null,2)+';\n';
   if (fs.readFileSync(rulesFile,'utf8') !== rulesText) fs.writeFileSync(rulesFile,rulesText);
+  if (fs.existsSync(path.join(root,'vocab-runtime.js'))) require('./build-vocab-runtime.cjs').writeVocabRuntime();
   console.log(JSON.stringify({added,reviewedAdditions:entries.length,levelCorrections:review.levelCorrections.length}));
 }
 module.exports = { authoredEntries, batch };

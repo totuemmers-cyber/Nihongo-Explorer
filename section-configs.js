@@ -1107,8 +1107,26 @@ SECTION_CONFIGS.vocab = {
     document.getElementById('vocab-detail-category-line').textContent =
       'Kategorie: ' + (v.category || '\u2014');
 
-    renderExamplesOrEmpty('vocab-detail-examples', v.examples);
-    toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', v.notes);
+    // Examples and notes arrive in the background after the list (vocab-runtime-details.js).
+    if (window.app && window.app.ensureVocabDetailsLoaded && !window.app.vocabDetailsLoaded) {
+      var examplesEl = document.getElementById('vocab-detail-examples');
+      examplesEl.textContent = 'Beispiele werden geladen...';
+      toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', '');
+      window.app.ensureVocabDetailsLoaded().then(function () {
+        if (!section.isOverlayOpen()) return;
+        var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
+        if (!current || current.id !== v.id) return;
+        renderExamplesOrEmpty('vocab-detail-examples', current.examples);
+        toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', current.notes);
+      }).catch(function () {
+        examplesEl.textContent = 'Beispiele konnten nicht geladen werden. ';
+        var retry = appendElement(examplesEl, 'button', '', 'Erneut versuchen');
+        retry.onclick = function () { section.config.openDetail(v, dom, section); window.app.workspace.accessibleContent(dom.overlay); };
+      });
+    } else {
+      renderExamplesOrEmpty('vocab-detail-examples', v.examples);
+      toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', v.notes);
+    }
 
     // Kanji links (O(1) lookup via index)
     var kanjiSection = document.getElementById('vocab-detail-kanji-section');

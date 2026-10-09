@@ -124,4 +124,5 @@ write('.content-cache/grammar-unresolved.json',JSON.stringify(unresolved,null,2)
 // Save resolved links now; a second run applies reviewed remaining aliases.
 for(const f of grammar)save(f.file,'GRAMMAR_DATA',f.items,f.file!=='grammar-data.js');
 for(const [name,contents] of pendingWrites)fs.writeFileSync(path.join(root,name),contents);
+if(fs.existsSync(path.join(root,'vocab-runtime.js')))require('./build-vocab-runtime.cjs').writeVocabRuntime();
 console.log(JSON.stringify({onomatopoeia:merged.length,originalCount,vocabularyEnriched:enriched,clozeAnnotated:answers.size,unresolvedGrammarLinks:unresolved.length}));

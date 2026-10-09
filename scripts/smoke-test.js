@@ -154,10 +154,30 @@ async function run() {
     return document.getElementById('kanji-grid').children.length > 0;
   }, { description: 'kanji section load' });
 
+  // Block the background examples so the detail view must show its failure and recover on retry.
+  window.__NIHONGO_TEST_BLOCK_SCRIPTS = ['vocab-runtime-details.js'];
   click(document.querySelector('[data-tab="vocab"]'), window);
   await waitFor(function () {
     return document.getElementById('vocab-grid').children.length > 0;
   }, { description: 'vocab section load' });
+  ['vocab-correction-rules.js', 'vocab-romaji-hepburn.js', 'vocab-n5.js', 'vocab-n1.js', 'idioms-data.js'].forEach(function (src) {
+    assert(!document.querySelector('script[src="' + src + '"]'), 'Vocabulary tab loaded authoring source ' + src);
+  });
+  assert(window.app.vocabDetailsLoaded === false, 'Blocked vocabulary details reported as loaded');
+  click(document.querySelector('#vocab-grid .vocab-card'), window);
+  await waitFor(function () {
+    return document.getElementById('vocab-detail-examples').textContent.indexOf('Beispiele konnten nicht geladen werden') !== -1;
+  }, { description: 'vocab details failure message' });
+  delete window.__NIHONGO_TEST_BLOCK_SCRIPTS;
+  click(document.querySelector('#vocab-detail-examples button'), window);
+  assert(document.getElementById('vocab-detail-examples').textContent === 'Beispiele werden geladen...', 'Missing examples loading state');
+  await waitFor(function () {
+    return window.app.vocabDetailsLoaded && document.querySelector('#vocab-detail-examples .grammar-example-item');
+  }, { description: 'vocab details retry renders examples' });
+  click(document.getElementById('vocab-close-detail'), window);
+  await waitFor(function () {
+    return document.getElementById('vocab-detail-overlay').classList.contains('hidden');
+  }, { description: 'vocab overlay close after details retry' });
 
   const vocabSearch = document.getElementById('vocab-search-input');
   vocabSearch.value = '大丈夫';

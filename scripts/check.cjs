@@ -25,7 +25,8 @@ const CHECKS = Object.freeze([
   'audit:radicals',
   'audit:counters',
   'audit:beginner',
-  'audit:vocabulary'
+  'audit:vocabulary',
+  'audit:vocab-runtime'
 ]);
 const FULL_CHECKS = Object.freeze(['test:quiz-review', 'test:vocabulary-completion', 'test:check-runner']);
 const defaultJobs = () => Math.min(3, os.availableParallelism(), os.freemem() < 4 * 1024 ** 3 ? 1 : 3);

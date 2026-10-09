@@ -399,7 +399,9 @@
   };
 
   window.resolveVocabularyId = function (id) {
-    var redirects = window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.completionRedirects;
+    // The browser loads the redirects with the generated vocab-runtime.js; node tools load the rules file.
+    var redirects = (window.VOCAB_RUNTIME && window.VOCAB_RUNTIME.completionRedirects) ||
+      (window.VOCAB_CORRECTION_RULES && window.VOCAB_CORRECTION_RULES.completionRedirects);
     var seen = {};
     while (redirects && redirects[id] && !seen[id]) {
       seen[id] = true;

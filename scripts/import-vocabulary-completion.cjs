@@ -163,6 +163,11 @@ function prepare(batches = authoring(), m = manifest(), corrections) {
     plan.files[layerFile]=require('./vocabulary-romaji-layer.cjs').reconcileLayer(
       read(layerFile),plan.items,reviewedIds,runtime.c.getVocabRomajiHash).text;
   }
+  // The browser loads generated runtime files; regenerate them in the same (journaled) write.
+  if(fs.existsSync(path.join(root,'vocab-runtime.js'))){
+    Object.assign(plan.files,require('./build-vocab-runtime.cjs').buildVocabRuntime(
+      file=>Object.hasOwn(plan.files,file)?plan.files[file]:read(file)));
+  }
   return plan;
 }
 function report(plan) {

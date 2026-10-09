@@ -17,3 +17,4 @@ for (const source of [...new Set(review.entries.map(e => e.source))]) {
   }
   fs.writeFileSync(file, text.slice(0,text.indexOf('window.'))+'window.'+name+' = '+JSON.stringify(c.window[name],null,2)+';\n');
 }
+if (fs.existsSync('vocab-runtime.js')) require('./build-vocab-runtime.cjs').writeVocabRuntime();

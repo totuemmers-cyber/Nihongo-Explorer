@@ -102,7 +102,7 @@ async function run() {
     const selected = sec.selectedItem.kanji;
     w.scrollY = 240;
     app.workspace.save();
-    app.switchTab('vocab'); await app.ensureSectionLoaded('vocab');
+    app.switchTab('vocab'); await app.ensureSectionLoaded('vocab'); await app.ensureVocabDetailsLoaded();
     // Romaji search ignores vowel length: doubled, macron and plain spellings find 東京.
     for (const q of ['toukyou', 'tōkyō', 'tokyo', 'TŌKYŌ']) {
       app.sections.vocab.dom.search.value = q; app.sections.vocab.applyFilters();
@@ -259,14 +259,14 @@ async function run() {
     }
     // Old saved IDs and deep links resolve through an explicit merge redirect.
     const retired='vocab-n1:retired-fixture';
-    w.VOCAB_CORRECTION_RULES.completionRedirects[retired]=forgiving.id;
+    w.VOCAB_RUNTIME.completionRedirects[retired]=forgiving.id;
     w.localStorage.setItem('bookmarks-vocab',JSON.stringify([retired]));
     assert(w.isBookmarked('vocab',forgiving.id));
     w.toggleBookmark('vocab',forgiving.id);
     assert(!w.isBookmarked('vocab',forgiving.id));
     w.location.hash='#vocab/'+encodeURIComponent(retired);
     await until(()=>vocab.selectedItem?.id===forgiving.id && vocab.isOverlayOpen(),'retired vocabulary deep link');
-    delete w.VOCAB_CORRECTION_RULES.completionRedirects[retired];
+    delete w.VOCAB_RUNTIME.completionRedirects[retired];
     vocab.closeDetail(); vocab.filters.level='all'; vocab.dom.search.value=''; vocab.applyFilters();
     // A mixed source group must remain two independently navigable study entries.
     const roe=vocab.allItems.find(v=>v.id==='vocab-n5:correction:ikura-roe');
