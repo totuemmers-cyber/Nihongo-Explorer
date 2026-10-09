@@ -24,7 +24,8 @@ try {
   run('scripts/import-vocabulary-completion.cjs');
   assert.deepStrictEqual(snapshot(),once,'Repeated completion import changes files');
   run('scripts/audit-vocabulary-completion.cjs',['--progress']);
-  run('scripts/audit-vocabulary-completion.cjs',[],false);
+  // The full enrichment campaign is complete, so the strict audit passes.
+  run('scripts/audit-vocabulary-completion.cjs');
   // The legacy content editor writes diagnostics here; no reference inputs.
   fs.mkdirSync(path.join(fixture,'.content-cache'));
   for (const legacy of ['scripts/import-vocabulary-additions.cjs','scripts/edit-content.cjs']) {

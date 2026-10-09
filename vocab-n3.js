@@ -69878,6 +69878,9 @@ window.VOCAB_N3 = [
         "german": "Dieses Verhalten könnte ein Ausdruck von Unsicherheit sein."
       }
     ],
+    "aliases": [
+      "現われ"
+    ],
     "pitch": 0,
     "pitchProvenance": [
       {
@@ -72119,6 +72122,9 @@ window.VOCAB_N3 = [
         "romaji": "Kurasu de hana no mizuyari no kakari ni natta.",
         "german": "In der Klasse bin ich fürs Blumengießen zuständig geworden."
       }
+    ],
+    "aliases": [
+      "係り"
     ],
     "pitch": 1,
     "pitchProvenance": [
@@ -76219,6 +76225,9 @@ window.VOCAB_N3 = [
         "german": "Im Frühling blühen überall die Kirschbäume."
       }
     ],
+    "aliases": [
+      "彼方此方"
+    ],
     "pitch": 2,
     "pitchVariants": [
       3
@@ -76414,6 +76423,9 @@ window.VOCAB_N3 = [
         "romaji": "Anmari muri shinaide ne.",
         "german": "Übernimm dich nicht zu sehr."
       }
+    ],
+    "aliases": [
+      "余り"
     ],
     "pitch": 4,
     "pitchProvenance": [
@@ -76972,6 +76984,9 @@ window.VOCAB_N3 = [
         "german": "Sei nicht so kleinlich."
       }
     ],
+    "aliases": [
+      "吝嗇"
+    ],
     "pitch": 1,
     "pitchProvenance": [
       {
@@ -77013,6 +77028,9 @@ window.VOCAB_N3 = [
         "romaji": "Korera wa subete tezukuri desu.",
         "german": "Das alles ist handgemacht."
       }
+    ],
+    "aliases": [
+      "此れ等"
     ],
     "pitch": null,
     "correctionId": "vocab-n3:correction:korera"
@@ -77311,6 +77329,9 @@ window.VOCAB_N3 = [
         "romaji": "Kare wa shibashiba kaigi ni okurete kuru.",
         "german": "Er kommt oft zu spät zu Besprechungen."
       }
+    ],
+    "aliases": [
+      "屡"
     ],
     "pitch": 1,
     "pitchVariants": [
@@ -87188,5 +87209,59 @@ window.VOCAB_N3 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n3:correction:sha-person-suffix"
+  },
+  {
+    "word": "ふり",
+    "reading": "ふり",
+    "romaji": "furi",
+    "meaning": "Vortäuschen, Anschein (〜ふりをする: so tun, als ob); Benehmen; Schwung, Schwenken",
+    "type": "Nomen",
+    "category": "Verhalten",
+    "level": "N3",
+    "notes": "Meist in Kana, vor allem in 〜ふりをする „so tun, als ob“ nach einer Verbform oder Nomen + の: 寝たふり, 知らないふり, 学生のふり; dazu 見て見ぬふり „bewusst wegsehen“. In Kanji 振り steht es auch für „Schwung, Schwenken“ (バットの振り) und Tanzbewegungen. Nicht verwechseln mit dem Suffix 〜ぶり „Art; nach langer Zeit“ und mit 不利/ふり „nachteilig“ (eigene Karten).",
+    "examples": [
+      {
+        "japanese": "弟は母が来ると寝たふりをした。",
+        "romaji": "Otōto wa haha ga kuru to neta furi o shita.",
+        "german": "Als die Mutter kam, stellte sich mein kleiner Bruder schlafend."
+      },
+      {
+        "japanese": "彼女は何も知らないふりをしている。",
+        "romaji": "Kanojo wa nani mo shiranai furi o shite iru.",
+        "german": "Sie tut so, als wüsste sie nichts."
+      },
+      {
+        "japanese": "あのバッターはバットの振りが鋭い。",
+        "romaji": "Ano battā wa batto no furi ga surudoi.",
+        "german": "Dieser Schlagmann hat einen scharfen Schwung."
+      }
+    ],
+    "aliases": [
+      "振り"
+    ],
+    "pitch": 0,
+    "pitchVariants": [
+      2
+    ],
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@235819944",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0,
+          2
+        ],
+        "finding": "Exact whole ふり/フリ; lemma 振り; 名詞/普通名詞/助数詞可能/*; *; *; aType 0,2 | 振り/フリ; lemma 振り; 名詞/普通名詞/助数詞可能/*; *; *; aType 0,2. Rejected for this role: ふり/フリ; lemma 降り; 名詞/普通名詞/一般/*; *; *; aType 2 | ふり/フリ; lemma 振る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0 | 振り/フリ; lemma 振る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 0 | ふり/フリ; lemma 降る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 1.",
+        "match": {
+          "word": "ふり",
+          "reading": "ふり",
+          "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+          "sense": "Nomen ふり/ふり \"Vortäuschen, Anschein (〜ふりをする: so tun, als ob); Benehmen; Schwung, Schwenken\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:furi-pretence"
   }
 ];

@@ -50752,7 +50752,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "目出度い"
+      "目出度い",
+      "愛でたい"
     ],
     "pitch": 3,
     "pitchProvenance": [
@@ -51949,7 +51950,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "寄越す"
+      "寄越す",
+      "寄こす"
     ],
     "pitch": 2,
     "verbGroup": "godan",
@@ -53093,6 +53095,9 @@ window.VOCAB_N2 = [
         "romaji": "Kare wa wakai koro, shigoto o tenten to shite ita.",
         "german": "In jungen Jahren wechselte er ständig den Job."
       }
+    ],
+    "aliases": [
+      "転転"
     ],
     "pitch": 0,
     "pitchVariants": [
@@ -56479,6 +56484,9 @@ window.VOCAB_N2 = [
         "german": "Das Paket kam vor drei Tagen an."
       }
     ],
+    "aliases": [
+      "一昨昨日"
+    ],
     "pitch": 5,
     "pitchVariants": [
       0
@@ -57125,6 +57133,9 @@ window.VOCAB_N2 = [
         "romaji": "Shiasatte made ni henji o kudasai.",
         "german": "Bitte antworten Sie bis in drei Tagen."
       }
+    ],
+    "aliases": [
+      "明々後日"
     ],
     "pitch": 3,
     "pitchProvenance": [
@@ -58330,7 +58341,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "俄"
+      "俄",
+      "俄か"
     ],
     "pitch": 1,
     "pitchProvenance": [
@@ -58375,7 +58387,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "螺子"
+      "螺子",
+      "捻子"
     ],
     "pitch": 1,
     "pitchProvenance": [
@@ -60484,7 +60497,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "独りでに"
+      "独りでに",
+      "一人でに"
     ],
     "pitch": 0,
     "pitchProvenance": [
@@ -64593,6 +64607,9 @@ window.VOCAB_N2 = [
         "romaji": "Kaisha kara tsukai no mono ga kita.",
         "german": "Von der Firma kam ein Bote."
       }
+    ],
+    "aliases": [
+      "遣い"
     ],
     "pitch": 0,
     "pitchProvenance": [
@@ -69173,7 +69190,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "歌留多"
+      "歌留多",
+      "加留多"
     ],
     "pitch": 1,
     "pitchProvenance": [
@@ -74674,6 +74692,9 @@ window.VOCAB_N2 = [
         "romaji": "Itsu no ma ni ka, musume wa watashi yori se ga takaku natta.",
         "german": "Ehe ich mich versah, war meine Tochter größer als ich."
       }
+    ],
+    "aliases": [
+      "何時の間にか"
     ],
     "pitch": null,
     "correctionId": "vocab-n2:correction:itsunomanika"
@@ -82025,5 +82046,215 @@ window.VOCAB_N2 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n2:correction:mi-ness-suffix"
+  },
+  {
+    "word": "〜街",
+    "reading": "がい",
+    "romaji": "gai",
+    "meaning": "-straße, -viertel (Suffix, z. B. 商店街, 住宅街, 中華街)",
+    "type": "Partikel",
+    "category": "Verkehr",
+    "level": "N2",
+    "notes": "Nachsilbe, die an Nomen tritt und Straßen oder Viertel mit einem bestimmten Charakter bezeichnet: 商店街 „Einkaufsstraße“, 住宅街 „Wohnviertel“, 中華街 „Chinatown“, 繁華街 „Vergnügungsviertel“. Allein stehend wird 街 まち gelesen (Karte 町/まち, dort als Schreibvariante 街); die Lesung がい kommt nur in solchen Komposita vor. Nicht verwechseln mit 〜外/がい „außerhalb von“ und 害/がい „Schaden“.",
+    "examples": [
+      {
+        "japanese": "駅前の商店街はいつも人でにぎわっている。",
+        "romaji": "Ekimae no shōtengai wa itsumo hito de nigiwatte iru.",
+        "german": "Die Einkaufsstraße vor dem Bahnhof ist immer belebt."
+      },
+      {
+        "japanese": "この辺りは静かな住宅街です。",
+        "romaji": "Kono atari wa shizuka na jūtakugai desu.",
+        "german": "Diese Gegend ist ein ruhiges Wohnviertel."
+      },
+      {
+        "japanese": "横浜の中華街で肉まんを食べた。",
+        "romaji": "Yokohama no chūkagai de nikuman o tabeta.",
+        "german": "In Yokohamas Chinatown habe ich gedämpfte Fleischbrötchen gegessen."
+      }
+    ],
+    "aliases": [
+      "街"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:gai-street-suffix"
+  },
+  {
+    "word": "正常",
+    "reading": "せいじょう",
+    "romaji": "seijō",
+    "meaning": "normal, regulär; Normalzustand",
+    "type": "Adjektiv",
+    "category": "Zustand",
+    "level": "N2",
+    "notes": "Na-Adjektiv und Nomen, Gegenteil von 異常 „anormal“: 正常に動く „normal funktionieren“, 正常な値 „Normalwert“, 正常に戻る „sich normalisieren“. Typisch für Technik, Medizin und Nachrichten; im Alltag sagt man über Menschen oder Dinge eher 普通. 通常 bedeutet dagegen „gewöhnlich, regulär (im Ablauf)“, etwa 通常営業 „regulärer Betrieb“.",
+    "examples": [
+      {
+        "japanese": "検査の結果、血圧は正常だった。",
+        "romaji": "Kensa no kekka, ketsuatsu wa seijō datta.",
+        "german": "Laut Untersuchung war der Blutdruck normal."
+      },
+      {
+        "japanese": "システムは現在正常に動いています。",
+        "romaji": "Shisutemu wa genzai seijō ni ugoite imasu.",
+        "german": "Das System läuft derzeit normal."
+      },
+      {
+        "japanese": "両国の関係がようやく正常に戻った。",
+        "romaji": "Ryōkoku no kankei ga yōyaku seijō ni modotta.",
+        "german": "Die Beziehungen zwischen beiden Ländern haben sich endlich normalisiert."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152088623",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 正常/セイジョウ; lemma 正常; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "match": {
+          "word": "正常",
+          "reading": "せいじょう",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "Adjektiv 正常/せいじょう \"normal, regulär; Normalzustand\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:seijou-normal"
+  },
+  {
+    "word": "単調",
+    "reading": "たんちょう",
+    "romaji": "tanchō",
+    "meaning": "eintönig, monoton; Eintönigkeit",
+    "type": "Adjektiv",
+    "category": "Eigenschaften",
+    "level": "N2",
+    "notes": "Na-Adjektiv für etwas ohne Abwechslung: 単調な仕事 „eintönige Arbeit“, 単調な生活, 単調なリズム; als Nomen 単調さ. Es beschreibt die Sache selbst, während 退屈 (たいくつ) das Gefühl der Langeweile betont. Nicht verwechseln mit dem Homophon 短調 „Moll“; in der Mathematik bedeutet 単調増加 „monoton steigend“.",
+    "examples": [
+      {
+        "japanese": "毎日同じ作業の繰り返しで、仕事が単調だ。",
+        "romaji": "Mainichi onaji sagyō no kurikaeshi de, shigoto ga tanchō da.",
+        "german": "Jeden Tag dieselben Handgriffe – die Arbeit ist eintönig."
+      },
+      {
+        "japanese": "単調なリズムを聞いていると眠くなる。",
+        "romaji": "Tanchō na rizumu o kiite iru to nemuku naru.",
+        "german": "Wenn ich einem monotonen Rhythmus zuhöre, werde ich müde."
+      },
+      {
+        "japanese": "この小説は展開が単調で、途中で飽きてしまった。",
+        "romaji": "Kono shōsetsu wa tenkai ga tanchō de, tochū de akite shimatta.",
+        "german": "Die Handlung dieses Romans ist so eintönig, dass ich ihn mittendrin satthatte."
+      }
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166594523",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 単調/タンチョウ; lemma 単調; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "match": {
+          "word": "単調",
+          "reading": "たんちょう",
+          "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+          "sense": "Adjektiv 単調/たんちょう \"eintönig, monoton; Eintönigkeit\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:tanchou-monotonous"
+  },
+  {
+    "word": "日頃",
+    "reading": "ひごろ",
+    "romaji": "higoro",
+    "meaning": "gewöhnlich, normalerweise, im Alltag; seit langem",
+    "type": "Adverb",
+    "category": "Zeit",
+    "level": "N2",
+    "notes": "Bezeichnet den gewohnten Alltag im Gegensatz zu besonderen Anlässen: 日頃から „schon im Alltag, stets“, 日頃の努力 „die tägliche Mühe“. Feste Formel in Geschäftsbriefen: 日頃のご愛顧に感謝申し上げます. Etwas schriftsprachlicher als 普段 (eigene Karte), das im Gespräch üblicher ist; 日ごろ ist eine häufige Mischschreibung.",
+    "examples": [
+      {
+        "japanese": "日頃から運動するように心がけている。",
+        "romaji": "Higoro kara undō suru yō ni kokorogakete iru.",
+        "german": "Ich achte darauf, mich im Alltag regelmäßig zu bewegen."
+      },
+      {
+        "japanese": "合格できたのは日頃の努力のおかげだ。",
+        "romaji": "Gōkaku dekita no wa higoro no doryoku no okage da.",
+        "german": "Dass ich bestanden habe, verdanke ich meiner täglichen Mühe."
+      },
+      {
+        "japanese": "日ごろお世話になっている方々にお礼の品を送った。",
+        "romaji": "Higoro osewa ni natte iru katagata ni orei no shina o okutta.",
+        "german": "Ich habe den Leuten, die mir stets helfen, ein Dankesgeschenk geschickt."
+      }
+    ],
+    "aliases": [
+      "日ごろ"
+    ],
+    "pitch": 0,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225191263",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          0
+        ],
+        "finding": "Exact whole 日ごろ/ヒゴロ; lemma 日頃; 名詞/普通名詞/副詞可能/*; *; *; aType 0 | 日頃/ヒゴロ; lemma 日頃; 名詞/普通名詞/副詞可能/*; *; *; aType 0.",
+        "match": {
+          "word": "日頃",
+          "reading": "ひごろ",
+          "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+          "sense": "Adverb 日頃/ひごろ \"gewöhnlich, normalerweise, im Alltag; seit langem\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n2:correction:higoro-usually"
+  },
+  {
+    "word": "どころか",
+    "reading": "どころか",
+    "romaji": "dokoro ka",
+    "meaning": "weit davon entfernt, im Gegenteil; geschweige denn, ganz zu schweigen von",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N2",
+    "notes": "Steht nach Nomen oder Verb/Adjektiv in Grundform: AどころかB bedeutet entweder „statt A sogar das Gegenteil B“ (褒められるどころか叱られた) oder „nicht einmal B, geschweige denn A“ (旅行どころか休みも取れない). Fast immer in Kana geschrieben. Am Satzanfang steht stattdessen das Bindewort それどころか („im Gegenteil“), das eine eigene Karte hat.",
+    "examples": [
+      {
+        "japanese": "忙しくて、旅行どころか週末も休めない。",
+        "romaji": "Isogashikute, ryokō dokoro ka shūmatsu mo yasumenai.",
+        "german": "Ich bin so beschäftigt, dass ich nicht einmal am Wochenende frei habe, von Urlaub ganz zu schweigen."
+      },
+      {
+        "japanese": "褒められるどころか、先生にひどく叱られた。",
+        "romaji": "Homerareru dokoro ka, sensei ni hidoku shikarareta.",
+        "german": "Statt gelobt zu werden, wurde ich vom Lehrer heftig gescholten."
+      },
+      {
+        "japanese": "雨はやむどころか、ますます強くなってきた。",
+        "romaji": "Ame wa yamu dokoro ka, masumasu tsuyoku natte kita.",
+        "german": "Der Regen hörte keineswegs auf, sondern wurde im Gegenteil immer stärker."
+      }
+    ],
+    "aliases": [
+      "所か"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:dokoroka-far-from"
   }
 ];

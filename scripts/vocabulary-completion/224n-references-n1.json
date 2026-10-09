@@ -1,0 +1,1368 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "いえす|いえす",
+      "referenceIndex": 1,
+      "referenceHash": "4d3529ee1b4ea9d9d43eab7d2aded8ba71a02c7e07793b0dd76e5c1b6a979148",
+      "revisionId": "224n-reference-いえす|いえす-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row イエス glossed only 'Jesus'. That is JMdict 1021010 イエス 'Jesus (Christ)', the personal name of a religious figure, so it is a proper name and not vocabulary, and no card is created for it. The common noun/interjection イエス 'yes' (JMdict 2843921) is taught by the new card NEW:iesu-yes from the tanos row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 4d3529ee1b4ea9d9d43eab7d2aded8ba71a02c7e07793b0dd76e5c1b6a979148",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "イエス/イエス glossed \"Jesus\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1021010; イエス",
+          "finding": "n Jesus (Christ): a proper name"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2843921; イエス",
+          "finding": "int yes, covered by NEW:iesu-yes"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference いえす|いえす#1, its evidence and the excluded decision.",
+        "contentHash": "6bf484fc3b41855ae0e6a406b37a7bf8a6f307ece2b278e9ec53f740ac40f90c",
+        "approvalHash": "6bf484fc3b41855ae0e6a406b37a7bf8a6f307ece2b278e9ec53f740ac40f90c"
+      }
+    },
+    {
+      "key": "うぇーとれす|うぇーとれす",
+      "referenceIndex": 0,
+      "referenceHash": "6394aeeadbce93c8454b882d2c85d92f2ad2d5ac841905dfccde17ab53932491",
+      "revisionId": "224n-reference-うぇーとれす|うぇーとれす-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Tanos row ウェートレス 'waitress'. JMdict 1025690 lists ウェイトレス/ウエイトレス/ウエートレス/ウェートレス as kana variants of one entry 'waitress'. The word is already taught by vocab-n2:correction:ueitoresu ウェイトレス 'Kellnerin' (which has alias ウエートレス), so it is not a missing word. A new card would be a duplicate. A mechanical spelling-variant mapping is impossible because the source reading ウェートレス differs from the card reading ウェイトレス, and katakana folding does not equate them. So the reference is closed as already covered.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 6394aeeadbce93c8454b882d2c85d92f2ad2d5ac841905dfccde17ab53932491",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=174",
+          "finding": "ウェートレス/ウェートレス glossed \"waitress\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1025690; ウェイトレス/ウェートレス",
+          "finding": "same entry; ウェートレス is a listed long-vowel variant"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: undefined",
+          "finding": "card vocab-n2:correction:ueitoresu teaches ウェイトレス (alias ウエートレス)"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference うぇーとれす|うぇーとれす#0, its evidence and the excluded decision.",
+        "contentHash": "064687cb5ebd26430dbba51652d30904b21e07d5a69d133f4b9f74218380f50e",
+        "approvalHash": "064687cb5ebd26430dbba51652d30904b21e07d5a69d133f4b9f74218380f50e"
+      }
+    },
+    {
+      "key": "たいや|たいや",
+      "referenceIndex": 0,
+      "referenceHash": "730f42aa050be2098d35896bb74dafc201dd349838b2ba7dac42960e00f28fcb",
+      "revisionId": "224n-reference-たいや|たいや-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:taiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiya": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec"
+      },
+      "reason": "Tanos row タイヤ 'tire, tyre'. JMdict 1076120 タイヤ/タイア n 'tire; tyre'. Card vocab-n2:correction:taiya タイヤ/タイヤ 'Reifen' has exactly this word, reading and sense. The reference just had no target suggested, so it maps directly and needs no new alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 730f42aa050be2098d35896bb74dafc201dd349838b2ba7dac42960e00f28fcb",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=178",
+          "finding": "タイヤ/タイヤ glossed \"tire, tyre\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1076120; タイヤ",
+          "finding": "n tire; tyre"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: undefined",
+          "finding": "card vocab-n2:correction:taiya word=reading=タイヤ, meaning Reifen"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference たいや|たいや#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:correction:taiya.",
+        "contentHash": "630d7e27d2406fabdf9b2382455ca2efa4cd8b15f95bb4e3f9186a9501f3d274",
+        "approvalHash": "630d7e27d2406fabdf9b2382455ca2efa4cd8b15f95bb4e3f9186a9501f3d274"
+      }
+    },
+    {
+      "key": "たいや|たいや",
+      "referenceIndex": 1,
+      "referenceHash": "3b95ae065bc52e1848cfcd43313a57bd4b5f389d848f79875f7e21064bf2563c",
+      "revisionId": "224n-reference-たいや|たいや-1",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:correction:taiya"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:taiya": "d6ee5c7f6072017738184a217499003397369e8199ee20e3c60c81d6e1d338ec"
+      },
+      "reason": "Nihongo Master row タイヤ 'tire; tyre; pneu'. JMdict 1076120. This is an exact match with card vocab-n2:correction:taiya タイヤ/タイヤ 'Reifen' (same word, reading and sense), so no alias is needed.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 3b95ae065bc52e1848cfcd43313a57bd4b5f389d848f79875f7e21064bf2563c",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "タイヤ/タイヤ glossed \"tire; tyre; pneu\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1076120; タイヤ",
+          "finding": "n tire; tyre"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference たいや|たいや#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:correction:taiya.",
+        "contentHash": "67fe47e0809d4144b2d50da67897d678376102713b71062a914f338c6e122ef3",
+        "approvalHash": "67fe47e0809d4144b2d50da67897d678376102713b71062a914f338c6e122ef3"
+      }
+    },
+    {
+      "key": "ぽーず|ぽーず",
+      "referenceIndex": 0,
+      "referenceHash": "8b1ffcf3ef8f8e5613e7b32656c599ccad06b78b6c6f02fd6a784d7cd82d1d05",
+      "revisionId": "224n-reference-ぽーず|ぽーず-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n1:correction:poozu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:poozu": "ebfcd4fb555555d1d6312620cf8c52acdeab74f4bdee41e4496180927568fc27"
+      },
+      "reason": "Tanos row ポーズ glossed 'pause'. Card vocab-n1:correction:poozu ポーズ/ポーズ teaches only 'Pose, Haltung; Getue, Show' (JMdict 1124650, from 'pose'). JMdict 2858735 ポーズ 'pause; rest' is a separate homonymous loanword with the identical spelling and reading. The card does not teach it, and it is learnable (e.g. a pause button on a player), so it is appended as an additional sense.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 8b1ffcf3ef8f8e5613e7b32656c599ccad06b78b6c6f02fd6a784d7cd82d1d05",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=182",
+          "finding": "ポーズ/ポーズ glossed \"pause\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2858735; ポーズ",
+          "finding": "n pause; rest"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1124650; ポーズ",
+          "finding": "n pose, already taught by vocab-n1:correction:poozu"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "additional-sense"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference ぽーず|ぽーず#0, its evidence and the additional-sense decision against the exact current target card(s) vocab-n1:correction:poozu.",
+        "contentHash": "db6c3abcb5b27c9467b02eb130abb0e4cde1ee2a306134c9cb83a6a8f73931b4",
+        "approvalHash": "db6c3abcb5b27c9467b02eb130abb0e4cde1ee2a306134c9cb83a6a8f73931b4"
+      }
+    },
+    {
+      "key": "ぽーず|ぽーず",
+      "referenceIndex": 1,
+      "referenceHash": "b42181e0a1da4f2733c7baf88d4a7dad41bfecbd00ae3f7ef79c5f4315e6d3b0",
+      "revisionId": "224n-reference-ぽーず|ぽーず-1",
+      "state": "accepted",
+      "predecessorHash": "633a7db536ae60a8e516ebb4a7a67222b3354f489fd4a456a46e45e7275560c2",
+      "predecessorRevisionHash": "21b104becc5e5fc75adf84a72fba61805bb71ab4930ad30811c45b9c652f0729",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:poozu"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:poozu": "ebfcd4fb555555d1d6312620cf8c52acdeab74f4bdee41e4496180927568fc27"
+      },
+      "reason": "Reference ポーズ/ポーズ (master N1) is the same lexeme as the new entry ポーズ【ポーズ】. Renewed unchanged: the target card(s) vocab-n1:correction:poozu were re-reviewed (enrichment or alias review in batches 175-222); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists ポーズ/ポーズ at N1 (gloss: pose)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1124650; spelling=ポーズ; reading=ポーズ; senses=1,2; scripts/vocabulary-completion/maintenance-048/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1124650 as the reference form.",
+          "selected": {
+            "sequence": "1124650",
+            "spelling": "ポーズ",
+            "reading": "ポーズ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pose"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pose",
+                  "posturing",
+                  "pretence",
+                  "(an) act"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference ぽーず|ぽーず#1, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:poozu.",
+        "contentHash": "47a514e51ca78783a0bd9e4af67784a09e24591eea80a9595eb762d7f76fd414",
+        "approvalHash": "47a514e51ca78783a0bd9e4af67784a09e24591eea80a9595eb762d7f76fd414"
+      }
+    },
+    {
+      "key": "拘わる|こだわる",
+      "referenceIndex": 0,
+      "referenceHash": "b65edc24b2535583e978c87c08260dc1f727352293c77f837b17d2ecf57276b1",
+      "revisionId": "224n-reference-拘わる|こだわる-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:2556"
+      ],
+      "targetHashes": {
+        "vocab-n1:2556": "e83f692a33bb43e02010ec5e7bb85cd50cc37fdb426fbfdd346de487620148b6"
+      },
+      "reason": "Nihongo Master row 拘わる/こだわる 'to fuss over; to be particular about'. JMdict 1004480 拘る/拘わる【こだわる】 lists 拘わる as an okurigana variant of the same entry. Card vocab-n1:2556 拘る/こだわる 'auf etwas bestehen, Wert legen auf' has the identical reading and sense, so 拘わる is added as an alias. The suggested target vocab-n1:3005 拘わる/かかわる is a different word (関わる, reading かかわる).",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 b65edc24b2535583e978c87c08260dc1f727352293c77f837b17d2ecf57276b1",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "拘わる/こだわる glossed \"to fuss over; to be particular about; être exigeant\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1004480; 拘る/拘わる/こだわる",
+          "finding": "拘わる listed in the same entry"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1589880; 関わる/かかわる",
+          "finding": "different reading/word, card vocab-n1:3005"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 拘わる|こだわる#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:2556.",
+        "contentHash": "6da552bf28b241b1b73ac1ee259faa4e7a192255d446daf6eeb078f8b6e89a63",
+        "approvalHash": "6da552bf28b241b1b73ac1ee259faa4e7a192255d446daf6eeb078f8b6e89a63"
+      }
+    },
+    {
+      "key": "一重|ひとえ",
+      "referenceIndex": 0,
+      "referenceHash": "80820c4eeb70e16ca388ef840700b19f87df05dc16c7ff8bf29062b823503785",
+      "revisionId": "224n-reference-一重|ひとえ-0",
+      "state": "accepted",
+      "predecessorHash": "c3b67e7c30a2be33091857852da001d3fe13f8bde3878fe641b09f5001ddd351",
+      "predecessorRevisionHash": "be1bbe14a3789283270e916b15223b5722744b3239a1c9f50f99fc5a85efd424",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hitoe"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hitoe": "85e9be2a8c55d700ff810d6d54c77ed91d10e88994c4dee986d9a5fceca9ecaa"
+      },
+      "reason": "Reference 一重/ひとえ (master N1) is the same lexeme as the new entry 一重【ひとえ】. Renewed unchanged: the target card(s) vocab-n1:correction:hitoe were re-reviewed (enrichment or alias review in batches 175-222); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "Nihongo Master lists 一重/ひとえ at N1 (gloss: one layer; single; onefold)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1601920; spelling=一重; reading=ひとえ; senses=1,2,4; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1601920 as the reference form.",
+          "selected": {
+            "sequence": "1601920",
+            "spelling": "一重",
+            "reading": "ひとえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one layer",
+                  "single layer"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "monopetalous"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "single-edged eyelid",
+                  "eyelid with an epicanthic fold",
+                  "upper eyelid with no fold"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 一重|ひとえ#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:hitoe.",
+        "contentHash": "1cfe6b5e1a23dd60d1ae0c20d77ac1615741f6de46ab43343406616470502850",
+        "approvalHash": "1cfe6b5e1a23dd60d1ae0c20d77ac1615741f6de46ab43343406616470502850"
+      }
+    },
+    {
+      "key": "損う|そこなう",
+      "referenceIndex": 0,
+      "referenceHash": "824b9d809ba1d321a3dad5b3c80112751a0699abb3065510d19b407f23a47921",
+      "revisionId": "224n-reference-損う|そこなう-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:1828"
+      ],
+      "targetHashes": {
+        "vocab-n1:1828": "827d0d573d390344c3fe9f77bd1e1758884c2529b88ccdd55e8fb3c155ddc9ef"
+      },
+      "reason": "Nihongo Master row 損う/そこなう 'to harm; to hurt; to injure'. JMdict 1596510 損なう/害う/損う【そこなう】 lists 損う as an okurigana variant (tagged irregular okurigana) of the same entry. Card vocab-n1:1828 損なう/そこなう 'schädigen; beeinträchtigen' has the identical reading and sense, so 損う is added as an alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 824b9d809ba1d321a3dad5b3c80112751a0699abb3065510d19b407f23a47921",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "損う/そこなう glossed \"to harm; to hurt; to injure\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1596510; 損なう/損う/そこなう",
+          "finding": "損う in same entry (io/rK tags)"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 損う|そこなう#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:1828.",
+        "contentHash": "93653c3df071df8194f4616df8461c54a7a6e5994fa6ae8a37e90c055040a9da",
+        "approvalHash": "93653c3df071df8194f4616df8461c54a7a6e5994fa6ae8a37e90c055040a9da"
+      }
+    },
+    {
+      "key": "只管|ひたすら",
+      "referenceIndex": 0,
+      "referenceHash": "33be447de088bf8cee09db6e01c37453b8965286bf9d91d277ecf6f9f56d70d9",
+      "revisionId": "224n-reference-只管|ひたすら-0",
+      "state": "accepted",
+      "predecessorHash": "3986db9d8e29bcb7855e8e8468138f8c0f1512d758593cc903ee5385d8f0d0e5",
+      "predecessorRevisionHash": "74d6b2198225114e155b7599ce5d06ae7da067b7c677123e8cb78107fc37c4f6",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:hitasura"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hitasura": "304c78bbafae9cb1dca8aa9a95269a52ccd6bea3de7d455558dae7cbfa97f1bb"
+      },
+      "reason": "Reference 只管/ひたすら (master N1) is the same lexeme as the new entry ひたすら【ひたすら】. Renewed unchanged: the target card(s) vocab-n1:correction:hitasura were re-reviewed (enrichment or alias review in batches 175-222); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists 只管/ひたすら at N1 (gloss: nothing but; earnest; intent)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1010530; spelling=ひたすら; reading=ひたすら; senses=1; scripts/vocabulary-completion/maintenance-047/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1010530 as the reference form.",
+          "selected": {
+            "sequence": "1010530",
+            "spelling": "ひたすら",
+            "reading": "ひたすら",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "intently",
+                  "single-mindedly",
+                  "devotedly",
+                  "solely",
+                  "earnestly",
+                  "with all one's heart"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 只管|ひたすら#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:hitasura.",
+        "contentHash": "058bb5bb7bd152b65985e045fd5d4c024c28d7178433f0e8a87a0f05493b23fd",
+        "approvalHash": "058bb5bb7bd152b65985e045fd5d4c024c28d7178433f0e8a87a0f05493b23fd"
+      }
+    },
+    {
+      "key": "にも関わらず|にもかかわらず",
+      "referenceIndex": 0,
+      "referenceHash": "170e86ae0c4b04c6a7b1306eb645b13581141f0f3000ea722422973f10dcd08e",
+      "revisionId": "224n-reference-にも関わらず|にもかかわらず-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row にも関わらず/にもかかわらず 'in spite of; nevertheless'. JMdict 1612900 にも関わらず/にも拘らず【にもかかわらず】 exp, uk. This expression is already taught by card vocab-n2:834 〜にもかかわらず 'trotz; obwohl', so it is not a missing word, and a new card would duplicate it. The variant mapping fails mechanically only because that card stores its reading with the tilde ('〜にもかかわらず'), which can never equal the source reading. So the reference is closed as covered by vocab-n2:834.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 170e86ae0c4b04c6a7b1306eb645b13581141f0f3000ea722422973f10dcd08e",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "にも関わらず/にもかかわらず glossed \"in spite of; nevertheless; malgré\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1612900; にも関わらず/にもかかわらず",
+          "finding": "exp uk in spite of; nevertheless"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: undefined",
+          "finding": "card vocab-n2:834 〜にもかかわらず/〜にもかかわらず teaches it; reading carries tilde"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference にも関わらず|にもかかわらず#0, its evidence and the excluded decision.",
+        "contentHash": "4296bf3b181d209a5724c89e83f8f74644d46a62db86ddf4957401702e9c6677",
+        "approvalHash": "4296bf3b181d209a5724c89e83f8f74644d46a62db86ddf4957401702e9c6677"
+      }
+    },
+    {
+      "key": "予て|かねて",
+      "referenceIndex": 0,
+      "referenceHash": "2d438adbd63c2b83acb107669a94acd2709aee6b91be4619b15f8b801e5f3814",
+      "revisionId": "224n-reference-予て|かねて-0",
+      "state": "accepted",
+      "predecessorHash": "8b63dfcba6e85f1260fd4df5dbe885518b2104c46dab93459c02b36603aa350e",
+      "predecessorRevisionHash": "2f29a46eb6e5fed9da87ebb6cf34d5453985ea92f593bdf94265af51d6b01909",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanete"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanete": "dc903af2ae513826871a24b4ad526d3b13a677c510608a8d15001a6789a340e6"
+      },
+      "reason": "Reference 予て/かねて (master N1) is the same lexeme as the new entry かねて【かねて】. Renewed unchanged: the target card(s) vocab-n1:correction:kanete were re-reviewed (enrichment or alias review in batches 175-222); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "Nihongo Master lists 予て/かねて at N1 (gloss: previously; already; lately)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1542850; spelling=かねて; reading=かねて; senses=1; scripts/vocabulary-completion/maintenance-039/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1542850 as the reference form.",
+          "selected": {
+            "sequence": "1542850",
+            "spelling": "かねて",
+            "reading": "かねて",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "previously",
+                  "already",
+                  "for some time",
+                  "for quite a while"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 予て|かねて#0, its evidence and the added decision against the exact current target card(s) vocab-n1:correction:kanete.",
+        "contentHash": "25fbdd2fd93c8bef311eb4616340bc1710987f4d895efcc6c4abf941e3374262",
+        "approvalHash": "25fbdd2fd93c8bef311eb4616340bc1710987f4d895efcc6c4abf941e3374262"
+      }
+    },
+    {
+      "key": "花弁|はなびら",
+      "referenceIndex": 0,
+      "referenceHash": "1d783ae81521bda4bf7855edc06195fd1fab96716c0965502c07222980cf70e5",
+      "revisionId": "224n-reference-花弁|はなびら-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:hanabira"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:hanabira": "b0ef193a9ed6862980317337d9e7c8a5f89b3bfc7279188ab5bc1e53005b6cea"
+      },
+      "reason": "Nihongo Master row 花弁/はなびら '(flower) petal'. JMdict 1194520 花びら/花弁/花片/瓣【はなびら】 lists 花弁 as a kanji spelling (rK) of the same entry. Card vocab-n1:correction:hanabira 花びら/はなびら 'Blütenblatt' has the identical reading and sense, so 花弁 is added as an alias. The suggested target vocab-n1:1937 花弁/かべん is the separate Sino-Japanese word (JMdict 2862000), with a different reading.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 1d783ae81521bda4bf7855edc06195fd1fab96716c0965502c07222980cf70e5",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "花弁/はなびら glossed \"(flower) petal; pétale; (n) Blütenblatt\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1194520; 花びら/花弁/はなびら",
+          "finding": "花弁 listed (rK) in the same entry"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2862000; 花弁/かべん",
+          "finding": "different reading, card vocab-n1:1937"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 花弁|はなびら#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:correction:hanabira.",
+        "contentHash": "0b60f4940bab04133eef72d162e74e054785f13d8325151e05262e0528d55828",
+        "approvalHash": "0b60f4940bab04133eef72d162e74e054785f13d8325151e05262e0528d55828"
+      }
+    },
+    {
+      "key": "天津|あまつ",
+      "referenceIndex": 0,
+      "referenceHash": "af3dfba57ee825ddc3d57b010582cf7c8fbf760019dfadac55cad6a40ed19af3",
+      "revisionId": "224n-reference-天津|あまつ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row 天津/あまつ 'heavenly; imperial'. JMdict 1438200 天津/天つ【あまつ】 is tagged arch (and the kanji spelling ateji): an archaic prenominal ('of heaven') surviving only inside fixed classical compounds like 天津神. Not worth teaching as a standalone word; as a modern reading 天津 is the place name Tianjin (てんしん), which is not vocabulary either. The modern words for 'heavenly/imperial' are 天の (via 天/てん) and 皇室の; no card is needed for this row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 af3dfba57ee825ddc3d57b010582cf7c8fbf760019dfadac55cad6a40ed19af3",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "天津/あまつ glossed \"heavenly; imperial\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1438200; 天津/あまつ",
+          "finding": "adj-f; arch; ateji spelling: heavenly; imperial"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "archaic-or-rare-reading"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 天津|あまつ#0, its evidence and the excluded decision.",
+        "contentHash": "01f3371ca38e5ab4721d39370d691b886214fdb40c41e77a31dc480d8efad94b",
+        "approvalHash": "01f3371ca38e5ab4721d39370d691b886214fdb40c41e77a31dc480d8efad94b"
+      }
+    },
+    {
+      "key": "於て|おいて",
+      "referenceIndex": 0,
+      "referenceHash": "e3bc7fcb5c3fc930de5be5d33d2825f4d0246ab66b60439ad5a89a52f5f8927c",
+      "revisionId": "224n-reference-於て|おいて-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row 於て/おいて 'at; in; on' is a truncated row of the compound particle に於いて/において. JMdict 1178920 於いて/於て【おいて】 (exp uk; 於て tagged rK) only occurs after に in this sense; bare おいて for 'at/in' is not used. The meaning is taught by vocab-n2:820 〜において ('in; bei; an (formal)') and the grammar point ～において in grammar-data.js; a separate おいて card would duplicate it and could not take the alias because readings differ (おいて vs において). Same handling as the b173 precedent 就いて -> について.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 e3bc7fcb5c3fc930de5be5d33d2825f4d0246ab66b60439ad5a89a52f5f8927c",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "於て/おいて glossed \"at; in; on\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1178920; 於いて/於て/おいて",
+          "finding": "exp uk; 於て rK; senses are those of に於いて (at; in; regarding)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: |おいて (cards)",
+          "finding": "no おいて card; meaning taught by vocab-n2:820 〜において"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 於て|おいて#0, its evidence and the excluded decision.",
+        "contentHash": "ff45ad1a62f38c20fd276edf1178409480bf41e19173e0bceb2d8858fafa74e8",
+        "approvalHash": "ff45ad1a62f38c20fd276edf1178409480bf41e19173e0bceb2d8858fafa74e8"
+      }
+    },
+    {
+      "key": "伍|ご",
+      "referenceIndex": 0,
+      "referenceHash": "19a4bb7333af915279133f3942c4eb44c0c2f1396ee3ce39cef295800e4f7740",
+      "revisionId": "224n-reference-伍|ご-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:1470"
+      ],
+      "targetHashes": {
+        "vocab-n5:1470": "de3f3c6929e50020ee47d6b77e468a0f98644a316b5ea767f2701f035571650c"
+      },
+      "reason": "Nihongo Master row 伍/ご 'five (used in legal documents)'. JMdict 1268060 五/５/伍【ご】 lists 伍 as a spelling of 五 'five' in the same entry (the daiji form used on cheques/legal documents). The card vocab-n5:1470 五/ご 'fünf' has the identical reading and sense, so 伍 is added as alias. (The other 伍 entry 2842952 'company; rank' is a different sense not meant by this gloss.)",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 19a4bb7333af915279133f3942c4eb44c0c2f1396ee3ce39cef295800e4f7740",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "伍/ご glossed \"five (used in legal documents)\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1268060; 五/伍/ご",
+          "finding": "伍 listed in the same entry as 五: five"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2842952; 伍/ご",
+          "finding": "separate 'troop; rank' sense, not the source gloss"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 伍|ご#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n5:1470.",
+        "contentHash": "86b4340f43a1b58c5ce6c9e40f57ff773e87e55495ec4a4e3236c46e23dc1166",
+        "approvalHash": "86b4340f43a1b58c5ce6c9e40f57ff773e87e55495ec4a4e3236c46e23dc1166"
+      }
+    },
+    {
+      "key": "麻姑|まこ",
+      "referenceIndex": 0,
+      "referenceHash": "18f1a28e40f7de0d2cc54b6e42de9b7a86396b696faac4419d6b99b8a7876316",
+      "revisionId": "224n-reference-麻姑|まこ-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row 麻姑/まこ 'Ma Gu; legendary Taoist immortal with long talon-like fingernails'. JMdict 2662700 麻姑 sense 1 is the proper name of a Chinese mythological figure; proper names are not vocabulary. The derived sense 2 'backscratcher' is obscure; the everyday word is 孫の手 (まごのて), and the source gloss does not ask for it. No card needed.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 18f1a28e40f7de0d2cc54b6e42de9b7a86396b696faac4419d6b99b8a7876316",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "麻姑/まこ glossed \"Ma Gu; legendary Taoist immortal with long talon-like fingernails\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2662700; 麻姑/まこ",
+          "finding": "1 Ma Gu (Taoist immortal, proper name); 2 backscratcher"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 麻姑|まこ#0, its evidence and the excluded decision.",
+        "contentHash": "de485cde68b6f5f87fdd24c3638e3b01b8631ee699a08fa61fbe5d23e52e65c4",
+        "approvalHash": "de485cde68b6f5f87fdd24c3638e3b01b8631ee699a08fa61fbe5d23e52e65c4"
+      }
+    },
+    {
+      "key": "沈澱|ちんでん",
+      "referenceIndex": 0,
+      "referenceHash": "7ce6f8ff881904b554d77bb46c1182bb5694121fcbe1366adc37c5afb555e931",
+      "revisionId": "224n-reference-沈澱|ちんでん-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:803"
+      ],
+      "targetHashes": {
+        "vocab-n1:803": "cc92ed9aa529693628a743a854dd948b319fff81ae8eb4953597d6cc4cffc74d"
+      },
+      "reason": "Nihongo Master row 沈澱/ちんでん 'precipitation; deposition; settlement'. JMdict 1431790 沈殿/沈澱【ちんでん】 lists 沈澱 as the traditional (pre-reform) spelling in the same entry. Card vocab-n1:803 沈殿/ちんでん has identical reading and sense, so 沈澱 is added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 7ce6f8ff881904b554d77bb46c1182bb5694121fcbe1366adc37c5afb555e931",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "沈澱/ちんでん glossed \"precipitation; deposition; settlement (e.g. of sediment)\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1431790; 沈殿/沈澱/ちんでん",
+          "finding": "same entry, both spellings: precipitation; deposition"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 沈澱|ちんでん#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:803.",
+        "contentHash": "aee32fe5f8f34cc6606f65b5648fcd7d3b4ae242e47ad10bb16b914c41eea6df",
+        "approvalHash": "aee32fe5f8f34cc6606f65b5648fcd7d3b4ae242e47ad10bb16b914c41eea6df"
+      }
+    },
+    {
+      "key": "ちり取り|ちりとり",
+      "referenceIndex": 0,
+      "referenceHash": "d473809ec546f52ea73ed9dcecf3b42b0a26aee4af770962e046a98af09f5f81",
+      "revisionId": "224n-reference-ちり取り|ちりとり-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:2512"
+      ],
+      "targetHashes": {
+        "vocab-n1:2512": "c9cd6ddfa7cd5d7a2990b6da854f64ed6b75c48dc685e1d77803411f7815693e"
+      },
+      "reason": "Nihongo Master row ちり取り/ちりとり 'dustpan'. JMdict 1369920 ちり取り/塵取り【ちりとり】 lists ちり取り (as the first, common form) and 塵取り in the same entry. Card vocab-n1:2512 塵取り/ちりとり 'Kehrschaufel' has identical reading and sense, so ちり取り is added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 d473809ec546f52ea73ed9dcecf3b42b0a26aee4af770962e046a98af09f5f81",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "ちり取り/ちりとり glossed \"dustpan; pelle à poussière; сово́к для му́сора\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1369920; ちり取り/塵取り/ちりとり",
+          "finding": "same entry, both spellings: dustpan"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference ちり取り|ちりとり#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:2512.",
+        "contentHash": "908108bf68dd3905acc4a522deb3af1fc9f66771469c76ffc13416cbec0bbbf0",
+        "approvalHash": "908108bf68dd3905acc4a522deb3af1fc9f66771469c76ffc13416cbec0bbbf0"
+      }
+    },
+    {
+      "key": "仕来たり|しきたり",
+      "referenceIndex": 0,
+      "referenceHash": "f537a5f4b4e95c8abc9a79d4de8b372c7c4d7b365581b2912b09bdfa7329c020",
+      "revisionId": "224n-reference-仕来たり|しきたり-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:2338"
+      ],
+      "targetHashes": {
+        "vocab-n1:2338": "175c06b0001b810004a7106d315be31308f0dabd6faa80a13b84dd6b4e78bb97"
+      },
+      "reason": "Nihongo Master row 仕来たり/しきたり 'custom; conventional practice'. JMdict 1594160 仕来り/仕来たり/為来り【しきたり】 lists 仕来たり as an okurigana variant in the same entry. Card vocab-n1:2338 仕来り/しきたり has identical reading and sense, so 仕来たり is added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 f537a5f4b4e95c8abc9a79d4de8b372c7c4d7b365581b2912b09bdfa7329c020",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "仕来たり/しきたり glossed \"custom; conventional practice; conventional practise\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1594160; 仕来り/仕来たり/しきたり",
+          "finding": "same entry (rK forms): custom; convention; tradition"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 仕来たり|しきたり#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:2338.",
+        "contentHash": "a4d1f95a5b75802e23b1b4b181f9c9e6905cbaa56641374a44de3cf736f01f76",
+        "approvalHash": "a4d1f95a5b75802e23b1b4b181f9c9e6905cbaa56641374a44de3cf736f01f76"
+      }
+    },
+    {
+      "key": "だと|だと",
+      "referenceIndex": 0,
+      "referenceHash": "eb678b045422f13d1c13efce6e4e7707267a5599875f13413ab07453645410a3",
+      "revisionId": "224n-reference-だと|だと-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row だと 'if it's the case'. JMdict has no entry だと: it is not a lexeme but the copula だ plus the conditional particle と (雨だと…). The conditional と is grammar (grammar-data.js ～と conditional), and the copula is basic grammar; there is no word to card. Not vocabulary.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 eb678b045422f13d1c13efce6e4e7707267a5599875f13413ab07453645410a3",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "だと/だと glossed \"if it's the case\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: だと",
+          "finding": "no JMdict entry; = copula だ + conditional と"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference だと|だと#0, its evidence and the excluded decision.",
+        "contentHash": "6a85acdba14943ba7158edab4c700da8259cf8c68972dcd4d55f5113d8d7bfd1",
+        "approvalHash": "6a85acdba14943ba7158edab4c700da8259cf8c68972dcd4d55f5113d8d7bfd1"
+      }
+    },
+    {
+      "key": "空き間|あきま",
+      "referenceIndex": 0,
+      "referenceHash": "21f19b7a525105c22581b22428b3c79d18218af140cd8a14898d32900c6c9bcc",
+      "revisionId": "224n-reference-空き間|あきま-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:correction:akima-vacant-room"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:akima-vacant-room": "310b1c322e80529778f35d0292a96ef3fe9f5fbf16b4f563d4fff32167c6d429"
+      },
+      "reason": "Nihongo Master row 空き間/あきま 'vacancy; room for rent or lease'. JMdict 1676080 空き間【あきま】. The card vocab-n1:correction:akima-vacant-room already has word 空き間 and reading あきま with the same sense ('freies Zimmer; Zimmer zur Vermietung'), so the reference simply closes onto it; no alias needed.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 21f19b7a525105c22581b22428b3c79d18218af140cd8a14898d32900c6c9bcc",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "空き間/あきま glossed \"vacancy; room for rent or lease; (n) freies Zimmer\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1676080; 空き間/あきま",
+          "finding": "n: vacancy; room for rent; gap"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 空き間|あきま (cards)",
+          "finding": "exact word+reading match vocab-n1:correction:akima-vacant-room"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "verified-spelling-variant"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 空き間|あきま#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n1:correction:akima-vacant-room.",
+        "contentHash": "1dee90436e1a77316cf5f79fbee5441a691b50ee1d3daf0b3b431e0ac3c73013",
+        "approvalHash": "1dee90436e1a77316cf5f79fbee5441a691b50ee1d3daf0b3b431e0ac3c73013"
+      }
+    },
+    {
+      "key": "伝言|つてこと",
+      "referenceIndex": 0,
+      "referenceHash": "67beeecd0abc7a886eb6dfc9221dd915387a2b4d9a816f98c3699be4c7107922",
+      "revisionId": "224n-reference-伝言|つてこと-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row 伝言/つてこと '(verbal) message; word'. JMdict 2545840 伝言【つてこと】 exists (untagged) but is a marginal literary/obsolete reading not used in modern Japanese; the word for a passed-on message is 伝言/でんごん (card vocab-n1:correction:dengon, same spelling and meaning) or 言伝/ことづて (card vocab-n1:correction:kotozute). Teaching つてこと would only confuse learners about the reading of 伝言, so it is excluded as an obsolete reading not worth teaching.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 67beeecd0abc7a886eb6dfc9221dd915387a2b4d9a816f98c3699be4c7107922",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "伝言/つてこと glossed \"verbal message; word\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2545840; 伝言/つてこと",
+          "finding": "n: verbal message; rumour (no tag; rare literary reading)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1582180; 伝言/でんごん",
+          "finding": "standard reading; card vocab-n1:correction:dengon"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1264510; 言伝/ことづて",
+          "finding": "card vocab-n1:correction:kotozute"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "archaic-or-rare-reading"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 伝言|つてこと#0, its evidence and the excluded decision.",
+        "contentHash": "394e42656244372ec0232059858dee806b31e50decd96802e264f34e7582b8b9",
+        "approvalHash": "394e42656244372ec0232059858dee806b31e50decd96802e264f34e7582b8b9"
+      }
+    },
+    {
+      "key": "怡怡|いい",
+      "referenceIndex": 0,
+      "referenceHash": "4dd5c01ed1cb1759dda61c60845f11e514ea19271064a0d535a13f4d84f2353a",
+      "revisionId": "224n-reference-怡怡|いい-0",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "disposition": "excluded",
+      "targets": [],
+      "targetHashes": {},
+      "reason": "Nihongo Master row 怡怡/いい 'having fun; rejoicing'. JMdict 2571360 怡々/怡怡【いい】 adj-t/adv-to is tagged arch: a classical Chinese-style taru-adjective not used in modern Japanese, written with a non-Jōyō kanji. Not worth teaching. The modern words for rejoicing are 喜び/よろこび and 楽しむ/たのしむ; the suggested card いい (vocab-n5:1409 'gut') is an unrelated homophone.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 4dd5c01ed1cb1759dda61c60845f11e514ea19271064a0d535a13f4d84f2353a",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "怡怡/いい glossed \"having fun; rejoicing; (n) Freude\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2571360; 怡々/いい",
+          "finding": "adj-t,adv-to; arch: having fun; rejoicing"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "source-error"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-n1-reference-closing-author-224",
+        "finding": "Author reread the frozen reference 怡怡|いい#0, its evidence and the excluded decision.",
+        "contentHash": "f02e7020b3a59141702a21300fa5a24c8434c859c3f4f569cd2b87818574d353",
+        "approvalHash": "f02e7020b3a59141702a21300fa5a24c8434c859c3f4f569cd2b87818574d353"
+      }
+    }
+  ]
+}

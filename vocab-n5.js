@@ -40072,5 +40072,35 @@ window.VOCAB_N5 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n5:correction:mo-also-particle"
+  },
+  {
+    "word": "ぐらい",
+    "reading": "ぐらい",
+    "romaji": "gurai",
+    "meaning": "ungefähr, etwa (nach einer Menge); so sehr, dass; mindestens (stimmhafte Form von くらい)",
+    "type": "Partikel",
+    "category": "Zahlen",
+    "level": "N5",
+    "notes": "Stimmhafte Variante der Partikel くらい (dasselbe Wort, eigene Karte くらい). Nach Mengen- und Zeitangaben bedeutet sie „etwa, ungefähr“ (三十分ぐらい); nach Nomen „wenigstens, zumindest“ (挨拶ぐらいしなさい), nach Verben und Adjektiven „so sehr, dass“ (泣きたいぐらい). Nach Nomen und Zahlen ist ぐらい etwas häufiger, nach この/その/あの eher くらい; meist sind beide austauschbar. Für Uhrzeiten verwendet man dagegen ごろ (三時ごろ).",
+    "examples": [
+      {
+        "japanese": "駅まで歩いて十分ぐらいです。",
+        "romaji": "Eki made aruite juppun gurai desu.",
+        "german": "Bis zum Bahnhof sind es zu Fuß etwa zehn Minuten."
+      },
+      {
+        "japanese": "自分の部屋ぐらい自分で掃除しなさい。",
+        "romaji": "Jibun no heya gurai jibun de sōji shinasai.",
+        "german": "Dein eigenes Zimmer kannst du wenigstens selbst putzen."
+      },
+      {
+        "japanese": "泣きたいぐらいうれしかった。",
+        "romaji": "Nakitai gurai ureshikatta.",
+        "german": "Ich war so glücklich, dass ich hätte weinen können."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n5:correction:gurai-approximately"
   }
 ];

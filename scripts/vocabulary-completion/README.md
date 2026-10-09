@@ -768,6 +768,29 @@ examples already used), 懺悔 さんげ → ざんげ (the common reading; the 
 Buddhist one) and 平壌 へいじょう → ピョンヤン (the historical example keeps Heijou). The romaji
 layer rows of the retired cards are removed. The runtime now has 16,093 entries (N2 3,320,
 N1 5,476), all with accepted full reviews; no accepted decision became stale.
+**N1 certified — campaign complete (9 October 2026).** Batches 223a–224r (`author-only-v1`) close all
+342 N1-owned source references with the two-wave method used for N2. Eight parallel triage passes
+decided 51 `verified-spelling-variant`, 83 `additional-reading`, 146 `added`, 3 `additional-sense`
+and 59 `excluded`. Wave A (223a–223e) reviews 40 existing target cards: 38 gain reviewed spelling
+aliases only (41 aliases, e.g. 汚れ on 穢れ, 吝嗇 on けち, 此れ等, 屡, 齎らす), and two gain a sense:
+当て „adressiert an“ (宛/宛て) and ポーズ „Pause, Unterbrechung“. Wave B (224a–224r) adds 155 new
+cards (1 N5, 2 N4, 1 N3, 5 N2, 146 N1), for example:
+- second readings that are real JMdict words: 字/あざ, 掌/たなごころ, 殿/しんがり, 気質/かたぎ,
+  長/おさ, 文/ふみ, 奴/やっこ, 縁/へり, 未/ひつじ
+- everyday words that had no card: 正常, 単調, 日頃, 一気, 一様, 打開, 妥結, 手数 (てかず and
+  てすう), ちやほや, がっちり, ずるずる, ふらふら, ハラハラ
+- affixes and counters written with 〜: 原〜, 故〜, 助〜, 南〜, ニュー〜, 〜判, 〜反, 〜傑, 〜輪
+- 驕る „überheblich sein“, which the enrichment had separated from 奢る „spendieren“, and the
+  literary ずる verb 報ずる with the `zuru` conjugation group
+
+Pitch is verified for 119 of the new cards; 36 are investigated unknowns. The 59 exclusions are
+bare-kanji reading rows (僅/きん, 巨/こ, 三/み), source errors and garbled spellings (不山戯る for
+巫山戯る, 藍褸 for 襤褸, 鉄片 for 天辺), archaic or poetic readings (東/あずま, 古/いにしえ), a mythical
+name (麻姑) and forms already taught by another card (にも拘らず, 於いて, ウェートレス). The wave-A
+reviews made 43 accepted decisions at every level stale; all were renewed unchanged in wave B.
+All 22 full checks pass (two test assertions that expected the unfinished state now expect completion);
+`advance --dry-run` passed and the campaign advanced past N1: **all five levels are complete**,
+with 16,248 entries, all accepted, and no open source reference.
 
 ## Historical campaign freeze
 

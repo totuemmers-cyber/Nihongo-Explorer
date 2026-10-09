@@ -135,7 +135,7 @@ assert.throws(()=>prepareCorrections(overrides.legacy,overrides.options),/Invali
 assert.deepStrictEqual(copy(actual.items.find(v=>v.word==='明るい').pitchVariants),[3]);
 assert.equal(actual.items.find(v=>v.id==='vocab-n3:2933').pitch,null);
 assert.equal(actual.ledger.length,actual.items.length);
-assert.equal(report(actual).complete,false);
+assert.equal(report(actual).complete,true,'The full enrichment campaign is complete');
 assert(yurusu.notes.includes('宥さない') && !yurusu.notes.includes('宥せない'),'Earlier accepted note was not revised');
 const mixed=actual.candidateLedger.find(c=>c.key==='いくら|いくら');
 assert.equal(mixed.state,'accepted');

@@ -31,12 +31,12 @@
   "defaultMaintenance": "Outside an explicitly active campaign: reported defects and reviews of future changes; no automatic new review waves or candidate additions.",
   "activeCampaign": {
     "id": "full-enrichment-2026-10-03",
-    "status": "active",
+    "status": "complete",
     "startedAt": "2026-10-03T20:25:36.337Z",
     "authorization": "User approved full coverage and enrichment, N5 to N1 phases, parallel authors with independent review, then explicitly requested implementation. Independent review was later made optional by the user (author-only-v1, 4 October 2026; see reviewPolicyChanges).",
     "baseline": "scripts/vocabulary-completion/campaign-baseline-20261003.json",
     "baselineHash": "d732762dbc08e95c156183bb09eb52e6fc09e5ea84f37da3e1438b157168576c",
-    "activeLevel": "N1",
+    "activeLevel": null,
     "levelOrder": [
       "N5",
       "N4",
@@ -204,7 +204,7 @@
         }
       },
       "N1": {
-        "status": "active",
+        "status": "complete",
         "baseline": {
           "level": "N1",
           "total": 5350,
@@ -220,6 +220,24 @@
           "pendingAdditions": 0,
           "openSampleDefects": 0,
           "complete": false
+        },
+        "completedAt": "2026-10-09T11:08:47.287Z",
+        "result": {
+          "level": "N1",
+          "total": 5622,
+          "reviewed": 5622,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
         }
       }
     },
@@ -4579,6 +4597,105 @@
           "policy": "author-only-v1, first pass by the batch author; no independent pass",
           "fullChecksPassed": 22
         }
+      },
+      {
+        "id": "n1-source-closure-223-224",
+        "status": "verified-level-complete",
+        "recordedAt": "2026-10-09T11:08:47.711Z",
+        "newExistingEntriesEnriched": 0,
+        "existingTargetReviews": {
+          "total": 40,
+          "aliasOnly": 38,
+          "authored": 2,
+          "aliasesAdded": 41,
+          "meaningChanges": 2,
+          "sensesAdded": 2
+        },
+        "newAdditions": 155,
+        "cumulativeAdditions": 708,
+        "additionLevels": {
+          "N5": 1,
+          "N4": 2,
+          "N3": 1,
+          "N2": 5,
+          "N1": 146
+        },
+        "additionPitch": {
+          "verified": 119,
+          "investigatedUnknown": 36
+        },
+        "newBaselineCandidateReferencesResolved": 342,
+        "dispositions": {
+          "verified-spelling-variant": 51,
+          "added": 146,
+          "additional-reading": 83,
+          "additional-sense": 3,
+          "excluded": 59
+        },
+        "renewedStaleDecisions": {
+          "total": 43,
+          "N5": 1,
+          "N4": 2,
+          "N3": 13,
+          "N2": 20,
+          "N1": 7,
+          "cause": "The wave-A alias and sense reviews of 40 existing target cards made 43 accepted decisions at every level stale; each was renewed unchanged against the current targets in wave B."
+        },
+        "zuruVerbs": {
+          "cards": [
+            "報ずる"
+          ],
+          "verbGroup": "zuru",
+          "note": "Added with the zuru conjugation group used by the existing 論ずる/応ずる cards."
+        },
+        "batches": [
+          "223a-references-n1.json",
+          "223b-references-n1.json",
+          "223c-references-n1.json",
+          "223d-references-n1.json",
+          "223e-references-n1.json",
+          "224a-references-n1.json",
+          "224b-references-n1.json",
+          "224c-references-n1.json",
+          "224d-references-n1.json",
+          "224e-references-n1.json",
+          "224f-references-n1.json",
+          "224g-references-n1.json",
+          "224h-references-n1.json",
+          "224i-references-n1.json",
+          "224j-references-n1.json",
+          "224k-references-n1.json",
+          "224l-references-n1.json",
+          "224m-references-n1.json",
+          "224n-references-n1.json",
+          "224o-references-n1.json",
+          "224p-references-n1.json",
+          "224q-references-n1.json",
+          "224r-references-n1.json"
+        ],
+        "verification": {
+          "policy": "author-only-v1, first pass by the batch author; no independent pass",
+          "fullChecksPassed": 22,
+          "campaignAdvanceDryRun": "passed: N1 complete, last level",
+          "campaignAdvanced": "N1 complete; campaign complete"
+        },
+        "phase": {
+          "level": "N1",
+          "total": 5622,
+          "reviewed": 5622,
+          "missingNotes": 0,
+          "fewerThanTwo": 0,
+          "incompleteExamples": 0,
+          "unreviewedEntries": 0,
+          "pitchUninvestigated": 0,
+          "lackingReviewedDistinctContexts": 0,
+          "unresolvedCandidates": 0,
+          "unresolvedCandidateReferences": 0,
+          "missingCandidateReferences": 0,
+          "pendingAdditions": 0,
+          "openSampleDefects": 0,
+          "complete": true
+        }
       }
     ],
     "reviewPolicyChanges": [
@@ -4622,6 +4739,7 @@
         "authorization": "User chose \"Exclude: kanji-reading row\" for bare-kanji publisher rows (5 October 2026).",
         "scope": "A publisher row giving a bare kanji with a character reading and kanji-dictionary meanings is excluded unless JMdict has a word for that spelling, reading and sense; when it does, the row maps to that card with additional-sense. Rows whose gloss belongs to a different word are excluded as source mix-ups. Documented in README.md (Kanji-reading rows) and scripts/vocabulary-batch.md."
       }
-    ]
+    ],
+    "completedAt": "2026-10-09T11:08:47.287Z"
   }
 }

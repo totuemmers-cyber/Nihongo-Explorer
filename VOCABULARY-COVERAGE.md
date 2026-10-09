@@ -2,33 +2,34 @@
 
 ## Current status
 
-The active work is the [full enrichment campaign](scripts/vocabulary-completion/README.md)
-`full-enrichment-2026-10-03`, run level by level from N5 to N1. Every entry gets a
+The [full enrichment campaign](scripts/vocabulary-completion/README.md)
+`full-enrichment-2026-10-03`, run level by level from N5 to N1, was completed on 9 October 2026. Every entry gets a
 German usage note, at least two reviewed distinct example contexts and a pitch
 investigation; every open source reference must be resolved. Since 4 October 2026
 new work uses the `author-only-v1` review policy (an independent second pass is
 optional). Live counts are generated in
 [current review coverage](scripts/vocabulary-completion/COVERAGE.md).
 
-As of 9 October 2026 the runtime contains **16,093 entries**; all 16,093 have accepted
-full reviews and none are pending. **N5, N4, N3 and N2 are complete.** Batch 167a closed the
+As of 9 October 2026 the runtime contains **16,248 entries**; all 16,248 have accepted
+full reviews and no source reference is open. **All five levels are complete.** Batch 167a closed the
 last N5 source references; batches 168a–172l enriched every N4 entry and batches
 173a–174p closed all 291 N4 source references (70 new cards, 110 reviewed spelling
 aliases). Batches 175a–188e enriched every N3 entry and batches 189a–190t closed all
 422 N3 source references (136 new cards, 102 reviewed spelling aliases). Batches
 191a–201j enriched every N2 entry and batches 203a–204k closed all 271 N2 source
-references (114 new cards, 56 reviewed spelling aliases). N1 is the active phase;
-batches 205a–220j enriched every N1 entry, maintenance batch 222 retired 18
-non-vocabulary cards (given names, a place name, a game title, invented or Chinese compounds,
-a crude proverb) and corrected three readings, and N1's 342 open source references are next.
+references (114 new cards, 56 reviewed spelling aliases). Batches 205a–220j enriched every
+N1 entry, maintenance batch 222 retired 18 non-vocabulary cards (given names, a place name,
+a game title, invented or Chinese compounds, a crude proverb) and corrected three readings,
+and batches 223a–224r closed all 342 N1 source references (155 new cards, 41 reviewed
+spelling aliases).
 
 | Level | Entries | Pending reviews | Open source references | Complete |
 | --- | ---: | ---: | ---: | --- |
-| N5 | 1,688 | 0 | 0 | yes |
-| N4 | 1,693 | 0 | 0 | yes |
-| N3 | 3,916 | 0 | 0 | yes |
-| N2 | 3,320 | 0 | 0 | yes |
-| N1 | 5,476 | 0 | 342 | no |
+| N5 | 1,689 | 0 | 0 | yes |
+| N4 | 1,695 | 0 | 0 | yes |
+| N3 | 3,917 | 0 | 0 | yes |
+| N2 | 3,325 | 0 | 0 | yes |
+| N1 | 5,622 | 0 | 0 | yes |
 
 ## History
 

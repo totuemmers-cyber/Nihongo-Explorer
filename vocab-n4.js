@@ -38014,6 +38014,9 @@ window.VOCAB_N4 = [
         "german": "Obwohl ich mehrmals „Hallo, ist jemand da?“ rief, bekam ich keine Antwort."
       }
     ],
+    "aliases": [
+      "御免ください"
+    ],
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n4:correction:gomenkudasai"
@@ -38594,6 +38597,9 @@ window.VOCAB_N4 = [
         "romaji": "Nanika goshitsumon wa gozaimasu ka.",
         "german": "Haben Sie noch Fragen?"
       }
+    ],
+    "aliases": [
+      "ご座います"
     ],
     "pitch": null,
     "correctionId": "vocab-n4:correction:gozaimasu"
@@ -41504,5 +41510,71 @@ window.VOCAB_N4 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n4:correction:okakekudasai"
+  },
+  {
+    "word": "〜ても",
+    "reading": "ても",
+    "romaji": "temo",
+    "meaning": "auch wenn, selbst wenn, obwohl (nach te-Form)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“ (vocab-n5:1195).",
+    "examples": [
+      {
+        "japanese": "雨が降っても、試合は行われる。",
+        "romaji": "Ame ga futte mo, shiai wa okonawareru.",
+        "german": "Auch wenn es regnet, findet das Spiel statt."
+      },
+      {
+        "japanese": "高くても、このかばんが欲しい。",
+        "romaji": "Takakute mo, kono kaban ga hoshii.",
+        "german": "Auch wenn sie teuer ist, will ich diese Tasche."
+      },
+      {
+        "japanese": "いくら食べても太らない人がうらやましい。",
+        "romaji": "Ikura tabete mo futoranai hito ga urayamashii.",
+        "german": "Ich beneide Leute, die nicht zunehmen, egal wie viel sie essen."
+      }
+    ],
+    "aliases": [
+      "ても"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:temo-even-if"
+  },
+  {
+    "word": "〜さ",
+    "reading": "さ",
+    "romaji": "sa",
+    "meaning": "-heit, -keit (Nominalisierungssuffix für Adjektive, z. B. 高さ, 寒さ, 便利さ) (Suffix)",
+    "type": "Partikel",
+    "category": "Grammatik",
+    "level": "N4",
+    "notes": "Hängt sich an den Stamm von i- und na-Adjektiven und macht daraus ein Nomen für Grad oder Ausmaß: 高い → 高さ („Höhe“), 寒い → 寒さ („Kälte“), 便利 → 便利さ („Bequemlichkeit“). Sehr produktiv und neutral messbar, während 〜み (z. B. 甘み, 痛み) eher eine empfundene Qualität ausdrückt und nur bei wenigen Adjektiven geht. Nicht verwechseln mit der satzfinalen Partikel さ oder mit 差/さ („Unterschied“).",
+    "examples": [
+      {
+        "japanese": "この山の高さは三千メートルぐらいです。",
+        "romaji": "Kono yama no takasa wa sanzen mētoru gurai desu.",
+        "german": "Dieser Berg ist etwa dreitausend Meter hoch."
+      },
+      {
+        "japanese": "北海道の冬の寒さには、まだ慣れません。",
+        "romaji": "Hokkaidō no fuyu no samusa ni wa, mada naremasen.",
+        "german": "An die Winterkälte in Hokkaido habe ich mich noch nicht gewöhnt."
+      },
+      {
+        "japanese": "スマホの便利さを知ると、もう手放せない。",
+        "romaji": "Sumaho no benrisa o shiru to, mō tebanasenai.",
+        "german": "Wenn man einmal weiß, wie praktisch ein Smartphone ist, kann man nicht mehr darauf verzichten."
+      }
+    ],
+    "aliases": [
+      "さ"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:sa-ness-suffix"
   }
 ];
