@@ -708,6 +708,27 @@ the romaji zetsuen and shinjun. 19 compounds without their own JMdict entry (膠
 spelling of 発酵, 三次元印刷 and 陽電子断層撮影 are rare or shortened terms, 啓く survives only in
 蒙を啓く, 窮める is a rare spelling, and 緩和ケア stores its reading in hiragana. No accepted
 decision became stale. N1 now has 1,999 pending reviews and 342 open references.
+**Third N1 checkpoint (9 October 2026).** Batches 213a–213j, 214a–214j, 215a–215j and 216a–216j
+enrich the next 1,000 N1 entries (vocab-n1:1918–2962): ecology, geography and climate, everyday
+life, character and emotion words, literary verbs, adverbs, grammar patterns and idioms. Each now
+has a German usage note and 2–3 examples in distinct situations: 2,016 new sentences, and 234
+entries had original examples corrected, e.g. salmon going up a river (遡上, not 回遊), 萎える for
+numb legs after seiza (足がしびれる), 嘯く with a を-object, an umbrella sentence that contradicted
+itself, plus many romaji fixes (V字谷 buijikoku, 海面下 kaimenka). Pitch is verified for 594
+entries: 584 from exact UniDic rows (including stem rows for な-adjective headwords) and 10 from
+OJAD. 100 stored primary accents are corrected and 406 stored values without an exact attestation
+become investigated unknowns. 124 German meanings are corrected, e.g. 外来種 „gebietsfremde Art“
+(invasive species are 侵略的外来種), 砂嘴 „Sandhaken“ (not „Nehrung“), 環太平洋 „Pazifikraum“,
+奢る „einladen, spendieren“ (the „arrogant“ sense is written 驕る), 艶やか „glänzend“ and
+一石を投じる „Denkanstoß geben“. 侘びる (vocab-n1:2558) had the meaning of 詫びる „sich
+entschuldigen“, which has its own card; it now teaches the real 侘びる (待ち侘びる, 住み侘びる).
+専任 gets the romaji sennin. 70 compounds and particle-prefixed patterns without their own JMdict
+entry (生態系保全, 沈み込み帯, に即して, を皮切りに …) record the complete JMdict scan instead of a
+sequence. 躍起になる and 慣行する record why their conjugation drill stays excluded. Flagged but
+kept: 寂寥な and 精鋭な are non-standard な-headwords, 款項 is rare and not in JMdict, 慣行する
+and 汎用する are rare as verbs, 填める/纏める/齎す are usually written in kana, and に即して/に即する
+and に他ならない/他ならない are duplicates. No accepted decision became stale.
+N1 now has 999 pending reviews and 342 open references.
 
 ## Historical campaign freeze
 

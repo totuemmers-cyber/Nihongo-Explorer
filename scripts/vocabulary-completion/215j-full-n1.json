@@ -1,0 +1,3272 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:2672",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2672",
+      "state": "accepted",
+      "predecessorHash": "3725051b39272416bee11f7d115f8918e5768176271d6fa97ee47fb65367239b",
+      "originalHash": "3725051b39272416bee11f7d115f8918e5768176271d6fa97ee47fb65367239b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "市場が飽和状態に達した。",
+            "romaji": "Shijō ga hōwa jōtai ni tasshita.",
+            "german": "Der Markt hat den Sättigungspunkt erreicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "飽和 bedeutet, dass etwas sein Fassungsvermögen erreicht hat und nichts mehr aufnehmen kann. Ursprünglich ein Fachwort der Chemie (飽和溶液 „gesättigte Lösung“), übertragen auch für Märkte, Städte oder Informationsmengen. Sehr häufig als Substantiv: 飽和状態, 飽和点; als Verb meist im Zustand 飽和している. Gegenwort ist 不飽和 (z. B. 不飽和脂肪酸 „ungesättigte Fettsäure“); im Alltag sagt man einfach いっぱいになる.",
+        "examples": [
+          {
+            "japanese": "市場が飽和状態に達した。",
+            "romaji": "Shijō ga hōwa jōtai ni tasshita.",
+            "german": "Der Markt hat den Sättigungspunkt erreicht."
+          },
+          {
+            "japanese": "水に塩を溶かし続けると、やがて飽和して溶けなくなる。",
+            "romaji": "Mizu ni shio o tokashi tsuzukeru to, yagate hōwa shite tokenaku naru.",
+            "german": "Löst man immer weiter Salz in Wasser, ist die Lösung irgendwann gesättigt, und es löst sich nichts mehr."
+          },
+          {
+            "japanese": "都心の駐車場は平日の昼にはほぼ飽和している。",
+            "romaji": "Toshin no chūshajō wa heijitsu no hiru ni wa hobo hōwa shite iru.",
+            "german": "Die Parkplätze in der Innenstadt sind werktags mittags praktisch voll ausgelastet."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1518350 sense 1, noun / suru verb: saturation, satiation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 飽和 bedeutet, dass etwas sein Fassungsvermögen erreicht hat und nichts mehr aufnehmen kann. Ursprünglich ein Fachwort der Chemie (飽和溶液 „gesättigte Lösung“), übertragen auch für Märkte, Städte oder Informationsmengen. Sehr häufig als Substantiv: 飽和状態, 飽和点; als Verb meist im Zustand 飽和している. Gegenwort ist 不飽和 (z. B. 不飽和脂肪酸 „ungesättigte Fettsäure“); im Alltag sagt man einfach いっぱいになる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1518350; spelling=飽和する; reading=ほうわする",
+          "finding": "JMdict 1518350 sense 1, noun / suru verb: saturation, satiation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 飽和する/ほうわする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (飽和); none is the exact head 飽和する/ほうわする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%A3%BD%E5%92%8C%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 飽和する/ほうわする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 e96d29492b312dcd1ed599e044a2c5d06067d57b964d311f760ea7f6dcfa5a62",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%A3%BD%E5%92%8C%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (飽和); none is the exact head 飽和する/ほうわする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "sättigen, gesättigt sein. JMdict 1518350 sense 1, noun / suru verb: saturation, satiation",
+        "japanese": "市場が飽和状態に達した。 / 水に塩を溶かし続けると、やがて飽和して溶けなくなる。 / 都心の駐車場は平日の昼にはほぼ飽和している。",
+        "romanization": "hōwa suru; Shijō ga hōwa jōtai ni tasshita. / Mizu ni shio o tokashi tsuzukeru to, yagate hōwa shite tokenaku naru. / Toshin no chūshajō wa heijitsu no hiru ni wa hobo hōwa shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Markt hat den Sättigungspunkt erreicht. / Löst man immer weiter Salz in Wasser, ist die Lösung irgendwann gesättigt, und es löst sich nichts mehr. / Die Parkplätze in der Innenstadt sind werktags mittags praktisch voll ausgelastet.",
+        "contexts": [
+          "Saturated market",
+          "Chemistry experiment",
+          "Downtown parking"
+        ],
+        "lexical": "JMdict 1518350 sense 1, noun / suru verb: saturation, satiation",
+        "register": "written / technical",
+        "transitivity": "intransitive (X が飽和する)",
+        "conjugation": "suru verb (飽和する → 飽和して, 飽和しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2672 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Saturated market; Chemistry experiment; Downtown parking), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d6e060dc72bfc5997b1151585a6fb760d27e5c644e91f698424eb5da83c28186",
+        "approvalHash": "3b222fae5731cd294f234e7bee5c6fb1cc612a5c742d6c711b37c4f547ecf43c"
+      }
+    },
+    {
+      "id": "vocab-n1:2673",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2673",
+      "state": "accepted",
+      "predecessorHash": "dedd756c023ed899f10468d61f185c5da7efd76bf375353ad47a987eed7e5c93",
+      "originalHash": "dedd756c023ed899f10468d61f185c5da7efd76bf375353ad47a987eed7e5c93",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この技術は広く汎用されている。",
+            "romaji": "Kono gijutsu wa hiroku han'yō sarete iru.",
+            "german": "Diese Technologie wird vielseitig verwendet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "汎用 bedeutet „für viele Zwecke verwendbar, universell“. Es lebt fast ausschließlich als Substantiv oder Attribut: 汎用の部品, 汎用品 „Standardartikel“, 汎用機, 汎用性が高い „vielseitig einsetzbar“, 汎用的な. Als Verb kommt 汎用する nur selten vor, meist im Passiv in Fachtexten (汎用されている). Gegenstück ist 専用 „nur für einen Zweck bestimmt“; im Alltag sagt man statt 汎用する eher 幅広く使う.",
+        "examples": [
+          {
+            "japanese": "この技術は広く汎用されている。",
+            "romaji": "Kono gijutsu wa hiroku han'yō sarete iru.",
+            "german": "Diese Technologie wird vielseitig verwendet."
+          },
+          {
+            "japanese": "この部品は汎用品なので、どの店でも手に入る。",
+            "romaji": "Kono buhin wa han'yōhin na node, dono mise de mo te ni hairu.",
+            "german": "Das ist ein Standardteil, deshalb bekommt man es in jedem Laden."
+          },
+          {
+            "japanese": "このソフトは汎用性が高く、さまざまな業界で使われている。",
+            "romaji": "Kono sofuto wa han'yōsei ga takaku, samazama na gyōkai de tsukawarete iru.",
+            "german": "Diese Software ist sehr vielseitig und wird in den unterschiedlichsten Branchen eingesetzt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1481460 sense 1, noun / suru verb / no-adjective: generic, general purpose, all-purpose Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 汎用 bedeutet „für viele Zwecke verwendbar, universell“. Es lebt fast ausschließlich als Substantiv oder Attribut: 汎用の部品, 汎用品 „Standardartikel“, 汎用機, 汎用性が高い „vielseitig einsetzbar“, 汎用的な. Als Verb kommt 汎用する nur selten vor, meist im Passiv in Fachtexten (汎用されている). Gegenstück ist 専用 „nur für einen Zweck bestimmt“; im Alltag sagt man statt 汎用する eher 幅広く使う. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1481460; spelling=汎用する; reading=はんようする",
+          "finding": "JMdict 1481460 sense 1, noun / suru verb / no-adjective: generic, general purpose, all-purpose"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 汎用する/はんようする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 汎用する/はんようする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B1%8E%E7%94%A8%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 汎用する/はんようする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 1f260cad2fa39ebde4a00b500eec055d19b22f92364a36b2f29a0c85937f1dfa",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B1%8E%E7%94%A8%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 汎用する/はんようする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "vielseitig verwenden. JMdict 1481460 sense 1, noun / suru verb / no-adjective: generic, general purpose, all-purpose",
+        "japanese": "この技術は広く汎用されている。 / この部品は汎用品なので、どの店でも手に入る。 / このソフトは汎用性が高く、さまざまな業界で使われている。",
+        "romanization": "han'yō suru; Kono gijutsu wa hiroku han'yō sarete iru. / Kono buhin wa han'yōhin na node, dono mise de mo te ni hairu. / Kono sofuto wa han'yōsei ga takaku, samazama na gyōkai de tsukawarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Diese Technologie wird vielseitig verwendet. / Das ist ein Standardteil, deshalb bekommt man es in jedem Laden. / Diese Software ist sehr vielseitig und wird in den unterschiedlichsten Branchen eingesetzt.",
+        "contexts": [
+          "Widely used technology",
+          "Buying a standard part",
+          "Versatile software"
+        ],
+        "lexical": "JMdict 1481460 sense 1, noun / suru verb / no-adjective: generic, general purpose, all-purpose",
+        "register": "written / technical",
+        "transitivity": "transitive (X を汎用する), in practice mostly passive 汎用される",
+        "conjugation": "suru verb (汎用する → 汎用して, 汎用しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2673 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Widely used technology; Buying a standard part; Versatile software), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bb06e76e4054f768ac24be16b1a63f84fa7f22c68e319396b0c4f7ab41eaf94b",
+        "approvalHash": "b5086e8f7bab8f0630e96efd75d8494fff828a1459135af41980e13d0d605433"
+      }
+    },
+    {
+      "id": "vocab-n1:2674",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2674",
+      "state": "accepted",
+      "predecessorHash": "10c1effabfbde1328bafa931c32745d43c8517f5ab6b59b4c88c9abb115b13fe",
+      "originalHash": "10c1effabfbde1328bafa931c32745d43c8517f5ab6b59b4c88c9abb115b13fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "情状を酌量して刑を軽くした。",
+            "romaji": "Jōjō o shakuryō shite kei o karuku shita.",
+            "german": "Man milderte die Strafe unter Berücksichtigung der Umstände."
+          }
+        ],
+        "meaning": "berücksichtigen, mildern",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "酌量 bedeutet, besondere Umstände wohlwollend zu berücksichtigen, vor allem bei der Bemessung einer Strafe. Fast immer steht es in der festen Verbindung 情状酌量 „Berücksichtigung mildernder Umstände“: 情状を酌量する, 情状酌量の余地がある／ない. Das Zeichen 酌 steht wie in 酌む „(Gefühle anderer) nachempfinden“. Juristisch und schriftsprachlich; im Alltag sagt man 考慮する oder 事情を汲む.",
+        "examples": [
+          {
+            "japanese": "情状を酌量して刑を軽くした。",
+            "romaji": "Jōjō o shakuryō shite kei o karuku shita.",
+            "german": "Man milderte die Strafe unter Berücksichtigung der Umstände."
+          },
+          {
+            "japanese": "被告の境遇には、情状酌量の余地がある。",
+            "romaji": "Hikoku no kyōgū ni wa, jōjō shakuryō no yochi ga aru.",
+            "german": "Die Lebensumstände des Angeklagten lassen Raum für mildernde Umstände."
+          },
+          {
+            "japanese": "先生は遅刻の事情を酌量して、今回は注意だけにした。",
+            "romaji": "Sensei wa chikoku no jijō o shakuryō shite, konkai wa chūi dake ni shita.",
+            "german": "Der Lehrer berücksichtigte den Grund für die Verspätung und beließ es diesmal bei einer Ermahnung."
+          }
+        ],
+        "meaning": "(Umstände) berücksichtigen, Nachsicht walten lassen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1324220 sense 1, noun / suru verb: taking into consideration, making allowances Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 酌量 bedeutet, besondere Umstände wohlwollend zu berücksichtigen, vor allem bei der Bemessung einer Strafe. Fast immer steht es in der festen Verbindung 情状酌量 „Berücksichtigung mildernder Umstände“: 情状を酌量する, 情状酌量の余地がある／ない. Das Zeichen 酌 steht wie in 酌む „(Gefühle anderer) nachempfinden“. Juristisch und schriftsprachlich; im Alltag sagt man 考慮する oder 事情を汲む. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1324220; spelling=酌量する; reading=しゃくりょうする",
+          "finding": "JMdict 1324220 sense 1, noun / suru verb: taking into consideration, making allowances"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 酌量する/しゃくりょうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 酌量する/しゃくりょうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%85%8C%E9%87%8F%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 酌量する/しゃくりょうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 1b8f3ae61e9c5192c5a0b85a61fc848a7d9e4d2e3ab47d267b2311de283e668c",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%85%8C%E9%87%8F%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 酌量する/しゃくりょうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "(Umstände) berücksichtigen, Nachsicht walten lassen. JMdict 1324220 sense 1, noun / suru verb: taking into consideration, making allowances",
+        "japanese": "情状を酌量して刑を軽くした。 / 被告の境遇には、情状酌量の余地がある。 / 先生は遅刻の事情を酌量して、今回は注意だけにした。",
+        "romanization": "shakuryō suru; Jōjō o shakuryō shite kei o karuku shita. / Hikoku no kyōgū ni wa, jōjō shakuryō no yochi ga aru. / Sensei wa chikoku no jijō o shakuryō shite, konkai wa chūi dake ni shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man milderte die Strafe unter Berücksichtigung der Umstände. / Die Lebensumstände des Angeklagten lassen Raum für mildernde Umstände. / Der Lehrer berücksichtigte den Grund für die Verspätung und beließ es diesmal bei einer Ermahnung.",
+        "contexts": [
+          "Lenient sentence",
+          "Defence argument in court",
+          "Teacher showing leniency"
+        ],
+        "lexical": "JMdict 1324220 sense 1, noun / suru verb: taking into consideration, making allowances",
+        "register": "written / legal",
+        "transitivity": "transitive (情状・事情を酌量する)",
+        "conjugation": "suru verb (酌量する → 酌量して, 酌量しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2674 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lenient sentence; Defence argument in court; Teacher showing leniency), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "33a5db77ee37af048d73b1af3da4c4984945439bebacd364fa44041817f36e9f",
+        "approvalHash": "6e92767edd7da84290d23d0cbf1ad20e86b979be8c4b2a493c0c846cd35434ba"
+      }
+    },
+    {
+      "id": "vocab-n1:2675",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2675",
+      "state": "accepted",
+      "predecessorHash": "c924ca85aadbaa032d50c8921f3af1b84cb14ee4c644f2af693534a02e91e314",
+      "originalHash": "c924ca85aadbaa032d50c8921f3af1b84cb14ee4c644f2af693534a02e91e314",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "支払いを督促する。",
+            "romaji": "Shiharai o tokusoku suru.",
+            "german": "Man mahnt zur Zahlung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "督促 bedeutet, jemanden förmlich und nachdrücklich an eine fällige Pflicht zu erinnern, vor allem an Zahlungen oder Rückgaben. Typisch sind 支払いを督促する, 返済を督促する und das Substantiv 督促状 „Mahnschreiben“. Amtssprache von Behörden, Banken und Firmen. Alltäglicher ist 催促する „drängen, nachhaken“, das auch unter Freunden passt; 督促 klingt offiziell und streng.",
+        "examples": [
+          {
+            "japanese": "支払いを督促する。",
+            "romaji": "Shiharai o tokusoku suru.",
+            "german": "Man mahnt zur Zahlung."
+          },
+          {
+            "japanese": "図書館から本の返却を督促するメールが届いた。",
+            "romaji": "Toshokan kara hon no henkyaku o tokusoku suru mēru ga todoita.",
+            "german": "Die Bibliothek hat mir eine Mahnung geschickt, das Buch zurückzugeben."
+          },
+          {
+            "japanese": "税金を滞納していたら、市役所から督促状が来た。",
+            "romaji": "Zeikin o tainō shite itara, shiyakusho kara tokusokujō ga kita.",
+            "german": "Weil ich mit den Steuern im Rückstand war, bekam ich vom Rathaus einen Mahnbescheid."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1455390 sense 1, noun / suru verb: urge, demand (for payment etc.) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 督促 bedeutet, jemanden förmlich und nachdrücklich an eine fällige Pflicht zu erinnern, vor allem an Zahlungen oder Rückgaben. Typisch sind 支払いを督促する, 返済を督促する und das Substantiv 督促状 „Mahnschreiben“. Amtssprache von Behörden, Banken und Firmen. Alltäglicher ist 催促する „drängen, nachhaken“, das auch unter Freunden passt; 督促 klingt offiziell und streng. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1455390; spelling=督促する; reading=とくそくする",
+          "finding": "JMdict 1455390 sense 1, noun / suru verb: urge, demand (for payment etc.)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 督促する/とくそくする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 督促する/とくそくする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9D%A3%E4%BF%83%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 督促する/とくそくする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 619f83a1364bbbb8a7db04f7ee6785fe3c3393f3531ab8c98040c148a35c3c04",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%9D%A3%E4%BF%83%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 督促する/とくそくする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "mahnen, drängen. JMdict 1455390 sense 1, noun / suru verb: urge, demand (for payment etc.)",
+        "japanese": "支払いを督促する。 / 図書館から本の返却を督促するメールが届いた。 / 税金を滞納していたら、市役所から督促状が来た。",
+        "romanization": "tokusoku suru; Shiharai o tokusoku suru. / Toshokan kara hon no henkyaku o tokusoku suru mēru ga todoita. / Zeikin o tainō shite itara, shiyakusho kara tokusokujō ga kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man mahnt zur Zahlung. / Die Bibliothek hat mir eine Mahnung geschickt, das Buch zurückzugeben. / Weil ich mit den Steuern im Rückstand war, bekam ich vom Rathaus einen Mahnbescheid.",
+        "contexts": [
+          "Payment reminder",
+          "Overdue library book",
+          "Unpaid taxes"
+        ],
+        "lexical": "JMdict 1455390 sense 1, noun / suru verb: urge, demand (for payment etc.)",
+        "register": "formal / official",
+        "transitivity": "transitive (支払いを督促する; person with に)",
+        "conjugation": "suru verb (督促する → 督促して, 督促しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2675 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Payment reminder; Overdue library book; Unpaid taxes), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "02b9bd1346c5a155d16f64df0775220a2e06938f113bf3eaf3cd189908081871",
+        "approvalHash": "96ae00f549a58bed8cc7b059abfb53801aa5eb0d75afe5c39a98c3bde6b3eebd"
+      }
+    },
+    {
+      "id": "vocab-n1:2676",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2676",
+      "state": "accepted",
+      "predecessorHash": "312b107deda7478494be8e50ed17921c4f29c8b882f0251746462a6b8a592f60",
+      "originalHash": "312b107deda7478494be8e50ed17921c4f29c8b882f0251746462a6b8a592f60",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": "素材・内容・条件を吟味する。Betont sorgfältiges Abwägen von Qualität und Eignung.",
+        "examples": [
+          {
+            "japanese": "素材を吟味して選ぶ。",
+            "romaji": "Sozai o ginmi shite erabu.",
+            "german": "Man prüft die Materialien sorgfältig und wählt aus."
+          },
+          {
+            "kind": "natural",
+            "japanese": "複数の説明を吟味してから、結論を出した。",
+            "romaji": "Fukusuu no setsumei o ginmi shite kara, ketsuron o dashita.",
+            "german": "Ich prüfte mehrere Erklärungen sorgfältig, bevor ich einen Schluss zog."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "吟味 bedeutet, Qualität, Inhalt oder Eignung von etwas sorgfältig zu prüfen, bevor man auswählt oder entscheidet. Typisch sind 素材を吟味する, 内容を吟味する, 言葉を吟味する und 吟味された食材 „sorgfältig ausgewählte Zutaten“ (beliebt in Gastronomie und Werbung). Gehoben, aber geläufig. Anders als 検討する „Optionen erwägen“ oder 確認する „nachprüfen“ betont 吟味 das prüfende Abwägen von Qualität.",
+        "examples": [
+          {
+            "japanese": "素材を吟味して選ぶ。",
+            "romaji": "Sozai o ginmi shite erabu.",
+            "german": "Man prüft die Materialien sorgfältig und wählt aus."
+          },
+          {
+            "japanese": "複数の説明を吟味してから、結論を出した。",
+            "romaji": "Fukusuu no setsumei o ginmi shite kara, ketsuron o dashita.",
+            "german": "Ich prüfte mehrere Erklärungen sorgfältig, bevor ich einen Schluss zog."
+          },
+          {
+            "japanese": "彼はスピーチの言葉を一つ一つ吟味した。",
+            "romaji": "Kare wa supīchi no kotoba o hitotsu hitotsu ginmi shita.",
+            "german": "Er wog jedes einzelne Wort seiner Rede sorgfältig ab."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1243390 sense 1, noun / suru verb: close examination, careful selection Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 吟味 bedeutet, Qualität, Inhalt oder Eignung von etwas sorgfältig zu prüfen, bevor man auswählt oder entscheidet. Typisch sind 素材を吟味する, 内容を吟味する, 言葉を吟味する und 吟味された食材 „sorgfältig ausgewählte Zutaten“ (beliebt in Gastronomie und Werbung). Gehoben, aber geläufig. Anders als 検討する „Optionen erwägen“ oder 確認する „nachprüfen“ betont 吟味 das prüfende Abwägen von Qualität. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1243390; spelling=吟味する; reading=ぎんみする",
+          "finding": "JMdict 1243390 sense 1, noun / suru verb: close examination, careful selection"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 吟味する/ぎんみする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 吟味する/ぎんみする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%90%9F%E5%91%B3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 吟味する/ぎんみする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 27477bd8c0e4d6beec96eb917abe8bd8bf5f43ed2c18d497a46a356cda493ed2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%90%9F%E5%91%B3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 吟味する/ぎんみする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "sorgfältig prüfen, abwägen. JMdict 1243390 sense 1, noun / suru verb: close examination, careful selection",
+        "japanese": "素材を吟味して選ぶ。 / 複数の説明を吟味してから、結論を出した。 / 彼はスピーチの言葉を一つ一つ吟味した。",
+        "romanization": "ginmi suru; Sozai o ginmi shite erabu. / Fukusuu no setsumei o ginmi shite kara, ketsuron o dashita. / Kare wa supīchi no kotoba o hitotsu hitotsu ginmi shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man prüft die Materialien sorgfältig und wählt aus. / Ich prüfte mehrere Erklärungen sorgfältig, bevor ich einen Schluss zog. / Er wog jedes einzelne Wort seiner Rede sorgfältig ab.",
+        "contexts": [
+          "Selecting ingredients",
+          "Weighing explanations",
+          "Preparing a speech"
+        ],
+        "lexical": "JMdict 1243390 sense 1, noun / suru verb: close examination, careful selection",
+        "register": "elevated / written",
+        "transitivity": "transitive (X を吟味する)",
+        "conjugation": "suru verb (吟味する → 吟味して, 吟味しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2676 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Selecting ingredients; Weighing explanations; Preparing a speech), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7fd2d265e526c0a9a4ef733659e5cad85f0e1ad1cb556c929432b63dc734e7cf",
+        "approvalHash": "c6be5cacc2607a5abfb147a6dde41ab8f35f73a7ee83f4b94a78ef6fc74ef57f"
+      }
+    },
+    {
+      "id": "vocab-n1:2677",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2677",
+      "state": "accepted",
+      "predecessorHash": "437497481961d4365fd75e195da6a53d1b3c3d8b6111faa74bcefbc7783c815f",
+      "originalHash": "437497481961d4365fd75e195da6a53d1b3c3d8b6111faa74bcefbc7783c815f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": "分野・事情に精通する。Fundierte Vertrautheit; bloßes 聞いたことがある reicht dafür nicht.",
+        "examples": [
+          {
+            "japanese": "彼は法律に精通している。",
+            "romaji": "Kare wa hōritsu ni seitsū shite iru.",
+            "german": "Er ist im Recht bewandert."
+          },
+          {
+            "kind": "natural",
+            "japanese": "地域の事情に精通した人に相談した。",
+            "romaji": "Chiiki no jijou ni seitsuu shita hito ni soudan shita.",
+            "german": "Ich beriet mich mit jemandem, der die örtlichen Verhältnisse genau kennt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "精通 bedeutet, ein Fachgebiet oder bestimmte Verhältnisse gründlich und bis ins Detail zu kennen. Das Gebiet steht mit に: 法律に精通する, 業界の事情に精通している, 〜に精通した人物. Meist im Zustand 精通している oder attributiv 精通した; schriftsprachlich, häufig in Lebensläufen und Personalbeschreibungen. Anders als 詳しい „sich auskennen“ (alltäglich) klingt 精通 nach echter Expertise; bloßes 聞いたことがある reicht dafür nicht.",
+        "examples": [
+          {
+            "japanese": "彼は法律に精通している。",
+            "romaji": "Kare wa hōritsu ni seitsū shite iru.",
+            "german": "Er ist im Recht bewandert."
+          },
+          {
+            "japanese": "地域の事情に精通した人に相談した。",
+            "romaji": "Chiiki no jijou ni seitsuu shita hito ni soudan shita.",
+            "german": "Ich beriet mich mit jemandem, der die örtlichen Verhältnisse genau kennt."
+          },
+          {
+            "japanese": "三か国語に精通した通訳を探している。",
+            "romaji": "Sankakokugo ni seitsū shita tsūyaku o sagashite iru.",
+            "german": "Wir suchen einen Dolmetscher, der drei Sprachen perfekt beherrscht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1380100 sense 1, noun / suru verb: being well versed in, having a thorough knowledge of Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 精通 bedeutet, ein Fachgebiet oder bestimmte Verhältnisse gründlich und bis ins Detail zu kennen. Das Gebiet steht mit に: 法律に精通する, 業界の事情に精通している, 〜に精通した人物. Meist im Zustand 精通している oder attributiv 精通した; schriftsprachlich, häufig in Lebensläufen und Personalbeschreibungen. Anders als 詳しい „sich auskennen“ (alltäglich) klingt 精通 nach echter Expertise; bloßes 聞いたことがある reicht dafür nicht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1380100; spelling=精通する; reading=せいつうする",
+          "finding": "JMdict 1380100 sense 1, noun / suru verb: being well versed in, having a thorough knowledge of"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 精通する/せいつうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 精通する/せいつうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B2%BE%E9%80%9A%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 精通する/せいつうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 0da098bf8e423b6c4ef821b68338a3d4461538a8a8f2f2f9d99edac9229592bd",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%B2%BE%E9%80%9A%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 精通する/せいつうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "bewandert sein in, sich auskennen. JMdict 1380100 sense 1, noun / suru verb: being well versed in, having a thorough knowledge of",
+        "japanese": "彼は法律に精通している。 / 地域の事情に精通した人に相談した。 / 三か国語に精通した通訳を探している。",
+        "romanization": "seitsū suru; Kare wa hōritsu ni seitsū shite iru. / Chiiki no jijou ni seitsuu shita hito ni soudan shita. / Sankakokugo ni seitsū shita tsūyaku o sagashite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er ist im Recht bewandert. / Ich beriet mich mit jemandem, der die örtlichen Verhältnisse genau kennt. / Wir suchen einen Dolmetscher, der drei Sprachen perfekt beherrscht.",
+        "contexts": [
+          "Legal expert",
+          "Local knowledge",
+          "Hiring an interpreter"
+        ],
+        "lexical": "JMdict 1380100 sense 1, noun / suru verb: being well versed in, having a thorough knowledge of",
+        "register": "written / formal",
+        "transitivity": "intransitive (〜に精通する)",
+        "conjugation": "suru verb (精通する → 精通して, 精通しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2677 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Legal expert; Local knowledge; Hiring an interpreter), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "db7cc49051c345d9044c923250565305650f2b7d5b79a76b3925e59bc57ed35d",
+        "approvalHash": "0c9e3be7f2be764711da17090ec2e574654b8cabb2a4a7a7a2bc62ecceba9ab3"
+      }
+    },
+    {
+      "id": "vocab-n1:2678",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2678",
+      "state": "accepted",
+      "predecessorHash": "1b64c9ea21c329eb79279418d98e76e6fa1c4f710e1c99114cbd2a62c75aed65",
+      "originalHash": "1b64c9ea21c329eb79279418d98e76e6fa1c4f710e1c99114cbd2a62c75aed65",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "信頼関係を醸成する。",
+            "romaji": "Shinrai kankei o jōsei suru.",
+            "german": "Man baut ein Vertrauensverhältnis auf."
+          }
+        ],
+        "meaning": "hervorrufen, erzeugen",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "醸成 bedeutet ursprünglich „gären lassen, brauen“ und heute vor allem übertragen „eine Stimmung, Vertrauen oder ein Bewusstsein allmählich entstehen lassen“. Typisch sind 信頼関係を醸成する, 機運を醸成する, 雰囲気を醸成する, 一体感を醸成する. Schriftsprachlich, beliebt in Politik und Unternehmenstexten; für das eigentliche Bierbrauen oder Sakebrauen sagt man 醸造. Das Bild des langsamen Gärens unterscheidet es von 作る oder 生み出す.",
+        "examples": [
+          {
+            "japanese": "信頼関係を醸成する。",
+            "romaji": "Shinrai kankei o jōsei suru.",
+            "german": "Man baut ein Vertrauensverhältnis auf."
+          },
+          {
+            "japanese": "地域全体で子育てを支える機運を醸成したい。",
+            "romaji": "Chiiki zentai de kosodate o sasaeru kiun o jōsei shitai.",
+            "german": "Wir möchten in der ganzen Region ein Klima schaffen, in dem Familien mit Kindern unterstützt werden."
+          },
+          {
+            "japanese": "共同作業を通じて、チームの一体感が醸成された。",
+            "romaji": "Kyōdō sagyō o tsūjite, chīmu no ittaikan ga jōsei sareta.",
+            "german": "Durch die gemeinsame Arbeit wuchs im Team allmählich ein Zusammengehörigkeitsgefühl."
+          }
+        ],
+        "meaning": "allmählich entstehen lassen, fördern, hervorrufen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1357080 sense 1, noun / suru verb: brewing; arousing, creating (a mood, trust) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 醸成 bedeutet ursprünglich „gären lassen, brauen“ und heute vor allem übertragen „eine Stimmung, Vertrauen oder ein Bewusstsein allmählich entstehen lassen“. Typisch sind 信頼関係を醸成する, 機運を醸成する, 雰囲気を醸成する, 一体感を醸成する. Schriftsprachlich, beliebt in Politik und Unternehmenstexten; für das eigentliche Bierbrauen oder Sakebrauen sagt man 醸造. Das Bild des langsamen Gärens unterscheidet es von 作る oder 生み出す. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1357080; spelling=醸成する; reading=じょうせいする",
+          "finding": "JMdict 1357080 sense 1, noun / suru verb: brewing; arousing, creating (a mood, trust)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 醸成する/じょうせいする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 醸成する/じょうせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%86%B8%E6%88%90%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 醸成する/じょうせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 469941fb94bc37f8f5fb13f8f3b4716e5fb017fa0bafae5141b68d95975e1826",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%86%B8%E6%88%90%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 醸成する/じょうせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "allmählich entstehen lassen, fördern, hervorrufen. JMdict 1357080 sense 1, noun / suru verb: brewing; arousing, creating (a mood, trust)",
+        "japanese": "信頼関係を醸成する。 / 地域全体で子育てを支える機運を醸成したい。 / 共同作業を通じて、チームの一体感が醸成された。",
+        "romanization": "jōsei suru; Shinrai kankei o jōsei suru. / Chiiki zentai de kosodate o sasaeru kiun o jōsei shitai. / Kyōdō sagyō o tsūjite, chīmu no ittaikan ga jōsei sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man baut ein Vertrauensverhältnis auf. / Wir möchten in der ganzen Region ein Klima schaffen, in dem Familien mit Kindern unterstützt werden. / Durch die gemeinsame Arbeit wuchs im Team allmählich ein Zusammengehörigkeitsgefühl.",
+        "contexts": [
+          "Building trust",
+          "Community child-care policy",
+          "Team building"
+        ],
+        "lexical": "JMdict 1357080 sense 1, noun / suru verb: brewing; arousing, creating (a mood, trust)",
+        "register": "written / formal",
+        "transitivity": "transitive (X を醸成する); passive 醸成される",
+        "conjugation": "suru verb (醸成する → 醸成して, 醸成しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2678 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Building trust; Community child-care policy; Team building), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a7ba511ef732aae6dd08e4eba8bdc771b9ea4f203d428a64a29920abdb7a2339",
+        "approvalHash": "372377c6e087f953cb58424730651c095860e10f5b2ae5e8aeb9724b6653eba1"
+      }
+    },
+    {
+      "id": "vocab-n1:2679",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2679",
+      "state": "accepted",
+      "predecessorHash": "4ce75cd86068dcdf5845450852a664128c03c4b9314abf04b91c84075a92f052",
+      "originalHash": "4ce75cd86068dcdf5845450852a664128c03c4b9314abf04b91c84075a92f052",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不正を一掃する。",
+            "romaji": "Fusei o issō suru.",
+            "german": "Man beseitigt die Unregelmäßigkeiten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "一掃 bedeutet, etwas Unerwünschtes mit einem Schlag vollständig zu beseitigen. Typische Objekte sind 不正を一掃する, 暴力団を一掃する, 不安を一掃する; im Handel 在庫一掃セール „Räumungsverkauf“. Schriftsprachlich, aber auch in Werbung geläufig. Anders als 取り除く betont 一掃 Gründlichkeit und Vollständigkeit. Nicht verwechseln mit dem gleich gelesenen Adverb 一層 „noch mehr“.",
+        "examples": [
+          {
+            "japanese": "不正を一掃する。",
+            "romaji": "Fusei o issō suru.",
+            "german": "Man beseitigt die Unregelmäßigkeiten."
+          },
+          {
+            "japanese": "在庫一掃セールで、冬物が半額になっている。",
+            "romaji": "Zaiko issō sēru de, fuyumono ga hangaku ni natte iru.",
+            "german": "Im Räumungsverkauf ist die Winterkleidung um die Hälfte reduziert."
+          },
+          {
+            "japanese": "監督の一言が、チームの不安を一掃した。",
+            "romaji": "Kantoku no hitokoto ga, chīmu no fuan o issō shita.",
+            "german": "Ein einziges Wort des Trainers fegte alle Zweifel im Team weg."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1164350 sense 1, noun / suru verb: clean sweep, purging, eradication Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 一掃 bedeutet, etwas Unerwünschtes mit einem Schlag vollständig zu beseitigen. Typische Objekte sind 不正を一掃する, 暴力団を一掃する, 不安を一掃する; im Handel 在庫一掃セール „Räumungsverkauf“. Schriftsprachlich, aber auch in Werbung geläufig. Anders als 取り除く betont 一掃 Gründlichkeit und Vollständigkeit. Nicht verwechseln mit dem gleich gelesenen Adverb 一層 „noch mehr“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1164350; spelling=一掃する; reading=いっそうする",
+          "finding": "JMdict 1164350 sense 1, noun / suru verb: clean sweep, purging, eradication"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 一掃する/いっそうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 一掃する/いっそうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%80%E6%8E%83%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 一掃する/いっそうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 8b6ede07a3934b9f2d074872f85739ad53af73fd1ec853776f327120cedfa46a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%80%E6%8E%83%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 一掃する/いっそうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "beseitigen, wegfegen. JMdict 1164350 sense 1, noun / suru verb: clean sweep, purging, eradication",
+        "japanese": "不正を一掃する。 / 在庫一掃セールで、冬物が半額になっている。 / 監督の一言が、チームの不安を一掃した。",
+        "romanization": "issō suru; Fusei o issō suru. / Zaiko issō sēru de, fuyumono ga hangaku ni natte iru. / Kantoku no hitokoto ga, chīmu no fuan o issō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man beseitigt die Unregelmäßigkeiten. / Im Räumungsverkauf ist die Winterkleidung um die Hälfte reduziert. / Ein einziges Wort des Trainers fegte alle Zweifel im Team weg.",
+        "contexts": [
+          "Rooting out corruption",
+          "Clearance sale",
+          "Coach reassuring the team"
+        ],
+        "lexical": "JMdict 1164350 sense 1, noun / suru verb: clean sweep, purging, eradication",
+        "register": "written / formal",
+        "transitivity": "transitive (X を一掃する)",
+        "conjugation": "suru verb (一掃する → 一掃して, 一掃しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2679 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rooting out corruption; Clearance sale; Coach reassuring the team), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "61dbc8fd28c3dc190c567e098635529e5b24b380eadbef1305e2db6b9a87badd",
+        "approvalHash": "48dc330af73d078fa9980bd8581c7d3ef6dbadd4f542c6c621720ed3d84353fb"
+      }
+    },
+    {
+      "id": "vocab-n1:2680",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2680",
+      "state": "accepted",
+      "predecessorHash": "257e844cab3cc62967b07f908027b69cb5ca6463a2f7a3a6300d1cfc99c40143",
+      "originalHash": "257e844cab3cc62967b07f908027b69cb5ca6463a2f7a3a6300d1cfc99c40143",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "人生を回顧する時間が必要だ。",
+            "romaji": "Jinsei o kaiko suru jikan ga hitsuyō da.",
+            "german": "Man braucht Zeit, um auf das Leben zurückzublicken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "回顧 bedeutet, auf vergangene Zeiten oder Ereignisse zurückzublicken und sie sich bewusst ins Gedächtnis zu rufen. Typisch sind 人生を回顧する, 当時を回顧する sowie die Substantive 回顧録 „Memoiren“ und 回顧展 „Retrospektive“. Schriftsprachlich. Anders als 思い出す „sich erinnern“ (spontan, alltäglich) ist 回顧 eine geordnete Rückschau; 懐古 betont dagegen nostalgische Sehnsucht.",
+        "examples": [
+          {
+            "japanese": "人生を回顧する時間が必要だ。",
+            "romaji": "Jinsei o kaiko suru jikan ga hitsuyō da.",
+            "german": "Man braucht Zeit, um auf das Leben zurückzublicken."
+          },
+          {
+            "japanese": "元首相は回顧録で、当時の決断を回顧している。",
+            "romaji": "Moto-shushō wa kaikoroku de, tōji no ketsudan o kaiko shite iru.",
+            "german": "Der ehemalige Premierminister blickt in seinen Memoiren auf die damaligen Entscheidungen zurück."
+          },
+          {
+            "japanese": "美術館で、その画家の回顧展が開かれている。",
+            "romaji": "Bijutsukan de, sono gaka no kaikoten ga hirakarete iru.",
+            "german": "Im Kunstmuseum läuft gerade eine Retrospektive dieses Malers."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1199440 sense 1, noun / suru verb: recollecting, looking back, retrospection Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 回顧 bedeutet, auf vergangene Zeiten oder Ereignisse zurückzublicken und sie sich bewusst ins Gedächtnis zu rufen. Typisch sind 人生を回顧する, 当時を回顧する sowie die Substantive 回顧録 „Memoiren“ und 回顧展 „Retrospektive“. Schriftsprachlich. Anders als 思い出す „sich erinnern“ (spontan, alltäglich) ist 回顧 eine geordnete Rückschau; 懐古 betont dagegen nostalgische Sehnsucht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1199440; spelling=回顧する; reading=かいこする",
+          "finding": "JMdict 1199440 sense 1, noun / suru verb: recollecting, looking back, retrospection"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 回顧する/かいこする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 回顧する/かいこする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%9B%9E%E9%A1%A7%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 回顧する/かいこする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 645a01c5100e493ae802dacf9444020d6705b1712294a9cdb16dccd1ed7a143d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%9B%9E%E9%A1%A7%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 回顧する/かいこする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "zurückblicken, Rückschau halten. JMdict 1199440 sense 1, noun / suru verb: recollecting, looking back, retrospection",
+        "japanese": "人生を回顧する時間が必要だ。 / 元首相は回顧録で、当時の決断を回顧している。 / 美術館で、その画家の回顧展が開かれている。",
+        "romanization": "kaiko suru; Jinsei o kaiko suru jikan ga hitsuyō da. / Moto-shushō wa kaikoroku de, tōji no ketsudan o kaiko shite iru. / Bijutsukan de, sono gaka no kaikoten ga hirakarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man braucht Zeit, um auf das Leben zurückzublicken. / Der ehemalige Premierminister blickt in seinen Memoiren auf die damaligen Entscheidungen zurück. / Im Kunstmuseum läuft gerade eine Retrospektive dieses Malers.",
+        "contexts": [
+          "Reflecting on one's life",
+          "Politician's memoirs",
+          "Art retrospective"
+        ],
+        "lexical": "JMdict 1199440 sense 1, noun / suru verb: recollecting, looking back, retrospection",
+        "register": "written / formal",
+        "transitivity": "transitive (X を回顧する)",
+        "conjugation": "suru verb (回顧する → 回顧して, 回顧しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2680 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reflecting on one's life; Politician's memoirs; Art retrospective), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "565a9f19f272a1bf9020adfe32d05b65c1f4320f0ac9bc065385367c4781c0e2",
+        "approvalHash": "c8f6c165fff204f5512506a42422fadb1528b373952c05d6aaa2b6a9cbcec3e3"
+      }
+    },
+    {
+      "id": "vocab-n1:2681",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2681",
+      "state": "accepted",
+      "predecessorHash": "3b4f336a0abb20b8bbb7242c37ac7150bb63a67e2b40194fb3d235c75ee09350",
+      "originalHash": "3b4f336a0abb20b8bbb7242c37ac7150bb63a67e2b40194fb3d235c75ee09350",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "苦痛に悶える。",
+            "romaji": "Kutsū ni modaeru.",
+            "german": "Man windet sich vor Schmerzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "悶える bedeutet, sich vor körperlichem Schmerz zu winden oder seelisch Qualen zu leiden. Der Auslöser steht mit に: 苦痛に悶える, 恋に悶える; verstärkt heißt es 悶え苦しむ „sich in Qualen winden“. Intransitiv, eher literarisch. In der Umgangs- und Netzsprache steht es auch scherzhaft für „vor Entzücken vergehen“ (かわいすぎて悶える). Alltäglicher sind 苦しむ und 悩む.",
+        "examples": [
+          {
+            "japanese": "苦痛に悶える。",
+            "romaji": "Kutsū ni modaeru.",
+            "german": "Man windet sich vor Schmerzen."
+          },
+          {
+            "japanese": "彼は叶わぬ恋に一人で悶えていた。",
+            "romaji": "Kare wa kanawanu koi ni hitori de modaete ita.",
+            "german": "Er quälte sich allein mit einer unerfüllbaren Liebe."
+          },
+          {
+            "japanese": "子猫の寝顔がかわいすぎて、思わず悶えてしまった。",
+            "romaji": "Koneko no negao ga kawaisugite, omowazu modaete shimatta.",
+            "german": "Das schlafende Kätzchen war so süß, dass ich vor Entzücken fast dahinschmolz."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263848469",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "Exact whole 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; aType 3,2. Rejected for this role: 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 連体形-一般; aType 3,2.",
+            "match": {
+              "word": "悶える",
+              "reading": "もだえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "Verb 悶える/もだえる \"sich quälen, sich winden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1536080 senses 1–2, ichidan intransitive: to writhe (in pain); to be anguished Pitch: Verified [3,2] via exact UniDic row; stored primary 0 corrected to 3. 悶える bedeutet, sich vor körperlichem Schmerz zu winden oder seelisch Qualen zu leiden. Der Auslöser steht mit に: 苦痛に悶える, 恋に悶える; verstärkt heißt es 悶え苦しむ „sich in Qualen winden“. Intransitiv, eher literarisch. In der Umgangs- und Netzsprache steht es auch scherzhaft für „vor Entzücken vergehen“ (かわいすぎて悶える). Alltäglicher sind 苦しむ und 悩む. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1536080; spelling=悶える; reading=もだえる",
+          "selected": {
+            "sequence": "1536080",
+            "spelling": "悶える",
+            "reading": "もだえる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to writhe (in pain)",
+                  "to be in agony"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be anguished",
+                  "to be agonized",
+                  "to be troubled"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1536080 senses 1–2, ichidan intransitive: to writhe (in pain); to be anguished"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3,2] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; aType 3,2. Rejected for this role: 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 連体形-一般; aType 3,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@263848469",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "Exact whole 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 終止形-一般; aType 3,2. Rejected for this role: 悶える/モダエル; lemma 悶える; 動詞/一般/*/*; 下一段-ア行; 連体形-一般; aType 3,2.",
+            "match": {
+              "word": "悶える",
+              "reading": "もだえる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-ア行; 終止形-一般",
+              "sense": "Verb 悶える/もだえる \"sich quälen, sich winden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich quälen, sich winden. JMdict 1536080 senses 1–2, ichidan intransitive: to writhe (in pain); to be anguished",
+        "japanese": "苦痛に悶える。 / 彼は叶わぬ恋に一人で悶えていた。 / 子猫の寝顔がかわいすぎて、思わず悶えてしまった。",
+        "romanization": "modaeru; Kutsū ni modaeru. / Kare wa kanawanu koi ni hitori de modaete ita. / Koneko no negao ga kawaisugite, omowazu modaete shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man windet sich vor Schmerzen. / Er quälte sich allein mit einer unerfüllbaren Liebe. / Das schlafende Kätzchen war so süß, dass ich vor Entzücken fast dahinschmolz.",
+        "contexts": [
+          "Physical agony",
+          "Unrequited love",
+          "Overwhelmed by cuteness"
+        ],
+        "lexical": "JMdict 1536080 senses 1–2, ichidan intransitive: to writhe (in pain); to be anguished",
+        "register": "literary; playful in slang",
+        "transitivity": "intransitive (〜に悶える)",
+        "conjugation": "ichidan (悶える → 悶えて, 悶えない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2681 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Physical agony; Unrequited love; Overwhelmed by cuteness), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "62b0cbb6e56ded21b52926fa09c72e6170f89f52c458f233771a757963fbdc9b",
+        "approvalHash": "328213d7d4e28ae9255f9fbc05a833298fbdff2220221a127ca578d5d62b2764"
+      }
+    },
+    {
+      "id": "vocab-n1:2682",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2682",
+      "state": "accepted",
+      "predecessorHash": "1e312a389544c53b6d147fb6eef3c3bc7b7987e3858299e8862327f272f3366c",
+      "originalHash": "1e312a389544c53b6d147fb6eef3c3bc7b7987e3858299e8862327f272f3366c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "運命を諦観する。",
+            "romaji": "Unmei o teikan suru.",
+            "german": "Man betrachtet das Schicksal mit Gelassenheit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "諦観 hat zwei Seiten: ursprünglich (buddhistisch) „das Wesen der Dinge klar durchschauen“, heute meist „sein Schicksal gelassen hinnehmen, abgeklärt resignieren“. Typisch sind 運命を諦観する, 人生を諦観する sowie die Substantivformen 諦観の境地 „Zustand gelassener Ergebung“ und 諦観した態度. Sehr schriftsprachlich und literarisch. Anders als 諦める „aufgeben“ (alltäglich, oft enttäuscht) schwingt in 諦観 eine abgeklärte Einsicht mit.",
+        "examples": [
+          {
+            "japanese": "運命を諦観する。",
+            "romaji": "Unmei o teikan suru.",
+            "german": "Man betrachtet das Schicksal mit Gelassenheit."
+          },
+          {
+            "japanese": "晩年の彼は、すべてを諦観したような穏やかな表情をしていた。",
+            "romaji": "Bannen no kare wa, subete o teikan shita yō na odayaka na hyōjō o shite ita.",
+            "german": "In seinen letzten Jahren hatte er einen ruhigen Ausdruck, als hätte er sich mit allem abgefunden."
+          },
+          {
+            "japanese": "この作品には、人生に対する作者の諦観がにじみ出ている。",
+            "romaji": "Kono sakuhin ni wa, jinsei ni taisuru sakusha no teikan ga nijimidete iru.",
+            "german": "In diesem Werk zeigt sich die abgeklärte Lebenshaltung des Autors."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1436740 senses 2 and 1, noun / suru verb: resignation (to one's fate), acceptance; clear insight Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 諦観 hat zwei Seiten: ursprünglich (buddhistisch) „das Wesen der Dinge klar durchschauen“, heute meist „sein Schicksal gelassen hinnehmen, abgeklärt resignieren“. Typisch sind 運命を諦観する, 人生を諦観する sowie die Substantivformen 諦観の境地 „Zustand gelassener Ergebung“ und 諦観した態度. Sehr schriftsprachlich und literarisch. Anders als 諦める „aufgeben“ (alltäglich, oft enttäuscht) schwingt in 諦観 eine abgeklärte Einsicht mit. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1436740; spelling=諦観する; reading=ていかんする",
+          "finding": "JMdict 1436740 senses 2 and 1, noun / suru verb: resignation (to one's fate), acceptance; clear insight"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 諦観する/ていかんする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 諦観する/ていかんする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AB%A6%E8%A6%B3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 諦観する/ていかんする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 2258984a9f72c6add8371587ef247d03ced3f62e9215be6428b6d50b30b79cd8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%AB%A6%E8%A6%B3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 諦観する/ていかんする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "mit Gelassenheit betrachten, resignieren. JMdict 1436740 senses 2 and 1, noun / suru verb: resignation (to one's fate), acceptance; clear insight",
+        "japanese": "運命を諦観する。 / 晩年の彼は、すべてを諦観したような穏やかな表情をしていた。 / この作品には、人生に対する作者の諦観がにじみ出ている。",
+        "romanization": "teikan suru; Unmei o teikan suru. / Bannen no kare wa, subete o teikan shita yō na odayaka na hyōjō o shite ita. / Kono sakuhin ni wa, jinsei ni taisuru sakusha no teikan ga nijimidete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man betrachtet das Schicksal mit Gelassenheit. / In seinen letzten Jahren hatte er einen ruhigen Ausdruck, als hätte er sich mit allem abgefunden. / In diesem Werk zeigt sich die abgeklärte Lebenshaltung des Autors.",
+        "contexts": [
+          "Accepting fate",
+          "Serenity in old age",
+          "Literary criticism"
+        ],
+        "lexical": "JMdict 1436740 senses 2 and 1, noun / suru verb: resignation (to one's fate), acceptance; clear insight",
+        "register": "literary / written",
+        "transitivity": "transitive (X を諦観する)",
+        "conjugation": "suru verb (諦観する → 諦観して, 諦観しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2682 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accepting fate; Serenity in old age; Literary criticism), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "37208251567bd4d8618faa54b47fc6bd26bd1073f1a7aa9a5442441b143f2ba2",
+        "approvalHash": "095ea7627ca3e52faeb15f80bbe3ff1da1dbb5e289325d17051e79a3669e7f07"
+      }
+    },
+    {
+      "id": "vocab-n1:2683",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2683",
+      "state": "accepted",
+      "predecessorHash": "6dbbce2c6c520abbd434b69d3905b29ab0511da0d2f97aa273811f27ce9583fe",
+      "originalHash": "6dbbce2c6c520abbd434b69d3905b29ab0511da0d2f97aa273811f27ce9583fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "返答に窮した。",
+            "romaji": "Hentō ni kyū shita.",
+            "german": "Man geriet bei der Antwort in Verlegenheit."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "窮する bedeutet, in eine Lage zu geraten, aus der man keinen Ausweg weiß. Der Bereich steht mit に: 返答に窮する „um eine Antwort verlegen sein“, 説明に窮する, 生活に窮する „in materielle Not geraten“. Bekannt ist das Sprichwort 窮すれば通ず „Not macht erfinderisch“. Schriftsprachlich; im Alltag sagt man 困る.",
+        "examples": [
+          {
+            "japanese": "返答に窮した。",
+            "romaji": "Hentō ni kyū shita.",
+            "german": "Man geriet bei der Antwort in Verlegenheit."
+          },
+          {
+            "japanese": "失業して生活に窮する人が増えている。",
+            "romaji": "Shitsugyō shite seikatsu ni kyū suru hito ga fuete iru.",
+            "german": "Immer mehr Menschen geraten durch Arbeitslosigkeit in finanzielle Not."
+          },
+          {
+            "japanese": "窮すれば通ずで、追い詰められて初めていいアイデアが浮かんだ。",
+            "romaji": "Kyū sureba tsūzu de, oitsumerarete hajimete ii aidea ga ukanda.",
+            "german": "Not macht eben erfinderisch: Erst als ich mit dem Rücken zur Wand stand, kam mir eine gute Idee."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105916030",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+            "match": {
+              "word": "窮する",
+              "reading": "きゅうする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 窮する/きゅうする \"in Verlegenheit geraten, bedrängt sein\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2063030 senses 1–2, suru verb (special class) intransitive: to be at a loss; to be pressed for, to become poor Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 窮する bedeutet, in eine Lage zu geraten, aus der man keinen Ausweg weiß. Der Bereich steht mit に: 返答に窮する „um eine Antwort verlegen sein“, 説明に窮する, 生活に窮する „in materielle Not geraten“. Bekannt ist das Sprichwort 窮すれば通ず „Not macht erfinderisch“. Schriftsprachlich; im Alltag sagt man 困る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2063030; spelling=窮する; reading=きゅうする",
+          "selected": {
+            "sequence": "2063030",
+            "spelling": "窮する",
+            "reading": "きゅうする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be at a loss",
+                  "to be puzzled",
+                  "to be perplexed",
+                  "to be at one's wit's end",
+                  "to be in a dilemma",
+                  "to not know what to (do, say, etc)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to be pressed for",
+                  "to be pinched for",
+                  "to become poor",
+                  "to be reduced to poverty"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2063030 senses 1–2, suru verb (special class) intransitive: to be at a loss; to be pressed for, to become poor"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105916030",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 窮する/キュウスル; lemma 窮する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+            "match": {
+              "word": "窮する",
+              "reading": "きゅうする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 窮する/きゅうする \"in Verlegenheit geraten, bedrängt sein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "in Verlegenheit geraten, bedrängt sein. JMdict 2063030 senses 1–2, suru verb (special class) intransitive: to be at a loss; to be pressed for, to become poor",
+        "japanese": "返答に窮した。 / 失業して生活に窮する人が増えている。 / 窮すれば通ずで、追い詰められて初めていいアイデアが浮かんだ。",
+        "romanization": "kyū suru; Hentō ni kyū shita. / Shitsugyō shite seikatsu ni kyū suru hito ga fuete iru. / Kyū sureba tsūzu de, oitsumerarete hajimete ii aidea ga ukanda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man geriet bei der Antwort in Verlegenheit. / Immer mehr Menschen geraten durch Arbeitslosigkeit in finanzielle Not. / Not macht eben erfinderisch: Erst als ich mit dem Rücken zur Wand stand, kam mir eine gute Idee.",
+        "contexts": [
+          "Lost for words",
+          "Financial hardship",
+          "Proverb about necessity"
+        ],
+        "lexical": "JMdict 2063030 senses 1–2, suru verb (special class) intransitive: to be at a loss; to be pressed for, to become poor",
+        "register": "written / formal",
+        "transitivity": "intransitive (〜に窮する)",
+        "conjugation": "suru verb, special class (窮する → 窮して, 窮しない, 窮すれば)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2683 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lost for words; Financial hardship; Proverb about necessity), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "982f70166ca4752fb6d589f1337582f14f5c5382cad33be500f31d294d2690fd",
+        "approvalHash": "f270d33af2dad9bb71b5ba982cdda3697c656b0a08759e8400dae90df5697c23"
+      }
+    },
+    {
+      "id": "vocab-n1:2684",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2684",
+      "state": "accepted",
+      "predecessorHash": "ca16ddf952eca84c6cbe38a36a5511df56a530b36ead55a9738119b833223db3",
+      "originalHash": "ca16ddf952eca84c6cbe38a36a5511df56a530b36ead55a9738119b833223db3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼の言動を揶揄する記事が出た。",
+            "romaji": "Kare no gendō o yayu suru kiji ga deta.",
+            "german": "Ein Artikel erschien, der sein Verhalten verspottete."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "揶揄 bedeutet, jemanden oder etwas mit spöttischen, ironischen Bemerkungen lächerlich zu machen. Typisch in Medien sind 〜を揶揄する記事 und das Passiv 〜と揶揄される „als … verspottet werden“. Schriftsprachlich; wegen der schwierigen Zeichen wird es oft やゆ geschrieben. Alltäglicher sind からかう „necken“ (meist harmlos) und 皮肉る „sticheln“; 揶揄 zielt oft auf öffentliche Personen oder gesellschaftliche Zustände.",
+        "examples": [
+          {
+            "japanese": "彼の言動を揶揄する記事が出た。",
+            "romaji": "Kare no gendō o yayu suru kiji ga deta.",
+            "german": "Ein Artikel erschien, der sein Verhalten verspottete."
+          },
+          {
+            "japanese": "首相の対応は、野党から「後手後手だ」と揶揄された。",
+            "romaji": "Shushō no taiō wa, yatō kara gotegote da to yayu sareta.",
+            "german": "Die Opposition spottete, der Premierminister hinke mit seinen Maßnahmen ständig hinterher."
+          },
+          {
+            "japanese": "その漫画家は、社会の矛盾を揶揄する作品で人気を集めた。",
+            "romaji": "Sono mangaka wa, shakai no mujun o yayu suru sakuhin de ninki o atsumeta.",
+            "german": "Der Zeichner wurde mit Mangas bekannt, die die Widersprüche der Gesellschaft aufs Korn nehmen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1567640 sense 1, noun / suru verb: banter, ridicule, making fun of Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 揶揄 bedeutet, jemanden oder etwas mit spöttischen, ironischen Bemerkungen lächerlich zu machen. Typisch in Medien sind 〜を揶揄する記事 und das Passiv 〜と揶揄される „als … verspottet werden“. Schriftsprachlich; wegen der schwierigen Zeichen wird es oft やゆ geschrieben. Alltäglicher sind からかう „necken“ (meist harmlos) und 皮肉る „sticheln“; 揶揄 zielt oft auf öffentliche Personen oder gesellschaftliche Zustände. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1567640; spelling=揶揄する; reading=やゆする",
+          "finding": "JMdict 1567640 sense 1, noun / suru verb: banter, ridicule, making fun of"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 揶揄する/やゆする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 揶揄する/やゆする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8F%B6%E6%8F%84%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 揶揄する/やゆする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 9bfe5b1d78a254ca99a577e4ad73d88136a15e57816c0216e5787e51066ce13a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8F%B6%E6%8F%84%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 揶揄する/やゆする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "verspotten, karikieren. JMdict 1567640 sense 1, noun / suru verb: banter, ridicule, making fun of",
+        "japanese": "彼の言動を揶揄する記事が出た。 / 首相の対応は、野党から「後手後手だ」と揶揄された。 / その漫画家は、社会の矛盾を揶揄する作品で人気を集めた。",
+        "romanization": "yayu suru; Kare no gendō o yayu suru kiji ga deta. / Shushō no taiō wa, yatō kara gotegote da to yayu sareta. / Sono mangaka wa, shakai no mujun o yayu suru sakuhin de ninki o atsumeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Artikel erschien, der sein Verhalten verspottete. / Die Opposition spottete, der Premierminister hinke mit seinen Maßnahmen ständig hinterher. / Der Zeichner wurde mit Mangas bekannt, die die Widersprüche der Gesellschaft aufs Korn nehmen.",
+        "contexts": [
+          "Mocking newspaper article",
+          "Opposition criticism",
+          "Satirical manga"
+        ],
+        "lexical": "JMdict 1567640 sense 1, noun / suru verb: banter, ridicule, making fun of",
+        "register": "written / formal",
+        "transitivity": "transitive (X を揶揄する); passive 〜と揶揄される",
+        "conjugation": "suru verb (揶揄する → 揶揄して, 揶揄しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2684 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Mocking newspaper article; Opposition criticism; Satirical manga), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fef94b25d8e6b2484652e2a1adc5c00792bad4d10d840770cd42071cfb578996",
+        "approvalHash": "466630ce93933e30b958f29c923f41a6f6ebd39f7e288a7d6a35e33076f5b7bc"
+      }
+    },
+    {
+      "id": "vocab-n1:2685",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2685",
+      "state": "accepted",
+      "predecessorHash": "d4d0beebf046b8d31c7f5cd071632be81d42a1b5453e59e5c549727af0af2274",
+      "originalHash": "d4d0beebf046b8d31c7f5cd071632be81d42a1b5453e59e5c549727af0af2274",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "好機を逸してはならない。",
+            "romaji": "Kōki o isshite wa naranai.",
+            "german": "Man darf die gute Gelegenheit nicht verpassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "逸する hat drei Bedeutungen: „eine Gelegenheit verpassen“ (好機を逸する, 機会を逸する, 優勝を逸する), „übersehen, auslassen“ und „abweichen“, vor allem in der festen Wendung 常軌を逸する „jedes normale Maß überschreiten“. Transitiv mit を, schriftsprachlich. Die Konjugation folgt der する-Sonderklasse: 逸した, 逸して. Alltäglich sagt man チャンスを逃す.",
+        "examples": [
+          {
+            "japanese": "好機を逸してはならない。",
+            "romaji": "Kōki o isshite wa naranai.",
+            "german": "Man darf die gute Gelegenheit nicht verpassen."
+          },
+          {
+            "japanese": "彼の行動は常軌を逸している。",
+            "romaji": "Kare no kōdō wa jōki o isshite iru.",
+            "german": "Sein Verhalten übersteigt jedes normale Maß."
+          },
+          {
+            "japanese": "チームは終盤のミスで優勝を逸した。",
+            "romaji": "Chīmu wa shūban no misu de yūshō o isshita.",
+            "german": "Durch einen Fehler in der Schlussphase verpasste das Team den Titel."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56179881",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 0,3. Rejected for this role: 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "逸する",
+              "reading": "いっする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 逸する/いっする \"verpassen, entgehen lassen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1587490 senses 1 and 3, suru verb (special class) transitive: to lose / miss (a chance); to deviate (常軌を逸する) Pitch: Verified [0,3] via exact UniDic row. 逸する hat drei Bedeutungen: „eine Gelegenheit verpassen“ (好機を逸する, 機会を逸する, 優勝を逸する), „übersehen, auslassen“ und „abweichen“, vor allem in der festen Wendung 常軌を逸する „jedes normale Maß überschreiten“. Transitiv mit を, schriftsprachlich. Die Konjugation folgt der する-Sonderklasse: 逸した, 逸して. Alltäglich sagt man チャンスを逃す. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1587490; spelling=逸する; reading=いっする",
+          "selected": {
+            "sequence": "1587490",
+            "spelling": "逸する",
+            "reading": "いっする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to lose (a chance)",
+                  "to miss (a chance)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to overlook",
+                  "to omit",
+                  "to forget"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "suru verb - special class",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to deviate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1587490 senses 1 and 3, suru verb (special class) transitive: to lose / miss (a chance); to deviate (常軌を逸する)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 0,3. Rejected for this role: 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56179881",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 0,3. Rejected for this role: 逸する/イッスル; lemma 逸する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "逸する",
+              "reading": "いっする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 逸する/いっする \"verpassen, entgehen lassen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "verpassen, entgehen lassen. JMdict 1587490 senses 1 and 3, suru verb (special class) transitive: to lose / miss (a chance); to deviate (常軌を逸する)",
+        "japanese": "好機を逸してはならない。 / 彼の行動は常軌を逸している。 / チームは終盤のミスで優勝を逸した。",
+        "romanization": "issuru; Kōki o isshite wa naranai. / Kare no kōdō wa jōki o isshite iru. / Chīmu wa shūban no misu de yūshō o isshita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man darf die gute Gelegenheit nicht verpassen. / Sein Verhalten übersteigt jedes normale Maß. / Durch einen Fehler in der Schlussphase verpasste das Team den Titel.",
+        "contexts": [
+          "Seizing an opportunity",
+          "Bizarre behaviour",
+          "Losing the championship"
+        ],
+        "lexical": "JMdict 1587490 senses 1 and 3, suru verb (special class) transitive: to lose / miss (a chance); to deviate (常軌を逸する)",
+        "register": "written / formal",
+        "transitivity": "transitive (X を逸する)",
+        "conjugation": "suru verb, special class (逸する → 逸して, 逸しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2685 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Seizing an opportunity; Bizarre behaviour; Losing the championship), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4959d0ebb3143c744618cc676f02abbcab6a395f6d32b9306468c07b91ef401c",
+        "approvalHash": "762ce5e083ed81ca43b9227407c539d70066c81d53074d5ba4067b69c4763a49"
+      }
+    },
+    {
+      "id": "vocab-n1:2686",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2686",
+      "state": "accepted",
+      "predecessorHash": "9263efe08e5676b797246f35e53c7552740dc61748501f9ca19775b014ed6d5c",
+      "originalHash": "9263efe08e5676b797246f35e53c7552740dc61748501f9ca19775b014ed6d5c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "議論は同じ結論に帰結した。",
+            "romaji": "Giron wa onaji ketsuron ni kiketsu shita.",
+            "german": "Die Diskussion lief auf dieselbe Schlussfolgerung hinaus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "帰結 bezeichnet das Ergebnis, auf das ein Gedankengang oder eine Entwicklung folgerichtig hinausläuft. Als Verb heißt es 〜に帰結する „auf … hinauslaufen“; sehr häufig ist das Substantiv in 当然の帰結 „die logische Folge“ und 論理的帰結. Schriftsprachlich, typisch für Argumentationen und Fachtexte. Anders als 結果 „Ergebnis“ betont 帰結 die zwingende Folgerichtigkeit; 結論 ist die ausdrücklich gezogene Schlussfolgerung.",
+        "examples": [
+          {
+            "japanese": "議論は同じ結論に帰結した。",
+            "romaji": "Giron wa onaji ketsuron ni kiketsu shita.",
+            "german": "Die Diskussion lief auf dieselbe Schlussfolgerung hinaus."
+          },
+          {
+            "japanese": "無理な計画が失敗に終わったのは当然の帰結だ。",
+            "romaji": "Muri na keikaku ga shippai ni owatta no wa tōzen no kiketsu da.",
+            "german": "Dass der unrealistische Plan scheiterte, war die logische Folge."
+          },
+          {
+            "japanese": "少子化の問題は、最終的に働き方の問題に帰結する。",
+            "romaji": "Shōshika no mondai wa, saishūteki ni hatarakikata no mondai ni kiketsu suru.",
+            "german": "Das Problem der sinkenden Geburtenrate läuft letztlich auf die Frage hinaus, wie wir arbeiten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1221320 sense 1, noun / suru verb: consequence, result, conclusion Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 帰結 bezeichnet das Ergebnis, auf das ein Gedankengang oder eine Entwicklung folgerichtig hinausläuft. Als Verb heißt es 〜に帰結する „auf … hinauslaufen“; sehr häufig ist das Substantiv in 当然の帰結 „die logische Folge“ und 論理的帰結. Schriftsprachlich, typisch für Argumentationen und Fachtexte. Anders als 結果 „Ergebnis“ betont 帰結 die zwingende Folgerichtigkeit; 結論 ist die ausdrücklich gezogene Schlussfolgerung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1221320; spelling=帰結する; reading=きけつする",
+          "finding": "JMdict 1221320 sense 1, noun / suru verb: consequence, result, conclusion"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 帰結する/きけつする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 帰結する/きけつする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B8%B0%E7%B5%90%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 帰結する/きけつする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 053aaf6a41945b5471208e1535f732f1b088ec9bb9eb8d674a18233d247a3750",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%B8%B0%E7%B5%90%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 帰結する/きけつする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "hinauslaufen auf, resultieren. JMdict 1221320 sense 1, noun / suru verb: consequence, result, conclusion",
+        "japanese": "議論は同じ結論に帰結した。 / 無理な計画が失敗に終わったのは当然の帰結だ。 / 少子化の問題は、最終的に働き方の問題に帰結する。",
+        "romanization": "kiketsu suru; Giron wa onaji ketsuron ni kiketsu shita. / Muri na keikaku ga shippai ni owatta no wa tōzen no kiketsu da. / Shōshika no mondai wa, saishūteki ni hatarakikata no mondai ni kiketsu suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Diskussion lief auf dieselbe Schlussfolgerung hinaus. / Dass der unrealistische Plan scheiterte, war die logische Folge. / Das Problem der sinkenden Geburtenrate läuft letztlich auf die Frage hinaus, wie wir arbeiten.",
+        "contexts": [
+          "Circular discussion",
+          "Failed project",
+          "Social policy analysis"
+        ],
+        "lexical": "JMdict 1221320 sense 1, noun / suru verb: consequence, result, conclusion",
+        "register": "written / formal",
+        "transitivity": "intransitive (〜に帰結する)",
+        "conjugation": "suru verb (帰結する → 帰結して, 帰結しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2686 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Circular discussion; Failed project; Social policy analysis), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3b5b254f45364d46fbd8f943866faf0b762ec9521f6aabe44b3625f1e707fb37",
+        "approvalHash": "4159dc0549bd5a859140f0827e52c15a355889c7f644bfaf124a45b6ed0b067a"
+      }
+    },
+    {
+      "id": "vocab-n1:2687",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2687",
+      "state": "accepted",
+      "predecessorHash": "31dd4e26112be02cedec4d919bdce287897716e8d27009e3d9abde4aa35f9696",
+      "originalHash": "31dd4e26112be02cedec4d919bdce287897716e8d27009e3d9abde4aa35f9696",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "事実を歪めて伝える。",
+            "romaji": "Jijitsu o yugamete tsutaeru.",
+            "german": "Man gibt die Tatsachen verzerrt wieder."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "歪める ist das transitive Gegenstück zu 歪む „sich verziehen, sich verbiegen“: etwas aus seiner richtigen Form bringen. Konkret: 顔を歪める „das Gesicht verziehen“ (vor Schmerz oder Ekel), 口元を歪める. Übertragen: 事実を歪める, 真実を歪める, 歴史を歪める „verfälschen“, auch 性格を歪める. Neutral bis schriftsprachlich; dazu das Substantiv 歪み „Verzerrung“.",
+        "examples": [
+          {
+            "japanese": "事実を歪めて伝える。",
+            "romaji": "Jijitsu o yugamete tsutaeru.",
+            "german": "Man gibt die Tatsachen verzerrt wieder."
+          },
+          {
+            "japanese": "彼は痛みに顔を歪めた。",
+            "romaji": "Kare wa itami ni kao o yugameta.",
+            "german": "Er verzog vor Schmerz das Gesicht."
+          },
+          {
+            "japanese": "厳しすぎる家庭環境が彼の性格を歪めてしまった。",
+            "romaji": "Kibishisugiru katei kankyō ga kare no seikaku o yugamete shimatta.",
+            "german": "Das übermäßig strenge Elternhaus hat seinen Charakter verbogen."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270915416",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 0,3. Rejected for this role: 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "歪める",
+              "reading": "ゆがめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "Verb 歪める/ゆがめる \"verzerren, verdrehen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1585370 senses 1–3, ichidan transitive: to distort, to warp; to bend (the truth), to falsify; to corrupt Pitch: Verified [0,3] via exact UniDic row. 歪める ist das transitive Gegenstück zu 歪む „sich verziehen, sich verbiegen“: etwas aus seiner richtigen Form bringen. Konkret: 顔を歪める „das Gesicht verziehen“ (vor Schmerz oder Ekel), 口元を歪める. Übertragen: 事実を歪める, 真実を歪める, 歴史を歪める „verfälschen“, auch 性格を歪める. Neutral bis schriftsprachlich; dazu das Substantiv 歪み „Verzerrung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1585370; spelling=歪める; reading=ゆがめる",
+          "selected": {
+            "sequence": "1585370",
+            "spelling": "歪める",
+            "reading": "ゆがめる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to bend",
+                  "to curve",
+                  "to warp",
+                  "to distort",
+                  "to disfigure"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to bend (the truth)",
+                  "to falsify",
+                  "to twist"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Ichidan verb",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to corrupt",
+                  "to sully"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1585370 senses 1–3, ichidan transitive: to distort, to warp; to bend (the truth), to falsify; to corrupt"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,3] via exact UniDic row. Exact whole 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 0,3. Rejected for this role: 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 連体形-一般; aType 0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@270915416",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              3
+            ],
+            "finding": "Exact whole 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 終止形-一般; aType 0,3. Rejected for this role: 歪める/ユガメル; lemma 歪める; 動詞/一般/*/*; 下一段-マ行; 連体形-一般; aType 0,3.",
+            "match": {
+              "word": "歪める",
+              "reading": "ゆがめる",
+              "grammaticalForm": "動詞/一般/*/*; 下一段-マ行; 終止形-一般",
+              "sense": "Verb 歪める/ゆがめる \"verzerren, verdrehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "verzerren, verdrehen. JMdict 1585370 senses 1–3, ichidan transitive: to distort, to warp; to bend (the truth), to falsify; to corrupt",
+        "japanese": "事実を歪めて伝える。 / 彼は痛みに顔を歪めた。 / 厳しすぎる家庭環境が彼の性格を歪めてしまった。",
+        "romanization": "yugameru; Jijitsu o yugamete tsutaeru. / Kare wa itami ni kao o yugameta. / Kibishisugiru katei kankyō ga kare no seikaku o yugamete shimatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man gibt die Tatsachen verzerrt wieder. / Er verzog vor Schmerz das Gesicht. / Das übermäßig strenge Elternhaus hat seinen Charakter verbogen.",
+        "contexts": [
+          "Distorted reporting",
+          "Grimacing in pain",
+          "Harsh upbringing"
+        ],
+        "lexical": "JMdict 1585370 senses 1–3, ichidan transitive: to distort, to warp; to bend (the truth), to falsify; to corrupt",
+        "register": "neutral",
+        "transitivity": "transitive (X を歪める); intransitive partner 歪む",
+        "conjugation": "ichidan (歪める → 歪めて, 歪めない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2687 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Distorted reporting; Grimacing in pain; Harsh upbringing), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "df840a035b2380071a6a4a286a462db662fc8e096b92b23e9cb72fd989786f1c",
+        "approvalHash": "ba714e82619bc323e8c1131ced3a7f63fb9e9ff38a98d28e2105d4d0f73c23af"
+      }
+    },
+    {
+      "id": "vocab-n1:2688",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2688",
+      "state": "accepted",
+      "predecessorHash": "758f289e62db4ea400724b160312e8e68faa97595c15f776ab51db181f93c5ee",
+      "originalHash": "758f289e62db4ea400724b160312e8e68faa97595c15f776ab51db181f93c5ee",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ゲームに嵌ってしまった。",
+            "romaji": "Gēmu ni hamatte shimatta.",
+            "german": "Ich bin in das Spiel hineingeraten."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "はまる heißt wörtlich „genau hineinpassen“ (ピースがはまる, 型にはまる „schablonenhaft sein“) und „in etwas hineingeraten“ (溝にはまる, 罠にはまる „in die Falle gehen“). Umgangssprachlich sehr häufig ist 〜にはまる „auf etwas abfahren, süchtig nach etwas werden“: ゲームにはまる, ドラマにはまっている. Intransitiv; das transitive Gegenstück ist はめる „einsetzen, hineinstecken“. Das Kanji 嵌 ist selten, man schreibt fast immer はまる.",
+        "examples": [
+          {
+            "japanese": "ゲームに嵌ってしまった。",
+            "romaji": "Gēmu ni hamatte shimatta.",
+            "german": "Ich bin dem Spiel total verfallen."
+          },
+          {
+            "japanese": "自転車のタイヤが溝にはまって動けなくなった。",
+            "romaji": "Jitensha no taiya ga mizo ni hamatte ugokenaku natta.",
+            "german": "Der Fahrradreifen ist in einer Rinne stecken geblieben."
+          },
+          {
+            "japanese": "彼は詐欺師の罠にまんまとはまった。",
+            "romaji": "Kare wa sagishi no wana ni manmato hamatta.",
+            "german": "Er ist dem Betrüger glatt in die Falle gegangen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217607093",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. Rejected for this role: 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "嵌る",
+              "reading": "はまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 嵌る/はまる \"hineingeraten, süchtig werden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1601030 senses 5, 3 and 4, godan intransitive: to get addicted to; to fall into, to get stuck; to fall into a trap Pitch: Verified [0] via exact UniDic row; stored primary 2 corrected to 0. はまる heißt wörtlich „genau hineinpassen“ (ピースがはまる, 型にはまる „schablonenhaft sein“) und „in etwas hineingeraten“ (溝にはまる, 罠にはまる „in die Falle gehen“). Umgangssprachlich sehr häufig ist 〜にはまる „auf etwas abfahren, süchtig nach etwas werden“: ゲームにはまる, ドラマにはまっている. Intransitiv; das transitive Gegenstück ist はめる „einsetzen, hineinstecken“. Das Kanji 嵌 ist selten, man schreibt fast immer はまる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1601030; spelling=嵌る; reading=はまる",
+          "selected": {
+            "sequence": "1601030",
+            "spelling": "嵌る",
+            "reading": "はまる",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "irregular okurigana usage"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fit",
+                  "to get into",
+                  "to go into",
+                  "to be fitted with (e.g. door with a window)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be fit for (a job, etc.)",
+                  "to be suited for",
+                  "to satisfy (conditions)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to fall into",
+                  "to plunge into",
+                  "to get stuck",
+                  "to get caught"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be deceived",
+                  "to be taken in",
+                  "to fall into a trap"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "Godan verb with 'ru' ending",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to get addicted to",
+                  "to get deep into",
+                  "to become crazy about",
+                  "to become stuck on"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1601030 senses 5, 3 and 4, godan intransitive: to get addicted to; to fall into, to get stuck; to fall into a trap"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 2 corrected to 0. Exact whole 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. Rejected for this role: 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@217607093",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0. Rejected for this role: 嵌る/ハマル; lemma 嵌まる; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "嵌る",
+              "reading": "はまる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 嵌る/はまる \"hineingeraten, süchtig werden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "hineingeraten, süchtig werden. JMdict 1601030 senses 5, 3 and 4, godan intransitive: to get addicted to; to fall into, to get stuck; to fall into a trap",
+        "japanese": "ゲームに嵌ってしまった。 / 自転車のタイヤが溝にはまって動けなくなった。 / 彼は詐欺師の罠にまんまとはまった。",
+        "romanization": "hamaru; Gēmu ni hamatte shimatta. / Jitensha no taiya ga mizo ni hamatte ugokenaku natta. / Kare wa sagishi no wana ni manmato hamatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin dem Spiel total verfallen. / Der Fahrradreifen ist in einer Rinne stecken geblieben. / Er ist dem Betrüger glatt in die Falle gegangen.",
+        "contexts": [
+          "Hooked on a game",
+          "Bike stuck in a gutter",
+          "Falling for a scam"
+        ],
+        "lexical": "JMdict 1601030 senses 5, 3 and 4, godan intransitive: to get addicted to; to fall into, to get stuck; to fall into a trap",
+        "register": "colloquial (addiction sense); neutral otherwise; usually written in kana",
+        "transitivity": "intransitive (〜に嵌る); transitive partner 嵌める",
+        "conjugation": "godan -ru (嵌る → 嵌って, 嵌らない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2688 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hooked on a game; Bike stuck in a gutter; Falling for a scam), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9063fdc18cbe6fc6d5b0f1fac9483f97a25c6664c2693356de1cae2f2a99335f",
+        "approvalHash": "8c182c24b8b2ecc3b12bcd4b2fbc2940ac29dda334783d6f810159c0381251ad"
+      }
+    },
+    {
+      "id": "vocab-n1:2689",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2689",
+      "state": "accepted",
+      "predecessorHash": "b9d2d720903d6b88a868a0edc9170a58bcc1c54c97851632806ff5ff0aae38f6",
+      "originalHash": "b9d2d720903d6b88a868a0edc9170a58bcc1c54c97851632806ff5ff0aae38f6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "周囲から疎まれている。",
+            "romaji": "Shūi kara utomarete iru.",
+            "german": "Er wird von seiner Umgebung gemieden."
+          }
+        ],
+        "meaning": "meiden, sich entfremden",
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "疎む bedeutet, jemanden als lästig empfinden und deshalb meiden oder auf Distanz halten. Fast immer steht es im Passiv: 周囲から疎まれる, 上司に疎まれる „beim Chef unbeliebt sein“. Schriftsprachlich; häufiger ist das Adjektiv 疎ましい „lästig, unangenehm“. Ähnlich sind 嫌う „nicht mögen“ (allgemeiner) und 避ける „meiden“; 疎む betont die kühle Distanz. Verwandt: 疎い „sich nicht auskennen“, 疎遠 „entfremdet“.",
+        "examples": [
+          {
+            "japanese": "周囲から疎まれている。",
+            "romaji": "Shūi kara utomarete iru.",
+            "german": "Er wird von seiner Umgebung gemieden."
+          },
+          {
+            "japanese": "彼は正論ばかり言うので、上司に疎まれていた。",
+            "romaji": "Kare wa seiron bakari iu node, jōshi ni utomarete ita.",
+            "german": "Weil er ständig unbequeme Wahrheiten aussprach, war er beim Chef unbeliebt."
+          },
+          {
+            "japanese": "才能のある新人を疎む先輩もいる。",
+            "romaji": "Sainō no aru shinjin o utomu senpai mo iru.",
+            "german": "Manche älteren Kollegen schneiden talentierte Neulinge."
+          }
+        ],
+        "meaning": "meiden, ablehnen, auf Distanz halten",
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66486901",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "疎む",
+              "reading": "うとむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 疎む/うとむ \"meiden, sich entfremden\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1396650 sense 1, godan transitive: to shun, to avoid, to distance oneself from Pitch: Verified [2] via exact UniDic row. 疎む bedeutet, jemanden als lästig empfinden und deshalb meiden oder auf Distanz halten. Fast immer steht es im Passiv: 周囲から疎まれる, 上司に疎まれる „beim Chef unbeliebt sein“. Schriftsprachlich; häufiger ist das Adjektiv 疎ましい „lästig, unangenehm“. Ähnlich sind 嫌う „nicht mögen“ (allgemeiner) und 避ける „meiden“; 疎む betont die kühle Distanz. Verwandt: 疎い „sich nicht auskennen“, 疎遠 „entfremdet“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1396650; spelling=疎む; reading=うとむ",
+          "selected": {
+            "sequence": "1396650",
+            "spelling": "疎む",
+            "reading": "うとむ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'mu' ending",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to shun",
+                  "to avoid",
+                  "to ostracize",
+                  "to neglect",
+                  "to distance oneself from",
+                  "to give the hard shoulder"
+                ],
+                "notes": [
+                  "usu. in the passive"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1396650 sense 1, godan transitive: to shun, to avoid, to distance oneself from"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@66486901",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 2. Rejected for this role: 疎む/ウトム; lemma 疎む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 2.",
+            "match": {
+              "word": "疎む",
+              "reading": "うとむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 疎む/うとむ \"meiden, sich entfremden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "meiden, ablehnen, auf Distanz halten. JMdict 1396650 sense 1, godan transitive: to shun, to avoid, to distance oneself from",
+        "japanese": "周囲から疎まれている。 / 彼は正論ばかり言うので、上司に疎まれていた。 / 才能のある新人を疎む先輩もいる。",
+        "romanization": "utomu; Shūi kara utomarete iru. / Kare wa seiron bakari iu node, jōshi ni utomarete ita. / Sainō no aru shinjin o utomu senpai mo iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er wird von seiner Umgebung gemieden. / Weil er ständig unbequeme Wahrheiten aussprach, war er beim Chef unbeliebt. / Manche älteren Kollegen schneiden talentierte Neulinge.",
+        "contexts": [
+          "Social outsider",
+          "Outspoken employee",
+          "Jealous seniors"
+        ],
+        "lexical": "JMdict 1396650 sense 1, godan transitive: to shun, to avoid, to distance oneself from",
+        "register": "written / literary",
+        "transitivity": "transitive (X を疎む); mostly passive 疎まれる",
+        "conjugation": "godan -mu (疎む → 疎んで, 疎まない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2689 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Social outsider; Outspoken employee; Jealous seniors), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a291d5350ab5db8b4ce499da5a12a4d174b48b035b1148711687f4b17db12ea7",
+        "approvalHash": "4d12e5d46f1807372127381567f4cadc28a6b5d083c25f0b66290ec316258647"
+      }
+    },
+    {
+      "id": "vocab-n1:2690",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2690",
+      "state": "accepted",
+      "predecessorHash": "71ffde7930c647b7736a82686e4a1617633715f7386dfbae711ae897abb86ec4",
+      "originalHash": "71ffde7930c647b7736a82686e4a1617633715f7386dfbae711ae897abb86ec4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "人権を蹂躙する行為は許されない。",
+            "romaji": "Jinken o jūrin suru kōi wa yurusarenai.",
+            "german": "Handlungen, die die Menschenrechte mit Füßen treten, sind unzulässig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "蹂躙 heißt wörtlich „mit Füßen niedertrampeln“ und bezeichnet das gewaltsame Missachten von Rechten oder das Überrennen eines Landes. Typisch sind 人権を蹂躙する, 主権を蹂躙する, 国土が蹂躙される. Stark schriftsprachlich und emotional, häufig in Nachrichten und Geschichtsdarstellungen; im Sport auch übertreibend für ein vernichtendes Überrollen. Neutraler sind 侵害する „verletzen“ (bei Rechten) und 踏みにじる (gleiches Bild, etwas alltäglicher).",
+        "examples": [
+          {
+            "japanese": "人権を蹂躙する行為は許されない。",
+            "romaji": "Jinken o jūrin suru kōi wa yurusarenai.",
+            "german": "Handlungen, die die Menschenrechte mit Füßen treten, sind unzulässig."
+          },
+          {
+            "japanese": "敵の軍隊に国土を蹂躙された。",
+            "romaji": "Teki no guntai ni kokudo o jūrin sareta.",
+            "german": "Das Land wurde von feindlichen Truppen überrannt."
+          },
+          {
+            "japanese": "強豪チームは格下の相手を一方的に蹂躙した。",
+            "romaji": "Kyōgō chīmu wa kakushita no aite o ippōteki ni jūrin shita.",
+            "german": "Das Spitzenteam überrollte den schwächeren Gegner regelrecht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1573300 sense 1, noun / suru verb: trampling down, overrunning, violation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 蹂躙 heißt wörtlich „mit Füßen niedertrampeln“ und bezeichnet das gewaltsame Missachten von Rechten oder das Überrennen eines Landes. Typisch sind 人権を蹂躙する, 主権を蹂躙する, 国土が蹂躙される. Stark schriftsprachlich und emotional, häufig in Nachrichten und Geschichtsdarstellungen; im Sport auch übertreibend für ein vernichtendes Überrollen. Neutraler sind 侵害する „verletzen“ (bei Rechten) und 踏みにじる (gleiches Bild, etwas alltäglicher). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1573300; spelling=蹂躙する; reading=じゅうりんする",
+          "finding": "JMdict 1573300 sense 1, noun / suru verb: trampling down, overrunning, violation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 蹂躙する/じゅうりんする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 蹂躙する/じゅうりんする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%B9%82%E8%BA%99%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 蹂躙する/じゅうりんする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 19f0bdc926b99608f9028cd88863c7d974279815eba96c72478e1ee3c875f30d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%B9%82%E8%BA%99%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 蹂躙する/じゅうりんする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "mit Füßen treten, verletzen. JMdict 1573300 sense 1, noun / suru verb: trampling down, overrunning, violation",
+        "japanese": "人権を蹂躙する行為は許されない。 / 敵の軍隊に国土を蹂躙された。 / 強豪チームは格下の相手を一方的に蹂躙した。",
+        "romanization": "jūrin suru; Jinken o jūrin suru kōi wa yurusarenai. / Teki no guntai ni kokudo o jūrin sareta. / Kyōgō chīmu wa kakushita no aite o ippōteki ni jūrin shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Handlungen, die die Menschenrechte mit Füßen treten, sind unzulässig. / Das Land wurde von feindlichen Truppen überrannt. / Das Spitzenteam überrollte den schwächeren Gegner regelrecht.",
+        "contexts": [
+          "Human rights violations",
+          "Wartime invasion",
+          "One-sided match"
+        ],
+        "lexical": "JMdict 1573300 sense 1, noun / suru verb: trampling down, overrunning, violation",
+        "register": "written / emotive",
+        "transitivity": "transitive (X を蹂躙する); passive 蹂躙される",
+        "conjugation": "suru verb (蹂躙する → 蹂躙して, 蹂躙しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2690 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Human rights violations; Wartime invasion; One-sided match), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "240107801a4c0a4cf36aac23f2de3dea39a25cc3d9f63122fe39302f886cec33",
+        "approvalHash": "0acd85417b5fab7e4a4dcab5f4d2aa3dd73254bd84e8ef246a7a5d8caa7b0eb5"
+      }
+    },
+    {
+      "id": "vocab-n1:2691",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2691",
+      "state": "accepted",
+      "predecessorHash": "e4ed283998b24296258c4fb3a70d6953fe5e47f72fc9cfc46a4a5632fed1a1e1",
+      "originalHash": "e4ed283998b24296258c4fb3a70d6953fe5e47f72fc9cfc46a4a5632fed1a1e1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ネット上で詐欺が横行している。",
+            "romaji": "Netto-jō de sagi ga ōkō shite iru.",
+            "german": "Im Internet grassiert der Betrug."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "横行 bedeutet, dass sich etwas Schlechtes – Betrug, Korruption, Gewalt – ungehindert breitmacht. Muster: 〜が横行する, meist im Zustand 横行している: 詐欺が横行する, 不正が横行する, 違法駐車が横行する. Schriftsprachlich, typisch für Nachrichten und immer negativ. Anders als 流行する „in Mode sein“ (neutral) oder 蔓延する (Krankheit, Missstand) betont 横行 die Dreistigkeit, mit der etwas ungestraft geschieht.",
+        "examples": [
+          {
+            "japanese": "ネット上で詐欺が横行している。",
+            "romaji": "Netto-jō de sagi ga ōkō shite iru.",
+            "german": "Im Internet grassiert der Betrug."
+          },
+          {
+            "japanese": "この地域では違法駐車が横行している。",
+            "romaji": "Kono chiiki de wa ihō chūsha ga ōkō shite iru.",
+            "german": "In dieser Gegend ist Falschparken an der Tagesordnung."
+          },
+          {
+            "japanese": "当時は役人の汚職が横行していた。",
+            "romaji": "Tōji wa yakunin no oshoku ga ōkō shite ita.",
+            "german": "Damals war Korruption unter Beamten weit verbreitet."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1180750 sense 1, noun / suru verb: being rampant, being widespread Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 横行 bedeutet, dass sich etwas Schlechtes – Betrug, Korruption, Gewalt – ungehindert breitmacht. Muster: 〜が横行する, meist im Zustand 横行している: 詐欺が横行する, 不正が横行する, 違法駐車が横行する. Schriftsprachlich, typisch für Nachrichten und immer negativ. Anders als 流行する „in Mode sein“ (neutral) oder 蔓延する (Krankheit, Missstand) betont 横行 die Dreistigkeit, mit der etwas ungestraft geschieht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1180750; spelling=横行する; reading=おうこうする",
+          "finding": "JMdict 1180750 sense 1, noun / suru verb: being rampant, being widespread"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 横行する/おうこうする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 横行する/おうこうする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A8%AA%E8%A1%8C%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 横行する/おうこうする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 cd88b4892b1eccd18f0fe733fa79a8492f18d37f933a37b530b37a48934297a3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%A8%AA%E8%A1%8C%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 横行する/おうこうする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "um sich greifen, grassieren. JMdict 1180750 sense 1, noun / suru verb: being rampant, being widespread",
+        "japanese": "ネット上で詐欺が横行している。 / この地域では違法駐車が横行している。 / 当時は役人の汚職が横行していた。",
+        "romanization": "ōkō suru; Netto-jō de sagi ga ōkō shite iru. / Kono chiiki de wa ihō chūsha ga ōkō shite iru. / Tōji wa yakunin no oshoku ga ōkō shite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Internet grassiert der Betrug. / In dieser Gegend ist Falschparken an der Tagesordnung. / Damals war Korruption unter Beamten weit verbreitet.",
+        "contexts": [
+          "Online fraud",
+          "Illegal parking",
+          "Historical corruption"
+        ],
+        "lexical": "JMdict 1180750 sense 1, noun / suru verb: being rampant, being widespread",
+        "register": "written / formal",
+        "transitivity": "intransitive (X が横行する)",
+        "conjugation": "suru verb (横行する → 横行して, 横行しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2691 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Online fraud; Illegal parking; Historical corruption), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "9de64418f1eeca306c611abd7eb90c9f52cd6434753d7d047f9764cba3bc57cc",
+        "approvalHash": "ef7de93b6963b5d515e60ff53e25435b4c02251df6424ed7125b5134702f0616"
+      }
+    },
+    {
+      "id": "vocab-n1:2692",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2692",
+      "state": "accepted",
+      "predecessorHash": "b24800435799bb63cc458c2711154b5c81067ed5a42e6d6be7b947a0c38620ca",
+      "originalHash": "b24800435799bb63cc458c2711154b5c81067ed5a42e6d6be7b947a0c38620ca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この概念は多くの意味を包含している。",
+            "romaji": "Kono gainen wa ōku no imi o hōgan shite iru.",
+            "german": "Dieses Konzept beinhaltet viele Bedeutungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "包含 bedeutet, dass etwas andere Dinge als Bestandteil in sich einschließt. Muster: AはBを包含する, 〜を包含した概念. Sehr schriftsprachlich, typisch für Philosophie, Recht und Wissenschaft (in der Mathematik 包含関係 „Inklusionsbeziehung“). Im Alltag sagt man 含む; 包括 dagegen heißt „umfassend zusammenfassen“.",
+        "examples": [
+          {
+            "japanese": "この概念は多くの意味を包含している。",
+            "romaji": "Kono gainen wa ōku no imi o hōgan shite iru.",
+            "german": "Dieses Konzept beinhaltet viele Bedeutungen."
+          },
+          {
+            "japanese": "この計画は多くのリスクを包含している。",
+            "romaji": "Kono keikaku wa ōku no risuku o hōgan shite iru.",
+            "german": "Dieser Plan birgt viele Risiken."
+          },
+          {
+            "japanese": "新しい法律は、オンライン取引も規制の対象として包含する。",
+            "romaji": "Atarashii hōritsu wa, onrain torihiki mo kisei no taishō to shite hōgan suru.",
+            "german": "Das neue Gesetz bezieht auch Online-Geschäfte in die Regulierung ein."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1515470 sense 1, noun / suru verb: inclusion, containing, covering Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 包含 bedeutet, dass etwas andere Dinge als Bestandteil in sich einschließt. Muster: AはBを包含する, 〜を包含した概念. Sehr schriftsprachlich, typisch für Philosophie, Recht und Wissenschaft (in der Mathematik 包含関係 „Inklusionsbeziehung“). Im Alltag sagt man 含む; 包括 dagegen heißt „umfassend zusammenfassen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1515470; spelling=包含する; reading=ほうがんする",
+          "finding": "JMdict 1515470 sense 1, noun / suru verb: inclusion, containing, covering"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 包含する/ほうがんする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 包含する/ほうがんする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8C%85%E5%90%AB%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 包含する/ほうがんする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 52b8f02684a3ef9cea32a43bab83e7d534ab1cb5283db842bdb7d679aea9dda3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8C%85%E5%90%AB%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 包含する/ほうがんする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "beinhalten, umfassen. JMdict 1515470 sense 1, noun / suru verb: inclusion, containing, covering",
+        "japanese": "この概念は多くの意味を包含している。 / この計画は多くのリスクを包含している。 / 新しい法律は、オンライン取引も規制の対象として包含する。",
+        "romanization": "hōgan suru; Kono gainen wa ōku no imi o hōgan shite iru. / Kono keikaku wa ōku no risuku o hōgan shite iru. / Atarashii hōritsu wa, onrain torihiki mo kisei no taishō to shite hōgan suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dieses Konzept beinhaltet viele Bedeutungen. / Dieser Plan birgt viele Risiken. / Das neue Gesetz bezieht auch Online-Geschäfte in die Regulierung ein.",
+        "contexts": [
+          "Abstract concept",
+          "Risky project",
+          "Scope of a new law"
+        ],
+        "lexical": "JMdict 1515470 sense 1, noun / suru verb: inclusion, containing, covering",
+        "register": "written / academic",
+        "transitivity": "transitive (X を包含する)",
+        "conjugation": "suru verb (包含する → 包含して, 包含しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2692 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Abstract concept; Risky project; Scope of a new law), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a7ff8681e68f44f95693a796dc3b93f56bf07f78f6393f9f6331932402d7c0d7",
+        "approvalHash": "57861861c583974bf29eb8d574120c7bec3979c037c67b71cd230601d55cdde4"
+      }
+    },
+    {
+      "id": "vocab-n1:2693",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2693",
+      "state": "accepted",
+      "predecessorHash": "fd97f5026f915fc1b307537ab1a5d598fb2cf3ebc4aff3d0075da825f7cc8f40",
+      "originalHash": "fd97f5026f915fc1b307537ab1a5d598fb2cf3ebc4aff3d0075da825f7cc8f40",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "古い制度を廃する。",
+            "romaji": "Furui seido o hai suru.",
+            "german": "Man schafft das alte System ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "廃する bedeutet, eine bestehende Einrichtung, Regel oder Gewohnheit abzuschaffen: 制度を廃する, 虚礼を廃する „leere Förmlichkeiten abschaffen“. Historisch heißt es auch „einen Herrscher absetzen“. Schriftsprachlich; üblicher sind 廃止する (Gesetze, Einrichtungen) und やめる. Nicht verwechseln mit dem gleich gelesenen 排する „ausschließen, beiseiteschieben“ (私情を排する).",
+        "examples": [
+          {
+            "japanese": "古い制度を廃する。",
+            "romaji": "Furui seido o hai suru.",
+            "german": "Man schafft das alte System ab."
+          },
+          {
+            "japanese": "年賀状などの虚礼を廃する会社が増えている。",
+            "romaji": "Nengajō nado no kyorei o hai suru kaisha ga fuete iru.",
+            "german": "Immer mehr Firmen verzichten auf leere Höflichkeitsrituale wie Neujahrskarten."
+          },
+          {
+            "japanese": "将軍は家臣たちによって廃された。",
+            "romaji": "Shōgun wa kashintachi ni yotte haisareta.",
+            "german": "Der Shogun wurde von seinen Gefolgsleuten abgesetzt."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211109624",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+            "match": {
+              "word": "廃する",
+              "reading": "はいする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 廃する/はいする \"abschaffen, aufheben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2065400 senses 1–2, suru verb (special class): to abolish, to repeal; to depose Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 廃する bedeutet, eine bestehende Einrichtung, Regel oder Gewohnheit abzuschaffen: 制度を廃する, 虚礼を廃する „leere Förmlichkeiten abschaffen“. Historisch heißt es auch „einen Herrscher absetzen“. Schriftsprachlich; üblicher sind 廃止する (Gesetze, Einrichtungen) und やめる. Nicht verwechseln mit dem gleich gelesenen 排する „ausschließen, beiseiteschieben“ (私情を排する). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2065400; spelling=廃する; reading=はいする",
+          "selected": {
+            "sequence": "2065400",
+            "spelling": "廃する",
+            "reading": "はいする",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "suru verb - special class"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to abolish",
+                  "to abandon",
+                  "to repeal",
+                  "to discontinue"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "suru verb - special class"
+                ],
+                "misc": [],
+                "gloss": [
+                  "to dethrone",
+                  "to depose"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2065400 senses 1–2, suru verb (special class): to abolish, to repeal; to depose"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211109624",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 廃する/ハイスル; lemma 廃する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+            "match": {
+              "word": "廃する",
+              "reading": "はいする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 廃する/はいする \"abschaffen, aufheben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "abschaffen, aufheben. JMdict 2065400 senses 1–2, suru verb (special class): to abolish, to repeal; to depose",
+        "japanese": "古い制度を廃する。 / 年賀状などの虚礼を廃する会社が増えている。 / 将軍は家臣たちによって廃された。",
+        "romanization": "hai suru; Furui seido o hai suru. / Nengajō nado no kyorei o hai suru kaisha ga fuete iru. / Shōgun wa kashintachi ni yotte haisareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man schafft das alte System ab. / Immer mehr Firmen verzichten auf leere Höflichkeitsrituale wie Neujahrskarten. / Der Shogun wurde von seinen Gefolgsleuten abgesetzt.",
+        "contexts": [
+          "Abolishing an old system",
+          "Dropping empty formalities",
+          "Deposing a ruler"
+        ],
+        "lexical": "JMdict 2065400 senses 1–2, suru verb (special class): to abolish, to repeal; to depose",
+        "register": "written / formal",
+        "transitivity": "transitive (X を廃する)",
+        "conjugation": "suru verb, special class (廃する → 廃して, 廃さない / 廃しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2693 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Abolishing an old system; Dropping empty formalities; Deposing a ruler), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "d1a49718912525048ee1f497b0b1cc7842c6c4cc49c8106fe1322c1900303e36",
+        "approvalHash": "80bd892bea71a9d9234c460c9125a1bc071b8deeb15e38f1d6ec23878a2c263b"
+      }
+    },
+    {
+      "id": "vocab-n1:2694",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2694",
+      "state": "accepted",
+      "predecessorHash": "76368bf0081e891ad7592dae3c2128ebe35e27c1aaa8d1ff0653a83b377fe817",
+      "originalHash": "76368bf0081e891ad7592dae3c2128ebe35e27c1aaa8d1ff0653a83b377fe817",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "相手の動きを牽制する。",
+            "romaji": "Aite no ugoki o kensei suru.",
+            "german": "Man hält die Bewegungen des Gegners in Schach."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "牽制 bedeutet, einen Gegner durch Drohgebärden, Äußerungen oder Manöver davon abzuhalten, frei zu handeln. Typisch sind 相手を牽制する, 〜の動きを牽制する, 互いに牽制し合う; im Baseball heißt 牽制球 der Wurf zur Base, der den Läufer festhält. Häufig in Politik-, Wirtschafts- und Sportberichten; Zeitungen schreiben oft けん制. Anders als 阻止する „verhindern“ zielt 牽制 nur darauf, den anderen in Schach zu halten.",
+        "examples": [
+          {
+            "japanese": "相手の動きを牽制する。",
+            "romaji": "Aite no ugoki o kensei suru.",
+            "german": "Man hält die Bewegungen des Gegners in Schach."
+          },
+          {
+            "japanese": "ピッチャーは一塁ランナーを何度も牽制した。",
+            "romaji": "Pitchā wa ichirui rannā o nando mo kensei shita.",
+            "german": "Der Pitcher warf mehrmals zur ersten Base, um den Läufer in Schach zu halten."
+          },
+          {
+            "japanese": "首相の発言は、増税論を牽制する狙いがあるとみられる。",
+            "romaji": "Shushō no hatsugen wa, zōzeiron o kensei suru nerai ga aru to mirareru.",
+            "german": "Mit seiner Äußerung will der Premierminister offenbar Forderungen nach Steuererhöhungen bremsen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1258290 sense 1, noun / suru verb: check, keeping in check, restraint Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 牽制 bedeutet, einen Gegner durch Drohgebärden, Äußerungen oder Manöver davon abzuhalten, frei zu handeln. Typisch sind 相手を牽制する, 〜の動きを牽制する, 互いに牽制し合う; im Baseball heißt 牽制球 der Wurf zur Base, der den Läufer festhält. Häufig in Politik-, Wirtschafts- und Sportberichten; Zeitungen schreiben oft けん制. Anders als 阻止する „verhindern“ zielt 牽制 nur darauf, den anderen in Schach zu halten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1258290; spelling=牽制する; reading=けんせいする",
+          "finding": "JMdict 1258290 sense 1, noun / suru verb: check, keeping in check, restraint"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 牽制する/けんせいする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 牽制する/けんせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%89%BD%E5%88%B6%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 牽制する/けんせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 5754bf409cca0d479dd5ed7e6fe21c94b7abf1797501a502005c7d3d9fc91ec7",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%89%BD%E5%88%B6%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 牽制する/けんせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "in Schach halten, hemmen. JMdict 1258290 sense 1, noun / suru verb: check, keeping in check, restraint",
+        "japanese": "相手の動きを牽制する。 / ピッチャーは一塁ランナーを何度も牽制した。 / 首相の発言は、増税論を牽制する狙いがあるとみられる。",
+        "romanization": "kensei suru; Aite no ugoki o kensei suru. / Pitchā wa ichirui rannā o nando mo kensei shita. / Shushō no hatsugen wa, zōzeiron o kensei suru nerai ga aru to mirareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man hält die Bewegungen des Gegners in Schach. / Der Pitcher warf mehrmals zur ersten Base, um den Läufer in Schach zu halten. / Mit seiner Äußerung will der Premierminister offenbar Forderungen nach Steuererhöhungen bremsen.",
+        "contexts": [
+          "Keeping an opponent in check",
+          "Baseball pick-off throw",
+          "Political warning shot"
+        ],
+        "lexical": "JMdict 1258290 sense 1, noun / suru verb: check, keeping in check, restraint",
+        "register": "written / formal",
+        "transitivity": "transitive (X を牽制する)",
+        "conjugation": "suru verb (牽制する → 牽制して, 牽制しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2694 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Keeping an opponent in check; Baseball pick-off throw; Political warning shot), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6250319d57827b32d306b86cdf9ba3a7cfebe995f8b6d3ea65584fc55e84daf1",
+        "approvalHash": "797976729d8947b45704a24adf54d8fb500b6f4760b92ba5e6cbe9007600c216"
+      }
+    },
+    {
+      "id": "vocab-n1:2696",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2696",
+      "state": "accepted",
+      "predecessorHash": "66a53bf63e88041d7d2e295921dd4cf97944d8fea71a926015e72df6787f279b",
+      "originalHash": "66a53bf63e88041d7d2e295921dd4cf97944d8fea71a926015e72df6787f279b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "犯罪を抑止する対策が必要だ。",
+            "romaji": "Hanzai o yokushi suru taisaku ga hitsuyō da.",
+            "german": "Maßnahmen zur Abschreckung von Verbrechen sind nötig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "抑止 bedeutet, etwas Unerwünschtes – Verbrechen, Krieg, Missbrauch – durch Abschreckung oder Gegenmaßnahmen im Voraus zu verhindern. Typisch sind 犯罪を抑止する, 戦争を抑止する und sehr häufig das Substantiv 抑止力 „Abschreckungswirkung“ (核抑止 „nukleare Abschreckung“). Schriftsprachlich, in Politik und Sicherheitsdebatten. Anders als 抑制 „eindämmen, drosseln“ (Kosten, Appetit) betont 抑止 das Verhindern durch Abschreckung.",
+        "examples": [
+          {
+            "japanese": "犯罪を抑止する対策が必要だ。",
+            "romaji": "Hanzai o yokushi suru taisaku ga hitsuyō da.",
+            "german": "Maßnahmen zur Abschreckung von Verbrechen sind nötig."
+          },
+          {
+            "japanese": "核兵器による抑止力の是非が議論されている。",
+            "romaji": "Kakuheiki ni yoru yokushiryoku no zehi ga giron sarete iru.",
+            "german": "Über Sinn und Unsinn nuklearer Abschreckung wird debattiert."
+          },
+          {
+            "japanese": "罰則の強化で、飲酒運転を抑止できると考えられている。",
+            "romaji": "Bassoku no kyōka de, inshu unten o yokushi dekiru to kangaerarete iru.",
+            "german": "Man geht davon aus, dass härtere Strafen von Trunkenheit am Steuer abschrecken."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1547280 sense 1, noun / suru verb: keeping in check, deterrence, restraint Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 抑止 bedeutet, etwas Unerwünschtes – Verbrechen, Krieg, Missbrauch – durch Abschreckung oder Gegenmaßnahmen im Voraus zu verhindern. Typisch sind 犯罪を抑止する, 戦争を抑止する und sehr häufig das Substantiv 抑止力 „Abschreckungswirkung“ (核抑止 „nukleare Abschreckung“). Schriftsprachlich, in Politik und Sicherheitsdebatten. Anders als 抑制 „eindämmen, drosseln“ (Kosten, Appetit) betont 抑止 das Verhindern durch Abschreckung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1547280; spelling=抑止する; reading=よくしする",
+          "finding": "JMdict 1547280 sense 1, noun / suru verb: keeping in check, deterrence, restraint"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 抑止する/よくしする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 抑止する/よくしする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8A%91%E6%AD%A2%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 抑止する/よくしする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 65cfda3731a4c41050941856cb47bbf749906cbd16b613977b4aa474ffddf9a6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8A%91%E6%AD%A2%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 抑止する/よくしする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "abschrecken, unterdrücken. JMdict 1547280 sense 1, noun / suru verb: keeping in check, deterrence, restraint",
+        "japanese": "犯罪を抑止する対策が必要だ。 / 核兵器による抑止力の是非が議論されている。 / 罰則の強化で、飲酒運転を抑止できると考えられている。",
+        "romanization": "yokushi suru; Hanzai o yokushi suru taisaku ga hitsuyō da. / Kakuheiki ni yoru yokushiryoku no zehi ga giron sarete iru. / Bassoku no kyōka de, inshu unten o yokushi dekiru to kangaerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Maßnahmen zur Abschreckung von Verbrechen sind nötig. / Über Sinn und Unsinn nuklearer Abschreckung wird debattiert. / Man geht davon aus, dass härtere Strafen von Trunkenheit am Steuer abschrecken.",
+        "contexts": [
+          "Crime prevention",
+          "Nuclear deterrence debate",
+          "Drink-driving penalties"
+        ],
+        "lexical": "JMdict 1547280 sense 1, noun / suru verb: keeping in check, deterrence, restraint",
+        "register": "written / formal",
+        "transitivity": "transitive (X を抑止する)",
+        "conjugation": "suru verb (抑止する → 抑止して, 抑止しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2696 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Crime prevention; Nuclear deterrence debate; Drink-driving penalties), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cdafcb7654650a51ef6de05ad7f43f6a5ef911f4afe580d1d4d615f182a8e9b3",
+        "approvalHash": "323c2d5660a84ee791e1afd8f2f4c5f3ea1eaf2f24e362d87b2dd39c09b859eb"
+      }
+    },
+    {
+      "id": "vocab-n1:2697",
+      "revisionId": "215j-n1-enrichment-vocab-n1-2697",
+      "state": "accepted",
+      "predecessorHash": "5627ced4e07342eae00c0d2698405bd2a83ab6c50d02b4d1041d75b65b85d501",
+      "originalHash": "5627ced4e07342eae00c0d2698405bd2a83ab6c50d02b4d1041d75b65b85d501",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "細胞が急速に増殖する。",
+            "romaji": "Saibō ga kyūsoku ni zōshoku suru.",
+            "german": "Die Zellen vermehren sich schnell."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "増殖 bedeutet, dass sich Zellen oder Lebewesen durch Teilung bzw. Fortpflanzung vermehren: 細胞が増殖する, 細菌が増殖する, ウイルスが増殖する. Übertragen und oft ironisch auch für Dinge, die sich unkontrolliert ausbreiten (空き家が増殖する). Intransitiv; fachsprachlich in Biologie und Medizin, sonst schriftsprachlich. Anders als 増える „zunehmen“ betont 増殖 das Sich-selbst-Vermehren; 繁殖 bezieht sich eher auf die Fortpflanzung von Tieren und Pflanzen.",
+        "examples": [
+          {
+            "japanese": "細胞が急速に増殖する。",
+            "romaji": "Saibō ga kyūsoku ni zōshoku suru.",
+            "german": "Die Zellen vermehren sich schnell."
+          },
+          {
+            "japanese": "夏場は食べ物の中で細菌が増殖しやすい。",
+            "romaji": "Natsuba wa tabemono no naka de saikin ga zōshoku shiyasui.",
+            "german": "Im Sommer vermehren sich Bakterien in Lebensmitteln besonders leicht."
+          },
+          {
+            "japanese": "駅前にコンビニが増殖して、今では五軒もある。",
+            "romaji": "Ekimae ni konbini ga zōshoku shite, ima de wa go-ken mo aru.",
+            "german": "Vor dem Bahnhof sind die Convenience-Stores wie Pilze aus dem Boden geschossen – inzwischen sind es fünf."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1403250 sense 1, noun / suru verb: increase, multiplication, proliferation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 増殖 bedeutet, dass sich Zellen oder Lebewesen durch Teilung bzw. Fortpflanzung vermehren: 細胞が増殖する, 細菌が増殖する, ウイルスが増殖する. Übertragen und oft ironisch auch für Dinge, die sich unkontrolliert ausbreiten (空き家が増殖する). Intransitiv; fachsprachlich in Biologie und Medizin, sonst schriftsprachlich. Anders als 増える „zunehmen“ betont 増殖 das Sich-selbst-Vermehren; 繁殖 bezieht sich eher auf die Fortpflanzung von Tieren und Pflanzen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1403250; spelling=増殖する; reading=ぞうしょくする",
+          "finding": "JMdict 1403250 sense 1, noun / suru verb: increase, multiplication, proliferation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 増殖する/ぞうしょくする scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 増殖する/ぞうしょくする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A2%97%E6%AE%96%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 増殖する/ぞうしょくする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 87202774d83cf835d3af733173589a3a9da19917990d990feafcbffd51c70b3d",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A2%97%E6%AE%96%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 増殖する/ぞうしょくする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich vermehren, wuchern. JMdict 1403250 sense 1, noun / suru verb: increase, multiplication, proliferation",
+        "japanese": "細胞が急速に増殖する。 / 夏場は食べ物の中で細菌が増殖しやすい。 / 駅前にコンビニが増殖して、今では五軒もある。",
+        "romanization": "zōshoku suru; Saibō ga kyūsoku ni zōshoku suru. / Natsuba wa tabemono no naka de saikin ga zōshoku shiyasui. / Ekimae ni konbini ga zōshoku shite, ima de wa go-ken mo aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zellen vermehren sich schnell. / Im Sommer vermehren sich Bakterien in Lebensmitteln besonders leicht. / Vor dem Bahnhof sind die Convenience-Stores wie Pilze aus dem Boden geschossen – inzwischen sind es fünf.",
+        "contexts": [
+          "Cell biology",
+          "Summer food safety",
+          "Too many convenience stores"
+        ],
+        "lexical": "JMdict 1403250 sense 1, noun / suru verb: increase, multiplication, proliferation",
+        "register": "written / technical",
+        "transitivity": "intransitive (X が増殖する)",
+        "conjugation": "suru verb (増殖する → 増殖して, 増殖しない)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-215",
+        "finding": "Author reread the exact final card vocab-n1:2697 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cell biology; Summer food safety; Too many convenience stores), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "a6bab40d7216323e3d596380bde2a40d3ec42b56094e6a4d69d14c2bfa90bcfd",
+        "approvalHash": "69bd0143e8d0e7b5f9b057aef31bc7402f353eeda7f71f31967205413d4a10d2"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
