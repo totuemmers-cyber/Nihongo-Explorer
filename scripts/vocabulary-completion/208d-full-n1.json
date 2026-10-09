@@ -1,0 +1,3292 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:674",
+      "revisionId": "208d-n1-enrichment-vocab-n1-674",
+      "state": "accepted",
+      "predecessorHash": "f02e287adde847865d9c973bb81eaf6d2abe318a12f4e6bec449ebc553fd5ae9",
+      "originalHash": "f02e287adde847865d9c973bb81eaf6d2abe318a12f4e6bec449ebc553fd5ae9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "買掛金の支払期限を延長して資金繰りに余裕を持たせる。",
+            "romaji": "Kaikakekin no shiharai kigen wo enchō shite shikinguri ni yoyū wo motaseru.",
+            "german": "Die Zahlungsfrist für Verbindlichkeiten verlängern und der Liquidität Spielraum geben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "買掛金 ist das Gegenstück zu 売掛金: Beträge, die ein Unternehmen seinen Lieferanten nach einem Einkauf auf Ziel (掛けで仕入れる) noch schuldet – Verbindlichkeiten aus Lieferungen und Leistungen. Typisch: 買掛金を支払う/決済する, 買掛金の支払期限, 買掛金が膨らむ. Andere offene Zahlungen, etwa für Anlagen, heißen 未払金, Bankkredite 借入金. Register: Rechnungswesen.",
+        "examples": [
+          {
+            "japanese": "買掛金の支払期限を延長して資金繰りに余裕を持たせる。",
+            "romaji": "Kaikakekin no shiharai kigen wo enchō shite shikinguri ni yoyū wo motaseru.",
+            "german": "Die Zahlungsfrist für Verbindlichkeiten verlängern und der Liquidität Spielraum geben."
+          },
+          {
+            "japanese": "うちでは、月末にまとめて買掛金を支払っている。",
+            "romaji": "Uchi de wa, getsumatsu ni matomete kaikakekin o shiharatte iru.",
+            "german": "Wir begleichen unsere Lieferantenrechnungen gesammelt am Monatsende."
+          },
+          {
+            "japanese": "仕入れが増えたため、貸借対照表の買掛金も膨らんだ。",
+            "romaji": "Shiire ga fueta tame, taishaku taishōhyō no kaikakekin mo fukuranda.",
+            "german": "Weil mehr eingekauft wurde, sind auch die Verbindlichkeiten in der Bilanz gestiegen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1473770 sense 1, noun: accounts payable Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 買掛金 ist das Gegenstück zu 売掛金: Beträge, die ein Unternehmen seinen Lieferanten nach einem Einkauf auf Ziel (掛けで仕入れる) noch schuldet – Verbindlichkeiten aus Lieferungen und Leistungen. Typisch: 買掛金を支払う/決済する, 買掛金の支払期限, 買掛金が膨らむ. Andere offene Zahlungen, etwa für Anlagen, heißen 未払金, Bankkredite 借入金. Register: Rechnungswesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1473770; spelling=買掛金; reading=かいかけきん",
+          "selected": {
+            "sequence": "1473770",
+            "spelling": "買掛金",
+            "reading": "かいかけきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "accounts payable"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1473770 sense 1, noun: accounts payable"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 買掛金/かいかけきん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%B2%B7%E6%8E%9B%E9%87%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 買掛金/かいかけきん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verbindlichkeiten aus Lieferungen und Leistungen. JMdict 1473770 sense 1, noun: accounts payable",
+        "japanese": "買掛金の支払期限を延長して資金繰りに余裕を持たせる。 / うちでは、月末にまとめて買掛金を支払っている。 / 仕入れが増えたため、貸借対照表の買掛金も膨らんだ。",
+        "romanization": "kaikakekin; Kaikakekin no shiharai kigen wo enchō shite shikinguri ni yoyū wo motaseru. / Uchi de wa, getsumatsu ni matomete kaikakekin o shiharatte iru. / Shiire ga fueta tame, taishaku taishōhyō no kaikakekin mo fukuranda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zahlungsfrist für Verbindlichkeiten verlängern und der Liquidität Spielraum geben. / Wir begleichen unsere Lieferantenrechnungen gesammelt am Monatsende. / Weil mehr eingekauft wurde, sind auch die Verbindlichkeiten in der Bilanz gestiegen.",
+        "contexts": [
+          "Negotiating payment terms",
+          "Monthly payment routine",
+          "Reading the balance sheet"
+        ],
+        "lexical": "JMdict 1473770 sense 1, noun: accounts payable",
+        "register": "accounting / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:674 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Negotiating payment terms; Monthly payment routine; Reading the balance sheet), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3eac0a6f2a2c15ef88aa25560c6c0f511b9e7e8baee7d6dd1ea039a68a6dbfc9",
+        "approvalHash": "6e741c646c3f9b9fbd3aa11e66483ac146342a9d9fc57306ab7ce4c6ecc40f86"
+      }
+    },
+    {
+      "id": "vocab-n1:675",
+      "revisionId": "208d-n1-enrichment-vocab-n1-675",
+      "state": "accepted",
+      "predecessorHash": "54acb9ae10673b42857c9e8c0b665e1a0d96bd066d7aadcf7ac26639b1907d0e",
+      "originalHash": "54acb9ae10673b42857c9e8c0b665e1a0d96bd066d7aadcf7ac26639b1907d0e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "在庫の回転率を高めて効率的な経営を行う。",
+            "romaji": "Zaiko no kaitenritsu wo takamete kōritsuteki na keiei wo okonau.",
+            "german": "Die Lagerumschlagshäufigkeit erhöhen und effiziente Geschäftsführung betreiben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "回転率 gibt an, wie oft sich etwas in einem Zeitraum „umschlägt“: in der Betriebswirtschaft 在庫回転率 „Lagerumschlag“ und 資本回転率, in der Gastronomie und bei Parkplätzen, wie oft Plätze neu besetzt werden (客席回転率). Typisch: 回転率が高い/低い, 回転率を上げる/高める. Umgangssprachlich reicht oft 回転: この店は回転が速い. Register: Fachsprache, aber auch im Alltag geläufig.",
+        "examples": [
+          {
+            "japanese": "在庫の回転率を高めて効率的な経営を行う。",
+            "romaji": "Zaiko no kaitenritsu wo takamete kōritsuteki na keiei wo okonau.",
+            "german": "Die Lagerumschlagshäufigkeit erhöhen und effiziente Geschäftsführung betreiben."
+          },
+          {
+            "japanese": "この店はランチの回転率が高いので、安くても利益が出る。",
+            "romaji": "Kono mise wa ranchi no kaitenritsu ga takai node, yasukute mo rieki ga deru.",
+            "german": "Mittags wechseln die Gäste in diesem Lokal so schnell, dass es trotz niedriger Preise Gewinn macht."
+          },
+          {
+            "japanese": "駐車場の回転率を上げるため、一日の最大料金を廃止した。",
+            "romaji": "Chūshajō no kaitenritsu o ageru tame, ichinichi no saidai ryōkin o haishi shita.",
+            "german": "Damit die Parkplätze öfter neu belegt werden, wurde der Tageshöchstpreis abgeschafft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2800010 sense 1, noun: turnover rate (merchandise, capital, seats) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 回転率 gibt an, wie oft sich etwas in einem Zeitraum „umschlägt“: in der Betriebswirtschaft 在庫回転率 „Lagerumschlag“ und 資本回転率, in der Gastronomie und bei Parkplätzen, wie oft Plätze neu besetzt werden (客席回転率). Typisch: 回転率が高い/低い, 回転率を上げる/高める. Umgangssprachlich reicht oft 回転: この店は回転が速い. Register: Fachsprache, aber auch im Alltag geläufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2800010; spelling=回転率; reading=かいてんりつ",
+          "selected": {
+            "sequence": "2800010",
+            "spelling": "回転率",
+            "reading": "かいてんりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "turnover rate (merchandise, capital)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2800010 sense 1, noun: turnover rate (merchandise, capital, seats)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 回転率/かいてんりつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%9B%9E%E8%BB%A2%E7%8E%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 回転率/かいてんりつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umschlagshäufigkeit. JMdict 2800010 sense 1, noun: turnover rate (merchandise, capital, seats)",
+        "japanese": "在庫の回転率を高めて効率的な経営を行う。 / この店はランチの回転率が高いので、安くても利益が出る。 / 駐車場の回転率を上げるため、一日の最大料金を廃止した。",
+        "romanization": "kaitenritsu; Zaiko no kaitenritsu wo takamete kōritsuteki na keiei wo okonau. / Kono mise wa ranchi no kaitenritsu ga takai node, yasukute mo rieki ga deru. / Chūshajō no kaitenritsu o ageru tame, ichinichi no saidai ryōkin o haishi shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Lagerumschlagshäufigkeit erhöhen und effiziente Geschäftsführung betreiben. / Mittags wechseln die Gäste in diesem Lokal so schnell, dass es trotz niedriger Preise Gewinn macht. / Damit die Parkplätze öfter neu belegt werden, wurde der Tageshöchstpreis abgeschafft.",
+        "contexts": [
+          "Inventory management",
+          "Busy lunch restaurant",
+          "Parking lot pricing"
+        ],
+        "lexical": "JMdict 2800010 sense 1, noun: turnover rate (merchandise, capital, seats)",
+        "register": "business / technical; also everyday",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:675 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Inventory management; Busy lunch restaurant; Parking lot pricing), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bd836cd07df06dcdfba2fb4b9497d00ff09b47c80a8c275b4a742451bbad53e8",
+        "approvalHash": "b7a31f2c3c73de0929a9d07af75adf56b6fb39ed04a6f612cd693b559b4a70b1"
+      }
+    },
+    {
+      "id": "vocab-n1:676",
+      "revisionId": "208d-n1-enrichment-vocab-n1-676",
+      "state": "accepted",
+      "predecessorHash": "314e5441c85d1bef7e1f74bb9925c61a6d9ac9cf10712ded1b3f692cabb2bb69",
+      "originalHash": "314e5441c85d1bef7e1f74bb9925c61a6d9ac9cf10712ded1b3f692cabb2bb69",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "死に筋商品を早期に処分して在庫コストを削減する。",
+            "romaji": "Shinisuji shōhin wo sōki ni shobun shite zaiko kosuto wo sakugen suru.",
+            "german": "Ladenhüter frühzeitig abstoßen und die Lagerkosten senken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "死に筋 ist Handelsjargon für Artikel, die sich kaum verkaufen – wörtlich etwa „tote Linie“, wobei 筋 „Sorte, Linie“ meint. Das Gegenteil ist 売れ筋. Typisch: 死に筋商品, 死に筋をカットする/外す/洗い出す, oft im Zusammenhang mit Kassendaten. Neutraler sind 不人気商品 oder 売れ行きの悪い商品; 売れ残り sind dagegen konkret übrig gebliebene Stücke. Register: Einzelhandelsjargon, klingt etwas hart.",
+        "examples": [
+          {
+            "japanese": "死に筋商品を早期に処分して在庫コストを削減する。",
+            "romaji": "Shinisuji shōhin wo sōki ni shobun shite zaiko kosuto wo sakugen suru.",
+            "german": "Ladenhüter frühzeitig abstoßen und die Lagerkosten senken."
+          },
+          {
+            "japanese": "POSデータで死に筋を洗い出し、棚から外した。",
+            "romaji": "POS dēta de shinisuji o araidashi, tana kara hazushita.",
+            "german": "Anhand der Kassendaten haben wir die Ladenhüter ermittelt und aus dem Regal genommen."
+          },
+          {
+            "japanese": "売れ筋だった商品も、流行が過ぎればすぐ死に筋になる。",
+            "romaji": "Uresuji datta shōhin mo, ryūkō ga sugireba sugu shinisuji ni naru.",
+            "german": "Auch ein Verkaufsschlager wird schnell zum Ladenhüter, wenn der Trend vorbei ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136727311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 死に筋/シニスジ; lemma 死に筋; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "死に筋",
+              "reading": "しにすじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 死に筋/しにすじ \"Ladenhüter; schlecht verkäufliche Ware\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2835022 sense 1, noun / no-adjective: poorly selling line (of products) Pitch: Verified [0] via exact UniDic row. 死に筋 ist Handelsjargon für Artikel, die sich kaum verkaufen – wörtlich etwa „tote Linie“, wobei 筋 „Sorte, Linie“ meint. Das Gegenteil ist 売れ筋. Typisch: 死に筋商品, 死に筋をカットする/外す/洗い出す, oft im Zusammenhang mit Kassendaten. Neutraler sind 不人気商品 oder 売れ行きの悪い商品; 売れ残り sind dagegen konkret übrig gebliebene Stücke. Register: Einzelhandelsjargon, klingt etwas hart. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2835022; spelling=死に筋; reading=しにすじ",
+          "selected": {
+            "sequence": "2835022",
+            "spelling": "死に筋",
+            "reading": "しにすじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poorly selling line (of products)",
+                  "unprofitable line"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2835022 sense 1, noun / no-adjective: poorly selling line (of products)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 死に筋/シニスジ; lemma 死に筋; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136727311",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 死に筋/シニスジ; lemma 死に筋; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "死に筋",
+              "reading": "しにすじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 死に筋/しにすじ \"Ladenhüter; schlecht verkäufliche Ware\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ladenhüter; schlecht verkäufliche Ware. JMdict 2835022 sense 1, noun / no-adjective: poorly selling line (of products)",
+        "japanese": "死に筋商品を早期に処分して在庫コストを削減する。 / POSデータで死に筋を洗い出し、棚から外した。 / 売れ筋だった商品も、流行が過ぎればすぐ死に筋になる。",
+        "romanization": "shinisuji; Shinisuji shōhin wo sōki ni shobun shite zaiko kosuto wo sakugen suru. / POS dēta de shinisuji o araidashi, tana kara hazushita. / Uresuji datta shōhin mo, ryūkō ga sugireba sugu shinisuji ni naru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ladenhüter frühzeitig abstoßen und die Lagerkosten senken. / Anhand der Kassendaten haben wir die Ladenhüter ermittelt und aus dem Regal genommen. / Auch ein Verkaufsschlager wird schnell zum Ladenhüter, wenn der Trend vorbei ist.",
+        "contexts": [
+          "Cutting inventory costs",
+          "Analysing sales data",
+          "Fading trend"
+        ],
+        "lexical": "JMdict 2835022 sense 1, noun / no-adjective: poorly selling line (of products)",
+        "register": "retail jargon",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:676 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cutting inventory costs; Analysing sales data; Fading trend), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0859438235dd9be8f9a157250cc96f7e1c871052f812142f37f33c6cfe302798",
+        "approvalHash": "9254c59846e7b02f2e0453de16a66aaece1d2cb2364cdc634f0a3a37d380c7f6"
+      }
+    },
+    {
+      "id": "vocab-n1:677",
+      "revisionId": "208d-n1-enrichment-vocab-n1-677",
+      "state": "accepted",
+      "predecessorHash": "ab9c1064743506c221784079d80da061517c96e3089bd47c16cafe7f6fa473bd",
+      "originalHash": "ab9c1064743506c221784079d80da061517c96e3089bd47c16cafe7f6fa473bd",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "売れ筋商品の品揃えを充実させる。",
+            "romaji": "Uresuji shōhin no shinazoroe wo jūjitsu saseru.",
+            "german": "Das Sortiment an Bestsellerprodukten erweitern."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "売れ筋 sind die Artikel, die sich gerade gut verkaufen (売れる + 筋 „Linie, Sorte“). Typisch: 売れ筋商品, 売れ筋ランキング, 今の売れ筋はどれですか im Laden. Das Gegenteil ist 死に筋. Ähnlich sind 人気商品 und ヒット商品; ベストセラー wird vor allem für Bücher verwendet. Register: neutral, in Geschäften und Onlineshops sehr häufig.",
+        "examples": [
+          {
+            "japanese": "売れ筋商品の品揃えを充実させる。",
+            "romaji": "Uresuji shōhin no shinazoroe wo jūjitsu saseru.",
+            "german": "Das Sortiment an Bestsellerprodukten erweitern."
+          },
+          {
+            "japanese": "店員さんに今の売れ筋を聞いてから選んだ。",
+            "romaji": "Ten'in-san ni ima no uresuji o kiite kara eranda.",
+            "german": "Ich habe die Verkäuferin gefragt, was gerade am besten läuft, und dann ausgewählt."
+          },
+          {
+            "japanese": "その炊飯器は、通販サイトの売れ筋ランキングで一位になった。",
+            "romaji": "Sono suihanki wa, tsūhan saito no uresuji rankingu de ichii ni natta.",
+            "german": "Der Reiskocher landete im Bestseller-Ranking des Onlineshops auf Platz eins."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69141603",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 売れ筋/ウレスジ; lemma 売れ筋; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "売れ筋",
+              "reading": "うれすじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 売れ筋/うれすじ \"Bestseller; gut verkäufliche Ware\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2089700 sense 1, noun / no-adjective: popular line (of products), best-selling line Pitch: Verified [0,2] via exact UniDic row. 売れ筋 sind die Artikel, die sich gerade gut verkaufen (売れる + 筋 „Linie, Sorte“). Typisch: 売れ筋商品, 売れ筋ランキング, 今の売れ筋はどれですか im Laden. Das Gegenteil ist 死に筋. Ähnlich sind 人気商品 und ヒット商品; ベストセラー wird vor allem für Bücher verwendet. Register: neutral, in Geschäften und Onlineshops sehr häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2089700; spelling=売れ筋; reading=うれすじ",
+          "selected": {
+            "sequence": "2089700",
+            "spelling": "売れ筋",
+            "reading": "うれすじ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "popular line (of products)",
+                  "best-selling line",
+                  "hot sellers"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2089700 sense 1, noun / no-adjective: popular line (of products), best-selling line"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row. Exact whole 売れ筋/ウレスジ; lemma 売れ筋; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@69141603",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 売れ筋/ウレスジ; lemma 売れ筋; 名詞/普通名詞/一般/*; *; *; aType 0,2.",
+            "match": {
+              "word": "売れ筋",
+              "reading": "うれすじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 売れ筋/うれすじ \"Bestseller; gut verkäufliche Ware\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bestseller; gut verkäufliche Ware. JMdict 2089700 sense 1, noun / no-adjective: popular line (of products), best-selling line",
+        "japanese": "売れ筋商品の品揃えを充実させる。 / 店員さんに今の売れ筋を聞いてから選んだ。 / その炊飯器は、通販サイトの売れ筋ランキングで一位になった。",
+        "romanization": "uresuji; Uresuji shōhin no shinazoroe wo jūjitsu saseru. / Ten'in-san ni ima no uresuji o kiite kara eranda. / Sono suihanki wa, tsūhan saito no uresuji rankingu de ichii ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Sortiment an Bestsellerprodukten erweitern. / Ich habe die Verkäuferin gefragt, was gerade am besten läuft, und dann ausgewählt. / Der Reiskocher landete im Bestseller-Ranking des Onlineshops auf Platz eins.",
+        "contexts": [
+          "Stocking popular items",
+          "Asking shop staff",
+          "Online bestseller ranking"
+        ],
+        "lexical": "JMdict 2089700 sense 1, noun / no-adjective: popular line (of products), best-selling line",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:677 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Stocking popular items; Asking shop staff; Online bestseller ranking), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b20e4dfc3e90a971c785727b8594ddfb92e1bee397f5a595da60616300a18dd7",
+        "approvalHash": "8edf7577cbd4e8ed1064b47472df9ab680be712c6670f6e6a9a57f7071058fb4"
+      }
+    },
+    {
+      "id": "vocab-n1:678",
+      "revisionId": "208d-n1-enrichment-vocab-n1-678",
+      "state": "accepted",
+      "predecessorHash": "902264c22e7c0976324b066ebc864455fec5343284c288401cd9b2b313408c10",
+      "originalHash": "902264c22e7c0976324b066ebc864455fec5343284c288401cd9b2b313408c10",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "品揃えの豊富さが集客の鍵だ。",
+            "romaji": "Shinazoroe no hōfusa ga shūkyaku no kagi da.",
+            "german": "Die Vielfalt des Sortiments ist der Schlüssel zur Kundengewinnung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "品揃え ist das Sortiment bzw. die Warenauswahl eines Geschäfts; man schreibt auch 品ぞろえ. Typisch: 品揃えが豊富だ/いい/少ない, 品揃えを充実させる/増やす, 〜の品揃えが自慢だ. Für eine Auswahl an Möglichkeiten, zwischen denen man sich entscheidet, passt es nicht – dafür sagt man 選択肢. Register: neutral, im Alltag sehr geläufig.",
+        "examples": [
+          {
+            "japanese": "品揃えの豊富さが集客の鍵だ。",
+            "romaji": "Shinazoroe no hōfusa ga shūkyaku no kagi da.",
+            "german": "Die Vielfalt des Sortiments ist der Schlüssel zur Kundengewinnung."
+          },
+          {
+            "japanese": "この本屋は専門書の品揃えがいいので、よく利用している。",
+            "romaji": "Kono hon'ya wa senmonsho no shinazoroe ga ii node, yoku riyō shite iru.",
+            "german": "Diese Buchhandlung hat eine gute Auswahl an Fachbüchern, deshalb gehe ich oft hin."
+          },
+          {
+            "japanese": "駅前のスーパーは品揃えが少なくて、欲しい物がなかなか見つからない。",
+            "romaji": "Ekimae no sūpā wa shinazoroe ga sukunakute, hoshii mono ga nakanaka mitsukaranai.",
+            "german": "Der Supermarkt am Bahnhof hat ein kleines Sortiment, ich finde selten, was ich suche."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136570324",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 品揃え/シナゾロエ; lemma 品揃え; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "品揃え",
+              "reading": "しなぞろえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 品揃え/しなぞろえ \"Sortiment; Warenauswahl\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1490650 sense 1, noun: assortment, product lineup Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 品揃え ist das Sortiment bzw. die Warenauswahl eines Geschäfts; man schreibt auch 品ぞろえ. Typisch: 品揃えが豊富だ/いい/少ない, 品揃えを充実させる/増やす, 〜の品揃えが自慢だ. Für eine Auswahl an Möglichkeiten, zwischen denen man sich entscheidet, passt es nicht – dafür sagt man 選択肢. Register: neutral, im Alltag sehr geläufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1490650; spelling=品揃え; reading=しなぞろえ",
+          "selected": {
+            "sequence": "1490650",
+            "spelling": "品揃え",
+            "reading": "しなぞろえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "assortment",
+                  "product lineup"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1490650 sense 1, noun: assortment, product lineup"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 品揃え/シナゾロエ; lemma 品揃え; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136570324",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 品揃え/シナゾロエ; lemma 品揃え; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "品揃え",
+              "reading": "しなぞろえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 品揃え/しなぞろえ \"Sortiment; Warenauswahl\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sortiment; Warenauswahl. JMdict 1490650 sense 1, noun: assortment, product lineup",
+        "japanese": "品揃えの豊富さが集客の鍵だ。 / この本屋は専門書の品揃えがいいので、よく利用している。 / 駅前のスーパーは品揃えが少なくて、欲しい物がなかなか見つからない。",
+        "romanization": "shinazoroe; Shinazoroe no hōfusa ga shūkyaku no kagi da. / Kono hon'ya wa senmonsho no shinazoroe ga ii node, yoku riyō shite iru. / Ekimae no sūpā wa shinazoroe ga sukunakute, hoshii mono ga nakanaka mitsukaranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Vielfalt des Sortiments ist der Schlüssel zur Kundengewinnung. / Diese Buchhandlung hat eine gute Auswahl an Fachbüchern, deshalb gehe ich oft hin. / Der Supermarkt am Bahnhof hat ein kleines Sortiment, ich finde selten, was ich suche.",
+        "contexts": [
+          "Attracting customers",
+          "Favourite bookshop",
+          "Disappointing supermarket"
+        ],
+        "lexical": "JMdict 1490650 sense 1, noun: assortment, product lineup",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:678 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Attracting customers; Favourite bookshop; Disappointing supermarket), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c9df5f9f9efcb6db9423f828c556fe9448c0ceb54c3613c316375d3f7b0b97d8",
+        "approvalHash": "88df95970fa2a50866d47a5c85ff8c61c033936c8fe6545442ce477233430eef"
+      }
+    },
+    {
+      "id": "vocab-n1:679",
+      "revisionId": "208d-n1-enrichment-vocab-n1-679",
+      "state": "accepted",
+      "predecessorHash": "e75e0953e6d117332eccf186ec333c4e5a12aa0a86fe618d438c7733e34f4358",
+      "originalHash": "e75e0953e6d117332eccf186ec333c4e5a12aa0a86fe618d438c7733e34f4358",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "棚割りの最適化が売上向上に貢献する。",
+            "romaji": "Tanawari no saitekika ga uriage kōjō ni kōken suru.",
+            "german": "Die Optimierung der Regalplanung trägt zur Umsatzsteigerung bei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "棚割り (auch 棚割) ist Einzelhandelsjargon für die Regalplanung: welche Produkte auf welchem Regalbrett, in welcher Menge und Höhe stehen – Plätze auf Augenhöhe gelten als ゴールデンゾーン. Typisch: 棚割りを変更する/見直す/作成する, 棚割り表 „Planogramm“. Das Präsentieren selbst heißt 陳列. Hersteller verhandeln mit Händlern um gute Plätze im 棚割り.",
+        "examples": [
+          {
+            "japanese": "棚割りの最適化が売上向上に貢献する。",
+            "romaji": "Tanawari no saitekika ga uriage kōjō ni kōken suru.",
+            "german": "Die Optimierung der Regalplanung trägt zur Umsatzsteigerung bei."
+          },
+          {
+            "japanese": "春の新商品に合わせて、飲料売り場の棚割りを変更した。",
+            "romaji": "Haru no shinshōhin ni awasete, inryō uriba no tanawari o henkō shita.",
+            "german": "Passend zu den Frühjahrsneuheiten haben wir die Regalbelegung in der Getränkeabteilung geändert."
+          },
+          {
+            "japanese": "メーカーの営業は、自社商品を目線の高さに置いてもらえるよう、棚割りの交渉をする。",
+            "romaji": "Mēkā no eigyō wa, jisha shōhin o mesen no takasa ni oite moraeru yō, tanawari no kōshō o suru.",
+            "german": "Die Vertriebsleute der Hersteller verhandeln über die Regalplanung, damit ihre Produkte auf Augenhöhe stehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164694401",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 棚割り/タナワリ; lemma 棚割; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "棚割り",
+              "reading": "たなわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 棚割り/たなわり \"Regalplanung; Planogramm\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2151580 sense 1, noun: shelving allocation, planogram Pitch: Verified [0] via exact UniDic row. 棚割り (auch 棚割) ist Einzelhandelsjargon für die Regalplanung: welche Produkte auf welchem Regalbrett, in welcher Menge und Höhe stehen – Plätze auf Augenhöhe gelten als ゴールデンゾーン. Typisch: 棚割りを変更する/見直す/作成する, 棚割り表 „Planogramm“. Das Präsentieren selbst heißt 陳列. Hersteller verhandeln mit Händlern um gute Plätze im 棚割り. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2151580; spelling=棚割り; reading=たなわり",
+          "selected": {
+            "sequence": "2151580",
+            "spelling": "棚割り",
+            "reading": "たなわり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "shelving allocation",
+                  "planogram"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2151580 sense 1, noun: shelving allocation, planogram"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 棚割り/タナワリ; lemma 棚割; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@164694401",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 棚割り/タナワリ; lemma 棚割; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "棚割り",
+              "reading": "たなわり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 棚割り/たなわり \"Regalplanung; Planogramm\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Regalplanung; Planogramm. JMdict 2151580 sense 1, noun: shelving allocation, planogram",
+        "japanese": "棚割りの最適化が売上向上に貢献する。 / 春の新商品に合わせて、飲料売り場の棚割りを変更した。 / メーカーの営業は、自社商品を目線の高さに置いてもらえるよう、棚割りの交渉をする。",
+        "romanization": "tanawari; Tanawari no saitekika ga uriage kōjō ni kōken suru. / Haru no shinshōhin ni awasete, inryō uriba no tanawari o henkō shita. / Mēkā no eigyō wa, jisha shōhin o mesen no takasa ni oite moraeru yō, tanawari no kōshō o suru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Optimierung der Regalplanung trägt zur Umsatzsteigerung bei. / Passend zu den Frühjahrsneuheiten haben wir die Regalbelegung in der Getränkeabteilung geändert. / Die Vertriebsleute der Hersteller verhandeln über die Regalplanung, damit ihre Produkte auf Augenhöhe stehen.",
+        "contexts": [
+          "Optimising shelf space",
+          "Seasonal shelf reset",
+          "Manufacturer negotiating placement"
+        ],
+        "lexical": "JMdict 2151580 sense 1, noun: shelving allocation, planogram",
+        "register": "retail jargon",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:679 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Optimising shelf space; Seasonal shelf reset; Manufacturer negotiating placement), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "38a8265b0f374654134535075dd437e84d2fbee772f00bb7fbec5fa56eb45433",
+        "approvalHash": "3ff695742e0c549f73ef0c70384f7c7294c927769b5f54ce82fd1974943f4bf9"
+      }
+    },
+    {
+      "id": "vocab-n1:680",
+      "revisionId": "208d-n1-enrichment-vocab-n1-680",
+      "state": "accepted",
+      "predecessorHash": "674662f9e5a1894573ccc0f80a415cedc6f142408dbabfa432a3beef71c8d84b",
+      "originalHash": "674662f9e5a1894573ccc0f80a415cedc6f142408dbabfa432a3beef71c8d84b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "消費者物価指数が前年比で上昇した。",
+            "romaji": "Shōhisha bukka shisū ga zennenhi de jōshō shita.",
+            "german": "Der Verbraucherpreisindex stieg im Vergleich zum Vorjahr."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "消費者物価指数 ist der Verbraucherpreisindex (物価 „Preisniveau“, 指数 „Index“), in den Nachrichten oft einfach CPI. Er wird in Japan monatlich vom 総務省 veröffentlicht; als Kerninflation gilt der Index 生鮮食品を除く総合. Typisch: 消費者物価指数が上昇する/下落する, 前年同月比〜％上昇. Für Preise zwischen Unternehmen gibt es den 企業物価指数 (früher 卸売物価指数). Register: Wirtschafts- und Pressesprache.",
+        "examples": [
+          {
+            "japanese": "消費者物価指数が前年比で上昇した。",
+            "romaji": "Shōhisha bukka shisū ga zennenhi de jōshō shita.",
+            "german": "Der Verbraucherpreisindex stieg im Vergleich zum Vorjahr."
+          },
+          {
+            "japanese": "消費者物価指数は毎月、総務省から発表される。",
+            "romaji": "Shōhisha bukka shisū wa maitsuki, Sōmushō kara happyō sareru.",
+            "german": "Der Verbraucherpreisindex wird jeden Monat vom Ministerium für Inneres und Kommunikation veröffentlicht."
+          },
+          {
+            "japanese": "年金の支給額は、消費者物価指数などをもとに毎年改定される。",
+            "romaji": "Nenkin no shikyūgaku wa, shōhisha bukka shisū nado o moto ni maitoshi kaitei sareru.",
+            "german": "Die Rentenhöhe wird jedes Jahr unter anderem anhand des Verbraucherpreisindex angepasst."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1995390 sense 1, noun: consumer price index, CPI Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 消費者物価指数 ist der Verbraucherpreisindex (物価 „Preisniveau“, 指数 „Index“), in den Nachrichten oft einfach CPI. Er wird in Japan monatlich vom 総務省 veröffentlicht; als Kerninflation gilt der Index 生鮮食品を除く総合. Typisch: 消費者物価指数が上昇する/下落する, 前年同月比〜％上昇. Für Preise zwischen Unternehmen gibt es den 企業物価指数 (früher 卸売物価指数). Register: Wirtschafts- und Pressesprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1995390; spelling=消費者物価指数; reading=しょうひしゃぶっかしすう",
+          "selected": {
+            "sequence": "1995390",
+            "spelling": "消費者物価指数",
+            "reading": "しょうひしゃぶっかしすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consumer price index",
+                  "CPI"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1995390 sense 1, noun: consumer price index, CPI"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 消費者物価指数/しょうひしゃぶっかしすう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B6%88%E8%B2%BB%E8%80%85%E7%89%A9%E4%BE%A1%E6%8C%87%E6%95%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 消費者物価指数/しょうひしゃぶっかしすう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verbraucherpreisindex. JMdict 1995390 sense 1, noun: consumer price index, CPI",
+        "japanese": "消費者物価指数が前年比で上昇した。 / 消費者物価指数は毎月、総務省から発表される。 / 年金の支給額は、消費者物価指数などをもとに毎年改定される。",
+        "romanization": "shōhisha bukka shisū; Shōhisha bukka shisū ga zennenhi de jōshō shita. / Shōhisha bukka shisū wa maitsuki, Sōmushō kara happyō sareru. / Nenkin no shikyūgaku wa, shōhisha bukka shisū nado o moto ni maitoshi kaitei sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Verbraucherpreisindex stieg im Vergleich zum Vorjahr. / Der Verbraucherpreisindex wird jeden Monat vom Ministerium für Inneres und Kommunikation veröffentlicht. / Die Rentenhöhe wird jedes Jahr unter anderem anhand des Verbraucherpreisindex angepasst.",
+        "contexts": [
+          "Inflation news",
+          "Official statistics release",
+          "Pension adjustment"
+        ],
+        "lexical": "JMdict 1995390 sense 1, noun: consumer price index, CPI",
+        "register": "written / economics",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:680 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Inflation news; Official statistics release; Pension adjustment), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1bb50a1bd5b7316cf0f3db3ad0e6f0d57d1f6e2eb9293888c30d94518a1b0f86",
+        "approvalHash": "c4a0b9228cdbd3c84244a99f1e05f8284c05531b2049b11d8cdf6f9cba4b2f1f"
+      }
+    },
+    {
+      "id": "vocab-n1:681",
+      "revisionId": "208d-n1-enrichment-vocab-n1-681",
+      "state": "accepted",
+      "predecessorHash": "e6a3c87b24203ebc1fe5e8d03dab0ac90e9817e8f06484938cacef9a39badc8f",
+      "originalHash": "e6a3c87b24203ebc1fe5e8d03dab0ac90e9817e8f06484938cacef9a39badc8f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "卸売物価指数の動向が消費者物価に先行する。",
+            "romaji": "Oroshiuri bukka shisū no dōkō ga shōhisha bukka ni senkō suru.",
+            "german": "Die Entwicklung des Großhandelspreisindex geht dem Verbraucherpreis voraus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "卸売物価指数 ist der Großhandelspreisindex, der Preise im Handel zwischen Unternehmen misst; er gilt als Frühindikator für die Verbraucherpreise (消費者物価指数). In Japan hat die Bank of Japan ihn 2002 in 企業物価指数 umbenannt, daher begegnet der alte Name heute vor allem in älteren Texten oder für andere Länder. Typisch: 卸売物価指数が上昇する, 〜の動向. Register: Wirtschaftsfachsprache.",
+        "examples": [
+          {
+            "japanese": "卸売物価指数の動向が消費者物価に先行する。",
+            "romaji": "Oroshiuri bukka shisū no dōkō ga shōhisha bukka ni senkō suru.",
+            "german": "Die Entwicklung des Großhandelspreisindex geht dem Verbraucherpreis voraus."
+          },
+          {
+            "japanese": "日本では、卸売物価指数は2002年に企業物価指数へと名称が変わった。",
+            "romaji": "Nihon de wa, oroshiuri bukka shisū wa nisen-ni-nen ni kigyō bukka shisū e to meishō ga kawatta.",
+            "german": "In Japan wurde der Großhandelspreisindex 2002 in Unternehmensgüterpreisindex umbenannt."
+          },
+          {
+            "japanese": "原油高を受けて、卸売物価指数が大きく上昇した。",
+            "romaji": "Gen'yudaka o ukete, oroshiuri bukka shisū ga ōkiku jōshō shita.",
+            "german": "Infolge der hohen Ölpreise ist der Großhandelspreisindex stark gestiegen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1183080 sense 1, noun: wholesale price index, WPI Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 卸売物価指数 ist der Großhandelspreisindex, der Preise im Handel zwischen Unternehmen misst; er gilt als Frühindikator für die Verbraucherpreise (消費者物価指数). In Japan hat die Bank of Japan ihn 2002 in 企業物価指数 umbenannt, daher begegnet der alte Name heute vor allem in älteren Texten oder für andere Länder. Typisch: 卸売物価指数が上昇する, 〜の動向. Register: Wirtschaftsfachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1183080; spelling=卸売物価指数; reading=おろしうりぶっかしすう",
+          "selected": {
+            "sequence": "1183080",
+            "spelling": "卸売物価指数",
+            "reading": "おろしうりぶっかしすう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "wholesale price index",
+                  "WPI"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1183080 sense 1, noun: wholesale price index, WPI"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 卸売物価指数/おろしうりぶっかしすう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8D%B8%E5%A3%B2%E7%89%A9%E4%BE%A1%E6%8C%87%E6%95%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 卸売物価指数/おろしうりぶっかしすう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Großhandelspreisindex. JMdict 1183080 sense 1, noun: wholesale price index, WPI",
+        "japanese": "卸売物価指数の動向が消費者物価に先行する。 / 日本では、卸売物価指数は2002年に企業物価指数へと名称が変わった。 / 原油高を受けて、卸売物価指数が大きく上昇した。",
+        "romanization": "oroshiuri bukka shisū; Oroshiuri bukka shisū no dōkō ga shōhisha bukka ni senkō suru. / Nihon de wa, oroshiuri bukka shisū wa nisen-ni-nen ni kigyō bukka shisū e to meishō ga kawatta. / Gen'yudaka o ukete, oroshiuri bukka shisū ga ōkiku jōshō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Entwicklung des Großhandelspreisindex geht dem Verbraucherpreis voraus. / In Japan wurde der Großhandelspreisindex 2002 in Unternehmensgüterpreisindex umbenannt. / Infolge der hohen Ölpreise ist der Großhandelspreisindex stark gestiegen.",
+        "contexts": [
+          "Leading indicator",
+          "Renaming of the statistic",
+          "Oil price shock"
+        ],
+        "lexical": "JMdict 1183080 sense 1, noun: wholesale price index, WPI",
+        "register": "written / economics",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:681 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Leading indicator; Renaming of the statistic; Oil price shock), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "74bdb574e118c490a56b241217555ceca1430a03e9f8e38a0cd646178d6bbaa2",
+        "approvalHash": "62999922c1b4741f40c0f6955f2f3fe12e101c4502ff363e1a4da67eda2fa054"
+      }
+    },
+    {
+      "id": "vocab-n1:682",
+      "revisionId": "208d-n1-enrichment-vocab-n1-682",
+      "state": "accepted",
+      "predecessorHash": "17d5faf1d620c3a60bb7476e6e2e87ca4be51f82d9379335c421b8f4bf83a40a",
+      "originalHash": "17d5faf1d620c3a60bb7476e6e2e87ca4be51f82d9379335c421b8f4bf83a40a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本独自の商慣行が外国企業の参入を阻んでいる。",
+            "romaji": "Nihon dokuji no shōkankō ga gaikoku kigyō no sannyū wo habande iru.",
+            "german": "Japans eigenständige Handelspraktiken behindern den Markteintritt ausländischer Unternehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "商慣行 sind die tatsächlich geübten Geschäftspraktiken einer Branche oder eines Landes. Das Wort erscheint oft kritisch: 不透明な商慣行, 商慣行を見直す/改める/是正する, 日本独自の商慣行. Das fast gleichbedeutende 商慣習 betont eher den überlieferten Brauch und ist auch ein Rechtsbegriff (商慣習法 „Handelsgewohnheitsrecht“). Register: Wirtschafts- und Pressesprache.",
+        "examples": [
+          {
+            "japanese": "日本独自の商慣行が外国企業の参入を阻んでいる。",
+            "romaji": "Nihon dokuji no shōkankō ga gaikoku kigyō no sannyū wo habande iru.",
+            "german": "Japans eigenständige Handelspraktiken behindern den Markteintritt ausländischer Unternehmen."
+          },
+          {
+            "japanese": "返品自由という業界の商慣行を見直す動きが出てきた。",
+            "romaji": "Henpin jiyū to iu gyōkai no shōkankō o minaosu ugoki ga dete kita.",
+            "german": "Es gibt Bestrebungen, die Branchenpraxis des freien Rückgaberechts zu überdenken."
+          },
+          {
+            "japanese": "公正取引委員会は、下請けいじめにつながる商慣行の是正を求めた。",
+            "romaji": "Kōsei Torihiki Iinkai wa, shitauke ijime ni tsunagaru shōkankō no zesei o motometa.",
+            "german": "Die Kartellbehörde forderte, Geschäftspraktiken abzustellen, die zur Schikane von Zulieferern führen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2828629 sense 1, noun: business practices Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 商慣行 sind die tatsächlich geübten Geschäftspraktiken einer Branche oder eines Landes. Das Wort erscheint oft kritisch: 不透明な商慣行, 商慣行を見直す/改める/是正する, 日本独自の商慣行. Das fast gleichbedeutende 商慣習 betont eher den überlieferten Brauch und ist auch ein Rechtsbegriff (商慣習法 „Handelsgewohnheitsrecht“). Register: Wirtschafts- und Pressesprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2828629; spelling=商慣行; reading=しょうかんこう",
+          "selected": {
+            "sequence": "2828629",
+            "spelling": "商慣行",
+            "reading": "しょうかんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "business practices"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2828629 sense 1, noun: business practices"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 商慣行/しょうかんこう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%95%86%E6%85%A3%E8%A1%8C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 商慣行/しょうかんこう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Handelspraxis; Geschäftsbrauch. JMdict 2828629 sense 1, noun: business practices",
+        "japanese": "日本独自の商慣行が外国企業の参入を阻んでいる。 / 返品自由という業界の商慣行を見直す動きが出てきた。 / 公正取引委員会は、下請けいじめにつながる商慣行の是正を求めた。",
+        "romanization": "shōkankō; Nihon dokuji no shōkankō ga gaikoku kigyō no sannyū wo habande iru. / Henpin jiyū to iu gyōkai no shōkankō o minaosu ugoki ga dete kita. / Kōsei Torihiki Iinkai wa, shitauke ijime ni tsunagaru shōkankō no zesei o motometa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Japans eigenständige Handelspraktiken behindern den Markteintritt ausländischer Unternehmen. / Es gibt Bestrebungen, die Branchenpraxis des freien Rückgaberechts zu überdenken. / Die Kartellbehörde forderte, Geschäftspraktiken abzustellen, die zur Schikane von Zulieferern führen.",
+        "contexts": [
+          "Barrier to market entry",
+          "Rethinking return policies",
+          "Regulator's demand"
+        ],
+        "lexical": "JMdict 2828629 sense 1, noun: business practices",
+        "register": "written / business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:682 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Barrier to market entry; Rethinking return policies; Regulator's demand), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0264599052f0d32daf9fe85139733fc067683690ff1fd1fe836d681a3207da41",
+        "approvalHash": "8b52827fbb0c77822f3190ae3884ace443e15ad757ad82d2585221732d88655f"
+      }
+    },
+    {
+      "id": "vocab-n1:683",
+      "revisionId": "208d-n1-enrichment-vocab-n1-683",
+      "state": "accepted",
+      "predecessorHash": "ef7d6ba933ae5bf8798d2374f7588054ff784ec1c0ad657cc5c28c7e97434cbc",
+      "originalHash": "ef7d6ba933ae5bf8798d2374f7588054ff784ec1c0ad657cc5c28c7e97434cbc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "商慣習の違いが国際取引の障壁になることがある。",
+            "romaji": "Shōkanshū no chigai ga kokusai torihiki no shōheki ni naru koto ga aru.",
+            "german": "Unterschiede in den Handelsbräuchen können zu Hindernissen im internationalen Handel werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "商慣習 ist der kaufmännische Brauch, also das, was im Handel üblicherweise gilt, auch ohne schriftliche Regel. Juristisch ist es wichtig, weil Verträge bei Lücken nach dem 商慣習 ausgelegt werden (商慣習法 „Handelsgewohnheitsrecht“). Typisch: 商慣習の違い, 商慣習に従う, 〜という商慣習がある. Das nahezu synonyme 商慣行 betont die gelebte, oft kritisierte Praxis. Register: schriftlich, Wirtschaft und Recht.",
+        "examples": [
+          {
+            "japanese": "商慣習の違いが国際取引の障壁になることがある。",
+            "romaji": "Shōkanshū no chigai ga kokusai torihiki no shōheki ni naru koto ga aru.",
+            "german": "Unterschiede in den Handelsbräuchen können zu Hindernissen im internationalen Handel werden."
+          },
+          {
+            "japanese": "日本には、お中元やお歳暮を取引先に贈る商慣習がある。",
+            "romaji": "Nihon ni wa, ochūgen ya oseibo o torihikisaki ni okuru shōkanshū ga aru.",
+            "german": "In Japan ist es kaufmännischer Brauch, Geschäftspartnern im Sommer und zum Jahresende Geschenke zu schicken."
+          },
+          {
+            "japanese": "契約書に定めがない場合は、商慣習に従って判断される。",
+            "romaji": "Keiyakusho ni sadame ga nai baai wa, shōkanshū ni shitagatte handan sareru.",
+            "german": "Ist im Vertrag nichts geregelt, wird nach Handelsbrauch entschieden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1346670 sense 1, noun: commercial practice, trade custom Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 商慣習 ist der kaufmännische Brauch, also das, was im Handel üblicherweise gilt, auch ohne schriftliche Regel. Juristisch ist es wichtig, weil Verträge bei Lücken nach dem 商慣習 ausgelegt werden (商慣習法 „Handelsgewohnheitsrecht“). Typisch: 商慣習の違い, 商慣習に従う, 〜という商慣習がある. Das nahezu synonyme 商慣行 betont die gelebte, oft kritisierte Praxis. Register: schriftlich, Wirtschaft und Recht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1346670; spelling=商慣習; reading=しょうかんしゅう",
+          "selected": {
+            "sequence": "1346670",
+            "spelling": "商慣習",
+            "reading": "しょうかんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "commercial practice"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1346670 sense 1, noun: commercial practice, trade custom"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 商慣習/しょうかんしゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%95%86%E6%85%A3%E7%BF%92",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 商慣習/しょうかんしゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Handelsbrauch; kaufmännische Gepflogenheit. JMdict 1346670 sense 1, noun: commercial practice, trade custom",
+        "japanese": "商慣習の違いが国際取引の障壁になることがある。 / 日本には、お中元やお歳暮を取引先に贈る商慣習がある。 / 契約書に定めがない場合は、商慣習に従って判断される。",
+        "romanization": "shōkanshū; Shōkanshū no chigai ga kokusai torihiki no shōheki ni naru koto ga aru. / Nihon ni wa, ochūgen ya oseibo o torihikisaki ni okuru shōkanshū ga aru. / Keiyakusho ni sadame ga nai baai wa, shōkanshū ni shitagatte handan sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Unterschiede in den Handelsbräuchen können zu Hindernissen im internationalen Handel werden. / In Japan ist es kaufmännischer Brauch, Geschäftspartnern im Sommer und zum Jahresende Geschenke zu schicken. / Ist im Vertrag nichts geregelt, wird nach Handelsbrauch entschieden.",
+        "contexts": [
+          "International trade barriers",
+          "Seasonal business gifts",
+          "Gap in a contract"
+        ],
+        "lexical": "JMdict 1346670 sense 1, noun: commercial practice, trade custom",
+        "register": "written / business and legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:683 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (International trade barriers; Seasonal business gifts; Gap in a contract), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bdaff65576b9ea21e4fb73c647ec2785925ed7b39906aeb54ae25f937776c549",
+        "approvalHash": "5e64589e36c41841085e8a85fd3393d6fec1a13283c14fe58e6fd1736e8ee4d7"
+      }
+    },
+    {
+      "id": "vocab-n1:684",
+      "revisionId": "208d-n1-enrichment-vocab-n1-684",
+      "state": "accepted",
+      "predecessorHash": "31717b4ce899d1bd3e2d8e996d1813da1fcabfb8659b5ac6dbc134b76ba4a8ca",
+      "originalHash": "31717b4ce899d1bd3e2d8e996d1813da1fcabfb8659b5ac6dbc134b76ba4a8ca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "流通経路の短縮によりコストを削減する。",
+            "romaji": "Ryūtsū keiro no tanshuku ni yori kosuto wo sakugen suru.",
+            "german": "Durch die Verkürzung der Vertriebswege die Kosten senken."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "流通経路 ist der Weg einer Ware vom Hersteller über Großhandel (卸) und Einzelhandel (小売) bis zum Verbraucher. Typisch: 流通経路を短縮する/確保する/把握する, 複雑な流通経路; auch bei Schmuggel- oder Fälschungsware: 偽造品の流通経路を調べる. Synonym ist 流通チャネル; 販路 meint enger den Absatzweg aus Sicht des Verkäufers. Register: Wirtschaftssprache.",
+        "examples": [
+          {
+            "japanese": "流通経路の短縮によりコストを削減する。",
+            "romaji": "Ryūtsū keiro no tanshuku ni yori kosuto wo sakugen suru.",
+            "german": "Durch die Verkürzung der Vertriebswege die Kosten senken."
+          },
+          {
+            "japanese": "警察は偽ブランド品の流通経路を調べている。",
+            "romaji": "Keisatsu wa nise burando hin no ryūtsū keiro o shirabete iru.",
+            "german": "Die Polizei untersucht, auf welchen Wegen die gefälschte Markenware in Umlauf kommt."
+          },
+          {
+            "japanese": "産地から店頭までの流通経路が明確な食品は、消費者に信頼されやすい。",
+            "romaji": "Sanchi kara tentō made no ryūtsū keiro ga meikaku na shokuhin wa, shōhisha ni shinrai sare yasui.",
+            "german": "Lebensmittel, deren Weg vom Erzeuger bis ins Geschäft nachvollziehbar ist, genießen leichter das Vertrauen der Verbraucher."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1948430 sense 1, noun: distribution channel Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 流通経路 ist der Weg einer Ware vom Hersteller über Großhandel (卸) und Einzelhandel (小売) bis zum Verbraucher. Typisch: 流通経路を短縮する/確保する/把握する, 複雑な流通経路; auch bei Schmuggel- oder Fälschungsware: 偽造品の流通経路を調べる. Synonym ist 流通チャネル; 販路 meint enger den Absatzweg aus Sicht des Verkäufers. Register: Wirtschaftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1948430; spelling=流通経路; reading=りゅうつうけいろ",
+          "selected": {
+            "sequence": "1948430",
+            "spelling": "流通経路",
+            "reading": "りゅうつうけいろ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "distribution channel",
+                  "channel of distribution"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1948430 sense 1, noun: distribution channel"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 流通経路/りゅうつうけいろ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B5%81%E9%80%9A%E7%B5%8C%E8%B7%AF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 流通経路/りゅうつうけいろ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vertriebsweg; Distributionskanal. JMdict 1948430 sense 1, noun: distribution channel",
+        "japanese": "流通経路の短縮によりコストを削減する。 / 警察は偽ブランド品の流通経路を調べている。 / 産地から店頭までの流通経路が明確な食品は、消費者に信頼されやすい。",
+        "romanization": "ryūtsū keiro; Ryūtsū keiro no tanshuku ni yori kosuto wo sakugen suru. / Keisatsu wa nise burando hin no ryūtsū keiro o shirabete iru. / Sanchi kara tentō made no ryūtsū keiro ga meikaku na shokuhin wa, shōhisha ni shinrai sare yasui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Verkürzung der Vertriebswege die Kosten senken. / Die Polizei untersucht, auf welchen Wegen die gefälschte Markenware in Umlauf kommt. / Lebensmittel, deren Weg vom Erzeuger bis ins Geschäft nachvollziehbar ist, genießen leichter das Vertrauen der Verbraucher.",
+        "contexts": [
+          "Cost reduction",
+          "Counterfeit goods investigation",
+          "Food traceability"
+        ],
+        "lexical": "JMdict 1948430 sense 1, noun: distribution channel",
+        "register": "business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:684 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cost reduction; Counterfeit goods investigation; Food traceability), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e364067b5bebd019e67493d6161a8cd4b6bfdf361d95acb31e21e7c6904f1879",
+        "approvalHash": "6bab9aaebc96ae7422e621f2dfeb349614e963e6a172f54da5ebc3d0b9262109"
+      }
+    },
+    {
+      "id": "vocab-n1:686",
+      "revisionId": "208d-n1-enrichment-vocab-n1-686",
+      "state": "accepted",
+      "predecessorHash": "9f33302052044db3d6b3e3d0c85891cd2fcd70e30e43f41db9dde791e3a08fb0",
+      "originalHash": "9f33302052044db3d6b3e3d0c85891cd2fcd70e30e43f41db9dde791e3a08fb0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "国際物流の効率化がグローバル競争の鍵だ。",
+            "romaji": "Kokusai butsuryū no kōritsuka ga gurōbaru kyōsō no kagi da.",
+            "german": "Die Effizienzsteigerung der internationalen Logistik ist der Schlüssel zum globalen Wettbewerb."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "国際物流 ist die internationale Logistik: Transport, Lagerung, Zollabfertigung und Dokumente über Grenzen hinweg. 物流 bezeichnet den physischen Warenfluss, während 流通 den gesamten Vertrieb einschließlich Handel meint. Typisch: 国際物流会社, 国際物流網, 国際物流の混乱/効率化; Dienstleister heißen oft フォワーダー. Register: Wirtschaftssprache.",
+        "examples": [
+          {
+            "japanese": "国際物流の効率化がグローバル競争の鍵だ。",
+            "romaji": "Kokusai butsuryū no kōritsuka ga gurōbaru kyōsō no kagi da.",
+            "german": "Die Effizienzsteigerung der internationalen Logistik ist der Schlüssel zum globalen Wettbewerb."
+          },
+          {
+            "japanese": "コロナ禍では、港の混雑で国際物流が大きく混乱した。",
+            "romaji": "Korona-ka de wa, minato no konzatsu de kokusai butsuryū ga ōkiku konran shita.",
+            "german": "Während der Coronapandemie geriet die internationale Logistik durch überlastete Häfen stark durcheinander."
+          },
+          {
+            "japanese": "大学を卒業してから、国際物流の会社に就職した。",
+            "romaji": "Daigaku o sotsugyō shite kara, kokusai butsuryū no kaisha ni shūshoku shita.",
+            "german": "Nach dem Studium habe ich bei einem internationalen Logistikunternehmen angefangen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "compound not in JMdict; closest JMdict 1629510 物流 (physical distribution, logistics) with 国際: international logistics Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 国際物流 ist die internationale Logistik: Transport, Lagerung, Zollabfertigung und Dokumente über Grenzen hinweg. 物流 bezeichnet den physischen Warenfluss, während 流通 den gesamten Vertrieb einschließlich Handel meint. Typisch: 国際物流会社, 国際物流網, 国際物流の混乱/効率化; Dienstleister heißen oft フォワーダー. Register: Wirtschaftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=国際物流; reading=こくさいぶつりゅう; no entry",
+          "finding": "compound not in JMdict; closest JMdict 1629510 物流 (physical distribution, logistics) with 国際: international logistics"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 国際物流/こくさいぶつりゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%9B%BD%E9%9A%9B%E7%89%A9%E6%B5%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 国際物流/こくさいぶつりゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "internationale Logistik. compound not in JMdict; closest JMdict 1629510 物流 (physical distribution, logistics) with 国際: international logistics",
+        "japanese": "国際物流の効率化がグローバル競争の鍵だ。 / コロナ禍では、港の混雑で国際物流が大きく混乱した。 / 大学を卒業してから、国際物流の会社に就職した。",
+        "romanization": "kokusai butsuryū; Kokusai butsuryū no kōritsuka ga gurōbaru kyōsō no kagi da. / Korona-ka de wa, minato no konzatsu de kokusai butsuryū ga ōkiku konran shita. / Daigaku o sotsugyō shite kara, kokusai butsuryū no kaisha ni shūshoku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Effizienzsteigerung der internationalen Logistik ist der Schlüssel zum globalen Wettbewerb. / Während der Coronapandemie geriet die internationale Logistik durch überlastete Häfen stark durcheinander. / Nach dem Studium habe ich bei einem internationalen Logistikunternehmen angefangen.",
+        "contexts": [
+          "Global competition",
+          "Pandemic supply chain chaos",
+          "First job after university"
+        ],
+        "lexical": "compound not in JMdict; closest JMdict 1629510 物流 (physical distribution, logistics) with 国際: international logistics",
+        "register": "business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:686 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Global competition; Pandemic supply chain chaos; First job after university), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "14220391e480764d9c97176a8d7a7c42ff78696e47b4dc0a3d37bb5330b0a08f",
+        "approvalHash": "77b2c8d2473769b7f4c6c912a98a82db4dc04af6dcdff481a1ce1892391d02d2"
+      }
+    },
+    {
+      "id": "vocab-n1:687",
+      "revisionId": "208d-n1-enrichment-vocab-n1-687",
+      "state": "accepted",
+      "predecessorHash": "ebccb4d7cac6171c6cbfa7a5d807a67be9f9e2935b73bfa2ed4456f2c069709c",
+      "originalHash": "ebccb4d7cac6171c6cbfa7a5d807a67be9f9e2935b73bfa2ed4456f2c069709c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "コンテナ輸送の需要が世界的に増加している。",
+            "romaji": "Kontena yusō no juyō ga sekaiteki ni zōka shite iru.",
+            "german": "Die Nachfrage nach Containertransport steigt weltweit."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "コンテナ (auch コンテナー) ist vor allem der genormte Frachtcontainer: コンテナ船, コンテナ輸送, コンテナターミナル, コンテナを積む/降ろす; gezählt wird mit 本 oder 個. Daneben gibt es Miet-Lagercontainer (トランクルーム, レンタルコンテナ) und in der IT Software-Container. Einen gewöhnlichen „Behälter“ im Haushalt nennt man dagegen 容器 oder 入れ物.",
+        "examples": [
+          {
+            "japanese": "コンテナ輸送の需要が世界的に増加している。",
+            "romaji": "Kontena yusō no juyō ga sekaiteki ni zōka shite iru.",
+            "german": "Die Nachfrage nach Containertransport steigt weltweit."
+          },
+          {
+            "japanese": "港には色とりどりのコンテナが山積みになっていた。",
+            "romaji": "Minato ni wa irotoridori no kontena ga yamazumi ni natte ita.",
+            "german": "Im Hafen stapelten sich bunte Container."
+          },
+          {
+            "japanese": "引っ越しまでの間、家具をレンタルのコンテナに預けている。",
+            "romaji": "Hikkoshi made no aida, kagu o rentaru no kontena ni azukete iru.",
+            "german": "Bis zum Umzug lagern meine Möbel in einem gemieteten Container."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0,
+          3
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125988784",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0,
+              3
+            ],
+            "finding": "Exact whole コンテナ/コンテナ; lemma コンテナ-container; 名詞/普通名詞/一般/*; *; *; aType 1,0,3.",
+            "match": {
+              "word": "コンテナ",
+              "reading": "こんてな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen コンテナ/こんてな \"Container\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1052600 sense 1, noun: container (e.g. shipping) Pitch: Verified [1,0,3] via exact UniDic row. コンテナ (auch コンテナー) ist vor allem der genormte Frachtcontainer: コンテナ船, コンテナ輸送, コンテナターミナル, コンテナを積む/降ろす; gezählt wird mit 本 oder 個. Daneben gibt es Miet-Lagercontainer (トランクルーム, レンタルコンテナ) und in der IT Software-Container. Einen gewöhnlichen „Behälter“ im Haushalt nennt man dagegen 容器 oder 入れ物. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1052600; spelling=コンテナ; reading=こんてな",
+          "finding": "JMdict 1052600 sense 1, noun: container (e.g. shipping)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0,3] via exact UniDic row. Exact whole コンテナ/コンテナ; lemma コンテナ-container; 名詞/普通名詞/一般/*; *; *; aType 1,0,3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125988784",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0,
+              3
+            ],
+            "finding": "Exact whole コンテナ/コンテナ; lemma コンテナ-container; 名詞/普通名詞/一般/*; *; *; aType 1,0,3.",
+            "match": {
+              "word": "コンテナ",
+              "reading": "こんてな",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen コンテナ/こんてな \"Container\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Container. JMdict 1052600 sense 1, noun: container (e.g. shipping)",
+        "japanese": "コンテナ輸送の需要が世界的に増加している。 / 港には色とりどりのコンテナが山積みになっていた。 / 引っ越しまでの間、家具をレンタルのコンテナに預けている。",
+        "romanization": "kontena; Kontena yusō no juyō ga sekaiteki ni zōka shite iru. / Minato ni wa irotoridori no kontena ga yamazumi ni natte ita. / Hikkoshi made no aida, kagu o rentaru no kontena ni azukete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Nachfrage nach Containertransport steigt weltweit. / Im Hafen stapelten sich bunte Container. / Bis zum Umzug lagern meine Möbel in einem gemieteten Container.",
+        "contexts": [
+          "Global shipping demand",
+          "View of the harbour",
+          "Storage before moving"
+        ],
+        "lexical": "JMdict 1052600 sense 1, noun: container (e.g. shipping)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:687 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Global shipping demand; View of the harbour; Storage before moving), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b6e9baa6b3331f86d60c0ba6dcf36eb71ecd7d91fd5ac776b1ca8644278b23a0",
+        "approvalHash": "ca02c30bf516cf61690efa72dff3b97227eba231273f8dd6622f83dbfa3c1aa7"
+      }
+    },
+    {
+      "id": "vocab-n1:688",
+      "revisionId": "208d-n1-enrichment-vocab-n1-688",
+      "state": "accepted",
+      "predecessorHash": "bade089fa18c9d653f6775c0fa29209730d5b25425d32ab3c3913924162128c9",
+      "originalHash": "bade089fa18c9d653f6775c0fa29209730d5b25425d32ab3c3913924162128c9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "混載便を利用して小口の貨物を輸送する。",
+            "romaji": "Konsaibin wo riyō shite koguchi no kamotsu wo yusō suru.",
+            "german": "Sammelladungstransport nutzen, um kleine Frachtmengen zu befördern."
+          }
+        ],
+        "meaning": "Sammelladung; Stückgut",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "混載 bedeutet, Güter verschiedener Versender (oder verschiedener Art) gemeinsam in einen Container, Lkw oder ein Flugzeug zu laden – Sammelladung. Typisch: 混載便, 混載貨物, 混載輸送, als する-Verb 荷物を混載する. Gegenbegriff ist die Komplettladung bzw. Charter (貸切, チャーター便). Für kleine Mengen ist 混載 billiger, dauert aber oft länger. Register: Logistikfachsprache.",
+        "examples": [
+          {
+            "japanese": "混載便を利用して小口の貨物を輸送する。",
+            "romaji": "Konsaibin wo riyō shite koguchi no kamotsu wo yusō suru.",
+            "german": "Sammelladungstransport nutzen, um kleine Frachtmengen zu befördern."
+          },
+          {
+            "japanese": "荷物が少ないなら、コンテナを借り切るより混載にしたほうが安い。",
+            "romaji": "Nimotsu ga sukunai nara, kontena o karikiru yori konsai ni shita hō ga yasui.",
+            "german": "Bei wenig Fracht ist eine Sammelladung billiger, als einen ganzen Container zu mieten."
+          },
+          {
+            "japanese": "このトラックは、冷凍食品と常温の商品を混載できる。",
+            "romaji": "Kono torakku wa, reitō shokuhin to jōon no shōhin o konsai dekiru.",
+            "german": "Dieser Lkw kann Tiefkühlware und ungekühlte Waren zusammen laden."
+          }
+        ],
+        "meaning": "Sammelladung; gemischte Beladung",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125875630",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 混載/コンサイ; lemma 混載; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "混載",
+              "reading": "こんさい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 混載/こんさい \"Sammelladung; Stückgut\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1290370 sense 1, noun / suru verb / no-adjective: mixed loading, consolidation Pitch: Verified [0] via exact UniDic row. 混載 bedeutet, Güter verschiedener Versender (oder verschiedener Art) gemeinsam in einen Container, Lkw oder ein Flugzeug zu laden – Sammelladung. Typisch: 混載便, 混載貨物, 混載輸送, als する-Verb 荷物を混載する. Gegenbegriff ist die Komplettladung bzw. Charter (貸切, チャーター便). Für kleine Mengen ist 混載 billiger, dauert aber oft länger. Register: Logistikfachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1290370; spelling=混載; reading=こんさい",
+          "selected": {
+            "sequence": "1290370",
+            "spelling": "混載",
+            "reading": "こんさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mixed loading",
+                  "consolidation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1290370 sense 1, noun / suru verb / no-adjective: mixed loading, consolidation"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 混載/コンサイ; lemma 混載; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@125875630",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 混載/コンサイ; lemma 混載; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "混載",
+              "reading": "こんさい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 混載/こんさい \"Sammelladung; Stückgut\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sammelladung; gemischte Beladung. JMdict 1290370 sense 1, noun / suru verb / no-adjective: mixed loading, consolidation",
+        "japanese": "混載便を利用して小口の貨物を輸送する。 / 荷物が少ないなら、コンテナを借り切るより混載にしたほうが安い。 / このトラックは、冷凍食品と常温の商品を混載できる。",
+        "romanization": "konsai; Konsaibin wo riyō shite koguchi no kamotsu wo yusō suru. / Nimotsu ga sukunai nara, kontena o karikiru yori konsai ni shita hō ga yasui. / Kono torakku wa, reitō shokuhin to jōon no shōhin o konsai dekiru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sammelladungstransport nutzen, um kleine Frachtmengen zu befördern. / Bei wenig Fracht ist eine Sammelladung billiger, als einen ganzen Container zu mieten. / Dieser Lkw kann Tiefkühlware und ungekühlte Waren zusammen laden.",
+        "contexts": [
+          "Shipping small consignments",
+          "Comparing freight options",
+          "Mixed-temperature truck"
+        ],
+        "lexical": "JMdict 1290370 sense 1, noun / suru verb / no-adjective: mixed loading, consolidation",
+        "register": "logistics jargon",
+        "transitivity": "transitive as 混載する (貨物を混載する)",
+        "conjugation": "noun; suru verb (混載する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:688 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shipping small consignments; Comparing freight options; Mixed-temperature truck), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0e3aeae916b00ab2c2273f2954ca57a42bc26b9a09d468b831a9e11db79de873",
+        "approvalHash": "a9b279f0959cf09b4a0972dbb17080f1c3b569d5c17fc1e69703a10526a5268c"
+      }
+    },
+    {
+      "id": "vocab-n1:689",
+      "revisionId": "208d-n1-enrichment-vocab-n1-689",
+      "state": "accepted",
+      "predecessorHash": "59737349f581e9db3040c4c1faf083387f003da22eaa0feee7c5f116dd7daa7f",
+      "originalHash": "59737349f581e9db3040c4c1faf083387f003da22eaa0feee7c5f116dd7daa7f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "船積み期限までに貨物を港に搬入する。",
+            "romaji": "Funazumi kigen made ni kamotsu wo minato ni hannyū suru.",
+            "german": "Die Fracht bis zum Verschiffungstermin in den Hafen einliefern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "船積み (auch 船積) ist das Verladen von Waren auf ein Schiff zur Verschiffung; als する-Verb transitiv: 貨物を船積みする. Typisch im Außenhandel: 船積み書類 „Verschiffungsdokumente“, 船積み港, 船積み日, 船積み期限. Das Gegenteil ist das Löschen der Ladung: 荷揚げ, 陸揚げ oder 揚げ荷. Allgemeiner ist 積み込み „Beladen“ von Fahrzeugen aller Art. Register: Handels- und Logistiksprache.",
+        "examples": [
+          {
+            "japanese": "船積み期限までに貨物を港に搬入する。",
+            "romaji": "Funazumi kigen made ni kamotsu wo minato ni hannyū suru.",
+            "german": "Die Fracht bis zum Verschiffungstermin in den Hafen einliefern."
+          },
+          {
+            "japanese": "船積みが済んだら、すぐに船積み書類を買い手に送ってください。",
+            "romaji": "Funazumi ga sundara, sugu ni funazumi shorui o kaite ni okutte kudasai.",
+            "german": "Sobald die Ware verschifft ist, schicken Sie bitte sofort die Verschiffungsdokumente an den Käufer."
+          },
+          {
+            "japanese": "横浜港で、輸出用の自動車を船積みする様子を見学した。",
+            "romaji": "Yokohama-kō de, yushutsuyō no jidōsha o funazumi suru yōsu o kengaku shita.",
+            "german": "Wir haben im Hafen von Yokohama zugesehen, wie Exportautos verladen werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234296305",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 船積み/フナヅミ; lemma 船積み; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "船積み",
+              "reading": "ふなづみ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 船積み/ふなづみ \"Verschiffung; Verladung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1736380 sense 1, noun / suru verb (transitive): lading, shipment Pitch: Verified [0] via exact UniDic row. 船積み (auch 船積) ist das Verladen von Waren auf ein Schiff zur Verschiffung; als する-Verb transitiv: 貨物を船積みする. Typisch im Außenhandel: 船積み書類 „Verschiffungsdokumente“, 船積み港, 船積み日, 船積み期限. Das Gegenteil ist das Löschen der Ladung: 荷揚げ, 陸揚げ oder 揚げ荷. Allgemeiner ist 積み込み „Beladen“ von Fahrzeugen aller Art. Register: Handels- und Logistiksprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1736380; spelling=船積み; reading=ふなづみ",
+          "selected": {
+            "sequence": "1736380",
+            "spelling": "船積み",
+            "reading": "ふなづみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lading",
+                  "shipment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1736380 sense 1, noun / suru verb (transitive): lading, shipment"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 船積み/フナヅミ; lemma 船積み; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@234296305",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 船積み/フナヅミ; lemma 船積み; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "船積み",
+              "reading": "ふなづみ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 船積み/ふなづみ \"Verschiffung; Verladung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verschiffung; Verladung. JMdict 1736380 sense 1, noun / suru verb (transitive): lading, shipment",
+        "japanese": "船積み期限までに貨物を港に搬入する。 / 船積みが済んだら、すぐに船積み書類を買い手に送ってください。 / 横浜港で、輸出用の自動車を船積みする様子を見学した。",
+        "romanization": "funazumi; Funazumi kigen made ni kamotsu wo minato ni hannyū suru. / Funazumi ga sundara, sugu ni funazumi shorui o kaite ni okutte kudasai. / Yokohama-kō de, yushutsuyō no jidōsha o funazumi suru yōsu o kengaku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Fracht bis zum Verschiffungstermin in den Hafen einliefern. / Sobald die Ware verschifft ist, schicken Sie bitte sofort die Verschiffungsdokumente an den Käufer. / Wir haben im Hafen von Yokohama zugesehen, wie Exportautos verladen werden.",
+        "contexts": [
+          "Shipping deadline",
+          "Sending documents to the buyer",
+          "Port tour"
+        ],
+        "lexical": "JMdict 1736380 sense 1, noun / suru verb (transitive): lading, shipment",
+        "register": "trade / logistics",
+        "transitivity": "transitive as 船積みする (貨物を船積みする)",
+        "conjugation": "noun; suru verb (船積みする)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:689 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shipping deadline; Sending documents to the buyer; Port tour), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a0a2dd7eb8520444b079a0c61061ce60212bbdc961e8fc1e340ca868656ccefe",
+        "approvalHash": "bcc19452adb8daa75cf9cc252f215910ea03f2138074b6d497e42082d7cc60df"
+      }
+    },
+    {
+      "id": "vocab-n1:690",
+      "revisionId": "208d-n1-enrichment-vocab-n1-690",
+      "state": "accepted",
+      "predecessorHash": "3646ea3f48acbc433836275e7ffb9644d6e1d1f81ea1722246f36ac4054920b7",
+      "originalHash": "3646ea3f48acbc433836275e7ffb9644d6e1d1f81ea1722246f36ac4054920b7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "揚げ荷作業が天候の影響で遅延した。",
+            "romaji": "Ageni sagyō ga tenkō no eikyō de chien shita.",
+            "german": "Die Entladungsarbeiten verzögerten sich aufgrund des Wetters."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "揚げ荷 (auch 揚荷) ist Hafenfachsprache: die aus einem Schiff entladene („gelöschte“) Fracht bzw. das Löschen selbst; 揚げる bedeutet hier „an Land bringen“. Das Gegenstück ist 積み荷 „geladene Fracht“. Typisch: 揚げ荷作業, 揚げ荷役. Im allgemeinen Sprachgebrauch sind 荷揚げ (auch auf Baustellen) und 陸揚げ viel häufiger. Register: Fachsprache.",
+        "examples": [
+          {
+            "japanese": "揚げ荷作業が天候の影響で遅延した。",
+            "romaji": "Ageni sagyō ga tenkō no eikyō de chien shita.",
+            "german": "Die Entladungsarbeiten verzögerten sich aufgrund des Wetters."
+          },
+          {
+            "japanese": "揚げ荷の数量が、船荷証券の記載と一致しなかった。",
+            "romaji": "Ageni no sūryō ga, funani shōken no kisai to itchi shinakatta.",
+            "german": "Die Menge der gelöschten Fracht stimmte nicht mit den Angaben im Konnossement überein."
+          },
+          {
+            "japanese": "揚げ荷の中に破損した箱が見つかり、保険会社に連絡した。",
+            "romaji": "Ageni no naka ni hason shita hako ga mitsukari, hoken gaisha ni renraku shita.",
+            "german": "Unter der gelöschten Fracht fanden sich beschädigte Kisten, also haben wir die Versicherung verständigt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "not in JMdict; closest JMdict 1195470 荷揚げ (unloading, landing): discharged cargo, discharging of cargo Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 揚げ荷 (auch 揚荷) ist Hafenfachsprache: die aus einem Schiff entladene („gelöschte“) Fracht bzw. das Löschen selbst; 揚げる bedeutet hier „an Land bringen“. Das Gegenstück ist 積み荷 „geladene Fracht“. Typisch: 揚げ荷作業, 揚げ荷役. Im allgemeinen Sprachgebrauch sind 荷揚げ (auch auf Baustellen) und 陸揚げ viel häufiger. Register: Fachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=揚げ荷; reading=あげに; no entry",
+          "finding": "not in JMdict; closest JMdict 1195470 荷揚げ (unloading, landing): discharged cargo, discharging of cargo"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 揚げ荷/あげに scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8F%9A%E3%81%92%E8%8D%B7",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 揚げ荷/あげに scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entladung; gelöschte Fracht. not in JMdict; closest JMdict 1195470 荷揚げ (unloading, landing): discharged cargo, discharging of cargo",
+        "japanese": "揚げ荷作業が天候の影響で遅延した。 / 揚げ荷の数量が、船荷証券の記載と一致しなかった。 / 揚げ荷の中に破損した箱が見つかり、保険会社に連絡した。",
+        "romanization": "ageni; Ageni sagyō ga tenkō no eikyō de chien shita. / Ageni no sūryō ga, funani shōken no kisai to itchi shinakatta. / Ageni no naka ni hason shita hako ga mitsukari, hoken gaisha ni renraku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Entladungsarbeiten verzögerten sich aufgrund des Wetters. / Die Menge der gelöschten Fracht stimmte nicht mit den Angaben im Konnossement überein. / Unter der gelöschten Fracht fanden sich beschädigte Kisten, also haben wir die Versicherung verständigt.",
+        "contexts": [
+          "Weather delay at the port",
+          "Quantity mismatch",
+          "Damaged cargo claim"
+        ],
+        "lexical": "not in JMdict; closest JMdict 1195470 荷揚げ (unloading, landing): discharged cargo, discharging of cargo",
+        "register": "technical / port jargon",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:690 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Weather delay at the port; Quantity mismatch; Damaged cargo claim), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c2bfa31a799ae852eea84fb0d3950d7694eb953086e46e1e5bf31afed7be1353",
+        "approvalHash": "7f2ccff00f6c9ee0f297f6e622aca04d391897d7c71a8b039f2d0353b79ebc5a"
+      }
+    },
+    {
+      "id": "vocab-n1:691",
+      "revisionId": "208d-n1-enrichment-vocab-n1-691",
+      "state": "accepted",
+      "predecessorHash": "bdee7d7050acc9c958af88223ba65986b8fb679f693205c82454d27326e8f8ed",
+      "originalHash": "bdee7d7050acc9c958af88223ba65986b8fb679f693205c82454d27326e8f8ed",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "航空貨物の取扱量が増加している。",
+            "romaji": "Kōkū kamotsu no toriatsukai ryō ga zōka shite iru.",
+            "german": "Das Luftfrachtaufkommen nimmt zu."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "航空貨物 ist Luftfracht, also Güter, die per Flugzeug befördert werden, im Gegensatz zu Passagieren (旅客). Typisch: 航空貨物で送る, 航空貨物便, 航空貨物運賃, 航空貨物ターミナル. Luftfracht ist schnell, aber teurer als Seefracht (海上輸送, 船便). Für Pakete und Briefe sagt man im Alltag einfach 航空便 „Luftpost“. Register: Logistik- und Handelssprache.",
+        "examples": [
+          {
+            "japanese": "航空貨物の取扱量が増加している。",
+            "romaji": "Kōkū kamotsu no toriatsukai ryō ga zōka shite iru.",
+            "german": "Das Luftfrachtaufkommen nimmt zu."
+          },
+          {
+            "japanese": "急ぎの部品なので、船便ではなく航空貨物で送った。",
+            "romaji": "Isogi no buhin na node, funabin de wa naku kōkū kamotsu de okutta.",
+            "german": "Weil die Teile dringend waren, haben wir sie nicht per Schiff, sondern als Luftfracht verschickt."
+          },
+          {
+            "japanese": "成田空港の航空貨物ターミナルで、輸入品の検査が行われている。",
+            "romaji": "Narita Kūkō no kōkū kamotsu tāminaru de, yunyūhin no kensa ga okonawarete iru.",
+            "german": "Im Luftfrachtterminal des Flughafens Narita werden Importwaren kontrolliert."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2598060 sense 1, noun: air cargo, air freight Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 航空貨物 ist Luftfracht, also Güter, die per Flugzeug befördert werden, im Gegensatz zu Passagieren (旅客). Typisch: 航空貨物で送る, 航空貨物便, 航空貨物運賃, 航空貨物ターミナル. Luftfracht ist schnell, aber teurer als Seefracht (海上輸送, 船便). Für Pakete und Briefe sagt man im Alltag einfach 航空便 „Luftpost“. Register: Logistik- und Handelssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2598060; spelling=航空貨物; reading=こうくうかもつ",
+          "selected": {
+            "sequence": "2598060",
+            "spelling": "航空貨物",
+            "reading": "こうくうかもつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "air cargo",
+                  "air freight"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2598060 sense 1, noun: air cargo, air freight"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 航空貨物/こうくうかもつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%88%AA%E7%A9%BA%E8%B2%A8%E7%89%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 航空貨物/こうくうかもつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Luftfracht. JMdict 2598060 sense 1, noun: air cargo, air freight",
+        "japanese": "航空貨物の取扱量が増加している。 / 急ぎの部品なので、船便ではなく航空貨物で送った。 / 成田空港の航空貨物ターミナルで、輸入品の検査が行われている。",
+        "romanization": "kōkū kamotsu; Kōkū kamotsu no toriatsukai ryō ga zōka shite iru. / Isogi no buhin na node, funabin de wa naku kōkū kamotsu de okutta. / Narita Kūkō no kōkū kamotsu tāminaru de, yunyūhin no kensa ga okonawarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Luftfrachtaufkommen nimmt zu. / Weil die Teile dringend waren, haben wir sie nicht per Schiff, sondern als Luftfracht verschickt. / Im Luftfrachtterminal des Flughafens Narita werden Importwaren kontrolliert.",
+        "contexts": [
+          "Cargo volume statistics",
+          "Urgent parts shipment",
+          "Customs inspection at the airport"
+        ],
+        "lexical": "JMdict 2598060 sense 1, noun: air cargo, air freight",
+        "register": "business / logistics",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:691 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cargo volume statistics; Urgent parts shipment; Customs inspection at the airport), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ead53168dbb001f704504232f1a822cf8e994bb74b5bf67a76a5149a97abc562",
+        "approvalHash": "9db3436295291400dde3ceef2d1691e136b7248d6bd0b9077828d5a1a9a50fd8"
+      }
+    },
+    {
+      "id": "vocab-n1:692",
+      "revisionId": "208d-n1-enrichment-vocab-n1-692",
+      "state": "accepted",
+      "predecessorHash": "75a98c85fb8553ca6d80d7012f06461897d5c0134a5c3913014a9ce3517fe422",
+      "originalHash": "75a98c85fb8553ca6d80d7012f06461897d5c0134a5c3913014a9ce3517fe422",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "海上輸送は大量輸送に適している。",
+            "romaji": "Kaijō yusō wa tairyō yusō ni tekishite iru.",
+            "german": "Der Seetransport eignet sich für den Massentransport."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "海上輸送 ist der Gütertransport per Schiff über das Meer. Er ist langsam, aber für große Mengen am günstigsten; die Gegenstücke sind 航空輸送 und 陸上輸送. Typisch: 海上輸送のコスト/ルート, 海上輸送が滞る, als する-Verb 原油を海上輸送する. Die Schifffahrt als Branche heißt 海運, für Pakete sagt man im Alltag 船便. Register: Wirtschafts- und Pressesprache.",
+        "examples": [
+          {
+            "japanese": "海上輸送は大量輸送に適している。",
+            "romaji": "Kaijō yusō wa tairyō yusō ni tekishite iru.",
+            "german": "Der Seetransport eignet sich für den Massentransport."
+          },
+          {
+            "japanese": "海上輸送は時間がかかるが、航空便よりずっと安い。",
+            "romaji": "Kaijō yusō wa jikan ga kakaru ga, kōkūbin yori zutto yasui.",
+            "german": "Seefracht dauert zwar länger, ist aber viel billiger als Luftfracht."
+          },
+          {
+            "japanese": "運河が通れなくなり、世界の海上輸送に大きな影響が出た。",
+            "romaji": "Unga ga tōrenaku nari, sekai no kaijō yusō ni ōki na eikyō ga deta.",
+            "german": "Die Sperrung des Kanals hatte große Auswirkungen auf den weltweiten Seetransport."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2653690 sense 1, noun: marine transport, carriage by sea Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 海上輸送 ist der Gütertransport per Schiff über das Meer. Er ist langsam, aber für große Mengen am günstigsten; die Gegenstücke sind 航空輸送 und 陸上輸送. Typisch: 海上輸送のコスト/ルート, 海上輸送が滞る, als する-Verb 原油を海上輸送する. Die Schifffahrt als Branche heißt 海運, für Pakete sagt man im Alltag 船便. Register: Wirtschafts- und Pressesprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2653690; spelling=海上輸送; reading=かいじょうゆそう",
+          "selected": {
+            "sequence": "2653690",
+            "spelling": "海上輸送",
+            "reading": "かいじょうゆそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "marine transport",
+                  "carriage by sea"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2653690 sense 1, noun: marine transport, carriage by sea"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 海上輸送/かいじょうゆそう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B5%B7%E4%B8%8A%E8%BC%B8%E9%80%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 海上輸送/かいじょうゆそう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Seetransport; Seefracht. JMdict 2653690 sense 1, noun: marine transport, carriage by sea",
+        "japanese": "海上輸送は大量輸送に適している。 / 海上輸送は時間がかかるが、航空便よりずっと安い。 / 運河が通れなくなり、世界の海上輸送に大きな影響が出た。",
+        "romanization": "kaijō yusō; Kaijō yusō wa tairyō yusō ni tekishite iru. / Kaijō yusō wa jikan ga kakaru ga, kōkūbin yori zutto yasui. / Unga ga tōrenaku nari, sekai no kaijō yusō ni ōki na eikyō ga deta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Seetransport eignet sich für den Massentransport. / Seefracht dauert zwar länger, ist aber viel billiger als Luftfracht. / Die Sperrung des Kanals hatte große Auswirkungen auf den weltweiten Seetransport.",
+        "contexts": [
+          "Suitability for bulk cargo",
+          "Cost comparison",
+          "Canal blockage news"
+        ],
+        "lexical": "JMdict 2653690 sense 1, noun: marine transport, carriage by sea",
+        "register": "business / media",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:692 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Suitability for bulk cargo; Cost comparison; Canal blockage news), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "590d879cdf4182d7125e29ceb0be4ad8c545c67bf194329c4f3f2b25990c7d59",
+        "approvalHash": "023abe23e47ff5427f35d6c128a8253cb37b4989f769bb2a423991808af69be6"
+      }
+    },
+    {
+      "id": "vocab-n1:693",
+      "revisionId": "208d-n1-enrichment-vocab-n1-693",
+      "state": "accepted",
+      "predecessorHash": "5c20c96d284a353b2db44220b4af485fc39c7e8c650ad0bc058b54f2d8cf1604",
+      "originalHash": "5c20c96d284a353b2db44220b4af485fc39c7e8c650ad0bc058b54f2d8cf1604",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "陸上輸送網の整備が物流効率を向上させる。",
+            "romaji": "Rikujō yusō mō no seibi ga butsuryū kōritsu wo kōjō saseru.",
+            "german": "Der Ausbau des Landtransportnetzes verbessert die Logistikeffizienz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "陸上輸送 ist der Transport auf dem Landweg per Lkw oder Bahn, im Gegensatz zu 海上輸送 und 航空輸送. Die Kurzform 陸送 begegnet besonders bei Fahrzeugüberführungen (陸送会社). Typisch: 陸上輸送網, 陸上輸送のコスト, 陸上輸送に切り替える. Nicht verwechseln mit 陸上 im Sinn von „Leichtathletik“ (陸上競技). Register: Wirtschafts- und Logistiksprache.",
+        "examples": [
+          {
+            "japanese": "陸上輸送網の整備が物流効率を向上させる。",
+            "romaji": "Rikujō yusō mō no seibi ga butsuryū kōritsu wo kōjō saseru.",
+            "german": "Der Ausbau des Landtransportnetzes verbessert die Logistikeffizienz."
+          },
+          {
+            "japanese": "港に着いたコンテナは、陸上輸送で内陸の工場まで運ばれる。",
+            "romaji": "Minato ni tsuita kontena wa, rikujō yusō de nairiku no kōjō made hakobareru.",
+            "german": "Die im Hafen angekommenen Container werden auf dem Landweg zu den Fabriken im Binnenland gebracht."
+          },
+          {
+            "japanese": "運転手不足で、陸上輸送のコストが上がっている。",
+            "romaji": "Untenshu busoku de, rikujō yusō no kosuto ga agatte iru.",
+            "german": "Wegen Fahrermangels steigen die Kosten für den Landtransport."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2857256 sense 1, noun: overland transport, land carriage Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 陸上輸送 ist der Transport auf dem Landweg per Lkw oder Bahn, im Gegensatz zu 海上輸送 und 航空輸送. Die Kurzform 陸送 begegnet besonders bei Fahrzeugüberführungen (陸送会社). Typisch: 陸上輸送網, 陸上輸送のコスト, 陸上輸送に切り替える. Nicht verwechseln mit 陸上 im Sinn von „Leichtathletik“ (陸上競技). Register: Wirtschafts- und Logistiksprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2857256; spelling=陸上輸送; reading=りくじょうゆそう",
+          "selected": {
+            "sequence": "2857256",
+            "spelling": "陸上輸送",
+            "reading": "りくじょうゆそう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "overland transport",
+                  "land carriage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2857256 sense 1, noun: overland transport, land carriage"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 陸上輸送/りくじょうゆそう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%99%B8%E4%B8%8A%E8%BC%B8%E9%80%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 陸上輸送/りくじょうゆそう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Landtransport. JMdict 2857256 sense 1, noun: overland transport, land carriage",
+        "japanese": "陸上輸送網の整備が物流効率を向上させる。 / 港に着いたコンテナは、陸上輸送で内陸の工場まで運ばれる。 / 運転手不足で、陸上輸送のコストが上がっている。",
+        "romanization": "rikujō yusō; Rikujō yusō mō no seibi ga butsuryū kōritsu wo kōjō saseru. / Minato ni tsuita kontena wa, rikujō yusō de nairiku no kōjō made hakobareru. / Untenshu busoku de, rikujō yusō no kosuto ga agatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Ausbau des Landtransportnetzes verbessert die Logistikeffizienz. / Die im Hafen angekommenen Container werden auf dem Landweg zu den Fabriken im Binnenland gebracht. / Wegen Fahrermangels steigen die Kosten für den Landtransport.",
+        "contexts": [
+          "Infrastructure investment",
+          "From port to factory",
+          "Driver shortage"
+        ],
+        "lexical": "JMdict 2857256 sense 1, noun: overland transport, land carriage",
+        "register": "business / logistics",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:693 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Infrastructure investment; From port to factory; Driver shortage), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c3064156c7807ea5b0157ca728944abd1db1fcacc1518a62c20c52c601a0a1ed",
+        "approvalHash": "e9a5304f931eae1bfa448991ad690a6e971023053be03c173931adbfb16230fb"
+      }
+    },
+    {
+      "id": "vocab-n1:694",
+      "revisionId": "208d-n1-enrichment-vocab-n1-694",
+      "state": "accepted",
+      "predecessorHash": "c4a31a845f32a6c2c5dd6ddbdd6912ce3e5bcade9f470831edcae19b3ae83f5d",
+      "originalHash": "c4a31a845f32a6c2c5dd6ddbdd6912ce3e5bcade9f470831edcae19b3ae83f5d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "複合輸送により効率的な配送を実現する。",
+            "romaji": "Fukugō yusō ni yori kōritsuteki na haisō wo jitsugen suru.",
+            "german": "Durch multimodalen Transport eine effiziente Lieferung verwirklichen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "複合輸送 (複合 „kombiniert, zusammengesetzt“ + 輸送) bezeichnet Transporte, bei denen mehrere Verkehrsträger wie Schiff, Bahn, Lkw oder Flugzeug kombiniert werden, meist mit einem einzigen Vertrag und einem verantwortlichen Unternehmen (国際複合輸送, 複合一貫輸送). Verwandt ist モーダルシフト, die Verlagerung vom Lkw auf Bahn oder Schiff. Register: Logistikfachsprache.",
+        "examples": [
+          {
+            "japanese": "複合輸送により効率的な配送を実現する。",
+            "romaji": "Fukugō yusō ni yori kōritsuteki na haisō wo jitsugen suru.",
+            "german": "Durch multimodalen Transport eine effiziente Lieferung verwirklichen."
+          },
+          {
+            "japanese": "海と鉄道を組み合わせた複合輸送で、ヨーロッパまで二十日ほどで届く。",
+            "romaji": "Umi to tetsudō o kumiawaseta fukugō yusō de, Yōroppa made hatsuka hodo de todoku.",
+            "german": "Im kombinierten See-Schienen-Transport ist die Ware in etwa zwanzig Tagen in Europa."
+          },
+          {
+            "japanese": "複合輸送では、一つの業者が全区間の責任を負う。",
+            "romaji": "Fukugō yusō de wa, hitotsu no gyōsha ga zen kukan no sekinin o ou.",
+            "german": "Beim multimodalen Transport haftet ein einziges Unternehmen für die gesamte Strecke."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "compound not in JMdict; closest JMdict 1538850 輸送 (transport) with 複合: multimodal / combined transport Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 複合輸送 (複合 „kombiniert, zusammengesetzt“ + 輸送) bezeichnet Transporte, bei denen mehrere Verkehrsträger wie Schiff, Bahn, Lkw oder Flugzeug kombiniert werden, meist mit einem einzigen Vertrag und einem verantwortlichen Unternehmen (国際複合輸送, 複合一貫輸送). Verwandt ist モーダルシフト, die Verlagerung vom Lkw auf Bahn oder Schiff. Register: Logistikfachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=複合輸送; reading=ふくごうゆそう; no entry",
+          "finding": "compound not in JMdict; closest JMdict 1538850 輸送 (transport) with 複合: multimodal / combined transport"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 複合輸送/ふくごうゆそう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A4%87%E5%90%88%E8%BC%B8%E9%80%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 複合輸送/ふくごうゆそう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "multimodaler Transport; kombinierter Verkehr. compound not in JMdict; closest JMdict 1538850 輸送 (transport) with 複合: multimodal / combined transport",
+        "japanese": "複合輸送により効率的な配送を実現する。 / 海と鉄道を組み合わせた複合輸送で、ヨーロッパまで二十日ほどで届く。 / 複合輸送では、一つの業者が全区間の責任を負う。",
+        "romanization": "fukugō yusō; Fukugō yusō ni yori kōritsuteki na haisō wo jitsugen suru. / Umi to tetsudō o kumiawaseta fukugō yusō de, Yōroppa made hatsuka hodo de todoku. / Fukugō yusō de wa, hitotsu no gyōsha ga zen kukan no sekinin o ou. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch multimodalen Transport eine effiziente Lieferung verwirklichen. / Im kombinierten See-Schienen-Transport ist die Ware in etwa zwanzig Tagen in Europa. / Beim multimodalen Transport haftet ein einziges Unternehmen für die gesamte Strecke.",
+        "contexts": [
+          "Efficient delivery",
+          "Sea-rail route to Europe",
+          "Single-carrier liability"
+        ],
+        "lexical": "compound not in JMdict; closest JMdict 1538850 輸送 (transport) with 複合: multimodal / combined transport",
+        "register": "technical / logistics",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:694 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Efficient delivery; Sea-rail route to Europe; Single-carrier liability), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2edaec37fe75054c23ed2e673354fa4e9099cdded691347edb64e39727da9b23",
+        "approvalHash": "56a8ccc42f0d6c2a9342b90dc25aec476f58d59a3fa3e0db4badfcd123607b81"
+      }
+    },
+    {
+      "id": "vocab-n1:695",
+      "revisionId": "208d-n1-enrichment-vocab-n1-695",
+      "state": "accepted",
+      "predecessorHash": "c737c353f3a0a2f601e9e96281c7da1a6b2d4371b520037cb28597466bf2fcc1",
+      "originalHash": "c737c353f3a0a2f601e9e96281c7da1a6b2d4371b520037cb28597466bf2fcc1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "傭船契約を結んで大量の原油を輸送する。",
+            "romaji": "Yōsen keiyaku wo musunde tairyō no gen'yu wo yusō suru.",
+            "german": "Einen Chartervertrag abschließen und große Mengen Rohöl transportieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "傭船 ist das Chartern eines Schiffes bzw. das gecharterte Schiff selbst. Da 傭 kein Jōyō-Kanji ist, schreibt man oft 用船. Typisch: 傭船契約 „Chartervertrag“ (定期傭船 „Zeitcharter“, 航海傭船 „Reisecharter“), 傭船料 „Charterrate“, als する-Verb 貨物船を傭船する. Im Alltag, etwa für Busse oder Flüge, sagt man チャーター. Register: Fachsprache der Schifffahrt.",
+        "examples": [
+          {
+            "japanese": "傭船契約を結んで大量の原油を輸送する。",
+            "romaji": "Yōsen keiyaku wo musunde tairyō no gen'yu wo yusō suru.",
+            "german": "Einen Chartervertrag abschließen und große Mengen Rohöl transportieren."
+          },
+          {
+            "japanese": "自社船だけでは足りず、外国の船会社から貨物船を傭船した。",
+            "romaji": "Jishasen dake de wa tarizu, gaikoku no funagaisha kara kamotsusen o yōsen shita.",
+            "german": "Die eigenen Schiffe reichten nicht, deshalb charterten wir einen Frachter von einer ausländischen Reederei."
+          },
+          {
+            "japanese": "燃料価格の上昇で、傭船料が大幅に値上がりした。",
+            "romaji": "Nenryō kakaku no jōshō de, yōsenryō ga ōhaba ni neagari shita.",
+            "german": "Wegen höherer Treibstoffpreise haben sich die Charterraten deutlich verteuert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273057454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 傭船/ヨウセン; lemma 傭船; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "傭船",
+              "reading": "ようせん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 傭船/ようせん \"Charterung; Schiffsmiete\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1545070 sense 1, noun / suru verb: chartered ship; chartering a vessel Pitch: Verified [0] via exact UniDic row. 傭船 ist das Chartern eines Schiffes bzw. das gecharterte Schiff selbst. Da 傭 kein Jōyō-Kanji ist, schreibt man oft 用船. Typisch: 傭船契約 „Chartervertrag“ (定期傭船 „Zeitcharter“, 航海傭船 „Reisecharter“), 傭船料 „Charterrate“, als する-Verb 貨物船を傭船する. Im Alltag, etwa für Busse oder Flüge, sagt man チャーター. Register: Fachsprache der Schifffahrt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1545070; spelling=傭船; reading=ようせん",
+          "selected": {
+            "sequence": "1545070",
+            "spelling": "傭船",
+            "reading": "ようせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "chartered ship",
+                  "chartering or hiring a vessel"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1545070 sense 1, noun / suru verb: chartered ship; chartering a vessel"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 傭船/ヨウセン; lemma 傭船; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273057454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 傭船/ヨウセン; lemma 傭船; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "傭船",
+              "reading": "ようせん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 傭船/ようせん \"Charterung; Schiffsmiete\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Charterung; Schiffsmiete. JMdict 1545070 sense 1, noun / suru verb: chartered ship; chartering a vessel",
+        "japanese": "傭船契約を結んで大量の原油を輸送する。 / 自社船だけでは足りず、外国の船会社から貨物船を傭船した。 / 燃料価格の上昇で、傭船料が大幅に値上がりした。",
+        "romanization": "yōsen; Yōsen keiyaku wo musunde tairyō no gen'yu wo yusō suru. / Jishasen dake de wa tarizu, gaikoku no funagaisha kara kamotsusen o yōsen shita. / Nenryō kakaku no jōshō de, yōsenryō ga ōhaba ni neagari shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Einen Chartervertrag abschließen und große Mengen Rohöl transportieren. / Die eigenen Schiffe reichten nicht, deshalb charterten wir einen Frachter von einer ausländischen Reederei. / Wegen höherer Treibstoffpreise haben sich die Charterraten deutlich verteuert.",
+        "contexts": [
+          "Crude oil transport",
+          "Lack of own vessels",
+          "Rising charter rates"
+        ],
+        "lexical": "JMdict 1545070 sense 1, noun / suru verb: chartered ship; chartering a vessel",
+        "register": "technical / shipping",
+        "transitivity": "transitive as 傭船する (船を傭船する)",
+        "conjugation": "noun; suru verb (傭船する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:695 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Crude oil transport; Lack of own vessels; Rising charter rates), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "11efbd1a4f530a2c957d44277aac34ab96ee334404e0eab8b79650bebf3cc4f4",
+        "approvalHash": "94786f664f74a82558dc51eb9abb89c6d27fbd03fe4ff547802d37b3a3dfa773"
+      }
+    },
+    {
+      "id": "vocab-n1:696",
+      "revisionId": "208d-n1-enrichment-vocab-n1-696",
+      "state": "accepted",
+      "predecessorHash": "641ff6d530aeec260e0008bb2f892ad32c62635279aaa236a81891d77b4d334e",
+      "originalHash": "641ff6d530aeec260e0008bb2f892ad32c62635279aaa236a81891d77b4d334e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "海上保険に加入して輸送中のリスクに備える。",
+            "romaji": "Kaijō hoken ni kanyū shite yusōchū no risuku ni sonaeru.",
+            "german": "Eine Seeversicherung abschließen und sich gegen Transportrisiken absichern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "海上保険 ist die Seeversicherung; sie deckt Schiffe (船舶保険) und vor allem Fracht auf See (貨物海上保険). Typisch: 海上保険に加入する, 海上保険を付ける/掛ける, 海上保険料. Im Außenhandel regeln die Lieferklauseln, wer sie abschließt – bei CIF der Verkäufer. 貨物保険 umfasst auch Luft- und Landtransport, 損害保険 ist der Oberbegriff „Sachversicherung“. Register: Fachsprache.",
+        "examples": [
+          {
+            "japanese": "海上保険に加入して輸送中のリスクに備える。",
+            "romaji": "Kaijō hoken ni kanyū shite yusōchū no risuku ni sonaeru.",
+            "german": "Eine Seeversicherung abschließen und sich gegen Transportrisiken absichern."
+          },
+          {
+            "japanese": "CIF条件では、売り手が海上保険を手配する。",
+            "romaji": "CIF jōken de wa, urite ga kaijō hoken o tehai suru.",
+            "german": "Bei CIF-Lieferung schließt der Verkäufer die Seeversicherung ab."
+          },
+          {
+            "japanese": "海上保険は、ロンドンのコーヒーハウスから発展したと言われる。",
+            "romaji": "Kaijō hoken wa, Rondon no kōhī hausu kara hatten shita to iwareru.",
+            "german": "Die Seeversicherung soll sich aus den Londoner Kaffeehäusern entwickelt haben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1772500 sense 1, noun: maritime insurance Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 海上保険 ist die Seeversicherung; sie deckt Schiffe (船舶保険) und vor allem Fracht auf See (貨物海上保険). Typisch: 海上保険に加入する, 海上保険を付ける/掛ける, 海上保険料. Im Außenhandel regeln die Lieferklauseln, wer sie abschließt – bei CIF der Verkäufer. 貨物保険 umfasst auch Luft- und Landtransport, 損害保険 ist der Oberbegriff „Sachversicherung“. Register: Fachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1772500; spelling=海上保険; reading=かいじょうほけん",
+          "selected": {
+            "sequence": "1772500",
+            "spelling": "海上保険",
+            "reading": "かいじょうほけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "maritime insurance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1772500 sense 1, noun: maritime insurance"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 海上保険/かいじょうほけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B5%B7%E4%B8%8A%E4%BF%9D%E9%99%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 海上保険/かいじょうほけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Seeversicherung. JMdict 1772500 sense 1, noun: maritime insurance",
+        "japanese": "海上保険に加入して輸送中のリスクに備える。 / CIF条件では、売り手が海上保険を手配する。 / 海上保険は、ロンドンのコーヒーハウスから発展したと言われる。",
+        "romanization": "kaijō hoken; Kaijō hoken ni kanyū shite yusōchū no risuku ni sonaeru. / CIF jōken de wa, urite ga kaijō hoken o tehai suru. / Kaijō hoken wa, Rondon no kōhī hausu kara hatten shita to iwareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Seeversicherung abschließen und sich gegen Transportrisiken absichern. / Bei CIF-Lieferung schließt der Verkäufer die Seeversicherung ab. / Die Seeversicherung soll sich aus den Londoner Kaffeehäusern entwickelt haben.",
+        "contexts": [
+          "Covering transport risk",
+          "Incoterms responsibilities",
+          "History of insurance"
+        ],
+        "lexical": "JMdict 1772500 sense 1, noun: maritime insurance",
+        "register": "technical / trade",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:696 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Covering transport risk; Incoterms responsibilities; History of insurance), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6b5694390bf6fd0a62c520c9e7746ec3e9164cc20bc81832b80a3fed87134b0b",
+        "approvalHash": "82bc4bd39357ea9c51def75c365076d477314549b2461052dabcba51bd1f2cc8"
+      }
+    },
+    {
+      "id": "vocab-n1:697",
+      "revisionId": "208d-n1-enrichment-vocab-n1-697",
+      "state": "accepted",
+      "predecessorHash": "1734eeab465a31fda32950e833c45e284a5290eb1906f045878de8fc56a92d27",
+      "originalHash": "1734eeab465a31fda32950e833c45e284a5290eb1906f045878de8fc56a92d27",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "貨物保険の付保条件を確認する。",
+            "romaji": "Kamotsu hoken no fuho jōken wo kakunin suru.",
+            "german": "Die Versicherungsbedingungen der Frachtversicherung überprüfen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "貨物保険 ist die Transport- bzw. Frachtversicherung für Waren unterwegs – per Schiff, Flugzeug oder Lkw. Typisch: 貨物保険を掛ける/付ける, 貨物保険で補償される, 貨物保険の付保条件; 付保 ist das förmliche Wort für „Versicherungsschutz herstellen“. Anders als 海上保険 gilt es nicht für das Schiff selbst, dafür auch für Land- und Lufttransport. Register: Handels- und Versicherungssprache.",
+        "examples": [
+          {
+            "japanese": "貨物保険の付保条件を確認する。",
+            "romaji": "Kamotsu hoken no fuho jōken wo kakunin suru.",
+            "german": "Die Versicherungsbedingungen der Frachtversicherung überprüfen."
+          },
+          {
+            "japanese": "輸送中に商品が濡れてしまったので、貨物保険で補償してもらった。",
+            "romaji": "Yusōchū ni shōhin ga nurete shimatta node, kamotsu hoken de hoshō shite moratta.",
+            "german": "Die Ware wurde unterwegs nass, deshalb hat uns die Transportversicherung entschädigt."
+          },
+          {
+            "japanese": "高価な美術品を送るときは、必ず貨物保険を掛けておく。",
+            "romaji": "Kōka na bijutsuhin o okuru toki wa, kanarazu kamotsu hoken o kakete oku.",
+            "german": "Wenn wir wertvolle Kunstwerke verschicken, schließen wir immer eine Transportversicherung ab."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1975660 sense 1, noun: cargo insurance Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 貨物保険 ist die Transport- bzw. Frachtversicherung für Waren unterwegs – per Schiff, Flugzeug oder Lkw. Typisch: 貨物保険を掛ける/付ける, 貨物保険で補償される, 貨物保険の付保条件; 付保 ist das förmliche Wort für „Versicherungsschutz herstellen“. Anders als 海上保険 gilt es nicht für das Schiff selbst, dafür auch für Land- und Lufttransport. Register: Handels- und Versicherungssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1975660; spelling=貨物保険; reading=かもつほけん",
+          "selected": {
+            "sequence": "1975660",
+            "spelling": "貨物保険",
+            "reading": "かもつほけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cargo insurance"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1975660 sense 1, noun: cargo insurance"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 貨物保険/かもつほけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%B2%A8%E7%89%A9%E4%BF%9D%E9%99%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 貨物保険/かもつほけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Frachtversicherung; Transportversicherung. JMdict 1975660 sense 1, noun: cargo insurance",
+        "japanese": "貨物保険の付保条件を確認する。 / 輸送中に商品が濡れてしまったので、貨物保険で補償してもらった。 / 高価な美術品を送るときは、必ず貨物保険を掛けておく。",
+        "romanization": "kamotsu hoken; Kamotsu hoken no fuho jōken wo kakunin suru. / Yusōchū ni shōhin ga nurete shimatta node, kamotsu hoken de hoshō shite moratta. / Kōka na bijutsuhin o okuru toki wa, kanarazu kamotsu hoken o kakete oku. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Versicherungsbedingungen der Frachtversicherung überprüfen. / Die Ware wurde unterwegs nass, deshalb hat uns die Transportversicherung entschädigt. / Wenn wir wertvolle Kunstwerke verschicken, schließen wir immer eine Transportversicherung ab.",
+        "contexts": [
+          "Checking policy terms",
+          "Water-damaged goods",
+          "Shipping valuable art"
+        ],
+        "lexical": "JMdict 1975660 sense 1, noun: cargo insurance",
+        "register": "business / insurance",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:697 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Checking policy terms; Water-damaged goods; Shipping valuable art), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5329ca591a343444d4df0205a27cb85a179a348628cf00de69731c2355c4ee08",
+        "approvalHash": "448ef8f94a2af16cc6c9613bc6ad883dd8dd3e1b7987b6dbe5e91e30a56916d4"
+      }
+    },
+    {
+      "id": "vocab-n1:698",
+      "revisionId": "208d-n1-enrichment-vocab-n1-698",
+      "state": "accepted",
+      "predecessorHash": "a7f4e4b948fd205a1368ee06c0bcdfdfc8e77a018ba391dbebf4d272f429a88e",
+      "originalHash": "a7f4e4b948fd205a1368ee06c0bcdfdfc8e77a018ba391dbebf4d272f429a88e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "荷受人が貨物を引き取る際に書類を提示する。",
+            "romaji": "Niukenin ga kamotsu wo hikitoru sai ni shorui wo teiji suru.",
+            "german": "Der Empfänger legt bei der Übernahme der Fracht die Dokumente vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "荷受人 (荷 „Fracht“ + 受ける + 人) ist der Empfänger einer Sendung, wie er auf Frachtbrief (送り状) oder Konnossement (船荷証券) steht. Das Gegenstück ist 荷送人 „Absender“; 荷主 ist der Auftraggeber bzw. Eigentümer der Ware. Im Alltag sagt man bei Paketen und Post eher 受取人 oder お届け先. Register: Fach- und Formularsprache.",
+        "examples": [
+          {
+            "japanese": "荷受人が貨物を引き取る際に書類を提示する。",
+            "romaji": "Niukenin ga kamotsu wo hikitoru sai ni shorui wo teiji suru.",
+            "german": "Der Empfänger legt bei der Übernahme der Fracht die Dokumente vor."
+          },
+          {
+            "japanese": "送り状には、荷送人と荷受人の住所を正確に書いてください。",
+            "romaji": "Okurijō ni wa, niokurinin to niukenin no jūsho o seikaku ni kaite kudasai.",
+            "german": "Bitte tragen Sie auf dem Frachtbrief die Adressen von Absender und Empfänger korrekt ein."
+          },
+          {
+            "japanese": "荷受人が不在だったため、貨物は倉庫で保管されている。",
+            "romaji": "Niukenin ga fuzai datta tame, kamotsu wa sōko de hokan sarete iru.",
+            "german": "Da der Empfänger nicht anzutreffen war, wird die Fracht im Lager aufbewahrt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1714520 sense 1, noun: consignee Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 荷受人 (荷 „Fracht“ + 受ける + 人) ist der Empfänger einer Sendung, wie er auf Frachtbrief (送り状) oder Konnossement (船荷証券) steht. Das Gegenstück ist 荷送人 „Absender“; 荷主 ist der Auftraggeber bzw. Eigentümer der Ware. Im Alltag sagt man bei Paketen und Post eher 受取人 oder お届け先. Register: Fach- und Formularsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1714520; spelling=荷受人; reading=にうけにん",
+          "selected": {
+            "sequence": "1714520",
+            "spelling": "荷受人",
+            "reading": "にうけにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "consignee"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1714520 sense 1, noun: consignee"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 荷受人/にうけにん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%8D%B7%E5%8F%97%E4%BA%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 荷受人/にうけにん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Empfänger; Konsignatar. JMdict 1714520 sense 1, noun: consignee",
+        "japanese": "荷受人が貨物を引き取る際に書類を提示する。 / 送り状には、荷送人と荷受人の住所を正確に書いてください。 / 荷受人が不在だったため、貨物は倉庫で保管されている。",
+        "romanization": "niukenin; Niukenin ga kamotsu wo hikitoru sai ni shorui wo teiji suru. / Okurijō ni wa, niokurinin to niukenin no jūsho o seikaku ni kaite kudasai. / Niukenin ga fuzai datta tame, kamotsu wa sōko de hokan sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Empfänger legt bei der Übernahme der Fracht die Dokumente vor. / Bitte tragen Sie auf dem Frachtbrief die Adressen von Absender und Empfänger korrekt ein. / Da der Empfänger nicht anzutreffen war, wird die Fracht im Lager aufbewahrt.",
+        "contexts": [
+          "Collecting cargo",
+          "Filling in a waybill",
+          "Failed delivery"
+        ],
+        "lexical": "JMdict 1714520 sense 1, noun: consignee",
+        "register": "technical / forms",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:698 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Collecting cargo; Filling in a waybill; Failed delivery), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "25bfcfae6009528fad9de4622defd9028bb4b2fee3a4d540a15d499798632ac7",
+        "approvalHash": "7e2732e63caa68005650363b46e93a185d99d3f9feb2d2e7ba71fb1f8f9e1061"
+      }
+    },
+    {
+      "id": "vocab-n1:700",
+      "revisionId": "208d-n1-enrichment-vocab-n1-700",
+      "state": "accepted",
+      "predecessorHash": "20f7a306b5c5ee1bcd9b3ecaed40838b6ab1977dd7fe50b0c5001a99293cbfd2",
+      "originalHash": "20f7a306b5c5ee1bcd9b3ecaed40838b6ab1977dd7fe50b0c5001a99293cbfd2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "乙仲に通関手続きを依頼する。",
+            "romaji": "Otsunaka ni tsūkan tetsuzuki wo irai suru.",
+            "german": "Einen Zollagenten mit der Zollabfertigung beauftragen."
+          }
+        ],
+        "meaning": "Zollagent; Schiffsmakler",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "乙仲 ist eine Abkürzung von 乙種海運仲立業, einer früheren Rechtskategorie, und im Hafen- und Außenhandelsjargon bis heute üblich: gemeint ist der Seefrachtspediteur, der Buchung, Dokumente und Zollabfertigung erledigt. Außenstehende sagen eher 海貨業者, 通関業者 oder フォワーダー. Typisch: 乙仲に依頼する/頼む/任せる. Register: Branchenjargon.",
+        "examples": [
+          {
+            "japanese": "乙仲に通関手続きを依頼する。",
+            "romaji": "Otsunaka ni tsūkan tetsuzuki wo irai suru.",
+            "german": "Einen Zollagenten mit der Zollabfertigung beauftragen."
+          },
+          {
+            "japanese": "輸出の書類作りは、付き合いの長い乙仲に任せている。",
+            "romaji": "Yushutsu no shoruizukuri wa, tsukiai no nagai otsunaka ni makasete iru.",
+            "german": "Die Exportpapiere überlassen wir einem Seefrachtspediteur, mit dem wir schon lange zusammenarbeiten."
+          },
+          {
+            "japanese": "乙仲に頼んで、来週の船にコンテナを一本確保してもらった。",
+            "romaji": "Otsunaka ni tanonde, raishū no fune ni kontena o ippon kakuho shite moratta.",
+            "german": "Wir haben den Spediteur gebeten, uns auf dem Schiff nächste Woche einen Containerplatz zu sichern."
+          }
+        ],
+        "meaning": "Seefrachtspediteur; Zollagent",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79781474",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 乙仲/オツナカ; lemma 乙仲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "乙仲",
+              "reading": "おつなか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 乙仲/おつなか \"Zollagent; Schiffsmakler\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2621810 sense 1, noun (abbreviation): freight forwarding agent arranging customs clearance and shipping Pitch: Verified [0] via exact UniDic row. 乙仲 ist eine Abkürzung von 乙種海運仲立業, einer früheren Rechtskategorie, und im Hafen- und Außenhandelsjargon bis heute üblich: gemeint ist der Seefrachtspediteur, der Buchung, Dokumente und Zollabfertigung erledigt. Außenstehende sagen eher 海貨業者, 通関業者 oder フォワーダー. Typisch: 乙仲に依頼する/頼む/任せる. Register: Branchenjargon. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2621810; spelling=乙仲; reading=おつなか",
+          "selected": {
+            "sequence": "2621810",
+            "spelling": "乙仲",
+            "reading": "おつなか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "chartering broker (arranges customs clearance and shipping details for trade goods)",
+                  "freight forwarding agent"
+                ],
+                "notes": [
+                  "abbr. of 乙種海運仲立業"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2621810 sense 1, noun (abbreviation): freight forwarding agent arranging customs clearance and shipping"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 乙仲/オツナカ; lemma 乙仲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79781474",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 乙仲/オツナカ; lemma 乙仲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "乙仲",
+              "reading": "おつなか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 乙仲/おつなか \"Zollagent; Schiffsmakler\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Seefrachtspediteur; Zollagent. JMdict 2621810 sense 1, noun (abbreviation): freight forwarding agent arranging customs clearance and shipping",
+        "japanese": "乙仲に通関手続きを依頼する。 / 輸出の書類作りは、付き合いの長い乙仲に任せている。 / 乙仲に頼んで、来週の船にコンテナを一本確保してもらった。",
+        "romanization": "otsunaka; Otsunaka ni tsūkan tetsuzuki wo irai suru. / Yushutsu no shoruizukuri wa, tsukiai no nagai otsunaka ni makasete iru. / Otsunaka ni tanonde, raishū no fune ni kontena o ippon kakuho shite moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Einen Zollagenten mit der Zollabfertigung beauftragen. / Die Exportpapiere überlassen wir einem Seefrachtspediteur, mit dem wir schon lange zusammenarbeiten. / Wir haben den Spediteur gebeten, uns auf dem Schiff nächste Woche einen Containerplatz zu sichern.",
+        "contexts": [
+          "Customs clearance",
+          "Export paperwork",
+          "Booking container space"
+        ],
+        "lexical": "JMdict 2621810 sense 1, noun (abbreviation): freight forwarding agent arranging customs clearance and shipping",
+        "register": "trade jargon",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:700 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Customs clearance; Export paperwork; Booking container space), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9c309e02941341689406f4e2dd75e1fd30943e8e3f216ddc21361be748ef3cdf",
+        "approvalHash": "0e7767f782ce06315bd259c8fa8ac35bb3ab1024ba7f9a4ec26c8677772e6fd9"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

@@ -1,0 +1,3367 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:332",
+      "revisionId": "207a-n1-enrichment-vocab-n1-332",
+      "state": "accepted",
+      "predecessorHash": "6842bce1b3682326864eaa74f7304a60c718175fb62adaf3c1893d6a0e8b76a6",
+      "originalHash": "6842bce1b3682326864eaa74f7304a60c718175fb62adaf3c1893d6a0e8b76a6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "都市計画法に基づく用途地域が指定された。",
+            "romaji": "Toshi keikakuhō ni motozuku yōto chiiki ga shitei sareta.",
+            "german": "Auf Grundlage des Stadtplanungsgesetzes wurden Nutzungszonen festgelegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "都市計画 ist die Stadtplanung als Fachgebiet und zugleich der konkrete, behördlich beschlossene Plan einer Kommune. Typische Verbindungen: 都市計画を策定する „einen Stadtplan aufstellen“, 都市計画決定 „Planbeschluss“, 都市計画道路 „geplante (noch nicht gebaute) Straße“ sowie das 都市計画法 „Stadtplanungsgesetz“. Für bürgernahe, eher informelle Stadtentwicklung sagt man dagegen まちづくり. Register: Verwaltungs- und Fachsprache.",
+        "examples": [
+          {
+            "japanese": "都市計画法に基づく用途地域が指定された。",
+            "romaji": "Toshi keikakuhō ni motozuku yōto chiiki ga shitei sareta.",
+            "german": "Auf Grundlage des Stadtplanungsgesetzes wurden Nutzungszonen festgelegt."
+          },
+          {
+            "japanese": "駅前の再開発は市の都市計画に沿って進められている。",
+            "romaji": "Ekimae no saikaihatsu wa shi no toshi keikaku ni sotte susumerarete iru.",
+            "german": "Die Neugestaltung des Bahnhofsumfelds folgt der Stadtplanung der Kommune."
+          },
+          {
+            "japanese": "大学で都市計画を専攻しています。",
+            "romaji": "Daigaku de toshi keikaku o senkō shite imasu.",
+            "german": "Ich studiere an der Uni Stadtplanung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1700860 sense 1, noun: city planning, urban planning Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 都市計画 ist die Stadtplanung als Fachgebiet und zugleich der konkrete, behördlich beschlossene Plan einer Kommune. Typische Verbindungen: 都市計画を策定する „einen Stadtplan aufstellen“, 都市計画決定 „Planbeschluss“, 都市計画道路 „geplante (noch nicht gebaute) Straße“ sowie das 都市計画法 „Stadtplanungsgesetz“. Für bürgernahe, eher informelle Stadtentwicklung sagt man dagegen まちづくり. Register: Verwaltungs- und Fachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1700860; spelling=都市計画; reading=としけいかく",
+          "selected": {
+            "sequence": "1700860",
+            "spelling": "都市計画",
+            "reading": "としけいかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "city planning",
+                  "urban planning",
+                  "town planning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1700860 sense 1, noun: city planning, urban planning"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 都市計画/としけいかく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%83%BD%E5%B8%82%E8%A8%88%E7%94%BB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 都市計画/としけいかく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stadtplanung. JMdict 1700860 sense 1, noun: city planning, urban planning",
+        "japanese": "都市計画法に基づく用途地域が指定された。 / 駅前の再開発は市の都市計画に沿って進められている。 / 大学で都市計画を専攻しています。",
+        "romanization": "toshi keikaku; Toshi keikakuhō ni motozuku yōto chiiki ga shitei sareta. / Ekimae no saikaihatsu wa shi no toshi keikaku ni sotte susumerarete iru. / Daigaku de toshi keikaku o senkō shite imasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf Grundlage des Stadtplanungsgesetzes wurden Nutzungszonen festgelegt. / Die Neugestaltung des Bahnhofsumfelds folgt der Stadtplanung der Kommune. / Ich studiere an der Uni Stadtplanung.",
+        "contexts": [
+          "Zoning designation under the law",
+          "Station-area redevelopment",
+          "University major"
+        ],
+        "lexical": "JMdict 1700860 sense 1, noun: city planning, urban planning",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:332 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Zoning designation under the law; Station-area redevelopment; University major), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "888e5aac1f985c28d0ff0c695a9fdc1b122f28e682f52f0628504f1eb087d66a",
+        "approvalHash": "91cdbbcce1feee82d4220ae7b7e2eec25942b647a8ffce310fd8e25f0e9ae733"
+      }
+    },
+    {
+      "id": "vocab-n1:333",
+      "revisionId": "207a-n1-enrichment-vocab-n1-333",
+      "state": "accepted",
+      "predecessorHash": "5420bfa82f95ff953dad79a3e7231932dd74690f01f4684d926fff6df1d0b5a1",
+      "originalHash": "5420bfa82f95ff953dad79a3e7231932dd74690f01f4684d926fff6df1d0b5a1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "用途地域の変更に対して住民が反対した。",
+            "romaji": "Yōto chiiki no henkō ni taishite jūmin ga hantai shita.",
+            "german": "Gegen die Änderung der Nutzungszone protestierten die Einwohner."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "用途地域 ist ein Fachbegriff der Stadtplanung: Im 都市計画 wird das Gemeindegebiet in Nutzungszonen eingeteilt (z. B. 住居地域, 商業地域, 工業地域), die festlegen, welche Gebäude dort gebaut werden dürfen. Typisch sind 用途地域を指定する／変更する und Angaben wie 用途地域：第一種低層住居専用地域 in Immobilienanzeigen. Entspricht etwa dem deutschen „Baugebiet“ im Bebauungsplan; Register: Verwaltungs- und Immobiliensprache.",
+        "examples": [
+          {
+            "japanese": "用途地域の変更に対して住民が反対した。",
+            "romaji": "Yōto chiiki no henkō ni taishite jūmin ga hantai shita.",
+            "german": "Gegen die Änderung der Nutzungszone protestierten die Einwohner."
+          },
+          {
+            "japanese": "家を建てる前に、土地の用途地域を確認してください。",
+            "romaji": "Ie o tateru mae ni, tochi no yōto chiiki o kakunin shite kudasai.",
+            "german": "Prüfen Sie vor dem Hausbau, in welcher Nutzungszone das Grundstück liegt."
+          },
+          {
+            "japanese": "この辺りの用途地域は住居専用なので、大きな工場は建てられない。",
+            "romaji": "Kono atari no yōto chiiki wa jūkyo sen'yō na node, ōkina kōjō wa taterarenai.",
+            "german": "Hier ist reines Wohngebiet ausgewiesen, deshalb darf keine große Fabrik gebaut werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2848573 sense 1, noun: specific-use district, zoning district Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 用途地域 ist ein Fachbegriff der Stadtplanung: Im 都市計画 wird das Gemeindegebiet in Nutzungszonen eingeteilt (z. B. 住居地域, 商業地域, 工業地域), die festlegen, welche Gebäude dort gebaut werden dürfen. Typisch sind 用途地域を指定する／変更する und Angaben wie 用途地域：第一種低層住居専用地域 in Immobilienanzeigen. Entspricht etwa dem deutschen „Baugebiet“ im Bebauungsplan; Register: Verwaltungs- und Immobiliensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2848573; spelling=用途地域; reading=ようとちいき",
+          "selected": {
+            "sequence": "2848573",
+            "spelling": "用途地域",
+            "reading": "ようとちいき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "specific-use district",
+                  "district designated under zoning regulations"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2848573 sense 1, noun: specific-use district, zoning district"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 用途地域/ようとちいき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%A8%E9%80%94%E5%9C%B0%E5%9F%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 用途地域/ようとちいき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nutzungszone (Stadtplanung). JMdict 2848573 sense 1, noun: specific-use district, zoning district",
+        "japanese": "用途地域の変更に対して住民が反対した。 / 家を建てる前に、土地の用途地域を確認してください。 / この辺りの用途地域は住居専用なので、大きな工場は建てられない。",
+        "romanization": "yōto chiiki; Yōto chiiki no henkō ni taishite jūmin ga hantai shita. / Ie o tateru mae ni, tochi no yōto chiiki o kakunin shite kudasai. / Kono atari no yōto chiiki wa jūkyo sen'yō na node, ōkina kōjō wa taterarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gegen die Änderung der Nutzungszone protestierten die Einwohner. / Prüfen Sie vor dem Hausbau, in welcher Nutzungszone das Grundstück liegt. / Hier ist reines Wohngebiet ausgewiesen, deshalb darf keine große Fabrik gebaut werden.",
+        "contexts": [
+          "Residents oppose rezoning",
+          "Checking a plot before building",
+          "Why no factory can be built here"
+        ],
+        "lexical": "JMdict 2848573 sense 1, noun: specific-use district, zoning district",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:333 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Residents oppose rezoning; Checking a plot before building; Why no factory can be built here), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c3f520df038e859c7558943d8e4eed34f2027b983487cbf07d11dd9223bf190d",
+        "approvalHash": "4965c56b3f61ab18db2c678d684bfee7fe04919f2b10d7166de8ce3ce6b877e0"
+      }
+    },
+    {
+      "id": "vocab-n1:334",
+      "revisionId": "207a-n1-enrichment-vocab-n1-334",
+      "state": "accepted",
+      "predecessorHash": "82972d1dca290b2500307affd9e9ffaecb8c5d93530a7c590fae64ba28a475df",
+      "originalHash": "82972d1dca290b2500307affd9e9ffaecb8c5d93530a7c590fae64ba28a475df",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "建築基準法に違反した建物に是正命令が出された。",
+            "romaji": "Kenchiku kijunhō ni ihan shita tatemono ni zesei meirei ga dasareta.",
+            "german": "Gegen das bauordnungswidrige Gebäude wurde eine Korrekturanordnung erlassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "建築基準法 ist Japans zentrales Baugesetz (1950). Es legt Mindeststandards für Erdbebensicherheit, Brandschutz und Bebauungsdichte (建ぺい率, 容積率) fest. Typische Verbindungen: 建築基準法に違反する／適合する, 建築基準法上の〜 „nach dem Baurecht“, 建築基準法の改正. Unter Fachleuten auch kurz 建基法; Register: Rechts- und Fachsprache.",
+        "examples": [
+          {
+            "japanese": "建築基準法に違反した建物に是正命令が出された。",
+            "romaji": "Kenchiku kijunhō ni ihan shita tatemono ni zesei meirei ga dasareta.",
+            "german": "Gegen das bauordnungswidrige Gebäude wurde eine Korrekturanordnung erlassen."
+          },
+          {
+            "japanese": "1981年の建築基準法改正で、耐震基準が大幅に厳しくなった。",
+            "romaji": "Sen kyūhyaku hachijūichi-nen no kenchiku kijunhō kaisei de, taishin kijun ga ōhaba ni kibishiku natta.",
+            "german": "Mit der Novelle des Baugesetzes von 1981 wurden die Erdbebenstandards deutlich verschärft."
+          },
+          {
+            "japanese": "この増築には、建築基準法上の確認申請が必要です。",
+            "romaji": "Kono zōchiku ni wa, kenchiku kijunhō-jō no kakunin shinsei ga hitsuyō desu.",
+            "german": "Für diesen Anbau ist nach dem Baurecht eine Baugenehmigung nötig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1714350 sense 1, noun: Building Standards Act Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 建築基準法 ist Japans zentrales Baugesetz (1950). Es legt Mindeststandards für Erdbebensicherheit, Brandschutz und Bebauungsdichte (建ぺい率, 容積率) fest. Typische Verbindungen: 建築基準法に違反する／適合する, 建築基準法上の〜 „nach dem Baurecht“, 建築基準法の改正. Unter Fachleuten auch kurz 建基法; Register: Rechts- und Fachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1714350; spelling=建築基準法; reading=けんちくきじゅんほう",
+          "selected": {
+            "sequence": "1714350",
+            "spelling": "建築基準法",
+            "reading": "けんちくきじゅんほう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Building Standards Act"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1714350 sense 1, noun: Building Standards Act"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 建築基準法/けんちくきじゅんほう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BB%BA%E7%AF%89%E5%9F%BA%E6%BA%96%E6%B3%95",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 建築基準法/けんちくきじゅんほう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bauordnungsgesetz. JMdict 1714350 sense 1, noun: Building Standards Act",
+        "japanese": "建築基準法に違反した建物に是正命令が出された。 / 1981年の建築基準法改正で、耐震基準が大幅に厳しくなった。 / この増築には、建築基準法上の確認申請が必要です。",
+        "romanization": "kenchiku kijunhō; Kenchiku kijunhō ni ihan shita tatemono ni zesei meirei ga dasareta. / Sen kyūhyaku hachijūichi-nen no kenchiku kijunhō kaisei de, taishin kijun ga ōhaba ni kibishiku natta. / Kono zōchiku ni wa, kenchiku kijunhō-jō no kakunin shinsei ga hitsuyō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gegen das bauordnungswidrige Gebäude wurde eine Korrekturanordnung erlassen. / Mit der Novelle des Baugesetzes von 1981 wurden die Erdbebenstandards deutlich verschärft. / Für diesen Anbau ist nach dem Baurecht eine Baugenehmigung nötig.",
+        "contexts": [
+          "Order against an illegal building",
+          "1981 earthquake-code revision",
+          "Permit for a house extension"
+        ],
+        "lexical": "JMdict 1714350 sense 1, noun: Building Standards Act",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:334 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Order against an illegal building; 1981 earthquake-code revision; Permit for a house extension), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "0c0d4c4c1bd31efbe601c87a54a4762cab761522707fe72a5cf0bce12945b848",
+        "approvalHash": "b7d304e17bac75914ef18d0bfb8c6ea182ffe83438e100f3500ac1cc6eb18ebc"
+      }
+    },
+    {
+      "id": "vocab-n1:335",
+      "revisionId": "207a-n1-enrichment-vocab-n1-335",
+      "state": "accepted",
+      "predecessorHash": "cc9a17b738e1266b9c06a89f6580c412eea4d3f820db7d7751d4d5d4e8b0558f",
+      "originalHash": "cc9a17b738e1266b9c06a89f6580c412eea4d3f820db7d7751d4d5d4e8b0558f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大規模開発には環境影響評価が義務付けられている。",
+            "romaji": "Daikibo kaihatsu ni wa kankyō eikyō hyōka ga gimuzukerarete iru.",
+            "german": "Für Großprojekte ist eine Umweltverträglichkeitsprüfung vorgeschrieben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "環境影響評価 ist der amtliche Begriff für die Umweltverträglichkeitsprüfung, geregelt im 環境影響評価法 (1997). In Medien und Alltag sagt man meist 環境アセスメント oder kurz アセス. Typische Verbindungen: 環境影響評価を実施する／行う, 環境影響評価の対象となる, 環境影響評価書 „UVP-Bericht“. Register: Verwaltungs- und Fachsprache.",
+        "examples": [
+          {
+            "japanese": "大規模開発には環境影響評価が義務付けられている。",
+            "romaji": "Daikibo kaihatsu ni wa kankyō eikyō hyōka ga gimuzukerarete iru.",
+            "german": "Für Großprojekte ist eine Umweltverträglichkeitsprüfung vorgeschrieben."
+          },
+          {
+            "japanese": "風力発電所の建設に先立ち、環境影響評価が実施された。",
+            "romaji": "Fūryoku hatsudensho no kensetsu ni sakidachi, kankyō eikyō hyōka ga jisshi sareta.",
+            "german": "Vor dem Bau des Windparks wurde eine Umweltverträglichkeitsprüfung durchgeführt."
+          },
+          {
+            "japanese": "住民説明会で環境影響評価書の内容が説明された。",
+            "romaji": "Jūmin setsumeikai de kankyō eikyō hyōkasho no naiyō ga setsumei sareta.",
+            "german": "Auf der Bürgerversammlung wurde der Inhalt des Umweltverträglichkeitsberichts erläutert."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 環境影響評価; nearest synonym JMdict 1979690 (環境アセスメント), noun: environmental impact assessment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 環境影響評価 ist der amtliche Begriff für die Umweltverträglichkeitsprüfung, geregelt im 環境影響評価法 (1997). In Medien und Alltag sagt man meist 環境アセスメント oder kurz アセス. Typische Verbindungen: 環境影響評価を実施する／行う, 環境影響評価の対象となる, 環境影響評価書 „UVP-Bericht“. Register: Verwaltungs- und Fachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=環境影響評価; reading=かんきょうえいきょうひょうか; no entry",
+          "finding": "No exact JMdict entry for 環境影響評価; nearest synonym JMdict 1979690 (環境アセスメント), noun: environmental impact assessment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 環境影響評価/かんきょうえいきょうひょうか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%92%B0%E5%A2%83%E5%BD%B1%E9%9F%BF%E8%A9%95%E4%BE%A1",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 環境影響評価/かんきょうえいきょうひょうか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umweltverträglichkeitsprüfung. No exact JMdict entry for 環境影響評価; nearest synonym JMdict 1979690 (環境アセスメント), noun: environmental impact assessment",
+        "japanese": "大規模開発には環境影響評価が義務付けられている。 / 風力発電所の建設に先立ち、環境影響評価が実施された。 / 住民説明会で環境影響評価書の内容が説明された。",
+        "romanization": "kankyō eikyō hyōka; Daikibo kaihatsu ni wa kankyō eikyō hyōka ga gimuzukerarete iru. / Fūryoku hatsudensho no kensetsu ni sakidachi, kankyō eikyō hyōka ga jisshi sareta. / Jūmin setsumeikai de kankyō eikyō hyōkasho no naiyō ga setsumei sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für Großprojekte ist eine Umweltverträglichkeitsprüfung vorgeschrieben. / Vor dem Bau des Windparks wurde eine Umweltverträglichkeitsprüfung durchgeführt. / Auf der Bürgerversammlung wurde der Inhalt des Umweltverträglichkeitsberichts erläutert.",
+        "contexts": [
+          "Legal requirement for large projects",
+          "Wind farm construction",
+          "Public information meeting"
+        ],
+        "lexical": "No exact JMdict entry for 環境影響評価; nearest synonym JMdict 1979690 (環境アセスメント), noun: environmental impact assessment",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:335 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Legal requirement for large projects; Wind farm construction; Public information meeting), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4fc59429ca84b5c38a7f4af22636e804803979b1ba85b7cfb03a586010c5f7f8",
+        "approvalHash": "d5363301c0c48529a2974a68a1fbbba0eb396145d8f561114e2a22845bed9a7d"
+      }
+    },
+    {
+      "id": "vocab-n1:336",
+      "revisionId": "207a-n1-enrichment-vocab-n1-336",
+      "state": "accepted",
+      "predecessorHash": "8ca349e86f840a4187cfe02f793272b4d8e8451d0b89f54deed4c377c834fe8b",
+      "originalHash": "8ca349e86f840a4187cfe02f793272b4d8e8451d0b89f54deed4c377c834fe8b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "罹災証明書の発行を自治体に申請した。",
+            "romaji": "Risai shōmeisho no hakkō o jichitai ni shinsei shita.",
+            "german": "Die Ausstellung einer Katastrophenbescheinigung wurde bei der Kommune beantragt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "罹災証明 ist die amtliche Bescheinigung der Gemeinde über Schäden am Wohnhaus durch Erdbeben, Hochwasser, Brand usw.; der Schadensgrad (全壊, 半壊 usw.) wird darin festgestellt. Sie ist Voraussetzung für Hilfszahlungen, Steuererleichterungen und Notunterkünfte. Meist spricht man vom Dokument 罹災証明書; da 罹 kein Jōyō-Kanji ist, schreiben Behörden oft り災証明. 罹災 ist das amtliche Wort für „von einer Katastrophe betroffen“, im Alltag sagt man 被災.",
+        "examples": [
+          {
+            "japanese": "罹災証明書の発行を自治体に申請した。",
+            "romaji": "Risai shōmeisho no hakkō o jichitai ni shinsei shita.",
+            "german": "Die Ausstellung einer Katastrophenbescheinigung wurde bei der Kommune beantragt."
+          },
+          {
+            "japanese": "地震で家が半壊し、罹災証明を取りに市役所へ行った。",
+            "romaji": "Jishin de ie ga hankai shi, risai shōmei o tori ni shiyakusho e itta.",
+            "german": "Unser Haus wurde beim Erdbeben teilweise zerstört, also ging ich zum Rathaus, um die Schadensbescheinigung zu holen."
+          },
+          {
+            "japanese": "支援金を受け取るには罹災証明書が必要です。",
+            "romaji": "Shienkin o uketoru ni wa risai shōmeisho ga hitsuyō desu.",
+            "german": "Um die Hilfszahlung zu erhalten, braucht man die amtliche Schadensbescheinigung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2829292 (罹災証明書／り災証明書), noun: disaster certificate, document certifying that one is a disaster victim Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 罹災証明 ist die amtliche Bescheinigung der Gemeinde über Schäden am Wohnhaus durch Erdbeben, Hochwasser, Brand usw.; der Schadensgrad (全壊, 半壊 usw.) wird darin festgestellt. Sie ist Voraussetzung für Hilfszahlungen, Steuererleichterungen und Notunterkünfte. Meist spricht man vom Dokument 罹災証明書; da 罹 kein Jōyō-Kanji ist, schreiben Behörden oft り災証明. 罹災 ist das amtliche Wort für „von einer Katastrophe betroffen“, im Alltag sagt man 被災. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=罹災証明; reading=りさいしょうめい; no entry",
+          "finding": "JMdict 2829292 (罹災証明書／り災証明書), noun: disaster certificate, document certifying that one is a disaster victim"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 罹災証明/りさいしょうめい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%BD%B9%E7%81%BD%E8%A8%BC%E6%98%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 罹災証明/りさいしょうめい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Katastrophenbescheinigung. JMdict 2829292 (罹災証明書／り災証明書), noun: disaster certificate, document certifying that one is a disaster victim",
+        "japanese": "罹災証明書の発行を自治体に申請した。 / 地震で家が半壊し、罹災証明を取りに市役所へ行った。 / 支援金を受け取るには罹災証明書が必要です。",
+        "romanization": "risai shōmei; Risai shōmeisho no hakkō o jichitai ni shinsei shita. / Jishin de ie ga hankai shi, risai shōmei o tori ni shiyakusho e itta. / Shienkin o uketoru ni wa risai shōmeisho ga hitsuyō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Ausstellung einer Katastrophenbescheinigung wurde bei der Kommune beantragt. / Unser Haus wurde beim Erdbeben teilweise zerstört, also ging ich zum Rathaus, um die Schadensbescheinigung zu holen. / Um die Hilfszahlung zu erhalten, braucht man die amtliche Schadensbescheinigung.",
+        "contexts": [
+          "Applying to the municipality",
+          "After an earthquake",
+          "Requirement for relief money"
+        ],
+        "lexical": "JMdict 2829292 (罹災証明書／り災証明書), noun: disaster certificate, document certifying that one is a disaster victim",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:336 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Applying to the municipality; After an earthquake; Requirement for relief money), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c1b9294539321a6b0b8b540593ddccb91536f1605f595924d182b49c953ec0be",
+        "approvalHash": "38ee49a7de98cdf562db61fb6d0db28dbf45d1af55b4b47fdc581e711506f000"
+      }
+    },
+    {
+      "id": "vocab-n1:337",
+      "revisionId": "207a-n1-enrichment-vocab-n1-337",
+      "state": "accepted",
+      "predecessorHash": "deccd1655ac55732c495f481411d9865487d41d8a5ca34365d654be30c937c3a",
+      "originalHash": "deccd1655ac55732c495f481411d9865487d41d8a5ca34365d654be30c937c3a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "行政の違法行為に対して国家賠償請求が行われた。",
+            "romaji": "Gyōsei no ihō kōi ni taishite kokka baishō seikyū ga okonawareta.",
+            "german": "Gegen das rechtswidrige Handeln der Verwaltung wurde eine Staatshaftungsklage erhoben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "国家賠償 ist die Haftung von Staat und öffentlichen Körperschaften für Schäden, die Amtsträger rechtswidrig verursachen (国家賠償法, Art. 17 der Verfassung). Typisch: 国家賠償を求める, 国家賠償請求訴訟 (kurz 国賠訴訟). Abzugrenzen von 損失補償: 賠償 ersetzt rechtswidrig verursachten Schaden, 補償 gleicht rechtmäßige Eingriffe aus. Selten auch „Kriegsreparationen“ (dafür eher 戦争賠償).",
+        "examples": [
+          {
+            "japanese": "行政の違法行為に対して国家賠償請求が行われた。",
+            "romaji": "Gyōsei no ihō kōi ni taishite kokka baishō seikyū ga okonawareta.",
+            "german": "Gegen das rechtswidrige Handeln der Verwaltung wurde eine Staatshaftungsklage erhoben."
+          },
+          {
+            "japanese": "元患者らは国に国家賠償を求めて提訴した。",
+            "romaji": "Moto kanja-ra wa kuni ni kokka baishō o motomete teiso shita.",
+            "german": "Die ehemaligen Patienten verklagten den Staat auf Schadensersatz."
+          },
+          {
+            "japanese": "裁判所は国家賠償法に基づき、県に約500万円の支払いを命じた。",
+            "romaji": "Saibansho wa kokka baishōhō ni motozuki, ken ni yaku gohyakuman-en no shiharai o meijita.",
+            "german": "Das Gericht verurteilte die Präfektur nach dem Staatshaftungsgesetz zur Zahlung von rund fünf Millionen Yen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1746600 sense 1, noun: state indemnity, state compensation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 国家賠償 ist die Haftung von Staat und öffentlichen Körperschaften für Schäden, die Amtsträger rechtswidrig verursachen (国家賠償法, Art. 17 der Verfassung). Typisch: 国家賠償を求める, 国家賠償請求訴訟 (kurz 国賠訴訟). Abzugrenzen von 損失補償: 賠償 ersetzt rechtswidrig verursachten Schaden, 補償 gleicht rechtmäßige Eingriffe aus. Selten auch „Kriegsreparationen“ (dafür eher 戦争賠償). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1746600; spelling=国家賠償; reading=こっかばいしょう",
+          "selected": {
+            "sequence": "1746600",
+            "spelling": "国家賠償",
+            "reading": "こっかばいしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "state indemnity",
+                  "state compensation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "national reparations"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1746600 sense 1, noun: state indemnity, state compensation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 国家賠償/こっかばいしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%9B%BD%E5%AE%B6%E8%B3%A0%E5%84%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 国家賠償/こっかばいしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Staatshaftung; staatliche Entschädigung. JMdict 1746600 sense 1, noun: state indemnity, state compensation",
+        "japanese": "行政の違法行為に対して国家賠償請求が行われた。 / 元患者らは国に国家賠償を求めて提訴した。 / 裁判所は国家賠償法に基づき、県に約500万円の支払いを命じた。",
+        "romanization": "kokka baishō; Gyōsei no ihō kōi ni taishite kokka baishō seikyū ga okonawareta. / Moto kanja-ra wa kuni ni kokka baishō o motomete teiso shita. / Saibansho wa kokka baishōhō ni motozuki, ken ni yaku gohyakuman-en no shiharai o meijita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gegen das rechtswidrige Handeln der Verwaltung wurde eine Staatshaftungsklage erhoben. / Die ehemaligen Patienten verklagten den Staat auf Schadensersatz. / Das Gericht verurteilte die Präfektur nach dem Staatshaftungsgesetz zur Zahlung von rund fünf Millionen Yen.",
+        "contexts": [
+          "Claim against unlawful administration",
+          "Former patients sue the state",
+          "Court ruling against a prefecture"
+        ],
+        "lexical": "JMdict 1746600 sense 1, noun: state indemnity, state compensation",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:337 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Claim against unlawful administration; Former patients sue the state; Court ruling against a prefecture), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "26dda5b670251dbbc176baf87c2dde755a9a6daa50365d262cbb3ea1e888c891",
+        "approvalHash": "029e576db789266a482909d947bb079da0a835b3a52190131b5863c9d6630463"
+      }
+    },
+    {
+      "id": "vocab-n1:338",
+      "revisionId": "207a-n1-enrichment-vocab-n1-338",
+      "state": "accepted",
+      "predecessorHash": "98d3db01e30c0d9f9897d42b09b068f568b21bcbabeeaef99cf5f739b38f9152",
+      "originalHash": "98d3db01e30c0d9f9897d42b09b068f568b21bcbabeeaef99cf5f739b38f9152",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "土地の収用に対して正当な損失補償がなされた。",
+            "romaji": "Tochi no shūyō ni taishite seitō na sonshitsu hoshō ga nasareta.",
+            "german": "Für die Enteignung des Grundstücks wurde eine angemessene Entschädigung geleistet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "損失補償 ist der Ausgleich, den die öffentliche Hand für rechtmäßige Eingriffe zahlt, die Einzelnen ein Sonderopfer abverlangen, etwa bei Enteignung (土地収用) für Straßenbau (Art. 29 der Verfassung: 正当な補償). Typisch: 損失補償を行う／受ける／求める. Abzugrenzen von 損害賠償 bzw. 国家賠償, dem Schadensersatz für rechtswidriges Handeln. In der Corona-Zeit wurde 損失補償 für behördlich angeordnete Betriebsschließungen viel diskutiert.",
+        "examples": [
+          {
+            "japanese": "土地の収用に対して正当な損失補償がなされた。",
+            "romaji": "Tochi no shūyō ni taishite seitō na sonshitsu hoshō ga nasareta.",
+            "german": "Für die Enteignung des Grundstücks wurde eine angemessene Entschädigung geleistet."
+          },
+          {
+            "japanese": "道路拡張で立ち退く住民に損失補償が支払われた。",
+            "romaji": "Dōro kakuchō de tachinoku jūmin ni sonshitsu hoshō ga shiharawareta.",
+            "german": "Den Anwohnern, die wegen der Straßenverbreiterung wegziehen mussten, wurde eine Entschädigung gezahlt."
+          },
+          {
+            "japanese": "休業を要請するなら、損失補償もセットで考えるべきだ。",
+            "romaji": "Kyūgyō o yōsei suru nara, sonshitsu hoshō mo setto de kangaeru beki da.",
+            "german": "Wer Betriebe zum Schließen auffordert, muss auch einen Ausgleich für ihre Verluste mitdenken."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 損失補償; nearest JMdict 1514650 (補償), noun / suru verb: compensation, indemnity (here: compensation for losses from lawful state action) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 損失補償 ist der Ausgleich, den die öffentliche Hand für rechtmäßige Eingriffe zahlt, die Einzelnen ein Sonderopfer abverlangen, etwa bei Enteignung (土地収用) für Straßenbau (Art. 29 der Verfassung: 正当な補償). Typisch: 損失補償を行う／受ける／求める. Abzugrenzen von 損害賠償 bzw. 国家賠償, dem Schadensersatz für rechtswidriges Handeln. In der Corona-Zeit wurde 損失補償 für behördlich angeordnete Betriebsschließungen viel diskutiert. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=損失補償; reading=そんしつほしょう; no entry",
+          "finding": "No exact JMdict entry for 損失補償; nearest JMdict 1514650 (補償), noun / suru verb: compensation, indemnity (here: compensation for losses from lawful state action)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 損失補償/そんしつほしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%90%8D%E5%A4%B1%E8%A3%9C%E5%84%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 損失補償/そんしつほしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entschädigung für Vermögensverlust. No exact JMdict entry for 損失補償; nearest JMdict 1514650 (補償), noun / suru verb: compensation, indemnity (here: compensation for losses from lawful state action)",
+        "japanese": "土地の収用に対して正当な損失補償がなされた。 / 道路拡張で立ち退く住民に損失補償が支払われた。 / 休業を要請するなら、損失補償もセットで考えるべきだ。",
+        "romanization": "sonshitsu hoshō; Tochi no shūyō ni taishite seitō na sonshitsu hoshō ga nasareta. / Dōro kakuchō de tachinoku jūmin ni sonshitsu hoshō ga shiharawareta. / Kyūgyō o yōsei suru nara, sonshitsu hoshō mo setto de kangaeru beki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für die Enteignung des Grundstücks wurde eine angemessene Entschädigung geleistet. / Den Anwohnern, die wegen der Straßenverbreiterung wegziehen mussten, wurde eine Entschädigung gezahlt. / Wer Betriebe zum Schließen auffordert, muss auch einen Ausgleich für ihre Verluste mitdenken.",
+        "contexts": [
+          "Expropriation of land",
+          "Residents relocated for road widening",
+          "Debate over business closures"
+        ],
+        "lexical": "No exact JMdict entry for 損失補償; nearest JMdict 1514650 (補償), noun / suru verb: compensation, indemnity (here: compensation for losses from lawful state action)",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:338 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Expropriation of land; Residents relocated for road widening; Debate over business closures), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e04d9ccd61c76cc8f58aeb36a7c428e9d42e61d9058aeae751afc738ccd8b9cf",
+        "approvalHash": "dec3f3b22dbe0504240e6c516b6e9a68cf2ffa6f22a4c2dee7059180d98bef42"
+      }
+    },
+    {
+      "id": "vocab-n1:339",
+      "revisionId": "207a-n1-enrichment-vocab-n1-339",
+      "state": "accepted",
+      "predecessorHash": "70b8381cd113477d444768b23c2bf4f46076950a92af7b6fa2c4122c3b85eafe",
+      "originalHash": "70b8381cd113477d444768b23c2bf4f46076950a92af7b6fa2c4122c3b85eafe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "行政改革により省庁の統廃合が行われた。",
+            "romaji": "Gyōsei kaikaku ni yori shōchō no tōhaigō ga okonawareta.",
+            "german": "Im Rahmen der Verwaltungsreform wurden Ministerien zusammengelegt und aufgelöst."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "行政改革 bezeichnet die Reform der öffentlichen Verwaltung: Zusammenlegung von Behörden, Personalabbau, effizientere Abläufe. In Schlagzeilen oft kurz 行革. Typische Verbindungen: 行政改革を進める／断行する, 行政改革担当大臣. Abzugrenzen von 規制改革 (Reform von Vorschriften) und 構造改革 (Umbau ganzer Wirtschafts- und Gesellschaftsstrukturen). Register: Politik- und Mediensprache.",
+        "examples": [
+          {
+            "japanese": "行政改革により省庁の統廃合が行われた。",
+            "romaji": "Gyōsei kaikaku ni yori shōchō no tōhaigō ga okonawareta.",
+            "german": "Im Rahmen der Verwaltungsreform wurden Ministerien zusammengelegt und aufgelöst."
+          },
+          {
+            "japanese": "新しい知事は行政改革を最優先課題に掲げた。",
+            "romaji": "Atarashii chiji wa gyōsei kaikaku o saiyūsen kadai ni kakageta.",
+            "german": "Der neue Gouverneur erklärte die Verwaltungsreform zur obersten Priorität."
+          },
+          {
+            "japanese": "行政改革の名のもとで職員数が大幅に削減された。",
+            "romaji": "Gyōsei kaikaku no na no moto de shokuinsū ga ōhaba ni sakugen sareta.",
+            "german": "Im Namen der Verwaltungsreform wurde die Zahl der Bediensteten drastisch reduziert."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1282020 sense 1, noun: administrative reform Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 行政改革 bezeichnet die Reform der öffentlichen Verwaltung: Zusammenlegung von Behörden, Personalabbau, effizientere Abläufe. In Schlagzeilen oft kurz 行革. Typische Verbindungen: 行政改革を進める／断行する, 行政改革担当大臣. Abzugrenzen von 規制改革 (Reform von Vorschriften) und 構造改革 (Umbau ganzer Wirtschafts- und Gesellschaftsstrukturen). Register: Politik- und Mediensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1282020; spelling=行政改革; reading=ぎょうせいかいかく",
+          "selected": {
+            "sequence": "1282020",
+            "spelling": "行政改革",
+            "reading": "ぎょうせいかいかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "administrative reform"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1282020 sense 1, noun: administrative reform"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 行政改革/ぎょうせいかいかく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 行政改革/ぎょうせいかいかく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verwaltungsreform. JMdict 1282020 sense 1, noun: administrative reform",
+        "japanese": "行政改革により省庁の統廃合が行われた。 / 新しい知事は行政改革を最優先課題に掲げた。 / 行政改革の名のもとで職員数が大幅に削減された。",
+        "romanization": "gyōsei kaikaku; Gyōsei kaikaku ni yori shōchō no tōhaigō ga okonawareta. / Atarashii chiji wa gyōsei kaikaku o saiyūsen kadai ni kakageta. / Gyōsei kaikaku no na no moto de shokuinsū ga ōhaba ni sakugen sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Rahmen der Verwaltungsreform wurden Ministerien zusammengelegt und aufgelöst. / Der neue Gouverneur erklärte die Verwaltungsreform zur obersten Priorität. / Im Namen der Verwaltungsreform wurde die Zahl der Bediensteten drastisch reduziert.",
+        "contexts": [
+          "Merging ministries",
+          "New governor's top priority",
+          "Staff cuts"
+        ],
+        "lexical": "JMdict 1282020 sense 1, noun: administrative reform",
+        "register": "written / political",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:339 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Merging ministries; New governor's top priority; Staff cuts), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5cb48759cc8a6e83ddb878af47bdc6dee6e18c446faa120b61b211d2ed0c06e6",
+        "approvalHash": "bab860ffbd597f8265aa7ac9fa4b77bc239ea809a76415e9d74694d83b5bed4d"
+      }
+    },
+    {
+      "id": "vocab-n1:340",
+      "revisionId": "207a-n1-enrichment-vocab-n1-340",
+      "state": "accepted",
+      "predecessorHash": "b8dc412cc4e4c4b343bdcda2813b1453f4b0b8c606526fd3c611658c06b722ca",
+      "originalHash": "b8dc412cc4e4c4b343bdcda2813b1453f4b0b8c606526fd3c611658c06b722ca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "規制改革会議が新産業の育成策を提言した。",
+            "romaji": "Kisei kaikaku kaigi ga shin sangyō no ikuseisaku o teigen shita.",
+            "german": "Das Regulierungsreformgremium schlug Maßnahmen zur Förderung neuer Industrien vor."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "規制改革 ist die Überarbeitung staatlicher Vorschriften, um Wettbewerb und neue Geschäftsmodelle zu ermöglichen. Es überschneidet sich mit 規制緩和 „Deregulierung, Lockerung“, ist aber weiter gefasst und kann auch neue Regeln einschließen. Typisch: 規制改革を推進する, 〜分野の規制改革, das Regierungsgremium 規制改革推進会議. Register: Politik- und Wirtschaftssprache.",
+        "examples": [
+          {
+            "japanese": "規制改革会議が新産業の育成策を提言した。",
+            "romaji": "Kisei kaikaku kaigi ga shin sangyō no ikuseisaku o teigen shita.",
+            "german": "Das Regulierungsreformgremium schlug Maßnahmen zur Förderung neuer Industrien vor."
+          },
+          {
+            "japanese": "政府はライドシェア解禁に向けた規制改革を進めている。",
+            "romaji": "Seifu wa raidoshea kaikin ni muketa kisei kaikaku o susumete iru.",
+            "german": "Die Regierung treibt Regulierungsreformen voran, um Ridesharing zu erlauben."
+          },
+          {
+            "japanese": "医療分野の規制改革には業界団体の反発が強い。",
+            "romaji": "Iryō bun'ya no kisei kaikaku ni wa gyōkai dantai no hanpatsu ga tsuyoi.",
+            "german": "Gegen Regulierungsreformen im Gesundheitswesen wehren sich die Branchenverbände heftig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2098970 sense 1, noun: regulatory reform Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 規制改革 ist die Überarbeitung staatlicher Vorschriften, um Wettbewerb und neue Geschäftsmodelle zu ermöglichen. Es überschneidet sich mit 規制緩和 „Deregulierung, Lockerung“, ist aber weiter gefasst und kann auch neue Regeln einschließen. Typisch: 規制改革を推進する, 〜分野の規制改革, das Regierungsgremium 規制改革推進会議. Register: Politik- und Wirtschaftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2098970; spelling=規制改革; reading=きせいかいかく",
+          "selected": {
+            "sequence": "2098970",
+            "spelling": "規制改革",
+            "reading": "きせいかいかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "regulatory reform"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2098970 sense 1, noun: regulatory reform"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 規制改革/きせいかいかく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A6%8F%E5%88%B6%E6%94%B9%E9%9D%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 規制改革/きせいかいかく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Regulierungsreform; Deregulierung. JMdict 2098970 sense 1, noun: regulatory reform",
+        "japanese": "規制改革会議が新産業の育成策を提言した。 / 政府はライドシェア解禁に向けた規制改革を進めている。 / 医療分野の規制改革には業界団体の反発が強い。",
+        "romanization": "kisei kaikaku; Kisei kaikaku kaigi ga shin sangyō no ikuseisaku o teigen shita. / Seifu wa raidoshea kaikin ni muketa kisei kaikaku o susumete iru. / Iryō bun'ya no kisei kaikaku ni wa gyōkai dantai no hanpatsu ga tsuyoi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Regulierungsreformgremium schlug Maßnahmen zur Förderung neuer Industrien vor. / Die Regierung treibt Regulierungsreformen voran, um Ridesharing zu erlauben. / Gegen Regulierungsreformen im Gesundheitswesen wehren sich die Branchenverbände heftig.",
+        "contexts": [
+          "Government advisory council",
+          "Legalizing ride-sharing",
+          "Resistance in healthcare"
+        ],
+        "lexical": "JMdict 2098970 sense 1, noun: regulatory reform",
+        "register": "written / political",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:340 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Government advisory council; Legalizing ride-sharing; Resistance in healthcare), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "118323ecaa369ffac31b07990378418964471520a40055d1e8f3e858cbfbbd46",
+        "approvalHash": "e1bbbc962eb337e2219ca2b751ac87f21e1f82f163bd7fba8e67dab7a5eaa9c9"
+      }
+    },
+    {
+      "id": "vocab-n1:341",
+      "revisionId": "207a-n1-enrichment-vocab-n1-341",
+      "state": "accepted",
+      "predecessorHash": "0c1e3a68cee6ff2352f10cff1886da9b7a3828e130e1e8a7e566960a40832d0c",
+      "originalHash": "0c1e3a68cee6ff2352f10cff1886da9b7a3828e130e1e8a7e566960a40832d0c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "経済の構造改革が成長戦略の柱とされた。",
+            "romaji": "Keizai no kōzō kaikaku ga seichō senryaku no hashira to sareta.",
+            "german": "Die Strukturreform der Wirtschaft wurde zur Säule der Wachstumsstrategie erklärt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "構造改革 meint den tiefgreifenden Umbau von Wirtschafts- oder Gesellschaftsstrukturen; bekannt ist die Parole 聖域なき構造改革 der Regierung Koizumi (2001–2006). Auf Unternehmensebene bedeutet es „Restrukturierung“ und ist oft eine Umschreibung für Werksschließungen und Stellenabbau. Typisch: 構造改革を断行する／進める, 構造改革特区. Weiter gefasst als 行政改革 oder 規制改革.",
+        "examples": [
+          {
+            "japanese": "経済の構造改革が成長戦略の柱とされた。",
+            "romaji": "Keizai no kōzō kaikaku ga seichō senryaku no hashira to sareta.",
+            "german": "Die Strukturreform der Wirtschaft wurde zur Säule der Wachstumsstrategie erklärt."
+          },
+          {
+            "japanese": "小泉内閣は「聖域なき構造改革」を掲げ、郵政民営化を進めた。",
+            "romaji": "Koizumi naikaku wa seiiki naki kōzō kaikaku o kakage, yūsei min'eika o susumeta.",
+            "german": "Das Kabinett Koizumi rief eine „Strukturreform ohne Tabus“ aus und trieb die Privatisierung der Post voran."
+          },
+          {
+            "japanese": "業績不振の会社は構造改革として工場を二つ閉鎖した。",
+            "romaji": "Gyōseki fushin no kaisha wa kōzō kaikaku to shite kōjō o futatsu heisa shita.",
+            "german": "Das angeschlagene Unternehmen schloss im Zuge einer Restrukturierung zwei Werke."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1992700 sense 1, noun: structural reform, restructuring Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 構造改革 meint den tiefgreifenden Umbau von Wirtschafts- oder Gesellschaftsstrukturen; bekannt ist die Parole 聖域なき構造改革 der Regierung Koizumi (2001–2006). Auf Unternehmensebene bedeutet es „Restrukturierung“ und ist oft eine Umschreibung für Werksschließungen und Stellenabbau. Typisch: 構造改革を断行する／進める, 構造改革特区. Weiter gefasst als 行政改革 oder 規制改革. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1992700; spelling=構造改革; reading=こうぞうかいかく",
+          "selected": {
+            "sequence": "1992700",
+            "spelling": "構造改革",
+            "reading": "こうぞうかいかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "structural reform",
+                  "restructuring"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1992700 sense 1, noun: structural reform, restructuring"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 構造改革/こうぞうかいかく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A7%8B%E9%80%A0%E6%94%B9%E9%9D%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 構造改革/こうぞうかいかく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Strukturreform. JMdict 1992700 sense 1, noun: structural reform, restructuring",
+        "japanese": "経済の構造改革が成長戦略の柱とされた。 / 小泉内閣は「聖域なき構造改革」を掲げ、郵政民営化を進めた。 / 業績不振の会社は構造改革として工場を二つ閉鎖した。",
+        "romanization": "kōzō kaikaku; Keizai no kōzō kaikaku ga seichō senryaku no hashira to sareta. / Koizumi naikaku wa seiiki naki kōzō kaikaku o kakage, yūsei min'eika o susumeta. / Gyōseki fushin no kaisha wa kōzō kaikaku to shite kōjō o futatsu heisa shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Strukturreform der Wirtschaft wurde zur Säule der Wachstumsstrategie erklärt. / Das Kabinett Koizumi rief eine „Strukturreform ohne Tabus“ aus und trieb die Privatisierung der Post voran. / Das angeschlagene Unternehmen schloss im Zuge einer Restrukturierung zwei Werke.",
+        "contexts": [
+          "Growth strategy",
+          "Koizumi-era politics",
+          "Corporate restructuring"
+        ],
+        "lexical": "JMdict 1992700 sense 1, noun: structural reform, restructuring",
+        "register": "written / political",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:341 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Growth strategy; Koizumi-era politics; Corporate restructuring), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "538881dd71bcca3c5dc1a5a6820cb75d4082b8d39b84ea1317430c3fac8ec627",
+        "approvalHash": "ffb199c14ce68f1dc9f3f62dc8bc9c4cb11aaa3427a24eb6ad5304741cbf32bc"
+      }
+    },
+    {
+      "id": "vocab-n1:342",
+      "revisionId": "207a-n1-enrichment-vocab-n1-342",
+      "state": "accepted",
+      "predecessorHash": "b7960d5aabdbf5a2466c9a61568c0274b078275734a8db7fcf19eadd9bb55dff",
+      "originalHash": "b7960d5aabdbf5a2466c9a61568c0274b078275734a8db7fcf19eadd9bb55dff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "少子化により小学校の統廃合が進んでいる。",
+            "romaji": "Shōshika ni yori shōgakkō no tōhaigō ga susunde iru.",
+            "german": "Aufgrund des Geburtenrückgangs schreitet die Zusammenlegung von Grundschulen voran."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "統廃合 verbindet 統合 „zusammenlegen“ und 廃止 „abschaffen“: Einrichtungen werden zusammengeführt, wobei einige ganz geschlossen werden. Typisch bei Schulen, Krankenhäusern, Bankfilialen und Behörden: 〜の統廃合が進む, 〜を統廃合する (transitives する-Verb). Abzugrenzen von 合併 „Fusion“ (von Firmen oder Gemeinden) und 統合 „Integration“ ohne Schließung. Register: Verwaltungs- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "少子化により小学校の統廃合が進んでいる。",
+            "romaji": "Shōshika ni yori shōgakkō no tōhaigō ga susunde iru.",
+            "german": "Aufgrund des Geburtenrückgangs schreitet die Zusammenlegung von Grundschulen voran."
+          },
+          {
+            "japanese": "銀行は来年までに支店を約30か所統廃合する方針だ。",
+            "romaji": "Ginkō wa rainen made ni shiten o yaku sanjukkasho tōhaigō suru hōshin da.",
+            "german": "Die Bank will bis nächstes Jahr rund 30 Filialen zusammenlegen oder schließen."
+          },
+          {
+            "japanese": "病院の統廃合で、近くに救急外来がなくなった。",
+            "romaji": "Byōin no tōhaigō de, chikaku ni kyūkyū gairai ga nakunatta.",
+            "german": "Seit die Krankenhäuser zusammengelegt wurden, gibt es in der Nähe keine Notaufnahme mehr."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183572405",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 統廃合/トウハイゴウ; lemma 統廃合; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "統廃合",
+              "reading": "とうはいごう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 統廃合/とうはいごう \"Zusammenlegung und Auflösung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2017570 sense 1, noun / suru verb (transitive): reorganization, consolidation, scrap-and-build Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 統廃合 verbindet 統合 „zusammenlegen“ und 廃止 „abschaffen“: Einrichtungen werden zusammengeführt, wobei einige ganz geschlossen werden. Typisch bei Schulen, Krankenhäusern, Bankfilialen und Behörden: 〜の統廃合が進む, 〜を統廃合する (transitives する-Verb). Abzugrenzen von 合併 „Fusion“ (von Firmen oder Gemeinden) und 統合 „Integration“ ohne Schließung. Register: Verwaltungs- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2017570; spelling=統廃合; reading=とうはいごう",
+          "selected": {
+            "sequence": "2017570",
+            "spelling": "統廃合",
+            "reading": "とうはいごう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "reorganization (e.g. of a company)",
+                  "reorganisation",
+                  "consolidation",
+                  "scrap-and-build"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2017570 sense 1, noun / suru verb (transitive): reorganization, consolidation, scrap-and-build"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 統廃合/トウハイゴウ; lemma 統廃合; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183572405",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 統廃合/トウハイゴウ; lemma 統廃合; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "統廃合",
+              "reading": "とうはいごう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 統廃合/とうはいごう \"Zusammenlegung und Auflösung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zusammenlegung und Auflösung. JMdict 2017570 sense 1, noun / suru verb (transitive): reorganization, consolidation, scrap-and-build",
+        "japanese": "少子化により小学校の統廃合が進んでいる。 / 銀行は来年までに支店を約30か所統廃合する方針だ。 / 病院の統廃合で、近くに救急外来がなくなった。",
+        "romanization": "tōhaigō; Shōshika ni yori shōgakkō no tōhaigō ga susunde iru. / Ginkō wa rainen made ni shiten o yaku sanjukkasho tōhaigō suru hōshin da. / Byōin no tōhaigō de, chikaku ni kyūkyū gairai ga nakunatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aufgrund des Geburtenrückgangs schreitet die Zusammenlegung von Grundschulen voran. / Die Bank will bis nächstes Jahr rund 30 Filialen zusammenlegen oder schließen. / Seit die Krankenhäuser zusammengelegt wurden, gibt es in der Nähe keine Notaufnahme mehr.",
+        "contexts": [
+          "Declining birthrate and schools",
+          "Bank branch consolidation",
+          "Losing a local emergency room"
+        ],
+        "lexical": "JMdict 2017570 sense 1, noun / suru verb (transitive): reorganization, consolidation, scrap-and-build",
+        "register": "written / administrative",
+        "transitivity": "transitive as 統廃合する (〜を統廃合する); usually 〜の統廃合 or passive",
+        "conjugation": "noun; suru verb (統廃合する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:342 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Declining birthrate and schools; Bank branch consolidation; Losing a local emergency room), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b13c18535b8b254f61f045ba2a165aeff527105234479a27e41483fec42297ae",
+        "approvalHash": "68c97f54003d23c245fe780a4860904d03d9262fa6cb7122b084be4c4398a847"
+      }
+    },
+    {
+      "id": "vocab-n1:343",
+      "revisionId": "207a-n1-enrichment-vocab-n1-343",
+      "state": "accepted",
+      "predecessorHash": "68aee452c24837b44e55a061601e362ea293a65a51ffa35ba8bdf5d4245c9e0a",
+      "originalHash": "68aee452c24837b44e55a061601e362ea293a65a51ffa35ba8bdf5d4245c9e0a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "広域連合が複数の市町村にまたがる事務を処理している。",
+            "romaji": "Kōiki rengō ga fukusū no shichōson ni matagaru jimu o shori shite iru.",
+            "german": "Der überregionale Kommunalverband bearbeitet Angelegenheiten, die mehrere Gemeinden betreffen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "広域連合 ist eine Rechtsform des Kommunalrechts (地方自治法): Präfekturen, Städte und Gemeinden schließen sich zusammen, um überörtliche Aufgaben gemeinsam zu erledigen. Bekannte Beispiele sind 後期高齢者医療広域連合 (Krankenversicherung für Menschen ab 75) und das 関西広域連合. Abzugrenzen vom 一部事務組合, einem Zweckverband für einzelne Aufgaben wie Müllentsorgung. 広域 bedeutet „weiträumig, überregional“; Register: Verwaltungssprache.",
+        "examples": [
+          {
+            "japanese": "広域連合が複数の市町村にまたがる事務を処理している。",
+            "romaji": "Kōiki rengō ga fukusū no shichōson ni matagaru jimu o shori shite iru.",
+            "german": "Der überregionale Kommunalverband bearbeitet Angelegenheiten, die mehrere Gemeinden betreffen."
+          },
+          {
+            "japanese": "関西広域連合は防災や観光で府県の連携を進めている。",
+            "romaji": "Kansai kōiki rengō wa bōsai ya kankō de fuken no renkei o susumete iru.",
+            "german": "Der Kansai-Regionalverband fördert die Zusammenarbeit der Präfekturen bei Katastrophenschutz und Tourismus."
+          },
+          {
+            "japanese": "75歳以上の医療保険は、都道府県ごとの広域連合が運営している。",
+            "romaji": "Nanajūgo-sai ijō no iryō hoken wa, todōfuken goto no kōiki rengō ga un'ei shite iru.",
+            "german": "Die Krankenversicherung für Menschen ab 75 wird von Kommunalverbänden auf Präfekturebene getragen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 広域連合; nearest JMdict 1278470 (広域), noun: wide area (here: union of local governments for wide-area administration) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 広域連合 ist eine Rechtsform des Kommunalrechts (地方自治法): Präfekturen, Städte und Gemeinden schließen sich zusammen, um überörtliche Aufgaben gemeinsam zu erledigen. Bekannte Beispiele sind 後期高齢者医療広域連合 (Krankenversicherung für Menschen ab 75) und das 関西広域連合. Abzugrenzen vom 一部事務組合, einem Zweckverband für einzelne Aufgaben wie Müllentsorgung. 広域 bedeutet „weiträumig, überregional“; Register: Verwaltungssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=広域連合; reading=こういきれんごう; no entry",
+          "finding": "No exact JMdict entry for 広域連合; nearest JMdict 1278470 (広域), noun: wide area (here: union of local governments for wide-area administration)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 広域連合/こういきれんごう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BA%83%E5%9F%9F%E9%80%A3%E5%90%88",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 広域連合/こういきれんごう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "überregionaler Kommunalverband. No exact JMdict entry for 広域連合; nearest JMdict 1278470 (広域), noun: wide area (here: union of local governments for wide-area administration)",
+        "japanese": "広域連合が複数の市町村にまたがる事務を処理している。 / 関西広域連合は防災や観光で府県の連携を進めている。 / 75歳以上の医療保険は、都道府県ごとの広域連合が運営している。",
+        "romanization": "kōiki rengō; Kōiki rengō ga fukusū no shichōson ni matagaru jimu o shori shite iru. / Kansai kōiki rengō wa bōsai ya kankō de fuken no renkei o susumete iru. / Nanajūgo-sai ijō no iryō hoken wa, todōfuken goto no kōiki rengō ga un'ei shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der überregionale Kommunalverband bearbeitet Angelegenheiten, die mehrere Gemeinden betreffen. / Der Kansai-Regionalverband fördert die Zusammenarbeit der Präfekturen bei Katastrophenschutz und Tourismus. / Die Krankenversicherung für Menschen ab 75 wird von Kommunalverbänden auf Präfekturebene getragen.",
+        "contexts": [
+          "Cross-municipal administration",
+          "Kansai regional cooperation",
+          "Health insurance for the elderly"
+        ],
+        "lexical": "No exact JMdict entry for 広域連合; nearest JMdict 1278470 (広域), noun: wide area (here: union of local governments for wide-area administration)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:343 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cross-municipal administration; Kansai regional cooperation; Health insurance for the elderly), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d50473807019eda8734f7fbce484279f356704e42875a2e99e5ee4de918702bc",
+        "approvalHash": "358663d0f37e7cbb3f1e17104e4cf68a4aed0536d2bd690a190acc0d74c90730"
+      }
+    },
+    {
+      "id": "vocab-n1:344",
+      "revisionId": "207a-n1-enrichment-vocab-n1-344",
+      "state": "accepted",
+      "predecessorHash": "a6b9eaf733d1e60fbbcdb34ebea5c72a83892c6fc0ff448d39caa54bfdcd884b",
+      "originalHash": "a6b9eaf733d1e60fbbcdb34ebea5c72a83892c6fc0ff448d39caa54bfdcd884b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "事業仕分けにより無駄な支出が削減された。",
+            "romaji": "Jigyō shiwake ni yori muda na shishutsu ga sakugen sareta.",
+            "german": "Durch die Budgetüberprüfung wurden überflüssige Ausgaben gekürzt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "事業仕分け ist ein Verfahren, bei dem öffentliche Programme in öffentlicher Sitzung überprüft und als „fortführen“, „kürzen“ oder „abschaffen“ eingestuft werden. Bekannt wurde es 2009–2010 unter der DPJ-Regierung; 仕分け heißt wörtlich „Sortieren“. Typisch: 事業仕分けの対象になる, 事業仕分けで「廃止」と判定される. Heute führen es vor allem Kommunen durch; Register: Politik- und Mediensprache.",
+        "examples": [
+          {
+            "japanese": "事業仕分けにより無駄な支出が削減された。",
+            "romaji": "Jigyō shiwake ni yori muda na shishutsu ga sakugen sareta.",
+            "german": "Durch die Budgetüberprüfung wurden überflüssige Ausgaben gekürzt."
+          },
+          {
+            "japanese": "事業仕分けでは、スーパーコンピューターの予算も議論の対象になった。",
+            "romaji": "Jigyō shiwake de wa, sūpākonpyūtā no yosan mo giron no taishō ni natta.",
+            "german": "Bei der Programmprüfung stand auch das Budget für den Supercomputer zur Debatte."
+          },
+          {
+            "japanese": "その補助金は事業仕分けで「廃止」と判定された。",
+            "romaji": "Sono hojokin wa jigyō shiwake de haishi to hantei sareta.",
+            "german": "Die Subvention wurde bei der Programmprüfung als „abzuschaffen“ eingestuft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2531320 sense 1, noun: program review, budget screening Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 事業仕分け ist ein Verfahren, bei dem öffentliche Programme in öffentlicher Sitzung überprüft und als „fortführen“, „kürzen“ oder „abschaffen“ eingestuft werden. Bekannt wurde es 2009–2010 unter der DPJ-Regierung; 仕分け heißt wörtlich „Sortieren“. Typisch: 事業仕分けの対象になる, 事業仕分けで「廃止」と判定される. Heute führen es vor allem Kommunen durch; Register: Politik- und Mediensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2531320; spelling=事業仕分け; reading=じぎょうしわけ",
+          "selected": {
+            "sequence": "2531320",
+            "spelling": "事業仕分け",
+            "reading": "じぎょうしわけ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "program review",
+                  "budget screening",
+                  "review and prioritization of government programs"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2531320 sense 1, noun: program review, budget screening"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 事業仕分け/じぎょうしわけ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BA%8B%E6%A5%AD%E4%BB%95%E5%88%86%E3%81%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 事業仕分け/じぎょうしわけ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Budgetüberprüfung; Evaluierung öffentlicher Projekte. JMdict 2531320 sense 1, noun: program review, budget screening",
+        "japanese": "事業仕分けにより無駄な支出が削減された。 / 事業仕分けでは、スーパーコンピューターの予算も議論の対象になった。 / その補助金は事業仕分けで「廃止」と判定された。",
+        "romanization": "jigyō shiwake; Jigyō shiwake ni yori muda na shishutsu ga sakugen sareta. / Jigyō shiwake de wa, sūpākonpyūtā no yosan mo giron no taishō ni natta. / Sono hojokin wa jigyō shiwake de haishi to hantei sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Budgetüberprüfung wurden überflüssige Ausgaben gekürzt. / Bei der Programmprüfung stand auch das Budget für den Supercomputer zur Debatte. / Die Subvention wurde bei der Programmprüfung als „abzuschaffen“ eingestuft.",
+        "contexts": [
+          "Cutting wasteful spending",
+          "Supercomputer budget debate",
+          "Subsidy ruled for abolition"
+        ],
+        "lexical": "JMdict 2531320 sense 1, noun: program review, budget screening",
+        "register": "written / political",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:344 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cutting wasteful spending; Supercomputer budget debate; Subsidy ruled for abolition), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cb5c117399614b7cd2829b98e73adeb46d19ed729533245e0d9f4657a8c2f6ba",
+        "approvalHash": "3595aca7bf688478c9ab337a04cadcfde569360f3c1029d523d51ee061af4322"
+      }
+    },
+    {
+      "id": "vocab-n1:345",
+      "revisionId": "207a-n1-enrichment-vocab-n1-345",
+      "state": "accepted",
+      "predecessorHash": "40d082dd37065fce850a3423f12c1c0c2ed9916ad8caad955b59d9cf28545bca",
+      "originalHash": "40d082dd37065fce850a3423f12c1c0c2ed9916ad8caad955b59d9cf28545bca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "新しい条例案に対してパブリックコメントが募集された。",
+            "romaji": "Atarashii jōreian ni taishite paburikku komento ga boshū sareta.",
+            "german": "Zu dem neuen Verordnungsentwurf wurden öffentliche Stellungnahmen eingeholt."
+          }
+        ],
+        "meaning": "öffentliche Stellungnahme; Bürgerbeteiligung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "パブリックコメント ist das amtliche Konsultationsverfahren (意見公募手続), bei dem Behörden Entwürfe von Verordnungen veröffentlichen und jeder dazu Stellung nehmen kann. Das Wort meint sowohl das Verfahren als auch die einzelne Stellungnahme; umgangssprachlich kurz パブコメ. Typisch: パブリックコメントを募集する／実施する, パブコメを出す／提出する, パブリックコメントに寄せられた意見.",
+        "examples": [
+          {
+            "japanese": "新しい条例案に対してパブリックコメントが募集された。",
+            "romaji": "Atarashii jōreian ni taishite paburikku komento ga boshū sareta.",
+            "german": "Zu dem neuen Verordnungsentwurf wurden öffentliche Stellungnahmen eingeholt."
+          },
+          {
+            "japanese": "私も規制案についてパブリックコメントを提出した。",
+            "romaji": "Watashi mo kiseian ni tsuite paburikku komento o teishutsu shita.",
+            "german": "Ich habe zu dem Regulierungsentwurf ebenfalls eine Stellungnahme eingereicht."
+          },
+          {
+            "japanese": "パブリックコメントには一か月で二千件以上の意見が寄せられた。",
+            "romaji": "Paburikku komento ni wa ikkagetsu de nisen-ken ijō no iken ga yoserareta.",
+            "german": "Im Konsultationsverfahren gingen innerhalb eines Monats über 2000 Stellungnahmen ein."
+          }
+        ],
+        "meaning": "öffentliche Konsultation; Stellungnahme im Konsultationsverfahren",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1984990 sense 1, noun: public comment, public consultation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). パブリックコメント ist das amtliche Konsultationsverfahren (意見公募手続), bei dem Behörden Entwürfe von Verordnungen veröffentlichen und jeder dazu Stellung nehmen kann. Das Wort meint sowohl das Verfahren als auch die einzelne Stellungnahme; umgangssprachlich kurz パブコメ. Typisch: パブリックコメントを募集する／実施する, パブコメを出す／提出する, パブリックコメントに寄せられた意見. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1984990; spelling=パブリックコメント; reading=パブリックコメント",
+          "selected": {
+            "sequence": "1984990",
+            "spelling": "パブリックコメント",
+            "reading": "パブリックコメント",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "public comment",
+                  "public consultation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1984990 sense 1, noun: public comment, public consultation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole パブリックコメント/パブリックコメント scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%83%91%E3%83%96%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole パブリックコメント/パブリックコメント scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "öffentliche Konsultation; Stellungnahme im Konsultationsverfahren. JMdict 1984990 sense 1, noun: public comment, public consultation",
+        "japanese": "新しい条例案に対してパブリックコメントが募集された。 / 私も規制案についてパブリックコメントを提出した。 / パブリックコメントには一か月で二千件以上の意見が寄せられた。",
+        "romanization": "paburikku komento; Atarashii jōreian ni taishite paburikku komento ga boshū sareta. / Watashi mo kiseian ni tsuite paburikku komento o teishutsu shita. / Paburikku komento ni wa ikkagetsu de nisen-ken ijō no iken ga yoserareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zu dem neuen Verordnungsentwurf wurden öffentliche Stellungnahmen eingeholt. / Ich habe zu dem Regulierungsentwurf ebenfalls eine Stellungnahme eingereicht. / Im Konsultationsverfahren gingen innerhalb eines Monats über 2000 Stellungnahmen ein.",
+        "contexts": [
+          "Draft ordinance consultation",
+          "Submitting one's own comment",
+          "Volume of responses"
+        ],
+        "lexical": "JMdict 1984990 sense 1, noun: public comment, public consultation",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:345 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Draft ordinance consultation; Submitting one's own comment; Volume of responses), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "cbf643a87a8f6d6a54f8db6fe24871d7697922dbb9894efc0fed8c0a6baa2a0f",
+        "approvalHash": "5b363b5dc25c200a5549e870730b934cbafa6cee4d2bf16595392fdc8cf01f57"
+      }
+    },
+    {
+      "id": "vocab-n1:346",
+      "revisionId": "207a-n1-enrichment-vocab-n1-346",
+      "state": "accepted",
+      "predecessorHash": "a561be7877df357fc7f03f76a39035941bd2eac749a97248da6f23eee883b18f",
+      "originalHash": "a561be7877df357fc7f03f76a39035941bd2eac749a97248da6f23eee883b18f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "オンブズマン制度が行政の透明性向上に貢献している。",
+            "romaji": "Onbuzuman seido ga gyōsei no tōmeisei kōjō ni kōken shite iru.",
+            "german": "Das Ombudsmann-System trägt zur Verbesserung der Verwaltungstransparenz bei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "オンブズマン stammt aus dem Schwedischen und hat in Japan zwei Verwendungen: die offizielle Ombudsperson einer Kommune, die Bürgerbeschwerden über die Verwaltung prüft (行政オンブズマン), und vor allem die Bürgergruppen namens 市民オンブズマン, die öffentliche Ausgaben kontrollieren, Informationsfreigabe beantragen und klagen. Typisch: オンブズマンに苦情を申し立てる, オンブズマン制度. Geschlechtsneutral auch オンブズパーソン.",
+        "examples": [
+          {
+            "japanese": "オンブズマン制度が行政の透明性向上に貢献している。",
+            "romaji": "Onbuzuman seido ga gyōsei no tōmeisei kōjō ni kōken shite iru.",
+            "german": "Das Ombudsmann-System trägt zur Verbesserung der Verwaltungstransparenz bei."
+          },
+          {
+            "japanese": "市民オンブズマンが議員の政務活動費の使い道を調査した。",
+            "romaji": "Shimin onbuzuman ga giin no seimu katsudōhi no tsukaimichi o chōsa shita.",
+            "german": "Eine Bürgerinitiative zur Verwaltungskontrolle prüfte, wofür die Abgeordneten ihre Aufwandsgelder ausgaben."
+          },
+          {
+            "japanese": "区の対応に納得できず、オンブズマンに苦情を申し立てた。",
+            "romaji": "Ku no taiō ni nattoku dekizu, onbuzuman ni kujō o mōshitateta.",
+            "german": "Weil ich mit der Reaktion des Bezirksamts nicht zufrieden war, reichte ich beim Ombudsmann Beschwerde ein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85268215",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole オンブズマン/オンブズマン; lemma オンブズマン-ombudsman; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "オンブズマン",
+              "reading": "オンブズマン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen オンブズマン/オンブズマン \"Ombudsmann; Bürgerbeauftragter\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1036050 sense 1, noun: ombudsman Pitch: Verified [0] via exact UniDic row. オンブズマン stammt aus dem Schwedischen und hat in Japan zwei Verwendungen: die offizielle Ombudsperson einer Kommune, die Bürgerbeschwerden über die Verwaltung prüft (行政オンブズマン), und vor allem die Bürgergruppen namens 市民オンブズマン, die öffentliche Ausgaben kontrollieren, Informationsfreigabe beantragen und klagen. Typisch: オンブズマンに苦情を申し立てる, オンブズマン制度. Geschlechtsneutral auch オンブズパーソン. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1036050; spelling=オンブズマン; reading=オンブズマン",
+          "selected": {
+            "sequence": "1036050",
+            "spelling": "オンブズマン",
+            "reading": "オンブズマン",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ombudsman"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1036050 sense 1, noun: ombudsman"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole オンブズマン/オンブズマン; lemma オンブズマン-ombudsman; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85268215",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole オンブズマン/オンブズマン; lemma オンブズマン-ombudsman; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "オンブズマン",
+              "reading": "オンブズマン",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen オンブズマン/オンブズマン \"Ombudsmann; Bürgerbeauftragter\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ombudsmann; Bürgerbeauftragter. JMdict 1036050 sense 1, noun: ombudsman",
+        "japanese": "オンブズマン制度が行政の透明性向上に貢献している。 / 市民オンブズマンが議員の政務活動費の使い道を調査した。 / 区の対応に納得できず、オンブズマンに苦情を申し立てた。",
+        "romanization": "onbuzuman; Onbuzuman seido ga gyōsei no tōmeisei kōjō ni kōken shite iru. / Shimin onbuzuman ga giin no seimu katsudōhi no tsukaimichi o chōsa shita. / Ku no taiō ni nattoku dekizu, onbuzuman ni kujō o mōshitateta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Ombudsmann-System trägt zur Verbesserung der Verwaltungstransparenz bei. / Eine Bürgerinitiative zur Verwaltungskontrolle prüfte, wofür die Abgeordneten ihre Aufwandsgelder ausgaben. / Weil ich mit der Reaktion des Bezirksamts nicht zufrieden war, reichte ich beim Ombudsmann Beschwerde ein.",
+        "contexts": [
+          "Transparency in government",
+          "Citizen watchdog group",
+          "Filing a complaint"
+        ],
+        "lexical": "JMdict 1036050 sense 1, noun: ombudsman",
+        "register": "neutral / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:346 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Transparency in government; Citizen watchdog group; Filing a complaint), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3e30a4fa8aabc9b99535007e393c1a8f0a6878d4a7beed63db925ad812584849",
+        "approvalHash": "4a3b6fdc18e74a7c4a20ae00436ea186b372eaeb2de65806e9725d543f5c282b"
+      }
+    },
+    {
+      "id": "vocab-n1:347",
+      "revisionId": "207a-n1-enrichment-vocab-n1-347",
+      "state": "accepted",
+      "predecessorHash": "7f4727a2c9704b05b6b0eb8410eb07b97c5b1fdda14d36946b58d80a1eb9b737",
+      "originalHash": "7f4727a2c9704b05b6b0eb8410eb07b97c5b1fdda14d36946b58d80a1eb9b737",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "電子政府の推進により行政手続きのオンライン化が進んでいる。",
+            "romaji": "Denshi seifu no suishin ni yori gyōsei tetsuzuki no onrainka ga susunde iru.",
+            "german": "Durch die Förderung des E-Governments schreitet die Digitalisierung der Verwaltungsverfahren voran."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "電子政府 bezeichnet die digitalisierte Verwaltung, in der Bürger Anträge und Auskünfte online erledigen; das zentrale Portal heißt e-Gov. Typisch: 電子政府の推進／実現, 電子政府ランキング. Für die kommunale Ebene sagt man 電子自治体; neuere Texte bevorzugen デジタル・ガバメント oder 行政のデジタル化 (seit 2021 mit der デジタル庁). Register: Verwaltungs- und Mediensprache.",
+        "examples": [
+          {
+            "japanese": "電子政府の推進により行政手続きのオンライン化が進んでいる。",
+            "romaji": "Denshi seifu no suishin ni yori gyōsei tetsuzuki no onrainka ga susunde iru.",
+            "german": "Durch die Förderung des E-Governments schreitet die Digitalisierung der Verwaltungsverfahren voran."
+          },
+          {
+            "japanese": "エストニアは電子政府の先進国として知られている。",
+            "romaji": "Esutonia wa denshi seifu no senshinkoku to shite shirarete iru.",
+            "german": "Estland gilt als Vorreiter beim E-Government."
+          },
+          {
+            "japanese": "電子政府の総合窓口サイトから、さまざまな申請をオンラインで行える。",
+            "romaji": "Denshi seifu no sōgō madoguchi saito kara, samazama na shinsei o onrain de okonaeru.",
+            "german": "Über das zentrale E-Government-Portal lassen sich viele Anträge online stellen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2857400 sense 1, noun: e-government, electronic government Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 電子政府 bezeichnet die digitalisierte Verwaltung, in der Bürger Anträge und Auskünfte online erledigen; das zentrale Portal heißt e-Gov. Typisch: 電子政府の推進／実現, 電子政府ランキング. Für die kommunale Ebene sagt man 電子自治体; neuere Texte bevorzugen デジタル・ガバメント oder 行政のデジタル化 (seit 2021 mit der デジタル庁). Register: Verwaltungs- und Mediensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2857400; spelling=電子政府; reading=でんしせいふ",
+          "selected": {
+            "sequence": "2857400",
+            "spelling": "電子政府",
+            "reading": "でんしせいふ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "e-government",
+                  "electronic government"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2857400 sense 1, noun: e-government, electronic government"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 電子政府/でんしせいふ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9B%BB%E5%AD%90%E6%94%BF%E5%BA%9C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 電子政府/でんしせいふ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "E-Government; elektronische Verwaltung. JMdict 2857400 sense 1, noun: e-government, electronic government",
+        "japanese": "電子政府の推進により行政手続きのオンライン化が進んでいる。 / エストニアは電子政府の先進国として知られている。 / 電子政府の総合窓口サイトから、さまざまな申請をオンラインで行える。",
+        "romanization": "denshi seifu; Denshi seifu no suishin ni yori gyōsei tetsuzuki no onrainka ga susunde iru. / Esutonia wa denshi seifu no senshinkoku to shite shirarete iru. / Denshi seifu no sōgō madoguchi saito kara, samazama na shinsei o onrain de okonaeru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Förderung des E-Governments schreitet die Digitalisierung der Verwaltungsverfahren voran. / Estland gilt als Vorreiter beim E-Government. / Über das zentrale E-Government-Portal lassen sich viele Anträge online stellen.",
+        "contexts": [
+          "Moving procedures online",
+          "International comparison",
+          "Using the government portal"
+        ],
+        "lexical": "JMdict 2857400 sense 1, noun: e-government, electronic government",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:347 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Moving procedures online; International comparison; Using the government portal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "88a23fc8e8492ee837adaed582fb1f557699bece474b2242c844fc7c92f55a69",
+        "approvalHash": "f420d0aeececd04ed227b52ef56c52a9fe0cfe532fb12397aecc1f0b83914e79"
+      }
+    },
+    {
+      "id": "vocab-n1:348",
+      "revisionId": "207a-n1-enrichment-vocab-n1-348",
+      "state": "accepted",
+      "predecessorHash": "80332f422456e4fdedf7dcbff1844d46a8a08c93b975a392498eb05a0fced80a",
+      "originalHash": "80332f422456e4fdedf7dcbff1844d46a8a08c93b975a392498eb05a0fced80a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "マイナンバー制度が社会保障と税の一体管理を目的としている。",
+            "romaji": "Mainanbā seido ga shakai hoshō to zei no ittai kanri o mokuteki to shite iru.",
+            "german": "Das My-Number-System zielt auf die einheitliche Verwaltung von Sozialversicherung und Steuern ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "マイナンバー ist die zwölfstellige persönliche Identifikationsnummer, die seit 2016 an alle Einwohner Japans vergeben wird (社会保障・税番号制度). Zu unterscheiden: マイナンバー ist die Nummer selbst, マイナンバーカード (kurz マイナカード) die Ausweiskarte mit Foto und Chip, die z. B. auch als Krankenversicherungskarte (マイナ保険証) dient. Typisch: マイナンバーを提出する／記入する, マイナンバー制度.",
+        "examples": [
+          {
+            "japanese": "マイナンバー制度は社会保障と税の一体管理を目的としている。",
+            "romaji": "Mainanbā seido wa shakai hoshō to zei no ittai kanri o mokuteki to shite iru.",
+            "german": "Das My-Number-System zielt auf die einheitliche Verwaltung von Sozialversicherung und Steuern ab."
+          },
+          {
+            "japanese": "アルバイトを始めるとき、会社にマイナンバーを提出した。",
+            "romaji": "Arubaito o hajimeru toki, kaisha ni mainanbā o teishutsu shita.",
+            "german": "Als ich mit dem Nebenjob anfing, musste ich dem Arbeitgeber meine My Number angeben."
+          },
+          {
+            "japanese": "マイナンバーカードがあれば、コンビニで住民票を取れる。",
+            "romaji": "Mainanbā kādo ga areba, konbini de jūminhyō o toreru.",
+            "german": "Mit der My-Number-Karte kann man sich im Konbini eine Meldebescheinigung ausdrucken."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2702940 sense 1, noun: identity number, national identification number Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). マイナンバー ist die zwölfstellige persönliche Identifikationsnummer, die seit 2016 an alle Einwohner Japans vergeben wird (社会保障・税番号制度). Zu unterscheiden: マイナンバー ist die Nummer selbst, マイナンバーカード (kurz マイナカード) die Ausweiskarte mit Foto und Chip, die z. B. auch als Krankenversicherungskarte (マイナ保険証) dient. Typisch: マイナンバーを提出する／記入する, マイナンバー制度. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2702940; spelling=マイナンバー; reading=マイナンバー",
+          "selected": {
+            "sequence": "2702940",
+            "spelling": "マイナンバー",
+            "reading": "マイナンバー",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "identity number",
+                  "national identification number",
+                  "national identity number",
+                  "personal identity number"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2702940 sense 1, noun: identity number, national identification number"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole マイナンバー/マイナンバー scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole マイナンバー/マイナンバー scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "individuelle Identifikationsnummer (My Number). JMdict 2702940 sense 1, noun: identity number, national identification number",
+        "japanese": "マイナンバー制度は社会保障と税の一体管理を目的としている。 / アルバイトを始めるとき、会社にマイナンバーを提出した。 / マイナンバーカードがあれば、コンビニで住民票を取れる。",
+        "romanization": "mainanbā; Mainanbā seido wa shakai hoshō to zei no ittai kanri o mokuteki to shite iru. / Arubaito o hajimeru toki, kaisha ni mainanbā o teishutsu shita. / Mainanbā kādo ga areba, konbini de jūminhyō o toreru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das My-Number-System zielt auf die einheitliche Verwaltung von Sozialversicherung und Steuern ab. / Als ich mit dem Nebenjob anfing, musste ich dem Arbeitgeber meine My Number angeben. / Mit der My-Number-Karte kann man sich im Konbini eine Meldebescheinigung ausdrucken.",
+        "contexts": [
+          "Purpose of the system",
+          "Starting a part-time job",
+          "Certificate at a convenience store"
+        ],
+        "lexical": "JMdict 2702940 sense 1, noun: identity number, national identification number",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:348 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Purpose of the system; Starting a part-time job; Certificate at a convenience store), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2383b3f1e72aeef4eac3772323b7ddb083258602de9b82d501fd7532b974a44e",
+        "approvalHash": "7426315ccf4a8d8beebf2f4a1b11d3b82f569c7c2a58cacf616c0ee5cf0fc906"
+      }
+    },
+    {
+      "id": "vocab-n1:349",
+      "revisionId": "207a-n1-enrichment-vocab-n1-349",
+      "state": "accepted",
+      "predecessorHash": "00914f8ef6aeb339411f870b81826f7fe3b5a108c6baab3a8f403901ea8e78a9",
+      "originalHash": "00914f8ef6aeb339411f870b81826f7fe3b5a108c6baab3a8f403901ea8e78a9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "行政の怠慢が被害の拡大を招いた。",
+            "romaji": "Gyōsei no taiman ga higai no kakudai o maneita.",
+            "german": "Die Nachlässigkeit der Verwaltung führte zur Ausweitung des Schadens."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "怠慢 ist das Vernachlässigen von Pflichten, die man eigentlich erfüllen müsste; als Nomen und als な-Adjektiv (怠慢な態度). Typisch: 職務怠慢 „Pflichtversäumnis“, 行政の怠慢, 怠慢だと批判される, im Sport 怠慢プレー „lustloses Spiel“. Verwandt mit dem Verb 怠る „versäumen“. Abzugrenzen von 怠惰 „Faulheit“ als Charakterzug; 怠慢 kritisiert immer ein konkretes Versäumnis. Register: formell, wertend.",
+        "examples": [
+          {
+            "japanese": "行政の怠慢が被害の拡大を招いた。",
+            "romaji": "Gyōsei no taiman ga higai no kakudai o maneita.",
+            "german": "Die Nachlässigkeit der Verwaltung führte zur Ausweitung des Schadens."
+          },
+          {
+            "japanese": "警備員の職務怠慢が事故の原因とされた。",
+            "romaji": "Keibiin no shokumu taiman ga jiko no gen'in to sareta.",
+            "german": "Als Unfallursache galt die Pflichtvernachlässigung des Wachmanns."
+          },
+          {
+            "japanese": "確認を怠ったのは明らかに私の怠慢です。申し訳ありません。",
+            "romaji": "Kakunin o okotatta no wa akiraka ni watashi no taiman desu. Mōshiwake arimasen.",
+            "german": "Dass ich das nicht überprüft habe, war eindeutig meine Nachlässigkeit. Es tut mir leid."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158192295",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 怠慢/タイマン; lemma 怠慢; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "怠慢",
+              "reading": "たいまん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 怠慢/たいまん \"Nachlässigkeit; Pflichtverletzung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1410740 sense 1, noun / na-adjective: negligence, neglect Pitch: Verified [0] via exact UniDic row. 怠慢 ist das Vernachlässigen von Pflichten, die man eigentlich erfüllen müsste; als Nomen und als な-Adjektiv (怠慢な態度). Typisch: 職務怠慢 „Pflichtversäumnis“, 行政の怠慢, 怠慢だと批判される, im Sport 怠慢プレー „lustloses Spiel“. Verwandt mit dem Verb 怠る „versäumen“. Abzugrenzen von 怠惰 „Faulheit“ als Charakterzug; 怠慢 kritisiert immer ein konkretes Versäumnis. Register: formell, wertend. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1410740; spelling=怠慢; reading=たいまん",
+          "selected": {
+            "sequence": "1410740",
+            "spelling": "怠慢",
+            "reading": "たいまん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "negligence",
+                  "neglect",
+                  "carelessness",
+                  "procrastination"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1410740 sense 1, noun / na-adjective: negligence, neglect"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 怠慢/タイマン; lemma 怠慢; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158192295",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 怠慢/タイマン; lemma 怠慢; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "怠慢",
+              "reading": "たいまん",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 怠慢/たいまん \"Nachlässigkeit; Pflichtverletzung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nachlässigkeit; Pflichtverletzung. JMdict 1410740 sense 1, noun / na-adjective: negligence, neglect",
+        "japanese": "行政の怠慢が被害の拡大を招いた。 / 警備員の職務怠慢が事故の原因とされた。 / 確認を怠ったのは明らかに私の怠慢です。申し訳ありません。",
+        "romanization": "taiman; Gyōsei no taiman ga higai no kakudai o maneita. / Keibiin no shokumu taiman ga jiko no gen'in to sareta. / Kakunin o okotatta no wa akiraka ni watashi no taiman desu. Mōshiwake arimasen. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Nachlässigkeit der Verwaltung führte zur Ausweitung des Schadens. / Als Unfallursache galt die Pflichtvernachlässigung des Wachmanns. / Dass ich das nicht überprüft habe, war eindeutig meine Nachlässigkeit. Es tut mir leid.",
+        "contexts": [
+          "Criticism of authorities",
+          "Cause of an accident",
+          "Apologizing at work"
+        ],
+        "lexical": "JMdict 1410740 sense 1, noun / na-adjective: negligence, neglect",
+        "register": "formal, critical",
+        "transitivity": "Nonverb",
+        "conjugation": "noun; na-adjective (怠慢な)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:349 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Criticism of authorities; Cause of an accident; Apologizing at work), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b669b9604670b6a9d871e04691c5dea7ee3e814362c4069d92294ea1e3810693",
+        "approvalHash": "7451783902ecff8d3ee6fa8d9cdf92647f065b9c1556b63c07d1a04940caf310"
+      }
+    },
+    {
+      "id": "vocab-n1:350",
+      "revisionId": "207a-n1-enrichment-vocab-n1-350",
+      "state": "accepted",
+      "predecessorHash": "e44c525dd6fad08a52a9ac1a66058caacbed254b9def689272ba47b0b15130e8",
+      "originalHash": "e44c525dd6fad08a52a9ac1a66058caacbed254b9def689272ba47b0b15130e8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "瀆職罪で公務員が起訴された。",
+            "romaji": "Tokushoku zai de kōmuin ga kiso sareta.",
+            "german": "Ein Beamter wurde wegen Amtsmissbrauchs angeklagt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "瀆職 bedeutet wörtlich „das Amt beschmutzen“: Amtsvergehen von Beamten, besonders Bestechlichkeit und Machtmissbrauch. Das Wort ist veraltet und lebt vor allem im Strafrecht als 瀆職罪 (Sammelbegriff für 職権濫用罪, 収賄罪 usw.) weiter; in Nachrichten sagt man heute 汚職. Da 瀆 kein Jōyō-Kanji ist, sieht man auch 涜職. Register: sehr formell, juristisch.",
+        "examples": [
+          {
+            "japanese": "瀆職罪で公務員が起訴された。",
+            "romaji": "Tokushoku zai de kōmuin ga kiso sareta.",
+            "german": "Ein Beamter wurde wegen Amtsmissbrauchs angeklagt."
+          },
+          {
+            "japanese": "収賄などの瀆職事件が相次ぎ、市政への信頼が揺らいだ。",
+            "romaji": "Shūwai nado no tokushoku jiken ga aitsugi, shisei e no shinrai ga yuraida.",
+            "german": "Nach einer Reihe von Korruptionsfällen wie Bestechlichkeit geriet das Vertrauen in die Stadtverwaltung ins Wanken."
+          },
+          {
+            "japanese": "公務員による瀆職行為は厳しく処罰されるべきだ。",
+            "romaji": "Kōmuin ni yoru tokushoku kōi wa kibishiku shobatsu sareru beki da.",
+            "german": "Amtsvergehen von Beamten müssen streng bestraft werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184914951",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 瀆職/トクショク; lemma 涜職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "瀆職",
+              "reading": "とくしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 瀆職/とくしょく \"Amtsmissbrauch; Korruption im Amt\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1688110 sense 1, noun / suru verb (intransitive): corruption by a government employee, bribery (dated) Pitch: Verified [0] via exact UniDic row. 瀆職 bedeutet wörtlich „das Amt beschmutzen“: Amtsvergehen von Beamten, besonders Bestechlichkeit und Machtmissbrauch. Das Wort ist veraltet und lebt vor allem im Strafrecht als 瀆職罪 (Sammelbegriff für 職権濫用罪, 収賄罪 usw.) weiter; in Nachrichten sagt man heute 汚職. Da 瀆 kein Jōyō-Kanji ist, sieht man auch 涜職. Register: sehr formell, juristisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1688110; spelling=瀆職; reading=とくしょく",
+          "selected": {
+            "sequence": "1688110",
+            "spelling": "瀆職",
+            "reading": "とくしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [
+              "rarely used kanji form"
+            ],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [
+                  "dated term"
+                ],
+                "gloss": [
+                  "corruption (esp. by a government employee)",
+                  "bribery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1688110 sense 1, noun / suru verb (intransitive): corruption by a government employee, bribery (dated)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 瀆職/トクショク; lemma 涜職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@184914951",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 瀆職/トクショク; lemma 涜職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "瀆職",
+              "reading": "とくしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 瀆職/とくしょく \"Amtsmissbrauch; Korruption im Amt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Amtsmissbrauch; Korruption im Amt. JMdict 1688110 sense 1, noun / suru verb (intransitive): corruption by a government employee, bribery (dated)",
+        "japanese": "瀆職罪で公務員が起訴された。 / 収賄などの瀆職事件が相次ぎ、市政への信頼が揺らいだ。 / 公務員による瀆職行為は厳しく処罰されるべきだ。",
+        "romanization": "tokushoku; Tokushoku zai de kōmuin ga kiso sareta. / Shūwai nado no tokushoku jiken ga aitsugi, shisei e no shinrai ga yuraida. / Kōmuin ni yoru tokushoku kōi wa kibishiku shobatsu sareru beki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Beamter wurde wegen Amtsmissbrauchs angeklagt. / Nach einer Reihe von Korruptionsfällen wie Bestechlichkeit geriet das Vertrauen in die Stadtverwaltung ins Wanken. / Amtsvergehen von Beamten müssen streng bestraft werden.",
+        "contexts": [
+          "Indictment of an official",
+          "Series of scandals",
+          "Call for strict punishment"
+        ],
+        "lexical": "JMdict 1688110 sense 1, noun / suru verb (intransitive): corruption by a government employee, bribery (dated)",
+        "register": "written / legal, dated",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:350 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Indictment of an official; Series of scandals; Call for strict punishment), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "56738fed0eadde66505d9ea4e8660cfe0c97cdcb78697eb7780c4e6ea8a07fbb",
+        "approvalHash": "a07319ffa92dde3f58a40e77c49658519f2fc80794110aa6620582ba093a6697"
+      }
+    },
+    {
+      "id": "vocab-n1:351",
+      "revisionId": "207a-n1-enrichment-vocab-n1-351",
+      "state": "accepted",
+      "predecessorHash": "3ac65a34d15e88556b292e0f7e38027c49ca9ce9244ba4819b2f34a99dc7abc3",
+      "originalHash": "3ac65a34d15e88556b292e0f7e38027c49ca9ce9244ba4819b2f34a99dc7abc3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "会社役員が特別背任の罪で逮捕された。",
+            "romaji": "Kaisha yakuin ga tokubetsu hainin no tsumi de taiho sareta.",
+            "german": "Ein Firmenvorstand wurde wegen schwerer Untreue verhaftet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "背任 ist der Straftatbestand der Untreue: Wer fremde Geschäfte führt (z. B. ein Vorstand oder Angestellter), handelt zum eigenen oder fremden Vorteil gegen seine Pflichten und schädigt so den Auftraggeber. Für Direktoren gilt der verschärfte 特別背任. Abzugrenzen von 横領 „Unterschlagung“, dem Aneignen fremden Eigentums. Typisch: 背任罪, 背任の疑いで逮捕される, 背任行為. Register: juristisch, Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "会社役員が特別背任の罪で逮捕された。",
+            "romaji": "Kaisha yakuin ga tokubetsu hainin no tsumi de taiho sareta.",
+            "german": "Ein Firmenvorstand wurde wegen schwerer Untreue verhaftet."
+          },
+          {
+            "japanese": "元社長は、知人の会社に無担保で融資させたとして背任の罪に問われている。",
+            "romaji": "Moto shachō wa, chijin no kaisha ni mutanpo de yūshi saseta to shite hainin no tsumi ni towarete iru.",
+            "german": "Dem früheren Präsidenten wird Untreue vorgeworfen, weil er der Firma eines Bekannten einen Kredit ohne Sicherheiten verschafft haben soll."
+          },
+          {
+            "japanese": "顧客の信頼を裏切る背任行為は許されない。",
+            "romaji": "Kokyaku no shinrai o uragiru hainin kōi wa yurusarenai.",
+            "german": "Untreue, die das Vertrauen der Kunden verrät, ist nicht hinnehmbar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211340436",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 背任/ハイニン; lemma 背任; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "背任",
+              "reading": "はいにん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 背任/はいにん \"Untreue; Pflichtverletzung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1472840 sense 1, noun / suru verb: breach of trust, malfeasance Pitch: Verified [0] via exact UniDic row. 背任 ist der Straftatbestand der Untreue: Wer fremde Geschäfte führt (z. B. ein Vorstand oder Angestellter), handelt zum eigenen oder fremden Vorteil gegen seine Pflichten und schädigt so den Auftraggeber. Für Direktoren gilt der verschärfte 特別背任. Abzugrenzen von 横領 „Unterschlagung“, dem Aneignen fremden Eigentums. Typisch: 背任罪, 背任の疑いで逮捕される, 背任行為. Register: juristisch, Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1472840; spelling=背任; reading=はいにん",
+          "selected": {
+            "sequence": "1472840",
+            "spelling": "背任",
+            "reading": "はいにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "breach of trust",
+                  "malfeasance",
+                  "malpractice",
+                  "misappropriation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1472840 sense 1, noun / suru verb: breach of trust, malfeasance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 背任/ハイニン; lemma 背任; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@211340436",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 背任/ハイニン; lemma 背任; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "背任",
+              "reading": "はいにん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 背任/はいにん \"Untreue; Pflichtverletzung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Untreue; Pflichtverletzung. JMdict 1472840 sense 1, noun / suru verb: breach of trust, malfeasance",
+        "japanese": "会社役員が特別背任の罪で逮捕された。 / 元社長は、知人の会社に無担保で融資させたとして背任の罪に問われている。 / 顧客の信頼を裏切る背任行為は許されない。",
+        "romanization": "hainin; Kaisha yakuin ga tokubetsu hainin no tsumi de taiho sareta. / Moto shachō wa, chijin no kaisha ni mutanpo de yūshi saseta to shite hainin no tsumi ni towarete iru. / Kokyaku no shinrai o uragiru hainin kōi wa yurusarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Firmenvorstand wurde wegen schwerer Untreue verhaftet. / Dem früheren Präsidenten wird Untreue vorgeworfen, weil er der Firma eines Bekannten einen Kredit ohne Sicherheiten verschafft haben soll. / Untreue, die das Vertrauen der Kunden verrät, ist nicht hinnehmbar.",
+        "contexts": [
+          "Executive arrested",
+          "Unsecured loan to a friend",
+          "Betraying clients' trust"
+        ],
+        "lexical": "JMdict 1472840 sense 1, noun / suru verb: breach of trust, malfeasance",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:351 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Executive arrested; Unsecured loan to a friend; Betraying clients' trust), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a3ff4d9bd3f96cd86533faf04114c8f81c0b5b181612023735aee12a7116c6c5",
+        "approvalHash": "4bb8c22b3edccd27f2c702d3a8ff958abdd1931b669443e3aa6e3fffc8bef243"
+      }
+    },
+    {
+      "id": "vocab-n1:352",
+      "revisionId": "207a-n1-enrichment-vocab-n1-352",
+      "state": "accepted",
+      "predecessorHash": "a07827a19af0f3dafe4e75721c25a7684485b434fafb86dcd3f9ff9eb36d9f86",
+      "originalHash": "a07827a19af0f3dafe4e75721c25a7684485b434fafb86dcd3f9ff9eb36d9f86",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "巧妙な詐欺の手口が社会問題となっている。",
+            "romaji": "Kōmyō na sagi no teguchi ga shakai mondai to natte iru.",
+            "german": "Raffinierte Betrugsmethoden sind zu einem gesellschaftlichen Problem geworden."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "詐欺 ist Betrug im Alltag wie im Strafrecht (詐欺罪). Typisch: 詐欺に遭う／引っかかる „Opfer eines Betrugs werden“, 詐欺を働く „einen Betrug begehen“, 詐欺師 „Betrüger“, 特殊詐欺 bzw. オレオレ詐欺 (Enkeltrick per Telefon). Umgangssprachlich empört man sich mit こんなの詐欺だ über eine Mogelpackung. Das zugehörige Verb ist だます; ぺてん und いかさま sind salopper.",
+        "examples": [
+          {
+            "japanese": "巧妙な詐欺の手口が社会問題となっている。",
+            "romaji": "Kōmyō na sagi no teguchi ga shakai mondai to natte iru.",
+            "german": "Raffinierte Betrugsmethoden sind zu einem gesellschaftlichen Problem geworden."
+          },
+          {
+            "japanese": "祖母が電話の詐欺に遭いそうになった。",
+            "romaji": "Sobo ga denwa no sagi ni aisō ni natta.",
+            "german": "Meine Großmutter wäre beinahe auf einen Telefonbetrug hereingefallen."
+          },
+          {
+            "japanese": "写真と実物が全然違う。こんなの詐欺だよ！",
+            "romaji": "Shashin to jitsubutsu ga zenzen chigau. Konna no sagi da yo!",
+            "german": "Das Foto und das echte Ding haben nichts miteinander zu tun. Das ist doch Betrug!"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128515956",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 詐欺/サギ; lemma 詐欺; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 2 | 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 2.",
+            "match": {
+              "word": "詐欺",
+              "reading": "さぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 詐欺/さぎ \"Betrug; Schwindel\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1291690 sense 1, noun: fraud, swindle, scam Pitch: Verified [1] via exact UniDic row. 詐欺 ist Betrug im Alltag wie im Strafrecht (詐欺罪). Typisch: 詐欺に遭う／引っかかる „Opfer eines Betrugs werden“, 詐欺を働く „einen Betrug begehen“, 詐欺師 „Betrüger“, 特殊詐欺 bzw. オレオレ詐欺 (Enkeltrick per Telefon). Umgangssprachlich empört man sich mit こんなの詐欺だ über eine Mogelpackung. Das zugehörige Verb ist だます; ぺてん und いかさま sind salopper. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1291690; spelling=詐欺; reading=さぎ",
+          "selected": {
+            "sequence": "1291690",
+            "spelling": "詐欺",
+            "reading": "さぎ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fraud",
+                  "swindle",
+                  "graft",
+                  "cheating",
+                  "trick",
+                  "scam"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "saying you're going to do something but in the end not doing it",
+                  "making promises without keeping them",
+                  "flaking out"
+                ],
+                "notes": [
+                  "as 行く行く詐欺, etc.; modeled from オレオレ詐欺"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1291690 sense 1, noun: fraud, swindle, scam"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 詐欺/サギ; lemma 詐欺; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 2 | 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@128515956",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 詐欺/サギ; lemma 詐欺; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 未然形-一般; aType 2 | 詐欺/サギ; lemma 詐欺る; 動詞/一般/*/*; 五段-ラ行; 連体形-省略; aType 2.",
+            "match": {
+              "word": "詐欺",
+              "reading": "さぎ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 詐欺/さぎ \"Betrug; Schwindel\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Betrug; Schwindel. JMdict 1291690 sense 1, noun: fraud, swindle, scam",
+        "japanese": "巧妙な詐欺の手口が社会問題となっている。 / 祖母が電話の詐欺に遭いそうになった。 / 写真と実物が全然違う。こんなの詐欺だよ！",
+        "romanization": "sagi; Kōmyō na sagi no teguchi ga shakai mondai to natte iru. / Sobo ga denwa no sagi ni aisō ni natta. / Shashin to jitsubutsu ga zenzen chigau. Konna no sagi da yo! Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Raffinierte Betrugsmethoden sind zu einem gesellschaftlichen Problem geworden. / Meine Großmutter wäre beinahe auf einen Telefonbetrug hereingefallen. / Das Foto und das echte Ding haben nichts miteinander zu tun. Das ist doch Betrug!",
+        "contexts": [
+          "Social problem",
+          "Phone scam targeting grandma",
+          "Complaining about a product"
+        ],
+        "lexical": "JMdict 1291690 sense 1, noun: fraud, swindle, scam",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:352 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Social problem; Phone scam targeting grandma; Complaining about a product), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3fb35b7566933e9af86caa13d7a5f6191f78ba726e6db82406fe35c088e63a17",
+        "approvalHash": "6a559228ca497718c79d1b9dc3e0d7f285fab1c85c201cd3ee1db13b94907777"
+      }
+    },
+    {
+      "id": "vocab-n1:353",
+      "revisionId": "207a-n1-enrichment-vocab-n1-353",
+      "state": "accepted",
+      "predecessorHash": "6b7f69a748161276ebd88d54207a00c2ae5d9b504bc60f3b2c45e603f0ee5d4d",
+      "originalHash": "6b7f69a748161276ebd88d54207a00c2ae5d9b504bc60f3b2c45e603f0ee5d4d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "法廷での偽証は重い罪に問われる。",
+            "romaji": "Hōtei de no gishō wa omoi tsumi ni towareru.",
+            "german": "Eine Falschaussage vor Gericht wird als schweres Vergehen geahndet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "偽証 ist die bewusst falsche Aussage einer Person, die als Zeuge unter Eid (宣誓) aussagt; strafbar als 偽証罪, auch bei Zeugenvernehmungen im Parlament (証人喚問). Als する-Verb: 偽証する. Allgemeines Lügen heißt dagegen 嘘をつく; 虚偽の証言 ist die umschreibende Variante. Register: juristisch, Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "法廷での偽証は重い罪に問われる。",
+            "romaji": "Hōtei de no gishō wa omoi tsumi ni towareru.",
+            "german": "Eine Falschaussage vor Gericht wird als schweres Vergehen geahndet."
+          },
+          {
+            "japanese": "その証人は偽証したとして起訴された。",
+            "romaji": "Sono shōnin wa gishō shita to shite kiso sareta.",
+            "german": "Der Zeuge wurde wegen Falschaussage angeklagt."
+          },
+          {
+            "japanese": "証人喚問では、偽証すれば罪に問われることが最初に告げられる。",
+            "romaji": "Shōnin kanmon de wa, gishō sureba tsumi ni towareru koto ga saisho ni tsugerareru.",
+            "german": "Bei der Zeugenvernehmung im Parlament wird man zuerst darauf hingewiesen, dass eine Falschaussage strafbar ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109070512",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 偽証/ギショウ; lemma 偽証; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "偽証",
+              "reading": "ぎしょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 偽証/ぎしょう \"Meineid; Falschaussage\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1224510 sense 1, noun / suru verb: false evidence, perjury, false testimony Pitch: Verified [0] via exact UniDic row. 偽証 ist die bewusst falsche Aussage einer Person, die als Zeuge unter Eid (宣誓) aussagt; strafbar als 偽証罪, auch bei Zeugenvernehmungen im Parlament (証人喚問). Als する-Verb: 偽証する. Allgemeines Lügen heißt dagegen 嘘をつく; 虚偽の証言 ist die umschreibende Variante. Register: juristisch, Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1224510; spelling=偽証; reading=ぎしょう",
+          "selected": {
+            "sequence": "1224510",
+            "spelling": "偽証",
+            "reading": "ぎしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "false evidence",
+                  "perjury",
+                  "false testimony"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1224510 sense 1, noun / suru verb: false evidence, perjury, false testimony"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 偽証/ギショウ; lemma 偽証; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109070512",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 偽証/ギショウ; lemma 偽証; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "偽証",
+              "reading": "ぎしょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 偽証/ぎしょう \"Meineid; Falschaussage\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Meineid; Falschaussage. JMdict 1224510 sense 1, noun / suru verb: false evidence, perjury, false testimony",
+        "japanese": "法廷での偽証は重い罪に問われる。 / その証人は偽証したとして起訴された。 / 証人喚問では、偽証すれば罪に問われることが最初に告げられる。",
+        "romanization": "gishō; Hōtei de no gishō wa omoi tsumi ni towareru. / Sono shōnin wa gishō shita to shite kiso sareta. / Shōnin kanmon de wa, gishō sureba tsumi ni towareru koto ga saisho ni tsugerareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Falschaussage vor Gericht wird als schweres Vergehen geahndet. / Der Zeuge wurde wegen Falschaussage angeklagt. / Bei der Zeugenvernehmung im Parlament wird man zuerst darauf hingewiesen, dass eine Falschaussage strafbar ist.",
+        "contexts": [
+          "Gravity of perjury",
+          "Witness indicted",
+          "Parliamentary hearing"
+        ],
+        "lexical": "JMdict 1224510 sense 1, noun / suru verb: false evidence, perjury, false testimony",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:353 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Gravity of perjury; Witness indicted; Parliamentary hearing), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ddc14e7883100ae6681777cadf535bab2cf14536ac48849b627d92788b32e51f",
+        "approvalHash": "52034db0807ba99837b389e524edb22a55b9a619492645f755b9d14642f59ba6"
+      }
+    },
+    {
+      "id": "vocab-n1:354",
+      "revisionId": "207a-n1-enrichment-vocab-n1-354",
+      "state": "accepted",
+      "predecessorHash": "6d607581f152ae9f34cb0ea40df9295d9b5453faa82079d3c2af5b2eff7516ff",
+      "originalHash": "6d607581f152ae9f34cb0ea40df9295d9b5453faa82079d3c2af5b2eff7516ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "市民団体が企業の違法行為を告発した。",
+            "romaji": "Shimin dantai ga kigyō no ihō kōi o kokuhatsu shita.",
+            "german": "Eine Bürgerinitiative erstattete Anzeige gegen die illegalen Handlungen des Unternehmens."
+          }
+        ],
+        "meaning": "Anzeige; Strafanzeige (durch Dritte)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "告発 hat zwei Gebrauchsweisen: juristisch die Strafanzeige durch Dritte (刑事告発), während das Opfer selbst 告訴 erstattet; und allgemein das öffentliche Anprangern von Missständen, z. B. 内部告発 „Whistleblowing“ oder ein Film, der etwas 告発する. Konstruktion: 〜を告発する. Achtung: Die Anklage durch den Staatsanwalt heißt 起訴, nicht 告発. Register: formell, Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "市民団体が企業の違法行為を告発した。",
+            "romaji": "Shimin dantai ga kigyō no ihō kōi o kokuhatsu shita.",
+            "german": "Eine Bürgerinitiative erstattete Anzeige gegen die illegalen Handlungen des Unternehmens."
+          },
+          {
+            "japanese": "社員の内部告発で、データの改ざんが明るみに出た。",
+            "romaji": "Shain no naibu kokuhatsu de, dēta no kaizan ga akarumi ni deta.",
+            "german": "Durch einen Whistleblower aus der Belegschaft kam die Datenfälschung ans Licht."
+          },
+          {
+            "japanese": "この映画は戦争の悲惨さを告発している。",
+            "romaji": "Kono eiga wa sensō no hisansa o kokuhatsu shite iru.",
+            "german": "Dieser Film prangert das Elend des Krieges an."
+          }
+        ],
+        "meaning": "Anzeige, Strafanzeige (durch Dritte); Anprangerung, Enthüllung",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121467420",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 告発/コクハツ; lemma 告発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "告発",
+              "reading": "こくはつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 告発/こくはつ \"Anzeige; Strafanzeige (durch Dritte)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1286070 sense 1, noun / suru verb (transitive): accusation, complaint to authorities; exposing wrongdoing Pitch: Verified [0] via exact UniDic row. 告発 hat zwei Gebrauchsweisen: juristisch die Strafanzeige durch Dritte (刑事告発), während das Opfer selbst 告訴 erstattet; und allgemein das öffentliche Anprangern von Missständen, z. B. 内部告発 „Whistleblowing“ oder ein Film, der etwas 告発する. Konstruktion: 〜を告発する. Achtung: Die Anklage durch den Staatsanwalt heißt 起訴, nicht 告発. Register: formell, Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1286070; spelling=告発; reading=こくはつ",
+          "selected": {
+            "sequence": "1286070",
+            "spelling": "告発",
+            "reading": "こくはつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "indictment",
+                  "prosecution",
+                  "complaint"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1286070 sense 1, noun / suru verb (transitive): accusation, complaint to authorities; exposing wrongdoing"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 告発/コクハツ; lemma 告発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@121467420",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 告発/コクハツ; lemma 告発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "告発",
+              "reading": "こくはつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 告発/こくはつ \"Anzeige; Strafanzeige (durch Dritte)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anzeige, Strafanzeige (durch Dritte); Anprangerung, Enthüllung. JMdict 1286070 sense 1, noun / suru verb (transitive): accusation, complaint to authorities; exposing wrongdoing",
+        "japanese": "市民団体が企業の違法行為を告発した。 / 社員の内部告発で、データの改ざんが明るみに出た。 / この映画は戦争の悲惨さを告発している。",
+        "romanization": "kokuhatsu; Shimin dantai ga kigyō no ihō kōi o kokuhatsu shita. / Shain no naibu kokuhatsu de, dēta no kaizan ga akarumi ni deta. / Kono eiga wa sensō no hisansa o kokuhatsu shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Bürgerinitiative erstattete Anzeige gegen die illegalen Handlungen des Unternehmens. / Durch einen Whistleblower aus der Belegschaft kam die Datenfälschung ans Licht. / Dieser Film prangert das Elend des Krieges an.",
+        "contexts": [
+          "Citizens' group files a complaint",
+          "Whistleblower exposes fraud",
+          "Film denouncing war"
+        ],
+        "lexical": "JMdict 1286070 sense 1, noun / suru verb (transitive): accusation, complaint to authorities; exposing wrongdoing",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:354 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Citizens' group files a complaint; Whistleblower exposes fraud; Film denouncing war), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0b5e9e9a314d804be73125df693723d0f259a7799e1411fca2e35c83ab9ae2cc",
+        "approvalHash": "a3768d9a5bde02fd59b4b322e72cf906274e1fba340210122599ac4ab98b7fb3"
+      }
+    },
+    {
+      "id": "vocab-n1:355",
+      "revisionId": "207a-n1-enrichment-vocab-n1-355",
+      "state": "accepted",
+      "predecessorHash": "4696b2fcb2083589ed95c593317058d11bb80ab78ba8ccc9ef58d6514ffaa5e9",
+      "originalHash": "4696b2fcb2083589ed95c593317058d11bb80ab78ba8ccc9ef58d6514ffaa5e9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "違法薬物の密輸組織が摘発された。",
+            "romaji": "Ihō yakubutsu no mitsuyu soshiki ga tekihatsu sareta.",
+            "german": "Eine Organisation zum Schmuggel illegaler Drogen wurde ausgehoben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "摘発 bedeutet, dass Behörden wie Polizei, Zoll oder Steuerfahndung Gesetzesverstöße aufdecken und dagegen einschreiten – etwa „Razzia“ oder „Aushebung“. Meist im Passiv: 〜が摘発される; außerdem 一斉摘発 „Großrazzia“, 摘発件数. Abzugrenzen: 告発 ist die Anzeige durch Bürger, 検挙 die Ermittlung eines Täters durch die Polizei, 逮捕 die Festnahme. Register: Nachrichten- und Behördensprache.",
+        "examples": [
+          {
+            "japanese": "違法薬物の密輸組織が摘発された。",
+            "romaji": "Ihō yakubutsu no mitsuyu soshiki ga tekihatsu sareta.",
+            "german": "Eine Organisation zum Schmuggel illegaler Drogen wurde ausgehoben."
+          },
+          {
+            "japanese": "国税局が大手企業の脱税を摘発した。",
+            "romaji": "Kokuzeikyoku ga ōte kigyō no datsuzei o tekihatsu shita.",
+            "german": "Die Steuerbehörde deckte die Steuerhinterziehung eines Großunternehmens auf."
+          },
+          {
+            "japanese": "無許可で営業していた店が警察に摘発された。",
+            "romaji": "Mukyoka de eigyō shite ita mise ga keisatsu ni tekihatsu sareta.",
+            "german": "Ein Laden, der ohne Genehmigung betrieben wurde, wurde von der Polizei hochgenommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180204703",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摘発/テキハツ; lemma 摘発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "摘発",
+              "reading": "てきはつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 摘発/てきはつ \"Aufdeckung; Ermittlung; Aushebung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1437080 sense 1, noun / suru verb (transitive): exposing, unmasking (of crimes by authorities) Pitch: Verified [0] via exact UniDic row. 摘発 bedeutet, dass Behörden wie Polizei, Zoll oder Steuerfahndung Gesetzesverstöße aufdecken und dagegen einschreiten – etwa „Razzia“ oder „Aushebung“. Meist im Passiv: 〜が摘発される; außerdem 一斉摘発 „Großrazzia“, 摘発件数. Abzugrenzen: 告発 ist die Anzeige durch Bürger, 検挙 die Ermittlung eines Täters durch die Polizei, 逮捕 die Festnahme. Register: Nachrichten- und Behördensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1437080; spelling=摘発; reading=てきはつ",
+          "selected": {
+            "sequence": "1437080",
+            "spelling": "摘発",
+            "reading": "てきはつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "exposing",
+                  "unmasking",
+                  "laying bare"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1437080 sense 1, noun / suru verb (transitive): exposing, unmasking (of crimes by authorities)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 摘発/テキハツ; lemma 摘発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180204703",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 摘発/テキハツ; lemma 摘発; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "摘発",
+              "reading": "てきはつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 摘発/てきはつ \"Aufdeckung; Ermittlung; Aushebung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Aufdeckung; Ermittlung; Aushebung. JMdict 1437080 sense 1, noun / suru verb (transitive): exposing, unmasking (of crimes by authorities)",
+        "japanese": "違法薬物の密輸組織が摘発された。 / 国税局が大手企業の脱税を摘発した。 / 無許可で営業していた店が警察に摘発された。",
+        "romanization": "tekihatsu; Ihō yakubutsu no mitsuyu soshiki ga tekihatsu sareta. / Kokuzeikyoku ga ōte kigyō no datsuzei o tekihatsu shita. / Mukyoka de eigyō shite ita mise ga keisatsu ni tekihatsu sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Organisation zum Schmuggel illegaler Drogen wurde ausgehoben. / Die Steuerbehörde deckte die Steuerhinterziehung eines Großunternehmens auf. / Ein Laden, der ohne Genehmigung betrieben wurde, wurde von der Polizei hochgenommen.",
+        "contexts": [
+          "Drug smuggling ring busted",
+          "Tax evasion uncovered",
+          "Unlicensed shop raided"
+        ],
+        "lexical": "JMdict 1437080 sense 1, noun / suru verb (transitive): exposing, unmasking (of crimes by authorities)",
+        "register": "written / news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:355 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Drug smuggling ring busted; Tax evasion uncovered; Unlicensed shop raided), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "88d050006719189aa8295a28af09b148af953a0140cbe4401633fd5c93a05fbb",
+        "approvalHash": "b367bdef13514275eae9ba83f06856af2bee201089c13c90db2967907827a1fd"
+      }
+    },
+    {
+      "id": "vocab-n1:356",
+      "revisionId": "207a-n1-enrichment-vocab-n1-356",
+      "state": "accepted",
+      "predecessorHash": "f0635e3c2a93e9bce89cfad23f20882e91bae5bb7f8b2c2aef35deaa4a8a4f02",
+      "originalHash": "f0635e3c2a93e9bce89cfad23f20882e91bae5bb7f8b2c2aef35deaa4a8a4f02",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "連続窃盗犯が検挙された。",
+            "romaji": "Renzoku settōhan ga kenkyo sareta.",
+            "german": "Der Seriendieb wurde gefasst."
+          }
+        ],
+        "meaning": "Festnahme; Ergreifung (eines Verdächtigen)",
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "検挙 ist ein Fachwort der Polizei: Ein Täter wird ermittelt und das Verfahren wird eingeleitet – mit oder ohne Festnahme. 検挙 ist daher weiter als 逮捕 „Festnahme“. Typisch: 〜が検挙される, 検挙率 „Aufklärungsquote“, 検挙件数, auch bei Verkehrsverstößen (スピード違反で検挙される). Register: Behörden- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "連続窃盗犯が検挙された。",
+            "romaji": "Renzoku settōhan ga kenkyo sareta.",
+            "german": "Der Seriendieb wurde gefasst."
+          },
+          {
+            "japanese": "この地域の窃盗事件の検挙率は年々下がっている。",
+            "romaji": "Kono chiiki no settō jiken no kenkyoritsu wa nennen sagatte iru.",
+            "german": "Die Aufklärungsquote bei Diebstählen in dieser Gegend sinkt von Jahr zu Jahr."
+          },
+          {
+            "japanese": "高速道路でスピード違反の車が次々と検挙された。",
+            "romaji": "Kōsoku dōro de supīdo ihan no kuruma ga tsugitsugi to kenkyo sareta.",
+            "german": "Auf der Autobahn wurden reihenweise Raser erwischt."
+          }
+        ],
+        "meaning": "Ergreifung, Überführung (eines Täters); polizeiliche Aufklärung",
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118710384",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 検挙/ケンキョ; lemma 検挙; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "検挙",
+              "reading": "けんきょ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 検挙/けんきょ \"Festnahme; Ergreifung (eines Verdächtigen)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1257880 sense 1, noun / suru verb (transitive): arrest, roundup (police identification and booking of offenders) Pitch: Verified [1] via exact UniDic row. 検挙 ist ein Fachwort der Polizei: Ein Täter wird ermittelt und das Verfahren wird eingeleitet – mit oder ohne Festnahme. 検挙 ist daher weiter als 逮捕 „Festnahme“. Typisch: 〜が検挙される, 検挙率 „Aufklärungsquote“, 検挙件数, auch bei Verkehrsverstößen (スピード違反で検挙される). Register: Behörden- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1257880; spelling=検挙; reading=けんきょ",
+          "selected": {
+            "sequence": "1257880",
+            "spelling": "検挙",
+            "reading": "けんきょ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arrest",
+                  "roundup"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1257880 sense 1, noun / suru verb (transitive): arrest, roundup (police identification and booking of offenders)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 検挙/ケンキョ; lemma 検挙; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118710384",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 検挙/ケンキョ; lemma 検挙; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "検挙",
+              "reading": "けんきょ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 検挙/けんきょ \"Festnahme; Ergreifung (eines Verdächtigen)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ergreifung, Überführung (eines Täters); polizeiliche Aufklärung. JMdict 1257880 sense 1, noun / suru verb (transitive): arrest, roundup (police identification and booking of offenders)",
+        "japanese": "連続窃盗犯が検挙された。 / この地域の窃盗事件の検挙率は年々下がっている。 / 高速道路でスピード違反の車が次々と検挙された。",
+        "romanization": "kenkyo; Renzoku settōhan ga kenkyo sareta. / Kono chiiki no settō jiken no kenkyoritsu wa nennen sagatte iru. / Kōsoku dōro de supīdo ihan no kuruma ga tsugitsugi to kenkyo sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Seriendieb wurde gefasst. / Die Aufklärungsquote bei Diebstählen in dieser Gegend sinkt von Jahr zu Jahr. / Auf der Autobahn wurden reihenweise Raser erwischt.",
+        "contexts": [
+          "Serial thief caught",
+          "Crime clearance rate",
+          "Speed trap on the highway"
+        ],
+        "lexical": "JMdict 1257880 sense 1, noun / suru verb (transitive): arrest, roundup (police identification and booking of offenders)",
+        "register": "written / news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:356 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Serial thief caught; Crime clearance rate; Speed trap on the highway), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2ef851969de5b398045e6870a121464a03dfed1fab551d94ca90157fe4b0d754",
+        "approvalHash": "b2943928c550fe359f34965b745a0730ac1a05aae03aecd2cef7f2a790e5354f"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

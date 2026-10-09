@@ -1,0 +1,3394 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:357",
+      "revisionId": "207b-n1-enrichment-vocab-n1-357",
+      "state": "accepted",
+      "predecessorHash": "a1e805022a1e5109e69255e4df8aa2d0b14692c41eafaea58b22150147e63940",
+      "originalHash": "a1e805022a1e5109e69255e4df8aa2d0b14692c41eafaea58b22150147e63940",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "警察が事件を立件送致した。",
+            "romaji": "Keisatsu ga jiken o rikken sōchi shita.",
+            "german": "Die Polizei leitete den Fall ein und überwies ihn an die Staatsanwaltschaft."
+          }
+        ],
+        "meaning": "Einleitung und Überweisung (eines Falls)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "立件送致 verbindet zwei Schritte des japanischen Strafverfahrens: 立件 bedeutet, dass die Polizei genug Beweise sammelt, um einen Fall als Straftat zu verfolgen; 送致 ist die Abgabe der Akten (und ggf. des Beschuldigten) an die Staatsanwaltschaft. In Nachrichten stehen beide meist getrennt: 〜の疑いで立件する, 検察に送致する, ohne Festnahme 書類送致 bzw. 書類送検. Ob die Staatsanwaltschaft dann Anklage erhebt (起訴), ist ein weiterer Schritt.",
+        "examples": [
+          {
+            "japanese": "警察は事件を立件し、検察に送致した。",
+            "romaji": "Keisatsu wa jiken o rikken shi, kensatsu ni sōchi shita.",
+            "german": "Die Polizei leitete in dem Fall ein Verfahren ein und übergab ihn der Staatsanwaltschaft."
+          },
+          {
+            "japanese": "警察は社長ら3人を業務上過失致死の疑いで立件・送致する方針だ。",
+            "romaji": "Keisatsu wa shachō-ra sannin o gyōmujō kashitsu chishi no utagai de rikken, sōchi suru hōshin da.",
+            "german": "Die Polizei will gegen den Firmenchef und zwei weitere Personen wegen fahrlässiger Tötung ermitteln und den Fall an die Staatsanwaltschaft abgeben."
+          },
+          {
+            "japanese": "証拠が不十分だったため、立件は見送られた。",
+            "romaji": "Shōko ga fujūbun datta tame, rikken wa miokurareta.",
+            "german": "Mangels Beweisen wurde von einem Verfahren abgesehen."
+          }
+        ],
+        "meaning": "Einleitung eines Strafverfahrens und Abgabe an die Staatsanwaltschaft",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No JMdict entry for 立件送致; components JMdict 2104490 (立件, noun / suru verb: assembling a criminal case) + 1654960 (送致, noun / suru verb: sending, forwarding) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 立件送致 verbindet zwei Schritte des japanischen Strafverfahrens: 立件 bedeutet, dass die Polizei genug Beweise sammelt, um einen Fall als Straftat zu verfolgen; 送致 ist die Abgabe der Akten (und ggf. des Beschuldigten) an die Staatsanwaltschaft. In Nachrichten stehen beide meist getrennt: 〜の疑いで立件する, 検察に送致する, ohne Festnahme 書類送致 bzw. 書類送検. Ob die Staatsanwaltschaft dann Anklage erhebt (起訴), ist ein weiterer Schritt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=立件送致; reading=りっけんそうち; no entry",
+          "finding": "No JMdict entry for 立件送致; components JMdict 2104490 (立件, noun / suru verb: assembling a criminal case) + 1654960 (送致, noun / suru verb: sending, forwarding)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 立件送致/りっけんそうち scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%AB%8B%E4%BB%B6%E9%80%81%E8%87%B4",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 立件送致/りっけんそうち scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einleitung eines Strafverfahrens und Abgabe an die Staatsanwaltschaft. No JMdict entry for 立件送致; components JMdict 2104490 (立件, noun / suru verb: assembling a criminal case) + 1654960 (送致, noun / suru verb: sending, forwarding)",
+        "japanese": "警察は事件を立件し、検察に送致した。 / 警察は社長ら3人を業務上過失致死の疑いで立件・送致する方針だ。 / 証拠が不十分だったため、立件は見送られた。",
+        "romanization": "rikken sōchi; Keisatsu wa jiken o rikken shi, kensatsu ni sōchi shita. / Keisatsu wa shachō-ra sannin o gyōmujō kashitsu chishi no utagai de rikken, sōchi suru hōshin da. / Shōko ga fujūbun datta tame, rikken wa miokurareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Polizei leitete in dem Fall ein Verfahren ein und übergab ihn der Staatsanwaltschaft. / Die Polizei will gegen den Firmenchef und zwei weitere Personen wegen fahrlässiger Tötung ermitteln und den Fall an die Staatsanwaltschaft abgeben. / Mangels Beweisen wurde von einem Verfahren abgesehen.",
+        "contexts": [
+          "Case handed to prosecutors",
+          "Planned referral after an accident",
+          "Charges dropped for lack of evidence"
+        ],
+        "lexical": "No JMdict entry for 立件送致; components JMdict 2104490 (立件, noun / suru verb: assembling a criminal case) + 1654960 (送致, noun / suru verb: sending, forwarding)",
+        "register": "written / legal, news",
+        "transitivity": "Nonverb (components used as transitive suru verbs: 〜を立件する, 〜を送致する)",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:357 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Case handed to prosecutors; Planned referral after an accident; Charges dropped for lack of evidence), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c383c79c44fd13f6139f8467d34e127ee205fdd24981a65bbdae3584b2c661e0",
+        "approvalHash": "496cb0bd1dcf723af5a99c9f82dd7df2d43a8c50efd84bd86b1f6c961fe9891d"
+      }
+    },
+    {
+      "id": "vocab-n1:358",
+      "revisionId": "207b-n1-enrichment-vocab-n1-358",
+      "state": "accepted",
+      "predecessorHash": "36f96c870e940734a09aecc78c8cddfab2931fce6537f6cd3f36310f23eb6d10",
+      "originalHash": "36f96c870e940734a09aecc78c8cddfab2931fce6537f6cd3f36310f23eb6d10",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "公安委員会が治安維持に関する方針を決定した。",
+            "romaji": "Kōan iinkai ga chian iji ni kansuru hōshin o kettei shita.",
+            "german": "Die Kommission für öffentliche Sicherheit legte die Leitlinien zur Aufrechterhaltung der öffentlichen Ordnung fest."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "公安 bedeutet „öffentliche Sicherheit und Ordnung“ und erscheint vor allem in festen Behördennamen: 公安委員会 (Aufsichtskommission der Polizei, die z. B. Führerscheine ausstellt), 国家公安委員会, 公安条例. Als Abkürzung steht es für 公安警察 „Staatsschutzpolizei“ oder 公安調査庁 (Inlandsnachrichtendienst). Die allgemeine Sicherheitslage heißt dagegen 治安 (治安がいい), nicht 公安. Register: Behörden- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "公安委員会が治安維持に関する方針を決定した。",
+            "romaji": "Kōan iinkai ga chian iji ni kansuru hōshin o kettei shita.",
+            "german": "Die Kommission für öffentliche Sicherheit legte die Leitlinien zur Aufrechterhaltung der öffentlichen Ordnung fest."
+          },
+          {
+            "japanese": "運転免許証は都道府県の公安委員会が交付している。",
+            "romaji": "Unten menkyoshō wa todōfuken no kōan iinkai ga kōfu shite iru.",
+            "german": "Führerscheine werden von den Kommissionen für öffentliche Sicherheit der Präfekturen ausgestellt."
+          },
+          {
+            "japanese": "公安警察は過激派の動向を監視している。",
+            "romaji": "Kōan keisatsu wa kagekiha no dōkō o kanshi shite iru.",
+            "german": "Die Staatsschutzpolizei beobachtet die Aktivitäten extremistischer Gruppen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119787234",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 公安/コウアン; lemma 公安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "公安",
+              "reading": "こうあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 公安/こうあん \"öffentliche Sicherheit; Staatsschutz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1273180 senses 1–2, noun: public peace, public security; (abbr.) security police Pitch: Verified [0] via exact UniDic row. 公安 bedeutet „öffentliche Sicherheit und Ordnung“ und erscheint vor allem in festen Behördennamen: 公安委員会 (Aufsichtskommission der Polizei, die z. B. Führerscheine ausstellt), 国家公安委員会, 公安条例. Als Abkürzung steht es für 公安警察 „Staatsschutzpolizei“ oder 公安調査庁 (Inlandsnachrichtendienst). Die allgemeine Sicherheitslage heißt dagegen 治安 (治安がいい), nicht 公安. Register: Behörden- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1273180; spelling=公安; reading=こうあん",
+          "selected": {
+            "sequence": "1273180",
+            "spelling": "公安",
+            "reading": "こうあん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "public peace",
+                  "public safety",
+                  "public security",
+                  "peace and order"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "security police"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1273180 senses 1–2, noun: public peace, public security; (abbr.) security police"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 公安/コウアン; lemma 公安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119787234",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 公安/コウアン; lemma 公安; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "公安",
+              "reading": "こうあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 公安/こうあん \"öffentliche Sicherheit; Staatsschutz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "öffentliche Sicherheit; Staatsschutz. JMdict 1273180 senses 1–2, noun: public peace, public security; (abbr.) security police",
+        "japanese": "公安委員会が治安維持に関する方針を決定した。 / 運転免許証は都道府県の公安委員会が交付している。 / 公安警察は過激派の動向を監視している。",
+        "romanization": "kōan; Kōan iinkai ga chian iji ni kansuru hōshin o kettei shita. / Unten menkyoshō wa todōfuken no kōan iinkai ga kōfu shite iru. / Kōan keisatsu wa kagekiha no dōkō o kanshi shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Kommission für öffentliche Sicherheit legte die Leitlinien zur Aufrechterhaltung der öffentlichen Ordnung fest. / Führerscheine werden von den Kommissionen für öffentliche Sicherheit der Präfekturen ausgestellt. / Die Staatsschutzpolizei beobachtet die Aktivitäten extremistischer Gruppen.",
+        "contexts": [
+          "Public safety commission policy",
+          "Who issues driver's licenses",
+          "Monitoring extremists"
+        ],
+        "lexical": "JMdict 1273180 senses 1–2, noun: public peace, public security; (abbr.) security police",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:358 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Public safety commission policy; Who issues driver's licenses; Monitoring extremists), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "91b4eb32992afa1f54a817201a2c5ec1092a6607734c9f924c3191c11c1b0787",
+        "approvalHash": "b77dcc1ddfe8fab3ce31f1d1dab07056fb9f9a7f87a22b1c0ac9c766d2392618"
+      }
+    },
+    {
+      "id": "vocab-n1:359",
+      "revisionId": "207b-n1-enrichment-vocab-n1-359",
+      "state": "accepted",
+      "predecessorHash": "ec4a608a5bca393e473ddd462252bb19b529fea861f0bef39f38aff13c093dce",
+      "originalHash": "ec4a608a5bca393e473ddd462252bb19b529fea861f0bef39f38aff13c093dce",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自衛隊が災害救援活動に派遣された。",
+            "romaji": "Jieitai ga saigai kyūen katsudō ni haken sareta.",
+            "german": "Die Selbstverteidigungsstreitkräfte wurden zur Katastrophenhilfe entsandt."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "自衛隊 ist die offizielle Bezeichnung von Japans Streitkräften; wegen Artikel 9 der Verfassung vermeidet man das Wort 軍 „Armee“. Es gibt drei Teilstreitkräfte: 陸上自衛隊 (kurz 陸自), 海上自衛隊 und 航空自衛隊; ein Soldat heißt 自衛官. Typisch: 自衛隊を派遣する, 自衛隊に入る／入隊する, 災害派遣. Register: neutral, auch alltagssprachlich.",
+        "examples": [
+          {
+            "japanese": "自衛隊が災害救援活動に派遣された。",
+            "romaji": "Jieitai ga saigai kyūen katsudō ni haken sareta.",
+            "german": "Die Selbstverteidigungsstreitkräfte wurden zur Katastrophenhilfe entsandt."
+          },
+          {
+            "japanese": "兄は高校を卒業して自衛隊に入った。",
+            "romaji": "Ani wa kōkō o sotsugyō shite jieitai ni haitta.",
+            "german": "Mein älterer Bruder ist nach der Oberschule zu den Selbstverteidigungsstreitkräften gegangen."
+          },
+          {
+            "japanese": "自衛隊を憲法にどう位置づけるかは長年の論点だ。",
+            "romaji": "Jieitai o kenpō ni dō ichizukeru ka wa naganen no ronten da.",
+            "german": "Wie die Selbstverteidigungsstreitkräfte in der Verfassung verankert werden sollen, ist seit Jahren umstritten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1317410 sense 1, noun: Japan Self-Defense Forces, JSDF Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 2). 自衛隊 ist die offizielle Bezeichnung von Japans Streitkräften; wegen Artikel 9 der Verfassung vermeidet man das Wort 軍 „Armee“. Es gibt drei Teilstreitkräfte: 陸上自衛隊 (kurz 陸自), 海上自衛隊 und 航空自衛隊; ein Soldat heißt 自衛官. Typisch: 自衛隊を派遣する, 自衛隊に入る／入隊する, 災害派遣. Register: neutral, auch alltagssprachlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1317410; spelling=自衛隊; reading=じえいたい",
+          "selected": {
+            "sequence": "1317410",
+            "spelling": "自衛隊",
+            "reading": "じえいたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Japan Self-Defense Forces",
+                  "JSDF"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "self-defence force",
+                  "self-defense force"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1317410 sense 1, noun: Japan Self-Defense Forces, JSDF"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 自衛隊/じえいたい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%87%AA%E8%A1%9B%E9%9A%8A",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 自衛隊/じえいたい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Selbstverteidigungsstreitkräfte (Japans Militär). JMdict 1317410 sense 1, noun: Japan Self-Defense Forces, JSDF",
+        "japanese": "自衛隊が災害救援活動に派遣された。 / 兄は高校を卒業して自衛隊に入った。 / 自衛隊を憲法にどう位置づけるかは長年の論点だ。",
+        "romanization": "jieitai; Jieitai ga saigai kyūen katsudō ni haken sareta. / Ani wa kōkō o sotsugyō shite jieitai ni haitta. / Jieitai o kenpō ni dō ichizukeru ka wa naganen no ronten da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Selbstverteidigungsstreitkräfte wurden zur Katastrophenhilfe entsandt. / Mein älterer Bruder ist nach der Oberschule zu den Selbstverteidigungsstreitkräften gegangen. / Wie die Selbstverteidigungsstreitkräfte in der Verfassung verankert werden sollen, ist seit Jahren umstritten.",
+        "contexts": [
+          "Disaster relief",
+          "Career after high school",
+          "Constitutional debate"
+        ],
+        "lexical": "JMdict 1317410 sense 1, noun: Japan Self-Defense Forces, JSDF",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:359 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Disaster relief; Career after high school; Constitutional debate), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f0551d833a21db4494ce7b66d5e5664309511473d2a2ae6dca1bbdcc7feb1a13",
+        "approvalHash": "1c43882bfa783e6dcb84b4b617a98445e6ceb6ff6fd1d39a40f6b94b92cc3392"
+      }
+    },
+    {
+      "id": "vocab-n1:360",
+      "revisionId": "207b-n1-enrichment-vocab-n1-360",
+      "state": "accepted",
+      "predecessorHash": "45b850c1a9359529971764a824b5a2cec26cfe67f82eb06e3b57ea76825f96c5",
+      "originalHash": "45b850c1a9359529971764a824b5a2cec26cfe67f82eb06e3b57ea76825f96c5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "核兵器が抑止力として機能するかが議論されている。",
+            "romaji": "Kaku heiki ga yokushiryoku to shite kinō suru ka ga giron sarete iru.",
+            "german": "Es wird diskutiert, ob Atomwaffen als Abschreckung funktionieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "抑止力 ist die Fähigkeit, jemanden durch drohende Gegenmaßnahmen von einer Handlung abzuhalten. In der Sicherheitspolitik: 核抑止力, 抑止力を高める／強化する, 抑止力として機能する. Auch außerhalb des Militärs: Strafen oder Überwachungskameras sind ein 犯罪の抑止力. Das Verb dazu ist 抑止する; abzugrenzen von 抑制 „Eindämmung, Hemmung“ ohne Abschreckungsgedanken. Register: formell.",
+        "examples": [
+          {
+            "japanese": "核兵器が抑止力として機能するかが議論されている。",
+            "romaji": "Kaku heiki ga yokushiryoku to shite kinō suru ka ga giron sarete iru.",
+            "german": "Es wird diskutiert, ob Atomwaffen als Abschreckung funktionieren."
+          },
+          {
+            "japanese": "防犯カメラの設置は犯罪の抑止力になる。",
+            "romaji": "Bōhan kamera no setchi wa hanzai no yokushiryoku ni naru.",
+            "german": "Überwachungskameras wirken abschreckend auf Kriminelle."
+          },
+          {
+            "japanese": "政府は同盟国との連携で抑止力を高める方針だ。",
+            "romaji": "Seifu wa dōmeikoku to no renkei de yokushiryoku o takameru hōshin da.",
+            "german": "Die Regierung will die Abschreckung durch engere Zusammenarbeit mit Verbündeten stärken."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2146950 sense 1, noun: deterrence, ability to deter Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 抑止力 ist die Fähigkeit, jemanden durch drohende Gegenmaßnahmen von einer Handlung abzuhalten. In der Sicherheitspolitik: 核抑止力, 抑止力を高める／強化する, 抑止力として機能する. Auch außerhalb des Militärs: Strafen oder Überwachungskameras sind ein 犯罪の抑止力. Das Verb dazu ist 抑止する; abzugrenzen von 抑制 „Eindämmung, Hemmung“ ohne Abschreckungsgedanken. Register: formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2146950; spelling=抑止力; reading=よくしりょく",
+          "selected": {
+            "sequence": "2146950",
+            "spelling": "抑止力",
+            "reading": "よくしりょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deterrence",
+                  "ability to deter (an attack, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2146950 sense 1, noun: deterrence, ability to deter"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 抑止力/よくしりょく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8A%91%E6%AD%A2%E5%8A%9B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 抑止力/よくしりょく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abschreckungskraft; Abschreckung. JMdict 2146950 sense 1, noun: deterrence, ability to deter",
+        "japanese": "核兵器が抑止力として機能するかが議論されている。 / 防犯カメラの設置は犯罪の抑止力になる。 / 政府は同盟国との連携で抑止力を高める方針だ。",
+        "romanization": "yokushiryoku; Kaku heiki ga yokushiryoku to shite kinō suru ka ga giron sarete iru. / Bōhan kamera no setchi wa hanzai no yokushiryoku ni naru. / Seifu wa dōmeikoku to no renkei de yokushiryoku o takameru hōshin da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es wird diskutiert, ob Atomwaffen als Abschreckung funktionieren. / Überwachungskameras wirken abschreckend auf Kriminelle. / Die Regierung will die Abschreckung durch engere Zusammenarbeit mit Verbündeten stärken.",
+        "contexts": [
+          "Nuclear deterrence debate",
+          "Crime prevention",
+          "Alliance policy"
+        ],
+        "lexical": "JMdict 2146950 sense 1, noun: deterrence, ability to deter",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:360 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Nuclear deterrence debate; Crime prevention; Alliance policy), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "402d69b6e11369742f538a4a6c5f7f1e62bdc612c1884c351d995d29c8a757c2",
+        "approvalHash": "c41352dc51d53c1d6a14dd715661be360efdcce2883bd4bfd62010d079aee7d0"
+      }
+    },
+    {
+      "id": "vocab-n1:361",
+      "revisionId": "207b-n1-enrichment-vocab-n1-361",
+      "state": "accepted",
+      "predecessorHash": "c6374ee98662b32354d879d7ecc22dc4cd1d4062a43d09b110ab0a4dffe444a3",
+      "originalHash": "c6374ee98662b32354d879d7ecc22dc4cd1d4062a43d09b110ab0a4dffe444a3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "核軍縮に関する条約が締結された。",
+            "romaji": "Kaku gunshuku ni kansuru jōyaku ga teiketsu sareta.",
+            "german": "Ein Vertrag über nukleare Abrüstung wurde abgeschlossen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "軍縮 ist die Kurzform von 軍備縮小 „Rüstungsreduzierung, Abrüstung“. Typisch: 核軍縮, 軍縮条約, 軍縮会議, 軍縮を進める, 軍縮交渉. Das Gegenteil ist 軍拡 (軍備拡張) „Aufrüstung“, etwa in 軍拡競争 „Wettrüsten“. Abzugrenzen von 不拡散, das die Weitergabe von Waffen an neue Staaten verhindern soll. Register: Politik- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "核軍縮に関する条約が締結された。",
+            "romaji": "Kaku gunshuku ni kansuru jōyaku ga teiketsu sareta.",
+            "german": "Ein Vertrag über nukleare Abrüstung wurde abgeschlossen."
+          },
+          {
+            "japanese": "冷戦の終結後、各国で軍縮が進んだ。",
+            "romaji": "Reisen no shūketsu-go, kakkoku de gunshuku ga susunda.",
+            "german": "Nach dem Ende des Kalten Krieges wurde in vielen Ländern abgerüstet."
+          },
+          {
+            "japanese": "軍拡競争ではなく軍縮こそが平和への道だと彼は訴えた。",
+            "romaji": "Gunkaku kyōsō de wa naku gunshuku koso ga heiwa e no michi da to kare wa uttaeta.",
+            "german": "Er betonte, nicht das Wettrüsten, sondern die Abrüstung sei der Weg zum Frieden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116743993",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 軍縮/グンシュク; lemma 軍縮; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "軍縮",
+              "reading": "ぐんしゅく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 軍縮/ぐんしゅく \"Abrüstung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1248470 sense 1, noun: reduction of armaments, disarmament Pitch: Verified [0] via exact UniDic row. 軍縮 ist die Kurzform von 軍備縮小 „Rüstungsreduzierung, Abrüstung“. Typisch: 核軍縮, 軍縮条約, 軍縮会議, 軍縮を進める, 軍縮交渉. Das Gegenteil ist 軍拡 (軍備拡張) „Aufrüstung“, etwa in 軍拡競争 „Wettrüsten“. Abzugrenzen von 不拡散, das die Weitergabe von Waffen an neue Staaten verhindern soll. Register: Politik- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1248470; spelling=軍縮; reading=ぐんしゅく",
+          "selected": {
+            "sequence": "1248470",
+            "spelling": "軍縮",
+            "reading": "ぐんしゅく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "reduction of armaments",
+                  "disarmament"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1248470 sense 1, noun: reduction of armaments, disarmament"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 軍縮/グンシュク; lemma 軍縮; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116743993",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 軍縮/グンシュク; lemma 軍縮; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "軍縮",
+              "reading": "ぐんしゅく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 軍縮/ぐんしゅく \"Abrüstung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abrüstung. JMdict 1248470 sense 1, noun: reduction of armaments, disarmament",
+        "japanese": "核軍縮に関する条約が締結された。 / 冷戦の終結後、各国で軍縮が進んだ。 / 軍拡競争ではなく軍縮こそが平和への道だと彼は訴えた。",
+        "romanization": "gunshuku; Kaku gunshuku ni kansuru jōyaku ga teiketsu sareta. / Reisen no shūketsu-go, kakkoku de gunshuku ga susunda. / Gunkaku kyōsō de wa naku gunshuku koso ga heiwa e no michi da to kare wa uttaeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Vertrag über nukleare Abrüstung wurde abgeschlossen. / Nach dem Ende des Kalten Krieges wurde in vielen Ländern abgerüstet. / Er betonte, nicht das Wettrüsten, sondern die Abrüstung sei der Weg zum Frieden.",
+        "contexts": [
+          "Treaty signed",
+          "After the Cold War",
+          "Speech for peace"
+        ],
+        "lexical": "JMdict 1248470 sense 1, noun: reduction of armaments, disarmament",
+        "register": "written / political",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:361 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Treaty signed; After the Cold War; Speech for peace), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a43db0161ddced8428dbc89bcb2d45b2260b87b3709352fe5871273c906626c4",
+        "approvalHash": "c77e3fa8e289141f989dbdb6d700a3c8f895e9ee5273da640aa1b3ef672d303a"
+      }
+    },
+    {
+      "id": "vocab-n1:362",
+      "revisionId": "207b-n1-enrichment-vocab-n1-362",
+      "state": "accepted",
+      "predecessorHash": "ca2f4e410042b17bfd364176e8a8a0ac20e25af4b2d8a5d325dfd1d378d33952",
+      "originalHash": "ca2f4e410042b17bfd364176e8a8a0ac20e25af4b2d8a5d325dfd1d378d33952",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "核不拡散条約の遵守が各国に求められている。",
+            "romaji": "Kaku fukakusan jōyaku no junshu ga kakkoku ni motomerarete iru.",
+            "german": "Die Einhaltung des Atomwaffensperrvertrags wird von allen Ländern gefordert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不拡散 heißt „Nichtverbreitung“ (拡散 „Verbreitung“ mit verneinendem 不) und steht fast immer in Fügungen wie 核不拡散, 核不拡散条約 (NPT, „Atomwaffensperrvertrag“) oder 大量破壊兵器の不拡散. Häufig im Paar 軍縮・不拡散: 軍縮 baut vorhandene Arsenale ab, 不拡散 verhindert, dass weitere Staaten oder Gruppen Waffen erlangen. Register: Fach- und Diplomatensprache.",
+        "examples": [
+          {
+            "japanese": "核不拡散条約の遵守が各国に求められている。",
+            "romaji": "Kaku fukakusan jōyaku no junshu ga kakkoku ni motomerarete iru.",
+            "german": "Die Einhaltung des Atomwaffensperrvertrags wird von allen Ländern gefordert."
+          },
+          {
+            "japanese": "日本は軍縮と不拡散の両面で外交努力を続けている。",
+            "romaji": "Nihon wa gunshuku to fukakusan no ryōmen de gaikō doryoku o tsuzukete iru.",
+            "german": "Japan setzt seine diplomatischen Bemühungen sowohl bei der Abrüstung als auch bei der Nichtverbreitung fort."
+          },
+          {
+            "japanese": "大量破壊兵器の不拡散に向けて、輸出管理が強化された。",
+            "romaji": "Tairyō hakai heiki no fukakusan ni mukete, yushutsu kanri ga kyōka sareta.",
+            "german": "Um die Weiterverbreitung von Massenvernichtungswaffen zu verhindern, wurden die Exportkontrollen verschärft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No separate JMdict entry for 不拡散; nearest JMdict 2062390 (核不拡散), noun: nuclear nonproliferation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 不拡散 heißt „Nichtverbreitung“ (拡散 „Verbreitung“ mit verneinendem 不) und steht fast immer in Fügungen wie 核不拡散, 核不拡散条約 (NPT, „Atomwaffensperrvertrag“) oder 大量破壊兵器の不拡散. Häufig im Paar 軍縮・不拡散: 軍縮 baut vorhandene Arsenale ab, 不拡散 verhindert, dass weitere Staaten oder Gruppen Waffen erlangen. Register: Fach- und Diplomatensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=不拡散; reading=ふかくさん; no entry",
+          "finding": "No separate JMdict entry for 不拡散; nearest JMdict 2062390 (核不拡散), noun: nuclear nonproliferation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不拡散/ふかくさん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E6%8B%A1%E6%95%A3",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不拡散/ふかくさん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nichtverbreitung; Nonproliferation. No separate JMdict entry for 不拡散; nearest JMdict 2062390 (核不拡散), noun: nuclear nonproliferation",
+        "japanese": "核不拡散条約の遵守が各国に求められている。 / 日本は軍縮と不拡散の両面で外交努力を続けている。 / 大量破壊兵器の不拡散に向けて、輸出管理が強化された。",
+        "romanization": "fukakusan; Kaku fukakusan jōyaku no junshu ga kakkoku ni motomerarete iru. / Nihon wa gunshuku to fukakusan no ryōmen de gaikō doryoku o tsuzukete iru. / Tairyō hakai heiki no fukakusan ni mukete, yushutsu kanri ga kyōka sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Einhaltung des Atomwaffensperrvertrags wird von allen Ländern gefordert. / Japan setzt seine diplomatischen Bemühungen sowohl bei der Abrüstung als auch bei der Nichtverbreitung fort. / Um die Weiterverbreitung von Massenvernichtungswaffen zu verhindern, wurden die Exportkontrollen verschärft.",
+        "contexts": [
+          "Compliance with the NPT",
+          "Japan's diplomacy",
+          "Export controls"
+        ],
+        "lexical": "No separate JMdict entry for 不拡散; nearest JMdict 2062390 (核不拡散), noun: nuclear nonproliferation",
+        "register": "written / diplomatic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:362 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Compliance with the NPT; Japan's diplomacy; Export controls), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "461182ba5cb8571270b36aabfd459fad284daa69c4b3b3a05eda144ea4a3d9f6",
+        "approvalHash": "e15a503e1e9fc1ab2a92a77ac7b2939ae4f96c6d7e67440de1beecfcb0740c11"
+      }
+    },
+    {
+      "id": "vocab-n1:363",
+      "revisionId": "207b-n1-enrichment-vocab-n1-363",
+      "state": "accepted",
+      "predecessorHash": "b25af82d86b7801fe109f257899524d43056a5084b821bd53a46e781e932c51a",
+      "originalHash": "b25af82d86b7801fe109f257899524d43056a5084b821bd53a46e781e932c51a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "売主には瑕疵担保責任が課される。",
+            "romaji": "Urinushi ni wa kashi tanpo sekinin ga kasareru.",
+            "german": "Dem Verkäufer wird die Mängelhaftung auferlegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "瑕疵担保責任 ist die Haftung des Verkäufers für versteckte Mängel (隠れた瑕疵) der Kaufsache; 瑕疵 ist das juristische Wort für „Mangel“. Typisch: 瑕疵担保責任を負う, 〜を免責する, 瑕疵担保責任を追及する. Seit der Reform des Zivilgesetzbuchs 2020 heißt das Institut offiziell 契約不適合責任; der alte Begriff bleibt aber in Immobilien- und Bauverträgen sowie im Sprachgebrauch verbreitet. Register: juristisch.",
+        "examples": [
+          {
+            "japanese": "売主には瑕疵担保責任が課される。",
+            "romaji": "Urinushi ni wa kashi tanpo sekinin ga kasareru.",
+            "german": "Dem Verkäufer wird die Mängelhaftung auferlegt."
+          },
+          {
+            "japanese": "購入した家で雨漏りが見つかり、売主に瑕疵担保責任を追及した。",
+            "romaji": "Kōnyū shita ie de amamori ga mitsukari, urinushi ni kashi tanpo sekinin o tsuikyū shita.",
+            "german": "Im gekauften Haus regnete es durch, also nahm ich den Verkäufer wegen Mängelhaftung in Anspruch."
+          },
+          {
+            "japanese": "民法改正で、瑕疵担保責任は契約不適合責任に改められた。",
+            "romaji": "Minpō kaisei de, kashi tanpo sekinin wa keiyaku futekigō sekinin ni aratamerareta.",
+            "german": "Mit der Reform des Zivilgesetzbuchs wurde die Mängelhaftung durch die Haftung für Vertragswidrigkeit ersetzt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2105470 sense 1, noun: warranty against defects Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 瑕疵担保責任 ist die Haftung des Verkäufers für versteckte Mängel (隠れた瑕疵) der Kaufsache; 瑕疵 ist das juristische Wort für „Mangel“. Typisch: 瑕疵担保責任を負う, 〜を免責する, 瑕疵担保責任を追及する. Seit der Reform des Zivilgesetzbuchs 2020 heißt das Institut offiziell 契約不適合責任; der alte Begriff bleibt aber in Immobilien- und Bauverträgen sowie im Sprachgebrauch verbreitet. Register: juristisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2105470; spelling=瑕疵担保責任; reading=かしたんぽせきにん",
+          "selected": {
+            "sequence": "2105470",
+            "spelling": "瑕疵担保責任",
+            "reading": "かしたんぽせきにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "warranty against defects"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2105470 sense 1, noun: warranty against defects"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 瑕疵担保責任/かしたんぽせきにん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%91%95%E7%96%B5%E6%8B%85%E4%BF%9D%E8%B2%AC%E4%BB%BB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 瑕疵担保責任/かしたんぽせきにん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mängelhaftung; Gewährleistung. JMdict 2105470 sense 1, noun: warranty against defects",
+        "japanese": "売主には瑕疵担保責任が課される。 / 購入した家で雨漏りが見つかり、売主に瑕疵担保責任を追及した。 / 民法改正で、瑕疵担保責任は契約不適合責任に改められた。",
+        "romanization": "kashi tanpo sekinin; Urinushi ni wa kashi tanpo sekinin ga kasareru. / Kōnyū shita ie de amamori ga mitsukari, urinushi ni kashi tanpo sekinin o tsuikyū shita. / Minpō kaisei de, kashi tanpo sekinin wa keiyaku futekigō sekinin ni aratamerareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dem Verkäufer wird die Mängelhaftung auferlegt. / Im gekauften Haus regnete es durch, also nahm ich den Verkäufer wegen Mängelhaftung in Anspruch. / Mit der Reform des Zivilgesetzbuchs wurde die Mängelhaftung durch die Haftung für Vertragswidrigkeit ersetzt.",
+        "contexts": [
+          "Seller's legal duty",
+          "Leaking roof after purchase",
+          "Civil Code reform"
+        ],
+        "lexical": "JMdict 2105470 sense 1, noun: warranty against defects",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:363 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Seller's legal duty; Leaking roof after purchase; Civil Code reform), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "95bbfb0458e718838686639f67b301bc97aa8c6e687f84cc657d332351a93ead",
+        "approvalHash": "93d65d9b41935a88654e97bf03ce80c726c5f70edda203664cb5d717f62e2000"
+      }
+    },
+    {
+      "id": "vocab-n1:364",
+      "revisionId": "207b-n1-enrichment-vocab-n1-364",
+      "state": "accepted",
+      "predecessorHash": "f04a22ec95e2538a0c4bfae39faff89b52d528aab010318200d9616518fdbbc0",
+      "originalHash": "f04a22ec95e2538a0c4bfae39faff89b52d528aab010318200d9616518fdbbc0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "取締役には善管注意義務が課されている。",
+            "romaji": "Torishimariyaku ni wa zenkan chūi gimu ga kasarete iru.",
+            "german": "Den Vorstandsmitgliedern ist die Sorgfaltspflicht eines ordentlichen Geschäftsführers auferlegt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "善管注意義務 ist die Kurzform von 善良な管理者の注意義務, der Sorgfaltspflicht eines „guten Verwalters“ im Zivilrecht. Sie gilt für alle, die fremde Angelegenheiten oder Sachen betreuen: Beauftragte, Verwahrer, Mieter und vor allem Vorstandsmitglieder einer Gesellschaft. Sie ist strenger als die Sorgfalt in eigenen Angelegenheiten. Typisch: 善管注意義務を負う／怠る, 善管注意義務違反. Register: juristisch.",
+        "examples": [
+          {
+            "japanese": "取締役には善管注意義務が課されている。",
+            "romaji": "Torishimariyaku ni wa zenkan chūi gimu ga kasarete iru.",
+            "german": "Den Vorstandsmitgliedern ist die Sorgfaltspflicht eines ordentlichen Geschäftsführers auferlegt."
+          },
+          {
+            "japanese": "株主は、無謀な投資で損失を出した役員を善管注意義務違反で訴えた。",
+            "romaji": "Kabunushi wa, mubō na tōshi de sonshitsu o dashita yakuin o zenkan chūi gimu ihan de uttaeta.",
+            "german": "Die Aktionäre verklagten die Vorstände, die mit leichtsinnigen Investitionen Verluste gemacht hatten, wegen Verletzung der Sorgfaltspflicht."
+          },
+          {
+            "japanese": "借りた部屋は善管注意義務を守って使わなければならない。",
+            "romaji": "Karita heya wa zenkan chūi gimu o mamotte tsukawanakereba naranai.",
+            "german": "Eine gemietete Wohnung muss man mit der gebotenen Sorgfalt behandeln."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 善管注意義務; nearest JMdict 2426090 (注意義務, noun: duty of care), cf. 1983210 (善管: good management) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 善管注意義務 ist die Kurzform von 善良な管理者の注意義務, der Sorgfaltspflicht eines „guten Verwalters“ im Zivilrecht. Sie gilt für alle, die fremde Angelegenheiten oder Sachen betreuen: Beauftragte, Verwahrer, Mieter und vor allem Vorstandsmitglieder einer Gesellschaft. Sie ist strenger als die Sorgfalt in eigenen Angelegenheiten. Typisch: 善管注意義務を負う／怠る, 善管注意義務違反. Register: juristisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=善管注意義務; reading=ぜんかんちゅういぎむ; no entry",
+          "finding": "No exact JMdict entry for 善管注意義務; nearest JMdict 2426090 (注意義務, noun: duty of care), cf. 1983210 (善管: good management)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 善管注意義務/ぜんかんちゅういぎむ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%96%84%E7%AE%A1%E6%B3%A8%E6%84%8F%E7%BE%A9%E5%8B%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 善管注意義務/ぜんかんちゅういぎむ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sorgfaltspflicht eines ordentlichen Geschäftsführers. No exact JMdict entry for 善管注意義務; nearest JMdict 2426090 (注意義務, noun: duty of care), cf. 1983210 (善管: good management)",
+        "japanese": "取締役には善管注意義務が課されている。 / 株主は、無謀な投資で損失を出した役員を善管注意義務違反で訴えた。 / 借りた部屋は善管注意義務を守って使わなければならない。",
+        "romanization": "zenkan chūi gimu; Torishimariyaku ni wa zenkan chūi gimu ga kasarete iru. / Kabunushi wa, mubō na tōshi de sonshitsu o dashita yakuin o zenkan chūi gimu ihan de uttaeta. / Karita heya wa zenkan chūi gimu o mamotte tsukawanakereba naranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Den Vorstandsmitgliedern ist die Sorgfaltspflicht eines ordentlichen Geschäftsführers auferlegt. / Die Aktionäre verklagten die Vorstände, die mit leichtsinnigen Investitionen Verluste gemacht hatten, wegen Verletzung der Sorgfaltspflicht. / Eine gemietete Wohnung muss man mit der gebotenen Sorgfalt behandeln.",
+        "contexts": [
+          "Duties of company directors",
+          "Shareholder lawsuit",
+          "Tenant's obligations"
+        ],
+        "lexical": "No exact JMdict entry for 善管注意義務; nearest JMdict 2426090 (注意義務, noun: duty of care), cf. 1983210 (善管: good management)",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:364 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Duties of company directors; Shareholder lawsuit; Tenant's obligations), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bea5950c38d0e22545a1dd9985adf726cbf2e33583aeaa31b2b2131255d25ce3",
+        "approvalHash": "4f33d3926c09de81f8395a05ce665c2eae58440259eddab71c9313ae7fccc1f9"
+      }
+    },
+    {
+      "id": "vocab-n1:365",
+      "revisionId": "207b-n1-enrichment-vocab-n1-365",
+      "state": "accepted",
+      "predecessorHash": "5d6c82593b976a44c03f59056e409ff205edb55f09caf98f73d5cd7f8ea64bc4",
+      "originalHash": "5d6c82593b976a44c03f59056e409ff205edb55f09caf98f73d5cd7f8ea64bc4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "信義則に反する行為は法的保護を受けない。",
+            "romaji": "Shingisoku ni hansuru kōi wa hōteki hogo o ukenai.",
+            "german": "Handlungen, die gegen den Grundsatz von Treu und Glauben verstoßen, genießen keinen Rechtsschutz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "信義則 ist die Kurzform von 信義誠実の原則, dem Grundsatz von Treu und Glauben im japanischen Zivilgesetzbuch (Art. 1 Abs. 2). Typisch: 信義則に反する, 信義則違反, 信義則上の義務 (z. B. Aufklärungs- oder Schutzpflichten, die nicht im Vertrag stehen). Im selben Artikel steht das Verbot des 権利濫用. Register: juristisch, im Alltag kaum gebraucht.",
+        "examples": [
+          {
+            "japanese": "信義則に反する行為は法的保護を受けない。",
+            "romaji": "Shingisoku ni hansuru kōi wa hōteki hogo o ukenai.",
+            "german": "Handlungen, die gegen den Grundsatz von Treu und Glauben verstoßen, genießen keinen Rechtsschutz."
+          },
+          {
+            "japanese": "契約書に書かれていなくても、信義則上、説明する義務があるとされた。",
+            "romaji": "Keiyakusho ni kakarete inakute mo, shingisoku-jō, setsumei suru gimu ga aru to sareta.",
+            "german": "Auch wenn es nicht im Vertrag stand, wurde nach Treu und Glauben eine Aufklärungspflicht angenommen."
+          },
+          {
+            "japanese": "交渉を一方的に打ち切ったのは信義則違反だと判断された。",
+            "romaji": "Kōshō o ippōteki ni uchikitta no wa shingisoku ihan da to handan sareta.",
+            "german": "Der einseitige Abbruch der Verhandlungen wurde als Verstoß gegen Treu und Glauben gewertet."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2790360 sense 1, noun: fair and equitable principle (principle of good faith) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 信義則 ist die Kurzform von 信義誠実の原則, dem Grundsatz von Treu und Glauben im japanischen Zivilgesetzbuch (Art. 1 Abs. 2). Typisch: 信義則に反する, 信義則違反, 信義則上の義務 (z. B. Aufklärungs- oder Schutzpflichten, die nicht im Vertrag stehen). Im selben Artikel steht das Verbot des 権利濫用. Register: juristisch, im Alltag kaum gebraucht. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2790360; spelling=信義則; reading=しんぎそく",
+          "selected": {
+            "sequence": "2790360",
+            "spelling": "信義則",
+            "reading": "しんぎそく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fair and equitable principle"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2790360 sense 1, noun: fair and equitable principle (principle of good faith)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 信義則/しんぎそく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BF%A1%E7%BE%A9%E5%89%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 信義則/しんぎそく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Grundsatz von Treu und Glauben. JMdict 2790360 sense 1, noun: fair and equitable principle (principle of good faith)",
+        "japanese": "信義則に反する行為は法的保護を受けない。 / 契約書に書かれていなくても、信義則上、説明する義務があるとされた。 / 交渉を一方的に打ち切ったのは信義則違反だと判断された。",
+        "romanization": "shingisoku; Shingisoku ni hansuru kōi wa hōteki hogo o ukenai. / Keiyakusho ni kakarete inakute mo, shingisoku-jō, setsumei suru gimu ga aru to sareta. / Kōshō o ippōteki ni uchikitta no wa shingisoku ihan da to handan sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Handlungen, die gegen den Grundsatz von Treu und Glauben verstoßen, genießen keinen Rechtsschutz. / Auch wenn es nicht im Vertrag stand, wurde nach Treu und Glauben eine Aufklärungspflicht angenommen. / Der einseitige Abbruch der Verhandlungen wurde als Verstoß gegen Treu und Glauben gewertet.",
+        "contexts": [
+          "General legal principle",
+          "Duty to inform",
+          "Breaking off negotiations"
+        ],
+        "lexical": "JMdict 2790360 sense 1, noun: fair and equitable principle (principle of good faith)",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:365 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (General legal principle; Duty to inform; Breaking off negotiations), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "117277527f03868f50d1363f9672e6f41224e6312e6595db873dc0208aaa3120",
+        "approvalHash": "cb0ef756d2c1af0f1fcfee6ff0bcd2b7366bf6793713266faf88427c8e4a75e9"
+      }
+    },
+    {
+      "id": "vocab-n1:366",
+      "revisionId": "207b-n1-enrichment-vocab-n1-366",
+      "state": "accepted",
+      "predecessorHash": "94c856a2a2ea3bc7ec84a983d9abc2e8e1c11429977c8c0d564e1e36669c5396",
+      "originalHash": "94c856a2a2ea3bc7ec84a983d9abc2e8e1c11429977c8c0d564e1e36669c5396",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "権利濫用の法理により請求が認められなかった。",
+            "romaji": "Kenri ran'yō no hōri ni yori seikyū ga mitomerarenakatta.",
+            "german": "Aufgrund des Grundsatzes des Rechtsmissbrauchs wurde der Anspruch nicht anerkannt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "権利濫用 bezeichnet die Ausübung eines an sich bestehenden Rechts, die so unangemessen ist, dass sie nicht geschützt wird; das Zivilgesetzbuch sagt in Art. 1 Abs. 3: 権利の濫用は、これを許さない. Typisch: 権利濫用に当たる, 権利濫用として無効, 権利濫用の法理 (z. B. bei Kündigungen: 解雇権の濫用). In Zeitungen auch 権利乱用 geschrieben. Register: juristisch.",
+        "examples": [
+          {
+            "japanese": "権利濫用の法理により請求が認められなかった。",
+            "romaji": "Kenri ran'yō no hōri ni yori seikyū ga mitomerarenakatta.",
+            "german": "Unter Berufung auf das Verbot des Rechtsmissbrauchs wurde der Anspruch abgewiesen."
+          },
+          {
+            "japanese": "わずかな越境を理由に建物の撤去を求めるのは権利濫用に当たる。",
+            "romaji": "Wazuka na ekkyō o riyū ni tatemono no tekkyo o motomeru no wa kenri ran'yō ni ataru.",
+            "german": "Wegen einer geringfügigen Grenzüberschreitung den Abriss eines Gebäudes zu verlangen, ist Rechtsmissbrauch."
+          },
+          {
+            "japanese": "会社による解雇は権利濫用として無効と判断された。",
+            "romaji": "Kaisha ni yoru kaiko wa kenri ran'yō to shite mukō to handan sareta.",
+            "german": "Die Kündigung durch das Unternehmen wurde als Rechtsmissbrauch für unwirksam erklärt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2804170 sense 1, noun: abuse of rights Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 権利濫用 bezeichnet die Ausübung eines an sich bestehenden Rechts, die so unangemessen ist, dass sie nicht geschützt wird; das Zivilgesetzbuch sagt in Art. 1 Abs. 3: 権利の濫用は、これを許さない. Typisch: 権利濫用に当たる, 権利濫用として無効, 権利濫用の法理 (z. B. bei Kündigungen: 解雇権の濫用). In Zeitungen auch 権利乱用 geschrieben. Register: juristisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2804170; spelling=権利濫用; reading=けんりらんよう",
+          "selected": {
+            "sequence": "2804170",
+            "spelling": "権利濫用",
+            "reading": "けんりらんよう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "abuse of rights",
+                  "improper use of a privilege"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2804170 sense 1, noun: abuse of rights"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 権利濫用/けんりらんよう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A8%A9%E5%88%A9%E6%BF%AB%E7%94%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 権利濫用/けんりらんよう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rechtsmissbrauch. JMdict 2804170 sense 1, noun: abuse of rights",
+        "japanese": "権利濫用の法理により請求が認められなかった。 / わずかな越境を理由に建物の撤去を求めるのは権利濫用に当たる。 / 会社による解雇は権利濫用として無効と判断された。",
+        "romanization": "kenri ran'yō; Kenri ran'yō no hōri ni yori seikyū ga mitomerarenakatta. / Wazuka na ekkyō o riyū ni tatemono no tekkyo o motomeru no wa kenri ran'yō ni ataru. / Kaisha ni yoru kaiko wa kenri ran'yō to shite mukō to handan sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Unter Berufung auf das Verbot des Rechtsmissbrauchs wurde der Anspruch abgewiesen. / Wegen einer geringfügigen Grenzüberschreitung den Abriss eines Gebäudes zu verlangen, ist Rechtsmissbrauch. / Die Kündigung durch das Unternehmen wurde als Rechtsmissbrauch für unwirksam erklärt.",
+        "contexts": [
+          "Claim rejected by court",
+          "Neighbour boundary dispute",
+          "Unfair dismissal"
+        ],
+        "lexical": "JMdict 2804170 sense 1, noun: abuse of rights",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:366 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Claim rejected by court; Neighbour boundary dispute; Unfair dismissal), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "761a2813f9e805bbdf2780d0098a277aeaeeefc767d23319e83c385ee2c2bbdb",
+        "approvalHash": "4dadcd014e83ad5de9b4f10d9176603cfc6e1114442031531e8db66110231f04"
+      }
+    },
+    {
+      "id": "vocab-n1:367",
+      "revisionId": "207b-n1-enrichment-vocab-n1-367",
+      "state": "accepted",
+      "predecessorHash": "2faf78562019f15351da64a42cf959a12309dd77378c07cbe0853f8f0771e27a",
+      "originalHash": "2faf78562019f15351da64a42cf959a12309dd77378c07cbe0853f8f0771e27a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本法では原則として自力救済は禁じられている。",
+            "romaji": "Nihonhō de wa gensoku to shite jiriki kyūsai wa kinjirarete iru.",
+            "german": "Im japanischen Recht ist die eigenmächtige Durchsetzung grundsätzlich verboten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "自力救済 ist die eigenmächtige Durchsetzung eines Anspruchs ohne Gericht, etwa wenn ein Vermieter bei Mietrückstand einfach das Schloss austauscht. Im japanischen Recht gilt 自力救済の禁止: Selbsthilfe ist nur in engen Ausnahmefällen erlaubt, sonst kann sie zu Schadensersatz führen. Abzugrenzen von 正当防衛 „Notwehr“ gegen einen gegenwärtigen Angriff. Typisch: 自力救済に当たる, 自力救済は禁じられている. Register: juristisch.",
+        "examples": [
+          {
+            "japanese": "日本法では原則として自力救済は禁じられている。",
+            "romaji": "Nihonhō de wa gensoku to shite jiriki kyūsai wa kinjirarete iru.",
+            "german": "Im japanischen Recht ist die eigenmächtige Durchsetzung grundsätzlich verboten."
+          },
+          {
+            "japanese": "家賃を滞納した入居者を大家が勝手に締め出すのは、自力救済に当たる。",
+            "romaji": "Yachin o tainō shita nyūkyosha o ōya ga katte ni shimedasu no wa, jiriki kyūsai ni ataru.",
+            "german": "Wenn ein Vermieter einen Mieter mit Mietrückstand eigenmächtig aussperrt, ist das unzulässige Selbsthilfe."
+          },
+          {
+            "japanese": "貸したお金が返ってこなくても、相手の物を勝手に持ち帰るのは自力救済として違法になりうる。",
+            "romaji": "Kashita okane ga kaette konakute mo, aite no mono o katte ni mochikaeru no wa jiriki kyūsai to shite ihō ni nariuru.",
+            "german": "Auch wenn man geliehenes Geld nicht zurückbekommt, kann es als verbotene Selbsthilfe rechtswidrig sein, einfach Sachen des Schuldners mitzunehmen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2831036 sense 1, noun: self-help (enforcing a right without court proceedings) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 自力救済 ist die eigenmächtige Durchsetzung eines Anspruchs ohne Gericht, etwa wenn ein Vermieter bei Mietrückstand einfach das Schloss austauscht. Im japanischen Recht gilt 自力救済の禁止: Selbsthilfe ist nur in engen Ausnahmefällen erlaubt, sonst kann sie zu Schadensersatz führen. Abzugrenzen von 正当防衛 „Notwehr“ gegen einen gegenwärtigen Angriff. Typisch: 自力救済に当たる, 自力救済は禁じられている. Register: juristisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2831036; spelling=自力救済; reading=じりききゅうさい",
+          "selected": {
+            "sequence": "2831036",
+            "spelling": "自力救済",
+            "reading": "じりききゅうさい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "self-help"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2831036 sense 1, noun: self-help (enforcing a right without court proceedings)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 自力救済/じりききゅうさい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%87%AA%E5%8A%9B%E6%95%91%E6%B8%88",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 自力救済/じりききゅうさい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Selbsthilfe; eigenmächtige Durchsetzung. JMdict 2831036 sense 1, noun: self-help (enforcing a right without court proceedings)",
+        "japanese": "日本法では原則として自力救済は禁じられている。 / 家賃を滞納した入居者を大家が勝手に締め出すのは、自力救済に当たる。 / 貸したお金が返ってこなくても、相手の物を勝手に持ち帰るのは自力救済として違法になりうる。",
+        "romanization": "jiriki kyūsai; Nihonhō de wa gensoku to shite jiriki kyūsai wa kinjirarete iru. / Yachin o tainō shita nyūkyosha o ōya ga katte ni shimedasu no wa, jiriki kyūsai ni ataru. / Kashita okane ga kaette konakute mo, aite no mono o katte ni mochikaeru no wa jiriki kyūsai to shite ihō ni nariuru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im japanischen Recht ist die eigenmächtige Durchsetzung grundsätzlich verboten. / Wenn ein Vermieter einen Mieter mit Mietrückstand eigenmächtig aussperrt, ist das unzulässige Selbsthilfe. / Auch wenn man geliehenes Geld nicht zurückbekommt, kann es als verbotene Selbsthilfe rechtswidrig sein, einfach Sachen des Schuldners mitzunehmen.",
+        "contexts": [
+          "Basic legal principle",
+          "Landlord locks out tenant",
+          "Unpaid loan"
+        ],
+        "lexical": "JMdict 2831036 sense 1, noun: self-help (enforcing a right without court proceedings)",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:367 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Basic legal principle; Landlord locks out tenant; Unpaid loan), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "edd75a6603c639eb12e62de5e5d50a90d5397bd7a948e50524d9926f0bec989d",
+        "approvalHash": "bb01dc8edffecf679626c8b6891603a90422f1c6b7f33702f9e8a82093336e28"
+      }
+    },
+    {
+      "id": "vocab-n1:368",
+      "revisionId": "207b-n1-enrichment-vocab-n1-368",
+      "state": "accepted",
+      "predecessorHash": "7364a5ed150b6d44c1bdf5dda6cb94d140a629d6e22e636fb831f6d4472159fe",
+      "originalHash": "7364a5ed150b6d44c1bdf5dda6cb94d140a629d6e22e636fb831f6d4472159fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "裁判所が破産管財人を選任した。",
+            "romaji": "Saibansho ga hasan kanzainin o sennin shita.",
+            "german": "Das Gericht bestellte einen Insolvenzverwalter."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "管財人 ist eine vom Gericht bestellte Person, meist ein Anwalt, die fremdes Vermögen verwaltet. Am häufigsten sind 破産管財人 „Insolvenzverwalter“ im Konkurs und 更生管財人 im Sanierungsverfahren 会社更生. Typisch: 管財人を選任する, 管財人に就任する, 管財人の管理下に置かれる. Abzugrenzen von 清算人, der eine freiwillige Liquidation abwickelt. Register: juristisch, Wirtschaftsnachrichten.",
+        "examples": [
+          {
+            "japanese": "裁判所が破産管財人を選任した。",
+            "romaji": "Saibansho ga hasan kanzainin o sennin shita.",
+            "german": "Das Gericht bestellte einen Insolvenzverwalter."
+          },
+          {
+            "japanese": "破産管財人が会社の資産を売却し、債権者に配当した。",
+            "romaji": "Hasan kanzainin ga kaisha no shisan o baikyaku shi, saikensha ni haitō shita.",
+            "german": "Der Insolvenzverwalter verkaufte das Firmenvermögen und schüttete den Erlös an die Gläubiger aus."
+          },
+          {
+            "japanese": "管財人には倒産手続きに詳しい弁護士が就任した。",
+            "romaji": "Kanzainin ni wa tōsan tetsuzuki ni kuwashii bengoshi ga shūnin shita.",
+            "german": "Zum Verwalter wurde ein im Insolvenzrecht erfahrener Anwalt bestellt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1665840 sense 1, noun: trustee, receiver, administrator Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 管財人 ist eine vom Gericht bestellte Person, meist ein Anwalt, die fremdes Vermögen verwaltet. Am häufigsten sind 破産管財人 „Insolvenzverwalter“ im Konkurs und 更生管財人 im Sanierungsverfahren 会社更生. Typisch: 管財人を選任する, 管財人に就任する, 管財人の管理下に置かれる. Abzugrenzen von 清算人, der eine freiwillige Liquidation abwickelt. Register: juristisch, Wirtschaftsnachrichten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1665840; spelling=管財人; reading=かんざいにん",
+          "selected": {
+            "sequence": "1665840",
+            "spelling": "管財人",
+            "reading": "かんざいにん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trustee",
+                  "receiver",
+                  "administrator"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1665840 sense 1, noun: trustee, receiver, administrator"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 管財人/かんざいにん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%AE%A1%E8%B2%A1%E4%BA%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 管財人/かんざいにん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Insolvenzverwalter; Konkursverwalter. JMdict 1665840 sense 1, noun: trustee, receiver, administrator",
+        "japanese": "裁判所が破産管財人を選任した。 / 破産管財人が会社の資産を売却し、債権者に配当した。 / 管財人には倒産手続きに詳しい弁護士が就任した。",
+        "romanization": "kanzainin; Saibansho ga hasan kanzainin o sennin shita. / Hasan kanzainin ga kaisha no shisan o baikyaku shi, saikensha ni haitō shita. / Kanzainin ni wa tōsan tetsuzuki ni kuwashii bengoshi ga shūnin shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Gericht bestellte einen Insolvenzverwalter. / Der Insolvenzverwalter verkaufte das Firmenvermögen und schüttete den Erlös an die Gläubiger aus. / Zum Verwalter wurde ein im Insolvenzrecht erfahrener Anwalt bestellt.",
+        "contexts": [
+          "Court appoints a trustee",
+          "Paying out creditors",
+          "Choice of administrator"
+        ],
+        "lexical": "JMdict 1665840 sense 1, noun: trustee, receiver, administrator",
+        "register": "written / legal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:368 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Court appoints a trustee; Paying out creditors; Choice of administrator), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7b7b07c21739bd67d3fb7df5495ea879a295e1b920e7b2b168db82bf7fd5a68a",
+        "approvalHash": "bede088405dd4bca6e8bc408cfba4bc3241dc863bf7857ec05e407b1e47ccc80"
+      }
+    },
+    {
+      "id": "vocab-n1:370",
+      "revisionId": "207b-n1-enrichment-vocab-n1-370",
+      "state": "accepted",
+      "predecessorHash": "86b7d51f0fbe097881edfd1e49c2410ff1d26115ab432089341fa0c0b83bdbb0",
+      "originalHash": "86b7d51f0fbe097881edfd1e49c2410ff1d26115ab432089341fa0c0b83bdbb0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大企業が会社更生手続きを申請した。",
+            "romaji": "Daikigyō ga kaisha kōsei tetsuzuki o shinsei shita.",
+            "german": "Das Großunternehmen beantragte ein Reorganisationsverfahren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "会社更生 ist das gerichtliche Sanierungsverfahren für (meist große) Aktiengesellschaften nach dem 会社更生法, vergleichbar mit Chapter 11 in den USA. Das Unternehmen wird nicht zerschlagen wie beim 破産, sondern unter einem vom Gericht bestellten 管財人 weitergeführt; die alte Geschäftsleitung tritt in der Regel ab. Für kleinere Firmen gibt es das 民事再生. Typisch in Nachrichten: 会社更生法の適用を申請する, 会社更生手続き.",
+        "examples": [
+          {
+            "japanese": "大企業が会社更生手続きを申請した。",
+            "romaji": "Daikigyō ga kaisha kōsei tetsuzuki o shinsei shita.",
+            "german": "Das Großunternehmen beantragte ein Reorganisationsverfahren."
+          },
+          {
+            "japanese": "日本航空は2010年に会社更生法の適用を申請した。",
+            "romaji": "Nihon Kōkū wa nisen-jū-nen ni kaisha kōseihō no tekiyō o shinsei shita.",
+            "german": "Japan Airlines beantragte 2010 ein Sanierungsverfahren nach dem Gesetz zur Unternehmensreorganisation."
+          },
+          {
+            "japanese": "破産ではなく会社更生を選べば、事業を続けながら再建を目指せる。",
+            "romaji": "Hasan de wa naku kaisha kōsei o erabeba, jigyō o tsuzukenagara saiken o mezaseru.",
+            "german": "Wählt man statt Konkurs ein Sanierungsverfahren, kann man den Neuanfang anstreben, während der Betrieb weiterläuft."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 会社更生; nearest JMdict 1613840 (会社更生法), noun: Corporate Reorganization Act Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 会社更生 ist das gerichtliche Sanierungsverfahren für (meist große) Aktiengesellschaften nach dem 会社更生法, vergleichbar mit Chapter 11 in den USA. Das Unternehmen wird nicht zerschlagen wie beim 破産, sondern unter einem vom Gericht bestellten 管財人 weitergeführt; die alte Geschäftsleitung tritt in der Regel ab. Für kleinere Firmen gibt es das 民事再生. Typisch in Nachrichten: 会社更生法の適用を申請する, 会社更生手続き. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=会社更生; reading=かいしゃこうせい; no entry",
+          "finding": "No exact JMdict entry for 会社更生; nearest JMdict 1613840 (会社更生法), noun: Corporate Reorganization Act"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 会社更生/かいしゃこうせい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BC%9A%E7%A4%BE%E6%9B%B4%E7%94%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 会社更生/かいしゃこうせい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unternehmensreorganisation; Sanierung. No exact JMdict entry for 会社更生; nearest JMdict 1613840 (会社更生法), noun: Corporate Reorganization Act",
+        "japanese": "大企業が会社更生手続きを申請した。 / 日本航空は2010年に会社更生法の適用を申請した。 / 破産ではなく会社更生を選べば、事業を続けながら再建を目指せる。",
+        "romanization": "kaisha kōsei; Daikigyō ga kaisha kōsei tetsuzuki o shinsei shita. / Nihon Kōkū wa nisen-jū-nen ni kaisha kōseihō no tekiyō o shinsei shita. / Hasan de wa naku kaisha kōsei o erabeba, jigyō o tsuzukenagara saiken o mezaseru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Großunternehmen beantragte ein Reorganisationsverfahren. / Japan Airlines beantragte 2010 ein Sanierungsverfahren nach dem Gesetz zur Unternehmensreorganisation. / Wählt man statt Konkurs ein Sanierungsverfahren, kann man den Neuanfang anstreben, während der Betrieb weiterläuft.",
+        "contexts": [
+          "Filing for reorganization",
+          "Japan Airlines 2010",
+          "Bankruptcy vs. reorganization"
+        ],
+        "lexical": "No exact JMdict entry for 会社更生; nearest JMdict 1613840 (会社更生法), noun: Corporate Reorganization Act",
+        "register": "written / legal, business news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:370 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Filing for reorganization; Japan Airlines 2010; Bankruptcy vs. reorganization), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "81363a02448828f6e13f3a43d25aaa87d4e3b238fe463debb5dad5f3d1509c6b",
+        "approvalHash": "cff6f4d30909f9f710e52dda86427f9d51d33f8f73c0d6b8fb48f751c9949507"
+      }
+    },
+    {
+      "id": "vocab-n1:371",
+      "revisionId": "207b-n1-enrichment-vocab-n1-371",
+      "state": "accepted",
+      "predecessorHash": "6e82671948dc090102168d2151ec7ffb68aee921dc987570dadba3d3347ffbae",
+      "originalHash": "6e82671948dc090102168d2151ec7ffb68aee921dc987570dadba3d3347ffbae",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "解散した法人の清算手続きが進められている。",
+            "romaji": "Kaisan shita hōjin no seisan tetsuzuki ga susumerarete iru.",
+            "german": "Das Liquidationsverfahren der aufgelösten juristischen Person wird vorangetrieben."
+          }
+        ],
+        "meaning": "Liquidation; Abwicklung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "清算 hat drei Bedeutungen: Schulden oder Konten endgültig begleichen (借金を清算する), ein Unternehmen auflösen und abwickeln (会社の清算, 清算人), und übertragen einen Schlussstrich ziehen (過去を清算する, 関係を清算する). Transitives する-Verb: 〜を清算する. Nicht verwechseln mit dem gleich gelesenen 精算 „genaue Abrechnung“, etwa beim Nachzahlen des Fahrpreises am 精算機. Register: neutral bis formell.",
+        "examples": [
+          {
+            "japanese": "解散した法人の清算手続きが進められている。",
+            "romaji": "Kaisan shita hōjin no seisan tetsuzuki ga susumerarete iru.",
+            "german": "Das Liquidationsverfahren der aufgelösten juristischen Person wird vorangetrieben."
+          },
+          {
+            "japanese": "借金をすべて清算して、新しい生活を始めた。",
+            "romaji": "Shakkin o subete seisan shite, atarashii seikatsu o hajimeta.",
+            "german": "Er beglich alle Schulden und fing ein neues Leben an."
+          },
+          {
+            "japanese": "彼女は過去を清算するために、故郷を離れた。",
+            "romaji": "Kanojo wa kako o seisan suru tame ni, kokyō o hanareta.",
+            "german": "Um mit ihrer Vergangenheit abzuschließen, verließ sie ihre Heimat."
+          }
+        ],
+        "meaning": "Liquidation, Abwicklung; Begleichung (von Schulden); Schlussstrich (unter Vergangenes)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152012794",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 清算/セイサン; lemma 清算; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "清算",
+              "reading": "せいさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 清算/せいさん \"Liquidation; Abwicklung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1378210 senses 1–3, noun / suru verb (transitive): settlement, clearing debts; liquidation; ending a relationship, burying the past Pitch: Verified [0] via exact UniDic row. 清算 hat drei Bedeutungen: Schulden oder Konten endgültig begleichen (借金を清算する), ein Unternehmen auflösen und abwickeln (会社の清算, 清算人), und übertragen einen Schlussstrich ziehen (過去を清算する, 関係を清算する). Transitives する-Verb: 〜を清算する. Nicht verwechseln mit dem gleich gelesenen 精算 „genaue Abrechnung“, etwa beim Nachzahlen des Fahrpreises am 精算機. Register: neutral bis formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1378210; spelling=清算; reading=せいさん",
+          "selected": {
+            "sequence": "1378210",
+            "spelling": "清算",
+            "reading": "せいさん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(financial) settlement",
+                  "squaring accounts",
+                  "clearing debts"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "liquidation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ending (a relationship)",
+                  "breaking up (with)",
+                  "burying (the past)",
+                  "redeeming (one's faults)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1378210 senses 1–3, noun / suru verb (transitive): settlement, clearing debts; liquidation; ending a relationship, burying the past"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 清算/セイサン; lemma 清算; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@152012794",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 清算/セイサン; lemma 清算; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "清算",
+              "reading": "せいさん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 清算/せいさん \"Liquidation; Abwicklung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Liquidation, Abwicklung; Begleichung (von Schulden); Schlussstrich (unter Vergangenes). JMdict 1378210 senses 1–3, noun / suru verb (transitive): settlement, clearing debts; liquidation; ending a relationship, burying the past",
+        "japanese": "解散した法人の清算手続きが進められている。 / 借金をすべて清算して、新しい生活を始めた。 / 彼女は過去を清算するために、故郷を離れた。",
+        "romanization": "seisan; Kaisan shita hōjin no seisan tetsuzuki ga susumerarete iru. / Shakkin o subete seisan shite, atarashii seikatsu o hajimeta. / Kanojo wa kako o seisan suru tame ni, kokyō o hanareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Liquidationsverfahren der aufgelösten juristischen Person wird vorangetrieben. / Er beglich alle Schulden und fing ein neues Leben an. / Um mit ihrer Vergangenheit abzuschließen, verließ sie ihre Heimat.",
+        "contexts": [
+          "Winding up a corporation",
+          "Paying off debts",
+          "Breaking with the past"
+        ],
+        "lexical": "JMdict 1378210 senses 1–3, noun / suru verb (transitive): settlement, clearing debts; liquidation; ending a relationship, burying the past",
+        "register": "neutral to formal",
+        "transitivity": "transitive as 清算する (〜を清算する)",
+        "conjugation": "noun; suru verb (清算する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:371 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Winding up a corporation; Paying off debts; Breaking with the past), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a2d3428ee75272f9550a972265199a0c7c48239b214b84f6a60ec8d0a4bae0fe",
+        "approvalHash": "60dc25fcc58539300304a81e6aebe7cbc209150000e7808d9b1994c6e0220894"
+      }
+    },
+    {
+      "id": "vocab-n1:372",
+      "revisionId": "207b-n1-enrichment-vocab-n1-372",
+      "state": "accepted",
+      "predecessorHash": "7323327719d922a4168d8610203851ff84de112ee849b305224ab92a4c678b9f",
+      "originalHash": "7323327719d922a4168d8610203851ff84de112ee849b305224ab92a4c678b9f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "省庁の内規に基づいて処分が行われた。",
+            "romaji": "Shōchō no naiki ni motozuite shobun ga okonawareta.",
+            "german": "Aufgrund der internen Vorschriften des Ministeriums wurde eine Maßnahme ergriffen."
+          }
+        ],
+        "meaning": "interne Vorschrift; Geschäftsordnung",
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "内規 sind interne Regeln einer Organisation, die oft nicht veröffentlicht oder sogar nur ungeschrieben sind. Typisch: 内規で定める, 内規に従う／違反する, 社の内規. Im Unterschied zu 規則 oder 規約 klingt 内規 „hausintern“ und wird manchmal wegen mangelnder Transparenz kritisiert. Das gesetzlich vorgeschriebene Regelwerk für Angestellte heißt 就業規則. Register: formell.",
+        "examples": [
+          {
+            "japanese": "省庁の内規に基づいて処分が行われた。",
+            "romaji": "Shōchō no naiki ni motozuite shobun ga okonawareta.",
+            "german": "Aufgrund der internen Vorschriften des Ministeriums wurde eine Maßnahme ergriffen."
+          },
+          {
+            "japanese": "当社の内規で、取引先からの贈り物は受け取れないことになっています。",
+            "romaji": "Tōsha no naiki de, torihikisaki kara no okurimono wa uketorenai koto ni natte imasu.",
+            "german": "Nach unseren internen Vorschriften dürfen wir keine Geschenke von Geschäftspartnern annehmen."
+          },
+          {
+            "japanese": "選考基準は大学の内規で定められており、公表されていない。",
+            "romaji": "Senkō kijun wa daigaku no naiki de sadamerarete ori, kōhyō sarete inai.",
+            "german": "Die Auswahlkriterien sind in internen Vorschriften der Universität festgelegt und nicht veröffentlicht."
+          }
+        ],
+        "meaning": "interne Vorschrift; hausinterne Regel",
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193572160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 内規/ナイキ; lemma 内規; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "内規",
+              "reading": "ないき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内規/ないき \"interne Vorschrift; Geschäftsordnung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1458030 sense 1, noun: private regulations, bylaws, internal rules Pitch: Verified [0,1] via exact UniDic row. 内規 sind interne Regeln einer Organisation, die oft nicht veröffentlicht oder sogar nur ungeschrieben sind. Typisch: 内規で定める, 内規に従う／違反する, 社の内規. Im Unterschied zu 規則 oder 規約 klingt 内規 „hausintern“ und wird manchmal wegen mangelnder Transparenz kritisiert. Das gesetzlich vorgeschriebene Regelwerk für Angestellte heißt 就業規則. Register: formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1458030; spelling=内規; reading=ないき",
+          "selected": {
+            "sequence": "1458030",
+            "spelling": "内規",
+            "reading": "ないき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "private regulations",
+                  "bylaws",
+                  "internal rules",
+                  "tradition"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1458030 sense 1, noun: private regulations, bylaws, internal rules"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 内規/ナイキ; lemma 内規; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193572160",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 内規/ナイキ; lemma 内規; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "内規",
+              "reading": "ないき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内規/ないき \"interne Vorschrift; Geschäftsordnung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "interne Vorschrift; hausinterne Regel. JMdict 1458030 sense 1, noun: private regulations, bylaws, internal rules",
+        "japanese": "省庁の内規に基づいて処分が行われた。 / 当社の内規で、取引先からの贈り物は受け取れないことになっています。 / 選考基準は大学の内規で定められており、公表されていない。",
+        "romanization": "naiki; Shōchō no naiki ni motozuite shobun ga okonawareta. / Tōsha no naiki de, torihikisaki kara no okurimono wa uketorenai koto ni natte imasu. / Senkō kijun wa daigaku no naiki de sadamerarete ori, kōhyō sarete inai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aufgrund der internen Vorschriften des Ministeriums wurde eine Maßnahme ergriffen. / Nach unseren internen Vorschriften dürfen wir keine Geschenke von Geschäftspartnern annehmen. / Die Auswahlkriterien sind in internen Vorschriften der Universität festgelegt und nicht veröffentlicht.",
+        "contexts": [
+          "Ministry sanction",
+          "Declining a gift",
+          "Unpublished selection criteria"
+        ],
+        "lexical": "JMdict 1458030 sense 1, noun: private regulations, bylaws, internal rules",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:372 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Ministry sanction; Declining a gift; Unpublished selection criteria), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "91807408cb9aae953171034ce754202f3dde5dc728a2dab56668429e45050a53",
+        "approvalHash": "faf6ed96f6bb31985588c93bda652a34568401d494d8f5f6bca6d1553bdf4b78"
+      }
+    },
+    {
+      "id": "vocab-n1:373",
+      "revisionId": "207b-n1-enrichment-vocab-n1-373",
+      "state": "accepted",
+      "predecessorHash": "d7ca48732aa68fbdb2c4304e2c0cdb809227b06931e81198528261df39096287",
+      "originalHash": "d7ca48732aa68fbdb2c4304e2c0cdb809227b06931e81198528261df39096287",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "職務規程に従って業務を遂行する。",
+            "romaji": "Shokumu kitei ni shitagatte gyōmu o suikō suru.",
+            "german": "Die Aufgaben werden gemäß der Dienstordnung ausgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "職務規程 ist ein schriftliches Regelwerk, das Aufgaben, Befugnisse und Verhalten bei der Arbeit festlegt, z. B. 職務権限規程 „Zuständigkeitsordnung“ in Firmen oder das 弁護士職務基本規程 für Anwälte. 規程 bezeichnet das ganze Regelwerk als Dokument, das gleich gelesene 規定 dagegen eine einzelne Bestimmung. Typisch: 職務規程に従う／違反する, 職務規程を定める. Register: formell, Verwaltungssprache.",
+        "examples": [
+          {
+            "japanese": "職務規程に従って業務を遂行する。",
+            "romaji": "Shokumu kitei ni shitagatte gyōmu o suikō suru.",
+            "german": "Die Aufgaben werden gemäß der Dienstordnung ausgeführt."
+          },
+          {
+            "japanese": "職務規程に違反したとして、社員が処分を受けた。",
+            "romaji": "Shokumu kitei ni ihan shita to shite, shain ga shobun o uketa.",
+            "german": "Ein Mitarbeiter wurde wegen Verstoßes gegen die Dienstordnung gemaßregelt."
+          },
+          {
+            "japanese": "新しい部署の職務規程を読んで、自分の権限を確認した。",
+            "romaji": "Atarashii busho no shokumu kitei o yonde, jibun no kengen o kakunin shita.",
+            "german": "Ich las die Dienstordnung der neuen Abteilung und klärte so meine Befugnisse."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 職務規程; nearest JMdict 1223080 (規程), noun: official regulations, inner rules (here: rules governing one's duties) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 職務規程 ist ein schriftliches Regelwerk, das Aufgaben, Befugnisse und Verhalten bei der Arbeit festlegt, z. B. 職務権限規程 „Zuständigkeitsordnung“ in Firmen oder das 弁護士職務基本規程 für Anwälte. 規程 bezeichnet das ganze Regelwerk als Dokument, das gleich gelesene 規定 dagegen eine einzelne Bestimmung. Typisch: 職務規程に従う／違反する, 職務規程を定める. Register: formell, Verwaltungssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=職務規程; reading=しょくむきてい; no entry",
+          "finding": "No exact JMdict entry for 職務規程; nearest JMdict 1223080 (規程), noun: official regulations, inner rules (here: rules governing one's duties)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 職務規程/しょくむきてい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%81%B7%E5%8B%99%E8%A6%8F%E7%A8%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 職務規程/しょくむきてい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dienstordnung; Arbeitsanweisung. No exact JMdict entry for 職務規程; nearest JMdict 1223080 (規程), noun: official regulations, inner rules (here: rules governing one's duties)",
+        "japanese": "職務規程に従って業務を遂行する。 / 職務規程に違反したとして、社員が処分を受けた。 / 新しい部署の職務規程を読んで、自分の権限を確認した。",
+        "romanization": "shokumu kitei; Shokumu kitei ni shitagatte gyōmu o suikō suru. / Shokumu kitei ni ihan shita to shite, shain ga shobun o uketa. / Atarashii busho no shokumu kitei o yonde, jibun no kengen o kakunin shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Aufgaben werden gemäß der Dienstordnung ausgeführt. / Ein Mitarbeiter wurde wegen Verstoßes gegen die Dienstordnung gemaßregelt. / Ich las die Dienstordnung der neuen Abteilung und klärte so meine Befugnisse.",
+        "contexts": [
+          "Carrying out duties",
+          "Disciplinary consequence",
+          "Checking one's authority"
+        ],
+        "lexical": "No exact JMdict entry for 職務規程; nearest JMdict 1223080 (規程), noun: official regulations, inner rules (here: rules governing one's duties)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:373 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Carrying out duties; Disciplinary consequence; Checking one's authority), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5fcf1eb458203e4d92fc756085b034d75b16e729068c3e7e9d5bb113929f1384",
+        "approvalHash": "fdaaeff86f79c4e6cb6700774156b4dc4be1bf5ecc6849ea142f8d1772642a33"
+      }
+    },
+    {
+      "id": "vocab-n1:374",
+      "revisionId": "207b-n1-enrichment-vocab-n1-374",
+      "state": "accepted",
+      "predecessorHash": "8f5cbe5441ae6e522eb8ea8bc6163808e3caa3e03b5475867d366123fc6a4358",
+      "originalHash": "8f5cbe5441ae6e522eb8ea8bc6163808e3caa3e03b5475867d366123fc6a4358",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "公務員は服務規律を遵守しなければならない。",
+            "romaji": "Kōmuin wa fukumu kiritsu o junshu shinakereba naranai.",
+            "german": "Beamte müssen die Dienstverhaltensregeln einhalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "服務規律 sind die Verhaltensregeln für Beamte und Angestellte im Dienst: Pünktlichkeit, Verschwiegenheit, Verbot von Nebentätigkeiten, angemessenes Auftreten. In Firmen bildet 服務規律 meist ein eigenes Kapitel des 就業規則. Typisch: 服務規律を守る／遵守する, 服務規律違反, 服務規律の徹底. Während 職務規程 Aufgaben und Befugnisse regelt, geht es bei 服務規律 um das Verhalten. Register: formell.",
+        "examples": [
+          {
+            "japanese": "公務員は服務規律を遵守しなければならない。",
+            "romaji": "Kōmuin wa fukumu kiritsu o junshu shinakereba naranai.",
+            "german": "Beamte müssen die Dienstverhaltensregeln einhalten."
+          },
+          {
+            "japanese": "服務規律違反で、警察官が減給処分を受けた。",
+            "romaji": "Fukumu kiritsu ihan de, keisatsukan ga genkyū shobun o uketa.",
+            "german": "Ein Polizist erhielt wegen Verstoßes gegen die Dienstpflichten eine Gehaltskürzung."
+          },
+          {
+            "japanese": "就業規則の服務規律には、副業の禁止も定められている。",
+            "romaji": "Shūgyō kisoku no fukumu kiritsu ni wa, fukugyō no kinshi mo sadamerarete iru.",
+            "german": "In den Verhaltensregeln der Arbeitsordnung ist auch ein Nebenjobverbot festgelegt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "No exact JMdict entry for 服務規律; nearest JMdict 1624730 (服務), noun / suru verb: duty, public service (here: rules of conduct on duty) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 服務規律 sind die Verhaltensregeln für Beamte und Angestellte im Dienst: Pünktlichkeit, Verschwiegenheit, Verbot von Nebentätigkeiten, angemessenes Auftreten. In Firmen bildet 服務規律 meist ein eigenes Kapitel des 就業規則. Typisch: 服務規律を守る／遵守する, 服務規律違反, 服務規律の徹底. Während 職務規程 Aufgaben und Befugnisse regelt, geht es bei 服務規律 um das Verhalten. Register: formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=服務規律; reading=ふくむきりつ; no entry",
+          "finding": "No exact JMdict entry for 服務規律; nearest JMdict 1624730 (服務), noun / suru verb: duty, public service (here: rules of conduct on duty)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 服務規律/ふくむきりつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%9C%8D%E5%8B%99%E8%A6%8F%E5%BE%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 服務規律/ふくむきりつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dienstverhaltensregeln; Dienstpflichten. No exact JMdict entry for 服務規律; nearest JMdict 1624730 (服務), noun / suru verb: duty, public service (here: rules of conduct on duty)",
+        "japanese": "公務員は服務規律を遵守しなければならない。 / 服務規律違反で、警察官が減給処分を受けた。 / 就業規則の服務規律には、副業の禁止も定められている。",
+        "romanization": "fukumu kiritsu; Kōmuin wa fukumu kiritsu o junshu shinakereba naranai. / Fukumu kiritsu ihan de, keisatsukan ga genkyū shobun o uketa. / Shūgyō kisoku no fukumu kiritsu ni wa, fukugyō no kinshi mo sadamerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Beamte müssen die Dienstverhaltensregeln einhalten. / Ein Polizist erhielt wegen Verstoßes gegen die Dienstpflichten eine Gehaltskürzung. / In den Verhaltensregeln der Arbeitsordnung ist auch ein Nebenjobverbot festgelegt.",
+        "contexts": [
+          "Duty of civil servants",
+          "Police officer disciplined",
+          "Company work rules"
+        ],
+        "lexical": "No exact JMdict entry for 服務規律; nearest JMdict 1624730 (服務), noun / suru verb: duty, public service (here: rules of conduct on duty)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:374 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Duty of civil servants; Police officer disciplined; Company work rules), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "68c0d35c263b7b2001f637529775ce02b88aa001241a79b84cf1e69a6ff1ce67",
+        "approvalHash": "33e8b1b78421e468794c204b881cdc0c82ea5d5002381beb9b43d5284c4e18ea"
+      }
+    },
+    {
+      "id": "vocab-n1:375",
+      "revisionId": "207b-n1-enrichment-vocab-n1-375",
+      "state": "accepted",
+      "predecessorHash": "2a376b87c5373221839ac87fc4e3c5a7d287da7bec14765f39f25b47588db3ac",
+      "originalHash": "2a376b87c5373221839ac87fc4e3c5a7d287da7bec14765f39f25b47588db3ac",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不祥事を起こした職員に懲戒処分が下された。",
+            "romaji": "Fushōji o okoshita shokuin ni chōkai shobun ga kudasareta.",
+            "german": "Gegen den Beamten, der den Skandal verursacht hatte, wurde eine Disziplinarmaßnahme verhängt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "懲戒処分 ist eine förmliche Disziplinarmaßnahme gegen Beamte oder Angestellte. Für Beamte gibt es vier Stufen: 戒告 „Verweis“, 減給 „Gehaltskürzung“, 停職 „Suspendierung“ und 免職 „Entlassung“; Firmen kennen u. a. 譴責 und 懲戒解雇. Bloße Ermahnungen wie 訓告 oder 厳重注意 zählen nicht dazu. Typisch: 懲戒処分を受ける／下す, 懲戒処分とする. Register: Verwaltungs- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "不祥事を起こした職員に懲戒処分が下された。",
+            "romaji": "Fushōji o okoshita shokuin ni chōkai shobun ga kudasareta.",
+            "german": "Gegen den Beamten, der den Skandal verursacht hatte, wurde eine Disziplinarmaßnahme verhängt."
+          },
+          {
+            "japanese": "飲酒運転をした教員は懲戒処分を受けた。",
+            "romaji": "Inshu unten o shita kyōin wa chōkai shobun o uketa.",
+            "german": "Der Lehrer, der betrunken Auto gefahren war, wurde disziplinarisch bestraft."
+          },
+          {
+            "japanese": "公務員の懲戒処分には、免職、停職、減給、戒告の四種類がある。",
+            "romaji": "Kōmuin no chōkai shobun ni wa, menshoku, teishoku, genkyū, kaikoku no yon-shurui ga aru.",
+            "german": "Bei Beamten gibt es vier Arten von Disziplinarmaßnahmen: Entlassung, Suspendierung, Gehaltskürzung und Verweis."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1707180 sense 1, noun: disciplinary measures Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 懲戒処分 ist eine förmliche Disziplinarmaßnahme gegen Beamte oder Angestellte. Für Beamte gibt es vier Stufen: 戒告 „Verweis“, 減給 „Gehaltskürzung“, 停職 „Suspendierung“ und 免職 „Entlassung“; Firmen kennen u. a. 譴責 und 懲戒解雇. Bloße Ermahnungen wie 訓告 oder 厳重注意 zählen nicht dazu. Typisch: 懲戒処分を受ける／下す, 懲戒処分とする. Register: Verwaltungs- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1707180; spelling=懲戒処分; reading=ちょうかいしょぶん",
+          "selected": {
+            "sequence": "1707180",
+            "spelling": "懲戒処分",
+            "reading": "ちょうかいしょぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "disciplinary measures",
+                  "(judicial) sanctions"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1707180 sense 1, noun: disciplinary measures"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 懲戒処分/ちょうかいしょぶん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%87%B2%E6%88%92%E5%87%A6%E5%88%86",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 懲戒処分/ちょうかいしょぶん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Disziplinarmaßnahme; Disziplinarstrafe. JMdict 1707180 sense 1, noun: disciplinary measures",
+        "japanese": "不祥事を起こした職員に懲戒処分が下された。 / 飲酒運転をした教員は懲戒処分を受けた。 / 公務員の懲戒処分には、免職、停職、減給、戒告の四種類がある。",
+        "romanization": "chōkai shobun; Fushōji o okoshita shokuin ni chōkai shobun ga kudasareta. / Inshu unten o shita kyōin wa chōkai shobun o uketa. / Kōmuin no chōkai shobun ni wa, menshoku, teishoku, genkyū, kaikoku no yon-shurui ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gegen den Beamten, der den Skandal verursacht hatte, wurde eine Disziplinarmaßnahme verhängt. / Der Lehrer, der betrunken Auto gefahren war, wurde disziplinarisch bestraft. / Bei Beamten gibt es vier Arten von Disziplinarmaßnahmen: Entlassung, Suspendierung, Gehaltskürzung und Verweis.",
+        "contexts": [
+          "Scandal in the office",
+          "Teacher drunk driving",
+          "The four levels for civil servants"
+        ],
+        "lexical": "JMdict 1707180 sense 1, noun: disciplinary measures",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:375 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Scandal in the office; Teacher drunk driving; The four levels for civil servants), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "172f5f3eae57e1a0c7979fc52775f0be6487b92836ba1de0edc4b89316b66247",
+        "approvalHash": "12fb22059f7f619797b71744b8cdee9e9b980926a7158fff4815c42d1308c3d1"
+      }
+    },
+    {
+      "id": "vocab-n1:376",
+      "revisionId": "207b-n1-enrichment-vocab-n1-376",
+      "state": "accepted",
+      "predecessorHash": "716d4a21d24bfcb09b34dd3f255a7ed33e298e0f5d97c7826eee34e6f3f60634",
+      "originalHash": "716d4a21d24bfcb09b34dd3f255a7ed33e298e0f5d97c7826eee34e6f3f60634",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "軽微な違反に対して訓戒処分が行われた。",
+            "romaji": "Keibi na ihan ni taishite kunkai shobun ga okonawareta.",
+            "german": "Für den geringfügigen Verstoß wurde eine Ermahnung ausgesprochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "訓戒 ist eine belehrende Ermahnung, damit jemand einen Fehler nicht wiederholt. Im Dienstrecht ist 訓戒 (ähnlich 訓告) für Beamte keine förmliche Disziplinarstrafe, sondern eine Stufe unterhalb von 戒告; in manchen Firmen-Arbeitsordnungen ist es aber eine eigene Sanktionsstufe. Außerhalb des Berufs kann es auch „mahnende Lehre“ älterer Menschen bedeuten. Typisch: 訓戒を与える／受ける, 訓戒処分. Register: formell.",
+        "examples": [
+          {
+            "japanese": "軽微な違反に対して訓戒処分が行われた。",
+            "romaji": "Keibi na ihan ni taishite kunkai shobun ga okonawareta.",
+            "german": "Für den geringfügigen Verstoß wurde eine Ermahnung ausgesprochen."
+          },
+          {
+            "japanese": "遅刻を繰り返した社員に、上司が訓戒を与えた。",
+            "romaji": "Chikoku o kurikaeshita shain ni, jōshi ga kunkai o ataeta.",
+            "german": "Der Vorgesetzte erteilte dem Mitarbeiter, der wiederholt zu spät kam, eine Ermahnung."
+          },
+          {
+            "japanese": "祖父の訓戒は、今も私の心に残っている。",
+            "romaji": "Sofu no kunkai wa, ima mo watashi no kokoro ni nokotte iru.",
+            "german": "Die mahnenden Worte meines Großvaters sind mir bis heute im Gedächtnis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116051914",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 訓戒/クンカイ; lemma 訓戒; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "訓戒",
+              "reading": "くんかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 訓戒/くんかい \"Ermahnung; Verweis (disziplinarisch)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1247400 sense 1, noun / suru verb (transitive): warning, admonition Pitch: Verified [0] via exact UniDic row. 訓戒 ist eine belehrende Ermahnung, damit jemand einen Fehler nicht wiederholt. Im Dienstrecht ist 訓戒 (ähnlich 訓告) für Beamte keine förmliche Disziplinarstrafe, sondern eine Stufe unterhalb von 戒告; in manchen Firmen-Arbeitsordnungen ist es aber eine eigene Sanktionsstufe. Außerhalb des Berufs kann es auch „mahnende Lehre“ älterer Menschen bedeuten. Typisch: 訓戒を与える／受ける, 訓戒処分. Register: formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1247400; spelling=訓戒; reading=くんかい",
+          "selected": {
+            "sequence": "1247400",
+            "spelling": "訓戒",
+            "reading": "くんかい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "warning",
+                  "admonition",
+                  "lesson or a phrase that teaches you not to do something"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1247400 sense 1, noun / suru verb (transitive): warning, admonition"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 訓戒/クンカイ; lemma 訓戒; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116051914",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 訓戒/クンカイ; lemma 訓戒; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "訓戒",
+              "reading": "くんかい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 訓戒/くんかい \"Ermahnung; Verweis (disziplinarisch)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ermahnung; Verweis (disziplinarisch). JMdict 1247400 sense 1, noun / suru verb (transitive): warning, admonition",
+        "japanese": "軽微な違反に対して訓戒処分が行われた。 / 遅刻を繰り返した社員に、上司が訓戒を与えた。 / 祖父の訓戒は、今も私の心に残っている。",
+        "romanization": "kunkai; Keibi na ihan ni taishite kunkai shobun ga okonawareta. / Chikoku o kurikaeshita shain ni, jōshi ga kunkai o ataeta. / Sofu no kunkai wa, ima mo watashi no kokoro ni nokotte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für den geringfügigen Verstoß wurde eine Ermahnung ausgesprochen. / Der Vorgesetzte erteilte dem Mitarbeiter, der wiederholt zu spät kam, eine Ermahnung. / Die mahnenden Worte meines Großvaters sind mir bis heute im Gedächtnis.",
+        "contexts": [
+          "Minor violation",
+          "Repeated lateness",
+          "Grandfather's advice"
+        ],
+        "lexical": "JMdict 1247400 sense 1, noun / suru verb (transitive): warning, admonition",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:376 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Minor violation; Repeated lateness; Grandfather's advice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "32a8c1ac8245feb4c935461bf914096192af6181ffb49c7e894c22311bb30231",
+        "approvalHash": "22c1990245a2ec777af21f8480edc8c8a1c60e55df336f8d91a43470bdc199f1"
+      }
+    },
+    {
+      "id": "vocab-n1:377",
+      "revisionId": "207b-n1-enrichment-vocab-n1-377",
+      "state": "accepted",
+      "predecessorHash": "405cf5abf5fe75d43256f03c8ed459ce3d009269e2e2b9292ce70093afab0575",
+      "originalHash": "405cf5abf5fe75d43256f03c8ed459ce3d009269e2e2b9292ce70093afab0575",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "職務怠慢により戒告処分を受けた。",
+            "romaji": "Shokumu taiman ni yori kaikoku shobun o uketa.",
+            "german": "Wegen Dienstpflichtverletzung wurde eine förmliche Verwarnung ausgesprochen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "戒告 ist die leichteste förmliche Disziplinarstrafe für Beamte: Die Verantwortung wird schriftlich festgestellt, ohne direkte Gehaltsfolgen, doch Beförderung und Bonus können leiden. Abzugrenzen von 訓告／訓戒, die keine förmlichen Strafen sind. Im Verwaltungsvollstreckungsrecht bedeutet 戒告 außerdem die förmliche Androhung vor einer Ersatzvornahme (代執行). Typisch: 戒告処分を受ける, 〜を戒告とする. Register: Verwaltungssprache.",
+        "examples": [
+          {
+            "japanese": "職務怠慢により戒告処分を受けた。",
+            "romaji": "Shokumu taiman ni yori kaikoku shobun o uketa.",
+            "german": "Wegen Dienstpflichtverletzung wurde eine förmliche Verwarnung ausgesprochen."
+          },
+          {
+            "japanese": "市は、無断欠勤を繰り返した職員を戒告とした。",
+            "romaji": "Shi wa, mudan kekkin o kurikaeshita shokuin o kaikoku to shita.",
+            "german": "Die Stadt erteilte dem Mitarbeiter, der wiederholt unentschuldigt gefehlt hatte, einen Verweis."
+          },
+          {
+            "japanese": "市は空き家の所有者に、取り壊しを求める戒告書を送った。",
+            "romaji": "Shi wa akiya no shoyūsha ni, torikowashi o motomeru kaikokusho o okutta.",
+            "german": "Die Stadt schickte dem Eigentümer des leerstehenden Hauses eine förmliche Abrissaufforderung mit Androhung der Ersatzvornahme."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85900104",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 戒告/カイコク; lemma 戒告; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "戒告",
+              "reading": "かいこく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 戒告/かいこく \"Verwarnung; förmliche Rüge\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1200680 sense 1, noun / suru verb (transitive): admonition, warning, caution (official reprimand) Pitch: Verified [0] via exact UniDic row. 戒告 ist die leichteste förmliche Disziplinarstrafe für Beamte: Die Verantwortung wird schriftlich festgestellt, ohne direkte Gehaltsfolgen, doch Beförderung und Bonus können leiden. Abzugrenzen von 訓告／訓戒, die keine förmlichen Strafen sind. Im Verwaltungsvollstreckungsrecht bedeutet 戒告 außerdem die förmliche Androhung vor einer Ersatzvornahme (代執行). Typisch: 戒告処分を受ける, 〜を戒告とする. Register: Verwaltungssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1200680; spelling=戒告; reading=かいこく",
+          "selected": {
+            "sequence": "1200680",
+            "spelling": "戒告",
+            "reading": "かいこく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "admonition",
+                  "warning",
+                  "caution"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1200680 sense 1, noun / suru verb (transitive): admonition, warning, caution (official reprimand)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 戒告/カイコク; lemma 戒告; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85900104",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 戒告/カイコク; lemma 戒告; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "戒告",
+              "reading": "かいこく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 戒告/かいこく \"Verwarnung; förmliche Rüge\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verwarnung; förmliche Rüge. JMdict 1200680 sense 1, noun / suru verb (transitive): admonition, warning, caution (official reprimand)",
+        "japanese": "職務怠慢により戒告処分を受けた。 / 市は、無断欠勤を繰り返した職員を戒告とした。 / 市は空き家の所有者に、取り壊しを求める戒告書を送った。",
+        "romanization": "kaikoku; Shokumu taiman ni yori kaikoku shobun o uketa. / Shi wa, mudan kekkin o kurikaeshita shokuin o kaikoku to shita. / Shi wa akiya no shoyūsha ni, torikowashi o motomeru kaikokusho o okutta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen Dienstpflichtverletzung wurde eine förmliche Verwarnung ausgesprochen. / Die Stadt erteilte dem Mitarbeiter, der wiederholt unentschuldigt gefehlt hatte, einen Verweis. / Die Stadt schickte dem Eigentümer des leerstehenden Hauses eine förmliche Abrissaufforderung mit Androhung der Ersatzvornahme.",
+        "contexts": [
+          "Neglect of duty",
+          "Unexcused absences",
+          "Abandoned house demolition"
+        ],
+        "lexical": "JMdict 1200680 sense 1, noun / suru verb (transitive): admonition, warning, caution (official reprimand)",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:377 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Neglect of duty; Unexcused absences; Abandoned house demolition), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f1573fecc53a90f9d3d9de7252c6400c35a114b47fd32433d11c785b32fb5fbe",
+        "approvalHash": "89f9c43ee5ebc5cb11475377344bd781fed5fe5bb2e1ff75626de9c2149fecd2"
+      }
+    },
+    {
+      "id": "vocab-n1:378",
+      "revisionId": "207b-n1-enrichment-vocab-n1-378",
+      "state": "accepted",
+      "predecessorHash": "6c13996078167a32b8b74869a19d5234a785a8cc5e1e0c681a76f8bbd815711c",
+      "originalHash": "6c13996078167a32b8b74869a19d5234a785a8cc5e1e0c681a76f8bbd815711c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不祥事の責任を取り減給処分が科された。",
+            "romaji": "Fushōji no sekinin o tori genkyū shobun ga kasareta.",
+            "german": "Als Konsequenz des Skandals wurde eine Gehaltskürzung verhängt."
+          }
+        ],
+        "meaning": "Gehaltskürzung (als Disziplinarstrafe)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "減給 ist eine Gehaltskürzung, sowohl als Disziplinarstrafe (減給処分, bei Beamten bis zu einem Fünftel für höchstens ein Jahr) als auch aus wirtschaftlichen Gründen. Typisch: 減給になる／となる, 減給される, 減給処分を受ける. Ähnlich ist 減俸, das eher bei Führungskräften und Sportlern steht; 減額 ist allgemein „Betragskürzung“. Register: neutral bis formell.",
+        "examples": [
+          {
+            "japanese": "不祥事の責任を取り減給処分が科された。",
+            "romaji": "Fushōji no sekinin o tori genkyū shobun ga kasareta.",
+            "german": "Als Konsequenz des Skandals wurde eine Gehaltskürzung verhängt."
+          },
+          {
+            "japanese": "遅刻が多いと減給されることもある。",
+            "romaji": "Chikoku ga ōi to genkyū sareru koto mo aru.",
+            "german": "Wer oft zu spät kommt, muss unter Umständen mit Gehaltskürzung rechnen."
+          },
+          {
+            "japanese": "業績悪化で、全社員が一律10％の減給となった。",
+            "romaji": "Gyōseki akka de, zen shain ga ichiritsu juppāsento no genkyū to natta.",
+            "german": "Wegen der schlechten Geschäftslage wurde allen Mitarbeitern das Gehalt pauschal um zehn Prozent gekürzt."
+          }
+        ],
+        "meaning": "Gehaltskürzung (auch als Disziplinarstrafe)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119301773",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 減給/ゲンキュウ; lemma 減給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "減給",
+              "reading": "げんきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 減給/げんきゅう \"Gehaltskürzung (als Disziplinarstrafe)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1630940 sense 1, noun / suru verb: pay cut, salary cut Pitch: Verified [0] via exact UniDic row. 減給 ist eine Gehaltskürzung, sowohl als Disziplinarstrafe (減給処分, bei Beamten bis zu einem Fünftel für höchstens ein Jahr) als auch aus wirtschaftlichen Gründen. Typisch: 減給になる／となる, 減給される, 減給処分を受ける. Ähnlich ist 減俸, das eher bei Führungskräften und Sportlern steht; 減額 ist allgemein „Betragskürzung“. Register: neutral bis formell. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1630940; spelling=減給; reading=げんきゅう",
+          "selected": {
+            "sequence": "1630940",
+            "spelling": "減給",
+            "reading": "げんきゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pay cut",
+                  "salary cut"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1630940 sense 1, noun / suru verb: pay cut, salary cut"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 減給/ゲンキュウ; lemma 減給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119301773",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 減給/ゲンキュウ; lemma 減給; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "減給",
+              "reading": "げんきゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 減給/げんきゅう \"Gehaltskürzung (als Disziplinarstrafe)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gehaltskürzung (auch als Disziplinarstrafe). JMdict 1630940 sense 1, noun / suru verb: pay cut, salary cut",
+        "japanese": "不祥事の責任を取り減給処分が科された。 / 遅刻が多いと減給されることもある。 / 業績悪化で、全社員が一律10％の減給となった。",
+        "romanization": "genkyū; Fushōji no sekinin o tori genkyū shobun ga kasareta. / Chikoku ga ōi to genkyū sareru koto mo aru. / Gyōseki akka de, zen shain ga ichiritsu juppāsento no genkyū to natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als Konsequenz des Skandals wurde eine Gehaltskürzung verhängt. / Wer oft zu spät kommt, muss unter Umständen mit Gehaltskürzung rechnen. / Wegen der schlechten Geschäftslage wurde allen Mitarbeitern das Gehalt pauschal um zehn Prozent gekürzt.",
+        "contexts": [
+          "Disciplinary pay cut",
+          "Warning about lateness",
+          "Company-wide cut in a downturn"
+        ],
+        "lexical": "JMdict 1630940 sense 1, noun / suru verb: pay cut, salary cut",
+        "register": "neutral to formal",
+        "transitivity": "transitive/intransitive as 減給する; mostly 減給になる or passive 減給される",
+        "conjugation": "noun; suru verb (減給する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:378 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Disciplinary pay cut; Warning about lateness; Company-wide cut in a downturn), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3d822bb5577db215ffef18302267a4739b22c990ebe8e159d4d96d6d3367fe71",
+        "approvalHash": "eb1504e94c57411eea22bab9c5d7b0beacbb7cafa55663affed7571c2166d16f"
+      }
+    },
+    {
+      "id": "vocab-n1:379",
+      "revisionId": "207b-n1-enrichment-vocab-n1-379",
+      "state": "accepted",
+      "predecessorHash": "f1d237f74a82cae1a996cb9bbd2d68408457da2af12f285a9e5ddfd6215e6fa5",
+      "originalHash": "f1d237f74a82cae1a996cb9bbd2d68408457da2af12f285a9e5ddfd6215e6fa5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不正行為により六ヶ月の停職処分を受けた。",
+            "romaji": "Fusei kōi ni yori rokkagetsu no teishoku shobun o uketa.",
+            "german": "Wegen Fehlverhaltens wurde eine sechsmonatige Suspendierung verhängt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "停職 ist die befristete Suspendierung vom Dienst als Disziplinarstrafe; bei Beamten dauert sie einen Tag bis ein Jahr, ohne Gehalt. Typisch: 停職処分, 停職〇か月, 停職中. Nicht verwechseln mit 休職 „Beurlaubung“ (z. B. wegen Krankheit, keine Strafe); in Firmen entspricht 停職 etwa 出勤停止. Register: Verwaltungs- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "不正行為により六ヶ月の停職処分を受けた。",
+            "romaji": "Fusei kōi ni yori rokkagetsu no teishoku shobun o uketa.",
+            "german": "Wegen Fehlverhaltens wurde eine sechsmonatige Suspendierung verhängt."
+          },
+          {
+            "japanese": "部下へのパワハラが認定され、課長は停職3か月の処分となった。",
+            "romaji": "Buka e no pawahara ga nintei sare, kachō wa teishoku sankagetsu no shobun to natta.",
+            "german": "Nachdem Machtmissbrauch gegenüber Untergebenen festgestellt worden war, wurde der Abteilungsleiter für drei Monate suspendiert."
+          },
+          {
+            "japanese": "停職中は給料が支払われない。",
+            "romaji": "Teishokuchū wa kyūryō ga shiharawarenai.",
+            "german": "Während der Suspendierung wird kein Gehalt gezahlt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179938626",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 停職/テイショク; lemma 停職; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "停職",
+              "reading": "ていしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 停職/ていしょく \"Suspendierung; Dienstenthebung (vorübergehend)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1434970 sense 1, noun / suru verb (intransitive): suspension from office Pitch: Verified [0] via exact UniDic row. 停職 ist die befristete Suspendierung vom Dienst als Disziplinarstrafe; bei Beamten dauert sie einen Tag bis ein Jahr, ohne Gehalt. Typisch: 停職処分, 停職〇か月, 停職中. Nicht verwechseln mit 休職 „Beurlaubung“ (z. B. wegen Krankheit, keine Strafe); in Firmen entspricht 停職 etwa 出勤停止. Register: Verwaltungs- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1434970; spelling=停職; reading=ていしょく",
+          "selected": {
+            "sequence": "1434970",
+            "spelling": "停職",
+            "reading": "ていしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suspension from office"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1434970 sense 1, noun / suru verb (intransitive): suspension from office"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 停職/テイショク; lemma 停職; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179938626",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 停職/テイショク; lemma 停職; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "停職",
+              "reading": "ていしょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 停職/ていしょく \"Suspendierung; Dienstenthebung (vorübergehend)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Suspendierung; Dienstenthebung (vorübergehend). JMdict 1434970 sense 1, noun / suru verb (intransitive): suspension from office",
+        "japanese": "不正行為により六ヶ月の停職処分を受けた。 / 部下へのパワハラが認定され、課長は停職3か月の処分となった。 / 停職中は給料が支払われない。",
+        "romanization": "teishoku; Fusei kōi ni yori rokkagetsu no teishoku shobun o uketa. / Buka e no pawahara ga nintei sare, kachō wa teishoku sankagetsu no shobun to natta. / Teishokuchū wa kyūryō ga shiharawarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wegen Fehlverhaltens wurde eine sechsmonatige Suspendierung verhängt. / Nachdem Machtmissbrauch gegenüber Untergebenen festgestellt worden war, wurde der Abteilungsleiter für drei Monate suspendiert. / Während der Suspendierung wird kein Gehalt gezahlt.",
+        "contexts": [
+          "Six-month suspension",
+          "Workplace harassment case",
+          "No pay while suspended"
+        ],
+        "lexical": "JMdict 1434970 sense 1, noun / suru verb (intransitive): suspension from office",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:379 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Six-month suspension; Workplace harassment case; No pay while suspended), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2f35a8ecce319928b1b9b9acd273a27fb80ab0440482f36a20df555d896217b6",
+        "approvalHash": "22d1951ec5a7cdd057f488e37c53b486086dc14cbbbc870a8c8f9b11f8b7f85d"
+      }
+    },
+    {
+      "id": "vocab-n1:380",
+      "revisionId": "207b-n1-enrichment-vocab-n1-380",
+      "state": "accepted",
+      "predecessorHash": "7dd3a74774727b50599811b5ed99045de0c6c7e148ace9acc373cb3ab6eccf21",
+      "originalHash": "7dd3a74774727b50599811b5ed99045de0c6c7e148ace9acc373cb3ab6eccf21",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "懲戒免職により公務員としての身分を失った。",
+            "romaji": "Chōkai menshoku ni yori kōmuin to shite no mibun o ushinatta.",
+            "german": "Durch die disziplinarische Entlassung verlor er seinen Beamtenstatus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "免職 ist die Entlassung aus einem öffentlichen Amt. 懲戒免職 ist die schwerste Disziplinarstrafe (meist ohne Ruhegeld), 分限免職 eine Entlassung ohne Strafcharakter, etwa wegen Dienstunfähigkeit oder Stellenabbau, 依願免職 eine Entlassung auf eigenen Wunsch. In Privatfirmen sagt man 解雇 bzw. 懲戒解雇. Typisch: 免職になる／となる, 免職される. Register: Verwaltungs- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "懲戒免職により公務員としての身分を失った。",
+            "romaji": "Chōkai menshoku ni yori kōmuin to shite no mibun o ushinatta.",
+            "german": "Durch die disziplinarische Entlassung verlor er seinen Beamtenstatus."
+          },
+          {
+            "japanese": "公金を横領した職員は懲戒免職となった。",
+            "romaji": "Kōkin o ōryō shita shokuin wa chōkai menshoku to natta.",
+            "german": "Der Bedienstete, der öffentliche Gelder unterschlagen hatte, wurde unehrenhaft aus dem Dienst entlassen."
+          },
+          {
+            "japanese": "組織の再編で、一部の職員が分限免職となった。",
+            "romaji": "Soshiki no saihen de, ichibu no shokuin ga bungen menshoku to natta.",
+            "german": "Im Zuge der Umstrukturierung wurden einige Bedienstete aus dienstlichen Gründen entlassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261975832",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 免職/メンショク; lemma 免職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "免職",
+              "reading": "めんしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 免職/めんしょく \"Entlassung aus dem Dienst; Amtsenthebung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1533220 sense 1, noun / suru verb (transitive): dismissal, discharge Pitch: Verified [0] via exact UniDic row. 免職 ist die Entlassung aus einem öffentlichen Amt. 懲戒免職 ist die schwerste Disziplinarstrafe (meist ohne Ruhegeld), 分限免職 eine Entlassung ohne Strafcharakter, etwa wegen Dienstunfähigkeit oder Stellenabbau, 依願免職 eine Entlassung auf eigenen Wunsch. In Privatfirmen sagt man 解雇 bzw. 懲戒解雇. Typisch: 免職になる／となる, 免職される. Register: Verwaltungs- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1533220; spelling=免職; reading=めんしょく",
+          "selected": {
+            "sequence": "1533220",
+            "spelling": "免職",
+            "reading": "めんしょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dismissal",
+                  "sacking",
+                  "discharge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1533220 sense 1, noun / suru verb (transitive): dismissal, discharge"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 免職/メンショク; lemma 免職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@261975832",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 免職/メンショク; lemma 免職; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "免職",
+              "reading": "めんしょく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 免職/めんしょく \"Entlassung aus dem Dienst; Amtsenthebung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entlassung aus dem Dienst; Amtsenthebung. JMdict 1533220 sense 1, noun / suru verb (transitive): dismissal, discharge",
+        "japanese": "懲戒免職により公務員としての身分を失った。 / 公金を横領した職員は懲戒免職となった。 / 組織の再編で、一部の職員が分限免職となった。",
+        "romanization": "menshoku; Chōkai menshoku ni yori kōmuin to shite no mibun o ushinatta. / Kōkin o ōryō shita shokuin wa chōkai menshoku to natta. / Soshiki no saihen de, ichibu no shokuin ga bungen menshoku to natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die disziplinarische Entlassung verlor er seinen Beamtenstatus. / Der Bedienstete, der öffentliche Gelder unterschlagen hatte, wurde unehrenhaft aus dem Dienst entlassen. / Im Zuge der Umstrukturierung wurden einige Bedienstete aus dienstlichen Gründen entlassen.",
+        "contexts": [
+          "Loss of civil-servant status",
+          "Embezzlement of public funds",
+          "Restructuring layoffs"
+        ],
+        "lexical": "JMdict 1533220 sense 1, noun / suru verb (transitive): dismissal, discharge",
+        "register": "written / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:380 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Loss of civil-servant status; Embezzlement of public funds; Restructuring layoffs), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "65fbe2c842805c70078d3381f94f91f0c392076eaf37afd1a0062f8ee1df56b0",
+        "approvalHash": "51624e10abb820456526b505aca8974891a386a4d124c00cd4ed6e568d342e8b"
+      }
+    },
+    {
+      "id": "vocab-n1:381",
+      "revisionId": "207b-n1-enrichment-vocab-n1-381",
+      "state": "accepted",
+      "predecessorHash": "0efd9773eaf1b7da118c028c0cc6794a145c7a61e44a4a2bee8e70089070dc03",
+      "originalHash": "0efd9773eaf1b7da118c028c0cc6794a145c7a61e44a4a2bee8e70089070dc03",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "世界恐慌は多くの国に深刻な影響を与えた。",
+            "romaji": "Sekai kyōkō wa ōku no kuni ni shinkoku na eikyō wo ataeta.",
+            "german": "Die Weltwirtschaftskrise hatte schwerwiegende Auswirkungen auf viele Länder."
+          }
+        ],
+        "meaning": "Wirtschaftspanik; Finanzkrise",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "恐慌 hat zwei Bedeutungen: allgemein „Panik, Schrecken“ (恐慌をきたす, 恐慌状態に陥る) und wirtschaftlich eine schwere Krise mit Bankenzusammenbrüchen und Firmenpleiten, z. B. 世界恐慌 (ab 1929), 金融恐慌, 昭和恐慌. 恐慌 ist viel stärker als 不況 „Rezession, Flaute“ oder umgangssprachlich 不景気. Im Alltag sagt man für Panik meist パニック. Register: formell, Geschichte und Wirtschaft.",
+        "examples": [
+          {
+            "japanese": "世界恐慌は多くの国に深刻な影響を与えた。",
+            "romaji": "Sekai kyōkō wa ōku no kuni ni shinkoku na eikyō o ataeta.",
+            "german": "Die Weltwirtschaftskrise hatte schwerwiegende Auswirkungen auf viele Länder."
+          },
+          {
+            "japanese": "銀行への取り付け騒ぎが金融恐慌に発展した。",
+            "romaji": "Ginkō e no toritsuke sawagi ga kin'yū kyōkō ni hatten shita.",
+            "german": "Der Ansturm auf die Banken weitete sich zu einer Finanzpanik aus."
+          },
+          {
+            "japanese": "突然の爆発音に、乗客は恐慌状態に陥った。",
+            "romaji": "Totsuzen no bakuhatsuon ni, jōkyaku wa kyōkō jōtai ni ochiitta.",
+            "german": "Beim plötzlichen Explosionsknall brach unter den Fahrgästen Panik aus."
+          }
+        ],
+        "meaning": "Wirtschaftskrise, Finanzpanik; Panik, Schrecken",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106143049",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 恐慌/キョウコウ; lemma 恐慌; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "恐慌",
+              "reading": "きょうこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 恐慌/きょうこう \"Wirtschaftspanik; Finanzkrise\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1236710 senses 1–2, noun: panic, scare; financial panic Pitch: Verified [0] via exact UniDic row. 恐慌 hat zwei Bedeutungen: allgemein „Panik, Schrecken“ (恐慌をきたす, 恐慌状態に陥る) und wirtschaftlich eine schwere Krise mit Bankenzusammenbrüchen und Firmenpleiten, z. B. 世界恐慌 (ab 1929), 金融恐慌, 昭和恐慌. 恐慌 ist viel stärker als 不況 „Rezession, Flaute“ oder umgangssprachlich 不景気. Im Alltag sagt man für Panik meist パニック. Register: formell, Geschichte und Wirtschaft. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1236710; spelling=恐慌; reading=きょうこう",
+          "selected": {
+            "sequence": "1236710",
+            "spelling": "恐慌",
+            "reading": "きょうこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "panic",
+                  "scare",
+                  "alarm"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "panic",
+                  "financial panic"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1236710 senses 1–2, noun: panic, scare; financial panic"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 恐慌/キョウコウ; lemma 恐慌; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106143049",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 恐慌/キョウコウ; lemma 恐慌; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "恐慌",
+              "reading": "きょうこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 恐慌/きょうこう \"Wirtschaftspanik; Finanzkrise\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wirtschaftskrise, Finanzpanik; Panik, Schrecken. JMdict 1236710 senses 1–2, noun: panic, scare; financial panic",
+        "japanese": "世界恐慌は多くの国に深刻な影響を与えた。 / 銀行への取り付け騒ぎが金融恐慌に発展した。 / 突然の爆発音に、乗客は恐慌状態に陥った。",
+        "romanization": "kyōkō; Sekai kyōkō wa ōku no kuni ni shinkoku na eikyō o ataeta. / Ginkō e no toritsuke sawagi ga kin'yū kyōkō ni hatten shita. / Totsuzen no bakuhatsuon ni, jōkyaku wa kyōkō jōtai ni ochiitta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Weltwirtschaftskrise hatte schwerwiegende Auswirkungen auf viele Länder. / Der Ansturm auf die Banken weitete sich zu einer Finanzpanik aus. / Beim plötzlichen Explosionsknall brach unter den Fahrgästen Panik aus.",
+        "contexts": [
+          "The Great Depression",
+          "Bank run",
+          "Panic among passengers"
+        ],
+        "lexical": "JMdict 1236710 senses 1–2, noun: panic, scare; financial panic",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:381 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (The Great Depression; Bank run; Panic among passengers), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ab662f485c13f2c25ba7e220a3bd47e6fe06fc5cb4c96f9af8af8d62716db138",
+        "approvalHash": "d0eb54507e3f4b07c6ce0f2f3d3fccf98b840648a43dc164344a0a3e9627c36d"
+      }
+    },
+    {
+      "id": "vocab-n1:382",
+      "revisionId": "207b-n1-enrichment-vocab-n1-382",
+      "state": "accepted",
+      "predecessorHash": "6182d9e99b88d9695be5368387dc75ca19cda1f79d5dde783e8aae252ee4669f",
+      "originalHash": "6182d9e99b88d9695be5368387dc75ca19cda1f79d5dde783e8aae252ee4669f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "好況期には雇用が増加する傾向がある。",
+            "romaji": "Kōkyōki ni wa koyō ga zōka suru keikō ga aru.",
+            "german": "In Zeiten der Hochkonjunktur tendiert die Beschäftigung dazu, zuzunehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "好況 bezeichnet eine gute Wirtschaftslage, einen Boom; das Gegenteil ist 不況. Es klingt schriftsprachlicher als 好景気 oder 景気がいい. Typisch: 好況が続く, 好況に沸く „boomen“, 好況期, 空前の好況. Für ein einzelnes gut laufendes Geschäft sagt man nicht 好況, sondern 繁盛する. Register: Wirtschafts- und Nachrichtensprache.",
+        "examples": [
+          {
+            "japanese": "好況期には雇用が増加する傾向がある。",
+            "romaji": "Kōkyōki ni wa koyō ga zōka suru keikō ga aru.",
+            "german": "In Zeiten der Hochkonjunktur tendiert die Beschäftigung dazu, zuzunehmen."
+          },
+          {
+            "japanese": "半導体業界は空前の好況に沸いている。",
+            "romaji": "Handōtai gyōkai wa kūzen no kōkyō ni waite iru.",
+            "german": "Die Halbleiterbranche erlebt einen beispiellosen Boom."
+          },
+          {
+            "japanese": "好況が続いても、給料はなかなか上がらない。",
+            "romaji": "Kōkyō ga tsuzuite mo, kyūryō wa nakanaka agaranai.",
+            "german": "Selbst wenn die gute Konjunktur anhält, steigen die Löhne kaum."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119920870",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 好況/コウキョウ; lemma 好況; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "好況",
+              "reading": "こうきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 好況/こうきょう \"Konjunkturaufschwung; Hochkonjunktur\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1277620 sense 1, noun: prosperous economic conditions, boom Pitch: Verified [0] via exact UniDic row. 好況 bezeichnet eine gute Wirtschaftslage, einen Boom; das Gegenteil ist 不況. Es klingt schriftsprachlicher als 好景気 oder 景気がいい. Typisch: 好況が続く, 好況に沸く „boomen“, 好況期, 空前の好況. Für ein einzelnes gut laufendes Geschäft sagt man nicht 好況, sondern 繁盛する. Register: Wirtschafts- und Nachrichtensprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1277620; spelling=好況; reading=こうきょう",
+          "selected": {
+            "sequence": "1277620",
+            "spelling": "好況",
+            "reading": "こうきょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prosperous (economic) conditions",
+                  "favourable conditions",
+                  "(economic) boom",
+                  "thriving business",
+                  "brisk market"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1277620 sense 1, noun: prosperous economic conditions, boom"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 好況/コウキョウ; lemma 好況; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119920870",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 好況/コウキョウ; lemma 好況; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "好況",
+              "reading": "こうきょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 好況/こうきょう \"Konjunkturaufschwung; Hochkonjunktur\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "reviewedDistinctContexts": true,
+        "meaning": "Konjunkturaufschwung; Hochkonjunktur. JMdict 1277620 sense 1, noun: prosperous economic conditions, boom",
+        "japanese": "好況期には雇用が増加する傾向がある。 / 半導体業界は空前の好況に沸いている。 / 好況が続いても、給料はなかなか上がらない。",
+        "romanization": "kōkyō; Kōkyōki ni wa koyō ga zōka suru keikō ga aru. / Handōtai gyōkai wa kūzen no kōkyō ni waite iru. / Kōkyō ga tsuzuite mo, kyūryō wa nakanaka agaranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In Zeiten der Hochkonjunktur tendiert die Beschäftigung dazu, zuzunehmen. / Die Halbleiterbranche erlebt einen beispiellosen Boom. / Selbst wenn die gute Konjunktur anhält, steigen die Löhne kaum.",
+        "contexts": [
+          "Employment in boom times",
+          "Semiconductor boom",
+          "Wages lag behind"
+        ],
+        "lexical": "JMdict 1277620 sense 1, noun: prosperous economic conditions, boom",
+        "register": "written / economic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-207",
+        "finding": "Author reread the exact final card vocab-n1:382 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Employment in boom times; Semiconductor boom; Wages lag behind), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "94b07331a5a8fc6b4b7f8e319a5770868c693dbe8616001e7e6d8f7b25b72ab0",
+        "approvalHash": "2d053ae096286500e7b2ee3245bf0f829704d21ac9636ecba25079df0aa39d13"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

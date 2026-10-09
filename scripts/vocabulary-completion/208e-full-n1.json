@@ -1,0 +1,3223 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:701",
+      "revisionId": "208e-n1-enrichment-vocab-n1-701",
+      "state": "accepted",
+      "predecessorHash": "ac388fe302688b646809eefdaa60be7faf333b07c1281f6e8625d4381cd8a2aa",
+      "originalHash": "ac388fe302688b646809eefdaa60be7faf333b07c1281f6e8625d4381cd8a2aa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "輸出代金を為替手形で回収する。",
+            "romaji": "Yushutsu daikin wo kawase tegata de kaishū suru.",
+            "german": "Die Exporterlöse werden per Wechsel eingezogen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "為替手形 ist ein gezogener Wechsel (Tratte): Der Aussteller weist einen Dritten (meist eine Bank oder den Käufer) an, an einen Begünstigten zu zahlen. Typische Verben: 為替手形を振り出す „einen Wechsel ziehen“, 為替手形を引き受ける „akzeptieren“, 為替手形で回収する „per Wechsel einziehen“. Im Außenhandel erscheint er vor allem als 荷為替手形 zusammen mit einem Akkreditiv (信用状). Nicht verwechseln mit 約束手形, bei dem der Aussteller selbst die Zahlung verspricht. 為替 hat die unregelmäßige Lesung かわせ.",
+        "examples": [
+          {
+            "japanese": "輸出代金を為替手形で回収する。",
+            "romaji": "Yushutsu daikin o kawase tegata de kaishū suru.",
+            "german": "Die Exporterlöse werden per Wechsel eingezogen."
+          },
+          {
+            "japanese": "輸出業者は信用状に基づいて為替手形を振り出した。",
+            "romaji": "Yushutsu gyōsha wa shin'yōjō ni motozuite kawase tegata o furidashita.",
+            "german": "Der Exporteur zog auf Grundlage des Akkreditivs einen Wechsel."
+          },
+          {
+            "japanese": "銀行が為替手形を引き受けたので、期日に支払われることが確定した。",
+            "romaji": "Ginkō ga kawase tegata o hikiuketa node, kijitsu ni shiharawareru koto ga kakutei shita.",
+            "german": "Da die Bank den Wechsel akzeptiert hatte, stand fest, dass er bei Fälligkeit bezahlt wird."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1157370 sense 1, noun: bill of exchange, draft Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 為替手形 ist ein gezogener Wechsel (Tratte): Der Aussteller weist einen Dritten (meist eine Bank oder den Käufer) an, an einen Begünstigten zu zahlen. Typische Verben: 為替手形を振り出す „einen Wechsel ziehen“, 為替手形を引き受ける „akzeptieren“, 為替手形で回収する „per Wechsel einziehen“. Im Außenhandel erscheint er vor allem als 荷為替手形 zusammen mit einem Akkreditiv (信用状). Nicht verwechseln mit 約束手形, bei dem der Aussteller selbst die Zahlung verspricht. 為替 hat die unregelmäßige Lesung かわせ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1157370; spelling=為替手形; reading=かわせてがた",
+          "selected": {
+            "sequence": "1157370",
+            "spelling": "為替手形",
+            "reading": "かわせてがた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bill of exchange",
+                  "draft",
+                  "draught"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1157370 sense 1, noun: bill of exchange, draft"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 為替手形/かわせてがた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%82%BA%E6%9B%BF%E6%89%8B%E5%BD%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 為替手形/かわせてがた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wechsel; Tratte. JMdict 1157370 sense 1, noun: bill of exchange, draft",
+        "japanese": "輸出代金を為替手形で回収する。 / 輸出業者は信用状に基づいて為替手形を振り出した。 / 銀行が為替手形を引き受けたので、期日に支払われることが確定した。",
+        "romanization": "kawase tegata; Yushutsu daikin o kawase tegata de kaishū suru. / Yushutsu gyōsha wa shin'yōjō ni motozuite kawase tegata o furidashita. / Ginkō ga kawase tegata o hikiuketa node, kijitsu ni shiharawareru koto ga kakutei shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Exporterlöse werden per Wechsel eingezogen. / Der Exporteur zog auf Grundlage des Akkreditivs einen Wechsel. / Da die Bank den Wechsel akzeptiert hatte, stand fest, dass er bei Fälligkeit bezahlt wird.",
+        "contexts": [
+          "Collecting export proceeds",
+          "Drawing under a letter of credit",
+          "Bank acceptance"
+        ],
+        "lexical": "JMdict 1157370 sense 1, noun: bill of exchange, draft",
+        "register": "technical (finance / trade)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:701 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Collecting export proceeds; Drawing under a letter of credit; Bank acceptance), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2d2a5e1da844cb5ac83e05932c40ae3c5cd54a92867c955b64b4547a560c1fae",
+        "approvalHash": "97f9d270dea9192406dbe52eaae8ba96a54125f4cef9cd0804c94945f23081b8"
+      }
+    },
+    {
+      "id": "vocab-n1:702",
+      "revisionId": "208e-n1-enrichment-vocab-n1-702",
+      "state": "accepted",
+      "predecessorHash": "765e915556ea47dff23b452ca92652590b7ef475bb44685f338c47ee43169731",
+      "originalHash": "765e915556ea47dff23b452ca92652590b7ef475bb44685f338c47ee43169731",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "約束手形で支払いを行うことが商慣行となっている。",
+            "romaji": "Yakusoku tegata de shiharai wo okonau koto ga shōkankō to natte iru.",
+            "german": "Zahlungen per Eigenwechsel sind zur Handelspraxis geworden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "約束手形 ist der Eigenwechsel: Der Aussteller verspricht selbst, an einem bestimmten Tag eine Summe zu zahlen. In der japanischen Geschäftswelt meint 手形 allein meist genau diesen Wechsel; die Kurzform ist 約手. Typisch sind 約束手形を振り出す „ausstellen“, 手形が落ちる „wird eingelöst“ und 手形が不渡りになる „platzt“ – zweimaliges Platzen bedeutet faktisch die Pleite. Im Gegensatz dazu weist beim 為替手形 der Aussteller einen Dritten zur Zahlung an. Papierwechsel werden in Japan zunehmend durch elektronische Forderungen (でんさい) ersetzt.",
+        "examples": [
+          {
+            "japanese": "約束手形で支払いを行うことが商慣行となっている。",
+            "romaji": "Yakusoku tegata de shiharai o okonau koto ga shōkankō to natte iru.",
+            "german": "Zahlungen per Eigenwechsel sind zur Handelspraxis geworden."
+          },
+          {
+            "japanese": "取引先から受け取った約束手形が不渡りになった。",
+            "romaji": "Torihikisaki kara uketotta yakusoku tegata ga fuwatari ni natta.",
+            "german": "Der Solawechsel, den wir vom Geschäftspartner bekommen hatten, ist geplatzt."
+          },
+          {
+            "japanese": "資金繰りが苦しく、約束手形の期日までに現金を用意できない。",
+            "romaji": "Shikinguri ga kurushiku, yakusoku tegata no kijitsu made ni genkin o yōi dekinai.",
+            "german": "Unsere Liquidität ist so knapp, dass wir das Geld bis zur Fälligkeit des Wechsels nicht aufbringen können."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1836550 sense 1, noun: promissory note Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 約束手形 ist der Eigenwechsel: Der Aussteller verspricht selbst, an einem bestimmten Tag eine Summe zu zahlen. In der japanischen Geschäftswelt meint 手形 allein meist genau diesen Wechsel; die Kurzform ist 約手. Typisch sind 約束手形を振り出す „ausstellen“, 手形が落ちる „wird eingelöst“ und 手形が不渡りになる „platzt“ – zweimaliges Platzen bedeutet faktisch die Pleite. Im Gegensatz dazu weist beim 為替手形 der Aussteller einen Dritten zur Zahlung an. Papierwechsel werden in Japan zunehmend durch elektronische Forderungen (でんさい) ersetzt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1836550; spelling=約束手形; reading=やくそくてがた",
+          "selected": {
+            "sequence": "1836550",
+            "spelling": "約束手形",
+            "reading": "やくそくてがた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "promissory note"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1836550 sense 1, noun: promissory note"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 約束手形/やくそくてがた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B4%84%E6%9D%9F%E6%89%8B%E5%BD%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 約束手形/やくそくてがた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Eigenwechsel; Solawechsel. JMdict 1836550 sense 1, noun: promissory note",
+        "japanese": "約束手形で支払いを行うことが商慣行となっている。 / 取引先から受け取った約束手形が不渡りになった。 / 資金繰りが苦しく、約束手形の期日までに現金を用意できない。",
+        "romanization": "yakusoku tegata; Yakusoku tegata de shiharai o okonau koto ga shōkankō to natte iru. / Torihikisaki kara uketotta yakusoku tegata ga fuwatari ni natta. / Shikinguri ga kurushiku, yakusoku tegata no kijitsu made ni genkin o yōi dekinai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zahlungen per Eigenwechsel sind zur Handelspraxis geworden. / Der Solawechsel, den wir vom Geschäftspartner bekommen hatten, ist geplatzt. / Unsere Liquidität ist so knapp, dass wir das Geld bis zur Fälligkeit des Wechsels nicht aufbringen können.",
+        "contexts": [
+          "Common business practice",
+          "Dishonoured note from a client",
+          "Cash-flow crisis"
+        ],
+        "lexical": "JMdict 1836550 sense 1, noun: promissory note",
+        "register": "technical (finance / business)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:702 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Common business practice; Dishonoured note from a client; Cash-flow crisis), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "728f1b2b0acf1856d97af2dae414956cd8c09ef0aea471f5154a5f6054e5de3e",
+        "approvalHash": "efdca2addf0e9317d103fc366bacc98269a3b42d8103ad19c76ac440614cbb9d"
+      }
+    },
+    {
+      "id": "vocab-n1:703",
+      "revisionId": "208e-n1-enrichment-vocab-n1-703",
+      "state": "accepted",
+      "predecessorHash": "405cae2f5e9e821300a32d3e42f3fa6c0788c3f9a6504fe876dc63efe9f27844",
+      "originalHash": "405cae2f5e9e821300a32d3e42f3fa6c0788c3f9a6504fe876dc63efe9f27844",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "手形の裏書により第三者に譲渡できる。",
+            "romaji": "Tegata no uragaki ni yori daisansha ni jōto dekiru.",
+            "german": "Durch das Indossament des Wechsels kann er an Dritte übertragen werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "裏書 (auch 裏書き) ist wörtlich „Beschriftung der Rückseite“: Wer einen Wechsel oder Scheck auf der Rückseite unterschreibt, überträgt ihn an einen anderen (手形に裏書する, 裏書して譲渡する). Als する-Verb ist es transitiv. Übertragen bedeutet 〜を裏書きする in gehobener Sprache „bestätigen, untermauern“: 事実が証言を裏書きする. In dieser Bedeutung sind 裏付ける und 裏付け im Alltag deutlich häufiger.",
+        "examples": [
+          {
+            "japanese": "手形の裏書により第三者に譲渡できる。",
+            "romaji": "Tegata no uragaki ni yori daisansha ni jōto dekiru.",
+            "german": "Durch das Indossament des Wechsels kann er an Dritte übertragen werden."
+          },
+          {
+            "japanese": "この小切手を換金するには、裏書が必要です。",
+            "romaji": "Kono kogitte o kankin suru ni wa, uragaki ga hitsuyō desu.",
+            "german": "Um diesen Scheck einzulösen, braucht es ein Indossament."
+          },
+          {
+            "japanese": "新しい調査結果が彼の説を裏書きする形になった。",
+            "romaji": "Atarashii chōsa kekka ga kare no setsu o uragaki suru katachi ni natta.",
+            "german": "Die neuen Forschungsergebnisse haben seine These letztlich bestätigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          4
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68137228",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "Exact whole 裏書/ウラガキ; lemma 裏書き; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4.",
+            "match": {
+              "word": "裏書",
+              "reading": "うらがき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 裏書/うらがき \"Indossament; Übertragungsvermerk\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1588440 senses 1 and 4, noun / suru verb: endorsement (of a bill or cheque); corroboration Pitch: Verified [0,4] via exact UniDic row. 裏書 (auch 裏書き) ist wörtlich „Beschriftung der Rückseite“: Wer einen Wechsel oder Scheck auf der Rückseite unterschreibt, überträgt ihn an einen anderen (手形に裏書する, 裏書して譲渡する). Als する-Verb ist es transitiv. Übertragen bedeutet 〜を裏書きする in gehobener Sprache „bestätigen, untermauern“: 事実が証言を裏書きする. In dieser Bedeutung sind 裏付ける und 裏付け im Alltag deutlich häufiger. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1588440; spelling=裏書; reading=うらがき",
+          "selected": {
+            "sequence": "1588440",
+            "spelling": "裏書",
+            "reading": "うらがき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "endorsement (of a cheque, bill, etc.)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "verification of authenticity (written on the back of a scroll)",
+                  "certificate of authenticity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "note written on the back of a scroll",
+                  "comment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "proof",
+                  "confirmation",
+                  "substantiation",
+                  "corroboration"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1588440 senses 1 and 4, noun / suru verb: endorsement (of a bill or cheque); corroboration"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,4] via exact UniDic row. Exact whole 裏書/ウラガキ; lemma 裏書き; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@68137228",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              4
+            ],
+            "finding": "Exact whole 裏書/ウラガキ; lemma 裏書き; 名詞/普通名詞/サ変可能/*; *; *; aType 0,4.",
+            "match": {
+              "word": "裏書",
+              "reading": "うらがき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 裏書/うらがき \"Indossament; Übertragungsvermerk\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Indossament; Übertragungsvermerk. JMdict 1588440 senses 1 and 4, noun / suru verb: endorsement (of a bill or cheque); corroboration",
+        "japanese": "手形の裏書により第三者に譲渡できる。 / この小切手を換金するには、裏書が必要です。 / 新しい調査結果が彼の説を裏書きする形になった。",
+        "romanization": "uragaki; Tegata no uragaki ni yori daisansha ni jōto dekiru. / Kono kogitte o kankin suru ni wa, uragaki ga hitsuyō desu. / Atarashii chōsa kekka ga kare no setsu o uragaki suru katachi ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch das Indossament des Wechsels kann er an Dritte übertragen werden. / Um diesen Scheck einzulösen, braucht es ein Indossament. / Die neuen Forschungsergebnisse haben seine These letztlich bestätigt.",
+        "contexts": [
+          "Transferring a bill",
+          "Cashing a cheque",
+          "Research confirming a theory"
+        ],
+        "lexical": "JMdict 1588440 senses 1 and 4, noun / suru verb: endorsement (of a bill or cheque); corroboration",
+        "register": "technical (finance); figurative sense written / formal",
+        "transitivity": "transitive as 裏書する (手形に裏書する; 説を裏書きする)",
+        "conjugation": "noun; suru verb (裏書する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:703 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Transferring a bill; Cashing a cheque; Research confirming a theory), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b34402a288467534b55640aa54edb54063bcf3f62ecf9b59d0b02d86a7323ade",
+        "approvalHash": "3e6bc6571eb783a78050f49c98a4e5598a5ff2bedbc9e4260493352d12d62b7d"
+      }
+    },
+    {
+      "id": "vocab-n1:704",
+      "revisionId": "208e-n1-enrichment-vocab-n1-704",
+      "state": "accepted",
+      "predecessorHash": "644039eb427d8f0ab1260ae00908be10f2772dccf4b701a22d2a67efbe2d9aad",
+      "originalHash": "644039eb427d8f0ab1260ae00908be10f2772dccf4b701a22d2a67efbe2d9aad",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "割引手形で資金化して運転資金を確保する。",
+            "romaji": "Waribiki tegata de shikinka shite unten shikin wo kakuho suru.",
+            "german": "Durch Diskontierung des Wechsels Betriebskapital sichern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "割引手形 ist ein Wechsel, den ein Unternehmen vor Fälligkeit bei der Bank gegen Abzug von Zinsen zu Geld gemacht hat. Den Vorgang selbst nennt man 手形割引 bzw. 手形を割り引く; 割引手形 bezeichnet das Papier bzw. den Bestand solcher Wechsel in der Bilanz. Platzt ein diskontierter Wechsel, haftet das Unternehmen weiter und muss ihn von der Bank zurückkaufen (買い戻す). Ein reiner Fachbegriff aus Buchhaltung und Bankwesen.",
+        "examples": [
+          {
+            "japanese": "割引手形で資金化して運転資金を確保する。",
+            "romaji": "Waribiki tegata de shikinka shite unten shikin o kakuho suru.",
+            "german": "Durch Diskontierung des Wechsels Betriebskapital sichern."
+          },
+          {
+            "japanese": "割引手形が不渡りになると、会社は銀行からその手形を買い戻さなければならない。",
+            "romaji": "Waribiki tegata ga fuwatari ni naru to, kaisha wa ginkō kara sono tegata o kaimodosanakereba naranai.",
+            "german": "Platzt ein diskontierter Wechsel, muss das Unternehmen ihn von der Bank zurückkaufen."
+          },
+          {
+            "japanese": "決算書には割引手形の残高も注記されている。",
+            "romaji": "Kessansho ni wa waribiki tegata no zandaka mo chūki sarete iru.",
+            "german": "Im Jahresabschluss ist auch der Bestand an diskontierten Wechseln im Anhang vermerkt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1716470 sense 1, noun: discounted bill Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 割引手形 ist ein Wechsel, den ein Unternehmen vor Fälligkeit bei der Bank gegen Abzug von Zinsen zu Geld gemacht hat. Den Vorgang selbst nennt man 手形割引 bzw. 手形を割り引く; 割引手形 bezeichnet das Papier bzw. den Bestand solcher Wechsel in der Bilanz. Platzt ein diskontierter Wechsel, haftet das Unternehmen weiter und muss ihn von der Bank zurückkaufen (買い戻す). Ein reiner Fachbegriff aus Buchhaltung und Bankwesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1716470; spelling=割引手形; reading=わりびきてがた",
+          "selected": {
+            "sequence": "1716470",
+            "spelling": "割引手形",
+            "reading": "わりびきてがた",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "discounted bill"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1716470 sense 1, noun: discounted bill"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 割引手形/わりびきてがた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%89%B2%E5%BC%95%E6%89%8B%E5%BD%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 割引手形/わりびきてがた scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "diskontierter Wechsel. JMdict 1716470 sense 1, noun: discounted bill",
+        "japanese": "割引手形で資金化して運転資金を確保する。 / 割引手形が不渡りになると、会社は銀行からその手形を買い戻さなければならない。 / 決算書には割引手形の残高も注記されている。",
+        "romanization": "waribiki tegata; Waribiki tegata de shikinka shite unten shikin o kakuho suru. / Waribiki tegata ga fuwatari ni naru to, kaisha wa ginkō kara sono tegata o kaimodosanakereba naranai. / Kessansho ni wa waribiki tegata no zandaka mo chūki sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch Diskontierung des Wechsels Betriebskapital sichern. / Platzt ein diskontierter Wechsel, muss das Unternehmen ihn von der Bank zurückkaufen. / Im Jahresabschluss ist auch der Bestand an diskontierten Wechseln im Anhang vermerkt.",
+        "contexts": [
+          "Raising working capital",
+          "Recourse after dishonour",
+          "Notes to financial statements"
+        ],
+        "lexical": "JMdict 1716470 sense 1, noun: discounted bill",
+        "register": "technical (accounting / banking)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:704 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Raising working capital; Recourse after dishonour; Notes to financial statements), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fd9fa522652e0ceaa879f2782b9e38c8c4d40e725b0213aebe54e74098b9fae1",
+        "approvalHash": "1d9dff93e214c0de9b5087e8afb6916006359f1961662c698d3cfcbb49e90d45"
+      }
+    },
+    {
+      "id": "vocab-n1:705",
+      "revisionId": "208e-n1-enrichment-vocab-n1-705",
+      "state": "accepted",
+      "predecessorHash": "df5a33c38e2d1aadcbd63eb1258aeb59adad7673935b93988285ed918b456733",
+      "originalHash": "df5a33c38e2d1aadcbd63eb1258aeb59adad7673935b93988285ed918b456733",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "支払条件の変更を取引先に申し入れた。",
+            "romaji": "Shiharai jōken no henkō wo torihikisaki ni mōshiireta.",
+            "german": "Dem Geschäftspartner wurde eine Änderung der Zahlungsbedingungen vorgeschlagen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "支払条件 (auch 支払い条件) sind die Zahlungsbedingungen eines Vertrags: Fälligkeit, Zahlungsziel, Raten, Skonto. Typisch: 支払条件を提示する, 支払条件を交渉する, 支払条件を変更する. Eine sehr japanische Formel ist 月末締め翌月末払い „Abrechnung zum Monatsende, Zahlung zum Ende des Folgemonats“. Abzugrenzen von 支払方法 „Zahlungsart“ (Überweisung, Bar, Karte): 条件 betrifft vor allem Zeitpunkt und Modalitäten.",
+        "examples": [
+          {
+            "japanese": "支払条件の変更を取引先に申し入れた。",
+            "romaji": "Shiharai jōken no henkō o torihikisaki ni mōshiireta.",
+            "german": "Dem Geschäftspartner wurde eine Änderung der Zahlungsbedingungen vorgeschlagen."
+          },
+          {
+            "japanese": "支払条件は月末締め翌月末払いとなっております。",
+            "romaji": "Shiharai jōken wa getsumatsu-jime yokugetsumatsu-barai to natte orimasu.",
+            "german": "Unsere Zahlungsbedingungen: Abrechnung zum Monatsende, Zahlung bis Ende des Folgemonats."
+          },
+          {
+            "japanese": "見積書には価格だけでなく支払条件も明記してください。",
+            "romaji": "Mitsumorisho ni wa kakaku dake de naku shiharai jōken mo meiki shite kudasai.",
+            "german": "Bitte geben Sie im Angebot nicht nur den Preis, sondern auch die Zahlungsbedingungen an."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1356510 (条件 'condition, term') + 支払(い) 1594480; compound not in JMdict; noun: terms of payment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 支払条件 (auch 支払い条件) sind die Zahlungsbedingungen eines Vertrags: Fälligkeit, Zahlungsziel, Raten, Skonto. Typisch: 支払条件を提示する, 支払条件を交渉する, 支払条件を変更する. Eine sehr japanische Formel ist 月末締め翌月末払い „Abrechnung zum Monatsende, Zahlung zum Ende des Folgemonats“. Abzugrenzen von 支払方法 „Zahlungsart“ (Überweisung, Bar, Karte): 条件 betrifft vor allem Zeitpunkt und Modalitäten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=支払条件; reading=しはらいじょうけん; no entry",
+          "finding": "JMdict 1356510 (条件 'condition, term') + 支払(い) 1594480; compound not in JMdict; noun: terms of payment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 支払条件/しはらいじょうけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%94%AF%E6%89%95%E6%9D%A1%E4%BB%B6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 支払条件/しはらいじょうけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zahlungsbedingungen. JMdict 1356510 (条件 'condition, term') + 支払(い) 1594480; compound not in JMdict; noun: terms of payment",
+        "japanese": "支払条件の変更を取引先に申し入れた。 / 支払条件は月末締め翌月末払いとなっております。 / 見積書には価格だけでなく支払条件も明記してください。",
+        "romanization": "shiharai jōken; Shiharai jōken no henkō o torihikisaki ni mōshiireta. / Shiharai jōken wa getsumatsu-jime yokugetsumatsu-barai to natte orimasu. / Mitsumorisho ni wa kakaku dake de naku shiharai jōken mo meiki shite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Dem Geschäftspartner wurde eine Änderung der Zahlungsbedingungen vorgeschlagen. / Unsere Zahlungsbedingungen: Abrechnung zum Monatsende, Zahlung bis Ende des Folgemonats. / Bitte geben Sie im Angebot nicht nur den Preis, sondern auch die Zahlungsbedingungen an.",
+        "contexts": [
+          "Renegotiating with a supplier",
+          "Explaining invoice terms",
+          "Requesting a quotation"
+        ],
+        "lexical": "JMdict 1356510 (条件 'condition, term') + 支払(い) 1594480; compound not in JMdict; noun: terms of payment",
+        "register": "business / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:705 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Renegotiating with a supplier; Explaining invoice terms; Requesting a quotation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8a1037a1cb2fc56f590808dede46460a9275646c951f2c49384fd5a6e677f7c8",
+        "approvalHash": "73b21d8544fa5a5726f320eaabf814ba2561b374bd3963c85475324bf7ea26fd"
+      }
+    },
+    {
+      "id": "vocab-n1:707",
+      "revisionId": "208e-n1-enrichment-vocab-n1-707",
+      "state": "accepted",
+      "predecessorHash": "198fa5c0dd687fe910cf1e1747ea4be8a95c8e816475c9c6e53f2bcfc730b028",
+      "originalHash": "198fa5c0dd687fe910cf1e1747ea4be8a95c8e816475c9c6e53f2bcfc730b028",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "船腹不足により運賃が高騰している。",
+            "romaji": "Senpuku fusoku ni yori unchin ga kōtō shite iru.",
+            "german": "Aufgrund von Schiffsraummangel steigen die Frachtraten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "船腹 bedeutet wörtlich „Schiffsbauch“, also die Bordwand bzw. der Rumpf. In Handel und Logistik steht es vor allem für verfügbaren Schiffsraum bzw. Tonnage: 船腹を確保する „Frachtraum buchen“, 船腹不足 „Frachtraummangel“, 船腹過剰 „Überkapazität“, 船腹量 „Tonnage“. Den physischen Laderaum im Schiff nennt man eher 船倉. Ein Wort der Fach- und Wirtschaftssprache.",
+        "examples": [
+          {
+            "japanese": "船腹不足により運賃が高騰している。",
+            "romaji": "Senpuku fusoku ni yori unchin ga kōtō shite iru.",
+            "german": "Aufgrund von Schiffsraummangel steigen die Frachtraten."
+          },
+          {
+            "japanese": "繁忙期に備えて早めに船腹を確保した。",
+            "romaji": "Hanbōki ni sonaete hayame ni senpuku o kakuho shita.",
+            "german": "Für die Hochsaison haben wir uns frühzeitig Schiffsraum gesichert."
+          },
+          {
+            "japanese": "座礁した船は船腹に大きな穴が開いていた。",
+            "romaji": "Zashō shita fune wa senpuku ni ōki na ana ga aite ita.",
+            "german": "Das auf Grund gelaufene Schiff hatte ein großes Loch in der Bordwand."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154627673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 船腹/センプク; lemma 船腹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "船腹",
+              "reading": "せんぷく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 船腹/せんぷく \"Schiffsraum; Laderaum\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1646140 sense 1, noun: ship's side or bottom; shipping tonnage, freight space Pitch: Verified [0] via exact UniDic row. 船腹 bedeutet wörtlich „Schiffsbauch“, also die Bordwand bzw. der Rumpf. In Handel und Logistik steht es vor allem für verfügbaren Schiffsraum bzw. Tonnage: 船腹を確保する „Frachtraum buchen“, 船腹不足 „Frachtraummangel“, 船腹過剰 „Überkapazität“, 船腹量 „Tonnage“. Den physischen Laderaum im Schiff nennt man eher 船倉. Ein Wort der Fach- und Wirtschaftssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1646140; spelling=船腹; reading=せんぷく",
+          "selected": {
+            "sequence": "1646140",
+            "spelling": "船腹",
+            "reading": "せんぷく",
+            "readingRestrictions": [
+              "船腹"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "side or bottom of a ship",
+                  "ship's hold",
+                  "bottoms",
+                  "shipping",
+                  "tonnage",
+                  "freight space"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1646140 sense 1, noun: ship's side or bottom; shipping tonnage, freight space"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 船腹/センプク; lemma 船腹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154627673",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 船腹/センプク; lemma 船腹; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "船腹",
+              "reading": "せんぷく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 船腹/せんぷく \"Schiffsraum; Laderaum\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schiffsraum; Laderaum. JMdict 1646140 sense 1, noun: ship's side or bottom; shipping tonnage, freight space",
+        "japanese": "船腹不足により運賃が高騰している。 / 繁忙期に備えて早めに船腹を確保した。 / 座礁した船は船腹に大きな穴が開いていた。",
+        "romanization": "senpuku; Senpuku fusoku ni yori unchin ga kōtō shite iru. / Hanbōki ni sonaete hayame ni senpuku o kakuho shita. / Zashō shita fune wa senpuku ni ōki na ana ga aite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aufgrund von Schiffsraummangel steigen die Frachtraten. / Für die Hochsaison haben wir uns frühzeitig Schiffsraum gesichert. / Das auf Grund gelaufene Schiff hatte ein großes Loch in der Bordwand.",
+        "contexts": [
+          "Rising freight rates",
+          "Booking capacity for peak season",
+          "Damaged hull after grounding"
+        ],
+        "lexical": "JMdict 1646140 sense 1, noun: ship's side or bottom; shipping tonnage, freight space",
+        "register": "technical (shipping / economics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:707 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rising freight rates; Booking capacity for peak season; Damaged hull after grounding), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c2de9c64a3b6fdc6a87e70f1766a0176210d93d043b2bbdcaf5a705c8903770f",
+        "approvalHash": "5e0ad0b804dca9f92c952ab7c390d5da13fb04cfdfa800667a73582cb4a9a9cf"
+      }
+    },
+    {
+      "id": "vocab-n1:708",
+      "revisionId": "208e-n1-enrichment-vocab-n1-708",
+      "state": "accepted",
+      "predecessorHash": "f9daa669efb8455321213d1b2e2ebe6c8180c2fa6da799c901dc1a1e9fe1f636",
+      "originalHash": "f9daa669efb8455321213d1b2e2ebe6c8180c2fa6da799c901dc1a1e9fe1f636",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "船舶が港に係留されて貨物の積み下ろしが行われる。",
+            "romaji": "Sempaku ga minato ni keiryū sarete kamotsu no tsumioroshi ga okonawareru.",
+            "german": "Das Schiff wird im Hafen vertäut und die Be- und Entladung der Fracht durchgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "係留 (ältere Schreibung 繋留, in Vorschriften oft けい留) heißt „mit Leinen festmachen“: 船を岸壁に係留する, sehr häufig passiv 係留されている. Im Unterschied zu 停泊 „vor Anker liegen, im Hafen liegen“ betont 係留 das Festbinden. Auch Ballons (係留気球) und in Verordnungen angeleinte Hunde können 係留 werden. Schriftsprachlich-technisch; im Alltag sagt man eher つなぐ.",
+        "examples": [
+          {
+            "japanese": "船舶が港に係留されて貨物の積み下ろしが行われる。",
+            "romaji": "Senpaku ga minato ni keiryū sarete kamotsu no tsumioroshi ga okonawareru.",
+            "german": "Das Schiff wird im Hafen vertäut und die Be- und Entladung der Fracht durchgeführt."
+          },
+          {
+            "japanese": "台風に備えて、漁船をしっかりと係留した。",
+            "romaji": "Taifū ni sonaete, gyosen o shikkari to keiryū shita.",
+            "german": "Wegen des herannahenden Taifuns wurden die Fischerboote fest vertäut."
+          },
+          {
+            "japanese": "引退した帆船が博物館として岸壁に係留されている。",
+            "romaji": "Intai shita hansen ga hakubutsukan to shite ganpeki ni keiryū sarete iru.",
+            "german": "Das ausgemusterte Segelschiff liegt als Museum fest vertäut am Kai."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117171839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 係留/ケイリュウ; lemma 係留; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "係留",
+              "reading": "けいりゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 係留/けいりゅう \"Vertäuung; Festmachen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1249380 sense 1, noun / suru verb: mooring Pitch: Verified [0] via exact UniDic row. 係留 (ältere Schreibung 繋留, in Vorschriften oft けい留) heißt „mit Leinen festmachen“: 船を岸壁に係留する, sehr häufig passiv 係留されている. Im Unterschied zu 停泊 „vor Anker liegen, im Hafen liegen“ betont 係留 das Festbinden. Auch Ballons (係留気球) und in Verordnungen angeleinte Hunde können 係留 werden. Schriftsprachlich-technisch; im Alltag sagt man eher つなぐ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1249380; spelling=係留; reading=けいりゅう",
+          "selected": {
+            "sequence": "1249380",
+            "spelling": "係留",
+            "reading": "けいりゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "mooring",
+                  "anchorage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1249380 sense 1, noun / suru verb: mooring"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 係留/ケイリュウ; lemma 係留; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117171839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 係留/ケイリュウ; lemma 係留; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "係留",
+              "reading": "けいりゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 係留/けいりゅう \"Vertäuung; Festmachen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vertäuung; Festmachen. JMdict 1249380 sense 1, noun / suru verb: mooring",
+        "japanese": "船舶が港に係留されて貨物の積み下ろしが行われる。 / 台風に備えて、漁船をしっかりと係留した。 / 引退した帆船が博物館として岸壁に係留されている。",
+        "romanization": "keiryū; Senpaku ga minato ni keiryū sarete kamotsu no tsumioroshi ga okonawareru. / Taifū ni sonaete, gyosen o shikkari to keiryū shita. / Intai shita hansen ga hakubutsukan to shite ganpeki ni keiryū sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Schiff wird im Hafen vertäut und die Be- und Entladung der Fracht durchgeführt. / Wegen des herannahenden Taifuns wurden die Fischerboote fest vertäut. / Das ausgemusterte Segelschiff liegt als Museum fest vertäut am Kai.",
+        "contexts": [
+          "Loading and unloading in port",
+          "Typhoon preparations",
+          "Museum ship at the quay"
+        ],
+        "lexical": "JMdict 1249380 sense 1, noun / suru verb: mooring",
+        "register": "technical / written",
+        "transitivity": "transitive as 係留する (船を岸壁に係留する); passive 係留される very common",
+        "conjugation": "noun; suru verb (係留する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:708 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Loading and unloading in port; Typhoon preparations; Museum ship at the quay), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4ecf9d62c22bf0db31c3fec14e8a29cbf35e0f54347d4f736effb4c6dab36af8",
+        "approvalHash": "dd44075da829c67240042b7c97fb97110680749847194883a4c94fc3b7e68e52"
+      }
+    },
+    {
+      "id": "vocab-n1:709",
+      "revisionId": "208e-n1-enrichment-vocab-n1-709",
+      "state": "accepted",
+      "predecessorHash": "afc5d40c2d6e941fc435f9802bea98be6c2770b7af4db83e46aab5e666975597",
+      "originalHash": "afc5d40c2d6e941fc435f9802bea98be6c2770b7af4db83e46aab5e666975597",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "農産物の輸入には検疫手続きが必要だ。",
+            "romaji": "Nōsanbutsu no yunyū ni wa ken'eki tetsuzuki ga hitsuyō da.",
+            "german": "Für den Import landwirtschaftlicher Produkte sind Quarantäneverfahren erforderlich."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "検疫 ist die gesundheitliche Kontrolle an der Grenze – bei Menschen, Tieren, Pflanzen und Lebensmitteln: 検疫を受ける „sich der Kontrolle unterziehen“, 検疫所, 動物検疫, 植物検疫, 検疫で止められる. Achtung: Das deutsche „Quarantäne“ im Sinn von Absonderung kranker Personen heißt meist 隔離; 検疫 ist die Einreise- bzw. Einfuhrprüfung, die eine Absonderung anordnen kann. Fachlich-amtlicher Ausdruck.",
+        "examples": [
+          {
+            "japanese": "農産物の輸入には検疫手続きが必要だ。",
+            "romaji": "Nōsanbutsu no yunyū ni wa ken'eki tetsuzuki ga hitsuyō da.",
+            "german": "Für den Import landwirtschaftlicher Produkte sind Quarantäneverfahren erforderlich."
+          },
+          {
+            "japanese": "帰国した際、空港で検疫を受けた。",
+            "romaji": "Kikoku shita sai, kūkō de ken'eki o uketa.",
+            "german": "Bei meiner Rückkehr wurde ich am Flughafen einer Gesundheitskontrolle unterzogen."
+          },
+          {
+            "japanese": "輸入された牛肉が検疫で止められている。",
+            "romaji": "Yunyū sareta gyūniku ga ken'eki de tomerarete iru.",
+            "german": "Das importierte Rindfleisch wird bei der Quarantänekontrolle zurückgehalten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118682481",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 検疫/ケンエキ; lemma 検疫; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "検疫",
+              "reading": "けんえき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 検疫/けんえき \"Quarantäne; Seuchenprüfung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1257830 sense 1, noun / suru verb: quarantine, medical inspection Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 検疫 ist die gesundheitliche Kontrolle an der Grenze – bei Menschen, Tieren, Pflanzen und Lebensmitteln: 検疫を受ける „sich der Kontrolle unterziehen“, 検疫所, 動物検疫, 植物検疫, 検疫で止められる. Achtung: Das deutsche „Quarantäne“ im Sinn von Absonderung kranker Personen heißt meist 隔離; 検疫 ist die Einreise- bzw. Einfuhrprüfung, die eine Absonderung anordnen kann. Fachlich-amtlicher Ausdruck. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1257830; spelling=検疫; reading=けんえき",
+          "selected": {
+            "sequence": "1257830",
+            "spelling": "検疫",
+            "reading": "けんえき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "quarantine",
+                  "medical inspection"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1257830 sense 1, noun / suru verb: quarantine, medical inspection"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 検疫/ケンエキ; lemma 検疫; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@118682481",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 検疫/ケンエキ; lemma 検疫; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "検疫",
+              "reading": "けんえき",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 検疫/けんえき \"Quarantäne; Seuchenprüfung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Quarantäne; Seuchenprüfung. JMdict 1257830 sense 1, noun / suru verb: quarantine, medical inspection",
+        "japanese": "農産物の輸入には検疫手続きが必要だ。 / 帰国した際、空港で検疫を受けた。 / 輸入された牛肉が検疫で止められている。",
+        "romanization": "ken'eki; Nōsanbutsu no yunyū ni wa ken'eki tetsuzuki ga hitsuyō da. / Kikoku shita sai, kūkō de ken'eki o uketa. / Yunyū sareta gyūniku ga ken'eki de tomerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für den Import landwirtschaftlicher Produkte sind Quarantäneverfahren erforderlich. / Bei meiner Rückkehr wurde ich am Flughafen einer Gesundheitskontrolle unterzogen. / Das importierte Rindfleisch wird bei der Quarantänekontrolle zurückgehalten.",
+        "contexts": [
+          "Import procedures for produce",
+          "Health check on arrival",
+          "Shipment held at inspection"
+        ],
+        "lexical": "JMdict 1257830 sense 1, noun / suru verb: quarantine, medical inspection",
+        "register": "technical / official",
+        "transitivity": "usually used as noun (検疫を受ける); 検疫する transitive",
+        "conjugation": "noun; suru verb (検疫する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:709 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Import procedures for produce; Health check on arrival; Shipment held at inspection), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "dec6b5ccec1a12ee9c0ac8607dcdd392bf8fe17775d08511f6ccca5100abd49f",
+        "approvalHash": "d93ee134a45db5af0f3ac62fb31909be5008ab2322feb117b7e476f59141960c"
+      }
+    },
+    {
+      "id": "vocab-n1:710",
+      "revisionId": "208e-n1-enrichment-vocab-n1-710",
+      "state": "accepted",
+      "predecessorHash": "470df8646bff367484f8a98d210b7596a8eed0139c14340aea9c3190a8d4c902",
+      "originalHash": "470df8646bff367484f8a98d210b7596a8eed0139c14340aea9c3190a8d4c902",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "植物防疫法に基づいて輸入植物が検査される。",
+            "romaji": "Shokubutsu bōekihō ni motozuite yunyū shokubutsu ga kensa sareru.",
+            "german": "Auf Grundlage des Pflanzenschutzgesetzes werden Importpflanzen untersucht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "植物防疫 ist der staatliche Pflanzenschutz gegen Schädlinge und Pflanzenkrankheiten: die Einfuhrkontrolle von Pflanzen (植物検疫) ebenso wie die Bekämpfung im Inland. Man begegnet dem Wort fast nur in festen Verbindungen wie 植物防疫法 „Pflanzenschutzgesetz“, 植物防疫所 „Pflanzenschutzstation“ (an Häfen und Flughäfen) und 植物防疫官. 防疫 allein meint die Seuchenabwehr allgemein. Amtssprache.",
+        "examples": [
+          {
+            "japanese": "植物防疫法に基づいて輸入植物が検査される。",
+            "romaji": "Shokubutsu bōekihō ni motozuite yunyū shokubutsu ga kensa sareru.",
+            "german": "Auf Grundlage des Pflanzenschutzgesetzes werden Importpflanzen untersucht."
+          },
+          {
+            "japanese": "海外から苗木を持ち込む場合は、植物防疫所で検査を受けなければならない。",
+            "romaji": "Kaigai kara naegi o mochikomu baai wa, shokubutsu bōekisho de kensa o ukenakereba naranai.",
+            "german": "Wer Setzlinge aus dem Ausland mitbringt, muss sie bei der Pflanzenschutzstation prüfen lassen."
+          },
+          {
+            "japanese": "新しい害虫の侵入を防ぐため、植物防疫の体制が強化された。",
+            "romaji": "Atarashii gaichū no shinnyū o fusegu tame, shokubutsu bōeki no taisei ga kyōka sareta.",
+            "german": "Um das Einschleppen neuer Schädlinge zu verhindern, wurde der Pflanzenschutzdienst verstärkt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1520230 (防疫 'prevention of epidemics') + 植物; compound not in JMdict; noun: plant protection, phytosanitary control Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 植物防疫 ist der staatliche Pflanzenschutz gegen Schädlinge und Pflanzenkrankheiten: die Einfuhrkontrolle von Pflanzen (植物検疫) ebenso wie die Bekämpfung im Inland. Man begegnet dem Wort fast nur in festen Verbindungen wie 植物防疫法 „Pflanzenschutzgesetz“, 植物防疫所 „Pflanzenschutzstation“ (an Häfen und Flughäfen) und 植物防疫官. 防疫 allein meint die Seuchenabwehr allgemein. Amtssprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=植物防疫; reading=しょくぶつぼうえき; no entry",
+          "finding": "JMdict 1520230 (防疫 'prevention of epidemics') + 植物; compound not in JMdict; noun: plant protection, phytosanitary control"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 植物防疫/しょくぶつぼうえき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A4%8D%E7%89%A9%E9%98%B2%E7%96%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 植物防疫/しょくぶつぼうえき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Pflanzenschutz; Phytosanitärkontrolle. JMdict 1520230 (防疫 'prevention of epidemics') + 植物; compound not in JMdict; noun: plant protection, phytosanitary control",
+        "japanese": "植物防疫法に基づいて輸入植物が検査される。 / 海外から苗木を持ち込む場合は、植物防疫所で検査を受けなければならない。 / 新しい害虫の侵入を防ぐため、植物防疫の体制が強化された。",
+        "romanization": "shokubutsu bōeki; Shokubutsu bōekihō ni motozuite yunyū shokubutsu ga kensa sareru. / Kaigai kara naegi o mochikomu baai wa, shokubutsu bōekisho de kensa o ukenakereba naranai. / Atarashii gaichū no shinnyū o fusegu tame, shokubutsu bōeki no taisei ga kyōka sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf Grundlage des Pflanzenschutzgesetzes werden Importpflanzen untersucht. / Wer Setzlinge aus dem Ausland mitbringt, muss sie bei der Pflanzenschutzstation prüfen lassen. / Um das Einschleppen neuer Schädlinge zu verhindern, wurde der Pflanzenschutzdienst verstärkt.",
+        "contexts": [
+          "Legal basis for inspections",
+          "Bringing seedlings from abroad",
+          "Defence against invasive pests"
+        ],
+        "lexical": "JMdict 1520230 (防疫 'prevention of epidemics') + 植物; compound not in JMdict; noun: plant protection, phytosanitary control",
+        "register": "official / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:710 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Legal basis for inspections; Bringing seedlings from abroad; Defence against invasive pests), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fc10e64f2799a6ec3a2a7f27ac15ae9aed8e86d9492a92bc459e3072175d0d0f",
+        "approvalHash": "6eda1e9f49c1a283685f6d098987fb0f21ec7f2edf2506ff5583a5b5dcd84188"
+      }
+    },
+    {
+      "id": "vocab-n1:711",
+      "revisionId": "208e-n1-enrichment-vocab-n1-711",
+      "state": "accepted",
+      "predecessorHash": "3f52e084ff28050d7304befa389cb858321b1326f73b4a3274d4237e31c68d57",
+      "originalHash": "3f52e084ff28050d7304befa389cb858321b1326f73b4a3274d4237e31c68d57",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "特恵関税の適用には原産地証明が必要だ。",
+            "romaji": "Tokkei kanzei no tekiyō ni wa gensanchi shōmei ga hitsuyō da.",
+            "german": "Für die Anwendung des Vorzugszolls ist ein Ursprungszeugnis erforderlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "原産地証明 bezeichnet den Nachweis, in welchem Land eine Ware hergestellt wurde; das Dokument selbst heißt genau 原産地証明書. Es wird für Vorzugszölle aus Freihandelsabkommen (特恵関税, EPA) gebraucht und in Japan meist von der Handelskammer (商工会議所) ausgestellt. Typisch: 原産地証明を取得する, 発給する, 提出する. Zu unterscheiden von 原産地表示, der Herkunftsangabe auf dem Etikett.",
+        "examples": [
+          {
+            "japanese": "特恵関税の適用には原産地証明が必要だ。",
+            "romaji": "Tokkei kanzei no tekiyō ni wa gensanchi shōmei ga hitsuyō da.",
+            "german": "Für die Anwendung des Vorzugszolls ist ein Ursprungszeugnis erforderlich."
+          },
+          {
+            "japanese": "商工会議所で原産地証明を取得した。",
+            "romaji": "Shōkō kaigisho de gensanchi shōmei o shutoku shita.",
+            "german": "Wir haben uns bei der Handelskammer ein Ursprungszeugnis ausstellen lassen."
+          },
+          {
+            "japanese": "原産地証明書の記載に誤りがあり、通関が遅れた。",
+            "romaji": "Gensanchi shōmeisho no kisai ni ayamari ga ari, tsūkan ga okureta.",
+            "german": "Wegen eines Fehlers im Ursprungszeugnis verzögerte sich die Zollabfertigung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2838966 (原産地証明書 'certificate of origin'); 原産地証明 itself not in JMdict; noun: proof / certificate of origin Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 原産地証明 bezeichnet den Nachweis, in welchem Land eine Ware hergestellt wurde; das Dokument selbst heißt genau 原産地証明書. Es wird für Vorzugszölle aus Freihandelsabkommen (特恵関税, EPA) gebraucht und in Japan meist von der Handelskammer (商工会議所) ausgestellt. Typisch: 原産地証明を取得する, 発給する, 提出する. Zu unterscheiden von 原産地表示, der Herkunftsangabe auf dem Etikett. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=原産地証明; reading=げんさんちしょうめい; no entry",
+          "finding": "JMdict 2838966 (原産地証明書 'certificate of origin'); 原産地証明 itself not in JMdict; noun: proof / certificate of origin"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 原産地証明/げんさんちしょうめい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8E%9F%E7%94%A3%E5%9C%B0%E8%A8%BC%E6%98%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 原産地証明/げんさんちしょうめい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ursprungszeugnis; Herkunftsnachweis. JMdict 2838966 (原産地証明書 'certificate of origin'); 原産地証明 itself not in JMdict; noun: proof / certificate of origin",
+        "japanese": "特恵関税の適用には原産地証明が必要だ。 / 商工会議所で原産地証明を取得した。 / 原産地証明書の記載に誤りがあり、通関が遅れた。",
+        "romanization": "gensanchi shōmei; Tokkei kanzei no tekiyō ni wa gensanchi shōmei ga hitsuyō da. / Shōkō kaigisho de gensanchi shōmei o shutoku shita. / Gensanchi shōmeisho no kisai ni ayamari ga ari, tsūkan ga okureta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für die Anwendung des Vorzugszolls ist ein Ursprungszeugnis erforderlich. / Wir haben uns bei der Handelskammer ein Ursprungszeugnis ausstellen lassen. / Wegen eines Fehlers im Ursprungszeugnis verzögerte sich die Zollabfertigung.",
+        "contexts": [
+          "Preferential tariff requirement",
+          "Obtaining the certificate",
+          "Error delays customs clearance"
+        ],
+        "lexical": "JMdict 2838966 (原産地証明書 'certificate of origin'); 原産地証明 itself not in JMdict; noun: proof / certificate of origin",
+        "register": "technical (trade / customs)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:711 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preferential tariff requirement; Obtaining the certificate; Error delays customs clearance), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "80afea867097fe3fa6978f2b7969882892a0d8d4353157044b68d48733274a67",
+        "approvalHash": "23a819c25e8ecef254549b2b055f5602fc3b56a3b9484df8c4179a6481e7d098"
+      }
+    },
+    {
+      "id": "vocab-n1:712",
+      "revisionId": "208e-n1-enrichment-vocab-n1-712",
+      "state": "accepted",
+      "predecessorHash": "585cf8299eca462c9ed46494b41d1ca2d3d35325864754e84e7409f61922a743",
+      "originalHash": "585cf8299eca462c9ed46494b41d1ca2d3d35325864754e84e7409f61922a743",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "商業送り状に商品の詳細と価格を記載する。",
+            "romaji": "Shōgyō okurijō ni shōhin no shōsai to kakaku wo kisai suru.",
+            "german": "In der Handelsrechnung werden die Produktdetails und Preise aufgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "商業送り状 ist der amtlich-formelle Ausdruck für die Handelsrechnung im Export (Warenbeschreibung, Menge, Preis, Lieferbedingungen). In der Praxis sagt man meist インボイス oder 商業インボイス. 送り状 allein ist mehrdeutig: Es kann auch der Frachtbrief bzw. das Versandetikett beim Paketdienst sein (宅配便の送り状). Typisch: 商業送り状を作成する, 〜に記載する, 船荷証券と一緒に提出する.",
+        "examples": [
+          {
+            "japanese": "商業送り状に商品の詳細と価格を記載する。",
+            "romaji": "Shōgyō okurijō ni shōhin no shōsai to kakaku o kisai suru.",
+            "german": "In der Handelsrechnung werden die Produktdetails und Preise aufgeführt."
+          },
+          {
+            "japanese": "通関には商業送り状と船荷証券の提出が求められる。",
+            "romaji": "Tsūkan ni wa shōgyō okurijō to funani shōken no teishutsu ga motomerareru.",
+            "german": "Für die Zollabfertigung müssen Handelsrechnung und Konnossement vorgelegt werden."
+          },
+          {
+            "japanese": "商業送り状の金額と信用状の金額が一致しなかった。",
+            "romaji": "Shōgyō okurijō no kingaku to shin'yōjō no kingaku ga itchi shinakatta.",
+            "german": "Der Betrag auf der Handelsrechnung stimmte nicht mit dem im Akkreditiv überein."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1709660 (送り状 'invoice, consignment note') + 商業; compound not in JMdict; noun: commercial invoice Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 商業送り状 ist der amtlich-formelle Ausdruck für die Handelsrechnung im Export (Warenbeschreibung, Menge, Preis, Lieferbedingungen). In der Praxis sagt man meist インボイス oder 商業インボイス. 送り状 allein ist mehrdeutig: Es kann auch der Frachtbrief bzw. das Versandetikett beim Paketdienst sein (宅配便の送り状). Typisch: 商業送り状を作成する, 〜に記載する, 船荷証券と一緒に提出する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=商業送り状; reading=しょうぎょうおくりじょう; no entry",
+          "finding": "JMdict 1709660 (送り状 'invoice, consignment note') + 商業; compound not in JMdict; noun: commercial invoice"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 商業送り状/しょうぎょうおくりじょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%95%86%E6%A5%AD%E9%80%81%E3%82%8A%E7%8A%B6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 商業送り状/しょうぎょうおくりじょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Handelsrechnung; Commercial Invoice. JMdict 1709660 (送り状 'invoice, consignment note') + 商業; compound not in JMdict; noun: commercial invoice",
+        "japanese": "商業送り状に商品の詳細と価格を記載する。 / 通関には商業送り状と船荷証券の提出が求められる。 / 商業送り状の金額と信用状の金額が一致しなかった。",
+        "romanization": "shōgyō okurijō; Shōgyō okurijō ni shōhin no shōsai to kakaku o kisai suru. / Tsūkan ni wa shōgyō okurijō to funani shōken no teishutsu ga motomerareru. / Shōgyō okurijō no kingaku to shin'yōjō no kingaku ga itchi shinakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der Handelsrechnung werden die Produktdetails und Preise aufgeführt. / Für die Zollabfertigung müssen Handelsrechnung und Konnossement vorgelegt werden. / Der Betrag auf der Handelsrechnung stimmte nicht mit dem im Akkreditiv überein.",
+        "contexts": [
+          "Preparing export documents",
+          "Customs clearance paperwork",
+          "Discrepancy with the letter of credit"
+        ],
+        "lexical": "JMdict 1709660 (送り状 'invoice, consignment note') + 商業; compound not in JMdict; noun: commercial invoice",
+        "register": "technical (trade documents)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:712 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Preparing export documents; Customs clearance paperwork; Discrepancy with the letter of credit), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "82ab822564cd5c3fbdf894c2634c709d5dd03fbf0f842020ca8cc5a4c08fcff4",
+        "approvalHash": "d26841e7c160c39a852eacf3eca7d6add5b5a05045701ee78c61f1ba37ac3d33"
+      }
+    },
+    {
+      "id": "vocab-n1:713",
+      "revisionId": "208e-n1-enrichment-vocab-n1-713",
+      "state": "accepted",
+      "predecessorHash": "5893e83111702c6183756325f452c76969488ddb80e62834a542a3b0f3530efb",
+      "originalHash": "5893e83111702c6183756325f452c76969488ddb80e62834a542a3b0f3530efb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "貨物に荷印を付けて出荷する。",
+            "romaji": "Kamotsu ni nijirushi wo tsukete shukka suru.",
+            "german": "Die Fracht mit Versandzeichen versehen und versenden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "荷印 sind die Markierungen auf Kisten und Kartons im Versand: Empfängerkürzel, Bestimmungshafen, Kistennummer usw. Man sagt 荷印を付ける oder 荷印を表示する; in der Praxis heißt es oft auch ケースマーク oder シッピングマーク. Die Angaben müssen mit den Versanddokumenten übereinstimmen, damit die Sendung eindeutig zugeordnet werden kann. Reiner Logistik-Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "貨物に荷印を付けて出荷する。",
+            "romaji": "Kamotsu ni nijirushi o tsukete shukka suru.",
+            "german": "Die Fracht mit Versandzeichen versehen und versenden."
+          },
+          {
+            "japanese": "荷印が消えかけていて、どの荷物か判別できなかった。",
+            "romaji": "Nijirushi ga kiekakete ite, dono nimotsu ka hanbetsu dekinakatta.",
+            "german": "Die Markierung war fast verblasst, sodass man die Sendung nicht zuordnen konnte."
+          },
+          {
+            "japanese": "荷印は船積書類の記載と一致させる必要がある。",
+            "romaji": "Nijirushi wa funazumi shorui no kisai to itchi saseru hitsuyō ga aru.",
+            "german": "Die Versandmarkierung muss mit den Angaben in den Verschiffungsdokumenten übereinstimmen."
+          }
+        ],
+        "pitch": 2,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@201985455",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 荷印/ニジルシ; lemma 荷印; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "荷印",
+              "reading": "にじるし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 荷印/にじるし \"Versandzeichen; Frachtmarkierung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2675840 sense 1, noun: cargo mark, shipping mark Pitch: Verified [2] via exact UniDic row; stored primary 0 corrected to 2. 荷印 sind die Markierungen auf Kisten und Kartons im Versand: Empfängerkürzel, Bestimmungshafen, Kistennummer usw. Man sagt 荷印を付ける oder 荷印を表示する; in der Praxis heißt es oft auch ケースマーク oder シッピングマーク. Die Angaben müssen mit den Versanddokumenten übereinstimmen, damit die Sendung eindeutig zugeordnet werden kann. Reiner Logistik-Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2675840; spelling=荷印; reading=にじるし",
+          "selected": {
+            "sequence": "2675840",
+            "spelling": "荷印",
+            "reading": "にじるし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cargo mark",
+                  "shipping mark"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2675840 sense 1, noun: cargo mark, shipping mark"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row; stored primary 0 corrected to 2. Exact whole 荷印/ニジルシ; lemma 荷印; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@201985455",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 荷印/ニジルシ; lemma 荷印; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "荷印",
+              "reading": "にじるし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 荷印/にじるし \"Versandzeichen; Frachtmarkierung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Versandzeichen; Frachtmarkierung. JMdict 2675840 sense 1, noun: cargo mark, shipping mark",
+        "japanese": "貨物に荷印を付けて出荷する。 / 荷印が消えかけていて、どの荷物か判別できなかった。 / 荷印は船積書類の記載と一致させる必要がある。",
+        "romanization": "nijirushi; Kamotsu ni nijirushi o tsukete shukka suru. / Nijirushi ga kiekakete ite, dono nimotsu ka hanbetsu dekinakatta. / Nijirushi wa funazumi shorui no kisai to itchi saseru hitsuyō ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Fracht mit Versandzeichen versehen und versenden. / Die Markierung war fast verblasst, sodass man die Sendung nicht zuordnen konnte. / Die Versandmarkierung muss mit den Angaben in den Verschiffungsdokumenten übereinstimmen.",
+        "contexts": [
+          "Marking goods for shipment",
+          "Illegible marks in the warehouse",
+          "Matching marks to documents"
+        ],
+        "lexical": "JMdict 2675840 sense 1, noun: cargo mark, shipping mark",
+        "register": "technical (logistics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:713 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Marking goods for shipment; Illegible marks in the warehouse; Matching marks to documents), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a2a51794906eef9c4b0c7279f7c7521d19e2a124b73458f23d7d572f4d555188",
+        "approvalHash": "622429e3cb66ebf7cfbc96f39d30d8848b565b83b36191e5234230a570b64f49"
+      }
+    },
+    {
+      "id": "vocab-n1:714",
+      "revisionId": "208e-n1-enrichment-vocab-n1-714",
+      "state": "accepted",
+      "predecessorHash": "08173e24b6ec79ab10f3c045eb776a62d2cf9b0f10c584dce06d38209a88c109",
+      "originalHash": "08173e24b6ec79ab10f3c045eb776a62d2cf9b0f10c584dce06d38209a88c109",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "集荷センターで荷物を集約して効率的に配送する。",
+            "romaji": "Shūka sentā de nimotsu wo shūyaku shite kōritsuteki ni haisō suru.",
+            "german": "Am Sammelzentrum die Pakete bündeln und effizient zustellen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "集荷 ist das Einsammeln von Fracht: zum einen die Abholung von Paketen durch den Paketdienst (集荷を依頼する, 集荷に来てもらう), zum anderen das Aufkaufen und Sammeln von Agrarprodukten, etwa durch die Genossenschaft (米を集荷する). Gegenbegriffe sind 出荷 „Versand“ und 配達 „Zustellung“; beides zusammen heißt 集配. Neutral, im Alltag beim Paketversand sehr geläufig.",
+        "examples": [
+          {
+            "japanese": "集荷センターで荷物を集約して効率的に配送する。",
+            "romaji": "Shūka sentā de nimotsu o shūyaku shite kōritsuteki ni haisō suru.",
+            "german": "Am Sammelzentrum die Pakete bündeln und effizient zustellen."
+          },
+          {
+            "japanese": "宅配便の集荷を午後に依頼した。",
+            "romaji": "Takuhaibin no shūka o gogo ni irai shita.",
+            "german": "Ich habe beim Paketdienst eine Abholung für den Nachmittag bestellt."
+          },
+          {
+            "japanese": "農協が地元の農家から米を集荷している。",
+            "romaji": "Nōkyō ga jimoto no nōka kara kome o shūka shite iru.",
+            "german": "Die Agrargenossenschaft kauft den Reis bei den örtlichen Bauern auf und sammelt ihn ein."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139834630",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 集荷/シュウカ; lemma 集荷; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "集荷",
+              "reading": "しゅうか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 集荷/しゅうか \"Abholung; Einsammlung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1333590 sense 1, noun / suru verb: collection of cargo (esp. produce), pickup Pitch: Verified [0,1] via exact UniDic row. 集荷 ist das Einsammeln von Fracht: zum einen die Abholung von Paketen durch den Paketdienst (集荷を依頼する, 集荷に来てもらう), zum anderen das Aufkaufen und Sammeln von Agrarprodukten, etwa durch die Genossenschaft (米を集荷する). Gegenbegriffe sind 出荷 „Versand“ und 配達 „Zustellung“; beides zusammen heißt 集配. Neutral, im Alltag beim Paketversand sehr geläufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1333590; spelling=集荷; reading=しゅうか",
+          "selected": {
+            "sequence": "1333590",
+            "spelling": "集荷",
+            "reading": "しゅうか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "collection of cargo (esp. produce, etc.)",
+                  "cargo booking"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1333590 sense 1, noun / suru verb: collection of cargo (esp. produce), pickup"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 集荷/シュウカ; lemma 集荷; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139834630",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 集荷/シュウカ; lemma 集荷; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1.",
+            "match": {
+              "word": "集荷",
+              "reading": "しゅうか",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 集荷/しゅうか \"Abholung; Einsammlung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abholung; Einsammlung. JMdict 1333590 sense 1, noun / suru verb: collection of cargo (esp. produce), pickup",
+        "japanese": "集荷センターで荷物を集約して効率的に配送する。 / 宅配便の集荷を午後に依頼した。 / 農協が地元の農家から米を集荷している。",
+        "romanization": "shūka; Shūka sentā de nimotsu o shūyaku shite kōritsuteki ni haisō suru. / Takuhaibin no shūka o gogo ni irai shita. / Nōkyō ga jimoto no nōka kara kome o shūka shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Am Sammelzentrum die Pakete bündeln und effizient zustellen. / Ich habe beim Paketdienst eine Abholung für den Nachmittag bestellt. / Die Agrargenossenschaft kauft den Reis bei den örtlichen Bauern auf und sammelt ihn ein.",
+        "contexts": [
+          "Logistics hub",
+          "Booking a parcel pickup",
+          "Agricultural cooperative"
+        ],
+        "lexical": "JMdict 1333590 sense 1, noun / suru verb: collection of cargo (esp. produce), pickup",
+        "register": "neutral",
+        "transitivity": "transitive as 集荷する (米を集荷する); mostly used as noun (集荷を依頼する)",
+        "conjugation": "noun; suru verb (集荷する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:714 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Logistics hub; Booking a parcel pickup; Agricultural cooperative), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c3e8dd411b6e620d8228dad9b10371eaa105c11f57911087f94b62b22c9146a9",
+        "approvalHash": "b8df21f15f52b6fa57bcd733c126da947a88b755028960f8601600a80b6b9087"
+      }
+    },
+    {
+      "id": "vocab-n1:715",
+      "revisionId": "208e-n1-enrichment-vocab-n1-715",
+      "state": "accepted",
+      "predecessorHash": "5f550bfd84e371c974d188a34c8ae83d64868a4ec416f4afd4e2ca3466fb17a5",
+      "originalHash": "5f550bfd84e371c974d188a34c8ae83d64868a4ec416f4afd4e2ca3466fb17a5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "仕向地までの輸送費用を見積もる。",
+            "romaji": "Shimukechi made no yusō hiyō wo mitsumoru.",
+            "german": "Die Transportkosten bis zum Bestimmungsort kalkulieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "仕向地 (auch 仕向け地) ist der Bestimmungsort bzw. das Bestimmungsland einer Warensendung im Außenhandel; analog 仕向港 „Bestimmungshafen“ und 仕向国. Es steht vor allem in Dokumenten, Verträgen und Exportkontrollen. Im Alltag sagt man 目的地 oder 届け先. Nicht verwechseln mit dem Verb 仕向ける „jemanden zu etwas bringen“.",
+        "examples": [
+          {
+            "japanese": "仕向地までの輸送費用を見積もる。",
+            "romaji": "Shimukechi made no yusō hiyō o mitsumoru.",
+            "german": "Die Transportkosten bis zum Bestimmungsort kalkulieren."
+          },
+          {
+            "japanese": "仕向地によっては、輸出許可が必要な品目がある。",
+            "romaji": "Shimukechi ni yotte wa, yushutsu kyoka ga hitsuyō na hinmoku ga aru.",
+            "german": "Je nach Bestimmungsland brauchen manche Waren eine Ausfuhrgenehmigung."
+          },
+          {
+            "japanese": "船荷証券の仕向地欄にハンブルクと記入した。",
+            "romaji": "Funani shōken no shimukechi-ran ni Hanburuku to kinyū shita.",
+            "german": "In das Feld für den Bestimmungsort im Konnossement wurde Hamburg eingetragen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1817550 (仕向け 'delivery, sending') + 地; compound not in JMdict; noun: destination (of goods) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 仕向地 (auch 仕向け地) ist der Bestimmungsort bzw. das Bestimmungsland einer Warensendung im Außenhandel; analog 仕向港 „Bestimmungshafen“ und 仕向国. Es steht vor allem in Dokumenten, Verträgen und Exportkontrollen. Im Alltag sagt man 目的地 oder 届け先. Nicht verwechseln mit dem Verb 仕向ける „jemanden zu etwas bringen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=仕向地; reading=しむけち; no entry",
+          "finding": "JMdict 1817550 (仕向け 'delivery, sending') + 地; compound not in JMdict; noun: destination (of goods)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 仕向地/しむけち scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BB%95%E5%90%91%E5%9C%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 仕向地/しむけち scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bestimmungsort; Zielort. JMdict 1817550 (仕向け 'delivery, sending') + 地; compound not in JMdict; noun: destination (of goods)",
+        "japanese": "仕向地までの輸送費用を見積もる。 / 仕向地によっては、輸出許可が必要な品目がある。 / 船荷証券の仕向地欄にハンブルクと記入した。",
+        "romanization": "shimukechi; Shimukechi made no yusō hiyō o mitsumoru. / Shimukechi ni yotte wa, yushutsu kyoka ga hitsuyō na hinmoku ga aru. / Funani shōken no shimukechi-ran ni Hanburuku to kinyū shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Transportkosten bis zum Bestimmungsort kalkulieren. / Je nach Bestimmungsland brauchen manche Waren eine Ausfuhrgenehmigung. / In das Feld für den Bestimmungsort im Konnossement wurde Hamburg eingetragen.",
+        "contexts": [
+          "Freight cost estimate",
+          "Export control by destination",
+          "Filling in the bill of lading"
+        ],
+        "lexical": "JMdict 1817550 (仕向け 'delivery, sending') + 地; compound not in JMdict; noun: destination (of goods)",
+        "register": "technical (trade documents)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:715 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Freight cost estimate; Export control by destination; Filling in the bill of lading), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1e454f294154e5dd549b968fef7b01284695ae56ad7382d274e84c812c48220b",
+        "approvalHash": "57d27316d180197ca56cfdcaddc8634f44d160519922a6210f94a796e8527e58"
+      }
+    },
+    {
+      "id": "vocab-n1:716",
+      "revisionId": "208e-n1-enrichment-vocab-n1-716",
+      "state": "accepted",
+      "predecessorHash": "d389df36712006da1e9cacc0064d500c4804c8bad641ae5d9443d3d8cbd276a1",
+      "originalHash": "d389df36712006da1e9cacc0064d500c4804c8bad641ae5d9443d3d8cbd276a1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "中継港での積替えにより輸送日数が増加する。",
+            "romaji": "Chūkeikō de no tsumikae ni yori yusō nissū ga zōka suru.",
+            "german": "Durch die Umladung im Transithafen erhöht sich die Transportdauer."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "積替え (meist 積み替え geschrieben) ist das Umladen von Fracht von einem Transportmittel auf ein anderes, etwa in einem Transithafen. Das zugehörige Verb ist transitiv: 荷物を積み替える. In Akkreditiven ist oft geregelt, ob 積替え erlaubt (積替え可) oder verboten (積替え禁止) ist. Die Schreibung ohne み (積替え) ist typisch für Fach- und Formulartexte.",
+        "examples": [
+          {
+            "japanese": "中継港での積替えにより輸送日数が増加する。",
+            "romaji": "Chūkeikō de no tsumikae ni yori yusō nissū ga zōka suru.",
+            "german": "Durch die Umladung im Transithafen erhöht sich die Transportdauer."
+          },
+          {
+            "japanese": "信用状では積替えが禁止されている。",
+            "romaji": "Shin'yōjō de wa tsumikae ga kinshi sarete iru.",
+            "german": "Laut Akkreditiv ist eine Umladung untersagt."
+          },
+          {
+            "japanese": "貨物はシンガポールで積替えの上、ヨーロッパへ輸送される。",
+            "romaji": "Kamotsu wa Shingapōru de tsumikae no ue, Yōroppa e yusō sareru.",
+            "german": "Die Fracht wird in Singapur umgeladen und dann nach Europa weitertransportiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177768134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 積替え/ツミカエ; lemma 積み替え; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "積替え",
+              "reading": "つみかえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 積替え/つみかえ \"Umladung; Umschlag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1777650 sense 1, noun: transshipment, reshipment Pitch: Verified [0] via exact UniDic row. 積替え (meist 積み替え geschrieben) ist das Umladen von Fracht von einem Transportmittel auf ein anderes, etwa in einem Transithafen. Das zugehörige Verb ist transitiv: 荷物を積み替える. In Akkreditiven ist oft geregelt, ob 積替え erlaubt (積替え可) oder verboten (積替え禁止) ist. Die Schreibung ohne み (積替え) ist typisch für Fach- und Formulartexte. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1777650; spelling=積替え; reading=つみかえ",
+          "selected": {
+            "sequence": "1777650",
+            "spelling": "積替え",
+            "reading": "つみかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "transshipment",
+                  "reshipment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1777650 sense 1, noun: transshipment, reshipment"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 積替え/ツミカエ; lemma 積み替え; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@177768134",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 積替え/ツミカエ; lemma 積み替え; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "積替え",
+              "reading": "つみかえ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 積替え/つみかえ \"Umladung; Umschlag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umladung; Umschlag. JMdict 1777650 sense 1, noun: transshipment, reshipment",
+        "japanese": "中継港での積替えにより輸送日数が増加する。 / 信用状では積替えが禁止されている。 / 貨物はシンガポールで積替えの上、ヨーロッパへ輸送される。",
+        "romanization": "tsumikae; Chūkeikō de no tsumikae ni yori yusō nissū ga zōka suru. / Shin'yōjō de wa tsumikae ga kinshi sarete iru. / Kamotsu wa Shingapōru de tsumikae no ue, Yōroppa e yusō sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Umladung im Transithafen erhöht sich die Transportdauer. / Laut Akkreditiv ist eine Umladung untersagt. / Die Fracht wird in Singapur umgeladen und dann nach Europa weitertransportiert.",
+        "contexts": [
+          "Longer transit time",
+          "Letter of credit clause",
+          "Shipping route via a hub"
+        ],
+        "lexical": "JMdict 1777650 sense 1, noun: transshipment, reshipment",
+        "register": "technical (shipping)",
+        "transitivity": "Nonverb (verb form 積み替える is transitive)",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:716 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Longer transit time; Letter of credit clause; Shipping route via a hub), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3663ec431c42887c35457587feff58151f98dca05453d482b35385c57462ddb2",
+        "approvalHash": "67ea6e4c3f65853f4ddc2cc6bab1789a9946ec481be22c333937b74f97220f98"
+      }
+    },
+    {
+      "id": "vocab-n1:717",
+      "revisionId": "208e-n1-enrichment-vocab-n1-717",
+      "state": "accepted",
+      "predecessorHash": "d1595951199d87644f7a01c6d0ef59f2bbaddf0c733c71d1d8f0db101ca5f02f",
+      "originalHash": "d1595951199d87644f7a01c6d0ef59f2bbaddf0c733c71d1d8f0db101ca5f02f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "荷役の遅延により滞船料が発生した。",
+            "romaji": "Niyaku no chien ni yori taisenryō ga hassei shita.",
+            "german": "Durch die Verzögerung beim Frachtumschlag fielen Liegegebühren an."
+          }
+        ],
+        "meaning": "Liegegebühr; Demurrage",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "滞船料 ist das Liegegeld (Demurrage) im Seefrachtrecht: Braucht der Befrachter für Laden oder Löschen länger als die vereinbarte Ladezeit, zahlt er dem Reeder einen Tagessatz. Typisch: 滞船料が発生する, 滞船料を支払う, 滞船料を負担する. Das Gegenstück für schnelleres Arbeiten ist 早出料. Bei Containern spricht man heute meist von デマレージ.",
+        "examples": [
+          {
+            "japanese": "荷役の遅延により滞船料が発生した。",
+            "romaji": "Niyaku no chien ni yori taisenryō ga hassei shita.",
+            "german": "Durch die Verzögerung beim Frachtumschlag fielen Liegegebühren an."
+          },
+          {
+            "japanese": "滞船料は一日あたりの金額で契約に定められている。",
+            "romaji": "Taisenryō wa ichinichi atari no kingaku de keiyaku ni sadamerarete iru.",
+            "german": "Das Liegegeld ist im Vertrag als Tagessatz festgelegt."
+          },
+          {
+            "japanese": "港の混雑で荷揚げが遅れ、荷主が滞船料を負担することになった。",
+            "romaji": "Minato no konzatsu de niage ga okure, ninushi ga taisenryō o futan suru koto ni natta.",
+            "german": "Wegen der Überlastung des Hafens verzögerte sich das Löschen, und der Befrachter musste das Liegegeld tragen."
+          }
+        ],
+        "meaning": "Liegegeld; Demurrage",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "not in JMdict; closest entry 1435060 (停泊 'anchorage, mooring'); noun: demurrage Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 滞船料 ist das Liegegeld (Demurrage) im Seefrachtrecht: Braucht der Befrachter für Laden oder Löschen länger als die vereinbarte Ladezeit, zahlt er dem Reeder einen Tagessatz. Typisch: 滞船料が発生する, 滞船料を支払う, 滞船料を負担する. Das Gegenstück für schnelleres Arbeiten ist 早出料. Bei Containern spricht man heute meist von デマレージ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=滞船料; reading=たいせんりょう; no entry",
+          "finding": "not in JMdict; closest entry 1435060 (停泊 'anchorage, mooring'); noun: demurrage"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 滞船料/たいせんりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%BB%9E%E8%88%B9%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 滞船料/たいせんりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Liegegeld; Demurrage. not in JMdict; closest entry 1435060 (停泊 'anchorage, mooring'); noun: demurrage",
+        "japanese": "荷役の遅延により滞船料が発生した。 / 滞船料は一日あたりの金額で契約に定められている。 / 港の混雑で荷揚げが遅れ、荷主が滞船料を負担することになった。",
+        "romanization": "taisenryō; Niyaku no chien ni yori taisenryō ga hassei shita. / Taisenryō wa ichinichi atari no kingaku de keiyaku ni sadamerarete iru. / Minato no konzatsu de niage ga okure, ninushi ga taisenryō o futan suru koto ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Verzögerung beim Frachtumschlag fielen Liegegebühren an. / Das Liegegeld ist im Vertrag als Tagessatz festgelegt. / Wegen der Überlastung des Hafens verzögerte sich das Löschen, und der Befrachter musste das Liegegeld tragen.",
+        "contexts": [
+          "Delay in cargo handling",
+          "Charter party terms",
+          "Port congestion dispute"
+        ],
+        "lexical": "not in JMdict; closest entry 1435060 (停泊 'anchorage, mooring'); noun: demurrage",
+        "register": "technical (shipping law)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:717 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Delay in cargo handling; Charter party terms; Port congestion dispute), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "4c471543c3364f775abce918287adb5c4f1f3cf8bc32f1f7a809b69f6edd8eaa",
+        "approvalHash": "d589b874c62a34b35daba99224b4bf3c98634a8eff473e6ca6b0d1b0ea4548cf"
+      }
+    },
+    {
+      "id": "vocab-n1:718",
+      "revisionId": "208e-n1-enrichment-vocab-n1-718",
+      "state": "accepted",
+      "predecessorHash": "501626c630ad7c5b0e316ccfd6abb2fe5df48df1ddc7cab07758db3ad366def4",
+      "originalHash": "501626c630ad7c5b0e316ccfd6abb2fe5df48df1ddc7cab07758db3ad366def4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "予定より早く荷役が完了し、早出料が支払われた。",
+            "romaji": "Yotei yori hayaku niyaku ga kanryō shi, sōshutsuryō ga shiharawareta.",
+            "german": "Der Frachtumschlag wurde früher als geplant abgeschlossen und eine Despatch-Gebühr wurde gezahlt."
+          }
+        ],
+        "meaning": "Despatch; Zeitersparnisgebühr",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "早出料 ist das Eilgeld (Despatch Money): Wird schneller geladen oder gelöscht als vereinbart, zahlt der Reeder dem Befrachter eine Prämie für die gesparte Zeit. Es ist das Gegenstück zu 滞船料 „Liegegeld“ und beträgt üblicherweise die Hälfte von dessen Tagessatz. Im Seehandel wird es はやでりょう gelesen; 早出 allein heißt im Alltag „früher Arbeitsbeginn, Frühschicht“. Reiner Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "予定より早く荷役が完了し、早出料が支払われた。",
+            "romaji": "Yotei yori hayaku niyaku ga kanryō shi, hayaderyō ga shiharawareta.",
+            "german": "Der Frachtumschlag wurde früher als geplant abgeschlossen, und es wurde Eilgeld gezahlt."
+          },
+          {
+            "japanese": "早出料は滞船料の半額とするのが一般的だ。",
+            "romaji": "Hayaderyō wa taisenryō no hangaku to suru no ga ippanteki da.",
+            "german": "Üblicherweise beträgt das Eilgeld die Hälfte des Liegegelds."
+          },
+          {
+            "japanese": "傭船契約に早出料の規定がなかったため、交渉が長引いた。",
+            "romaji": "Yōsen keiyaku ni hayaderyō no kitei ga nakatta tame, kōshō ga nagabiita.",
+            "german": "Weil die Chartervereinbarung keine Eilgeldregelung enthielt, zogen sich die Verhandlungen in die Länge."
+          }
+        ],
+        "meaning": "Eilgeld; Despatch Money",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "not in JMdict; closest entry 1844560 (早出 はやで); noun: despatch money (shipping) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 早出料 ist das Eilgeld (Despatch Money): Wird schneller geladen oder gelöscht als vereinbart, zahlt der Reeder dem Befrachter eine Prämie für die gesparte Zeit. Es ist das Gegenstück zu 滞船料 „Liegegeld“ und beträgt üblicherweise die Hälfte von dessen Tagessatz. Im Seehandel wird es はやでりょう gelesen; 早出 allein heißt im Alltag „früher Arbeitsbeginn, Frühschicht“. Reiner Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=早出料; reading=そうしゅつりょう; no entry",
+          "finding": "not in JMdict; closest entry 1844560 (早出 はやで); noun: despatch money (shipping)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 早出料/そうしゅつりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%97%A9%E5%87%BA%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 早出料/そうしゅつりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Eilgeld; Despatch Money. not in JMdict; closest entry 1844560 (早出 はやで); noun: despatch money (shipping)",
+        "japanese": "予定より早く荷役が完了し、早出料が支払われた。 / 早出料は滞船料の半額とするのが一般的だ。 / 傭船契約に早出料の規定がなかったため、交渉が長引いた。",
+        "romanization": "sōshutsuryō; Yotei yori hayaku niyaku ga kanryō shi, hayaderyō ga shiharawareta. / Hayaderyō wa taisenryō no hangaku to suru no ga ippanteki da. / Yōsen keiyaku ni hayaderyō no kitei ga nakatta tame, kōshō ga nagabiita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Frachtumschlag wurde früher als geplant abgeschlossen, und es wurde Eilgeld gezahlt. / Üblicherweise beträgt das Eilgeld die Hälfte des Liegegelds. / Weil die Chartervereinbarung keine Eilgeldregelung enthielt, zogen sich die Verhandlungen in die Länge.",
+        "contexts": [
+          "Early completion bonus",
+          "Rate relative to demurrage",
+          "Missing clause in the charter"
+        ],
+        "lexical": "not in JMdict; closest entry 1844560 (早出 はやで); noun: despatch money (shipping)",
+        "register": "technical (shipping law)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:718 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Early completion bonus; Rate relative to demurrage; Missing clause in the charter), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "dc3897a473e37eb80783826f3c807d8d98337c28639a96d6d876fa911ef086bf",
+        "approvalHash": "44310f5cd0283e7b891d5522f9e7b5c6aaa29b2503da6f5f383ec19e113ea446"
+      }
+    },
+    {
+      "id": "vocab-n1:719",
+      "revisionId": "208e-n1-enrichment-vocab-n1-719",
+      "state": "accepted",
+      "predecessorHash": "3f8037bd3217813de21d2501ea4de1404ae7f3d012c10bca6712f4fd8955da94",
+      "originalHash": "3f8037bd3217813de21d2501ea4de1404ae7f3d012c10bca6712f4fd8955da94",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不積みが発生し、納期に遅れが生じた。",
+            "romaji": "Fuzumi ga hassei shi, nōki ni okure ga shōjita.",
+            "german": "Es kam zu einer Nichtverladung und der Liefertermin verzögerte sich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "不積み bezeichnet im Seefrachtgeschäft den Fall, dass die vertraglich zugesagte Ladung ganz oder teilweise nicht verladen wird. Für den ungenutzten Laderaum schuldet der Befrachter dem Reeder Fautfracht, japanisch 不積運賃. Typisch: 不積みが発生する, 一部が不積みとなる. Für Fracht oder Fahrgäste, die schlicht nicht mehr mitkommen, sagt man allgemeinsprachlich 積み残し. Seltener Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "不積みが発生し、納期に遅れが生じた。",
+            "romaji": "Fuzumi ga hassei shi, nōki ni okure ga shōjita.",
+            "german": "Es kam zu einer Nichtverladung und der Liefertermin verzögerte sich."
+          },
+          {
+            "japanese": "契約数量に満たない不積みの分については、不積運賃を支払わなければならない。",
+            "romaji": "Keiyaku sūryō ni mitanai fuzumi no bun ni tsuite wa, fuzumi unchin o shiharawanakereba naranai.",
+            "german": "Für die Menge, die unter der vereinbarten Ladung bleibt, muss Fautfracht gezahlt werden."
+          },
+          {
+            "japanese": "港のストライキで貨物の一部が不積みとなった。",
+            "romaji": "Minato no sutoraiki de kamotsu no ichibu ga fuzumi to natta.",
+            "german": "Wegen des Hafenstreiks wurde ein Teil der Fracht nicht verladen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "not in JMdict; closest entry 1777570 (積み残し 'left-off cargo'); noun: short shipment, failure to load contracted cargo Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 不積み bezeichnet im Seefrachtgeschäft den Fall, dass die vertraglich zugesagte Ladung ganz oder teilweise nicht verladen wird. Für den ungenutzten Laderaum schuldet der Befrachter dem Reeder Fautfracht, japanisch 不積運賃. Typisch: 不積みが発生する, 一部が不積みとなる. Für Fracht oder Fahrgäste, die schlicht nicht mehr mitkommen, sagt man allgemeinsprachlich 積み残し. Seltener Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=不積み; reading=ふづみ; no entry",
+          "finding": "not in JMdict; closest entry 1777570 (積み残し 'left-off cargo'); noun: short shipment, failure to load contracted cargo"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 不積み/ふづみ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%8D%E7%A9%8D%E3%81%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 不積み/ふづみ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nichtverladung; Kurzladung. not in JMdict; closest entry 1777570 (積み残し 'left-off cargo'); noun: short shipment, failure to load contracted cargo",
+        "japanese": "不積みが発生し、納期に遅れが生じた。 / 契約数量に満たない不積みの分については、不積運賃を支払わなければならない。 / 港のストライキで貨物の一部が不積みとなった。",
+        "romanization": "fuzumi; Fuzumi ga hassei shi, nōki ni okure ga shōjita. / Keiyaku sūryō ni mitanai fuzumi no bun ni tsuite wa, fuzumi unchin o shiharawanakereba naranai. / Minato no sutoraiki de kamotsu no ichibu ga fuzumi to natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es kam zu einer Nichtverladung und der Liefertermin verzögerte sich. / Für die Menge, die unter der vereinbarten Ladung bleibt, muss Fautfracht gezahlt werden. / Wegen des Hafenstreiks wurde ein Teil der Fracht nicht verladen.",
+        "contexts": [
+          "Delayed delivery",
+          "Dead freight claim",
+          "Dock strike"
+        ],
+        "lexical": "not in JMdict; closest entry 1777570 (積み残し 'left-off cargo'); noun: short shipment, failure to load contracted cargo",
+        "register": "technical (shipping)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:719 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Delayed delivery; Dead freight claim; Dock strike), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "424f26add04e34fcde5978392f3745e452cedb67c2cfcba7508711709a3e2301",
+        "approvalHash": "a9a7da1ec237abdf436a787335ad2b254d4fc193cc8c4d5ad63c1a5229738dbb"
+      }
+    },
+    {
+      "id": "vocab-n1:720",
+      "revisionId": "208e-n1-enrichment-vocab-n1-720",
+      "state": "accepted",
+      "predecessorHash": "a094295808ae74cfcdfd62f80983ac42f77a3cde5a93ce3a4c09fc4b942e7a14",
+      "originalHash": "a094295808ae74cfcdfd62f80983ac42f77a3cde5a93ce3a4c09fc4b942e7a14",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "過積みは安全上の問題があるため禁止されている。",
+            "romaji": "Kazumi wa anzenjō no mondai ga aru tame kinshi sarete iru.",
+            "german": "Überladung ist wegen Sicherheitsproblemen verboten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "過積み bedeutet „Überladung“, also mehr Ladung als zulässig. Das Wort ist eher selten; Standard in Recht, Medien und Polizei ist 過積載 (z. B. 過積載のトラック, 過積載で取り締まられる). Beide stehen typischerweise mit 禁止, 取り締まり oder als Unfallursache (事故の原因). Wer ein Fahrzeug zu stark belädt, 積みすぎる bzw. 積み過ぎる.",
+        "examples": [
+          {
+            "japanese": "過積みは安全上の問題があるため禁止されている。",
+            "romaji": "Kazumi wa anzenjō no mondai ga aru tame kinshi sarete iru.",
+            "german": "Überladung ist aus Sicherheitsgründen verboten."
+          },
+          {
+            "japanese": "過積載のトラックが高速道路で取り締まりを受けた。",
+            "romaji": "Kasekisai no torakku ga kōsoku dōro de torishimari o uketa.",
+            "german": "Ein überladener Lkw wurde bei einer Kontrolle auf der Autobahn beanstandet."
+          },
+          {
+            "japanese": "船の過積みが転覆事故の原因とみられている。",
+            "romaji": "Fune no kazumi ga tenpuku jiko no gen'in to mirarete iru.",
+            "german": "Die Überladung des Schiffs gilt als Ursache für das Kentern."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "not in JMdict; closest entry 2855985 (過積載 'overloading'); noun: overloading Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 過積み bedeutet „Überladung“, also mehr Ladung als zulässig. Das Wort ist eher selten; Standard in Recht, Medien und Polizei ist 過積載 (z. B. 過積載のトラック, 過積載で取り締まられる). Beide stehen typischerweise mit 禁止, 取り締まり oder als Unfallursache (事故の原因). Wer ein Fahrzeug zu stark belädt, 積みすぎる bzw. 積み過ぎる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=過積み; reading=かづみ; no entry",
+          "finding": "not in JMdict; closest entry 2855985 (過積載 'overloading'); noun: overloading"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 過積み/かづみ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%8E%E7%A9%8D%E3%81%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 過積み/かづみ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Überladung. not in JMdict; closest entry 2855985 (過積載 'overloading'); noun: overloading",
+        "japanese": "過積みは安全上の問題があるため禁止されている。 / 過積載のトラックが高速道路で取り締まりを受けた。 / 船の過積みが転覆事故の原因とみられている。",
+        "romanization": "kazumi; Kazumi wa anzenjō no mondai ga aru tame kinshi sarete iru. / Kasekisai no torakku ga kōsoku dōro de torishimari o uketa. / Fune no kazumi ga tenpuku jiko no gen'in to mirarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Überladung ist aus Sicherheitsgründen verboten. / Ein überladener Lkw wurde bei einer Kontrolle auf der Autobahn beanstandet. / Die Überladung des Schiffs gilt als Ursache für das Kentern.",
+        "contexts": [
+          "Safety regulation",
+          "Highway inspection",
+          "Cause of a capsizing"
+        ],
+        "lexical": "not in JMdict; closest entry 2855985 (過積載 'overloading'); noun: overloading",
+        "register": "technical; 過積載 is the standard form",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:720 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Safety regulation; Highway inspection; Cause of a capsizing), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bbc2b2c813ef5f21a279768fe8d6a78403df696f36b1f1cdad8c1326d1d386af",
+        "approvalHash": "1d19dce8c05c3ec2c4aa4e621ea510849a13bda1210e029c6f9338cd87dc0f0d"
+      }
+    },
+    {
+      "id": "vocab-n1:721",
+      "revisionId": "208e-n1-enrichment-vocab-n1-721",
+      "state": "accepted",
+      "predecessorHash": "70a54e9d8915b2c023a63ad603b865f8e545c7fa456782753f5478611266b652",
+      "originalHash": "70a54e9d8915b2c023a63ad603b865f8e545c7fa456782753f5478611266b652",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "保税地域内では関税が課されない。",
+            "romaji": "Hozei chiiki nai de wa kanzei ga kasarenai.",
+            "german": "Innerhalb des Zollverschlussgebiets werden keine Zölle erhoben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "保税 heißt „unter Zollaufsicht, noch unverzollt“: Waren lagern oder werden befördert, ohne dass Zoll schon gezahlt wurde. Das Wort steht fast nur als erster Bestandteil von Komposita: 保税地域 „Zollgebiet“, 保税倉庫 „Zolllager“, 保税運送 „Beförderung unter Zollverschluss“, 保税工場. Freistehend kommt es in 保税のまま „noch unverzollt“ vor. Zoll- und Logistikfachsprache.",
+        "examples": [
+          {
+            "japanese": "保税地域内では関税が課されない。",
+            "romaji": "Hozei chiiki nai de wa kanzei ga kasarenai.",
+            "german": "Innerhalb des Zollverschlussgebiets werden keine Zölle erhoben."
+          },
+          {
+            "japanese": "輸入した部品は通関前に保税倉庫で保管されている。",
+            "romaji": "Yunyū shita buhin wa tsūkan mae ni hozei sōko de hokan sarete iru.",
+            "german": "Die importierten Teile lagern vor der Verzollung in einem Zolllager."
+          },
+          {
+            "japanese": "貨物を保税のまま別の港へ運送した。",
+            "romaji": "Kamotsu o hozei no mama betsu no minato e unsō shita.",
+            "german": "Die Fracht wurde unverzollt unter Zollverschluss in einen anderen Hafen befördert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243982763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 保税/ホゼイ; lemma 保税; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "保税",
+              "reading": "ほぜい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 保税/ほぜい \"Zollverschluss; zollfrei gelagert\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1513870 sense 1, noun: customs bond, bonded (goods) Pitch: Verified [0] via exact UniDic row. 保税 heißt „unter Zollaufsicht, noch unverzollt“: Waren lagern oder werden befördert, ohne dass Zoll schon gezahlt wurde. Das Wort steht fast nur als erster Bestandteil von Komposita: 保税地域 „Zollgebiet“, 保税倉庫 „Zolllager“, 保税運送 „Beförderung unter Zollverschluss“, 保税工場. Freistehend kommt es in 保税のまま „noch unverzollt“ vor. Zoll- und Logistikfachsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1513870; spelling=保税; reading=ほぜい",
+          "selected": {
+            "sequence": "1513870",
+            "spelling": "保税",
+            "reading": "ほぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "customs bond"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1513870 sense 1, noun: customs bond, bonded (goods)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 保税/ホゼイ; lemma 保税; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@243982763",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 保税/ホゼイ; lemma 保税; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "保税",
+              "reading": "ほぜい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 保税/ほぜい \"Zollverschluss; zollfrei gelagert\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zollverschluss; zollfrei gelagert. JMdict 1513870 sense 1, noun: customs bond, bonded (goods)",
+        "japanese": "保税地域内では関税が課されない。 / 輸入した部品は通関前に保税倉庫で保管されている。 / 貨物を保税のまま別の港へ運送した。",
+        "romanization": "hozei; Hozei chiiki nai de wa kanzei ga kasarenai. / Yunyū shita buhin wa tsūkan mae ni hozei sōko de hokan sarete iru. / Kamotsu o hozei no mama betsu no minato e unsō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Innerhalb des Zollverschlussgebiets werden keine Zölle erhoben. / Die importierten Teile lagern vor der Verzollung in einem Zolllager. / Die Fracht wurde unverzollt unter Zollverschluss in einen anderen Hafen befördert.",
+        "contexts": [
+          "Duty suspension in bonded areas",
+          "Storage before clearance",
+          "Bonded transport"
+        ],
+        "lexical": "JMdict 1513870 sense 1, noun: customs bond, bonded (goods)",
+        "register": "technical (customs)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:721 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Duty suspension in bonded areas; Storage before clearance; Bonded transport), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "be09f4a936cf91b0bb8971e557dec83fe485e93e6018ca599b70022ab7336b87",
+        "approvalHash": "6ee3c8f426907ef2bac5c23e17114d11a2609efc7ac366cffebc647522d54c20"
+      }
+    },
+    {
+      "id": "vocab-n1:722",
+      "revisionId": "208e-n1-enrichment-vocab-n1-722",
+      "state": "accepted",
+      "predecessorHash": "9748d202f87e04c33454bb5dc359da4b79ba70100f3deeb9c7006d2750421696",
+      "originalHash": "9748d202f87e04c33454bb5dc359da4b79ba70100f3deeb9c7006d2750421696",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ダンピングに対して課徴金が課された。",
+            "romaji": "Danpingu ni taishite kachōkin ga kasareta.",
+            "german": "Gegen das Dumping wurde eine Ausgleichsabgabe erhoben."
+          }
+        ],
+        "meaning": "Ausgleichsabgabe; Strafzuschlag",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "課徴金 ist eine vom Staat auferlegte Abgabe, die nicht als Steuer gilt. Heute meint man damit vor allem die Geldbuße, die die Wettbewerbsbehörde (公正取引委員会) bei Kartellen verhängt: 課徴金納付命令, 課徴金を課す, 課徴金減免制度 „Kronzeugenregelung“. Daneben gibt es den 輸入課徴金 „Einfuhrzuschlag“. Im Unterschied zu 罰金 ist es eine Verwaltungssanktion, keine Strafe. Amts- und Pressesprache.",
+        "examples": [
+          {
+            "japanese": "1971年、アメリカは輸入品に一律10%の課徴金を課した。",
+            "romaji": "Sen kyūhyaku nanajūichi-nen, Amerika wa yunyūhin ni ichiritsu juppāsento no kachōkin o kashita.",
+            "german": "1971 erhoben die USA auf alle Importe pauschal einen Zuschlag von zehn Prozent."
+          },
+          {
+            "japanese": "カルテルを結んだ企業に公正取引委員会が課徴金の納付を命じた。",
+            "romaji": "Karuteru o musunda kigyō ni Kōsei Torihiki Iinkai ga kachōkin no nōfu o meijita.",
+            "german": "Die Wettbewerbsbehörde verhängte gegen die am Kartell beteiligten Firmen eine Geldbuße."
+          },
+          {
+            "japanese": "課徴金を逃れるため、違反を自主申告する企業も多い。",
+            "romaji": "Kachōkin o nogareru tame, ihan o jishu shinkoku suru kigyō mo ōi.",
+            "german": "Viele Unternehmen zeigen Verstöße selbst an, um der Geldbuße zu entgehen."
+          }
+        ],
+        "meaning": "Abgabe; Zuschlag; Geldbuße (Kartellrecht)",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1195830 sense 1, noun: charges, surcharge, administrative levy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 課徴金 ist eine vom Staat auferlegte Abgabe, die nicht als Steuer gilt. Heute meint man damit vor allem die Geldbuße, die die Wettbewerbsbehörde (公正取引委員会) bei Kartellen verhängt: 課徴金納付命令, 課徴金を課す, 課徴金減免制度 „Kronzeugenregelung“. Daneben gibt es den 輸入課徴金 „Einfuhrzuschlag“. Im Unterschied zu 罰金 ist es eine Verwaltungssanktion, keine Strafe. Amts- und Pressesprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1195830; spelling=課徴金; reading=かちょうきん",
+          "selected": {
+            "sequence": "1195830",
+            "spelling": "課徴金",
+            "reading": "かちょうきん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "charges (i.e. fees)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1195830 sense 1, noun: charges, surcharge, administrative levy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 課徴金/かちょうきん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AA%B2%E5%BE%B4%E9%87%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 課徴金/かちょうきん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abgabe; Zuschlag; Geldbuße (Kartellrecht). JMdict 1195830 sense 1, noun: charges, surcharge, administrative levy",
+        "japanese": "1971年、アメリカは輸入品に一律10%の課徴金を課した。 / カルテルを結んだ企業に公正取引委員会が課徴金の納付を命じた。 / 課徴金を逃れるため、違反を自主申告する企業も多い。",
+        "romanization": "kachōkin; Sen kyūhyaku nanajūichi-nen, Amerika wa yunyūhin ni ichiritsu juppāsento no kachōkin o kashita. / Karuteru o musunda kigyō ni Kōsei Torihiki Iinkai ga kachōkin no nōfu o meijita. / Kachōkin o nogareru tame, ihan o jishu shinkoku suru kigyō mo ōi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "1971 erhoben die USA auf alle Importe pauschal einen Zuschlag von zehn Prozent. / Die Wettbewerbsbehörde verhängte gegen die am Kartell beteiligten Firmen eine Geldbuße. / Viele Unternehmen zeigen Verstöße selbst an, um der Geldbuße zu entgehen.",
+        "contexts": [
+          "Historical import surcharge",
+          "Antitrust fine",
+          "Leniency programme"
+        ],
+        "lexical": "JMdict 1195830 sense 1, noun: charges, surcharge, administrative levy",
+        "register": "official / journalistic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:722 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Historical import surcharge; Antitrust fine; Leniency programme), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8277c3eda3eded13aaca35011f2da476ec9be8930c328716d21d1d333eb742c7",
+        "approvalHash": "6f27a771bb734ef162e5e6604ea1d309f01d74c996648f59c75614623a006a81"
+      }
+    },
+    {
+      "id": "vocab-n1:723",
+      "revisionId": "208e-n1-enrichment-vocab-n1-723",
+      "state": "accepted",
+      "predecessorHash": "b65f06c5416c5b7169c4f39ac9dd35a88f145c40e22d82f0d1849e10660c0afe",
+      "originalHash": "b65f06c5416c5b7169c4f39ac9dd35a88f145c40e22d82f0d1849e10660c0afe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "補助金付き輸出品に相殺関税を課す。",
+            "romaji": "Hojokin tsuki yushutsuhin ni sōsai kanzei wo kasu.",
+            "german": "Auf subventionierte Exportgüter einen Ausgleichszoll erheben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "相殺関税 ist der Ausgleichszoll gegen subventionierte Importe: Er gleicht den Preisvorteil aus, den ausländische Hersteller durch staatliche Beihilfen haben. Typisch: 相殺関税を課す, 相殺関税を発動する. Abzugrenzen von 反ダンピング関税 (gegen Verkauf unter Wert) und 報復関税 (Vergeltung). Achtung Lesung: 相殺 heißt hier そうさい, nicht そうさつ.",
+        "examples": [
+          {
+            "japanese": "補助金付き輸出品に相殺関税を課す。",
+            "romaji": "Hojokin tsuki yushutsuhin ni sōsai kanzei o kasu.",
+            "german": "Auf subventionierte Exportgüter einen Ausgleichszoll erheben."
+          },
+          {
+            "japanese": "政府は外国産鉄鋼に対する相殺関税の発動を決定した。",
+            "romaji": "Seifu wa gaikokusan tekkō ni taisuru sōsai kanzei no hatsudō o kettei shita.",
+            "german": "Die Regierung beschloss, Ausgleichszölle auf ausländischen Stahl zu verhängen."
+          },
+          {
+            "japanese": "相殺関税を課すには、補助金による国内産業への損害を立証する必要がある。",
+            "romaji": "Sōsai kanzei o kasu ni wa, hojokin ni yoru kokunai sangyō e no songai o risshō suru hitsuyō ga aru.",
+            "german": "Für einen Ausgleichszoll muss nachgewiesen werden, dass die Subventionen der heimischen Industrie schaden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1749110 sense 1, noun: countervailing duty Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 相殺関税 ist der Ausgleichszoll gegen subventionierte Importe: Er gleicht den Preisvorteil aus, den ausländische Hersteller durch staatliche Beihilfen haben. Typisch: 相殺関税を課す, 相殺関税を発動する. Abzugrenzen von 反ダンピング関税 (gegen Verkauf unter Wert) und 報復関税 (Vergeltung). Achtung Lesung: 相殺 heißt hier そうさい, nicht そうさつ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1749110; spelling=相殺関税; reading=そうさいかんぜい",
+          "selected": {
+            "sequence": "1749110",
+            "spelling": "相殺関税",
+            "reading": "そうさいかんぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "countervailing duty"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1749110 sense 1, noun: countervailing duty"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 相殺関税/そうさいかんぜい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9B%B8%E6%AE%BA%E9%96%A2%E7%A8%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 相殺関税/そうさいかんぜい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ausgleichszoll. JMdict 1749110 sense 1, noun: countervailing duty",
+        "japanese": "補助金付き輸出品に相殺関税を課す。 / 政府は外国産鉄鋼に対する相殺関税の発動を決定した。 / 相殺関税を課すには、補助金による国内産業への損害を立証する必要がある。",
+        "romanization": "sōsai kanzei; Hojokin tsuki yushutsuhin ni sōsai kanzei o kasu. / Seifu wa gaikokusan tekkō ni taisuru sōsai kanzei no hatsudō o kettei shita. / Sōsai kanzei o kasu ni wa, hojokin ni yoru kokunai sangyō e no songai o risshō suru hitsuyō ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf subventionierte Exportgüter einen Ausgleichszoll erheben. / Die Regierung beschloss, Ausgleichszölle auf ausländischen Stahl zu verhängen. / Für einen Ausgleichszoll muss nachgewiesen werden, dass die Subventionen der heimischen Industrie schaden.",
+        "contexts": [
+          "Basic definition",
+          "Government decision on steel",
+          "Legal requirements under WTO rules"
+        ],
+        "lexical": "JMdict 1749110 sense 1, noun: countervailing duty",
+        "register": "technical (trade policy)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:723 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Basic definition; Government decision on steel; Legal requirements under WTO rules), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "df96acdca57eaeedb102d69162cf78e75e628149df1342ac71751fd7b87fac1e",
+        "approvalHash": "571ee9aa8aa4902cff95488b928f4e4858107865ff4278a9a6e498b3be6a6856"
+      }
+    },
+    {
+      "id": "vocab-n1:724",
+      "revisionId": "208e-n1-enrichment-vocab-n1-724",
+      "state": "accepted",
+      "predecessorHash": "54c42a66b62e5e3df745bef534c85cdf1df8f55e30790829c571bdc6ec6876c6",
+      "originalHash": "54c42a66b62e5e3df745bef534c85cdf1df8f55e30790829c571bdc6ec6876c6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "報復関税の応酬が両国の経済関係を悪化させた。",
+            "romaji": "Hōfuku kanzei no ōshū ga ryōkoku no keizai kankei wo akka saseta.",
+            "german": "Der gegenseitige Vergeltungszoll hat die Wirtschaftsbeziehungen beider Länder verschlechtert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "報復関税 ist ein Vergeltungs- oder Strafzoll, den ein Staat als Antwort auf Handelsmaßnahmen eines anderen verhängt. Typisch: 報復関税を発動する, 報復関税を課す, 報復関税の応酬 „gegenseitige Strafzölle“, 報復関税をちらつかせる „mit Strafzöllen drohen“. Anders als 相殺関税 richtet er sich nicht gegen Subventionen, sondern ist politisch motiviert. Häufig in Nachrichten über Handelskriege (貿易戦争).",
+        "examples": [
+          {
+            "japanese": "報復関税の応酬が両国の経済関係を悪化させた。",
+            "romaji": "Hōfuku kanzei no ōshū ga ryōkoku no keizai kankei o akka saseta.",
+            "german": "Die gegenseitigen Vergeltungszölle haben die Wirtschaftsbeziehungen beider Länder verschlechtert."
+          },
+          {
+            "japanese": "相手国が報復関税を発動すれば、輸出企業への打撃は避けられない。",
+            "romaji": "Aitekoku ga hōfuku kanzei o hatsudō sureba, yushutsu kigyō e no dageki wa sakerarenai.",
+            "german": "Verhängt das andere Land Vergeltungszölle, ist ein Schlag für die Exporteure unvermeidlich."
+          },
+          {
+            "japanese": "大統領は報復関税をちらつかせて交渉を有利に進めようとした。",
+            "romaji": "Daitōryō wa hōfuku kanzei o chiratsukasete kōshō o yūri ni susumeyō to shita.",
+            "german": "Der Präsident drohte mit Strafzöllen, um sich in den Verhandlungen einen Vorteil zu verschaffen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2844518 sense 1, noun: retaliatory tariff Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 報復関税 ist ein Vergeltungs- oder Strafzoll, den ein Staat als Antwort auf Handelsmaßnahmen eines anderen verhängt. Typisch: 報復関税を発動する, 報復関税を課す, 報復関税の応酬 „gegenseitige Strafzölle“, 報復関税をちらつかせる „mit Strafzöllen drohen“. Anders als 相殺関税 richtet er sich nicht gegen Subventionen, sondern ist politisch motiviert. Häufig in Nachrichten über Handelskriege (貿易戦争). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2844518; spelling=報復関税; reading=ほうふくかんぜい",
+          "selected": {
+            "sequence": "2844518",
+            "spelling": "報復関税",
+            "reading": "ほうふくかんぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "retaliatory tariff"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2844518 sense 1, noun: retaliatory tariff"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 報復関税/ほうふくかんぜい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A0%B1%E5%BE%A9%E9%96%A2%E7%A8%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 報復関税/ほうふくかんぜい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vergeltungszoll; Strafzoll. JMdict 2844518 sense 1, noun: retaliatory tariff",
+        "japanese": "報復関税の応酬が両国の経済関係を悪化させた。 / 相手国が報復関税を発動すれば、輸出企業への打撃は避けられない。 / 大統領は報復関税をちらつかせて交渉を有利に進めようとした。",
+        "romanization": "hōfuku kanzei; Hōfuku kanzei no ōshū ga ryōkoku no keizai kankei o akka saseta. / Aitekoku ga hōfuku kanzei o hatsudō sureba, yushutsu kigyō e no dageki wa sakerarenai. / Daitōryō wa hōfuku kanzei o chiratsukasete kōshō o yūri ni susumeyō to shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die gegenseitigen Vergeltungszölle haben die Wirtschaftsbeziehungen beider Länder verschlechtert. / Verhängt das andere Land Vergeltungszölle, ist ein Schlag für die Exporteure unvermeidlich. / Der Präsident drohte mit Strafzöllen, um sich in den Verhandlungen einen Vorteil zu verschaffen.",
+        "contexts": [
+          "Tit-for-tat trade war",
+          "Impact on exporters",
+          "Negotiating threat"
+        ],
+        "lexical": "JMdict 2844518 sense 1, noun: retaliatory tariff",
+        "register": "journalistic / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:724 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Tit-for-tat trade war; Impact on exporters; Negotiating threat), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b751afb46d2cb254985ea26c686c5e6313ef9317f0769ddfa33cfea8c2f082f6",
+        "approvalHash": "7ff02002a1e84c7341310b3d8393e14908a47ca3cb41025f3afb9e9a06de121b"
+      }
+    },
+    {
+      "id": "vocab-n1:725",
+      "revisionId": "208e-n1-enrichment-vocab-n1-725",
+      "state": "accepted",
+      "predecessorHash": "e1cb6e3aac64d819b22494f344b5c8b966ede15341fdef62592bf5c8a586b0da",
+      "originalHash": "e1cb6e3aac64d819b22494f344b5c8b966ede15341fdef62592bf5c8a586b0da",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "従価税は商品価格に対して一定の割合で課される。",
+            "romaji": "Jūkazei wa shōhin kakaku ni taishite ittei no wariai de kasareru.",
+            "german": "Der Wertzoll wird als fester Prozentsatz des Warenpreises erhoben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "従価税 ist eine Abgabe, die sich nach dem Wert (Preis) der Ware richtet und als Prozentsatz angegeben wird, also ein Wertzoll bzw. eine Wertsteuer. Das Gegenstück ist 従量税, das nach Menge oder Gewicht berechnet wird. 従 bedeutet hier „gemäß, folgend“: „Steuer gemäß dem Preis“. Die meisten Einfuhrzölle und auch die Verbrauchsteuer sind 従価税. Fachsprache der Steuer- und Zolllehre.",
+        "examples": [
+          {
+            "japanese": "従価税は商品価格に対して一定の割合で課される。",
+            "romaji": "Jūkazei wa shōhin kakaku ni taishite ittei no wariai de kasareru.",
+            "german": "Der Wertzoll wird als fester Prozentsatz des Warenpreises erhoben."
+          },
+          {
+            "japanese": "日本の輸入関税の多くは従価税で、税率はパーセントで示される。",
+            "romaji": "Nihon no yunyū kanzei no ōku wa jūkazei de, zeiritsu wa pāsento de shimesareru.",
+            "german": "Die meisten japanischen Einfuhrzölle sind Wertzölle; der Satz wird in Prozent angegeben."
+          },
+          {
+            "japanese": "消費税も価格に比例するので、従価税の一種だ。",
+            "romaji": "Shōhizei mo kakaku ni hirei suru node, jūkazei no isshu da.",
+            "german": "Auch die Verbrauchsteuer steigt mit dem Preis und ist daher eine Art Wertsteuer."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1635750 sense 1, noun: ad valorem duty, ad valorem tax Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 従価税 ist eine Abgabe, die sich nach dem Wert (Preis) der Ware richtet und als Prozentsatz angegeben wird, also ein Wertzoll bzw. eine Wertsteuer. Das Gegenstück ist 従量税, das nach Menge oder Gewicht berechnet wird. 従 bedeutet hier „gemäß, folgend“: „Steuer gemäß dem Preis“. Die meisten Einfuhrzölle und auch die Verbrauchsteuer sind 従価税. Fachsprache der Steuer- und Zolllehre. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1635750; spelling=従価税; reading=じゅうかぜい",
+          "selected": {
+            "sequence": "1635750",
+            "spelling": "従価税",
+            "reading": "じゅうかぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ad valorem duty",
+                  "ad valorem tax"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1635750 sense 1, noun: ad valorem duty, ad valorem tax"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 従価税/じゅうかぜい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BE%93%E4%BE%A1%E7%A8%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 従価税/じゅうかぜい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wertzoll; Ad-valorem-Zoll. JMdict 1635750 sense 1, noun: ad valorem duty, ad valorem tax",
+        "japanese": "従価税は商品価格に対して一定の割合で課される。 / 日本の輸入関税の多くは従価税で、税率はパーセントで示される。 / 消費税も価格に比例するので、従価税の一種だ。",
+        "romanization": "jūkazei; Jūkazei wa shōhin kakaku ni taishite ittei no wariai de kasareru. / Nihon no yunyū kanzei no ōku wa jūkazei de, zeiritsu wa pāsento de shimesareru. / Shōhizei mo kakaku ni hirei suru node, jūkazei no isshu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Wertzoll wird als fester Prozentsatz des Warenpreises erhoben. / Die meisten japanischen Einfuhrzölle sind Wertzölle; der Satz wird in Prozent angegeben. / Auch die Verbrauchsteuer steigt mit dem Preis und ist daher eine Art Wertsteuer.",
+        "contexts": [
+          "Definition",
+          "Japanese import tariffs",
+          "Consumption tax as example"
+        ],
+        "lexical": "JMdict 1635750 sense 1, noun: ad valorem duty, ad valorem tax",
+        "register": "technical (tax / customs)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:725 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Definition; Japanese import tariffs; Consumption tax as example), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "271c6bbd8861992d58e029332b88e74af4829b0e7cf2a2b4cf17d78a9d8b6545",
+        "approvalHash": "64164667dbde76a4228f0593ca93c2575dc63719fd3d37fb19563ce4aafe71aa"
+      }
+    },
+    {
+      "id": "vocab-n1:726",
+      "revisionId": "208e-n1-enrichment-vocab-n1-726",
+      "state": "accepted",
+      "predecessorHash": "0e5b087755feaeaff6eee56a2caade0b9b76b2702cdbd7ed39cf2d6e3f34ea87",
+      "originalHash": "0e5b087755feaeaff6eee56a2caade0b9b76b2702cdbd7ed39cf2d6e3f34ea87",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "従量税は商品の数量や重量に基づいて課される。",
+            "romaji": "Jūryōzei wa shōhin no sūryō ya jūryō ni motozuite kasareru.",
+            "german": "Der Mengenzoll wird auf Grundlage der Menge oder des Gewichts der Ware erhoben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "従量税 ist eine Abgabe, die nach Menge, Gewicht oder Volumen der Ware berechnet wird (z. B. Yen pro Kilogramm oder Liter), unabhängig vom Preis. Gegenstück ist 従価税, das sich am Wert orientiert. In Japan sind etwa Alkohol- und Tabaksteuer 従量税. Bei fallenden Preisen wirkt ein Mengenzoll relativ stärker, weil der Betrag gleich bleibt. Fachsprache der Steuer- und Zolllehre.",
+        "examples": [
+          {
+            "japanese": "従量税は商品の数量や重量に基づいて課される。",
+            "romaji": "Jūryōzei wa shōhin no sūryō ya jūryō ni motozuite kasareru.",
+            "german": "Der Mengenzoll wird auf Grundlage der Menge oder des Gewichts der Ware erhoben."
+          },
+          {
+            "japanese": "酒税やたばこ税は量に応じて課される従量税だ。",
+            "romaji": "Shuzei ya tabakozei wa ryō ni ōjite kasareru jūryōzei da.",
+            "german": "Alkohol- und Tabaksteuer sind Mengensteuern, die sich nach der Menge richten."
+          },
+          {
+            "japanese": "従量税は価格が下がっても税額が変わらない。",
+            "romaji": "Jūryōzei wa kakaku ga sagatte mo zeigaku ga kawaranai.",
+            "german": "Bei einer Mengensteuer bleibt der Betrag gleich, auch wenn der Preis fällt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1709430 sense 1, noun: specific duty, specific tax Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 従量税 ist eine Abgabe, die nach Menge, Gewicht oder Volumen der Ware berechnet wird (z. B. Yen pro Kilogramm oder Liter), unabhängig vom Preis. Gegenstück ist 従価税, das sich am Wert orientiert. In Japan sind etwa Alkohol- und Tabaksteuer 従量税. Bei fallenden Preisen wirkt ein Mengenzoll relativ stärker, weil der Betrag gleich bleibt. Fachsprache der Steuer- und Zolllehre. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1709430; spelling=従量税; reading=じゅうりょうぜい",
+          "selected": {
+            "sequence": "1709430",
+            "spelling": "従量税",
+            "reading": "じゅうりょうぜい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "specific duty (taxation)",
+                  "specific tariff",
+                  "specific tax"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1709430 sense 1, noun: specific duty, specific tax"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 従量税/じゅうりょうぜい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BE%93%E9%87%8F%E7%A8%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 従量税/じゅうりょうぜい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mengenzoll; spezifischer Zoll. JMdict 1709430 sense 1, noun: specific duty, specific tax",
+        "japanese": "従量税は商品の数量や重量に基づいて課される。 / 酒税やたばこ税は量に応じて課される従量税だ。 / 従量税は価格が下がっても税額が変わらない。",
+        "romanization": "jūryōzei; Jūryōzei wa shōhin no sūryō ya jūryō ni motozuite kasareru. / Shuzei ya tabakozei wa ryō ni ōjite kasareru jūryōzei da. / Jūryōzei wa kakaku ga sagatte mo zeigaku ga kawaranai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Mengenzoll wird auf Grundlage der Menge oder des Gewichts der Ware erhoben. / Alkohol- und Tabaksteuer sind Mengensteuern, die sich nach der Menge richten. / Bei einer Mengensteuer bleibt der Betrag gleich, auch wenn der Preis fällt.",
+        "contexts": [
+          "Definition",
+          "Alcohol and tobacco taxes",
+          "Effect of falling prices"
+        ],
+        "lexical": "JMdict 1709430 sense 1, noun: specific duty, specific tax",
+        "register": "technical (tax / customs)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:726 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Definition; Alcohol and tobacco taxes; Effect of falling prices), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fd9c531997642181aabf6741caba74ce1f3d215fcbcbfea6c5b4fc207c2c88de",
+        "approvalHash": "375bd4507eb870b9aed1750be5098160d38110fbc7ef20da7ebc58e399d4231b"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

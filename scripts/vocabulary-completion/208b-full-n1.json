@@ -1,0 +1,3222 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:621",
+      "revisionId": "208b-n1-enrichment-vocab-n1-621",
+      "state": "accepted",
+      "predecessorHash": "c6ea4f85a23e73bbd6eab5b1bdf81b86acb45583e2194c1d5d5884328d85ac37",
+      "originalHash": "c6ea4f85a23e73bbd6eab5b1bdf81b86acb45583e2194c1d5d5884328d85ac37",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "随意契約の透明性を高めるべきだ。",
+            "romaji": "Zuii keiyaku no tōmeisei wo takameru beki da.",
+            "german": "Die Transparenz der freihändigen Vergabe sollte erhöht werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "随意契約 ist ein Begriff aus dem öffentlichen Beschaffungswesen: Eine Behörde vergibt einen Auftrag ohne Ausschreibung direkt an einen ausgewählten Partner; 随意 bedeutet „nach Belieben“. Das Gegenstück ist 競争入札 bzw. 一般競争入札 „öffentliche Ausschreibung“. Typisch sind 随意契約を結ぶ und 随意契約で発注する; in Nachrichten taucht es oft im Zusammenhang mit mangelnder Transparenz auf. Kurzform im Behördenjargon: 随契.",
+        "examples": [
+          {
+            "japanese": "随意契約の透明性を高めるべきだ。",
+            "romaji": "Zuii keiyaku no tōmeisei o takameru beki da.",
+            "german": "Die Transparenz der freihändigen Vergabe sollte erhöht werden."
+          },
+          {
+            "japanese": "その工事は入札を行わず、随意契約で発注された。",
+            "romaji": "Sono kōji wa nyūsatsu o okonawazu, zuii keiyaku de hatchū sareta.",
+            "german": "Der Bauauftrag wurde ohne Ausschreibung freihändig vergeben."
+          },
+          {
+            "japanese": "少額の購入なら、随意契約が認められている。",
+            "romaji": "Shōgaku no kōnyū nara, zuii keiyaku ga mitomerarete iru.",
+            "german": "Bei Beschaffungen mit geringem Wert ist eine Direktvergabe zulässig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2224450 sense 1, noun: private contract, negotiated contract (without competitive bidding) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 随意契約 ist ein Begriff aus dem öffentlichen Beschaffungswesen: Eine Behörde vergibt einen Auftrag ohne Ausschreibung direkt an einen ausgewählten Partner; 随意 bedeutet „nach Belieben“. Das Gegenstück ist 競争入札 bzw. 一般競争入札 „öffentliche Ausschreibung“. Typisch sind 随意契約を結ぶ und 随意契約で発注する; in Nachrichten taucht es oft im Zusammenhang mit mangelnder Transparenz auf. Kurzform im Behördenjargon: 随契. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2224450; spelling=随意契約; reading=ずいいけいやく",
+          "selected": {
+            "sequence": "2224450",
+            "spelling": "随意契約",
+            "reading": "ずいいけいやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "private contract",
+                  "negotiated contract",
+                  "limited tender contract"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2224450 sense 1, noun: private contract, negotiated contract (without competitive bidding)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 随意契約/ずいいけいやく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%9A%8F%E6%84%8F%E5%A5%91%E7%B4%84",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 随意契約/ずいいけいやく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "freihändige Vergabe; direkte Auftragsvergabe. JMdict 2224450 sense 1, noun: private contract, negotiated contract (without competitive bidding)",
+        "japanese": "随意契約の透明性を高めるべきだ。 / その工事は入札を行わず、随意契約で発注された。 / 少額の購入なら、随意契約が認められている。",
+        "romanization": "zuii keiyaku; Zuii keiyaku no tōmeisei o takameru beki da. / Sono kōji wa nyūsatsu o okonawazu, zuii keiyaku de hatchū sareta. / Shōgaku no kōnyū nara, zuii keiyaku ga mitomerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Transparenz der freihändigen Vergabe sollte erhöht werden. / Der Bauauftrag wurde ohne Ausschreibung freihändig vergeben. / Bei Beschaffungen mit geringem Wert ist eine Direktvergabe zulässig.",
+        "contexts": [
+          "Call for transparency",
+          "Contract without tender",
+          "Small-value procurement rule"
+        ],
+        "lexical": "JMdict 2224450 sense 1, noun: private contract, negotiated contract (without competitive bidding)",
+        "register": "written / formal (public administration, law)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:621 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Call for transparency; Contract without tender; Small-value procurement rule), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7fad53323a0e369d3c920c648e84ef12c38154872da2f75a2b5a57ef465aeeec",
+        "approvalHash": "d9915b1d6d34d658fd63cb92de902067f612b1c2459b09de155bbd654d8a67ee"
+      }
+    },
+    {
+      "id": "vocab-n1:622",
+      "revisionId": "208b-n1-enrichment-vocab-n1-622",
+      "state": "accepted",
+      "predecessorHash": "0bf8cb102ea05bc960f83e9fb8d2fa3e909e64d724cb9e3c21dd6d74dd595589",
+      "originalHash": "0bf8cb102ea05bc960f83e9fb8d2fa3e909e64d724cb9e3c21dd6d74dd595589",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "代金引換で商品を配達する。",
+            "romaji": "Daikin hikikae de shōhin wo haitatsu suru.",
+            "german": "Die Ware wird per Nachnahme geliefert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "代金引換 ist die Zahlung per Nachnahme: Der Empfänger bezahlt die Ware bei der Lieferung an den Zusteller. Im Alltag sagt man fast immer kurz 代引き（だいびき）; 代金引換 steht eher in Bestellformularen und Geschäftsbedingungen. Typisch sind 代金引換で送る／支払う und 代金引換手数料 „Nachnahmegebühr“. Nicht verwechseln mit 着払い, bei dem der Empfänger nur die Versandkosten zahlt.",
+        "examples": [
+          {
+            "japanese": "代金引換で商品を配達する。",
+            "romaji": "Daikin hikikae de shōhin o haitatsu suru.",
+            "german": "Die Ware wird per Nachnahme geliefert."
+          },
+          {
+            "japanese": "支払い方法は、クレジットカードか代金引換を選べます。",
+            "romaji": "Shiharai hōhō wa, kurejitto kādo ka daikin hikikae o erabemasu.",
+            "german": "Als Zahlungsart können Sie Kreditkarte oder Nachnahme wählen."
+          },
+          {
+            "japanese": "代金引換の場合、別に手数料がかかります。",
+            "romaji": "Daikin hikikae no baai, betsu ni tesūryō ga kakarimasu.",
+            "german": "Bei Nachnahme fällt eine zusätzliche Gebühr an."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1411800 sense 1, noun: cash on delivery, COD Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 代金引換 ist die Zahlung per Nachnahme: Der Empfänger bezahlt die Ware bei der Lieferung an den Zusteller. Im Alltag sagt man fast immer kurz 代引き（だいびき）; 代金引換 steht eher in Bestellformularen und Geschäftsbedingungen. Typisch sind 代金引換で送る／支払う und 代金引換手数料 „Nachnahmegebühr“. Nicht verwechseln mit 着払い, bei dem der Empfänger nur die Versandkosten zahlt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1411800; spelling=代金引換; reading=だいきんひきかえ",
+          "selected": {
+            "sequence": "1411800",
+            "spelling": "代金引換",
+            "reading": "だいきんひきかえ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cash on delivery",
+                  "COD"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1411800 sense 1, noun: cash on delivery, COD"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 代金引換/だいきんひきかえ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BB%A3%E9%87%91%E5%BC%95%E6%8F%9B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 代金引換/だいきんひきかえ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nachnahme. JMdict 1411800 sense 1, noun: cash on delivery, COD",
+        "japanese": "代金引換で商品を配達する。 / 支払い方法は、クレジットカードか代金引換を選べます。 / 代金引換の場合、別に手数料がかかります。",
+        "romanization": "daikin hikikae; Daikin hikikae de shōhin o haitatsu suru. / Shiharai hōhō wa, kurejitto kādo ka daikin hikikae o erabemasu. / Daikin hikikae no baai, betsu ni tesūryō ga kakarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Ware wird per Nachnahme geliefert. / Als Zahlungsart können Sie Kreditkarte oder Nachnahme wählen. / Bei Nachnahme fällt eine zusätzliche Gebühr an.",
+        "contexts": [
+          "Delivery terms",
+          "Online checkout options",
+          "Extra fee notice"
+        ],
+        "lexical": "JMdict 1411800 sense 1, noun: cash on delivery, COD",
+        "register": "neutral; written in order forms (colloquial short form 代引き)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:622 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Delivery terms; Online checkout options; Extra fee notice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "30a0450e21420e3f80a561cd2442d847c3f9cd2dc6cb659876a368e56a755df9",
+        "approvalHash": "6da5fde8a80005158ffd55d598824a3fa43c20d60dede63c29ceb3bddd21765e"
+      }
+    },
+    {
+      "id": "vocab-n1:623",
+      "revisionId": "208b-n1-enrichment-vocab-n1-623",
+      "state": "accepted",
+      "predecessorHash": "d16ce6808fa27c1ada52f2f76e987200db3fffe95b771ce803cc40bdd1272f0d",
+      "originalHash": "d16ce6808fa27c1ada52f2f76e987200db3fffe95b771ce803cc40bdd1272f0d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "掛け売りの回収率が低下している。",
+            "romaji": "Kakeuri no kaishūritsu ga teika shite iru.",
+            "german": "Die Einziehungsrate bei Kreditverkäufen sinkt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "掛け売り ist der Verkauf auf Kredit bzw. „auf Ziel“: Der Kunde nimmt die Ware gleich mit und zahlt später, etwa am Monatsende. 掛け steht hier für „Kredit, Anschreiben“; die offene Forderung heißt 売掛金, die Käuferseite 掛け買い. Gegenteil ist 現金売り „Barverkauf“. Auch 掛売り geschrieben; als する-Verb möglich (掛け売りする). Umgangssprachlich sagt man ツケで売る.",
+        "examples": [
+          {
+            "japanese": "掛け売りの回収率が低下している。",
+            "romaji": "Kakeuri no kaishūritsu ga teika shite iru.",
+            "german": "Die Einziehungsrate bei Kreditverkäufen sinkt."
+          },
+          {
+            "japanese": "昔の酒屋は、なじみの客に掛け売りをしていた。",
+            "romaji": "Mukashi no sakaya wa, najimi no kyaku ni kakeuri o shite ita.",
+            "german": "Früher verkauften Getränkehändler ihren Stammkunden auf Kredit."
+          },
+          {
+            "japanese": "当店では掛け売りはお断りしております。",
+            "romaji": "Tōten de wa kakeuri wa okotowari shite orimasu.",
+            "german": "In unserem Geschäft wird nicht angeschrieben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@91146900",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 掛け売り/カケウリ; lemma 掛け売り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "掛け売り",
+              "reading": "かけうり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 掛け売り/かけうり \"Verkauf auf Kredit; Zielverkauf\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1207660 sense 1, noun / suru verb: selling on credit Pitch: Verified [0] via exact UniDic row. 掛け売り ist der Verkauf auf Kredit bzw. „auf Ziel“: Der Kunde nimmt die Ware gleich mit und zahlt später, etwa am Monatsende. 掛け steht hier für „Kredit, Anschreiben“; die offene Forderung heißt 売掛金, die Käuferseite 掛け買い. Gegenteil ist 現金売り „Barverkauf“. Auch 掛売り geschrieben; als する-Verb möglich (掛け売りする). Umgangssprachlich sagt man ツケで売る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1207660; spelling=掛け売り; reading=かけうり",
+          "selected": {
+            "sequence": "1207660",
+            "spelling": "掛け売り",
+            "reading": "かけうり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "selling on credit"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1207660 sense 1, noun / suru verb: selling on credit"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 掛け売り/カケウリ; lemma 掛け売り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@91146900",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 掛け売り/カケウリ; lemma 掛け売り; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "掛け売り",
+              "reading": "かけうり",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 掛け売り/かけうり \"Verkauf auf Kredit; Zielverkauf\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verkauf auf Kredit; Zielverkauf. JMdict 1207660 sense 1, noun / suru verb: selling on credit",
+        "japanese": "掛け売りの回収率が低下している。 / 昔の酒屋は、なじみの客に掛け売りをしていた。 / 当店では掛け売りはお断りしております。",
+        "romanization": "kakeuri; Kakeuri no kaishūritsu ga teika shite iru. / Mukashi no sakaya wa, najimi no kyaku ni kakeuri o shite ita. / Tōten de wa kakeuri wa okotowari shite orimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Einziehungsrate bei Kreditverkäufen sinkt. / Früher verkauften Getränkehändler ihren Stammkunden auf Kredit. / In unserem Geschäft wird nicht angeschrieben.",
+        "contexts": [
+          "Accounts receivable problem",
+          "Old neighbourhood shop",
+          "Shop policy notice"
+        ],
+        "lexical": "JMdict 1207660 sense 1, noun / suru verb: selling on credit",
+        "register": "neutral; somewhat old-fashioned / business",
+        "transitivity": "Nonverb (as 掛け売りする transitive: goods を)",
+        "conjugation": "noun; suru verb (掛け売りする)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:623 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Accounts receivable problem; Old neighbourhood shop; Shop policy notice), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a0a644bbb48a53416e8518cfb8216ba4a792036ac0ddbde74020700b321c283e",
+        "approvalHash": "29cc33f49e487400723f6fcad7b707a175765b453dd65621b23b5771f30a4b9d"
+      }
+    },
+    {
+      "id": "vocab-n1:624",
+      "revisionId": "208b-n1-enrichment-vocab-n1-624",
+      "state": "accepted",
+      "predecessorHash": "663138f6df94cdbb9d0e46afe332e464026ed9dae13b284c34fa2111445c2a0d",
+      "originalHash": "663138f6df94cdbb9d0e46afe332e464026ed9dae13b284c34fa2111445c2a0d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "初回取引は前払いをお願いしている。",
+            "romaji": "Shokai torihiki wa maebarai wo onegai shite iru.",
+            "german": "Bei der ersten Transaktion bitten wir um Vorkasse."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "前払い ist die Zahlung im Voraus, bevor eine Ware geliefert oder eine Leistung erbracht wird; Gegenteil ist 後払い. Als する-Verb: 授業料を前払いする. Feste Verbindungen sind 前払い金 „Anzahlung, Vorschuss“, 前払い制 und 前払いをお願いする. In formellen Texten steht auch 前納. Beim Gehalt spricht man vom 給料の前払い „Gehaltsvorschuss“.",
+        "examples": [
+          {
+            "japanese": "初回取引は前払いをお願いしている。",
+            "romaji": "Shokai torihiki wa maebarai o onegai shite iru.",
+            "german": "Bei der ersten Transaktion bitten wir um Vorkasse."
+          },
+          {
+            "japanese": "この語学学校では、授業料を三か月分前払いする。",
+            "romaji": "Kono gogaku gakkō de wa, jugyōryō o sankagetsu-bun maebarai suru.",
+            "german": "An dieser Sprachschule zahlt man die Gebühren für drei Monate im Voraus."
+          },
+          {
+            "japanese": "給料の一部を前払いしてもらえないか、社長に頼んだ。",
+            "romaji": "Kyūryō no ichibu o maebarai shite moraenai ka, shachō ni tanonda.",
+            "german": "Ich habe den Chef gebeten, mir einen Teil des Gehalts vorzuschießen."
+          }
+        ],
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247617017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 前払い/マエバライ; lemma 前払い; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "前払い",
+              "reading": "まえばらい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 前払い/まえばらい \"Vorauszahlung; Vorkasse\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1603800 sense 1, noun / suru verb: payment in advance, prepayment Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 前払い ist die Zahlung im Voraus, bevor eine Ware geliefert oder eine Leistung erbracht wird; Gegenteil ist 後払い. Als する-Verb: 授業料を前払いする. Feste Verbindungen sind 前払い金 „Anzahlung, Vorschuss“, 前払い制 und 前払いをお願いする. In formellen Texten steht auch 前納. Beim Gehalt spricht man vom 給料の前払い „Gehaltsvorschuss“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1603800; spelling=前払い; reading=まえばらい",
+          "selected": {
+            "sequence": "1603800",
+            "spelling": "前払い",
+            "reading": "まえばらい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "payment in advance",
+                  "advance payment",
+                  "prepayment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1603800 sense 1, noun / suru verb: payment in advance, prepayment"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 前払い/マエバライ; lemma 前払い; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@247617017",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 前払い/マエバライ; lemma 前払い; 名詞/普通名詞/サ変可能/*; *; *; aType 3.",
+            "match": {
+              "word": "前払い",
+              "reading": "まえばらい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 前払い/まえばらい \"Vorauszahlung; Vorkasse\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorauszahlung; Vorkasse. JMdict 1603800 sense 1, noun / suru verb: payment in advance, prepayment",
+        "japanese": "初回取引は前払いをお願いしている。 / この語学学校では、授業料を三か月分前払いする。 / 給料の一部を前払いしてもらえないか、社長に頼んだ。",
+        "romanization": "maebarai; Shokai torihiki wa maebarai o onegai shite iru. / Kono gogaku gakkō de wa, jugyōryō o sankagetsu-bun maebarai suru. / Kyūryō no ichibu o maebarai shite moraenai ka, shachō ni tanonda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei der ersten Transaktion bitten wir um Vorkasse. / An dieser Sprachschule zahlt man die Gebühren für drei Monate im Voraus. / Ich habe den Chef gebeten, mir einen Teil des Gehalts vorzuschießen.",
+        "contexts": [
+          "New business partner",
+          "School fees",
+          "Asking for a salary advance"
+        ],
+        "lexical": "JMdict 1603800 sense 1, noun / suru verb: payment in advance, prepayment",
+        "register": "neutral",
+        "transitivity": "Nonverb (as 前払いする transitive: amount を)",
+        "conjugation": "noun; suru verb (前払いする)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:624 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New business partner; School fees; Asking for a salary advance), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "0fc923b1f4ea7e5bb4b600e0702dc765e2e5f0f2685bb1fb8b872f53d5831e0f",
+        "approvalHash": "2ef6abcdce6db9f7e7552401563eb191374269f17a050ffb323f7de65722d21a"
+      }
+    },
+    {
+      "id": "vocab-n1:625",
+      "revisionId": "208b-n1-enrichment-vocab-n1-625",
+      "state": "accepted",
+      "predecessorHash": "6e3ede7eec188ccb8f50f9dacd21ebf6fe9c9e08d63fef2aa2b8cfc403f2b549",
+      "originalHash": "6e3ede7eec188ccb8f50f9dacd21ebf6fe9c9e08d63fef2aa2b8cfc403f2b549",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "後払い方式の決済サービスが普及している。",
+            "romaji": "Atobarai hōshiki no kessai sābisu ga fukyū shite iru.",
+            "german": "Zahlungsdienste mit nachträglicher Bezahlung verbreiten sich."
+          }
+        ],
+        "meaning": "Nachzahlung; Zahlung nach Lieferung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "後払い bedeutet, erst nach Erhalt der Ware oder Leistung zu bezahlen; Gegenteil ist 前払い. Heute begegnet es vor allem beim Onlinekauf: 後払い決済 „Bezahlung nach Erhalt“ (auch „Buy now, pay later“), コンビニ後払い. Als する-Verb möglich (後払いする), häufiger aber 後払いで払う／後払いにする. Das deutsche „Nachzahlung“ im Sinne einer zusätzlichen Zahlung heißt dagegen 追加払い oder 追徴.",
+        "examples": [
+          {
+            "japanese": "後払い方式の決済サービスが普及している。",
+            "romaji": "Atobarai hōshiki no kessai sābisu ga fukyū shite iru.",
+            "german": "Zahlungsdienste mit nachträglicher Bezahlung verbreiten sich."
+          },
+          {
+            "japanese": "通販で、商品が届いてから払える後払いを選んだ。",
+            "romaji": "Tsūhan de, shōhin ga todoite kara haraeru atobarai o eranda.",
+            "german": "Beim Onlinekauf habe ich die Option gewählt, erst nach Lieferung zu bezahlen."
+          },
+          {
+            "japanese": "修理代は後払いで結構です。",
+            "romaji": "Shūridai wa atobarai de kekkō desu.",
+            "german": "Die Reparatur können Sie auch hinterher bezahlen."
+          }
+        ],
+        "meaning": "nachträgliche Zahlung; Zahlung nach Erhalt; Kauf auf Rechnung",
+        "pitch": 3,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44973112",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 後払い/アトバライ; lemma 後払い; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "後払い",
+              "reading": "あとばらい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 後払い/あとばらい \"Nachzahlung; Zahlung nach Lieferung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1270070 sense 1, noun / suru verb: deferred payment, paying afterwards Pitch: Verified [3] via exact UniDic row; stored primary 0 corrected to 3. 後払い bedeutet, erst nach Erhalt der Ware oder Leistung zu bezahlen; Gegenteil ist 前払い. Heute begegnet es vor allem beim Onlinekauf: 後払い決済 „Bezahlung nach Erhalt“ (auch „Buy now, pay later“), コンビニ後払い. Als する-Verb möglich (後払いする), häufiger aber 後払いで払う／後払いにする. Das deutsche „Nachzahlung“ im Sinne einer zusätzlichen Zahlung heißt dagegen 追加払い oder 追徴. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270070; spelling=後払い; reading=あとばらい",
+          "selected": {
+            "sequence": "1270070",
+            "spelling": "後払い",
+            "reading": "あとばらい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "deferred payment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1270070 sense 1, noun / suru verb: deferred payment, paying afterwards"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 後払い/アトバライ; lemma 後払い; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@44973112",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 後払い/アトバライ; lemma 後払い; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "後払い",
+              "reading": "あとばらい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 後払い/あとばらい \"Nachzahlung; Zahlung nach Lieferung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "nachträgliche Zahlung; Zahlung nach Erhalt; Kauf auf Rechnung. JMdict 1270070 sense 1, noun / suru verb: deferred payment, paying afterwards",
+        "japanese": "後払い方式の決済サービスが普及している。 / 通販で、商品が届いてから払える後払いを選んだ。 / 修理代は後払いで結構です。",
+        "romanization": "atobarai; Atobarai hōshiki no kessai sābisu ga fukyū shite iru. / Tsūhan de, shōhin ga todoite kara haraeru atobarai o eranda. / Shūridai wa atobarai de kekkō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zahlungsdienste mit nachträglicher Bezahlung verbreiten sich. / Beim Onlinekauf habe ich die Option gewählt, erst nach Lieferung zu bezahlen. / Die Reparatur können Sie auch hinterher bezahlen.",
+        "contexts": [
+          "Fintech trend",
+          "Online shopping checkout",
+          "Repair shop counter"
+        ],
+        "lexical": "JMdict 1270070 sense 1, noun / suru verb: deferred payment, paying afterwards",
+        "register": "neutral",
+        "transitivity": "Nonverb (as 後払いする transitive: amount を)",
+        "conjugation": "noun; suru verb (後払いする)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:625 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Fintech trend; Online shopping checkout; Repair shop counter), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c85821441b6803a71a22ca1e1309c7f2de2dcc91775148c71feee1c4a6b76c54",
+        "approvalHash": "f8651d534a23cf7ef5b4f093d7695a55929f035c34c671c2f801a2695b331b9d"
+      }
+    },
+    {
+      "id": "vocab-n1:626",
+      "revisionId": "208b-n1-enrichment-vocab-n1-626",
+      "state": "accepted",
+      "predecessorHash": "bbde7cd1941dbfddf2bac6d22ac7e453009455384d2aa4192a86321baf82c2b2",
+      "originalHash": "bbde7cd1941dbfddf2bac6d22ac7e453009455384d2aa4192a86321baf82c2b2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高額商品は分割払いで購入できる。",
+            "romaji": "Kōgaku shōhin wa bunkatsu barai de kōnyū dekiru.",
+            "german": "Teure Produkte können in Ratenzahlung erworben werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "分割払い ist die Zahlung in Raten; Gegenteil ist 一括払い. Typisch sind 分割払いで買う, 分割払いにする und Angaben wie 12回の分割払い „in zwölf Raten“; kürzer sagt man auch 分割で払う. Bei Kreditkarten wird an der Kasse zwischen 一回払い, 分割払い und リボ払い (revolvierende Zahlung) gewählt. Ratenzahlungen sind oft mit Gebühren (手数料) verbunden.",
+        "examples": [
+          {
+            "japanese": "高額商品は分割払いで購入できる。",
+            "romaji": "Kōgaku shōhin wa bunkatsu barai de kōnyū dekiru.",
+            "german": "Teure Artikel kann man auch auf Raten kaufen."
+          },
+          {
+            "japanese": "パソコンを12回の分割払いで買った。",
+            "romaji": "Pasokon o jūni-kai no bunkatsu barai de katta.",
+            "german": "Ich habe den Computer in zwölf Raten abbezahlt."
+          },
+          {
+            "japanese": "分割払いにすると、手数料がかかることがある。",
+            "romaji": "Bunkatsu barai ni suru to, tesūryō ga kakaru koto ga aru.",
+            "german": "Wenn man in Raten zahlt, können Gebühren anfallen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1503300 sense 1, noun: payment by instalments Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 分割払い ist die Zahlung in Raten; Gegenteil ist 一括払い. Typisch sind 分割払いで買う, 分割払いにする und Angaben wie 12回の分割払い „in zwölf Raten“; kürzer sagt man auch 分割で払う. Bei Kreditkarten wird an der Kasse zwischen 一回払い, 分割払い und リボ払い (revolvierende Zahlung) gewählt. Ratenzahlungen sind oft mit Gebühren (手数料) verbunden. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1503300; spelling=分割払い; reading=ぶんかつばらい",
+          "selected": {
+            "sequence": "1503300",
+            "spelling": "分割払い",
+            "reading": "ぶんかつばらい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "payment by installments",
+                  "payment by instalments",
+                  "hire-purchase"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1503300 sense 1, noun: payment by instalments"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 分割払い/ぶんかつばらい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%88%86%E5%89%B2%E6%89%95%E3%81%84",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 分割払い/ぶんかつばらい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ratenzahlung. JMdict 1503300 sense 1, noun: payment by instalments",
+        "japanese": "高額商品は分割払いで購入できる。 / パソコンを12回の分割払いで買った。 / 分割払いにすると、手数料がかかることがある。",
+        "romanization": "bunkatsu barai; Kōgaku shōhin wa bunkatsu barai de kōnyū dekiru. / Pasokon o jūni-kai no bunkatsu barai de katta. / Bunkatsu barai ni suru to, tesūryō ga kakaru koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Teure Artikel kann man auch auf Raten kaufen. / Ich habe den Computer in zwölf Raten abbezahlt. / Wenn man in Raten zahlt, können Gebühren anfallen.",
+        "contexts": [
+          "Shop payment options",
+          "Buying a computer",
+          "Hidden fees warning"
+        ],
+        "lexical": "JMdict 1503300 sense 1, noun: payment by instalments",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:626 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Shop payment options; Buying a computer; Hidden fees warning), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f971a0921ac7405f2c712f8585140d51608d6968e971fec24432e22606e2fba0",
+        "approvalHash": "da8cd3be61a01c3d12a47bc154c0a89c918989979da5d3dcf92b80b768a732a0"
+      }
+    },
+    {
+      "id": "vocab-n1:627",
+      "revisionId": "208b-n1-enrichment-vocab-n1-627",
+      "state": "accepted",
+      "predecessorHash": "f633ba909d954339c9aa951480c1bafa4d8daab0293052d41f268b359ac86e7c",
+      "originalHash": "f633ba909d954339c9aa951480c1bafa4d8daab0293052d41f268b359ac86e7c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "一括払いの場合は割引が適用される。",
+            "romaji": "Ikkatsu barai no baai wa waribiki ga tekiyō sareru.",
+            "german": "Bei Einmalzahlung wird ein Rabatt gewährt."
+          }
+        ],
+        "meaning": "Einmalzahlung; Sofortzahlung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "一括払い bedeutet, den gesamten Betrag auf einmal zu bezahlen; Gegenteil ist 分割払い. Bei Kreditkarten heißt es auch 一回払い: Der Betrag wird mit der nächsten Abrechnung vollständig belastet, also nicht unbedingt „sofort“ bezahlt. Typisch sind 一括払いで買う／支払う und 一括払いにする. 一括 allein heißt „zusammengefasst, in einem Stück“ (一括購入, 一括処理).",
+        "examples": [
+          {
+            "japanese": "一括払いの場合は割引が適用される。",
+            "romaji": "Ikkatsu barai no baai wa waribiki ga tekiyō sareru.",
+            "german": "Bei Einmalzahlung wird ein Rabatt gewährt."
+          },
+          {
+            "japanese": "「お支払いは一括払いでよろしいですか。」",
+            "romaji": "\"Oshiharai wa ikkatsu barai de yoroshii desu ka.\"",
+            "german": "„Möchten Sie den Betrag in einer Summe bezahlen?“"
+          },
+          {
+            "japanese": "車を一括払いで買うほどの貯金はない。",
+            "romaji": "Kuruma o ikkatsu barai de kau hodo no chokin wa nai.",
+            "german": "So viel Erspartes, dass ich das Auto auf einen Schlag bezahlen könnte, habe ich nicht."
+          }
+        ],
+        "meaning": "Einmalzahlung; Zahlung in einer Summe",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2005920 sense 1, noun: lump-sum payment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 一括払い bedeutet, den gesamten Betrag auf einmal zu bezahlen; Gegenteil ist 分割払い. Bei Kreditkarten heißt es auch 一回払い: Der Betrag wird mit der nächsten Abrechnung vollständig belastet, also nicht unbedingt „sofort“ bezahlt. Typisch sind 一括払いで買う／支払う und 一括払いにする. 一括 allein heißt „zusammengefasst, in einem Stück“ (一括購入, 一括処理). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2005920; spelling=一括払い; reading=いっかつばらい",
+          "selected": {
+            "sequence": "2005920",
+            "spelling": "一括払い",
+            "reading": "いっかつばらい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lump-sum payment",
+                  "paying the entire sum in one transaction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2005920 sense 1, noun: lump-sum payment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 一括払い/いっかつばらい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%80%E6%8B%AC%E6%89%95%E3%81%84",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 一括払い/いっかつばらい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Einmalzahlung; Zahlung in einer Summe. JMdict 2005920 sense 1, noun: lump-sum payment",
+        "japanese": "一括払いの場合は割引が適用される。 / 「お支払いは一括払いでよろしいですか。」 / 車を一括払いで買うほどの貯金はない。",
+        "romanization": "ikkatsu barai; Ikkatsu barai no baai wa waribiki ga tekiyō sareru. / \"Oshiharai wa ikkatsu barai de yoroshii desu ka.\" / Kuruma o ikkatsu barai de kau hodo no chokin wa nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei Einmalzahlung wird ein Rabatt gewährt. / „Möchten Sie den Betrag in einer Summe bezahlen?“ / So viel Erspartes, dass ich das Auto auf einen Schlag bezahlen könnte, habe ich nicht.",
+        "contexts": [
+          "Discount condition",
+          "Card payment at the till",
+          "Buying a car"
+        ],
+        "lexical": "JMdict 2005920 sense 1, noun: lump-sum payment",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:627 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Discount condition; Card payment at the till; Buying a car), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7613b6612cdfbcf9afb495d30aaf68b29b8ff5d8e20b71dc3cd430d144d2eeed",
+        "approvalHash": "5299db5789a76e04136c20c04a22d74144174487b054d1a5b806c41d4fff230c"
+      }
+    },
+    {
+      "id": "vocab-n1:628",
+      "revisionId": "208b-n1-enrichment-vocab-n1-628",
+      "state": "accepted",
+      "predecessorHash": "9f7dd33cfa3d3853a378e6bb0e1703bb964c672bb986ec5884342d5959c2f164",
+      "originalHash": "9f7dd33cfa3d3853a378e6bb0e1703bb964c672bb986ec5884342d5959c2f164",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不動産の仲介手数料は法律で上限が定められている。",
+            "romaji": "Fudōsan no chūkai tesūryō wa hōritsu de jōgen ga sadamerarete iru.",
+            "german": "Die Maklerprovision für Immobilien ist gesetzlich gedeckelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "仲介手数料 ist die Gebühr, die ein Vermittler für das Zustandekommen eines Geschäfts erhält, am häufigsten die Maklerprovision bei Miete oder Kauf von Immobilien. Bei Mietwohnungen ist sie in Japan gesetzlich auf eine Monatsmiete (zuzüglich Steuer) begrenzt. Typisch sind 仲介手数料を払う, がかかる und 仲介手数料無料 „provisionsfrei“. 仲介 bedeutet „Vermittlung“, 手数料 „Gebühr“.",
+        "examples": [
+          {
+            "japanese": "不動産の仲介手数料は法律で上限が定められている。",
+            "romaji": "Fudōsan no chūkai tesūryō wa hōritsu de jōgen ga sadamerarete iru.",
+            "german": "Die Maklerprovision für Immobilien ist gesetzlich gedeckelt."
+          },
+          {
+            "japanese": "部屋を借りるとき、家賃一か月分の仲介手数料を払った。",
+            "romaji": "Heya o kariru toki, yachin ikkagetsu-bun no chūkai tesūryō o haratta.",
+            "german": "Als ich die Wohnung mietete, zahlte ich eine Maklerprovision in Höhe einer Monatsmiete."
+          },
+          {
+            "japanese": "このサイトは仲介手数料が無料なので人気がある。",
+            "romaji": "Kono saito wa chūkai tesūryō ga muryō na node ninki ga aru.",
+            "german": "Diese Plattform ist beliebt, weil keine Vermittlungsgebühr anfällt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2855060 sense 1, noun: brokerage fee, agency fee Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 仲介手数料 ist die Gebühr, die ein Vermittler für das Zustandekommen eines Geschäfts erhält, am häufigsten die Maklerprovision bei Miete oder Kauf von Immobilien. Bei Mietwohnungen ist sie in Japan gesetzlich auf eine Monatsmiete (zuzüglich Steuer) begrenzt. Typisch sind 仲介手数料を払う, がかかる und 仲介手数料無料 „provisionsfrei“. 仲介 bedeutet „Vermittlung“, 手数料 „Gebühr“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2855060; spelling=仲介手数料; reading=ちゅうかいてすうりょう",
+          "selected": {
+            "sequence": "2855060",
+            "spelling": "仲介手数料",
+            "reading": "ちゅうかいてすうりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "brokerage fee",
+                  "agency fee",
+                  "brokerage commission"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2855060 sense 1, noun: brokerage fee, agency fee"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 仲介手数料/ちゅうかいてすうりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BB%B2%E4%BB%8B%E6%89%8B%E6%95%B0%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 仲介手数料/ちゅうかいてすうりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vermittlungsgebühr; Maklergebühr. JMdict 2855060 sense 1, noun: brokerage fee, agency fee",
+        "japanese": "不動産の仲介手数料は法律で上限が定められている。 / 部屋を借りるとき、家賃一か月分の仲介手数料を払った。 / このサイトは仲介手数料が無料なので人気がある。",
+        "romanization": "chūkai tesūryō; Fudōsan no chūkai tesūryō wa hōritsu de jōgen ga sadamerarete iru. / Heya o kariru toki, yachin ikkagetsu-bun no chūkai tesūryō o haratta. / Kono saito wa chūkai tesūryō ga muryō na node ninki ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Maklerprovision für Immobilien ist gesetzlich gedeckelt. / Als ich die Wohnung mietete, zahlte ich eine Maklerprovision in Höhe einer Monatsmiete. / Diese Plattform ist beliebt, weil keine Vermittlungsgebühr anfällt.",
+        "contexts": [
+          "Legal fee cap",
+          "Renting a flat",
+          "Online marketplace"
+        ],
+        "lexical": "JMdict 2855060 sense 1, noun: brokerage fee, agency fee",
+        "register": "neutral; business / real estate",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:628 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Legal fee cap; Renting a flat; Online marketplace), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "396e6da31365217acb328c1a8b2ea7b3f5347ce5ac33dbb223f244139d555a24",
+        "approvalHash": "adead5ba4a46b9f8dd12896a359bc43825594aacc656562ea03493eca31b150d"
+      }
+    },
+    {
+      "id": "vocab-n1:629",
+      "revisionId": "208b-n1-enrichment-vocab-n1-629",
+      "state": "accepted",
+      "predecessorHash": "75ba33dcf386a7245a6652e1c582d2b506465e8fb2ccd7bf59277790f31bc164",
+      "originalHash": "75ba33dcf386a7245a6652e1c582d2b506465e8fb2ccd7bf59277790f31bc164",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "倉庫の保管料が上昇し、コスト増の要因となっている。",
+            "romaji": "Sōko no hokanryō ga jōshō shi, kosuto zō no yōin to natte iru.",
+            "german": "Die Lagergebühren steigen und werden zum Faktor für Kostensteigerungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "保管料 ist die Gebühr für die Aufbewahrung von Gegenständen, etwa Waren im Lager, Gepäck, Fahrzeuge oder Dokumente; -料 bildet wie in 使用料 oder 入場料 Gebührenwörter. Typisch sind 保管料がかかる „fällt an“, 保管料を払う／請求する. Im Lagerwesen steht es neben 荷役料 „Umschlaggebühr“. Das Verb dazu ist 保管する „verwahren, lagern“.",
+        "examples": [
+          {
+            "japanese": "倉庫の保管料が上昇し、コスト増の要因となっている。",
+            "romaji": "Sōko no hokanryō ga jōshō shi, kosuto zō no yōin to natte iru.",
+            "german": "Die Lagergebühren steigen und werden zum Faktor für Kostensteigerungen."
+          },
+          {
+            "japanese": "荷物を一週間預けたら、保管料を請求された。",
+            "romaji": "Nimotsu o isshūkan azuketara, hokanryō o seikyū sareta.",
+            "german": "Als ich mein Gepäck eine Woche lang aufbewahren ließ, wurde mir eine Aufbewahrungsgebühr berechnet."
+          },
+          {
+            "japanese": "引き取りが遅れると、一日ごとに保管料がかかります。",
+            "romaji": "Hikitori ga okureru to, ichinichi goto ni hokanryō ga kakarimasu.",
+            "german": "Bei verspäteter Abholung fällt pro Tag eine Lagergebühr an."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1513380 sense 1, noun: custody fee, storage charge Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 保管料 ist die Gebühr für die Aufbewahrung von Gegenständen, etwa Waren im Lager, Gepäck, Fahrzeuge oder Dokumente; -料 bildet wie in 使用料 oder 入場料 Gebührenwörter. Typisch sind 保管料がかかる „fällt an“, 保管料を払う／請求する. Im Lagerwesen steht es neben 荷役料 „Umschlaggebühr“. Das Verb dazu ist 保管する „verwahren, lagern“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1513380; spelling=保管料; reading=ほかんりょう",
+          "selected": {
+            "sequence": "1513380",
+            "spelling": "保管料",
+            "reading": "ほかんりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "custody fee",
+                  "storage charge"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1513380 sense 1, noun: custody fee, storage charge"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 保管料/ほかんりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BF%9D%E7%AE%A1%E6%96%99",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 保管料/ほかんりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lagergebühr. JMdict 1513380 sense 1, noun: custody fee, storage charge",
+        "japanese": "倉庫の保管料が上昇し、コスト増の要因となっている。 / 荷物を一週間預けたら、保管料を請求された。 / 引き取りが遅れると、一日ごとに保管料がかかります。",
+        "romanization": "hokanryō; Sōko no hokanryō ga jōshō shi, kosuto zō no yōin to natte iru. / Nimotsu o isshūkan azuketara, hokanryō o seikyū sareta. / Hikitori ga okureru to, ichinichi goto ni hokanryō ga kakarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Lagergebühren steigen und werden zum Faktor für Kostensteigerungen. / Als ich mein Gepäck eine Woche lang aufbewahren ließ, wurde mir eine Aufbewahrungsgebühr berechnet. / Bei verspäteter Abholung fällt pro Tag eine Lagergebühr an.",
+        "contexts": [
+          "Rising logistics costs",
+          "Left-luggage bill",
+          "Late pickup notice"
+        ],
+        "lexical": "JMdict 1513380 sense 1, noun: custody fee, storage charge",
+        "register": "neutral; business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:629 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Rising logistics costs; Left-luggage bill; Late pickup notice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5b2c9fb4b15b2051790f7a3ff3b685e603b54825f30028170729b13b32e999ab",
+        "approvalHash": "53f526590767ad0d0d069246f878b26bb7a2e4239b7154a2ed45853509fbee88"
+      }
+    },
+    {
+      "id": "vocab-n1:630",
+      "revisionId": "208b-n1-enrichment-vocab-n1-630",
+      "state": "accepted",
+      "predecessorHash": "d66dc40574222cd7e64baf6ef48a92763c35f7621688e2dccf5bedc4a6736595",
+      "originalHash": "d66dc40574222cd7e64baf6ef48a92763c35f7621688e2dccf5bedc4a6736595",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "港湾の荷役作業が自動化されている。",
+            "romaji": "Kōwan no niyaku sagyō ga jidōka sarete iru.",
+            "german": "Die Umschlagsarbeiten im Hafen werden automatisiert."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "荷役 ist das Be- und Entladen von Fracht, besonders in Häfen, auf Schiffen und in Lagern; man liest にやく. Typisch sind 荷役作業 „Umschlagsarbeiten“, 荷役業者, 荷役機械 und 荷役を行う. Als intransitives する-Verb (荷役する) ist es selten. Nicht verwechseln mit 荷造り „Packen“ oder 荷物 „Gepäck“; 荷役 ist ein Fachwort aus Logistik und Seefahrt.",
+        "examples": [
+          {
+            "japanese": "港湾の荷役作業が自動化されている。",
+            "romaji": "Kōwan no niyaku sagyō ga jidōka sarete iru.",
+            "german": "Die Umschlagsarbeiten im Hafen werden automatisiert."
+          },
+          {
+            "japanese": "台風の影響で、港の荷役が一時止まった。",
+            "romaji": "Taifū no eikyō de, minato no niyaku ga ichiji tomatta.",
+            "german": "Wegen des Taifuns kam der Güterumschlag im Hafen vorübergehend zum Erliegen."
+          },
+          {
+            "japanese": "倉庫ではフォークリフトを使って荷役を行う。",
+            "romaji": "Sōko de wa fōkurifuto o tsukatte niyaku o okonau.",
+            "german": "Im Lager wird mit Gabelstaplern be- und entladen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202444658",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 荷役/ニヤク; lemma 荷役; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "荷役",
+              "reading": "にやく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 荷役/にやく \"Umschlag; Frachtumschlag\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1577350 sense 1, noun / suru verb (intransitive): cargo handling, loading and unloading Pitch: Verified [0,1] via exact UniDic row. 荷役 ist das Be- und Entladen von Fracht, besonders in Häfen, auf Schiffen und in Lagern; man liest にやく. Typisch sind 荷役作業 „Umschlagsarbeiten“, 荷役業者, 荷役機械 und 荷役を行う. Als intransitives する-Verb (荷役する) ist es selten. Nicht verwechseln mit 荷造り „Packen“ oder 荷物 „Gepäck“; 荷役 ist ein Fachwort aus Logistik und Seefahrt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1577350; spelling=荷役; reading=にやく",
+          "selected": {
+            "sequence": "1577350",
+            "spelling": "荷役",
+            "reading": "にやく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "handling cargo",
+                  "loading and unloading",
+                  "cargo work"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1577350 sense 1, noun / suru verb (intransitive): cargo handling, loading and unloading"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 荷役/ニヤク; lemma 荷役; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202444658",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 荷役/ニヤク; lemma 荷役; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "荷役",
+              "reading": "にやく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 荷役/にやく \"Umschlag; Frachtumschlag\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Umschlag; Frachtumschlag. JMdict 1577350 sense 1, noun / suru verb (intransitive): cargo handling, loading and unloading",
+        "japanese": "港湾の荷役作業が自動化されている。 / 台風の影響で、港の荷役が一時止まった。 / 倉庫ではフォークリフトを使って荷役を行う。",
+        "romanization": "niyaku; Kōwan no niyaku sagyō ga jidōka sarete iru. / Taifū no eikyō de, minato no niyaku ga ichiji tomatta. / Sōko de wa fōkurifuto o tsukatte niyaku o okonau. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Umschlagsarbeiten im Hafen werden automatisiert. / Wegen des Taifuns kam der Güterumschlag im Hafen vorübergehend zum Erliegen. / Im Lager wird mit Gabelstaplern be- und entladen.",
+        "contexts": [
+          "Port automation",
+          "Typhoon disruption",
+          "Warehouse work"
+        ],
+        "lexical": "JMdict 1577350 sense 1, noun / suru verb (intransitive): cargo handling, loading and unloading",
+        "register": "technical (logistics, shipping)",
+        "transitivity": "Nonverb (rarely 荷役する, intransitive)",
+        "conjugation": "Nonverb (noun; rarely suru verb)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:630 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Port automation; Typhoon disruption; Warehouse work), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "57b7d6f507b381c79f6cdfc7b214d590d6cbe3c9536fc878ddd370aa032e31d5",
+        "approvalHash": "e1988308404a7ac48685e589a5b637c3a8bd9ff8ca7bc147045a77e0690ec4dd"
+      }
+    },
+    {
+      "id": "vocab-n1:631",
+      "revisionId": "208b-n1-enrichment-vocab-n1-631",
+      "state": "accepted",
+      "predecessorHash": "8ed7a75bf9102b373fa43d83c126da8baacc084de6f0da1fc4bba44d57538ef9",
+      "originalHash": "8ed7a75bf9102b373fa43d83c126da8baacc084de6f0da1fc4bba44d57538ef9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "通関業者に輸入手続きを委託した。",
+            "romaji": "Tsūkan gyōsha ni yunyū tetsuzuki wo itaku shita.",
+            "german": "Die Einfuhrformalitäten wurden einem Zollspediteur übertragen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "通関業者 ist ein zugelassener Zolldienstleister, der im Auftrag von Importeuren und Exporteuren Zollanmeldungen und andere Formalitäten erledigt; oft sind es Speditionen. Die Zulassung regelt das 通関業法, die geprüfte Fachkraft im Betrieb heißt 通関士. Typisch sind 通関業者に依頼する／委託する. 通関 bedeutet „Zollabfertigung“, 業者 „Gewerbetreibender, Firma“.",
+        "examples": [
+          {
+            "japanese": "通関業者に輸入手続きを委託した。",
+            "romaji": "Tsūkan gyōsha ni yunyū tetsuzuki o itaku shita.",
+            "german": "Die Einfuhrformalitäten wurden einem Zollspediteur übertragen."
+          },
+          {
+            "japanese": "通関業者が書類を準備してくれたので、手続きはすぐ終わった。",
+            "romaji": "Tsūkan gyōsha ga shorui o junbi shite kureta node, tetsuzuki wa sugu owatta.",
+            "german": "Da der Zollagent die Unterlagen vorbereitet hatte, waren die Formalitäten schnell erledigt."
+          },
+          {
+            "japanese": "通関業者で働くなら、通関士の資格があると有利だ。",
+            "romaji": "Tsūkan gyōsha de hataraku nara, tsūkanshi no shikaku ga aru to yūri da.",
+            "german": "Wer bei einem Zolldienstleister arbeiten will, ist mit der Qualifikation als Zolldeklarant im Vorteil."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "Compound not in JMdict: JMdict 1433100 (通関 'customs clearance') + 業者 (1239440 'trader, company'): licensed customs broker Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 通関業者 ist ein zugelassener Zolldienstleister, der im Auftrag von Importeuren und Exporteuren Zollanmeldungen und andere Formalitäten erledigt; oft sind es Speditionen. Die Zulassung regelt das 通関業法, die geprüfte Fachkraft im Betrieb heißt 通関士. Typisch sind 通関業者に依頼する／委託する. 通関 bedeutet „Zollabfertigung“, 業者 „Gewerbetreibender, Firma“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=通関業者; reading=つうかんぎょうしゃ; no entry",
+          "finding": "Compound not in JMdict: JMdict 1433100 (通関 'customs clearance') + 業者 (1239440 'trader, company'): licensed customs broker"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 通関業者/つうかんぎょうしゃ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%80%9A%E9%96%A2%E6%A5%AD%E8%80%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 通関業者/つうかんぎょうしゃ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zollagent; Zollspediteur. Compound not in JMdict: JMdict 1433100 (通関 'customs clearance') + 業者 (1239440 'trader, company'): licensed customs broker",
+        "japanese": "通関業者に輸入手続きを委託した。 / 通関業者が書類を準備してくれたので、手続きはすぐ終わった。 / 通関業者で働くなら、通関士の資格があると有利だ。",
+        "romanization": "tsūkan gyōsha; Tsūkan gyōsha ni yunyū tetsuzuki o itaku shita. / Tsūkan gyōsha ga shorui o junbi shite kureta node, tetsuzuki wa sugu owatta. / Tsūkan gyōsha de hataraku nara, tsūkanshi no shikaku ga aru to yūri da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Einfuhrformalitäten wurden einem Zollspediteur übertragen. / Da der Zollagent die Unterlagen vorbereitet hatte, waren die Formalitäten schnell erledigt. / Wer bei einem Zolldienstleister arbeiten will, ist mit der Qualifikation als Zolldeklarant im Vorteil.",
+        "contexts": [
+          "Outsourcing import formalities",
+          "Smooth customs clearance",
+          "Career advice"
+        ],
+        "lexical": "Compound not in JMdict: JMdict 1433100 (通関 'customs clearance') + 業者 (1239440 'trader, company'): licensed customs broker",
+        "register": "written / formal (trade, logistics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:631 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Outsourcing import formalities; Smooth customs clearance; Career advice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "635437dfb11257e4c314685c569ad28575d05809c86853c8715f26b09af2fc26",
+        "approvalHash": "6eedb44870534c45b042e13dee56ec1a2a634db1b7a8ffa4c8e36c3794a5ccb2"
+      }
+    },
+    {
+      "id": "vocab-n1:632",
+      "revisionId": "208b-n1-enrichment-vocab-n1-632",
+      "state": "accepted",
+      "predecessorHash": "7d5b7b91e904c0fec322f88ac365fbc2ebca0aa9b542623a9c6a4136646c4439",
+      "originalHash": "7d5b7b91e904c0fec322f88ac365fbc2ebca0aa9b542623a9c6a4136646c4439",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "保税倉庫に貨物を一時的に保管する。",
+            "romaji": "Hozei sōko ni kamotsu wo ichijiteki ni hokan suru.",
+            "german": "Die Fracht wird vorübergehend im Zollfreilager gelagert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "保税倉庫 ist ein Zolllager, in dem importierte Waren unverzollt gelagert werden dürfen, bis sie eingeführt oder wieder ausgeführt werden; 保税 heißt „unter Zollverschluss, Zoll ausgesetzt“. Der Oberbegriff für solche Flächen ist 保税地域. Typisch sind 保税倉庫に保管する／搬入する. Fachwort aus Zollwesen und Logistik.",
+        "examples": [
+          {
+            "japanese": "保税倉庫に貨物を一時的に保管する。",
+            "romaji": "Hozei sōko ni kamotsu o ichijiteki ni hokan suru.",
+            "german": "Die Fracht wird vorübergehend im Zollfreilager gelagert."
+          },
+          {
+            "japanese": "輸入した貨物は、関税を払うまで保税倉庫に置かれる。",
+            "romaji": "Yunyū shita kamotsu wa, kanzei o harau made hozei sōko ni okareru.",
+            "german": "Importierte Fracht bleibt bis zur Zahlung des Zolls im Zolllager."
+          },
+          {
+            "japanese": "空港の保税倉庫で、ワインを関税なしで保管している。",
+            "romaji": "Kūkō no hozei sōko de, wain o kanzei nashi de hokan shite iru.",
+            "german": "Im Zolllager am Flughafen wird Wein unverzollt aufbewahrt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1513880 sense 1, noun: bonded warehouse Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 保税倉庫 ist ein Zolllager, in dem importierte Waren unverzollt gelagert werden dürfen, bis sie eingeführt oder wieder ausgeführt werden; 保税 heißt „unter Zollverschluss, Zoll ausgesetzt“. Der Oberbegriff für solche Flächen ist 保税地域. Typisch sind 保税倉庫に保管する／搬入する. Fachwort aus Zollwesen und Logistik. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1513880; spelling=保税倉庫; reading=ほぜいそうこ",
+          "selected": {
+            "sequence": "1513880",
+            "spelling": "保税倉庫",
+            "reading": "ほぜいそうこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bonded warehouse"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1513880 sense 1, noun: bonded warehouse"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 保税倉庫/ほぜいそうこ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BF%9D%E7%A8%8E%E5%80%89%E5%BA%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 保税倉庫/ほぜいそうこ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zollfreilager. JMdict 1513880 sense 1, noun: bonded warehouse",
+        "japanese": "保税倉庫に貨物を一時的に保管する。 / 輸入した貨物は、関税を払うまで保税倉庫に置かれる。 / 空港の保税倉庫で、ワインを関税なしで保管している。",
+        "romanization": "hozei sōko; Hozei sōko ni kamotsu o ichijiteki ni hokan suru. / Yunyū shita kamotsu wa, kanzei o harau made hozei sōko ni okareru. / Kūkō no hozei sōko de, wain o kanzei nashi de hokan shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Fracht wird vorübergehend im Zollfreilager gelagert. / Importierte Fracht bleibt bis zur Zahlung des Zolls im Zolllager. / Im Zolllager am Flughafen wird Wein unverzollt aufbewahrt.",
+        "contexts": [
+          "Temporary storage",
+          "Waiting for duty payment",
+          "Airport wine storage"
+        ],
+        "lexical": "JMdict 1513880 sense 1, noun: bonded warehouse",
+        "register": "technical (customs, logistics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:632 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Temporary storage; Waiting for duty payment; Airport wine storage), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f0d7370472ae46fb8bee7f5b86a2ce46eb9c073e495f150bf21fa0b85bdbef38",
+        "approvalHash": "54a9d7b32c4a10221f210fe2f078684b6dc67808667a54432080435925242204"
+      }
+    },
+    {
+      "id": "vocab-n1:633",
+      "revisionId": "208b-n1-enrichment-vocab-n1-633",
+      "state": "accepted",
+      "predecessorHash": "ef76fecf6dd73960444b6551a3c87d47b13210354315e90c631696f9b45081e4",
+      "originalHash": "ef76fecf6dd73960444b6551a3c87d47b13210354315e90c631696f9b45081e4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "自由貿易地域の設立により域内の貿易が活発化した。",
+            "romaji": "Jiyū bōeki chiiki no setsuritsu ni yori ikinai no bōeki ga kappatsuka shita.",
+            "german": "Durch die Einrichtung der Freihandelszone wurde der Handel innerhalb der Region belebt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "自由貿易地域 hat zwei Bedeutungen: eine Freihandelszone zwischen mehreren Staaten, die untereinander die Zölle abschaffen (ASEAN自由貿易地域), und ein ausgewiesenes Gebiet innerhalb eines Landes, in das Waren zollfrei eingeführt und dort verarbeitet werden dürfen (so in Okinawa). Anders als bei einem 関税同盟 behält in einer Freihandelszone jedes Land seine eigenen Außenzölle. Typisch: 自由貿易地域を設ける／設立する.",
+        "examples": [
+          {
+            "japanese": "自由貿易地域の設立により域内の貿易が活発化した。",
+            "romaji": "Jiyū bōeki chiiki no setsuritsu ni yori ikinai no bōeki ga kappatsuka shita.",
+            "german": "Durch die Einrichtung der Freihandelszone wurde der Handel innerhalb der Region belebt."
+          },
+          {
+            "japanese": "ASEAN自由貿易地域では、域内の関税がほぼゼロになった。",
+            "romaji": "Asean jiyū bōeki chiiki de wa, ikinai no kanzei ga hobo zero ni natta.",
+            "german": "In der ASEAN-Freihandelszone sind die Binnenzölle fast vollständig weggefallen."
+          },
+          {
+            "japanese": "沖縄には、企業が関税なしで原料を輸入できる自由貿易地域がある。",
+            "romaji": "Okinawa ni wa, kigyō ga kanzei nashi de genryō o yunyū dekiru jiyū bōeki chiiki ga aru.",
+            "german": "In Okinawa gibt es eine Freizone, in die Firmen Rohstoffe zollfrei einführen können."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1318840 sense 1, noun: free trade zone, free trade area Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 自由貿易地域 hat zwei Bedeutungen: eine Freihandelszone zwischen mehreren Staaten, die untereinander die Zölle abschaffen (ASEAN自由貿易地域), und ein ausgewiesenes Gebiet innerhalb eines Landes, in das Waren zollfrei eingeführt und dort verarbeitet werden dürfen (so in Okinawa). Anders als bei einem 関税同盟 behält in einer Freihandelszone jedes Land seine eigenen Außenzölle. Typisch: 自由貿易地域を設ける／設立する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1318840; spelling=自由貿易地域; reading=じゆうぼうえきちいき",
+          "selected": {
+            "sequence": "1318840",
+            "spelling": "自由貿易地域",
+            "reading": "じゆうぼうえきちいき",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "free trade zone",
+                  "free trade area"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1318840 sense 1, noun: free trade zone, free trade area"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 自由貿易地域/じゆうぼうえきちいき scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%87%AA%E7%94%B1%E8%B2%BF%E6%98%93%E5%9C%B0%E5%9F%9F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 自由貿易地域/じゆうぼうえきちいき scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Freihandelszone. JMdict 1318840 sense 1, noun: free trade zone, free trade area",
+        "japanese": "自由貿易地域の設立により域内の貿易が活発化した。 / ASEAN自由貿易地域では、域内の関税がほぼゼロになった。 / 沖縄には、企業が関税なしで原料を輸入できる自由貿易地域がある。",
+        "romanization": "jiyū bōeki chiiki; Jiyū bōeki chiiki no setsuritsu ni yori ikinai no bōeki ga kappatsuka shita. / Asean jiyū bōeki chiiki de wa, ikinai no kanzei ga hobo zero ni natta. / Okinawa ni wa, kigyō ga kanzei nashi de genryō o yunyū dekiru jiyū bōeki chiiki ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Einrichtung der Freihandelszone wurde der Handel innerhalb der Region belebt. / In der ASEAN-Freihandelszone sind die Binnenzölle fast vollständig weggefallen. / In Okinawa gibt es eine Freizone, in die Firmen Rohstoffe zollfrei einführen können.",
+        "contexts": [
+          "Regional trade boost",
+          "Southeast Asian integration",
+          "Domestic duty-free zone"
+        ],
+        "lexical": "JMdict 1318840 sense 1, noun: free trade zone, free trade area",
+        "register": "written / formal (economics, trade policy)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:633 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Regional trade boost; Southeast Asian integration; Domestic duty-free zone), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "481c739292e1d65afe473f2d023df2ec7df4e716fbc1c16320d21e4fda4bb655",
+        "approvalHash": "56e69432c0b306705dd39a44cb1edc0f9558a94fbf311d1928625dfa41c13b64"
+      }
+    },
+    {
+      "id": "vocab-n1:634",
+      "revisionId": "208b-n1-enrichment-vocab-n1-634",
+      "state": "accepted",
+      "predecessorHash": "f39bc2f798f8f377da5c682af5af9391fb9e13254d8f87845e5d58199415423c",
+      "originalHash": "f39bc2f798f8f377da5c682af5af9391fb9e13254d8f87845e5d58199415423c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "経済特区に外国企業を誘致している。",
+            "romaji": "Keizai tokku ni gaikoku kigyō wo yūchi shite iru.",
+            "german": "Ausländische Unternehmen werden in die Sonderwirtschaftszone eingeladen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "経済特区 (kurz für 経済特別区) ist eine Sonderwirtschaftszone, in der Steuern, Zölle und Vorschriften gelockert werden, um Investitionen anzuziehen; berühmt ist Shenzhen in China. Typische Verbindungen sind 経済特区に指定する／される, 経済特区を設ける und 企業を誘致する „Unternehmen anwerben“. In Japan spricht man bei ähnlichen Regelungen eher von 構造改革特区 oder 国家戦略特区; allgemein heißt das kurz 特区.",
+        "examples": [
+          {
+            "japanese": "経済特区に外国企業を誘致している。",
+            "romaji": "Keizai tokku ni gaikoku kigyō o yūchi shite iru.",
+            "german": "Man wirbt ausländische Unternehmen für die Sonderwirtschaftszone an."
+          },
+          {
+            "japanese": "深圳は1980年に経済特区に指定され、急速に発展した。",
+            "romaji": "Shinsen wa sen kyūhyaku hachijū-nen ni keizai tokku ni shitei sare, kyūsoku ni hatten shita.",
+            "german": "Shenzhen wurde 1980 zur Sonderwirtschaftszone erklärt und entwickelte sich rasant."
+          },
+          {
+            "japanese": "経済特区では、税金や規制の面で優遇が受けられる。",
+            "romaji": "Keizai tokku de wa, zeikin ya kisei no men de yūgū ga ukerareru.",
+            "german": "In Sonderwirtschaftszonen genießt man Vergünstigungen bei Steuern und Vorschriften."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1630530 sense 1, noun: special economic zone Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 経済特区 (kurz für 経済特別区) ist eine Sonderwirtschaftszone, in der Steuern, Zölle und Vorschriften gelockert werden, um Investitionen anzuziehen; berühmt ist Shenzhen in China. Typische Verbindungen sind 経済特区に指定する／される, 経済特区を設ける und 企業を誘致する „Unternehmen anwerben“. In Japan spricht man bei ähnlichen Regelungen eher von 構造改革特区 oder 国家戦略特区; allgemein heißt das kurz 特区. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1630530; spelling=経済特区; reading=けいざいとっく",
+          "selected": {
+            "sequence": "1630530",
+            "spelling": "経済特区",
+            "reading": "けいざいとっく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "special economic zone"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1630530 sense 1, noun: special economic zone"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 経済特区/けいざいとっく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B5%8C%E6%B8%88%E7%89%B9%E5%8C%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 経済特区/けいざいとっく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sonderwirtschaftszone. JMdict 1630530 sense 1, noun: special economic zone",
+        "japanese": "経済特区に外国企業を誘致している。 / 深圳は1980年に経済特区に指定され、急速に発展した。 / 経済特区では、税金や規制の面で優遇が受けられる。",
+        "romanization": "keizai tokku; Keizai tokku ni gaikoku kigyō o yūchi shite iru. / Shinsen wa sen kyūhyaku hachijū-nen ni keizai tokku ni shitei sare, kyūsoku ni hatten shita. / Keizai tokku de wa, zeikin ya kisei no men de yūgū ga ukerareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man wirbt ausländische Unternehmen für die Sonderwirtschaftszone an. / Shenzhen wurde 1980 zur Sonderwirtschaftszone erklärt und entwickelte sich rasant. / In Sonderwirtschaftszonen genießt man Vergünstigungen bei Steuern und Vorschriften.",
+        "contexts": [
+          "Attracting foreign firms",
+          "Shenzhen's growth",
+          "Tax and regulatory perks"
+        ],
+        "lexical": "JMdict 1630530 sense 1, noun: special economic zone",
+        "register": "written / formal (economics, news)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:634 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Attracting foreign firms; Shenzhen's growth; Tax and regulatory perks), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ee0fe94d599919f674300fa4d0905a8ee7a9cd1a14026eccb6b1e5fbf025548f",
+        "approvalHash": "3852ae784e096838381263ff08d413c337b26377cdc58e2a765fba932eebc747"
+      }
+    },
+    {
+      "id": "vocab-n1:635",
+      "revisionId": "208b-n1-enrichment-vocab-n1-635",
+      "state": "accepted",
+      "predecessorHash": "a57520dfb021003d1d9d3ae07a12294fd3983b7aad28ccdf3fc735bee6b94f5f",
+      "originalHash": "a57520dfb021003d1d9d3ae07a12294fd3983b7aad28ccdf3fc735bee6b94f5f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "海外直接投資の増加が国内雇用に影響を与えている。",
+            "romaji": "Kaigai chokusetsu tōshi no zōka ga kokunai koyō ni eikyō wo ataete iru.",
+            "german": "Die Zunahme ausländischer Direktinvestitionen beeinflusst die Inlandsbeschäftigung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "直接投資 ist eine Investition, mit der man ein Unternehmen im Ausland gründet oder sich so beteiligt, dass man Einfluss auf die Geschäftsführung erhält, etwa durch den Bau von Fabriken. Häufig sind 海外直接投資 / 対外直接投資 „Direktinvestitionen im Ausland“ und 対内直接投資 „ausländische Direktinvestitionen im Inland“ (FDI). Gegenbegriff ist 間接投資 (Portfolioinvestition). Typisch: 直接投資を拡大する／呼び込む.",
+        "examples": [
+          {
+            "japanese": "海外直接投資の増加が国内雇用に影響を与えている。",
+            "romaji": "Kaigai chokusetsu tōshi no zōka ga kokunai koyō ni eikyō o ataete iru.",
+            "german": "Die Zunahme der Direktinvestitionen im Ausland beeinflusst die Beschäftigung im Inland."
+          },
+          {
+            "japanese": "その企業はベトナムに工場を建て、直接投資を拡大している。",
+            "romaji": "Sono kigyō wa Betonamu ni kōjō o tate, chokusetsu tōshi o kakudai shite iru.",
+            "german": "Das Unternehmen baut Fabriken in Vietnam und weitet seine Direktinvestitionen aus."
+          },
+          {
+            "japanese": "政府は外国からの直接投資を呼び込むため、法人税を下げた。",
+            "romaji": "Seifu wa gaikoku kara no chokusetsu tōshi o yobikomu tame, hōjinzei o sageta.",
+            "german": "Um ausländische Direktinvestitionen anzuziehen, senkte die Regierung die Körperschaftsteuer."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1998460 sense 1, noun: direct investment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 直接投資 ist eine Investition, mit der man ein Unternehmen im Ausland gründet oder sich so beteiligt, dass man Einfluss auf die Geschäftsführung erhält, etwa durch den Bau von Fabriken. Häufig sind 海外直接投資 / 対外直接投資 „Direktinvestitionen im Ausland“ und 対内直接投資 „ausländische Direktinvestitionen im Inland“ (FDI). Gegenbegriff ist 間接投資 (Portfolioinvestition). Typisch: 直接投資を拡大する／呼び込む. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1998460; spelling=直接投資; reading=ちょくせつとうし",
+          "selected": {
+            "sequence": "1998460",
+            "spelling": "直接投資",
+            "reading": "ちょくせつとうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "direct investment"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1998460 sense 1, noun: direct investment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 直接投資/ちょくせつとうし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9B%B4%E6%8E%A5%E6%8A%95%E8%B3%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 直接投資/ちょくせつとうし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Direktinvestition. JMdict 1998460 sense 1, noun: direct investment",
+        "japanese": "海外直接投資の増加が国内雇用に影響を与えている。 / その企業はベトナムに工場を建て、直接投資を拡大している。 / 政府は外国からの直接投資を呼び込むため、法人税を下げた。",
+        "romanization": "chokusetsu tōshi; Kaigai chokusetsu tōshi no zōka ga kokunai koyō ni eikyō o ataete iru. / Sono kigyō wa Betonamu ni kōjō o tate, chokusetsu tōshi o kakudai shite iru. / Seifu wa gaikoku kara no chokusetsu tōshi o yobikomu tame, hōjinzei o sageta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Zunahme der Direktinvestitionen im Ausland beeinflusst die Beschäftigung im Inland. / Das Unternehmen baut Fabriken in Vietnam und weitet seine Direktinvestitionen aus. / Um ausländische Direktinvestitionen anzuziehen, senkte die Regierung die Körperschaftsteuer.",
+        "contexts": [
+          "Effect on domestic jobs",
+          "Building factories abroad",
+          "Attracting foreign capital"
+        ],
+        "lexical": "JMdict 1998460 sense 1, noun: direct investment",
+        "register": "written / formal (economics)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:635 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Effect on domestic jobs; Building factories abroad; Attracting foreign capital), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e7b9687a54ede183761c47d77f9532a3bda5a3f6fed667e16f8b3f8c2776dc8f",
+        "approvalHash": "4900568b55a6f267e4e692f449ea54dcce945313bd34b3fb176f2b8f79db13ef"
+      }
+    },
+    {
+      "id": "vocab-n1:636",
+      "revisionId": "208b-n1-enrichment-vocab-n1-636",
+      "state": "accepted",
+      "predecessorHash": "38178d7ee1a1f5de36fcfb140408ae92fc27b3c3da94dcab04814eef7acb23e2",
+      "originalHash": "38178d7ee1a1f5de36fcfb140408ae92fc27b3c3da94dcab04814eef7acb23e2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "間接投資を通じて新興国の成長に参加する。",
+            "romaji": "Kansetsu tōshi wo tsūjite shinkōkoku no seichō ni sanka suru.",
+            "german": "Über Portfolioinvestitionen am Wachstum der Schwellenländer teilnehmen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "間接投資 bezeichnet in der Volkswirtschaft Investitionen in ausländische Aktien oder Anleihen, ohne Einfluss auf die Geschäftsführung zu nehmen, also Portfolioinvestitionen (auch 証券投資); Gegenbegriff ist 直接投資. Im Privatanlegerjargon meint 間接投資 auch das Anlegen über Fonds (投資信託) statt des direkten Kaufs von Einzelaktien. Typisch: 間接投資を通じて, 間接投資に分類される.",
+        "examples": [
+          {
+            "japanese": "間接投資を通じて新興国の成長に参加する。",
+            "romaji": "Kansetsu tōshi o tsūjite shinkōkoku no seichō ni sanka suru.",
+            "german": "Über Portfolioinvestitionen am Wachstum der Schwellenländer teilnehmen."
+          },
+          {
+            "japanese": "経営に関わらない株式の取得は、間接投資に分類される。",
+            "romaji": "Keiei ni kakawaranai kabushiki no shutoku wa, kansetsu tōshi ni bunrui sareru.",
+            "german": "Der Erwerb von Aktien ohne Einfluss auf die Geschäftsführung gilt als Portfolioinvestition."
+          },
+          {
+            "japanese": "投資信託を通じた間接投資なら、少額から始められる。",
+            "romaji": "Tōshi shintaku o tsūjita kansetsu tōshi nara, shōgaku kara hajimerareru.",
+            "german": "Wer indirekt über Investmentfonds anlegt, kann schon mit kleinen Beträgen anfangen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "Compound not in JMdict: JMdict 1215520 (間接 'indirect') + 投資 (1447230 'investment'): indirect / portfolio investment Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 間接投資 bezeichnet in der Volkswirtschaft Investitionen in ausländische Aktien oder Anleihen, ohne Einfluss auf die Geschäftsführung zu nehmen, also Portfolioinvestitionen (auch 証券投資); Gegenbegriff ist 直接投資. Im Privatanlegerjargon meint 間接投資 auch das Anlegen über Fonds (投資信託) statt des direkten Kaufs von Einzelaktien. Typisch: 間接投資を通じて, 間接投資に分類される. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "JMdict_e complete keb/reb scan; spelling=間接投資; reading=かんせつとうし; no entry",
+          "finding": "Compound not in JMdict: JMdict 1215520 (間接 'indirect') + 投資 (1447230 'investment'): indirect / portfolio investment"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 間接投資/かんせつとうし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%96%93%E6%8E%A5%E6%8A%95%E8%B3%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 間接投資/かんせつとうし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Portfolioinvestition; indirekte Investition. Compound not in JMdict: JMdict 1215520 (間接 'indirect') + 投資 (1447230 'investment'): indirect / portfolio investment",
+        "japanese": "間接投資を通じて新興国の成長に参加する。 / 経営に関わらない株式の取得は、間接投資に分類される。 / 投資信託を通じた間接投資なら、少額から始められる。",
+        "romanization": "kansetsu tōshi; Kansetsu tōshi o tsūjite shinkōkoku no seichō ni sanka suru. / Keiei ni kakawaranai kabushiki no shutoku wa, kansetsu tōshi ni bunrui sareru. / Tōshi shintaku o tsūjita kansetsu tōshi nara, shōgaku kara hajimerareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Über Portfolioinvestitionen am Wachstum der Schwellenländer teilnehmen. / Der Erwerb von Aktien ohne Einfluss auf die Geschäftsführung gilt als Portfolioinvestition. / Wer indirekt über Investmentfonds anlegt, kann schon mit kleinen Beträgen anfangen.",
+        "contexts": [
+          "Emerging-market growth",
+          "Economic classification",
+          "Beginner investor tip"
+        ],
+        "lexical": "Compound not in JMdict: JMdict 1215520 (間接 'indirect') + 投資 (1447230 'investment'): indirect / portfolio investment",
+        "register": "written / formal (economics, finance)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:636 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Emerging-market growth; Economic classification; Beginner investor tip), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "30ec40094fb923b96b1f0c5c497837567e27f8501b961bd588faa07a7435e723",
+        "approvalHash": "2ac79687bace7fb85477ec3e7a982a8b6c5b63f903c3d5e4949f9463b602ee01"
+      }
+    },
+    {
+      "id": "vocab-n1:637",
+      "revisionId": "208b-n1-enrichment-vocab-n1-637",
+      "state": "accepted",
+      "predecessorHash": "6200f76a9098c57bffc9c1044e3ecebdcdc96dfdcd385a11adb364034a461ef9",
+      "originalHash": "6200f76a9098c57bffc9c1044e3ecebdcdc96dfdcd385a11adb364034a461ef9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "現地法人を設立して海外市場に本格参入する。",
+            "romaji": "Genchi hōjin wo setsuritsu shite kaigai shijō ni honkaku sannyū suru.",
+            "german": "Eine lokale Tochtergesellschaft gründen und vollständig in den Auslandsmarkt eintreten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "現地法人 ist eine nach dem Recht des Gastlandes gegründete Gesellschaft eines ausländischen Unternehmens, meist eine Tochtergesellschaft. Anders als ein 支店 „Zweigniederlassung“ oder ein 駐在員事務所 „Repräsentanzbüro“ ist sie eine eigenständige juristische Person. Typisch sind 現地法人を設立する, 現地法人に赴任する „zur Auslandsgesellschaft entsandt werden“ und Ländernamen davor (タイの現地法人).",
+        "examples": [
+          {
+            "japanese": "現地法人を設立して海外市場に本格参入する。",
+            "romaji": "Genchi hōjin o setsuritsu shite kaigai shijō ni honkaku sannyū suru.",
+            "german": "Eine lokale Tochtergesellschaft gründen und vollständig in den Auslandsmarkt eintreten."
+          },
+          {
+            "japanese": "彼はタイの現地法人に社長として赴任した。",
+            "romaji": "Kare wa Tai no genchi hōjin ni shachō to shite funin shita.",
+            "german": "Er wurde als Geschäftsführer zur thailändischen Tochtergesellschaft entsandt."
+          },
+          {
+            "japanese": "支店と違って、現地法人は現地の法律に基づく独立した会社だ。",
+            "romaji": "Shiten to chigatte, genchi hōjin wa genchi no hōritsu ni motozuku dokuritsu shita kaisha da.",
+            "german": "Anders als eine Filiale ist eine Landesgesellschaft ein eigenständiges Unternehmen nach örtlichem Recht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1934590 sense 1, noun: local subsidiary (locally incorporated company) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 現地法人 ist eine nach dem Recht des Gastlandes gegründete Gesellschaft eines ausländischen Unternehmens, meist eine Tochtergesellschaft. Anders als ein 支店 „Zweigniederlassung“ oder ein 駐在員事務所 „Repräsentanzbüro“ ist sie eine eigenständige juristische Person. Typisch sind 現地法人を設立する, 現地法人に赴任する „zur Auslandsgesellschaft entsandt werden“ und Ländernamen davor (タイの現地法人). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1934590; spelling=現地法人; reading=げんちほうじん",
+          "selected": {
+            "sequence": "1934590",
+            "spelling": "現地法人",
+            "reading": "げんちほうじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "local subsidiary"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1934590 sense 1, noun: local subsidiary (locally incorporated company)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 現地法人/げんちほうじん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%8F%BE%E5%9C%B0%E6%B3%95%E4%BA%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 現地法人/げんちほうじん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "lokale Tochtergesellschaft; Niederlassung. JMdict 1934590 sense 1, noun: local subsidiary (locally incorporated company)",
+        "japanese": "現地法人を設立して海外市場に本格参入する。 / 彼はタイの現地法人に社長として赴任した。 / 支店と違って、現地法人は現地の法律に基づく独立した会社だ。",
+        "romanization": "genchi hōjin; Genchi hōjin o setsuritsu shite kaigai shijō ni honkaku sannyū suru. / Kare wa Tai no genchi hōjin ni shachō to shite funin shita. / Shiten to chigatte, genchi hōjin wa genchi no hōritsu ni motozuku dokuritsu shita kaisha da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine lokale Tochtergesellschaft gründen und vollständig in den Auslandsmarkt eintreten. / Er wurde als Geschäftsführer zur thailändischen Tochtergesellschaft entsandt. / Anders als eine Filiale ist eine Landesgesellschaft ein eigenständiges Unternehmen nach örtlichem Recht.",
+        "contexts": [
+          "Market entry strategy",
+          "Overseas posting",
+          "Branch vs. subsidiary"
+        ],
+        "lexical": "JMdict 1934590 sense 1, noun: local subsidiary (locally incorporated company)",
+        "register": "written / formal (business)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:637 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Market entry strategy; Overseas posting; Branch vs. subsidiary), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fae334860738a2debc5207f12d34c1ccc0b960f6ccdc6501a096483030fa4546",
+        "approvalHash": "c749c3a44bceb98d718158730c1880de9f7d7819b5ba54f546a8256c835a5eb9"
+      }
+    },
+    {
+      "id": "vocab-n1:638",
+      "revisionId": "208b-n1-enrichment-vocab-n1-638",
+      "state": "accepted",
+      "predecessorHash": "c67c9704db00e45a3ff578af37f991cc8c896ac0f82160a1f22260022ee12e92",
+      "originalHash": "c67c9704db00e45a3ff578af37f991cc8c896ac0f82160a1f22260022ee12e92",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "現地企業との合弁事業でリスクを分担する。",
+            "romaji": "Genchi kigyō to no gōben jigyō de risuku wo buntan suru.",
+            "german": "Durch ein Joint Venture mit lokalen Unternehmen die Risiken teilen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "合弁事業 ist ein Gemeinschaftsunternehmen (Joint Venture), bei dem zwei oder mehr Firmen Kapital zusammenlegen; 合弁 bedeutet „gemeinsame Kapitalbeteiligung“. Die dafür gegründete Firma heißt 合弁会社. Typische Verben sind 合弁事業を立ち上げる „starten“, を解消する „auflösen“ und 合弁で設立する. In der Geschäftssprache ist auch ジョイントベンチャー (JV) üblich.",
+        "examples": [
+          {
+            "japanese": "現地企業との合弁事業でリスクを分担する。",
+            "romaji": "Genchi kigyō to no gōben jigyō de risuku o buntan suru.",
+            "german": "Durch ein Joint Venture mit lokalen Unternehmen die Risiken teilen."
+          },
+          {
+            "japanese": "両社は電池の合弁事業を立ち上げると発表した。",
+            "romaji": "Ryōsha wa denchi no gōben jigyō o tachiageru to happyō shita.",
+            "german": "Die beiden Firmen gaben bekannt, ein Joint Venture für Batterien zu gründen."
+          },
+          {
+            "japanese": "経営方針の違いから、合弁事業は三年で解消された。",
+            "romaji": "Keiei hōshin no chigai kara, gōben jigyō wa sannen de kaishō sareta.",
+            "german": "Wegen unterschiedlicher Geschäftsstrategien wurde das Joint Venture nach drei Jahren aufgelöst."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1992920 sense 1, noun: joint venture Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 合弁事業 ist ein Gemeinschaftsunternehmen (Joint Venture), bei dem zwei oder mehr Firmen Kapital zusammenlegen; 合弁 bedeutet „gemeinsame Kapitalbeteiligung“. Die dafür gegründete Firma heißt 合弁会社. Typische Verben sind 合弁事業を立ち上げる „starten“, を解消する „auflösen“ und 合弁で設立する. In der Geschäftssprache ist auch ジョイントベンチャー (JV) üblich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1992920; spelling=合弁事業; reading=ごうべんじぎょう",
+          "selected": {
+            "sequence": "1992920",
+            "spelling": "合弁事業",
+            "reading": "ごうべんじぎょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "joint venture"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1992920 sense 1, noun: joint venture"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 合弁事業/ごうべんじぎょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%90%88%E5%BC%81%E4%BA%8B%E6%A5%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 合弁事業/ごうべんじぎょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Joint Venture; Gemeinschaftsunternehmen. JMdict 1992920 sense 1, noun: joint venture",
+        "japanese": "現地企業との合弁事業でリスクを分担する。 / 両社は電池の合弁事業を立ち上げると発表した。 / 経営方針の違いから、合弁事業は三年で解消された。",
+        "romanization": "gōben jigyō; Genchi kigyō to no gōben jigyō de risuku o buntan suru. / Ryōsha wa denchi no gōben jigyō o tachiageru to happyō shita. / Keiei hōshin no chigai kara, gōben jigyō wa sannen de kaishō sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch ein Joint Venture mit lokalen Unternehmen die Risiken teilen. / Die beiden Firmen gaben bekannt, ein Joint Venture für Batterien zu gründen. / Wegen unterschiedlicher Geschäftsstrategien wurde das Joint Venture nach drei Jahren aufgelöst.",
+        "contexts": [
+          "Sharing risk abroad",
+          "Press announcement",
+          "Partnership breakup"
+        ],
+        "lexical": "JMdict 1992920 sense 1, noun: joint venture",
+        "register": "written / formal (business)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:638 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sharing risk abroad; Press announcement; Partnership breakup), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b3233074cd10de66ed5237226c42e7377ab916c710b2e2a365c74862ab781ede",
+        "approvalHash": "d0ed500803073976f38ac7ba19f22b0ccbc3e914b92002237c3b4b078f6c1cd6"
+      }
+    },
+    {
+      "id": "vocab-n1:639",
+      "revisionId": "208b-n1-enrichment-vocab-n1-639",
+      "state": "accepted",
+      "predecessorHash": "bc96bfc412546b850db131f11b651e4cc4a287d1f60a04fe8babccde87b7be05",
+      "originalHash": "bc96bfc412546b850db131f11b651e4cc4a287d1f60a04fe8babccde87b7be05",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "知的所有権の保護が国際貿易の重要な課題だ。",
+            "romaji": "Chiteki shoyūken no hogo ga kokusai bōeki no jūyō na kadai da.",
+            "german": "Der Schutz geistiger Eigentumsrechte ist eine wichtige Aufgabe im internationalen Handel."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "知的所有権 sind Rechte an geistigen Schöpfungen wie Patente (特許権), Urheberrechte (著作権) und Markenrechte (商標権). Heute ist der amtliche Standardbegriff 知的財産権, kurz 知財; 知的所有権 ist die ältere Übersetzung, die man aber noch in Texten zum internationalen Handel findet. Typische Verben sind 知的所有権を侵害する „verletzen“ und を保護する „schützen“.",
+        "examples": [
+          {
+            "japanese": "知的所有権の保護が国際貿易の重要な課題だ。",
+            "romaji": "Chiteki shoyūken no hogo ga kokusai bōeki no jūyō na kadai da.",
+            "german": "Der Schutz geistiger Eigentumsrechte ist eine wichtige Aufgabe im internationalen Handel."
+          },
+          {
+            "japanese": "他社の知的所有権を侵害したとして訴えられた。",
+            "romaji": "Tasha no chiteki shoyūken o shingai shita to shite uttaerareta.",
+            "german": "Die Firma wurde verklagt, weil sie angeblich geistige Eigentumsrechte eines anderen Unternehmens verletzt hatte."
+          },
+          {
+            "japanese": "特許や著作権は、知的所有権の代表的な例だ。",
+            "romaji": "Tokkyo ya chosakuken wa, chiteki shoyūken no daihyōteki na rei da.",
+            "german": "Patente und Urheberrechte sind typische Beispiele für geistige Eigentumsrechte."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1420670 sense 1, noun: intellectual property rights Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 知的所有権 sind Rechte an geistigen Schöpfungen wie Patente (特許権), Urheberrechte (著作権) und Markenrechte (商標権). Heute ist der amtliche Standardbegriff 知的財産権, kurz 知財; 知的所有権 ist die ältere Übersetzung, die man aber noch in Texten zum internationalen Handel findet. Typische Verben sind 知的所有権を侵害する „verletzen“ und を保護する „schützen“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1420670; spelling=知的所有権; reading=ちてきしょゆうけん",
+          "selected": {
+            "sequence": "1420670",
+            "spelling": "知的所有権",
+            "reading": "ちてきしょゆうけん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "intellectual property rights"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1420670 sense 1, noun: intellectual property rights"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 知的所有権/ちてきしょゆうけん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9F%A5%E7%9A%84%E6%89%80%E6%9C%89%E6%A8%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 知的所有権/ちてきしょゆうけん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "geistiges Eigentumsrecht. JMdict 1420670 sense 1, noun: intellectual property rights",
+        "japanese": "知的所有権の保護が国際貿易の重要な課題だ。 / 他社の知的所有権を侵害したとして訴えられた。 / 特許や著作権は、知的所有権の代表的な例だ。",
+        "romanization": "chiteki shoyūken; Chiteki shoyūken no hogo ga kokusai bōeki no jūyō na kadai da. / Tasha no chiteki shoyūken o shingai shita to shite uttaerareta. / Tokkyo ya chosakuken wa, chiteki shoyūken no daihyōteki na rei da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Schutz geistiger Eigentumsrechte ist eine wichtige Aufgabe im internationalen Handel. / Die Firma wurde verklagt, weil sie angeblich geistige Eigentumsrechte eines anderen Unternehmens verletzt hatte. / Patente und Urheberrechte sind typische Beispiele für geistige Eigentumsrechte.",
+        "contexts": [
+          "International trade issue",
+          "Infringement lawsuit",
+          "Textbook examples"
+        ],
+        "lexical": "JMdict 1420670 sense 1, noun: intellectual property rights",
+        "register": "written / formal (law, trade)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:639 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (International trade issue; Infringement lawsuit; Textbook examples), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "7dd9cb674035b2f073a83fc9f2cd205505863cc6a72c050306537e0ca2cb5369",
+        "approvalHash": "89f65684ad0b62c35974c517266ce585264b047e982c7244901480255524e657"
+      }
+    },
+    {
+      "id": "vocab-n1:640",
+      "revisionId": "208b-n1-enrichment-vocab-n1-640",
+      "state": "accepted",
+      "predecessorHash": "b2e08d2b20735672fdf49f7ee05af99618a93088d3ab47a42b7c8f962ff76c31",
+      "originalHash": "b2e08d2b20735672fdf49f7ee05af99618a93088d3ab47a42b7c8f962ff76c31",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "模倣品の流通を阻止するための対策が強化されている。",
+            "romaji": "Mohōhin no ryūtsū wo soshi suru tame no taisaku ga kyōka sarete iru.",
+            "german": "Maßnahmen zur Verhinderung des Umlaufs von Fälschungen werden verstärkt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "模倣品 sind Nachahmungen, die Design, Marke oder Gestaltung eines Originalprodukts kopieren. In amtlichen Texten steht es oft im Paar 模倣品・海賊版 „Nachahmungen und Raubkopien“; 偽造品 betont die strafbare Fälschung, umgangssprachlich sagt man 偽物 oder コピー商品. Typisch sind 模倣品が出回る „sind im Umlauf“, 模倣品を取り締まる und 模倣品対策.",
+        "examples": [
+          {
+            "japanese": "模倣品の流通を阻止するための対策が強化されている。",
+            "romaji": "Mohōhin no ryūtsū o soshi suru tame no taisaku ga kyōka sarete iru.",
+            "german": "Maßnahmen zur Verhinderung des Umlaufs von Fälschungen werden verstärkt."
+          },
+          {
+            "japanese": "ネットで買ったブランドバッグが模倣品だった。",
+            "romaji": "Netto de katta burando baggu ga mohōhin datta.",
+            "german": "Die Markentasche, die ich online gekauft hatte, war eine Fälschung."
+          },
+          {
+            "japanese": "税関で大量の模倣品が見つかり、没収された。",
+            "romaji": "Zeikan de tairyō no mohōhin ga mitsukari, bosshū sareta.",
+            "german": "Beim Zoll wurde eine große Menge Nachahmungen entdeckt und beschlagnahmt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2754960 sense 1, noun: counterfeit goods, knock-off, imitation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 模倣品 sind Nachahmungen, die Design, Marke oder Gestaltung eines Originalprodukts kopieren. In amtlichen Texten steht es oft im Paar 模倣品・海賊版 „Nachahmungen und Raubkopien“; 偽造品 betont die strafbare Fälschung, umgangssprachlich sagt man 偽物 oder コピー商品. Typisch sind 模倣品が出回る „sind im Umlauf“, 模倣品を取り締まる und 模倣品対策. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2754960; spelling=模倣品; reading=もほうひん",
+          "selected": {
+            "sequence": "2754960",
+            "spelling": "模倣品",
+            "reading": "もほうひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "counterfeit goods",
+                  "knock-off",
+                  "imitation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2754960 sense 1, noun: counterfeit goods, knock-off, imitation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 模倣品/もほうひん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A8%A1%E5%80%A3%E5%93%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 模倣品/もほうひん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fälschung; Nachahmungsprodukt. JMdict 2754960 sense 1, noun: counterfeit goods, knock-off, imitation",
+        "japanese": "模倣品の流通を阻止するための対策が強化されている。 / ネットで買ったブランドバッグが模倣品だった。 / 税関で大量の模倣品が見つかり、没収された。",
+        "romanization": "mohōhin; Mohōhin no ryūtsū o soshi suru tame no taisaku ga kyōka sarete iru. / Netto de katta burando baggu ga mohōhin datta. / Zeikan de tairyō no mohōhin ga mitsukari, bosshū sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Maßnahmen zur Verhinderung des Umlaufs von Fälschungen werden verstärkt. / Die Markentasche, die ich online gekauft hatte, war eine Fälschung. / Beim Zoll wurde eine große Menge Nachahmungen entdeckt und beschlagnahmt.",
+        "contexts": [
+          "Anti-counterfeit policy",
+          "Online shopping disappointment",
+          "Customs seizure"
+        ],
+        "lexical": "JMdict 2754960 sense 1, noun: counterfeit goods, knock-off, imitation",
+        "register": "written / formal (law, trade)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:640 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Anti-counterfeit policy; Online shopping disappointment; Customs seizure), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ab190f30819ccbd198fd9eb5204fd79a281b1dac898fe56baa570102c4955907",
+        "approvalHash": "831e6cd3540f1c88c1d9ac655977c7752484eb9c5a823b595b2998bf06a0e158"
+      }
+    },
+    {
+      "id": "vocab-n1:641",
+      "revisionId": "208b-n1-enrichment-vocab-n1-641",
+      "state": "accepted",
+      "predecessorHash": "313aeb52701187807fcb72085517b43053775494ace366cb08ec395aa93df0f2",
+      "originalHash": "313aeb52701187807fcb72085517b43053775494ace366cb08ec395aa93df0f2",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "並行輸入品は正規品より安く手に入る。",
+            "romaji": "Heikō yunyūhin wa seikihin yori yasuku te ni hairu.",
+            "german": "Parallelimportware ist günstiger als offizielle Produkte zu bekommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "並行輸入 ist der Import echter Markenware an den offiziellen Vertriebswegen (正規代理店) vorbei; die so eingeführte Ware heißt 並行輸入品, im Gegensatz zu 正規品. Es handelt sich nicht um Fälschungen (模倣品), aber Garantie und Kundendienst können eingeschränkt sein. Als transitives する-Verb: 化粧品を並行輸入する.",
+        "examples": [
+          {
+            "japanese": "並行輸入品は正規品より安く手に入る。",
+            "romaji": "Heikō yunyūhin wa seikihin yori yasuku te ni hairu.",
+            "german": "Parallelimporte bekommt man günstiger als die offiziell vertriebene Ware."
+          },
+          {
+            "japanese": "並行輸入品は、メーカーの保証が受けられない場合がある。",
+            "romaji": "Heikō yunyūhin wa, mēkā no hoshō ga ukerarenai baai ga aru.",
+            "german": "Bei Parallelimporten greift die Herstellergarantie unter Umständen nicht."
+          },
+          {
+            "japanese": "その店は海外ブランドの化粧品を並行輸入して安く売っている。",
+            "romaji": "Sono mise wa kaigai burando no keshōhin o heikō yunyū shite yasuku utte iru.",
+            "german": "Der Laden importiert ausländische Markenkosmetik auf dem Graumarkt und verkauft sie günstig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1711000 sense 1, noun / suru verb (transitive): parallel importing, grey importing Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 並行輸入 ist der Import echter Markenware an den offiziellen Vertriebswegen (正規代理店) vorbei; die so eingeführte Ware heißt 並行輸入品, im Gegensatz zu 正規品. Es handelt sich nicht um Fälschungen (模倣品), aber Garantie und Kundendienst können eingeschränkt sein. Als transitives する-Verb: 化粧品を並行輸入する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1711000; spelling=並行輸入; reading=へいこうゆにゅう",
+          "selected": {
+            "sequence": "1711000",
+            "spelling": "並行輸入",
+            "reading": "へいこうゆにゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "parallel importing",
+                  "grey importing",
+                  "gray importing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1711000 sense 1, noun / suru verb (transitive): parallel importing, grey importing"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 並行輸入/へいこうゆにゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%A6%E8%A1%8C%E8%BC%B8%E5%85%A5",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 並行輸入/へいこうゆにゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Parallelimport. JMdict 1711000 sense 1, noun / suru verb (transitive): parallel importing, grey importing",
+        "japanese": "並行輸入品は正規品より安く手に入る。 / 並行輸入品は、メーカーの保証が受けられない場合がある。 / その店は海外ブランドの化粧品を並行輸入して安く売っている。",
+        "romanization": "heikō yunyū; Heikō yunyūhin wa seikihin yori yasuku te ni hairu. / Heikō yunyūhin wa, mēkā no hoshō ga ukerarenai baai ga aru. / Sono mise wa kaigai burando no keshōhin o heikō yunyū shite yasuku utte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Parallelimporte bekommt man günstiger als die offiziell vertriebene Ware. / Bei Parallelimporten greift die Herstellergarantie unter Umständen nicht. / Der Laden importiert ausländische Markenkosmetik auf dem Graumarkt und verkauft sie günstig.",
+        "contexts": [
+          "Price comparison",
+          "Warranty caveat",
+          "Discount cosmetics shop"
+        ],
+        "lexical": "JMdict 1711000 sense 1, noun / suru verb (transitive): parallel importing, grey importing",
+        "register": "neutral; trade / retail",
+        "transitivity": "Nonverb (as 並行輸入する transitive: goods を)",
+        "conjugation": "noun; suru verb (並行輸入する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:641 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Price comparison; Warranty caveat; Discount cosmetics shop), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "be9060090302121d0833109dd229b2db258bba44578cf24daedfeab594e81166",
+        "approvalHash": "1cc50fee659c1cb35030747a22eb822b89c070e189da7da6aeeb296e386445eb"
+      }
+    },
+    {
+      "id": "vocab-n1:642",
+      "revisionId": "208b-n1-enrichment-vocab-n1-642",
+      "state": "accepted",
+      "predecessorHash": "a0dea87428c34797998ce8f409025bc81a61fd328459b6e903a8bd65f4b164f0",
+      "originalHash": "a0dea87428c34797998ce8f409025bc81a61fd328459b6e903a8bd65f4b164f0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "半製品を輸入して国内で最終加工を行う。",
+            "romaji": "Hanseihin wo yunyū shite kokunai de saishū kakō wo okonau.",
+            "german": "Halbfertigprodukte importieren und im Inland die Endverarbeitung durchführen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "半製品 sind Halbfabrikate: Erzeugnisse, die einen Teil der Fertigung durchlaufen haben und weiterverarbeitet, aber auch als solche verkauft werden können. In der Buchhaltung unterscheidet man sie von 仕掛品 „unfertige Erzeugnisse“, die noch nicht verkaufsfähig sind. Die Reihe lautet 原材料 → 半製品 → 製品／完成品. Fachwort aus Industrie und Rechnungswesen.",
+        "examples": [
+          {
+            "japanese": "半製品を輸入して国内で最終加工を行う。",
+            "romaji": "Hanseihin o yunyū shite kokunai de saishū kakō o okonau.",
+            "german": "Halbfertigprodukte importieren und im Inland die Endverarbeitung durchführen."
+          },
+          {
+            "japanese": "半製品の在庫が増えて、倉庫がいっぱいになった。",
+            "romaji": "Hanseihin no zaiko ga fuete, sōko ga ippai ni natta.",
+            "german": "Der Bestand an Halbfabrikaten wuchs, bis das Lager voll war."
+          },
+          {
+            "japanese": "この工場では、半製品を組み立てて完成品にしている。",
+            "romaji": "Kono kōjō de wa, hanseihin o kumitatete kanseihin ni shite iru.",
+            "german": "In dieser Fabrik werden Halbfertigprodukte zu Endprodukten montiert."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1479570 sense 1, noun: semi-finished goods Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 半製品 sind Halbfabrikate: Erzeugnisse, die einen Teil der Fertigung durchlaufen haben und weiterverarbeitet, aber auch als solche verkauft werden können. In der Buchhaltung unterscheidet man sie von 仕掛品 „unfertige Erzeugnisse“, die noch nicht verkaufsfähig sind. Die Reihe lautet 原材料 → 半製品 → 製品／完成品. Fachwort aus Industrie und Rechnungswesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1479570; spelling=半製品; reading=はんせいひん",
+          "selected": {
+            "sequence": "1479570",
+            "spelling": "半製品",
+            "reading": "はんせいひん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "semi-finished goods"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1479570 sense 1, noun: semi-finished goods"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 半製品/はんせいひん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8D%8A%E8%A3%BD%E5%93%81",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 半製品/はんせいひん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Halbfertigprodukt; Halbfabrikat. JMdict 1479570 sense 1, noun: semi-finished goods",
+        "japanese": "半製品を輸入して国内で最終加工を行う。 / 半製品の在庫が増えて、倉庫がいっぱいになった。 / この工場では、半製品を組み立てて完成品にしている。",
+        "romanization": "hanseihin; Hanseihin o yunyū shite kokunai de saishū kakō o okonau. / Hanseihin no zaiko ga fuete, sōko ga ippai ni natta. / Kono kōjō de wa, hanseihin o kumitatete kanseihin ni shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Halbfertigprodukte importieren und im Inland die Endverarbeitung durchführen. / Der Bestand an Halbfabrikaten wuchs, bis das Lager voll war. / In dieser Fabrik werden Halbfertigprodukte zu Endprodukten montiert.",
+        "contexts": [
+          "Import and final processing",
+          "Inventory problem",
+          "Factory assembly line"
+        ],
+        "lexical": "JMdict 1479570 sense 1, noun: semi-finished goods",
+        "register": "technical (manufacturing, accounting)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:642 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Import and final processing; Inventory problem; Factory assembly line), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "25497ca919ef87c09df17db8e507acbd453e612be28cfa688dadef39adf62381",
+        "approvalHash": "749c39bcfa8d484737ca90b3cb542fef5c3ca60af82acdd0eb940f2a3b33c35d"
+      }
+    },
+    {
+      "id": "vocab-n1:643",
+      "revisionId": "208b-n1-enrichment-vocab-n1-643",
+      "state": "accepted",
+      "predecessorHash": "c95418b9013793c1b0be497b7a2066a6f6accaabf106e75946e98a294cf31cbb",
+      "originalHash": "c95418b9013793c1b0be497b7a2066a6f6accaabf106e75946e98a294cf31cbb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "国際見本市に出展して新製品を紹介する。",
+            "romaji": "Kokusai mihon'ichi ni shutten shite shinseihin wo shōkai suru.",
+            "german": "Auf der internationalen Fachmesse ausstellen und neue Produkte vorstellen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "見本市 ist eine Handels- oder Fachmesse, auf der Firmen Produkte für Geschäftskunden ausstellen; achte auf die Lesung みほんいち. Typisch sind 見本市に出展する „ausstellen“, 見本市が開かれる／開催される und 国際見本市. Im heutigen Sprachgebrauch sind auch 展示会 und トレードショー verbreitet; 博覧会 meint dagegen eine große Publikumsausstellung (Expo).",
+        "examples": [
+          {
+            "japanese": "国際見本市に出展して新製品を紹介する。",
+            "romaji": "Kokusai mihon'ichi ni shutten shite shinseihin o shōkai suru.",
+            "german": "Auf der internationalen Fachmesse ausstellen und neue Produkte vorstellen."
+          },
+          {
+            "japanese": "来月、東京で家具の見本市が開かれる。",
+            "romaji": "Raigetsu, Tōkyō de kagu no mihon'ichi ga hirakareru.",
+            "german": "Nächsten Monat findet in Tokio eine Möbelmesse statt."
+          },
+          {
+            "japanese": "見本市で知り合った会社と取引を始めた。",
+            "romaji": "Mihon'ichi de shiriatta kaisha to torihiki o hajimeta.",
+            "german": "Wir haben Geschäfte mit einer Firma aufgenommen, die wir auf der Messe kennengelernt hatten."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1260110 sense 1, noun: trade fair Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 見本市 ist eine Handels- oder Fachmesse, auf der Firmen Produkte für Geschäftskunden ausstellen; achte auf die Lesung みほんいち. Typisch sind 見本市に出展する „ausstellen“, 見本市が開かれる／開催される und 国際見本市. Im heutigen Sprachgebrauch sind auch 展示会 und トレードショー verbreitet; 博覧会 meint dagegen eine große Publikumsausstellung (Expo). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1260110; spelling=見本市; reading=みほんいち",
+          "selected": {
+            "sequence": "1260110",
+            "spelling": "見本市",
+            "reading": "みほんいち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade fair"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1260110 sense 1, noun: trade fair"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 見本市/みほんいち scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A6%8B%E6%9C%AC%E5%B8%82",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 見本市/みほんいち scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Messe; Fachmesse. JMdict 1260110 sense 1, noun: trade fair",
+        "japanese": "国際見本市に出展して新製品を紹介する。 / 来月、東京で家具の見本市が開かれる。 / 見本市で知り合った会社と取引を始めた。",
+        "romanization": "mihon'ichi; Kokusai mihon'ichi ni shutten shite shinseihin o shōkai suru. / Raigetsu, Tōkyō de kagu no mihon'ichi ga hirakareru. / Mihon'ichi de shiriatta kaisha to torihiki o hajimeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auf der internationalen Fachmesse ausstellen und neue Produkte vorstellen. / Nächsten Monat findet in Tokio eine Möbelmesse statt. / Wir haben Geschäfte mit einer Firma aufgenommen, die wir auf der Messe kennengelernt hatten.",
+        "contexts": [
+          "Exhibiting new products",
+          "Event announcement",
+          "New business contact"
+        ],
+        "lexical": "JMdict 1260110 sense 1, noun: trade fair",
+        "register": "neutral; business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:643 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Exhibiting new products; Event announcement; New business contact), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "eb22b1c8c9459cd3c94bb6d51cef33fe393bd8d00bda251bf9dfb5840be74656",
+        "approvalHash": "34333a1b9f7f35ea413e8fae7dc68c60618ec51ce3e64ce133b1bfe07da4b6a7"
+      }
+    },
+    {
+      "id": "vocab-n1:644",
+      "revisionId": "208b-n1-enrichment-vocab-n1-644",
+      "state": "accepted",
+      "predecessorHash": "04bd91373709e56020c3da9aa5406550f4869553cd906b3e46f393cd3536a73b",
+      "originalHash": "04bd91373709e56020c3da9aa5406550f4869553cd906b3e46f393cd3536a73b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "商品見本を送付して品質を確認してもらう。",
+            "romaji": "Shōhin mihon wo sōfu shite hinshitsu wo kakunin shite morau.",
+            "german": "Warenmuster versenden und die Qualität bestätigen lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "商品見本 ist ein Warenmuster, das Kunden oder Händlern zur Prüfung von Qualität und Aussehen geschickt oder gezeigt wird. Im Alltag sagt man meist einfach サンプル oder 見本; 商品見本 klingt geschäftlicher. Typische Verben sind 商品見本を送る／送付する, を請求する „anfordern“ und を並べる. Kostenlose Proben für Endkunden heißen eher 試供品.",
+        "examples": [
+          {
+            "japanese": "商品見本を送付して品質を確認してもらう。",
+            "romaji": "Shōhin mihon o sōfu shite hinshitsu o kakunin shite morau.",
+            "german": "Warenmuster versenden und die Qualität bestätigen lassen."
+          },
+          {
+            "japanese": "商品見本を請求したら、翌日には届いた。",
+            "romaji": "Shōhin mihon o seikyū shitara, yokujitsu ni wa todoita.",
+            "german": "Als ich ein Warenmuster anforderte, kam es schon am nächsten Tag an."
+          },
+          {
+            "japanese": "見本市のブースに商品見本を並べた。",
+            "romaji": "Mihon'ichi no būsu ni shōhin mihon o narabeta.",
+            "german": "Am Messestand legten wir Warenmuster aus."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2838952 sense 1, noun: trade sample, product sample Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 商品見本 ist ein Warenmuster, das Kunden oder Händlern zur Prüfung von Qualität und Aussehen geschickt oder gezeigt wird. Im Alltag sagt man meist einfach サンプル oder 見本; 商品見本 klingt geschäftlicher. Typische Verben sind 商品見本を送る／送付する, を請求する „anfordern“ und を並べる. Kostenlose Proben für Endkunden heißen eher 試供品. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2838952; spelling=商品見本; reading=しょうひんみほん",
+          "selected": {
+            "sequence": "2838952",
+            "spelling": "商品見本",
+            "reading": "しょうひんみほん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "trade sample",
+                  "product sample"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2838952 sense 1, noun: trade sample, product sample"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 商品見本/しょうひんみほん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%95%86%E5%93%81%E8%A6%8B%E6%9C%AC",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 商品見本/しょうひんみほん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Warenmuster; Warenprobe. JMdict 2838952 sense 1, noun: trade sample, product sample",
+        "japanese": "商品見本を送付して品質を確認してもらう。 / 商品見本を請求したら、翌日には届いた。 / 見本市のブースに商品見本を並べた。",
+        "romanization": "shōhin mihon; Shōhin mihon o sōfu shite hinshitsu o kakunin shite morau. / Shōhin mihon o seikyū shitara, yokujitsu ni wa todoita. / Mihon'ichi no būsu ni shōhin mihon o narabeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Warenmuster versenden und die Qualität bestätigen lassen. / Als ich ein Warenmuster anforderte, kam es schon am nächsten Tag an. / Am Messestand legten wir Warenmuster aus.",
+        "contexts": [
+          "Quality check by client",
+          "Requesting a sample",
+          "Setting up a trade-fair booth"
+        ],
+        "lexical": "JMdict 2838952 sense 1, noun: trade sample, product sample",
+        "register": "neutral; business",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:644 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Quality check by client; Requesting a sample; Setting up a trade-fair booth), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e93b93b46e1c55d81ca7847b81e4712ec9f95d2ae4a7114652b54a2c1a9e4ea9",
+        "approvalHash": "5bd8110e25fe86165e000afae27d8b80167cdc2d4cdcfd2279471918f38cbfc0"
+      }
+    },
+    {
+      "id": "vocab-n1:645",
+      "revisionId": "208b-n1-enrichment-vocab-n1-645",
+      "state": "accepted",
+      "predecessorHash": "99d6d0ad9f9f28b995ac671b4fb48ff8947738463bc59359b2b8a5c302b70af4",
+      "originalHash": "99d6d0ad9f9f28b995ac671b4fb48ff8947738463bc59359b2b8a5c302b70af4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "徹底した品質管理が信頼の基盤だ。",
+            "romaji": "Tettei shita hinshitsu kanri ga shinrai no kiban da.",
+            "german": "Gründliches Qualitätsmanagement ist die Grundlage des Vertrauens."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "品質管理 ist die Qualitätskontrolle bzw. das Qualitätsmanagement in der Produktion, im Englischen QC. Typische Verbindungen sind 品質管理を徹底する „konsequent durchführen“, を強化する und 品質管理部 „Abteilung Qualitätskontrolle“. Verwandt ist 品質保証 „Qualitätssicherung“ (QA), das stärker die Garantie gegenüber dem Kunden betont. Neutral; in Industrie und Lebensmittelbranche alltäglich.",
+        "examples": [
+          {
+            "japanese": "徹底した品質管理が信頼の基盤だ。",
+            "romaji": "Tettei shita hinshitsu kanri ga shinrai no kiban da.",
+            "german": "Gründliches Qualitätsmanagement ist die Grundlage des Vertrauens."
+          },
+          {
+            "japanese": "品質管理を徹底するため、すべての製品を検査している。",
+            "romaji": "Hinshitsu kanri o tettei suru tame, subete no seihin o kensa shite iru.",
+            "german": "Um eine lückenlose Qualitätskontrolle zu gewährleisten, prüfen wir jedes einzelne Produkt."
+          },
+          {
+            "japanese": "姉は食品メーカーの品質管理部で働いている。",
+            "romaji": "Ane wa shokuhin mēkā no hinshitsu kanribu de hataraite iru.",
+            "german": "Meine ältere Schwester arbeitet in der Qualitätskontrolle eines Lebensmittelherstellers."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1490590 sense 1, noun: quality control Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 品質管理 ist die Qualitätskontrolle bzw. das Qualitätsmanagement in der Produktion, im Englischen QC. Typische Verbindungen sind 品質管理を徹底する „konsequent durchführen“, を強化する und 品質管理部 „Abteilung Qualitätskontrolle“. Verwandt ist 品質保証 „Qualitätssicherung“ (QA), das stärker die Garantie gegenüber dem Kunden betont. Neutral; in Industrie und Lebensmittelbranche alltäglich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1490590; spelling=品質管理; reading=ひんしつかんり",
+          "selected": {
+            "sequence": "1490590",
+            "spelling": "品質管理",
+            "reading": "ひんしつかんり",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "quality control"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1490590 sense 1, noun: quality control"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 品質管理/ひんしつかんり scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%93%81%E8%B3%AA%E7%AE%A1%E7%90%86",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 品質管理/ひんしつかんり scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "reviewedDistinctContexts": true,
+        "meaning": "Qualitätskontrolle; Qualitätsmanagement. JMdict 1490590 sense 1, noun: quality control",
+        "japanese": "徹底した品質管理が信頼の基盤だ。 / 品質管理を徹底するため、すべての製品を検査している。 / 姉は食品メーカーの品質管理部で働いている。",
+        "romanization": "hinshitsu kanri; Tettei shita hinshitsu kanri ga shinrai no kiban da. / Hinshitsu kanri o tettei suru tame, subete no seihin o kensa shite iru. / Ane wa shokuhin mēkā no hinshitsu kanribu de hataraite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gründliches Qualitätsmanagement ist die Grundlage des Vertrauens. / Um eine lückenlose Qualitätskontrolle zu gewährleisten, prüfen wir jedes einzelne Produkt. / Meine ältere Schwester arbeitet in der Qualitätskontrolle eines Lebensmittelherstellers.",
+        "contexts": [
+          "Company philosophy",
+          "Inspection policy",
+          "Talking about a sibling's job"
+        ],
+        "lexical": "JMdict 1490590 sense 1, noun: quality control",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-208",
+        "finding": "Author reread the exact final card vocab-n1:645 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Company philosophy; Inspection policy; Talking about a sibling's job), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6d3adc83c94aca0b16d64cd78d1b4bc3475a44122dea3ad80594bbf2e297183b",
+        "approvalHash": "ce12514b5bc77ca84a7d102805c8dc423cb166f8e53c10dc118ab325e7fb9619"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

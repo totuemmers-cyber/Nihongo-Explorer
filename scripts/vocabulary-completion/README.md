@@ -672,6 +672,25 @@ verified for 75 of the new cards, and 39 are investigated unknowns. The 19 exclu
 
 Two accepted decisions made stale by the alias reviews (日日/ひにち, 非) were renewed. All 22 full
 checks pass; `advance --dry-run` passed and the campaign advanced from N2 to N1.
+**First N1 checkpoint (9 October 2026).** Batches 205a–205j, 206a–206j, 207a–207j and 208a–208j
+enrich the first 1,000 N1 entries (vocab-n1:18–857 plus 170 earlier-level and idiom cards whose
+reviews lacked enrichment), mostly legal, political, financial, trade and science vocabulary. Each
+now has a German usage note and 2–3 examples in distinct situations: 2,007 new sentences, and 141
+entries had original examples corrected, e.g. entropy rising in a 孤立系 (not 閉鎖系), 書類送検
+(only the files go to the prosecutor), 拘留 vs. 勾留, the law name 金融商品取引法 and abolished
+par-value shares. Pitch is verified for 528 entries: 524 from exact UniDic rows and 4 from OJAD. 68
+stored primary accents are corrected; 393 stored values without an exact attestation become
+investigated unknowns, so 472 entries in all are investigated unknowns (mostly multi-word
+compounds). 147 German meanings are corrected, e.g. 仲裁 „Schiedsverfahren“ (not „Arbitrage“),
+派閥 „Faktion; Parteiflügel“ (not „Fraktion“), 金融工学 „Finanzmathematik“ (not
+„Finanzwissenschaft“), 監査役 „Rechnungsprüfer“ (not „Aufsichtsrat“), and missing everyday senses
+are added (保守 „Wartung“, 刑事 „Kriminalbeamter“). 未曾有, 恒常, 仮想 and キャッシュレス become
+Nomen; 絶縁体 gets the romaji zetsuentai. 66 compounds without their own JMdict entry (住民訴訟,
+立件送致, 早出料, 那智の滝 …) record the complete JMdict scan instead of a sequence; 恤む keeps its
+drill excluded because JMdict does not attest it with the reading あわれむ. The merge survivor
+idioms:229 is renewed. Flagged but kept: 改閣 and 立件送致 are no established words, 早出料 is
+read はやでりょう in shipping, 懺悔 is usually ざんげ, 拘引/勾引 and 保持/保持する are duplicates.
+No accepted decision became stale. N1 now has 2,999 pending reviews and 342 open references.
 
 ## Historical campaign freeze
 
