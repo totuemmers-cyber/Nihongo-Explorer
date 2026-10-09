@@ -48,16 +48,23 @@ function clean(fixture) {
 }
 async function run() {
   // Existing keys and IDs remain usable across reloads.
-  const saved = { 'kanji-theme': 'dark', 'kanji-sound': 'on', 'bookmarks-vocab': '["vocab-n5:0"]' };
+  // Legacy unprefixed keys are shared with Zhongwen Explorer (same origin): only Nihongo ids move.
+  const saved = { 'kanji-theme': 'dark', 'kanji-sound': 'on', 'bookmarks-vocab': '["vocab-n5:0","你好|nǐhǎo"]',
+    'bookmarks-grammar': '["是…的"]', 'bookmarks-radicals': '["85"]' };
   const normal = await boot({ local: saved });
   try {
     assert.equal(normal.d.documentElement.dataset.theme, 'dark');
     assert.equal(normal.d.querySelector('#sound-toggle').getAttribute('aria-pressed'), 'true');
     assert(normal.w.isBookmarked('vocab', 'vocab-n5:0'));
+    assert.deepEqual(JSON.parse(normal.w.localStorage.getItem('bookmarks-vocab')), ['你好|nǐhǎo'], 'Zhongwen ids must stay on the shared key');
+    assert.deepEqual(JSON.parse(normal.w.localStorage.getItem('bookmarks-grammar')), ['是…的']);
+    assert.equal(normal.w.localStorage.getItem('nihongo-bookmarks-grammar'), null);
+    assert.deepEqual(JSON.parse(normal.w.localStorage.getItem('bookmarks-radicals')), ['85'], 'Radicals are copied, not removed');
+    assert(normal.w.isBookmarked('radicals', '85'));
     assert.equal(normal.d.querySelector('#storage-notice').hidden, true);
     normal.w.toggleBookmark('vocab', 'vocab-n5:1');
-    assert.deepEqual(JSON.parse(normal.w.localStorage.getItem('bookmarks-vocab')), ['vocab-n5:0', 'vocab-n5:1']);
-    const reloaded = await boot({ local: { ...saved, 'bookmarks-vocab': normal.w.localStorage.getItem('bookmarks-vocab') }, session: normal.w.sessionStorage.getItem('nihongo-workspace') });
+    assert.deepEqual(JSON.parse(normal.w.localStorage.getItem('nihongo-bookmarks-vocab')), ['vocab-n5:0', 'vocab-n5:1']);
+    const reloaded = await boot({ local: { ...saved, 'nihongo-storage-version': '1', 'nihongo-bookmarks-vocab': normal.w.localStorage.getItem('nihongo-bookmarks-vocab') }, session: normal.w.sessionStorage.getItem('nihongo-workspace') });
     try { assert(reloaded.w.isBookmarked('vocab', 'vocab-n5:1')); } finally { clean(reloaded); }
   } finally { clean(normal); }
 
@@ -104,34 +111,34 @@ async function run() {
     sec.dom.grid.querySelector('.bookmark-btn').click();
     sec.applyFilters();
     assert.equal(w.isBookmarked('vocab', id), false, 'Failed removal resurrected the stale saved bookmark');
-    assert(JSON.parse(w.localStorage.getItem('bookmarks-vocab')).includes(id), 'Fixture must retain the old disk value');
+    assert(JSON.parse(w.localStorage.getItem('nihongo-bookmarks-vocab')).includes(id), 'Fixture must retain the old disk value');
     sec.dom.grid.querySelector('.bookmark-btn').click(); sec.applyFilters();
     assert(w.isBookmarked('vocab', id), 'Failed addition lost from memory');
     assert.equal(d.querySelector('#storage-notice').hidden, false);
     w.Storage.prototype.setItem = setItem;
     sec.dom.grid.querySelector('.bookmark-btn').click();
-    assert.deepEqual(JSON.parse(w.localStorage.getItem('bookmarks-vocab')), [], 'Saving did not recover');
+    assert.deepEqual(JSON.parse(w.localStorage.getItem('nihongo-bookmarks-vocab')), [], 'Saving did not recover');
     // Healthy reads still observe changes made outside this page's wrapper.
-    w.localStorage.setItem('bookmarks-vocab', JSON.stringify([id]));
+    w.localStorage.setItem('nihongo-bookmarks-vocab', JSON.stringify([id]));
     assert(w.isBookmarked('vocab', id));
   } finally { clean(quota); }
 
-  const corrupt = await boot({ local: { 'bookmarks-vocab': '{}' }, session: '{}' });
+  const corrupt = await boot({ local: { 'nihongo-bookmarks-vocab': '{}' }, session: '{}' });
   try {
     assert.equal(corrupt.d.querySelector('#storage-notice').hidden, false);
     for (const name of Object.keys(corrupt.w.app.sections)) {
       for (const invalid of ['{', '{}', 'null', '17', '"wrong"']) {
-        corrupt.w.localStorage.setItem('bookmarks-' + name, invalid);
+        corrupt.w.localStorage.setItem('nihongo-bookmarks-' + name, invalid);
         await corrupt.w.app.ensureSectionLoaded(name);
         corrupt.w.app.sections[name].applyFilters();
         assert.equal(corrupt.w.getBookmarks(name).length, 0, name + ': ' + invalid);
         assert(corrupt.w.app.sections[name].dom.grid.querySelector('.entry-open'));
       }
     }
-    corrupt.w.localStorage.setItem('bookmarks-vocab', '[null, 42, {}, "", "vocab-n5:0"]');
+    corrupt.w.localStorage.setItem('nihongo-bookmarks-vocab', '[null, 42, {}, "", "vocab-n5:0"]');
     assert.deepEqual(Array.from(corrupt.w.getBookmarks('vocab')), ['vocab-n5:0'], 'Valid IDs should survive mixed data');
     corrupt.w.toggleBookmark('vocab', 'vocab-n5:1');
-    assert.deepEqual(JSON.parse(corrupt.w.localStorage.getItem('bookmarks-vocab')), ['vocab-n5:0', 'vocab-n5:1']);
+    assert.deepEqual(JSON.parse(corrupt.w.localStorage.getItem('nihongo-bookmarks-vocab')), ['vocab-n5:0', 'vocab-n5:1']);
   } finally { clean(corrupt); }
   console.log('Storage regressions passed: denied getters/reads, quota failures, in-memory changes, recovery, corrupt bookmarks/session, preserved IDs/preferences and comprehension drafts.');
 }

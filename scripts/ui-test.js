@@ -173,7 +173,7 @@ async function run() {
     // Removing the last filtered bookmark keeps the detail valid and provides recovery.
     vocab.dom.search.value = ''; vocab.filters.bookmarks = 'all'; vocab.applyFilters();
     const item = vocab.filteredItems[0];
-    w.localStorage.setItem('bookmarks-vocab', JSON.stringify([item.id]));
+    w.localStorage.setItem('nihongo-bookmarks-vocab', JSON.stringify([item.id]));
     vocab.filters.bookmarks = 'starred'; vocab.applyFilters();
     vocab.dom.grid.querySelector('.entry-open').click();
     vocab.dom.overlay.querySelector('.detail-bookmark-btn').click();
@@ -260,7 +260,7 @@ async function run() {
     // Old saved IDs and deep links resolve through an explicit merge redirect.
     const retired='vocab-n1:retired-fixture';
     w.VOCAB_RUNTIME.completionRedirects[retired]=forgiving.id;
-    w.localStorage.setItem('bookmarks-vocab',JSON.stringify([retired]));
+    w.localStorage.setItem('nihongo-bookmarks-vocab',JSON.stringify([retired]));
     assert(w.isBookmarked('vocab',forgiving.id));
     w.toggleBookmark('vocab',forgiving.id);
     assert(!w.isBookmarked('vocab',forgiving.id));

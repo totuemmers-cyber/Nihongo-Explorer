@@ -205,7 +205,7 @@
         }
       });
     });
-    if (JSON.stringify(bookmarks) !== originalBookmarks) window.NIHONGO_STORAGE.local.setJSON('bookmarks-' + sectionName, bookmarks);
+    if (JSON.stringify(bookmarks) !== originalBookmarks) window.NIHONGO_STORAGE.local.setJSON('nihongo-bookmarks-' + sectionName, bookmarks);
   }
 
   function dedupeSpecialistItems(items, keyFn) {

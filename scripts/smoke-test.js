@@ -371,7 +371,7 @@ async function run() {
   vocab.applyFilters();
 
   // Merged script variants retain bookmarks, and thematic filters expose secondary senses.
-  window.localStorage.setItem('bookmarks-onomatopoeia', JSON.stringify(['onomatopoeia:315']));
+  window.localStorage.setItem('nihongo-bookmarks-onomatopoeia', JSON.stringify(['onomatopoeia:315']));
   click(document.querySelector('[data-tab="onomatopoeia"]'), window);
   await waitFor(function () { return window.app.sections.onomatopoeia.allItems.length === 349; }, { description: 'expanded onomatopoeia' });
   const onoSection = window.app.sections.onomatopoeia;

@@ -68,7 +68,7 @@ window.resetSectionLookups = function () {
 // === Bookmark Utilities ===
 
 function getBookmarks(sectionName) {
-  var bookmarks = window.NIHONGO_STORAGE.local.getJSON('bookmarks-' + sectionName, [], Array.isArray);
+  var bookmarks = window.NIHONGO_STORAGE.local.getJSON('nihongo-bookmarks-' + sectionName, [], Array.isArray);
   return bookmarks.filter(function (id) { return typeof id === 'string' && id.length > 0; }).map(function (id) {
     return sectionName === 'vocab' && window.resolveVocabularyId ? window.resolveVocabularyId(id) : id;
   }).filter(function (id, index, all) { return all.indexOf(id) === index; });
@@ -85,7 +85,7 @@ function toggleBookmark(sectionName, itemId) {
   var idx = bk.indexOf(itemId);
   if (idx === -1) bk.push(itemId);
   else bk.splice(idx, 1);
-  window.NIHONGO_STORAGE.local.setJSON('bookmarks-' + sectionName, bk);
+  window.NIHONGO_STORAGE.local.setJSON('nihongo-bookmarks-' + sectionName, bk);
   document.dispatchEvent(new CustomEvent('bookmarkchange', { detail: { section: sectionName, id: itemId, starred: idx === -1 } }));
   return idx === -1;
 }
