@@ -1,0 +1,3529 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:1248",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1248",
+      "state": "accepted",
+      "predecessorHash": "6a273e56e879e26587cff1da1be0b008e0a7cfc8a1c8c9a6c90077c37ff7166c",
+      "originalHash": "6a273e56e879e26587cff1da1be0b008e0a7cfc8a1c8c9a6c90077c37ff7166c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "生涯学習の重要性が広く認識されるようになった。",
+            "romaji": "Shōgai gakushū no jūyō-sei ga hiroku ninshiki sareru yō ni natta.",
+            "german": "Die Bedeutung des lebenslangen Lernens wird inzwischen weithin anerkannt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "生涯学習 („Lernen über das ganze Leben“, 生涯 „Lebenszeit“) ist ein bildungspolitischer Begriff für alle Lernaktivitäten nach der Schulzeit: Volkshochschulkurse, Hobbys, Weiterbildung im Alter. Typisch sind 生涯学習センター, 生涯学習講座 und 生涯学習として〜を学ぶ. Für berufsbezogene Weiterbildung sagt man eher リカレント教育 oder リスキリング; 社会教育 ist der Verwaltungsbegriff für Erwachsenenbildung.",
+        "examples": [
+          {
+            "japanese": "生涯学習の重要性が広く認識されるようになった。",
+            "romaji": "Shōgai gakushū no jūyō-sei ga hiroku ninshiki sareru yō ni natta.",
+            "german": "Die Bedeutung des lebenslangen Lernens wird inzwischen weithin anerkannt."
+          },
+          {
+            "japanese": "母は市の生涯学習センターで書道を習っている。",
+            "romaji": "Haha wa shi no shōgai gakushū sentā de shodō o naratte iru.",
+            "german": "Meine Mutter lernt Kalligrafie im Bildungszentrum der Stadt."
+          },
+          {
+            "japanese": "定年後は生涯学習として大学の公開講座に通うつもりだ。",
+            "romaji": "Teinen-go wa shōgai gakushū toshite daigaku no kōkai kōza ni kayou tsumori da.",
+            "german": "Nach der Pensionierung will ich als Gasthörer öffentliche Vorlesungen an der Uni besuchen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1940220 sense 1, noun: lifelong learning Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 生涯学習 („Lernen über das ganze Leben“, 生涯 „Lebenszeit“) ist ein bildungspolitischer Begriff für alle Lernaktivitäten nach der Schulzeit: Volkshochschulkurse, Hobbys, Weiterbildung im Alter. Typisch sind 生涯学習センター, 生涯学習講座 und 生涯学習として〜を学ぶ. Für berufsbezogene Weiterbildung sagt man eher リカレント教育 oder リスキリング; 社会教育 ist der Verwaltungsbegriff für Erwachsenenbildung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1940220; spelling=生涯学習; reading=しょうがいがくしゅう",
+          "selected": {
+            "sequence": "1940220",
+            "spelling": "生涯学習",
+            "reading": "しょうがいがくしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lifelong learning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1940220 sense 1, noun: lifelong learning"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 生涯学習/しょうがいがくしゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%9F%E6%B6%AF%E5%AD%A6%E7%BF%92",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 生涯学習/しょうがいがくしゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "lebenslanges Lernen. JMdict 1940220 sense 1, noun: lifelong learning",
+        "japanese": "生涯学習の重要性が広く認識されるようになった。 / 母は市の生涯学習センターで書道を習っている。 / 定年後は生涯学習として大学の公開講座に通うつもりだ。",
+        "romanization": "shōgai gakushū; Shōgai gakushū no jūyō-sei ga hiroku ninshiki sareru yō ni natta. / Haha wa shi no shōgai gakushū sentā de shodō o naratte iru. / Teinen-go wa shōgai gakushū toshite daigaku no kōkai kōza ni kayou tsumori da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Bedeutung des lebenslangen Lernens wird inzwischen weithin anerkannt. / Meine Mutter lernt Kalligrafie im Bildungszentrum der Stadt. / Nach der Pensionierung will ich als Gasthörer öffentliche Vorlesungen an der Uni besuchen.",
+        "contexts": [
+          "Social trend",
+          "Community learning center",
+          "Retirement plans"
+        ],
+        "lexical": "JMdict 1940220 sense 1, noun: lifelong learning",
+        "register": "formal / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1248 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Social trend; Community learning center; Retirement plans), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e57d6fcf9005eb1f90518b56d6bcab65b58dd2c3c594e249edfd53e7c86072b4",
+        "approvalHash": "83fc3378a671f71cbd509eb4eab3365b13658158a92631886418d242080c0999"
+      }
+    },
+    {
+      "id": "vocab-n1:1249",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1249",
+      "state": "accepted",
+      "predecessorHash": "b22ea2d4eb150b58323dddb64e63f3abd72f1a6b4d42e214fda4a33cdeebfc21",
+      "originalHash": "b22ea2d4eb150b58323dddb64e63f3abd72f1a6b4d42e214fda4a33cdeebfc21",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本の識字率は世界でも最高水準にある。",
+            "romaji": "Nihon no shikiji-ritsu wa sekai demo saikō suijun ni aru.",
+            "german": "Japans Alphabetisierungsrate gehört zu den höchsten der Welt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "識字率 setzt sich aus 識字 „Lesen und Schreiben können“ und 率 „Rate“ zusammen und ist ein Fachbegriff aus Statistik, Entwicklungspolitik und Geschichte. Typisch: 識字率が高い / 低い, 識字率が向上する, 識字率を上げる. Dazu gehört 識字教育 „Alphabetisierungsunterricht“. Das ältere Wort 文盲 für Analphabetismus gilt heute als diskriminierend; man sagt 非識字.",
+        "examples": [
+          {
+            "japanese": "日本の識字率は世界でも最高水準にある。",
+            "romaji": "Nihon no shikiji-ritsu wa sekai demo saikō suijun ni aru.",
+            "german": "Japans Alphabetisierungsrate gehört zu den höchsten der Welt."
+          },
+          {
+            "japanese": "識字率の向上は貧困の削減につながる。",
+            "romaji": "Shikiji-ritsu no kōjō wa hinkon no sakugen ni tsunagaru.",
+            "german": "Eine höhere Alphabetisierungsrate trägt zur Armutsbekämpfung bei."
+          },
+          {
+            "japanese": "江戸時代の日本は識字率が高かったと言われている。",
+            "romaji": "Edo jidai no Nihon wa shikiji-ritsu ga takakatta to iwarete iru.",
+            "german": "Im Japan der Edo-Zeit sollen ungewöhnlich viele Menschen lesen und schreiben gekonnt haben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1319140 sense 1, noun: literacy rate Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 識字率 setzt sich aus 識字 „Lesen und Schreiben können“ und 率 „Rate“ zusammen und ist ein Fachbegriff aus Statistik, Entwicklungspolitik und Geschichte. Typisch: 識字率が高い / 低い, 識字率が向上する, 識字率を上げる. Dazu gehört 識字教育 „Alphabetisierungsunterricht“. Das ältere Wort 文盲 für Analphabetismus gilt heute als diskriminierend; man sagt 非識字. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1319140; spelling=識字率; reading=しきじりつ",
+          "selected": {
+            "sequence": "1319140",
+            "spelling": "識字率",
+            "reading": "しきじりつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literacy rate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1319140 sense 1, noun: literacy rate"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 識字率/しきじりつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AD%98%E5%AD%97%E7%8E%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 識字率/しきじりつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Alphabetisierungsrate. JMdict 1319140 sense 1, noun: literacy rate",
+        "japanese": "日本の識字率は世界でも最高水準にある。 / 識字率の向上は貧困の削減につながる。 / 江戸時代の日本は識字率が高かったと言われている。",
+        "romanization": "shikiji-ritsu; Nihon no shikiji-ritsu wa sekai demo saikō suijun ni aru. / Shikiji-ritsu no kōjō wa hinkon no sakugen ni tsunagaru. / Edo jidai no Nihon wa shikiji-ritsu ga takakatta to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Japans Alphabetisierungsrate gehört zu den höchsten der Welt. / Eine höhere Alphabetisierungsrate trägt zur Armutsbekämpfung bei. / Im Japan der Edo-Zeit sollen ungewöhnlich viele Menschen lesen und schreiben gekonnt haben.",
+        "contexts": [
+          "International comparison",
+          "Development policy",
+          "Historical claim"
+        ],
+        "lexical": "JMdict 1319140 sense 1, noun: literacy rate",
+        "register": "formal / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1249 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (International comparison; Development policy; Historical claim), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2e1437dc42bdbc9ce6dee1cd912fda01f73cd183a89458d28f68ef20924b9909",
+        "approvalHash": "d0e0c4d855c189ecdf1457259c87abf0b44d191777ee36226731a29036c78346"
+      }
+    },
+    {
+      "id": "vocab-n1:1250",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1250",
+      "state": "accepted",
+      "predecessorHash": "6b23d7e7ab1b21072a3845578e8731796e962c418a38690db0117f7fd05a4a20",
+      "originalHash": "6b23d7e7ab1b21072a3845578e8731796e962c418a38690db0117f7fd05a4a20",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "教養課程では幅広い分野を学ぶ。",
+            "romaji": "Kyōyō katei de wa habahiroi bun'ya o manabu.",
+            "german": "Im Grundstudium lernt man ein breites Spektrum an Fächern."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "教養課程 ist der allgemeinbildende Studienabschnitt der ersten ein bis zwei Jahre an japanischen Universitäten, in dem Fächer aus vielen Bereichen belegt werden, bevor man ins Fachstudium (専門課程) wechselt. 教養 bedeutet hier „Allgemeinbildung“, 課程 „Studienabschnitt“. Die zugehörigen Kurse heißen 教養科目 oder 一般教養, studentisch kurz 般教. Typisch: 教養課程で学ぶ, 教養課程を終える.",
+        "examples": [
+          {
+            "japanese": "教養課程では幅広い分野を学ぶ。",
+            "romaji": "Kyōyō katei de wa habahiroi bun'ya o manabu.",
+            "german": "Im Grundstudium lernt man ein breites Spektrum an Fächern."
+          },
+          {
+            "japanese": "教養課程を終えると、三年生から専門課程に進む。",
+            "romaji": "Kyōyō katei o oeru to, sannensei kara senmon katei ni susumu.",
+            "german": "Nach dem allgemeinbildenden Grundstudium geht man ab dem dritten Jahr ins Fachstudium."
+          },
+          {
+            "japanese": "東大では最初の二年間、全員が教養課程で学ぶ。",
+            "romaji": "Tōdai de wa saisho no ninenkan, zen'in ga kyōyō katei de manabu.",
+            "german": "An der Universität Tokio studieren alle in den ersten zwei Jahren im allgemeinbildenden Grundstudium."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1933390 sense 1, noun: general education course Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 教養課程 ist der allgemeinbildende Studienabschnitt der ersten ein bis zwei Jahre an japanischen Universitäten, in dem Fächer aus vielen Bereichen belegt werden, bevor man ins Fachstudium (専門課程) wechselt. 教養 bedeutet hier „Allgemeinbildung“, 課程 „Studienabschnitt“. Die zugehörigen Kurse heißen 教養科目 oder 一般教養, studentisch kurz 般教. Typisch: 教養課程で学ぶ, 教養課程を終える. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1933390; spelling=教養課程; reading=きょうようかてい",
+          "selected": {
+            "sequence": "1933390",
+            "spelling": "教養課程",
+            "reading": "きょうようかてい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "general education course"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1933390 sense 1, noun: general education course"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 教養課程/きょうようかてい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%95%99%E9%A4%8A%E8%AA%B2%E7%A8%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 教養課程/きょうようかてい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Grundstudium; allgemeinbildendes Studium. JMdict 1933390 sense 1, noun: general education course",
+        "japanese": "教養課程では幅広い分野を学ぶ。 / 教養課程を終えると、三年生から専門課程に進む。 / 東大では最初の二年間、全員が教養課程で学ぶ。",
+        "romanization": "kyōyō katei; Kyōyō katei de wa habahiroi bun'ya o manabu. / Kyōyō katei o oeru to, sannensei kara senmon katei ni susumu. / Tōdai de wa saisho no ninenkan, zen'in ga kyōyō katei de manabu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Grundstudium lernt man ein breites Spektrum an Fächern. / Nach dem allgemeinbildenden Grundstudium geht man ab dem dritten Jahr ins Fachstudium. / An der Universität Tokio studieren alle in den ersten zwei Jahren im allgemeinbildenden Grundstudium.",
+        "contexts": [
+          "What the course covers",
+          "Moving to specialized study",
+          "University of Tokyo system"
+        ],
+        "lexical": "JMdict 1933390 sense 1, noun: general education course",
+        "register": "formal / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1250 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (What the course covers; Moving to specialized study; University of Tokyo system), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d2a7ada5004b0cb2b64efc0d06427f232eea5804808b676b63837c8c921eab25",
+        "approvalHash": "0064ec10e6c96091d0452c603f596ee8b4d60c832da1671b502c9bc3cc85a50f"
+      }
+    },
+    {
+      "id": "vocab-n1:1251",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1251",
+      "state": "accepted",
+      "predecessorHash": "f5a18e4dbd2b4f3cda81ed42f3086582e998096de0f20388336d1678a7077ab5",
+      "originalHash": "f5a18e4dbd2b4f3cda81ed42f3086582e998096de0f20388336d1678a7077ab5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "副専攻として哲学を選んだ。",
+            "romaji": "Fukusenkō toshite tetsugaku o eranda.",
+            "german": "Als Nebenfach wählte ich Philosophie."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "副専攻 ist das Nebenfach an der Universität; das Hauptfach heißt 主専攻 oder einfach 専攻. Typisch: 副専攻として〜を選ぶ / 取る, 副専攻制度. In Japan ist das System weniger verbreitet als in den USA oder Deutschland, viele Universitäten bieten es gar nicht an. Das Grundwort 専攻 kann auch als Verb stehen: 経済学を専攻する „Wirtschaft studieren“.",
+        "examples": [
+          {
+            "japanese": "副専攻として哲学を選んだ。",
+            "romaji": "Fukusenkō toshite tetsugaku o eranda.",
+            "german": "Als Nebenfach wählte ich Philosophie."
+          },
+          {
+            "japanese": "主専攻は経済学で、副専攻は日本語です。",
+            "romaji": "Shusenkō wa keizaigaku de, fukusenkō wa Nihongo desu.",
+            "german": "Mein Hauptfach ist Wirtschaftswissenschaft, mein Nebenfach Japanisch."
+          },
+          {
+            "japanese": "日本の大学には副専攻制度がないところも多い。",
+            "romaji": "Nihon no daigaku ni wa fukusenkō seido ga nai tokoro mo ōi.",
+            "german": "Viele japanische Universitäten haben gar kein Nebenfachsystem."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2526570 sense 1, noun: minor (subject), sub-major Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 副専攻 ist das Nebenfach an der Universität; das Hauptfach heißt 主専攻 oder einfach 専攻. Typisch: 副専攻として〜を選ぶ / 取る, 副専攻制度. In Japan ist das System weniger verbreitet als in den USA oder Deutschland, viele Universitäten bieten es gar nicht an. Das Grundwort 専攻 kann auch als Verb stehen: 経済学を専攻する „Wirtschaft studieren“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2526570; spelling=副専攻; reading=ふくせんこう",
+          "selected": {
+            "sequence": "2526570",
+            "spelling": "副専攻",
+            "reading": "ふくせんこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "minor (in university or college courses)",
+                  "sub-major"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2526570 sense 1, noun: minor (subject), sub-major"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 副専攻/ふくせんこう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%89%AF%E5%B0%82%E6%94%BB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 副専攻/ふくせんこう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nebenfach. JMdict 2526570 sense 1, noun: minor (subject), sub-major",
+        "japanese": "副専攻として哲学を選んだ。 / 主専攻は経済学で、副専攻は日本語です。 / 日本の大学には副専攻制度がないところも多い。",
+        "romanization": "fukusenkō; Fukusenkō toshite tetsugaku o eranda. / Shusenkō wa keizaigaku de, fukusenkō wa Nihongo desu. / Nihon no daigaku ni wa fukusenkō seido ga nai tokoro mo ōi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als Nebenfach wählte ich Philosophie. / Mein Hauptfach ist Wirtschaftswissenschaft, mein Nebenfach Japanisch. / Viele japanische Universitäten haben gar kein Nebenfachsystem.",
+        "contexts": [
+          "Choosing a minor",
+          "Self-introduction",
+          "Comparing university systems"
+        ],
+        "lexical": "JMdict 2526570 sense 1, noun: minor (subject), sub-major",
+        "register": "neutral / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1251 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Choosing a minor; Self-introduction; Comparing university systems), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f5dd2aaa14f391c1d40cf45c5099670122e3e508c7cc84116d2404f3b315a017",
+        "approvalHash": "555274805b1be28d55d7e73eb5cc0e54d9a5c75054b394c736418b8923dec094"
+      }
+    },
+    {
+      "id": "vocab-n1:1252",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1252",
+      "state": "accepted",
+      "predecessorHash": "5c99b7fb7262e51509d5ae56df666500d2955690db1164c8a28a14080b5b60b3",
+      "originalHash": "5c99b7fb7262e51509d5ae56df666500d2955690db1164c8a28a14080b5b60b3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "学位論文の審査に三人の教授が当たる。",
+            "romaji": "Gakui ronbun no shinsa ni san-nin no kyōju ga ataru.",
+            "german": "Drei Professoren sind für die Begutachtung der Dissertation zuständig."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "学位論文 ist der Oberbegriff für jede Arbeit, mit der ein akademischer Grad erworben wird: 卒業論文 (卒論, Bachelorarbeit), 修士論文 (修論, Masterarbeit) und 博士論文 (博論, Dissertation). Das Wort ist förmlich und steht in Prüfungsordnungen und Bibliothekskatalogen; im Gespräch nennt man meist die konkrete Art. Typisch: 学位論文を提出する / 審査する / 執筆する.",
+        "examples": [
+          {
+            "japanese": "学位論文の審査に三人の教授が当たる。",
+            "romaji": "Gakui ronbun no shinsa ni san-nin no kyōju ga ataru.",
+            "german": "Drei Professoren sind für die Begutachtung der Dissertation zuständig."
+          },
+          {
+            "japanese": "一月末までに学位論文を提出しなければならない。",
+            "romaji": "Ichigatsu-matsu made ni gakui ronbun o teishutsu shinakereba naranai.",
+            "german": "Ich muss meine Abschlussarbeit bis Ende Januar einreichen."
+          },
+          {
+            "japanese": "彼の学位論文は後に本として出版された。",
+            "romaji": "Kare no gakui ronbun wa nochi ni hon toshite shuppan sareta.",
+            "german": "Seine Dissertation wurde später als Buch veröffentlicht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1206550 sense 1, noun: thesis, dissertation Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 学位論文 ist der Oberbegriff für jede Arbeit, mit der ein akademischer Grad erworben wird: 卒業論文 (卒論, Bachelorarbeit), 修士論文 (修論, Masterarbeit) und 博士論文 (博論, Dissertation). Das Wort ist förmlich und steht in Prüfungsordnungen und Bibliothekskatalogen; im Gespräch nennt man meist die konkrete Art. Typisch: 学位論文を提出する / 審査する / 執筆する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1206550; spelling=学位論文; reading=がくいろんぶん",
+          "selected": {
+            "sequence": "1206550",
+            "spelling": "学位論文",
+            "reading": "がくいろんぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thesis",
+                  "dissertation"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1206550 sense 1, noun: thesis, dissertation"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 学位論文/がくいろんぶん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%AD%A6%E4%BD%8D%E8%AB%96%E6%96%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 学位論文/がくいろんぶん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abschlussarbeit; Dissertation. JMdict 1206550 sense 1, noun: thesis, dissertation",
+        "japanese": "学位論文の審査に三人の教授が当たる。 / 一月末までに学位論文を提出しなければならない。 / 彼の学位論文は後に本として出版された。",
+        "romanization": "gakui ronbun; Gakui ronbun no shinsa ni san-nin no kyōju ga ataru. / Ichigatsu-matsu made ni gakui ronbun o teishutsu shinakereba naranai. / Kare no gakui ronbun wa nochi ni hon toshite shuppan sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Drei Professoren sind für die Begutachtung der Dissertation zuständig. / Ich muss meine Abschlussarbeit bis Ende Januar einreichen. / Seine Dissertation wurde später als Buch veröffentlicht.",
+        "contexts": [
+          "Thesis review committee",
+          "Submission deadline",
+          "Published dissertation"
+        ],
+        "lexical": "JMdict 1206550 sense 1, noun: thesis, dissertation",
+        "register": "formal / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1252 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Thesis review committee; Submission deadline; Published dissertation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6a68c51538959109921ff62b225712ff75645c96d9904531c671500eae57a9ea",
+        "approvalHash": "f376786b9117e4b94e4742472765473979429ed6f30656c8b00518220690de32"
+      }
+    },
+    {
+      "id": "vocab-n1:1253",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1253",
+      "state": "accepted",
+      "predecessorHash": "dc963fa284b0e50886157da8b45283c0d12cf0ec2a974be382a26ab4f29b0ac1",
+      "originalHash": "dc963fa284b0e50886157da8b45283c0d12cf0ec2a974be382a26ab4f29b0ac1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "口頭試問で研究内容について質疑応答した。",
+            "romaji": "Kōtō shimon de kenkyū naiyō ni tsuite shitsugi ōtō shita.",
+            "german": "In der mündlichen Prüfung wurden Fragen zum Forschungsinhalt gestellt und beantwortet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "口頭試問 („mündliche Prüfungsfragen“) ist ein förmlicher Begriff für eine mündliche Prüfung, vor allem die Verteidigung einer Abschlussarbeit oder Dissertation und mündliche Teile von Aufnahmeprüfungen. Typisch: 口頭試問を受ける / 行う, 口頭試問に合格する. Allgemeiner ist 口頭試験; 面接 ist ein Vorstellungs- oder Auswahlgespräch, 筆記試験 die schriftliche Prüfung.",
+        "examples": [
+          {
+            "japanese": "口頭試問で研究内容について質疑応答した。",
+            "romaji": "Kōtō shimon de kenkyū naiyō ni tsuite shitsugi ōtō shita.",
+            "german": "In der mündlichen Prüfung wurden Fragen zum Forschungsinhalt gestellt und beantwortet."
+          },
+          {
+            "japanese": "この学校の入試では、筆記試験のあとに口頭試問がある。",
+            "romaji": "Kono gakkō no nyūshi de wa, hikki shiken no ato ni kōtō shimon ga aru.",
+            "german": "Bei der Aufnahmeprüfung dieser Schule folgt auf den schriftlichen Teil eine mündliche Prüfung."
+          },
+          {
+            "japanese": "博士論文の口頭試問を無事に終えて、ほっとした。",
+            "romaji": "Hakase ronbun no kōtō shimon o buji ni oete, hotto shita.",
+            "german": "Ich war erleichtert, als ich die Verteidigung meiner Dissertation hinter mir hatte."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1664720 sense 1, noun: oral examination, interview Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 口頭試問 („mündliche Prüfungsfragen“) ist ein förmlicher Begriff für eine mündliche Prüfung, vor allem die Verteidigung einer Abschlussarbeit oder Dissertation und mündliche Teile von Aufnahmeprüfungen. Typisch: 口頭試問を受ける / 行う, 口頭試問に合格する. Allgemeiner ist 口頭試験; 面接 ist ein Vorstellungs- oder Auswahlgespräch, 筆記試験 die schriftliche Prüfung. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1664720; spelling=口頭試問; reading=こうとうしもん",
+          "selected": {
+            "sequence": "1664720",
+            "spelling": "口頭試問",
+            "reading": "こうとうしもん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "oral examination",
+                  "interview"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1664720 sense 1, noun: oral examination, interview"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 口頭試問/こうとうしもん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8F%A3%E9%A0%AD%E8%A9%A6%E5%95%8F",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 口頭試問/こうとうしもん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "mündliche Prüfung; Rigorosum. JMdict 1664720 sense 1, noun: oral examination, interview",
+        "japanese": "口頭試問で研究内容について質疑応答した。 / この学校の入試では、筆記試験のあとに口頭試問がある。 / 博士論文の口頭試問を無事に終えて、ほっとした。",
+        "romanization": "kōtō shimon; Kōtō shimon de kenkyū naiyō ni tsuite shitsugi ōtō shita. / Kono gakkō no nyūshi de wa, hikki shiken no ato ni kōtō shimon ga aru. / Hakase ronbun no kōtō shimon o buji ni oete, hotto shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der mündlichen Prüfung wurden Fragen zum Forschungsinhalt gestellt und beantwortet. / Bei der Aufnahmeprüfung dieser Schule folgt auf den schriftlichen Teil eine mündliche Prüfung. / Ich war erleichtert, als ich die Verteidigung meiner Dissertation hinter mir hatte.",
+        "contexts": [
+          "Thesis defense Q&A",
+          "School entrance exam",
+          "Relief after the defense"
+        ],
+        "lexical": "JMdict 1664720 sense 1, noun: oral examination, interview",
+        "register": "formal / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1253 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Thesis defense Q&A; School entrance exam; Relief after the defense), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "16129383a5ab89ed7a3eb56ac1ee525a458a7e99959f45ff48ff7b14b9017d8a",
+        "approvalHash": "3bdd5af9d934ef1204941612fa92a664b76df1ed0325dd5dda3d11c5d6bf6a85"
+      }
+    },
+    {
+      "id": "vocab-n1:1254",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1254",
+      "state": "accepted",
+      "predecessorHash": "c0571831e73752bcf4ae138d277d9d9e56f250d856b656d559b5db931ee1d6bf",
+      "originalHash": "c0571831e73752bcf4ae138d277d9d9e56f250d856b656d559b5db931ee1d6bf",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "答案用紙に名前を書き忘れた。",
+            "romaji": "Tōan yōshi ni namae o kakiwasureta.",
+            "german": "Ich vergaß, meinen Namen auf den Antwortbogen zu schreiben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "答案 ist das, was man in einer Prüfung schriftlich abgibt: der ausgefüllte Prüfungsbogen bzw. die darin stehenden Antworten. Das leere Blatt heißt 答案用紙. Typisch: 答案を書く / 提出する / 採点する / 返却する, 模範答案 „Musterlösung“. Abzugrenzen von 解答 (Lösung einer Aufgabe, auch im Lösungsheft) und 回答 (Antwort auf eine Umfrage oder Anfrage).",
+        "examples": [
+          {
+            "japanese": "答案用紙に名前を書き忘れた。",
+            "romaji": "Tōan yōshi ni namae o kakiwasureta.",
+            "german": "Ich vergaß, meinen Namen auf den Antwortbogen zu schreiben."
+          },
+          {
+            "japanese": "時間内に答案を書き終えることができなかった。",
+            "romaji": "Jikan-nai ni tōan o kakioeru koto ga dekinakatta.",
+            "german": "Ich habe es nicht geschafft, meine Antworten rechtzeitig fertig zu schreiben."
+          },
+          {
+            "japanese": "来週の授業で答案が返却される。",
+            "romaji": "Raishū no jugyō de tōan ga henkyaku sareru.",
+            "german": "In der Stunde nächste Woche bekommen wir die korrigierten Prüfungen zurück."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183246466",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 答案/トウアン; lemma 答案; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "答案",
+              "reading": "とうあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 答案/とうあん \"Prüfungsarbeit; Antwortbogen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1449550 senses 1–2, noun: examination paper, answer sheet; answer to an exam question Pitch: Verified [0] via exact UniDic row. 答案 ist das, was man in einer Prüfung schriftlich abgibt: der ausgefüllte Prüfungsbogen bzw. die darin stehenden Antworten. Das leere Blatt heißt 答案用紙. Typisch: 答案を書く / 提出する / 採点する / 返却する, 模範答案 „Musterlösung“. Abzugrenzen von 解答 (Lösung einer Aufgabe, auch im Lösungsheft) und 回答 (Antwort auf eine Umfrage oder Anfrage). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1449550; spelling=答案; reading=とうあん",
+          "selected": {
+            "sequence": "1449550",
+            "spelling": "答案",
+            "reading": "とうあん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "examination paper",
+                  "examination script",
+                  "answer sheet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "answer (to an exam question)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1449550 senses 1–2, noun: examination paper, answer sheet; answer to an exam question"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 答案/トウアン; lemma 答案; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@183246466",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 答案/トウアン; lemma 答案; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "答案",
+              "reading": "とうあん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 答案/とうあん \"Prüfungsarbeit; Antwortbogen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Prüfungsarbeit; Antwortbogen. JMdict 1449550 senses 1–2, noun: examination paper, answer sheet; answer to an exam question",
+        "japanese": "答案用紙に名前を書き忘れた。 / 時間内に答案を書き終えることができなかった。 / 来週の授業で答案が返却される。",
+        "romanization": "tōan; Tōan yōshi ni namae o kakiwasureta. / Jikan-nai ni tōan o kakioeru koto ga dekinakatta. / Raishū no jugyō de tōan ga henkyaku sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich vergaß, meinen Namen auf den Antwortbogen zu schreiben. / Ich habe es nicht geschafft, meine Antworten rechtzeitig fertig zu schreiben. / In der Stunde nächste Woche bekommen wir die korrigierten Prüfungen zurück.",
+        "contexts": [
+          "Forgot to write name",
+          "Running out of time",
+          "Graded papers returned"
+        ],
+        "lexical": "JMdict 1449550 senses 1–2, noun: examination paper, answer sheet; answer to an exam question",
+        "register": "neutral (school context)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1254 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Forgot to write name; Running out of time; Graded papers returned), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "da7e7299cea1aae4c598b66d9c74e6494b3c2eb6e2f9da3db0574d026ef849c9",
+        "approvalHash": "4b4dc2be9d2af0c07fe604697057d0406a523f4aad64c623196ecbe24a25655c"
+      }
+    },
+    {
+      "id": "vocab-n1:1255",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1255",
+      "state": "accepted",
+      "predecessorHash": "f99cac338ebfd479586ec91bad14903a5b3b769c579f49b482feb7bcaf9cec14",
+      "originalHash": "f99cac338ebfd479586ec91bad14903a5b3b769c579f49b482feb7bcaf9cec14",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "百枚以上の答案を採点するのは大変だ。",
+            "romaji": "Hyaku-mai ijō no tōan o saiten suru no wa taihen da.",
+            "german": "Über hundert Prüfungsarbeiten zu bewerten ist mühsam."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "採点 ist das Vergeben von Punkten, also das Korrigieren und Bewerten von Prüfungen, aber auch das Punkten von Juroren im Sport oder bei Wettbewerben. Als transitives する-Verb: 答案を採点する. Typisch: 採点が甘い / 厳しい „großzügig / streng bewerten“, 採点基準, 自動採点; Karaoke-Geräte haben ein 採点機能. 評価 ist breiter (Gesamtbeurteilung), 成績 das Ergebnis.",
+        "examples": [
+          {
+            "japanese": "百枚以上の答案を採点するのは大変だ。",
+            "romaji": "Hyaku-mai ijō no tōan o saiten suru no wa taihen da.",
+            "german": "Über hundert Prüfungsarbeiten zu bewerten ist mühsam."
+          },
+          {
+            "japanese": "あの先生は採点が厳しいことで有名だ。",
+            "romaji": "Ano sensei wa saiten ga kibishii koto de yūmei da.",
+            "german": "Dieser Lehrer ist dafür bekannt, streng zu benoten."
+          },
+          {
+            "japanese": "フィギュアスケートの採点方法はとても複雑だ。",
+            "romaji": "Figyua sukēto no saiten hōhō wa totemo fukuzatsu da.",
+            "german": "Das Wertungssystem im Eiskunstlauf ist sehr kompliziert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127065277",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 採点/サイテン; lemma 採点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "採点",
+              "reading": "さいてん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 採点/さいてん \"Benotung; Bewertung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1294850 sense 1, noun / suru verb: marking, grading, scoring Pitch: Verified [0] via exact UniDic row. 採点 ist das Vergeben von Punkten, also das Korrigieren und Bewerten von Prüfungen, aber auch das Punkten von Juroren im Sport oder bei Wettbewerben. Als transitives する-Verb: 答案を採点する. Typisch: 採点が甘い / 厳しい „großzügig / streng bewerten“, 採点基準, 自動採点; Karaoke-Geräte haben ein 採点機能. 評価 ist breiter (Gesamtbeurteilung), 成績 das Ergebnis. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1294850; spelling=採点; reading=さいてん",
+          "selected": {
+            "sequence": "1294850",
+            "spelling": "採点",
+            "reading": "さいてん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "marking",
+                  "grading",
+                  "scoring"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1294850 sense 1, noun / suru verb: marking, grading, scoring"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 採点/サイテン; lemma 採点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@127065277",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 採点/サイテン; lemma 採点; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "採点",
+              "reading": "さいてん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 採点/さいてん \"Benotung; Bewertung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Benotung; Bewertung. JMdict 1294850 sense 1, noun / suru verb: marking, grading, scoring",
+        "japanese": "百枚以上の答案を採点するのは大変だ。 / あの先生は採点が厳しいことで有名だ。 / フィギュアスケートの採点方法はとても複雑だ。",
+        "romanization": "saiten; Hyaku-mai ijō no tōan o saiten suru no wa taihen da. / Ano sensei wa saiten ga kibishii koto de yūmei da. / Figyua sukēto no saiten hōhō wa totemo fukuzatsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Über hundert Prüfungsarbeiten zu bewerten ist mühsam. / Dieser Lehrer ist dafür bekannt, streng zu benoten. / Das Wertungssystem im Eiskunstlauf ist sehr kompliziert.",
+        "contexts": [
+          "Teacher's workload",
+          "Strict grader",
+          "Sports judging"
+        ],
+        "lexical": "JMdict 1294850 sense 1, noun / suru verb: marking, grading, scoring",
+        "register": "neutral",
+        "transitivity": "transitive (答案を採点する)",
+        "conjugation": "noun; suru verb (採点する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1255 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Teacher's workload; Strict grader; Sports judging), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5de5d27828bc6b4d8aad39ec8fe02f751ef37718580fb4c56b3a3652f0383510",
+        "approvalHash": "c3b01c59454eed421dc67a675e5aafd3dd6be013aaedbd8f54d0e2877e041c6f"
+      }
+    },
+    {
+      "id": "vocab-n1:1256",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1256",
+      "state": "accepted",
+      "predecessorHash": "4cf2ea0c9029b2ed23e100d1f25c146ce369ab71abbee8580bc1382d7107c051",
+      "originalHash": "4cf2ea0c9029b2ed23e100d1f25c146ce369ab71abbee8580bc1382d7107c051",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "成績表を見て親が驚いた。",
+            "romaji": "Seiseki-hyō o mite oya ga odoroita.",
+            "german": "Als die Eltern das Zeugnis sahen, waren sie überrascht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "成績表 ist eine Übersicht über erzielte Noten oder Ergebnisse. An Grund- und Mittelschulen heißt das Zeugnis meist 通知表 (älter 通信簿); 成績表 wird eher allgemein und an Universitäten gebraucht. Ein offiziell beglaubigtes Notenverzeichnis für Bewerbungen ist dagegen ein 成績証明書. Typisch: 成績表をもらう / 見る / 確認する.",
+        "examples": [
+          {
+            "japanese": "成績表を見て親が驚いた。",
+            "romaji": "Seiseki-hyō o mite oya ga odoroita.",
+            "german": "Als die Eltern das Zeugnis sahen, waren sie überrascht."
+          },
+          {
+            "japanese": "大学の成績表はウェブで確認できる。",
+            "romaji": "Daigaku no seiseki-hyō wa webu de kakunin dekiru.",
+            "german": "Die Notenübersicht der Uni kann man online einsehen."
+          },
+          {
+            "japanese": "塾から模試の成績表が送られてきた。",
+            "romaji": "Juku kara moshi no seiseki-hyō ga okurarete kita.",
+            "german": "Von der Nachhilfeschule kam die Ergebnisübersicht des Probetests."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1375770 sense 1, noun: report card, result sheet Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 成績表 ist eine Übersicht über erzielte Noten oder Ergebnisse. An Grund- und Mittelschulen heißt das Zeugnis meist 通知表 (älter 通信簿); 成績表 wird eher allgemein und an Universitäten gebraucht. Ein offiziell beglaubigtes Notenverzeichnis für Bewerbungen ist dagegen ein 成績証明書. Typisch: 成績表をもらう / 見る / 確認する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1375770; spelling=成績表; reading=せいせきひょう",
+          "selected": {
+            "sequence": "1375770",
+            "spelling": "成績表",
+            "reading": "せいせきひょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "report card",
+                  "result sheet"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1375770 sense 1, noun: report card, result sheet"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 成績表/せいせきひょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%88%90%E7%B8%BE%E8%A1%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 成績表/せいせきひょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zeugnis; Notenübersicht. JMdict 1375770 sense 1, noun: report card, result sheet",
+        "japanese": "成績表を見て親が驚いた。 / 大学の成績表はウェブで確認できる。 / 塾から模試の成績表が送られてきた。",
+        "romanization": "seiseki-hyō; Seiseki-hyō o mite oya ga odoroita. / Daigaku no seiseki-hyō wa webu de kakunin dekiru. / Juku kara moshi no seiseki-hyō ga okurarete kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als die Eltern das Zeugnis sahen, waren sie überrascht. / Die Notenübersicht der Uni kann man online einsehen. / Von der Nachhilfeschule kam die Ergebnisübersicht des Probetests.",
+        "contexts": [
+          "Parents' reaction",
+          "University online portal",
+          "Mock exam results"
+        ],
+        "lexical": "JMdict 1375770 sense 1, noun: report card, result sheet",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1256 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Parents' reaction; University online portal; Mock exam results), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c0f87d972ddac786624e4cdfbb715ac72f93a70bf7c116c7f14b678fd64cb55f",
+        "approvalHash": "98825f8d739ade2666bafd46ed70e5d9b813c344e15efb98e10c75a8e2a7cd00"
+      }
+    },
+    {
+      "id": "vocab-n1:1257",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1257",
+      "state": "accepted",
+      "predecessorHash": "8ad0a7561da42585c0648d4cb772b98b783fb22854e4675d26e40b6adb7501f3",
+      "originalHash": "8ad0a7561da42585c0648d4cb772b98b783fb22854e4675d26e40b6adb7501f3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "本試験に落ちたが追試で合格した。",
+            "romaji": "Hon shiken ni ochita ga tsuishi de gōkaku shita.",
+            "german": "Ich fiel bei der Hauptprüfung durch, bestand aber die Nachprüfung."
+          }
+        ],
+        "meaning": "Nachprüfung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "追試 ist die Kurzform von 追試験 und bezeichnet in der Schule eine Nachholprüfung für Abwesende; umgangssprachlich wird es oft auch für die Wiederholungsprüfung nach dem Durchfallen benutzt (genauer 再試 / 再試験). Typisch: 追試を受ける, 追試になる. In der Wissenschaft bedeutet 追試 die Replikation eines Experiments durch andere (実験を追試する, 追試で確認される).",
+        "examples": [
+          {
+            "japanese": "本試験に落ちたが追試で合格した。",
+            "romaji": "Hon shiken ni ochita ga tsuishi de gōkaku shita.",
+            "german": "Ich fiel bei der Hauptprüfung durch, bestand aber die Nachprüfung."
+          },
+          {
+            "japanese": "病気で期末試験を休んだ学生は、追試を受けることができる。",
+            "romaji": "Byōki de kimatsu shiken o yasunda gakusei wa, tsuishi o ukeru koto ga dekiru.",
+            "german": "Studierende, die die Abschlussprüfung wegen Krankheit verpasst haben, dürfen sie nachholen."
+          },
+          {
+            "japanese": "その実験結果は、ほかの研究者による追試で確認されなかった。",
+            "romaji": "Sono jikken kekka wa, hoka no kenkyūsha ni yoru tsuishi de kakunin sarenakatta.",
+            "german": "Das Versuchsergebnis ließ sich in Replikationsstudien anderer Forscher nicht bestätigen."
+          }
+        ],
+        "meaning": "Nachprüfung, Nachholprüfung; Replikation (Experiment)",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@171106206",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 追試/ツイシ; lemma 追試; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "追試",
+              "reading": "ついし",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 追試/ついし \"Nachprüfung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1854740 senses 1–2, noun / suru verb: replication (of an experiment); supplementary / makeup exam Pitch: Verified [0] via exact UniDic row. 追試 ist die Kurzform von 追試験 und bezeichnet in der Schule eine Nachholprüfung für Abwesende; umgangssprachlich wird es oft auch für die Wiederholungsprüfung nach dem Durchfallen benutzt (genauer 再試 / 再試験). Typisch: 追試を受ける, 追試になる. In der Wissenschaft bedeutet 追試 die Replikation eines Experiments durch andere (実験を追試する, 追試で確認される). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1854740; spelling=追試; reading=ついし",
+          "selected": {
+            "sequence": "1854740",
+            "spelling": "追試",
+            "reading": "ついし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "replication (of an experiment)",
+                  "verification (of experimental results)",
+                  "reproduction",
+                  "corroboration"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "supplementary examination",
+                  "makeup exam"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1854740 senses 1–2, noun / suru verb: replication (of an experiment); supplementary / makeup exam"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 追試/ツイシ; lemma 追試; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@171106206",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 追試/ツイシ; lemma 追試; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "追試",
+              "reading": "ついし",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 追試/ついし \"Nachprüfung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nachprüfung, Nachholprüfung; Replikation (Experiment). JMdict 1854740 senses 1–2, noun / suru verb: replication (of an experiment); supplementary / makeup exam",
+        "japanese": "本試験に落ちたが追試で合格した。 / 病気で期末試験を休んだ学生は、追試を受けることができる。 / その実験結果は、ほかの研究者による追試で確認されなかった。",
+        "romanization": "tsuishi; Hon shiken ni ochita ga tsuishi de gōkaku shita. / Byōki de kimatsu shiken o yasunda gakusei wa, tsuishi o ukeru koto ga dekiru. / Sono jikken kekka wa, hoka no kenkyūsha ni yoru tsuishi de kakunin sarenakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich fiel bei der Hauptprüfung durch, bestand aber die Nachprüfung. / Studierende, die die Abschlussprüfung wegen Krankheit verpasst haben, dürfen sie nachholen. / Das Versuchsergebnis ließ sich in Replikationsstudien anderer Forscher nicht bestätigen.",
+        "contexts": [
+          "Passing on second try",
+          "Makeup exam after illness",
+          "Scientific replication"
+        ],
+        "lexical": "JMdict 1854740 senses 1–2, noun / suru verb: replication (of an experiment); supplementary / makeup exam",
+        "register": "neutral; technical in sense 1",
+        "transitivity": "transitive as 追試する (実験を追試する, sense 1)",
+        "conjugation": "noun; suru verb (追試する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1257 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Passing on second try; Makeup exam after illness; Scientific replication), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a3ae5f0774c23dbafaebe4476b09abfc20409676ca562372767cb9ef589e54d8",
+        "approvalHash": "3aac182352fc2d17fefc5b8c6470aed8c5f1387420e6319e0d159a5e85904ea6"
+      }
+    },
+    {
+      "id": "vocab-n1:1258",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1258",
+      "state": "accepted",
+      "predecessorHash": "d1d506c02b87f33c44b8adcad28e280afb5be7781bcbe2cd4547b68505084937",
+      "originalHash": "d1d506c02b87f33c44b8adcad28e280afb5be7781bcbe2cd4547b68505084937",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "不合格になった科目を再履修しなければならない。",
+            "romaji": "Fugōkaku ni natta kamoku o sai-rishū shinakereba naranai.",
+            "german": "Nicht bestandene Fächer müssen wiederholt werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "再履修 ist ein Hochschulbegriff: 再 „erneut“ + 履修 „einen Kurs belegen“, also einen nicht bestandenen Kurs noch einmal belegen. Als する-Verb: 科目を再履修する; Studierende sagen kurz 再履 (さいり). Abzugrenzen von 留年 „ein ganzes Jahr wiederholen“ und 追試 / 再試 (nur die Prüfung wird wiederholt).",
+        "examples": [
+          {
+            "japanese": "不合格になった科目を再履修しなければならない。",
+            "romaji": "Fugōkaku ni natta kamoku o sai-rishū shinakereba naranai.",
+            "german": "Nicht bestandene Fächer müssen wiederholt werden."
+          },
+          {
+            "japanese": "再履修のクラスは一年生と一緒なので、少し気まずい。",
+            "romaji": "Sai-rishū no kurasu wa ichinensei to issho na node, sukoshi kimazui.",
+            "german": "Im Wiederholerkurs sitze ich mit Erstsemestern, das ist etwas peinlich."
+          },
+          {
+            "japanese": "再履修の学生は優先的に履修登録ができる。",
+            "romaji": "Sai-rishū no gakusei wa yūsen-teki ni rishū tōroku ga dekiru.",
+            "german": "Wer einen Kurs wiederholt, kann sich bevorzugt dafür anmelden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2705940 sense 1, noun / suru verb: repeating a course, taking a course again Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 再履修 ist ein Hochschulbegriff: 再 „erneut“ + 履修 „einen Kurs belegen“, also einen nicht bestandenen Kurs noch einmal belegen. Als する-Verb: 科目を再履修する; Studierende sagen kurz 再履 (さいり). Abzugrenzen von 留年 „ein ganzes Jahr wiederholen“ und 追試 / 再試 (nur die Prüfung wird wiederholt). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2705940; spelling=再履修; reading=さいりしゅう",
+          "selected": {
+            "sequence": "2705940",
+            "spelling": "再履修",
+            "reading": "さいりしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "repeating a course",
+                  "taking a course again"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2705940 sense 1, noun / suru verb: repeating a course, taking a course again"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 再履修/さいりしゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%86%8D%E5%B1%A5%E4%BF%AE",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 再履修/さいりしゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wiederholung eines Kurses. JMdict 2705940 sense 1, noun / suru verb: repeating a course, taking a course again",
+        "japanese": "不合格になった科目を再履修しなければならない。 / 再履修のクラスは一年生と一緒なので、少し気まずい。 / 再履修の学生は優先的に履修登録ができる。",
+        "romanization": "sai-rishū; Fugōkaku ni natta kamoku o sai-rishū shinakereba naranai. / Sai-rishū no kurasu wa ichinensei to issho na node, sukoshi kimazui. / Sai-rishū no gakusei wa yūsen-teki ni rishū tōroku ga dekiru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Nicht bestandene Fächer müssen wiederholt werden. / Im Wiederholerkurs sitze ich mit Erstsemestern, das ist etwas peinlich. / Wer einen Kurs wiederholt, kann sich bevorzugt dafür anmelden.",
+        "contexts": [
+          "Failed course requirement",
+          "Awkward retake class",
+          "Registration rules"
+        ],
+        "lexical": "JMdict 2705940 sense 1, noun / suru verb: repeating a course, taking a course again",
+        "register": "neutral / university jargon",
+        "transitivity": "transitive as 再履修する (科目を再履修する)",
+        "conjugation": "noun; suru verb (再履修する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1258 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Failed course requirement; Awkward retake class; Registration rules), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5c03ff1e52125f0c3325536227bfa92571331a26ef14a0e44335ed921439a49c",
+        "approvalHash": "abb9ed9189a2fa992b0bcd81cadcf7f478600e91834dcd023585f41fcdefeab4"
+      }
+    },
+    {
+      "id": "vocab-n1:1259",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1259",
+      "state": "accepted",
+      "predecessorHash": "e3d286c59305a14de541d13868afa9d462049ac18fdd743641ccbb238af7471f",
+      "originalHash": "e3d286c59305a14de541d13868afa9d462049ac18fdd743641ccbb238af7471f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "教育勅語は戦前の教育の基本理念を示した。",
+            "romaji": "Kyōiku chokugo wa senzen no kyōiku no kihon rinen o shimeshita.",
+            "german": "Das Kaiserliche Erziehungsedikt legte die grundlegende Bildungsphilosophie der Vorkriegszeit dar."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "教育勅語 ist das 1890 im Namen des Meiji-Kaisers erlassene Erziehungsedikt (勅語 „Worte des Kaisers“). Es betonte Loyalität zum Kaiser, Kindespietät und Gehorsam und wurde bis 1945 in Schulen feierlich verlesen. 1948 wurde es durch Parlamentsbeschlüsse für ungültig erklärt. Heute fällt das Wort in historischen Texten und in politischen Debatten über Moralerziehung; es ist ein historischer Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "教育勅語は戦前の教育の基本理念を示した。",
+            "romaji": "Kyōiku chokugo wa senzen no kyōiku no kihon rinen o shimeshita.",
+            "german": "Das Kaiserliche Erziehungsedikt legte die grundlegende Bildungsphilosophie der Vorkriegszeit dar."
+          },
+          {
+            "japanese": "教育勅語は一八九〇年に発布された。",
+            "romaji": "Kyōiku chokugo wa sen happyaku kyūjū-nen ni happu sareta.",
+            "german": "Das Kaiserliche Erziehungsedikt wurde 1890 erlassen."
+          },
+          {
+            "japanese": "戦後、教育勅語は国会の決議で効力を失った。",
+            "romaji": "Sengo, kyōiku chokugo wa kokkai no ketsugi de kōryoku o ushinatta.",
+            "german": "Nach dem Krieg wurde das Erziehungsedikt per Parlamentsbeschluss außer Kraft gesetzt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1761550 sense 1, noun (historical): Imperial Rescript on Education (1890) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 教育勅語 ist das 1890 im Namen des Meiji-Kaisers erlassene Erziehungsedikt (勅語 „Worte des Kaisers“). Es betonte Loyalität zum Kaiser, Kindespietät und Gehorsam und wurde bis 1945 in Schulen feierlich verlesen. 1948 wurde es durch Parlamentsbeschlüsse für ungültig erklärt. Heute fällt das Wort in historischen Texten und in politischen Debatten über Moralerziehung; es ist ein historischer Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1761550; spelling=教育勅語; reading=きょういくちょくご",
+          "selected": {
+            "sequence": "1761550",
+            "spelling": "教育勅語",
+            "reading": "きょういくちょくご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "historical term"
+                ],
+                "gloss": [
+                  "Imperial Rescript on Education (1890)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1761550 sense 1, noun (historical): Imperial Rescript on Education (1890)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 教育勅語/きょういくちょくご scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%95%99%E8%82%B2%E5%8B%85%E8%AA%9E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 教育勅語/きょういくちょくご scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kaiserliches Erziehungsedikt. JMdict 1761550 sense 1, noun (historical): Imperial Rescript on Education (1890)",
+        "japanese": "教育勅語は戦前の教育の基本理念を示した。 / 教育勅語は一八九〇年に発布された。 / 戦後、教育勅語は国会の決議で効力を失った。",
+        "romanization": "kyōiku chokugo; Kyōiku chokugo wa senzen no kyōiku no kihon rinen o shimeshita. / Kyōiku chokugo wa sen happyaku kyūjū-nen ni happu sareta. / Sengo, kyōiku chokugo wa kokkai no ketsugi de kōryoku o ushinatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Kaiserliche Erziehungsedikt legte die grundlegende Bildungsphilosophie der Vorkriegszeit dar. / Das Kaiserliche Erziehungsedikt wurde 1890 erlassen. / Nach dem Krieg wurde das Erziehungsedikt per Parlamentsbeschluss außer Kraft gesetzt.",
+        "contexts": [
+          "Prewar education ideology",
+          "Date of promulgation",
+          "Postwar abolition"
+        ],
+        "lexical": "JMdict 1761550 sense 1, noun (historical): Imperial Rescript on Education (1890)",
+        "register": "historical / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1259 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Prewar education ideology; Date of promulgation; Postwar abolition), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bf993ed8f37a78700e888c616fe794d6fe9455c1f1e723b3797273d4ec9c782a",
+        "approvalHash": "0a036e3b311111abf4e88bff730446017eea16fc1a20c5a65d96378b055ca4c7"
+      }
+    },
+    {
+      "id": "vocab-n1:1260",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1260",
+      "state": "accepted",
+      "predecessorHash": "af4f1c4ef3534397c3923999bb488f4bbe35779944152a3ba0fc7ac8abb55082",
+      "originalHash": "af4f1c4ef3534397c3923999bb488f4bbe35779944152a3ba0fc7ac8abb55082",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "義務教育の年限を延長すべきだという意見がある。",
+            "romaji": "Gimu kyōiku no nengen o enchō subeki da to iu iken ga aru.",
+            "german": "Es gibt die Meinung, dass die Dauer der Pflichtschulbildung verlängert werden sollte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "義務教育 ist die Schulpflicht bzw. die Pflichtschulzeit; in Japan umfasst sie neun Jahre (6 Jahre 小学校, 3 Jahre 中学校). Rechtlich liegt die Pflicht bei den Eltern, ihre Kinder zur Schule zu schicken. Typisch: 義務教育を受ける / 終える, 義務教育課程, 義務教育の無償. Die Oberschule (高校) gehört nicht dazu, obwohl fast alle sie besuchen.",
+        "examples": [
+          {
+            "japanese": "義務教育の年限を延長すべきだという意見がある。",
+            "romaji": "Gimu kyōiku no nengen o enchō subeki da to iu iken ga aru.",
+            "german": "Es gibt die Meinung, dass die Dauer der Pflichtschulbildung verlängert werden sollte."
+          },
+          {
+            "japanese": "日本の義務教育は小学校と中学校の九年間だ。",
+            "romaji": "Nihon no gimu kyōiku wa shōgakkō to chūgakkō no kyū-nenkan da.",
+            "german": "Die Schulpflicht in Japan umfasst neun Jahre Grund- und Mittelschule."
+          },
+          {
+            "japanese": "義務教育では教科書が無償で配られる。",
+            "romaji": "Gimu kyōiku de wa kyōkasho ga mushō de kubarareru.",
+            "german": "In der Pflichtschulzeit werden die Schulbücher kostenlos ausgegeben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1225910 sense 1, noun: compulsory education Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 義務教育 ist die Schulpflicht bzw. die Pflichtschulzeit; in Japan umfasst sie neun Jahre (6 Jahre 小学校, 3 Jahre 中学校). Rechtlich liegt die Pflicht bei den Eltern, ihre Kinder zur Schule zu schicken. Typisch: 義務教育を受ける / 終える, 義務教育課程, 義務教育の無償. Die Oberschule (高校) gehört nicht dazu, obwohl fast alle sie besuchen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1225910; spelling=義務教育; reading=ぎむきょういく",
+          "selected": {
+            "sequence": "1225910",
+            "spelling": "義務教育",
+            "reading": "ぎむきょういく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "compulsory education"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1225910 sense 1, noun: compulsory education"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 義務教育/ぎむきょういく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%BE%A9%E5%8B%99%E6%95%99%E8%82%B2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 義務教育/ぎむきょういく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Pflichtschulbildung. JMdict 1225910 sense 1, noun: compulsory education",
+        "japanese": "義務教育の年限を延長すべきだという意見がある。 / 日本の義務教育は小学校と中学校の九年間だ。 / 義務教育では教科書が無償で配られる。",
+        "romanization": "gimu kyōiku; Gimu kyōiku no nengen o enchō subeki da to iu iken ga aru. / Nihon no gimu kyōiku wa shōgakkō to chūgakkō no kyū-nenkan da. / Gimu kyōiku de wa kyōkasho ga mushō de kubarareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es gibt die Meinung, dass die Dauer der Pflichtschulbildung verlängert werden sollte. / Die Schulpflicht in Japan umfasst neun Jahre Grund- und Mittelschule. / In der Pflichtschulzeit werden die Schulbücher kostenlos ausgegeben.",
+        "contexts": [
+          "Policy debate",
+          "Structure of Japanese schooling",
+          "Free textbooks"
+        ],
+        "lexical": "JMdict 1225910 sense 1, noun: compulsory education",
+        "register": "neutral / administrative",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1260 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Policy debate; Structure of Japanese schooling; Free textbooks), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "405843a0fea89d9b63f08b11b217dfaadc11438b33427898ab45786a5b85f4f8",
+        "approvalHash": "f9778059767808f506b356654ffe6e6469eb42efb14ad0fb372863301742fc6c"
+      }
+    },
+    {
+      "id": "vocab-n1:1261",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1261",
+      "state": "accepted",
+      "predecessorHash": "4af42ad608ab1bd79df4672fd63eaf7ebfd19c6af84f0a4abc28497cc392bfe4",
+      "originalHash": "4af42ad608ab1bd79df4672fd63eaf7ebfd19c6af84f0a4abc28497cc392bfe4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高等教育の無償化が政策として検討されている。",
+            "romaji": "Kōtō kyōiku no mushō-ka ga seisaku toshite kentō sarete iru.",
+            "german": "Die kostenfreie Hochschulbildung wird als politische Maßnahme erwogen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "高等教育 ist die tertiäre Bildung: Universitäten, Kurzuniversitäten (短大), Fachhochschulen (高専, ab dem 4. Jahr) und Fachschulen. Vorsicht: 高等学校 (高校) ist trotz des Namens die Oberschule und gehört zum 中等教育. Die drei Stufen heißen 初等教育, 中等教育 und 高等教育. Typisch: 高等教育を受ける, 高等教育機関, 高等教育の無償化.",
+        "examples": [
+          {
+            "japanese": "高等教育の無償化が政策として検討されている。",
+            "romaji": "Kōtō kyōiku no mushō-ka ga seisaku toshite kentō sarete iru.",
+            "german": "Die kostenfreie Hochschulbildung wird als politische Maßnahme erwogen."
+          },
+          {
+            "japanese": "高等教育を受けた人の割合は年々増えている。",
+            "romaji": "Kōtō kyōiku o uketa hito no wariai wa nennen fuete iru.",
+            "german": "Der Anteil der Menschen mit Hochschulbildung steigt von Jahr zu Jahr."
+          },
+          {
+            "japanese": "高等教育機関には大学のほか、短大や専門学校も含まれる。",
+            "romaji": "Kōtō kyōiku kikan ni wa daigaku no hoka, tandai ya senmon gakkō mo fukumareru.",
+            "german": "Zu den Einrichtungen der Hochschulbildung zählen neben Universitäten auch Kurzuniversitäten und Fachschulen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1809340 sense 1, noun: higher education, tertiary education Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 高等教育 ist die tertiäre Bildung: Universitäten, Kurzuniversitäten (短大), Fachhochschulen (高専, ab dem 4. Jahr) und Fachschulen. Vorsicht: 高等学校 (高校) ist trotz des Namens die Oberschule und gehört zum 中等教育. Die drei Stufen heißen 初等教育, 中等教育 und 高等教育. Typisch: 高等教育を受ける, 高等教育機関, 高等教育の無償化. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1809340; spelling=高等教育; reading=こうとうきょういく",
+          "selected": {
+            "sequence": "1809340",
+            "spelling": "高等教育",
+            "reading": "こうとうきょういく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "higher education",
+                  "tertiary education"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1809340 sense 1, noun: higher education, tertiary education"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 高等教育/こうとうきょういく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%AB%98%E7%AD%89%E6%95%99%E8%82%B2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 高等教育/こうとうきょういく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hochschulbildung. JMdict 1809340 sense 1, noun: higher education, tertiary education",
+        "japanese": "高等教育の無償化が政策として検討されている。 / 高等教育を受けた人の割合は年々増えている。 / 高等教育機関には大学のほか、短大や専門学校も含まれる。",
+        "romanization": "kōtō kyōiku; Kōtō kyōiku no mushō-ka ga seisaku toshite kentō sarete iru. / Kōtō kyōiku o uketa hito no wariai wa nennen fuete iru. / Kōtō kyōiku kikan ni wa daigaku no hoka, tandai ya senmon gakkō mo fukumareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die kostenfreie Hochschulbildung wird als politische Maßnahme erwogen. / Der Anteil der Menschen mit Hochschulbildung steigt von Jahr zu Jahr. / Zu den Einrichtungen der Hochschulbildung zählen neben Universitäten auch Kurzuniversitäten und Fachschulen.",
+        "contexts": [
+          "Tuition-free policy",
+          "Education statistics",
+          "Types of institutions"
+        ],
+        "lexical": "JMdict 1809340 sense 1, noun: higher education, tertiary education",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1261 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Tuition-free policy; Education statistics; Types of institutions), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "22eb640b81cb48873dcd0399b24cd7177f3edd97ea6d3b213f1e885b58cd09d6",
+        "approvalHash": "fd5108105f3d0df9c3182783f5f3f4d70afca6ac17da2e4fb3bf937452dbc139"
+      }
+    },
+    {
+      "id": "vocab-n1:1262",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1262",
+      "state": "accepted",
+      "predecessorHash": "c302d14553c13ed5d05729e03c05143a33d693f4da40f3d477977827c070876e",
+      "originalHash": "c302d14553c13ed5d05729e03c05143a33d693f4da40f3d477977827c070876e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "この作家の散文は簡潔で美しい。",
+            "romaji": "Kono sakka no sanbun wa kanketsu de utsukushii.",
+            "german": "Die Prosa dieses Autors ist knapp und schön."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "散文 ist Prosa, also Text ohne Vers- oder Silbenmaß, im Gegensatz zu 韻文. Es steht oft in Literaturkritik: 散文詩 „Prosagedicht“, 散文作品, 散文家. Davon abgeleitet ist 散文的 „prosaisch“, bildlich auch „nüchtern, phantasielos“. Für einen einzelnen Roman oder eine Erzählung sagt man konkret 小説 oder 随筆.",
+        "examples": [
+          {
+            "japanese": "この作家の散文は簡潔で美しい。",
+            "romaji": "Kono sakka no sanbun wa kanketsu de utsukushii.",
+            "german": "Die Prosa dieses Autors ist knapp und schön."
+          },
+          {
+            "japanese": "彼は詩人として出発したが、のちに散文に転じた。",
+            "romaji": "Kare wa shijin toshite shuppatsu shita ga, nochi ni sanbun ni tenjita.",
+            "german": "Er begann als Lyriker, wandte sich aber später der Prosa zu."
+          },
+          {
+            "japanese": "彼の話はいつも散文的で、夢がない。",
+            "romaji": "Kare no hanashi wa itsumo sanbun-teki de, yume ga nai.",
+            "german": "Was er erzählt, ist immer nüchtern und ganz ohne Zauber."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133237262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 散文/サンブン; lemma 散文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "散文",
+              "reading": "さんぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 散文/さんぶん \"Prosa\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1303610 sense 1, noun: prose Pitch: Verified [0] via exact UniDic row. 散文 ist Prosa, also Text ohne Vers- oder Silbenmaß, im Gegensatz zu 韻文. Es steht oft in Literaturkritik: 散文詩 „Prosagedicht“, 散文作品, 散文家. Davon abgeleitet ist 散文的 „prosaisch“, bildlich auch „nüchtern, phantasielos“. Für einen einzelnen Roman oder eine Erzählung sagt man konkret 小説 oder 随筆. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1303610; spelling=散文; reading=さんぶん",
+          "selected": {
+            "sequence": "1303610",
+            "spelling": "散文",
+            "reading": "さんぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "prose"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1303610 sense 1, noun: prose"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 散文/サンブン; lemma 散文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133237262",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 散文/サンブン; lemma 散文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "散文",
+              "reading": "さんぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 散文/さんぶん \"Prosa\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Prosa. JMdict 1303610 sense 1, noun: prose",
+        "japanese": "この作家の散文は簡潔で美しい。 / 彼は詩人として出発したが、のちに散文に転じた。 / 彼の話はいつも散文的で、夢がない。",
+        "romanization": "sanbun; Kono sakka no sanbun wa kanketsu de utsukushii. / Kare wa shijin toshite shuppatsu shita ga, nochi ni sanbun ni tenjita. / Kare no hanashi wa itsumo sanbun-teki de, yume ga nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Prosa dieses Autors ist knapp und schön. / Er begann als Lyriker, wandte sich aber später der Prosa zu. / Was er erzählt, ist immer nüchtern und ganz ohne Zauber.",
+        "contexts": [
+          "Praising a writer's style",
+          "Writer's career change",
+          "Figurative 'prosaic'"
+        ],
+        "lexical": "JMdict 1303610 sense 1, noun: prose",
+        "register": "formal / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1262 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Praising a writer's style; Writer's career change; Figurative 'prosaic'), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9d3b007762ffe777b8ecef7ba0a4e92916190d540b758f5adb051350e2a9341d",
+        "approvalHash": "d09a0e9dbb50e86bdfda135e4a57314b4037db51b6296de941d8f22685adaddc"
+      }
+    },
+    {
+      "id": "vocab-n1:1263",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1263",
+      "state": "accepted",
+      "predecessorHash": "4a84e05a095fd4d0ea5e64460f17a215d310819e8b58ef79139fc4ae3a93355d",
+      "originalHash": "4a84e05a095fd4d0ea5e64460f17a215d310819e8b58ef79139fc4ae3a93355d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "韻文と散文の違いを理解することが大切だ。",
+            "romaji": "Inbun to sanbun no chigai o rikai suru koto ga taisetsu da.",
+            "german": "Es ist wichtig, den Unterschied zwischen Vers und Prosa zu verstehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "韻文 ist gebundene Rede, also Text mit festem Rhythmus, Silbenmaß oder Reim (韻 „Reim, Klang“). In der japanischen Dichtung beruht er weniger auf Reim als auf Silbenzahl, etwa dem 五七調 in 和歌 und 俳句. Gegenbegriff ist 散文. Der Begriff ist literaturwissenschaftlich und förmlich; im Alltag sagt man einfach 詩. „Reimen“ heißt 韻を踏む.",
+        "examples": [
+          {
+            "japanese": "韻文と散文の違いを理解することが大切だ。",
+            "romaji": "Inbun to sanbun no chigai o rikai suru koto ga taisetsu da.",
+            "german": "Es ist wichtig, den Unterschied zwischen Vers und Prosa zu verstehen."
+          },
+          {
+            "japanese": "昔は歴史や法律も、覚えやすいように韻文で書かれることがあった。",
+            "romaji": "Mukashi wa rekishi ya hōritsu mo, oboeyasui yō ni inbun de kakareru koto ga atta.",
+            "german": "Früher wurden mitunter auch Geschichte und Gesetze in Versen verfasst, damit man sie sich leichter merken konnte."
+          },
+          {
+            "japanese": "この作品は韻文で書かれた悲劇だ。",
+            "romaji": "Kono sakuhin wa inbun de kakareta higeki da.",
+            "german": "Dieses Werk ist eine in Versen verfasste Tragödie."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59553945",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 韻文/インブン; lemma 韻文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "韻文",
+              "reading": "いんぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 韻文/いんぶん \"Versdichtung; gebundene Rede\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1170980 sense 1, noun / no-adjective: verse, poetry Pitch: Verified [0] via exact UniDic row. 韻文 ist gebundene Rede, also Text mit festem Rhythmus, Silbenmaß oder Reim (韻 „Reim, Klang“). In der japanischen Dichtung beruht er weniger auf Reim als auf Silbenzahl, etwa dem 五七調 in 和歌 und 俳句. Gegenbegriff ist 散文. Der Begriff ist literaturwissenschaftlich und förmlich; im Alltag sagt man einfach 詩. „Reimen“ heißt 韻を踏む. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1170980; spelling=韻文; reading=いんぶん",
+          "selected": {
+            "sequence": "1170980",
+            "spelling": "韻文",
+            "reading": "いんぶん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "verse",
+                  "poetry"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1170980 sense 1, noun / no-adjective: verse, poetry"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 韻文/インブン; lemma 韻文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59553945",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 韻文/インブン; lemma 韻文; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "韻文",
+              "reading": "いんぶん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 韻文/いんぶん \"Versdichtung; gebundene Rede\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Versdichtung; gebundene Rede. JMdict 1170980 sense 1, noun / no-adjective: verse, poetry",
+        "japanese": "韻文と散文の違いを理解することが大切だ。 / 昔は歴史や法律も、覚えやすいように韻文で書かれることがあった。 / この作品は韻文で書かれた悲劇だ。",
+        "romanization": "inbun; Inbun to sanbun no chigai o rikai suru koto ga taisetsu da. / Mukashi wa rekishi ya hōritsu mo, oboeyasui yō ni inbun de kakareru koto ga atta. / Kono sakuhin wa inbun de kakareta higeki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, den Unterschied zwischen Vers und Prosa zu verstehen. / Früher wurden mitunter auch Geschichte und Gesetze in Versen verfasst, damit man sie sich leichter merken konnte. / Dieses Werk ist eine in Versen verfasste Tragödie.",
+        "contexts": [
+          "Literature class basics",
+          "Verse as memory aid",
+          "Describing a verse drama"
+        ],
+        "lexical": "JMdict 1170980 sense 1, noun / no-adjective: verse, poetry",
+        "register": "formal / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1263 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Literature class basics; Verse as memory aid; Describing a verse drama), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "11a3d2ac20aedbb9acd239f04c3f6b6264e2decbb5114d9ee42b58330d50621e",
+        "approvalHash": "c95e7a2c401b4197690c9fe1cf9ed44a6551bb6988a8b9e2289e51858d9634da"
+      }
+    },
+    {
+      "id": "vocab-n1:1264",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1264",
+      "state": "accepted",
+      "predecessorHash": "8463e255e26aa1b982012aacfdfeb35fe2eba69e9a3fa5bb5ace848037750766",
+      "originalHash": "8463e255e26aa1b982012aacfdfeb35fe2eba69e9a3fa5bb5ace848037750766",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本の詩歌には四季の移ろいが詠まれている。",
+            "romaji": "Nihon no shiika ni wa shiki no utsuroi ga yomarete iru.",
+            "german": "In der japanischen Dichtung wird der Wandel der Jahreszeiten besungen."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "詩歌 (しいか, seltener しか) ist ein gehobener Sammelbegriff für Dichtung: ursprünglich chinesische Gedichte (漢詩) und japanische Lieddichtung (和歌), heute Lyrik allgemein einschließlich 短歌 und 俳句. Er bezeichnet die Gattung, nicht ein einzelnes Gedicht; dafür sagt man 詩 oder 歌. Typisch: 詩歌に親しむ, 詩歌を詠む, 詩歌集.",
+        "examples": [
+          {
+            "japanese": "日本の詩歌には四季の移ろいが詠まれている。",
+            "romaji": "Nihon no shiika ni wa shiki no utsuroi ga yomarete iru.",
+            "german": "In der japanischen Dichtung wird der Wandel der Jahreszeiten besungen."
+          },
+          {
+            "japanese": "彼女は幼いころから詩歌に親しんで育った。",
+            "romaji": "Kanojo wa osanai koro kara shiika ni shitashinde sodatta.",
+            "german": "Sie ist von klein auf mit Gedichten aufgewachsen."
+          },
+          {
+            "japanese": "図書館の詩歌の棚で古い歌集を見つけた。",
+            "romaji": "Toshokan no shiika no tana de furui kashū o mitsuketa.",
+            "german": "Im Lyrikregal der Bibliothek fand ich eine alte Gedichtsammlung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133804412",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 詩歌/シイカ; lemma 詩歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "詩歌",
+              "reading": "しいか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 詩歌/しいか \"Dichtung; Poesie\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1579540 senses 1–2, noun: Japanese and Chinese poetry; poetry, poems Pitch: Verified [1] via exact UniDic row. 詩歌 (しいか, seltener しか) ist ein gehobener Sammelbegriff für Dichtung: ursprünglich chinesische Gedichte (漢詩) und japanische Lieddichtung (和歌), heute Lyrik allgemein einschließlich 短歌 und 俳句. Er bezeichnet die Gattung, nicht ein einzelnes Gedicht; dafür sagt man 詩 oder 歌. Typisch: 詩歌に親しむ, 詩歌を詠む, 詩歌集. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1579540; spelling=詩歌; reading=しいか",
+          "selected": {
+            "sequence": "1579540",
+            "spelling": "詩歌",
+            "reading": "しいか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Japanese and Chinese poetry"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "poetry",
+                  "poems"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1579540 senses 1–2, noun: Japanese and Chinese poetry; poetry, poems"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 詩歌/シイカ; lemma 詩歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133804412",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 詩歌/シイカ; lemma 詩歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "詩歌",
+              "reading": "しいか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 詩歌/しいか \"Dichtung; Poesie\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dichtung; Poesie. JMdict 1579540 senses 1–2, noun: Japanese and Chinese poetry; poetry, poems",
+        "japanese": "日本の詩歌には四季の移ろいが詠まれている。 / 彼女は幼いころから詩歌に親しんで育った。 / 図書館の詩歌の棚で古い歌集を見つけた。",
+        "romanization": "shiika; Nihon no shiika ni wa shiki no utsuroi ga yomarete iru. / Kanojo wa osanai koro kara shiika ni shitashinde sodatta. / Toshokan no shiika no tana de furui kashū o mitsuketa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der japanischen Dichtung wird der Wandel der Jahreszeiten besungen. / Sie ist von klein auf mit Gedichten aufgewachsen. / Im Lyrikregal der Bibliothek fand ich eine alte Gedichtsammlung.",
+        "contexts": [
+          "Themes of Japanese poetry",
+          "Upbringing with poems",
+          "Library poetry shelf"
+        ],
+        "lexical": "JMdict 1579540 senses 1–2, noun: Japanese and Chinese poetry; poetry, poems",
+        "register": "literary / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1264 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Themes of Japanese poetry; Upbringing with poems; Library poetry shelf), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "208f034336b0f8815d5888003eba290cd1a547e393b5e9db33f0a077318ffd3c",
+        "approvalHash": "30300a96614fca4cd2b8abfccfd9fea6be8a39a33ab50934e824034bca2539f4"
+      }
+    },
+    {
+      "id": "vocab-n1:1265",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1265",
+      "state": "accepted",
+      "predecessorHash": "3161189bf3429a2fa5d13ad9982a4b5bbe7fed1a2dc8c76a60c18f2621d2a411",
+      "originalHash": "3161189bf3429a2fa5d13ad9982a4b5bbe7fed1a2dc8c76a60c18f2621d2a411",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "万葉集には四千首以上の和歌が収められている。",
+            "romaji": "Man'yōshū ni wa yonsen-shu ijō no waka ga osamerarete iru.",
+            "german": "Im Man'yōshū sind über viertausend Waka-Gedichte enthalten."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "和歌 („japanisches Lied“) ist die klassische japanische Gedichtform im Gegensatz zum chinesischen 漢詩; meist ist das 短歌 mit 31 Moren im Muster 5-7-5-7-7 gemeint. Gedichte werden 詠む (よむ), nicht 書く, und mit 首 gezählt: 一首, 百人一首. Berühmte Sammlungen sind 万葉集 und 古今和歌集. Die moderne Form heißt 短歌.",
+        "examples": [
+          {
+            "japanese": "万葉集には四千首以上の和歌が収められている。",
+            "romaji": "Man'yōshū ni wa yonsen-shu ijō no waka ga osamerarete iru.",
+            "german": "Im Man'yōshū sind über viertausend Waka-Gedichte enthalten."
+          },
+          {
+            "japanese": "和歌は五・七・五・七・七の三十一音から成る。",
+            "romaji": "Waka wa go, shichi, go, shichi, shichi no sanjūichi-on kara naru.",
+            "german": "Ein Waka besteht aus 31 Silben im Muster 5-7-5-7-7."
+          },
+          {
+            "japanese": "平安時代の貴族は和歌を詠んで思いを伝え合った。",
+            "romaji": "Heian jidai no kizoku wa waka o yonde omoi o tsutaeatta.",
+            "german": "Die Adligen der Heian-Zeit teilten einander ihre Gefühle in Gedichten mit."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280870866",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 和歌/ワカ; lemma 和歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "和歌",
+              "reading": "わか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 和歌/わか \"japanisches Gedicht (31 Silben)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1562000 sense 1, noun: waka, classic Japanese poem (esp. tanka, 31 morae) Pitch: Verified [1] via exact UniDic row. 和歌 („japanisches Lied“) ist die klassische japanische Gedichtform im Gegensatz zum chinesischen 漢詩; meist ist das 短歌 mit 31 Moren im Muster 5-7-5-7-7 gemeint. Gedichte werden 詠む (よむ), nicht 書く, und mit 首 gezählt: 一首, 百人一首. Berühmte Sammlungen sind 万葉集 und 古今和歌集. Die moderne Form heißt 短歌. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1562000; spelling=和歌; reading=わか",
+          "selected": {
+            "sequence": "1562000",
+            "spelling": "和歌",
+            "reading": "わか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "waka",
+                  "classic Japanese poem, esp. a tanka, often 31 morae"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1562000 sense 1, noun: waka, classic Japanese poem (esp. tanka, 31 morae)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 和歌/ワカ; lemma 和歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280870866",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 和歌/ワカ; lemma 和歌; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "和歌",
+              "reading": "わか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 和歌/わか \"japanisches Gedicht (31 Silben)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "japanisches Gedicht (31 Silben). JMdict 1562000 sense 1, noun: waka, classic Japanese poem (esp. tanka, 31 morae)",
+        "japanese": "万葉集には四千首以上の和歌が収められている。 / 和歌は五・七・五・七・七の三十一音から成る。 / 平安時代の貴族は和歌を詠んで思いを伝え合った。",
+        "romanization": "waka; Man'yōshū ni wa yonsen-shu ijō no waka ga osamerarete iru. / Waka wa go, shichi, go, shichi, shichi no sanjūichi-on kara naru. / Heian jidai no kizoku wa waka o yonde omoi o tsutaeatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Man'yōshū sind über viertausend Waka-Gedichte enthalten. / Ein Waka besteht aus 31 Silben im Muster 5-7-5-7-7. / Die Adligen der Heian-Zeit teilten einander ihre Gefühle in Gedichten mit.",
+        "contexts": [
+          "Classical anthology",
+          "Poetic form",
+          "Heian court culture"
+        ],
+        "lexical": "JMdict 1562000 sense 1, noun: waka, classic Japanese poem (esp. tanka, 31 morae)",
+        "register": "literary / historical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1265 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Classical anthology; Poetic form; Heian court culture), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c3e7c273bc51e30d3fc4491aeffc6dd761b00b8ef3e191f7f8c057d5ad90efe8",
+        "approvalHash": "b71f3f9678768749e33c6a950d476ff04feafda336642794f9717b4c744b929c"
+      }
+    },
+    {
+      "id": "vocab-n1:1266",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1266",
+      "state": "accepted",
+      "predecessorHash": "d79dc185f5b2450affe6f9982db6ea45dcf305eb22e46e13ad83eb75f224ef64",
+      "originalHash": "d79dc185f5b2450affe6f9982db6ea45dcf305eb22e46e13ad83eb75f224ef64",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼の抒情詩は繊細な感情を表現している。",
+            "romaji": "Kare no jojōshi wa sensai na kanjō o hyōgen shite iru.",
+            "german": "Seine Lyrik drückt feinsinnige Gefühle aus."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "抒情詩 ist Lyrik im engeren Sinn: Gedichte, die die Gefühle und Stimmungen des Dichters ausdrücken (抒情 „Gefühlsausdruck“). Weil 抒 kein Jōyō-Kanji ist, schreibt man heute oft 叙情詩. Gegenbegriffe sind 叙事詩 „Epos“ (erzählt Ereignisse) und 劇詩 „dramatische Dichtung“. Dazu gehört das Adjektiv 抒情的 / 叙情的 „lyrisch, gefühlvoll“.",
+        "examples": [
+          {
+            "japanese": "彼の抒情詩は繊細な感情を表現している。",
+            "romaji": "Kare no jojōshi wa sensai na kanjō o hyōgen shite iru.",
+            "german": "Seine Lyrik drückt feinsinnige Gefühle aus."
+          },
+          {
+            "japanese": "叙事詩が出来事を語るのに対し、抒情詩は詩人の心を歌う。",
+            "romaji": "Jojishi ga dekigoto o kataru no ni taishi, jojōshi wa shijin no kokoro o utau.",
+            "german": "Während das Epos Ereignisse erzählt, besingt die Lyrik das Innenleben des Dichters."
+          },
+          {
+            "japanese": "若いころは恋の抒情詩をよく書いていた。",
+            "romaji": "Wakai koro wa koi no jojōshi o yoku kaite ita.",
+            "german": "In meiner Jugend habe ich oft Liebesgedichte geschrieben."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1344890 sense 1, noun: lyric poem, lyric poetry Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 抒情詩 ist Lyrik im engeren Sinn: Gedichte, die die Gefühle und Stimmungen des Dichters ausdrücken (抒情 „Gefühlsausdruck“). Weil 抒 kein Jōyō-Kanji ist, schreibt man heute oft 叙情詩. Gegenbegriffe sind 叙事詩 „Epos“ (erzählt Ereignisse) und 劇詩 „dramatische Dichtung“. Dazu gehört das Adjektiv 抒情的 / 叙情的 „lyrisch, gefühlvoll“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1344890; spelling=抒情詩; reading=じょじょうし",
+          "selected": {
+            "sequence": "1344890",
+            "spelling": "抒情詩",
+            "reading": "じょじょうし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lyric (poem)",
+                  "lyric poetry"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1344890 sense 1, noun: lyric poem, lyric poetry"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 抒情詩/じょじょうし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%8A%92%E6%83%85%E8%A9%A9",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 抒情詩/じょじょうし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lyrik; lyrisches Gedicht. JMdict 1344890 sense 1, noun: lyric poem, lyric poetry",
+        "japanese": "彼の抒情詩は繊細な感情を表現している。 / 叙事詩が出来事を語るのに対し、抒情詩は詩人の心を歌う。 / 若いころは恋の抒情詩をよく書いていた。",
+        "romanization": "jojōshi; Kare no jojōshi wa sensai na kanjō o hyōgen shite iru. / Jojishi ga dekigoto o kataru no ni taishi, jojōshi wa shijin no kokoro o utau. / Wakai koro wa koi no jojōshi o yoku kaite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Seine Lyrik drückt feinsinnige Gefühle aus. / Während das Epos Ereignisse erzählt, besingt die Lyrik das Innenleben des Dichters. / In meiner Jugend habe ich oft Liebesgedichte geschrieben.",
+        "contexts": [
+          "Literary appreciation",
+          "Genre comparison",
+          "Youthful love poems"
+        ],
+        "lexical": "JMdict 1344890 sense 1, noun: lyric poem, lyric poetry",
+        "register": "literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1266 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Literary appreciation; Genre comparison; Youthful love poems), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fbc107ef36cbea006eaee1c5568f65bebbc7f6653fa87e87e619f498052368fa",
+        "approvalHash": "6244adb31fbbd0ae7c520a020617dc5c879215266e95af435321b750e9c83580"
+      }
+    },
+    {
+      "id": "vocab-n1:1267",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1267",
+      "state": "accepted",
+      "predecessorHash": "1d6f08a60b7785ec1d5c4649a8545fe25f733e6aef22689f464e35bb9a0aa5f8",
+      "originalHash": "1d6f08a60b7785ec1d5c4649a8545fe25f733e6aef22689f464e35bb9a0aa5f8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "芭蕉の紀行文は文学的価値が高い。",
+            "romaji": "Bashō no kikō-bun wa bungaku-teki kachi ga takai.",
+            "german": "Bashōs Reiseberichte haben einen hohen literarischen Wert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "紀行 („Aufzeichnung einer Reise“) ist ein literarischer Begriff für Reiseberichte. Allein steht es selten; typisch sind 紀行文 „Reiseprosa“, 紀行番組 „Reisedokumentation im Fernsehen“ und Titel wie 〜紀行. Bekanntestes Beispiel ist Bashōs おくのほそ道. Im Alltag sagt man eher 旅行記 oder einfach 旅の記録.",
+        "examples": [
+          {
+            "japanese": "芭蕉の紀行文は文学的価値が高い。",
+            "romaji": "Bashō no kikō-bun wa bungaku-teki kachi ga takai.",
+            "german": "Bashōs Reiseberichte haben einen hohen literarischen Wert."
+          },
+          {
+            "japanese": "週末はよくテレビの紀行番組を見ている。",
+            "romaji": "Shūmatsu wa yoku terebi no kikō bangumi o mite iru.",
+            "german": "Am Wochenende schaue ich oft Reisedokus im Fernsehen."
+          },
+          {
+            "japanese": "彼女はアジア各地を旅し、その体験を紀行にまとめた。",
+            "romaji": "Kanojo wa Ajia kakuchi o tabi shi, sono taiken o kikō ni matometa.",
+            "german": "Sie bereiste ganz Asien und schrieb ihre Erlebnisse in einem Reisebericht nieder."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103691782",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 紀行/キコウ; lemma 紀行; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "紀行",
+              "reading": "きこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 紀行/きこう \"Reisebericht; Reiseliteratur\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1222940 sense 1, noun: travelogue, traveller's journal Pitch: Verified [0] via exact UniDic row. 紀行 („Aufzeichnung einer Reise“) ist ein literarischer Begriff für Reiseberichte. Allein steht es selten; typisch sind 紀行文 „Reiseprosa“, 紀行番組 „Reisedokumentation im Fernsehen“ und Titel wie 〜紀行. Bekanntestes Beispiel ist Bashōs おくのほそ道. Im Alltag sagt man eher 旅行記 oder einfach 旅の記録. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1222940; spelling=紀行; reading=きこう",
+          "selected": {
+            "sequence": "1222940",
+            "spelling": "紀行",
+            "reading": "きこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "traveller's journal",
+                  "traveler's journal",
+                  "travelogue"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1222940 sense 1, noun: travelogue, traveller's journal"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 紀行/キコウ; lemma 紀行; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103691782",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 紀行/キコウ; lemma 紀行; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "紀行",
+              "reading": "きこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 紀行/きこう \"Reisebericht; Reiseliteratur\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reisebericht; Reiseliteratur. JMdict 1222940 sense 1, noun: travelogue, traveller's journal",
+        "japanese": "芭蕉の紀行文は文学的価値が高い。 / 週末はよくテレビの紀行番組を見ている。 / 彼女はアジア各地を旅し、その体験を紀行にまとめた。",
+        "romanization": "kikō; Bashō no kikō-bun wa bungaku-teki kachi ga takai. / Shūmatsu wa yoku terebi no kikō bangumi o mite iru. / Kanojo wa Ajia kakuchi o tabi shi, sono taiken o kikō ni matometa. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bashōs Reiseberichte haben einen hohen literarischen Wert. / Am Wochenende schaue ich oft Reisedokus im Fernsehen. / Sie bereiste ganz Asien und schrieb ihre Erlebnisse in einem Reisebericht nieder.",
+        "contexts": [
+          "Classical literature",
+          "TV travel documentaries",
+          "Writing up a journey"
+        ],
+        "lexical": "JMdict 1222940 sense 1, noun: travelogue, traveller's journal",
+        "register": "literary / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1267 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Classical literature; TV travel documentaries; Writing up a journey), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c38206156e3d4ec848dc40f95ca3185655f92191243cd69f20c9cdc467c6e5e5",
+        "approvalHash": "8d020bac7073353ceb59dbd3cff42d7af5b614949ed06fe0b3fb888858fa3e75"
+      }
+    },
+    {
+      "id": "vocab-n1:1268",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1268",
+      "state": "accepted",
+      "predecessorHash": "8fab99d1b8ca52aa860d51d6f8bb2debd56b746a6a7ba217343d6954de51d1a6",
+      "originalHash": "8fab99d1b8ca52aa860d51d6f8bb2debd56b746a6a7ba217343d6954de51d1a6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "シェイクスピアの戯曲は今なお上演されている。",
+            "romaji": "Sheikusupia no gikyoku wa ima nao jōen sarete iru.",
+            "german": "Shakespeares Dramen werden noch heute aufgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "戯曲 ist ein Bühnenstück als literarischer Text, also das geschriebene Drama. Die Aufführung selbst heißt 劇 oder 芝居; 脚本 ist das Drehbuch oder Skript (auch für Film), 台本 das Arbeitsskript der Schauspieler. Der Autor heißt 劇作家. Typisch: 戯曲を書く, 戯曲化する „dramatisieren“, 戯曲集.",
+        "examples": [
+          {
+            "japanese": "シェイクスピアの戯曲は今なお上演されている。",
+            "romaji": "Sheikusupia no gikyoku wa ima nao jōen sarete iru.",
+            "german": "Shakespeares Dramen werden noch heute aufgeführt."
+          },
+          {
+            "japanese": "彼女は小説だけでなく、戯曲も書いている。",
+            "romaji": "Kanojo wa shōsetsu dake de naku, gikyoku mo kaite iru.",
+            "german": "Sie schreibt nicht nur Romane, sondern auch Theaterstücke."
+          },
+          {
+            "japanese": "その小説は戯曲に書き直され、舞台で上演された。",
+            "romaji": "Sono shōsetsu wa gikyoku ni kakinaosare, butai de jōen sareta.",
+            "german": "Der Roman wurde zu einem Bühnenstück umgearbeitet und aufgeführt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109018118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 戯曲/ギキョク; lemma 戯曲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "戯曲",
+              "reading": "ぎきょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 戯曲/ぎきょく \"Theaterstück; Drama\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1225010 sense 1, noun: drama, play (as a written work) Pitch: Verified [0] via exact UniDic row. 戯曲 ist ein Bühnenstück als literarischer Text, also das geschriebene Drama. Die Aufführung selbst heißt 劇 oder 芝居; 脚本 ist das Drehbuch oder Skript (auch für Film), 台本 das Arbeitsskript der Schauspieler. Der Autor heißt 劇作家. Typisch: 戯曲を書く, 戯曲化する „dramatisieren“, 戯曲集. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1225010; spelling=戯曲; reading=ぎきょく",
+          "selected": {
+            "sequence": "1225010",
+            "spelling": "戯曲",
+            "reading": "ぎきょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "drama",
+                  "play"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "Chinese opera"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1225010 sense 1, noun: drama, play (as a written work)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 戯曲/ギキョク; lemma 戯曲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109018118",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 戯曲/ギキョク; lemma 戯曲; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "戯曲",
+              "reading": "ぎきょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 戯曲/ぎきょく \"Theaterstück; Drama\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Theaterstück; Drama. JMdict 1225010 sense 1, noun: drama, play (as a written work)",
+        "japanese": "シェイクスピアの戯曲は今なお上演されている。 / 彼女は小説だけでなく、戯曲も書いている。 / その小説は戯曲に書き直され、舞台で上演された。",
+        "romanization": "gikyoku; Sheikusupia no gikyoku wa ima nao jōen sarete iru. / Kanojo wa shōsetsu dake de naku, gikyoku mo kaite iru. / Sono shōsetsu wa gikyoku ni kakinaosare, butai de jōen sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Shakespeares Dramen werden noch heute aufgeführt. / Sie schreibt nicht nur Romane, sondern auch Theaterstücke. / Der Roman wurde zu einem Bühnenstück umgearbeitet und aufgeführt.",
+        "contexts": [
+          "Classic plays still staged",
+          "Author's range",
+          "Novel adapted for stage"
+        ],
+        "lexical": "JMdict 1225010 sense 1, noun: drama, play (as a written work)",
+        "register": "literary / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1268 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Classic plays still staged; Author's range; Novel adapted for stage), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "da861171137fb80b165300a93f98dd435c4d33d74efe081f5c6eb6c2af68714f",
+        "approvalHash": "02c516ba08d3e748fa0975d8e6a4f6bb746b5744cc49a0552c5fbf35fb5a613b"
+      }
+    },
+    {
+      "id": "vocab-n1:1269",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1269",
+      "state": "accepted",
+      "predecessorHash": "82c2740554431b0bdcada224a7e936bc77bb3e5ff765c13d6af4bcb5fddefa02",
+      "originalHash": "82c2740554431b0bdcada224a7e936bc77bb3e5ff765c13d6af4bcb5fddefa02",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "五年の歳月をかけて長編小説を書き上げた。",
+            "romaji": "Go-nen no saigetsu o kakete chōhen shōsetsu o kakiageta.",
+            "german": "In fünf Jahren vollendete er einen umfangreichen Roman."
+          }
+        ],
+        "meaning": "Langform; Roman (lang)",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "長編 (auch 長篇) bezeichnet ein umfangreiches Werk und steht meist vor der Gattung: 長編小説 „Roman“, 長編映画 „Spielfilm“, 長編アニメ. Allein gebraucht meint es meist einen Roman: 初の長編. Die Abstufung lautet 長編 – 中編 – 短編 – 掌編.",
+        "examples": [
+          {
+            "japanese": "五年の歳月をかけて長編小説を書き上げた。",
+            "romaji": "Go-nen no saigetsu o kakete chōhen shōsetsu o kakiageta.",
+            "german": "In fünf Jahren vollendete er einen umfangreichen Roman."
+          },
+          {
+            "japanese": "監督にとって初めての長編アニメ映画が公開された。",
+            "romaji": "Kantoku ni totte hajimete no chōhen anime eiga ga kōkai sareta.",
+            "german": "Der erste abendfüllende Animationsfilm des Regisseurs ist angelaufen."
+          },
+          {
+            "japanese": "長編よりも短編のほうが気軽に読めて好きだ。",
+            "romaji": "Chōhen yori mo tanpen no hō ga kigaru ni yomete suki da.",
+            "german": "Kurzgeschichten mag ich lieber als Romane, weil man sie so unkompliziert lesen kann."
+          }
+        ],
+        "meaning": "langes Werk; Roman, abendfüllender Film",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170309323",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 長編/チョウヘン; lemma 長編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "長編",
+              "reading": "ちょうへん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 長編/ちょうへん \"Langform; Roman (lang)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1430110 sense 1, noun: long work, full-length novel, feature-length film Pitch: Verified [0] via exact UniDic row. 長編 (auch 長篇) bezeichnet ein umfangreiches Werk und steht meist vor der Gattung: 長編小説 „Roman“, 長編映画 „Spielfilm“, 長編アニメ. Allein gebraucht meint es meist einen Roman: 初の長編. Die Abstufung lautet 長編 – 中編 – 短編 – 掌編. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1430110; spelling=長編; reading=ちょうへん",
+          "selected": {
+            "sequence": "1430110",
+            "spelling": "長編",
+            "reading": "ちょうへん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "long work",
+                  "(full-length) novel",
+                  "feature-length film",
+                  "long poem"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1430110 sense 1, noun: long work, full-length novel, feature-length film"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 長編/チョウヘン; lemma 長編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170309323",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 長編/チョウヘン; lemma 長編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "長編",
+              "reading": "ちょうへん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 長編/ちょうへん \"Langform; Roman (lang)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "langes Werk; Roman, abendfüllender Film. JMdict 1430110 sense 1, noun: long work, full-length novel, feature-length film",
+        "japanese": "五年の歳月をかけて長編小説を書き上げた。 / 監督にとって初めての長編アニメ映画が公開された。 / 長編よりも短編のほうが気軽に読めて好きだ。",
+        "romanization": "chōhen; Go-nen no saigetsu o kakete chōhen shōsetsu o kakiageta. / Kantoku ni totte hajimete no chōhen anime eiga ga kōkai sareta. / Chōhen yori mo tanpen no hō ga kigaru ni yomete suki da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In fünf Jahren vollendete er einen umfangreichen Roman. / Der erste abendfüllende Animationsfilm des Regisseurs ist angelaufen. / Kurzgeschichten mag ich lieber als Romane, weil man sie so unkompliziert lesen kann.",
+        "contexts": [
+          "Finishing a novel",
+          "Feature film release",
+          "Reading preferences"
+        ],
+        "lexical": "JMdict 1430110 sense 1, noun: long work, full-length novel, feature-length film",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1269 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Finishing a novel; Feature film release; Reading preferences), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6e981b47ab6c756eb4c69df91d225dc572a7d8083e0d84f498b332c3f223e073",
+        "approvalHash": "969486263703f231aaa345f81b48db2255a134a3440fbe4e7c879cdf031f8c6e"
+      }
+    },
+    {
+      "id": "vocab-n1:1270",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1270",
+      "state": "accepted",
+      "predecessorHash": "0dbbc1b17118b97d69a4537eca78649846be24e3e4cb81336541974d9f2da756",
+      "originalHash": "0dbbc1b17118b97d69a4537eca78649846be24e3e4cb81336541974d9f2da756",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "短編集が文学賞の候補に挙がった。",
+            "romaji": "Tanpen-shū ga bungaku-shō no kōho ni agatta.",
+            "german": "Die Kurzgeschichtensammlung wurde für einen Literaturpreis nominiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "短編 (auch 短篇) bezeichnet ein kurzes Werk und steht meist vor der Gattung: 短編小説 „Kurzgeschichte“, 短編映画 „Kurzfilm“, 短編集 „Erzählband“. Allein gebraucht meint es meist eine Kurzgeschichte. Gegenbegriffe sind 中編 und 長編; noch kürzer ist das 掌編.",
+        "examples": [
+          {
+            "japanese": "短編集が文学賞の候補に挙がった。",
+            "romaji": "Tanpen-shū ga bungaku-shō no kōho ni agatta.",
+            "german": "Die Kurzgeschichtensammlung wurde für einen Literaturpreis nominiert."
+          },
+          {
+            "japanese": "通勤電車の中で短編小説を一つ読んだ。",
+            "romaji": "Tsūkin densha no naka de tanpen shōsetsu o hitotsu yonda.",
+            "german": "Im Pendlerzug habe ich eine Kurzgeschichte gelesen."
+          },
+          {
+            "japanese": "彼の短編映画が国際映画祭で賞を取った。",
+            "romaji": "Kare no tanpen eiga ga kokusai eigasai de shō o totta.",
+            "german": "Sein Kurzfilm wurde auf einem internationalen Filmfestival ausgezeichnet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166639019",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 短編/タンペン; lemma 短編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "短編",
+              "reading": "たんぺん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 短編/たんぺん \"Kurzgeschichte; Kurzform\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1597300 sense 1, noun: short story, short film, short poem Pitch: Verified [0] via exact UniDic row. 短編 (auch 短篇) bezeichnet ein kurzes Werk und steht meist vor der Gattung: 短編小説 „Kurzgeschichte“, 短編映画 „Kurzfilm“, 短編集 „Erzählband“. Allein gebraucht meint es meist eine Kurzgeschichte. Gegenbegriffe sind 中編 und 長編; noch kürzer ist das 掌編. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1597300; spelling=短編; reading=たんぺん",
+          "selected": {
+            "sequence": "1597300",
+            "spelling": "短編",
+            "reading": "たんぺん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "short story",
+                  "short film",
+                  "short poem"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1597300 sense 1, noun: short story, short film, short poem"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 短編/タンペン; lemma 短編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166639019",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 短編/タンペン; lemma 短編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "短編",
+              "reading": "たんぺん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 短編/たんぺん \"Kurzgeschichte; Kurzform\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kurzgeschichte; Kurzform. JMdict 1597300 sense 1, noun: short story, short film, short poem",
+        "japanese": "短編集が文学賞の候補に挙がった。 / 通勤電車の中で短編小説を一つ読んだ。 / 彼の短編映画が国際映画祭で賞を取った。",
+        "romanization": "tanpen; Tanpen-shū ga bungaku-shō no kōho ni agatta. / Tsūkin densha no naka de tanpen shōsetsu o hitotsu yonda. / Kare no tanpen eiga ga kokusai eigasai de shō o totta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Kurzgeschichtensammlung wurde für einen Literaturpreis nominiert. / Im Pendlerzug habe ich eine Kurzgeschichte gelesen. / Sein Kurzfilm wurde auf einem internationalen Filmfestival ausgezeichnet.",
+        "contexts": [
+          "Literary prize nomination",
+          "Reading on the commute",
+          "Film festival award"
+        ],
+        "lexical": "JMdict 1597300 sense 1, noun: short story, short film, short poem",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1270 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Literary prize nomination; Reading on the commute; Film festival award), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "021168e87f0b76c6041e0b4d40c6693a528ed825df10807c1b8356428b2a849b",
+        "approvalHash": "3a2938bd73c8586906f9cdc26b705cf11b828adf5ff303d0b840bcd2a90f3432"
+      }
+    },
+    {
+      "id": "vocab-n1:1271",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1271",
+      "state": "accepted",
+      "predecessorHash": "900c06a0f25a2e9ff7959bd791acf2de261c4f770145c198a1ebdb77c35165d6",
+      "originalHash": "900c06a0f25a2e9ff7959bd791acf2de261c4f770145c198a1ebdb77c35165d6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "千字以内の掌編小説のコンテストに応募した。",
+            "romaji": "Sen-ji inai no shōhen shōsetsu no kontesuto ni ōbo shita.",
+            "german": "Ich bewarb mich bei einem Wettbewerb für Kürzestgeschichten unter tausend Zeichen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "掌編 („Werk von Handflächengröße“, 掌 „Handfläche“) ist eine sehr kurze Erzählung, oft nur ein bis wenige Seiten; meist als 掌編小説. Bekanntes Beispiel ist Kawabatas Sammlung 掌の小説. Ein ähnlicher, eher unterhaltsamer Begriff ist ショートショート, geprägt durch 星新一. Das Wort ist literarisch und selten; die Stufen lauten 長編 – 中編 – 短編 – 掌編.",
+        "examples": [
+          {
+            "japanese": "千字以内の掌編小説のコンテストに応募した。",
+            "romaji": "Sen-ji inai no shōhen shōsetsu no kontesuto ni ōbo shita.",
+            "german": "Ich bewarb mich bei einem Wettbewerb für Kürzestgeschichten unter tausend Zeichen."
+          },
+          {
+            "japanese": "川端康成の『掌の小説』は掌編小説の代表作だ。",
+            "romaji": "Kawabata Yasunari no \"Tenohira no shōsetsu\" wa shōhen shōsetsu no daihyōsaku da.",
+            "german": "Kawabata Yasunaris „Handtellergeschichten“ sind ein Paradebeispiel für die Kürzestgeschichte."
+          },
+          {
+            "japanese": "寝る前に掌編を一つ読むのが日課だ。",
+            "romaji": "Neru mae ni shōhen o hitotsu yomu no ga nikka da.",
+            "german": "Vor dem Schlafen lese ich jeden Abend eine Kürzestgeschichte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141175126",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 掌編/ショウヘン; lemma 掌編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "掌編",
+              "reading": "しょうへん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 掌編/しょうへん \"Kürzestgeschichte; Miniatur\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1664940 sense 1, noun: very short story, short short story Pitch: Verified [0] via exact UniDic row. 掌編 („Werk von Handflächengröße“, 掌 „Handfläche“) ist eine sehr kurze Erzählung, oft nur ein bis wenige Seiten; meist als 掌編小説. Bekanntes Beispiel ist Kawabatas Sammlung 掌の小説. Ein ähnlicher, eher unterhaltsamer Begriff ist ショートショート, geprägt durch 星新一. Das Wort ist literarisch und selten; die Stufen lauten 長編 – 中編 – 短編 – 掌編. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1664940; spelling=掌編; reading=しょうへん",
+          "selected": {
+            "sequence": "1664940",
+            "spelling": "掌編",
+            "reading": "しょうへん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(very) short story or article",
+                  "short short story",
+                  "conté"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1664940 sense 1, noun: very short story, short short story"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 掌編/ショウヘン; lemma 掌編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141175126",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 掌編/ショウヘン; lemma 掌編; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "掌編",
+              "reading": "しょうへん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 掌編/しょうへん \"Kürzestgeschichte; Miniatur\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kürzestgeschichte; Miniatur. JMdict 1664940 sense 1, noun: very short story, short short story",
+        "japanese": "千字以内の掌編小説のコンテストに応募した。 / 川端康成の『掌の小説』は掌編小説の代表作だ。 / 寝る前に掌編を一つ読むのが日課だ。",
+        "romanization": "shōhen; Sen-ji inai no shōhen shōsetsu no kontesuto ni ōbo shita. / Kawabata Yasunari no \"Tenohira no shōsetsu\" wa shōhen shōsetsu no daihyōsaku da. / Neru mae ni shōhen o hitotsu yomu no ga nikka da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bewarb mich bei einem Wettbewerb für Kürzestgeschichten unter tausend Zeichen. / Kawabata Yasunaris „Handtellergeschichten“ sind ein Paradebeispiel für die Kürzestgeschichte. / Vor dem Schlafen lese ich jeden Abend eine Kürzestgeschichte.",
+        "contexts": [
+          "Writing contest",
+          "Famous collection",
+          "Bedtime reading habit"
+        ],
+        "lexical": "JMdict 1664940 sense 1, noun: very short story, short short story",
+        "register": "literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1271 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Writing contest; Famous collection; Bedtime reading habit), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f6c8ccd36f00cbfb97b181ebbc4a89af534d2ed1cb6cc0e3c57982beff5dd9d3",
+        "approvalHash": "6dbbf0ec2a3797507f7b1b0ac122e476eaa400a5eaec94312c9bb17d87158c19"
+      }
+    },
+    {
+      "id": "vocab-n1:1272",
+      "revisionId": "210f-n1-enrichment-vocab-n1-1272",
+      "state": "accepted",
+      "predecessorHash": "027446e4cdca88ffff8743fedfc2793d2d66ec056e870cb81238492d0dbb9a6e",
+      "originalHash": "027446e4cdca88ffff8743fedfc2793d2d66ec056e870cb81238492d0dbb9a6e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "宮沢賢治の童話は大人にも人気がある。",
+            "romaji": "Miyazawa Kenji no dōwa wa otona ni mo ninki ga aru.",
+            "german": "Die Märchen von Miyazawa Kenji sind auch bei Erwachsenen beliebt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "童話 sind Geschichten für Kinder, meist von einem Autor verfasst: アンデルセン童話, グリム童話, die Erzählungen von 宮沢賢治. Überlieferte Volksmärchen wie 桃太郎 heißen eher 昔話 oder 民話. おとぎ話 bedeutet ebenfalls „Märchen“ und wird bildlich für unrealistische Vorstellungen gebraucht. Typisch: 童話を読み聞かせる, 童話作家, 創作童話.",
+        "examples": [
+          {
+            "japanese": "宮沢賢治の童話は大人にも人気がある。",
+            "romaji": "Miyazawa Kenji no dōwa wa otona ni mo ninki ga aru.",
+            "german": "Die Märchen von Miyazawa Kenji sind auch bei Erwachsenen beliebt."
+          },
+          {
+            "japanese": "寝る前に子どもに童話を読み聞かせる。",
+            "romaji": "Neru mae ni kodomo ni dōwa o yomikikaseru.",
+            "german": "Vor dem Schlafengehen lese ich meinem Kind Märchen vor."
+          },
+          {
+            "japanese": "『人魚姫』はアンデルセンの童話の一つだ。",
+            "romaji": "\"Ningyo-hime\" wa Anderusen no dōwa no hitotsu da.",
+            "german": "„Die kleine Meerjungfrau“ ist eines von Andersens Märchen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192531556",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 童話/ドウワ; lemma 童話; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "童話",
+              "reading": "どうわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 童話/どうわ \"Märchen; Kindergeschichte\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1454000 sense 1, noun: children's story, fairy tale Pitch: Verified [0] via exact UniDic row. 童話 sind Geschichten für Kinder, meist von einem Autor verfasst: アンデルセン童話, グリム童話, die Erzählungen von 宮沢賢治. Überlieferte Volksmärchen wie 桃太郎 heißen eher 昔話 oder 民話. おとぎ話 bedeutet ebenfalls „Märchen“ und wird bildlich für unrealistische Vorstellungen gebraucht. Typisch: 童話を読み聞かせる, 童話作家, 創作童話. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1454000; spelling=童話; reading=どうわ",
+          "selected": {
+            "sequence": "1454000",
+            "spelling": "童話",
+            "reading": "どうわ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "children's story",
+                  "fairy tale"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1454000 sense 1, noun: children's story, fairy tale"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 童話/ドウワ; lemma 童話; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192531556",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 童話/ドウワ; lemma 童話; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "童話",
+              "reading": "どうわ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 童話/どうわ \"Märchen; Kindergeschichte\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Märchen; Kindergeschichte. JMdict 1454000 sense 1, noun: children's story, fairy tale",
+        "japanese": "宮沢賢治の童話は大人にも人気がある。 / 寝る前に子どもに童話を読み聞かせる。 / 『人魚姫』はアンデルセンの童話の一つだ。",
+        "romanization": "dōwa; Miyazawa Kenji no dōwa wa otona ni mo ninki ga aru. / Neru mae ni kodomo ni dōwa o yomikikaseru. / \"Ningyo-hime\" wa Anderusen no dōwa no hitotsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Märchen von Miyazawa Kenji sind auch bei Erwachsenen beliebt. / Vor dem Schlafengehen lese ich meinem Kind Märchen vor. / „Die kleine Meerjungfrau“ ist eines von Andersens Märchen.",
+        "contexts": [
+          "Appeal to adults",
+          "Bedtime reading",
+          "Andersen's tales"
+        ],
+        "lexical": "JMdict 1454000 sense 1, noun: children's story, fairy tale",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1272 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Appeal to adults; Bedtime reading; Andersen's tales), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "279298226761d6056d407fc762c786e7727ca8be8d6d3f0ac85ba2196189a7bd",
+        "approvalHash": "1842f5c9c8a2bce8ad5f68a414317067054200db28426346a990ad4d51ed9d1c"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

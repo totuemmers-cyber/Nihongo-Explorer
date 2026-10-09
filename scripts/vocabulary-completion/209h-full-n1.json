@@ -1,0 +1,3454 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:1040",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1040",
+      "state": "accepted",
+      "predecessorHash": "dc970174a96c92dcd38b9cd25c8216d892523eefb0fef21c15677ac2a52652b7",
+      "originalHash": "dc970174a96c92dcd38b9cd25c8216d892523eefb0fef21c15677ac2a52652b7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "脳卒中の治療は発症後の迅速な対応が鍵となる。",
+            "romaji": "Nōsotchū no chiryō wa hasshō go no jinsoku na taiō ga kagi to naru.",
+            "german": "Bei der Behandlung eines Schlaganfalls ist eine schnelle Reaktion nach dem Auftreten entscheidend."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脳卒中 ist der Oberbegriff für Schlaganfälle und umfasst 脳梗塞 („Hirninfarkt“), 脳出血 („Hirnblutung“) und くも膜下出血. Typische Wendungen: 脳卒中で倒れる („einen Schlaganfall erleiden“), 脳卒中を起こす, 脳卒中の後遺症 („Folgeschäden“). Das Wort ist medizinisch, aber auch im Alltag und in den Nachrichten geläufig.",
+        "examples": [
+          {
+            "japanese": "脳卒中の治療は発症後の迅速な対応が鍵となる。",
+            "romaji": "Nōsotchū no chiryō wa hasshō go no jinsoku na taiō ga kagi to naru.",
+            "german": "Bei der Behandlung eines Schlaganfalls ist eine schnelle Reaktion nach dem Auftreten entscheidend."
+          },
+          {
+            "japanese": "祖父は脳卒中で倒れ、救急車で運ばれた。",
+            "romaji": "Sofu wa nōsotchū de taore, kyūkyūsha de hakobareta.",
+            "german": "Mein Großvater erlitt einen Schlaganfall und wurde mit dem Krankenwagen abtransportiert."
+          },
+          {
+            "japanese": "脳卒中の後遺症で、右手がうまく動かない。",
+            "romaji": "Nōsotchū no kōishō de, migite ga umaku ugokanai.",
+            "german": "Als Folge des Schlaganfalls kann ich die rechte Hand nicht richtig bewegen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1470490 sense 1, noun: stroke, cerebral hemorrhage Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 脳卒中 ist der Oberbegriff für Schlaganfälle und umfasst 脳梗塞 („Hirninfarkt“), 脳出血 („Hirnblutung“) und くも膜下出血. Typische Wendungen: 脳卒中で倒れる („einen Schlaganfall erleiden“), 脳卒中を起こす, 脳卒中の後遺症 („Folgeschäden“). Das Wort ist medizinisch, aber auch im Alltag und in den Nachrichten geläufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1470490; spelling=脳卒中; reading=のうそっちゅう",
+          "selected": {
+            "sequence": "1470490",
+            "spelling": "脳卒中",
+            "reading": "のうそっちゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stroke",
+                  "cerebral haemorrhage",
+                  "cerebral hemorrhage"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1470490 sense 1, noun: stroke, cerebral hemorrhage"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 脳卒中/のうそっちゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%84%B3%E5%8D%92%E4%B8%AD",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 脳卒中/のうそっちゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schlaganfall. JMdict 1470490 sense 1, noun: stroke, cerebral hemorrhage",
+        "japanese": "脳卒中の治療は発症後の迅速な対応が鍵となる。 / 祖父は脳卒中で倒れ、救急車で運ばれた。 / 脳卒中の後遺症で、右手がうまく動かない。",
+        "romanization": "nōsotchū; Nōsotchū no chiryō wa hasshō go no jinsoku na taiō ga kagi to naru. / Sofu wa nōsotchū de taore, kyūkyūsha de hakobareta. / Nōsotchū no kōishō de, migite ga umaku ugokanai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bei der Behandlung eines Schlaganfalls ist eine schnelle Reaktion nach dem Auftreten entscheidend. / Mein Großvater erlitt einen Schlaganfall und wurde mit dem Krankenwagen abtransportiert. / Als Folge des Schlaganfalls kann ich die rechte Hand nicht richtig bewegen.",
+        "contexts": [
+          "Emergency treatment principle",
+          "Family emergency",
+          "Living with after-effects"
+        ],
+        "lexical": "JMdict 1470490 sense 1, noun: stroke, cerebral hemorrhage",
+        "register": "neutral; medical but common in news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1040 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Emergency treatment principle; Family emergency; Living with after-effects), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8f94d3e25a86696b15d734f776836082e4ca8d38e0365e1926f334b208028f4a",
+        "approvalHash": "100de1f6bd65b8c14dfd3ad54379052dcd910a5bc8d09270c38c77d657eb98ea"
+      }
+    },
+    {
+      "id": "vocab-n1:1041",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1041",
+      "state": "accepted",
+      "predecessorHash": "21ef0401231293b7c38fe03b9690212b0a59871850328e75929ab22afa6ffbdb",
+      "originalHash": "21ef0401231293b7c38fe03b9690212b0a59871850328e75929ab22afa6ffbdb",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "認知症の早期発見には記憶力テストが有効である。",
+            "romaji": "Ninchishō no sōki hakken ni wa kiokuryoku tesuto ga yūkō de aru.",
+            "german": "Für die Früherkennung von Demenz sind Gedächtnistests wirksam."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "認知症 ist seit 2004 der offizielle Ausdruck für Demenz und hat das abwertend empfundene 痴呆 ersetzt. Typisch sind 認知症になる, 認知症が進む („fortschreiten“), 認知症の母 und 認知症の介護. Von harmloser Vergesslichkeit (物忘れ) wird es im Alltag oft bewusst abgegrenzt.",
+        "examples": [
+          {
+            "japanese": "認知症の早期発見には記憶力テストが有効である。",
+            "romaji": "Ninchishō no sōki hakken ni wa kiokuryoku tesuto ga yūkō de aru.",
+            "german": "Für die Früherkennung von Demenz sind Gedächtnistests wirksam."
+          },
+          {
+            "japanese": "母が認知症になってから、家族で交代して介護している。",
+            "romaji": "Haha ga ninchishō ni natte kara, kazoku de kōtai shite kaigo shite iru.",
+            "german": "Seit meine Mutter an Demenz erkrankt ist, pflegen wir sie abwechselnd in der Familie."
+          },
+          {
+            "japanese": "ただの物忘れなのか、認知症の始まりなのか心配だ。",
+            "romaji": "Tada no monowasure na no ka, ninchishō no hajimari na no ka shinpai da.",
+            "german": "Ich mache mir Sorgen, ob das nur Vergesslichkeit ist oder schon der Beginn einer Demenz."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2083580 sense 1, noun: dementia Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 認知症 ist seit 2004 der offizielle Ausdruck für Demenz und hat das abwertend empfundene 痴呆 ersetzt. Typisch sind 認知症になる, 認知症が進む („fortschreiten“), 認知症の母 und 認知症の介護. Von harmloser Vergesslichkeit (物忘れ) wird es im Alltag oft bewusst abgegrenzt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2083580; spelling=認知症; reading=にんちしょう",
+          "selected": {
+            "sequence": "2083580",
+            "spelling": "認知症",
+            "reading": "にんちしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dementia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2083580 sense 1, noun: dementia"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 認知症/にんちしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%AA%8D%E7%9F%A5%E7%97%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 認知症/にんちしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Demenz. JMdict 2083580 sense 1, noun: dementia",
+        "japanese": "認知症の早期発見には記憶力テストが有効である。 / 母が認知症になってから、家族で交代して介護している。 / ただの物忘れなのか、認知症の始まりなのか心配だ。",
+        "romanization": "ninchishō; Ninchishō no sōki hakken ni wa kiokuryoku tesuto ga yūkō de aru. / Haha ga ninchishō ni natte kara, kazoku de kōtai shite kaigo shite iru. / Tada no monowasure na no ka, ninchishō no hajimari na no ka shinpai da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für die Früherkennung von Demenz sind Gedächtnistests wirksam. / Seit meine Mutter an Demenz erkrankt ist, pflegen wir sie abwechselnd in der Familie. / Ich mache mir Sorgen, ob das nur Vergesslichkeit ist oder schon der Beginn einer Demenz.",
+        "contexts": [
+          "Early diagnosis",
+          "Family caregiving",
+          "Worrying about forgetfulness"
+        ],
+        "lexical": "JMdict 2083580 sense 1, noun: dementia",
+        "register": "neutral; official term",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1041 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Early diagnosis; Family caregiving; Worrying about forgetfulness), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5de135cf4bfcb26bcfa707adc7cf84aa1dfe2a1e280efcfb5447ab7f3d36009c",
+        "approvalHash": "181e98407cc845f0f99bdcdebe74a5170cc006e3097741826523b1ec10765d5f"
+      }
+    },
+    {
+      "id": "vocab-n1:1042",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1042",
+      "state": "accepted",
+      "predecessorHash": "168a70576129c94afe0e11d5bfe3cd783da51e0204de840e1427d195c4c39749",
+      "originalHash": "168a70576129c94afe0e11d5bfe3cd783da51e0204de840e1427d195c4c39749",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "てんかんは脳の異常な電気活動によって発作が起きる疾患である。",
+            "romaji": "Tenkan wa nō no ijō na denki katsudō ni yotte hossa ga okiru shikkan de aru.",
+            "german": "Epilepsie ist eine Erkrankung, bei der durch abnormale elektrische Aktivität im Gehirn Anfälle auftreten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "てんかん („Epilepsie“) wird fast immer in Hiragana geschrieben, da die Kanji 癲癇 sehr schwierig und nicht Jōyō sind. Typische Wendungen: てんかんの発作, てんかん発作を起こす, てんかんの持病がある. Vorsicht vor Homophonen wie 転換 („Umstellung“) oder 展観; der Kontext entscheidet.",
+        "examples": [
+          {
+            "japanese": "てんかんは脳の異常な電気活動によって発作が起きる疾患である。",
+            "romaji": "Tenkan wa nō no ijō na denki katsudō ni yotte hossa ga okiru shikkan de aru.",
+            "german": "Epilepsie ist eine Erkrankung, bei der durch abnormale elektrische Aktivität im Gehirn Anfälle auftreten."
+          },
+          {
+            "japanese": "彼はてんかんの持病があるので、薬を毎日欠かさず飲んでいる。",
+            "romaji": "Kare wa tenkan no jibyō ga aru node, kusuri o mainichi kakasazu nonde iru.",
+            "german": "Da er an Epilepsie leidet, nimmt er jeden Tag ohne Ausnahme seine Medikamente."
+          },
+          {
+            "japanese": "電車の中で男性がてんかんの発作を起こし、乗客が駅員を呼んだ。",
+            "romaji": "Densha no naka de dansei ga tenkan no hossa o okoshi, jōkyaku ga ekiin o yonda.",
+            "german": "Im Zug erlitt ein Mann einen epileptischen Anfall, und Fahrgäste riefen das Bahnpersonal."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1569730 sense 1, noun: epilepsy, epileptic fit (usually kana) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). てんかん („Epilepsie“) wird fast immer in Hiragana geschrieben, da die Kanji 癲癇 sehr schwierig und nicht Jōyō sind. Typische Wendungen: てんかんの発作, てんかん発作を起こす, てんかんの持病がある. Vorsicht vor Homophonen wie 転換 („Umstellung“) oder 展観; der Kontext entscheidet. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1569730; spelling=てんかん; reading=てんかん",
+          "selected": {
+            "sequence": "1569730",
+            "spelling": "てんかん",
+            "reading": "てんかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "epilepsy",
+                  "epileptic fit"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1569730 sense 1, noun: epilepsy, epileptic fit (usually kana)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): てんかん/テンカン; lemma てんかん; 副詞/*/*/*; *; *; aType 1 | てんかん/テンカン; lemma 癲癇; 名詞/普通名詞/一般/*; *; *; aType 0,3. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%A6%E3%82%93%E3%81%8B%E3%82%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): てんかん/テンカン; lemma てんかん; 副詞/*/*/*; *; *; aType 1 | てんかん/テンカン; lemma 癲癇; 名詞/普通名詞/一般/*; *; *; aType 0,3. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Epilepsie. JMdict 1569730 sense 1, noun: epilepsy, epileptic fit (usually kana)",
+        "japanese": "てんかんは脳の異常な電気活動によって発作が起きる疾患である。 / 彼はてんかんの持病があるので、薬を毎日欠かさず飲んでいる。 / 電車の中で男性がてんかんの発作を起こし、乗客が駅員を呼んだ。",
+        "romanization": "tenkan; Tenkan wa nō no ijō na denki katsudō ni yotte hossa ga okiru shikkan de aru. / Kare wa tenkan no jibyō ga aru node, kusuri o mainichi kakasazu nonde iru. / Densha no naka de dansei ga tenkan no hossa o okoshi, jōkyaku ga ekiin o yonda. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Epilepsie ist eine Erkrankung, bei der durch abnormale elektrische Aktivität im Gehirn Anfälle auftreten. / Da er an Epilepsie leidet, nimmt er jeden Tag ohne Ausnahme seine Medikamente. / Im Zug erlitt ein Mann einen epileptischen Anfall, und Fahrgäste riefen das Bahnpersonal.",
+        "contexts": [
+          "Medical definition",
+          "Chronic condition and medication",
+          "Seizure on a train"
+        ],
+        "lexical": "JMdict 1569730 sense 1, noun: epilepsy, epileptic fit (usually kana)",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1042 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Medical definition; Chronic condition and medication; Seizure on a train), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d059139ed9b0ba5c3fee118a7b65607d17ba76089acd1a33bbc01c7ea311a84a",
+        "approvalHash": "be22ba66714356c1f81b078012bf3ab4094c1e37de2977497ed46f1ad1264f88"
+      }
+    },
+    {
+      "id": "vocab-n1:1043",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1043",
+      "state": "accepted",
+      "predecessorHash": "252df484bbbdc187fe4608beb9d8e86551fea6a906d8f88ea6e5ca37b3e3e655",
+      "originalHash": "252df484bbbdc187fe4608beb9d8e86551fea6a906d8f88ea6e5ca37b3e3e655",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "細菌性肺炎は抗生物質で治療することができる。",
+            "romaji": "Saikinsei haien wa kōsei busshitsu de chiryō suru koto ga dekiru.",
+            "german": "Bakterielle Lungenentzündung kann mit Antibiotika behandelt werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "肺炎 ist die Lungenentzündung; typisch sind 肺炎になる, 肺炎を起こす und 風邪をこじらせて肺炎になる („eine verschleppte Erkältung“). Bei älteren Menschen ist 誤嚥性肺炎 („Aspirationspneumonie“) ein häufiges Thema. Das Wort ist alltäglich, kein reiner Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "細菌性肺炎は抗生物質で治療することができる。",
+            "romaji": "Saikinsei haien wa kōsei busshitsu de chiryō suru koto ga dekiru.",
+            "german": "Bakterielle Lungenentzündung kann mit Antibiotika behandelt werden."
+          },
+          {
+            "japanese": "風邪をこじらせて肺炎になり、一週間入院した。",
+            "romaji": "Kaze o kojirasete haien ni nari, isshūkan nyūin shita.",
+            "german": "Meine Erkältung verschlimmerte sich zu einer Lungenentzündung, und ich lag eine Woche im Krankenhaus."
+          },
+          {
+            "japanese": "高齢者は、食べ物が気管に入って起こる誤嚥性肺炎に注意が必要だ。",
+            "romaji": "Kōreisha wa, tabemono ga kikan ni haitte okoru goensei haien ni chūi ga hitsuyō da.",
+            "german": "Ältere Menschen müssen sich vor einer Lungenentzündung in Acht nehmen, die entsteht, wenn Essen in die Luftröhre gerät."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210999190",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 肺炎/ハイエン; lemma 肺炎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "肺炎",
+              "reading": "はいえん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肺炎/はいえん \"Lungenentzündung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1472880 sense 1, noun: pneumonia Pitch: Verified [0] via exact UniDic row. 肺炎 ist die Lungenentzündung; typisch sind 肺炎になる, 肺炎を起こす und 風邪をこじらせて肺炎になる („eine verschleppte Erkältung“). Bei älteren Menschen ist 誤嚥性肺炎 („Aspirationspneumonie“) ein häufiges Thema. Das Wort ist alltäglich, kein reiner Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1472880; spelling=肺炎; reading=はいえん",
+          "selected": {
+            "sequence": "1472880",
+            "spelling": "肺炎",
+            "reading": "はいえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pneumonia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1472880 sense 1, noun: pneumonia"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 肺炎/ハイエン; lemma 肺炎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@210999190",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 肺炎/ハイエン; lemma 肺炎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "肺炎",
+              "reading": "はいえん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 肺炎/はいえん \"Lungenentzündung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lungenentzündung. JMdict 1472880 sense 1, noun: pneumonia",
+        "japanese": "細菌性肺炎は抗生物質で治療することができる。 / 風邪をこじらせて肺炎になり、一週間入院した。 / 高齢者は、食べ物が気管に入って起こる誤嚥性肺炎に注意が必要だ。",
+        "romanization": "haien; Saikinsei haien wa kōsei busshitsu de chiryō suru koto ga dekiru. / Kaze o kojirasete haien ni nari, isshūkan nyūin shita. / Kōreisha wa, tabemono ga kikan ni haitte okoru goensei haien ni chūi ga hitsuyō da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bakterielle Lungenentzündung kann mit Antibiotika behandelt werden. / Meine Erkältung verschlimmerte sich zu einer Lungenentzündung, und ich lag eine Woche im Krankenhaus. / Ältere Menschen müssen sich vor einer Lungenentzündung in Acht nehmen, die entsteht, wenn Essen in die Luftröhre gerät.",
+        "contexts": [
+          "Treatment options",
+          "Neglected cold",
+          "Elderly care risk"
+        ],
+        "lexical": "JMdict 1472880 sense 1, noun: pneumonia",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1043 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Treatment options; Neglected cold; Elderly care risk), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "da707b6d16115caa2658b2542b548195b64d1bb9df0fe071aed17adcfd4caec6",
+        "approvalHash": "4ee242b2deacb68bfc0a5ea640f7ad4ce2fd2a20fa301ad83b5a395d229fe4f1"
+      }
+    },
+    {
+      "id": "vocab-n1:1044",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1044",
+      "state": "accepted",
+      "predecessorHash": "3ba80a6bfa9d2fdba210a310666f8689bc62dfe39a7e8bed05b4873d379162b6",
+      "originalHash": "3ba80a6bfa9d2fdba210a310666f8689bc62dfe39a7e8bed05b4873d379162b6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "結核菌は空気感染によって広がる感染症である。",
+            "romaji": "Kekkaku kin wa kūki kansen ni yotte hirogaru kansenshō de aru.",
+            "german": "Tuberkulose ist eine Infektionskrankheit, die sich durch Luftübertragung ausbreitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "結核 ist die Tuberkulose; der Erreger heißt 結核菌. Typisch sind 結核にかかる, 結核で亡くなる und 結核の検査. Früher galt sie als Volkskrankheit, die viele Schriftsteller das Leben kostete; heute ist sie selten, aber nicht verschwunden. Der zweite Sinn „Konkretion“ ist rein fachlich und selten.",
+        "examples": [
+          {
+            "japanese": "結核は結核菌の空気感染によって広がる感染症である。",
+            "romaji": "Kekkaku wa kekkakukin no kūki kansen ni yotte hirogaru kansenshō de aru.",
+            "german": "Tuberkulose ist eine Infektionskrankheit, die sich durch die Übertragung des Tuberkulosebakteriums über die Luft ausbreitet."
+          },
+          {
+            "japanese": "昔、結核は治らない病気として恐れられていた。",
+            "romaji": "Mukashi, kekkaku wa naoranai byōki to shite osorerarete ita.",
+            "german": "Früher fürchtete man Tuberkulose als unheilbare Krankheit."
+          },
+          {
+            "japanese": "長引く咳が心配で検査を受けたら、結核だとわかった。",
+            "romaji": "Nagabiku seki ga shinpai de kensa o uketara, kekkaku da to wakatta.",
+            "german": "Wegen meines hartnäckigen Hustens ließ ich mich untersuchen, und es stellte sich heraus, dass es Tuberkulose war."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117868064",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 結核/ケッカク; lemma 結核; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "結核",
+              "reading": "けっかく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 結核/けっかく \"Tuberkulose\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1254710 sense 1, noun: tuberculosis, TB Pitch: Verified [0] via exact UniDic row. 結核 ist die Tuberkulose; der Erreger heißt 結核菌. Typisch sind 結核にかかる, 結核で亡くなる und 結核の検査. Früher galt sie als Volkskrankheit, die viele Schriftsteller das Leben kostete; heute ist sie selten, aber nicht verschwunden. Der zweite Sinn „Konkretion“ ist rein fachlich und selten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1254710; spelling=結核; reading=けっかく",
+          "selected": {
+            "sequence": "1254710",
+            "spelling": "結核",
+            "reading": "けっかく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tuberculosis",
+                  "TB"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "concretion"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1254710 sense 1, noun: tuberculosis, TB"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 結核/ケッカク; lemma 結核; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117868064",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 結核/ケッカク; lemma 結核; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "結核",
+              "reading": "けっかく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 結核/けっかく \"Tuberkulose\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tuberkulose. JMdict 1254710 sense 1, noun: tuberculosis, TB",
+        "japanese": "結核は結核菌の空気感染によって広がる感染症である。 / 昔、結核は治らない病気として恐れられていた。 / 長引く咳が心配で検査を受けたら、結核だとわかった。",
+        "romanization": "kekkaku; Kekkaku wa kekkakukin no kūki kansen ni yotte hirogaru kansenshō de aru. / Mukashi, kekkaku wa naoranai byōki to shite osorerarete ita. / Nagabiku seki ga shinpai de kensa o uketara, kekkaku da to wakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Tuberkulose ist eine Infektionskrankheit, die sich durch die Übertragung des Tuberkulosebakteriums über die Luft ausbreitet. / Früher fürchtete man Tuberkulose als unheilbare Krankheit. / Wegen meines hartnäckigen Hustens ließ ich mich untersuchen, und es stellte sich heraus, dass es Tuberkulose war.",
+        "contexts": [
+          "How TB spreads",
+          "Historical fear",
+          "Diagnosis after a long cough"
+        ],
+        "lexical": "JMdict 1254710 sense 1, noun: tuberculosis, TB",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1044 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (How TB spreads; Historical fear; Diagnosis after a long cough), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "bb74210a4957bfb72cad2c524143d34ad65d17f51cabbf149ebd3b05e07f893c",
+        "approvalHash": "bea46e40e0c7a5bd397ea4104b20e2843a7a58b75db02f2c32adc2747ee0c91b"
+      }
+    },
+    {
+      "id": "vocab-n1:1045",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1045",
+      "state": "accepted",
+      "predecessorHash": "b3b40bb12cd6c9d0274906f3e37a3847a7cfacc432d6f10727ee55d8461d0a62",
+      "originalHash": "b3b40bb12cd6c9d0274906f3e37a3847a7cfacc432d6f10727ee55d8461d0a62",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "敗血症は感染が全身に広がった生命に関わる重篤な状態である。",
+            "romaji": "Haiketsushō wa kansen ga zenshin ni hirogatta seimei ni kakawaru jūtoku na jōtai de aru.",
+            "german": "Sepsis ist ein schwerer, lebensbedrohlicher Zustand, bei dem sich eine Infektion im ganzen Körper ausbreitet."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "敗血症 ist die Sepsis, umgangssprachlich „Blutvergiftung“: Eine Infektion breitet sich über das Blut im ganzen Körper aus. Typisch sind 敗血症を起こす, 敗血症になる, 敗血症で亡くなる und 敗血症性ショック. Das Wort ist medizinisch, erscheint aber in Nachrichten über Todesursachen.",
+        "examples": [
+          {
+            "japanese": "敗血症は感染が全身に広がった生命に関わる重篤な状態である。",
+            "romaji": "Haiketsushō wa kansen ga zenshin ni hirogatta seimei ni kakawaru jūtoku na jōtai de aru.",
+            "german": "Sepsis ist ein schwerer, lebensbedrohlicher Zustand, bei dem sich eine Infektion im ganzen Körper ausbreitet."
+          },
+          {
+            "japanese": "傷口から細菌が入り、敗血症を起こして集中治療室に運ばれた。",
+            "romaji": "Kizuguchi kara saikin ga hairi, haiketsushō o okoshite shūchū chiryōshitsu ni hakobareta.",
+            "german": "Über die Wunde drangen Bakterien ein, er bekam eine Blutvergiftung und wurde auf die Intensivstation gebracht."
+          },
+          {
+            "japanese": "敗血症は早期に治療を始めないと、命を落とすこともある。",
+            "romaji": "Haiketsushō wa sōki ni chiryō o hajimenai to, inochi o otosu koto mo aru.",
+            "german": "Wird eine Sepsis nicht früh behandelt, kann sie tödlich enden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1680690 sense 1, noun: sepsis, blood poisoning Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 敗血症 ist die Sepsis, umgangssprachlich „Blutvergiftung“: Eine Infektion breitet sich über das Blut im ganzen Körper aus. Typisch sind 敗血症を起こす, 敗血症になる, 敗血症で亡くなる und 敗血症性ショック. Das Wort ist medizinisch, erscheint aber in Nachrichten über Todesursachen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1680690; spelling=敗血症; reading=はいけつしょう",
+          "selected": {
+            "sequence": "1680690",
+            "spelling": "敗血症",
+            "reading": "はいけつしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "sepsis",
+                  "septicemia",
+                  "blood poisoning"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1680690 sense 1, noun: sepsis, blood poisoning"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 敗血症/はいけつしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%95%97%E8%A1%80%E7%97%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 敗血症/はいけつしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sepsis; Blutvergiftung. JMdict 1680690 sense 1, noun: sepsis, blood poisoning",
+        "japanese": "敗血症は感染が全身に広がった生命に関わる重篤な状態である。 / 傷口から細菌が入り、敗血症を起こして集中治療室に運ばれた。 / 敗血症は早期に治療を始めないと、命を落とすこともある。",
+        "romanization": "haiketsushō; Haiketsushō wa kansen ga zenshin ni hirogatta seimei ni kakawaru jūtoku na jōtai de aru. / Kizuguchi kara saikin ga hairi, haiketsushō o okoshite shūchū chiryōshitsu ni hakobareta. / Haiketsushō wa sōki ni chiryō o hajimenai to, inochi o otosu koto mo aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sepsis ist ein schwerer, lebensbedrohlicher Zustand, bei dem sich eine Infektion im ganzen Körper ausbreitet. / Über die Wunde drangen Bakterien ein, er bekam eine Blutvergiftung und wurde auf die Intensivstation gebracht. / Wird eine Sepsis nicht früh behandelt, kann sie tödlich enden.",
+        "contexts": [
+          "Medical definition",
+          "Infected wound",
+          "Urgency of treatment"
+        ],
+        "lexical": "JMdict 1680690 sense 1, noun: sepsis, blood poisoning",
+        "register": "medical; also in news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1045 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Medical definition; Infected wound; Urgency of treatment), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1d849aa303b48650c2e671fe968429ae0ec9e5b5e34c1e7e7fbbf46a19e74267",
+        "approvalHash": "af4ee8fbf0c78151f3ded36c69b69013a9d6990b92d5dd6101453be1bf974fc5"
+      }
+    },
+    {
+      "id": "vocab-n1:1046",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1046",
+      "state": "accepted",
+      "predecessorHash": "c04971241fc49d8cb4e50ffc955ac39cf6662c62f0beccd4bad0f83036c655a5",
+      "originalHash": "c04971241fc49d8cb4e50ffc955ac39cf6662c62f0beccd4bad0f83036c655a5",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "鉄欠乏性貧血は鉄分の不足によって起こる。",
+            "romaji": "Tetsu ketsubōsei hinketsu wa tetsubun no fusoku ni yotte okoru.",
+            "german": "Eisenmangelanämie wird durch einen Mangel an Eisen verursacht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "貧血 ist medizinisch die Blutarmut (Anämie), etwa 鉄欠乏性貧血. Umgangssprachlich steht 貧血 (貧血を起こす, 貧血で倒れる) aber auch für plötzlichen Schwindel und Umkippen, auch wenn medizinisch eher 立ちくらみ oder Kreislaufprobleme gemeint sind. Häufig ist 貧血気味 („leicht blutarm“).",
+        "examples": [
+          {
+            "japanese": "鉄欠乏性貧血は鉄分の不足によって起こる。",
+            "romaji": "Tetsu ketsubōsei hinketsu wa tetsubun no fusoku ni yotte okoru.",
+            "german": "Eisenmangelanämie wird durch einen Mangel an Eisen verursacht."
+          },
+          {
+            "japanese": "朝礼の途中で貧血を起こして倒れてしまった。",
+            "romaji": "Chōrei no tochū de hinketsu o okoshite taorete shimatta.",
+            "german": "Während der Morgenversammlung wurde mir schwarz vor Augen und ich bin umgekippt."
+          },
+          {
+            "japanese": "最近疲れやすいのは、貧血気味だからかもしれない。",
+            "romaji": "Saikin tsukareyasui no wa, hinketsugimi dakara kamoshirenai.",
+            "german": "Dass ich in letzter Zeit schnell müde werde, liegt vielleicht daran, dass ich etwas blutarm bin."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229098661",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 貧血/ヒンケツ; lemma 貧血; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "貧血",
+              "reading": "ひんけつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 貧血/ひんけつ \"Anämie; Blutarmut\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1490800 sense 1, noun: anemia Pitch: Verified [0] via exact UniDic row. 貧血 ist medizinisch die Blutarmut (Anämie), etwa 鉄欠乏性貧血. Umgangssprachlich steht 貧血 (貧血を起こす, 貧血で倒れる) aber auch für plötzlichen Schwindel und Umkippen, auch wenn medizinisch eher 立ちくらみ oder Kreislaufprobleme gemeint sind. Häufig ist 貧血気味 („leicht blutarm“). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1490800; spelling=貧血; reading=ひんけつ",
+          "selected": {
+            "sequence": "1490800",
+            "spelling": "貧血",
+            "reading": "ひんけつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "anemia",
+                  "anaemia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1490800 sense 1, noun: anemia"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 貧血/ヒンケツ; lemma 貧血; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@229098661",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 貧血/ヒンケツ; lemma 貧血; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "貧血",
+              "reading": "ひんけつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 貧血/ひんけつ \"Anämie; Blutarmut\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anämie; Blutarmut. JMdict 1490800 sense 1, noun: anemia",
+        "japanese": "鉄欠乏性貧血は鉄分の不足によって起こる。 / 朝礼の途中で貧血を起こして倒れてしまった。 / 最近疲れやすいのは、貧血気味だからかもしれない。",
+        "romanization": "hinketsu; Tetsu ketsubōsei hinketsu wa tetsubun no fusoku ni yotte okoru. / Chōrei no tochū de hinketsu o okoshite taorete shimatta. / Saikin tsukareyasui no wa, hinketsugimi dakara kamoshirenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eisenmangelanämie wird durch einen Mangel an Eisen verursacht. / Während der Morgenversammlung wurde mir schwarz vor Augen und ich bin umgekippt. / Dass ich in letzter Zeit schnell müde werde, liegt vielleicht daran, dass ich etwas blutarm bin.",
+        "contexts": [
+          "Cause of anemia",
+          "Fainting at morning assembly",
+          "Explaining tiredness"
+        ],
+        "lexical": "JMdict 1490800 sense 1, noun: anemia",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1046 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cause of anemia; Fainting at morning assembly; Explaining tiredness), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2bffe7d6770188c6d27cf56bbd4defecf661d5b96e844100d3a9325110e14f59",
+        "approvalHash": "8152ca8f0a02fda615b9eb53c1380106d52bcac7edf7109b8a40e693bccb26dc"
+      }
+    },
+    {
+      "id": "vocab-n1:1047",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1047",
+      "state": "accepted",
+      "predecessorHash": "580d755a1f876b4189450b47dca0a9425c6f4519008224dbaab707951e2844ff",
+      "originalHash": "580d755a1f876b4189450b47dca0a9425c6f4519008224dbaab707951e2844ff",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "白血病は骨髄での異常な白血球増殖によって起こる。",
+            "romaji": "Hakketsubyō wa kotsuzui de no ijō na hakkekkyū zōshoku ni yotte okoru.",
+            "german": "Leukämie entsteht durch die abnormale Vermehrung weißer Blutkörperchen im Knochenmark."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "白血病 ist die Leukämie, wörtlich „Weiß-Blut-Krankheit“; man unterscheidet 急性 („akute“) und 慢性 („chronische“) Formen. Typisch sind 白血病と診断される, 白血病を発症する und 白血病の治療. Das Wort fällt oft im Zusammenhang mit 骨髄移植 und der Spenderregistrierung (骨髄バンク).",
+        "examples": [
+          {
+            "japanese": "白血病は骨髄での異常な白血球増殖によって起こる。",
+            "romaji": "Hakketsubyō wa kotsuzui de no ijō na hakkekkyū zōshoku ni yotte okoru.",
+            "german": "Leukämie entsteht durch die abnormale Vermehrung weißer Blutkörperchen im Knochenmark."
+          },
+          {
+            "japanese": "彼女は十代で白血病と診断されたが、治療を経て今は元気に働いている。",
+            "romaji": "Kanojo wa jūdai de hakketsubyō to shindan sareta ga, chiryō o hete ima wa genki ni hataraite iru.",
+            "german": "Sie bekam als Teenagerin die Diagnose Leukämie, ist aber nach der Behandlung heute gesund und berufstätig."
+          },
+          {
+            "japanese": "白血病の患者を救うため、骨髄バンクへのドナー登録が呼びかけられている。",
+            "romaji": "Hakketsubyō no kanja o sukuu tame, kotsuzui banku e no donā tōroku ga yobikakerarete iru.",
+            "german": "Um Leukämiekranke zu retten, wird dazu aufgerufen, sich als Knochenmarkspender registrieren zu lassen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1475130 sense 1, noun: leukemia Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 白血病 ist die Leukämie, wörtlich „Weiß-Blut-Krankheit“; man unterscheidet 急性 („akute“) und 慢性 („chronische“) Formen. Typisch sind 白血病と診断される, 白血病を発症する und 白血病の治療. Das Wort fällt oft im Zusammenhang mit 骨髄移植 und der Spenderregistrierung (骨髄バンク). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1475130; spelling=白血病; reading=はっけつびょう",
+          "selected": {
+            "sequence": "1475130",
+            "spelling": "白血病",
+            "reading": "はっけつびょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "leukemia",
+                  "leukaemia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1475130 sense 1, noun: leukemia"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 白血病/はっけつびょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%99%BD%E8%A1%80%E7%97%85",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 白血病/はっけつびょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leukämie. JMdict 1475130 sense 1, noun: leukemia",
+        "japanese": "白血病は骨髄での異常な白血球増殖によって起こる。 / 彼女は十代で白血病と診断されたが、治療を経て今は元気に働いている。 / 白血病の患者を救うため、骨髄バンクへのドナー登録が呼びかけられている。",
+        "romanization": "hakketsubyō; Hakketsubyō wa kotsuzui de no ijō na hakkekkyū zōshoku ni yotte okoru. / Kanojo wa jūdai de hakketsubyō to shindan sareta ga, chiryō o hete ima wa genki ni hataraite iru. / Hakketsubyō no kanja o sukuu tame, kotsuzui banku e no donā tōroku ga yobikakerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Leukämie entsteht durch die abnormale Vermehrung weißer Blutkörperchen im Knochenmark. / Sie bekam als Teenagerin die Diagnose Leukämie, ist aber nach der Behandlung heute gesund und berufstätig. / Um Leukämiekranke zu retten, wird dazu aufgerufen, sich als Knochenmarkspender registrieren zu lassen.",
+        "contexts": [
+          "How leukemia develops",
+          "Survivor story",
+          "Donor registration campaign"
+        ],
+        "lexical": "JMdict 1475130 sense 1, noun: leukemia",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1047 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (How leukemia develops; Survivor story; Donor registration campaign), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1dfa06cfefbf3b108e515c2a3ba38a29ed3d60db6a75bb43962d7f6d561b2964",
+        "approvalHash": "e501b33c6de6ddd5722396798e2d38d81b263c7654fb4cc6b48f292cdb492556"
+      }
+    },
+    {
+      "id": "vocab-n1:1048",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1048",
+      "state": "accepted",
+      "predecessorHash": "38c4d4158bae475430f296639be5d5dc579e4e494803195a6fdfa91076029a1f",
+      "originalHash": "38c4d4158bae475430f296639be5d5dc579e4e494803195a6fdfa91076029a1f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "骨髄移植はある種の血液疾患に対する有効な治療法である。",
+            "romaji": "Kotsuzui ishoku wa aru shu no ketsueki shikkan ni taisuru yūkō na chiryōhō de aru.",
+            "german": "Knochenmarktransplantation ist eine wirksame Behandlungsmethode für bestimmte Bluterkrankungen."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "骨髄 ist das Knochenmark, in dem das Blut gebildet wird; geläufig sind 骨髄移植 („Knochenmarktransplantation“), 骨髄バンク und 骨髄検査. Übertragen bedeutet es „das tiefste Innere“, etwa in der literarischen Wendung 恨み骨髄に徹する („Groll bis ins Mark“). Ähnlich bildhaft ist das deutsche „bis ins Mark“.",
+        "examples": [
+          {
+            "japanese": "骨髄移植はある種の血液疾患に対する有効な治療法である。",
+            "romaji": "Kotsuzui ishoku wa aru shu no ketsueki shikkan ni taisuru yūkō na chiryōhō de aru.",
+            "german": "Knochenmarktransplantation ist eine wirksame Behandlungsmethode für bestimmte Bluterkrankungen."
+          },
+          {
+            "japanese": "血液は主に骨の中にある骨髄で作られる。",
+            "romaji": "Ketsueki wa omo ni hone no naka ni aru kotsuzui de tsukurareru.",
+            "german": "Blut wird hauptsächlich im Knochenmark im Inneren der Knochen gebildet."
+          },
+          {
+            "japanese": "裏切られた恨みは骨髄に徹している。",
+            "romaji": "Uragirareta urami wa kotsuzui ni tesshite iru.",
+            "german": "Der Groll über den Verrat sitzt mir bis ins Mark."
+          }
+        ],
+        "pitch": 2,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123302938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 骨髄/コツズイ; lemma 骨髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "骨髄",
+              "reading": "こつずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 骨髄/こつずい \"Knochenmark\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1288610 senses 1–2, noun: bone marrow; (fig.) depths of one's heart Pitch: Verified [2,0] via exact UniDic row. 骨髄 ist das Knochenmark, in dem das Blut gebildet wird; geläufig sind 骨髄移植 („Knochenmarktransplantation“), 骨髄バンク und 骨髄検査. Übertragen bedeutet es „das tiefste Innere“, etwa in der literarischen Wendung 恨み骨髄に徹する („Groll bis ins Mark“). Ähnlich bildhaft ist das deutsche „bis ins Mark“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1288610; spelling=骨髄; reading=こつずい",
+          "selected": {
+            "sequence": "1288610",
+            "spelling": "骨髄",
+            "reading": "こつずい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "bone marrow",
+                  "medulla"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "heart's core",
+                  "depths of one's heart"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "obsolete term"
+                ],
+                "gloss": [
+                  "main point",
+                  "vital part"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1288610 senses 1–2, noun: bone marrow; (fig.) depths of one's heart"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2,0] via exact UniDic row. Exact whole 骨髄/コツズイ; lemma 骨髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123302938",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2,
+              0
+            ],
+            "finding": "Exact whole 骨髄/コツズイ; lemma 骨髄; 名詞/普通名詞/一般/*; *; *; aType 2,0.",
+            "match": {
+              "word": "骨髄",
+              "reading": "こつずい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 骨髄/こつずい \"Knochenmark\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Knochenmark. JMdict 1288610 senses 1–2, noun: bone marrow; (fig.) depths of one's heart",
+        "japanese": "骨髄移植はある種の血液疾患に対する有効な治療法である。 / 血液は主に骨の中にある骨髄で作られる。 / 裏切られた恨みは骨髄に徹している。",
+        "romanization": "kotsuzui; Kotsuzui ishoku wa aru shu no ketsueki shikkan ni taisuru yūkō na chiryōhō de aru. / Ketsueki wa omo ni hone no naka ni aru kotsuzui de tsukurareru. / Uragirareta urami wa kotsuzui ni tesshite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Knochenmarktransplantation ist eine wirksame Behandlungsmethode für bestimmte Bluterkrankungen. / Blut wird hauptsächlich im Knochenmark im Inneren der Knochen gebildet. / Der Groll über den Verrat sitzt mir bis ins Mark.",
+        "contexts": [
+          "Treatment for blood diseases",
+          "Where blood is made",
+          "Literary expression of a deep grudge"
+        ],
+        "lexical": "JMdict 1288610 senses 1–2, noun: bone marrow; (fig.) depths of one's heart",
+        "register": "neutral / medical; figurative use literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1048 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Treatment for blood diseases; Where blood is made; Literary expression of a deep grudge), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ca16b8606f1760ca577e068e488b8d9ce0bcaafd93a3f9e10c9f21dd9cfe5906",
+        "approvalHash": "72c5c48cb5ec33641a2a55ccee00579cef2e30f3b11fc161ae260a716da15c6e"
+      }
+    },
+    {
+      "id": "vocab-n1:1049",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1049",
+      "state": "accepted",
+      "predecessorHash": "2e3131dd116c6b37d2860b22b1ae79b4e435c08df2e8a3263e881a53dff9e3c8",
+      "originalHash": "2e3131dd116c6b37d2860b22b1ae79b4e435c08df2e8a3263e881a53dff9e3c8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "幹細胞研究は再生医療の発展に大きく貢献している。",
+            "romaji": "Kan saibō kenkyū wa saisei iryō no hatten ni ōkiku kōken shite iru.",
+            "german": "Stammzellenforschung trägt erheblich zur Entwicklung der regenerativen Medizin bei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "幹細胞 ist die Stammzelle; 幹 bedeutet „Stamm (eines Baumes)“, also die Zelle, aus der andere Zellen „abzweigen“. Bekannte Arten sind iPS細胞, ES細胞 und 造血幹細胞 („blutbildende Stammzellen“). Typische Rahmen: 幹細胞研究, 幹細胞を培養する／移植する. Fachsprache, aber in Wissenschaftsnachrichten häufig.",
+        "examples": [
+          {
+            "japanese": "幹細胞研究は再生医療の発展に大きく貢献している。",
+            "romaji": "Kan saibō kenkyū wa saisei iryō no hatten ni ōkiku kōken shite iru.",
+            "german": "Stammzellenforschung trägt erheblich zur Entwicklung der regenerativen Medizin bei."
+          },
+          {
+            "japanese": "iPS細胞は、さまざまな細胞になれる幹細胞の一種だ。",
+            "romaji": "iPS saibō wa, samazama na saibō ni nareru kansaibō no isshu da.",
+            "german": "iPS-Zellen sind eine Art Stammzellen, aus denen sich die verschiedensten Zellen entwickeln können."
+          },
+          {
+            "japanese": "造血幹細胞は骨髄の中で血液の細胞を作り出している。",
+            "romaji": "Zōketsu kansaibō wa kotsuzui no naka de ketsueki no saibō o tsukuridashite iru.",
+            "german": "Blutbildende Stammzellen erzeugen im Knochenmark die Blutzellen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2020130 sense 1, noun: stem cell Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 幹細胞 ist die Stammzelle; 幹 bedeutet „Stamm (eines Baumes)“, also die Zelle, aus der andere Zellen „abzweigen“. Bekannte Arten sind iPS細胞, ES細胞 und 造血幹細胞 („blutbildende Stammzellen“). Typische Rahmen: 幹細胞研究, 幹細胞を培養する／移植する. Fachsprache, aber in Wissenschaftsnachrichten häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2020130; spelling=幹細胞; reading=かんさいぼう",
+          "selected": {
+            "sequence": "2020130",
+            "spelling": "幹細胞",
+            "reading": "かんさいぼう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stem cell"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2020130 sense 1, noun: stem cell"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 幹細胞/かんさいぼう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B9%B9%E7%B4%B0%E8%83%9E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 幹細胞/かんさいぼう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Stammzelle. JMdict 2020130 sense 1, noun: stem cell",
+        "japanese": "幹細胞研究は再生医療の発展に大きく貢献している。 / iPS細胞は、さまざまな細胞になれる幹細胞の一種だ。 / 造血幹細胞は骨髄の中で血液の細胞を作り出している。",
+        "romanization": "kan saibō; Kan saibō kenkyū wa saisei iryō no hatten ni ōkiku kōken shite iru. / iPS saibō wa, samazama na saibō ni nareru kansaibō no isshu da. / Zōketsu kansaibō wa kotsuzui no naka de ketsueki no saibō o tsukuridashite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Stammzellenforschung trägt erheblich zur Entwicklung der regenerativen Medizin bei. / iPS-Zellen sind eine Art Stammzellen, aus denen sich die verschiedensten Zellen entwickeln können. / Blutbildende Stammzellen erzeugen im Knochenmark die Blutzellen.",
+        "contexts": [
+          "Research impact",
+          "Explaining iPS cells",
+          "Blood formation"
+        ],
+        "lexical": "JMdict 2020130 sense 1, noun: stem cell",
+        "register": "technical / scientific",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1049 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Research impact; Explaining iPS cells; Blood formation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d3a3feca75b1bec848ea64352e733193804cd318acb0cb1334e2096776f8bb88",
+        "approvalHash": "ee59a26ddb5d92d6e935799b830d28271b710c7d277dda1266cdf6d348b7d4c1"
+      }
+    },
+    {
+      "id": "vocab-n1:1050",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1050",
+      "state": "accepted",
+      "predecessorHash": "82d834483fe71294ab22588f37b2099d7e46173561cde8f0988fa13aba19f63b",
+      "originalHash": "82d834483fe71294ab22588f37b2099d7e46173561cde8f0988fa13aba19f63b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "再生医療は損傷した組織や臓器を修復する革新的な分野である。",
+            "romaji": "Saisei iryō wa sonshō shita soshiki ya zōki o shūfuku suru kakushinteki na bun'ya de aru.",
+            "german": "Die regenerative Medizin ist ein innovativer Bereich zur Reparatur geschädigter Gewebe und Organe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "再生医療 ist die regenerative Medizin, die beschädigtes Gewebe oder Organe mit Zellen wiederherstellt. 再生 heißt „Wiederherstellung, Regeneration“ (auch „Wiedergabe“ bei Videos), 医療 „medizinische Versorgung“. In Japan ist das Wort eng mit der iPS-Zellforschung verbunden; typisch sind 再生医療の実用化 und 再生医療の研究.",
+        "examples": [
+          {
+            "japanese": "再生医療は損傷した組織や臓器を修復する革新的な分野である。",
+            "romaji": "Saisei iryō wa sonshō shita soshiki ya zōki o shūfuku suru kakushinteki na bun'ya de aru.",
+            "german": "Die regenerative Medizin ist ein innovativer Bereich zur Reparatur geschädigter Gewebe und Organe."
+          },
+          {
+            "japanese": "再生医療が実用化されれば、臓器移植を待つ人が減るかもしれない。",
+            "romaji": "Saisei iryō ga jitsuyōka sarereba, zōki ishoku o matsu hito ga heru kamoshirenai.",
+            "german": "Wenn die regenerative Medizin praxisreif wird, müssen vielleicht weniger Menschen auf ein Spenderorgan warten."
+          },
+          {
+            "japanese": "この病院では、iPS細胞を使った再生医療の臨床研究が進められている。",
+            "romaji": "Kono byōin de wa, iPS saibō o tsukatta saisei iryō no rinshō kenkyū ga susumerarete iru.",
+            "german": "In diesem Krankenhaus wird klinisch zur regenerativen Medizin mit iPS-Zellen geforscht."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1993560 sense 1, noun: regenerative medicine Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 再生医療 ist die regenerative Medizin, die beschädigtes Gewebe oder Organe mit Zellen wiederherstellt. 再生 heißt „Wiederherstellung, Regeneration“ (auch „Wiedergabe“ bei Videos), 医療 „medizinische Versorgung“. In Japan ist das Wort eng mit der iPS-Zellforschung verbunden; typisch sind 再生医療の実用化 und 再生医療の研究. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1993560; spelling=再生医療; reading=さいせいいりょう",
+          "selected": {
+            "sequence": "1993560",
+            "spelling": "再生医療",
+            "reading": "さいせいいりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "regenerative medicine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1993560 sense 1, noun: regenerative medicine"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 再生医療/さいせいいりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%86%8D%E7%94%9F%E5%8C%BB%E7%99%82",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 再生医療/さいせいいりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "regenerative Medizin. JMdict 1993560 sense 1, noun: regenerative medicine",
+        "japanese": "再生医療は損傷した組織や臓器を修復する革新的な分野である。 / 再生医療が実用化されれば、臓器移植を待つ人が減るかもしれない。 / この病院では、iPS細胞を使った再生医療の臨床研究が進められている。",
+        "romanization": "saisei iryō; Saisei iryō wa sonshō shita soshiki ya zōki o shūfuku suru kakushinteki na bun'ya de aru. / Saisei iryō ga jitsuyōka sarereba, zōki ishoku o matsu hito ga heru kamoshirenai. / Kono byōin de wa, iPS saibō o tsukatta saisei iryō no rinshō kenkyū ga susumerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die regenerative Medizin ist ein innovativer Bereich zur Reparatur geschädigter Gewebe und Organe. / Wenn die regenerative Medizin praxisreif wird, müssen vielleicht weniger Menschen auf ein Spenderorgan warten. / In diesem Krankenhaus wird klinisch zur regenerativen Medizin mit iPS-Zellen geforscht.",
+        "contexts": [
+          "Definition of the field",
+          "Hope for transplant patients",
+          "Clinical research at a hospital"
+        ],
+        "lexical": "JMdict 1993560 sense 1, noun: regenerative medicine",
+        "register": "technical / scientific, news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1050 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Definition of the field; Hope for transplant patients; Clinical research at a hospital), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "ac97682d0a3c2c4d2dc218025f6bb0b621ecfeb82014c2a36f8a3e150af0df40",
+        "approvalHash": "8ddafabfe9e69b363f445c7c004fd83fb90b68d035bffad16224451fed93f7d5"
+      }
+    },
+    {
+      "id": "vocab-n1:1051",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1051",
+      "state": "accepted",
+      "predecessorHash": "5b52fba717719b7963122795c7061cc003aa990ea69fc3b5479a517a6f133671",
+      "originalHash": "5b52fba717719b7963122795c7061cc003aa990ea69fc3b5479a517a6f133671",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "遺伝子治療は遺伝性疾患の根本的な治療を目指す。",
+            "romaji": "Idenshi chiryō wa idensei shikkan no konponteki na chiryō o mezasu.",
+            "german": "Die Gentherapie zielt auf eine grundlegende Behandlung von Erbkrankheiten ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遺伝子治療 ist die Gentherapie, also die Behandlung durch Einbringen oder Verändern von Genen (遺伝子). Typisch sind 遺伝子治療を受ける, 遺伝子治療薬 und 遺伝子治療の臨床試験. Nicht verwechseln mit 遺伝性 („erblich“), das die Krankheit beschreibt. In Debatten wird oft auf ethische Fragen hingewiesen.",
+        "examples": [
+          {
+            "japanese": "遺伝子治療は遺伝性疾患の根本的な治療を目指す。",
+            "romaji": "Idenshi chiryō wa idensei shikkan no konponteki na chiryō o mezasu.",
+            "german": "Die Gentherapie zielt auf eine grundlegende Behandlung von Erbkrankheiten ab."
+          },
+          {
+            "japanese": "遺伝子治療を受けたことで、少年は自分の足で歩けるようになった。",
+            "romaji": "Idenshi chiryō o uketa koto de, shōnen wa jibun no ashi de arukeru yō ni natta.",
+            "german": "Dank der Gentherapie konnte der Junge auf eigenen Beinen gehen."
+          },
+          {
+            "japanese": "遺伝子治療には、倫理的な問題を指摘する声もある。",
+            "romaji": "Idenshi chiryō ni wa, rinriteki na mondai o shiteki suru koe mo aru.",
+            "german": "Manche weisen bei der Gentherapie auch auf ethische Probleme hin."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1669200 sense 1, noun: gene therapy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 遺伝子治療 ist die Gentherapie, also die Behandlung durch Einbringen oder Verändern von Genen (遺伝子). Typisch sind 遺伝子治療を受ける, 遺伝子治療薬 und 遺伝子治療の臨床試験. Nicht verwechseln mit 遺伝性 („erblich“), das die Krankheit beschreibt. In Debatten wird oft auf ethische Fragen hingewiesen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1669200; spelling=遺伝子治療; reading=いでんしちりょう",
+          "selected": {
+            "sequence": "1669200",
+            "spelling": "遺伝子治療",
+            "reading": "いでんしちりょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gene therapy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1669200 sense 1, noun: gene therapy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 遺伝子治療/いでんしちりょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%81%BA%E4%BC%9D%E5%AD%90%E6%B2%BB%E7%99%82",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 遺伝子治療/いでんしちりょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gentherapie. JMdict 1669200 sense 1, noun: gene therapy",
+        "japanese": "遺伝子治療は遺伝性疾患の根本的な治療を目指す。 / 遺伝子治療を受けたことで、少年は自分の足で歩けるようになった。 / 遺伝子治療には、倫理的な問題を指摘する声もある。",
+        "romanization": "idenshi chiryō; Idenshi chiryō wa idensei shikkan no konponteki na chiryō o mezasu. / Idenshi chiryō o uketa koto de, shōnen wa jibun no ashi de arukeru yō ni natta. / Idenshi chiryō ni wa, rinriteki na mondai o shiteki suru koe mo aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Gentherapie zielt auf eine grundlegende Behandlung von Erbkrankheiten ab. / Dank der Gentherapie konnte der Junge auf eigenen Beinen gehen. / Manche weisen bei der Gentherapie auch auf ethische Probleme hin.",
+        "contexts": [
+          "Goal of the therapy",
+          "Patient success story",
+          "Ethical debate"
+        ],
+        "lexical": "JMdict 1669200 sense 1, noun: gene therapy",
+        "register": "technical / scientific, news",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1051 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Goal of the therapy; Patient success story; Ethical debate), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "30b6e80f7d254395f02d6cf866b38978731444a023183de1246c64e13a820e5c",
+        "approvalHash": "4aaeda2176f595adb86654c34cec554267ae1156c14a48a870434946656f18bc"
+      }
+    },
+    {
+      "id": "vocab-n1:1052",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1052",
+      "state": "accepted",
+      "predecessorHash": "a5acbf85569ac301e517b5c667fd12d96c64a353004428b20798b4f5bcdad1d3",
+      "originalHash": "a5acbf85569ac301e517b5c667fd12d96c64a353004428b20798b4f5bcdad1d3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "内科は薬物療法を中心とした診療科である。",
+            "romaji": "Naika wa yakubutsu ryōhō o chūshin to shita shinryōka de aru.",
+            "german": "Die Innere Medizin ist eine Fachrichtung, die sich auf medikamentöse Therapie konzentriert."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "内科 ist die Innere Medizin bzw. die internistische Abteilung oder Praxis. In Japan geht man mit Erkältung, Fieber oder Magenproblemen typischerweise zum 内科, nicht zu einem „Hausarzt“; man sagt 内科を受診する oder 内科にかかる. Gegenstück ist 外科; der Arzt heißt 内科医.",
+        "examples": [
+          {
+            "japanese": "内科は薬物療法を中心とした診療科である。",
+            "romaji": "Naika wa yakubutsu ryōhō o chūshin to shita shinryōka de aru.",
+            "german": "Die Innere Medizin ist eine Fachrichtung, die sich auf medikamentöse Therapie konzentriert."
+          },
+          {
+            "japanese": "熱と咳が続くので、近所の内科を受診した。",
+            "romaji": "Netsu to seki ga tsuzuku node, kinjo no naika o jushin shita.",
+            "german": "Weil Fieber und Husten nicht weggingen, ließ ich mich in einer internistischen Praxis in der Nähe untersuchen."
+          },
+          {
+            "japanese": "内科と外科のどちらに行けばいいか、受付で聞いてみた。",
+            "romaji": "Naika to geka no dochira ni ikeba ii ka, uketsuke de kiite mita.",
+            "german": "Ich fragte am Empfang, ob ich zur Inneren oder zur Chirurgie gehen soll."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193563399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 内科/ナイカ; lemma 内科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "内科",
+              "reading": "ないか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内科/ないか \"Innere Medizin\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1457830 senses 1–2, noun: internal medicine; department of internal medicine Pitch: Verified [0,1] via exact UniDic row. 内科 ist die Innere Medizin bzw. die internistische Abteilung oder Praxis. In Japan geht man mit Erkältung, Fieber oder Magenproblemen typischerweise zum 内科, nicht zu einem „Hausarzt“; man sagt 内科を受診する oder 内科にかかる. Gegenstück ist 外科; der Arzt heißt 内科医. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1457830; spelling=内科; reading=ないか",
+          "selected": {
+            "sequence": "1457830",
+            "spelling": "内科",
+            "reading": "ないか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "internal medicine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "department of internal medicine"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1457830 senses 1–2, noun: internal medicine; department of internal medicine"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 内科/ナイカ; lemma 内科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@193563399",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 内科/ナイカ; lemma 内科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "内科",
+              "reading": "ないか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 内科/ないか \"Innere Medizin\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Innere Medizin. JMdict 1457830 senses 1–2, noun: internal medicine; department of internal medicine",
+        "japanese": "内科は薬物療法を中心とした診療科である。 / 熱と咳が続くので、近所の内科を受診した。 / 内科と外科のどちらに行けばいいか、受付で聞いてみた。",
+        "romanization": "naika; Naika wa yakubutsu ryōhō o chūshin to shita shinryōka de aru. / Netsu to seki ga tsuzuku node, kinjo no naika o jushin shita. / Naika to geka no dochira ni ikeba ii ka, uketsuke de kiite mita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Innere Medizin ist eine Fachrichtung, die sich auf medikamentöse Therapie konzentriert. / Weil Fieber und Husten nicht weggingen, ließ ich mich in einer internistischen Praxis in der Nähe untersuchen. / Ich fragte am Empfang, ob ich zur Inneren oder zur Chirurgie gehen soll.",
+        "contexts": [
+          "Describing the specialty",
+          "Seeing a doctor for a cold",
+          "Asking at hospital reception"
+        ],
+        "lexical": "JMdict 1457830 senses 1–2, noun: internal medicine; department of internal medicine",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1052 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing the specialty; Seeing a doctor for a cold; Asking at hospital reception), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "882fa7e17d916cda6bda9b8f2a50651eaec0d80c7c92f52946f529b5a939d5ef",
+        "approvalHash": "0a880789a2f7b382a1cccccb18802aeac3ccfd39de6134e89d6c64331256bc7c"
+      }
+    },
+    {
+      "id": "vocab-n1:1053",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1053",
+      "state": "accepted",
+      "predecessorHash": "0cf8a46683779d469402b6e5756fea8b171995a37752d053e6869e9da00aac7b",
+      "originalHash": "0cf8a46683779d469402b6e5756fea8b171995a37752d053e6869e9da00aac7b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "外科的介入が必要な場合は迅速な判断が求められる。",
+            "romaji": "Gekateki kainyū ga hitsuyō na baai wa jinsoku na handan ga motomerareru.",
+            "german": "Wenn ein chirurgischer Eingriff nötig ist, wird eine schnelle Entscheidung verlangt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "外科 ist die Chirurgie als Fach und als Abteilung; man geht dorthin mit Verletzungen oder wenn eine Operation nötig ist. Ableitungen: 外科医 („Chirurg“), 外科手術, 外科的 („chirurgisch“). Lesung beachten: げか, nicht がいか. Gegenstück ist 内科; Spezialfächer sind z. B. 整形外科 oder 脳外科.",
+        "examples": [
+          {
+            "japanese": "外科的介入が必要な場合は迅速な判断が求められる。",
+            "romaji": "Gekateki kainyū ga hitsuyō na baai wa jinsoku na handan ga motomerareru.",
+            "german": "Wenn ein chirurgischer Eingriff nötig ist, wird eine schnelle Entscheidung verlangt."
+          },
+          {
+            "japanese": "兄は大学病院で外科医として働いている。",
+            "romaji": "Ani wa daigaku byōin de gekai to shite hataraite iru.",
+            "german": "Mein älterer Bruder arbeitet als Chirurg an einer Universitätsklinik."
+          },
+          {
+            "japanese": "指を深く切ってしまったので、外科で縫ってもらった。",
+            "romaji": "Yubi o fukaku kitte shimatta node, geka de nutte moratta.",
+            "german": "Ich hatte mich tief in den Finger geschnitten und ließ die Wunde in der Chirurgie nähen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119058839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 外科/ゲカ; lemma 外科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "外科",
+              "reading": "げか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 外科/げか \"Chirurgie\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1203380 senses 1–2, noun: surgery; department of surgery Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 外科 ist die Chirurgie als Fach und als Abteilung; man geht dorthin mit Verletzungen oder wenn eine Operation nötig ist. Ableitungen: 外科医 („Chirurg“), 外科手術, 外科的 („chirurgisch“). Lesung beachten: げか, nicht がいか. Gegenstück ist 内科; Spezialfächer sind z. B. 整形外科 oder 脳外科. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1203380; spelling=外科; reading=げか",
+          "selected": {
+            "sequence": "1203380",
+            "spelling": "外科",
+            "reading": "げか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "surgery (branch of medicine)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "department of surgery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1203380 senses 1–2, noun: surgery; department of surgery"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 外科/ゲカ; lemma 外科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119058839",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 外科/ゲカ; lemma 外科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "外科",
+              "reading": "げか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 外科/げか \"Chirurgie\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Chirurgie. JMdict 1203380 senses 1–2, noun: surgery; department of surgery",
+        "japanese": "外科的介入が必要な場合は迅速な判断が求められる。 / 兄は大学病院で外科医として働いている。 / 指を深く切ってしまったので、外科で縫ってもらった。",
+        "romanization": "geka; Gekateki kainyū ga hitsuyō na baai wa jinsoku na handan ga motomerareru. / Ani wa daigaku byōin de gekai to shite hataraite iru. / Yubi o fukaku kitte shimatta node, geka de nutte moratta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn ein chirurgischer Eingriff nötig ist, wird eine schnelle Entscheidung verlangt. / Mein älterer Bruder arbeitet als Chirurg an einer Universitätsklinik. / Ich hatte mich tief in den Finger geschnitten und ließ die Wunde in der Chirurgie nähen.",
+        "contexts": [
+          "Clinical decision",
+          "Sibling's job",
+          "Treating a cut"
+        ],
+        "lexical": "JMdict 1203380 senses 1–2, noun: surgery; department of surgery",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1053 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Clinical decision; Sibling's job; Treating a cut), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "7c4c085ac5f95f3d335bf438cfba98b49da770af83efd63f3ec61d24852dd857",
+        "approvalHash": "a45941f461978ae3f84b998258eb09efbc278d6637cdd69c97a77adfabb2ae20"
+      }
+    },
+    {
+      "id": "vocab-n1:1054",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1054",
+      "state": "accepted",
+      "predecessorHash": "bf01e70d0ac7d7ad0755d5f663c46fb73aab98141295c1ee424a91dbaa4eb015",
+      "originalHash": "bf01e70d0ac7d7ad0755d5f663c46fb73aab98141295c1ee424a91dbaa4eb015",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "整形外科では骨折や関節疾患を専門に治療する。",
+            "romaji": "Seikei geka de wa kossetsu ya kansetsu shikkan o senmon ni chiryō suru.",
+            "german": "Die Orthopädie behandelt spezialisiert Knochenbrüche und Gelenkerkrankungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "整形外科 ist die Orthopädie: Knochenbrüche, Gelenke, Rücken- und Knieschmerzen. Falle für Lernende: Schönheitsoperationen heißen 美容整形, und das kurze 整形 allein meint umgangssprachlich meist eine Schönheits-OP; die plastisch-rekonstruktive Chirurgie ist 形成外科. Typisch: 整形外科に通う, 整形外科でレントゲンを撮る.",
+        "examples": [
+          {
+            "japanese": "整形外科では骨折や関節疾患を専門に治療する。",
+            "romaji": "Seikei geka de wa kossetsu ya kansetsu shikkan o senmon ni chiryō suru.",
+            "german": "Die Orthopädie behandelt spezialisiert Knochenbrüche und Gelenkerkrankungen."
+          },
+          {
+            "japanese": "転んで手首を痛めたので、整形外科でレントゲンを撮ってもらった。",
+            "romaji": "Koronde tekubi o itameta node, seikei geka de rentogen o totte moratta.",
+            "german": "Ich bin gestürzt und habe mir das Handgelenk verletzt, also ließ ich es beim Orthopäden röntgen."
+          },
+          {
+            "japanese": "腰痛がひどくて、週に一度整形外科に通っている。",
+            "romaji": "Yōtsū ga hidokute, shū ni ichido seikei geka ni kayotte iru.",
+            "german": "Wegen starker Rückenschmerzen gehe ich einmal pro Woche zum Orthopäden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1376160 sense 1, noun: orthopedic surgery, orthopedics Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 整形外科 ist die Orthopädie: Knochenbrüche, Gelenke, Rücken- und Knieschmerzen. Falle für Lernende: Schönheitsoperationen heißen 美容整形, und das kurze 整形 allein meint umgangssprachlich meist eine Schönheits-OP; die plastisch-rekonstruktive Chirurgie ist 形成外科. Typisch: 整形外科に通う, 整形外科でレントゲンを撮る. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1376160; spelling=整形外科; reading=せいけいげか",
+          "selected": {
+            "sequence": "1376160",
+            "spelling": "整形外科",
+            "reading": "せいけいげか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "orthopedic surgery",
+                  "orthopaedic surgery",
+                  "orthopedics",
+                  "orthopaedics"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "colloquial"
+                ],
+                "gloss": [
+                  "plastic surgery",
+                  "cosmetic surgery"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1376160 sense 1, noun: orthopedic surgery, orthopedics"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 整形外科/せいけいげか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%95%B4%E5%BD%A2%E5%A4%96%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 整形外科/せいけいげか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Orthopädie. JMdict 1376160 sense 1, noun: orthopedic surgery, orthopedics",
+        "japanese": "整形外科では骨折や関節疾患を専門に治療する。 / 転んで手首を痛めたので、整形外科でレントゲンを撮ってもらった。 / 腰痛がひどくて、週に一度整形外科に通っている。",
+        "romanization": "seikei geka; Seikei geka de wa kossetsu ya kansetsu shikkan o senmon ni chiryō suru. / Koronde tekubi o itameta node, seikei geka de rentogen o totte moratta. / Yōtsū ga hidokute, shū ni ichido seikei geka ni kayotte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Orthopädie behandelt spezialisiert Knochenbrüche und Gelenkerkrankungen. / Ich bin gestürzt und habe mir das Handgelenk verletzt, also ließ ich es beim Orthopäden röntgen. / Wegen starker Rückenschmerzen gehe ich einmal pro Woche zum Orthopäden.",
+        "contexts": [
+          "Scope of the specialty",
+          "After a fall",
+          "Regular back-pain visits"
+        ],
+        "lexical": "JMdict 1376160 sense 1, noun: orthopedic surgery, orthopedics",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1054 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Scope of the specialty; After a fall; Regular back-pain visits), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "5e901a3a7304685223eb9f2bb3b294c4cf476782f3a9d8a662a694bcbc0ff1a1",
+        "approvalHash": "7c67dc263e966f43afa6e874cee92563e657b8a0cb514210601388ea443e6337"
+      }
+    },
+    {
+      "id": "vocab-n1:1055",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1055",
+      "state": "accepted",
+      "predecessorHash": "6346a9c35f5cca0ccae289e4b715a6bb8be2ba79281fd0193ef6e395d39f4783",
+      "originalHash": "6346a9c35f5cca0ccae289e4b715a6bb8be2ba79281fd0193ef6e395d39f4783",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "緑内障は眼科で定期的に検査すべき疾患である。",
+            "romaji": "Ryokunai shō wa ganka de teikiteki ni kensa subeki shikkan de aru.",
+            "german": "Glaukom ist eine Erkrankung, die regelmäßig in der Augenheilkunde untersucht werden sollte."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "眼科 ist die Augenheilkunde bzw. die Augenarztpraxis; der Arzt heißt 眼科医, umgangssprachlich auch 目医者. Man sagt 眼科に行く, 眼科で診てもらう oder 眼科を受診する. 眼 wird hier がん gelesen, wie in 眼球 oder 近眼.",
+        "examples": [
+          {
+            "japanese": "緑内障は眼科で定期的に検査すべき疾患である。",
+            "romaji": "Ryokunaishō wa ganka de teikiteki ni kensa subeki shikkan de aru.",
+            "german": "Glaukom ist eine Erkrankung, die regelmäßig in der Augenheilkunde untersucht werden sollte."
+          },
+          {
+            "japanese": "目がかゆくて充血しているので、眼科に行った。",
+            "romaji": "Me ga kayukute jūketsu shite iru node, ganka ni itta.",
+            "german": "Meine Augen juckten und waren gerötet, deshalb ging ich zum Augenarzt."
+          },
+          {
+            "japanese": "コンタクトレンズを作る前に、眼科で検査を受ける必要がある。",
+            "romaji": "Kontakuto renzu o tsukuru mae ni, ganka de kensa o ukeru hitsuyō ga aru.",
+            "german": "Bevor man sich Kontaktlinsen anpassen lässt, muss man sich beim Augenarzt untersuchen lassen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101761703",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 眼科/ガンカ; lemma 眼科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "眼科",
+              "reading": "がんか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 眼科/がんか \"Augenheilkunde\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1217150 sense 1, noun: ophthalmology Pitch: Verified [0,1] via exact UniDic row. 眼科 ist die Augenheilkunde bzw. die Augenarztpraxis; der Arzt heißt 眼科医, umgangssprachlich auch 目医者. Man sagt 眼科に行く, 眼科で診てもらう oder 眼科を受診する. 眼 wird hier がん gelesen, wie in 眼球 oder 近眼. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1217150; spelling=眼科; reading=がんか",
+          "selected": {
+            "sequence": "1217150",
+            "spelling": "眼科",
+            "reading": "がんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ophthalmology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1217150 sense 1, noun: ophthalmology"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 眼科/ガンカ; lemma 眼科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101761703",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 眼科/ガンカ; lemma 眼科; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "眼科",
+              "reading": "がんか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 眼科/がんか \"Augenheilkunde\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Augenheilkunde. JMdict 1217150 sense 1, noun: ophthalmology",
+        "japanese": "緑内障は眼科で定期的に検査すべき疾患である。 / 目がかゆくて充血しているので、眼科に行った。 / コンタクトレンズを作る前に、眼科で検査を受ける必要がある。",
+        "romanization": "ganka; Ryokunaishō wa ganka de teikiteki ni kensa subeki shikkan de aru. / Me ga kayukute jūketsu shite iru node, ganka ni itta. / Kontakuto renzu o tsukuru mae ni, ganka de kensa o ukeru hitsuyō ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Glaukom ist eine Erkrankung, die regelmäßig in der Augenheilkunde untersucht werden sollte. / Meine Augen juckten und waren gerötet, deshalb ging ich zum Augenarzt. / Bevor man sich Kontaktlinsen anpassen lässt, muss man sich beim Augenarzt untersuchen lassen.",
+        "contexts": [
+          "Glaucoma check-ups",
+          "Itchy red eyes",
+          "Getting contact lenses"
+        ],
+        "lexical": "JMdict 1217150 sense 1, noun: ophthalmology",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1055 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Glaucoma check-ups; Itchy red eyes; Getting contact lenses), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "26d02630ef70d705dea1289d05b1084e46ce17fc1605f5dd4ece8d1d24fa5a68",
+        "approvalHash": "613ef5d56b659a73a7c2018879e8444eced39b8a59ee77945179518c0d6308ba"
+      }
+    },
+    {
+      "id": "vocab-n1:1056",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1056",
+      "state": "accepted",
+      "predecessorHash": "68156bfaef0553beaf560e82165af960d5dd9576ef4fe52125a4208364c6840c",
+      "originalHash": "68156bfaef0553beaf560e82165af960d5dd9576ef4fe52125a4208364c6840c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "産科医は出産時の母体と胎児の安全を守る。",
+            "romaji": "Sankai wa shussan ji no botai to taiji no anzen o mamoru.",
+            "german": "Geburtshelfer schützen die Sicherheit von Mutter und Fötus während der Geburt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "産科 ist die Geburtshilfe bzw. die Entbindungsabteilung; meist ist sie mit der Gynäkologie zu 産婦人科 zusammengefasst, und dieser Name ist im Alltag geläufiger. Der Arzt heißt 産科医; der Mangel an 産科医 auf dem Land ist ein bekanntes gesellschaftliches Thema. Typisch: 産科の病棟, 産科を受診する.",
+        "examples": [
+          {
+            "japanese": "産科医は出産時の母体と胎児の安全を守る。",
+            "romaji": "Sankai wa shussan ji no botai to taiji no anzen o mamoru.",
+            "german": "Geburtshelfer schützen die Sicherheit von Mutter und Fötus während der Geburt."
+          },
+          {
+            "japanese": "地方では産科医が不足していて、出産できる病院が減っている。",
+            "romaji": "Chihō de wa sankai ga fusoku shite ite, shussan dekiru byōin ga hette iru.",
+            "german": "In ländlichen Regionen fehlen Geburtshelfer, und es gibt immer weniger Krankenhäuser, in denen man entbinden kann."
+          },
+          {
+            "japanese": "妻の出産予定日が近いので、産科の病棟を下見しておいた。",
+            "romaji": "Tsuma no shussan yoteibi ga chikai node, sanka no byōtō o shitami shite oita.",
+            "german": "Da der Geburtstermin meiner Frau näher rückt, haben wir uns die Entbindungsstation schon einmal angesehen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132951850",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 産科/サンカ; lemma 産科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "産科",
+              "reading": "さんか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 産科/さんか \"Geburtshilfe\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1303740 senses 1–2, noun: obstetrics; maternity department Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 産科 ist die Geburtshilfe bzw. die Entbindungsabteilung; meist ist sie mit der Gynäkologie zu 産婦人科 zusammengefasst, und dieser Name ist im Alltag geläufiger. Der Arzt heißt 産科医; der Mangel an 産科医 auf dem Land ist ein bekanntes gesellschaftliches Thema. Typisch: 産科の病棟, 産科を受診する. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1303740; spelling=産科; reading=さんか",
+          "selected": {
+            "sequence": "1303740",
+            "spelling": "産科",
+            "reading": "さんか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "obstetrics"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "obstetrical department",
+                  "maternity division"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1303740 senses 1–2, noun: obstetrics; maternity department"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 産科/サンカ; lemma 産科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@132951850",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 産科/サンカ; lemma 産科; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "産科",
+              "reading": "さんか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 産科/さんか \"Geburtshilfe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Geburtshilfe. JMdict 1303740 senses 1–2, noun: obstetrics; maternity department",
+        "japanese": "産科医は出産時の母体と胎児の安全を守る。 / 地方では産科医が不足していて、出産できる病院が減っている。 / 妻の出産予定日が近いので、産科の病棟を下見しておいた。",
+        "romanization": "sanka; Sankai wa shussan ji no botai to taiji no anzen o mamoru. / Chihō de wa sankai ga fusoku shite ite, shussan dekiru byōin ga hette iru. / Tsuma no shussan yoteibi ga chikai node, sanka no byōtō o shitami shite oita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Geburtshelfer schützen die Sicherheit von Mutter und Fötus während der Geburt. / In ländlichen Regionen fehlen Geburtshelfer, und es gibt immer weniger Krankenhäuser, in denen man entbinden kann. / Da der Geburtstermin meiner Frau näher rückt, haben wir uns die Entbindungsstation schon einmal angesehen.",
+        "contexts": [
+          "Role of obstetricians",
+          "Rural doctor shortage",
+          "Preparing for a birth"
+        ],
+        "lexical": "JMdict 1303740 senses 1–2, noun: obstetrics; maternity department",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1056 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Role of obstetricians; Rural doctor shortage; Preparing for a birth), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "36c94044637789090e1e0ff357baef1f7d60d6567b8c6274e636962f98096d4d",
+        "approvalHash": "5238514c172a52de7a1611f3f22eafae4864c6b604061626b9fa48cf1b5b67dd"
+      }
+    },
+    {
+      "id": "vocab-n1:1057",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1057",
+      "state": "accepted",
+      "predecessorHash": "87d46c9b1c9d880640fcc65311226a11c2fc94ce2e0c04673b6b6aeb5540cb2e",
+      "originalHash": "87d46c9b1c9d880640fcc65311226a11c2fc94ce2e0c04673b6b6aeb5540cb2e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "小児科は子どもの発育と疾患を専門とする診療科である。",
+            "romaji": "Shōnika wa kodomo no hatsuiku to shikkan o senmon to suru shinryōka de aru.",
+            "german": "Die Pädiatrie ist eine Fachrichtung, die sich auf die Entwicklung und Krankheiten von Kindern spezialisiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "小児科 ist die Kinderheilkunde bzw. die Kinderarztpraxis; 小児 („Kleinkind, Kind“) ist ein formelles Wort für 子ども. Man sagt 小児科に連れて行く, 小児科にかかる; der Arzt heißt 小児科医. Behandelt werden in Japan meist Kinder bis etwa zum Ende der Mittelschule.",
+        "examples": [
+          {
+            "japanese": "小児科は子どもの発育と疾患を専門とする診療科である。",
+            "romaji": "Shōnika wa kodomo no hatsuiku to shikkan o senmon to suru shinryōka de aru.",
+            "german": "Die Pädiatrie ist eine Fachrichtung, die sich auf die Entwicklung und Krankheiten von Kindern spezialisiert."
+          },
+          {
+            "japanese": "子どもが夜中に高い熱を出したので、朝一番で小児科に連れて行った。",
+            "romaji": "Kodomo ga yonaka ni takai netsu o dashita node, asa ichiban de shōnika ni tsurete itta.",
+            "german": "Unser Kind bekam nachts hohes Fieber, also brachten wir es gleich morgens zum Kinderarzt."
+          },
+          {
+            "japanese": "小児科の待合室には、絵本やおもちゃが置いてある。",
+            "romaji": "Shōnika no machiaishitsu ni wa, ehon ya omocha ga oite aru.",
+            "german": "Im Wartezimmer der Kinderarztpraxis liegen Bilderbücher und Spielzeug."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1348200 sense 1, noun: pediatrics Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 小児科 ist die Kinderheilkunde bzw. die Kinderarztpraxis; 小児 („Kleinkind, Kind“) ist ein formelles Wort für 子ども. Man sagt 小児科に連れて行く, 小児科にかかる; der Arzt heißt 小児科医. Behandelt werden in Japan meist Kinder bis etwa zum Ende der Mittelschule. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1348200; spelling=小児科; reading=しょうにか",
+          "selected": {
+            "sequence": "1348200",
+            "spelling": "小児科",
+            "reading": "しょうにか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pediatrics"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1348200 sense 1, noun: pediatrics"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 小児科/しょうにか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%B0%8F%E5%85%90%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 小児科/しょうにか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Pädiatrie; Kinderheilkunde. JMdict 1348200 sense 1, noun: pediatrics",
+        "japanese": "小児科は子どもの発育と疾患を専門とする診療科である。 / 子どもが夜中に高い熱を出したので、朝一番で小児科に連れて行った。 / 小児科の待合室には、絵本やおもちゃが置いてある。",
+        "romanization": "shōnika; Shōnika wa kodomo no hatsuiku to shikkan o senmon to suru shinryōka de aru. / Kodomo ga yonaka ni takai netsu o dashita node, asa ichiban de shōnika ni tsurete itta. / Shōnika no machiaishitsu ni wa, ehon ya omocha ga oite aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Pädiatrie ist eine Fachrichtung, die sich auf die Entwicklung und Krankheiten von Kindern spezialisiert. / Unser Kind bekam nachts hohes Fieber, also brachten wir es gleich morgens zum Kinderarzt. / Im Wartezimmer der Kinderarztpraxis liegen Bilderbücher und Spielzeug.",
+        "contexts": [
+          "Describing the specialty",
+          "Child with a night fever",
+          "Waiting room description"
+        ],
+        "lexical": "JMdict 1348200 sense 1, noun: pediatrics",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1057 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Describing the specialty; Child with a night fever; Waiting room description), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "dae9e0e0ccfc50b08e49f1253165b4c0e1a54f301bd2ab33830f5d931d957425",
+        "approvalHash": "47bb55a7684913e31e23bb2f14b3ef779afe6834a8311ab4c76460fc48a18590"
+      }
+    },
+    {
+      "id": "vocab-n1:1058",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1058",
+      "state": "accepted",
+      "predecessorHash": "4b027651049de86a1da34da612c58592b89e3e7127c11acd9c5219f7fc8ce8b9",
+      "originalHash": "4b027651049de86a1da34da612c58592b89e3e7127c11acd9c5219f7fc8ce8b9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "皮膚科ではアトピー性皮膚炎やニキビの治療を行う。",
+            "romaji": "Hifuka de wa atopīsei hifuen ya nikibi no chiryō o okonau.",
+            "german": "In der Dermatologie werden atopische Dermatitis und Akne behandelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "皮膚科 ist die Dermatologie bzw. die Hautarztpraxis; man geht dorthin mit Ausschlag, Akne, Juckreiz oder Insektenstichen. Typisch: 皮膚科に行く, 皮膚科で薬をもらう, 皮膚科の先生. Für rein kosmetische Behandlungen gibt es eigens 美容皮膚科.",
+        "examples": [
+          {
+            "japanese": "皮膚科ではアトピー性皮膚炎やニキビの治療を行う。",
+            "romaji": "Hifuka de wa atopīsei hifuen ya nikibi no chiryō o okonau.",
+            "german": "In der Dermatologie werden atopische Dermatitis und Akne behandelt."
+          },
+          {
+            "japanese": "虫に刺されたところが腫れてきたので、皮膚科で薬をもらった。",
+            "romaji": "Mushi ni sasareta tokoro ga harete kita node, hifuka de kusuri o moratta.",
+            "german": "Der Insektenstich schwoll an, deshalb holte ich mir beim Hautarzt ein Medikament."
+          },
+          {
+            "japanese": "皮膚科の先生に、日焼け止めを毎日塗るよう勧められた。",
+            "romaji": "Hifuka no sensei ni, hiyakedome o mainichi nuru yō susumerareta.",
+            "german": "Die Hautärztin hat mir empfohlen, jeden Tag Sonnencreme aufzutragen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1483940 sense 1, noun: dermatology Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 皮膚科 ist die Dermatologie bzw. die Hautarztpraxis; man geht dorthin mit Ausschlag, Akne, Juckreiz oder Insektenstichen. Typisch: 皮膚科に行く, 皮膚科で薬をもらう, 皮膚科の先生. Für rein kosmetische Behandlungen gibt es eigens 美容皮膚科. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483940; spelling=皮膚科; reading=ひふか",
+          "selected": {
+            "sequence": "1483940",
+            "spelling": "皮膚科",
+            "reading": "ひふか",
+            "readingRestrictions": [
+              "皮膚科",
+              "皮ふ科"
+            ],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "dermatology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1483940 sense 1, noun: dermatology"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 皮膚科/ひふか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%9A%AE%E8%86%9A%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 皮膚科/ひふか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Dermatologie. JMdict 1483940 sense 1, noun: dermatology",
+        "japanese": "皮膚科ではアトピー性皮膚炎やニキビの治療を行う。 / 虫に刺されたところが腫れてきたので、皮膚科で薬をもらった。 / 皮膚科の先生に、日焼け止めを毎日塗るよう勧められた。",
+        "romanization": "hifuka; Hifuka de wa atopīsei hifuen ya nikibi no chiryō o okonau. / Mushi ni sasareta tokoro ga harete kita node, hifuka de kusuri o moratta. / Hifuka no sensei ni, hiyakedome o mainichi nuru yō susumerareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der Dermatologie werden atopische Dermatitis und Akne behandelt. / Der Insektenstich schwoll an, deshalb holte ich mir beim Hautarzt ein Medikament. / Die Hautärztin hat mir empfohlen, jeden Tag Sonnencreme aufzutragen.",
+        "contexts": [
+          "Conditions treated",
+          "Swollen insect bite",
+          "Doctor's skincare advice"
+        ],
+        "lexical": "JMdict 1483940 sense 1, noun: dermatology",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1058 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Conditions treated; Swollen insect bite; Doctor's skincare advice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "70e14eb01eb32617e90ac77a65fdf7a75ffd443ecd2f14a1f6c48da4f96a05be",
+        "approvalHash": "8d29d7d597da0e16641c65921eeb361491c372cb7a1e4bf1ef612287e32d999f"
+      }
+    },
+    {
+      "id": "vocab-n1:1059",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1059",
+      "state": "accepted",
+      "predecessorHash": "14f70fe311da8b211a1349229b8ddfc4f6b687fbf1789a45a4cc01d49f9a84a4",
+      "originalHash": "14f70fe311da8b211a1349229b8ddfc4f6b687fbf1789a45a4cc01d49f9a84a4",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "泌尿器科は腎臓や膀胱などの疾患を専門に扱う。",
+            "romaji": "Hinyōkika wa jinzō ya bōkō nado no shikkan o senmon ni atsukau.",
+            "german": "Die Urologie befasst sich spezialisiert mit Erkrankungen der Nieren und Blase."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "泌尿器科 ist die Urologie: Nieren, Harnwege, Blase und Prostata. 泌尿器 heißt „Harnorgane“; 泌 wird hier ひ gelesen, in 分泌 (ぶんぴつ) dagegen ぴつ. Typisch: 泌尿器科を受診する, 泌尿器科で検査を受ける. Das Thema gilt als etwas peinlich, deshalb wird der Besuch oft lange hinausgezögert.",
+        "examples": [
+          {
+            "japanese": "泌尿器科は腎臓や膀胱などの疾患を専門に扱う。",
+            "romaji": "Hinyōkika wa jinzō ya bōkō nado no shikkan o senmon ni atsukau.",
+            "german": "Die Urologie befasst sich spezialisiert mit Erkrankungen der Nieren und Blase."
+          },
+          {
+            "japanese": "尿に血が混じっていたので、泌尿器科を受診した。",
+            "romaji": "Nyō ni chi ga majitte ita node, hinyōkika o jushin shita.",
+            "german": "Weil Blut im Urin war, ging ich zum Urologen."
+          },
+          {
+            "japanese": "健康診断で前立腺の数値が高く、泌尿器科での再検査を勧められた。",
+            "romaji": "Kenkō shindan de zenritsusen no sūchi ga takaku, hinyōkika de no saikensa o susumerareta.",
+            "german": "Beim Gesundheitscheck war mein Prostatawert erhöht, und mir wurde eine Nachuntersuchung beim Urologen empfohlen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1483710 sense 1, noun: urology Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 泌尿器科 ist die Urologie: Nieren, Harnwege, Blase und Prostata. 泌尿器 heißt „Harnorgane“; 泌 wird hier ひ gelesen, in 分泌 (ぶんぴつ) dagegen ぴつ. Typisch: 泌尿器科を受診する, 泌尿器科で検査を受ける. Das Thema gilt als etwas peinlich, deshalb wird der Besuch oft lange hinausgezögert. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1483710; spelling=泌尿器科; reading=ひにょうきか",
+          "selected": {
+            "sequence": "1483710",
+            "spelling": "泌尿器科",
+            "reading": "ひにょうきか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "urology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1483710 sense 1, noun: urology"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 泌尿器科/ひにょうきか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%B3%8C%E5%B0%BF%E5%99%A8%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 泌尿器科/ひにょうきか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Urologie. JMdict 1483710 sense 1, noun: urology",
+        "japanese": "泌尿器科は腎臓や膀胱などの疾患を専門に扱う。 / 尿に血が混じっていたので、泌尿器科を受診した。 / 健康診断で前立腺の数値が高く、泌尿器科での再検査を勧められた。",
+        "romanization": "hinyōkika; Hinyōkika wa jinzō ya bōkō nado no shikkan o senmon ni atsukau. / Nyō ni chi ga majitte ita node, hinyōkika o jushin shita. / Kenkō shindan de zenritsusen no sūchi ga takaku, hinyōkika de no saikensa o susumerareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Urologie befasst sich spezialisiert mit Erkrankungen der Nieren und Blase. / Weil Blut im Urin war, ging ich zum Urologen. / Beim Gesundheitscheck war mein Prostatawert erhöht, und mir wurde eine Nachuntersuchung beim Urologen empfohlen.",
+        "contexts": [
+          "Scope of the specialty",
+          "Blood in the urine",
+          "Follow-up after a health check"
+        ],
+        "lexical": "JMdict 1483710 sense 1, noun: urology",
+        "register": "neutral / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1059 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Scope of the specialty; Blood in the urine; Follow-up after a health check), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "3907288f241e6e1cf1ab9d77bf38f94885a940892a099a50e7bb28a92eb7e6b2",
+        "approvalHash": "7680861023da62a2bf7b901b4dd9310001253bd66e51d22d720af994a7a92b5c"
+      }
+    },
+    {
+      "id": "vocab-n1:1060",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1060",
+      "state": "accepted",
+      "predecessorHash": "50a6329118c90341af13503792e9a16cf6384488386692a873d95f00a6398bad",
+      "originalHash": "50a6329118c90341af13503792e9a16cf6384488386692a873d95f00a6398bad",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "耳鼻咽喉科では難聴や副鼻腔炎の治療を行う。",
+            "romaji": "Jibiinkōka de wa nanchō ya fuku bikūen no chiryō o okonau.",
+            "german": "In der HNO-Heilkunde werden Schwerhörigkeit und Nebenhöhlenentzündung behandelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "耳鼻咽喉科 ist die Hals-Nasen-Ohren-Heilkunde; 耳 „Ohr“, 鼻 „Nase“, 咽喉 „Rachen und Kehle“. Im Alltag sagt man fast immer kurz 耳鼻科; die volle Form steht auf Schildern und in offiziellen Texten. Typisch: 耳鼻咽喉科を受診する, 耳鼻咽喉科に連れて行く. Besonders voll ist es dort in der Heuschnupfensaison.",
+        "examples": [
+          {
+            "japanese": "耳鼻咽喉科では難聴や副鼻腔炎の治療を行う。",
+            "romaji": "Jibiinkōka de wa nanchō ya fuku bikūen no chiryō o okonau.",
+            "german": "In der HNO-Heilkunde werden Schwerhörigkeit und Nebenhöhlenentzündung behandelt."
+          },
+          {
+            "japanese": "子どもが耳を痛がるので、耳鼻咽喉科に連れて行った。",
+            "romaji": "Kodomo ga mimi o itagaru node, jibiinkōka ni tsurete itta.",
+            "german": "Unser Kind klagte über Ohrenschmerzen, deshalb brachten wir es zum HNO-Arzt."
+          },
+          {
+            "japanese": "花粉症の季節になると、耳鼻咽喉科はいつも混んでいる。",
+            "romaji": "Kafunshō no kisetsu ni naru to, jibiinkōka wa itsumo konde iru.",
+            "german": "In der Heuschnupfensaison sind die HNO-Praxen immer überfüllt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1317290 sense 1, noun: otorhinolaryngology, ENT department Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 耳鼻咽喉科 ist die Hals-Nasen-Ohren-Heilkunde; 耳 „Ohr“, 鼻 „Nase“, 咽喉 „Rachen und Kehle“. Im Alltag sagt man fast immer kurz 耳鼻科; die volle Form steht auf Schildern und in offiziellen Texten. Typisch: 耳鼻咽喉科を受診する, 耳鼻咽喉科に連れて行く. Besonders voll ist es dort in der Heuschnupfensaison. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1317290; spelling=耳鼻咽喉科; reading=じびいんこうか",
+          "selected": {
+            "sequence": "1317290",
+            "spelling": "耳鼻咽喉科",
+            "reading": "じびいんこうか",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "otorhinolaryngology",
+                  "otolaryngology",
+                  "ear, nose and throat department"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1317290 sense 1, noun: otorhinolaryngology, ENT department"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 耳鼻咽喉科/じびいんこうか scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%80%B3%E9%BC%BB%E5%92%BD%E5%96%89%E7%A7%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 耳鼻咽喉科/じびいんこうか scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hals-Nasen-Ohren-Heilkunde. JMdict 1317290 sense 1, noun: otorhinolaryngology, ENT department",
+        "japanese": "耳鼻咽喉科では難聴や副鼻腔炎の治療を行う。 / 子どもが耳を痛がるので、耳鼻咽喉科に連れて行った。 / 花粉症の季節になると、耳鼻咽喉科はいつも混んでいる。",
+        "romanization": "jibiinkōka; Jibiinkōka de wa nanchō ya fuku bikūen no chiryō o okonau. / Kodomo ga mimi o itagaru node, jibiinkōka ni tsurete itta. / Kafunshō no kisetsu ni naru to, jibiinkōka wa itsumo konde iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der HNO-Heilkunde werden Schwerhörigkeit und Nebenhöhlenentzündung behandelt. / Unser Kind klagte über Ohrenschmerzen, deshalb brachten wir es zum HNO-Arzt. / In der Heuschnupfensaison sind die HNO-Praxen immer überfüllt.",
+        "contexts": [
+          "Conditions treated",
+          "Child with an earache",
+          "Hay fever season"
+        ],
+        "lexical": "JMdict 1317290 sense 1, noun: otorhinolaryngology, ENT department",
+        "register": "neutral; formal full name (colloquially 耳鼻科)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1060 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Conditions treated; Child with an earache; Hay fever season), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6393482c93c43f276917d10c4e901a01e509f646a2d76f120d0a1ff47ca74b88",
+        "approvalHash": "36e262fa4207382b1007ea87d387153c10631bee248b3692392405be4d062623"
+      }
+    },
+    {
+      "id": "vocab-n1:1061",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1061",
+      "state": "accepted",
+      "predecessorHash": "485c37797ab760a86854b26be5a4363a66945c8d27370a0cb41140397f45f134",
+      "originalHash": "485c37797ab760a86854b26be5a4363a66945c8d27370a0cb41140397f45f134",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "脳卒中後のリハビリテーションは機能回復に不可欠である。",
+            "romaji": "Nōsotchū go no rihabiritēshon wa kinō kaifuku ni fukaketsu de aru.",
+            "german": "Rehabilitation nach einem Schlaganfall ist für die funktionelle Erholung unerlässlich."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "リハビリテーション ist die Rehabilitation nach Krankheit oder Verletzung; im Alltag sagt man fast immer kurz リハビリ (リハビリをする／受ける, リハビリに通う). Die Langform steht in Fachtexten, Klinik- und Abteilungsnamen. Übertragen spricht man auch bei Sportlern nach einer Verletzung oder nach langer Pause von リハビリ.",
+        "examples": [
+          {
+            "japanese": "脳卒中後のリハビリテーションは機能回復に不可欠である。",
+            "romaji": "Nōsotchū go no rihabiritēshon wa kinō kaifuku ni fukaketsu de aru.",
+            "german": "Rehabilitation nach einem Schlaganfall ist für die funktionelle Erholung unerlässlich."
+          },
+          {
+            "japanese": "膝の手術の後、三か月間リハビリテーションを続けた。",
+            "romaji": "Hiza no shujutsu no ato, sankagetsukan rihabiritēshon o tsuzuketa.",
+            "german": "Nach der Knie-OP habe ich drei Monate lang Reha gemacht."
+          },
+          {
+            "japanese": "退院後も、週二回リハビリテーションに通っている。",
+            "romaji": "Taiingo mo, shū nikai rihabiritēshon ni kayotte iru.",
+            "german": "Auch nach der Entlassung gehe ich zweimal pro Woche zur Reha."
+          }
+        ],
+        "pitch": 5,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278461013",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole リハビリテーション/リハビリテーション; lemma リハビリテーション-rehabilitation; 名詞/普通名詞/一般/*; *; *; aType 5.",
+            "match": {
+              "word": "リハビリテーション",
+              "reading": "りはびりてーしょん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen リハビリテーション/りはびりてーしょん \"Rehabilitation\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1142250, noun: rehabilitation (short form リハビリ = 1142240) Pitch: Verified [5] via exact UniDic row; stored primary 0 corrected to 5. リハビリテーション ist die Rehabilitation nach Krankheit oder Verletzung; im Alltag sagt man fast immer kurz リハビリ (リハビリをする／受ける, リハビリに通う). Die Langform steht in Fachtexten, Klinik- und Abteilungsnamen. Übertragen spricht man auch bei Sportlern nach einer Verletzung oder nach langer Pause von リハビリ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1142250; spelling=リハビリテーション; reading=りはびりてーしょん",
+          "finding": "JMdict 1142250, noun: rehabilitation (short form リハビリ = 1142240)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [5] via exact UniDic row; stored primary 0 corrected to 5. Exact whole リハビリテーション/リハビリテーション; lemma リハビリテーション-rehabilitation; 名詞/普通名詞/一般/*; *; *; aType 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278461013",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole リハビリテーション/リハビリテーション; lemma リハビリテーション-rehabilitation; 名詞/普通名詞/一般/*; *; *; aType 5.",
+            "match": {
+              "word": "リハビリテーション",
+              "reading": "りはびりてーしょん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen リハビリテーション/りはびりてーしょん \"Rehabilitation\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rehabilitation. JMdict 1142250, noun: rehabilitation (short form リハビリ = 1142240)",
+        "japanese": "脳卒中後のリハビリテーションは機能回復に不可欠である。 / 膝の手術の後、三か月間リハビリテーションを続けた。 / 退院後も、週二回リハビリテーションに通っている。",
+        "romanization": "rihabiritēshon; Nōsotchū go no rihabiritēshon wa kinō kaifuku ni fukaketsu de aru. / Hiza no shujutsu no ato, sankagetsukan rihabiritēshon o tsuzuketa. / Taiingo mo, shū nikai rihabiritēshon ni kayotte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Rehabilitation nach einem Schlaganfall ist für die funktionelle Erholung unerlässlich. / Nach der Knie-OP habe ich drei Monate lang Reha gemacht. / Auch nach der Entlassung gehe ich zweimal pro Woche zur Reha.",
+        "contexts": [
+          "Stroke recovery",
+          "After knee surgery",
+          "Outpatient rehab"
+        ],
+        "lexical": "JMdict 1142250, noun: rehabilitation (short form リハビリ = 1142240)",
+        "register": "neutral; full form formal, リハビリ colloquial",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1061 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Stroke recovery; After knee surgery; Outpatient rehab), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "2e227a7fbc3075edbdc5750a89aef69c97aa1e03177f6c56454b65fd4154e89c",
+        "approvalHash": "eb61b9c8eec63fec5f6a804fe25c1e359362ef8b31ee554b1ee82cbdcac1e2e7"
+      }
+    },
+    {
+      "id": "vocab-n1:1062",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1062",
+      "state": "accepted",
+      "predecessorHash": "15761076e848edcde48ea9bcbb4834a0706f9ecaa6f901da8d42fe8f646afa2f",
+      "originalHash": "15761076e848edcde48ea9bcbb4834a0706f9ecaa6f901da8d42fe8f646afa2f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "理学療法は運動機能の回復を促進する治療法である。",
+            "romaji": "Rigaku ryōhō wa undō kinō no kaifuku o sokushin suru chiryōhō de aru.",
+            "german": "Physiotherapie ist eine Behandlungsmethode, die die Wiederherstellung der Bewegungsfunktionen fördert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "理学療法 ist die Physiotherapie: Bewegungsübungen, Massage, Wärme- oder Elektrobehandlung zur Wiederherstellung der Beweglichkeit. Die Fachkraft heißt 理学療法士 (PT). Abzugrenzen ist 作業療法 („Ergotherapie“), das alltägliche Tätigkeiten trainiert. Im Alltag sagt man meist einfach リハビリ.",
+        "examples": [
+          {
+            "japanese": "理学療法は運動機能の回復を促進する治療法である。",
+            "romaji": "Rigaku ryōhō wa undō kinō no kaifuku o sokushin suru chiryōhō de aru.",
+            "german": "Physiotherapie ist eine Behandlungsmethode, die die Wiederherstellung der Bewegungsfunktionen fördert."
+          },
+          {
+            "japanese": "理学療法士の指導のもとで、歩く訓練を毎日行っている。",
+            "romaji": "Rigaku ryōhōshi no shidō no moto de, aruku kunren o mainichi okonatte iru.",
+            "german": "Unter Anleitung eines Physiotherapeuten trainiere ich täglich das Gehen."
+          },
+          {
+            "japanese": "肩の痛みが続くので、理学療法を受けることになった。",
+            "romaji": "Kata no itami ga tsuzuku node, rigaku ryōhō o ukeru koto ni natta.",
+            "german": "Da meine Schulterschmerzen anhalten, bekomme ich jetzt Physiotherapie."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2429230 sense 1, noun: physiotherapy, physical therapy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 理学療法 ist die Physiotherapie: Bewegungsübungen, Massage, Wärme- oder Elektrobehandlung zur Wiederherstellung der Beweglichkeit. Die Fachkraft heißt 理学療法士 (PT). Abzugrenzen ist 作業療法 („Ergotherapie“), das alltägliche Tätigkeiten trainiert. Im Alltag sagt man meist einfach リハビリ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2429230; spelling=理学療法; reading=りがくりょうほう",
+          "selected": {
+            "sequence": "2429230",
+            "spelling": "理学療法",
+            "reading": "りがくりょうほう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "physiotherapy",
+                  "physical therapy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2429230 sense 1, noun: physiotherapy, physical therapy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 理学療法/りがくりょうほう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%90%86%E5%AD%A6%E7%99%82%E6%B3%95",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 理学療法/りがくりょうほう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Physiotherapie. JMdict 2429230 sense 1, noun: physiotherapy, physical therapy",
+        "japanese": "理学療法は運動機能の回復を促進する治療法である。 / 理学療法士の指導のもとで、歩く訓練を毎日行っている。 / 肩の痛みが続くので、理学療法を受けることになった。",
+        "romanization": "rigaku ryōhō; Rigaku ryōhō wa undō kinō no kaifuku o sokushin suru chiryōhō de aru. / Rigaku ryōhōshi no shidō no moto de, aruku kunren o mainichi okonatte iru. / Kata no itami ga tsuzuku node, rigaku ryōhō o ukeru koto ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Physiotherapie ist eine Behandlungsmethode, die die Wiederherstellung der Bewegungsfunktionen fördert. / Unter Anleitung eines Physiotherapeuten trainiere ich täglich das Gehen. / Da meine Schulterschmerzen anhalten, bekomme ich jetzt Physiotherapie.",
+        "contexts": [
+          "Definition",
+          "Walking training with a therapist",
+          "Prescribed for shoulder pain"
+        ],
+        "lexical": "JMdict 2429230 sense 1, noun: physiotherapy, physical therapy",
+        "register": "technical / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1062 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Definition; Walking training with a therapist; Prescribed for shoulder pain), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "c638593a60c7db13dcb8be8be7c880b31f6467dbf54d2b9d64ca904fe8a4033e",
+        "approvalHash": "6d50c928d40d8f0361a4b109bb62823a51fec98f2a9f0c17bf5be98e66291cad"
+      }
+    },
+    {
+      "id": "vocab-n1:1063",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1063",
+      "state": "accepted",
+      "predecessorHash": "11d58fe04430fb5becdc9f96a128a4aee1a5b077ac5c53e2b546c1c9c9a376a1",
+      "originalHash": "11d58fe04430fb5becdc9f96a128a4aee1a5b077ac5c53e2b546c1c9c9a376a1",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "作業療法は日常生活動作の自立を支援する。",
+            "romaji": "Sagyō ryōhō wa nichijō seikatsu dōsa no jiritsu o shien suru.",
+            "german": "Ergotherapie unterstützt die Selbstständigkeit bei alltäglichen Aktivitäten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "作業療法 ist die Ergotherapie; 作業 heißt hier „Tätigkeit“, also Kochen, Anziehen, Basteln oder Schreiben als Übung für den Alltag. Die Fachkraft heißt 作業療法士 (OT). Im Unterschied zu 理学療法, das Grundbewegungen wie Gehen trainiert, zielt 作業療法 auf Selbstständigkeit im Alltag und wird auch in der Psychiatrie eingesetzt.",
+        "examples": [
+          {
+            "japanese": "作業療法は日常生活動作の自立を支援する。",
+            "romaji": "Sagyō ryōhō wa nichijō seikatsu dōsa no jiritsu o shien suru.",
+            "german": "Ergotherapie unterstützt die Selbstständigkeit bei alltäglichen Aktivitäten."
+          },
+          {
+            "japanese": "作業療法では、料理や着替えなど日常の動作を練習する。",
+            "romaji": "Sagyō ryōhō de wa, ryōri ya kigae nado nichijō no dōsa o renshū suru.",
+            "german": "In der Ergotherapie übt man alltägliche Handlungen wie Kochen oder Anziehen."
+          },
+          {
+            "japanese": "母は作業療法士として、精神科の病院で働いている。",
+            "romaji": "Haha wa sagyō ryōhōshi to shite, seishinka no byōin de hataraite iru.",
+            "german": "Meine Mutter arbeitet als Ergotherapeutin in einer psychiatrischen Klinik."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1297630 sense 1, noun: occupational therapy Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 作業療法 ist die Ergotherapie; 作業 heißt hier „Tätigkeit“, also Kochen, Anziehen, Basteln oder Schreiben als Übung für den Alltag. Die Fachkraft heißt 作業療法士 (OT). Im Unterschied zu 理学療法, das Grundbewegungen wie Gehen trainiert, zielt 作業療法 auf Selbstständigkeit im Alltag und wird auch in der Psychiatrie eingesetzt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1297630; spelling=作業療法; reading=さぎょうりょうほう",
+          "selected": {
+            "sequence": "1297630",
+            "spelling": "作業療法",
+            "reading": "さぎょうりょうほう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "occupational therapy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1297630 sense 1, noun: occupational therapy"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 作業療法/さぎょうりょうほう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%BD%9C%E6%A5%AD%E7%99%82%E6%B3%95",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 作業療法/さぎょうりょうほう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ergotherapie. JMdict 1297630 sense 1, noun: occupational therapy",
+        "japanese": "作業療法は日常生活動作の自立を支援する。 / 作業療法では、料理や着替えなど日常の動作を練習する。 / 母は作業療法士として、精神科の病院で働いている。",
+        "romanization": "sagyō ryōhō; Sagyō ryōhō wa nichijō seikatsu dōsa no jiritsu o shien suru. / Sagyō ryōhō de wa, ryōri ya kigae nado nichijō no dōsa o renshū suru. / Haha wa sagyō ryōhōshi to shite, seishinka no byōin de hataraite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ergotherapie unterstützt die Selbstständigkeit bei alltäglichen Aktivitäten. / In der Ergotherapie übt man alltägliche Handlungen wie Kochen oder Anziehen. / Meine Mutter arbeitet als Ergotherapeutin in einer psychiatrischen Klinik.",
+        "contexts": [
+          "Goal of the therapy",
+          "What patients practise",
+          "Mother's profession"
+        ],
+        "lexical": "JMdict 1297630 sense 1, noun: occupational therapy",
+        "register": "technical / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1063 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Goal of the therapy; What patients practise; Mother's profession), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b82c8d54d166bf12eccb02b9d24dc20e5178d5560d79be91154dada296418dd0",
+        "approvalHash": "103d4a3fe5310d9770b5d1baffd2b36624d33cfb4c398e0b28e8f6c5307f0747"
+      }
+    },
+    {
+      "id": "vocab-n1:1065",
+      "revisionId": "209h-n1-enrichment-vocab-n1-1065",
+      "state": "accepted",
+      "predecessorHash": "d52ebc16bcf31ec12fa9cd3be944f83e80a2b7698a5fe19b7cba924f2e81a069",
+      "originalHash": "d52ebc16bcf31ec12fa9cd3be944f83e80a2b7698a5fe19b7cba924f2e81a069",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "血小板は出血時に血液凝固を促進する重要な役割を持つ。",
+            "romaji": "Kesshōban wa shukketsu ji ni ketsueki gyōko o sokushin suru jūyō na yakuwari o motsu.",
+            "german": "Blutplättchen spielen eine wichtige Rolle bei der Förderung der Blutgerinnung bei Blutungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "血小板 sind die Blutplättchen (Thrombozyten), die bei Verletzungen die Blutgerinnung einleiten. Typisch sind 血小板が減る／少ない, 血小板の数 und 血小板減少症. Bei der Blutspende kann man gezielt Thrombozyten spenden (血小板の成分献血). Wörtlich: „kleine Platten im Blut“.",
+        "examples": [
+          {
+            "japanese": "血小板は出血時に血液凝固を促進する重要な役割を持つ。",
+            "romaji": "Kesshōban wa shukketsu ji ni ketsueki gyōko o sokushin suru jūyō na yakuwari o motsu.",
+            "german": "Blutplättchen spielen eine wichtige Rolle bei der Förderung der Blutgerinnung bei Blutungen."
+          },
+          {
+            "japanese": "抗がん剤の影響で血小板が減り、あざができやすくなった。",
+            "romaji": "Kōganzai no eikyō de kesshōban ga heri, aza ga dekiyasuku natta.",
+            "german": "Durch die Chemotherapie sank die Zahl meiner Blutplättchen, und ich bekomme leichter blaue Flecken."
+          },
+          {
+            "japanese": "今日は献血ルームで血小板の成分献血をした。",
+            "romaji": "Kyō wa kenketsu rūmu de kesshōban no seibun kenketsu o shita.",
+            "german": "Heute habe ich im Blutspendezentrum Thrombozyten gespendet."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1255270 sense 1, noun: platelet, thrombocyte Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 血小板 sind die Blutplättchen (Thrombozyten), die bei Verletzungen die Blutgerinnung einleiten. Typisch sind 血小板が減る／少ない, 血小板の数 und 血小板減少症. Bei der Blutspende kann man gezielt Thrombozyten spenden (血小板の成分献血). Wörtlich: „kleine Platten im Blut“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1255270; spelling=血小板; reading=けっしょうばん",
+          "selected": {
+            "sequence": "1255270",
+            "spelling": "血小板",
+            "reading": "けっしょうばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "platelet",
+                  "thrombocyte"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1255270 sense 1, noun: platelet, thrombocyte"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 血小板/けっしょうばん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A1%80%E5%B0%8F%E6%9D%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 血小板/けっしょうばん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Thrombozyten; Blutplättchen. JMdict 1255270 sense 1, noun: platelet, thrombocyte",
+        "japanese": "血小板は出血時に血液凝固を促進する重要な役割を持つ。 / 抗がん剤の影響で血小板が減り、あざができやすくなった。 / 今日は献血ルームで血小板の成分献血をした。",
+        "romanization": "kesshōban; Kesshōban wa shukketsu ji ni ketsueki gyōko o sokushin suru jūyō na yakuwari o motsu. / Kōganzai no eikyō de kesshōban ga heri, aza ga dekiyasuku natta. / Kyō wa kenketsu rūmu de kesshōban no seibun kenketsu o shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Blutplättchen spielen eine wichtige Rolle bei der Förderung der Blutgerinnung bei Blutungen. / Durch die Chemotherapie sank die Zahl meiner Blutplättchen, und ich bekomme leichter blaue Flecken. / Heute habe ich im Blutspendezentrum Thrombozyten gespendet.",
+        "contexts": [
+          "Role in blood clotting",
+          "Side effect of chemotherapy",
+          "Donating platelets"
+        ],
+        "lexical": "JMdict 1255270 sense 1, noun: platelet, thrombocyte",
+        "register": "technical / medical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1065 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Role in blood clotting; Side effect of chemotherapy; Donating platelets), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "fe10a53b36ffce39faa0874e8a9fac25589daaa21c43b8d8c526a516baaaea88",
+        "approvalHash": "7774d4e89c098bae53ff44c397708079255e5c5a4fc4200a451149ba95a5ceef"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

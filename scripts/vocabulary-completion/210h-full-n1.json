@@ -1,0 +1,3705 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:1300",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1300",
+      "state": "accepted",
+      "predecessorHash": "0a68f3acc41d6083a1590e59be16f8a5b41977572e59abd3b8145082f0392b79",
+      "originalHash": "0a68f3acc41d6083a1590e59be16f8a5b41977572e59abd3b8145082f0392b79",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "古書に旧所有者の蔵書印が押されていた。",
+            "romaji": "Kosho ni kyū-shoyūsha no zōsho-in ga osarete ita.",
+            "german": "Auf dem antiquarischen Buch war der Besitzerstempel des früheren Eigentümers."
+          }
+        ],
+        "meaning": "Exlibris; Besitzerstempel",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "蔵書印 ist ein Stempel, mit dem ein Besitzer oder eine Bibliothek Bücher als Eigentum kennzeichnet; man drückt ihn mit 押す: 蔵書印を押す. Ein eingeklebtes Exlibris-Blatt heißt dagegen 蔵書票. In der Buchforschung sind 蔵書印 wichtig, weil sie zeigen, durch wessen Hände ein altes Buch gegangen ist. Das Wort gehört zur Fachsprache von Bibliotheken und Antiquariaten.",
+        "examples": [
+          {
+            "japanese": "古書に旧所有者の蔵書印が押されていた。",
+            "romaji": "Kosho ni kyū-shoyūsha no zōsho-in ga osarete ita.",
+            "german": "In dem antiquarischen Buch fand sich der Besitzerstempel des früheren Eigentümers."
+          },
+          {
+            "japanese": "図書館の本には、どれも蔵書印が押してある。",
+            "romaji": "Toshokan no hon ni wa, dore mo zōsho-in ga oshite aru.",
+            "german": "Alle Bücher der Bibliothek tragen einen Bibliotheksstempel."
+          },
+          {
+            "japanese": "祖父は自分で彫った蔵書印を愛用していた。",
+            "romaji": "Sofu wa jibun de hotta zōsho-in o aiyō shite ita.",
+            "german": "Mein Großvater benutzte gern einen selbst geschnitzten Besitzerstempel für seine Bücher."
+          }
+        ],
+        "meaning": "Besitzerstempel; Exlibris-Stempel",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2028730 sense 1, noun: ownership stamp, ownership mark (in books) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 蔵書印 ist ein Stempel, mit dem ein Besitzer oder eine Bibliothek Bücher als Eigentum kennzeichnet; man drückt ihn mit 押す: 蔵書印を押す. Ein eingeklebtes Exlibris-Blatt heißt dagegen 蔵書票. In der Buchforschung sind 蔵書印 wichtig, weil sie zeigen, durch wessen Hände ein altes Buch gegangen ist. Das Wort gehört zur Fachsprache von Bibliotheken und Antiquariaten. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2028730; spelling=蔵書印; reading=ぞうしょいん",
+          "selected": {
+            "sequence": "2028730",
+            "spelling": "蔵書印",
+            "reading": "ぞうしょいん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ownership mark",
+                  "ownership stamp",
+                  "bookplate"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2028730 sense 1, noun: ownership stamp, ownership mark (in books)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 蔵書印/ぞうしょいん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%94%B5%E6%9B%B8%E5%8D%B0",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 蔵書印/ぞうしょいん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction",
+          "pitch-correction",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Besitzerstempel; Exlibris-Stempel. JMdict 2028730 sense 1, noun: ownership stamp, ownership mark (in books)",
+        "japanese": "古書に旧所有者の蔵書印が押されていた。 / 図書館の本には、どれも蔵書印が押してある。 / 祖父は自分で彫った蔵書印を愛用していた。",
+        "romanization": "zōsho-in; Kosho ni kyū-shoyūsha no zōsho-in ga osarete ita. / Toshokan no hon ni wa, dore mo zōsho-in ga oshite aru. / Sofu wa jibun de hotta zōsho-in o aiyō shite ita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In dem antiquarischen Buch fand sich der Besitzerstempel des früheren Eigentümers. / Alle Bücher der Bibliothek tragen einen Bibliotheksstempel. / Mein Großvater benutzte gern einen selbst geschnitzten Besitzerstempel für seine Bücher.",
+        "contexts": [
+          "Antiquarian book",
+          "Library property",
+          "Grandfather's hobby"
+        ],
+        "lexical": "JMdict 2028730 sense 1, noun: ownership stamp, ownership mark (in books)",
+        "register": "technical (libraries, antiquarian books)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1300 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Antiquarian book; Library property; Grandfather's hobby), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "69333b17f97c703750c7d1fe66eeb7a5ed04f1deab93ff9ccf3b8b34440401be",
+        "approvalHash": "dc657ecb4a694ae7f381a41a43f79180f81f09a33b2702ebf8ab2233f46ead6a"
+      }
+    },
+    {
+      "id": "vocab-n1:1301",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1301",
+      "state": "accepted",
+      "predecessorHash": "6992eba71f06ced4d0eab9c99ebfa51dc62b612908a94ee40fcb0c6a31f478ed",
+      "originalHash": "6992eba71f06ced4d0eab9c99ebfa51dc62b612908a94ee40fcb0c6a31f478ed",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "文庫本は手頃な価格で名作が読める。",
+            "romaji": "Bunko-bon wa tegoro na kakaku de meisaku ga yomeru.",
+            "german": "In Taschenbuchausgaben kann man Meisterwerke zu erschwinglichen Preisen lesen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文庫 hat zwei Hauptbedeutungen: eine Büchersammlung oder Bibliothek (学級文庫 „Klassenbücherei“, auch in Namen wie 東洋文庫) und, als Kurzform von 文庫本, das kleine japanische Taschenbuch im A6-Format. Verlagsreihen heißen ebenfalls so, etwa 岩波文庫. 文庫化 bedeutet, dass ein zuerst gebunden erschienenes Buch (単行本) als Taschenbuch herauskommt. 新書 ist ein anderes, etwas höheres Format, meist für Sachbücher.",
+        "examples": [
+          {
+            "japanese": "文庫本は手頃な価格で名作が読める。",
+            "romaji": "Bunko-bon wa tegoro na kakaku de meisaku ga yomeru.",
+            "german": "In Taschenbuchausgaben kann man Meisterwerke zu erschwinglichen Preisen lesen."
+          },
+          {
+            "japanese": "教室の後ろに学級文庫がある。",
+            "romaji": "Kyōshitsu no ushiro ni gakkyū bunko ga aru.",
+            "german": "Hinten im Klassenzimmer gibt es eine kleine Klassenbücherei."
+          },
+          {
+            "japanese": "あの小説は来月文庫化されるそうだ。",
+            "romaji": "Ano shōsetsu wa raigetsu bunko-ka sareru sō da.",
+            "german": "Der Roman soll nächsten Monat als Taschenbuch erscheinen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240067894",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 文庫/ブンコ; lemma 文庫; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "文庫",
+              "reading": "ぶんこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文庫/ぶんこ \"Taschenbuch; Bibliothek\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1505340 senses 1–2, noun: library, book collection; paperback (abbr. of 文庫本) Pitch: Verified [0,1] via exact UniDic row. 文庫 hat zwei Hauptbedeutungen: eine Büchersammlung oder Bibliothek (学級文庫 „Klassenbücherei“, auch in Namen wie 東洋文庫) und, als Kurzform von 文庫本, das kleine japanische Taschenbuch im A6-Format. Verlagsreihen heißen ebenfalls so, etwa 岩波文庫. 文庫化 bedeutet, dass ein zuerst gebunden erschienenes Buch (単行本) als Taschenbuch herauskommt. 新書 ist ein anderes, etwas höheres Format, meist für Sachbücher. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505340; spelling=文庫; reading=ぶんこ",
+          "selected": {
+            "sequence": "1505340",
+            "spelling": "文庫",
+            "reading": "ぶんこ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "library",
+                  "book collection"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "abbreviation"
+                ],
+                "gloss": [
+                  "paperback book"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505340 senses 1–2, noun: library, book collection; paperback (abbr. of 文庫本)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 文庫/ブンコ; lemma 文庫; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240067894",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 文庫/ブンコ; lemma 文庫; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "文庫",
+              "reading": "ぶんこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文庫/ぶんこ \"Taschenbuch; Bibliothek\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Taschenbuch; Bibliothek. JMdict 1505340 senses 1–2, noun: library, book collection; paperback (abbr. of 文庫本)",
+        "japanese": "文庫本は手頃な価格で名作が読める。 / 教室の後ろに学級文庫がある。 / あの小説は来月文庫化されるそうだ。",
+        "romanization": "bunko; Bunko-bon wa tegoro na kakaku de meisaku ga yomeru. / Kyōshitsu no ushiro ni gakkyū bunko ga aru. / Ano shōsetsu wa raigetsu bunko-ka sareru sō da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In Taschenbuchausgaben kann man Meisterwerke zu erschwinglichen Preisen lesen. / Hinten im Klassenzimmer gibt es eine kleine Klassenbücherei. / Der Roman soll nächsten Monat als Taschenbuch erscheinen.",
+        "contexts": [
+          "Affordable classics",
+          "Classroom library",
+          "Paperback release"
+        ],
+        "lexical": "JMdict 1505340 senses 1–2, noun: library, book collection; paperback (abbr. of 文庫本)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1301 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Affordable classics; Classroom library; Paperback release), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "391cd838358b195645dbbfd74937c33dbb4c9b059234d259d83df2fe609bfee6",
+        "approvalHash": "0ea22b19885f90c37d24e9dc00ca005592a083639ec47a72a8693f99e27bec2d"
+      }
+    },
+    {
+      "id": "vocab-n1:1302",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1302",
+      "state": "accepted",
+      "predecessorHash": "9a2aa719a84bc16c362549a8ec26c34ab5805b70575468930d11c6970b1e5140",
+      "originalHash": "9a2aa719a84bc16c362549a8ec26c34ab5805b70575468930d11c6970b1e5140",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "夏目漱石の全集が新装版で発売された。",
+            "romaji": "Natsume Sōseki no zenshū ga shinso-ban de hatsubai sareta.",
+            "german": "Die Gesamtausgabe von Natsume Sōseki erschien in einer neuen Ausgabe."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "全集 ist die Gesamtausgabe aller Werke eines Autors (漱石全集) oder eine umfassende Reihe zu einem Gebiet (世界文学全集, 美術全集); es steht oft als Suffix direkt hinter dem Namen. Im Unterschied dazu enthält 選集 nur eine Auswahl, 著作集 die gesammelten Schriften ohne Anspruch auf Vollständigkeit. Auch in der Musik spricht man z. B. von 交響曲全集 „sämtliche Sinfonien“.",
+        "examples": [
+          {
+            "japanese": "夏目漱石の全集が新装版で発売された。",
+            "romaji": "Natsume Sōseki no zenshū ga shinsō-ban de hatsubai sareta.",
+            "german": "Die Gesamtausgabe von Natsume Sōseki ist in neuer Aufmachung erschienen."
+          },
+          {
+            "japanese": "大学の図書館で宮沢賢治全集を借りた。",
+            "romaji": "Daigaku no toshokan de Miyazawa Kenji zenshū o karita.",
+            "german": "Ich habe mir in der Universitätsbibliothek die Gesamtausgabe von Miyazawa Kenji ausgeliehen."
+          },
+          {
+            "japanese": "このCDは、ベートーヴェンの交響曲全集だ。",
+            "romaji": "Kono shīdī wa, Bētōven no kōkyōkyoku zenshū da.",
+            "german": "Diese CD-Box enthält sämtliche Sinfonien Beethovens."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154870054",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 全集/ゼンシュウ; lemma 全集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "全集",
+              "reading": "ぜんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 全集/ぜんしゅう \"Gesamtausgabe; Gesammelte Werke\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1395340 sense 1, noun / suffix: complete works, complete collection, complete series Pitch: Verified [0] via exact UniDic row. 全集 ist die Gesamtausgabe aller Werke eines Autors (漱石全集) oder eine umfassende Reihe zu einem Gebiet (世界文学全集, 美術全集); es steht oft als Suffix direkt hinter dem Namen. Im Unterschied dazu enthält 選集 nur eine Auswahl, 著作集 die gesammelten Schriften ohne Anspruch auf Vollständigkeit. Auch in der Musik spricht man z. B. von 交響曲全集 „sämtliche Sinfonien“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1395340; spelling=全集; reading=ぜんしゅう",
+          "selected": {
+            "sequence": "1395340",
+            "spelling": "全集",
+            "reading": "ぜんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "complete works",
+                  "complete collection",
+                  "complete series"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1395340 sense 1, noun / suffix: complete works, complete collection, complete series"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 全集/ゼンシュウ; lemma 全集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154870054",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 全集/ゼンシュウ; lemma 全集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "全集",
+              "reading": "ぜんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 全集/ぜんしゅう \"Gesamtausgabe; Gesammelte Werke\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gesamtausgabe; Gesammelte Werke. JMdict 1395340 sense 1, noun / suffix: complete works, complete collection, complete series",
+        "japanese": "夏目漱石の全集が新装版で発売された。 / 大学の図書館で宮沢賢治全集を借りた。 / このCDは、ベートーヴェンの交響曲全集だ。",
+        "romanization": "zenshū; Natsume Sōseki no zenshū ga shinsō-ban de hatsubai sareta. / Daigaku no toshokan de Miyazawa Kenji zenshū o karita. / Kono shīdī wa, Bētōven no kōkyōkyoku zenshū da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Gesamtausgabe von Natsume Sōseki ist in neuer Aufmachung erschienen. / Ich habe mir in der Universitätsbibliothek die Gesamtausgabe von Miyazawa Kenji ausgeliehen. / Diese CD-Box enthält sämtliche Sinfonien Beethovens.",
+        "contexts": [
+          "New edition release",
+          "Borrowing from the library",
+          "Complete symphonies"
+        ],
+        "lexical": "JMdict 1395340 sense 1, noun / suffix: complete works, complete collection, complete series",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1302 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (New edition release; Borrowing from the library; Complete symphonies), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "9e39bc1db15250816858f44fc9d69e1038b70ef31b455874a2a778087d159449",
+        "approvalHash": "8ce803d4afbfe4ea7b3885a00e68aa612670cad1be15de9797a293dc6df1ba05"
+      }
+    },
+    {
+      "id": "vocab-n1:1303",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1303",
+      "state": "accepted",
+      "predecessorHash": "418aeaf4a20a51905e532c849dc443a564b0e337ac5a9fa91136fbc93d5152ca",
+      "originalHash": "418aeaf4a20a51905e532c849dc443a564b0e337ac5a9fa91136fbc93d5152ca",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "現代詩の選集に彼女の作品も収録された。",
+            "romaji": "Gendai-shi no senshū ni kanojo no sakuhin mo shūroku sareta.",
+            "german": "In der Anthologie moderner Lyrik wurde auch ihr Werk aufgenommen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "選集 ist eine Auswahlausgabe: ausgewählte Werke eines Autors (〜選集) oder eine Anthologie zu einem Thema. Gegenstück ist 全集 „Gesamtausgabe“; Sammlungen mehrerer Autoren heißen heute oft auch アンソロジー. Typisch: 選集を編む „eine Auswahl herausgeben“, 選集に収録される. Achtung: 選集 klingt genau wie 先週 „letzte Woche“; in klassischen Texten begegnet auch die Schreibung 撰集.",
+        "examples": [
+          {
+            "japanese": "現代詩の選集に彼女の作品も収録された。",
+            "romaji": "Gendai-shi no senshū ni kanojo no sakuhin mo shūroku sareta.",
+            "german": "In der Anthologie moderner Lyrik wurde auch ihr Werk aufgenommen."
+          },
+          {
+            "japanese": "全集は高すぎるので、まず選集から読み始めた。",
+            "romaji": "Zenshū wa takasugiru node, mazu senshū kara yomihajimeta.",
+            "german": "Die Gesamtausgabe war zu teuer, also habe ich erst einmal mit einer Auswahlausgabe angefangen."
+          },
+          {
+            "japanese": "没後五十年を記念して、詩人の選集が編まれた。",
+            "romaji": "Botsugo gojūnen o kinen shite, shijin no senshū ga amareta.",
+            "german": "Zum 50. Todestag des Dichters wurde eine Auswahl seiner Werke herausgegeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154378671",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 選集/センシュウ; lemma 撰集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "選集",
+              "reading": "せんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 選集/せんしゅう \"Anthologie; Auswahlband\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1392270 sense 1, noun: selection, anthology, selected works Pitch: Verified [0] via exact UniDic row. 選集 ist eine Auswahlausgabe: ausgewählte Werke eines Autors (〜選集) oder eine Anthologie zu einem Thema. Gegenstück ist 全集 „Gesamtausgabe“; Sammlungen mehrerer Autoren heißen heute oft auch アンソロジー. Typisch: 選集を編む „eine Auswahl herausgeben“, 選集に収録される. Achtung: 選集 klingt genau wie 先週 „letzte Woche“; in klassischen Texten begegnet auch die Schreibung 撰集. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1392270; spelling=選集; reading=せんしゅう",
+          "selected": {
+            "sequence": "1392270",
+            "spelling": "選集",
+            "reading": "せんしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "selection (e.g. of poems, texts)",
+                  "anthology",
+                  "selected extracts"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1392270 sense 1, noun: selection, anthology, selected works"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 選集/センシュウ; lemma 撰集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154378671",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 選集/センシュウ; lemma 撰集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "選集",
+              "reading": "せんしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 選集/せんしゅう \"Anthologie; Auswahlband\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anthologie; Auswahlband. JMdict 1392270 sense 1, noun: selection, anthology, selected works",
+        "japanese": "現代詩の選集に彼女の作品も収録された。 / 全集は高すぎるので、まず選集から読み始めた。 / 没後五十年を記念して、詩人の選集が編まれた。",
+        "romanization": "senshū; Gendai-shi no senshū ni kanojo no sakuhin mo shūroku sareta. / Zenshū wa takasugiru node, mazu senshū kara yomihajimeta. / Botsugo gojūnen o kinen shite, shijin no senshū ga amareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der Anthologie moderner Lyrik wurde auch ihr Werk aufgenommen. / Die Gesamtausgabe war zu teuer, also habe ich erst einmal mit einer Auswahlausgabe angefangen. / Zum 50. Todestag des Dichters wurde eine Auswahl seiner Werke herausgegeben.",
+        "contexts": [
+          "Poetry anthology",
+          "Budget-friendly reading",
+          "Memorial edition"
+        ],
+        "lexical": "JMdict 1392270 sense 1, noun: selection, anthology, selected works",
+        "register": "written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1303 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Poetry anthology; Budget-friendly reading; Memorial edition), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "47a269c025801452937288bab94ab42cb0ab99bd765274a4656b0542abc7c474",
+        "approvalHash": "8e6810ea86494d11d5c73afa6ca13fd02a0ef91bc1c836e4776bbfb1f412d194"
+      }
+    },
+    {
+      "id": "vocab-n1:1304",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1304",
+      "state": "accepted",
+      "predecessorHash": "b2daa033ff0ff68cacb9ae2900428232162f7863f4f18e074693b61b1aea83fe",
+      "originalHash": "b2daa033ff0ff68cacb9ae2900428232162f7863f4f18e074693b61b1aea83fe",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "古今和歌集は代表的な詞華集である。",
+            "romaji": "Kokin Wakashū wa daihyō-teki na shikashū de aru.",
+            "german": "Das Kokin Wakashū ist eine repräsentative poetische Anthologie."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "詞華集 (詞華 „schöne Worte, Blüten der Sprache“) ist ein sehr literarisches Wort für eine Gedicht- oder Textanthologie, die besonders gelungene Stücke versammelt – wie das deutsche „Blütenlese“ oder lateinisch „Florilegium“. Es kommt vor allem in Literaturgeschichte und Übersetzungstiteln vor. Im heutigen Alltag sagt man アンソロジー oder 選集; für japanische Gedichtsammlungen sind 歌集 und 句集 üblich.",
+        "examples": [
+          {
+            "japanese": "古今和歌集は代表的な詞華集である。",
+            "romaji": "Kokin Wakashū wa daihyō-teki na shikashū de aru.",
+            "german": "Das Kokin Wakashū ist eine repräsentative poetische Anthologie."
+          },
+          {
+            "japanese": "この詞華集には、百人の詩人の名作が収められている。",
+            "romaji": "Kono shikashū ni wa, hyakunin no shijin no meisaku ga osamerarete iru.",
+            "german": "Diese Anthologie versammelt Meisterwerke von hundert Dichtern."
+          },
+          {
+            "japanese": "英詩の詞華集を一冊、旅に持って行った。",
+            "romaji": "Eishi no shikashū o issatsu, tabi ni motte itta.",
+            "german": "Ich habe eine Anthologie englischer Lyrik mit auf die Reise genommen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1646620 sense 1, noun: anthology (of poems), florilegium Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 詞華集 (詞華 „schöne Worte, Blüten der Sprache“) ist ein sehr literarisches Wort für eine Gedicht- oder Textanthologie, die besonders gelungene Stücke versammelt – wie das deutsche „Blütenlese“ oder lateinisch „Florilegium“. Es kommt vor allem in Literaturgeschichte und Übersetzungstiteln vor. Im heutigen Alltag sagt man アンソロジー oder 選集; für japanische Gedichtsammlungen sind 歌集 und 句集 üblich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1646620; spelling=詞華集; reading=しかしゅう",
+          "selected": {
+            "sequence": "1646620",
+            "spelling": "詞華集",
+            "reading": "しかしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "anthology (of poems)",
+                  "florilegium"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1646620 sense 1, noun: anthology (of poems), florilegium"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 詞華集/しかしゅう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%A9%9E%E8%8F%AF%E9%9B%86",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 詞華集/しかしゅう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Blütenlese; poetische Anthologie. JMdict 1646620 sense 1, noun: anthology (of poems), florilegium",
+        "japanese": "古今和歌集は代表的な詞華集である。 / この詞華集には、百人の詩人の名作が収められている。 / 英詩の詞華集を一冊、旅に持って行った。",
+        "romanization": "shikashū; Kokin Wakashū wa daihyō-teki na shikashū de aru. / Kono shikashū ni wa, hyakunin no shijin no meisaku ga osamerarete iru. / Eishi no shikashū o issatsu, tabi ni motte itta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Kokin Wakashū ist eine repräsentative poetische Anthologie. / Diese Anthologie versammelt Meisterwerke von hundert Dichtern. / Ich habe eine Anthologie englischer Lyrik mit auf die Reise genommen.",
+        "contexts": [
+          "Classical waka anthology",
+          "Contents of a collection",
+          "Travel reading"
+        ],
+        "lexical": "JMdict 1646620 sense 1, noun: anthology (of poems), florilegium",
+        "register": "literary / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1304 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Classical waka anthology; Contents of a collection; Travel reading), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "754795e8bcbbdc667a2fae3b918e4fbd12f4fb5f89b469b2e8781b5529fa4a7b",
+        "approvalHash": "3f1db0aa7cefc76fe85e81026162a60dace11fc269ff92bdb7384f9a2656a352"
+      }
+    },
+    {
+      "id": "vocab-n1:1305",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1305",
+      "state": "accepted",
+      "predecessorHash": "d43f50d91eeebb4a1f0050f63617bc4268d4345b67947d0dd7560d8c4d821c9c",
+      "originalHash": "d43f50d91eeebb4a1f0050f63617bc4268d4345b67947d0dd7560d8c4d821c9c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "処女歌集が高い評価を受けた。",
+            "romaji": "Shojo kashū ga takai hyōka o uketa.",
+            "german": "Die erste Gedichtsammlung erhielt hohe Anerkennung."
+          }
+        ],
+        "meaning": "Gedichtsammlung",
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "歌集 ist vor allem eine Sammlung von 和歌 bzw. 短歌 (Gedichte im 5-7-5-7-7-Schema), sei es eine klassische Anthologie wie das 万葉集 oder der Band eines modernen Tanka-Dichters. Zu unterscheiden: 句集 „Haiku-Sammlung“ und 詩集 „Gedichtband“ mit freier, moderner Lyrik. Außerdem kann 歌集 ein Liederbuch mit Liedtexten und Noten bezeichnen, etwa in der Schule. 処女歌集 meint „erster eigener Tanka-Band“.",
+        "examples": [
+          {
+            "japanese": "処女歌集が高い評価を受けた。",
+            "romaji": "Shojo kashū ga takai hyōka o uketa.",
+            "german": "Die erste Gedichtsammlung erhielt hohe Anerkennung."
+          },
+          {
+            "japanese": "万葉集は日本最古の歌集だ。",
+            "romaji": "Man'yōshū wa Nihon saiko no kashū da.",
+            "german": "Das Man'yōshū ist die älteste Waka-Sammlung Japans."
+          },
+          {
+            "japanese": "音楽の授業で、歌集を見ながら合唱した。",
+            "romaji": "Ongaku no jugyō de, kashū o minagara gasshō shita.",
+            "german": "Im Musikunterricht haben wir mit Blick ins Liederbuch im Chor gesungen."
+          }
+        ],
+        "meaning": "Tanka-Sammlung, Waka-Anthologie; Liederbuch",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93293132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 歌集/カシュウ; lemma 歌集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "歌集",
+              "reading": "かしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 歌集/かしゅう \"Gedichtsammlung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1193300 senses 1–2, noun: collection of waka poems; songbook Pitch: Verified [0] via exact UniDic row. 歌集 ist vor allem eine Sammlung von 和歌 bzw. 短歌 (Gedichte im 5-7-5-7-7-Schema), sei es eine klassische Anthologie wie das 万葉集 oder der Band eines modernen Tanka-Dichters. Zu unterscheiden: 句集 „Haiku-Sammlung“ und 詩集 „Gedichtband“ mit freier, moderner Lyrik. Außerdem kann 歌集 ein Liederbuch mit Liedtexten und Noten bezeichnen, etwa in der Schule. 処女歌集 meint „erster eigener Tanka-Band“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1193300; spelling=歌集; reading=かしゅう",
+          "selected": {
+            "sequence": "1193300",
+            "spelling": "歌集",
+            "reading": "かしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "collection of waka poems",
+                  "anthology"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "songbook"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1193300 senses 1–2, noun: collection of waka poems; songbook"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 歌集/カシュウ; lemma 歌集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93293132",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 歌集/カシュウ; lemma 歌集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "歌集",
+              "reading": "かしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 歌集/かしゅう \"Gedichtsammlung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tanka-Sammlung, Waka-Anthologie; Liederbuch. JMdict 1193300 senses 1–2, noun: collection of waka poems; songbook",
+        "japanese": "処女歌集が高い評価を受けた。 / 万葉集は日本最古の歌集だ。 / 音楽の授業で、歌集を見ながら合唱した。",
+        "romanization": "kashū; Shojo kashū ga takai hyōka o uketa. / Man'yōshū wa Nihon saiko no kashū da. / Ongaku no jugyō de, kashū o minagara gasshō shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die erste Gedichtsammlung erhielt hohe Anerkennung. / Das Man'yōshū ist die älteste Waka-Sammlung Japans. / Im Musikunterricht haben wir mit Blick ins Liederbuch im Chor gesungen.",
+        "contexts": [
+          "Debut tanka collection",
+          "Literary history",
+          "Music class"
+        ],
+        "lexical": "JMdict 1193300 senses 1–2, noun: collection of waka poems; songbook",
+        "register": "neutral to written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1305 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Debut tanka collection; Literary history; Music class), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "53e27022267a07ad725554863d7bef29fecd0c5c13065f9bd0fa99bc54a52d1d",
+        "approvalHash": "0057e21ded168a22987aae5d261a1e7c84799f4cfdae1e2fb7b2472b24bef91f"
+      }
+    },
+    {
+      "id": "vocab-n1:1306",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1306",
+      "state": "accepted",
+      "predecessorHash": "63a1d9c875c97dbcdfb45f3d7d93355af7dbde589dbf5fe9a0eadab316e6765c",
+      "originalHash": "63a1d9c875c97dbcdfb45f3d7d93355af7dbde589dbf5fe9a0eadab316e6765c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "句集を出版するのが俳人の夢だ。",
+            "romaji": "Kushū o shuppan suru no ga haijin no yume da.",
+            "german": "Eine Haiku-Sammlung zu veröffentlichen ist der Traum jedes Haiku-Dichters."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "句集 ist eine Sammlung von Haiku (俳句), die jeweils als 句 gezählt werden; auch Senryū-Sammlungen können so heißen. Haiku-Dichter (俳人) veröffentlichen ihre Werke typischerweise als 句集; man sagt 句集を出す, 句集を編む. Gegenstücke sind 歌集 für Tanka und 詩集 für moderne Lyrik. Viele Laiendichter bringen ihr 句集 im Selbstverlag (自費出版) heraus.",
+        "examples": [
+          {
+            "japanese": "句集を出版するのが俳人の夢だ。",
+            "romaji": "Kushū o shuppan suru no ga haijin no yume da.",
+            "german": "Eine Haiku-Sammlung zu veröffentlichen ist der Traum jedes Haiku-Dichters."
+          },
+          {
+            "japanese": "芭蕉の句集を読んで、季語を調べた。",
+            "romaji": "Bashō no kushū o yonde, kigo o shirabeta.",
+            "german": "Ich habe Bashōs Haiku-Sammlung gelesen und die Jahreszeitenwörter nachgeschlagen."
+          },
+          {
+            "japanese": "祖母は八十歳で初めての句集を自費出版した。",
+            "romaji": "Sobo wa hachijussai de hajimete no kushū o jihi shuppan shita.",
+            "german": "Meine Großmutter hat mit achtzig ihre erste Haiku-Sammlung im Selbstverlag herausgebracht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@111113534",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 句集/クシュウ; lemma 句集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "句集",
+              "reading": "くしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 句集/くしゅう \"Haiku-Sammlung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1244000 sense 1, noun: collection of haiku poems Pitch: Verified [0] via exact UniDic row. 句集 ist eine Sammlung von Haiku (俳句), die jeweils als 句 gezählt werden; auch Senryū-Sammlungen können so heißen. Haiku-Dichter (俳人) veröffentlichen ihre Werke typischerweise als 句集; man sagt 句集を出す, 句集を編む. Gegenstücke sind 歌集 für Tanka und 詩集 für moderne Lyrik. Viele Laiendichter bringen ihr 句集 im Selbstverlag (自費出版) heraus. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1244000; spelling=句集; reading=くしゅう",
+          "selected": {
+            "sequence": "1244000",
+            "spelling": "句集",
+            "reading": "くしゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "collection of haiku poems"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1244000 sense 1, noun: collection of haiku poems"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 句集/クシュウ; lemma 句集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@111113534",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 句集/クシュウ; lemma 句集; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "句集",
+              "reading": "くしゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 句集/くしゅう \"Haiku-Sammlung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Haiku-Sammlung. JMdict 1244000 sense 1, noun: collection of haiku poems",
+        "japanese": "句集を出版するのが俳人の夢だ。 / 芭蕉の句集を読んで、季語を調べた。 / 祖母は八十歳で初めての句集を自費出版した。",
+        "romanization": "kushū; Kushū o shuppan suru no ga haijin no yume da. / Bashō no kushū o yonde, kigo o shirabeta. / Sobo wa hachijussai de hajimete no kushū o jihi shuppan shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Haiku-Sammlung zu veröffentlichen ist der Traum jedes Haiku-Dichters. / Ich habe Bashōs Haiku-Sammlung gelesen und die Jahreszeitenwörter nachgeschlagen. / Meine Großmutter hat mit achtzig ihre erste Haiku-Sammlung im Selbstverlag herausgebracht.",
+        "contexts": [
+          "Poet's ambition",
+          "Studying Bashō",
+          "Self-published collection"
+        ],
+        "lexical": "JMdict 1244000 sense 1, noun: collection of haiku poems",
+        "register": "neutral to written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1306 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Poet's ambition; Studying Bashō; Self-published collection), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "18d43633756aa17594550ccd8175f341c6f3e94f8e71844d9a69bb704776e1f4",
+        "approvalHash": "f532e889bc6c6542e5dea2ccd21f135f50d260e09944c50c37c478852231715c"
+      }
+    },
+    {
+      "id": "vocab-n1:1307",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1307",
+      "state": "accepted",
+      "predecessorHash": "117ec98f1d88bee34e91078828fe6792eaf720731e2784cf6f60dd6c385546ee",
+      "originalHash": "117ec98f1d88bee34e91078828fe6792eaf720731e2784cf6f60dd6c385546ee",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "作家の書簡集から創作の過程がうかがえる。",
+            "romaji": "Sakka no shokan-shū kara sōsaku no katei ga ukagaeru.",
+            "german": "Aus der Briefsammlung des Autors lässt sich der Schaffensprozess erahnen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "書簡 ist das förmliche, schriftsprachliche Wort für „Brief“; im Alltag sagt man 手紙. Es begegnet in der Diplomatie (首相に書簡を送る, 公開書簡 „offener Brief“), in der Literaturwissenschaft (書簡集 „Briefsammlung“, 書簡体小説 „Briefroman“) und in amtlichen Zusammenhängen. Ein persönlicher Brief eines Staatsoberhaupts heißt 親書. Man sagt 書簡を送る, 書簡を宛てる, 書簡を交わす.",
+        "examples": [
+          {
+            "japanese": "作家の書簡集から創作の過程がうかがえる。",
+            "romaji": "Sakka no shokan-shū kara sōsaku no katei ga ukagaeru.",
+            "german": "Aus der Briefsammlung des Autors lässt sich der Schaffensprozess erahnen."
+          },
+          {
+            "japanese": "首相は大統領に書簡を送った。",
+            "romaji": "Shushō wa daitōryō ni shokan o okutta.",
+            "german": "Der Premierminister schickte dem Präsidenten ein Schreiben."
+          },
+          {
+            "japanese": "これは漱石が弟子に宛てた書簡だ。",
+            "romaji": "Kore wa Sōseki ga deshi ni ateta shokan da.",
+            "german": "Das ist ein Brief, den Sōseki an einen seiner Schüler gerichtet hat."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141278587",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 書簡/ショカン; lemma 書簡; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "書簡",
+              "reading": "しょかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 書簡/しょかん \"Brief; Korrespondenz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1343980 sense 1, noun: letter, epistle, correspondence Pitch: Verified [0] via exact UniDic row. 書簡 ist das förmliche, schriftsprachliche Wort für „Brief“; im Alltag sagt man 手紙. Es begegnet in der Diplomatie (首相に書簡を送る, 公開書簡 „offener Brief“), in der Literaturwissenschaft (書簡集 „Briefsammlung“, 書簡体小説 „Briefroman“) und in amtlichen Zusammenhängen. Ein persönlicher Brief eines Staatsoberhaupts heißt 親書. Man sagt 書簡を送る, 書簡を宛てる, 書簡を交わす. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1343980; spelling=書簡; reading=しょかん",
+          "selected": {
+            "sequence": "1343980",
+            "spelling": "書簡",
+            "reading": "しょかん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "letter",
+                  "note",
+                  "epistle",
+                  "correspondence"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1343980 sense 1, noun: letter, epistle, correspondence"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 書簡/ショカン; lemma 書簡; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141278587",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 書簡/ショカン; lemma 書簡; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "書簡",
+              "reading": "しょかん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 書簡/しょかん \"Brief; Korrespondenz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Brief; Korrespondenz. JMdict 1343980 sense 1, noun: letter, epistle, correspondence",
+        "japanese": "作家の書簡集から創作の過程がうかがえる。 / 首相は大統領に書簡を送った。 / これは漱石が弟子に宛てた書簡だ。",
+        "romanization": "shokan; Sakka no shokan-shū kara sōsaku no katei ga ukagaeru. / Shushō wa daitōryō ni shokan o okutta. / Kore wa Sōseki ga deshi ni ateta shokan da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aus der Briefsammlung des Autors lässt sich der Schaffensprozess erahnen. / Der Premierminister schickte dem Präsidenten ein Schreiben. / Das ist ein Brief, den Sōseki an einen seiner Schüler gerichtet hat.",
+        "contexts": [
+          "Literary research",
+          "Diplomatic letter",
+          "Museum exhibit"
+        ],
+        "lexical": "JMdict 1343980 sense 1, noun: letter, epistle, correspondence",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1307 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Literary research; Diplomatic letter; Museum exhibit), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b73a7e4d8414f7c3e83bb14085bdbafb39591c4d6dce45d668d635a1aed5147e",
+        "approvalHash": "150ffc88f0dd3c4a92ba669021993da295e058e7714cf2872883eb684c6ca769"
+      }
+    },
+    {
+      "id": "vocab-n1:1308",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1308",
+      "state": "accepted",
+      "predecessorHash": "92aed21cb4211d31acfc446d963c3aa7837d12b3a86431b81db0c5a59bbb8621",
+      "originalHash": "92aed21cb4211d31acfc446d963c3aa7837d12b3a86431b81db0c5a59bbb8621",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "土佐日記は日記文学の嚆矢とされる。",
+            "romaji": "Tosa Nikki wa nikki bungaku no kōshi to sareru.",
+            "german": "Das Tosa-Tagebuch gilt als Beginn der Tagebuchliteratur."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "日記文学 ist ein Gattungsbegriff der japanischen Literaturgeschichte für literarisch gestaltete Tagebücher, vor allem der Heian-Zeit: 土佐日記, 蜻蛉日記, 紫式部日記, 更級日記. Sie wurden meist in Kana geschrieben, oft von Hofdamen, und enthalten Rückblicke, Gedichte und teils erfundene Elemente – sie sind also keine bloßen Aufzeichnungen wie ein privates 日記. Der Begriff erscheint vor allem in Schule und Literaturwissenschaft.",
+        "examples": [
+          {
+            "japanese": "土佐日記は日記文学の嚆矢とされる。",
+            "romaji": "Tosa Nikki wa nikki bungaku no kōshi to sareru.",
+            "german": "Das Tosa-Tagebuch gilt als Beginn der Tagebuchliteratur."
+          },
+          {
+            "japanese": "平安時代には、女性による日記文学が数多く書かれた。",
+            "romaji": "Heian jidai ni wa, josei ni yoru nikki bungaku ga kazu ōku kakareta.",
+            "german": "In der Heian-Zeit entstanden zahlreiche Werke der Tagebuchliteratur von Frauen."
+          },
+          {
+            "japanese": "日記文学の魅力は、作者の心の動きが細かく描かれている点にある。",
+            "romaji": "Nikki bungaku no miryoku wa, sakusha no kokoro no ugoki ga komakaku egakarete iru ten ni aru.",
+            "german": "Der Reiz der Tagebuchliteratur liegt darin, dass die Gefühlsregungen der Verfasser genau geschildert werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1730360 sense 1, noun: literature written in diary form Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 日記文学 ist ein Gattungsbegriff der japanischen Literaturgeschichte für literarisch gestaltete Tagebücher, vor allem der Heian-Zeit: 土佐日記, 蜻蛉日記, 紫式部日記, 更級日記. Sie wurden meist in Kana geschrieben, oft von Hofdamen, und enthalten Rückblicke, Gedichte und teils erfundene Elemente – sie sind also keine bloßen Aufzeichnungen wie ein privates 日記. Der Begriff erscheint vor allem in Schule und Literaturwissenschaft. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1730360; spelling=日記文学; reading=にっきぶんがく",
+          "selected": {
+            "sequence": "1730360",
+            "spelling": "日記文学",
+            "reading": "にっきぶんがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literature written in diary form"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1730360 sense 1, noun: literature written in diary form"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 日記文学/にっきぶんがく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%97%A5%E8%A8%98%E6%96%87%E5%AD%A6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 日記文学/にっきぶんがく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tagebuchliteratur. JMdict 1730360 sense 1, noun: literature written in diary form",
+        "japanese": "土佐日記は日記文学の嚆矢とされる。 / 平安時代には、女性による日記文学が数多く書かれた。 / 日記文学の魅力は、作者の心の動きが細かく描かれている点にある。",
+        "romanization": "nikki bungaku; Tosa Nikki wa nikki bungaku no kōshi to sareru. / Heian jidai ni wa, josei ni yoru nikki bungaku ga kazu ōku kakareta. / Nikki bungaku no miryoku wa, sakusha no kokoro no ugoki ga komakaku egakarete iru ten ni aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Tosa-Tagebuch gilt als Beginn der Tagebuchliteratur. / In der Heian-Zeit entstanden zahlreiche Werke der Tagebuchliteratur von Frauen. / Der Reiz der Tagebuchliteratur liegt darin, dass die Gefühlsregungen der Verfasser genau geschildert werden.",
+        "contexts": [
+          "Origin of the genre",
+          "Heian women writers",
+          "Appeal of the genre"
+        ],
+        "lexical": "JMdict 1730360 sense 1, noun: literature written in diary form",
+        "register": "academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1308 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Origin of the genre; Heian women writers; Appeal of the genre), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "b99d067e0df5982ef866e33ad7015353bc0af2a4f582c4fc3f4390b5820dde15",
+        "approvalHash": "e08c96f85319f002e8dd37f997c0d31ce0f8ee5417b6ee9848e27cb8a264541a"
+      }
+    },
+    {
+      "id": "vocab-n1:1309",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1309",
+      "state": "accepted",
+      "predecessorHash": "7e9064dfb0400d5044fb1719a6b7eaae5f9fb45a65ea9f6561d68adb8f15f2db",
+      "originalHash": "7e9064dfb0400d5044fb1719a6b7eaae5f9fb45a65ea9f6561d68adb8f15f2db",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本文学には私小説という独特のジャンルがある。",
+            "romaji": "Nihon bungaku ni wa shishōsetsu to iu dokutoku no janru ga aru.",
+            "german": "In der japanischen Literatur gibt es das eigentümliche Genre des Ich-Romans."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "私小説 (auch わたくししょうせつ gelesen) ist eine typisch japanische Gattung, die im frühen 20. Jahrhundert aus dem Naturalismus entstand: Der Autor schildert sein eigenes Leben, oft schonungslos und mit Schwächen und Skandalen, fast ohne Fiktionalisierung. Als Ausgangspunkt gilt 田山花袋『蒲団』. Anders als der deutsche Begriff „Ich-Roman“ nahelegt, ist nicht die Ich-Perspektive entscheidend, sondern die Gleichsetzung von Autor und Hauptfigur. Gegenbegriff im weiteren Sinn: 大衆文学.",
+        "examples": [
+          {
+            "japanese": "日本文学には私小説という独特のジャンルがある。",
+            "romaji": "Nihon bungaku ni wa shishōsetsu to iu dokutoku no janru ga aru.",
+            "german": "In der japanischen Literatur gibt es das eigentümliche Genre des Ich-Romans."
+          },
+          {
+            "japanese": "彼の作品は、自身の貧しい生活を描いた私小説だ。",
+            "romaji": "Kare no sakuhin wa, jishin no mazushii seikatsu o egaita shishōsetsu da.",
+            "german": "Seine Werke sind Ich-Romane, die sein eigenes Leben in Armut schildern."
+          },
+          {
+            "japanese": "私小説は自然主義文学から生まれたと言われる。",
+            "romaji": "Shishōsetsu wa shizen shugi bungaku kara umareta to iwareru.",
+            "german": "Der Ich-Roman soll aus der naturalistischen Literatur hervorgegangen sein."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1637560 sense 1, noun: I-novel (autobiographical genre) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 私小説 (auch わたくししょうせつ gelesen) ist eine typisch japanische Gattung, die im frühen 20. Jahrhundert aus dem Naturalismus entstand: Der Autor schildert sein eigenes Leben, oft schonungslos und mit Schwächen und Skandalen, fast ohne Fiktionalisierung. Als Ausgangspunkt gilt 田山花袋『蒲団』. Anders als der deutsche Begriff „Ich-Roman“ nahelegt, ist nicht die Ich-Perspektive entscheidend, sondern die Gleichsetzung von Autor und Hauptfigur. Gegenbegriff im weiteren Sinn: 大衆文学. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1637560; spelling=私小説; reading=ししょうせつ",
+          "selected": {
+            "sequence": "1637560",
+            "spelling": "私小説",
+            "reading": "ししょうせつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "I-novel",
+                  "novel narrated in the first person"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1637560 sense 1, noun: I-novel (autobiographical genre)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 私小説/ししょうせつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%A7%81%E5%B0%8F%E8%AA%AC",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 私小説/ししょうせつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ich-Roman; autobiographischer Roman. JMdict 1637560 sense 1, noun: I-novel (autobiographical genre)",
+        "japanese": "日本文学には私小説という独特のジャンルがある。 / 彼の作品は、自身の貧しい生活を描いた私小説だ。 / 私小説は自然主義文学から生まれたと言われる。",
+        "romanization": "shishōsetsu; Nihon bungaku ni wa shishōsetsu to iu dokutoku no janru ga aru. / Kare no sakuhin wa, jishin no mazushii seikatsu o egaita shishōsetsu da. / Shishōsetsu wa shizen shugi bungaku kara umareta to iwareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der japanischen Literatur gibt es das eigentümliche Genre des Ich-Romans. / Seine Werke sind Ich-Romane, die sein eigenes Leben in Armut schildern. / Der Ich-Roman soll aus der naturalistischen Literatur hervorgegangen sein.",
+        "contexts": [
+          "Characteristic Japanese genre",
+          "An author's autobiographical work",
+          "Origins of the genre"
+        ],
+        "lexical": "JMdict 1637560 sense 1, noun: I-novel (autobiographical genre)",
+        "register": "academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1309 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Characteristic Japanese genre; An author's autobiographical work; Origins of the genre), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "1831a66967c6eb2a788e5fa1d6905d1d71546036a1b24f4b2235ca38d9e1b1da",
+        "approvalHash": "60a9ea28df39e93324767fd7e8b629b44e888afb8b09226039dcc2dcf559a853"
+      }
+    },
+    {
+      "id": "vocab-n1:1310",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1310",
+      "state": "accepted",
+      "predecessorHash": "b3601c79da813efad7f9f47ea742f70a4fc0827bb9d0b0976e87ff42b1e6733e",
+      "originalHash": "b3601c79da813efad7f9f47ea742f70a4fc0827bb9d0b0976e87ff42b1e6733e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "純文学と大衆文学の境界は曖昧になっている。",
+            "romaji": "Jun bungaku to taishū bungaku no kyōkai wa aimai ni natte iru.",
+            "german": "Die Grenze zwischen reiner Literatur und Unterhaltungsliteratur verschwimmt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大衆文学 ist Literatur für ein breites Publikum mit Fokus auf Unterhaltung: historische Romane, Krimis, Liebesromane. Gegenbegriff ist 純文学 „reine, künstlerische Literatur“; der wichtigste Preis für 大衆文学 ist der 直木賞, für 純文学 der 芥川賞. Heute sagt man im Alltag oft エンタメ小説; das ältere 通俗小説 klingt abwertend.",
+        "examples": [
+          {
+            "japanese": "純文学と大衆文学の境界は曖昧になっている。",
+            "romaji": "Jun bungaku to taishū bungaku no kyōkai wa aimai ni natte iru.",
+            "german": "Die Grenze zwischen reiner Literatur und Unterhaltungsliteratur verschwimmt."
+          },
+          {
+            "japanese": "大衆文学の賞としては直木賞がよく知られている。",
+            "romaji": "Taishū bungaku no shō toshite wa Naoki-shō ga yoku shirarete iru.",
+            "german": "Als Preis für Unterhaltungsliteratur ist vor allem der Naoki-Preis bekannt."
+          },
+          {
+            "japanese": "時代小説や推理小説は大衆文学に分類される。",
+            "romaji": "Jidai shōsetsu ya suiri shōsetsu wa taishū bungaku ni bunrui sareru.",
+            "german": "Historische Romane und Krimis werden zur Unterhaltungsliteratur gezählt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1414060 sense 1, noun: popular literature Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 大衆文学 ist Literatur für ein breites Publikum mit Fokus auf Unterhaltung: historische Romane, Krimis, Liebesromane. Gegenbegriff ist 純文学 „reine, künstlerische Literatur“; der wichtigste Preis für 大衆文学 ist der 直木賞, für 純文学 der 芥川賞. Heute sagt man im Alltag oft エンタメ小説; das ältere 通俗小説 klingt abwertend. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1414060; spelling=大衆文学; reading=たいしゅうぶんがく",
+          "selected": {
+            "sequence": "1414060",
+            "spelling": "大衆文学",
+            "reading": "たいしゅうぶんがく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "popular literature"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1414060 sense 1, noun: popular literature"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 大衆文学/たいしゅうぶんがく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A4%A7%E8%A1%86%E6%96%87%E5%AD%A6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 大衆文学/たいしゅうぶんがく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Unterhaltungsliteratur; Populärliteratur. JMdict 1414060 sense 1, noun: popular literature",
+        "japanese": "純文学と大衆文学の境界は曖昧になっている。 / 大衆文学の賞としては直木賞がよく知られている。 / 時代小説や推理小説は大衆文学に分類される。",
+        "romanization": "taishū bungaku; Jun bungaku to taishū bungaku no kyōkai wa aimai ni natte iru. / Taishū bungaku no shō toshite wa Naoki-shō ga yoku shirarete iru. / Jidai shōsetsu ya suiri shōsetsu wa taishū bungaku ni bunrui sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Grenze zwischen reiner Literatur und Unterhaltungsliteratur verschwimmt. / Als Preis für Unterhaltungsliteratur ist vor allem der Naoki-Preis bekannt. / Historische Romane und Krimis werden zur Unterhaltungsliteratur gezählt.",
+        "contexts": [
+          "Blurring categories",
+          "Literary prizes",
+          "Genre classification"
+        ],
+        "lexical": "JMdict 1414060 sense 1, noun: popular literature",
+        "register": "neutral / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1310 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Blurring categories; Literary prizes; Genre classification), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "e61bdeaaefebdb27360cdb4eb01158f772a36b1572768ffa7d040a709d5aa6ac",
+        "approvalHash": "dcf2bf01876e768a59d24414db1790a041316452f98d6371241a7313713f97d5"
+      }
+    },
+    {
+      "id": "vocab-n1:1312",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1312",
+      "state": "accepted",
+      "predecessorHash": "942524e0e619ee801a4c3eb720f9ada2573b0715c91efa796cd54b5860667a65",
+      "originalHash": "942524e0e619ee801a4c3eb720f9ada2573b0715c91efa796cd54b5860667a65",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "彼女のデビュー作は文壇に衝撃を与えた。",
+            "romaji": "Kanojo no debyū-saku wa bundan ni shōgeki o ataeta.",
+            "german": "Ihr Debütwerk erschütterte den Literaturbetrieb."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文壇 bezeichnet die literarische Welt als soziale Gemeinschaft von Schriftstellern, Kritikern und Verlegern – den Literaturbetrieb. Typisch: 文壇にデビューする, 文壇に登場する, 文壇の大御所 „Grande Dame / Doyen der Literaturszene“. Nach demselben Muster gibt es 画壇 (Malerei), 歌壇 (Tanka) und 論壇 (Publizistik). Das Wort klingt etwas altmodisch, ist aber in Feuilleton und Literaturgeschichte üblich.",
+        "examples": [
+          {
+            "japanese": "彼女のデビュー作は文壇に衝撃を与えた。",
+            "romaji": "Kanojo no debyū-saku wa bundan ni shōgeki o ataeta.",
+            "german": "Ihr Debütwerk erschütterte den Literaturbetrieb."
+          },
+          {
+            "japanese": "彼は二十歳で文壇にデビューした。",
+            "romaji": "Kare wa hatachi de bundan ni debyū shita.",
+            "german": "Er betrat mit zwanzig die literarische Bühne."
+          },
+          {
+            "japanese": "その作家は文壇の付き合いを嫌い、田舎で暮らした。",
+            "romaji": "Sono sakka wa bundan no tsukiai o kirai, inaka de kurashita.",
+            "german": "Der Schriftsteller mied die Kontakte im Literaturbetrieb und lebte auf dem Land."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240110400",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文壇/ブンダン; lemma 文壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文壇",
+              "reading": "ぶんだん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文壇/ぶんだん \"literarische Welt; Literaturbetrieb\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1505520 sense 1, noun: literary world, literary circles Pitch: Verified [0] via exact UniDic row. 文壇 bezeichnet die literarische Welt als soziale Gemeinschaft von Schriftstellern, Kritikern und Verlegern – den Literaturbetrieb. Typisch: 文壇にデビューする, 文壇に登場する, 文壇の大御所 „Grande Dame / Doyen der Literaturszene“. Nach demselben Muster gibt es 画壇 (Malerei), 歌壇 (Tanka) und 論壇 (Publizistik). Das Wort klingt etwas altmodisch, ist aber in Feuilleton und Literaturgeschichte üblich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505520; spelling=文壇; reading=ぶんだん",
+          "selected": {
+            "sequence": "1505520",
+            "spelling": "文壇",
+            "reading": "ぶんだん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literary world",
+                  "literary circles"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505520 sense 1, noun: literary world, literary circles"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 文壇/ブンダン; lemma 文壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240110400",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文壇/ブンダン; lemma 文壇; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文壇",
+              "reading": "ぶんだん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文壇/ぶんだん \"literarische Welt; Literaturbetrieb\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "literarische Welt; Literaturbetrieb. JMdict 1505520 sense 1, noun: literary world, literary circles",
+        "japanese": "彼女のデビュー作は文壇に衝撃を与えた。 / 彼は二十歳で文壇にデビューした。 / その作家は文壇の付き合いを嫌い、田舎で暮らした。",
+        "romanization": "bundan; Kanojo no debyū-saku wa bundan ni shōgeki o ataeta. / Kare wa hatachi de bundan ni debyū shita. / Sono sakka wa bundan no tsukiai o kirai, inaka de kurashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ihr Debütwerk erschütterte den Literaturbetrieb. / Er betrat mit zwanzig die literarische Bühne. / Der Schriftsteller mied die Kontakte im Literaturbetrieb und lebte auf dem Land.",
+        "contexts": [
+          "Sensational debut",
+          "Young author's start",
+          "Reclusive writer"
+        ],
+        "lexical": "JMdict 1505520 sense 1, noun: literary world, literary circles",
+        "register": "written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1312 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Sensational debut; Young author's start; Reclusive writer), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "61310909e56b678f0ba6c460701b4db9519727e95d16e43550fc922222f0b22c",
+        "approvalHash": "6251d0019add17ae7d34ebacadfeeb9c403bafe54b1f5e97ca8076dfb08ae6f9"
+      }
+    },
+    {
+      "id": "vocab-n1:1313",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1313",
+      "state": "accepted",
+      "predecessorHash": "b7e8b09db7f71024de5c347b2eaeb50e2902b9f54d23cc9bb052c2999e6d55e7",
+      "originalHash": "b7e8b09db7f71024de5c347b2eaeb50e2902b9f54d23cc9bb052c2999e6d55e7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "明治の文豪たちは近代日本語の形成に貢献した。",
+            "romaji": "Meiji no bungō-tachi wa kindai Nihongo no keisei ni kōken shita.",
+            "german": "Die großen Schriftsteller der Meiji-Zeit trugen zur Formung des modernen Japanisch bei."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文豪 ist ein ehrender Ausdruck für einen großen, allgemein anerkannten Schriftsteller, meist einen Klassiker wie 夏目漱石 oder トルストイ. Für lebende Autoren oder Newcomer verwendet man es kaum; neutral sind 作家 oder 小説家. Typische Verbindungen: 明治の文豪, ロシアの文豪, 文豪ゆかりの宿 „ein Gasthaus, das mit einem großen Dichter verbunden ist“.",
+        "examples": [
+          {
+            "japanese": "明治の文豪たちは近代日本語の形成に貢献した。",
+            "romaji": "Meiji no bungō-tachi wa kindai Nihongo no keisei ni kōken shita.",
+            "german": "Die großen Schriftsteller der Meiji-Zeit trugen zur Formung des modernen Japanisch bei."
+          },
+          {
+            "japanese": "この旅館には、かつて多くの文豪が泊まった。",
+            "romaji": "Kono ryokan ni wa, katsute ōku no bungō ga tomatta.",
+            "german": "In diesem Gasthaus haben einst viele berühmte Dichter übernachtet."
+          },
+          {
+            "japanese": "ロシアの文豪トルストイは『戦争と平和』を書いた。",
+            "romaji": "Roshia no bungō Torusutoi wa Sensō to Heiwa o kaita.",
+            "german": "Der große russische Schriftsteller Tolstoi schrieb „Krieg und Frieden“."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240072750",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文豪/ブンゴウ; lemma 文豪; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文豪",
+              "reading": "ぶんごう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文豪/ぶんごう \"großer Schriftsteller; Literat\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1505380 sense 1, noun: great writer, literary master Pitch: Verified [0] via exact UniDic row. 文豪 ist ein ehrender Ausdruck für einen großen, allgemein anerkannten Schriftsteller, meist einen Klassiker wie 夏目漱石 oder トルストイ. Für lebende Autoren oder Newcomer verwendet man es kaum; neutral sind 作家 oder 小説家. Typische Verbindungen: 明治の文豪, ロシアの文豪, 文豪ゆかりの宿 „ein Gasthaus, das mit einem großen Dichter verbunden ist“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505380; spelling=文豪; reading=ぶんごう",
+          "selected": {
+            "sequence": "1505380",
+            "spelling": "文豪",
+            "reading": "ぶんごう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "great writer",
+                  "literary master",
+                  "distinguished author"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505380 sense 1, noun: great writer, literary master"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 文豪/ブンゴウ; lemma 文豪; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240072750",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文豪/ブンゴウ; lemma 文豪; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文豪",
+              "reading": "ぶんごう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文豪/ぶんごう \"großer Schriftsteller; Literat\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "großer Schriftsteller; Literat. JMdict 1505380 sense 1, noun: great writer, literary master",
+        "japanese": "明治の文豪たちは近代日本語の形成に貢献した。 / この旅館には、かつて多くの文豪が泊まった。 / ロシアの文豪トルストイは『戦争と平和』を書いた。",
+        "romanization": "bungō; Meiji no bungō-tachi wa kindai Nihongo no keisei ni kōken shita. / Kono ryokan ni wa, katsute ōku no bungō ga tomatta. / Roshia no bungō Torusutoi wa Sensō to Heiwa o kaita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die großen Schriftsteller der Meiji-Zeit trugen zur Formung des modernen Japanisch bei. / In diesem Gasthaus haben einst viele berühmte Dichter übernachtet. / Der große russische Schriftsteller Tolstoi schrieb „Krieg und Frieden“.",
+        "contexts": [
+          "Meiji literature",
+          "Historic inn",
+          "World literature"
+        ],
+        "lexical": "JMdict 1505380 sense 1, noun: great writer, literary master",
+        "register": "written / respectful",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1313 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Meiji literature; Historic inn; World literature), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "8d8b4a5554879e41d3bfe3a416ac62db87487c4e79f08e93d0a803a1441597ab",
+        "approvalHash": "f605c00779866df733f20ffeccbd8e96ad0ff6bb05dae5e56d3d62e445010b55"
+      }
+    },
+    {
+      "id": "vocab-n1:1314",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1314",
+      "state": "accepted",
+      "predecessorHash": "26ed12fdda024cf7e2da024dbc0a0951a63ff1e80347be37de51a9232bb77f2a",
+      "originalHash": "26ed12fdda024cf7e2da024dbc0a0951a63ff1e80347be37de51a9232bb77f2a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "生涯にわたって著述活動を続けた。",
+            "romaji": "Shōgai ni watatte chojutsu katsudō o tsuzuketa.",
+            "german": "Ein Leben lang setzte er seine schriftstellerische Tätigkeit fort."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "著述 ist das Verfassen von Büchern, besonders Sach- und Fachbüchern, sowie das entstandene Werk. Typisch: 著述活動 „schriftstellerische Tätigkeit“, 著述に専念する, 著述業 als Berufsbezeichnung „freier Autor“. 執筆 bezeichnet eher das Schreiben eines konkreten Textes, 著書 das fertige Buch eines Autors. Als transitives する-Verb (〜を著述する) ist es selten; meist steht das Nomen.",
+        "examples": [
+          {
+            "japanese": "生涯にわたって著述活動を続けた。",
+            "romaji": "Shōgai ni watatte chojutsu katsudō o tsuzuketa.",
+            "german": "Ein Leben lang setzte er seine schriftstellerische Tätigkeit fort."
+          },
+          {
+            "japanese": "彼は退職後、著述に専念している。",
+            "romaji": "Kare wa taishoku-go, chojutsu ni sennen shite iru.",
+            "german": "Seit seiner Pensionierung widmet er sich ganz dem Schreiben von Büchern."
+          },
+          {
+            "japanese": "書類の職業欄に「著述業」と書いた。",
+            "romaji": "Shorui no shokugyō-ran ni chojutsugyō to kaita.",
+            "german": "Im Formular trug ich als Beruf „Autor“ ein."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170399613",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 著述/チョジュツ; lemma 著述; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "著述",
+              "reading": "ちょじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 著述/ちょじゅつ \"Schriftstellerei; Verfassen von Büchern\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1427120 sense 1, noun / suru verb: writing, (literary) work Pitch: Verified [0] via exact UniDic row. 著述 ist das Verfassen von Büchern, besonders Sach- und Fachbüchern, sowie das entstandene Werk. Typisch: 著述活動 „schriftstellerische Tätigkeit“, 著述に専念する, 著述業 als Berufsbezeichnung „freier Autor“. 執筆 bezeichnet eher das Schreiben eines konkreten Textes, 著書 das fertige Buch eines Autors. Als transitives する-Verb (〜を著述する) ist es selten; meist steht das Nomen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1427120; spelling=著述; reading=ちょじゅつ",
+          "selected": {
+            "sequence": "1427120",
+            "spelling": "著述",
+            "reading": "ちょじゅつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing",
+                  "book",
+                  "(literary) work"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1427120 sense 1, noun / suru verb: writing, (literary) work"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 著述/チョジュツ; lemma 著述; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@170399613",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 著述/チョジュツ; lemma 著述; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "著述",
+              "reading": "ちょじゅつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 著述/ちょじゅつ \"Schriftstellerei; Verfassen von Büchern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schriftstellerei; Verfassen von Büchern. JMdict 1427120 sense 1, noun / suru verb: writing, (literary) work",
+        "japanese": "生涯にわたって著述活動を続けた。 / 彼は退職後、著述に専念している。 / 書類の職業欄に「著述業」と書いた。",
+        "romanization": "chojutsu; Shōgai ni watatte chojutsu katsudō o tsuzuketa. / Kare wa taishoku-go, chojutsu ni sennen shite iru. / Shorui no shokugyō-ran ni chojutsugyō to kaita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Leben lang setzte er seine schriftstellerische Tätigkeit fort. / Seit seiner Pensionierung widmet er sich ganz dem Schreiben von Büchern. / Im Formular trug ich als Beruf „Autor“ ein.",
+        "contexts": [
+          "Lifelong work",
+          "Retirement project",
+          "Filling in a form"
+        ],
+        "lexical": "JMdict 1427120 sense 1, noun / suru verb: writing, (literary) work",
+        "register": "written / formal",
+        "transitivity": "transitive as 著述する (rare); mostly used as a noun",
+        "conjugation": "noun; suru verb (著述する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1314 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Lifelong work; Retirement project; Filling in a form), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5a422d58bc75a6461017c03116a7225da8cdbae37a7619a558ce6337fcd92604",
+        "approvalHash": "b2ca43d243abfe9258a91271204eccce5825d8ea3c8d8d75509a24cc2c9fd675"
+      }
+    },
+    {
+      "id": "vocab-n1:1315",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1315",
+      "state": "accepted",
+      "predecessorHash": "38a1847d155c5459c32db6f9d78ba84cf07a0610aec5d7cd5ddaa96ec072976e",
+      "originalHash": "38a1847d155c5459c32db6f9d78ba84cf07a0610aec5d7cd5ddaa96ec072976e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "現在新作の執筆に取りかかっている。",
+            "romaji": "Genzai shinsaku no shippitsu ni torikakatteiru.",
+            "german": "Derzeit arbeite ich am Verfassen eines neuen Werks."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "執筆 ist das Schreiben eines Textes zur Veröffentlichung – Roman, Artikel, Kolumne – und klingt förmlicher als 書く. Typisch: 〜の執筆に取りかかる, 執筆中, 原稿を執筆する, 雑誌に執筆する „für eine Zeitschrift schreiben“. Ableitungen: 執筆者 „Verfasser“, 執筆活動. Für private Briefe oder Notizen sagt man nicht 執筆, sondern einfach 書く.",
+        "examples": [
+          {
+            "japanese": "現在新作の執筆に取りかかっている。",
+            "romaji": "Genzai shinsaku no shippitsu ni torikakatte iru.",
+            "german": "Zurzeit arbeite ich an einem neuen Werk."
+          },
+          {
+            "japanese": "この記事の執筆者は元新聞記者だ。",
+            "romaji": "Kono kiji no shippitsusha wa moto shinbun kisha da.",
+            "german": "Der Verfasser dieses Artikels ist ein ehemaliger Zeitungsjournalist."
+          },
+          {
+            "japanese": "彼女は雑誌に毎月エッセイを執筆している。",
+            "romaji": "Kanojo wa zasshi ni maitsuki essei o shippitsu shite iru.",
+            "german": "Sie schreibt jeden Monat einen Essay für eine Zeitschrift."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136298508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 執筆/シッピツ; lemma 執筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "執筆",
+              "reading": "しっぴつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 執筆/しっぴつ \"Schreiben; Verfassen\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1319710 sense 1, noun / suru verb: writing, authoring Pitch: Verified [0] via exact UniDic row. 執筆 ist das Schreiben eines Textes zur Veröffentlichung – Roman, Artikel, Kolumne – und klingt förmlicher als 書く. Typisch: 〜の執筆に取りかかる, 執筆中, 原稿を執筆する, 雑誌に執筆する „für eine Zeitschrift schreiben“. Ableitungen: 執筆者 „Verfasser“, 執筆活動. Für private Briefe oder Notizen sagt man nicht 執筆, sondern einfach 書く. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1319710; spelling=執筆; reading=しっぴつ",
+          "selected": {
+            "sequence": "1319710",
+            "spelling": "執筆",
+            "reading": "しっぴつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing",
+                  "authoring"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1319710 sense 1, noun / suru verb: writing, authoring"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 執筆/シッピツ; lemma 執筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136298508",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 執筆/シッピツ; lemma 執筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "執筆",
+              "reading": "しっぴつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 執筆/しっぴつ \"Schreiben; Verfassen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "example-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schreiben; Verfassen. JMdict 1319710 sense 1, noun / suru verb: writing, authoring",
+        "japanese": "現在新作の執筆に取りかかっている。 / この記事の執筆者は元新聞記者だ。 / 彼女は雑誌に毎月エッセイを執筆している。",
+        "romanization": "shippitsu; Genzai shinsaku no shippitsu ni torikakatte iru. / Kono kiji no shippitsusha wa moto shinbun kisha da. / Kanojo wa zasshi ni maitsuki essei o shippitsu shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Zurzeit arbeite ich an einem neuen Werk. / Der Verfasser dieses Artikels ist ein ehemaliger Zeitungsjournalist. / Sie schreibt jeden Monat einen Essay für eine Zeitschrift.",
+        "contexts": [
+          "Working on a new book",
+          "Article byline",
+          "Monthly column"
+        ],
+        "lexical": "JMdict 1319710 sense 1, noun / suru verb: writing, authoring",
+        "register": "written / formal",
+        "transitivity": "transitive as 執筆する (原稿を執筆する)",
+        "conjugation": "noun; suru verb (執筆する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1315 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Working on a new book; Article byline; Monthly column), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4abde7df16ee5a1cb3adbca6d8bdea81a7d7c5e2cd55bfd53dc379e89191ba80",
+        "approvalHash": "9460ddbaff00a85770ab4e215ac97300f472648eee4ae3f1227cc51938e90d6f"
+      }
+    },
+    {
+      "id": "vocab-n1:1316",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1316",
+      "state": "accepted",
+      "predecessorHash": "ca177638781f78943cbdd706e0c6723553958923ccd202cf650af3e1448f7ba6",
+      "originalHash": "ca177638781f78943cbdd706e0c6723553958923ccd202cf650af3e1448f7ba6",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "淡々とした筆致で日常を描いている。",
+            "romaji": "Tantan to shita hitchi de nichijō o egaite iru.",
+            "german": "In nüchternem Stil wird der Alltag geschildert."
+          }
+        ],
+        "meaning": "Schreibstil; literarischer Duktus",
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "筆致 ist der „Duktus“ eines Werks: ursprünglich die Pinselführung in Kalligrafie und Malerei, übertragen der Ton und die Art, wie ein Text geschrieben ist. Fast immer steht ein beschreibendes Adjektiv davor: 軽妙な筆致 „leichtfüßiger Stil“, 淡々とした筆致, 力強い筆致, und meist folgt で描く / でつづる. Im Unterschied zu 文体, das die sprachliche Form beschreibt, betont 筆致 den Eindruck und die Haltung; das Wort ist typisch für Rezensionen.",
+        "examples": [
+          {
+            "japanese": "淡々とした筆致で日常を描いている。",
+            "romaji": "Tantan to shita hitchi de nichijō o egaite iru.",
+            "german": "In nüchternem Stil wird der Alltag geschildert."
+          },
+          {
+            "japanese": "著者はユーモアあふれる筆致で失敗談をつづっている。",
+            "romaji": "Chosha wa yūmoa afureru hitchi de shippaidan o tsuzutte iru.",
+            "german": "Der Autor erzählt mit viel Humor von seinen Missgeschicken."
+          },
+          {
+            "japanese": "力強い筆致で書かれた書道作品が展示されている。",
+            "romaji": "Chikarazuyoi hitchi de kakareta shodō sakuhin ga tenji sarete iru.",
+            "german": "Ausgestellt sind Kalligrafien mit kraftvoller Pinselführung."
+          }
+        ],
+        "meaning": "Duktus; Schreibstil; Pinselführung",
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226286787",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 筆致/ヒッチ; lemma 筆致; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "筆致",
+              "reading": "ひっち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 筆致/ひっち \"Schreibstil; literarischer Duktus\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1656530 senses 1–2, noun: stroke of the brush, touch; literary style Pitch: Verified [0,1] via exact UniDic row. 筆致 ist der „Duktus“ eines Werks: ursprünglich die Pinselführung in Kalligrafie und Malerei, übertragen der Ton und die Art, wie ein Text geschrieben ist. Fast immer steht ein beschreibendes Adjektiv davor: 軽妙な筆致 „leichtfüßiger Stil“, 淡々とした筆致, 力強い筆致, und meist folgt で描く / でつづる. Im Unterschied zu 文体, das die sprachliche Form beschreibt, betont 筆致 den Eindruck und die Haltung; das Wort ist typisch für Rezensionen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1656530; spelling=筆致; reading=ひっち",
+          "selected": {
+            "sequence": "1656530",
+            "spelling": "筆致",
+            "reading": "ひっち",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stroke of the brush",
+                  "touch"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literary style"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1656530 senses 1–2, noun: stroke of the brush, touch; literary style"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 筆致/ヒッチ; lemma 筆致; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@226286787",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 筆致/ヒッチ; lemma 筆致; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "筆致",
+              "reading": "ひっち",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 筆致/ひっち \"Schreibstil; literarischer Duktus\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "meaning-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Duktus; Schreibstil; Pinselführung. JMdict 1656530 senses 1–2, noun: stroke of the brush, touch; literary style",
+        "japanese": "淡々とした筆致で日常を描いている。 / 著者はユーモアあふれる筆致で失敗談をつづっている。 / 力強い筆致で書かれた書道作品が展示されている。",
+        "romanization": "hitchi; Tantan to shita hitchi de nichijō o egaite iru. / Chosha wa yūmoa afureru hitchi de shippaidan o tsuzutte iru. / Chikarazuyoi hitchi de kakareta shodō sakuhin ga tenji sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In nüchternem Stil wird der Alltag geschildert. / Der Autor erzählt mit viel Humor von seinen Missgeschicken. / Ausgestellt sind Kalligrafien mit kraftvoller Pinselführung.",
+        "contexts": [
+          "Book review",
+          "Humorous memoir",
+          "Calligraphy exhibition"
+        ],
+        "lexical": "JMdict 1656530 senses 1–2, noun: stroke of the brush, touch; literary style",
+        "register": "written / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1316 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Book review; Humorous memoir; Calligraphy exhibition), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f35e6e873a6b9de20bb855a11732ec48ad323a87f97643a7613ff600616bc213",
+        "approvalHash": "38d7c41d3795e9b8d537d670737ec2895ca658cadeeb9b1ce9424d02556f7bb7"
+      }
+    },
+    {
+      "id": "vocab-n1:1317",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1317",
+      "state": "accepted",
+      "predecessorHash": "95cd8dce690fe17f3a2d9c1239745dbfcfd8a420e582f9be4336bca41c018b24",
+      "originalHash": "95cd8dce690fe17f3a2d9c1239745dbfcfd8a420e582f9be4336bca41c018b24",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "病のため擱筆を余儀なくされた。",
+            "romaji": "Yamai no tame kakuhitsu o yogi naku sareta.",
+            "german": "Krankheitsbedingt war er gezwungen, das Schreiben aufzugeben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "擱筆 (擱 „niederlegen“, 筆 „Pinsel“) bedeutet, die Feder niederzulegen, also mit dem Schreiben aufzuhören – meist am Ende eines Briefes, Vorworts oder Essays: 以上をもって擱筆する „hiermit beende ich meine Ausführungen“. Seltener meint es, das Schreiben ganz aufzugeben. Das Wort ist sehr literarisch und intransitiv; Gegenbegriff ist 起筆. Abzugrenzen: 脱稿 „Manuskript fertigstellen“ und 絶筆 „letztes Werk vor dem Tod“.",
+        "examples": [
+          {
+            "japanese": "病のため擱筆を余儀なくされた。",
+            "romaji": "Yamai no tame kakuhitsu o yogi naku sareta.",
+            "german": "Krankheitsbedingt war er gezwungen, das Schreiben aufzugeben."
+          },
+          {
+            "japanese": "以上をもって擱筆する。",
+            "romaji": "Ijō o motte kakuhitsu suru.",
+            "german": "Hiermit lege ich die Feder nieder."
+          },
+          {
+            "japanese": "夜明け近くになって、ようやく擱筆した。",
+            "romaji": "Yoake chikaku ni natte, yōyaku kakuhitsu shita.",
+            "german": "Erst gegen Morgengrauen legte er endlich die Feder aus der Hand."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90719209",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 擱筆/カクヒツ; lemma 擱筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "擱筆",
+              "reading": "かくひつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 擱筆/かくひつ \"den Pinsel niederlegen; aufhören zu schreiben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2077800 sense 1, noun / suru verb: stopping writing, laying down one's pen Pitch: Verified [0] via exact UniDic row. 擱筆 (擱 „niederlegen“, 筆 „Pinsel“) bedeutet, die Feder niederzulegen, also mit dem Schreiben aufzuhören – meist am Ende eines Briefes, Vorworts oder Essays: 以上をもって擱筆する „hiermit beende ich meine Ausführungen“. Seltener meint es, das Schreiben ganz aufzugeben. Das Wort ist sehr literarisch und intransitiv; Gegenbegriff ist 起筆. Abzugrenzen: 脱稿 „Manuskript fertigstellen“ und 絶筆 „letztes Werk vor dem Tod“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2077800; spelling=擱筆; reading=かくひつ",
+          "selected": {
+            "sequence": "2077800",
+            "spelling": "擱筆",
+            "reading": "かくひつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "stopping writing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2077800 sense 1, noun / suru verb: stopping writing, laying down one's pen"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 擱筆/カクヒツ; lemma 擱筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90719209",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 擱筆/カクヒツ; lemma 擱筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "擱筆",
+              "reading": "かくひつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 擱筆/かくひつ \"den Pinsel niederlegen; aufhören zu schreiben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "den Pinsel niederlegen; aufhören zu schreiben. JMdict 2077800 sense 1, noun / suru verb: stopping writing, laying down one's pen",
+        "japanese": "病のため擱筆を余儀なくされた。 / 以上をもって擱筆する。 / 夜明け近くになって、ようやく擱筆した。",
+        "romanization": "kakuhitsu; Yamai no tame kakuhitsu o yogi naku sareta. / Ijō o motte kakuhitsu suru. / Yoake chikaku ni natte, yōyaku kakuhitsu shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Krankheitsbedingt war er gezwungen, das Schreiben aufzugeben. / Hiermit lege ich die Feder nieder. / Erst gegen Morgengrauen legte er endlich die Feder aus der Hand.",
+        "contexts": [
+          "Forced to stop by illness",
+          "Closing formula of an essay",
+          "Writing through the night"
+        ],
+        "lexical": "JMdict 2077800 sense 1, noun / suru verb: stopping writing, laying down one's pen",
+        "register": "literary / very formal",
+        "transitivity": "intransitive as 擱筆する",
+        "conjugation": "noun; suru verb (擱筆する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1317 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Forced to stop by illness; Closing formula of an essay; Writing through the night), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "a9abf6e5f787da72b116928763c55ff7c062ee76f11e58febb6924d3fa87dd2f",
+        "approvalHash": "8c38da9427bf60eb39ac6a60288e7570583df85d15ea06b4fbd3ab5e422b7a21"
+      }
+    },
+    {
+      "id": "vocab-n1:1318",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1318",
+      "state": "accepted",
+      "predecessorHash": "b6350a17c72e40ef73a02da9be8d66029dc6fb1d7921b5999b7f0abde85b8677",
+      "originalHash": "b6350a17c72e40ef73a02da9be8d66029dc6fb1d7921b5999b7f0abde85b8677",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "未完の絶筆が死後に出版された。",
+            "romaji": "Mikan no zeppitsu ga shigo ni shuppan sareta.",
+            "german": "Das unvollendete letzte Werk wurde posthum veröffentlicht."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "絶筆 ist das letzte Werk, das ein Schriftsteller, Maler oder Kalligraf vor seinem Tod geschaffen hat; die typische Wendung ist 〜が絶筆となる „wurde zu seinem letzten Werk“. Seltener bedeutet es, das Schreiben ganz aufzugeben. Verwandt sind 遺稿 „nachgelassene Manuskripte“ und 遺作 „letztes, oft posthum veröffentlichtes Werk“; 絶筆 betont, dass danach nichts mehr entstand.",
+        "examples": [
+          {
+            "japanese": "未完の絶筆が死後に出版された。",
+            "romaji": "Mikan no zeppitsu ga shigo ni shuppan sareta.",
+            "german": "Das unvollendete letzte Werk wurde posthum veröffentlicht."
+          },
+          {
+            "japanese": "この絵は画家の絶筆となった。",
+            "romaji": "Kono e wa gaka no zeppitsu to natta.",
+            "german": "Dieses Bild wurde zum letzten Werk des Malers."
+          },
+          {
+            "japanese": "病床で書かれたこの手紙が、彼の絶筆となった。",
+            "romaji": "Byōshō de kakareta kono tegami ga, kare no zeppitsu to natta.",
+            "german": "Dieser am Krankenbett geschriebene Brief war das Letzte, was er schrieb."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154751294",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 絶筆/ゼッピツ; lemma 絶筆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "絶筆",
+              "reading": "ぜっぴつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 絶筆/ぜっぴつ \"letztes Werk; Schwanengesang\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1721800 sense 1, noun: one's last writing, last work Pitch: Verified [0] via exact UniDic row. 絶筆 ist das letzte Werk, das ein Schriftsteller, Maler oder Kalligraf vor seinem Tod geschaffen hat; die typische Wendung ist 〜が絶筆となる „wurde zu seinem letzten Werk“. Seltener bedeutet es, das Schreiben ganz aufzugeben. Verwandt sind 遺稿 „nachgelassene Manuskripte“ und 遺作 „letztes, oft posthum veröffentlichtes Werk“; 絶筆 betont, dass danach nichts mehr entstand. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1721800; spelling=絶筆; reading=ぜっぴつ",
+          "selected": {
+            "sequence": "1721800",
+            "spelling": "絶筆",
+            "reading": "ぜっぴつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "one's last (piece of) writing",
+                  "last work"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "ceasing to write",
+                  "giving up writing"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1721800 sense 1, noun: one's last writing, last work"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 絶筆/ゼッピツ; lemma 絶筆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154751294",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 絶筆/ゼッピツ; lemma 絶筆; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "絶筆",
+              "reading": "ぜっぴつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 絶筆/ぜっぴつ \"letztes Werk; Schwanengesang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "letztes Werk; Schwanengesang. JMdict 1721800 sense 1, noun: one's last writing, last work",
+        "japanese": "未完の絶筆が死後に出版された。 / この絵は画家の絶筆となった。 / 病床で書かれたこの手紙が、彼の絶筆となった。",
+        "romanization": "zeppitsu; Mikan no zeppitsu ga shigo ni shuppan sareta. / Kono e wa gaka no zeppitsu to natta. / Byōshō de kakareta kono tegami ga, kare no zeppitsu to natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das unvollendete letzte Werk wurde posthum veröffentlicht. / Dieses Bild wurde zum letzten Werk des Malers. / Dieser am Krankenbett geschriebene Brief war das Letzte, was er schrieb.",
+        "contexts": [
+          "Posthumous publication",
+          "Painter's last painting",
+          "Final letter"
+        ],
+        "lexical": "JMdict 1721800 sense 1, noun: one's last writing, last work",
+        "register": "written / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1318 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Posthumous publication; Painter's last painting; Final letter), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3b13728c4e777a11c3e68869846acc53575a8590ec8fad865cc3b6424adfad09",
+        "approvalHash": "badb1faad3959b29d508437b8af285498e5041324864b568acf1669843531d53"
+      }
+    },
+    {
+      "id": "vocab-n1:1319",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1319",
+      "state": "accepted",
+      "predecessorHash": "8f212c1839b111ac0a40332119eb42020cef1e0244df622accaed2656d483d25",
+      "originalHash": "8f212c1839b111ac0a40332119eb42020cef1e0244df622accaed2656d483d25",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "遺稿を整理して遺族が出版した。",
+            "romaji": "Ikō o seiri shite izoku ga shuppan shita.",
+            "german": "Die Hinterbliebenen ordneten die nachgelassenen Manuskripte und veröffentlichten sie."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "遺稿 sind Manuskripte, die ein Verstorbener hinterlassen hat und die zu Lebzeiten unveröffentlicht blieben; gesammelt erscheinen sie als 遺稿集. Typisch: 遺稿を整理する, 遺稿が見つかる, 遺稿を出版する. Abzugrenzen: 遺作 „letztes Werk“ (auch Bilder, Filme), 絶筆 „das zuletzt Geschriebene“. Achtung, viele Homophone: 以降, 意向, 移行.",
+        "examples": [
+          {
+            "japanese": "遺稿を整理して遺族が出版した。",
+            "romaji": "Ikō o seiri shite izoku ga shuppan shita.",
+            "german": "Die Hinterbliebenen ordneten die nachgelassenen Manuskripte und veröffentlichten sie."
+          },
+          {
+            "japanese": "書斎から未発表の遺稿が見つかった。",
+            "romaji": "Shosai kara mihappyō no ikō ga mitsukatta.",
+            "german": "Im Arbeitszimmer wurde ein unveröffentlichtes Manuskript aus dem Nachlass gefunden."
+          },
+          {
+            "japanese": "没後、彼の遺稿集が刊行された。",
+            "romaji": "Botsugo, kare no ikōshū ga kankō sareta.",
+            "german": "Nach seinem Tod erschien eine Sammlung seiner nachgelassenen Schriften."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54254779",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遺稿/イコウ; lemma 遺稿; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遺稿",
+              "reading": "いこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遺稿/いこう \"nachgelassenes Manuskript\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1159190 sense 1, noun: posthumous manuscripts Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 遺稿 sind Manuskripte, die ein Verstorbener hinterlassen hat und die zu Lebzeiten unveröffentlicht blieben; gesammelt erscheinen sie als 遺稿集. Typisch: 遺稿を整理する, 遺稿が見つかる, 遺稿を出版する. Abzugrenzen: 遺作 „letztes Werk“ (auch Bilder, Filme), 絶筆 „das zuletzt Geschriebene“. Achtung, viele Homophone: 以降, 意向, 移行. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1159190; spelling=遺稿; reading=いこう",
+          "selected": {
+            "sequence": "1159190",
+            "spelling": "遺稿",
+            "reading": "いこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "posthumous manuscripts"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1159190 sense 1, noun: posthumous manuscripts"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 遺稿/イコウ; lemma 遺稿; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@54254779",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 遺稿/イコウ; lemma 遺稿; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "遺稿",
+              "reading": "いこう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 遺稿/いこう \"nachgelassenes Manuskript\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "nachgelassenes Manuskript. JMdict 1159190 sense 1, noun: posthumous manuscripts",
+        "japanese": "遺稿を整理して遺族が出版した。 / 書斎から未発表の遺稿が見つかった。 / 没後、彼の遺稿集が刊行された。",
+        "romanization": "ikō; Ikō o seiri shite izoku ga shuppan shita. / Shosai kara mihappyō no ikō ga mitsukatta. / Botsugo, kare no ikōshū ga kankō sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Hinterbliebenen ordneten die nachgelassenen Manuskripte und veröffentlichten sie. / Im Arbeitszimmer wurde ein unveröffentlichtes Manuskript aus dem Nachlass gefunden. / Nach seinem Tod erschien eine Sammlung seiner nachgelassenen Schriften.",
+        "contexts": [
+          "Family publishes papers",
+          "Discovery in the study",
+          "Posthumous collection"
+        ],
+        "lexical": "JMdict 1159190 sense 1, noun: posthumous manuscripts",
+        "register": "written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1319 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Family publishes papers; Discovery in the study; Posthumous collection), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "78837318fbf3db26e394aa0b25dfde936517c0db22f6ce639ea41c32fe738030",
+        "approvalHash": "75247bac70549d3b44b1689d21099a17f6a00c9be6e7b532adbfa21d729de7e2"
+      }
+    },
+    {
+      "id": "vocab-n1:1320",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1320",
+      "state": "accepted",
+      "predecessorHash": "10d7b43a4d4720b84ea820be51bb5f43c8455667bc557e506200a4ab29292558",
+      "originalHash": "10d7b43a4d4720b84ea820be51bb5f43c8455667bc557e506200a4ab29292558",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "スピーチの原稿を代筆してもらった。",
+            "romaji": "Supīchi no genkō o daihitsu shite moratta.",
+            "german": "Ich ließ mir das Redemanuskript von einem Ghostwriter schreiben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "代筆 bedeutet, etwas anstelle eines anderen zu schreiben: einen Brief für jemanden, der nicht schreiben kann, ein Formular oder eine Rede bzw. ein Buch als Ghostwriter. Transitiv: 手紙を代筆する; man bittet darum mit 代筆を頼む oder 代筆してもらう. Für das professionelle Ghostwriting sagt man auch ゴーストライター. Bei Unterschriften und offiziellen Dokumenten kann 代筆 rechtlich heikel sein.",
+        "examples": [
+          {
+            "japanese": "スピーチの原稿を代筆してもらった。",
+            "romaji": "Supīchi no genkō o daihitsu shite moratta.",
+            "german": "Ich ließ mir das Redemanuskript von einem Ghostwriter schreiben."
+          },
+          {
+            "japanese": "目の不自由な祖母に代わって、手紙を代筆した。",
+            "romaji": "Me no fujiyū na sobo ni kawatte, tegami o daihitsu shita.",
+            "german": "Ich habe für meine sehbehinderte Großmutter einen Brief geschrieben."
+          },
+          {
+            "japanese": "芸能人の自伝の多くは代筆だと言われている。",
+            "romaji": "Geinōjin no jiden no ōku wa daihitsu da to iwarete iru.",
+            "german": "Viele Autobiografien von Prominenten sollen von Ghostwritern stammen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166897795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 代筆/ダイヒツ; lemma 代筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "代筆",
+              "reading": "だいひつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 代筆/だいひつ \"Ghostwriting; stellvertretendes Schreiben\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1412160 sense 1, noun / suru verb: writing on someone's behalf, ghostwriting Pitch: Verified [0] via exact UniDic row. 代筆 bedeutet, etwas anstelle eines anderen zu schreiben: einen Brief für jemanden, der nicht schreiben kann, ein Formular oder eine Rede bzw. ein Buch als Ghostwriter. Transitiv: 手紙を代筆する; man bittet darum mit 代筆を頼む oder 代筆してもらう. Für das professionelle Ghostwriting sagt man auch ゴーストライター. Bei Unterschriften und offiziellen Dokumenten kann 代筆 rechtlich heikel sein. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1412160; spelling=代筆; reading=だいひつ",
+          "selected": {
+            "sequence": "1412160",
+            "spelling": "代筆",
+            "reading": "だいひつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "writing on someone's behalf"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1412160 sense 1, noun / suru verb: writing on someone's behalf, ghostwriting"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 代筆/ダイヒツ; lemma 代筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166897795",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 代筆/ダイヒツ; lemma 代筆; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "代筆",
+              "reading": "だいひつ",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 代筆/だいひつ \"Ghostwriting; stellvertretendes Schreiben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ghostwriting; stellvertretendes Schreiben. JMdict 1412160 sense 1, noun / suru verb: writing on someone's behalf, ghostwriting",
+        "japanese": "スピーチの原稿を代筆してもらった。 / 目の不自由な祖母に代わって、手紙を代筆した。 / 芸能人の自伝の多くは代筆だと言われている。",
+        "romanization": "daihitsu; Supīchi no genkō o daihitsu shite moratta. / Me no fujiyū na sobo ni kawatte, tegami o daihitsu shita. / Geinōjin no jiden no ōku wa daihitsu da to iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich ließ mir das Redemanuskript von einem Ghostwriter schreiben. / Ich habe für meine sehbehinderte Großmutter einen Brief geschrieben. / Viele Autobiografien von Prominenten sollen von Ghostwritern stammen.",
+        "contexts": [
+          "Speech writing",
+          "Helping a relative",
+          "Celebrity memoirs"
+        ],
+        "lexical": "JMdict 1412160 sense 1, noun / suru verb: writing on someone's behalf, ghostwriting",
+        "register": "neutral",
+        "transitivity": "transitive as 代筆する (手紙を代筆する)",
+        "conjugation": "noun; suru verb (代筆する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1320 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Speech writing; Helping a relative; Celebrity memoirs), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3f5c52624c72358ad97bb7860533bafc9f5312743c4a82b870471a3bcab839b8",
+        "approvalHash": "30b5d4789285f8ad9decd45948f8e20dc5527313219dce448f5801c3549ff9f7"
+      }
+    },
+    {
+      "id": "vocab-n1:1321",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1321",
+      "state": "accepted",
+      "predecessorHash": "650eb65786b2cb389bde97cbf20087778c649728b1ef4fcc44d8efb792fd9f33",
+      "originalHash": "650eb65786b2cb389bde97cbf20087778c649728b1ef4fcc44d8efb792fd9f33",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "詩の末尾で韻を踏むことで音楽的な効果が生まれる。",
+            "romaji": "Shi no matsubi de in o fumu koto de ongaku-teki na kōka ga umareru.",
+            "german": "Durch das Reimen am Versende entsteht ein musikalischer Effekt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "韻 ist der Reim und kommt fast immer in der festen Wendung 韻を踏む „reimen“ vor; das Fachwort dafür ist 押韻. In der chinesischen Phonologie bezeichnet 韻 außerdem den Reimauslaut eines Schriftzeichens, nach dem Zeichen in Reimklassen eingeteilt werden – wichtig für 漢詩. In Zusammensetzungen steht 韻 auch für Nachklang oder Stimmung: 余韻 „Nachklang“, 韻律 „Versmaß“.",
+        "examples": [
+          {
+            "japanese": "詩の末尾で韻を踏むことで音楽的な効果が生まれる。",
+            "romaji": "Shi no matsubi de in o fumu koto de ongaku-teki na kōka ga umareru.",
+            "german": "Durch das Reimen am Versende entsteht ein musikalischer Effekt."
+          },
+          {
+            "japanese": "この歌詞は韻を踏んでいて覚えやすい。",
+            "romaji": "Kono kashi wa in o funde ite oboeyasui.",
+            "german": "Der Liedtext reimt sich und ist daher leicht zu merken."
+          },
+          {
+            "japanese": "漢詩では、同じ韻の漢字を句末に置く。",
+            "romaji": "Kanshi de wa, onaji in no kanji o kumatsu ni oku.",
+            "german": "In chinesischen Gedichten setzt man Zeichen derselben Reimklasse ans Versende."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59233451",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 韻/イン; lemma 韻; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "韻",
+              "reading": "いん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 韻/いん \"Reim; Klangharmonie\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1170930 senses 1–2, noun: rhyme; rime (of a Chinese character) Pitch: Verified [0] via exact UniDic row; stored primary 1 corrected to 0. 韻 ist der Reim und kommt fast immer in der festen Wendung 韻を踏む „reimen“ vor; das Fachwort dafür ist 押韻. In der chinesischen Phonologie bezeichnet 韻 außerdem den Reimauslaut eines Schriftzeichens, nach dem Zeichen in Reimklassen eingeteilt werden – wichtig für 漢詩. In Zusammensetzungen steht 韻 auch für Nachklang oder Stimmung: 余韻 „Nachklang“, 韻律 „Versmaß“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1170930; spelling=韻; reading=いん",
+          "selected": {
+            "sequence": "1170930",
+            "spelling": "韻",
+            "reading": "いん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rhyme"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "rhyme (of a Chinese character)",
+                  "rime"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1170930 senses 1–2, noun: rhyme; rime (of a Chinese character)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 韻/イン; lemma 韻; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59233451",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 韻/イン; lemma 韻; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "韻",
+              "reading": "いん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 韻/いん \"Reim; Klangharmonie\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Reim; Klangharmonie. JMdict 1170930 senses 1–2, noun: rhyme; rime (of a Chinese character)",
+        "japanese": "詩の末尾で韻を踏むことで音楽的な効果が生まれる。 / この歌詞は韻を踏んでいて覚えやすい。 / 漢詩では、同じ韻の漢字を句末に置く。",
+        "romanization": "in; Shi no matsubi de in o fumu koto de ongaku-teki na kōka ga umareru. / Kono kashi wa in o funde ite oboeyasui. / Kanshi de wa, onaji in no kanji o kumatsu ni oku. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch das Reimen am Versende entsteht ein musikalischer Effekt. / Der Liedtext reimt sich und ist daher leicht zu merken. / In chinesischen Gedichten setzt man Zeichen derselben Reimklasse ans Versende.",
+        "contexts": [
+          "Poetic effect",
+          "Catchy lyrics",
+          "Chinese verse rules"
+        ],
+        "lexical": "JMdict 1170930 senses 1–2, noun: rhyme; rime (of a Chinese character)",
+        "register": "neutral to written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1321 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Poetic effect; Catchy lyrics; Chinese verse rules), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "934c389fe5600c762f4070a3e183c7d81deda029a8a04873045699efda8ace28",
+        "approvalHash": "08853d6dbab0a686105f748e1a689d51b33919265fc5221b1db3268e9d067635"
+      }
+    },
+    {
+      "id": "vocab-n1:1322",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1322",
+      "state": "accepted",
+      "predecessorHash": "49d5c70ce081fd906a71954db107304bf4f289aa91788b60126d6878016a7510",
+      "originalHash": "49d5c70ce081fd906a71954db107304bf4f289aa91788b60126d6878016a7510",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "日本文学史の講義を受講している。",
+            "romaji": "Nihon bungakushi no kōgi o jukō shite iru.",
+            "german": "Ich besuche eine Vorlesung über japanische Literaturgeschichte."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文学史 ist die Geschichte der Literatur als Fach und als Darstellung: 日本文学史, 文学史の講義, 文学史の教科書. Eine häufige Wendung ist 文学史に残る „in die Literaturgeschichte eingehen“ bzw. 文学史に名を残す. Das Wort ist neutral und schulsprachlich vertraut; im Japanischunterricht in Japan lernt man im Fach 文学史 Autoren, Werke und Epochen.",
+        "examples": [
+          {
+            "japanese": "日本文学史の講義を受講している。",
+            "romaji": "Nihon bungakushi no kōgi o jukō shite iru.",
+            "german": "Ich besuche eine Vorlesung über japanische Literaturgeschichte."
+          },
+          {
+            "japanese": "この作品は文学史に残る傑作だ。",
+            "romaji": "Kono sakuhin wa bungakushi ni nokoru kessaku da.",
+            "german": "Dieses Werk ist ein Meisterwerk, das in die Literaturgeschichte eingehen wird."
+          },
+          {
+            "japanese": "文学史の教科書で、作家と作品名を覚えた。",
+            "romaji": "Bungakushi no kyōkasho de, sakka to sakuhin-mei o oboeta.",
+            "german": "Mit dem Literaturgeschichtsbuch habe ich Autoren und Werktitel gelernt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1505210 sense 1, noun: literary history, history of literature Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 文学史 ist die Geschichte der Literatur als Fach und als Darstellung: 日本文学史, 文学史の講義, 文学史の教科書. Eine häufige Wendung ist 文学史に残る „in die Literaturgeschichte eingehen“ bzw. 文学史に名を残す. Das Wort ist neutral und schulsprachlich vertraut; im Japanischunterricht in Japan lernt man im Fach 文学史 Autoren, Werke und Epochen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505210; spelling=文学史; reading=ぶんがくし",
+          "selected": {
+            "sequence": "1505210",
+            "spelling": "文学史",
+            "reading": "ぶんがくし",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literary history",
+                  "history of literature"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505210 sense 1, noun: literary history, history of literature"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 文学史/ぶんがくし scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%96%87%E5%AD%A6%E5%8F%B2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 文学史/ぶんがくし scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Literaturgeschichte. JMdict 1505210 sense 1, noun: literary history, history of literature",
+        "japanese": "日本文学史の講義を受講している。 / この作品は文学史に残る傑作だ。 / 文学史の教科書で、作家と作品名を覚えた。",
+        "romanization": "bungakushi; Nihon bungakushi no kōgi o jukō shite iru. / Kono sakuhin wa bungakushi ni nokoru kessaku da. / Bungakushi no kyōkasho de, sakka to sakuhin-mei o oboeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich besuche eine Vorlesung über japanische Literaturgeschichte. / Dieses Werk ist ein Meisterwerk, das in die Literaturgeschichte eingehen wird. / Mit dem Literaturgeschichtsbuch habe ich Autoren und Werktitel gelernt.",
+        "contexts": [
+          "University lecture",
+          "Lasting masterpiece",
+          "Exam preparation"
+        ],
+        "lexical": "JMdict 1505210 sense 1, noun: literary history, history of literature",
+        "register": "neutral / academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1322 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (University lecture; Lasting masterpiece; Exam preparation), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "bce9ae72b914f2bf71c3e01e416c9af106bd7af78fa4b1c86adacf6549abfaee",
+        "approvalHash": "2331e1b47a0ea4f907536c456b24cab0990ab0c5c5767e61bc81e12446383623"
+      }
+    },
+    {
+      "id": "vocab-n1:1323",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1323",
+      "state": "accepted",
+      "predecessorHash": "6abb2ac6ec9f607aea426fe6b8967212d1e8e306a48dce0555e83b49890336a0",
+      "originalHash": "6abb2ac6ec9f607aea426fe6b8967212d1e8e306a48dce0555e83b49890336a0",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "文芸批評の手法を学ぶことで作品理解が深まる。",
+            "romaji": "Bungei hihyō no shuhō o manabu koto de sakuhin rikai ga fukamaru.",
+            "german": "Durch das Erlernen literaturkritischer Methoden vertieft sich das Werkverständnis."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文芸批評 ist die Literaturkritik als Disziplin und als Textform, die Werke deutet und bewertet. Gleichbedeutend und heute etwas häufiger ist 文芸評論; wer sie schreibt, ist 批評家 bzw. 評論家. Die Besprechung einer einzelnen Neuerscheinung heißt dagegen 書評 „Buchrezension“. Typisch: 文芸批評の手法, 文芸批評を書く, 〜の文芸批評で知られる.",
+        "examples": [
+          {
+            "japanese": "文芸批評の手法を学ぶことで作品理解が深まる。",
+            "romaji": "Bungei hihyō no shuhō o manabu koto de sakuhin rikai ga fukamaru.",
+            "german": "Durch das Erlernen literaturkritischer Methoden vertieft sich das Werkverständnis."
+          },
+          {
+            "japanese": "彼は小説家であると同時に、鋭い文芸批評でも知られる。",
+            "romaji": "Kare wa shōsetsuka de aru to dōji ni, surudoi bungei hihyō de mo shirareru.",
+            "german": "Er ist Romancier und zugleich für seine scharfsinnige Literaturkritik bekannt."
+          },
+          {
+            "japanese": "その文芸批評は、作品を社会の問題と結びつけて論じている。",
+            "romaji": "Sono bungei hihyō wa, sakuhin o shakai no mondai to musubitsukete ronjite iru.",
+            "german": "Diese Kritik deutet das Werk im Zusammenhang mit gesellschaftlichen Problemen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1505300 sense 1, noun: literary criticism Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 文芸批評 ist die Literaturkritik als Disziplin und als Textform, die Werke deutet und bewertet. Gleichbedeutend und heute etwas häufiger ist 文芸評論; wer sie schreibt, ist 批評家 bzw. 評論家. Die Besprechung einer einzelnen Neuerscheinung heißt dagegen 書評 „Buchrezension“. Typisch: 文芸批評の手法, 文芸批評を書く, 〜の文芸批評で知られる. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505300; spelling=文芸批評; reading=ぶんげいひひょう",
+          "selected": {
+            "sequence": "1505300",
+            "spelling": "文芸批評",
+            "reading": "ぶんげいひひょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "literary criticism",
+                  "book review"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505300 sense 1, noun: literary criticism"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 文芸批評/ぶんげいひひょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%96%87%E8%8A%B8%E6%89%B9%E8%A9%95",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 文芸批評/ぶんげいひひょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Literaturkritik. JMdict 1505300 sense 1, noun: literary criticism",
+        "japanese": "文芸批評の手法を学ぶことで作品理解が深まる。 / 彼は小説家であると同時に、鋭い文芸批評でも知られる。 / その文芸批評は、作品を社会の問題と結びつけて論じている。",
+        "romanization": "bungei hihyō; Bungei hihyō no shuhō o manabu koto de sakuhin rikai ga fukamaru. / Kare wa shōsetsuka de aru to dōji ni, surudoi bungei hihyō de mo shirareru. / Sono bungei hihyō wa, sakuhin o shakai no mondai to musubitsukete ronjite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch das Erlernen literaturkritischer Methoden vertieft sich das Werkverständnis. / Er ist Romancier und zugleich für seine scharfsinnige Literaturkritik bekannt. / Diese Kritik deutet das Werk im Zusammenhang mit gesellschaftlichen Problemen.",
+        "contexts": [
+          "Studying methods",
+          "Novelist and critic",
+          "Socially oriented reading"
+        ],
+        "lexical": "JMdict 1505300 sense 1, noun: literary criticism",
+        "register": "academic",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1323 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Studying methods; Novelist and critic; Socially oriented reading), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "8aa166a70600979d682ecf2b27a7b50eaf44c9ec358863e5f386f8b89191bf02",
+        "approvalHash": "df19081e396ec2116cab5cdcb7d77ca5c814dabe3b6a0431ed5d7a8ed9a5dff2"
+      }
+    },
+    {
+      "id": "vocab-n1:1324",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1324",
+      "state": "accepted",
+      "predecessorHash": "7841de232bb27ac7c446ae9027a6e66c2bc55de4367a8730168a0f379b50956f",
+      "originalHash": "7841de232bb27ac7c446ae9027a6e66c2bc55de4367a8730168a0f379b50956f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "文脈から単語の意味を推測する。",
+            "romaji": "Bunmyaku kara tango no imi o suisoku suru.",
+            "german": "Aus dem Kontext erschließt man die Bedeutung des Wortes."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "文脈 ist zunächst der sprachliche Zusammenhang eines Textes: 文脈から意味を推測する, 文脈に合わない. Im weiteren Sinn bedeutet es den Hintergrund oder die Umstände einer Sache: 歴史的な文脈, 〜という文脈で語られる. Eine häufige Kritik lautet 文脈を無視して切り取る „aus dem Zusammenhang reißen“. Bedeutungsnah sind コンテキスト, 前後関係 und 脈絡 (eher „logischer Zusammenhang“: 脈絡のない話).",
+        "examples": [
+          {
+            "japanese": "文脈から単語の意味を推測する。",
+            "romaji": "Bunmyaku kara tango no imi o suisoku suru.",
+            "german": "Aus dem Kontext erschließt man die Bedeutung des Wortes."
+          },
+          {
+            "japanese": "その発言は文脈を無視して切り取られた。",
+            "romaji": "Sono hatsugen wa bunmyaku o mushi shite kiritorareta.",
+            "german": "Die Äußerung wurde aus dem Zusammenhang gerissen."
+          },
+          {
+            "japanese": "日本の外交を歴史的な文脈の中で考える。",
+            "romaji": "Nihon no gaikō o rekishi-teki na bunmyaku no naka de kangaeru.",
+            "german": "Man betrachtet die japanische Außenpolitik im historischen Kontext."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240226792",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文脈/ブンミャク; lemma 文脈; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文脈",
+              "reading": "ぶんみゃく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文脈/ぶんみゃく \"Kontext; Zusammenhang\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1505630 senses 1–2, noun: context of a passage; context, background of a matter Pitch: Verified [0] via exact UniDic row. 文脈 ist zunächst der sprachliche Zusammenhang eines Textes: 文脈から意味を推測する, 文脈に合わない. Im weiteren Sinn bedeutet es den Hintergrund oder die Umstände einer Sache: 歴史的な文脈, 〜という文脈で語られる. Eine häufige Kritik lautet 文脈を無視して切り取る „aus dem Zusammenhang reißen“. Bedeutungsnah sind コンテキスト, 前後関係 und 脈絡 (eher „logischer Zusammenhang“: 脈絡のない話). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1505630; spelling=文脈; reading=ぶんみゃく",
+          "selected": {
+            "sequence": "1505630",
+            "spelling": "文脈",
+            "reading": "ぶんみゃく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "context (of a passage)",
+                  "line of thought"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "context (of a matter, event, etc.)",
+                  "circumstances",
+                  "background"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1505630 senses 1–2, noun: context of a passage; context, background of a matter"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 文脈/ブンミャク; lemma 文脈; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@240226792",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 文脈/ブンミャク; lemma 文脈; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "文脈",
+              "reading": "ぶんみゃく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 文脈/ぶんみゃく \"Kontext; Zusammenhang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kontext; Zusammenhang. JMdict 1505630 senses 1–2, noun: context of a passage; context, background of a matter",
+        "japanese": "文脈から単語の意味を推測する。 / その発言は文脈を無視して切り取られた。 / 日本の外交を歴史的な文脈の中で考える。",
+        "romanization": "bunmyaku; Bunmyaku kara tango no imi o suisoku suru. / Sono hatsugen wa bunmyaku o mushi shite kiritorareta. / Nihon no gaikō o rekishi-teki na bunmyaku no naka de kangaeru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aus dem Kontext erschließt man die Bedeutung des Wortes. / Die Äußerung wurde aus dem Zusammenhang gerissen. / Man betrachtet die japanische Außenpolitik im historischen Kontext.",
+        "contexts": [
+          "Reading strategy",
+          "Media quote out of context",
+          "Historical analysis"
+        ],
+        "lexical": "JMdict 1505630 senses 1–2, noun: context of a passage; context, background of a matter",
+        "register": "neutral / written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1324 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Reading strategy; Media quote out of context; Historical analysis), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f95db8df93827e0a7e4d3deefac1b5f09e91f8079b3cbcbc8d4b9b898e097a2f",
+        "approvalHash": "d3b3dc8561c9bdf5a604039f0d27ca0077054e8e02256e1a44a3ff2bba2e1dff"
+      }
+    },
+    {
+      "id": "vocab-n1:1325",
+      "revisionId": "210h-n1-enrichment-vocab-n1-1325",
+      "state": "accepted",
+      "predecessorHash": "84233c6a3d0e659250091c8cc2519746d12e7835fee49e2eac2dc6aa04041ef3",
+      "originalHash": "84233c6a3d0e659250091c8cc2519746d12e7835fee49e2eac2dc6aa04041ef3",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "含蓄のある言葉に心を打たれた。",
+            "romaji": "Ganchiku no aru kotoba ni kokoro o utareta.",
+            "german": "Die tiefgründigen Worte berührten mich zutiefst."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "含蓄 ist der tiefere, nicht ausgesprochene Gehalt von Worten oder Texten – das, was zwischen den Zeilen mitschwingt. Es ist positiv und steht fast immer in festen Verbindungen: 含蓄のある言葉 „vielsagende, gehaltvolle Worte“, 含蓄に富む, 含蓄が深い. Abzugrenzen ist 含み (含みのある言い方), das eher eine versteckte Absicht oder Andeutung meint. Das Wort ist schriftsprachlich und gehoben.",
+        "examples": [
+          {
+            "japanese": "含蓄のある言葉に心を打たれた。",
+            "romaji": "Ganchiku no aru kotoba ni kokoro o utareta.",
+            "german": "Die tiefgründigen Worte berührten mich zutiefst."
+          },
+          {
+            "japanese": "祖父の言葉は短いが含蓄に富んでいる。",
+            "romaji": "Sofu no kotoba wa mijikai ga ganchiku ni tonde iru.",
+            "german": "Großvaters Worte sind kurz, aber voller Bedeutung."
+          },
+          {
+            "japanese": "この詩は一見単純だが、含蓄が深い。",
+            "romaji": "Kono shi wa ikken tanjun da ga, ganchiku ga fukai.",
+            "german": "Dieses Gedicht wirkt auf den ersten Blick einfach, hat aber großen Tiefgang."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101811658",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 含蓄/ガンチク; lemma 含蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "含蓄",
+              "reading": "がんちく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 含蓄/がんちく \"Tiefgründigkeit; verborgener Sinn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1216950 sense 1, noun: implication, depth of meaning, significance Pitch: Verified [0] via exact UniDic row. 含蓄 ist der tiefere, nicht ausgesprochene Gehalt von Worten oder Texten – das, was zwischen den Zeilen mitschwingt. Es ist positiv und steht fast immer in festen Verbindungen: 含蓄のある言葉 „vielsagende, gehaltvolle Worte“, 含蓄に富む, 含蓄が深い. Abzugrenzen ist 含み (含みのある言い方), das eher eine versteckte Absicht oder Andeutung meint. Das Wort ist schriftsprachlich und gehoben. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1216950; spelling=含蓄; reading=がんちく",
+          "selected": {
+            "sequence": "1216950",
+            "spelling": "含蓄",
+            "reading": "がんちく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru"
+                ],
+                "misc": [],
+                "gloss": [
+                  "implication",
+                  "significance",
+                  "connotation",
+                  "depth of meaning",
+                  "complications of a problem"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1216950 sense 1, noun: implication, depth of meaning, significance"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 含蓄/ガンチク; lemma 含蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@101811658",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 含蓄/ガンチク; lemma 含蓄; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "含蓄",
+              "reading": "がんちく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 含蓄/がんちく \"Tiefgründigkeit; verborgener Sinn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "reviewedDistinctContexts": true,
+        "meaning": "Tiefgründigkeit; verborgener Sinn. JMdict 1216950 sense 1, noun: implication, depth of meaning, significance",
+        "japanese": "含蓄のある言葉に心を打たれた。 / 祖父の言葉は短いが含蓄に富んでいる。 / この詩は一見単純だが、含蓄が深い。",
+        "romanization": "ganchiku; Ganchiku no aru kotoba ni kokoro o utareta. / Sofu no kotoba wa mijikai ga ganchiku ni tonde iru. / Kono shi wa ikken tanjun da ga, ganchiku ga fukai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die tiefgründigen Worte berührten mich zutiefst. / Großvaters Worte sind kurz, aber voller Bedeutung. / Dieses Gedicht wirkt auf den ersten Blick einfach, hat aber großen Tiefgang.",
+        "contexts": [
+          "Moving words",
+          "Grandfather's wisdom",
+          "Interpreting a poem"
+        ],
+        "lexical": "JMdict 1216950 sense 1, noun: implication, depth of meaning, significance",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-210",
+        "finding": "Author reread the exact final card vocab-n1:1325 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Moving words; Grandfather's wisdom; Interpreting a poem), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fe35999e65b19aa952f7dd1158af955d3389f45d87cb696891bc709604d74e99",
+        "approvalHash": "a4e69d28fb0edfdd082f41a19be05ad674535780dff67c47123ebfbf4f8adaa7"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}

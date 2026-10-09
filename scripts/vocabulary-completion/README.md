@@ -691,6 +691,23 @@ drill excluded because JMdict does not attest it with the reading あわれむ. 
 idioms:229 is renewed. Flagged but kept: 改閣 and 立件送致 are no established words, 早出料 is
 read はやでりょう in shipping, 懺悔 is usually ざんげ, 拘引/勾引 and 保持/保持する are duplicates.
 No accepted decision became stale. N1 now has 2,999 pending reviews and 342 open references.
+**Second N1 checkpoint (9 October 2026).** Batches 209a–209j, 210a–210j, 211a–211j and 212a–212j
+enrich the next 1,000 N1 entries (vocab-n1:858–1917): engineering, medicine, science, education,
+publishing, linguistics, literature, religion and the arts. Each now has a German usage note and
+2–3 examples in distinct situations: 2,007 new sentences, and 70 entries had original examples
+corrected, e.g. 結核菌 called a disease, 書院 as Edo-period schools (those were 藩校, 私塾 and
+寺子屋), 祝詞 called a ritual, 口語体 glossed as slang, plus romaji such as 百八つ hyakuyattsu
+and 現世利益 genze riyaku. Pitch is verified for 712 entries, all from exact UniDic rows; 116
+stored primary accents are corrected and 288 stored values without an exact attestation become
+investigated unknowns. 103 German meanings are corrected, e.g. 清音 „Silbe ohne Dakuten“ (not
+„stimmloser Laut“, since な and ま count as 清音), 学力 „schulisches Leistungsniveau“ (not
+„Lernfähigkeit“), 口語体 „moderner Schriftstil“, 宗派 „Konfession“ (not „Sekte“) and 舞踏 with its
+main sense „Tanz“. 良性, 悪性, 先天性, 後天性, 抗炎症 and 即身成仏 become Nomen; 絶縁 and 浸潤 get
+the romaji zetsuen and shinjun. 19 compounds without their own JMdict entry (膠質浸透圧, 光電効果,
+意志形 …) record the complete JMdict scan instead of a sequence. Flagged but kept: 醗酵 is a dated
+spelling of 発酵, 三次元印刷 and 陽電子断層撮影 are rare or shortened terms, 啓く survives only in
+蒙を啓く, 窮める is a rare spelling, and 緩和ケア stores its reading in hiragana. No accepted
+decision became stale. N1 now has 1,999 pending reviews and 342 open references.
 
 ## Historical campaign freeze
 

@@ -1,0 +1,3528 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:1093",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1093",
+      "state": "accepted",
+      "predecessorHash": "7939961a2eecda9bc45dad4cdfca1a32032c7a2b713a03aa208859c12463b5aa",
+      "originalHash": "7939961a2eecda9bc45dad4cdfca1a32032c7a2b713a03aa208859c12463b5aa",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "椎間板ヘルニアは腰痛の主要な原因の一つである。",
+            "romaji": "Tsuikanban herunia wa yōtsū no shuyō na gen'in no hitotsu de aru.",
+            "german": "Ein Bandscheibenvorfall ist eine der Hauptursachen für Rückenschmerzen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "椎間板 ist die „Bandscheibe“ zwischen zwei Wirbeln (椎 „Wirbel“ + 間 „zwischen“ + 板 „Platte“). Mit Abstand am häufigsten begegnet es in 椎間板ヘルニア „Bandscheibenvorfall“, im Alltag oft kurz ヘルニア genannt. Weitere Verbindungen: 腰椎の椎間板 „Bandscheibe der Lendenwirbelsäule“, 椎間板がすり減る/つぶれる. Das Wort ist medizinisch, aber Patienten mit Rückenproblemen kennen es gut.",
+        "examples": [
+          {
+            "japanese": "椎間板ヘルニアは腰痛の主要な原因の一つである。",
+            "romaji": "Tsuikanban herunia wa yōtsū no shuyō na gen'in no hitotsu de aru.",
+            "german": "Ein Bandscheibenvorfall ist eine der Hauptursachen für Rückenschmerzen."
+          },
+          {
+            "japanese": "重い荷物を持ち上げた時に、腰の椎間板を痛めてしまった。",
+            "romaji": "Omoi nimotsu o mochiageta toki ni, koshi no tsuikanban o itamete shimatta.",
+            "german": "Beim Heben einer schweren Last habe ich mir die Bandscheibe im unteren Rücken verletzt."
+          },
+          {
+            "japanese": "MRIで見ると、椎間板が少しつぶれているのが分かります。",
+            "romaji": "Emu-āru-ai de miru to, tsuikanban ga sukoshi tsuburete iru no ga wakarimasu.",
+            "german": "Im MRT sieht man, dass die Bandscheibe etwas zusammengedrückt ist."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1713070 sense 1, noun: intervertebral disk Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 椎間板 ist die „Bandscheibe“ zwischen zwei Wirbeln (椎 „Wirbel“ + 間 „zwischen“ + 板 „Platte“). Mit Abstand am häufigsten begegnet es in 椎間板ヘルニア „Bandscheibenvorfall“, im Alltag oft kurz ヘルニア genannt. Weitere Verbindungen: 腰椎の椎間板 „Bandscheibe der Lendenwirbelsäule“, 椎間板がすり減る/つぶれる. Das Wort ist medizinisch, aber Patienten mit Rückenproblemen kennen es gut. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1713070; spelling=椎間板; reading=ついかんばん",
+          "selected": {
+            "sequence": "1713070",
+            "spelling": "椎間板",
+            "reading": "ついかんばん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "intervertebral disk"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1713070 sense 1, noun: intervertebral disk"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 椎間板/ついかんばん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A4%8E%E9%96%93%E6%9D%BF",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 椎間板/ついかんばん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bandscheibe. JMdict 1713070 sense 1, noun: intervertebral disk",
+        "japanese": "椎間板ヘルニアは腰痛の主要な原因の一つである。 / 重い荷物を持ち上げた時に、腰の椎間板を痛めてしまった。 / MRIで見ると、椎間板が少しつぶれているのが分かります。",
+        "romanization": "tsuikanban; Tsuikanban herunia wa yōtsū no shuyō na gen'in no hitotsu de aru. / Omoi nimotsu o mochiageta toki ni, koshi no tsuikanban o itamete shimatta. / Emu-āru-ai de miru to, tsuikanban ga sukoshi tsuburete iru no ga wakarimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein Bandscheibenvorfall ist eine der Hauptursachen für Rückenschmerzen. / Beim Heben einer schweren Last habe ich mir die Bandscheibe im unteren Rücken verletzt. / Im MRT sieht man, dass die Bandscheibe etwas zusammengedrückt ist.",
+        "contexts": [
+          "Causes of back pain",
+          "Lifting something heavy",
+          "Doctor showing an MRI"
+        ],
+        "lexical": "JMdict 1713070 sense 1, noun: intervertebral disk",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1093 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Causes of back pain; Lifting something heavy; Doctor showing an MRI), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "50cb342a0311e96144e9521a5557060c7b80d4b693a8d21a2d8623e5a25896d8",
+        "approvalHash": "ae44d7ec06d7b61ab346709a2a7bbca43786b1fa85eb1a58fb2f4136a4ef450f"
+      }
+    },
+    {
+      "id": "vocab-n1:1094",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1094",
+      "state": "accepted",
+      "predecessorHash": "9001dafc4c7de80a084325f77956d86c31441117590f5ea22ba6d24aa6406304",
+      "originalHash": "9001dafc4c7de80a084325f77956d86c31441117590f5ea22ba6d24aa6406304",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "骨粗鬆症は骨密度の低下によって骨折リスクが高まる疾患である。",
+            "romaji": "Kotsusoshōshō wa kotsumitsudo no teika ni yotte kossetsu risuku ga takamaru shikkan de aru.",
+            "german": "Osteoporose ist eine Erkrankung, bei der durch Abnahme der Knochendichte das Frakturrisiko steigt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "骨粗鬆症 ist „Osteoporose“, wörtlich „Krankheit der grob (粗) und locker (鬆) werdenden Knochen“. Weil 鬆 kein Alltagskanji ist, schreiben Medien und Broschüren meist 骨粗しょう症. Typische Verbindungen: 骨粗鬆症になる, 骨粗鬆症を予防する, 骨粗鬆症による骨折. Eng verbunden mit 骨密度 „Knochendichte“; besonders Frauen nach den Wechseljahren (閉経後) sind betroffen.",
+        "examples": [
+          {
+            "japanese": "骨粗鬆症は骨密度の低下によって骨折リスクが高まる疾患である。",
+            "romaji": "Kotsusoshōshō wa kotsumitsudo no teika ni yotte kossetsu risuku ga takamaru shikkan de aru.",
+            "german": "Osteoporose ist eine Erkrankung, bei der durch Abnahme der Knochendichte das Frakturrisiko steigt."
+          },
+          {
+            "japanese": "祖母は骨粗鬆症で、転んだだけで足の骨が折れた。",
+            "romaji": "Sobo wa kotsusoshōshō de, koronda dake de ashi no hone ga oreta.",
+            "german": "Meine Großmutter hat Osteoporose, und schon bei einem einfachen Sturz brach sie sich das Bein."
+          },
+          {
+            "japanese": "骨粗鬆症を予防するには、カルシウムと適度な運動が大切だ。",
+            "romaji": "Kotsusoshōshō o yobō suru ni wa, karushiumu to tekido na undō ga taisetsu da.",
+            "german": "Um Osteoporose vorzubeugen, sind Calcium und maßvolle Bewegung wichtig."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1288660 sense 1, noun: osteoporosis Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 骨粗鬆症 ist „Osteoporose“, wörtlich „Krankheit der grob (粗) und locker (鬆) werdenden Knochen“. Weil 鬆 kein Alltagskanji ist, schreiben Medien und Broschüren meist 骨粗しょう症. Typische Verbindungen: 骨粗鬆症になる, 骨粗鬆症を予防する, 骨粗鬆症による骨折. Eng verbunden mit 骨密度 „Knochendichte“; besonders Frauen nach den Wechseljahren (閉経後) sind betroffen. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1288660; spelling=骨粗鬆症; reading=こつそしょうしょう",
+          "selected": {
+            "sequence": "1288660",
+            "spelling": "骨粗鬆症",
+            "reading": "こつそしょうしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "osteoporosis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1288660 sense 1, noun: osteoporosis"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 骨粗鬆症/こつそしょうしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%AA%A8%E7%B2%97%E9%AC%86%E7%97%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 骨粗鬆症/こつそしょうしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Osteoporose. JMdict 1288660 sense 1, noun: osteoporosis",
+        "japanese": "骨粗鬆症は骨密度の低下によって骨折リスクが高まる疾患である。 / 祖母は骨粗鬆症で、転んだだけで足の骨が折れた。 / 骨粗鬆症を予防するには、カルシウムと適度な運動が大切だ。",
+        "romanization": "kotsusoshōshō; Kotsusoshōshō wa kotsumitsudo no teika ni yotte kossetsu risuku ga takamaru shikkan de aru. / Sobo wa kotsusoshōshō de, koronda dake de ashi no hone ga oreta. / Kotsusoshōshō o yobō suru ni wa, karushiumu to tekido na undō ga taisetsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Osteoporose ist eine Erkrankung, bei der durch Abnahme der Knochendichte das Frakturrisiko steigt. / Meine Großmutter hat Osteoporose, und schon bei einem einfachen Sturz brach sie sich das Bein. / Um Osteoporose vorzubeugen, sind Calcium und maßvolle Bewegung wichtig.",
+        "contexts": [
+          "Medical definition",
+          "Grandmother's fracture",
+          "Prevention advice"
+        ],
+        "lexical": "JMdict 1288660 sense 1, noun: osteoporosis",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1094 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Medical definition; Grandmother's fracture; Prevention advice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "48691f1b497abe9375661294e56e79191b052e25e22dd468f741dd244937024c",
+        "approvalHash": "f92f705e1fde0b82064d6b92ea92ff56f0414fbe512713ad1cb0ac3a0c9c1537"
+      }
+    },
+    {
+      "id": "vocab-n1:1095",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1095",
+      "state": "accepted",
+      "predecessorHash": "500ef4f054ae3120482909be4a4350ebb3a86df85d618da1fda6ce0ac5900ea9",
+      "originalHash": "500ef4f054ae3120482909be4a4350ebb3a86df85d618da1fda6ce0ac5900ea9",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高脂血症は心血管疾患のリスクを増大させる。",
+            "romaji": "Kōshiketsushō wa shin kekkan shikkan no risuku o zōdai saseru.",
+            "german": "Hyperlipidämie erhöht das Risiko von Herz-Kreislauf-Erkrankungen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "高脂血症 ist die „Hyperlipidämie“, also zu hohe Blutfettwerte (高 „hoch“ + 脂 „Fett“ + 血 „Blut“ + 症 „Krankheit“). In den japanischen Leitlinien wurde der Begriff 2007 weitgehend durch 脂質異常症 „Dyslipidämie“ ersetzt, im Alltag und bei Patienten ist 高脂血症 aber weiterhin verbreitet. Typisch in einer Reihe mit 高血圧 und 糖尿病 als 生活習慣病 „Zivilisationskrankheiten“. Umgangssprachlich sagt man oft einfach コレステロールが高い.",
+        "examples": [
+          {
+            "japanese": "高脂血症は心血管疾患のリスクを増大させる。",
+            "romaji": "Kōshiketsushō wa shin kekkan shikkan no risuku o zōdai saseru.",
+            "german": "Hyperlipidämie erhöht das Risiko von Herz-Kreislauf-Erkrankungen."
+          },
+          {
+            "japanese": "健康診断で高脂血症と言われ、食事を見直すことにした。",
+            "romaji": "Kenkō shindan de kōshiketsushō to iware, shokuji o minaosu koto ni shita.",
+            "german": "Beim Gesundheitscheck wurden erhöhte Blutfettwerte festgestellt, also habe ich beschlossen, meine Ernährung umzustellen."
+          },
+          {
+            "japanese": "高血圧や高脂血症は、自覚症状がないまま進むことが多い。",
+            "romaji": "Kōketsuatsu ya kōshiketsushō wa, jikaku shōjō ga nai mama susumu koto ga ōi.",
+            "german": "Bluthochdruck und erhöhte Blutfette schreiten oft fort, ohne dass man etwas davon merkt."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1982510 sense 1, noun: hyperlipidemia Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 高脂血症 ist die „Hyperlipidämie“, also zu hohe Blutfettwerte (高 „hoch“ + 脂 „Fett“ + 血 „Blut“ + 症 „Krankheit“). In den japanischen Leitlinien wurde der Begriff 2007 weitgehend durch 脂質異常症 „Dyslipidämie“ ersetzt, im Alltag und bei Patienten ist 高脂血症 aber weiterhin verbreitet. Typisch in einer Reihe mit 高血圧 und 糖尿病 als 生活習慣病 „Zivilisationskrankheiten“. Umgangssprachlich sagt man oft einfach コレステロールが高い. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1982510; spelling=高脂血症; reading=こうしけつしょう",
+          "selected": {
+            "sequence": "1982510",
+            "spelling": "高脂血症",
+            "reading": "こうしけつしょう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hyperlipidemia",
+                  "hyperlipidaemia",
+                  "hyperlipemia"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1982510 sense 1, noun: hyperlipidemia"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 高脂血症/こうしけつしょう scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%AB%98%E8%84%82%E8%A1%80%E7%97%87",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 高脂血症/こうしけつしょう scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hyperlipidämie. JMdict 1982510 sense 1, noun: hyperlipidemia",
+        "japanese": "高脂血症は心血管疾患のリスクを増大させる。 / 健康診断で高脂血症と言われ、食事を見直すことにした。 / 高血圧や高脂血症は、自覚症状がないまま進むことが多い。",
+        "romanization": "kōshiketsushō; Kōshiketsushō wa shin kekkan shikkan no risuku o zōdai saseru. / Kenkō shindan de kōshiketsushō to iware, shokuji o minaosu koto ni shita. / Kōketsuatsu ya kōshiketsushō wa, jikaku shōjō ga nai mama susumu koto ga ōi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Hyperlipidämie erhöht das Risiko von Herz-Kreislauf-Erkrankungen. / Beim Gesundheitscheck wurden erhöhte Blutfettwerte festgestellt, also habe ich beschlossen, meine Ernährung umzustellen. / Bluthochdruck und erhöhte Blutfette schreiten oft fort, ohne dass man etwas davon merkt.",
+        "contexts": [
+          "Cardiovascular risk",
+          "Result of a health check",
+          "Silent lifestyle diseases"
+        ],
+        "lexical": "JMdict 1982510 sense 1, noun: hyperlipidemia",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1095 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cardiovascular risk; Result of a health check; Silent lifestyle diseases), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "66695cdf1ec891ca073946a711be14724cd5336951586c9405385c15f7f374c5",
+        "approvalHash": "3281b91f641cec6bdd51b0c33916cf088a9fb415d8b818d886eb4b7e2d07f52f"
+      }
+    },
+    {
+      "id": "vocab-n1:1096",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1096",
+      "state": "accepted",
+      "predecessorHash": "45c3897579ba2fa88dc9512c06b9a01942a4620097959642d2a9263c520c5dda",
+      "originalHash": "45c3897579ba2fa88dc9512c06b9a01942a4620097959642d2a9263c520c5dda",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "痛風は尿酸値が高い状態が続くと発症する。",
+            "romaji": "Tsūfū wa nyōsan chi ga takai jōtai ga tsuzuku to hasshō suru.",
+            "german": "Gicht tritt auf, wenn der Harnsäurespiegel dauerhaft erhöht ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "痛風 ist „Gicht“, wörtlich „Schmerz-Wind“; populär erklärt man den Namen damit, dass es schon weh tut, wenn nur ein Windhauch die Stelle streift. Ursache ist ein zu hoher 尿酸値 „Harnsäurewert“; typisch ist der plötzliche 痛風発作 „Gichtanfall“, oft am großen Zeh. Man sagt 痛風になる/を発症する. Als Auslöser gelten プリン体 „Purine“ in Bier und Innereien, weshalb das Wort oft in Gesprächen über Trinkgewohnheiten fällt.",
+        "examples": [
+          {
+            "japanese": "痛風は尿酸値が高い状態が続くと発症する。",
+            "romaji": "Tsūfū wa nyōsan chi ga takai jōtai ga tsuzuku to hasshō suru.",
+            "german": "Gicht tritt auf, wenn der Harnsäurespiegel dauerhaft erhöht ist."
+          },
+          {
+            "japanese": "夜中に足の親指が急に腫れて、痛風の発作だと分かった。",
+            "romaji": "Yonaka ni ashi no oyayubi ga kyū ni harete, tsūfū no hossa da to wakatta.",
+            "german": "Mitten in der Nacht schwoll plötzlich mein großer Zeh an, und es stellte sich heraus, dass es ein Gichtanfall war."
+          },
+          {
+            "japanese": "ビールが好きな部長は、痛風になってからお酒を控えている。",
+            "romaji": "Bīru ga suki na buchō wa, tsūfū ni natte kara osake o hikaete iru.",
+            "german": "Unser Abteilungsleiter, der gern Bier trinkt, hält sich seit seiner Gicht mit Alkohol zurück."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@171292634",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 痛風/ツウフウ; lemma 痛風; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "痛風",
+              "reading": "つうふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 痛風/つうふう \"Gicht\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1432800 sense 1, noun: gout Pitch: Verified [0] via exact UniDic row. 痛風 ist „Gicht“, wörtlich „Schmerz-Wind“; populär erklärt man den Namen damit, dass es schon weh tut, wenn nur ein Windhauch die Stelle streift. Ursache ist ein zu hoher 尿酸値 „Harnsäurewert“; typisch ist der plötzliche 痛風発作 „Gichtanfall“, oft am großen Zeh. Man sagt 痛風になる/を発症する. Als Auslöser gelten プリン体 „Purine“ in Bier und Innereien, weshalb das Wort oft in Gesprächen über Trinkgewohnheiten fällt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1432800; spelling=痛風; reading=つうふう",
+          "selected": {
+            "sequence": "1432800",
+            "spelling": "痛風",
+            "reading": "つうふう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gout"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1432800 sense 1, noun: gout"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 痛風/ツウフウ; lemma 痛風; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@171292634",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 痛風/ツウフウ; lemma 痛風; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "痛風",
+              "reading": "つうふう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 痛風/つうふう \"Gicht\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gicht. JMdict 1432800 sense 1, noun: gout",
+        "japanese": "痛風は尿酸値が高い状態が続くと発症する。 / 夜中に足の親指が急に腫れて、痛風の発作だと分かった。 / ビールが好きな部長は、痛風になってからお酒を控えている。",
+        "romanization": "tsūfū; Tsūfū wa nyōsan chi ga takai jōtai ga tsuzuku to hasshō suru. / Yonaka ni ashi no oyayubi ga kyū ni harete, tsūfū no hossa da to wakatta. / Bīru ga suki na buchō wa, tsūfū ni natte kara osake o hikaete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gicht tritt auf, wenn der Harnsäurespiegel dauerhaft erhöht ist. / Mitten in der Nacht schwoll plötzlich mein großer Zeh an, und es stellte sich heraus, dass es ein Gichtanfall war. / Unser Abteilungsleiter, der gern Bier trinkt, hält sich seit seiner Gicht mit Alkohol zurück.",
+        "contexts": [
+          "Cause of the disease",
+          "Sudden night-time attack",
+          "Colleague cutting back on beer"
+        ],
+        "lexical": "JMdict 1432800 sense 1, noun: gout",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1096 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cause of the disease; Sudden night-time attack; Colleague cutting back on beer), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "5a11366fb0daf9396307feae9bc098e6cfddc9c02f42c3cfa532a3a93b4ee3b3",
+        "approvalHash": "be0794dfe695f907d636dafbcf03f17ec82b5ab0166b671227d345fa6889f5fc"
+      }
+    },
+    {
+      "id": "vocab-n1:1097",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1097",
+      "state": "accepted",
+      "predecessorHash": "8963a4644d913508c48207e2bad0cf6ac4d56ff2fb9774aa529c15be43c8d74b",
+      "originalHash": "8963a4644d913508c48207e2bad0cf6ac4d56ff2fb9774aa529c15be43c8d74b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "甲状腺機能亢進症は代謝が異常に活発になる疾患である。",
+            "romaji": "Kōjōsen kinō kōshinshō wa taisha ga ijō ni kappatsu ni naru shikkan de aru.",
+            "german": "Schilddrüsenüberfunktion ist eine Erkrankung, bei der der Stoffwechsel abnormal aktiv wird."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "甲状腺 ist die „Schilddrüse“ (甲状 „schildförmig“ + 腺 „Drüse“). Häufige Zusammensetzungen: 甲状腺ホルモン, 甲状腺機能亢進症 „Überfunktion“ (bekannt ist die バセドウ病 „Morbus Basedow“), 甲状腺機能低下症 „Unterfunktion“, 甲状腺がん. Man sagt 甲状腺が腫れる „die Schilddrüse ist vergrößert“. Das Wort ist medizinisch, aber allgemein bekannt.",
+        "examples": [
+          {
+            "japanese": "甲状腺機能亢進症は代謝が異常に活発になる疾患である。",
+            "romaji": "Kōjōsen kinō kōshinshō wa taisha ga ijō ni kappatsu ni naru shikkan de aru.",
+            "german": "Schilddrüsenüberfunktion ist eine Erkrankung, bei der der Stoffwechsel abnormal aktiv wird."
+          },
+          {
+            "japanese": "疲れやすいので検査したら、甲状腺の働きが弱っていた。",
+            "romaji": "Tsukareyasui node kensa shitara, kōjōsen no hataraki ga yowatte ita.",
+            "german": "Weil ich ständig müde war, ließ ich mich untersuchen, und meine Schilddrüse arbeitete zu schwach."
+          },
+          {
+            "japanese": "首の前が腫れているので、甲状腺の検査を受けてください。",
+            "romaji": "Kubi no mae ga harete iru node, kōjōsen no kensa o ukete kudasai.",
+            "german": "Ihr Hals ist vorne geschwollen, bitte lassen Sie Ihre Schilddrüse untersuchen."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1280170 sense 1, noun: thyroid (gland) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 甲状腺 ist die „Schilddrüse“ (甲状 „schildförmig“ + 腺 „Drüse“). Häufige Zusammensetzungen: 甲状腺ホルモン, 甲状腺機能亢進症 „Überfunktion“ (bekannt ist die バセドウ病 „Morbus Basedow“), 甲状腺機能低下症 „Unterfunktion“, 甲状腺がん. Man sagt 甲状腺が腫れる „die Schilddrüse ist vergrößert“. Das Wort ist medizinisch, aber allgemein bekannt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1280170; spelling=甲状腺; reading=こうじょうせん",
+          "selected": {
+            "sequence": "1280170",
+            "spelling": "甲状腺",
+            "reading": "こうじょうせん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "thyroid (gland)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1280170 sense 1, noun: thyroid (gland)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 甲状腺/こうじょうせん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%B2%E7%8A%B6%E8%85%BA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 甲状腺/こうじょうせん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schilddrüse. JMdict 1280170 sense 1, noun: thyroid (gland)",
+        "japanese": "甲状腺機能亢進症は代謝が異常に活発になる疾患である。 / 疲れやすいので検査したら、甲状腺の働きが弱っていた。 / 首の前が腫れているので、甲状腺の検査を受けてください。",
+        "romanization": "kōjōsen; Kōjōsen kinō kōshinshō wa taisha ga ijō ni kappatsu ni naru shikkan de aru. / Tsukareyasui node kensa shitara, kōjōsen no hataraki ga yowatte ita. / Kubi no mae ga harete iru node, kōjōsen no kensa o ukete kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Schilddrüsenüberfunktion ist eine Erkrankung, bei der der Stoffwechsel abnormal aktiv wird. / Weil ich ständig müde war, ließ ich mich untersuchen, und meine Schilddrüse arbeitete zu schwach. / Ihr Hals ist vorne geschwollen, bitte lassen Sie Ihre Schilddrüse untersuchen.",
+        "contexts": [
+          "Defining a thyroid disorder",
+          "Chronic fatigue diagnosis",
+          "Doctor's referral"
+        ],
+        "lexical": "JMdict 1280170 sense 1, noun: thyroid (gland)",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1097 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Defining a thyroid disorder; Chronic fatigue diagnosis; Doctor's referral), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "d0d1429f5739318a04cd9826e1a40844d7168fc2dccaca82cdbbe2eaaa0483fa",
+        "approvalHash": "f0b142a3a6adb22a01f65a02fe23242d30081ee599bcafd9460dcd4d8dbede62"
+      }
+    },
+    {
+      "id": "vocab-n1:1098",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1098",
+      "state": "accepted",
+      "predecessorHash": "fe7ae3c069443aa15fbc2cae8c1b8c39fd0e6e37cd21780733f871d5a8b7504a",
+      "originalHash": "fe7ae3c069443aa15fbc2cae8c1b8c39fd0e6e37cd21780733f871d5a8b7504a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "膵臓はインスリンを分泌する内分泌機能を持つ臓器である。",
+            "romaji": "Suizō wa insurin o bunpitsu suru naibunpitsu kinō o motsu zōki de aru.",
+            "german": "Die Bauchspeicheldrüse ist ein Organ mit endokriner Funktion, das Insulin absondert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "膵臓 ist die „Bauchspeicheldrüse“; sie bildet Verdauungssäfte (膵液) und Insulin. Wichtige Verbindungen: 膵臓がん „Bauchspeicheldrüsenkrebs“ (gilt als schwer früh zu entdecken), 膵炎 „Pankreatitis“, 膵臓の機能. Wegen des schwierigen Kanji schreiben Medien manchmal すい臓. Das Wort ist in Gesundheitsthemen und Nachrichten verbreitet.",
+        "examples": [
+          {
+            "japanese": "膵臓はインスリンを分泌する内分泌機能を持つ臓器である。",
+            "romaji": "Suizō wa insurin o bunpitsu suru naibunpitsu kinō o motsu zōki de aru.",
+            "german": "Die Bauchspeicheldrüse ist ein Organ mit endokriner Funktion, das Insulin absondert."
+          },
+          {
+            "japanese": "膵臓がんは早期発見が難しいと言われている。",
+            "romaji": "Suizō gan wa sōki hakken ga muzukashii to iwarete iru.",
+            "german": "Bauchspeicheldrüsenkrebs gilt als schwer früh zu erkennen."
+          },
+          {
+            "japanese": "お酒の飲みすぎで膵臓を悪くする人もいる。",
+            "romaji": "Osake no nomisugi de suizō o waruku suru hito mo iru.",
+            "german": "Manche Menschen schädigen durch zu viel Alkohol ihre Bauchspeicheldrüse."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145654006",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 膵臓/スイゾウ; lemma 膵臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "膵臓",
+              "reading": "すいぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 膵臓/すいぞう \"Bauchspeicheldrüse\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1571130 sense 1, noun: pancreas Pitch: Verified [0] via exact UniDic row. 膵臓 ist die „Bauchspeicheldrüse“; sie bildet Verdauungssäfte (膵液) und Insulin. Wichtige Verbindungen: 膵臓がん „Bauchspeicheldrüsenkrebs“ (gilt als schwer früh zu entdecken), 膵炎 „Pankreatitis“, 膵臓の機能. Wegen des schwierigen Kanji schreiben Medien manchmal すい臓. Das Wort ist in Gesundheitsthemen und Nachrichten verbreitet. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1571130; spelling=膵臓; reading=すいぞう",
+          "selected": {
+            "sequence": "1571130",
+            "spelling": "膵臓",
+            "reading": "すいぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pancreas"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1571130 sense 1, noun: pancreas"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 膵臓/スイゾウ; lemma 膵臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145654006",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 膵臓/スイゾウ; lemma 膵臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "膵臓",
+              "reading": "すいぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 膵臓/すいぞう \"Bauchspeicheldrüse\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bauchspeicheldrüse. JMdict 1571130 sense 1, noun: pancreas",
+        "japanese": "膵臓はインスリンを分泌する内分泌機能を持つ臓器である。 / 膵臓がんは早期発見が難しいと言われている。 / お酒の飲みすぎで膵臓を悪くする人もいる。",
+        "romanization": "suizō; Suizō wa insurin o bunpitsu suru naibunpitsu kinō o motsu zōki de aru. / Suizō gan wa sōki hakken ga muzukashii to iwarete iru. / Osake no nomisugi de suizō o waruku suru hito mo iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Bauchspeicheldrüse ist ein Organ mit endokriner Funktion, das Insulin absondert. / Bauchspeicheldrüsenkrebs gilt als schwer früh zu erkennen. / Manche Menschen schädigen durch zu viel Alkohol ihre Bauchspeicheldrüse.",
+        "contexts": [
+          "Organ function",
+          "Cancer screening difficulty",
+          "Effects of heavy drinking"
+        ],
+        "lexical": "JMdict 1571130 sense 1, noun: pancreas",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1098 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Organ function; Cancer screening difficulty; Effects of heavy drinking), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "90ebc5eb5abaf0d8611c82892ceb3bba23e07f258ddc54e3c7173b370968c814",
+        "approvalHash": "c448f94475eb3d631c070379d4ed0e09c69606f0bce062d9d663ce7a99957a37"
+      }
+    },
+    {
+      "id": "vocab-n1:1099",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1099",
+      "state": "accepted",
+      "predecessorHash": "5e6c25a8693048e8fc812a8d7c9d05af4b62d02af4febe31441c6d81bad9347c",
+      "originalHash": "5e6c25a8693048e8fc812a8d7c9d05af4b62d02af4febe31441c6d81bad9347c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "副腎はストレスホルモンであるコルチゾールを分泌する。",
+            "romaji": "Fukujin wa sutoresu horumon de aru koruchizōru o bunpitsu suru.",
+            "german": "Die Nebenniere sondert das Stresshormon Cortisol ab."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "副腎 ist die „Nebenniere“ (副 „Neben-“ + 腎 „Niere“), die auf den Nieren sitzt und Hormone wie Cortisol und Adrenalin bildet. Häufige Zusammensetzungen: 副腎皮質 „Nebennierenrinde“, 副腎皮質ホルモン „Kortikosteroide“ (auch für Steroidsalben, ステロイド), 副腎髄質. Das Wort ist rein medizinisch; nicht verwechseln mit 腎臓 „Niere“.",
+        "examples": [
+          {
+            "japanese": "副腎はストレスホルモンであるコルチゾールを分泌する。",
+            "romaji": "Fukujin wa sutoresu horumon de aru koruchizōru o bunpitsu suru.",
+            "german": "Die Nebenniere sondert das Stresshormon Cortisol ab."
+          },
+          {
+            "japanese": "副腎は左右の腎臓の上にある小さな臓器だ。",
+            "romaji": "Fukujin wa sayū no jinzō no ue ni aru chiisa na zōki da.",
+            "german": "Die Nebennieren sind kleine Organe, die auf beiden Nieren sitzen."
+          },
+          {
+            "japanese": "湿疹に副腎皮質ホルモンの塗り薬を処方された。",
+            "romaji": "Shisshin ni fukujin hishitsu horumon no nurigusuri o shohō sareta.",
+            "german": "Gegen das Ekzem wurde mir eine Kortisonsalbe verschrieben."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@232777187",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 副腎/フクジン; lemma 副腎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "副腎",
+              "reading": "ふくじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 副腎/ふくじん \"Nebenniere\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1500580 sense 1, noun: adrenal glands Pitch: Verified [0] via exact UniDic row. 副腎 ist die „Nebenniere“ (副 „Neben-“ + 腎 „Niere“), die auf den Nieren sitzt und Hormone wie Cortisol und Adrenalin bildet. Häufige Zusammensetzungen: 副腎皮質 „Nebennierenrinde“, 副腎皮質ホルモン „Kortikosteroide“ (auch für Steroidsalben, ステロイド), 副腎髄質. Das Wort ist rein medizinisch; nicht verwechseln mit 腎臓 „Niere“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1500580; spelling=副腎; reading=ふくじん",
+          "selected": {
+            "sequence": "1500580",
+            "spelling": "副腎",
+            "reading": "ふくじん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "suprarenal body",
+                  "adrenal glands"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1500580 sense 1, noun: adrenal glands"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 副腎/フクジン; lemma 副腎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@232777187",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 副腎/フクジン; lemma 副腎; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "副腎",
+              "reading": "ふくじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 副腎/ふくじん \"Nebenniere\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nebenniere. JMdict 1500580 sense 1, noun: adrenal glands",
+        "japanese": "副腎はストレスホルモンであるコルチゾールを分泌する。 / 副腎は左右の腎臓の上にある小さな臓器だ。 / 湿疹に副腎皮質ホルモンの塗り薬を処方された。",
+        "romanization": "fukujin; Fukujin wa sutoresu horumon de aru koruchizōru o bunpitsu suru. / Fukujin wa sayū no jinzō no ue ni aru chiisa na zōki da. / Shisshin ni fukujin hishitsu horumon no nurigusuri o shohō sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Nebenniere sondert das Stresshormon Cortisol ab. / Die Nebennieren sind kleine Organe, die auf beiden Nieren sitzen. / Gegen das Ekzem wurde mir eine Kortisonsalbe verschrieben.",
+        "contexts": [
+          "Hormone production",
+          "Anatomy lesson",
+          "Prescription for eczema"
+        ],
+        "lexical": "JMdict 1500580 sense 1, noun: adrenal glands",
+        "register": "technical (medicine)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1099 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Hormone production; Anatomy lesson; Prescription for eczema), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4e3d0c8be8087f65ce0f961232a4fde25ffe59f8431c2b867d9f76d915ac23e7",
+        "approvalHash": "9b09e34fa7685985460ec6a1ee479cbde51c0f2c8ae2340597043725fa234da1"
+      }
+    },
+    {
+      "id": "vocab-n1:1101",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1101",
+      "state": "accepted",
+      "predecessorHash": "f29486f3155137c576577fb6c25f606717f5c2ef80eae570f1443c0bbaffa9cc",
+      "originalHash": "f29486f3155137c576577fb6c25f606717f5c2ef80eae570f1443c0bbaffa9cc",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "脾臓は老化した赤血球の破壊と免疫機能に関与する。",
+            "romaji": "Hizō wa rōka shita sekkekkyū no hakai to men'eki kinō ni kan'yo suru.",
+            "german": "Die Milz ist an der Zerstörung alter Erythrozyten und an der Immunfunktion beteiligt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "脾臓 ist die „Milz“ (脾 „Milz“ + 臓 „Organ“). Typische Kontexte sind 脾臓が腫れる „die Milz ist vergrößert“ (脾腫) und bei Unfällen 脾臓破裂 „Milzriss“ bzw. 脾臓を摘出する „die Milz entfernen“. Im Alltag spielt das Wort kaum eine Rolle; man begegnet ihm in Anatomie, Arztgesprächen und Unfallberichten. Wegen des seltenen Kanji findet man auch ひ臓.",
+        "examples": [
+          {
+            "japanese": "脾臓は老化した赤血球の破壊と免疫機能に関与する。",
+            "romaji": "Hizō wa rōka shita sekkekkyū no hakai to men'eki kinō ni kan'yo suru.",
+            "german": "Die Milz ist an der Zerstörung alter Erythrozyten und an der Immunfunktion beteiligt."
+          },
+          {
+            "japanese": "交通事故で脾臓が破裂し、緊急手術になった。",
+            "romaji": "Kōtsū jiko de hizō ga haretsu shi, kinkyū shujutsu ni natta.",
+            "german": "Bei dem Verkehrsunfall riss die Milz, und es musste notoperiert werden."
+          },
+          {
+            "japanese": "脾臓は胃の左後ろ側にある。",
+            "romaji": "Hizō wa i no hidari ushirogawa ni aru.",
+            "german": "Die Milz liegt links hinter dem Magen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225626817",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 脾臓/ヒゾウ; lemma 脾臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "脾臓",
+              "reading": "ひぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脾臓/ひぞう \"Milz\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1570920 sense 1, noun: spleen Pitch: Verified [0] via exact UniDic row. 脾臓 ist die „Milz“ (脾 „Milz“ + 臓 „Organ“). Typische Kontexte sind 脾臓が腫れる „die Milz ist vergrößert“ (脾腫) und bei Unfällen 脾臓破裂 „Milzriss“ bzw. 脾臓を摘出する „die Milz entfernen“. Im Alltag spielt das Wort kaum eine Rolle; man begegnet ihm in Anatomie, Arztgesprächen und Unfallberichten. Wegen des seltenen Kanji findet man auch ひ臓. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1570920; spelling=脾臓; reading=ひぞう",
+          "selected": {
+            "sequence": "1570920",
+            "spelling": "脾臓",
+            "reading": "ひぞう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "spleen"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1570920 sense 1, noun: spleen"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 脾臓/ヒゾウ; lemma 脾臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@225626817",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 脾臓/ヒゾウ; lemma 脾臓; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "脾臓",
+              "reading": "ひぞう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 脾臓/ひぞう \"Milz\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Milz. JMdict 1570920 sense 1, noun: spleen",
+        "japanese": "脾臓は老化した赤血球の破壊と免疫機能に関与する。 / 交通事故で脾臓が破裂し、緊急手術になった。 / 脾臓は胃の左後ろ側にある。",
+        "romanization": "hizō; Hizō wa rōka shita sekkekkyū no hakai to men'eki kinō ni kan'yo suru. / Kōtsū jiko de hizō ga haretsu shi, kinkyū shujutsu ni natta. / Hizō wa i no hidari ushirogawa ni aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Milz ist an der Zerstörung alter Erythrozyten und an der Immunfunktion beteiligt. / Bei dem Verkehrsunfall riss die Milz, und es musste notoperiert werden. / Die Milz liegt links hinter dem Magen.",
+        "contexts": [
+          "Physiology textbook",
+          "Traffic accident injury",
+          "Locating the organ"
+        ],
+        "lexical": "JMdict 1570920 sense 1, noun: spleen",
+        "register": "technical (medicine)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1101 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Physiology textbook; Traffic accident injury; Locating the organ), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "295d107531be51ea21f197e7e10a38852819254c2a22d24630c42f894e5560df",
+        "approvalHash": "1bce73cc5e0728c4fc7e3a8b4ec4f3ad8fab310b3939e9566efacc9a47d79df5"
+      }
+    },
+    {
+      "id": "vocab-n1:1102",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1102",
+      "state": "accepted",
+      "predecessorHash": "7ec1ae77b13f8d8d890ed0debf98733c96709fa9e1790cf982c0f7913953639f",
+      "originalHash": "7ec1ae77b13f8d8d890ed0debf98733c96709fa9e1790cf982c0f7913953639f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "横隔膜の収縮によって肺に空気が取り込まれる。",
+            "romaji": "Ōkakumaku no shūshuku ni yotte hai ni kūki ga torikomareru.",
+            "german": "Durch die Kontraktion des Zwerchfells wird Luft in die Lungen gezogen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "横隔膜 ist das „Zwerchfell“, die quer (横) trennende (隔) Membran (膜) zwischen Brust- und Bauchraum. Typisch: 横隔膜が収縮する, 横隔膜を使って呼吸する (Bauchatmung, 腹式呼吸). Schluckauf (しゃっくり) erklärt man als 横隔膜のけいれん. Beim Grillen (焼肉) kennt man das Zwerchfell vom Rind als ハラミ bzw. サガリ.",
+        "examples": [
+          {
+            "japanese": "横隔膜の収縮によって肺に空気が取り込まれる。",
+            "romaji": "Ōkakumaku no shūshuku ni yotte hai ni kūki ga torikomareru.",
+            "german": "Durch die Kontraktion des Zwerchfells wird Luft in die Lungen gezogen."
+          },
+          {
+            "japanese": "しゃっくりは横隔膜のけいれんで起こる。",
+            "romaji": "Shakkuri wa ōkakumaku no keiren de okoru.",
+            "german": "Schluckauf entsteht durch einen Krampf des Zwerchfells."
+          },
+          {
+            "japanese": "歌うときは横隔膜を意識して、お腹から声を出しましょう。",
+            "romaji": "Utau toki wa ōkakumaku o ishiki shite, onaka kara koe o dashimashō.",
+            "german": "Achten Sie beim Singen auf Ihr Zwerchfell und singen Sie aus dem Bauch heraus."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1180660 sense 1, noun: diaphragm (anatomy) Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 横隔膜 ist das „Zwerchfell“, die quer (横) trennende (隔) Membran (膜) zwischen Brust- und Bauchraum. Typisch: 横隔膜が収縮する, 横隔膜を使って呼吸する (Bauchatmung, 腹式呼吸). Schluckauf (しゃっくり) erklärt man als 横隔膜のけいれん. Beim Grillen (焼肉) kennt man das Zwerchfell vom Rind als ハラミ bzw. サガリ. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1180660; spelling=横隔膜; reading=おうかくまく",
+          "selected": {
+            "sequence": "1180660",
+            "spelling": "横隔膜",
+            "reading": "おうかくまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "diaphragm"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1180660 sense 1, noun: diaphragm (anatomy)"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 横隔膜/おうかくまく scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%A8%AA%E9%9A%94%E8%86%9C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 横隔膜/おうかくまく scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zwerchfell. JMdict 1180660 sense 1, noun: diaphragm (anatomy)",
+        "japanese": "横隔膜の収縮によって肺に空気が取り込まれる。 / しゃっくりは横隔膜のけいれんで起こる。 / 歌うときは横隔膜を意識して、お腹から声を出しましょう。",
+        "romanization": "ōkakumaku; Ōkakumaku no shūshuku ni yotte hai ni kūki ga torikomareru. / Shakkuri wa ōkakumaku no keiren de okoru. / Utau toki wa ōkakumaku o ishiki shite, onaka kara koe o dashimashō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Kontraktion des Zwerchfells wird Luft in die Lungen gezogen. / Schluckauf entsteht durch einen Krampf des Zwerchfells. / Achten Sie beim Singen auf Ihr Zwerchfell und singen Sie aus dem Bauch heraus.",
+        "contexts": [
+          "How breathing works",
+          "Explaining hiccups",
+          "Singing lesson"
+        ],
+        "lexical": "JMdict 1180660 sense 1, noun: diaphragm (anatomy)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1102 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (How breathing works; Explaining hiccups; Singing lesson), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "6f711ac307b21cf1bb25fd0193d652e34b965771ec11880332a44b93443a67a8",
+        "approvalHash": "b630863492558ef951403e9e5a01bfc5bbd01f344011312b40b046829d7eaaf2"
+      }
+    },
+    {
+      "id": "vocab-n1:1103",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1103",
+      "state": "accepted",
+      "predecessorHash": "2102e8eccb563e88d681404fdc9f9420b87312e664e414da99180ed0cfe4a522",
+      "originalHash": "2102e8eccb563e88d681404fdc9f9420b87312e664e414da99180ed0cfe4a522",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "網膜剥離は早急に治療しないと失明の恐れがある。",
+            "romaji": "Mōmaku hakuri wa sōkyū ni chiryō shinai to shitsumei no osore ga aru.",
+            "german": "Wenn eine Netzhautablösung nicht sofort behandelt wird, besteht die Gefahr der Erblindung."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "網膜 ist die „Netzhaut“ des Auges (網 „Netz“ + 膜 „Membran“). Häufige Verbindungen: 網膜剥離 „Netzhautablösung“, 網膜に映る „sich auf der Netzhaut abbilden“, 糖尿病網膜症 „diabetische Retinopathie“. Abzugrenzen von 角膜 „Hornhaut“ (vorne) und 水晶体 „Linse“. Übertragen steht 網膜に焼きつく für ein Bild, das sich ins Gedächtnis eingebrannt hat.",
+        "examples": [
+          {
+            "japanese": "網膜剥離は早急に治療しないと失明の恐れがある。",
+            "romaji": "Mōmaku hakuri wa sōkyū ni chiryō shinai to shitsumei no osore ga aru.",
+            "german": "Wenn eine Netzhautablösung nicht sofort behandelt wird, besteht die Gefahr der Erblindung."
+          },
+          {
+            "japanese": "目に入った光は、レンズを通って網膜に像を結ぶ。",
+            "romaji": "Me ni haitta hikari wa, renzu o tōtte mōmaku ni zō o musubu.",
+            "german": "Licht, das ins Auge fällt, erzeugt durch die Linse ein Bild auf der Netzhaut."
+          },
+          {
+            "japanese": "糖尿病の人は、定期的に網膜の検査を受けたほうがいい。",
+            "romaji": "Tōnyōbyō no hito wa, teikiteki ni mōmaku no kensa o uketa hō ga ii.",
+            "german": "Diabetiker sollten regelmäßig ihre Netzhaut untersuchen lassen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": [
+          1
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262753494",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 網膜/モウマク; lemma 網膜; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "網膜",
+              "reading": "もうまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 網膜/もうまく \"Netzhaut; Retina\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1534440 sense 1, noun: retina Pitch: Verified [0,1] via exact UniDic row. 網膜 ist die „Netzhaut“ des Auges (網 „Netz“ + 膜 „Membran“). Häufige Verbindungen: 網膜剥離 „Netzhautablösung“, 網膜に映る „sich auf der Netzhaut abbilden“, 糖尿病網膜症 „diabetische Retinopathie“. Abzugrenzen von 角膜 „Hornhaut“ (vorne) und 水晶体 „Linse“. Übertragen steht 網膜に焼きつく für ein Bild, das sich ins Gedächtnis eingebrannt hat. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1534440; spelling=網膜; reading=もうまく",
+          "selected": {
+            "sequence": "1534440",
+            "spelling": "網膜",
+            "reading": "もうまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "retina"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1534440 sense 1, noun: retina"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,1] via exact UniDic row. Exact whole 網膜/モウマク; lemma 網膜; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@262753494",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              1
+            ],
+            "finding": "Exact whole 網膜/モウマク; lemma 網膜; 名詞/普通名詞/一般/*; *; *; aType 0,1.",
+            "match": {
+              "word": "網膜",
+              "reading": "もうまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 網膜/もうまく \"Netzhaut; Retina\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Netzhaut; Retina. JMdict 1534440 sense 1, noun: retina",
+        "japanese": "網膜剥離は早急に治療しないと失明の恐れがある。 / 目に入った光は、レンズを通って網膜に像を結ぶ。 / 糖尿病の人は、定期的に網膜の検査を受けたほうがいい。",
+        "romanization": "mōmaku; Mōmaku hakuri wa sōkyū ni chiryō shinai to shitsumei no osore ga aru. / Me ni haitta hikari wa, renzu o tōtte mōmaku ni zō o musubu. / Tōnyōbyō no hito wa, teikiteki ni mōmaku no kensa o uketa hō ga ii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn eine Netzhautablösung nicht sofort behandelt wird, besteht die Gefahr der Erblindung. / Licht, das ins Auge fällt, erzeugt durch die Linse ein Bild auf der Netzhaut. / Diabetiker sollten regelmäßig ihre Netzhaut untersuchen lassen.",
+        "contexts": [
+          "Urgent eye condition",
+          "Optics of the eye",
+          "Diabetes check-ups"
+        ],
+        "lexical": "JMdict 1534440 sense 1, noun: retina",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1103 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Urgent eye condition; Optics of the eye; Diabetes check-ups), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "6349c006d54a623d7a57d92926bbd2cee4e9d698aa04509861943c9d5a427eb4",
+        "approvalHash": "52f303cdda3f280fb0438698d83bddede1872d77e21a804c9953d8ca890a0903"
+      }
+    },
+    {
+      "id": "vocab-n1:1104",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1104",
+      "state": "accepted",
+      "predecessorHash": "5b4e714aef87014081accc10d2fea40743a6547523cf00deb2f1e8e98981cb3f",
+      "originalHash": "5b4e714aef87014081accc10d2fea40743a6547523cf00deb2f1e8e98981cb3f",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "角膜移植によって視力を回復させることが可能である。",
+            "romaji": "Kakumaku ishoku ni yotte shiryoku o kaifuku saseru koto ga kanō de aru.",
+            "german": "Durch eine Hornhauttransplantation kann die Sehkraft wiederhergestellt werden."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "角膜 ist die „Hornhaut“ des Auges (角 „Horn“ + 膜 „Membran“); für die Hornhaut an den Füßen sagt man dagegen 角質 oder たこ. Typische Verbindungen: 角膜移植 „Hornhauttransplantation“, 角膜に傷がつく „die Hornhaut wird verletzt“, 角膜炎. Häufig im Zusammenhang mit Kontaktlinsen und Laser-Operationen wie レーシック. Nicht verwechseln mit 網膜 „Netzhaut“.",
+        "examples": [
+          {
+            "japanese": "角膜移植によって視力を回復させることが可能である。",
+            "romaji": "Kakumaku ishoku ni yotte shiryoku o kaifuku saseru koto ga kanō de aru.",
+            "german": "Durch eine Hornhauttransplantation kann die Sehkraft wiederhergestellt werden."
+          },
+          {
+            "japanese": "コンタクトレンズを付けたまま寝て、角膜に傷がついた。",
+            "romaji": "Kontakuto renzu o tsuketa mama nete, kakumaku ni kizu ga tsuita.",
+            "german": "Ich habe mit Kontaktlinsen geschlafen und mir dabei die Hornhaut verletzt."
+          },
+          {
+            "japanese": "レーシックは角膜をレーザーで削って視力を矯正する手術だ。",
+            "romaji": "Rēshikku wa kakumaku o rēzā de kezutte shiryoku o kyōsei suru shujutsu da.",
+            "german": "LASIK ist eine Operation, bei der die Hornhaut mit einem Laser abgetragen wird, um die Sehschwäche zu korrigieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90740782",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 角膜/カクマク; lemma 角膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "角膜",
+              "reading": "かくまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 角膜/かくまく \"Hornhaut (Auge)\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1206220 sense 1, noun: cornea Pitch: Verified [0] via exact UniDic row. 角膜 ist die „Hornhaut“ des Auges (角 „Horn“ + 膜 „Membran“); für die Hornhaut an den Füßen sagt man dagegen 角質 oder たこ. Typische Verbindungen: 角膜移植 „Hornhauttransplantation“, 角膜に傷がつく „die Hornhaut wird verletzt“, 角膜炎. Häufig im Zusammenhang mit Kontaktlinsen und Laser-Operationen wie レーシック. Nicht verwechseln mit 網膜 „Netzhaut“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1206220; spelling=角膜; reading=かくまく",
+          "selected": {
+            "sequence": "1206220",
+            "spelling": "角膜",
+            "reading": "かくまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cornea"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1206220 sense 1, noun: cornea"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 角膜/カクマク; lemma 角膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90740782",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 角膜/カクマク; lemma 角膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "角膜",
+              "reading": "かくまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 角膜/かくまく \"Hornhaut (Auge)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hornhaut (Auge). JMdict 1206220 sense 1, noun: cornea",
+        "japanese": "角膜移植によって視力を回復させることが可能である。 / コンタクトレンズを付けたまま寝て、角膜に傷がついた。 / レーシックは角膜をレーザーで削って視力を矯正する手術だ。",
+        "romanization": "kakumaku; Kakumaku ishoku ni yotte shiryoku o kaifuku saseru koto ga kanō de aru. / Kontakuto renzu o tsuketa mama nete, kakumaku ni kizu ga tsuita. / Rēshikku wa kakumaku o rēzā de kezutte shiryoku o kyōsei suru shujutsu da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch eine Hornhauttransplantation kann die Sehkraft wiederhergestellt werden. / Ich habe mit Kontaktlinsen geschlafen und mir dabei die Hornhaut verletzt. / LASIK ist eine Operation, bei der die Hornhaut mit einem Laser abgetragen wird, um die Sehschwäche zu korrigieren.",
+        "contexts": [
+          "Corneal transplant",
+          "Contact lens mishap",
+          "Explaining laser eye surgery"
+        ],
+        "lexical": "JMdict 1206220 sense 1, noun: cornea",
+        "register": "neutral (medical)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1104 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Corneal transplant; Contact lens mishap; Explaining laser eye surgery), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "f9d0bf9e0c315741e409b049bb22024d4000b312d47ff35af34ac90483e3fbf3",
+        "approvalHash": "cdbd10ba2721fcbb2bb0b8452541a5195e2d07c07c06da7bb587364bf8deb5e7"
+      }
+    },
+    {
+      "id": "vocab-n1:1106",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1106",
+      "state": "accepted",
+      "predecessorHash": "5482cc1c9fa4153b6074ab7a13415ba043c462c5c854522efd71ef6562859c2d",
+      "originalHash": "5482cc1c9fa4153b6074ab7a13415ba043c462c5c854522efd71ef6562859c2d",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "中耳炎が進行すると鼓膜が穿孔することがある。",
+            "romaji": "Chūjien ga shinkō suru to komaku ga senkō suru koto ga aru.",
+            "german": "Wenn eine Mittelohrentzündung fortschreitet, kann das Trommelfell perforieren."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "鼓膜 ist das „Trommelfell“ (鼓 „Trommel“ + 膜 „Membran“). Man sagt 鼓膜が破れる „das Trommelfell reißt“ (fachlich 鼓膜が穿孔する) und 鼓膜を傷つける. Umgangssprachlich und übertreibend: 鼓膜が破れそうな音/声 „ohrenbetäubend laut“. Verwandt sind 中耳 „Mittelohr“ und 中耳炎 „Mittelohrentzündung“.",
+        "examples": [
+          {
+            "japanese": "中耳炎が進行すると鼓膜が穿孔することがある。",
+            "romaji": "Chūjien ga shinkō suru to komaku ga senkō suru koto ga aru.",
+            "german": "Wenn eine Mittelohrentzündung fortschreitet, kann das Trommelfell perforieren."
+          },
+          {
+            "japanese": "耳かきで奥まで掃除しすぎて、鼓膜を傷つけてしまった。",
+            "romaji": "Mimikaki de oku made sōji shisugite, komaku o kizutsukete shimatta.",
+            "german": "Ich habe mit dem Ohrstäbchen zu tief gereinigt und mir das Trommelfell verletzt."
+          },
+          {
+            "japanese": "ライブのスピーカーの前にいたら、鼓膜が破れそうなほどうるさかった。",
+            "romaji": "Raibu no supīkā no mae ni itara, komaku ga yaburesō na hodo urusakatta.",
+            "german": "Vor den Lautsprechern beim Konzert war es so laut, dass mir fast das Trommelfell geplatzt wäre."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124342609",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鼓膜/コマク; lemma 鼓膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "鼓膜",
+              "reading": "こまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鼓膜/こまく \"Trommelfell\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1268050 sense 1, noun: eardrum, tympanic membrane Pitch: Verified [0] via exact UniDic row. 鼓膜 ist das „Trommelfell“ (鼓 „Trommel“ + 膜 „Membran“). Man sagt 鼓膜が破れる „das Trommelfell reißt“ (fachlich 鼓膜が穿孔する) und 鼓膜を傷つける. Umgangssprachlich und übertreibend: 鼓膜が破れそうな音/声 „ohrenbetäubend laut“. Verwandt sind 中耳 „Mittelohr“ und 中耳炎 „Mittelohrentzündung“. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1268050; spelling=鼓膜; reading=こまく",
+          "selected": {
+            "sequence": "1268050",
+            "spelling": "鼓膜",
+            "reading": "こまく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "eardrum",
+                  "tympanic membrane"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1268050 sense 1, noun: eardrum, tympanic membrane"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 鼓膜/コマク; lemma 鼓膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@124342609",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 鼓膜/コマク; lemma 鼓膜; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "鼓膜",
+              "reading": "こまく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 鼓膜/こまく \"Trommelfell\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Trommelfell. JMdict 1268050 sense 1, noun: eardrum, tympanic membrane",
+        "japanese": "中耳炎が進行すると鼓膜が穿孔することがある。 / 耳かきで奥まで掃除しすぎて、鼓膜を傷つけてしまった。 / ライブのスピーカーの前にいたら、鼓膜が破れそうなほどうるさかった。",
+        "romanization": "komaku; Chūjien ga shinkō suru to komaku ga senkō suru koto ga aru. / Mimikaki de oku made sōji shisugite, komaku o kizutsukete shimatta. / Raibu no supīkā no mae ni itara, komaku ga yaburesō na hodo urusakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn eine Mittelohrentzündung fortschreitet, kann das Trommelfell perforieren. / Ich habe mit dem Ohrstäbchen zu tief gereinigt und mir das Trommelfell verletzt. / Vor den Lautsprechern beim Konzert war es so laut, dass mir fast das Trommelfell geplatzt wäre.",
+        "contexts": [
+          "Complication of an ear infection",
+          "Cleaning the ears too deep",
+          "Loud concert"
+        ],
+        "lexical": "JMdict 1268050 sense 1, noun: eardrum, tympanic membrane",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1106 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Complication of an ear infection; Cleaning the ears too deep; Loud concert), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "ad81966b84a6eb0d59e9b70c2655a92f8293baf393818731382773e4d67684df",
+        "approvalHash": "d7ef8f3d561d33434f2820ea9c95f2c3d858b171ead3017db330462689272c07"
+      }
+    },
+    {
+      "id": "vocab-n1:1107",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1107",
+      "state": "accepted",
+      "predecessorHash": "0d25938a27f7f8296a77a827688f056ac33c26d2e892bfa7cf754b710478ac0e",
+      "originalHash": "0d25938a27f7f8296a77a827688f056ac33c26d2e892bfa7cf754b710478ac0e",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "蝸牛は音の振動を神経信号に変換する器官である。",
+            "romaji": "Kagyū wa oto no shindō o shinkei shingō ni henkan suru kikan de aru.",
+            "german": "Die Cochlea ist ein Organ, das Schallschwingungen in Nervensignale umwandelt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "蝸牛 bedeutet wörtlich „Schnecke“; in der Lesung かぎゅう ist es der anatomische Fachbegriff für die „Hörschnecke, Cochlea“ im Innenohr. Das Tier selbst heißt im Alltag かたつむり (dieselben Kanji, andere Lesung) oder でんでんむし. Fachlich häufig: 蝸牛管 „Schneckengang“, 蝸牛の有毛細胞 „Haarzellen der Cochlea“; das Cochlea-Implantat heißt dagegen 人工内耳. Die Lesung かぎゅう kommt praktisch nur in medizinischen und literarischen Texten vor.",
+        "examples": [
+          {
+            "japanese": "蝸牛は音の振動を神経信号に変換する器官である。",
+            "romaji": "Kagyū wa oto no shindō o shinkei shingō ni henkan suru kikan de aru.",
+            "german": "Die Cochlea ist ein Organ, das Schallschwingungen in Nervensignale umwandelt."
+          },
+          {
+            "japanese": "大きな音を聞き続けると、蝸牛の細胞が傷ついて難聴になることがある。",
+            "romaji": "Ōki na oto o kikitsuzukeru to, kagyū no saibō ga kizutsuite nanchō ni naru koto ga aru.",
+            "german": "Wer ständig lautem Lärm ausgesetzt ist, kann durch Schäden an den Zellen der Hörschnecke schwerhörig werden."
+          },
+          {
+            "japanese": "蝸牛という名前は、その渦巻きの形がかたつむりに似ていることから来ている。",
+            "romaji": "Kagyū to iu namae wa, sono uzumaki no katachi ga katatsumuri ni nite iru koto kara kite iru.",
+            "german": "Der Name „Schnecke“ kommt daher, dass die spiralige Form an ein Schneckenhaus erinnert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90336932",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 蝸牛/カギュウ; lemma 蝸牛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "蝸牛",
+              "reading": "かぎゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 蝸牛/かぎゅう \"Cochlea; Hörschnecke\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2858629 sense 2, noun: cochlea (also sense 1 snail, literary) Pitch: Verified [0] via exact UniDic row. 蝸牛 bedeutet wörtlich „Schnecke“; in der Lesung かぎゅう ist es der anatomische Fachbegriff für die „Hörschnecke, Cochlea“ im Innenohr. Das Tier selbst heißt im Alltag かたつむり (dieselben Kanji, andere Lesung) oder でんでんむし. Fachlich häufig: 蝸牛管 „Schneckengang“, 蝸牛の有毛細胞 „Haarzellen der Cochlea“; das Cochlea-Implantat heißt dagegen 人工内耳. Die Lesung かぎゅう kommt praktisch nur in medizinischen und literarischen Texten vor. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2858629; spelling=蝸牛; reading=かぎゅう",
+          "selected": {
+            "sequence": "2858629",
+            "spelling": "蝸牛",
+            "reading": "かぎゅう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "snail"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cochlea"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2858629 sense 2, noun: cochlea (also sense 1 snail, literary)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 蝸牛/カギュウ; lemma 蝸牛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90336932",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 蝸牛/カギュウ; lemma 蝸牛; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "蝸牛",
+              "reading": "かぎゅう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 蝸牛/かぎゅう \"Cochlea; Hörschnecke\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Cochlea; Hörschnecke. JMdict 2858629 sense 2, noun: cochlea (also sense 1 snail, literary)",
+        "japanese": "蝸牛は音の振動を神経信号に変換する器官である。 / 大きな音を聞き続けると、蝸牛の細胞が傷ついて難聴になることがある。 / 蝸牛という名前は、その渦巻きの形がかたつむりに似ていることから来ている。",
+        "romanization": "kagyū; Kagyū wa oto no shindō o shinkei shingō ni henkan suru kikan de aru. / Ōki na oto o kikitsuzukeru to, kagyū no saibō ga kizutsuite nanchō ni naru koto ga aru. / Kagyū to iu namae wa, sono uzumaki no katachi ga katatsumuri ni nite iru koto kara kite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Cochlea ist ein Organ, das Schallschwingungen in Nervensignale umwandelt. / Wer ständig lautem Lärm ausgesetzt ist, kann durch Schäden an den Zellen der Hörschnecke schwerhörig werden. / Der Name „Schnecke“ kommt daher, dass die spiralige Form an ein Schneckenhaus erinnert.",
+        "contexts": [
+          "Physiology of hearing",
+          "Noise-induced hearing loss",
+          "Origin of the name"
+        ],
+        "lexical": "JMdict 2858629 sense 2, noun: cochlea (also sense 1 snail, literary)",
+        "register": "technical (anatomy)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1107 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Physiology of hearing; Noise-induced hearing loss; Origin of the name), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "3fbb3d2b2e3bebb3af81871bf24dd7ce379e62ec91081e45a12e47141cf864b6",
+        "approvalHash": "dc691af565d0601dc8f55a6a10ff56b4955a0f644108fb38899c46e73aecf98f"
+      }
+    },
+    {
+      "id": "vocab-n1:1108",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1108",
+      "state": "accepted",
+      "predecessorHash": "8201c9ce73799e6bf1b128d4c787b45525c8a8ed22c7bc4f5bd456bde94428b7",
+      "originalHash": "8201c9ce73799e6bf1b128d4c787b45525c8a8ed22c7bc4f5bd456bde94428b7",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "大脳皮質は認知や感覚処理を司る脳の領域である。",
+            "romaji": "Dainō hishitsu wa ninchi ya kankaku shori o tsukasadoru nō no ryōiki de aru.",
+            "german": "Die Großhirnrinde ist der Bereich des Gehirns, der für Kognition und Sinnesverarbeitung zuständig ist."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "大脳皮質 ist die „Großhirnrinde“: 大脳 „Großhirn“ + 皮質 „Rinde, Kortex“. Sie wird in Lappen eingeteilt, z. B. 前頭葉 „Stirnlappen“ und 側頭葉 „Schläfenlappen“. Typische Verbindungen: 大脳皮質が〜を司る „ist für … zuständig“, 大脳皮質の働き, 大脳皮質が発達する. Fachbegriff aus Neurologie, Psychologie und populärwissenschaftlichen Büchern übers Gehirn.",
+        "examples": [
+          {
+            "japanese": "大脳皮質は認知や感覚処理を司る脳の領域である。",
+            "romaji": "Dainō hishitsu wa ninchi ya kankaku shori o tsukasadoru nō no ryōiki de aru.",
+            "german": "Die Großhirnrinde ist der Bereich des Gehirns, der für Kognition und Sinnesverarbeitung zuständig ist."
+          },
+          {
+            "japanese": "人間は他の動物に比べて大脳皮質が非常に発達している。",
+            "romaji": "Ningen wa hoka no dōbutsu ni kurabete dainō hishitsu ga hijō ni hattatsu shite iru.",
+            "german": "Beim Menschen ist die Großhirnrinde im Vergleich zu anderen Tieren sehr stark entwickelt."
+          },
+          {
+            "japanese": "脳卒中で大脳皮質の一部が傷つき、言葉が出にくくなった。",
+            "romaji": "Nōsotchū de dainō hishitsu no ichibu ga kizutsuki, kotoba ga denikuku natta.",
+            "german": "Durch den Schlaganfall wurde ein Teil der Großhirnrinde geschädigt, und das Sprechen fällt schwer."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1786570 sense 1, noun: cerebral cortex Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 大脳皮質 ist die „Großhirnrinde“: 大脳 „Großhirn“ + 皮質 „Rinde, Kortex“. Sie wird in Lappen eingeteilt, z. B. 前頭葉 „Stirnlappen“ und 側頭葉 „Schläfenlappen“. Typische Verbindungen: 大脳皮質が〜を司る „ist für … zuständig“, 大脳皮質の働き, 大脳皮質が発達する. Fachbegriff aus Neurologie, Psychologie und populärwissenschaftlichen Büchern übers Gehirn. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1786570; spelling=大脳皮質; reading=だいのうひしつ",
+          "selected": {
+            "sequence": "1786570",
+            "spelling": "大脳皮質",
+            "reading": "だいのうひしつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cerebral cortex"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1786570 sense 1, noun: cerebral cortex"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 大脳皮質/だいのうひしつ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%A4%A7%E8%84%B3%E7%9A%AE%E8%B3%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 大脳皮質/だいのうひしつ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Großhirnrinde; Cortex. JMdict 1786570 sense 1, noun: cerebral cortex",
+        "japanese": "大脳皮質は認知や感覚処理を司る脳の領域である。 / 人間は他の動物に比べて大脳皮質が非常に発達している。 / 脳卒中で大脳皮質の一部が傷つき、言葉が出にくくなった。",
+        "romanization": "dainō hishitsu; Dainō hishitsu wa ninchi ya kankaku shori o tsukasadoru nō no ryōiki de aru. / Ningen wa hoka no dōbutsu ni kurabete dainō hishitsu ga hijō ni hattatsu shite iru. / Nōsotchū de dainō hishitsu no ichibu ga kizutsuki, kotoba ga denikuku natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Großhirnrinde ist der Bereich des Gehirns, der für Kognition und Sinnesverarbeitung zuständig ist. / Beim Menschen ist die Großhirnrinde im Vergleich zu anderen Tieren sehr stark entwickelt. / Durch den Schlaganfall wurde ein Teil der Großhirnrinde geschädigt, und das Sprechen fällt schwer.",
+        "contexts": [
+          "Brain function overview",
+          "Human evolution",
+          "Effects of a stroke"
+        ],
+        "lexical": "JMdict 1786570 sense 1, noun: cerebral cortex",
+        "register": "technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1108 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Brain function overview; Human evolution; Effects of a stroke), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "f970040201528d46e458aa75ae79827de3ecc2a9f93f50f9115b764ba2030321",
+        "approvalHash": "7b9ddcb78ffdde0eea025d5a9f240bf08073c98dbc959162ee2925dacf732db1"
+      }
+    },
+    {
+      "id": "vocab-n1:1109",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1109",
+      "state": "accepted",
+      "predecessorHash": "0b15e4ad95dde84f609c5b3d578170cca6d49cb8732c6c16ab061920ee342c1c",
+      "originalHash": "0b15e4ad95dde84f609c5b3d578170cca6d49cb8732c6c16ab061920ee342c1c",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "小脳は運動の協調やバランスの維持に関与する。",
+            "romaji": "Shōnō wa undō no kyōchō ya baransu no iji ni kan'yo suru.",
+            "german": "Das Kleinhirn ist an der Koordination von Bewegungen und der Aufrechterhaltung des Gleichgewichts beteiligt."
+          }
+        ],
+        "pitch": 3,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "小脳 ist das „Kleinhirn“ (小 „klein“ + 脳 „Gehirn“), Gegenstück zu 大脳 „Großhirn“; dazu kommt 脳幹 „Hirnstamm“. Es steuert Gleichgewicht und Bewegungskoordination; Ausfälle führen z. B. zu ふらつき „Taumeln“. Typisch: 小脳の働き, 小脳梗塞 „Kleinhirninfarkt“. Bekannt ist die Krankheit 脊髄小脳変性症. Fachwort, aber aus dem Biologieunterricht allgemein bekannt.",
+        "examples": [
+          {
+            "japanese": "小脳は運動の協調やバランスの維持に関与する。",
+            "romaji": "Shōnō wa undō no kyōchō ya baransu no iji ni kan'yo suru.",
+            "german": "Das Kleinhirn ist an der Koordination von Bewegungen und der Aufrechterhaltung des Gleichgewichts beteiligt."
+          },
+          {
+            "japanese": "自転車の乗り方を体が覚えているのは、小脳のおかげだ。",
+            "romaji": "Jitensha no norikata o karada ga oboete iru no wa, shōnō no okage da.",
+            "german": "Dass der Körper sich ans Fahrradfahren erinnert, verdanken wir dem Kleinhirn."
+          },
+          {
+            "japanese": "小脳に梗塞が起きて、まっすぐ歩けなくなった。",
+            "romaji": "Shōnō ni kōsoku ga okite, massugu arukenaku natta.",
+            "german": "Nach einem Infarkt im Kleinhirn konnte er nicht mehr geradeaus gehen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          0
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141129847",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 小脳/ショウノウ; lemma 小脳; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "小脳",
+              "reading": "しょうのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 小脳/しょうのう \"Kleinhirn\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1348600 sense 1, noun: cerebellum Pitch: Verified [1,0] via exact UniDic row; stored primary 3 corrected to 1. 小脳 ist das „Kleinhirn“ (小 „klein“ + 脳 „Gehirn“), Gegenstück zu 大脳 „Großhirn“; dazu kommt 脳幹 „Hirnstamm“. Es steuert Gleichgewicht und Bewegungskoordination; Ausfälle führen z. B. zu ふらつき „Taumeln“. Typisch: 小脳の働き, 小脳梗塞 „Kleinhirninfarkt“. Bekannt ist die Krankheit 脊髄小脳変性症. Fachwort, aber aus dem Biologieunterricht allgemein bekannt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1348600; spelling=小脳; reading=しょうのう",
+          "selected": {
+            "sequence": "1348600",
+            "spelling": "小脳",
+            "reading": "しょうのう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "cerebellum"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1348600 sense 1, noun: cerebellum"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact UniDic row; stored primary 3 corrected to 1. Exact whole 小脳/ショウノウ; lemma 小脳; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@141129847",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Exact whole 小脳/ショウノウ; lemma 小脳; 名詞/普通名詞/一般/*; *; *; aType 1,0.",
+            "match": {
+              "word": "小脳",
+              "reading": "しょうのう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 小脳/しょうのう \"Kleinhirn\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kleinhirn. JMdict 1348600 sense 1, noun: cerebellum",
+        "japanese": "小脳は運動の協調やバランスの維持に関与する。 / 自転車の乗り方を体が覚えているのは、小脳のおかげだ。 / 小脳に梗塞が起きて、まっすぐ歩けなくなった。",
+        "romanization": "shōnō; Shōnō wa undō no kyōchō ya baransu no iji ni kan'yo suru. / Jitensha no norikata o karada ga oboete iru no wa, shōnō no okage da. / Shōnō ni kōsoku ga okite, massugu arukenaku natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Kleinhirn ist an der Koordination von Bewegungen und der Aufrechterhaltung des Gleichgewichts beteiligt. / Dass der Körper sich ans Fahrradfahren erinnert, verdanken wir dem Kleinhirn. / Nach einem Infarkt im Kleinhirn konnte er nicht mehr geradeaus gehen.",
+        "contexts": [
+          "Brain anatomy",
+          "Motor memory",
+          "Neurological symptom"
+        ],
+        "lexical": "JMdict 1348600 sense 1, noun: cerebellum",
+        "register": "technical / neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1109 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Brain anatomy; Motor memory; Neurological symptom), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b0049aa3b89266ccbe6eaeaa467cef395dd350e0ac3be3a3dc8b1756a11d8f36",
+        "approvalHash": "e2342fd40a02d0380addb55208e86cb10d1ad5b14567c0dda1442f0797eadb1c"
+      }
+    },
+    {
+      "id": "vocab-n1:1110",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1110",
+      "state": "accepted",
+      "predecessorHash": "fdf4937a58707d481836da12c0f7836efa4f72891f12554a472ff338514b5668",
+      "originalHash": "fdf4937a58707d481836da12c0f7836efa4f72891f12554a472ff338514b5668",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "海馬は記憶の形成と空間認識に重要な役割を果たす。",
+            "romaji": "Kaiba wa kioku no keisei to kūkan ninshiki ni jūyō na yakuwari o hatasu.",
+            "german": "Der Hippocampus spielt eine wichtige Rolle bei der Gedächtnisbildung und der räumlichen Wahrnehmung."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "海馬 ist in der Anatomie der „Hippocampus“, die Hirnregion für Gedächtnisbildung; der Name (wörtlich „Meerespferd“) kommt von der Form. Typisch: 海馬が萎縮する „der Hippocampus schrumpft“ (z. B. bei Alzheimer), 海馬の働き. Daneben kann 海馬 auch „Seepferdchen“ oder „Walross“ bedeuten, im heutigen Alltag sagt man dafür aber タツノオトシゴ bzw. セイウチ. Populärwissenschaftliche Bücher über Lernen und Gedächtnis verwenden das Wort häufig.",
+        "examples": [
+          {
+            "japanese": "海馬は記憶の形成と空間認識に重要な役割を果たす。",
+            "romaji": "Kaiba wa kioku no keisei to kūkan ninshiki ni jūyō na yakuwari o hatasu.",
+            "german": "Der Hippocampus spielt eine wichtige Rolle bei der Gedächtnisbildung und der räumlichen Wahrnehmung."
+          },
+          {
+            "japanese": "強いストレスが続くと、海馬が小さくなるという研究がある。",
+            "romaji": "Tsuyoi sutoresu ga tsuzuku to, kaiba ga chiisaku naru to iu kenkyū ga aru.",
+            "german": "Es gibt Studien, nach denen der Hippocampus bei anhaltendem starkem Stress schrumpft."
+          },
+          {
+            "japanese": "寝ている間に、海馬が一日の記憶を整理しているらしい。",
+            "romaji": "Nete iru aida ni, kaiba ga ichinichi no kioku o seiri shite iru rashii.",
+            "german": "Im Schlaf ordnet der Hippocampus offenbar die Erinnerungen des Tages."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86466288",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 海馬/カイバ; lemma 海馬; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 海馬/カイバ; lemma カイバ; 名詞/固有名詞/人名/姓; *; *; aType *.",
+            "match": {
+              "word": "海馬",
+              "reading": "かいば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 海馬/かいば \"Hippocampus\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1772960 sense 2, noun: hippocampus (also seahorse, walrus) Pitch: Verified [1] via exact UniDic row. 海馬 ist in der Anatomie der „Hippocampus“, die Hirnregion für Gedächtnisbildung; der Name (wörtlich „Meerespferd“) kommt von der Form. Typisch: 海馬が萎縮する „der Hippocampus schrumpft“ (z. B. bei Alzheimer), 海馬の働き. Daneben kann 海馬 auch „Seepferdchen“ oder „Walross“ bedeuten, im heutigen Alltag sagt man dafür aber タツノオトシゴ bzw. セイウチ. Populärwissenschaftliche Bücher über Lernen und Gedächtnis verwenden das Wort häufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1772960; spelling=海馬; reading=かいば",
+          "selected": {
+            "sequence": "1772960",
+            "spelling": "海馬",
+            "reading": "かいば",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seahorse",
+                  "sea horse"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "hippocampus"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "かいば"
+                ]
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "walrus"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": [
+                  "かいば"
+                ]
+              }
+            ]
+          },
+          "finding": "JMdict 1772960 sense 2, noun: hippocampus (also seahorse, walrus)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 海馬/カイバ; lemma 海馬; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 海馬/カイバ; lemma カイバ; 名詞/固有名詞/人名/姓; *; *; aType *.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@86466288",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 海馬/カイバ; lemma 海馬; 名詞/普通名詞/一般/*; *; *; aType 1. Rejected for this role: 海馬/カイバ; lemma カイバ; 名詞/固有名詞/人名/姓; *; *; aType *.",
+            "match": {
+              "word": "海馬",
+              "reading": "かいば",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 海馬/かいば \"Hippocampus\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hippocampus. JMdict 1772960 sense 2, noun: hippocampus (also seahorse, walrus)",
+        "japanese": "海馬は記憶の形成と空間認識に重要な役割を果たす。 / 強いストレスが続くと、海馬が小さくなるという研究がある。 / 寝ている間に、海馬が一日の記憶を整理しているらしい。",
+        "romanization": "kaiba; Kaiba wa kioku no keisei to kūkan ninshiki ni jūyō na yakuwari o hatasu. / Tsuyoi sutoresu ga tsuzuku to, kaiba ga chiisaku naru to iu kenkyū ga aru. / Nete iru aida ni, kaiba ga ichinichi no kioku o seiri shite iru rashii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Hippocampus spielt eine wichtige Rolle bei der Gedächtnisbildung und der räumlichen Wahrnehmung. / Es gibt Studien, nach denen der Hippocampus bei anhaltendem starkem Stress schrumpft. / Im Schlaf ordnet der Hippocampus offenbar die Erinnerungen des Tages.",
+        "contexts": [
+          "Role in memory",
+          "Effects of chronic stress",
+          "Sleep and memory"
+        ],
+        "lexical": "JMdict 1772960 sense 2, noun: hippocampus (also seahorse, walrus)",
+        "register": "technical / popular science",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1110 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Role in memory; Effects of chronic stress; Sleep and memory), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "4b0ea55959330a095577f1c2fa8589d9e05efd2ffd422db1c04cbc9cbc4e3a9f",
+        "approvalHash": "9a3b07057b4bb55e7d182f3ea3f1c39495542d23e6f4e55f86316bd8d3805807"
+      }
+    },
+    {
+      "id": "vocab-n1:1111",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1111",
+      "state": "accepted",
+      "predecessorHash": "15c45a6c3c5e128e59d0c23c0123bef431d602b625404c40ddea88907ea14aac",
+      "originalHash": "15c45a6c3c5e128e59d0c23c0123bef431d602b625404c40ddea88907ea14aac",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "扁桃体は恐怖や不安などの感情処理に関わる。",
+            "romaji": "Hentōtai wa kyōfu ya fuan nado no kanjō shori ni kakawaru.",
+            "german": "Die Amygdala ist an der Verarbeitung von Emotionen wie Angst und Furcht beteiligt."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "扁桃体 ist die „Amygdala, Mandelkern“ im Gehirn, benannt nach ihrer Mandelform (扁桃 „Mandel“). Sie verarbeitet vor allem Angst und emotionale Reaktionen: 扁桃体が反応する/過剰に働く. Nicht verwechseln mit 扁桃 bzw. 扁桃腺 „Mandeln (im Rachen)“, wie in 扁桃腺が腫れる „die Mandeln sind geschwollen“. Das Wort begegnet in Psychologie, Neurowissenschaft und populären Büchern über Stress.",
+        "examples": [
+          {
+            "japanese": "扁桃体は恐怖や不安などの感情処理に関わる。",
+            "romaji": "Hentōtai wa kyōfu ya fuan nado no kanjō shori ni kakawaru.",
+            "german": "Die Amygdala ist an der Verarbeitung von Emotionen wie Angst und Furcht beteiligt."
+          },
+          {
+            "japanese": "ヘビを見た瞬間、考えるより先に扁桃体が反応する。",
+            "romaji": "Hebi o mita shunkan, kangaeru yori saki ni hentōtai ga hannō suru.",
+            "german": "Sobald wir eine Schlange sehen, reagiert die Amygdala, noch bevor wir nachdenken."
+          },
+          {
+            "japanese": "不安障害の人は扁桃体が過剰に働いていると考えられている。",
+            "romaji": "Fuan shōgai no hito wa hentōtai ga kajō ni hataraite iru to kangaerarete iru.",
+            "german": "Man nimmt an, dass bei Menschen mit Angststörungen die Amygdala überaktiv ist."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 2637810 sense 1, noun: amygdala Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 扁桃体 ist die „Amygdala, Mandelkern“ im Gehirn, benannt nach ihrer Mandelform (扁桃 „Mandel“). Sie verarbeitet vor allem Angst und emotionale Reaktionen: 扁桃体が反応する/過剰に働く. Nicht verwechseln mit 扁桃 bzw. 扁桃腺 „Mandeln (im Rachen)“, wie in 扁桃腺が腫れる „die Mandeln sind geschwollen“. Das Wort begegnet in Psychologie, Neurowissenschaft und populären Büchern über Stress. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2637810; spelling=扁桃体; reading=へんとうたい",
+          "selected": {
+            "sequence": "2637810",
+            "spelling": "扁桃体",
+            "reading": "へんとうたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "amygdala",
+                  "amygdaloid nucleus",
+                  "corpus amygdaloideum"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2637810 sense 1, noun: amygdala"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 扁桃体/へんとうたい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%89%81%E6%A1%83%E4%BD%93",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 扁桃体/へんとうたい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Amygdala; Mandelkern. JMdict 2637810 sense 1, noun: amygdala",
+        "japanese": "扁桃体は恐怖や不安などの感情処理に関わる。 / ヘビを見た瞬間、考えるより先に扁桃体が反応する。 / 不安障害の人は扁桃体が過剰に働いていると考えられている。",
+        "romanization": "hentōtai; Hentōtai wa kyōfu ya fuan nado no kanjō shori ni kakawaru. / Hebi o mita shunkan, kangaeru yori saki ni hentōtai ga hannō suru. / Fuan shōgai no hito wa hentōtai ga kajō ni hataraite iru to kangaerarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Amygdala ist an der Verarbeitung von Emotionen wie Angst und Furcht beteiligt. / Sobald wir eine Schlange sehen, reagiert die Amygdala, noch bevor wir nachdenken. / Man nimmt an, dass bei Menschen mit Angststörungen die Amygdala überaktiv ist.",
+        "contexts": [
+          "Brain and emotions",
+          "Instant fear reaction",
+          "Anxiety disorders"
+        ],
+        "lexical": "JMdict 2637810 sense 1, noun: amygdala",
+        "register": "technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1111 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Brain and emotions; Instant fear reaction; Anxiety disorders), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "10a4d6455368c57618e0b622e1aa25eaeecbc20ffe3a7e42f14645f5c908ee32",
+        "approvalHash": "bd260a9ee8759214fafb04364e1e4ca5bf3181fd767406a63147ea2dacd3f1a9"
+      }
+    },
+    {
+      "id": "vocab-n1:1112",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1112",
+      "state": "accepted",
+      "predecessorHash": "f592ec89188fc7386893402996a7936c4499039b04e8e62a78ec3252b7c1ce2b",
+      "originalHash": "f592ec89188fc7386893402996a7936c4499039b04e8e62a78ec3252b7c1ce2b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "シナプスは神経細胞間の信号伝達の接合部である。",
+            "romaji": "Shinapusu wa shinkei saibō kan no shingō dentatsu no setsugōbu de aru.",
+            "german": "Synapsen sind die Verbindungsstellen für die Signalübertragung zwischen Nervenzellen."
+          }
+        ],
+        "pitch": 0,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "シナプス ist die „Synapse“, die Verbindungsstelle zwischen Nervenzellen (ニューロン). Typisch: シナプスを形成する „Synapsen bilden“, シナプスの結合が強まる, シナプス伝達 „synaptische Übertragung“. In populären Texten übers Lernen heißt es oft, dass Wiederholung die シナプス stärkt. Das Wort ist neurologischer Fachwortschatz, aber durch Sachbücher und Schulbiologie geläufig.",
+        "examples": [
+          {
+            "japanese": "シナプスは神経細胞間の信号伝達の接合部である。",
+            "romaji": "Shinapusu wa shinkei saibō kan no shingō dentatsu no setsugōbu de aru.",
+            "german": "Synapsen sind die Verbindungsstellen für die Signalübertragung zwischen Nervenzellen."
+          },
+          {
+            "japanese": "同じことを何度も練習すると、シナプスのつながりが強くなる。",
+            "romaji": "Onaji koto o nando mo renshū suru to, shinapusu no tsunagari ga tsuyoku naru.",
+            "german": "Wenn man dasselbe immer wieder übt, werden die synaptischen Verbindungen stärker."
+          },
+          {
+            "japanese": "赤ちゃんの脳では、毎秒たくさんのシナプスが作られている。",
+            "romaji": "Akachan no nō de wa, maibyō takusan no shinapusu ga tsukurarete iru.",
+            "german": "Im Gehirn eines Babys entstehen jede Sekunde zahllose Synapsen."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136652702",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole シナプス/シナプス; lemma シナプス-synapse; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "シナプス",
+              "reading": "しなぷす",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen シナプス/しなぷす \"Synapse\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1060810 sense 1, noun: synapse Pitch: Verified [1,2] via exact UniDic row; stored primary 0 corrected to 1. シナプス ist die „Synapse“, die Verbindungsstelle zwischen Nervenzellen (ニューロン). Typisch: シナプスを形成する „Synapsen bilden“, シナプスの結合が強まる, シナプス伝達 „synaptische Übertragung“. In populären Texten übers Lernen heißt es oft, dass Wiederholung die シナプス stärkt. Das Wort ist neurologischer Fachwortschatz, aber durch Sachbücher und Schulbiologie geläufig. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1060810; spelling=シナプス; reading=しなぷす",
+          "finding": "JMdict 1060810 sense 1, noun: synapse"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row; stored primary 0 corrected to 1. Exact whole シナプス/シナプス; lemma シナプス-synapse; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@136652702",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole シナプス/シナプス; lemma シナプス-synapse; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "シナプス",
+              "reading": "しなぷす",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen シナプス/しなぷす \"Synapse\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Synapse. JMdict 1060810 sense 1, noun: synapse",
+        "japanese": "シナプスは神経細胞間の信号伝達の接合部である。 / 同じことを何度も練習すると、シナプスのつながりが強くなる。 / 赤ちゃんの脳では、毎秒たくさんのシナプスが作られている。",
+        "romanization": "shinapusu; Shinapusu wa shinkei saibō kan no shingō dentatsu no setsugōbu de aru. / Onaji koto o nando mo renshū suru to, shinapusu no tsunagari ga tsuyoku naru. / Akachan no nō de wa, maibyō takusan no shinapusu ga tsukurarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Synapsen sind die Verbindungsstellen für die Signalübertragung zwischen Nervenzellen. / Wenn man dasselbe immer wieder übt, werden die synaptischen Verbindungen stärker. / Im Gehirn eines Babys entstehen jede Sekunde zahllose Synapsen.",
+        "contexts": [
+          "Neuroscience definition",
+          "Learning through repetition",
+          "Infant brain development"
+        ],
+        "lexical": "JMdict 1060810 sense 1, noun: synapse",
+        "register": "technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1112 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Neuroscience definition; Learning through repetition; Infant brain development), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "b396a681a061a7848e391dbe93b944a22540a4ae7200d16e5378c427e25f5a1f",
+        "approvalHash": "a3b573969082b3cb253e712179007d8e9252c511483f86cd59da061428da9d65"
+      }
+    },
+    {
+      "id": "vocab-n1:1113",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1113",
+      "state": "accepted",
+      "predecessorHash": "bf5d77188d3a67cdf6f30fc9a57d2380dba8382bd1eba689c43f61e5980e3520",
+      "originalHash": "bf5d77188d3a67cdf6f30fc9a57d2380dba8382bd1eba689c43f61e5980e3520",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "ヒトの脳には約千億個のニューロンが存在する。",
+            "romaji": "Hito no nō ni wa yaku sen oku ko no nyūron ga sonzai suru.",
+            "german": "Im menschlichen Gehirn gibt es etwa hundert Milliarden Neuronen."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "ニューロン ist das „Neuron“, das Lehnwort für die Nervenzelle; das japanische Wort dafür ist 神経細胞, das in Lehrbüchern ebenso häufig vorkommt. Typisch: ニューロンが発火する „ein Neuron feuert“, ニューロン同士がつながる, ミラーニューロン „Spiegelneuron“. Im IT-Bereich steht es auch für die Knoten künstlicher neuronaler Netze (ニューラルネットワーク).",
+        "examples": [
+          {
+            "japanese": "ヒトの脳には約千億個のニューロンが存在する。",
+            "romaji": "Hito no nō ni wa yaku sen oku ko no nyūron ga sonzai suru.",
+            "german": "Im menschlichen Gehirn gibt es etwa hundert Milliarden Neuronen."
+          },
+          {
+            "japanese": "ニューロンは電気信号を使って情報を伝えている。",
+            "romaji": "Nyūron wa denki shingō o tsukatte jōhō o tsutaete iru.",
+            "german": "Neuronen übertragen Informationen mithilfe elektrischer Signale."
+          },
+          {
+            "japanese": "AIの仕組みは、脳のニューロンのつながりをまねて作られた。",
+            "romaji": "Ēai no shikumi wa, nō no nyūron no tsunagari o manete tsukurareta.",
+            "german": "Die Funktionsweise von KI wurde nach dem Vorbild der Verbindungen zwischen Neuronen im Gehirn entwickelt."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202597747",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ニューロン/ニューロン; lemma ニューロン-neuron; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "ニューロン",
+              "reading": "にゅーろん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ニューロン/にゅーろん \"Neuron\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1092100 sense 1, noun: neuron Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. ニューロン ist das „Neuron“, das Lehnwort für die Nervenzelle; das japanische Wort dafür ist 神経細胞, das in Lehrbüchern ebenso häufig vorkommt. Typisch: ニューロンが発火する „ein Neuron feuert“, ニューロン同士がつながる, ミラーニューロン „Spiegelneuron“. Im IT-Bereich steht es auch für die Knoten künstlicher neuronaler Netze (ニューラルネットワーク). Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1092100; spelling=ニューロン; reading=にゅーろん",
+          "finding": "JMdict 1092100 sense 1, noun: neuron"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole ニューロン/ニューロン; lemma ニューロン-neuron; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@202597747",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ニューロン/ニューロン; lemma ニューロン-neuron; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "ニューロン",
+              "reading": "にゅーろん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen ニューロン/にゅーろん \"Neuron\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Neuron. JMdict 1092100 sense 1, noun: neuron",
+        "japanese": "ヒトの脳には約千億個のニューロンが存在する。 / ニューロンは電気信号を使って情報を伝えている。 / AIの仕組みは、脳のニューロンのつながりをまねて作られた。",
+        "romanization": "nyūron; Hito no nō ni wa yaku sen oku ko no nyūron ga sonzai suru. / Nyūron wa denki shingō o tsukatte jōhō o tsutaete iru. / Ēai no shikumi wa, nō no nyūron no tsunagari o manete tsukurareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im menschlichen Gehirn gibt es etwa hundert Milliarden Neuronen. / Neuronen übertragen Informationen mithilfe elektrischer Signale. / Die Funktionsweise von KI wurde nach dem Vorbild der Verbindungen zwischen Neuronen im Gehirn entwickelt.",
+        "contexts": [
+          "Size of the brain",
+          "How nerve signals work",
+          "Inspiration for AI"
+        ],
+        "lexical": "JMdict 1092100 sense 1, noun: neuron",
+        "register": "technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1113 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Size of the brain; How nerve signals work; Inspiration for AI), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "fc7a6a6ba7bab8ba295d2db365ea4a4aabeac08997bf1c6e25561c5b26893941",
+        "approvalHash": "a9e6c79a6595df3553f1e947699aea8f7f16c4b58f9a19deb2c2d19e735d04cc"
+      }
+    },
+    {
+      "id": "vocab-n1:1114",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1114",
+      "state": "accepted",
+      "predecessorHash": "33aa7fcd24dd1d7f77808eab511e95de994f48a6cf2f5df336b3536d9524d285",
+      "originalHash": "33aa7fcd24dd1d7f77808eab511e95de994f48a6cf2f5df336b3536d9524d285",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "脳の可塑性によって損傷後も機能回復の可能性がある。",
+            "romaji": "Nō no kasosei ni yotte sonshō go mo kinō kaifuku no kanōsei ga aru.",
+            "german": "Aufgrund der Plastizität des Gehirns besteht auch nach einer Schädigung die Möglichkeit der funktionellen Erholung."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "可塑性 ist die „Plastizität, Formbarkeit“: 可 „möglich“ + 塑 „formen“ + 性 „Eigenschaft“. Ursprünglich ein Begriff aus Physik und Materialkunde (粘土の可塑性 „Formbarkeit von Ton“), heute sehr häufig als 脳の可塑性 „neuronale Plastizität“, also die Fähigkeit des Gehirns, sich umzuorganisieren. Übertragen spricht man auch vom 可塑性 von Kindern oder Systemen. Typisch: 可塑性がある/高い. Schriftsprachlich und fachlich.",
+        "examples": [
+          {
+            "japanese": "脳の可塑性によって損傷後も機能回復の可能性がある。",
+            "romaji": "Nō no kasosei ni yotte sonshō go mo kinō kaifuku no kanōsei ga aru.",
+            "german": "Aufgrund der Plastizität des Gehirns besteht auch nach einer Schädigung die Möglichkeit der funktionellen Erholung."
+          },
+          {
+            "japanese": "粘土は可塑性が高いので、自由に形を変えられる。",
+            "romaji": "Nendo wa kasosei ga takai node, jiyū ni katachi o kaerareru.",
+            "german": "Ton ist sehr formbar, deshalb kann man seine Form frei verändern."
+          },
+          {
+            "japanese": "子どもの脳は可塑性に富み、外国語の音もすぐに身につける。",
+            "romaji": "Kodomo no nō wa kasosei ni tomi, gaikokugo no oto mo sugu ni mi ni tsukeru.",
+            "german": "Das Gehirn von Kindern ist sehr formbar und eignet sich auch die Laute fremder Sprachen schnell an."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1190890 sense 1, noun: plasticity Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 可塑性 ist die „Plastizität, Formbarkeit“: 可 „möglich“ + 塑 „formen“ + 性 „Eigenschaft“. Ursprünglich ein Begriff aus Physik und Materialkunde (粘土の可塑性 „Formbarkeit von Ton“), heute sehr häufig als 脳の可塑性 „neuronale Plastizität“, also die Fähigkeit des Gehirns, sich umzuorganisieren. Übertragen spricht man auch vom 可塑性 von Kindern oder Systemen. Typisch: 可塑性がある/高い. Schriftsprachlich und fachlich. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1190890; spelling=可塑性; reading=かそせい",
+          "selected": {
+            "sequence": "1190890",
+            "spelling": "可塑性",
+            "reading": "かそせい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "nouns which may take the genitive case particle 'no'"
+                ],
+                "misc": [],
+                "gloss": [
+                  "plasticity"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1190890 sense 1, noun: plasticity"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 可塑性/かそせい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8F%AF%E5%A1%91%E6%80%A7",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 可塑性/かそせい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Plastizität. JMdict 1190890 sense 1, noun: plasticity",
+        "japanese": "脳の可塑性によって損傷後も機能回復の可能性がある。 / 粘土は可塑性が高いので、自由に形を変えられる。 / 子どもの脳は可塑性に富み、外国語の音もすぐに身につける。",
+        "romanization": "kasosei; Nō no kasosei ni yotte sonshō go mo kinō kaifuku no kanōsei ga aru. / Nendo wa kasosei ga takai node, jiyū ni katachi o kaerareru. / Kodomo no nō wa kasosei ni tomi, gaikokugo no oto mo sugu ni mi ni tsukeru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Aufgrund der Plastizität des Gehirns besteht auch nach einer Schädigung die Möglichkeit der funktionellen Erholung. / Ton ist sehr formbar, deshalb kann man seine Form frei verändern. / Das Gehirn von Kindern ist sehr formbar und eignet sich auch die Laute fremder Sprachen schnell an.",
+        "contexts": [
+          "Recovery after brain injury",
+          "Material properties of clay",
+          "Children learning languages"
+        ],
+        "lexical": "JMdict 1190890 sense 1, noun: plasticity",
+        "register": "written / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1114 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Recovery after brain injury; Material properties of clay; Children learning languages), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "24e8b1ee7bff4d645579c5857e249e2bbfd34b6a6eb9934e21a4ef6a88080fde",
+        "approvalHash": "64c9ace15f6ab42a148a41cfa0f8fe74a02fb5ac36f41f2e1dc4c03a35d538c2"
+      }
+    },
+    {
+      "id": "vocab-n1:1115",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1115",
+      "state": "accepted",
+      "predecessorHash": "6b51551acab609a5060895a6da899dea03e90f407618a1af4a5ea07b5db918d8",
+      "originalHash": "6b51551acab609a5060895a6da899dea03e90f407618a1af4a5ea07b5db918d8",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "心不全によって下肢に浮腫が生じることがある。",
+            "romaji": "Shin fuzen ni yotte kashi ni fushu ga shōjiru koto ga aru.",
+            "german": "Durch Herzinsuffizienz können Ödeme an den unteren Extremitäten auftreten."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": null,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "浮腫 (ふしゅ) ist der medizinische Fachbegriff für „Ödem, Wassereinlagerung“. Dieselben Kanji werden im Alltag als むくみ gelesen (auch 浮腫み), und so sprechen Patienten: 足がむくむ „die Beine sind geschwollen“. Fachsprachlich: 浮腫が生じる/出現する, 下肢浮腫, 肺水腫 als Sonderform in der Lunge. Bei der Lesung ふしゅ handelt es sich also um Arzt- und Lehrbuchsprache.",
+        "examples": [
+          {
+            "japanese": "心不全によって下肢に浮腫が生じることがある。",
+            "romaji": "Shin fuzen ni yotte kashi ni fushu ga shōjiru koto ga aru.",
+            "german": "Durch Herzinsuffizienz können Ödeme an den unteren Extremitäten auftreten."
+          },
+          {
+            "japanese": "医師はすねを指で押して、浮腫の有無を確認した。",
+            "romaji": "Ishi wa sune o yubi de oshite, fushu no umu o kakunin shita.",
+            "german": "Der Arzt drückte mit dem Finger auf das Schienbein, um zu prüfen, ob ein Ödem vorlag."
+          },
+          {
+            "japanese": "腎臓の病気では、顔やまぶたに浮腫が出ることが多い。",
+            "romaji": "Jinzō no byōki de wa, kao ya mabuta ni fushu ga deru koto ga ōi.",
+            "german": "Bei Nierenerkrankungen zeigen sich Ödeme oft im Gesicht und an den Augenlidern."
+          }
+        ],
+        "pitch": 1,
+        "pitchVariants": [
+          2
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233580517",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 浮腫/フシュ; lemma 浮腫; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "浮腫",
+              "reading": "ふしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 浮腫/ふしゅ \"Ödem; Schwellung\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 2860477 sense 1, noun: edema (reading ふしゅ) Pitch: Verified [1,2] via exact UniDic row. 浮腫 (ふしゅ) ist der medizinische Fachbegriff für „Ödem, Wassereinlagerung“. Dieselben Kanji werden im Alltag als むくみ gelesen (auch 浮腫み), und so sprechen Patienten: 足がむくむ „die Beine sind geschwollen“. Fachsprachlich: 浮腫が生じる/出現する, 下肢浮腫, 肺水腫 als Sonderform in der Lunge. Bei der Lesung ふしゅ handelt es sich also um Arzt- und Lehrbuchsprache. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2860477; spelling=浮腫; reading=ふしゅ",
+          "selected": {
+            "sequence": "2860477",
+            "spelling": "浮腫",
+            "reading": "ふしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "edema",
+                  "oedema"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2860477 sense 1, noun: edema (reading ふしゅ)"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,2] via exact UniDic row. Exact whole 浮腫/フシュ; lemma 浮腫; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233580517",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              2
+            ],
+            "finding": "Exact whole 浮腫/フシュ; lemma 浮腫; 名詞/普通名詞/一般/*; *; *; aType 1,2.",
+            "match": {
+              "word": "浮腫",
+              "reading": "ふしゅ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 浮腫/ふしゅ \"Ödem; Schwellung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ödem; Schwellung. JMdict 2860477 sense 1, noun: edema (reading ふしゅ)",
+        "japanese": "心不全によって下肢に浮腫が生じることがある。 / 医師はすねを指で押して、浮腫の有無を確認した。 / 腎臓の病気では、顔やまぶたに浮腫が出ることが多い。",
+        "romanization": "fushu; Shin fuzen ni yotte kashi ni fushu ga shōjiru koto ga aru. / Ishi wa sune o yubi de oshite, fushu no umu o kakunin shita. / Jinzō no byōki de wa, kao ya mabuta ni fushu ga deru koto ga ōi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch Herzinsuffizienz können Ödeme an den unteren Extremitäten auftreten. / Der Arzt drückte mit dem Finger auf das Schienbein, um zu prüfen, ob ein Ödem vorlag. / Bei Nierenerkrankungen zeigen sich Ödeme oft im Gesicht und an den Augenlidern.",
+        "contexts": [
+          "Complication of heart failure",
+          "Physical examination",
+          "Symptom of kidney disease"
+        ],
+        "lexical": "JMdict 2860477 sense 1, noun: edema (reading ふしゅ)",
+        "register": "technical (medicine); everyday reading むくみ",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1115 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Complication of heart failure; Physical examination; Symptom of kidney disease), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "517d21a957f7b0eebb240b42b9b56aeff272968ba7ab49662732f94c94bcd411",
+        "approvalHash": "5b3887980ae5e4a54051b3d79110a02387e73f85e7e5478c5da54f6b38ae7213"
+      }
+    },
+    {
+      "id": "vocab-n1:1116",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1116",
+      "state": "accepted",
+      "predecessorHash": "4252bb620455d8a71e04769b13950d2a2f683c141d1ab3335016be37f3e95e0a",
+      "originalHash": "4252bb620455d8a71e04769b13950d2a2f683c141d1ab3335016be37f3e95e0a",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "高熱による熱性痙攣は小児に多く見られる。",
+            "romaji": "Kōnetsu ni yoru nessei keiren wa shōni ni ōku mirareru.",
+            "german": "Fieberkrämpfe durch hohes Fieber treten häufig bei Kindern auf."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "痙攣 ist ein „Krampf, Zuckung“ und auch als intransitives する-Verb gebräuchlich: 足が痙攣する. Typisch: 痙攣を起こす „einen Krampf bekommen“, 熱性痙攣 „Fieberkrampf“, まぶたが痙攣する „das Augenlid zuckt“. Wegen der schwierigen Kanji schreibt man sehr oft けいれん in Kana. Für einen Wadenkrampf sagt man im Alltag eher 足がつる; 痙攣 ist allgemeiner und auch medizinisch.",
+        "examples": [
+          {
+            "japanese": "高熱による熱性痙攣は小児に多く見られる。",
+            "romaji": "Kōnetsu ni yoru nessei keiren wa shōni ni ōku mirareru.",
+            "german": "Fieberkrämpfe durch hohes Fieber treten häufig bei Kindern auf."
+          },
+          {
+            "japanese": "疲れているせいか、最近まぶたがよく痙攣する。",
+            "romaji": "Tsukarete iru sei ka, saikin mabuta ga yoku keiren suru.",
+            "german": "Vielleicht weil ich müde bin, zuckt in letzter Zeit oft mein Augenlid."
+          },
+          {
+            "japanese": "男性は突然倒れて痙攣を起こし、救急車で運ばれた。",
+            "romaji": "Dansei wa totsuzen taorete keiren o okoshi, kyūkyūsha de hakobareta.",
+            "german": "Der Mann brach plötzlich zusammen, bekam Krämpfe und wurde mit dem Krankenwagen abtransportiert."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117184775",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 痙攣/ケイレン; lemma 痙攣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "痙攣",
+              "reading": "けいれん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 痙攣/けいれん \"Krampf; Konvulsion\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1569590 sense 1, noun / suru verb: convulsion, cramp, spasm, twitch Pitch: Verified [0] via exact UniDic row. 痙攣 ist ein „Krampf, Zuckung“ und auch als intransitives する-Verb gebräuchlich: 足が痙攣する. Typisch: 痙攣を起こす „einen Krampf bekommen“, 熱性痙攣 „Fieberkrampf“, まぶたが痙攣する „das Augenlid zuckt“. Wegen der schwierigen Kanji schreibt man sehr oft けいれん in Kana. Für einen Wadenkrampf sagt man im Alltag eher 足がつる; 痙攣 ist allgemeiner und auch medizinisch. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1569590; spelling=痙攣; reading=けいれん",
+          "selected": {
+            "sequence": "1569590",
+            "spelling": "痙攣",
+            "reading": "けいれん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "convulsion",
+                  "cramp",
+                  "spasm",
+                  "tic",
+                  "twitch",
+                  "fit"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1569590 sense 1, noun / suru verb: convulsion, cramp, spasm, twitch"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 痙攣/ケイレン; lemma 痙攣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117184775",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 痙攣/ケイレン; lemma 痙攣; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "痙攣",
+              "reading": "けいれん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 痙攣/けいれん \"Krampf; Konvulsion\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Krampf; Konvulsion. JMdict 1569590 sense 1, noun / suru verb: convulsion, cramp, spasm, twitch",
+        "japanese": "高熱による熱性痙攣は小児に多く見られる。 / 疲れているせいか、最近まぶたがよく痙攣する。 / 男性は突然倒れて痙攣を起こし、救急車で運ばれた。",
+        "romanization": "keiren; Kōnetsu ni yoru nessei keiren wa shōni ni ōku mirareru. / Tsukarete iru sei ka, saikin mabuta ga yoku keiren suru. / Dansei wa totsuzen taorete keiren o okoshi, kyūkyūsha de hakobareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Fieberkrämpfe durch hohes Fieber treten häufig bei Kindern auf. / Vielleicht weil ich müde bin, zuckt in letzter Zeit oft mein Augenlid. / Der Mann brach plötzlich zusammen, bekam Krämpfe und wurde mit dem Krankenwagen abtransportiert.",
+        "contexts": [
+          "Febrile seizures in children",
+          "Eyelid twitching",
+          "Emergency on the street"
+        ],
+        "lexical": "JMdict 1569590 sense 1, noun / suru verb: convulsion, cramp, spasm, twitch",
+        "register": "neutral (medical and everyday)",
+        "transitivity": "intransitive as 痙攣する (足が痙攣する); 痙攣を起こす",
+        "conjugation": "noun; suru verb (痙攣する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1116 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Febrile seizures in children; Eyelid twitching; Emergency on the street), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "054a3ad4504d9c58b103fc48fe2cc0e3f8dbdb5ec95fd0074e1ab49fdc1aca2b",
+        "approvalHash": "4eb4095f97c24b5d31be93e91cae095a8a0b596d442f3cec355cac94a49d0d41"
+      }
+    },
+    {
+      "id": "vocab-n1:1117",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1117",
+      "state": "accepted",
+      "predecessorHash": "76f235062b9dd4834327e481ca790ed5fd8b399f9a973193ace4c9fe4bf7a79b",
+      "originalHash": "76f235062b9dd4834327e481ca790ed5fd8b399f9a973193ace4c9fe4bf7a79b",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "血行障害が進行すると組織が壊疽に陥る危険がある。",
+            "romaji": "Kekkō shōgai ga shinkō suru to soshiki ga eso ni ochiiru kiken ga aru.",
+            "german": "Wenn die Durchblutungsstörung fortschreitet, besteht die Gefahr, dass das Gewebe gangränös wird."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "壊疽 ist die „Gangrän“, das Absterben von Gewebe durch fehlende Durchblutung oder Infektion (壊 „zerstören“ + 疽 „Geschwür“). Typisch: 壊疽を起こす, 壊疽になる, 壊疽に陥る, 糖尿病性壊疽 „diabetische Gangrän“. Verwandt ist 壊死 „Nekrose“, das allgemein das Absterben von Gewebe bezeichnet; 壊疽 ist eine besondere Form davon, oft mit Schwarzfärbung. Rein medizinisch; im Notfall kann eine Amputation (切断) nötig werden.",
+        "examples": [
+          {
+            "japanese": "血行障害が進行すると組織が壊疽に陥る危険がある。",
+            "romaji": "Kekkō shōgai ga shinkō suru to soshiki ga eso ni ochiiru kiken ga aru.",
+            "german": "Wenn die Durchblutungsstörung fortschreitet, besteht die Gefahr, dass das Gewebe gangränös wird."
+          },
+          {
+            "japanese": "糖尿病が悪化して足の指が壊疽を起こし、切断することになった。",
+            "romaji": "Tōnyōbyō ga akka shite ashi no yubi ga eso o okoshi, setsudan suru koto ni natta.",
+            "german": "Durch den sich verschlechternden Diabetes bekam er eine Gangrän am Zeh, die amputiert werden musste."
+          },
+          {
+            "japanese": "凍傷を放置すると、指が壊疽になることもある。",
+            "romaji": "Tōshō o hōchi suru to, yubi ga eso ni naru koto mo aru.",
+            "german": "Wenn man Erfrierungen nicht behandelt, können die Finger sogar absterben."
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70514822",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 壊疽/エソ; lemma 壊疽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "壊疽",
+              "reading": "えそ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 壊疽/えそ \"Gangrän\""
+            }
+          }
+        ]
+      },
+      "rationale": "JMdict 1199950 sense 1, noun: gangrene Pitch: Verified [1] via exact UniDic row; stored primary 0 corrected to 1. 壊疽 ist die „Gangrän“, das Absterben von Gewebe durch fehlende Durchblutung oder Infektion (壊 „zerstören“ + 疽 „Geschwür“). Typisch: 壊疽を起こす, 壊疽になる, 壊疽に陥る, 糖尿病性壊疽 „diabetische Gangrän“. Verwandt ist 壊死 „Nekrose“, das allgemein das Absterben von Gewebe bezeichnet; 壊疽 ist eine besondere Form davon, oft mit Schwarzfärbung. Rein medizinisch; im Notfall kann eine Amputation (切断) nötig werden. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1199950; spelling=壊疽; reading=えそ",
+          "selected": {
+            "sequence": "1199950",
+            "spelling": "壊疽",
+            "reading": "えそ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "gangrene"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1199950 sense 1, noun: gangrene"
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 壊疽/エソ; lemma 壊疽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@70514822",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 壊疽/エソ; lemma 壊疽; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "壊疽",
+              "reading": "えそ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 壊疽/えそ \"Gangrän\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gangrän. JMdict 1199950 sense 1, noun: gangrene",
+        "japanese": "血行障害が進行すると組織が壊疽に陥る危険がある。 / 糖尿病が悪化して足の指が壊疽を起こし、切断することになった。 / 凍傷を放置すると、指が壊疽になることもある。",
+        "romanization": "eso; Kekkō shōgai ga shinkō suru to soshiki ga eso ni ochiiru kiken ga aru. / Tōnyōbyō ga akka shite ashi no yubi ga eso o okoshi, setsudan suru koto ni natta. / Tōshō o hōchi suru to, yubi ga eso ni naru koto mo aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wenn die Durchblutungsstörung fortschreitet, besteht die Gefahr, dass das Gewebe gangränös wird. / Durch den sich verschlechternden Diabetes bekam er eine Gangrän am Zeh, die amputiert werden musste. / Wenn man Erfrierungen nicht behandelt, können die Finger sogar absterben.",
+        "contexts": [
+          "Circulatory disorder",
+          "Diabetic complication",
+          "Untreated frostbite"
+        ],
+        "lexical": "JMdict 1199950 sense 1, noun: gangrene",
+        "register": "technical (medicine)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1117 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Circulatory disorder; Diabetic complication; Untreated frostbite), the selected JMdict role and the pitch disposition (verified).",
+        "contentHash": "c5cf77ba043ff353b855159016b37457880e07e261d816429031d738c7da559d",
+        "approvalHash": "8148fc0a02a00dc682bb3bab7042c50e4c6d1b961bb39d5141b124860d3f4aab"
+      }
+    },
+    {
+      "id": "vocab-n1:1118",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1118",
+      "state": "accepted",
+      "predecessorHash": "ad1b40bba03745f77ff749e51307e8c1caf5d1567ffdd0952ada712b75216617",
+      "originalHash": "ad1b40bba03745f77ff749e51307e8c1caf5d1567ffdd0952ada712b75216617",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "虫垂の穿孔により腹膜炎を併発することがある。",
+            "romaji": "Chūsui no senkō ni yori fukumakuen o heihatsu suru koto ga aru.",
+            "german": "Durch die Perforation des Blinddarms kann eine Bauchfellentzündung als Komplikation auftreten."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "腹膜炎 ist die „Bauchfellentzündung, Peritonitis“: 腹膜 „Bauchfell“ + 炎 „Entzündung“. Sie entsteht oft als Komplikation, etwa wenn ein entzündeter Blinddarm (虫垂, umgangssprachlich 盲腸) durchbricht. Typisch: 腹膜炎を起こす/併発する, 腹膜炎になる. Klassisch ist die Warnung, dass eine verschleppte Blinddarmentzündung (盲腸) zu 腹膜炎 führen kann. Medizinischer Fachbegriff, aber allgemein bekannt.",
+        "examples": [
+          {
+            "japanese": "虫垂の穿孔により腹膜炎を併発することがある。",
+            "romaji": "Chūsui no senkō ni yori fukumakuen o heihatsu suru koto ga aru.",
+            "german": "Durch die Perforation des Blinddarms kann eine Bauchfellentzündung als Komplikation auftreten."
+          },
+          {
+            "japanese": "盲腸を我慢しすぎて、腹膜炎になりかけた。",
+            "romaji": "Mōchō o gaman shisugite, fukumakuen ni narikaketa.",
+            "german": "Ich habe die Blinddarmentzündung zu lange ausgehalten und hätte fast eine Bauchfellentzündung bekommen."
+          },
+          {
+            "japanese": "腹膜炎は命に関わるので、すぐに手術が必要です。",
+            "romaji": "Fukumakuen wa inochi ni kakawaru node, sugu ni shujutsu ga hitsuyō desu.",
+            "german": "Eine Bauchfellentzündung ist lebensgefährlich, deshalb muss sofort operiert werden."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1501270 sense 1, noun: peritonitis Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 腹膜炎 ist die „Bauchfellentzündung, Peritonitis“: 腹膜 „Bauchfell“ + 炎 „Entzündung“. Sie entsteht oft als Komplikation, etwa wenn ein entzündeter Blinddarm (虫垂, umgangssprachlich 盲腸) durchbricht. Typisch: 腹膜炎を起こす/併発する, 腹膜炎になる. Klassisch ist die Warnung, dass eine verschleppte Blinddarmentzündung (盲腸) zu 腹膜炎 führen kann. Medizinischer Fachbegriff, aber allgemein bekannt. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1501270; spelling=腹膜炎; reading=ふくまくえん",
+          "selected": {
+            "sequence": "1501270",
+            "spelling": "腹膜炎",
+            "reading": "ふくまくえん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "peritonitis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1501270 sense 1, noun: peritonitis"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 腹膜炎/ふくまくえん scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%85%B9%E8%86%9C%E7%82%8E",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 腹膜炎/ふくまくえん scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Peritonitis; Bauchfellentzündung. JMdict 1501270 sense 1, noun: peritonitis",
+        "japanese": "虫垂の穿孔により腹膜炎を併発することがある。 / 盲腸を我慢しすぎて、腹膜炎になりかけた。 / 腹膜炎は命に関わるので、すぐに手術が必要です。",
+        "romanization": "fukumakuen; Chūsui no senkō ni yori fukumakuen o heihatsu suru koto ga aru. / Mōchō o gaman shisugite, fukumakuen ni narikaketa. / Fukumakuen wa inochi ni kakawaru node, sugu ni shujutsu ga hitsuyō desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Perforation des Blinddarms kann eine Bauchfellentzündung als Komplikation auftreten. / Ich habe die Blinddarmentzündung zu lange ausgehalten und hätte fast eine Bauchfellentzündung bekommen. / Eine Bauchfellentzündung ist lebensgefährlich, deshalb muss sofort operiert werden.",
+        "contexts": [
+          "Complication of appendicitis",
+          "Waiting too long with pain",
+          "Surgeon's urgent advice"
+        ],
+        "lexical": "JMdict 1501270 sense 1, noun: peritonitis",
+        "register": "technical (medicine)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1118 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Complication of appendicitis; Waiting too long with pain; Surgeon's urgent advice), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "aea7f2a97a477341d4e4bbeaa549d8979e1ae8f18c1f473b1fbb1fa879266fb1",
+        "approvalHash": "5c08e7caf8dd5f5407066b60a109c5350be05ae1a8df15144fa7f00a7d5af3df"
+      }
+    },
+    {
+      "id": "vocab-n1:1119",
+      "revisionId": "209j-n1-enrichment-vocab-n1-1119",
+      "state": "accepted",
+      "predecessorHash": "6a6c8f6e1ebc83acb8fe97ba7215f32d838f4873c6e101ddf6dca5437d240125",
+      "originalHash": "6a6c8f6e1ebc83acb8fe97ba7215f32d838f4873c6e101ddf6dca5437d240125",
+      "predecessorRevisionHash": null,
+      "original": {
+        "notes": null,
+        "examples": [
+          {
+            "japanese": "急性肺水腫は心不全の重篤な合併症である。",
+            "romaji": "Kyūsei hai suishu wa shin fuzen no jūtoku na gappeishō de aru.",
+            "german": "Akutes Lungenödem ist eine schwere Komplikation der Herzinsuffizienz."
+          }
+        ],
+        "pitch": 0,
+        "pitchProvenance": null
+      },
+      "replacement": {
+        "notes": "肺水腫 ist das „Lungenödem“: 肺 „Lunge“ + 水腫 „Wassersucht, Ödem“. Typische Ursache ist 心不全 „Herzinsuffizienz“; man spricht dann von 心原性肺水腫. Weitere Verbindungen: 肺水腫を起こす, 急性肺水腫. Bekannt ist auch 高地肺水腫 „Höhenlungenödem“ beim Bergsteigen. Verwandt ist 浮腫 „Ödem“ allgemein. Reiner Fachbegriff.",
+        "examples": [
+          {
+            "japanese": "急性肺水腫は心不全の重篤な合併症である。",
+            "romaji": "Kyūsei hai suishu wa shin fuzen no jūtoku na gappeishō de aru.",
+            "german": "Akutes Lungenödem ist eine schwere Komplikation der Herzinsuffizienz."
+          },
+          {
+            "japanese": "高い山に急いで登ると、肺水腫になる危険がある。",
+            "romaji": "Takai yama ni isoide noboru to, hai suishu ni naru kiken ga aru.",
+            "german": "Wer zu schnell auf hohe Berge steigt, riskiert ein Höhenlungenödem."
+          },
+          {
+            "japanese": "息苦しさを訴えて受診したところ、肺水腫と診断された。",
+            "romaji": "Ikigurushisa o uttaete jushin shita tokoro, hai suishu to shindan sareta.",
+            "german": "Er ging wegen Atemnot zum Arzt und bekam die Diagnose Lungenödem."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "JMdict 1680830 sense 1, noun: pulmonary edema Pitch: Investigated; no exact whole selected-role pattern, stored to unknown (was 0). 肺水腫 ist das „Lungenödem“: 肺 „Lunge“ + 水腫 „Wassersucht, Ödem“. Typische Ursache ist 心不全 „Herzinsuffizienz“; man spricht dann von 心原性肺水腫. Weitere Verbindungen: 肺水腫を起こす, 急性肺水腫. Bekannt ist auch 高地肺水腫 „Höhenlungenödem“ beim Bergsteigen. Verwandt ist 浮腫 „Ödem“ allgemein. Reiner Fachbegriff. Final note and all Japanese/Hepburn/German contexts read; frozen ID, headword, reading and level retained.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1680830; spelling=肺水腫; reading=はいすいしゅ",
+          "selected": {
+            "sequence": "1680830",
+            "spelling": "肺水腫",
+            "reading": "はいすいしゅ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "pulmonary edema",
+                  "pulmonary oedema"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1680830 sense 1, noun: pulmonary edema"
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 肺水腫/はいすいしゅ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E8%82%BA%E6%B0%B4%E8%85%AB",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 肺水腫/はいすいしゅ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "usage-note",
+          "distinct-context-enrichment",
+          "pitch-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "reviewedDistinctContexts": true,
+        "meaning": "Lungenödem. JMdict 1680830 sense 1, noun: pulmonary edema",
+        "japanese": "急性肺水腫は心不全の重篤な合併症である。 / 高い山に急いで登ると、肺水腫になる危険がある。 / 息苦しさを訴えて受診したところ、肺水腫と診断された。",
+        "romanization": "hai suishu; Kyūsei hai suishu wa shin fuzen no jūtoku na gappeishō de aru. / Takai yama ni isoide noboru to, hai suishu ni naru kiken ga aru. / Ikigurushisa o uttaete jushin shita tokoro, hai suishu to shindan sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Akutes Lungenödem ist eine schwere Komplikation der Herzinsuffizienz. / Wer zu schnell auf hohe Berge steigt, riskiert ein Höhenlungenödem. / Er ging wegen Atemnot zum Arzt und bekam die Diagnose Lungenödem.",
+        "contexts": [
+          "Cardiac complication",
+          "Mountaineering danger",
+          "Diagnosis of shortness of breath"
+        ],
+        "lexical": "JMdict 1680830 sense 1, noun: pulmonary edema",
+        "register": "technical (medicine)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-full-enrichment-n1-author-209",
+        "finding": "Author reread the exact final card vocab-n1:1119 (3 examples): German note, every Japanese sentence, Modified Hepburn and German translation, the distinct contexts (Cardiac complication; Mountaineering danger; Diagnosis of shortness of breath), the selected JMdict role and the pitch disposition (unknown).",
+        "contentHash": "2aec70de9066f6e5d691a393faeb4b10607f5ec0d9ddbc3353112fb036971bc7",
+        "approvalHash": "f54f8d73bda20645ef8083bfe5f48846af8027f4750077d1bd6221da06e414bf"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
