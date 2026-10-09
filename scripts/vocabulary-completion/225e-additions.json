@@ -1,0 +1,356 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [
+    {
+      "id": "vocab-n4:correction:omona-main",
+      "revisionId": "225-addition-omona-main",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "主な",
+        "reading": "おもな",
+        "romaji": "omo na",
+        "meaning": "hauptsächlich, wichtigst-, Haupt- (nur vor Nomen)",
+        "type": "Adjektiv",
+        "category": "Abstrakt",
+        "level": "N4",
+        "notes": "主な steht nur direkt vor einem Nomen und wird nicht konjugiert: 主な原因 „Hauptursache“, 主な目的 „Hauptzweck“, 主な産業 „wichtigster Industriezweig“. Als Prädikat (～は主だ) ist es unüblich; dafür sagt man eher 中心だ oder 一番大事だ. Das Adverb dazu ist 主に „hauptsächlich“; 主なる ist die steife, schriftsprachliche Variante desselben Wortes. Nicht mit 主（しゅ）„Herr“ oder 主（ぬし）„Besitzer“ verwechseln.",
+        "examples": [
+          {
+            "japanese": "この町の主な産業は観光です。",
+            "romaji": "Kono machi no omo na sangyō wa kankō desu.",
+            "german": "Der wichtigste Wirtschaftszweig dieser Stadt ist der Tourismus."
+          },
+          {
+            "japanese": "事故の主な原因はスピードの出しすぎだった。",
+            "romaji": "Jiko no omo na gen'in wa supīdo no dashisugi datta.",
+            "german": "Die Hauptursache des Unfalls war überhöhte Geschwindigkeit."
+          },
+          {
+            "japanese": "最初に会議の主な目的を説明します。",
+            "romaji": "Saisho ni kaigi no omo na mokuteki o setsumei shimasu.",
+            "german": "Zuerst erkläre ich den Hauptzweck der Besprechung."
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "reason": "Correction-driven addition: Correction-driven addition: the N1 reference triage found no card for the everyday prenominal 主な/おもな (JMdict 2272810, adj-pn 'chief; main; principal'); it had only the formal 主なる. JMdict 2272810 sense 1, adj-pn: chief; main; principal; important",
+      "levelBasis": "Basic everyday prenominal used constantly in speech, news and textbooks, paired with the N5 card 主に, so it is placed at N4 rather than at the N1 level of the formal 主なる. Editorial estimate; no official JLPT vocabulary list assumed.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2272810; spelling=主な; reading=おもな",
+          "finding": "JMdict 2272810 sense 1, adj-pn: chief; main; principal; important"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 主な/オモナ; lemma 主な; 連体詞/*/*/*; *; *; aType 1. No transfer. Query returned 1 rows (主[な]); none is the exact head 主な/おもな with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E4%B8%BB%E3%81%AA",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 主な/オモナ; lemma 主な; 連体詞/*/*/*; *; *; aType 1. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 e25cd5cdccaef93472ac5f3defe29834f2da2fe702b1b2e94b40ca185f5755ef",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%B8%BB%E3%81%AA",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (主[な]); none is the exact head 主な/おもな with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "hauptsächlich, wichtigst-, Haupt- (nur vor Nomen). JMdict 2272810 sense 1, adj-pn: chief; main; principal; important",
+        "japanese": "この町の主な産業は観光です。 / 事故の主な原因はスピードの出しすぎだった。 / 最初に会議の主な目的を説明します。",
+        "romanization": "omo na; Kono machi no omo na sangyō wa kankō desu. / Jiko no omo na gen'in wa supīdo no dashisugi datta. / Saisho ni kaigi no omo na mokuteki o setsumei shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der wichtigste Wirtschaftszweig dieser Stadt ist der Tourismus. / Die Hauptursache des Unfalls war überhöhte Geschwindigkeit. / Zuerst erkläre ich den Hauptzweck der Besprechung.",
+        "contexts": [
+          "Local economy",
+          "Accident report",
+          "Meeting agenda"
+        ],
+        "lexical": "JMdict 2272810 sense 1, adj-pn: chief; main; principal; important",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (prenominal adjective / rentaishi, no inflection, only before nouns)",
+        "level": "Basic everyday prenominal used constantly in speech, news and textbooks, paired with the N5 card 主に, so it is placed at N4 rather than at the N1 level of the formal 主なる."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n4:correction:omona-main (headword, reading, aliases, note and every example).",
+        "contentHash": "405d246f933226910a6224f445f305cfb66346ec76d994526ec452962bf5f855",
+        "approvalHash": "c721d9ab237f1f9a46312cede14b06bed10ebfec4755de025b85036edae5869a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:patto-suddenly",
+      "revisionId": "225-addition-patto-suddenly",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "ぱっと",
+        "reading": "ぱっと",
+        "romaji": "patto",
+        "meaning": "plötzlich, blitzschnell; auffällig, glänzend (ぱっとしない: unscheinbar, mittelmäßig)",
+        "type": "Adverb",
+        "category": "Lautmalerei",
+        "level": "N2",
+        "aliases": [
+          "パッと"
+        ],
+        "notes": "Lautmalerisches Adverb für etwas, das schlagartig geschieht oder sich ausbreitet: ぱっと立ち上がる „aufspringen“, ぱっと明るくなる „plötzlich hell werden“, ぱっと見 „auf den ersten Blick“. Mit する heißt es „auffällig, glanzvoll sein“, fast nur verneint als ぱっとしない „unscheinbar, mau, mittelmäßig“. Oft auch in Katakana パッと geschrieben. Das seltene ばっと wirkt heftiger; さっと betont eher die flinke, glatte Bewegung.",
+        "examples": [
+          {
+            "japanese": "名前を呼ばれて、彼はぱっと立ち上がった。",
+            "romaji": "Namae o yobarete, kare wa patto tachiagatta.",
+            "german": "Als sein Name aufgerufen wurde, sprang er sofort auf."
+          },
+          {
+            "japanese": "電気をつけると、部屋がパッと明るくなった。",
+            "romaji": "Denki o tsukeru to, heya ga patto akaruku natta.",
+            "german": "Als ich das Licht anmachte, wurde das Zimmer schlagartig hell."
+          },
+          {
+            "japanese": "最近、天気がぱっとしないね。",
+            "romaji": "Saikin, tenki ga patto shinai ne.",
+            "german": "In letzter Zeit ist das Wetter ziemlich trüb, oder?"
+          }
+        ],
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "reason": "Correction-driven addition: Correction-driven addition: the N1 reference triage found no card for ぱっと/パッと (JMdict 1010440, adv/vs on-mim 'suddenly; in a flash; conspicuously'); only the rarer ばっと was added. JMdict 1010440 senses 1–2, adv/vs on-mim: suddenly; in a flash; conspicuously; showily",
+      "levelBasis": "Very common onomatopoeic adverb typical of N2 mimetic-word lists, far more frequent than the N1 card ばっと. Editorial estimate; no official JLPT vocabulary list assumed.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1010440; spelling=ぱっと; reading=ぱっと",
+          "finding": "JMdict 1010440 senses 1–2, adv/vs on-mim: suddenly; in a flash; conspicuously; showily"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole ぱっと/ぱっと scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%81%B1%E3%81%A3%E3%81%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole ぱっと/ぱっと scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "plötzlich, blitzschnell; auffällig, glänzend (ぱっとしない: unscheinbar, mittelmäßig). JMdict 1010440 senses 1–2, adv/vs on-mim: suddenly; in a flash; conspicuously; showily",
+        "japanese": "名前を呼ばれて、彼はぱっと立ち上がった。 / 電気をつけると、部屋がパッと明るくなった。 / 最近、天気がぱっとしないね。",
+        "romanization": "patto; Namae o yobarete, kare wa patto tachiagatta. / Denki o tsukeru to, heya ga patto akaruku natta. / Saikin, tenki ga patto shinai ne. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als sein Name aufgerufen wurde, sprang er sofort auf. / Als ich das Licht anmachte, wurde das Zimmer schlagartig hell. / In letzter Zeit ist das Wetter ziemlich trüb, oder?",
+        "contexts": [
+          "Sudden movement",
+          "Light switching on",
+          "Dull weather"
+        ],
+        "lexical": "JMdict 1010440 senses 1–2, adv/vs on-mim: suddenly; in a flash; conspicuously; showily",
+        "register": "neutral (colloquial in ぱっとしない)",
+        "transitivity": "Nonverb (as ぱっとする intransitive)",
+        "conjugation": "Nonverb (adverb; ぱっとする as suru verb, mostly negative ぱっとしない)",
+        "level": "Very common onomatopoeic adverb typical of N2 mimetic-word lists, far more frequent than the N1 card ばっと."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n2:correction:patto-suddenly (headword, reading, aliases, note and every example).",
+        "contentHash": "a9e90f485324984ba2d76a700db18e9577b3de957dc5743938dc1479b8deb26b",
+        "approvalHash": "c469ae21bf2a89dd5e2de91029d5fa21d84083a9cc9e9bb695b0760a30d5bdc4"
+      }
+    },
+    {
+      "id": "vocab-n3:correction:yoshi-alright",
+      "revisionId": "225-addition-yoshi-alright",
+      "state": "accepted",
+      "predecessorHash": null,
+      "predecessorRevisionHash": null,
+      "entry": {
+        "word": "よし",
+        "reading": "よし",
+        "romaji": "yoshi",
+        "meaning": "gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung)",
+        "type": "Ausdruck",
+        "category": "Kommunikation",
+        "level": "N3",
+        "aliases": [
+          "よーし",
+          "ようし"
+        ],
+        "notes": "Ausruf, mit dem man sich selbst oder andere anspornt („also los!“), etwas als erledigt abhakt oder jemandem Zustimmung gibt („gut so!“). Gedehnt als よーし oder ようし klingt es entschlossener. Ungezwungen; gegenüber Vorgesetzten eher nicht. Im Unterschied zu さあ, das andere zum Anfangen auffordert, drückt よし vor allem den eigenen Entschluss aus. Nicht verwechseln mit dem klassischen Adjektiv 良し (良しとする „gutheißen“).",
+        "examples": [
+          {
+            "japanese": "よし、これで準備はできた。",
+            "romaji": "Yoshi, kore de junbi wa dekita.",
+            "german": "Gut, damit ist alles vorbereitet."
+          },
+          {
+            "japanese": "「できました！」「よし、よくやった。」",
+            "romaji": "\"Dekimashita!\" \"Yoshi, yoku yatta.\"",
+            "german": "„Fertig!“ – „Gut, gut gemacht.“"
+          },
+          {
+            "japanese": "ようし、今日こそ十キロ走るぞ。",
+            "romaji": "Yōshi, kyō koso jukkiro hashiru zo.",
+            "german": "Also los, heute laufe ich endlich zehn Kilometer!"
+          }
+        ],
+        "pitch": 1,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273626802",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole よし/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1. Rejected for this role: よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 命令形; aType * | よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 連用形-一般; aType * | よし/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/一般; *; *; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/名; *; *; aType 1 | よし/ヨシ; lemma 由; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 縦し; 副詞/*/*/*; *; *; aType 1 | よし/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 葦; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 寄す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 0 | よし/ヨシ; lemma 止す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 1.",
+            "match": {
+              "word": "よし",
+              "reading": "よし",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "Ausdruck よし/よし \"gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung)\""
+            }
+          }
+        ]
+      },
+      "reason": "Correction-driven addition: Correction-driven addition: the interjection よし 'alright, OK, let's go' (JMdict 2607690, int) had no card; the N1 triage authors flagged it next to the classical 良し. JMdict 2607690 sense 1, int: alright; all right; right on; looking good; OK",
+      "levelBasis": "Everyday spoken interjection heard constantly in dialogue and media, placed at N3 alongside other common conversational interjections. Editorial estimate; no official JLPT vocabulary list assumed.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2607690; spelling=よし; reading=よし",
+          "finding": "JMdict 2607690 sense 1, int: alright; all right; right on; looking good; OK"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole よし/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1. Rejected for this role: よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 命令形; aType * | よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 連用形-一般; aType * | よし/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/一般; *; *; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/名; *; *; aType 1 | よし/ヨシ; lemma 由; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 縦し; 副詞/*/*/*; *; *; aType 1 | よし/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 葦; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 寄す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 0 | よし/ヨシ; lemma 止す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273626802",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole よし/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1. Rejected for this role: よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 命令形; aType * | よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 連用形-一般; aType * | よし/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/一般; *; *; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/名; *; *; aType 1 | よし/ヨシ; lemma 由; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 縦し; 副詞/*/*/*; *; *; aType 1 | よし/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 葦; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 寄す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 0 | よし/ヨシ; lemma 止す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 1.",
+            "match": {
+              "word": "よし",
+              "reading": "よし",
+              "grammaticalForm": "感動詞/一般/*/*; *; *",
+              "sense": "Ausdruck よし/よし \"gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "addition",
+          "usage-note",
+          "distinct-context-enrichment"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung). JMdict 2607690 sense 1, int: alright; all right; right on; looking good; OK",
+        "japanese": "よし、これで準備はできた。 / 「できました！」「よし、よくやった。」 / ようし、今日こそ十キロ走るぞ。",
+        "romanization": "yoshi; Yoshi, kore de junbi wa dekita. / \"Dekimashita!\" \"Yoshi, yoku yatta.\" / Yōshi, kyō koso jukkiro hashiru zo. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Gut, damit ist alles vorbereitet. / „Fertig!“ – „Gut, gut gemacht.“ / Also los, heute laufe ich endlich zehn Kilometer!",
+        "contexts": [
+          "Finishing preparations",
+          "Praising someone",
+          "Psyching oneself up"
+        ],
+        "lexical": "JMdict 2607690 sense 1, int: alright; all right; right on; looking good; OK",
+        "register": "casual",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (interjection)",
+        "level": "Everyday spoken interjection heard constantly in dialogue and media, placed at N3 alongside other common conversational interjections."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n3:correction:yoshi-alright (headword, reading, aliases, note and every example).",
+        "contentHash": "71c2178394c1ed18e67f86d350c6b00327717997a0aeb220cee8d0a0840d87e2",
+        "approvalHash": "276cc41eacf08f3340474d44b2763aa81efaaf8725d75259ecfcdae865d0bce9"
+      }
+    }
+  ],
+  "decisions": []
+}

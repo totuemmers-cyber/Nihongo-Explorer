@@ -1,0 +1,341 @@
+{
+  "version": 3,
+  "reviews": [],
+  "additions": [],
+  "decisions": [
+    {
+      "key": "うえーとれす|うえーとれす",
+      "referenceIndex": 0,
+      "referenceHash": "999f5db1368ffea8896236c12260b43dd3406869572801d984df1e698b89cac5",
+      "revisionId": "227c-renewal-うえーとれす|うえーとれす-0",
+      "state": "accepted",
+      "predecessorHash": "961e0d717d7f1ecf814e8afb63d2556660e73e7abf79f2d272d3fe9950b762ef",
+      "predecessorRevisionHash": "407b991941023be6fbda19e5bf0afadc454269d5886148b6eaf0405cbe362eae",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ueitoresu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ueitoresu": "c335ad86ded46344e30864465d9b6274c66884697cbd750fc81262447b4c5cb2"
+      },
+      "reason": "Reference ウエートレス/ウエートレス (tanos N2) is the same lexeme as the new entry ウェイトレス【ウェイトレス】. Renewed unchanged: the target card(s) vocab-n2:correction:ueitoresu were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt2/vocab/VocabList.N2.pdf#page=6",
+          "finding": "tanos lists ウエートレス/ウエートレス at N2 (gloss: waitress)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1025690; spelling=ウェイトレス; reading=ウェイトレス; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1025690 as the reference form.",
+          "selected": {
+            "sequence": "1025690",
+            "spelling": "ウェイトレス",
+            "reading": "ウェイトレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "waitress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference うえーとれす|うえーとれす#0, its evidence and the added decision against the exact current target card(s) vocab-n2:correction:ueitoresu.",
+        "contentHash": "68d5de16a6fae870b7ac3ac464c37606926ff0fd2d168baf612e2a83092d04b7",
+        "approvalHash": "68d5de16a6fae870b7ac3ac464c37606926ff0fd2d168baf612e2a83092d04b7"
+      }
+    },
+    {
+      "key": "取りあえず|とりあえず",
+      "referenceIndex": 0,
+      "referenceHash": "4445edf15f8e358f9d2bac29774e9da66abdb9ea528cab924177139a9d10f8d7",
+      "revisionId": "227c-renewal-取りあえず|とりあえず-0",
+      "state": "accepted",
+      "predecessorHash": "9ad09caf69caf38cdede264e1806774a954ce682d246e1b8ca34422a3c8d0bfa",
+      "predecessorRevisionHash": "6aadff7a2e3c7286935a73ffef709c2ec8d4130f752bd845b40ac9784dc6dcc4",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:788"
+      ],
+      "targetHashes": {
+        "vocab-n2:788": "9489fb1a72bbfe97f5bd4b45655709317ca969760200c651bd80be7d6f756492"
+      },
+      "reason": "TANOS row 取りあえず/とりあえず 'at once, first of all, for the time being'. JMdict 1598980 取りあえず/取り敢えず/…【とりあえず】 (adv, uk) lists 取りあえず as its first, untagged spelling. Card vocab-n2:788 とりあえず 'erst einmal; vorläufig' is the uk form at the publisher level N2 with identical reading and sense, so 取りあえず becomes its alias. Renewed unchanged: the target card(s) vocab-n2:788 were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 4445edf15f8e358f9d2bac29774e9da66abdb9ea528cab924177139a9d10f8d7",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=119",
+          "finding": "取りあえず/とりあえず glossed \"at once, first of all, for the time being\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1598980; 取りあえず/取り敢えず【とりあえず】",
+          "finding": "取りあえず is the first kanji form; adv uk first of all; for now"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference 取りあえず|とりあえず#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:788.",
+        "contentHash": "853f23ff50483e1c2c47ba422092ce03722a4d5f1b954dfdc935d9a26ae6e30b",
+        "approvalHash": "853f23ff50483e1c2c47ba422092ce03722a4d5f1b954dfdc935d9a26ae6e30b"
+      }
+    },
+    {
+      "key": "取りあえず|とりあえず",
+      "referenceIndex": 1,
+      "referenceHash": "b6a874cd63de8374c375de5bda49058e931e17d359860563f21d624b23ec211d",
+      "revisionId": "227c-renewal-取りあえず|とりあえず-1",
+      "state": "accepted",
+      "predecessorHash": "e7d653a75a330a3e12f41103ac425f8beb0d1dda8c25e12dcf693aeecae7668d",
+      "predecessorRevisionHash": "22132a9f0197c7350acb260b0962b0e9230f2f3dae148d40bce01264f66981af",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:788"
+      ],
+      "targetHashes": {
+        "vocab-n2:788": "9489fb1a72bbfe97f5bd4b45655709317ca969760200c651bd80be7d6f756492"
+      },
+      "reason": "Nihongo Master row 取りあえず/とりあえず 'at once; first of all; for the time being'. JMdict 1598980 lists 取りあえず as spelling of the uk adverb とりあえず; card vocab-n2:788 とりあえず has identical reading and sense, so the alias is added (same decision as index 0). Renewed unchanged: the target card(s) vocab-n2:788 were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 b6a874cd63de8374c375de5bda49058e931e17d359860563f21d624b23ec211d",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=2",
+          "finding": "取りあえず/とりあえず glossed \"at once; first of all; for the time being\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1598980; 取りあえず【とりあえず】",
+          "finding": "same entry, adv uk"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference 取りあえず|とりあえず#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:788.",
+        "contentHash": "f8a97c227f164ae652fbc66c24455e9b6bada23a57c90cc51b7ad8d76ccb7afa",
+        "approvalHash": "f8a97c227f164ae652fbc66c24455e9b6bada23a57c90cc51b7ad8d76ccb7afa"
+      }
+    },
+    {
+      "key": "藻掻く|もがく",
+      "referenceIndex": 0,
+      "referenceHash": "ea03210ed435d6c7598a106b12b5fc5bf0d27f20412d46ed0b29a501f75691da",
+      "revisionId": "227c-renewal-藻掻く|もがく-0",
+      "state": "accepted",
+      "predecessorHash": "25863f16c31923839c4833058e40f79b1a902a600c7ab6cdfb0c58fccb68f7ac",
+      "predecessorRevisionHash": "7a37ade1ccdb20db8a4f649c5e27d927acd881c53e1e95b124dec1bd360a5f15",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1201"
+      ],
+      "targetHashes": {
+        "vocab-n2:1201": "d17bf7376fbb730f68049a6a15b5aedcec75c41963ffac7b0385c37394007b00"
+      },
+      "reason": "Tanos row 藻掻く/もがく 'to struggle, to wriggle'. JMdict 1012490 藻掻く/踠く【もがく】 (uk; 藻掻く ateji) is one entry. Card vocab-n2:1201 もがく/もがく (reviewed, kana headword as uk) has the identical reading and sense, so the ateji 藻掻く becomes its alias. Renewed unchanged: the target card(s) vocab-n2:1201 were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 ea03210ed435d6c7598a106b12b5fc5bf0d27f20412d46ed0b29a501f75691da",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=162",
+          "finding": "藻掻く/もがく glossed \"to struggle, to wriggle, to be impatient\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1012490; 藻掻く/踠く/もがく",
+          "finding": "ateji kanji form; uk; to struggle; to writhe"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference 藻掻く|もがく#0, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:1201.",
+        "contentHash": "e6fa050fdb6dc2818aaeb89a418d50815c5b7784cb565c8f2c381fd5beb43175",
+        "approvalHash": "e6fa050fdb6dc2818aaeb89a418d50815c5b7784cb565c8f2c381fd5beb43175"
+      }
+    },
+    {
+      "key": "藻掻く|もがく",
+      "referenceIndex": 1,
+      "referenceHash": "2f2cfca5ce463fb6d57f80a4b44a9aa6ea43428eb97713d79e3d0e8289c5cade",
+      "revisionId": "227c-renewal-藻掻く|もがく-1",
+      "state": "accepted",
+      "predecessorHash": "a5f74725cfac0a70945bbe7516f322418eb0140c23792d368920467c13e09587",
+      "predecessorRevisionHash": "59b85963284ec3bbb9ccac3c05c2cb455bb58834246dfa23735f86aee3eb567b",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1201"
+      ],
+      "targetHashes": {
+        "vocab-n2:1201": "d17bf7376fbb730f68049a6a15b5aedcec75c41963ffac7b0385c37394007b00"
+      },
+      "reason": "Nihongo Master row 藻掻く/もがく 'to struggle; to wriggle; to squirm', same as the tanos row: JMdict 1012490 藻掻く (ateji) is the uk word もがく taught by vocab-n2:1201; alias 藻掻く. Renewed unchanged: the target card(s) vocab-n2:1201 were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 2f2cfca5ce463fb6d57f80a4b44a9aa6ea43428eb97713d79e3d0e8289c5cade",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "藻掻く/もがく glossed \"to struggle; to wriggle; to squirm\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1012490; 藻掻く/もがく",
+          "finding": "ateji; uk; to struggle; to squirm"
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference 藻掻く|もがく#1, its evidence and the verified-spelling-variant decision against the exact current target card(s) vocab-n2:1201.",
+        "contentHash": "2ea621a02a0763a9b683c7507281ec11eb86726cf3a021a3bdd544bed8b3466d",
+        "approvalHash": "2ea621a02a0763a9b683c7507281ec11eb86726cf3a021a3bdd544bed8b3466d"
+      }
+    },
+    {
+      "key": "うぇいとれす|うぇいとれす",
+      "referenceIndex": 0,
+      "referenceHash": "ca9c17fd4178854c1c680e16cbac58073388818c8969daf03cb298d8c6fcb81d",
+      "revisionId": "227c-renewal-うぇいとれす|うぇいとれす-0",
+      "state": "accepted",
+      "predecessorHash": "cde5db8a445e00d354702ca4bb2113278723a7540d432d08aaba1e1c12aceb6d",
+      "predecessorRevisionHash": "1e50e4980934ef127081a077a7d66e1c00d74c665cd0997df03f3a30e66277c8",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ueitoresu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ueitoresu": "c335ad86ded46344e30864465d9b6274c66884697cbd750fc81262447b4c5cb2"
+      },
+      "reason": "Reference ウェイトレス/ウェイトレス (master N2) is the same lexeme as the new entry ウェイトレス【ウェイトレス】. Renewed unchanged: the target card(s) vocab-n2:correction:ueitoresu were re-reviewed in maintenance batch 225 (spelling aliases and headword fixes); the decision was reread against the current target content.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "Nihongo Master lists ウェイトレス/ウェイトレス at N2 (gloss: waitress; hôtesse; serveuse)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1025690; spelling=ウェイトレス; reading=ウェイトレス; senses=1; scripts/vocabulary-completion/maintenance-032/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1025690 as the reference form.",
+          "selected": {
+            "sequence": "1025690",
+            "spelling": "ウェイトレス",
+            "reading": "ウェイトレス",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "waitress"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-decision-renewal-author-227",
+        "finding": "Author reread the frozen reference うぇいとれす|うぇいとれす#0, its evidence and the added decision against the exact current target card(s) vocab-n2:correction:ueitoresu.",
+        "contentHash": "e966f60ee30d8842693c1815910ba97d7af9c01d56d79cb714bfbe6b1ef4fb51",
+        "approvalHash": "e966f60ee30d8842693c1815910ba97d7af9c01d56d79cb714bfbe6b1ef4fb51"
+      }
+    }
+  ]
+}

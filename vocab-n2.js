@@ -74809,7 +74809,8 @@ window.VOCAB_N2 = [
       }
     ],
     "aliases": [
-      "ウエートレス"
+      "ウエートレス",
+      "ウェートレス"
     ],
     "pitch": 1,
     "pitchProvenance": [
@@ -82256,5 +82257,38 @@ window.VOCAB_N2 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n2:correction:dokoroka-far-from"
+  },
+  {
+    "word": "ぱっと",
+    "reading": "ぱっと",
+    "romaji": "patto",
+    "meaning": "plötzlich, blitzschnell; auffällig, glänzend (ぱっとしない: unscheinbar, mittelmäßig)",
+    "type": "Adverb",
+    "category": "Lautmalerei",
+    "level": "N2",
+    "notes": "Lautmalerisches Adverb für etwas, das schlagartig geschieht oder sich ausbreitet: ぱっと立ち上がる „aufspringen“, ぱっと明るくなる „plötzlich hell werden“, ぱっと見 „auf den ersten Blick“. Mit する heißt es „auffällig, glanzvoll sein“, fast nur verneint als ぱっとしない „unscheinbar, mau, mittelmäßig“. Oft auch in Katakana パッと geschrieben. Das seltene ばっと wirkt heftiger; さっと betont eher die flinke, glatte Bewegung.",
+    "examples": [
+      {
+        "japanese": "名前を呼ばれて、彼はぱっと立ち上がった。",
+        "romaji": "Namae o yobarete, kare wa patto tachiagatta.",
+        "german": "Als sein Name aufgerufen wurde, sprang er sofort auf."
+      },
+      {
+        "japanese": "電気をつけると、部屋がパッと明るくなった。",
+        "romaji": "Denki o tsukeru to, heya ga patto akaruku natta.",
+        "german": "Als ich das Licht anmachte, wurde das Zimmer schlagartig hell."
+      },
+      {
+        "japanese": "最近、天気がぱっとしないね。",
+        "romaji": "Saikin, tenki ga patto shinai ne.",
+        "german": "In letzter Zeit ist das Wetter ziemlich trüb, oder?"
+      }
+    ],
+    "aliases": [
+      "パッと"
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n2:correction:patto-suddenly"
   }
 ];

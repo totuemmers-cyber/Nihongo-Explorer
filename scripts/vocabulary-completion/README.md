@@ -791,6 +791,24 @@ reviews made 43 accepted decisions at every level stale; all were renewed unchan
 All 22 full checks pass (two test assertions that expected the unfinished state now expect completion);
 `advance --dry-run` passed and the campaign advanced past N1: **all five levels are complete**,
 with 16,248 entries, all accepted, and no open source reference.
+**Post-campaign follow-ups (9 October 2026, batches 225–228).** The open follow-ups recorded during the
+campaign are closed:
+- Batch 225 adds reviewed spelling aliases to 20 surviving cards (e.g. 取り敢えず on とりあえず, 縋る
+  on すがる, 真に on 誠に, 勿体ない/勿体無い on もったいない, おっしゃる on 仰る, ウェートレス on ウェイトレス,
+  〜にも拘らず/〜にも関わらず on 〜にもかかわらず, 〜に於いて on 〜において), each checked against the JMdict
+  entry that lists both forms. It corrects five headwords or readings: 熊之実 → クマノミ (alias 熊之実),
+  縫目 → 縫い目, 精鋭な → 精鋭 (Nomen), 炒飯 ちゃーはん → チャーハン and 緩和ケア かんわけあ → かんわケア.
+  Three everyday words that had no card are added: 主な (N4), ぱっと (N2) and the interjection よし (N3).
+- Batches 226a and 227a–c renew 19 accepted decisions that the alias reviews made stale.
+- Batch 228 retires 30 cards into their surviving cards through redirects: 18 spelling duplicates of
+  the same JMdict entry (取り敢えず, 縋る, 真に, 見積, めまい, 填める, 止むを得ない, 踠く, 拘引,
+  おっしゃる, 勿体ない, 勿体無い, 我が儘, 嵌る, いただく, 仕度, 醗酵, 窮める) and 12 inflected or
+  duplicate forms (に即する → に即して, に他ならない → 他ならない, 永遠な → 永遠, 無限な → 無限,
+  平常な → 平常, 損害する → 損害, 寂寥な → 寂寥, 腐った → 腐る, 生の → 生, 惜しまない → 惜しむ,
+  保持 → 保持する, 慣行する → 慣行).
+
+The runtime now has 16,221 entries (N5 1,689, N4 1,696, N3 3,913, N2 3,316, N1 5,607), all
+accepted, with no open source reference.
 
 ## Historical campaign freeze
 

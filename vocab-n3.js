@@ -87263,5 +87263,56 @@ window.VOCAB_N3 = [
       }
     ],
     "correctionId": "vocab-n3:correction:furi-pretence"
+  },
+  {
+    "word": "よし",
+    "reading": "よし",
+    "romaji": "yoshi",
+    "meaning": "gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung)",
+    "type": "Ausdruck",
+    "category": "Kommunikation",
+    "level": "N3",
+    "notes": "Ausruf, mit dem man sich selbst oder andere anspornt („also los!“), etwas als erledigt abhakt oder jemandem Zustimmung gibt („gut so!“). Gedehnt als よーし oder ようし klingt es entschlossener. Ungezwungen; gegenüber Vorgesetzten eher nicht. Im Unterschied zu さあ, das andere zum Anfangen auffordert, drückt よし vor allem den eigenen Entschluss aus. Nicht verwechseln mit dem klassischen Adjektiv 良し (良しとする „gutheißen“).",
+    "examples": [
+      {
+        "japanese": "よし、これで準備はできた。",
+        "romaji": "Yoshi, kore de junbi wa dekita.",
+        "german": "Gut, damit ist alles vorbereitet."
+      },
+      {
+        "japanese": "「できました！」「よし、よくやった。」",
+        "romaji": "\"Dekimashita!\" \"Yoshi, yoku yatta.\"",
+        "german": "„Fertig!“ – „Gut, gut gemacht.“"
+      },
+      {
+        "japanese": "ようし、今日こそ十キロ走るぞ。",
+        "romaji": "Yōshi, kyō koso jukkiro hashiru zo.",
+        "german": "Also los, heute laufe ich endlich zehn Kilometer!"
+      }
+    ],
+    "aliases": [
+      "よーし",
+      "ようし"
+    ],
+    "pitch": 1,
+    "pitchProvenance": [
+      {
+        "source": "現代書き言葉UniDic",
+        "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+        "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@273626802",
+        "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+        "patterns": [
+          1
+        ],
+        "finding": "Exact whole よし/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1. Rejected for this role: よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 命令形; aType * | よし/ヨシ; lemma やんす; 助動詞/*/*/*; 助動詞-ンス; 連用形-一般; aType * | よし/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/一般; *; *; aType 1 | よし/ヨシ; lemma ヨシ; 名詞/固有名詞/人名/名; *; *; aType 1 | よし/ヨシ; lemma 由; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 縦し; 副詞/*/*/*; *; *; aType 1 | よし/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 葦; 名詞/普通名詞/一般/*; *; *; aType 1 | よし/ヨシ; lemma 寄す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 0 | よし/ヨシ; lemma 止す; 動詞/一般/*/*; 五段-サ行; 連用形-一般; aType 1.",
+        "match": {
+          "word": "よし",
+          "reading": "よし",
+          "grammaticalForm": "感動詞/一般/*/*; *; *",
+          "sense": "Ausdruck よし/よし \"gut!, also los!, in Ordnung! (Ausruf der Entschlossenheit oder Zustimmung)\""
+        }
+      }
+    ],
+    "correctionId": "vocab-n3:correction:yoshi-alright"
   }
 ];

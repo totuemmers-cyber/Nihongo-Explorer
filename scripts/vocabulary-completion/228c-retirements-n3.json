@@ -1,0 +1,924 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n3:224",
+      "revisionId": "228c-maintenance-vocab-n3-224",
+      "state": "accepted",
+      "predecessorHash": "7981dfecf13369237489b40975df3bc427854a3d27aa01087a8643999a7cf83b",
+      "originalHash": "7981dfecf13369237489b40975df3bc427854a3d27aa01087a8643999a7cf83b",
+      "predecessorRevisionHash": "9716cbe97ce9c3e7dab52f87b16f44ff6c066c554fa2a67ed5a44c18adbcb9f2",
+      "original": {
+        "notes": "おっしゃる ist das respektvolle Verb (尊敬語) für 言う und wird nur für das Sprechen anderer, höhergestellter Personen benutzt – nie für sich selbst (bescheiden: 申す／申し上げる). Unregelmäßige Formen: おっしゃいます (nicht おっしゃります), おっしゃって. Feste Wendungen: おっしゃる通りです „Sie haben völlig recht“, 〜とおっしゃる方 „eine Person namens …“."
+      },
+      "replacement": {
+        "notes": "おっしゃる ist das respektvolle Verb (尊敬語) für 言う und wird nur für das Sprechen anderer, höhergestellter Personen benutzt – nie für sich selbst (bescheiden: 申す／申し上げる). Unregelmäßige Formen: おっしゃいます (nicht おっしゃります), おっしゃって. Feste Wendungen: おっしゃる通りです „Sie haben völlig recht“, 〜とおっしゃる方 „eine Person namens …“. Diese Karte wurde mit 仰る zusammengelegt."
+      },
+      "rationale": "Retirement review: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225). The card is retired into vocab-n3:1429 (仰る/おっしゃる) and its ID redirects there.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1238840; spelling=おっしゃる; reading=おっしゃる",
+          "selected": {
+            "sequence": "1238840",
+            "spelling": "おっしゃる",
+            "reading": "おっしゃる",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb - -aru special class",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "to say",
+                  "to speak",
+                  "to tell"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb - -aru special class",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone",
+                  "honorific or respectful (sonkeigo) language"
+                ],
+                "gloss": [
+                  "to be called"
+                ],
+                "notes": [
+                  "as ...とおっしゃる after a person's name"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1238840 sense 1, godan verb (honorific): to say, to speak, to tell"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 2 corrected to 3. Exact whole おっしゃる/オッシャル; lemma 仰る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 3. Rejected for this role: おっしゃる/オッシャル; lemma 仰る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@79596984",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole おっしゃる/オッシャル; lemma 仰る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 3. Rejected for this role: おっしゃる/オッシャル; lemma 仰る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 3.",
+            "match": {
+              "word": "おっしゃる",
+              "reading": "おっしゃる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb おっしゃる/おっしゃる \"sagen (respektvoll)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "retirement",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-228",
+        "reviewedDistinctContexts": true,
+        "meaning": "sagen (respektvoll). JMdict 1238840 sense 1, godan verb (honorific): to say, to speak, to tell",
+        "japanese": "先生がそうおっしゃいました。 / 今、何とおっしゃいましたか。 / おっしゃる通りです。",
+        "romanization": "ossharu; Sensei ga sou osshaimashita. / Ima, nan to osshaimashita ka. / Ossharu toori desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das hat der Lehrer gesagt. / Was haben Sie eben gesagt? / Da haben Sie völlig recht.",
+        "contexts": [
+          "Reporting a teacher's words",
+          "Asking someone to repeat",
+          "Agreeing with a superior"
+        ],
+        "lexical": "JMdict 1238840 sense 1, godan verb (honorific): to say, to speak, to tell Retired into vocab-n3:1429: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "register": "honorific (sonkeigo)",
+        "transitivity": "transitive (quoted content with と; 〜を おっしゃる)",
+        "conjugation": "godan -aru special (おっしゃる → おっしゃって, おっしゃらない, polite おっしゃいます)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author reread the exact final card vocab-n3:224 (headword, reading, aliases, note and every example).",
+        "contentHash": "0f17e4b7a64fc3aa7f65994949d31574d1eaa141ae5a23c0a57bad452f2e9b37",
+        "approvalHash": "67ba052558f5e8246d7bbe5997830a76d9a8c1c27ceef4ae9f94e90078774cc4"
+      }
+    },
+    {
+      "id": "vocab-n3:985",
+      "revisionId": "228c-maintenance-vocab-n3-985",
+      "state": "accepted",
+      "predecessorHash": "434b7a009e0077cb28cfa971af63339b20faa77f233d582e696acd104e8c6ddd",
+      "originalHash": "434b7a009e0077cb28cfa971af63339b20faa77f233d582e696acd104e8c6ddd",
+      "predecessorRevisionHash": "15004841709743073a71d3d6ae33c95d98f9e340ea7bffe8daad3b5253520a64",
+      "original": {
+        "notes": "もったいない wird fast immer in Kana geschrieben; die Kanji 勿体無い sind selten. Hauptbedeutung: „zu schade (zum Wegwerfen), verschwenderisch“ – für Essen, Zeit, Geld oder Talent (時間がもったいない). Zweite, bescheidene Bedeutung: „mehr, als ich verdiene“, etwa in 私にはもったいないお言葉です („zu viel der Ehre“). Das Wort gilt als Ausdruck der japanischen Haltung gegen Verschwendung."
+      },
+      "replacement": {
+        "notes": "もったいない wird fast immer in Kana geschrieben; die Kanji 勿体無い sind selten. Hauptbedeutung: „zu schade (zum Wegwerfen), verschwenderisch“ – für Essen, Zeit, Geld oder Talent (時間がもったいない). Zweite, bescheidene Bedeutung: „mehr, als ich verdiene“, etwa in 私にはもったいないお言葉です („zu viel der Ehre“). Das Wort gilt als Ausdruck der japanischen Haltung gegen Verschwendung. Diese Karte wurde mit もったいない zusammengelegt."
+      },
+      "rationale": "Retirement review: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225). The card is retired into vocab-n4:505 (もったいない/もったいない) and its ID redirects there.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1605250; spelling=勿体無い; reading=もったいない",
+          "selected": {
+            "sequence": "1605250",
+            "spelling": "勿体無い",
+            "reading": "もったいない",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "wasteful",
+                  "a waste"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "too good",
+                  "more than one deserves",
+                  "unworthy of"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "impious",
+                  "profane",
+                  "sacrilegious"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1605250 senses 1–2, i-adjective: wasteful, a waste; too good, more than one deserves"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 勿体無い/もったいない scan has zero matching rows; no constituent pattern inference. Query returned 0 rows (); none is the exact head 勿体無い/もったいない with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8B%BF%E4%BD%93%E7%84%A1%E3%81%84",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 勿体無い/もったいない scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-05; page SHA256 c8fc67142d2d7964974e8b733c2361827f8ec9d4a05a8b9eda17f1c093087d7f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%8B%BF%E4%BD%93%E7%84%A1%E3%81%84",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 0 rows (); none is the exact head 勿体無い/もったいない with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "retirement",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-228",
+        "reviewedDistinctContexts": true,
+        "meaning": "verschwenderisch, zu schade. JMdict 1605250 senses 1–2, i-adjective: wasteful, a waste; too good, more than one deserves",
+        "japanese": "食べ物を捨てるのは勿体無いです。 / 時間がもったいないから、電車の中で勉強している。 / 私にはもったいないお言葉です。",
+        "romanization": "mottainai; Tabemono o suteru no wa mottainai desu. / Jikan ga mottainai kara, densha no naka de benkyou shite iru. / Watashi ni wa mottainai okotoba desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist zu schade, Essen wegzuwerfen. / Weil es schade um die Zeit wäre, lerne ich im Zug. / Das ist zu viel der Ehre.",
+        "contexts": [
+          "Food waste",
+          "Using commute time",
+          "Humbly accepting praise"
+        ],
+        "lexical": "JMdict 1605250 senses 1–2, i-adjective: wasteful, a waste; too good, more than one deserves Retired into vocab-n4:505: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "register": "neutral; sense 2 polite / humble",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (i-adjective: もったいない → もったいなくて, もったいなかった)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author reread the exact final card vocab-n3:985 (headword, reading, aliases, note and every example).",
+        "contentHash": "6c0729790ae75ad22b3ad83edba8abf7de0b7f05357b9646f089cf7464c02d79",
+        "approvalHash": "a8e85bd9599655981ee3f4b236f35d3265324f755c122dcb68f595b670e44f61"
+      }
+    },
+    {
+      "id": "vocab-n3:1328",
+      "revisionId": "228c-maintenance-vocab-n3-1328",
+      "state": "accepted",
+      "predecessorHash": "770c9689e23fd3e4af6efc23c4ba330cf1821debd27d86919993a0f0fe1635f3",
+      "originalHash": "770c9689e23fd3e4af6efc23c4ba330cf1821debd27d86919993a0f0fe1635f3",
+      "predecessorRevisionHash": "2f3318ebac046c67009e3fdf9d0bae520a0022882cde701436d10a72cb7ed916",
+      "original": {
+        "notes": "わがまま wird meist in Kana geschrieben (我が儘 ist selten). Als な-Adjektiv: わがままな子, わがままだ; als Nomen typisch わがままを言う „Extrawünsche äußern, quengeln“. Höflich-bescheiden bittet man mit わがままを聞いてください oder entschuldigt sich mit わがままを言ってすみません für einen persönlichen Wunsch. 自分勝手 ist ähnlich, aber schärfer; 頑固 bedeutet „stur“."
+      },
+      "replacement": {
+        "notes": "わがまま wird meist in Kana geschrieben (我が儘 ist selten). Als な-Adjektiv: わがままな子, わがままだ; als Nomen typisch わがままを言う „Extrawünsche äußern, quengeln“. Höflich-bescheiden bittet man mit わがままを聞いてください oder entschuldigt sich mit わがままを言ってすみません für einen persönlichen Wunsch. 自分勝手 ist ähnlich, aber schärfer; 頑固 bedeutet „stur“. Diese Karte wurde mit 我儘 zusammengelegt."
+      },
+      "rationale": "Retirement review: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225). The card is retired into vocab-n4:176 (我儘/わがまま) and its ID redirects there.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1197020; spelling=我が儘; reading=わがまま",
+          "selected": {
+            "sequence": "1197020",
+            "spelling": "我が儘",
+            "reading": "わがまま",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "selfish",
+                  "egoist"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "archaic"
+                ],
+                "gloss": [
+                  "self-indulgent",
+                  "wilful",
+                  "willful"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1197020 sense 1, na-adjective / noun: selfish, wilful, self-indulgent"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3,4] via exact UniDic row. Exact whole 我が儘/ワガママ; lemma 我が儘; 名詞/普通名詞/形状詞可能/*; *; *; aType 3,4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@281427964",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              4
+            ],
+            "finding": "Exact whole 我が儘/ワガママ; lemma 我が儘; 名詞/普通名詞/形状詞可能/*; *; *; aType 3,4.",
+            "match": {
+              "word": "我が儘",
+              "reading": "わがまま",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 我が儘/わがまま \"egoistisch, eigensinnig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "retirement",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-228",
+        "reviewedDistinctContexts": true,
+        "meaning": "egoistisch, eigensinnig. JMdict 1197020 sense 1, na-adjective / noun: selfish, wilful, self-indulgent",
+        "japanese": "我が儘を言わないでください。 / 一つだけ、わがままを聞いてもらえませんか。 / 子どもの頃、私はとてもわがままだった。",
+        "romanization": "wagamama; Wagamama o iwanaide kudasai. / Hitotsu dake, wagamama o kiite moraemasen ka. / Kodomo no koro, watashi wa totemo wagamama datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte seien Sie nicht so eigensinnig. / Darf ich Sie um einen ganz persönlichen Gefallen bitten? / Als Kind war ich sehr verwöhnt und eigensinnig.",
+        "contexts": [
+          "Telling someone to stop demanding",
+          "Politely asking a personal favor",
+          "Looking back on childhood"
+        ],
+        "lexical": "JMdict 1197020 sense 1, na-adjective / noun: selfish, wilful, self-indulgent Retired into vocab-n4:176: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "register": "neutral; usually written in kana",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author reread the exact final card vocab-n3:1328 (headword, reading, aliases, note and every example).",
+        "contentHash": "81a486c4d6275bee3ff9c06767bf553b9764238ef52ddef315cdc641e352d37a",
+        "approvalHash": "4c41e3889c504ce7ba387ba65320e478367ae9200cb255312cd88b492597e9a5"
+      }
+    },
+    {
+      "id": "vocab-n3:227",
+      "revisionId": "228c-maintenance-vocab-n3-227",
+      "state": "accepted",
+      "predecessorHash": "d44c322bde5338c66c9ee9a91c400e94f526c3642acbf849949877bf57a189e0",
+      "originalHash": "d44c322bde5338c66c9ee9a91c400e94f526c3642acbf849949877bf57a189e0",
+      "predecessorRevisionHash": "c71dff05c01a96df18ca45305248fd4befda6efff05e58a19e4444fe4606a7bd",
+      "original": {
+        "notes": "いただく ist das bescheidene Verb (謙譲語) für もらう „bekommen“ von Höhergestellten (先生に本をいただく) und für „essen, trinken“ – daher いただきます vor dem Essen. Als Hilfsverb 〜ていただく bittet man höflich um eine Gefälligkeit: 〜ていただけますか „Könnten Sie bitte …?“. Kanji 頂く ist möglich, das Hilfsverb schreibt man aber immer in Kana. Gegenstück aus Sicht des Gebers: くださる."
+      },
+      "replacement": {
+        "notes": "いただく ist das bescheidene Verb (謙譲語) für もらう „bekommen“ von Höhergestellten (先生に本をいただく) und für „essen, trinken“ – daher いただきます vor dem Essen. Als Hilfsverb 〜ていただく bittet man höflich um eine Gefälligkeit: 〜ていただけますか „Könnten Sie bitte …?“. Kanji 頂く ist möglich, das Hilfsverb schreibt man aber immer in Kana. Gegenstück aus Sicht des Gebers: くださる. Diese Karte wurde mit 頂く zusammengelegt."
+      },
+      "rationale": "Retirement review: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225). The card is retired into vocab-n3:880 (頂く/いただく) and its ID redirects there.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1587290; spelling=いただく; reading=いただく",
+          "selected": {
+            "sequence": "1587290",
+            "spelling": "いただく",
+            "reading": "いただく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "humble (kenjougo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to receive",
+                  "to get",
+                  "to accept",
+                  "to take",
+                  "to buy"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "humble (kenjougo) language",
+                  "polite (teineigo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to eat",
+                  "to drink"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 3,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to be crowned with",
+                  "to wear (on one's head)",
+                  "to have (on top)"
+                ],
+                "notes": [
+                  "orig. meaning"
+                ],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 4,
+                "pos": [
+                  "Godan verb with 'ku' ending",
+                  "transitive verb"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to have (as one's leader)",
+                  "to live under (a ruler)",
+                  "to install (a president)"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              },
+              {
+                "sense": 5,
+                "pos": [
+                  "auxiliary verb",
+                  "Godan verb with 'ku' ending"
+                ],
+                "misc": [
+                  "humble (kenjougo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "to get someone to do something"
+                ],
+                "notes": [
+                  "follows a verb in \"-te\" form"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1587290 senses 1, 2 and 5, godan verb (humble): to receive; to eat, to drink; to have someone do something"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole いただく/イタダク; lemma 頂く; 動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; aType 0. Rejected for this role: いただく/イタダク; lemma 頂く; 動詞/非自立可能/*/*; 五段-カ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55460324",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole いただく/イタダク; lemma 頂く; 動詞/非自立可能/*/*; 五段-カ行; 終止形-一般; aType 0. Rejected for this role: いただく/イタダク; lemma 頂く; 動詞/非自立可能/*/*; 五段-カ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "いただく",
+              "reading": "いただく",
+              "grammaticalForm": "動詞/非自立可能/*/*; 五段-カ行; 終止形-一般",
+              "sense": "Verb いただく/いただく \"erhalten (bescheiden)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "retirement",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-228",
+        "reviewedDistinctContexts": true,
+        "meaning": "erhalten, bekommen (bescheiden); essen, trinken (bescheiden). JMdict 1587290 senses 1, 2 and 5, godan verb (humble): to receive; to eat, to drink; to have someone do something",
+        "japanese": "お菓子をいただきました。 / 冷めないうちに、いただきましょう。 / 少々お待ちいただけますか。",
+        "romanization": "itadaku; Okashi o itadakimashita. / Samenai uchi ni, itadakimashou. / Shoushou omachi itadakemasu ka. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe Süßigkeiten erhalten. / Lasst uns essen, bevor es kalt wird. / Könnten Sie bitte einen Moment warten?",
+        "contexts": [
+          "Receiving a gift",
+          "Starting a meal",
+          "Polite request at a counter"
+        ],
+        "lexical": "JMdict 1587290 senses 1, 2 and 5, godan verb (humble): to receive; to eat, to drink; to have someone do something Retired into vocab-n3:880: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "register": "humble (kenjougo) / polite",
+        "transitivity": "transitive (X を いただく; giver marked with に or から)",
+        "conjugation": "godan -ku (いただく → いただいて, いただかない; potential いただける)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author reread the exact final card vocab-n3:227 (headword, reading, aliases, note and every example).",
+        "contentHash": "9f8137786c8f3be47184991da982144d6640c2ea9f8a4840a28f15b68252c167",
+        "approvalHash": "a2a169846ee90dd312bafe701fcce1824e5d54b05e9a31ccf22709e38861f679"
+      }
+    },
+    {
+      "id": "vocab-n3:1142",
+      "revisionId": "228c-maintenance-vocab-n3-1142",
+      "state": "accepted",
+      "predecessorHash": "558fa7ebe3e5a2953bac3ac9f2ef8ebb6ba073cc296c1b3e0bf52c6116863b6a",
+      "originalHash": "558fa7ebe3e5a2953bac3ac9f2ef8ebb6ba073cc296c1b3e0bf52c6116863b6a",
+      "predecessorRevisionHash": "8e2cc9170d03994dd22156a638c8ca94f6f85a0f73c8a3ad70c2fbf8c77f5116",
+      "original": {
+        "notes": "仕度 ist eine Schreibvariante von 支度 „Vorbereitung, Fertigmachen“; Bedeutung und Gebrauch sind identisch. In Zeitungen und Schulbüchern gilt 支度 als Standard, 仕度 sieht man eher in Romanen oder privaten Texten. Typisch sind 食事の仕度, 出かける仕度 und 仕度ができる „fertig sein“. Für größere, geplante Vorbereitungen nimmt man eher 準備."
+      },
+      "replacement": {
+        "notes": "仕度 ist eine Schreibvariante von 支度 „Vorbereitung, Fertigmachen“; Bedeutung und Gebrauch sind identisch. In Zeitungen und Schulbüchern gilt 支度 als Standard, 仕度 sieht man eher in Romanen oder privaten Texten. Typisch sind 食事の仕度, 出かける仕度 und 仕度ができる „fertig sein“. Für größere, geplante Vorbereitungen nimmt man eher 準備. Diese Karte wurde mit 支度 zusammengelegt."
+      },
+      "rationale": "Retirement review: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225). The card is retired into vocab-n3:1140 (支度/したく) and its ID redirects there.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310260; spelling=仕度; reading=したく",
+          "selected": {
+            "sequence": "1310260",
+            "spelling": "仕度",
+            "reading": "したく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "preparation",
+                  "arrangements"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1310260 sense 1, noun / suru verb: preparation, arrangements (variant spelling of 支度)"
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 仕度/シタク; lemma 支度; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@135753928",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仕度/シタク; lemma 支度; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "仕度",
+              "reading": "したく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 仕度/したく \"Zubereitung, Vorbereitung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "retirement",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-228",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorbereitung, Fertigmachen. JMdict 1310260 sense 1, noun / suru verb: preparation, arrangements (variant spelling of 支度)",
+        "japanese": "夕食の仕度をします。 / 出かける仕度ができたら、声をかけてね。 / 子どもたちは、寝る仕度を始めた。",
+        "romanization": "shitaku; Yuushoku no shitaku o shimasu. / Dekakeru shitaku ga dekitara, koe o kakete ne. / Kodomotachi wa, neru shitaku o hajimeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bereite das Abendessen vor. / Sag Bescheid, wenn du fertig zum Losgehen bist. / Die Kinder fingen an, sich bettfertig zu machen.",
+        "contexts": [
+          "Making dinner",
+          "Waiting to leave together",
+          "Bedtime routine"
+        ],
+        "lexical": "JMdict 1310260 sense 1, noun / suru verb: preparation, arrangements (variant spelling of 支度) Retired into vocab-n3:1140: Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "register": "neutral; less common spelling",
+        "transitivity": "transitive as 仕度する (〜の仕度をする)",
+        "conjugation": "noun; suru verb (仕度する)",
+        "level": "Existing frozen N3 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author reread the exact final card vocab-n3:1142 (headword, reading, aliases, note and every example).",
+        "contentHash": "0e7d1e25be3af517c253bfd3a7241e70649f82f2ca6fe8f4bb15c3a7286209e4",
+        "approvalHash": "5e2a5c440c812e8805066c49a5af9f80357eb62145e0133f357a29fc85f8b001"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": [],
+  "merges": [
+    {
+      "from": "vocab-n3:224",
+      "to": "vocab-n3:1429",
+      "equivalentSense": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+      "preservedContent": "Survivor 仰る/おっしゃる keeps its accepted note and examples and carries おっしゃる as a reviewed alias; the retired ID redirects bookmarks and deep links to it.",
+      "retirement": {
+        "reason": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "relationship": "Survivor: 仰る/おっしゃる (vocab-n3:1429)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "0f17e4b7a64fc3aa7f65994949d31574d1eaa141ae5a23c0a57bad452f2e9b37",
+      "toHash": "72344347ad21a977c704193a828c35c0b1f43eb32b5436705b265247bfca4806",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author checked the retirement merge:vocab-n3:224 against the exact survivor content: same word or inflected form, survivor teaches it.",
+        "contentHash": "2a4a42d75ec77f7008658fc8b31a31d96b1c123d1ba5fdcef0c1ef9c5ea7a4c4",
+        "approvalHash": "2a4a42d75ec77f7008658fc8b31a31d96b1c123d1ba5fdcef0c1ef9c5ea7a4c4"
+      }
+    },
+    {
+      "from": "vocab-n3:985",
+      "to": "vocab-n4:505",
+      "equivalentSense": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+      "preservedContent": "Survivor もったいない/もったいない keeps its accepted note and examples and carries 勿体無い as a reviewed alias; the retired ID redirects bookmarks and deep links to it.",
+      "retirement": {
+        "reason": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "relationship": "Survivor: もったいない/もったいない (vocab-n4:505)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "6c0729790ae75ad22b3ad83edba8abf7de0b7f05357b9646f089cf7464c02d79",
+      "toHash": "d48ede4b2e1a5c6e9bb6ad41e73213c3f9ed6e9f8cd48cfc4fdab6246f3fa2bc",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author checked the retirement merge:vocab-n3:985 against the exact survivor content: same word or inflected form, survivor teaches it.",
+        "contentHash": "0ba403e2c0fe097a247c0b2b7c80c2a590aca4a23ede7f8d3a31c9dc1b2f6465",
+        "approvalHash": "0ba403e2c0fe097a247c0b2b7c80c2a590aca4a23ede7f8d3a31c9dc1b2f6465"
+      }
+    },
+    {
+      "from": "vocab-n3:1328",
+      "to": "vocab-n4:176",
+      "equivalentSense": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+      "preservedContent": "Survivor 我儘/わがまま keeps its accepted note and examples and carries 我が儘 as a reviewed alias; the retired ID redirects bookmarks and deep links to it.",
+      "retirement": {
+        "reason": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "relationship": "Survivor: 我儘/わがまま (vocab-n4:176)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "81a486c4d6275bee3ff9c06767bf553b9764238ef52ddef315cdc641e352d37a",
+      "toHash": "389cadcd624258ba9e81e59d05311b12477314e0e65b68ba0f7b7e9f05a8ae08",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author checked the retirement merge:vocab-n3:1328 against the exact survivor content: same word or inflected form, survivor teaches it.",
+        "contentHash": "e937c0508349044a35ee2cb4fbf22f182416b3dfa35c174e797a89064a32341f",
+        "approvalHash": "e937c0508349044a35ee2cb4fbf22f182416b3dfa35c174e797a89064a32341f"
+      }
+    },
+    {
+      "from": "vocab-n3:227",
+      "to": "vocab-n3:880",
+      "equivalentSense": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+      "preservedContent": "Survivor 頂く/いただく keeps its accepted note and examples and carries いただく as a reviewed alias; the retired ID redirects bookmarks and deep links to it.",
+      "retirement": {
+        "reason": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "relationship": "Survivor: 頂く/いただく (vocab-n3:880)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "9f8137786c8f3be47184991da982144d6640c2ea9f8a4840a28f15b68252c167",
+      "toHash": "4a92aabff8bad2b22175dba7fee591e93b18d767a490155eb3700cd6bf3f0f95",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author checked the retirement merge:vocab-n3:227 against the exact survivor content: same word or inflected form, survivor teaches it.",
+        "contentHash": "7f5655b751ee5d808833b8762b1643f2fa374e7accfad01998fd0b4d6bfba708",
+        "approvalHash": "7f5655b751ee5d808833b8762b1643f2fa374e7accfad01998fd0b4d6bfba708"
+      }
+    },
+    {
+      "from": "vocab-n3:1142",
+      "to": "vocab-n3:1140",
+      "equivalentSense": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+      "preservedContent": "Survivor 支度/したく keeps its accepted note and examples and carries 仕度 as a reviewed alias; the retired ID redirects bookmarks and deep links to it.",
+      "retirement": {
+        "reason": "Same word and reading (spelling variant of the same JMdict entry); the variant spelling is a reviewed alias of the survivor (batch 225).",
+        "relationship": "Survivor: 支度/したく (vocab-n3:1140)."
+      },
+      "state": "accepted",
+      "predecessorMergeHash": null,
+      "evidence": [
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "merge",
+          "retirement"
+        ],
+        "enrichmentRequired": false,
+        "sampled": false
+      },
+      "fromHash": "0e7d1e25be3af517c253bfd3a7241e70649f82f2ca6fe8f4bb15c3a7286209e4",
+      "toHash": "20776642ed46dd9148d5f062ef7a243625870563eaac7fa69dc289ea41f71e95",
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-228",
+        "finding": "Author checked the retirement merge:vocab-n3:1142 against the exact survivor content: same word or inflected form, survivor teaches it.",
+        "contentHash": "c52ccbdee055e3b57cd594787160257f9241137dc67a971abe34ac7e49685c55",
+        "approvalHash": "c52ccbdee055e3b57cd594787160257f9241137dc67a971abe34ac7e49685c55"
+      }
+    }
+  ]
+}

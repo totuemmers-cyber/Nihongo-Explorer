@@ -41576,5 +41576,35 @@ window.VOCAB_N4 = [
     "pitch": null,
     "pitchProvenance": [],
     "correctionId": "vocab-n4:correction:sa-ness-suffix"
+  },
+  {
+    "word": "主な",
+    "reading": "おもな",
+    "romaji": "omo na",
+    "meaning": "hauptsächlich, wichtigst-, Haupt- (nur vor Nomen)",
+    "type": "Adjektiv",
+    "category": "Abstrakt",
+    "level": "N4",
+    "notes": "主な steht nur direkt vor einem Nomen und wird nicht konjugiert: 主な原因 „Hauptursache“, 主な目的 „Hauptzweck“, 主な産業 „wichtigster Industriezweig“. Als Prädikat (～は主だ) ist es unüblich; dafür sagt man eher 中心だ oder 一番大事だ. Das Adverb dazu ist 主に „hauptsächlich“; 主なる ist die steife, schriftsprachliche Variante desselben Wortes. Nicht mit 主（しゅ）„Herr“ oder 主（ぬし）„Besitzer“ verwechseln.",
+    "examples": [
+      {
+        "japanese": "この町の主な産業は観光です。",
+        "romaji": "Kono machi no omo na sangyō wa kankō desu.",
+        "german": "Der wichtigste Wirtschaftszweig dieser Stadt ist der Tourismus."
+      },
+      {
+        "japanese": "事故の主な原因はスピードの出しすぎだった。",
+        "romaji": "Jiko no omo na gen'in wa supīdo no dashisugi datta.",
+        "german": "Die Hauptursache des Unfalls war überhöhte Geschwindigkeit."
+      },
+      {
+        "japanese": "最初に会議の主な目的を説明します。",
+        "romaji": "Saisho ni kaigi no omo na mokuteki o setsumei shimasu.",
+        "german": "Zuerst erkläre ich den Hauptzweck der Besprechung."
+      }
+    ],
+    "pitch": null,
+    "pitchProvenance": [],
+    "correctionId": "vocab-n4:correction:omona-main"
   }
 ];

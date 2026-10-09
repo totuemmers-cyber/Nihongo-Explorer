@@ -1,0 +1,782 @@
+{
+  "version": 3,
+  "reviews": [
+    {
+      "id": "vocab-n1:300",
+      "revisionId": "225c-maintenance-vocab-n1-300",
+      "state": "accepted",
+      "predecessorHash": "6e14550bc42d1a43def34e3b5ea38af5d5463de4eeb7851e52a146cc8c315d28",
+      "originalHash": "6e14550bc42d1a43def34e3b5ea38af5d5463de4eeb7851e52a146cc8c315d28",
+      "predecessorRevisionHash": "a2fa5ca5b720eaf3595ac6245f08de45954fd484a153e359176168aa10cfaccd",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "拘引"
+        ]
+      },
+      "rationale": "Spelling alias review: 拘引 added to 勾引/こういん before the duplicate card(s) are retired into this card (batch 226). JMdict 1275270 lists 勾引/拘引/こういん as one entry: arrest; custody; apprehending. Notes, examples, meaning and pitch are unchanged.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1275270; spelling=勾引; reading=こういん",
+          "selected": {
+            "sequence": "1275270",
+            "spelling": "勾引",
+            "reading": "こういん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "transitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "arrest",
+                  "custody",
+                  "apprehending",
+                  "abduction"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1275270 sense 1, noun / suru verb: compulsory appearance, taking into custody (court procedure)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1275270; spelling=勾引; reading=こういん",
+          "finding": "JMdict 1275270 lists 勾引/拘引/こういん as one entry: arrest; custody; apprehending."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 勾引/コウイン; lemma 勾引; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@119810269",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 勾引/コウイン; lemma 勾引; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "勾引",
+              "reading": "こういん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 勾引/こういん \"zwangsweise Vorführung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "zwangsweise Vorführung. JMdict 1275270 sense 1, noun / suru verb: compulsory appearance, taking into custody (court procedure)",
+        "japanese": "出頭に応じない証人に対して勾引状が発せられた。 / 正当な理由なく召喚に応じない被告人は、勾引されることがある。 / 勾引された被告人は、勾留されない限り二十四時間以内に釈放される。",
+        "romanization": "kōin; Shuttō ni ōjinai shōnin ni taishite kōinjō ga hasserareta. / Seitō na riyū naku shōkan ni ōjinai hikokunin wa, kōin sareru koto ga aru. / Kōin sareta hikokunin wa, kōryū sarenai kagiri nijūyo-jikan inai ni shakuhō sareru. Modified Hepburn read individually.",
+        "translation": "Gegen den nicht erscheinenden Zeugen wurde ein Vorführungsbefehl erlassen. / Ein Angeklagter, der einer Vorladung ohne triftigen Grund nicht folgt, kann zwangsweise vorgeführt werden. / Ein vorgeführter Angeklagter wird binnen 24 Stunden freigelassen, sofern keine Untersuchungshaft angeordnet wird.",
+        "contexts": [
+          "Warrant for a witness",
+          "Ignoring a summons",
+          "Time limit after appearance"
+        ],
+        "lexical": "JMdict 1275270 sense 1, noun / suru verb: compulsory appearance, taking into custody (court procedure) Spelling alias review: 拘引 added to 勾引/こういん before the duplicate card(s) are retired into this card (batch 226). JMdict 1275270 lists 勾引/拘引/こういん as one entry: arrest; custody; apprehending. Notes, examples, meaning and pitch are unchanged.",
+        "register": "written / formal (law)",
+        "transitivity": "transitive (X を勾引する); mostly passive 勾引される",
+        "conjugation": "noun; suru verb (勾引する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:300 (headword, reading, aliases, note and every example).",
+        "contentHash": "26b7b86e77d397da037c5e85e6c98c5e26b78652cb3a8e0d62f0f87a81c7d62c",
+        "approvalHash": "1ff87af19ff8749b90b3e3d09217f449dbc197f64da8071ffa7907f71d789889"
+      }
+    },
+    {
+      "id": "vocab-n1:3622",
+      "revisionId": "225c-maintenance-vocab-n1-3622",
+      "state": "accepted",
+      "predecessorHash": "c51c7aa2cbb0add29b84521205b13bad04eb95ebecb106c8026fe4e7e40baeb6",
+      "originalHash": "c51c7aa2cbb0add29b84521205b13bad04eb95ebecb106c8026fe4e7e40baeb6",
+      "predecessorRevisionHash": "969562e57d3ee1e2b4fec9110ef565ca86e05d72670e3ce0e5bd52becd34aa9d",
+      "original": {
+        "aliases": null
+      },
+      "replacement": {
+        "aliases": [
+          "醗酵"
+        ]
+      },
+      "rationale": "Spelling alias review: 醗酵 added to 発酵/はっこう before the duplicate card(s) are retired into this card (batch 226). JMdict 1477450 lists 発酵/醗酵/醱酵/はっ酵/はっこう as one entry: fermentation; zymosis. Notes, examples, meaning and pitch are unchanged.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477450; spelling=発酵; reading=はっこう",
+          "selected": {
+            "sequence": "1477450",
+            "spelling": "発酵",
+            "reading": "はっこう",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun or participle which takes the aux. verb suru",
+                  "intransitive verb"
+                ],
+                "misc": [],
+                "gloss": [
+                  "fermentation",
+                  "zymosis"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1477450 sense 1, noun / suru verb: fermentation"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1477450; spelling=発酵; reading=はっこう",
+          "finding": "JMdict 1477450 lists 発酵/醗酵/醱酵/はっ酵/はっこう as one entry: fermentation; zymosis."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 発酵/ハッコウ; lemma 発酵; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer. Query returned 1 rows (発酵する); none is the exact head 発酵/はっこう with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%99%BA%E9%85%B5",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 発酵/ハッコウ; lemma 発酵; 名詞/普通名詞/サ変可能/*; *; *; aType 0. No transfer."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 b18880b3db703817b861c1daebfb8300b9ac0bc040c5114d768460fbb22a95e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E9%85%B5",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (発酵する); none is the exact head 発酵/はっこう with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "spelling-alias",
+          "duplicate-consolidation"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gärung, Fermentation. JMdict 1477450 sense 1, noun / suru verb: fermentation",
+        "japanese": "ワインの甘みを残して発酵を止める方法を教えてください。 / 納豆は大豆を発酵させて作ります。 / パン生地が十分に発酵するまで一時間待ちます。",
+        "romanization": "hakkou; Wain no amami o nokoshite hakkou o tomeru houhou o oshiete kudasai. / Nattou wa daizu o hakkou sasete tsukurimasu. / Pan kiji ga juubun ni hakkou suru made ichijikan machimasu. Modified Hepburn read individually.",
+        "translation": "Bitte erkläre mir, wie man die Süße im Wein bewahrt und die Gärung stoppt. / Natto wird aus fermentierten Sojabohnen hergestellt. / Man wartet eine Stunde, bis der Brotteig ausreichend gegangen ist.",
+        "contexts": [
+          "Winemaking question",
+          "How natto is made",
+          "Letting dough rise"
+        ],
+        "lexical": "JMdict 1477450 sense 1, noun / suru verb: fermentation Spelling alias review: 醗酵 added to 発酵/はっこう before the duplicate card(s) are retired into this card (batch 226). JMdict 1477450 lists 発酵/醗酵/醱酵/はっ酵/はっこう as one entry: fermentation; zymosis. Notes, examples, meaning and pitch are unchanged.",
+        "register": "neutral",
+        "transitivity": "intransitive (X が発酵する); causative 発酵させる for the transitive sense",
+        "conjugation": "suru verb (発酵する)",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:3622 (headword, reading, aliases, note and every example).",
+        "contentHash": "e8793b1bba1f84da0c1703185c1a7e0c6c0bc2bc81da0c8fe36ec34d21adf02f",
+        "approvalHash": "9d1c00471a2d96a5d2f60f7df53a4baafd0b7164dd8c8de1a263200d67ff09bf"
+      }
+    },
+    {
+      "id": "vocab-n1:3568",
+      "revisionId": "225c-maintenance-vocab-n1-3568",
+      "state": "accepted",
+      "predecessorHash": "d9db188ebbdcae01e1e0fa1ebc32a61641e58b2d5901fc0a3bb4eb386b147620",
+      "originalHash": "d9db188ebbdcae01e1e0fa1ebc32a61641e58b2d5901fc0a3bb4eb386b147620",
+      "predecessorRevisionHash": "6c57dd94d5041f0394fda8883a30c73ca65fc1da1bfb3eae3c8d4bd68470b6e3",
+      "original": {
+        "word": "熊之実",
+        "reading": "くまのみ",
+        "romaji": "kumanomi",
+        "aliases": null,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112942748",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 熊之実/クマノミ; lemma 熊之実; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "熊之実",
+              "reading": "くまのみ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 熊之実/くまのみ \"Clownfisch\""
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "word": "クマノミ",
+        "reading": "クマノミ",
+        "romaji": "kumanomi",
+        "aliases": [
+          "熊之実"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112942748",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 熊之実/クマノミ; lemma 熊之実; 名詞/普通名詞/一般/*; *; *; aType 0. Restated in batch 225 for the corrected headword クマノミ/クマノミ (same UniDic lexeme).",
+            "match": {
+              "word": "クマノミ",
+              "reading": "クマノミ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 熊之実/くまのみ \"Clownfisch\""
+            }
+          }
+        ]
+      },
+      "rationale": "Headword changed from the rare ateji 熊之実 to the usual katakana クマノミ (as for 拉麺 → ラーメン); 熊之実 stays as alias.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2153910; spelling=熊之実; reading=くまのみ",
+          "selected": {
+            "sequence": "2153910",
+            "spelling": "熊之実",
+            "reading": "くまのみ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "clownfish (Amphiprioninae spp., esp. the yellowtail clownfish, Amphiprion clarkii)",
+                  "anemone fish"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 2153910 sense 1, noun: clownfish, anemone fish (usually written in kana)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2153910; spelling=熊之実; reading=くまのみ",
+          "finding": "JMdict 2153910 lists 熊の実/熊之実/隈魚/くまのみ/クマノミ as one entry (usually written in kana): clownfish (Amphiprioninae spp., esp. the yellowtail clownfish, Amphiprion clarkii); anemone fish."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 熊之実/クマノミ; lemma 熊之実; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112942748",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 熊之実/クマノミ; lemma 熊之実; 名詞/普通名詞/一般/*; *; *; aType 0. Restated in batch 225 for the corrected headword クマノミ/クマノミ (same UniDic lexeme).",
+            "match": {
+              "word": "クマノミ",
+              "reading": "クマノミ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 熊之実/くまのみ \"Clownfisch\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "spelling-alias"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "Clownfisch. JMdict 2153910 sense 1, noun: clownfish, anemone fish (usually written in kana)",
+        "japanese": "熊之実はイソギンチャクと共生する魚だ。 / 子どもはあの映画を見てから、クマノミが大好きになった。 / 沖縄の海でシュノーケリングをしたら、クマノミを見つけた。",
+        "romanization": "kumanomi; Kumanomi wa isoginchaku to kyōsei suru sakana da. / Kodomo wa ano eiga o mite kara, kumanomi ga daisuki ni natta. / Okinawa no umi de shunōkeringu o shitara, kumanomi o mitsuketa. Modified Hepburn read individually.",
+        "translation": "Clownfische leben in Symbiose mit Seeanemonen. / Seit mein Kind diesen Film gesehen hat, liebt es Clownfische. / Beim Schnorcheln vor Okinawa habe ich einen Clownfisch entdeckt.",
+        "contexts": [
+          "Marine biology fact",
+          "Child's favourite animal",
+          "Snorkelling in Okinawa"
+        ],
+        "lexical": "JMdict 2153910 sense 1, noun: clownfish, anemone fish (usually written in kana) Headword changed from the rare ateji 熊之実 to the usual katakana クマノミ (as for 拉麺 → ラーメン); 熊之実 stays as alias.",
+        "register": "neutral (usually written クマノミ)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:3568 (headword, reading, aliases, note and every example).",
+        "contentHash": "c8a3c0ea4e9c9b15b8fb83014f97250b0031a6f3c7b08137b8a7ea8e318d7780",
+        "approvalHash": "7155378d75d6ebe0eca815e5384071eb9c0bc09bbb6c7a4ec6e38796a23875ac"
+      }
+    },
+    {
+      "id": "vocab-n1:3663",
+      "revisionId": "225c-maintenance-vocab-n1-3663",
+      "state": "accepted",
+      "predecessorHash": "a2b4aeab86306517f4e8fbd0ba9ac05f68187fddb0bb7e2c121fbd42c93ca935",
+      "originalHash": "a2b4aeab86306517f4e8fbd0ba9ac05f68187fddb0bb7e2c121fbd42c93ca935",
+      "predecessorRevisionHash": "fa8c18c820e1e59017575d696c1bd2faff330332827ad78d138b14415f8d5746",
+      "original": {
+        "word": "縫目",
+        "aliases": null,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@203194439",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 縫目/ヌイメ; lemma 縫い目; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "縫目",
+              "reading": "ぬいめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 縫目/ぬいめ \"Naht\""
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "word": "縫い目",
+        "aliases": [
+          "縫目"
+        ],
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@203194439",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 縫目/ヌイメ; lemma 縫い目; 名詞/普通名詞/一般/*; *; *; aType 3. Restated in batch 225 for the corrected headword 縫い目/ぬいめ (same UniDic lexeme).",
+            "match": {
+              "word": "縫い目",
+              "reading": "ぬいめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 縫目/ぬいめ \"Naht\""
+            }
+          }
+        ]
+      },
+      "rationale": "Headword changed from the rare spelling 縫目 to the standard 縫い目; the examples already use 縫い目.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1599960; spelling=縫目; reading=ぬいめ",
+          "selected": {
+            "sequence": "1599960",
+            "spelling": "縫目",
+            "reading": "ぬいめ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "seam",
+                  "stitch",
+                  "suture"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "JMdict 1599960 sense 1, noun: seam, stitch, suture"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1599960; spelling=縫い目; reading=ぬいめ",
+          "finding": "JMdict 1599960 lists 縫い目/縫目/ぬいめ as one entry: seam; stitch; suture."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row; stored primary 0 corrected to 3. Exact whole 縫目/ヌイメ; lemma 縫い目; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@203194439",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 縫目/ヌイメ; lemma 縫い目; 名詞/普通名詞/一般/*; *; *; aType 3. Restated in batch 225 for the corrected headword 縫い目/ぬいめ (same UniDic lexeme).",
+            "match": {
+              "word": "縫い目",
+              "reading": "ぬいめ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 縫目/ぬいめ \"Naht\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "spelling-alias"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "Naht. JMdict 1599960 sense 1, noun: seam, stitch, suture",
+        "japanese": "自分で縫ったので縫い目がガタガタなんです。 / ズボンの縫い目がほつれてしまった。 / 手術の縫い目がまだ少し痛む。",
+        "romanization": "nuime; Jibun de nutta node nuime ga gatagata na n desu. / Zubon no nuime ga hotsurete shimatta. / Shujutsu no nuime ga mada sukoshi itamu. Modified Hepburn read individually.",
+        "translation": "Ich habe es selbst genäht, deshalb sind die Nähte krumm. / Die Naht meiner Hose ist aufgegangen. / Die Operationsnaht tut noch ein bisschen weh.",
+        "contexts": [
+          "Home-sewn garment",
+          "Torn trousers",
+          "After surgery"
+        ],
+        "lexical": "JMdict 1599960 sense 1, noun: seam, stitch, suture Headword changed from the rare spelling 縫目 to the standard 縫い目; the examples already use 縫い目.",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:3663 (headword, reading, aliases, note and every example).",
+        "contentHash": "1b58cb4ff7246b84b925bcf00ef3d85ff9385ec4517f534bfcff0033b42ecf46",
+        "approvalHash": "af7a405964ca6b66fd290eb0ac9bcc8f21d5107733d65060ee8cefbb381e27d7"
+      }
+    },
+    {
+      "id": "vocab-n1:2892",
+      "revisionId": "225c-maintenance-vocab-n1-2892",
+      "state": "accepted",
+      "predecessorHash": "579e8212003f01eb135adec1366deb72d88587327288e76f8804fef8dda5bbda",
+      "originalHash": "579e8212003f01eb135adec1366deb72d88587327288e76f8804fef8dda5bbda",
+      "predecessorRevisionHash": "10b6ccd3e2cc4de33d4b0f3cfde7628141e796228e650a0a904932d37cca04d3",
+      "original": {
+        "word": "精鋭な",
+        "reading": "せいえいな",
+        "romaji": "seiei na",
+        "type": "Adjektiv",
+        "pitch": 0,
+        "pitchProvenance": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151885065",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 精鋭/セイエイ; lemma 精鋭; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "精鋭な",
+              "reading": "せいえいな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 精鋭な/せいえいな \"elitär, auserlesen\""
+            }
+          }
+        ]
+      },
+      "replacement": {
+        "word": "精鋭",
+        "reading": "せいえい",
+        "romaji": "seiei",
+        "type": "Nomen",
+        "pitch": null,
+        "pitchProvenance": []
+      },
+      "rationale": "Headword changed from the unidiomatic な-form 精鋭な to the noun 精鋭; the examples use 精鋭部隊 and 精鋭を集める.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1379880; spelling=精鋭な; reading=せいえいな",
+          "finding": "JMdict 1379880 sense 1, noun / na-adjective / no-adjective: elite, the best, cream of the crop"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1379880; spelling=精鋭; reading=せいえい",
+          "finding": "JMdict 1379880 lists 精鋭/せいえい as one entry: elite; best; pick."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Headword and reading corrected in batch 225; no exact pattern is recorded for the new headword, so pitch stays unknown.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151885065",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact stem (headword without the attributive な, which carries no accent of its own) 精鋭/セイエイ; lemma 精鋭; 名詞/普通名詞/形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "精鋭な",
+              "reading": "せいえいな",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Adjektiv 精鋭な/せいえいな \"elitär, auserlesen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "headword-correction",
+          "part-of-speech-correction",
+          "romanization-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "Elite, auserlesen, die Besten. JMdict 1379880 sense 1, noun / na-adjective / no-adjective: elite, the best, cream of the crop",
+        "japanese": "精鋭部隊が派遣された。 / 少数精鋭のチームでプロジェクトを進める。 / 各国から選ばれた精鋭が大会に集まった。",
+        "romanization": "seiei; Seiei butai ga haken sareta. / Shōsū seiei no chīmu de purojekuto o susumeru. / Kakkoku kara erabareta seiei ga taikai ni atsumatta. Modified Hepburn read individually.",
+        "translation": "Eine Elitetruppe wurde entsandt. / Wir treiben das Projekt mit einem kleinen Eliteteam voran. / Die Besten aus allen Ländern versammelten sich zum Turnier.",
+        "contexts": [
+          "Military deployment",
+          "Small project team",
+          "International tournament"
+        ],
+        "lexical": "JMdict 1379880 sense 1, noun / na-adjective / no-adjective: elite, the best, cream of the crop Headword changed from the unidiomatic な-form 精鋭な to the noun 精鋭; the examples use 精鋭部隊 and 精鋭を集める.",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:2892 (headword, reading, aliases, note and every example).",
+        "contentHash": "ff0a3e7eb4817f92115a8e528b6fefe87408e12a53b823b3ddb06b8c6d3c6961",
+        "approvalHash": "714b20cef7198ddbe583a4d51f989bda201ae27eff41cfc77feaa52c84b0c37f"
+      }
+    },
+    {
+      "id": "vocab-n1:1010",
+      "revisionId": "225c-maintenance-vocab-n1-1010",
+      "state": "accepted",
+      "predecessorHash": "eb1064642e321fc545d995f4845d323623bf1b820c695747c52e0c83f3447b76",
+      "originalHash": "eb1064642e321fc545d995f4845d323623bf1b820c695747c52e0c83f3447b76",
+      "predecessorRevisionHash": "4741ae8817ff42160e6f37347134609ab03985269ee230be646c9b2edaf1073d",
+      "original": {
+        "reading": "かんわけあ"
+      },
+      "replacement": {
+        "reading": "かんわケア"
+      },
+      "rationale": "Reading stored as all-hiragana かんわけあ corrected to かんわケア as in JMdict.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2087530; spelling=緩和ケア; reading=かんわけあ",
+          "finding": "JMdict 2087530 sense 1, noun: palliative care"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2087530; spelling=緩和ケア; reading=かんわケア",
+          "finding": "JMdict 2087530 lists 緩和ケア/かんわケア as one entry: palliative care."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-10-09",
+          "locator": "Chat instruction \"continue the rest of the campaign then\" after the campaign-complete report",
+          "finding": "The user asked to finish the open campaign follow-ups: flagged duplicates, missing aliases, missing cards and headword fixes."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 緩和ケア/かんわけあ scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%B7%A9%E5%92%8C%E3%82%B1%E3%82%A2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 緩和ケア/かんわけあ scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "reading-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-maintenance-author-225",
+        "reviewedDistinctContexts": true,
+        "meaning": "Palliativpflege. JMdict 2087530 sense 1, noun: palliative care",
+        "japanese": "緩和ケアは患者の苦痛を軽減し生活の質を向上させる。 / 緩和ケアは、末期の患者だけのものではない。 / 母は最期の数か月を緩和ケア病棟で穏やかに過ごした。",
+        "romanization": "kanwa kea; Kanwa kea wa kanja no kutsū o keigen shi seikatsu no shitsu o kōjō saseru. / Kanwa kea wa, makki no kanja dake no mono de wa nai. / Haha wa saigo no sūkagetsu o kanwa kea byōtō de odayaka ni sugoshita. Modified Hepburn read individually.",
+        "translation": "Palliativpflege lindert das Leiden des Patienten und verbessert die Lebensqualität. / Palliativversorgung ist nicht nur für Patienten im Endstadium gedacht. / Meine Mutter verbrachte ihre letzten Monate friedlich auf einer Palliativstation.",
+        "contexts": [
+          "Goal of palliative care",
+          "Common misconception",
+          "Mother's last months"
+        ],
+        "lexical": "JMdict 2087530 sense 1, noun: palliative care Reading stored as all-hiragana かんわけあ corrected to かんわケア as in JMdict.",
+        "register": "medical / neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Existing frozen N1 estimate retained; no publisher-source substitution or official JLPT claim."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-maintenance-author-225",
+        "finding": "Author reread the exact final card vocab-n1:1010 (headword, reading, aliases, note and every example).",
+        "contentHash": "9982a6d5a9592e11a621176d42355ece5158e92bc9b09ece1742c103881f0e66",
+        "approvalHash": "d08673f1adf689d65d0e4d423a8dcd4110515b036e65db9f982690c335e53dd1"
+      }
+    }
+  ],
+  "additions": [],
+  "decisions": []
+}
