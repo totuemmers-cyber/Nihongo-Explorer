@@ -140,7 +140,11 @@ types.forEach(function (typeId) {
       duplicateChoiceSets: 0,
       ambiguousReadings: 0,
       invalidClozeAnswers: 0,
-      invalidAnswerKeys: 0
+      invalidAnswerKeys: 0,
+      synonymDistractors: 0,
+      componentRadicals: 0,
+      wrongChoices: 0,
+      kanaMismatches: 0
     };
 
     for (let i = 0; i < 100; i++) {
@@ -169,6 +173,25 @@ types.forEach(function (typeId) {
         }
       }
       checkVocabularyAnswers(question, ctx.app.sections.vocab.allItems);
+      const answer = question.choices[question.correctIndex];
+      const wrong = question.choices.filter(function (_, index) { return index !== question.correctIndex; });
+      stats.wrongChoices += wrong.length;
+      // A German near-synonym of the answer would be a second defensible choice.
+      if (['vocabMeaning', 'grammarMeaning', 'onomatopoeiaContext'].includes(typeId) &&
+          wrong.some(function (choice) { return audit.meaningsOverlap(choice, answer); })) stats.synonymDistractors++;
+      if (typeId === 'kanjiMeaning') {
+        const item = ctx.app.sections.kanji.allItems.find(function (k) { return k.kanji === question.promptMain; });
+        if (wrong.some(function (choice) { return audit.meaningsOverlap(choice, item.meanings.join(', ')); })) stats.synonymDistractors++;
+      }
+      // Another radical inside the kanji may be the traditional dictionary radical (先: 儿).
+      if (typeId === 'kanjiRadical') {
+        const item = ctx.app.sections.kanji.allItems.find(function (k) { return k.kanji === question.promptMain; });
+        const components = new Set(ctx.getCanonicalRadicalsForKanji(item).map(function (r) { return r.radical; }));
+        if (wrong.some(function (choice) { return components.has(choice.split(' ')[0]); })) stats.componentRadicals++;
+      }
+      if (typeId === 'vocabReading') {
+        stats.kanaMismatches += wrong.filter(function (choice) { return !audit.readingFitsKana(question.promptMain, choice); }).length;
+      }
       if (question.choices.indexOf('\u2014') !== -1) stats.placeholders++;
       if ((new Set(question.choices)).size !== question.choices.length) stats.duplicateChoiceSets++;
       if (question.choices.length !== 4 || !Number.isInteger(question.correctIndex) ||
@@ -249,8 +272,17 @@ ctx.app.sections.vocab.allItems = fullInventory;
 
 const failing = report.filter(function (entry) {
   return entry.nulls || entry.placeholders || entry.duplicateChoiceSets || entry.ambiguousReadings ||
-    entry.invalidClozeAnswers || entry.invalidAnswerKeys;
+    entry.invalidClozeAnswers || entry.invalidAnswerKeys || entry.synonymDistractors || entry.componentRadicals;
 });
+// Wrong readings must fit the written kana (食べる → …べる). Small beginner pools cannot always
+// supply three (懐かしい needs …かしい), so the bound is on all levels together; unranked
+// distractors contradicted the kana about a quarter of the time.
+const readingStats = report.filter(function (entry) { return entry.type === 'vocabReading'; });
+const kanaMismatches = readingStats.reduce(function (sum, entry) { return sum + entry.kanaMismatches; }, 0);
+const readingChoices = readingStats.reduce(function (sum, entry) { return sum + entry.wrongChoices; }, 0);
+if (kanaMismatches > readingChoices * 0.08) {
+  failing.push({ type: 'vocabReading', level: 'all', kanaMismatches: kanaMismatches, wrongChoices: readingChoices });
+}
 console.log(JSON.stringify({
   counts: {
     combinations: report.length,

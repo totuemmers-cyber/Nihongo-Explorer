@@ -548,6 +548,11 @@
       if (next.explanation && hasJapaneseText(next.explanation) && !auditMeta.explanationReady) {
         next.explanation = sanitizeJapaneseForBeginnerLevel(next.explanation, level, preserveTokens) || next.explanation;
       }
+      if (next.choiceNotes) {
+        next.choiceNotes = next.choiceNotes.map(function (note) {
+          return note && hasJapaneseText(note) ? sanitizeJapaneseForBeginnerLevel(note, level, []) || note : note;
+        });
+      }
     }
 
     next.auditMeta = auditMeta;
@@ -624,25 +629,146 @@
     return arr[Math.floor(Math.random() * arr.length)];
   }
 
-  function generateDistractors(correct, pool, count, keyFn) {
-    var correctKey = keyFn(correct);
-    var candidates = [];
-    for (var i = 0; i < pool.length; i++) {
-      var k = keyFn(pool[i]);
-      if (k && k !== correctKey) {
-        candidates.push(k);
-      }
+  // Scoring every N1 word for every question is slow; a random sample of this size keeps
+  // each similarity tier populated. Rare close matches (shared kanji) come in as `extra`.
+  var DISTRACTOR_SAMPLE = 400;
+
+  function sample(arr, size) {
+    if (arr.length <= size) return shuffle(arr);
+    var a = arr.slice();
+    for (var i = 0; i < size; i++) {
+      var j = i + Math.floor(Math.random() * (a.length - i));
+      var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
     }
-    // Deduplicate
-    var seen = {};
-    var unique = [];
-    for (var j = 0; j < candidates.length; j++) {
-      if (!seen[candidates[j]]) {
-        seen[candidates[j]] = true;
-        unique.push(candidates[j]);
-      }
+    return a.slice(0, size);
+  }
+
+  // Wrong answers are ranked by how closely they resemble the answer (same word class,
+  // shared kanji, matching kana ending); equally close candidates stay in random order.
+  // scoreFn returns null to exclude a candidate, e.g. a near-synonym that would also be right.
+  function rankDistractors(candidates, correctAnswer, count, keyFn, scoreFn, extra) {
+    var scored = [];
+    var shuffled = shuffle(extra || []).concat(sample(candidates, DISTRACTOR_SAMPLE));
+    for (var i = 0; i < shuffled.length; i++) {
+      var score = scoreFn(shuffled[i]);
+      if (score !== null) scored.push({ candidate: shuffled[i], score: score });
     }
-    return shuffle(unique).slice(0, count);
+    // Array sort is stable, so ties keep their shuffled order.
+    scored.sort(function (a, b) { return b.score - a.score; });
+    // Normalizing is costly, so only the best candidates are compared, until enough distinct ones are found.
+    var seen = Object.create(null);
+    seen[normalizeAnswer(correctAnswer)] = true;
+    var picked = [];
+    for (var j = 0; j < scored.length && picked.length < count; j++) {
+      var answer = keyFn(scored[j].candidate);
+      var key = normalizeAnswer(answer);
+      if (!key || seen[key]) continue;
+      seen[key] = true;
+      picked.push(answer);
+    }
+    return picked;
+  }
+
+  var MEANING_STOPWORDS = {};
+  ('etwas sich sein seine seinen werden haben eine einer einen einem eines nicht oder auch sehr machen ' +
+    'jemand jemanden jemandem jemandes durch über unter nach gegen ohne dass wenn ganz viel viele mehr kein ' +
+    'keine keinen alle alles jede jeder jedes andere anderen anderer lassen geben bekommen person sache dinge')
+    .split(' ').forEach(function (word) { MEANING_STOPWORDS[word] = true; });
+  var meaningTokenCache = Object.create(null);
+
+  function meaningTokens(text) {
+    text = String(text || '');
+    if (meaningTokenCache[text]) return meaningTokenCache[text];
+    var tokens = text.replace(/\([^)]*\)/g, ' ').toLocaleLowerCase('de').split(/[^a-zäöüß]+/)
+      .filter(function (token) { return token.length >= 4 && !MEANING_STOPWORDS[token]; });
+    meaningTokenCache[text] = tokens;
+    return tokens;
+  }
+
+  // German glosses that share a content word ("Drohung" / "Bedrohung, Gefahr") describe
+  // near-synonyms; offering one as a wrong answer would make a second answer defensible.
+  function meaningsOverlap(a, b) {
+    var left = meaningTokens(a);
+    var right = meaningTokens(b);
+    return left.some(function (x) {
+      return right.some(function (y) {
+        return x === y || (x.length >= 5 && y.indexOf(x) !== -1) || (y.length >= 5 && x.indexOf(y) !== -1);
+      });
+    });
+  }
+
+  function similarLength(a, b) {
+    var x = String(a || '').length;
+    var y = String(b || '').length;
+    return Math.min(x, y) * 2 >= Math.max(x, y);
+  }
+
+  var PHRASE_TYPES = { Redewendung: true, Sprichwort: true, Yojijukugo: true };
+
+  // A verb among nouns, or a proverb among single words, gives the answer away.
+  function wordClassScore(candidate, item) {
+    if (candidate.type === item.type) return 8;
+    return !!PHRASE_TYPES[candidate.type] === !!PHRASE_TYPES[item.type] ? 0 : -8;
+  }
+
+  function sharesKanji(a, b) {
+    var chars = String(a || '');
+    for (var i = 0; i < chars.length; i++) {
+      if (KANJI_RE.test(chars[i]) && String(b || '').indexOf(chars[i]) !== -1) return true;
+    }
+    return false;
+  }
+
+  var kanjiWordIndex = { items: null, size: -1, index: null };
+
+  // Words of `pool` that share a kanji with `word`, from an index built once per vocabulary.
+  function poolWordsSharingKanji(word, pool) {
+    var items = getAllVocab();
+    if (kanjiWordIndex.items !== items || kanjiWordIndex.size !== items.length) {
+      var index = Object.create(null);
+      items.forEach(function (v) {
+        var seen = {};
+        for (var i = 0; i < (v.word || '').length; i++) {
+          var ch = v.word[i];
+          if (!KANJI_RE.test(ch) || seen[ch]) continue;
+          seen[ch] = true;
+          (index[ch] = index[ch] || []).push(v);
+        }
+      });
+      kanjiWordIndex = { items: items, size: items.length, index: index };
+    }
+    var inPool = new Set(pool);
+    var found = [];
+    var chars = {};
+    for (var j = 0; j < (word || '').length; j++) {
+      var c = word[j];
+      if (chars[c] || !kanjiWordIndex.index[c]) continue;
+      chars[c] = true;
+      kanjiWordIndex.index[c].forEach(function (v) { if (inPool.has(v)) found.push(v); });
+    }
+    return found;
+  }
+
+  function scriptClass(word) {
+    if (hasKanji(word)) return 'kanji';
+    return /^[ァ-ヶー・\s]+$/.test(word) ? 'katakana' : 'kana';
+  }
+
+  // Kana written around the kanji (食べる, お茶) show part of the reading, so every
+  // reading on offer has to fit them.
+  function readingFitsKana(word, reading) {
+    if (!hasKanji(word)) return true;
+    var lead = /^[ぁ-ゖ]+/.exec(word);
+    var trail = /[ぁ-ゖ]+$/.exec(word);
+    var kana = normalizeReading(reading);
+    return (!lead || kana.indexOf(lead[0]) === 0) &&
+      (!trail || kana.slice(-trail[0].length) === trail[0]);
+  }
+
+  function sharedEnding(a, b) {
+    var n = 0;
+    while (n < 3 && n < a.length && n < b.length && a[a.length - 1 - n] === b[b.length - 1 - n]) n++;
+    return n;
   }
 
   function normalizeAnswer(text) {
@@ -753,7 +879,11 @@
       return v.word === item.word && normalizeReading(v.reading) === normalizeReading(item.reading);
     }).map(function (v) { return v.meaning; });
     var distractorPool = pool.filter(function (v) { return validMeanings.indexOf(v.meaning) === -1; });
-    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.meaning; });
+    var distractors = rankDistractors(distractorPool, item.meaning, 3, function (v) { return v.meaning; }, function (v) {
+      if (meaningsOverlap(v.meaning, item.meaning)) return null;
+      return wordClassScore(v, item) + (v.category && v.category === item.category ? 2 : 0) +
+        (similarLength(v.meaning, item.meaning) ? 1 : 0);
+    });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
     if (!c) return null;
@@ -780,7 +910,21 @@
     var validReadings = getAllVocab().filter(function (v) { return v.word === item.word; })
       .map(function (v) { return normalizeReading(v.reading); });
     var distractorPool = pool.filter(function (v) { return validReadings.indexOf(normalizeReading(v.reading)) === -1; });
-    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.reading; });
+    var itemKana = normalizeReading(item.reading);
+    var readingLength = itemKana.length;
+    // Readings that fit the written kana can be rare, so they are not left to sampling.
+    var trailKana = (/[ぁ-ゖ]+$/.exec(item.word) || [''])[0];
+    var fittingReadings = hasKanji(item.word) && trailKana ? distractorPool.filter(function (v) {
+      return v.reading.slice(-trailKana.length) === trailKana;
+    }) : [];
+    var distractors = rankDistractors(distractorPool, item.reading, 3, function (v) { return v.reading; }, function (v) {
+      // A reading that contradicts the written kana is the plainest giveaway, so fit outranks all else;
+      // where too few readings fit (懐かしい needs …かしい), a shared ending (せつない) comes next.
+      return (readingFitsKana(item.word, v.reading) ? 20 : 2 * sharedEnding(normalizeReading(v.reading), itemKana)) +
+        wordClassScore(v, item) +
+        (sharesKanji(v.word, item.word) ? 3 : 0) +
+        (Math.abs(normalizeReading(v.reading).length - readingLength) <= 1 ? 1 : 0);
+    }, poolWordsSharingKanji(item.word, distractorPool).concat(sample(fittingReadings, DISTRACTOR_SAMPLE)));
     if (distractors.length < 3) return null;
     var c = buildChoices(item.reading, distractors);
     if (!c) return null;
@@ -805,7 +949,12 @@
     var validWords = getAllVocab().filter(function (v) { return v.meaning === item.meaning; })
       .map(function (v) { return v.word; });
     var distractorPool = pool.filter(function (v) { return validWords.indexOf(v.word) === -1; });
-    var distractors = generateDistractors(item, distractorPool, 3, function (v) { return v.word; });
+    var distractors = rankDistractors(distractorPool, item.word, 3, function (v) { return v.word; }, function (v) {
+      if (meaningsOverlap(v.meaning, item.meaning)) return null;
+      return wordClassScore(v, item) + (sharesKanji(v.word, item.word) ? 3 : 0) +
+        (scriptClass(v.word) === scriptClass(item.word) ? 2 : 0) +
+        (Math.abs(v.word.length - item.word.length) <= 1 ? 1 : 0);
+    }, poolWordsSharingKanji(item.word, distractorPool));
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
     if (!c) return null;
@@ -843,7 +992,14 @@
       if (sentence) ex = orderedExamples[i];
     }
     if (!ex) return null;
-    var distractors = generateDistractors(item, pool, 3, function (v) { return v.word; });
+    // Same word class keeps the grammar of the gap from deciding; a different subject area
+    // keeps a second word from fitting the sentence's meaning.
+    var distractors = rankDistractors(pool, item.word, 3, function (v) { return v.word; }, function (v) {
+      if (meaningsOverlap(v.meaning, item.meaning)) return null;
+      return wordClassScore(v, item) + (v.category && v.category !== item.category ? 2 : 0) +
+        (scriptClass(v.word) === scriptClass(item.word) ? 1 : 0) +
+        (Math.abs(v.word.length - item.word.length) <= 1 ? 1 : 0);
+    });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.word, distractors);
     if (!c) return null;
@@ -871,7 +1027,13 @@
     var correctMeaning = item.meanings[0];
     var accepted = new Set(item.meanings.map(normalizeAnswer));
     var wrongPool = pool.filter(function (k) { return !accepted.has(normalizeAnswer(k.meanings[0])); });
-    var distractors = generateDistractors(item, wrongPool, wrongPool.length, function (k) { return k.meanings[0]; });
+    var allMeanings = item.meanings.join(', ');
+    var primary = window.getPrimaryKanjiRadical ? window.getPrimaryKanjiRadical(item) : null;
+    var distractors = rankDistractors(wrongPool, correctMeaning, 3, function (k) { return k.meanings[0]; }, function (k) {
+      if (meaningsOverlap(k.meanings[0], allMeanings)) return null;
+      var radical = primary && window.getPrimaryKanjiRadical(k);
+      return (radical && radical === primary ? 3 : 0) + (Math.abs((k.strokes || 0) - (item.strokes || 0)) <= 2 ? 1 : 0);
+    }, primary ? wrongPool.filter(function (k) { return window.getPrimaryKanjiRadical(k) === primary; }) : []);
     if (distractors.length < 3) return null;
     var c = buildChoices(correctMeaning, distractors);
     if (!c) return null;
@@ -916,8 +1078,14 @@
       return first && katakana.test(first) === katakana.test(correctReading) &&
         acceptedReadings.indexOf(normalizeReading(first)) === -1;
     });
-    var distractors = generateDistractors(item, distractorPool, 3, function (k) {
+    var correctKana = normalizeReading(correctReading);
+    var distractors = rankDistractors(distractorPool, correctReading, 3, function (k) {
       return getKanjiReadings(k, key)[0] || '';
+    }, function (k) {
+      var kana = normalizeReading(getKanjiReadings(k, key)[0] || '');
+      var lengthGap = Math.abs(kana.length - correctKana.length);
+      return (lengthGap === 0 ? 2 : lengthGap === 1 ? 1 : 0) +
+        (kana.slice(-1) === correctKana.slice(-1) ? 2 : 0) + (kana[0] === correctKana[0] ? 1 : 0);
     });
     if (distractors.length < 3) return null;
     var c = buildChoices(correctReading, distractors);
@@ -947,9 +1115,24 @@
     if (!radicalInfo) return null;
 
     var correctAnswer = radicalInfo.radical + ' (' + radicalInfo.meaning + ')';
-    var distractorPool = radicals.filter(function (r) { return r.radical !== radicalInfo.radical; });
-    var distrs = shuffle(distractorPool).slice(0, 3).map(function (r) {
+    // Radicals the kanji also contains are left out: where KanjiVG's general and traditional
+    // radicals differ (先: 八 here, 儿 in Kangxi dictionaries), another component may be the
+    // answer a dictionary gives.
+    var components = {};
+    (window.getCanonicalRadicalsForKanji ? window.getCanonicalRadicalsForKanji(item) : []).forEach(function (r) {
+      components[r.radical] = true;
+    });
+    // Radicals that head other kanji of this level are the plausible confusions.
+    var levelRadicals = {};
+    pool.forEach(function (k) {
+      var r = window.getPrimaryKanjiRadical(k);
+      if (r) levelRadicals[r.radical] = true;
+    });
+    var distractorPool = radicals.filter(function (r) { return r.radical !== radicalInfo.radical && !components[r.radical]; });
+    var distrs = rankDistractors(distractorPool, correctAnswer, 3, function (r) {
       return r.radical + ' (' + r.meaning + ')';
+    }, function (r) {
+      return (levelRadicals[r.radical] ? 3 : 0) + (Math.abs((r.strokes || 0) - (radicalInfo.strokes || 0)) <= 2 ? 1 : 0);
     });
     if (distrs.length < 3) return null;
     var c = buildChoices(correctAnswer, distrs);
@@ -972,7 +1155,10 @@
     var pool = getLevelPool(getGrammarByLevel, level);
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (g) { return g.meaning; });
+    var distractors = rankDistractors(pool, item.meaning, 3, function (g) { return g.meaning; }, function (g) {
+      if (meaningsOverlap(g.meaning, item.meaning)) return null;
+      return (g.category === item.category ? 3 : 0) + (similarLength(g.meaning, item.meaning) ? 1 : 0);
+    });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.meaning, distractors);
     if (!c) return null;
@@ -1024,12 +1210,18 @@
     var selected = pickRandom(candidates), item = selected.item, ex = selected.example, r = selected.reviewed;
     var c = buildChoices(r.span.answer, r.wrong);
     if (!c) return null;
+    var reasons = {};
+    r.review.distractors.forEach(function (d) { reasons[d.text] = d.reason; });
     return finalizeQuestion({
       type: 'grammarCloze', level: level,
       prompt: 'Welches Grammatikmuster passt in die Lücke?',
       promptMain: r.sentence,
+      // The translation stays visible: reviewed choices may be wrong only for this meaning
+      // (走り抜かなかった is grammatical but contradicts „bis zum Ende durchgelaufen“).
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
+      // Reviewed reasons why each wrong choice does not fit; shown after answering.
+      choiceNotes: c.choices.map(function (choice, i) { return i === c.correctIndex ? null : reasons[choice]; }),
       explanation: item.pattern + ' — ' + ex.japanese
     }, level, {
       sourceLevel: item.level,
@@ -1045,7 +1237,11 @@
     var pool = getLevelPool(getGrammarByLevel, level).filter(function (g) { return g.formation; });
     if (pool.length < 4) return null;
     var item = pickRandom(pool);
-    var distractors = generateDistractors(item, pool, 3, function (g) { return g.formation; });
+    var lead = function (g) { return g.formation.split(/[\s+（(]/)[0]; };
+    var distractors = rankDistractors(pool, item.formation, 3, function (g) { return g.formation; }, function (g) {
+      return (g.category === item.category ? 3 : 0) + (lead(g) === lead(item) ? 2 : 0) +
+        (similarLength(g.formation, item.formation) ? 1 : 0);
+    });
     if (distractors.length < 3) return null;
     var c = buildChoices(item.formation, distractors);
     if (!c) return null;
@@ -1126,7 +1322,10 @@
     var ex = pickRandom(item.examples.filter(function (example) {
       return !!beginnerSentence(example.japanese, example.romaji, level, []);
     }));
-    var distractors = generateDistractors(item, candidates, 3, function (o) { return o.meaning; });
+    var distractors = rankDistractors(candidates, item.meaning, 3, function (o) { return o.meaning; }, function (o) {
+      if (meaningsOverlap(o.meaning, item.meaning)) return null;
+      return (o.category === item.category ? 3 : 0) + (similarLength(o.meaning, item.meaning) ? 1 : 0);
+    });
     if (distractors.length < 3) return null;
     var choices = buildChoices(item.meaning, distractors);
     if (!choices) return null;
@@ -1251,6 +1450,31 @@
     return { choicesDiv: choicesDiv, explDiv: explDiv, card: card };
   }
 
+  // After an answer: the explanation and, where reviewed, why each wrong choice fails.
+  function showAnswerDetails(question, parts) {
+    var explDiv = parts.explDiv;
+    if (!explDiv) return;
+    explDiv.textContent = question.explanation;
+    var notes = (question.choiceNotes || []).map(function (note, i) {
+      return note ? { choice: question.choices[i], note: note } : null;
+    }).filter(Boolean);
+    if (notes.length) {
+      var list = el('ul', 'quiz-choice-notes');
+      list.setAttribute('aria-label', 'Warum die anderen Antworten nicht passen');
+      notes.forEach(function (entry) {
+        var li = el('li');
+        var choice = el('span', 'quiz-choice-note-answer', entry.choice);
+        choice.lang = 'ja';
+        li.appendChild(choice);
+        li.appendChild(document.createTextNode(' — ' + entry.note));
+        list.appendChild(li);
+      });
+      explDiv.appendChild(el('p', 'quiz-choice-notes-title', 'Warum die anderen Antworten nicht passen:'));
+      explDiv.appendChild(list);
+    }
+    explDiv.classList.remove('hidden');
+  }
+
   // ==========================================================
   // F: BROWSE MODE CONTROLLER
   // ==========================================================
@@ -1259,6 +1483,7 @@
     currentType: 'vocabMeaning',
     currentLevel: 'N5',
     question: null,
+    parts: null,
     answered: false,
     revealed: false
   };
@@ -1358,6 +1583,7 @@
     }
 
     var parts = renderQuestionCard(q, area);
+    browseState.parts = parts;
 
     renderChoiceButtons(q, parts.choicesDiv, function (idx) {
       if (browseState.revealed) return;
@@ -1383,15 +1609,10 @@
     var area = document.getElementById('quiz-question-area');
     if (!area) return;
     var choicesDiv = area.querySelector('.quiz-choices');
-    var explDiv = area.querySelector('.quiz-explanation');
     var selectedIdx = browseState.answered ? browseState.selectedIdx : -1;
 
     showFeedback(choicesDiv, selectedIdx, browseState.question.correctIndex);
-
-    if (explDiv) {
-      explDiv.textContent = browseState.question.explanation;
-      explDiv.classList.remove('hidden');
-    }
+    showAnswerDetails(browseState.question, browseState.parts);
 
     if (selectedIdx === browseState.question.correctIndex) {
       if (window.app) window.app.playPop();
@@ -1633,11 +1854,7 @@
       if (correct && window.app) window.app.playPop();
       else if (window.app) window.app.playTick();
 
-      // Show explanation briefly
-      if (parts.explDiv) {
-        parts.explDiv.textContent = question.explanation;
-        parts.explDiv.classList.remove('hidden');
-      }
+      showAnswerDetails(question, parts);
 
       // Reveal the manual advance action after the answer is shown.
       nextBtn.classList.remove('hidden');
@@ -1749,6 +1966,8 @@
           '<span class="review-prompt">' + q.promptMain + '</span>' +
           '<span class="review-answer">' + (ans && ans.selected >= 0 ? q.choices[ans.selected] : '—') + '</span>' +
           (correct ? '' : '<span class="review-correct">' + q.choices[q.correctIndex] + '</span>');
+        var note = !correct && ans && ans.selected >= 0 && q.choiceNotes && q.choiceNotes[ans.selected];
+        if (note) item.appendChild(el('span', 'review-reason', note));
         detailDiv.appendChild(item);
       });
     });
@@ -1917,6 +2136,8 @@
       kanaFromRomaji: kanaFromRomaji,
       generateQuestion: generateQuestion,
       buildChoices: buildChoices,
+      meaningsOverlap: meaningsOverlap,
+      readingFitsKana: readingFitsKana,
       generateQuestionForSource: function (type, level, sourceId, exampleIndex) {
         if (type === 'kanjiMeaning') return genKanjiMeaning(level, sourceId);
         if (type === 'grammarCloze') return genGrammarCloze(level, sourceId, exampleIndex);

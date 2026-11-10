@@ -319,6 +319,19 @@ async function run() {
     d.getElementById('quiz-reveal-btn').click();
     assert(d.querySelector('.quiz-explanation').textContent.trim());
     assert(!/[\u3400-\u9faf]/.test(d.querySelector('.quiz-explanation').textContent));
+    // Gap answers explain every wrong choice with its reviewed reason, and only once resolved.
+    d.getElementById('quiz-next-btn').click(); await delay(10);
+    type.value = 'grammarCloze'; type.dispatchEvent(new w.Event('change', { bubbles: true }));
+    await delay(10);
+    assert(!d.querySelector('.quiz-choice-notes'), 'Reasons were shown before the answer');
+    d.getElementById('quiz-reveal-btn').click();
+    const notes = d.querySelectorAll('.quiz-choice-notes li');
+    assert.equal(notes.length, 3, 'Every wrong gap answer needs its reason');
+    const correctChoice = d.querySelector('.quiz-choice-btn.correct .quiz-choice-text').textContent;
+    assert(![...notes].some(li => li.querySelector('.quiz-choice-note-answer').textContent === correctChoice));
+    assert(notes[0].textContent.split(' — ')[1].trim(), 'Empty reason');
+    d.getElementById('quiz-next-btn').click(); await delay(10);
+    assert(!d.querySelector('.quiz-choice-notes'), 'Next question inherited the previous reasons');
     d.querySelector('.quiz-btn-back').click();
     activate(w, d.querySelector('.quiz-home-card.test'));
     activate(w, d.querySelector('.quiz-test-level-card'));

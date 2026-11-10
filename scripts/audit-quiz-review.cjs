@@ -19,6 +19,14 @@ module.exports = function auditQuizReview(ctx, audit) {
     assert.deepEqual(plain(question.choices.filter((_,i) => i !== question.correctIndex)).sort(),
       record.distractors.map(d => d.text).sort(), 'Unreviewed choice: ' + record.grammarId);
     assert.equal(question.promptSub, record.german);
+    // Every reviewed wrong choice carries its reason into the feedback.
+    assert.equal(question.choiceNotes.length, 4, record.grammarId);
+    assert.equal(question.choiceNotes[question.correctIndex], null, 'Answer note on the correct choice: ' + record.grammarId);
+    for (const d of record.distractors) {
+      const note = question.choiceNotes[question.choices.indexOf(d.text)];
+      assert(note && note.trim(), 'Missing reason for ' + d.text + ': ' + record.grammarId);
+      if (!/^N[45]$/.test(record.level)) assert.equal(note, d.reason, record.grammarId);
+    }
     if (/^N[45]$/.test(record.level)) {
       assert.equal(question.promptMain, record.promptKana);
       assert(!/[\u3400-\u9fff]/.test(question.promptMain));
