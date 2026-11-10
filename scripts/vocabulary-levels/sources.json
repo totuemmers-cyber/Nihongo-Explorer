@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "retrieved": "2026-11-10",
+  "cacheFolder": ".content-cache/vocabulary-levels",
+  "note": "Research inputs for the November 2026 vocabulary-level calibration. Files live only in the git-ignored cache; this manifest records where they came from and their SHA-256. The textbook datasets carry no licence and are used only as cited evidence (lesson numbers), never committed.",
+  "sources": [
+    {
+      "id": "waller-stephenmk",
+      "title": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+      "url": "https://github.com/stephenmk/yomitan-jlpt-vocab/tree/main/original_data",
+      "rawBase": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/",
+      "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+      "files": {
+        "n1.csv": "7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+        "n2.csv": "42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+        "n3.csv": "bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+        "n4.csv": "a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+        "n5.csv": "07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a"
+      }
+    },
+    {
+      "id": "waller-jamsinclair",
+      "title": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+      "url": "https://github.com/jamsinclair/open-anki-jlpt-decks/tree/main/src",
+      "rawBase": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/",
+      "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+      "files": {
+        "n1.csv": "120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+        "n2.csv": "2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+        "n3.csv": "ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+        "n4.csv": "0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+        "n5.csv": "f89abc86b391c4f2b551bbf8910b0de6cd600973b3a9f8d98347513921929ebe"
+      }
+    },
+    {
+      "id": "minna-no-nihongo",
+      "title": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+      "url": "https://github.com/vitto4/MinnaNoDS",
+      "rawBase": "https://raw.githubusercontent.com/vitto4/MinnaNoDS/main/",
+      "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+      "levelMapping": "Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4",
+      "files": { "minna-no-ds.yaml": "3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f" }
+    },
+    {
+      "id": "genki",
+      "title": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+      "url": "https://github.com/jackiewkr/genki1-vocab",
+      "rawBase": "https://raw.githubusercontent.com/jackiewkr/genki1-vocab/main/",
+      "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+      "levelMapping": "Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4",
+      "files": { "genki1vocab.csv": "50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25" }
+    },
+    {
+      "id": "wordfreq",
+      "title": "wordfreq Japanese word frequencies (Zipf scale)",
+      "url": "https://github.com/rspeer/wordfreq",
+      "attribution": "wordfreq by Robyn Speer, data CC BY-SA 4.0",
+      "versions": { "wordfreq": "3.1.1", "mecab-python3": "1.0.12", "ipadic": "1.0.0" },
+      "produced": "scripts/research-vocabulary-frequency.py writes frequency.json into the cache folder"
+    }
+  ]
+}

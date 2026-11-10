@@ -1,0 +1,2530 @@
+{
+  "version": 3,
+  "merges": [],
+  "reviews": [
+    {
+      "id": "vocab-n1:3672",
+      "revisionId": "levels-2026-11-vocab-n1-3672",
+      "state": "accepted",
+      "predecessorHash": "bb5c88ef226129431e80576dcb95c509321f7de0bb379f380b66cf2fd576eaa5",
+      "originalHash": "bb5c88ef226129431e80576dcb95c509321f7de0bb379f380b66cf2fd576eaa5",
+      "predecessorRevisionHash": "fb5f0a96523b797e1d3c2e1cc278c96e6b8d25b19de22f26e9ce47463df2417a",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 219g-n1-enrichment-vocab-n1-3672; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3672",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L439; JMdict entry 1324210",
+          "finding": "酌む (くむ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L797",
+          "finding": "酌む (くむ) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 2 corrected to 0. Exact whole 酌む/クム; lemma 汲む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 酌む/クム; lemma 汲む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@113674195",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 酌む/クム; lemma 汲む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 酌む/クム; lemma 汲む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "酌む",
+              "reading": "くむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 酌む/くむ \"einschenken\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "(Sake) einschenken, zusammen trinken; (Gefühle) berücksichtigen. JMdict 1324210 senses 1-2, godan verb: to pour / drink sake together; to consider (feelings, circumstances)",
+        "japanese": "久しぶりに会った友人と、夜遅くまで酒を酌み交わした。 / 彼女の気持ちを酌んで、それ以上は何も聞かなかった。 / 部長はこちらの事情を酌んで、締め切りを延ばしてくれた。",
+        "romanization": "kumu; Hisashiburi ni atta yuujin to, yoru osoku made sake o kumikawashita. / Kanojo no kimochi o kunde, sore ijou wa nani mo kikanakatta. / Buchou wa kochira no jijou o kunde, shimekiri o nobashite kureta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mit einem Freund, den ich lange nicht gesehen hatte, habe ich bis spät in die Nacht getrunken. / Aus Rücksicht auf ihre Gefühle habe ich nicht weiter nachgefragt. / Der Abteilungsleiter zeigte Verständnis für unsere Lage und verlängerte die Frist.",
+        "contexts": [
+          "Drinking with an old friend",
+          "Sparing someone's feelings",
+          "Deadline extension"
+        ],
+        "lexical": "JMdict 1324210 senses 1-2, godan verb: to pour / drink sake together; to consider (feelings, circumstances)",
+        "register": "neutral to written",
+        "transitivity": "transitive (酒を酌む, 気持ちを酌む); no intransitive partner",
+        "conjugation": "godan -mu (酌む → 酌んで, 酌まない)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 219g-n1-enrichment-vocab-n1-3672; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1d98a5666a8987aaa85b8674df9a2b2037741a9132960b1f1c4f776080013c25",
+        "approvalHash": "f103a09ace41c75fce2c7684b2c9006080acc535b652c95d46a34d2d62996a2a"
+      }
+    },
+    {
+      "id": "vocab-n1:3677",
+      "revisionId": "levels-2026-11-vocab-n1-3677",
+      "state": "accepted",
+      "predecessorHash": "ecc00443b5cf798a441d3fab547c0009014b9ced433d2476b420eeb3de9adf4b",
+      "originalHash": "ecc00443b5cf798a441d3fab547c0009014b9ced433d2476b420eeb3de9adf4b",
+      "predecessorRevisionHash": "ec688f7efd7c9c674b2524bb75b8387c900418e6f5aaba5874301bed43a28252",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 118a-full-3677; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3677",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N5; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n5.csv SHA256 07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n5.csv#L444; JMdict entry 1253020",
+          "finding": "鶏肉 (とりにく) is listed at N5 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n5.csv SHA256 f89abc86b391c4f2b551bbf8910b0de6cd600973b3a9f8d98347513921929ebe",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n5.csv#L473",
+          "finding": "鶏肉 (とりにく) is listed at N5 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@190877856",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Actual original whole surface 鶏肉/トリニク; lemma 鳥肉; 名詞/普通名詞/一般/*; *; *; aType 0. Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+            "match": {
+              "word": "鶏肉",
+              "reading": "とりにく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *; whole selected lexical role",
+              "sense": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Hühnerfleisch. Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+        "japanese": "できるだけ鶏肉のささみを食べるようにしています。 / 買い物のメモに「とり肉三百グラム」と書きました。",
+        "romanization": "toriniku; Dekiru dake toriniku no sasami o taberu yō ni shite imasu. / Kaimono no memo ni \"toriniku sanbyaku guramu\" to kakimashita.. Complete Modified Hepburn inspection.",
+        "translation": "Ich versuche, möglichst Hähncheninnenfilet zu essen. / Ich schrieb „300 Gramm Hühnerfleisch“ auf den Einkaufszettel.",
+        "contexts": [
+          "Eine bewusst eingehaltene Ernährungsgewohnheit mit Hähncheninnenfilet erläutern.",
+          "Hühnerfleisch mit einer Mengenangabe auf einem Einkaufszettel notieren."
+        ],
+        "lexical": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+        "register": "鶏肉 wird hier とりにく gelesen und bezeichnet Hühnerfleisch. とり肉 ist eine gemischte Schreibung mit Hiragana für 鶏, der man beispielsweise in einem vereinfachten Text begegnen kann. 鶏肉のささみ sind die Innenfilets der Hähnchenbrust. 食べるようにしています beschreibt eine bewusst eingehaltene Gewohnheit; できるだけ heißt hier möglichst, nicht eine festgelegte Fleischmenge. Die ebenfalls belegte Lesung けいにく ist nicht die auf dieser Karte geübte Lesung.",
+        "transitivity": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+        "conjugation": "Original1253020 chicken1 compatible鶏肉/とり肉 and unrestrictedとりにく, とり肉 sK search-only kanji form in JMdict, independently attested original TANOS page22 and original UniDic surface. 別readingけいにく restricted鶏肉; generic birdmeat2 restricted鳥肉 notclaimed. Correct retained wrongkeiniku Hepburn to toriniku, sasami contiguous and yōmacron; faithful German tenderloin andできるだけhabit instead of excessivequantity interpretation. Exact original190877856 canonical and190877259 alias commonトリニク aType0, reject117116825ケイニク0 as wrongreading. ActualOJAD9254とり肉 wholeとりにく0 corroborates. Nutritionhabit versus written shoppingquantity distinct, no medical advice.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+        "carriedOver": "All fields except level are copied unchanged from 118a-full-3677; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1c634a001ee3acbe3fabfb619a850d0c371f02474efb5de58f21d380773448b8",
+        "approvalHash": "1badc9a0b078b194cec8bef6908cb48757b16dd794aea20091cff5e47a5d7a6e"
+      }
+    },
+    {
+      "id": "vocab-n1:3690",
+      "revisionId": "levels-2026-11-vocab-n1-3690",
+      "state": "accepted",
+      "predecessorHash": "06c2cd68e85377349814672d0b590ff22f35daf8e3bd7d6d5982d9945b31e36d",
+      "originalHash": "06c2cd68e85377349814672d0b590ff22f35daf8e3bd7d6d5982d9945b31e36d",
+      "predecessorRevisionHash": "de6d9c981785180b7386a81e9ffd76762d3af9095618ef6688e890f53b27e9d3",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 219g-n1-enrichment-vocab-n1-3690; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3690",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L1146; JMdict entry 1582410",
+          "finding": "凸凹 (でこぼこ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L1252",
+          "finding": "凸凹 (でこぼこ) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 凸凹/でこぼこ read; accent_top positions [0] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 凸凹/デコボコ; lemma 凸凹; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1. No transfer.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 15e5ba9dc9d45fe5af8c1449666b7cce9fa054d1eedaab582c54b5c5ff3a4bc9",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%B8%E5%87%B9#word_8840",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 凸凹/でこぼこ read; accent_top positions [0] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 凸凹/デコボコ; lemma 凸凹; 名詞/普通名詞/サ変可能/*; *; *; aType 0,1. No transfer.",
+            "match": {
+              "word": "凸凹",
+              "reading": "でこぼこ",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 凸凹/でこぼこ \"uneben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "uneben. JMdict 1582410 senses 1-2, noun / na-adj / suru verb (intransitive): unevenness, bumpiness; imbalance",
+        "japanese": "床がちょっと凸凹しているのが気になるね。 / 山道は凸凹で、自転車ではとても走りにくかった。 / 背の高い彼と小柄な彼女は、職場で有名なでこぼこコンビだ。",
+        "romanization": "dekoboko; Yuka ga chotto dekoboko shite iru no ga ki ni naru ne. / Yamamichi wa dekoboko de, jitensha de wa totemo hashirinikukatta. / Se no takai kare to kogara na kanojo wa, shokuba de yuumei na dekoboko konbi da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mich stört, dass der Boden ein wenig uneben ist. / Der Bergweg war holprig, mit dem Fahrrad kam man kaum voran. / Der große Er und die zierliche Sie sind im Büro als ungleiches Duo bekannt.",
+        "contexts": [
+          "Uneven floor",
+          "Cycling a bumpy path",
+          "Mismatched coworkers"
+        ],
+        "lexical": "JMdict 1582410 senses 1-2, noun / na-adj / suru verb (intransitive): unevenness, bumpiness; imbalance",
+        "register": "neutral; usually written in kana",
+        "transitivity": "intransitive as 凸凹する (床が凸凹している)",
+        "conjugation": "suru verb (凸凹する → 凸凹している); also な/の adjective",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 219g-n1-enrichment-vocab-n1-3690; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ad05d16ea8640dbcc1ead5c825e923e99a0917b03fe23b7106d51744e4d2d570",
+        "approvalHash": "5401607402c28fc21e0398eb7e0f1bda268d064ce2df60ceb3863089514604fa"
+      }
+    },
+    {
+      "id": "vocab-n1:3691",
+      "revisionId": "levels-2026-11-vocab-n1-3691",
+      "state": "accepted",
+      "predecessorHash": "d297086fe67ff3934c70d5a9027d8c498da3483537d078a5c7208d94d441141f",
+      "originalHash": "d297086fe67ff3934c70d5a9027d8c498da3483537d078a5c7208d94d441141f",
+      "predecessorRevisionHash": "905932f25487bafd6de4278a4ae072396815bc545aa6e99618b634a1dd8253ad",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 219h-n1-enrichment-vocab-n1-3691; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3691",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L1519; JMdict entry 1179200",
+          "finding": "凹む (へこむ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L1617",
+          "finding": "凹む (へこむ) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 2 corrected to 0. Exact whole 凹む/ヘコム; lemma 凹む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 凹む/ヘコム; lemma 凹む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@241047850",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 凹む/ヘコム; lemma 凹む; 動詞/一般/*/*; 五段-マ行; 終止形-一般; aType 0. Rejected for this role: 凹む/ヘコム; lemma 凹む; 動詞/一般/*/*; 五段-マ行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "凹む",
+              "reading": "へこむ",
+              "grammaticalForm": "動詞/一般/*/*; 五段-マ行; 終止形-一般",
+              "sense": "Verb 凹む/へこむ \"niedergeschlagen sein\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "eingedrückt werden, eine Delle bekommen; niedergeschlagen sein. JMdict 1179200 senses 1 and 3, godan verb (intransitive): to be dented, to cave in; to feel down (colloquial)",
+        "japanese": "失恋で凹んでいます。 / 駐車場でぶつけられて、車のドアが凹んでしまった。 / そんなに凹むなよ。次はきっとうまくいくって。",
+        "romanization": "hekomu; Shitsuren de hekonde imasu. / Chuushajou de butsukerarete, kuruma no doa ga hekonde shimatta. / Sonna ni hekomu na yo. Tsugi wa kitto umaku iku tte. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin wegen Liebeskummer niedergeschlagen. / Auf dem Parkplatz hat mich jemand angefahren, jetzt hat die Autotür eine Delle. / Sei doch nicht so geknickt. Beim nächsten Mal klappt es bestimmt.",
+        "contexts": [
+          "Heartbreak",
+          "Dented car door",
+          "Cheering up a friend"
+        ],
+        "lexical": "JMdict 1179200 senses 1 and 3, godan verb (intransitive): to be dented, to cave in; to feel down (colloquial)",
+        "register": "neutral; 'feel down' sense colloquial; usually written in kana",
+        "transitivity": "intransitive (ドアが凹む); transitive partner 凹ませる",
+        "conjugation": "godan -mu (凹む → 凹んで, 凹まない)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 219h-n1-enrichment-vocab-n1-3691; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "53cbd2242613383e8d97cb2cca390a5f6ff07227008a959839fd1d6892c2f4b3",
+        "approvalHash": "6904fa06eb95f079afcd061abc2e1e4a7b5d0ab0f2df86c834a1d7f4e1669908"
+      }
+    },
+    {
+      "id": "vocab-n1:3706",
+      "revisionId": "levels-2026-11-vocab-n1-3706",
+      "state": "accepted",
+      "predecessorHash": "48cba959ee79af76aea10bc6a7359cea1f8396cce970ba24b820a4bc82c29b33",
+      "originalHash": "48cba959ee79af76aea10bc6a7359cea1f8396cce970ba24b820a4bc82c29b33",
+      "predecessorRevisionHash": "084d2e5fb1e63f8e7d81bb6005a8ef894b31b0a225996e64afb766496c70fbe7",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 203f-reference-target-vocab-n1-3706; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3706",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L566; JMdict entry 1270650",
+          "finding": "ご無沙汰 (ごぶさた) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L676",
+          "finding": "ご無沙汰 (ごぶさた) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head ご無沙汰/ごぶさた read; accent_top positions [0] (0 = no accent_top). Exact whole ご無沙汰/ごぶさた scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 c29b72c7a6bcee1d6cd79c16e0eeac8eba812f8ab05c8f1dd3f8c59386a011ac",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E3%81%94%E7%84%A1%E6%B2%99%E6%B1%B0#word_6231",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head ご無沙汰/ごぶさた read; accent_top positions [0] (0 = no accent_top). Exact whole ご無沙汰/ごぶさた scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "ご無沙汰",
+              "reading": "ごぶさた",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb ご無沙汰/ごぶさた \"lange nicht gesehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "lange nichts von sich hören lassen, lange nicht gesehen. JMdict 1270650 sense 1, noun / suru verb: not contacting for a while, long silence",
+        "japanese": "ご無沙汰しております。 / 長い間ご無沙汰してしまい、大変失礼いたしました。 / 忙しくて、最近はジムにすっかりご無沙汰している。",
+        "romanization": "gobusata; Gobusata shite orimasu. / Nagai aida gobusata shite shimai, taihen shitsurei itashimashita. / Isogashikute, saikin wa jimu ni sukkari gobusata shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist so lange her, dass wir uns gesehen haben. / Bitte entschuldigen Sie, dass ich so lange nichts von mir habe hören lassen. / Ich habe so viel zu tun, dass ich in letzter Zeit gar nicht mehr im Fitnessstudio war.",
+        "contexts": [
+          "Greeting a business contact",
+          "Apology in a letter",
+          "Neglected gym habit"
+        ],
+        "lexical": "JMdict 1270650 sense 1, noun / suru verb: not contacting for a while, long silence",
+        "register": "polite / humble set phrase; casual in extended use",
+        "transitivity": "intransitive as ご無沙汰する; person or place with に",
+        "conjugation": "noun; suru verb (ご無沙汰する)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 203f-reference-target-vocab-n1-3706; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "82d879fb2e0f040b36dd2c6b9964e02bebcb757403a63ff309b57fa5846668c1",
+        "approvalHash": "cbeee6757636f65e3288375a14fadc96c4dd6e32981015dc5d5490262ac3b52a"
+      }
+    },
+    {
+      "id": "vocab-n1:3714",
+      "revisionId": "levels-2026-11-vocab-n1-3714",
+      "state": "accepted",
+      "predecessorHash": "a16954b341776e66c1ce8f1610a95e3c64609c48b966b874a697edd2dfec589f",
+      "originalHash": "a16954b341776e66c1ce8f1610a95e3c64609c48b966b874a697edd2dfec589f",
+      "predecessorRevisionHash": "880765c61c996009ce61dd3b11bb950ab9d9407715bccdde887a67b53eee2f02",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 219h-n1-enrichment-vocab-n1-3714; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 33; capped from N4",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3714",
+          "finding": "N1 → N3 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4). The evidence gives N4; moves are capped at two levels."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 33 (exact match)",
+          "finding": "危篤 is taught in Minna no Nihongo II lesson 33 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 危篤/キトク; lemma 危篤; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@104917354",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 危篤/キトク; lemma 危篤; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "危篤",
+              "reading": "きとく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 危篤/きとく \"lebensgefährlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "kritischer Zustand, im Sterben liegend. JMdict 1218680 sense 1, noun / no-adjective: critical condition, being on the verge of death",
+        "japanese": "父が危篤だという電話がありました。 / 祖母が危篤状態に陥り、家族全員が病院に集まった。 / 危篤の知らせを受けて、彼は急いで新幹線に飛び乗った。",
+        "romanization": "kitoku; Chichi ga kitoku da to iu denwa ga arimashita. / Sobo ga kitoku joutai ni ochiiri, kazoku zen'in ga byouin ni atsumatta. / Kitoku no shirase o ukete, kare wa isoide shinkansen ni tobinotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es kam ein Anruf, dass Vater in kritischem Zustand sei. / Meine Großmutter schwebte in Lebensgefahr, und die ganze Familie versammelte sich im Krankenhaus. / Als er die Nachricht vom kritischen Zustand erhielt, sprang er hastig in den Shinkansen.",
+        "contexts": [
+          "Phone call from hospital",
+          "Family gathers",
+          "Rushing home"
+        ],
+        "lexical": "JMdict 1218680 sense 1, noun / no-adjective: critical condition, being on the verge of death",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 33; capped from N4",
+        "carriedOver": "All fields except level are copied unchanged from 219h-n1-enrichment-vocab-n1-3714; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "9ab51eb7a3a9fe9c2418f1c132d3ff20a2e7745e885cd21fcec8ec4316e73abc",
+        "approvalHash": "84779d8c932b8a21aba7d900adceef792edf2aaac71349e23817b73e44cc9298"
+      }
+    },
+    {
+      "id": "vocab-n1:3737",
+      "revisionId": "levels-2026-11-vocab-n1-3737",
+      "state": "accepted",
+      "predecessorHash": "b18508d07de1ae1bbb9519628075024cdddefa42eb98d8c30c43166e6efd4cbf",
+      "originalHash": "b18508d07de1ae1bbb9519628075024cdddefa42eb98d8c30c43166e6efd4cbf",
+      "predecessorRevisionHash": "2c4de823c1147a27016866b9b4261848f02a0e48fa15617517578a7e4d46cc77",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 205g-n1-enrichment-vocab-n1-3737; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3737",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N5; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n5.csv SHA256 07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n5.csv#L80; JMdict entry 1588120",
+          "finding": "唄う (うたう) is listed at N5 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 唄う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. Rejected for this role: 唄う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63008951",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 唄う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. Rejected for this role: 唄う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "唄う",
+              "reading": "うたう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Verb 唄う/うたう \"singen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "singen. JMdict 1588120 sense 1, godan verb: to sing (variant spelling of 歌う, esp. traditional songs)",
+        "japanese": "私のおじさんは、唄うアコーディオン弾きです。 / 祖母は台所で民謡を唄いながら料理をしていた。 / 盆踊りでは、みんなで輪になって唄い踊った。",
+        "romanization": "utau; Watashi no ojisan wa, utau akōdion hiki desu. / Sobo wa daidokoro de min'yō o utainagara ryōri o shite ita. / Bon odori de wa, minna de wa ni natte utai odotta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Mein Onkel ist ein singender Akkordeonspieler. / Meine Großmutter sang beim Kochen in der Küche Volkslieder. / Beim Bon-Tanz bildeten alle einen Kreis, sangen und tanzten.",
+        "contexts": [
+          "Family introduction",
+          "Folk songs while cooking",
+          "Summer festival dance"
+        ],
+        "lexical": "JMdict 1588120 sense 1, godan verb: to sing (variant spelling of 歌う, esp. traditional songs)",
+        "register": "neutral; spelling suggests traditional or folk songs",
+        "transitivity": "transitive (民謡を唄う); also used without object (楽しそうに唄う)",
+        "conjugation": "godan -u (唄う → 唄って, 唄わない)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+        "carriedOver": "All fields except level are copied unchanged from 205g-n1-enrichment-vocab-n1-3737; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "420cbbe35fbb51481448b1be5044d073aeaa1cda0939041f1f7bedd5395f4179",
+        "approvalHash": "f77781baf8934d3a1c48bda29a764fd89c74f2ccb847780061bdc1173f1e3ba4"
+      }
+    },
+    {
+      "id": "vocab-n1:3750",
+      "revisionId": "levels-2026-11-vocab-n1-3750",
+      "state": "accepted",
+      "predecessorHash": "ffb3dc1e804a95ea1c7ac97bd5683cd3eb5cee5e6848f79ed53e6ff3f48a918a",
+      "originalHash": "ffb3dc1e804a95ea1c7ac97bd5683cd3eb5cee5e6848f79ed53e6ff3f48a918a",
+      "predecessorRevisionHash": "07bf97129f71b7335e95e61aaf1c1919ac66fb2df4816833b0047241132ce478",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 189h-reference-target-vocab-n1-3750; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3750",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L82; JMdict entry 1151580",
+          "finding": "悪戯 (いたずら) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L385",
+          "finding": "悪戯 (いたずら) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 悪戯/イタズラ; lemma 悪戯; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@55378720",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 悪戯/イタズラ; lemma 悪戯; 名詞/普通名詞/サ変形状詞可能/*; *; *; aType 0.",
+            "match": {
+              "word": "悪戯",
+              "reading": "いたずら",
+              "grammaticalForm": "名詞/普通名詞/サ変形状詞可能/*; *; *",
+              "sense": "Nomen 悪戯/いたずら \"Streich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Streich, Unfug; frech (いたずらな). JMdict 1151580 senses 1–2 and 4, noun / suru verb / na-adjective: mischief, prank; mischievous; playing with, tampering with",
+        "japanese": "今子供達の間で流行っている悪戯ですよ。 / 子どもの頃、よく友達にいたずらをして叱られた。 / 夜中にいたずら電話がかかってきた。",
+        "romanization": "itazura; Ima kodomotachi no aida de hayatte iru itazura desu yo. / Kodomo no koro, yoku tomodachi ni itazura o shite shikarareta. / Yonaka ni itazura denwa ga kakatte kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das ist ein Streich, der gerade bei Kindern in Mode ist. / Als Kind habe ich Freunden oft Streiche gespielt und wurde dafür ausgeschimpft. / Mitten in der Nacht kam ein Scherzanruf.",
+        "contexts": [
+          "Trend among children",
+          "Childhood memories",
+          "Prank call at night"
+        ],
+        "lexical": "JMdict 1151580 senses 1–2 and 4, noun / suru verb / na-adjective: mischief, prank; mischievous; playing with, tampering with",
+        "register": "neutral",
+        "transitivity": "Nonverb as noun; いたずらする intransitive (X に) or transitive (X を, „herumspielen an“)",
+        "conjugation": "noun; suru verb (いたずらする); na-adjective (いたずらな)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 189h-reference-target-vocab-n1-3750; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "24ccd2ff58a1253b967b9121b6446223e5ebc00dc800758f592f5f726ddae7b6",
+        "approvalHash": "441eab2b814527ea1fc8f1707633ac5edb8bb0a0ccd009cad48da345a4e94f7c"
+      }
+    },
+    {
+      "id": "vocab-n1:3778",
+      "revisionId": "levels-2026-11-vocab-n1-3778",
+      "state": "accepted",
+      "predecessorHash": "1b5b4297fcde847e67d005440af12736309d7665b43a7c19c34f9a1697ed36ab",
+      "originalHash": "1b5b4297fcde847e67d005440af12736309d7665b43a7c19c34f9a1697ed36ab",
+      "predecessorRevisionHash": "c76aa5e3ce5ed76e6fc347d61e9b43015bf9b621356d7cf2fe66b698ae7e5586",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 220a-n1-enrichment-vocab-n1-3778; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3778",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N5; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n5.csv SHA256 07dc6f197b51cc076c65c3c9f23218d10c2b67f76545f5c1c4d9e3750495533a",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n5.csv#L80; JMdict entry 1588120",
+          "finding": "詠う (うたう) is listed at N5 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 2 corrected to 0. Exact whole 詠う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. Rejected for this role: 詠う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@63009906",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 詠う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 終止形-一般; aType 0. Rejected for this role: 詠う/ウタウ; lemma 歌う; 動詞/一般/*/*; 五段-ワア行; 連体形-一般; aType 0.",
+            "match": {
+              "word": "詠う",
+              "reading": "うたう",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ワア行; 終止形-一般",
+              "sense": "Verb 詠う/うたう \"dichten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "dichten. JMdict 1588120 sense 2, godan verb: to sing of (love, beauty, etc.) in a poem, to express in poetry",
+        "japanese": "これは、彼が恋人のために詠った愛の詩です。 / 古くから多くの歌人が富士山の美しさを詠ってきた。 / この詩は、故郷を離れた悲しみを詠っている。",
+        "romanization": "utau; Kore wa, kare ga koibito no tame ni utatta ai no shi desu. / Furuku kara ooku no kajin ga Fujisan no utsukushisa o utatte kita. / Kono shi wa, kokyou o hanareta kanashimi o utatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das ist ein Liebesgedicht, das er für seine Freundin verfasst hat. / Seit alters haben viele Dichter die Schönheit des Fuji besungen. / Dieses Gedicht handelt vom Schmerz, die Heimat verlassen zu haben.",
+        "contexts": [
+          "Love poem for a partner",
+          "Mount Fuji in classical poetry",
+          "Interpreting a poem's theme"
+        ],
+        "lexical": "JMdict 1588120 sense 2, godan verb: to sing of (love, beauty, etc.) in a poem, to express in poetry",
+        "register": "written / literary",
+        "transitivity": "transitive (Xを詠う: the theme being sung of)",
+        "conjugation": "godan -u (詠う → 詠って, 詠わない)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N5 (easier); capped from N5",
+        "carriedOver": "All fields except level are copied unchanged from 220a-n1-enrichment-vocab-n1-3778; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "6b5bf41d3ee9526059cfa8e38bc5cfb5a09524d1f8aa69cdc6285d15ae626a7a",
+        "approvalHash": "d8eca9e2550763c9deaa980de169bc83856aac97467c14f96a8464d25c8a91f9"
+      }
+    },
+    {
+      "id": "vocab-n1:3818",
+      "revisionId": "levels-2026-11-vocab-n1-3818",
+      "state": "accepted",
+      "predecessorHash": "7ba00d44899ee9243608bfc444c4ae2e2975247c2ec50fc7564997823dbb0596",
+      "originalHash": "7ba00d44899ee9243608bfc444c4ae2e2975247c2ec50fc7564997823dbb0596",
+      "predecessorRevisionHash": "1c01c5417382b35a50b7fe614aa865fe18405cd0ad4eb672aee383e85d58d12c",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 220b-n1-enrichment-vocab-n1-3818; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 49; Waller list N1 (confirms); capped from N4",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3818",
+          "finding": "N1 → N3 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4). The evidence gives N4; moves are capped at two levels."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 49 (exact match)",
+          "finding": "経歴 is taught in Minna no Nihongo II lesson 49 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L915; JMdict entry 1251690",
+          "finding": "経歴 (けいれき) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L253",
+          "finding": "経歴 (けいれき) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary null corrected to 0. Exact whole 経歴/ケイレキ; lemma 経歴; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117178707",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 経歴/ケイレキ; lemma 経歴; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "経歴",
+              "reading": "けいれき",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 経歴/けいれき \"beruflicher Werdegang; Lebenslauf\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "beruflicher Werdegang; Lebenslauf. JMdict 1251690 sense 1, noun: personal history, background, career",
+        "japanese": "応募者の経歴を確認しました。 / 彼女は海外で働いた経歴があります。 / 彼が経歴を偽って入社していたことが分かった。",
+        "romanization": "keireki; Oubosha no keireki o kakunin shimashita. / Kanojo wa kaigai de hataraita keireki ga arimasu. / Kare ga keireki o itsuwatte nyuusha shite ita koto ga wakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben den Werdegang der Bewerber geprüft. / Sie hat bereits im Ausland gearbeitet. / Es stellte sich heraus, dass er bei seiner Einstellung falsche Angaben zu seinem Werdegang gemacht hatte.",
+        "contexts": [
+          "Screening applicants",
+          "Work experience abroad",
+          "Falsified résumé"
+        ],
+        "lexical": "JMdict 1251690 sense 1, noun: personal history, background, career",
+        "register": "neutral to formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 49; Waller list N1 (confirms); capped from N4",
+        "carriedOver": "All fields except level are copied unchanged from 220b-n1-enrichment-vocab-n1-3818; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "727e2e83ed0bce389a528ba3a2cd2b7ca8e6b329d9d8a825e23ac7cf3ba57f94",
+        "approvalHash": "74c4322ce2ba17c11941609a174a7a24e74768fb292f0d027782c4f67c913871"
+      }
+    },
+    {
+      "id": "vocab-n1:383",
+      "revisionId": "levels-2026-11-vocab-n1-383",
+      "state": "accepted",
+      "predecessorHash": "a6cdb92ab08c4909bea8e2078e199ffb64ee115c4d114324e9af9f397f051a99",
+      "originalHash": "a6cdb92ab08c4909bea8e2078e199ffb64ee115c4d114324e9af9f397f051a99",
+      "predecessorRevisionHash": "7ae55071e7c44200ba6e09518dca729e7920fa7c8848b7b95ac8bdf262d0a0a2",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 207c-n1-enrichment-vocab-n1-383; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:383",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L438; JMdict entry 1243290",
+          "finding": "金融 (きんゆう) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L778",
+          "finding": "金融 (きんゆう) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 金融/キンユウ; lemma 金融; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@108952257",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 金融/キンユウ; lemma 金融; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "金融",
+              "reading": "きんゆう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 金融/きんゆう \"Finanzwesen; Geldwirtschaft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Finanzwesen; Geldwirtschaft. JMdict 1243290 senses 1-2, noun / no-adjective: finance, financing; monetary, financial",
+        "japanese": "金融機関の規制が強化された。 / 日本銀行は金融緩和を続ける方針を示した。 / 兄は大学を出てから金融業界で働いている。",
+        "romanization": "kin'yū; Kin'yū kikan no kisei ga kyōka sareta. / Nippon Ginkō wa kin'yū kanwa o tsuzukeru hōshin o shimeshita. / Ani wa daigaku o dete kara kin'yū gyōkai de hataraite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Regulierung der Finanzinstitute wurde verschärft. / Die Bank von Japan kündigte an, ihre lockere Geldpolitik fortzusetzen. / Mein älterer Bruder arbeitet seit dem Studium in der Finanzbranche.",
+        "contexts": [
+          "Banking regulation news",
+          "Central bank policy",
+          "Sibling's career"
+        ],
+        "lexical": "JMdict 1243290 senses 1-2, noun / no-adjective: finance, financing; monetary, financial",
+        "register": "neutral to formal; news and business language",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 207c-n1-enrichment-vocab-n1-383; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "0473b48d16bc5f8432fda1ce3d1b07ce403f9943bef3aa116e0265ab9c88f16a",
+        "approvalHash": "4375093418111bebcd44be094cc3b88e37215ad9953320f58dbc63355d52ac93"
+      }
+    },
+    {
+      "id": "vocab-n1:3892",
+      "revisionId": "levels-2026-11-vocab-n1-3892",
+      "state": "accepted",
+      "predecessorHash": "7d99e34ed1e56ae5f15335a98551c30d59cf3699b6b05ad614df5f849ddeab5f",
+      "originalHash": "7d99e34ed1e56ae5f15335a98551c30d59cf3699b6b05ad614df5f849ddeab5f",
+      "predecessorRevisionHash": "363fcf5a5885a49af4dd8b711bf4617b1e39a1265dbb2000d3cc6c38175332dd",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 220e-n1-enrichment-vocab-n1-3892; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 42; Waller list N1 (confirms); capped from N4",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3892",
+          "finding": "N1 → N3 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4). The evidence gives N4; moves are capped at two levels."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 42 (kana match)",
+          "finding": "ファイル is taught in Minna no Nihongo II lesson 42 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L3372; JMdict entry 1107800",
+          "finding": "ファイル (ファイル) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L2047",
+          "finding": "ファイル (ファイル) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary null corrected to 1. Exact whole ファイル/ファイル; lemma ファイル-file; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230313535",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole ファイル/ファイル; lemma ファイル-file; 名詞/普通名詞/サ変可能/*; *; *; aType 1.",
+            "match": {
+              "word": "ファイル",
+              "reading": "ファイル",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen ファイル/ファイル \"Datei; Aktenmappe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Datei; Aktenmappe. JMdict 1107800 senses 1 and 3, noun: file (for holding papers); (computer) file",
+        "japanese": "資料を一つのファイルにまとめました。 / 古いファイルを開いて内容を確認しました。 / 書類をクリアファイルに入れて持ってきてください。",
+        "romanization": "fairu; Shiryou o hitotsu no fairu ni matomemashita. / Furui fairu o hiraite naiyou o kakunin shimashita. / Shorui o kuria fairu ni irete motte kite kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe die Unterlagen in einer Datei zusammengefasst. / Ich habe die alte Datei geöffnet und den Inhalt geprüft. / Bitte bringen Sie die Unterlagen in einer Klarsichthülle mit.",
+        "contexts": [
+          "Compiling materials",
+          "Checking an old document",
+          "Bringing paperwork"
+        ],
+        "lexical": "JMdict 1107800 senses 1 and 3, noun: file (for holding papers); (computer) file",
+        "register": "neutral",
+        "transitivity": "Nonverb (as ファイルする: transitive, „abheften“)",
+        "conjugation": "noun; suru verb (ファイルする)",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 42; Waller list N1 (confirms); capped from N4",
+        "carriedOver": "All fields except level are copied unchanged from 220e-n1-enrichment-vocab-n1-3892; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "00ed4a2589309257e3a17b17a2e2c6b3ea37a1ab3cce25e2ed6ab6d07d8d9b1c",
+        "approvalHash": "0310b494bd1403dbcdc73fde51704dd44dad509037acbfc6d548723edf6ff458"
+      }
+    },
+    {
+      "id": "vocab-n1:3893",
+      "revisionId": "levels-2026-11-vocab-n1-3893",
+      "state": "accepted",
+      "predecessorHash": "56c35d2d56e1b4918c88a92e131400566a15252b3719e7625e449415b9c63096",
+      "originalHash": "56c35d2d56e1b4918c88a92e131400566a15252b3719e7625e449415b9c63096",
+      "predecessorRevisionHash": "7bfcdc999f84fbafc47ab533548d7a51d391ed495565e288b845ecf152a5accf",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 220e-n1-enrichment-vocab-n1-3893; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 39; Waller list N1 (confirms); capped from N4",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:3893",
+          "finding": "N1 → N3 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4). The evidence gives N4; moves are capped at two levels."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 39 (kana match)",
+          "finding": "フロント is taught in Minna no Nihongo II lesson 39 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L3377; JMdict entry 1112990",
+          "finding": "フロント (フロント) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L2120",
+          "finding": "フロント (フロント) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary null corrected to 0. Exact whole フロント/フロント; lemma フロント-front; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238221309",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole フロント/フロント; lemma フロント-front; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "フロント",
+              "reading": "フロント",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen フロント/フロント \"Rezeption; Empfang\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Rezeption; Empfang. JMdict 1112990 sense 2, noun: reception (e.g. in a hotel), front desk",
+        "japanese": "部屋の鍵をフロントに預けました。 / 困った時はフロントに連絡してください。 / フロントにモーニングコールを頼みました。",
+        "romanization": "furonto; Heya no kagi o furonto ni azukemashita. / Komatta toki wa furonto ni renraku shite kudasai. / Furonto ni mooningu kooru o tanomimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe den Zimmerschlüssel an der Rezeption abgegeben. / Wenden Sie sich bei Problemen an die Rezeption. / Ich habe an der Rezeption einen Weckruf bestellt.",
+        "contexts": [
+          "Leaving the room key",
+          "Hotel guest information",
+          "Requesting a wake-up call"
+        ],
+        "lexical": "JMdict 1112990 sense 2, noun: reception (e.g. in a hotel), front desk",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 39; Waller list N1 (confirms); capped from N4",
+        "carriedOver": "All fields except level are copied unchanged from 220e-n1-enrichment-vocab-n1-3893; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "84729ebdd2480c94709b028fcc29180e6413c78c59acdf3b86078f3217ddb47c",
+        "approvalHash": "cd930005f5dc89a8c7549265e646a37bbc05a92f50db026c2490535ad963ef05"
+      }
+    },
+    {
+      "id": "vocab-n1:488",
+      "revisionId": "levels-2026-11-vocab-n1-488",
+      "state": "accepted",
+      "predecessorHash": "b74542ff91a25e8b733e142d9c218ed5bdba02680d575fb1a44ec011adb8ab96",
+      "originalHash": "b74542ff91a25e8b733e142d9c218ed5bdba02680d575fb1a44ec011adb8ab96",
+      "predecessorRevisionHash": "6f0080eedfd41ea283902cb7802beb15de8ffaea993f9ebb79e222c1c115713d",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 207g-n1-enrichment-vocab-n1-488; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:488",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1345; JMdict entry 1477390",
+          "finding": "発行 (はっこう) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1776",
+          "finding": "発行 (はっこう) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 発行/ハッコウ; lemma 発行; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@215827113",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 発行/ハッコウ; lemma 発行; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "発行",
+              "reading": "はっこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 発行/はっこう \"Emission; Ausgabe\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Emission; Ausgabe. JMdict 1477390 senses 1–2, noun / suru verb: publication (of periodicals); issue (of shares, bonds, banknotes, documents)",
+        "japanese": "新株の発行により資金を調達した。 / 領収書を発行していただけますか。 / この雑誌は毎月十日に発行される。",
+        "romanization": "hakkō; Shinkabu no hakkō ni yori shikin wo chōtatsu shita. / Ryōshūsho o hakkō shite itadakemasu ka? / Kono zasshi wa maitsuki tōka ni hakkō sareru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Emission neuer Aktien wurde Kapital beschafft. / Könnten Sie mir bitte eine Quittung ausstellen? / Diese Zeitschrift erscheint jeweils am Zehnten des Monats.",
+        "contexts": [
+          "Raising capital with new shares",
+          "Asking for a receipt",
+          "Magazine publication date"
+        ],
+        "lexical": "JMdict 1477390 senses 1–2, noun / suru verb: publication (of periodicals); issue (of shares, bonds, banknotes, documents)",
+        "register": "neutral to formal",
+        "transitivity": "transitive as 発行する (株式・領収書を発行する); passive 発行される",
+        "conjugation": "noun; suru verb (発行する)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 207g-n1-enrichment-vocab-n1-488; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c2b59a03d6c9451c4b2087ddd367af10fc60e430e6b53644536ccbc19deb6160",
+        "approvalHash": "af09cf880ca85c60f23dde9ff468b56ff899bf3ac9256da9e3961b0947ddff99"
+      }
+    },
+    {
+      "id": "vocab-n1:57",
+      "revisionId": "levels-2026-11-vocab-n1-57",
+      "state": "accepted",
+      "predecessorHash": "a56bb3cc7f183dd9f4a5b3a7bf1758063aa97259d9b41fe41ce86ca0be55a4b1",
+      "originalHash": "a56bb3cc7f183dd9f4a5b3a7bf1758063aa97259d9b41fe41ce86ca0be55a4b1",
+      "predecessorRevisionHash": "e5e91f3dcfa67e3e5a4b06f340da7b762a74830f91f6c71c1173306a9c170887",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 205j-n1-enrichment-vocab-n1-57; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:57",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L283; JMdict entry 1196120",
+          "finding": "過失 (かしつ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L394",
+          "finding": "過失 (かしつ) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row; stored primary 1 corrected to 0. Exact whole 過失/カシツ; lemma 過失; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@93214530",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 過失/カシツ; lemma 過失; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "過失",
+              "reading": "かしつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 過失/かしつ \"Fahrlässigkeit; Verschulden\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fahrlässigkeit; Verschulden. JMdict 1196120 sense 1, noun: accident caused by negligence, error, blunder",
+        "japanese": "医師の過失により患者が死亡した。 / 事故の過失割合は八対二と判断された。 / 運転手は過失運転致死の疑いで逮捕された。",
+        "romanization": "kashitsu; Ishi no kashitsu ni yori kanja ga shibō shita. / Jiko no kashitsu wariai wa hachi tai ni to handan sareta. / Untenshu wa kashitsu unten chishi no utagai de taiho sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Fahrlässigkeit des Arztes starb der Patient. / Die Haftungsquote für den Unfall wurde auf 80 zu 20 festgelegt. / Der Fahrer wurde wegen des Verdachts der fahrlässigen Tötung im Straßenverkehr festgenommen.",
+        "contexts": [
+          "Medical malpractice",
+          "Insurance fault ratio",
+          "Traffic death arrest"
+        ],
+        "lexical": "JMdict 1196120 sense 1, noun: accident caused by negligence, error, blunder",
+        "register": "legal / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 205j-n1-enrichment-vocab-n1-57; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "89f1bb266ca847aded75fc062ca65c32f0d90239be4ecb2a869cd922785933ca",
+        "approvalHash": "74674aff7ae9e7b3d277fe366685c795c1a0d66b4751c5aba7535fa28c4b069c"
+      }
+    },
+    {
+      "id": "vocab-n1:615",
+      "revisionId": "levels-2026-11-vocab-n1-615",
+      "state": "accepted",
+      "predecessorHash": "cbd3574b5f5834768ba7565636337364e6fce13b9c7644041c165c619f48b072",
+      "originalHash": "cbd3574b5f5834768ba7565636337364e6fce13b9c7644041c165c619f48b072",
+      "predecessorRevisionHash": "5871565f4549951885daebc8f75d6f033c9e0882b092e8333139d950e8234408",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208a-n1-enrichment-vocab-n1-615; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:615",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L766; JMdict entry 1347080",
+          "finding": "商社 (しょうしゃ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L881",
+          "finding": "商社 (しょうしゃ) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 商社/ショウシャ; lemma 商社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140825165",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 商社/ショウシャ; lemma 商社; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "商社",
+              "reading": "しょうしゃ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 商社/しょうしゃ \"Handelshaus; Handelsgesellschaft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Handelshaus; Handelsgesellschaft. JMdict 1347080 sense 1, noun: trading company",
+        "japanese": "総合商社が資源開発に積極的に投資している。 / 兄は商社に勤めていて、海外出張が多い。 / 小さな専門商社が、ヨーロッパから家具を輸入している。",
+        "romanization": "shōsha; Sōgō shōsha ga shigen kaihatsu ni sekkyokuteki ni tōshi shite iru. / Ani wa shōsha ni tsutomete ite, kaigai shutchō ga ōi. / Chiisa na senmon shōsha ga, Yōroppa kara kagu o yunyū shite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Allgemeine Handelshäuser investieren aktiv in die Rohstoffentwicklung. / Mein älterer Bruder arbeitet bei einem Handelshaus und ist oft auf Geschäftsreise im Ausland. / Ein kleines Fachhandelshaus importiert Möbel aus Europa.",
+        "contexts": [
+          "Resource investment",
+          "Talking about family",
+          "Specialised importer"
+        ],
+        "lexical": "JMdict 1347080 sense 1, noun: trading company",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208a-n1-enrichment-vocab-n1-615; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c95abd077a5be0f0ad9e7659b1a35cd78d18ec82654884706c38d641f5d0f7da",
+        "approvalHash": "af0ef19fbd2bb1eba5384aebce34897519ca1e412feff33e91322ec1ba0ef26d"
+      }
+    },
+    {
+      "id": "vocab-n1:659",
+      "revisionId": "levels-2026-11-vocab-n1-659",
+      "state": "accepted",
+      "predecessorHash": "acea7027bd96cec42dc5ea00ab08ee331f57b58d0b2d3ec44afb6357e14f8eed",
+      "originalHash": "acea7027bd96cec42dc5ea00ab08ee331f57b58d0b2d3ec44afb6357e14f8eed",
+      "predecessorRevisionHash": "d3a0a3926c9a96147cb4746c6d16f1b41b0d24ccc92fadb43cd2bf8a70db52eb",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208c-n1-enrichment-vocab-n1-659; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 27; capped from N4",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:659",
+          "finding": "N1 → N3 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4). The evidence gives N4; moves are capped at two levels."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 27 (exact match)",
+          "finding": "通信販売 is taught in Minna no Nihongo II lesson 27 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 通信販売/つうしんはんばい scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E9%80%9A%E4%BF%A1%E8%B2%A9%E5%A3%B2",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 通信販売/つうしんはんばい scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Versandhandel; Fernabsatz. JMdict 1433400 sense 1, noun: mail order, mail-order sales, online shopping with delivery",
+        "japanese": "通信販売の売上が年々増加している。 / 祖母はテレビの通信販売で健康器具を買った。 / 通信販売にはクーリング・オフ制度が適用されないので、注意が必要だ。",
+        "romanization": "tsūshin hanbai; Tsūshin hanbai no uriage ga nennen zōka shite iru. / Sobo wa terebi no tsūshin hanbai de kenkō kigu o katta. / Tsūshin hanbai ni wa kūringu ofu seido ga tekiyō sarenai node, chūi ga hitsuyō da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Umsatz des Versandhandels steigt von Jahr zu Jahr. / Meine Oma hat über Teleshopping ein Fitnessgerät gekauft. / Vorsicht: Beim Versandhandel gilt das gesetzliche Widerrufsrecht nicht.",
+        "contexts": [
+          "Sales statistics",
+          "Teleshopping purchase",
+          "Consumer law warning"
+        ],
+        "lexical": "JMdict 1433400 sense 1, noun: mail order, mail-order sales, online shopping with delivery",
+        "register": "formal / legal; everyday short form 通販",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 27; capped from N4",
+        "carriedOver": "All fields except level are copied unchanged from 208c-n1-enrichment-vocab-n1-659; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "dd053724385416b28814ef6b6deaf3b1af6e25f6714cbf6f9cc265d814380812",
+        "approvalHash": "49bdcc12809b07534d0c4adf0fb144862a17356f7d911ea48d6c1726f75c1d0e"
+      }
+    },
+    {
+      "id": "vocab-n1:66",
+      "revisionId": "levels-2026-11-vocab-n1-66",
+      "state": "accepted",
+      "predecessorHash": "d63d2f0bea98f9cec07d80ae72cfe9adb5d572902ec8a9d0fee903d6a71299b2",
+      "originalHash": "d63d2f0bea98f9cec07d80ae72cfe9adb5d572902ec8a9d0fee903d6a71299b2",
+      "predecessorRevisionHash": "401ca1ff8c8105cea5216b95355efbee5c2c00f1d25eb5d4f9489bf40639e673",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 205j-n1-enrichment-vocab-n1-66; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:66",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L489; JMdict entry 1249660",
+          "finding": "刑事 (けいじ) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L832",
+          "finding": "刑事 (けいじ) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 刑事/ケイジ; lemma 刑事; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@116984711",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 刑事/ケイジ; lemma 刑事; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "刑事",
+              "reading": "けいじ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 刑事/けいじ \"Strafsache; strafrechtlich\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kriminalbeamter; Strafsache; strafrechtlich. JMdict 1249660 senses 1 and 2, noun: (police) detective; criminal matter",
+        "japanese": "刑事事件として捜査が開始された。 / 刑事が聞き込みのために近所を回った。 / 十四歳未満の子どもは刑事責任を問われない。",
+        "romanization": "keiji; Keiji jiken to shite sōsa ga kaishi sareta. / Keiji ga kikikomi no tame ni kinjo o mawatta. / Jūyon-sai miman no kodomo wa keiji sekinin o towarenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Ermittlung wurde als Strafsache eingeleitet. / Ein Kriminalbeamter ging in der Nachbarschaft herum, um Zeugen zu befragen. / Kinder unter 14 Jahren sind strafrechtlich nicht verantwortlich.",
+        "contexts": [
+          "Criminal investigation opened",
+          "Detective canvassing the area",
+          "Age of criminal responsibility"
+        ],
+        "lexical": "JMdict 1249660 senses 1 and 2, noun: (police) detective; criminal matter",
+        "register": "neutral (detective); formal (legal compounds)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 205j-n1-enrichment-vocab-n1-66; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "69467153d4dece5c5ff7356edfc7e494f8ff53f17fa0746a6a48ecb19e738009",
+        "approvalHash": "5a070f6ea1080d6f0bc30db39172a64c8714d2cd8d192f51ae31ef02b0a2583c"
+      }
+    },
+    {
+      "id": "vocab-n1:73",
+      "revisionId": "levels-2026-11-vocab-n1-73",
+      "state": "accepted",
+      "predecessorHash": "d2c0dd90196ca8a0e7d1361bd870b5c76418b3d65b583bc2a901f4c4d26a5e09",
+      "originalHash": "d2c0dd90196ca8a0e7d1361bd870b5c76418b3d65b583bc2a901f4c4d26a5e09",
+      "predecessorRevisionHash": "12f7e8122f424f7b12544ad333ee280cf8e0bae9631a1820666e3f909fde6514",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 205j-n1-enrichment-vocab-n1-73; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:73",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L354; JMdict entry 1211730",
+          "finding": "官庁 (かんちょう) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L466",
+          "finding": "官庁 (かんちょう) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row; stored primary 0 corrected to 1. Exact whole 官庁/カンチョウ; lemma 官庁; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@100735086",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 官庁/カンチョウ; lemma 官庁; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "官庁",
+              "reading": "かんちょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 官庁/かんちょう \"Behörde; Amt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Behörde; Amt. JMdict 1211730 sense 1, noun: government office, government agency, authorities",
+        "japanese": "中央官庁の再編が行われた。 / 霞が関には中央官庁が集まっている。 / 大学卒業後、彼は官庁に就職した。",
+        "romanization": "kanchō; Chūō kanchō no saihen ga okonawareta. / Kasumigaseki ni wa chūō kanchō ga atsumatte iru. / Daigaku sotsugyōgo, kare wa kanchō ni shūshoku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Umstrukturierung der Zentralbehörden wurde durchgeführt. / In Kasumigaseki sind die Ministerien konzentriert. / Nach dem Studium trat er in den Staatsdienst ein.",
+        "contexts": [
+          "Ministry reorganization",
+          "Tokyo government district",
+          "Career in civil service"
+        ],
+        "lexical": "JMdict 1211730 sense 1, noun: government office, government agency, authorities",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 205j-n1-enrichment-vocab-n1-73; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b5209b44123431c9f9725a7b1dc83361a3e958f43d0e46b03b539928634801f2",
+        "approvalHash": "35700a53b00084d49c8e5e0543a5f75874bd22a57561bbf3d8f0b0afd6bac411"
+      }
+    },
+    {
+      "id": "vocab-n1:763",
+      "revisionId": "levels-2026-11-vocab-n1-763",
+      "state": "accepted",
+      "predecessorHash": "12bac58f67cd067093767944c451e15b27eb864d8e885f9e6faf7442647b92a4",
+      "originalHash": "12bac58f67cd067093767944c451e15b27eb864d8e885f9e6faf7442647b92a4",
+      "predecessorRevisionHash": "22c3f041a4bfc3226165bfc52580e21e863f70670bebd56cf26aac97df072215",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208g-n1-enrichment-vocab-n1-763; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:763",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L96; JMdict entry 1169720",
+          "finding": "引力 (いんりょく) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L213",
+          "finding": "引力 (いんりょく) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 引力/インリョク; lemma 引力; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@59603416",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 引力/インリョク; lemma 引力; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "引力",
+              "reading": "いんりょく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 引力/いんりょく \"Anziehungskraft\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Anziehungskraft. JMdict 1169720 sense 1, noun: attraction, gravitational pull",
+        "japanese": "万有引力の法則はニュートンによって発見された。 / 潮の満ち引きは主に月の引力によって起こる。 / 磁石のN極とS極の間には引力が働く。",
+        "romanization": "inryoku; Ban'yū inryoku no hōsoku wa Nyūton ni yotte hakken sareta. / Shio no michihiki wa omo ni tsuki no inryoku ni yotte okoru. / Jishaku no enu kyoku to esu kyoku no aida ni wa inryoku ga hataraku. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Gesetz der universellen Gravitation wurde von Newton entdeckt. / Ebbe und Flut entstehen hauptsächlich durch die Anziehungskraft des Mondes. / Zwischen Nord- und Südpol eines Magneten wirkt eine Anziehungskraft.",
+        "contexts": [
+          "History of physics",
+          "Tides",
+          "Magnet experiment"
+        ],
+        "lexical": "JMdict 1169720 sense 1, noun: attraction, gravitational pull",
+        "register": "technical / neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208g-n1-enrichment-vocab-n1-763; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "2955b3b6ff14c8c7be5baf805eb767d96a43ebf34cebe9185d628b34e49a79e3",
+        "approvalHash": "fe394a114ddcc8b2b318401e85c5a8603e7f0312b929711af8c17a2a149bf9f3"
+      }
+    },
+    {
+      "id": "vocab-n1:781",
+      "revisionId": "levels-2026-11-vocab-n1-781",
+      "state": "accepted",
+      "predecessorHash": "9e2eacd614b695f0dc0df69c2152086ff315f2af5d381d1d26e23fed8c972a20",
+      "originalHash": "9e2eacd614b695f0dc0df69c2152086ff315f2af5d381d1d26e23fed8c972a20",
+      "predecessorRevisionHash": "1db33113bc5f6c6d4ed9eceff302d07526f23fbbd84cf397bb86aa121e0e9f0c",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208h-n1-enrichment-vocab-n1-781; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:781",
+          "finding": "N1 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1127; JMdict entry 1436260",
+          "finding": "抵抗 (ていこう) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1543",
+          "finding": "抵抗 (ていこう) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 抵抗/テイコウ; lemma 抵抗; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@179914683",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 抵抗/テイコウ; lemma 抵抗; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "抵抗",
+              "reading": "ていこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 抵抗/ていこう \"Widerstand\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Widerstand. JMdict 1436260 senses 1–4, noun / suru verb: resistance, opposition; reluctance; drag; electrical resistance",
+        "japanese": "電気抵抗は導体の材質と長さに依存する。 / 犯人は抵抗せずに逮捕された。 / 知らない人と二人で食事をするのは、まだ少し抵抗がある。",
+        "romanization": "teikō; Denki teikō wa dōtai no zaishitsu to nagasa ni izon suru. / Hannin wa teikō sezu ni taiho sareta. / Shiranai hito to futari de shokuji o suru no wa, mada sukoshi teikō ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der elektrische Widerstand hängt vom Material und der Länge des Leiters ab. / Der Täter ließ sich widerstandslos festnehmen. / Mit einem Fremden zu zweit essen zu gehen, fällt mir noch etwas schwer.",
+        "contexts": [
+          "Electrical circuits",
+          "Arrest report",
+          "Personal reluctance"
+        ],
+        "lexical": "JMdict 1436260 senses 1–4, noun / suru verb: resistance, opposition; reluctance; drag; electrical resistance",
+        "register": "neutral; technical in physics",
+        "transitivity": "intransitive (〜に抵抗する); 〜に抵抗がある for reluctance",
+        "conjugation": "noun; suru verb (抵抗する)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208h-n1-enrichment-vocab-n1-781; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "aeef89467a2dfe2c092b810ce0a390c6c1206b501c17db09c26d3e569fffe470",
+        "approvalHash": "a1391a2bb1a0709fac516aad674b32ea473f15746cae1fbcd615d95f1eda8e08"
+      }
+    },
+    {
+      "id": "vocab-n1:786",
+      "revisionId": "levels-2026-11-vocab-n1-786",
+      "state": "accepted",
+      "predecessorHash": "3824e6ebd402de1dfb83536ff3484a2f5e35c0d27b788ff26e5d6fa577ae62d7",
+      "originalHash": "3824e6ebd402de1dfb83536ff3484a2f5e35c0d27b788ff26e5d6fa577ae62d7",
+      "predecessorRevisionHash": "301ad4d31f62296a4fe6c19ac4521f5cabb312fdf789e12b7a93617fd51a22e2",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208h-n1-enrichment-vocab-n1-786; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:786",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L294; JMdict entry 1190390",
+          "finding": "加速度 (かそくど) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L406",
+          "finding": "加速度 (かそくど) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 加速度/かそくど scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%8A%A0%E9%80%9F%E5%BA%A6",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 加速度/かそくど scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Beschleunigung. JMdict 1190390 sense 1, noun: acceleration",
+        "japanese": "自由落下する物体の加速度は約九点八メートル毎秒毎秒である。 / 車が急発進すると、乗っている人は大きな加速度を感じる。 / ネットの利用者は加速度的に増えている。",
+        "romanization": "kasokudo; Jiyū rakka suru buttai no kasokudo wa yaku kyū ten hachi mētoru mai byō mai byō de aru. / Kuruma ga kyūhasshin suru to, notte iru hito wa ōki na kasokudo o kanjiru. / Netto no riyōsha wa kasokudoteki ni fuete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Beschleunigung eines frei fallenden Körpers beträgt etwa 9,8 m/s². / Wenn ein Auto ruckartig anfährt, spüren die Insassen eine starke Beschleunigung. / Die Zahl der Internetnutzer wächst rasant.",
+        "contexts": [
+          "Free fall",
+          "Sudden start",
+          "Rapid growth"
+        ],
+        "lexical": "JMdict 1190390 sense 1, noun: acceleration",
+        "register": "technical; 加速度的に also in general writing",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208h-n1-enrichment-vocab-n1-786; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "5eb61593631a291769e63e1fe8b2312715dc6d2f04df9a6a5af91a3822afa9af",
+        "approvalHash": "4fa7788dd4846d573b6f2f6a33e363e3b10f3e9c6fe07a20c3884f30873b3fda"
+      }
+    },
+    {
+      "id": "vocab-n1:797",
+      "revisionId": "levels-2026-11-vocab-n1-797",
+      "state": "accepted",
+      "predecessorHash": "63ed883117f1446e19d04efb6137723f6557682b576d3e4e6545fcffdf027855",
+      "originalHash": "63ed883117f1446e19d04efb6137723f6557682b576d3e4e6545fcffdf027855",
+      "predecessorRevisionHash": "f89dc0ebcddb4a2d4ec3bab18c4ba2a173da38b4015a8a0836e8971bb1beec75",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208h-n1-enrichment-vocab-n1-797; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:797",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L271; JMdict entry 1205950",
+          "finding": "確率 (かくりつ) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L382",
+          "finding": "確率 (かくりつ) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 確率/カクリツ; lemma 確率; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90753341",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 確率/カクリツ; lemma 確率; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "確率",
+              "reading": "かくりつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 確率/かくりつ \"Wahrscheinlichkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wahrscheinlichkeit. JMdict 1205950 sense 1, noun: probability, likelihood, chances",
+        "japanese": "量子力学では粒子の位置は確率的にしか予測できない。 / 明日の降水確率は七十パーセントだ。 / 宝くじで一等が当たる確率は、ほとんどゼロに近い。",
+        "romanization": "kakuritsu; Ryōshi rikigaku de wa ryūshi no ichi wa kakuritsuteki ni shika yosoku dekinai. / Ashita no kōsui kakuritsu wa nanajū pāsento da. / Takarakuji de ittō ga ataru kakuritsu wa, hotondo zero ni chikai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In der Quantenmechanik kann die Position von Teilchen nur probabilistisch vorhergesagt werden. / Morgen liegt die Regenwahrscheinlichkeit bei siebzig Prozent. / Die Chance auf den Hauptgewinn in der Lotterie liegt praktisch bei null.",
+        "contexts": [
+          "Quantum physics",
+          "Weather forecast",
+          "Lottery odds"
+        ],
+        "lexical": "JMdict 1205950 sense 1, noun: probability, likelihood, chances",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208h-n1-enrichment-vocab-n1-797; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1bfc44a7911143a19d5993fa8e8d76db8cd5e185db59090bc98e99b6bd21cb14",
+        "approvalHash": "4e1418112624b3dc741f19582ac6b0ac22062132a01b9fb5eddc32f83e26ef21"
+      }
+    },
+    {
+      "id": "vocab-n1:801",
+      "revisionId": "levels-2026-11-vocab-n1-801",
+      "state": "accepted",
+      "predecessorHash": "3a68720e96f271a3836e9d470d1f8e7202b48adac4d0cb0de226ad1975643b2e",
+      "originalHash": "3a68720e96f271a3836e9d470d1f8e7202b48adac4d0cb0de226ad1975643b2e",
+      "predecessorRevisionHash": "96fb9f808df0ba88cc8aa73c63542fa927938c6322bf9770c013b1029f72874a",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208h-n1-enrichment-vocab-n1-801; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:801",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L804; JMdict entry 1363600",
+          "finding": "真空 (しんくう) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L922",
+          "finding": "真空 (しんくう) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 真空/シンクウ; lemma 真空; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@142641954",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 真空/シンクウ; lemma 真空; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "真空",
+              "reading": "しんくう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 真空/しんくう \"Vakuum\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vakuum. JMdict 1363600 sense 1, noun: vacuum",
+        "japanese": "真空中では音が伝わらない。 / 肉を真空パックにして冷凍した。 / 独裁者の死後、国内に権力の真空が生まれた。",
+        "romanization": "shinkū; Shinkū chū de wa oto ga tsutawaranai. / Niku o shinkū pakku ni shite reitō shita. / Dokusaisha no shigo, kokunai ni kenryoku no shinkū ga umareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Im Vakuum kann sich Schall nicht ausbreiten. / Ich habe das Fleisch vakuumverpackt und eingefroren. / Nach dem Tod des Diktators entstand im Land ein Machtvakuum.",
+        "contexts": [
+          "Sound in space",
+          "Food storage",
+          "Political analysis"
+        ],
+        "lexical": "JMdict 1363600 sense 1, noun: vacuum",
+        "register": "technical / neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208h-n1-enrichment-vocab-n1-801; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1b4477e37a87a5fe5aca100bef90f706d2a06c848528c25247cd2e17f26ae5df",
+        "approvalHash": "989a9b862937e6caa5d7c0b25808a242584cfdf806563781c0e08547a980ea74"
+      }
+    },
+    {
+      "id": "vocab-n1:817",
+      "revisionId": "levels-2026-11-vocab-n1-817",
+      "state": "accepted",
+      "predecessorHash": "7567ecf1b66ae23a8cc23ecd4c4cfa44998df1042c8f02dffabca692b33e97a4",
+      "originalHash": "7567ecf1b66ae23a8cc23ecd4c4cfa44998df1042c8f02dffabca692b33e97a4",
+      "predecessorRevisionHash": "51a4cbea3861a79463bdc5245a17fc7bae2da429a3bd63f237540884d77a09b3",
+      "original": {
+        "level": "N1"
+      },
+      "replacement": {
+        "level": "N2"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N1 → N2 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 208i-n1-enrichment-vocab-n1-817; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:817",
+          "finding": "N1 → N2 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L311; JMdict entry 1187870",
+          "finding": "仮定 (かてい) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L631",
+          "finding": "仮定 (かてい) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 仮定/カテイ; lemma 仮定; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@95778264",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 仮定/カテイ; lemma 仮定; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "仮定",
+              "reading": "かてい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 仮定/かてい \"Annahme; Voraussetzung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Annahme; Voraussetzung. JMdict 1187870 senses 1–2, noun / suru verb: assumption, supposition, hypothesis",
+        "japanese": "実験では複数の仮定を設けて検証を行う。 / 仮定の話には答えられません。 / 一日に百人の客が来ると仮定して、売り上げを計算してみよう。",
+        "romanization": "katei; Jikken de wa fukusū no katei o mōkete kenshō o okonau. / Katei no hanashi ni wa kotaeraremasen. / Ichinichi ni hyakunin no kyaku ga kuru to katei shite, uriage o keisan shite miyō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In Experimenten werden mehrere Annahmen aufgestellt und überprüft. / Auf hypothetische Fragen kann ich nicht antworten. / Nehmen wir an, es kommen hundert Kunden am Tag, und rechnen wir den Umsatz aus.",
+        "contexts": [
+          "Research methodology",
+          "Politician at a press conference",
+          "Business planning"
+        ],
+        "lexical": "JMdict 1187870 senses 1–2, noun / suru verb: assumption, supposition, hypothesis",
+        "register": "neutral; slightly formal",
+        "transitivity": "transitive as 仮定する (〜と仮定する, X を仮定する)",
+        "conjugation": "noun; suru verb (仮定する)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 208i-n1-enrichment-vocab-n1-817; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "da94a95dc1abfbaea9c807e04a6def8f4d5ed8e177deac2147cbd5a10d28880f",
+        "approvalHash": "6191dc6d6c11b6c6a87100423bf46b18317297ef93be8a49db9e3dd8906050c7"
+      }
+    }
+  ]
+}

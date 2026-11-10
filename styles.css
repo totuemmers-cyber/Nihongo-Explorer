@@ -197,7 +197,10 @@ input::placeholder { color: var(--text-secondary); opacity: 1; }
 .detail-bookmark-btn { font-size: 24px; }
 .detail-meanings, .vocab-detail-meaning, .ono-detail-meaning, .grammar-detail-meaning, .counter-detail-meaning, .radical-detail-meaning { font-size: 20px; line-height: 1.55; margin: 16px 0; }
 .vocab-detail-reading, .ono-detail-reading, .counter-detail-reading, .radical-detail-reading { font: 18px/1.8 var(--font-jp); }
-.detail-strokes, .vocab-detail-romaji, .ono-detail-romaji, .vocab-detail-category-line, .ono-detail-usage-line, .reading-type, .romaji, .no-reading { color: var(--text-secondary); font-size: 14px; }
+.detail-strokes, .vocab-detail-romaji, .ono-detail-romaji, .vocab-detail-category-line, .vocab-detail-level-source, .ono-detail-usage-line, .reading-type, .romaji, .no-reading { color: var(--text-secondary); font-size: 14px; }
+.vocab-detail-level-source { margin-top: 4px; }
+/* Levels no source confirms (vocabulary-level calibration): dashed outline, same size. */
+.card-level.estimated, .detail-jlpt-badge.estimated { border: 1px dashed currentColor; padding: 2px 7px; }
 .detail-section, .grammar-detail-section, .conjugation-section, .reading-section { border-top: 1px solid var(--border); padding-top: 22px; margin-top: 24px; }
 .detail-content h3 { margin-bottom: 14px; }
 .reading-type { font-size: 12px; }

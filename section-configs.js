@@ -449,6 +449,15 @@ function initSelectFilters() {
       }
     });
   }
+  var vocabEvidenceSelect = document.getElementById('vocab-evidence-select');
+  if (vocabEvidenceSelect) {
+    vocabEvidenceSelect.addEventListener('change', function () {
+      if (window.app && window.app.sections.vocab) {
+        window.app.sections.vocab.filters.evidence = this.value;
+        window.app.sections.vocab.applyFilters();
+      }
+    });
+  }
   var counterCatSelect = document.getElementById('counter-cat-select');
   populateManagedSelect(counterCatSelect, constants.COUNTER_CATEGORIES, 'Alle Kategorien');
   if (counterCatSelect) {
@@ -931,6 +940,32 @@ SECTION_CONFIGS.grammar = {
   }
 };
 
+// Level evidence from the vocabulary-level calibration (scripts/build-vocabulary-levels.cjs).
+// Cards without a recorded basis count as estimates.
+var VOCAB_LEVEL_BASIS_LABELS = {
+  textbook: 'Lehrbuch',
+  list: 'JLPT-Wortliste (J. Waller)',
+  suru: 'Abgeleitet vom Grundwort',
+  compound: 'Aus den Bestandteilen abgeleitet',
+  frequency: 'Häufigkeitsdaten (wordfreq)'
+};
+
+function isEstimatedVocabLevel(v) {
+  return !v.levelBasis || v.levelBasis === 'estimate';
+}
+
+function renderVocabLevelSource(v) {
+  var el = document.getElementById('vocab-detail-level-source');
+  if (!el) return;
+  el.textContent = '';
+  el.classList.toggle('estimated', isEstimatedVocabLevel(v));
+  if (isEstimatedVocabLevel(v)) {
+    el.textContent = 'Level ' + v.level + ' geschätzt – keine Quelle bestätigt es.';
+    return;
+  }
+  el.textContent = 'Level-Quelle: ' + (v.levelNote || VOCAB_LEVEL_BASIS_LABELS[v.levelBasis] || '');
+}
+
 // ==========================================
 // === VOCAB CONFIG ===
 // ==========================================
@@ -966,6 +1001,12 @@ SECTION_CONFIGS.vocab = {
       selector: '.vtype-noop',
       dataAttr: 'data-vtype',
       defaultValue: 'all'
+    },
+    {
+      stateKey: 'evidence',
+      selector: '.vevidence-noop',
+      dataAttr: 'data-vevidence',
+      defaultValue: 'all'
     }
   ],
   countLabel: ' Vokabeln',
@@ -977,6 +1018,8 @@ SECTION_CONFIGS.vocab = {
     if (filters.bookmarks === 'starred' && !isBookmarked('vocab', getItemId(v, v.word + '|' + (v.reading || '')))) return false;
     if (filters.level !== 'all' && v.level !== filters.level) return false;
     if (filters.type !== 'all' && v.type !== filters.type) return false;
+    if (filters.evidence === 'backed' && isEstimatedVocabLevel(v)) return false;
+    if (filters.evidence === 'estimate' && !isEstimatedVocabLevel(v)) return false;
     return true;
   },
 
@@ -1058,7 +1101,8 @@ SECTION_CONFIGS.vocab = {
       var header = appendElement(root, 'div', 'vocab-card-header');
       appendElement(header, 'span', 'vocab-card-word', v.word);
       var badges = appendElement(header, 'div', 'vocab-card-badges');
-      appendElement(badges, 'span', 'card-level ' + v.level, v.level);
+      var level = appendElement(badges, 'span', 'card-level ' + v.level + (isEstimatedVocabLevel(v) ? ' estimated' : ''), v.level);
+      if (isEstimatedVocabLevel(v)) level.title = 'Geschätztes Level';
       appendElement(badges, 'span', 'vocab-type-badge ' + v.type, v.type);
 
       var reading = appendElement(root, 'div', 'vocab-card-reading', v.reading || '');
@@ -1074,7 +1118,9 @@ SECTION_CONFIGS.vocab = {
     document.getElementById('vocab-detail-word').textContent = v.word;
     var levelBadge = document.getElementById('vocab-detail-level');
     levelBadge.textContent = v.level;
-    levelBadge.className = 'detail-jlpt-badge ' + v.level;
+    levelBadge.className = 'detail-jlpt-badge ' + v.level + (isEstimatedVocabLevel(v) ? ' estimated' : '');
+    levelBadge.title = isEstimatedVocabLevel(v) ? 'Geschätztes Level' : '';
+    renderVocabLevelSource(v);
     var typeBadge = document.getElementById('vocab-detail-type');
     typeBadge.textContent = v.type;
     typeBadge.className = 'vocab-type-badge ' + v.type;
@@ -1118,6 +1164,7 @@ SECTION_CONFIGS.vocab = {
         if (!current || current.id !== v.id) return;
         renderExamplesOrEmpty('vocab-detail-examples', current.examples);
         toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', current.notes);
+        renderVocabLevelSource(current);
       }).catch(function () {
         examplesEl.textContent = 'Beispiele konnten nicht geladen werden. ';
         var retry = appendElement(examplesEl, 'button', '', 'Erneut versuchen');

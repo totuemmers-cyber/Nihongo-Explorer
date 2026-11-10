@@ -270,7 +270,10 @@
     bm.classList.toggle('active', sec.filters.bookmarks === 'starred');
     bm.setAttribute('aria-pressed', String(sec.filters.bookmarks === 'starred'));
     if (sec.dom.sort) sec.dom.sort.value = sec.currentSort;
-    if (sec.name === 'vocab') document.getElementById('vocab-type-select').value = sec.filters.type || 'all';
+    if (sec.name === 'vocab') {
+      document.getElementById('vocab-type-select').value = sec.filters.type || 'all';
+      document.getElementById('vocab-evidence-select').value = sec.filters.evidence || 'all';
+    }
     if (sec.name === 'counters') document.getElementById('counter-cat-select').value = sec.filters.category || 'all';
     sec.dom.clearSearch.classList.toggle('visible', !!sec.dom.search.value);
   }
@@ -289,7 +292,11 @@
       sec._pendingSelectionId = null;
     }
     syncFilters(sec);
-    var filters = Object.keys(sec.filters).filter(function (key) { return sec.filters[key] && sec.filters[key] !== 'all'; }).map(function (key) { return key === 'bookmarks' ? 'Nur Lesezeichen' : sec.filters[key]; });
+    var filters = Object.keys(sec.filters).filter(function (key) { return sec.filters[key] && sec.filters[key] !== 'all'; }).map(function (key) {
+      if (key === 'bookmarks') return 'Nur Lesezeichen';
+      if (key === 'evidence') return sec.filters[key] === 'backed' ? 'Belegte Level' : 'Geschätzte Level';
+      return sec.filters[key];
+    });
     if (sec.dom.search.value) filters.unshift('„' + sec.dom.search.value + '“');
     if (sec.name === 'kanji' && app.activeRadical) filters.push('Radikal ' + app.activeRadical);
     var summary = sec.dom.controls.querySelector('.filter-summary-text');
@@ -499,7 +506,7 @@
     controls.insertBefore(searchLabel, sec.dom.search.closest('.search-bar'));
     controls.querySelectorAll('select').forEach(function (select) {
       var label = document.createElement('label'); label.className = 'select-field';
-      var text = document.createElement('span'); text.textContent = select.id.includes('sort') ? 'Sortierung' : select.id.includes('type') ? 'Wortart' : 'Kategorie';
+      var text = document.createElement('span'); text.textContent = select.dataset.label || (select.id.includes('sort') ? 'Sortierung' : select.id.includes('type') ? 'Wortart' : 'Kategorie');
       select.before(label); label.appendChild(text); label.appendChild(select);
     });
     var filters = controls.querySelector('.filters');

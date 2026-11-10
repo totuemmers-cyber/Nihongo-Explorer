@@ -1,3 +1,67 @@
+# Vocabulary levels — November 2026
+
+There is no official JLPT vocabulary list. On the user's instruction, every vocabulary
+card's level was recalibrated from recorded evidence instead of the earlier editorial
+estimates. 4,251 of 16,221 cards changed level:
+
+| | N5 | N4 | N3 | N2 | N1 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Before | 1,689 | 1,696 | 3,913 | 3,316 | 5,607 |
+| After | 1,313 | 1,309 | 3,292 | 3,764 | 6,543 |
+
+**Sources** (hashes and URLs in `scripts/vocabulary-levels/sources.json`; files are kept
+only in the git-ignored `.content-cache/vocabulary-levels`):
+
+- Jonathan Waller's JLPT vocabulary lists ([tanos.co.uk](https://www.tanos.co.uk/jlpt/)),
+  Creative Commons BY, in two editions: [stephenmk/yomitan-jlpt-vocab](https://github.com/stephenmk/yomitan-jlpt-vocab)
+  (with JMdict entry numbers) and the community-corrected
+  [jamsinclair/open-anki-jlpt-decks](https://github.com/jamsinclair/open-anki-jlpt-decks).
+  This is the list jisho.org uses; the other open JLPT datasets derive from it.
+- Beginner textbook vocabulary with lesson numbers: Minna no Nihongo Shokyū I & II
+  ([vitto4/MinnaNoDS](https://github.com/vitto4/MinnaNoDS)) and Genki I & II
+  ([jackiewkr/genki1-vocab](https://github.com/jackiewkr/genki1-vocab)). These datasets carry
+  no licence; only lesson numbers are cited per card, the lists are not committed.
+- Word frequency from [wordfreq](https://github.com/rspeer/wordfreq) 3.1.1 (data CC BY-SA 4.0).
+
+**Rules**, first match decides (`scripts/build-vocabulary-levels.cjs`):
+
+1. Textbook: taught in Minna no Nihongo I or Genki lessons 0–12 = N5; Minna no Nihongo II or
+   Genki lessons 13–23 = N4. A kana-only textbook entry can keep a kanji card at N5/N4 but never
+   moves it. Kana-only words match only in the same script (イクラ is not いくら).
+2. List: Waller's level, matched through the JMdict entry each card's review already cites plus
+   the reading. A card moves harder only if no edition lists it easier, and then only to the
+   easiest level listed; it moves easier only on the precise JMdict match and never past the
+   other edition. Affixes (〜的) move only on the precise match.
+3. する-verb: takes the level of its noun (推定する follows 推定).
+4. Compound: never easier than its hardest multi-character part (改札口 follows 改札);
+   number + counter words keep the counter's level.
+5. Frequency: an unlisted single word rarer than 95% of listed N5–N3 words (Zipf < 3.1)
+   moves one band: N5/N4 → N3, N3 → N2.
+6. Estimate: no evidence; the level is unchanged and marked as an estimate (6,084 cards).
+
+No card moves more than two levels unless a textbook and the list agree (御飯, 大抵).
+Waller's list misses basic words at N5 (こんばんは, すぐ, 日本); the textbook rule keeps them.
+
+**Records.** Each change is a level-only revision (batches `229-levels-001` to `-171`) with the
+cited list row, lesson, component card or frequency value. Notes, examples, pitch and their
+reviews are carried over unchanged and say so; this calibration did not re-review them. 26
+merge approvals whose survivor changed level were renewed in the same batches, and 862 source-list
+reference decisions (564 groups) bound to a moved card were renewed unchanged against the new
+content (batches `229-levels-refs-001` to `-035`), so the completion audits stay closed.
+
+**In the app.** The vocabulary detail names each level's source; estimated levels have a
+dashed badge, and the *Level-Beleg* filter shows only backed or only estimated levels.
+
+**Reproduce and check.** `npm run audit:vocabulary-levels` (part of `npm run check`) verifies
+that every card's level equals its evidence and that the evidence obeys the rules. With the
+cache present, `node scripts/build-vocabulary-levels.cjs --check` rebuilds the evidence from the
+sources (after `--words` and `scripts/research-vocabulary-frequency.py`), and
+`node scripts/vocabulary-level-revisions.cjs prepare|import` regenerates the batches.
+
+**Limits.** N2 and N1 are only as good as Waller's list; frequency cannot separate them.
+Some standard placements look surprising (人間, 理解 and 今回 at N3; 俺 at N2, capped from N1).
+Grammar levels were not changed: no second grammar reference was reachable.
+
 # Content update — September 2026
 
 ## Guided comprehension

@@ -1,0 +1,2624 @@
+{
+  "version": 3,
+  "merges": [],
+  "reviews": [
+    {
+      "id": "vocab-n5:696",
+      "revisionId": "levels-2026-11-vocab-n5-696",
+      "state": "accepted",
+      "predecessorHash": "e521bd0b5a40745acb347fb13d4ce3a43c9fdabeee3be48bb1e619e3e87df366",
+      "originalHash": "e521bd0b5a40745acb347fb13d4ce3a43c9fdabeee3be48bb1e619e3e87df366",
+      "predecessorRevisionHash": "2e1364467ab470589de4b0ebbaa1bea6621dbd869e3c766d4bffddd5ca7d4cdb",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-696; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 41; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:696",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 41 (exact match)",
+          "finding": "祖母 is taught in Minna no Nihongo II lesson 41 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L358; JMdict entry 1396860",
+          "finding": "祖母 (そぼ) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L237",
+          "finding": "祖母 (そぼ) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@156681511: exact 祖母/ソボ, lemma 祖母, 名詞/普通名詞/一般/*; *; *; aType 1. Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@156681511",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@156681511: 祖母/ソボ, lemma 祖母, 名詞/普通名詞/一般/*; *; *; aType 1. Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped. Whole-form scope reviewed.",
+            "match": {
+              "word": "祖母",
+              "reading": "そぼ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 祖母/そぼ, JMdict 1396860, senses 1: grandmother. Spelling, reading and restrictions inspected. Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Großmutter. Exact 祖母/そぼ, JMdict 1396860, senses 1: grandmother. Spelling, reading and restrictions inspected. Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "祖母の家に行きます。 / 祖母の料理がおいしいです。",
+        "romanization": "Headword sobo; Sobo no ie ni ikimasu. / Sobo no ryōri ga oishii desu.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Ich gehe zum Haus meiner Großmutter. / Das Essen meiner Großmutter ist lecker.",
+        "contexts": [
+          "Zum Haus der eigenen Großmutter gehen: Besuch und Ziel.",
+          "Das von der Großmutter zubereitete Essen loben: Urheberschaft und Bewertung."
+        ],
+        "lexical": "Exact 祖母/そぼ, JMdict 1396860, senses 1: grandmother. Spelling, reading and restrictions inspected. Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped.",
+        "conjugation": "Exact grandmother noun1/common1. Possessive house versus prepared-food attributionの, targetに and stateが inspected; ryōri normalized, address register note scoped.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 41; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-696; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "f76d91f92371632cd4808a65b2447d8e2f26b7f63035d11d77316c3789d3fca7",
+        "approvalHash": "5946f6922962b8a1b8c89a1f60505a63b0907efa71730fc33b03dbd8fb39ea66"
+      }
+    },
+    {
+      "id": "vocab-n5:697",
+      "revisionId": "levels-2026-11-vocab-n5-697",
+      "state": "accepted",
+      "predecessorHash": "ab1a91be683adb9738241191948ce5b8dd47910216f6acd67de9a92a7179fb35",
+      "originalHash": "ab1a91be683adb9738241191948ce5b8dd47910216f6acd67de9a92a7179fb35",
+      "predecessorRevisionHash": "c8533d56ea1a22836738d4b4f60ae58d33ddbe14202d4d6b8cc01e39339d4006",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-697; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 41; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:697",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 41 (exact match)",
+          "finding": "孫 is taught in Minna no Nihongo II lesson 41 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1524; JMdict entry 1406230",
+          "finding": "孫 (まご) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1975",
+          "finding": "孫 (まご) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@249322767: exact 孫/マゴ, lemma 孫, 名詞/普通名詞/一般/*; *; *; aType 2. Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@249322767",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "sys.dic@249322767: 孫/マゴ, lemma 孫, 名詞/普通名詞/一般/*; *; *; aType 2. Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful. Whole-form scope reviewed.",
+            "match": {
+              "word": "孫",
+              "reading": "まご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 孫/まご, JMdict 1406230, senses 1: grandchild. Spelling, reading and restrictions inspected. Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Enkelkind. Exact 孫/まご, JMdict 1406230, senses 1: grandchild. Spelling, reading and restrictions inspected. Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "孫が三人います。 / 祖母は孫の写真を見るのが好きです。",
+        "romanization": "Headword mago; Mago ga sannin imasu. / Sobo wa mago no shashin o miru no ga suki desu.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Ich habe drei Enkelkinder. / Meine Großmutter schaut sich gern Fotos ihrer Enkel an.",
+        "contexts": [
+          "Die Anzahl der Enkelkinder mit 三人 nennen.",
+          "Eine Großmutter beim gern ausgeübten Betrachten der Enkelfotos beschreiben: familiäre Tätigkeit."
+        ],
+        "lexical": "Exact 孫/まご, JMdict 1406230, senses 1: grandchild. Spelling, reading and restrictions inspected. Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful.",
+        "conjugation": "Exact grandchild1/common2, reject personalnameマゴ1. Human counter三人, animateいます and nominalized activity見るのが好き reviewed; photos depict grandchildren context faithful.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 41; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-697; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b1602710764ccf7d442116d562d2f7f8c03b6a80286718a29c51c781aef8a33a",
+        "approvalHash": "a954160b81456ca239a6ef2cec7f4a859a5dc110c0cc39ab28ffa7a0a213e02a"
+      }
+    },
+    {
+      "id": "vocab-n5:698",
+      "revisionId": "levels-2026-11-vocab-n5-698",
+      "state": "accepted",
+      "predecessorHash": "7f8b05edf4af8cb32c195a0e8045c3769a2d235e4666b134df61475bc05f2123",
+      "originalHash": "7f8b05edf4af8cb32c195a0e8045c3769a2d235e4666b134df61475bc05f2123",
+      "predecessorRevisionHash": "8983ed5c1e8b28e718837db7fca80ae93a9f17c80acdcc3d42686c9fee778262",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-698; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:698",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L107; JMdict entry 1335290",
+          "finding": "従兄弟 (いとこ) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L408",
+          "finding": "従兄弟 (いとこ) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@56618772: exact 従兄弟/イトコ, lemma 従兄弟, 名詞/普通名詞/一般/*; *; *; aType 2. Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@56618772",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "sys.dic@56618772: 従兄弟/イトコ, lemma 従兄弟, 名詞/普通名詞/一般/*; *; *; aType 2. Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct. Whole-form scope reviewed.",
+            "match": {
+              "word": "従兄弟",
+              "reading": "いとこ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 従兄弟/いとこ, JMdict 1335290, senses 1: cousin (male). Spelling, reading and restrictions inspected. Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Cousin (männlich). Exact 従兄弟/いとこ, JMdict 1335290, senses 1: cousin (male). Spelling, reading and restrictions inspected. Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "従兄弟と遊びました。 / 従兄弟は大阪に住んでいて、夏休みに会います。",
+        "romanization": "Headword itoko; Itoko to asobimashita. / Itoko wa Ōsaka ni sunde ite, natsuyasumi ni aimasu.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Ich habe mit meinem Cousin gespielt. / Mein Cousin wohnt in Osaka; ich treffe ihn in den Sommerferien.",
+        "contexts": [
+          "Mit einem Cousin spielen: gemeinsame Tätigkeit.",
+          "Den in Osaka wohnenden Cousin in den Sommerferien treffen: Wohnort und geplanter Besuch."
+        ],
+        "lexical": "Exact 従兄弟/いとこ, JMdict 1335290, senses 1: cousin (male). Spelling, reading and restrictions inspected. Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct.",
+        "conjugation": "Exact JMdict1335290 male-cousin1 with usually-kana misc; exact common2. Head general-cousine claim narrowed to male spelling, note kana-context broader use separate. Ōsaka conventional macron, summer timingに correct.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-698; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "2df3313b8e6c42bc2d80c6399561c900aeaded3575945790c9c9416ce32f5a20",
+        "approvalHash": "c0dd1d20fd15f779bdcfb10125642815b047b627337e9af4f316252bca794378"
+      }
+    },
+    {
+      "id": "vocab-n5:699",
+      "revisionId": "levels-2026-11-vocab-n5-699",
+      "state": "accepted",
+      "predecessorHash": "f863dae6d71bd01dd63c088e1bb33f4187ff2e88735bbde927ce7e2da4b957ec",
+      "originalHash": "f863dae6d71bd01dd63c088e1bb33f4187ff2e88735bbde927ce7e2da4b957ec",
+      "predecessorRevisionHash": "c3657aa57c6bff2664c008bf38c4e795b7f4694d8968be2bee87e0ee1081c81a",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-699; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder); capped from N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:699",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N1; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L324; JMdict entry 1179140",
+          "finding": "甥 (おい) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@72299055: exact 甥/オイ, lemma 甥, 名詞/普通名詞/一般/*; *; *; aType 0. Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@72299055",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "sys.dic@72299055: 甥/オイ, lemma 甥, 名詞/普通名詞/一般/*; *; *; aType 0. Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece. Whole-form scope reviewed.",
+            "match": {
+              "word": "甥",
+              "reading": "おい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 甥/おい, JMdict 1179140, senses 1: nephew. Spelling, reading and restrictions inspected. Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Neffe. Exact 甥/おい, JMdict 1179140, senses 1: nephew. Spelling, reading and restrictions inspected. Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "甥が来ました。 / 甥は五歳です。",
+        "romanization": "Headword oi; Oi ga kimashita. / Oi wa gosai desu.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Mein Neffe ist gekommen. / Mein Neffe ist fünf Jahre alt.",
+        "contexts": [
+          "Die Ankunft des Neffen melden: Ereignis.",
+          "Das Alter des Neffen als fünf Jahre angeben: persönliche Information."
+        ],
+        "lexical": "Exact 甥/おい, JMdict 1179140, senses 1: nephew. Spelling, reading and restrictions inspected. Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece.",
+        "conjugation": "Exact nephew noun1/common0, two-voweloi not lengthened. Arrivalが versus age-topicは inspected; gender/kinship notes accurate no migration to niece.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder); capped from N1",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-699; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "e4731fbf727b2dc4eb1d7edf6bbd41285046633b94c326d6ba66c9cd24e14853",
+        "approvalHash": "82f7fbbe12e2c54f96419994cedb0023c17d95f6b8c8c15574d3eeec371bcd99"
+      }
+    },
+    {
+      "id": "vocab-n5:700",
+      "revisionId": "levels-2026-11-vocab-n5-700",
+      "state": "accepted",
+      "predecessorHash": "b085d26189c61b5d0862c389868645634dd3e7f23600a5174e173debd96d6a30",
+      "originalHash": "b085d26189c61b5d0862c389868645634dd3e7f23600a5174e173debd96d6a30",
+      "predecessorRevisionHash": "7506c0ddd12f771e534607c47a14657d651c8fee50be6d451ca20a363536841f",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-700; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (harder); capped from N2",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:700",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N2; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L1644; JMdict entry 1532940",
+          "finding": "姪 (めい) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L1739",
+          "finding": "姪 (めい) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@260028761: exact 姪/メイ, lemma 姪, 名詞/普通名詞/一般/*; *; *; aType 1,0. Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@260028761",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "sys.dic@260028761: 姪/メイ, lemma 姪, 名詞/普通名詞/一般/*; *; *; aType 1,0. Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source. Whole-form scope reviewed.",
+            "match": {
+              "word": "姪",
+              "reading": "めい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 姪/めい, JMdict 1532940, senses 1: niece. Spelling, reading and restrictions inspected. Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Nichte. Exact 姪/めい, JMdict 1532940, senses 1: niece. Spelling, reading and restrictions inspected. Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "姪は五歳です。 / 姪にプレゼントをあげました。",
+        "romanization": "Headword mei; Mei wa gosai desu. / Mei ni purezento o agemashita.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Meine Nichte ist fünf Jahre alt. / Ich habe meiner Nichte ein Geschenk gegeben.",
+        "contexts": [
+          "Das Alter der Nichte als fünf Jahre nennen.",
+          "Der Nichte ein Geschenk geben: Empfängerrolle und Handlung."
+        ],
+        "lexical": "Exact 姪/めい, JMdict 1532940, senses 1: niece. Spelling, reading and restrictions inspected. Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source.",
+        "conjugation": "Exact niece noun1/commona1,0 retain1/add0. Age predicate versus gift-recipientに distinct; mei conventional spelling, no person-name homograph source.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (harder); capped from N2",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-700; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "61e25095ffd54d265bc9201717beb1d7383cdc786115b2070a166f3496120735",
+        "approvalHash": "a2abc9a0a6e48891d661f216331da483446098052afc987ad7059f6c2debadff"
+      }
+    },
+    {
+      "id": "vocab-n5:702",
+      "revisionId": "levels-2026-11-vocab-n5-702",
+      "state": "accepted",
+      "predecessorHash": "6cd98788908987624cf05643975c573577fc415bdb022686d5c8c52abb7cab64",
+      "originalHash": "6cd98788908987624cf05643975c573577fc415bdb022686d5c8c52abb7cab64",
+      "predecessorRevisionHash": "9649f1d67f3edc1207c57e5c0c021b6967e80650c38da88e8480a3aa263184cb",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 067c-full-n5-702; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 14; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:702",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+          "version": "genki1vocab.csv SHA256 50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25",
+          "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+          "locator": "https://github.com/jackiewkr/genki1-vocab; Genki II, lesson 14 (exact match)",
+          "finding": "夫婦 is taught in Genki II lesson 14 (Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1423; JMdict entry 1583640",
+          "finding": "夫婦 (ふうふ) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1861",
+          "finding": "夫婦 (ふうふ) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "sys.dic@230773454: exact 夫婦/フウフ, lemma 夫婦, 名詞/普通名詞/一般/*; *; *; aType 1. Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@230773454",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "sys.dic@230773454: 夫婦/フウフ, lemma 夫婦, 名詞/普通名詞/一般/*; *; *; aType 1. Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends. Whole-form scope reviewed.",
+            "match": {
+              "word": "夫婦",
+              "reading": "ふうふ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Exact 夫婦/ふうふ, JMdict 1583640, senses 1: married couple, husband and wife, man and wife. Spelling, reading and restrictions inspected. Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends. All retained/new Japanese contexts, Hepburn, German and guidance reviewed."
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ehepaar. Exact 夫婦/ふうふ, JMdict 1583640, senses 1: married couple, husband and wife, man and wife. Spelling, reading and restrictions inspected. Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "japanese": "仲の良い夫婦です。 / あの夫婦はとても仲がいいです。 / あの夫婦は二人で小さな店を開きました。",
+        "romanization": "Headword fūfu; Naka no yoi fūfu desu. / Ano fūfu wa totemo naka ga ii desu. / Ano fūfu wa futari de chiisana mise o hirakimashita.. Modified Hepburn checked across all retained/new contexts, including macrons and conventional mizuumi.",
+        "translation": "Es ist ein harmonisches Ehepaar. / Das Ehepaar dort versteht sich sehr gut. / Das Ehepaar dort hat gemeinsam ein kleines Geschäft eröffnet.",
+        "contexts": [
+          "Ein Ehepaar als harmonisch beschreiben.",
+          "Die gute Beziehung eines dortigen Ehepaars hervorheben.",
+          "Ein Ehepaar gemeinsam ein Geschäft eröffnen lassen: gemeinsame Handlung statt Beziehungseigenschaft."
+        ],
+        "lexical": "Exact 夫婦/ふうふ, JMdict 1583640, senses 1: married couple, husband and wife, man and wife. Spelling, reading and restrictions inspected. Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends. All retained/new Japanese contexts, Hepburn, German and guidance reviewed.",
+        "register": "Neutral modern everyday usage. Polite requests, everyday cooking, feelings, school and transport contexts individually inspected; cultural sequence scoped and idiomatic German reviewed.",
+        "transitivity": "Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends.",
+        "conjugation": "Exact married-couple1 common1, all longfūfu normalized; あの distant referent inGerman clarified. 二人で collaborative actor, storeを opens transitiveひらく natural, not general two-friends.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 14; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 067c-full-n5-702; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "21280e11d104f7a40c49686c7c549f9ba0d8c2e130ee58dbe49081be42de9c9c",
+        "approvalHash": "7ea47ce29fcda1de084e7f900425d56560f9bd61027e6fb1c1812b72f88a217d"
+      }
+    },
+    {
+      "id": "vocab-n5:703",
+      "revisionId": "levels-2026-11-vocab-n5-703",
+      "state": "accepted",
+      "predecessorHash": "12815ee226bfd0c7de56d95aca2d36aa9ec018f8f997d7857f73b9e0a35d28a6",
+      "originalHash": "12815ee226bfd0c7de56d95aca2d36aa9ec018f8f997d7857f73b9e0a35d28a6",
+      "predecessorRevisionHash": "d0940b56ce66a71594cb179d0be5b89091daee8c34c8b110892853b5a59a61af",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-703; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 38; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:703",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 38 (exact match)",
+          "finding": "双子 is taught in Minna no Nihongo II lesson 38 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1441; JMdict entry 1398750",
+          "finding": "双子 (ふたご) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1882",
+          "finding": "双子 (ふたご) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@233889787: 双子/フタゴ, Lemma 双子, 名詞/普通名詞/一般/*, */*, aType 0. 1398750/1 twins; unrestricted exact ふたご. The common noun has exact UniDic0, correcting old3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@233889787",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 双子/フタゴ, 名詞/普通名詞/一般/*, */*, aType 0. 1398750/1 twins; unrestricted exact ふたご. The common noun has exact UniDic0, correcting old3.",
+            "match": {
+              "word": "双子",
+              "reading": "ふたご",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "双子 als Zwillinge"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zwillinge — 1398750/1 twins; unrestricted exact ふたご. The common noun has exact UniDic0, correcting old3.",
+        "japanese": "双子の兄弟です。 / 双子の誕生日を祝いました。 — の connects twins with brothers/birthday; を marks celebration object. kyōdai/tanjōbi long vowels and 祝う Godan polite past checked.",
+        "romanization": "Futago no kyōdai desu. / Futago no tanjōbi o iwaimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Es sind Zwillingsbrüder. / Ich habe den Geburtstag der Zwillinge gefeiert. — の connects twins with brothers/birthday; を marks celebration object. kyōdai/tanjōbi long vowels and 祝う Godan polite past checked.",
+        "contexts": [
+          "Zwillingsbeziehung benennen",
+          "Gemeinsamen Geburtstag feiern"
+        ],
+        "lexical": "1398750/1 twins; unrestricted exact ふたご. The common noun has exact UniDic0, correcting old3.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. の connects twins with brothers/birthday; を marks celebration object. kyōdai/tanjōbi long vowels and 祝う Godan polite past checked.",
+        "transitivity": "の connects twins with brothers/birthday; を marks celebration object. kyōdai/tanjōbi long vowels and 祝う Godan polite past checked.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. の connects twins with brothers/birthday; を marks celebration object. kyōdai/tanjōbi long vowels and 祝う Godan polite past checked.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 38; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-703; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "274a27cd4b461f9d86140105952c23de68c65810d1a6ef4433063ec8eb7b2b3d",
+        "approvalHash": "687a3b916f49d1a7b9d660491312a3b3f851454929ea8b2e34e8c5ea36b97abb"
+      }
+    },
+    {
+      "id": "vocab-n5:704",
+      "revisionId": "levels-2026-11-vocab-n5-704",
+      "state": "accepted",
+      "predecessorHash": "af01bb5755abd816a52fb24a81d7a898b3bc496d1e83018d67b0bbef68b73166",
+      "originalHash": "af01bb5755abd816a52fb24a81d7a898b3bc496d1e83018d67b0bbef68b73166",
+      "predecessorRevisionHash": "dc30b17351e07c38543cf7daa05c258cc33fde6d94021cf5e960e655e5eb0245",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 082a-spelling-704; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 38; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:704",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 38 (exact match)",
+          "finding": "赤ちゃん is taught in Minna no Nihongo II lesson 38 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L7; JMdict entry 1383260",
+          "finding": "赤ちゃん (あかちゃん) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L110",
+          "finding": "赤ちゃん (あかちゃん) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@40795778: 赤ちゃん/アカチャン, Lemma 赤ちゃん, 名詞/普通名詞/一般/*, */*, aType 1. 1383260/1 baby/infant; no restrictions. Exact common-noun1 unchanged.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@40795778",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 赤ちゃん/アカチャン, 名詞/普通名詞/一般/*, */*, aType 1. 1383260/1 baby/infant; no restrictions. Exact common-noun1 unchanged.",
+            "match": {
+              "word": "赤ちゃん",
+              "reading": "あかちゃん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "赤ちゃん als Baby"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Baby — 1383260/1 baby/infant; no restrictions. Exact common-noun1 unchanged.",
+        "japanese": "赤ちゃんが生まれました。 / 赤ちゃんが泣いています。 — が marks subject of intransitive 生まれる and 泣く; polite past birth differs from ongoing 泣いている. No invented parent or gender.",
+        "romanization": "Akachan ga umaremashita. / Akachan ga naite imasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ein Baby wurde geboren. / Das Baby weint. — が marks subject of intransitive 生まれる and 泣く; polite past birth differs from ongoing 泣いている. No invented parent or gender.",
+        "contexts": [
+          "Geburt mitteilen",
+          "Aktuelles Weinen beschreiben"
+        ],
+        "lexical": "Exact baby/infant noun, birth announcement versus currently crying baby; ちゃん belongs to the whole word, not a compositional colour reading.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. が marks subject of intransitive 生まれる and 泣く; polite past birth differs from ongoing 泣いている. No invented parent or gender.",
+        "transitivity": "が marks subject of intransitive 生まれる and 泣く; polite past birth differs from ongoing 泣いている. No invented parent or gender.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. が marks subject of intransitive 生まれる and 泣く; polite past birth differs from ongoing 泣いている. No invented parent or gender.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 38; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 082a-spelling-704; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "6c7c8a39923867f0b49fc264342fcc046ab32cc9bbbd394d1c88024c365a1a6a",
+        "approvalHash": "c19fcc2e9b707af0a2e13a4f5b8b3839c5bacb8da70f69957cbb6f068825a208"
+      }
+    },
+    {
+      "id": "vocab-n5:707",
+      "revisionId": "levels-2026-11-vocab-n5-707",
+      "state": "accepted",
+      "predecessorHash": "d25dd945efa3cb8ee975cd791c56fb9f86e3808497dd5f699601a8497424dfc8",
+      "originalHash": "d25dd945efa3cb8ee975cd791c56fb9f86e3808497dd5f699601a8497424dfc8",
+      "predecessorRevisionHash": "c33df455f7770cd8a076dba17cd50058ccfd21a25c32f95f4a8159ac40f0f746",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-707; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:707",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1711; JMdict entry 1561090",
+          "finding": "老人 (ろうじん) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1184",
+          "finding": "老人 (ろうじん) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@280253840: 老人/ロウジン, Lemma 老人, 名詞/普通名詞/一般/*, */*, aType 0. 1561090/1 old person/senior, no derogatory register invented. Whole head 老人0 not compound accent inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280253840",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 老人/ロウジン, 名詞/普通名詞/一般/*, */*, aType 0. 1561090/1 old person/senior, no derogatory register invented. Whole head 老人0 not compound accent inference.",
+            "match": {
+              "word": "老人",
+              "reading": "ろうじん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "老人 als älterer Mensch"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "älterer Mensch — 1561090/1 old person/senior, no derogatory register invented. Whole head 老人0 not compound accent inference.",
+        "japanese": "老人がゆっくり歩いています。 / 老人ホームで働いています。 — Standalone が subject with intransitive 歩く ongoing; compound workplace で+働いている separate function. rōjin/hōmu macros corrected.",
+        "romanization": "Rōjin ga yukkuri aruite imasu. / Rōjin hōmu de hataraite imasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort rōjin ebenfalls geprüft.",
+        "translation": "Ein älterer Mensch geht langsam. / Ich arbeite in einem Altenheim. — Standalone が subject with intransitive 歩く ongoing; compound workplace で+働いている separate function. rōjin/hōmu macros corrected.",
+        "contexts": [
+          "Langsames Gehen einer älteren Person",
+          "Arbeitsort Altenheim"
+        ],
+        "lexical": "1561090/1 old person/senior, no derogatory register invented. Whole head 老人0 not compound accent inference.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. Standalone が subject with intransitive 歩く ongoing; compound workplace で+働いている separate function. rōjin/hōmu macros corrected.",
+        "transitivity": "Standalone が subject with intransitive 歩く ongoing; compound workplace で+働いている separate function. rōjin/hōmu macros corrected.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. Standalone が subject with intransitive 歩く ongoing; compound workplace で+働いている separate function. rōjin/hōmu macros corrected.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-707; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "99886aae3db7ab2764d02ceb90222f69200e15644ee4f7bf45e54d524d17efda",
+        "approvalHash": "3a41211ff061d65204b9e5cb87fbc8ae5580c6f8802f1488f77faab9a46ef3c1"
+      }
+    },
+    {
+      "id": "vocab-n5:708",
+      "revisionId": "levels-2026-11-vocab-n5-708",
+      "state": "accepted",
+      "predecessorHash": "0d698abe07176dc7b41ae1001cf94f32749d72a8debcea0b2b05bb0153afb39b",
+      "originalHash": "0d698abe07176dc7b41ae1001cf94f32749d72a8debcea0b2b05bb0153afb39b",
+      "predecessorRevisionHash": "76ad2bcd3b167b4931f8cecc976b7aa87b764bcd40cd46cc1e984326e4a17787",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-708; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 47; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:708",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 47 (exact match)",
+          "finding": "男性 is taught in Minna no Nihongo II lesson 47 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L391; JMdict entry 1420160",
+          "finding": "男性 (だんせい) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L355",
+          "finding": "男性 (だんせい) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@168145202: 男性/ダンセイ, Lemma 男性, 名詞/普通名詞/一般/*, */*, aType 0. 1420160/1 man/male selected; grammar masculine-gender sense2 excluded. Unrestricted exact noun0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@168145202",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 男性/ダンセイ, 名詞/普通名詞/一般/*, */*, aType 0. 1420160/1 man/male selected; grammar masculine-gender sense2 excluded. Unrestricted exact noun0.",
+            "match": {
+              "word": "男性",
+              "reading": "だんせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "男性 als Mann (formal)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mann (formal) — 1420160/1 man/male selected; grammar masculine-gender sense2 excluded. Unrestricted exact noun0.",
+        "japanese": "男性が三人います。 / あの男性は田中さんです。 — 三人 reads sannin with n+n, animate います; distal あの retained as jener, さん polite name and male referent explicit.",
+        "romanization": "Dansei ga sannin imasu. / Ano dansei wa Tanaka-san desu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Es sind drei Männer da. / Jener Mann ist Herr Tanaka. — 三人 reads sannin with n+n, animate います; distal あの retained as jener, さん polite name and male referent explicit.",
+        "contexts": [
+          "Männer in einer Gruppe zählen",
+          "Eine bestimmte männliche Person identifizieren"
+        ],
+        "lexical": "1420160/1 man/male selected; grammar masculine-gender sense2 excluded. Unrestricted exact noun0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. 三人 reads sannin with n+n, animate います; distal あの retained as jener, さん polite name and male referent explicit.",
+        "transitivity": "三人 reads sannin with n+n, animate います; distal あの retained as jener, さん polite name and male referent explicit.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. 三人 reads sannin with n+n, animate います; distal あの retained as jener, さん polite name and male referent explicit.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 47; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-708; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "8c1a7105f53473a4a5339b2c69e39294baa418ec9845de33dcd26dbdb00d4dc5",
+        "approvalHash": "8dc9b05b09dc34861d2bfca4009fe6189d7b86550db53177eb75c784f9f750a5"
+      }
+    },
+    {
+      "id": "vocab-n5:709",
+      "revisionId": "levels-2026-11-vocab-n5-709",
+      "state": "accepted",
+      "predecessorHash": "6584ed0c5ad7729ca2061ab8c4a50c84ceac7fdf1c98597b404ef73363706dac",
+      "originalHash": "6584ed0c5ad7729ca2061ab8c4a50c84ceac7fdf1c98597b404ef73363706dac",
+      "predecessorRevisionHash": "e2f6d4c785ca8ceea3b472d2bb22aefc0bf2bbfc8d596c4df4f6045ba97e8477",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-709; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 47; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:709",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 47 (exact match)",
+          "finding": "女性 is taught in Minna no Nihongo II lesson 47 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L307; JMdict entry 1345250",
+          "finding": "女性 (じょせい) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L368",
+          "finding": "女性 (じょせい) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@145092598: 女性/ジョセイ, Lemma 女性, 名詞/普通名詞/一般/*, */*, aType 0. 1345250/1 woman/female; feminine grammatical-gender sense2 excluded. Exact noun0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@145092598",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 女性/ジョセイ, 名詞/普通名詞/一般/*, */*, aType 0. 1345250/1 woman/female; feminine grammatical-gender sense2 excluded. Exact noun0.",
+            "match": {
+              "word": "女性",
+              "reading": "じょせい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "女性 als Frau (formal)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Frau (formal) — 1345250/1 woman/female; feminine grammatical-gender sense2 excluded. Exact noun0.",
+        "japanese": "女性の先生です。 / あの女性はとても親切です。 — の nominal modification explicitly female teacher; distal あの and は topic, とても intensifies adjectival noun 親切. German gender supported.",
+        "romanization": "Josei no sensei desu. / Ano josei wa totemo shinsetsu desu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Es ist eine Lehrerin. / Jene Frau ist sehr freundlich. — の nominal modification explicitly female teacher; distal あの and は topic, とても intensifies adjectival noun 親切. German gender supported.",
+        "contexts": [
+          "Geschlecht einer Lehrperson erläutern",
+          "Freundlichkeit einer bestimmten Frau beschreiben"
+        ],
+        "lexical": "1345250/1 woman/female; feminine grammatical-gender sense2 excluded. Exact noun0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. の nominal modification explicitly female teacher; distal あの and は topic, とても intensifies adjectival noun 親切. German gender supported.",
+        "transitivity": "の nominal modification explicitly female teacher; distal あの and は topic, とても intensifies adjectival noun 親切. German gender supported.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. の nominal modification explicitly female teacher; distal あの and は topic, とても intensifies adjectival noun 親切. German gender supported.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 47; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-709; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "a9ad7b758a76e03c47ef0cd14f8ce5175b6e357c88c9cdc11ea7479db104e29a",
+        "approvalHash": "8ff63fe10e4450d491711f3ff69c1d13173294f05236f91f2b90d092117558aa"
+      }
+    },
+    {
+      "id": "vocab-n5:710",
+      "revisionId": "levels-2026-11-vocab-n5-710",
+      "state": "accepted",
+      "predecessorHash": "15a23377f6d7c0fc2cd3c8e64f77c7bd34da1a102ff2c5e6b5e3ee901018b402",
+      "originalHash": "15a23377f6d7c0fc2cd3c8e64f77c7bd34da1a102ff2c5e6b5e3ee901018b402",
+      "predecessorRevisionHash": "18d9794ee0ec2939a1c93d201b7005abc32849c8ed17c2d4267dc56022661830",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-710; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:710",
+          "finding": "N5 → N4 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L172; JMdict entry 1226630",
+          "finding": "客 (きゃく) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L196",
+          "finding": "客 (きゃく) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@105620100: 客/キャク, Lemma 客, 名詞/普通名詞/一般/*, */*, aType 0. 1226630 senses1 visitor and2 customer explicitly differentiated by serving tea/store. Counter-for-entertainment-containers sense3 not taught. Exact plain 客0, no prefixed-form inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105620100",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 客/キャク, 名詞/普通名詞/一般/*, */*, aType 0. 1226630 senses1 visitor and2 customer explicitly differentiated by serving tea/store. Counter-for-entertainment-containers sense3 not taught. Exact plain 客0, no prefixed-form inference.",
+            "match": {
+              "word": "客",
+              "reading": "きゃく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "客 als Gast, Kunde"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gast, Kunde — 1226630 senses1 visitor and2 customer explicitly differentiated by serving tea/store. Counter-for-entertainment-containers sense3 not taught. Exact plain 客0, no prefixed-form inference.",
+        "japanese": "客にお茶を出しました。 / あの店には客が大勢います。 — に recipient/を served tea, transitive 出す polite past. 店には locator/topic, 客が animate subject, 大勢 many people; ōzei and jener faithful.",
+        "romanization": "Kyaku ni ocha o dashimashita. / Ano mise ni wa kyaku ga ōzei imasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ich habe einem Gast Tee serviert. / In jenem Geschäft sind viele Kunden. — に recipient/を served tea, transitive 出す polite past. 店には locator/topic, 客が animate subject, 大勢 many people; ōzei and jener faithful.",
+        "contexts": [
+          "Einen Gast bewirten",
+          "Kundenaufkommen eines Geschäfts"
+        ],
+        "lexical": "1226630 senses1 visitor and2 customer explicitly differentiated by serving tea/store. Counter-for-entertainment-containers sense3 not taught. Exact plain 客0, no prefixed-form inference.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. に recipient/を served tea, transitive 出す polite past. 店には locator/topic, 客が animate subject, 大勢 many people; ōzei and jener faithful.",
+        "transitivity": "に recipient/を served tea, transitive 出す polite past. 店には locator/topic, 客が animate subject, 大勢 many people; ōzei and jener faithful.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. に recipient/を served tea, transitive 出す polite past. 店には locator/topic, 客が animate subject, 大勢 many people; ōzei and jener faithful.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-710; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "420d71df88eecfb3e41363aaceeddae3cae5a7c02d6c2d3b8146a053d9c9aad6",
+        "approvalHash": "5998694f083807f34ec8fa2ce85b26cc737a96e168fe0906cf828d82246a3456"
+      }
+    },
+    {
+      "id": "vocab-n5:711",
+      "revisionId": "levels-2026-11-vocab-n5-711",
+      "state": "accepted",
+      "predecessorHash": "49f688c813ae3d5e915b149188c0ec415472aed7a6222bd708544fe7a684f292",
+      "originalHash": "49f688c813ae3d5e915b149188c0ec415472aed7a6222bd708544fe7a684f292",
+      "predecessorRevisionHash": "61e4f6d4b62da673c70c40ae381fcda941ec5c0ae179a4268ec73dfc25370173",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-711; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:711",
+          "finding": "N5 → N4 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L425; JMdict entry 1440670",
+          "finding": "店員 (てんいん) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L311",
+          "finding": "店員 (てんいん) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@181343485: 店員/テンイン, Lemma 店員, 名詞/普通名詞/一般/*, */*, aType 0. 1440670/1 store employee, gender unmarked; German old female-only head narrowed improperly, corrected. Whole plain 店員0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181343485",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 店員/テンイン, 名詞/普通名詞/一般/*, */*, aType 0. 1440670/1 store employee, gender unmarked; German old female-only head narrowed improperly, corrected. Whole plain 店員0.",
+            "match": {
+              "word": "店員",
+              "reading": "てんいん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "店員 als Ladenangestellte(r)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ladenangestellte(r) — 1440670/1 store employee, gender unmarked; German old female-only head narrowed improperly, corrected. Whole plain 店員0.",
+        "japanese": "店員に聞いてください。 / 店員さんが商品を並べています。 — に person asked, 聞いてください request; さん polite staff designation, が actor/を 商品 object of transitive 並べる ongoing. ten'in/shōhin checked.",
+        "romanization": "Ten'in ni kiite kudasai. / Ten'in-san ga shōhin o narabete imasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort ten'in ebenfalls geprüft.",
+        "translation": "Bitte fragen Sie eine Verkaufskraft. / Eine Verkaufskraft ordnet die Waren an. — に person asked, 聞いてください request; さん polite staff designation, が actor/を 商品 object of transitive 並べる ongoing. ten'in/shōhin checked.",
+        "contexts": [
+          "Ladenpersonal um Auskunft bitten",
+          "Warenanordnung durch eine Verkaufskraft"
+        ],
+        "lexical": "1440670/1 store employee, gender unmarked; German old female-only head narrowed improperly, corrected. Whole plain 店員0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. に person asked, 聞いてください request; さん polite staff designation, が actor/を 商品 object of transitive 並べる ongoing. ten'in/shōhin checked.",
+        "transitivity": "に person asked, 聞いてください request; さん polite staff designation, が actor/を 商品 object of transitive 並べる ongoing. ten'in/shōhin checked.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. に person asked, 聞いてください request; さん polite staff designation, が actor/を 商品 object of transitive 並べる ongoing. ten'in/shōhin checked.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-711; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "95729b0a2ac6c217066b5b32b466053e498f763fe199032c57cbedb38afda935",
+        "approvalHash": "aaca21bf8a2ab8ec762e6bbc5ea4c54974e9e4a739a2f93cb69799b74108521d"
+      }
+    },
+    {
+      "id": "vocab-n5:712",
+      "revisionId": "levels-2026-11-vocab-n5-712",
+      "state": "accepted",
+      "predecessorHash": "8eebb94566c13635e561be62f5e0e3ca09308a726a2d73c7248eb45222787397",
+      "originalHash": "8eebb94566c13635e561be62f5e0e3ca09308a726a2d73c7248eb45222787397",
+      "predecessorRevisionHash": "548dbab59554dac380b7648f314c9fac4c6e3d78d4dbff174fbf4cd41c9e182d",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-712; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 40; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:712",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 40 (exact match)",
+          "finding": "運転手 is taught in Minna no Nihongo II lesson 40 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L67; JMdict entry 1172870",
+          "finding": "運転手 (うんてんしゅ) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L36",
+          "finding": "運転手 (うんてんしゅ) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Saved OJAD exact 運転手 dictionary cell う/ん/て/ん/しゅ has accent_top on third mora て: whole noun3.",
+        "evidence": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved whole-form UTF-8 HTML SHA256 8f732321147aca1ddce097a7369b0504bc1264bc5ca3ab975957b0ded8482ee7",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%8B%E8%BB%A2%E6%89%8B#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "patterns": [
+              3
+            ],
+            "finding": "Saved OJAD exact 運転手 dictionary cell う/ん/て/ん/しゅ has accent_top on third mora て: whole noun3.",
+            "match": {
+              "word": "運転手",
+              "reading": "うんてんしゅ",
+              "grammaticalForm": "Nomen; exact complete dictionary form",
+              "sense": "運転手 als Fahrer"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Fahrer — 1172870/1 driver/chauffeur exact full word, no restrictions. OJAD inspected whole five-mora noun3, no 運転-base derivation.",
+        "japanese": "父はタクシーの運転手です。 / バスの運転手さんに聞きました。 — Explicit 父 makes first male subject defensible; の vehicle relation and さん/に staff recipient; 聞く polite past no fabricated question content. takushī longī.",
+        "romanization": "Chichi wa takushī no untenshu desu. / Basu no untenshu-san ni kikimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Mein Vater ist Taxifahrer. / Ich habe beim Busfahrer nachgefragt. — Explicit 父 makes first male subject defensible; の vehicle relation and さん/に staff recipient; 聞く polite past no fabricated question content. takushī longī.",
+        "contexts": [
+          "Beruf des Vaters nennen",
+          "Beim Buspersonal nachfragen"
+        ],
+        "lexical": "1172870/1 driver/chauffeur exact full word, no restrictions. OJAD inspected whole five-mora noun3, no 運転-base derivation.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. Explicit 父 makes first male subject defensible; の vehicle relation and さん/に staff recipient; 聞く polite past no fabricated question content. takushī longī.",
+        "transitivity": "Explicit 父 makes first male subject defensible; の vehicle relation and さん/に staff recipient; 聞く polite past no fabricated question content. takushī longī.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. Explicit 父 makes first male subject defensible; の vehicle relation and さん/に staff recipient; 聞く polite past no fabricated question content. takushī longī.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 40; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-712; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "a3da4d533365c7d20a7b5a348772ba0001411de9a484713ba4fe4f348b4b85b1",
+        "approvalHash": "b3c4b7fdc4801194e3ddf6ebb90915f4d26636df337919683208bc78fb84023f"
+      }
+    },
+    {
+      "id": "vocab-n5:716",
+      "revisionId": "levels-2026-11-vocab-n5-716",
+      "state": "accepted",
+      "predecessorHash": "06ecb19037a18b4370bb2b6b77cf76bc430acd9024dfe447e7af478d7df2e934",
+      "originalHash": "06ecb19037a18b4370bb2b6b77cf76bc430acd9024dfe447e7af478d7df2e934",
+      "predecessorRevisionHash": "ee47a4637b61b5d612ea09ee4b75d92a6b3d868e2685fcff3e2841a264ea03ae",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-716; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:716",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1290; JMdict entry 1470620",
+          "finding": "農家 (のうか) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1711",
+          "finding": "農家 (のうか) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@207180024: 農家/ノウカ, Lemma 農家, 名詞/普通名詞/一般/*, */*, aType 1. 1470620/1 farmer/farming family; farmhouse2 and historical Chinese School3 excluded. Exact common noun1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@207180024",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 農家/ノウカ, 名詞/普通名詞/一般/*, */*, aType 1. 1470620/1 farmer/farming family; farmhouse2 and historical Chinese School3 excluded. Exact common noun1.",
+            "match": {
+              "word": "農家",
+              "reading": "のうか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "農家 als Bauer, Landwirt"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Bauer, Landwirt — 1470620/1 farmer/farming family; farmhouse2 and historical Chinese School3 excluded. Exact common noun1.",
+        "japanese": "農家の人が野菜を売っています。 / 祖父は農家です。 — の人 specifies person, が actor/を produce with 売る→売って ongoing; 祖父 own grandfather occupational copula. nōka macro checked.",
+        "romanization": "Nōka no hito ga yasai o utte imasu. / Sofu wa nōka desu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort nōka ebenfalls geprüft.",
+        "translation": "Ein Landwirt verkauft Gemüse. / Mein Großvater ist Landwirt. — の人 specifies person, が actor/を produce with 売る→売って ongoing; 祖父 own grandfather occupational copula. nōka macro checked.",
+        "contexts": [
+          "Gemüseverkauf durch Landwirtschaft",
+          "Beruf des Großvaters"
+        ],
+        "lexical": "1470620/1 farmer/farming family; farmhouse2 and historical Chinese School3 excluded. Exact common noun1.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. の人 specifies person, が actor/を produce with 売る→売って ongoing; 祖父 own grandfather occupational copula. nōka macro checked.",
+        "transitivity": "の人 specifies person, が actor/を produce with 売る→売って ongoing; 祖父 own grandfather occupational copula. nōka macro checked.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. の人 specifies person, が actor/を produce with 売る→売って ongoing; 祖父 own grandfather occupational copula. nōka macro checked.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-716; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "729481d987164632a601b446afbeb6f2dcacb8cd6b0283229bf2af06c525b9b2",
+        "approvalHash": "f4425970b7b2f16543b08dacff88b2e3e4a03c409dcb96670fb587135f0da4e2"
+      }
+    },
+    {
+      "id": "vocab-n5:717",
+      "revisionId": "levels-2026-11-vocab-n5-717",
+      "state": "accepted",
+      "predecessorHash": "5f1ee09ae30c3f475b3c4bf8f0b059f4f9cfdab5f54dab511033af44e768c0c7",
+      "originalHash": "5f1ee09ae30c3f475b3c4bf8f0b059f4f9cfdab5f54dab511033af44e768c0c7",
+      "predecessorRevisionHash": "156f31bdeef10a8f7bb8280e7c4c1a5176ab688e76e44817fb75ce5960e7a075",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-717; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (harder); capped from N2",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:717",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading. The evidence gives N2; moves are capped at two levels."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L972; JMdict entry 1413690",
+          "finding": "大工 (だいく) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n2.csv SHA256 2d0f1ddd6222881cd9fc2ca701db74300af99b3f1f84d5ac3c18411c20f0c055",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n2.csv#L1092",
+          "finding": "大工 (だいく) is listed at N2 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@166766197: 大工/ダイク, Lemma 大工, 名詞/普通名詞/一般/*, */*, aType 1. 1413690/1 carpenter, exact だいく unrestricted. Common noun1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166766197",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 大工/ダイク, 名詞/普通名詞/一般/*, */*, aType 1. 1413690/1 carpenter, exact だいく unrestricted. Common noun1.",
+            "match": {
+              "word": "大工",
+              "reading": "だいく",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "大工 als Zimmermann"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Zimmermann — 1413690/1 carpenter, exact だいく unrestricted. Common noun1.",
+        "japanese": "大工さんが家を建てます。 / 大工さんにドアの修理を頼みました。 — が construction actor/家を object of 建てる; さんに requested craftsperson/修理を requested work, 頼む polite past; shūri longū.",
+        "romanization": "Daiku-san ga ie o tatemasu. / Daiku-san ni doa no shūri o tanomimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Der Zimmermann baut ein Haus. / Ich habe den Zimmermann um die Reparatur der Tür gebeten. — が construction actor/家を object of 建てる; さんに requested craftsperson/修理を requested work, 頼む polite past; shūri longū.",
+        "contexts": [
+          "Hausbau durch Zimmermann",
+          "Türreparatur beauftragen"
+        ],
+        "lexical": "1413690/1 carpenter, exact だいく unrestricted. Common noun1.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. が construction actor/家を object of 建てる; さんに requested craftsperson/修理を requested work, 頼む polite past; shūri longū.",
+        "transitivity": "が construction actor/家を object of 建てる; さんに requested craftsperson/修理を requested work, 頼む polite past; shūri longū.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. が construction actor/家を object of 建てる; さんに requested craftsperson/修理を requested work, 頼む polite past; shūri longū.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N2 (harder); capped from N2",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-717; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b26761d1c69d317e8c7db2a9ac6051dd569d8bed20ed192b53b82720c75cea9e",
+        "approvalHash": "7631fe2a5af385b5e3dda83de2d16925ffd4edbcf3fe4e4c86b7f4dfaad76598"
+      }
+    },
+    {
+      "id": "vocab-n5:718",
+      "revisionId": "levels-2026-11-vocab-n5-718",
+      "state": "accepted",
+      "predecessorHash": "578b6fac6bb8e350044891a137c10b140bd97ce42f5d4ef5f0d18376d7daf7a8",
+      "originalHash": "578b6fac6bb8e350044891a137c10b140bd97ce42f5d4ef5f0d18376d7daf7a8",
+      "predecessorRevisionHash": "f5c1318f65044fc0f376cf96d805047f30f22e7b6377fd76703a67f2f2a71a91",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-718; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 37; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:718",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 37 (exact match)",
+          "finding": "仲間 is taught in Minna no Nihongo II lesson 37 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1231; JMdict entry 1425790",
+          "finding": "仲間 (なかま) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1649",
+          "finding": "仲間 (なかま) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@194002356: 仲間/ナカマ, Lemma 仲間, 名詞/普通名詞/一般/*, */*, aType 3. 1425790/1 companion/comrade, no gang/classification sense additions. Chosen exact common noun3, surname ナカマ0 row explicitly excluded.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@194002356",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exakte Form 仲間/ナカマ, 名詞/普通名詞/一般/*, */*, aType 3. 1425790/1 companion/comrade, no gang/classification sense additions. Chosen exact common noun3, surname ナカマ0 row explicitly excluded.",
+            "match": {
+              "word": "仲間",
+              "reading": "なかま",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "仲間 als Kamerad, Gefährte"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kamerad, Gefährte — 1425790/1 companion/comrade, no gang/classification sense additions. Chosen exact common noun3, surname ナカマ0 row explicitly excluded.",
+        "japanese": "仲間と一緒に頑張ります。 / サッカーの仲間と旅行に行きました。 — と companions/一緒に joint effort, サッカーの group affiliation, 旅行に destination-purpose with 行く past. sakkā/ryokō macros and issho sokuon.",
+        "romanization": "Nakama to issho ni ganbarimasu. / Sakkā no nakama to ryokō ni ikimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ich gebe mit meinen Kameraden mein Bestes. / Ich bin mit meinen Fußballkameraden verreist. — と companions/一緒に joint effort, サッカーの group affiliation, 旅行に destination-purpose with 行く past. sakkā/ryokō macros and issho sokuon.",
+        "contexts": [
+          "Gemeinsame Anstrengung",
+          "Reise mit Fußballkameraden"
+        ],
+        "lexical": "1425790/1 companion/comrade, no gang/classification sense additions. Chosen exact common noun3, surname ナカマ0 row explicitly excluded.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. と companions/一緒に joint effort, サッカーの group affiliation, 旅行に destination-purpose with 行く past. sakkā/ryokō macros and issho sokuon.",
+        "transitivity": "と companions/一緒に joint effort, サッカーの group affiliation, 旅行に destination-purpose with 行く past. sakkā/ryokō macros and issho sokuon.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. と companions/一緒に joint effort, サッカーの group affiliation, 旅行に destination-purpose with 行く past. sakkā/ryokō macros and issho sokuon.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 37; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-718; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "25cb3664d89042a9f2a3de3e2fb11354527417ef98bb8fb205824c8f510db025",
+        "approvalHash": "3b31553109d02aae0c54ca0ced899c1c7d7d8d513338a808e45f17de76a14c9a"
+      }
+    },
+    {
+      "id": "vocab-n5:719",
+      "revisionId": "levels-2026-11-vocab-n5-719",
+      "state": "accepted",
+      "predecessorHash": "4ab4282e6ad724ce2922173d3e9edb9cb4284b927ee19177999dc5ebe92994bf",
+      "originalHash": "4ab4282e6ad724ce2922173d3e9edb9cb4284b927ee19177999dc5ebe92994bf",
+      "predecessorRevisionHash": "62a0c35dcad5a71ee725926e54fd13a1c121a246c2ced48d6967a22c17ef2a0e",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-719; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:719",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+          "version": "genki1vocab.csv SHA256 50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25",
+          "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+          "locator": "https://github.com/jackiewkr/genki1-vocab; Genki II, lesson 22 (exact match)",
+          "finding": "先輩 is taught in Genki II lesson 22 (Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L351; JMdict entry 1388410",
+          "finding": "先輩 (せんぱい) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L537",
+          "finding": "先輩 (せんぱい) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@154610075: 先輩/センパイ, Lemma 先輩, 名詞/普通名詞/一般/*, */*, aType 0. 1388410/1 senior school/work, noun/suffix. Head removes false mandatory chronological older implication; exact noun0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154610075",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 先輩/センパイ, 名詞/普通名詞/一般/*, */*, aType 0. 1388410/1 senior school/work, noun/suffix. Head removes false mandatory chronological older implication; exact noun0.",
+            "match": {
+              "word": "先輩",
+              "reading": "せんぱい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "先輩 als Senpai (höherer Jahrgang/länger im Betrieb)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Senpai (höherer Jahrgang/länger im Betrieb) — 1388410/1 senior school/work, noun/suffix. Head removes false mandatory chronological older implication; exact noun0.",
+        "japanese": "先輩に教えてもらいました。 / 先輩、お先に失礼します。 — に source of received teaching/てもらう benefactive; direct address followed by earlier departure apology formula, not factual age assertion. senpai preserves Modified Hepburn n before p.",
+        "romanization": "Senpai ni oshiete moraimashita. / Senpai, osaki ni shitsurei shimasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ich habe es mir von meinem Senpai erklären lassen. / Senpai, ich gehe dann schon mal. — に source of received teaching/てもらう benefactive; direct address followed by earlier departure apology formula, not factual age assertion. senpai preserves Modified Hepburn n before p.",
+        "contexts": [
+          "Unterweisung durch Senpai",
+          "Höflich vor Senpai gehen"
+        ],
+        "lexical": "1388410/1 senior school/work, noun/suffix. Head removes false mandatory chronological older implication; exact noun0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. に source of received teaching/てもらう benefactive; direct address followed by earlier departure apology formula, not factual age assertion. senpai preserves Modified Hepburn n before p.",
+        "transitivity": "に source of received teaching/てもらう benefactive; direct address followed by earlier departure apology formula, not factual age assertion. senpai preserves Modified Hepburn n before p.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. に source of received teaching/てもらう benefactive; direct address followed by earlier departure apology formula, not factual age assertion. senpai preserves Modified Hepburn n before p.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-719; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "a80b30d67aea07573eb003d82056ed31e2957d76557378a22acd0bd6d8a71ca0",
+        "approvalHash": "0c91a74405ba02280863ee5788b3fdda0c8a26896b72aab2e8bdf7c7a5069386"
+      }
+    },
+    {
+      "id": "vocab-n5:720",
+      "revisionId": "levels-2026-11-vocab-n5-720",
+      "state": "accepted",
+      "predecessorHash": "b7b211d83138ae882b73c4cadaa04ba0c1bd17ee19f7d7b3f61dc62245e8e444",
+      "originalHash": "b7b211d83138ae882b73c4cadaa04ba0c1bd17ee19f7d7b3f61dc62245e8e444",
+      "predecessorRevisionHash": "ea4b9b458b7d7b9b0614e5a615b79bc44532dcdd84a49026c1adc6b15cc4eaa2",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-720; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:720",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+          "version": "genki1vocab.csv SHA256 50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25",
+          "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+          "locator": "https://github.com/jackiewkr/genki1-vocab; Genki II, lesson 22 (exact match)",
+          "finding": "後輩 is taught in Genki II lesson 22 (Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n2.csv SHA256 42a4413326e857d701dc9659b2711637ab612304a339fe0d09f4f0f042d3a214",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n2.csv#L525; JMdict entry 1270010",
+          "finding": "後輩 (こうはい) is listed at N2 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L901",
+          "finding": "後輩 (こうはい) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@120478781: 後輩/コウハイ, Lemma 後輩, 名詞/普通名詞/一般/*, */*, aType 0. 1270010/1 junior school/work; no mandatory age inference in German. Unrestricted exact noun0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@120478781",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 後輩/コウハイ, 名詞/普通名詞/一般/*, */*, aType 0. 1270010/1 junior school/work; no mandatory age inference in German. Unrestricted exact noun0.",
+            "match": {
+              "word": "後輩",
+              "reading": "こうはい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "後輩 als Kōhai (später dazugekommenes Mitglied)"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kōhai (später dazugekommenes Mitglied) — 1270010/1 junior school/work; no mandatory age inference in German. Unrestricted exact noun0.",
+        "japanese": "後輩からメールが来ました。 / 新しく入った後輩に仕事を教えました。 — から sender/メールが incoming subject versus に teaching recipient/仕事を content; 新しく入った modifies junior with Godan 入る past haitta. kōhai/mēru macros.",
+        "romanization": "Kōhai kara mēru ga kimashita. / Atarashiku haitta kōhai ni shigoto o oshiemashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort kōhai ebenfalls geprüft.",
+        "translation": "Ich habe eine E-Mail von meinem Kōhai bekommen. / Ich habe einem neu dazugekommenen Kōhai die Arbeit erklärt. — から sender/メールが incoming subject versus に teaching recipient/仕事を content; 新しく入った modifies junior with Godan 入る past haitta. kōhai/mēru macros.",
+        "contexts": [
+          "Nachricht von einem Kōhai",
+          "Einen neuen Kōhai einarbeiten"
+        ],
+        "lexical": "1270010/1 junior school/work; no mandatory age inference in German. Unrestricted exact noun0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. から sender/メールが incoming subject versus に teaching recipient/仕事を content; 新しく入った modifies junior with Godan 入る past haitta. kōhai/mēru macros.",
+        "transitivity": "から sender/メールが incoming subject versus に teaching recipient/仕事を content; 新しく入った modifies junior with Godan 入る past haitta. kōhai/mēru macros.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. から sender/メールが incoming subject versus に teaching recipient/仕事を content; 新しく入った modifies junior with Godan 入る past haitta. kōhai/mēru macros.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-720; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "e9eb4ba67f7c8c10eb49cb2d455df5e07c146d9a53a5d5f5d76a5d1556c7b66e",
+        "approvalHash": "512f62da72c9ac27f1cafa12f851e282ede2d1b3e255bbc8e975b03e0fa9e4f2"
+      }
+    },
+    {
+      "id": "vocab-n5:721",
+      "revisionId": "levels-2026-11-vocab-n5-721",
+      "state": "accepted",
+      "predecessorHash": "43f1531d9789c53885730be1dc4ee4ab58156a9d4eac4f5d4a1b058dc3a0e233",
+      "originalHash": "43f1531d9789c53885730be1dc4ee4ab58156a9d4eac4f5d4a1b058dc3a0e233",
+      "predecessorRevisionHash": "ccddbd746af3560e995dc17c588519afd3a1fe56a06fadb0c5e02a5c2d581856",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-721; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:721",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L1560; JMdict entry 1353260",
+          "finding": "上司 (じょうし) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L2023",
+          "finding": "上司 (じょうし) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@144854738: 上司/ジョウシ, Lemma 上司, 名詞/普通名詞/一般/*, */*, aType 1. 1353260/1 superior/boss exact noun1; employment authority, not simply senior peer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@144854738",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 上司/ジョウシ, 名詞/普通名詞/一般/*, */*, aType 1. 1353260/1 superior/boss exact noun1; employment authority, not simply senior peer.",
+            "match": {
+              "word": "上司",
+              "reading": "じょうし",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "上司 als Vorgesetzter"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Vorgesetzter — 1353260/1 superior/boss exact noun1; employment authority, not simply senior peer.",
+        "japanese": "上司に報告します。 / 上司と会議に出ました。 — に report recipient/報告する suru versus と accompaniment/会議に attended event and 出る polite past. Head/examples macros verified.",
+        "romanization": "Jōshi ni hōkoku shimasu. / Jōshi to kaigi ni demashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort jōshi ebenfalls geprüft.",
+        "translation": "Ich berichte meinem Vorgesetzten. / Ich habe mit meinem Vorgesetzten an einer Besprechung teilgenommen. — に report recipient/報告する suru versus と accompaniment/会議に attended event and 出る polite past. Head/examples macros verified.",
+        "contexts": [
+          "Vorgesetztem Bericht erstatten",
+          "Mit Vorgesetztem eine Besprechung besuchen"
+        ],
+        "lexical": "1353260/1 superior/boss exact noun1; employment authority, not simply senior peer.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. に report recipient/報告する suru versus と accompaniment/会議に attended event and 出る polite past. Head/examples macros verified.",
+        "transitivity": "に report recipient/報告する suru versus と accompaniment/会議に attended event and 出る polite past. Head/examples macros verified.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. に report recipient/報告する suru versus と accompaniment/会議に attended event and 出る polite past. Head/examples macros verified.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-721; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "10923c0017ff4acd62d97ffed8d859a0c6d54292aea3f2c59f10d6d5dd4501f5",
+        "approvalHash": "c7f95b78b5912a3417c9674f6150361ba680bbb03b648e721ace3d22a6e7ef62"
+      }
+    },
+    {
+      "id": "vocab-n5:722",
+      "revisionId": "levels-2026-11-vocab-n5-722",
+      "state": "accepted",
+      "predecessorHash": "6ec2191c16c07ef860394c3e81d647fdc808064e6a5be269aab7feee103c665d",
+      "originalHash": "6ec2191c16c07ef860394c3e81d647fdc808064e6a5be269aab7feee103c665d",
+      "predecessorRevisionHash": "17106e8aee1111ea5590ebfe829cfe672881bea5ad3522e9df93dbf0419dfe80",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-722; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N1 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:722",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+          "version": "genki1vocab.csv SHA256 50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25",
+          "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+          "locator": "https://github.com/jackiewkr/genki1-vocab; Genki II, lesson 22 (exact match)",
+          "finding": "部下 is taught in Genki II lesson 22 (Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L2694; JMdict entry 1499350",
+          "finding": "部下 (ぶか) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L2060",
+          "finding": "部下 (ぶか) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@238516856: 部下/ブカ, Lemma 部下, 名詞/普通名詞/一般/*, */*, aType 1. 1499350/1 subordinate person, not generic all coworkers. Exact common noun1 corrects old0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@238516856",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 部下/ブカ, 名詞/普通名詞/一般/*, */*, aType 1. 1499350/1 subordinate person, not generic all coworkers. Exact common noun1 corrects old0.",
+            "match": {
+              "word": "部下",
+              "reading": "ぶか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "部下 als Untergebener"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Untergebener — 1499350/1 subordinate person, not generic all coworkers. Exact common noun1 corrects old0.",
+        "japanese": "部下を育てます。 / 部下に仕事を頼みました。 — を object of figurative professional 育てる; に request recipients/仕事を requested task. 頼む request preserved rather than asserting accomplished delegation; Japanese number unspecified allows plural.",
+        "romanization": "Buka o sodatemasu. / Buka ni shigoto o tanomimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Ich fördere meine unterstellten Mitarbeiter. / Ich habe meine unterstellten Mitarbeiter gebeten, eine Aufgabe zu übernehmen. — を object of figurative professional 育てる; に request recipients/仕事を requested task. 頼む request preserved rather than asserting accomplished delegation; Japanese number unspecified allows plural.",
+        "contexts": [
+          "Berufliche Förderung von Mitarbeitern",
+          "Unterstellte Mitarbeiter um Aufgabe bitten"
+        ],
+        "lexical": "1499350/1 subordinate person, not generic all coworkers. Exact common noun1 corrects old0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. を object of figurative professional 育てる; に request recipients/仕事を requested task. 頼む request preserved rather than asserting accomplished delegation; Japanese number unspecified allows plural.",
+        "transitivity": "を object of figurative professional 育てる; に request recipients/仕事を requested task. 頼む request preserved rather than asserting accomplished delegation; Japanese number unspecified allows plural.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. を object of figurative professional 育てる; に request recipients/仕事を requested task. 頼む request preserved rather than asserting accomplished delegation; Japanese number unspecified allows plural.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 22; Waller list N1 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-722; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1abf1dcbd3cb3ddd638a12eeb79c0cbab9dbc791ea05f7883247c88a56863357",
+        "approvalHash": "941a1a43a1d74ad94f20861bec9bdf1708a455a6ce2bb0ffaabaecfa28a803fc"
+      }
+    },
+    {
+      "id": "vocab-n5:723",
+      "revisionId": "levels-2026-11-vocab-n5-723",
+      "state": "accepted",
+      "predecessorHash": "98d851a98e7b8a6a609691bcc217e055f791c731944415f2b30fcac942f1cf94",
+      "originalHash": "98d851a98e7b8a6a609691bcc217e055f791c731944415f2b30fcac942f1cf94",
+      "predecessorRevisionHash": "79296232c8c70c099799cbc33f4749ede664782eaa159201a5782a7c7809aea0",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-723; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 21; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:723",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Genki I & II (3rd edition) vocabulary with lesson numbers (jackiewkr/genki1-vocab)",
+          "version": "genki1vocab.csv SHA256 50db4f05efff107fd460ac76b81527ce739a1f1001e5b981a79b2d3893d07b25",
+          "attribution": "Vocabulary of Genki (The Japan Times), compiled by jackiewkr; no licence stated, cited only",
+          "locator": "https://github.com/jackiewkr/genki1-vocab; Genki II, lesson 21 (exact match)",
+          "finding": "同僚 is taught in Genki II lesson 21 (Lessons 0-12 (Genki I) = N5, lessons 13-23 (Genki II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1172; JMdict entry 1453580",
+          "finding": "同僚 (どうりょう) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1589",
+          "finding": "同僚 (どうりょう) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@192526264: 同僚/ドウリョウ, Lemma 同僚, 名詞/普通名詞/一般/*, */*, aType 0. 1453580/1 coworker/colleague unrestricted, exact whole noun0. Duplicate lunch sentence replaced with received work assistance.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@192526264",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 同僚/ドウリョウ, 名詞/普通名詞/一般/*, */*, aType 0. 1453580/1 coworker/colleague unrestricted, exact whole noun0. Duplicate lunch sentence replaced with received work assistance.",
+            "match": {
+              "word": "同僚",
+              "reading": "どうりょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "同僚 als Kollege"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Kollege — 1453580/1 coworker/colleague unrestricted, exact whole noun0. Duplicate lunch sentence replaced with received work assistance.",
+        "japanese": "同僚と昼ご飯を食べます。 / 同僚に仕事を手伝ってもらいました。 — と shared meal versus に helper with を work object and 手伝ってもらう received favor polite past. dōryō longōs/tetsudatte sokuon checked.",
+        "romanization": "Dōryō to hirugohan o tabemasu. / Dōryō ni shigoto o tetsudatte moraimashita. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort dōryō ebenfalls geprüft.",
+        "translation": "Ich esse mit Kollegen zu Mittag. / Ich habe von einem Kollegen Hilfe bei der Arbeit bekommen. — と shared meal versus に helper with を work object and 手伝ってもらう received favor polite past. dōryō longōs/tetsudatte sokuon checked.",
+        "contexts": [
+          "Mittagessen mit Kollegen",
+          "Hilfe bei der Arbeit erhalten"
+        ],
+        "lexical": "1453580/1 coworker/colleague unrestricted, exact whole noun0. Duplicate lunch sentence replaced with received work assistance.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. と shared meal versus に helper with を work object and 手伝ってもらう received favor polite past. dōryō longōs/tetsudatte sokuon checked.",
+        "transitivity": "と shared meal versus に helper with を work object and 手伝ってもらう received favor polite past. dōryō longōs/tetsudatte sokuon checked.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. と shared meal versus に helper with を work object and 手伝ってもらう received favor polite past. dōryō longōs/tetsudatte sokuon checked.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Genki II lesson 21; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-723; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "89ffc2bdbd0c2b323cd221142b1bff80d2374a6255649da24c5b709158705fcf",
+        "approvalHash": "3165f0677631617d79a3576ad5c4d3a221689ae612ed1b3f3f5890c240b805ca"
+      }
+    },
+    {
+      "id": "vocab-n5:726",
+      "revisionId": "levels-2026-11-vocab-n5-726",
+      "state": "accepted",
+      "predecessorHash": "3e709b24e847fc8f09eb7ea4ed343b48750b8d1f33fcba77e7c1f95f03818c4d",
+      "originalHash": "3e709b24e847fc8f09eb7ea4ed343b48750b8d1f33fcba77e7c1f95f03818c4d",
+      "predecessorRevisionHash": "ef0220f8759c71c7674df37c0bbb1383beb232a3d9af26022cfd04fd56306845",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-726; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:726",
+          "finding": "N5 → N4 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n4.csv SHA256 a14dcc7fdc02259b22331a486c6ff66df74c16472c8aeb5a0ebe7e5fa8ee8eb4",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n4.csv#L221; JMdict entry 1274820",
+          "finding": "公務員 (こうむいん) is listed at N4 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n4.csv SHA256 0e835f40a8d2a1f191d7aa499076002756fa099b95634758376f43c73793e9f6",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n4.csv#L273",
+          "finding": "公務員 (こうむいん) is listed at N4 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Saved OJAD exact 公務員 cell こ/う/む/い/ん has accent_top on third mora む: whole noun3.",
+        "evidence": [
+          {
+            "source": "OJAD — University of Tokyo",
+            "version": "Saved whole-form UTF-8 HTML SHA256 9020e68a3668c9f466e338a18c43e37815cac9bb20ab5b809df5dc87112f717e",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%AC%E5%8B%99%E5%93%A1#dictionary-form",
+            "attribution": "OJAD, University of Tokyo; accent facts cited without copying audio",
+            "patterns": [
+              3
+            ],
+            "finding": "Saved OJAD exact 公務員 cell こ/う/む/い/ん has accent_top on third mora む: whole noun3.",
+            "match": {
+              "word": "公務員",
+              "reading": "こうむいん",
+              "grammaticalForm": "Nomen; exact complete dictionary form",
+              "sense": "公務員 als Beschäftigte(r) im öffentlichen Dienst"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Beschäftigte(r) im öffentlichen Dienst — 1274820/1 public/government employee; broader than German Beamter alone. Exact OJAD complete five-mora noun third む3; no 公務-base inference.",
+        "japanese": "公務員になりたいです。 / 兄は公務員です。 — に+なる+たい wish versus 兄 own older brother occupational copula; no invented specific governmental function. kōmuin macro verified.",
+        "romanization": "Kōmuin ni naritai desu. / Ani wa kōmuin desu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort kōmuin ebenfalls geprüft.",
+        "translation": "Ich möchte im öffentlichen Dienst arbeiten. / Mein älterer Bruder ist im öffentlichen Dienst beschäftigt. — に+なる+たい wish versus 兄 own older brother occupational copula; no invented specific governmental function. kōmuin macro verified.",
+        "contexts": [
+          "Berufswunsch öffentlicher Dienst",
+          "Bestehende Beschäftigung des älteren Bruders"
+        ],
+        "lexical": "1274820/1 public/government employee; broader than German Beamter alone. Exact OJAD complete five-mora noun third む3; no 公務-base inference.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. に+なる+たい wish versus 兄 own older brother occupational copula; no invented specific governmental function. kōmuin macro verified.",
+        "transitivity": "に+なる+たい wish versus 兄 own older brother occupational copula; no invented specific governmental function. kōmuin macro verified.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. に+なる+たい wish versus 兄 own older brother occupational copula; no invented specific governmental function. kōmuin macro verified.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N4 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-726; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "3db23d417c9addc326c797e378c7d72bc3493c24bdafcad0e2529a03e82954f1",
+        "approvalHash": "b28520c630972f2e04debf4fa9f140845f4f151969987dd2b7c0c9e48b455c41"
+      }
+    },
+    {
+      "id": "vocab-n5:727",
+      "revisionId": "levels-2026-11-vocab-n5-727",
+      "state": "accepted",
+      "predecessorHash": "ee34d1b189749f4e1f85a380a75ca3f78e98d30a681f8f6f19e78050f9b9ca0f",
+      "originalHash": "ee34d1b189749f4e1f85a380a75ca3f78e98d30a681f8f6f19e78050f9b9ca0f",
+      "predecessorRevisionHash": "5fa29ee14f94ee5574d9866623885e0965c7a1a76f283b91d7d69bd7352eade8",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069a-full-n5-727; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 28; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:727",
+          "finding": "N5 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 28 (exact match)",
+          "finding": "給料 is taught in Minna no Nihongo II lesson 28 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L404; JMdict entry 1230360",
+          "finding": "給料 (きゅうりょう) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L745",
+          "finding": "給料 (きゅうりょう) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@106004303: 給料/キュウリョウ, Lemma 給料, 名詞/普通名詞/一般/*, */*, aType 1. 1230360/1 salary/wages/pay, unrestricted precise employed remuneration. Exact plain 給料1 not inferred 給料日 compound accent.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@106004303",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exakte Form 給料/キュウリョウ, 名詞/普通名詞/一般/*, */*, aType 1. 1230360/1 salary/wages/pay, unrestricted precise employed remuneration. Exact plain 給料1 not inferred 給料日 compound accent.",
+            "match": {
+              "word": "給料",
+              "reading": "きゅうりょう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "給料 als Gehalt"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gehalt — 1230360/1 salary/wages/pay, unrestricted precise employed remuneration. Exact plain 給料1 not inferred 給料日 compound accent.",
+        "japanese": "給料日は25日です。 / 来月から給料が上がります。 — Calendar25 nijūgo-nichi, は payday identification versus から starting month/が remuneration subject of intransitive 上がる future. kyūryō longū/ō faithful.",
+        "romanization": "Kyūryōbi wa nijūgo-nichi desu. / Raigetsu kara kyūryō ga agarimasu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft.",
+        "translation": "Der Zahltag ist der 25. / Ab nächstem Monat steigt das Gehalt. — Calendar25 nijūgo-nichi, は payday identification versus から starting month/が remuneration subject of intransitive 上がる future. kyūryō longū/ō faithful.",
+        "contexts": [
+          "Zahltag nennen",
+          "Beginn einer Gehaltserhöhung"
+        ],
+        "lexical": "1230360/1 salary/wages/pay, unrestricted precise employed remuneration. Exact plain 給料1 not inferred 給料日 compound accent.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. Calendar25 nijūgo-nichi, は payday identification versus から starting month/が remuneration subject of intransitive 上がる future. kyūryō longū/ō faithful.",
+        "transitivity": "Calendar25 nijūgo-nichi, は payday identification versus から starting month/が remuneration subject of intransitive 上がる future. kyūryō longū/ō faithful.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. Calendar25 nijūgo-nichi, は payday identification versus から starting month/が remuneration subject of intransitive 上がる future. kyūryō longū/ō faithful.",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 28; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069a-full-n5-727; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "63693799c21efcb651bf16ce8a7b45c97404e97c67a4ab161fb45a1eb61abd82",
+        "approvalHash": "8425aa6ff89efe79e68f2b99ae708f22beb8b1cc3605c80e9b79b510685ff0ec"
+      }
+    },
+    {
+      "id": "vocab-n5:728",
+      "revisionId": "levels-2026-11-vocab-n5-728",
+      "state": "accepted",
+      "predecessorHash": "27afbda27d43ca0080473f0105b516a9a6577010b614352a96017fc24f7b8863",
+      "originalHash": "27afbda27d43ca0080473f0105b516a9a6577010b614352a96017fc24f7b8863",
+      "predecessorRevisionHash": "cd7ac8a408ebd8fac788d164a9dcc6c516c001bb18c81b90efee68f248ba8f6f",
+      "original": {
+        "level": "N5"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N5 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 069b-full-n5-728; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n5:728",
+          "finding": "N5 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L398; JMdict entry 1227720",
+          "finding": "休憩 (きゅうけい) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L738",
+          "finding": "休憩 (きゅうけい) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Genaue Gesamtform sys.dic@105845585: 休憩/キュウケイ, Lemma 休憩, 名詞/普通名詞/サ変可能/*, */*, aType 0. 1227720/1 break/rest, noun+suru intransitive. Exact nominal-suru UniDic0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@105845585",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exakte Form 休憩/キュウケイ, 名詞/普通名詞/サ変可能/*, */*, aType 0. 1227720/1 break/rest, noun+suru intransitive. Exact nominal-suru UniDic0.",
+            "match": {
+              "word": "休憩",
+              "reading": "きゅうけい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "休憩 als Pause"
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Pause — 1227720/1 break/rest, noun+suru intransitive. Exact nominal-suru UniDic0.",
+        "japanese": "休憩しましょう。 / 休憩は二時までです。 — Suru volitional しましょう invitation versus noun は time boundary まで. kyūkei longū and shimashō longō corrected; no break duration inferred.",
+        "romanization": "Kyūkei shimashō. / Kyūkei wa niji made desu. — Modified Hepburn: tatsächliche Lesungen, Makronen, sokuon, moraisches n und Partikeln wa/o/e einzeln geprüft. Kopfwort kyūkei ebenfalls geprüft.",
+        "translation": "Machen wir eine Pause. / Die Pause dauert bis zwei Uhr. — Suru volitional しましょう invitation versus noun は time boundary まで. kyūkei longū and shimashō longō corrected; no break duration inferred.",
+        "contexts": [
+          "Gemeinsame Pause vorschlagen",
+          "Ende einer Pause nennen"
+        ],
+        "lexical": "1227720/1 break/rest, noun+suru intransitive. Exact nominal-suru UniDic0.",
+        "register": "Neutraler Alltagsgebrauch mit höflichen Aussagen, Fragen oder Bitten. Suru volitional しましょう invitation versus noun は time boundary まで. kyūkei longū and shimashō longō corrected; no break duration inferred.",
+        "transitivity": "Suru volitional しましょう invitation versus noun は time boundary まで. kyūkei longū and shimashō longō corrected; no break duration inferred.",
+        "conjugation": "Vorhandene Kartenwortart erhalten; nominale Rollen und begleitende Verb-/Adjektivformen einzeln geprüft. Suru volitional しましょう invitation versus noun は time boundary まで. kyūkei longū and shimashō longō corrected; no break duration inferred.",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 069b-full-n5-728; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ff4afcd75e7ba0e4deeeaf5c255f95b0e299bafe1b9b0446e09b906dfcddaa63",
+        "approvalHash": "9ebecc52798203cbd754a3ca5ad526cc1ba92a158d34ae27e8c8884418d048ee"
+      }
+    }
+  ]
+}

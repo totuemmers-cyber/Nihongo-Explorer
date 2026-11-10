@@ -48314,7 +48314,7 @@ window.VOCAB_N2 = [
     "meaning": "Mücke, Stechmücke",
     "type": "Nomen",
     "category": "Natur",
-    "level": "N2",
+    "level": "N4",
     "notes": "Einsilbiges Nomen; der Kontext unterscheidet es von der Fragepartikel か. „Von einer Mücke gestochen werden“ heißt 蚊に刺される.",
     "examples": [
       {
@@ -49374,7 +49374,7 @@ window.VOCAB_N2 = [
     "meaning": "Poster, Plakat",
     "type": "Nomen",
     "category": "Medien",
-    "level": "N2",
+    "level": "N4",
     "notes": "Plakat zur Werbung oder Information, auch Poster als Wandschmuck: ポスターを貼る (aufhängen).",
     "examples": [
       {
@@ -49443,7 +49443,7 @@ window.VOCAB_N2 = [
     "meaning": "Bonus, Sonderzahlung",
     "type": "Nomen",
     "category": "Finanzen",
-    "level": "N2",
+    "level": "N4",
     "notes": "In Japan meist zweimal im Jahr (Sommer und Winter) zusätzlich zum Monatsgehalt gezahlt; formell 賞与.",
     "examples": [
       {
@@ -49614,7 +49614,7 @@ window.VOCAB_N2 = [
     "meaning": "so lala, einigermaßen; na, na (beschwichtigend)",
     "type": "Adverb",
     "category": "Eigenschaften",
-    "level": "N2",
+    "level": "N4",
     "notes": "„Nicht gut, nicht schlecht“: 味はまあまあだ. Als Ausruf beschwichtigend: まあまあ、落ち着いて (na, na, beruhig dich).",
     "examples": [
       {
@@ -49754,7 +49754,7 @@ window.VOCAB_N2 = [
     "meaning": "sich verabreden (an einem Ort), sich treffen",
     "type": "Verb",
     "category": "Handlung",
-    "level": "N3",
+    "level": "N2",
     "notes": "Sich zu einer vereinbarten Zeit an einem Ort treffen: 駅で友達と待ち合わせる. Nomen: 待ち合わせ (Verabredung, Treffpunkt).",
     "examples": [
       {
@@ -50120,7 +50120,7 @@ window.VOCAB_N2 = [
     "meaning": "Marathon",
     "type": "Nomen",
     "category": "Sport",
-    "level": "N2",
+    "level": "N4",
     "notes": "Langstreckenlauf über 42,195 km, auch allgemein Langlauf: マラソン大会 (Marathonlauf, Schullauf).",
     "examples": [
       {
@@ -51219,7 +51219,7 @@ window.VOCAB_N2 = [
     "meaning": "Wasserkessel",
     "type": "Nomen",
     "category": "Wohnen",
-    "level": "N2",
+    "level": "N4",
     "notes": "Kessel zum Wasserkochen; meist in Kana, Kanji 薬缶. やかんでお湯を沸かす.",
     "examples": [
       {
@@ -51414,7 +51414,7 @@ window.VOCAB_N2 = [
     "meaning": "Kerl, Typ; Ding",
     "type": "Nomen",
     "category": "Menschen",
-    "level": "N2",
+    "level": "N1",
     "notes": "Umgangssprachlich und oft abwertend für eine Person (あいつは嫌な奴だ), aber auch für Dinge: もっと安いやつ (ein billigeres Ding). Meist in Kana.",
     "examples": [
       {
@@ -52200,7 +52200,7 @@ window.VOCAB_N2 = [
     "meaning": "Mittagessen; Mittagsmenü",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N4",
+    "level": "N2",
     "notes": "Mittagessen, besonders im Restaurant: ランチメニュー, 日替わりランチ (Tagesmenü). Neutral: 昼ご飯.",
     "examples": [
       {
@@ -52456,7 +52456,7 @@ window.VOCAB_N2 = [
     "meaning": "Wohnheim",
     "type": "Nomen",
     "category": "Wohnen",
-    "level": "N2",
+    "level": "N4",
     "notes": "Wohnheim für Studierende oder Angestellte: 学生寮, 社員寮. Gleich klingend: 量, 両.",
     "examples": [
       {
@@ -52564,7 +52564,7 @@ window.VOCAB_N2 = [
     "meaning": "Freizeitgestaltung, Erholung",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Gemeinsame Spiele und Aktivitäten zur Erholung, etwa in Firmen oder Schulen: レクリエーションの時間. Auch レクリェーション geschrieben.",
     "examples": [
       {
@@ -52777,7 +52777,7 @@ window.VOCAB_N2 = [
     "meaning": "lateinische Schrift; Romaji (Umschrift des Japanischen)",
     "type": "Nomen",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N4",
     "notes": "Japanisch in lateinischen Buchstaben, z. B. für Namen oder die Computereingabe (ローマ字入力).",
     "examples": [
       {
@@ -53131,7 +53131,7 @@ window.VOCAB_N2 = [
     "meaning": "(günstige) Gelegenheit, Zeitpunkt",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N2",
+    "level": "N4",
     "notes": "Allein vor allem in festen Wendungen: 機が熟す (die Zeit ist reif), 機を逃す (die Gelegenheit verpassen), 機を見る (den richtigen Moment abwarten). Als Suffix auch „Maschine“ (洗濯機) und „Flugzeug“ (旅客機).",
     "examples": [
       {
@@ -53173,7 +53173,7 @@ window.VOCAB_N2 = [
     "meaning": "Gerät, Instrument, Apparat",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N2",
+    "level": "N3",
     "notes": "Meist kleinere Geräte und Instrumente ohne eigenen Antrieb, etwa in Medizin, Labor oder Sport (器械体操 = Geräteturnen). Große, angetriebene Maschinen heißen 機械（きかい）.",
     "examples": [
       {
@@ -54392,7 +54392,7 @@ window.VOCAB_N2 = [
     "meaning": "Reinigung (Wäscherei), chemische Reinigung",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N4",
     "notes": "Meist die professionelle Reinigung: クリーニングに出す (in die Reinigung geben); das Geschäft heißt クリーニング屋.",
     "examples": [
       {
@@ -55828,7 +55828,7 @@ window.VOCAB_N2 = [
     "meaning": "Kurs, Strecke; Menü (Gänge)",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N2",
+    "level": "N4",
     "notes": "Route (マラソンのコース), Lehrgang (初級コース) oder Menü mit mehreren Gängen (フルコース). Die Bahn im Schwimmbad heißt ebenfalls コース.",
     "examples": [
       {
@@ -56172,7 +56172,7 @@ window.VOCAB_N2 = [
     "meaning": "Marineblau, Dunkelblau",
     "type": "Nomen",
     "category": "Farben",
-    "level": "N2",
+    "level": "N4",
     "notes": "Dunkles Blau, typisch für Schuluniformen und Anzüge: 紺のスーツ. Auch 紺色.",
     "examples": [
       {
@@ -56944,7 +56944,7 @@ window.VOCAB_N2 = [
     "meaning": "Büroangestellter, Angestellter",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N2",
+    "level": "N4",
     "notes": "In Japan gebildetes Wort (aus salary + man) für Angestellte mit festem Gehalt, besonders in Firmenbüros. Neutraler: 会社員.",
     "examples": [
       {
@@ -59788,7 +59788,7 @@ window.VOCAB_N2 = [
     "meaning": "Unterhose; Hose",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N4",
     "notes": "Traditionell die Unterhose; in der Mode auch die (Damen-)Hose (ワイドパンツ). Die Hose allgemein heißt sonst ズボン.",
     "examples": [
       {
@@ -60528,7 +60528,7 @@ window.VOCAB_N2 = [
     "meaning": "Datum, Tag (eines Termins); Anzahl der Tage",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N2",
+    "level": "N4",
     "notes": "Der Tag eines geplanten Ereignisses (日にちを決める) oder die Anzahl der verbleibenden Tage (日にちがない).",
     "examples": [
       {
@@ -61510,7 +61510,7 @@ window.VOCAB_N2 = [
     "meaning": "Seepost, Versand per Schiff",
     "type": "Nomen",
     "category": "Kommunikation",
-    "level": "N2",
+    "level": "N4",
     "notes": "Versand mit dem Schiff, billiger aber langsamer als 航空便 (Luftpost).",
     "examples": [
       {
@@ -62239,7 +62239,7 @@ window.VOCAB_N2 = [
     "meaning": "nicht-, un-; Fehler, Unrecht",
     "type": "Partikel",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N1",
     "notes": "非 ist vor allem eine verneinende Vorsilbe vor sino-japanischen Nomen: 非常識 „unvernünftig, rücksichtslos“, 非公式 „inoffiziell“, 非喫煙者 „Nichtraucher“. Anders als bei 不 oder 無 hängt es am einzelnen Wort, welche Vorsilbe passt (不可能, 無責任, 非常識) – man muss sie mitlernen. Als eigenständiges Nomen bedeutet 非 „Fehler, Unrecht“ und steht in festen Wendungen wie 自分の非を認める „seinen Fehler eingestehen“ oder 非の打ち所がない „tadellos, makellos“.",
     "examples": [
       {
@@ -62271,7 +62271,7 @@ window.VOCAB_N2 = [
     "meaning": "und dann noch; außerdem",
     "type": "Ausdruck",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N3",
     "notes": "Umgangssprachliche Konjunktion am Satzanfang, um etwas nachzutragen: „und noch etwas“. Nicht verwechseln mit それとも („oder“ in Fragen).",
     "examples": [
       {
@@ -62319,7 +62319,7 @@ window.VOCAB_N2 = [
     "meaning": "wenn das so ist; dann",
     "type": "Ausdruck",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N4",
     "notes": "Zieht eine Folgerung aus dem, was der andere gerade gesagt hat. Umgangssprachlich auch じゃあ oder それじゃ.",
     "examples": [
       {
@@ -62343,7 +62343,7 @@ window.VOCAB_N2 = [
     "meaning": "Reifen",
     "type": "Nomen",
     "category": "Verkehr",
-    "level": "N2",
+    "level": "N4",
     "notes": "Reifen von Auto oder Fahrrad. Die Schreibung タイア ist selten. Reifenpanne: パンク.",
     "examples": [
       {
@@ -63085,7 +63085,7 @@ window.VOCAB_N2 = [
     "meaning": "sich überschneiden; doppelt vorkommen",
     "type": "Verb",
     "category": "Zustand",
-    "level": "N2",
+    "level": "N1",
     "notes": "Umgangssprachliches Godan-Verb aus ダブル: Termine überschneiden sich (予定がダブる), etwas ist doppelt vorhanden; auch „eine Klasse wiederholen“.",
     "examples": [
       {
@@ -64594,7 +64594,7 @@ window.VOCAB_N2 = [
     "meaning": "Besorgung; Bote",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Ein Auftrag, etwas zu holen oder zu überbringen, und die Person, die ihn ausführt. Höflich/kindlich: お使い (Besorgung).",
     "examples": [
       {
@@ -69091,7 +69091,7 @@ window.VOCAB_N2 = [
     "meaning": "Kaugummi",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N2",
+    "level": "N4",
     "notes": "Kurz für チューインガム: ガムをかむ (Kaugummi kauen).",
     "examples": [
       {
@@ -69298,7 +69298,7 @@ window.VOCAB_N2 = [
     "meaning": "Konserve, Dosennahrung",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N2",
+    "level": "N4",
     "notes": "Lebensmittel in der Dose: ツナの缶詰. Übertragen: 缶詰になる (irgendwo festsitzen, z. B. zum Arbeiten eingeschlossen sein).",
     "examples": [
       {
@@ -70172,7 +70172,7 @@ window.VOCAB_N2 = [
     "meaning": "Schönschreiben, Kalligraphie (als Übung)",
     "type": "Nomen",
     "category": "Bildung",
-    "level": "N2",
+    "level": "N4",
     "notes": "Das Üben von Schriftzeichen mit Pinsel oder Stift; an Grundschulen Teil des Unterrichts. Die Kunstform heißt eher 書道.",
     "examples": [
       {
@@ -70602,7 +70602,7 @@ window.VOCAB_N2 = [
     "meaning": "-förmig, -artig; Schreiben, Brief (Suffix)",
     "type": "Partikel",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N1",
     "notes": "Suffix mit zwei Bedeutungen: Form oder Zustand (液状 = flüssig, 粉状 = pulverförmig) und Schriftstück (招待状 = Einladung, 年賀状 = Neujahrskarte).",
     "examples": [
       {
@@ -71278,7 +71278,7 @@ window.VOCAB_N2 = [
     "meaning": "Falte, Knitterfalte",
     "type": "Nomen",
     "category": "Körper",
-    "level": "N2",
+    "level": "N1",
     "notes": "Falten in der Haut (目じりのしわ) und in Stoff oder Papier: しわになる (knittern), しわを伸ばす (glätten). Kanji: 皺 (selten).",
     "examples": [
       {
@@ -72113,7 +72113,7 @@ window.VOCAB_N2 = [
     "meaning": "Start, Beginn",
     "type": "Nomen",
     "category": "Handlung",
-    "level": "N2",
+    "level": "N4",
     "notes": "Als Verb スタートする (starten, beginnen). スタートライン = Startlinie.",
     "examples": [
       {
@@ -73450,7 +73450,7 @@ window.VOCAB_N2 = [
     "meaning": "und dann, und so; auf diese Weise",
     "type": "Ausdruck",
     "category": "Sprache",
-    "level": "N2",
+    "level": "N4",
     "notes": "そうして verbindet einen Ablauf im Sinn von „und so, und dann“. Es kann auch auf die zuvor beschriebene Art verweisen: そうしてできた生地 ist der so entstandene Teig. 然うして ist eine seltene Wörterbuchschreibung; üblich ist die Kanaform そうして.",
     "examples": [
       {
@@ -73895,7 +73895,7 @@ window.VOCAB_N2 = [
     "meaning": "gesamt, General- (Präfix)",
     "type": "Partikel",
     "category": "Zahlen",
-    "level": "N2",
+    "level": "N1",
     "notes": "Präfix vor Nomen im Sinne von „gesamt, alle“: 総人口 (Gesamtbevölkerung), 総選挙 (Parlamentswahl), 総額 (Gesamtbetrag).",
     "examples": [
       {
@@ -74157,7 +74157,7 @@ window.VOCAB_N2 = [
     "meaning": "Netz",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N1",
     "notes": "Netz zum Fangen oder Grillen: 魚を網でとる, 網で焼く. Übertragen auch Netzwerk (in Zusammensetzungen: 通信網).",
     "examples": [
       {
@@ -75235,7 +75235,7 @@ window.VOCAB_N2 = [
     "meaning": "ähm, also, lass mich überlegen",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N2",
+    "level": "N4",
     "notes": "Füllwort, während man nachdenkt; auch えーと geschrieben. Ähnlich: あのう (beim Ansprechen).",
     "examples": [
       {
@@ -75277,7 +75277,7 @@ window.VOCAB_N2 = [
     "meaning": "lebhaft, aktiv",
     "type": "Adjektiv",
     "category": "Eigenschaften",
-    "level": "N2",
+    "level": "N1",
     "notes": "な-Adjektiv: 活発な子ども, 活発な議論 (lebhafte Diskussion), 活発に活動する.",
     "examples": [
       {
@@ -75319,7 +75319,7 @@ window.VOCAB_N2 = [
     "meaning": "Kategorie",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N2",
+    "level": "N1",
     "notes": "Auch カテゴリ geschrieben. 〜のカテゴリーに入る (zur Kategorie … gehören).",
     "examples": [
       {
@@ -75361,7 +75361,7 @@ window.VOCAB_N2 = [
     "meaning": "Comeback",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Als Verb カムバックする (ein Comeback feiern).",
     "examples": [
       {
@@ -75407,7 +75407,7 @@ window.VOCAB_N2 = [
     "meaning": "Krankenakte, Patientenkarte",
     "type": "Nomen",
     "category": "Medizin",
-    "level": "N2",
+    "level": "N1",
     "notes": "Aus dem Deutschen „Karte“. Heute oft elektronisch: 電子カルテ.",
     "examples": [
       {
@@ -75449,7 +75449,7 @@ window.VOCAB_N2 = [
     "meaning": "eintauchen, einweichen",
     "type": "Verb",
     "category": "Handlung",
-    "level": "N2",
+    "level": "N4",
     "notes": "Transitiv: etwas in Flüssigkeit legen (水に浸ける). Gleich gelesen wie 漬ける (einlegen, marinieren), das vor allem für eingelegtes Essen steht. Intransitives Gegenstück: 浸かる (eingetaucht sein).",
     "examples": [
       {
@@ -75995,7 +75995,7 @@ window.VOCAB_N2 = [
     "meaning": "Messgerät; Zähler (meist メーター)",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N2",
+    "level": "N4",
     "notes": "メートル hat neben der Längeneinheit eine belegte Bedeutung als Messgerät oder Zähler. Für solche Geräte ist heute meist メーター üblich, etwa ガスメーター. Die Bezeichnung メートル検査員 meint jemanden, der Messgeräte prüft; sie enthält hier keine Angabe einer Länge. Die seltene Schreibung 米 kann laut Wörterbuch auch diese Bedeutung tragen. Übe zunächst die Katakanaform und achte in älteren oder fachlichen Texten auf den Zusammenhang.",
     "examples": [
       {
@@ -76227,7 +76227,7 @@ window.VOCAB_N2 = [
     "meaning": "ausatmen, seufzen; eine Lüge erzählen",
     "type": "Verb",
     "category": "Handlung",
-    "level": "N2",
+    "level": "N1",
     "notes": "Die Lesung つく verwendet man unter anderem in 息をつく „Atem holen, ausatmen“, ため息をつく „seufzen“ und 嘘をつく „lügen“. Häufig schreibt man das Verb in diesen Wendungen in Kana. Das Ausgeatmete oder die Lüge steht mit を. Die Godan-Formen lauten つきます, ついて, ついた. Für „sich übergeben“ ist die andere Lesung はく die gewöhnliche Wahl; diese Karte übt die Wendungen mit Atem und Lügen.",
     "examples": [
       {
@@ -76400,7 +76400,7 @@ window.VOCAB_N2 = [
     "meaning": "selten; gelegentlich (mit の oder な)",
     "type": "Adjektiv",
     "category": "Häufigkeit",
-    "level": "N2",
+    "level": "N3",
     "notes": "たま beschreibt etwas, das nur selten vorkommt. Vor einem Nomen steht häufig の, etwa たまの休み „ein seltener freier Tag“; auch たまなこと „etwas Seltenes“ ist möglich. Die Schreibung 偶 ist ungebräuchlich, meist schreibt man Hiragana. Das längere たまに bedeutet als Adverb „gelegentlich“; „gerade Zahl“ heißt dagegen 偶数（ぐうすう）.",
     "examples": [
       {
@@ -76809,7 +76809,7 @@ window.VOCAB_N2 = [
     "meaning": "-Halten, -Besitz; auf Kosten von (nominale Endung)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N1",
     "notes": "持ち（もち）bezeichnet hier das Halten, Benutzen oder Besitzen und die Übernahme einer Aufgabe oder eines Aufwands. Nach einem Nomen bildet es nominale Verbindungen: 片手持ち „mit einer Hand halten“, 二台持ち „Besitz von zwei Geräten“ und 私持ち „auf meine Kosten“. Die Partikel folgt dem ganzen Ausdruck. 費用は私持ちだ nennt die Person, die zahlt. Diese Karte behandelt solche nominalen Verbindungen, nicht die Verbform 持ち aus 持つ. Die eigenständigen Bedeutungen „Haltbarkeit“ und „Unentschieden“ haben separate Karten.",
     "examples": [
       {
@@ -76841,7 +76841,7 @@ window.VOCAB_N2 = [
     "meaning": "Haltbarkeit, Lebensdauer; Dauer der Wirkung",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N1",
     "notes": "持ち（もち）bezeichnet hier als selbstständiges Nomen, wie lange Qualität, Funktion oder Wirkung erhalten bleiben. 持ちがいい heißt „hält lange“, 持ちが悪い „hält nicht lange“. Das Wort wird etwa für Akkus, Kleidung oder Lebensmittel verwendet. Es bezeichnet keine Besitzperson und ist hier keine angehängte Endung. 保ち ist eine gelegentliche Schreibung für diese Bedeutung. Im jeweiligen Zusammenhang muss klar sein, welche Eigenschaft erhalten bleibt.",
     "examples": [
       {
@@ -77034,7 +77034,7 @@ window.VOCAB_N2 = [
     "meaning": "usw., und dergleichen (Suffix, schriftsprachlich); Klasse, Rang (z. B. 一等) (Zähleinheitswort)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N2",
+    "level": "N1",
     "notes": "Als Suffix „usw.“ steht 等 in Nachrichten, Formularen und Gesetzestexten und wird dort とう gelesen (東京、大阪等); in der Alltagssprache sagt man dafür など (eigene Karte), das in Kana geschrieben wird. Als Zähleinheitswort bezeichnet 〜等 Klassen und Ränge: 一等 „erster Preis, erste Klasse“, 二等, 三等賞. Nicht verwechseln mit 〜等々 „und so weiter“ und mit 等 als Pluralsuffix ら (彼等).",
     "examples": [
       {
@@ -77067,7 +77067,7 @@ window.VOCAB_N2 = [
     "meaning": "Gebühr, Entgelt (Suffix, z. B. 入場料); Material (Suffix, z. B. 材料)",
     "type": "Partikel",
     "category": "Geld",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜料 bildet Wörter für Gebühren: 入場料 „Eintritt“, 授業料 „Studiengebühr“, 送料 „Versandkosten“, 手数料 „Bearbeitungsgebühr“; dazu 無料 „kostenlos“ und 有料 „kostenpflichtig“. In 材料 und 調味料 bedeutet es „Stoff, Material“. Ähnliche Suffixe sind 〜代 (電気代), 〜費 (交通費) und 〜賃 (家賃); allein steht 料 kaum.",
     "examples": [
       {
@@ -77100,7 +77100,7 @@ window.VOCAB_N2 = [
     "meaning": "usw., und so weiter (Suffix, schriftsprachlich)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N2",
+    "level": "N4",
     "notes": "等々 schließt eine Aufzählung ab und betont, dass es noch mehr gibt (パン、飲み物等々); es wirkt schriftlich und etwas nachdrücklicher als 〜等. Gesprochen sagt man meist など oder verdoppelt などなど, das ebenfalls 等々 geschrieben werden kann. Nicht verwechseln mit dem gleich klingenden Adverb とうとう „endlich, schließlich“ (eigene Karte), das nie 等々 geschrieben wird.",
     "examples": [
       {
@@ -77387,7 +77387,7 @@ window.VOCAB_N2 = [
     "meaning": "richtig, wahr (Logik); positiv (Mathematik); regulär, Haupt- (Gegensatz zu 副)",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N2",
+    "level": "N3",
     "notes": "Formelles, eher fachsprachliches Substantiv: in der Mathematik 正の数 „positive Zahl“ (Gegensatz 負の数), in der Logik „wahr“, in der Verwaltungssprache 正副 „Original und Kopie“ bzw. „Haupt- und Stellvertreter-“. Im Alltag begegnet es vor allem in Komposita wie 正社員 „Festangestellter“ oder 正解 „richtige Antwort“. Nicht verwechseln mit den Homophonen 背 „Körpergröße“, 姓 „Familienname“ und 〜製 „hergestellt in“.",
     "examples": [
       {
@@ -77434,7 +77434,7 @@ window.VOCAB_N2 = [
     "meaning": "Leben, Dasein",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N2",
+    "level": "N3",
     "notes": "Gehobenes, schriftsprachliches Wort für „Leben“ im philosophischen Sinn, vor allem im Gegensatz 生と死 „Leben und Tod“ und in der Wendung この世に生を受ける „geboren werden“. Im Alltag sagt man 命 „Leben (das man verlieren kann)“ oder 人生 „Lebenslauf, Leben“. Dasselbe Zeichen gelesen なま (vocab-n3:3325) bedeutet „roh, frisch, live“, gelesen き (N1-Karten) „pur, unverdünnt“; als Suffix せい kennt man es aus 一年生 „Schüler des ersten Jahrgangs“.",
     "examples": [
       {
@@ -77481,7 +77481,7 @@ window.VOCAB_N2 = [
     "meaning": "Herauskommen, Ausfluss; Herkunft, Abstammung; (Suffix) Absolvent von",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N3",
     "notes": "出 (で) ist das Nomen zum Verb 出る: „Herauskommen, Ausfluss“ (水の出が悪い „das Wasser kommt schlecht“), das Aufgehen von Sonne und Mond (日の出, eigene Karte) und „Herkunft“ (農家の出 „aus einer Bauernfamilie“). Nach Schul- oder Ortsnamen bedeutet es als Suffix „Absolvent von, stammend aus“ (東大出); neutraler sind 出身 und 卒業. Nicht verwechseln mit der Partikel で.",
     "examples": [
       {
@@ -77532,7 +77532,7 @@ window.VOCAB_N2 = [
     "meaning": "tock, klopf (leichtes Klopfen, Aufsetzen)",
     "type": "Adverb",
     "category": "Lautmalerei",
-    "level": "N2",
+    "level": "N3",
     "notes": "とん ist lautmalerisch für ein kurzes, leichtes Klopfen oder Aufsetzen und steht meist mit と: 肩をとんとたたく „leicht auf die Schulter tippen“, とんと置く. Verdoppelt (とんとん) beschreibt es wiederholtes Klopfen, das dumpfere, schwerere Geräusch ist どん. Nicht verwechseln mit der Katakana-Karte トン „Tonne“ und dem Adverb とんと „überhaupt nicht“.",
     "examples": [
       {
@@ -77579,7 +77579,7 @@ window.VOCAB_N2 = [
     "meaning": "Licht, Lampe",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N3",
     "notes": "灯 (ひ) ist ein eher schriftsprachliches Wort für künstliches Licht, das Licht einer Lampe: 町の灯, 灯がともる „ein Licht geht an“, 灯を消す. In Liedern und Literatur häufig; im Alltag sagt man meist 明かり/灯り (あかり, eigene Karten) oder 電気. Gleich gelesen ist 火 „Feuer“, doch 灯 meint immer leuchtendes Licht.",
     "examples": [
       {
@@ -77830,7 +77830,7 @@ window.VOCAB_N2 = [
     "meaning": "offen, unverhohlen, unverblümt",
     "type": "Adjektiv",
     "category": "Eigenschaften",
-    "level": "N2",
+    "level": "N1",
     "notes": "na-Adjektiv für etwas, das offen und ohne Verhüllung gezeigt wird, oft mit negativem Beigeschmack: あからさまな嘘 „dreiste Lüge“, あからさまに嫌な顔をする, あからさまな差別. Wird fast immer in Kana geschrieben; die Schreibung 明白 ist Ateji und wird normalerweise めいはく gelesen (Karte 明白 „offensichtlich, klar“, sachlich-neutral). あからさま beschreibt dagegen meist ein Verhalten, das jemand nicht verbirgt.",
     "examples": [
       {
@@ -77880,7 +77880,7 @@ window.VOCAB_N2 = [
     "meaning": "Umstände, Hintergrund, wie es dazu kam",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "いきさつ ist eine Sonderlesung von 経緯 und bezeichnet die Umstände, wie es zu etwas kam: 事件のいきさつ, いきさつを説明する, どういういきさつで „wie kam es, dass …“. Die Karte 経緯/けいい hat dieselbe Schreibung und Bedeutung, klingt aber sachlich-formell (Berichte, Nachrichten); いきさつ ist alltäglicher und betont oft persönliche Hintergründe. Weil 経緯 meist けいい gelesen wird, schreibt man いきさつ fast immer in Kana.",
     "examples": [
       {
@@ -77930,7 +77930,7 @@ window.VOCAB_N2 = [
     "meaning": "Überzeugung, Gewissheit",
     "type": "Nomen",
     "category": "Gefühle",
-    "level": "N2",
+    "level": "N1",
     "notes": "確信 ist die feste Überzeugung, dass etwas sicher so ist: 確信がある „sich sicher sein“, 確信を持つ „überzeugt sein“, 確信が深まる „die Überzeugung wird fester“. Der Inhalt steht meist mit という davor (成功するという確信). Das Verb 確信する „fest überzeugt sein“ hat eine eigene Karte. Nicht verwechseln mit den gleich klingenden 核心 „Kern (einer Sache)“ und 革新 „Innovation“.",
     "examples": [
       {
@@ -77977,7 +77977,7 @@ window.VOCAB_N2 = [
     "meaning": "-raum, -zone, -kreis, -sphäre (Suffix)",
     "type": "Partikel",
     "category": "Geographie",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜圏 bildet Wörter für einen Raum oder Bereich, der durch etwas bestimmt ist: 英語圏 „englischsprachiger Raum“, 首都圏 „Großraum Tokio“, 北極圏 „Arktis, nördlicher Polarkreis“, 大気圏 „Atmosphäre“. Beim Handy bedeutet 圏外 „kein Netz“, 圏内 „im Empfangsbereich“. Allein wird 圏 kaum gebraucht; nicht verwechseln mit den gleich klingenden 〜県 „Präfektur“ und 〜権 „Recht“.",
     "examples": [
       {
@@ -78010,7 +78010,7 @@ window.VOCAB_N2 = [
     "meaning": "Recht (auf etw.), Befugnis, Macht (Suffix)",
     "type": "Partikel",
     "category": "Recht",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜権 bildet Wörter für ein Recht oder eine Befugnis: 選挙権 „Wahlrecht“, 著作権 „Urheberrecht“, 所有権 „Eigentumsrecht“, 人権 „Menschenrechte“. In der Bedeutung „Macht, Gewalt“ steht es in 政権 „Regierungsmacht“ oder 主導権 „Führungsrolle, Initiative“. Das allgemeine Wort für „Recht“ ist 権利 (eigene Karte); 権 selbst steht fast nur als Wortbestandteil. Nicht verwechseln mit den gleich klingenden 〜県 und 〜圏.",
     "examples": [
       {
@@ -78043,7 +78043,7 @@ window.VOCAB_N2 = [
     "meaning": "Gefühle, Emotion; Stimmung, Atmosphäre (Lesevariante von じょうちょ)",
     "type": "Nomen",
     "category": "Gefühle",
-    "level": "N2",
+    "level": "N1",
     "notes": "じょうしょ ist die ursprüngliche Lesung von 情緒; heute ist im Alltag じょうちょ (eigene Karte) deutlich üblicher, beide sind korrekt und bedeuten dasselbe. じょうしょ hört man vor allem in Fachsprache wie Psychologie und Pädagogik (情緒障害, 情緒の発達) und in förmlicher Rede. Typische Verbindungen sind 情緒が不安定だ „emotional instabil“ und 〜の情緒が残る „die Atmosphäre von … ist erhalten“.",
     "examples": [
       {
@@ -78090,7 +78090,7 @@ window.VOCAB_N2 = [
     "meaning": "Menge, Betrag, Volumen; als Suffix 〜だか (売上高, 生産高)",
     "type": "Nomen",
     "category": "Wirtschaft",
-    "level": "N2",
+    "level": "N1",
     "notes": "Als Suffix wird 高 meist だか gelesen und bezeichnet eine Menge oder Summe: 売上高 „Umsatz“, 生産高 „Produktionsmenge“, 残高 „Kontostand“ (eigene Karte). Allein steht たか vor allem in der Wendung 高が知れている „ist begrenzt, nicht der Rede wert“, davon kommt auch das Adverb たかが „bloß“. Nicht verwechseln mit dem Adjektiv 高い „hoch, teuer“ oder dem Homophon 鷹 „Falke“.",
     "examples": [
       {
@@ -78554,7 +78554,7 @@ window.VOCAB_N2 = [
     "meaning": "(das Gesicht) vergraben, bedecken, versenken; (dicht) füllen (会場を埋める)",
     "type": "Verb",
     "category": "Handlung",
-    "level": "N2",
+    "level": "N1",
     "notes": "Eigener Eintrag neben 埋める/うめる: うめる ist das Alltagswort für „vergraben, auffüllen“, うずめる klingt ausdrucksvoller und steht vor allem in 顔をうずめる, 骨をうずめる „sein Leben lang an einem Ort bleiben“ und 群衆が広場をうずめる. Wegen der Doppellesung wird es oft in Kana geschrieben. Intransitives Gegenstück ist 埋まる/うずまる.",
     "examples": [
       {
@@ -78609,7 +78609,7 @@ window.VOCAB_N2 = [
     "meaning": "Schild, Etikett, Marke; Spielkarte; Talisman, Amulett (お札)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N1",
     "notes": "Kleines Schild oder Kärtchen zum Kennzeichnen: 札を掛ける, 札を下げる; in Komposita bleibt die Lesung ふだ: 名札, 値札, 荷札, 番号札. お札 ist doppeldeutig: おふだ „Talisman vom Schrein“ vs. おさつ „Geldschein“ (Karte 札/さつ) – der Kontext entscheidet.",
     "examples": [
       {
@@ -79748,7 +79748,7 @@ window.VOCAB_N2 = [
     "meaning": "Abteilung, Fachbereich (Suffix, z. B. 内科, 英文科); Studiengang; Familie (Biologie, z. B. ネコ科)",
     "type": "Partikel",
     "category": "Bildung",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜科 ist ein produktives Suffix für Fachabteilungen: im Krankenhaus (内科 „Innere Medizin“, 外科 „Chirurgie“, 小児科 „Kinderheilkunde“), an Schule und Universität für Studiengänge (英文科, 普通科) und in der Biologie für Familien (ネコ科, バラ科). Nicht verwechseln mit 課 (eigene Karte), das Lektionen und Abteilungen in Firmen und Behörden bezeichnet; Krankenhäuser und Universitäten haben 科. Verwandt ist 学科 „Fachbereich“.",
     "examples": [
       {
@@ -79781,7 +79781,7 @@ window.VOCAB_N2 = [
     "meaning": "Neufestsetzung, Revision (von Regeln, Preisen, Tarifen)",
     "type": "Nomen",
     "category": "Politik",
-    "level": "N2",
+    "level": "N1",
     "notes": "改定 ist die Neufestsetzung von Regeln, Preisen, Tarifen oder Gesetzen, typisch in 料金改定, 運賃改定, 価格改定 und 〜の改定を行う; 料金改定 ist oft ein Euphemismus für eine Preiserhöhung. Das Verb 改定する hat eine eigene Karte. Das gleich gelesene 改訂 (eigene Karte) meint dagegen die Überarbeitung eines Textes oder Buches (改訂版 „überarbeitete Auflage“); 海底 „Meeresboden“ ist nur ein Homophon.",
     "examples": [
       {
@@ -79828,7 +79828,7 @@ window.VOCAB_N2 = [
     "meaning": "Verbesserung, Optimierung, Weiterentwicklung",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N2",
+    "level": "N1",
     "notes": "改良 bezeichnet die Verbesserung von Produkten, Verfahren oder Sorten, typisch in 品種改良 „Züchtung“, 改良を加える „verbessern“ und 改良の余地がある „verbesserungsfähig sein“. Das Verb 改良する hat eine eigene Karte. Gegenüber 改善 „Verbesserung (von Zuständen, Abläufen)“ betont 改良 die technische Weiterentwicklung eines konkreten Gegenstands; 改革 ist dagegen die grundlegende Reform eines Systems.",
     "examples": [
       {
@@ -79922,7 +79922,7 @@ window.VOCAB_N2 = [
     "meaning": "Schule (Suffix, z. B. 進学校, 母校); Schulen (Zähleinheitswort, z. B. 全国200校); Korrekturabzug (初校, 再校)",
     "type": "Partikel",
     "category": "Bildung",
-    "level": "N2",
+    "level": "N1",
     "notes": "Suffix für Schulen in Wörtern wie 母校 „Alma Mater“, 出身校 „Schule, von der man kommt“, 進学校 „Gymnasium mit Uni-Ausrichtung“ und Zähleinheitswort für Schulen (3校, 48校 mit Lautveränderung はっこう). Im Verlagswesen bezeichnet es die Korrekturstufe: 初校 „erste Korrekturfahne“, 再校 „zweite Fahne“, vgl. 校正 „Korrekturlesen“. Allein steht für „Schule“ das Wort 学校; nicht verwechseln mit dem gleich klingenden Suffix 〜港 „Hafen“.",
     "examples": [
       {
@@ -79955,7 +79955,7 @@ window.VOCAB_N2 = [
     "meaning": "Befestigung, Fixierung; Festsetzung (z. B. 固定給, 固定電話)",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 固定する „befestigen“ (vocab-n2:543), sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費).",
     "examples": [
       {
@@ -80002,7 +80002,7 @@ window.VOCAB_N2 = [
     "meaning": "je, jede(r/s), alle (Suffix, z. B. 一時間ごと, 日ごとに)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N2",
+    "level": "N1",
     "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに, vocab-n3:2554); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“).",
     "examples": [
       {
@@ -80035,7 +80035,7 @@ window.VOCAB_N2 = [
     "meaning": "Verweis, Nachschlagen, Bezugnahme",
     "type": "Nomen",
     "category": "Bildung",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“ (vocab-n2:573), typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle.",
     "examples": [
       {
@@ -80082,7 +80082,7 @@ window.VOCAB_N2 = [
     "meaning": "Sammeln, Sammlung; (Müll-)Abholung",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 収集する „sammeln“ (vocab-n2:572), oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める.",
     "examples": [
       {
@@ -80132,7 +80132,7 @@ window.VOCAB_N2 = [
     "meaning": "Abgleich, Vergleich, Überprüfung",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 照合する „abgleichen“ (vocab-n2:552): Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht.",
     "examples": [
       {
@@ -80179,7 +80179,7 @@ window.VOCAB_N2 = [
     "meaning": "vorherig, Vorab-, im Voraus (事前の)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte (vocab-n2:1323). Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“ (vocab-n2:37).",
     "examples": [
       {
@@ -80226,7 +80226,7 @@ window.VOCAB_N2 = [
     "meaning": "Wahrheit, Wirklichkeit; Aufrichtigkeit; Substanz, Gehalt",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N2",
+    "level": "N1",
     "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte (vocab-n3:3281). 実/み (vocab-n3:correction:mi-fruit) ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen.",
     "examples": [
       {
@@ -80273,7 +80273,7 @@ window.VOCAB_N2 = [
     "meaning": "Gegnerschaft, Rivalität, Wettstreit, Widerstand",
     "type": "Nomen",
     "category": "Gesellschaft",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“ (vocab-n2:474), häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する, vocab-n2:1437; 対向車).",
     "examples": [
       {
@@ -80320,7 +80320,7 @@ window.VOCAB_N2 = [
     "meaning": "Verkürzung, Kürzung, Abkürzung",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv zum Verb 短縮する „verkürzen“ (vocab-n2:451), vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略.",
     "examples": [
       {
@@ -80367,7 +80367,7 @@ window.VOCAB_N2 = [
     "meaning": "Flucht, Entkommen, Ausbruch",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für das Entkommen aus einem geschlossenen Ort oder einer Gefahr, oft in Komposita: 脱出口 „Notausstieg“, 国外脱出, 脱出ゲーム „Escape Room“. Als Verb („entkommen“, 〜から脱出する) gibt es die eigene Karte 脱出する. Anders als das alltägliche 逃げる betont 脱出 das Herauskommen aus einer Notlage und klingt sachlich bis journalistisch.",
     "examples": [
       {
@@ -80414,7 +80414,7 @@ window.VOCAB_N2 = [
     "meaning": "voller …, übersät mit … (negativ) (Suffix, z. B. 間違いだらけ, 泥だらけ)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N2",
+    "level": "N1",
     "notes": "Wird direkt an ein Nomen gehängt und bedeutet „voller …, über und über mit …“, fast immer mit negativem Unterton: 間違いだらけ, 泥だらけ, 傷だらけ, 借金だらけ. Das Ergebnis verhält sich wie ein Nomen bzw. na-Adjektiv (〜だらけだ, 〜だらけの, 〜だらけになる). Neutral „voll mit“ wäre 〜でいっぱい; 〜まみれ betont dagegen etwas, das an der Oberfläche klebt (汗まみれ). Meist in Kana geschrieben.",
     "examples": [
       {
@@ -80464,7 +80464,7 @@ window.VOCAB_N2 = [
     "meaning": "Ankunft in … (Suffix, z. B. 東京着); Zähleinheitswort für Kleidungsstücke, Anzüge; n-ter Platz (z. B. 一着) (Zähleinheitswort)",
     "type": "Partikel",
     "category": "Zähleinheitswörter",
-    "level": "N2",
+    "level": "N1",
     "notes": "Nach Ort oder Uhrzeit bedeutet 〜着 „Ankunft“ und steht auf Fahrplänen als Gegenstück zu 〜発: 12時東京着. Als Zähleinheitswort zählt es Anzüge und Kleidungsstücke (スーツ一着, 二着) sowie Platzierungen im Rennen (一着 „Erster“); beachte いっちゃく für 一着. Nicht verwechseln mit dem Verb 着る (きる) und mit 到着, das die Ankunft als Vorgang bezeichnet.",
     "examples": [
       {
@@ -80497,7 +80497,7 @@ window.VOCAB_N2 = [
     "meaning": "Landung",
     "type": "Nomen",
     "category": "Verkehr",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für die Landung eines Flugzeugs oder Raumfahrzeugs, Gegenteil von 離陸 „Start“. Typisch in Komposita wie 着陸態勢, 緊急着陸, 月面着陸 und in Durchsagen an Bord. Das Verb „landen“ (〜に着陸する) lehrt die eigene Karte 着陸する.",
     "examples": [
       {
@@ -80591,7 +80591,7 @@ window.VOCAB_N2 = [
     "meaning": "Erreichen, Ankunft, Erlangung",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für das Erreichen eines Ziels, Punkts oder Niveaus, auch abstrakt; eher schriftsprachlich. Typisch in 到達点, 到達目標, 山頂への到達. Im Unterschied zu 到着 (Ankunft von Personen oder Verkehrsmitteln an einem Ort) betont 到達, dass ein Ziel nach einem Weg oder einer Anstrengung erreicht wird. Das Verb 〜に到達する hat eine eigene Karte.",
     "examples": [
       {
@@ -80638,7 +80638,7 @@ window.VOCAB_N2 = [
     "meaning": "Durchbruch; Überwindung; Überschreiten (einer Marke)",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für das Durchbrechen einer Sperre, das Überwinden einer Hürde und das Überschreiten einer Marke. Sehr häufig in 突破口 „Ansatzpunkt für einen Durchbruch“, 予選突破 und in Schlagzeilen wie 〜万人突破. Das Verb (〜を突破する) lehrt die eigene Karte 突破する.",
     "examples": [
       {
@@ -80689,7 +80689,7 @@ window.VOCAB_N2 = [
     "meaning": "Zustimmung, Einverständnis; gleiche Meinung; gleiche Bedeutung",
     "type": "Nomen",
     "category": "Kommunikation",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für die (oft formelle) Zustimmung oder Einwilligung: 同意を得る, 同意を求める, 同意書, 保護者の同意. Daneben „gleiche Bedeutung“ wie in 同意語 „Synonym“. 賛成 drückt eher Befürwortung eines Vorschlags aus, 同意 die Einwilligung, die auch rechtlich verlangt sein kann. Das Verb 〜に同意する hat eine eigene Karte.",
     "examples": [
       {
@@ -80736,7 +80736,7 @@ window.VOCAB_N2 = [
     "meaning": "Schwangerschaft, Empfängnis",
     "type": "Nomen",
     "category": "Gesundheit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für Schwangerschaft bzw. Empfängnis, sachlich-medizinisch: 妊娠中, 妊娠三か月, 妊娠検査. Verwandt sind 妊婦 (にんぷ, „Schwangere“) und 出産 („Geburt“). Das Verb „schwanger werden“ (妊娠する) lehrt die eigene Karte 妊娠する.",
     "examples": [
       {
@@ -80783,7 +80783,7 @@ window.VOCAB_N2 = [
     "meaning": "Verteilung, Austeilen",
     "type": "Nomen",
     "category": "Allgemein",
-    "level": "N2",
+    "level": "N1",
     "notes": "Substantiv für das Verteilen an viele Personen, sachlich und offiziell: 配布資料 „Handout“, 無料配布, チラシの配布. Im Alltag sagt man dafür eher das Verb 配る; 配達 meint dagegen die Zustellung an eine Adresse. Das Verb 〜を配布する hat eine eigene Karte.",
     "examples": [
       {
@@ -80834,7 +80834,7 @@ window.VOCAB_N2 = [
     "meaning": "Abfahrt ab …, von … abgehend (Suffix, z. B. 東京発, 8時発); Zähleinheitswort für Schüsse, Schläge (z. B. 一発)",
     "type": "Partikel",
     "category": "Verkehr",
-    "level": "N2",
+    "level": "N1",
     "notes": "Nach Ort oder Uhrzeit bedeutet 〜発 „ab, abgehend“: 8時発の電車, 博多発東京行き; Gegenstück ist 〜着. In Nachrichten heißt ロンドン発 „aus London gemeldet“. Als Zähleinheitswort zählt es Schüsse und Schläge, mit Lautwandel: 一発 (いっぱつ), 二発 (にはつ), 三発 (さんぱつ). Nicht verwechseln mit 初 (はつ, „erst-“) und 出発, das die Abfahrt als Vorgang bezeichnet.",
     "examples": [
       {
@@ -80867,7 +80867,7 @@ window.VOCAB_N2 = [
     "meaning": "herausgegeben von, Redaktion; Teil, Band, Kapitel (eines Werks) (Suffix)",
     "type": "Partikel",
     "category": "Medien",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜編 wird an Namen angehängt und bedeutet „herausgegeben von“ (山田編, 編集部編), oder es bezeichnet bzw. zählt Teile und Bände eines Werks (前編・後編, 第一編, 全五編). Das zugehörige Verb ist 編集する „redigieren, herausgeben“; 長編 „langes Werk“ ist ein festes Kompositum. Nicht verwechseln mit 辺/へん „Gegend“ und 変/へん „seltsam“ (eigene Karten).",
     "examples": [
       {
@@ -80900,7 +80900,7 @@ window.VOCAB_N2 = [
     "meaning": "Aufbewahrung, Verwahrung, Lagerung",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N2",
+    "level": "N1",
     "notes": "保管 ist das Nomen „Aufbewahrung, Verwahrung“; als Verb wird es zu 保管する (eigene Karte) mit を: 書類を保管する. Typische Verbindungen sind 保管場所, 保管期間, 冷蔵保管 und 保管料. Im Unterschied zu 保存 „Erhaltung, Speicherung (Daten, Lebensmittel)“ betont 保管, dass man wichtige oder fremde Dinge sicher in Obhut hält.",
     "examples": [
       {
@@ -80998,7 +80998,7 @@ window.VOCAB_N2 = [
     "meaning": "Zähleinheitswort für Fragen, Aufgaben (Zähleinheitswort)",
     "type": "Partikel",
     "category": "Zähleinheitswörter",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜問 zählt Fragen und Prüfungsaufgaben: 一問, 二問, 三問, 十問 usw.; dazu kommen 第1問 „Frage 1“, 全20問 „insgesamt 20 Fragen“ und die Wendung 一問一答 „Frage und Antwort“. Allein steht 問 kaum; die Frage als Nomen ist 問い (eigene Karte) oder 問題. Nicht verwechseln mit 門/もん „Tor“ (eigene Karte).",
     "examples": [
       {
@@ -81031,7 +81031,7 @@ window.VOCAB_N2 = [
     "meaning": "-Stil, -Art, -Weise; -Schule (Suffix)",
     "type": "Partikel",
     "category": "Art und Weise",
-    "level": "N2",
+    "level": "N1",
     "notes": "〜流 wird an Länder, Personen oder Namen gehängt und bedeutet „-Stil, nach Art von“ (日本流, アメリカ流, 自己流, 我流) oder bezeichnet eine Schule in traditionellen Künsten wie Ikebana, Teezeremonie oder Kampfkunst (小原流). Als selbstständiges Nomen kommt 流 kaum vor; in Komposita wie 一流 „erstklassig“, 交流 „Austausch“ oder 電流 „Strom“ hat es andere Bedeutungen. Ein ähnliches, etwas weicheres Suffix für „Stil, Art“ ist 〜風.",
     "examples": [
       {
@@ -81130,7 +81130,7 @@ window.VOCAB_N2 = [
     "meaning": "Verhältnis, Rate; zehn Prozent (1割 = 10 %); Zuteilung; (Suffix) Rabatt, verdünnt mit",
     "type": "Nomen",
     "category": "Zahlen",
-    "level": "N2",
+    "level": "N1",
     "notes": "割 bezeichnet ein Verhältnis und vor allem Zehntel: 1割 = 10 %, 3割 = 30 %; so drückt man in Japan oft Anteile (8割の人) und Rabatte (2割引き) aus. In Wendungen wie 割に合わない „sich nicht lohnen“ und 〜の割に „dafür, dass …“ steckt dasselbe Wort. Als Suffix bei Getränken heißt 〜割り „verdünnt mit“ (水割り, お湯割り). Das allgemeine Wort für „Anteil, Verhältnis“ ist 割合 (eigene Karte).",
     "examples": [
       {
@@ -82055,7 +82055,7 @@ window.VOCAB_N2 = [
     "meaning": "-straße, -viertel (Suffix, z. B. 商店街, 住宅街, 中華街)",
     "type": "Partikel",
     "category": "Verkehr",
-    "level": "N2",
+    "level": "N1",
     "notes": "Nachsilbe, die an Nomen tritt und Straßen oder Viertel mit einem bestimmten Charakter bezeichnet: 商店街 „Einkaufsstraße“, 住宅街 „Wohnviertel“, 中華街 „Chinatown“, 繁華街 „Vergnügungsviertel“. Allein stehend wird 街 まち gelesen (Karte 町/まち, dort als Schreibvariante 街); die Lesung がい kommt nur in solchen Komposita vor. Nicht verwechseln mit 〜外/がい „außerhalb von“ und 害/がい „Schaden“.",
     "examples": [
       {
@@ -82088,7 +82088,7 @@ window.VOCAB_N2 = [
     "meaning": "normal, regulär; Normalzustand",
     "type": "Adjektiv",
     "category": "Zustand",
-    "level": "N2",
+    "level": "N1",
     "notes": "Na-Adjektiv und Nomen, Gegenteil von 異常 „anormal“: 正常に動く „normal funktionieren“, 正常な値 „Normalwert“, 正常に戻る „sich normalisieren“. Typisch für Technik, Medizin und Nachrichten; im Alltag sagt man über Menschen oder Dinge eher 普通. 通常 bedeutet dagegen „gewöhnlich, regulär (im Ablauf)“, etwa 通常営業 „regulärer Betrieb“.",
     "examples": [
       {
@@ -82135,7 +82135,7 @@ window.VOCAB_N2 = [
     "meaning": "eintönig, monoton; Eintönigkeit",
     "type": "Adjektiv",
     "category": "Eigenschaften",
-    "level": "N2",
+    "level": "N1",
     "notes": "Na-Adjektiv für etwas ohne Abwechslung: 単調な仕事 „eintönige Arbeit“, 単調な生活, 単調なリズム; als Nomen 単調さ. Es beschreibt die Sache selbst, während 退屈 (たいくつ) das Gefühl der Langeweile betont. Nicht verwechseln mit dem Homophon 短調 „Moll“; in der Mathematik bedeutet 単調増加 „monoton steigend“.",
     "examples": [
       {
@@ -82182,7 +82182,7 @@ window.VOCAB_N2 = [
     "meaning": "gewöhnlich, normalerweise, im Alltag; seit langem",
     "type": "Adverb",
     "category": "Zeit",
-    "level": "N2",
+    "level": "N1",
     "notes": "Bezeichnet den gewohnten Alltag im Gegensatz zu besonderen Anlässen: 日頃から „schon im Alltag, stets“, 日頃の努力 „die tägliche Mühe“. Feste Formel in Geschäftsbriefen: 日頃のご愛顧に感謝申し上げます. Etwas schriftsprachlicher als 普段 (eigene Karte), das im Gespräch üblicher ist; 日ごろ ist eine häufige Mischschreibung.",
     "examples": [
       {
@@ -82232,7 +82232,7 @@ window.VOCAB_N2 = [
     "meaning": "weit davon entfernt, im Gegenteil; geschweige denn, ganz zu schweigen von",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N2",
+    "level": "N1",
     "notes": "Steht nach Nomen oder Verb/Adjektiv in Grundform: AどころかB bedeutet entweder „statt A sogar das Gegenteil B“ (褒められるどころか叱られた) oder „nicht einmal B, geschweige denn A“ (旅行どころか休みも取れない). Fast immer in Kana geschrieben. Am Satzanfang steht stattdessen das Bindewort それどころか („im Gegenteil“), das eine eigene Karte hat.",
     "examples": [
       {

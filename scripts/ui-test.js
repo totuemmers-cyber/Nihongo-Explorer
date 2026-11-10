@@ -274,8 +274,25 @@ async function run() {
     assert(roe && price && roe!==price);
     vocab.dom.search.value='いくら';vocab.applyFilters();
     assert(vocab.filteredItems.includes(roe) && vocab.filteredItems.includes(price),'Homophone search lost a distinct sense');
+    // Both senses are N5 since the level calibration, on independent evidence: the price
+    // question is on the JLPT list, the roe card is an editorial estimate.
     vocab.filters.level='N5';vocab.applyFilters();
-    assert(vocab.filteredItems.includes(roe) && !vocab.filteredItems.includes(price),'Separate level estimates were collapsed');
+    assert(vocab.filteredItems.includes(roe) && vocab.filteredItems.includes(price),'Calibrated N5 senses missing');
+    const evidenceSelect=d.getElementById('vocab-evidence-select');
+    assert.equal(evidenceSelect.closest('label').querySelector('span').textContent,'Level-Beleg');
+    evidenceSelect.value='estimate';evidenceSelect.dispatchEvent(new w.Event('change',{bubbles:true}));
+    assert(vocab.filteredItems.includes(roe) && !vocab.filteredItems.includes(price),'Separate level evidence was collapsed');
+    assert(d.querySelector('#vocab-controls .filter-summary-text').textContent.includes('Geschätzte Level'));
+    evidenceSelect.value='backed';evidenceSelect.dispatchEvent(new w.Event('change',{bubbles:true}));
+    assert(!vocab.filteredItems.includes(roe) && vocab.filteredItems.includes(price),'Backed-level filter is wrong');
+    evidenceSelect.value='all';evidenceSelect.dispatchEvent(new w.Event('change',{bubbles:true}));
+    vocab.config.openDetail(price,vocab.dom,vocab);
+    assert(d.getElementById('vocab-detail-level-source').textContent.startsWith('Level-Quelle: '),'Level source missing');
+    assert(!d.getElementById('vocab-detail-level').classList.contains('estimated'));
+    vocab.config.openDetail(roe,vocab.dom,vocab);
+    assert(d.getElementById('vocab-detail-level-source').textContent.includes('geschätzt'),'Estimate note missing');
+    assert(d.getElementById('vocab-detail-level').classList.contains('estimated'));
+    vocab.closeDetail();
     w.location.hash='#vocab/'+encodeURIComponent(roe.id);
     await until(()=>vocab.selectedItem?.id===roe.id && vocab.isOverlayOpen(),'new addition deep link');
     assert.equal(d.querySelectorAll('#vocab-detail-pitch .pitch-svg').length,2);

@@ -36759,7 +36759,7 @@ window.VOCAB_N5 = [
     "meaning": "Fremdsprache",
     "type": "Nomen",
     "category": "Sprache",
-    "level": "N5",
+    "level": "N4",
     "notes": "外国 (Ausland) + 語 (Sprache). „Eine Fremdsprache lernen“: 外国語を勉強する／学ぶ.",
     "examples": [
       {
@@ -37095,7 +37095,7 @@ window.VOCAB_N5 = [
     "meaning": "Entschuldigung; verzeihen Sie (die Störung)",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N5",
+    "level": "N4",
     "notes": "Höfliche Entschuldigung für eine kleine Störung oder einen Fehler, auch beim Verlassen eines Raumes (z. B. des Lehrerzimmers). Präsens 失礼します beim Betreten.",
     "examples": [
       {
@@ -37342,7 +37342,7 @@ window.VOCAB_N5 = [
     "meaning": "Orange (Frucht); Orange (Farbe)",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N5",
+    "level": "N3",
     "notes": "Frucht und Farbe; als Farbe auch オレンジ色. Mandarinen heißen みかん.",
     "examples": [
       {
@@ -39133,7 +39133,7 @@ window.VOCAB_N5 = [
     "meaning": "höfliche oder ehrerbietige Vorsilbe",
     "type": "Nomen",
     "category": "Höflichkeit und Wortbildung",
-    "level": "N5",
+    "level": "N4",
     "notes": "御 wird in dieser Verwendung ご gelesen und meist in Kana geschrieben. Die Vorsilbe macht ein Wort höflicher oder drückt Achtung aus: ご住所, ご家族, ご連絡. Sie steht häufig vor Wörtern chinesischen Ursprungs; man kann sie aber nicht beliebig jedem Nomen hinzufügen. In ご連絡ありがとうございます gilt der Dank der Nachricht der anderen Person. お ist eine verwandte Vorsilbe mit anderen üblichen Verbindungen.",
     "examples": [
       {
@@ -39586,7 +39586,7 @@ window.VOCAB_N5 = [
     "meaning": "Nahttrenner",
     "type": "Nomen",
     "category": "Nähen und Werkzeuge",
-    "level": "N5",
+    "level": "N3",
     "notes": "リッパー bezeichnet hier einen Nahttrenner zum Durchtrennen von Nähfäden. Man verwendet ihn etwa, um eine falsch genähte Naht aufzutrennen oder einen Knopf zu lösen. Mit リッパーで nennt man das verwendete Werkzeug. Das kleine ッ verdoppelt den folgenden p-Laut, und ー verlängert den letzten Vokal: rippā. Andere Fachgebiete verwenden dasselbe Lehnwort für andere Geräte oder Software.",
     "examples": [
       {
@@ -39800,7 +39800,7 @@ window.VOCAB_N5 = [
     "meaning": "vorgestern (Lesung いっさくじつ)",
     "type": "Nomen",
     "category": "Zeitangaben",
-    "level": "N5",
+    "level": "N3",
     "notes": "一昨日 wird hier いっさくじつ gelesen und nennt den Tag vor gestern. Diese chinesisch-japanische Lesung passt etwa zu einer schriftlichen Mitteilung oder einem Bericht; im alltäglichen Gespräch ist おととい üblich. Beide Lesungen bezeichnen denselben Tag. 一昨日の nennt etwas von diesem Tag, 一昨日から einen Beginn an diesem Tag. Das kleine っ verdoppelt den s-Laut: issakujitsu.",
     "examples": [
       {
@@ -39853,7 +39853,7 @@ window.VOCAB_N5 = [
     "meaning": "vor zwei Jahren; Vorvorjahr (Lesung いっさくねん)",
     "type": "Nomen",
     "category": "Zeitangaben",
-    "level": "N5",
+    "level": "N3",
     "notes": "一昨年 wird hier いっさくねん gelesen und bedeutet das Jahr vor dem letzten Jahr, also vor zwei Jahren. Die Lesung passt etwa zu Berichten und Rückblicken; im alltäglichen Gespräch ist おととし üblich. 一昨年の ordnet etwas diesem Jahr zu. 一昨年から nennt einen Beginn vor zwei Jahren. Gemeint ist das Kalenderjahr, nicht unbedingt ein Abstand von genau 24 Monaten. Das kleine っ verdoppelt den s-Laut: issakunen.",
     "examples": [
       {
@@ -40016,7 +40016,7 @@ window.VOCAB_N5 = [
     "meaning": "höfliche oder ehrerbietige Vorsilbe, meist vor japanischen Wörtern (Präfix, z. B. お茶, お名前)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N5",
+    "level": "N3",
     "notes": "Höfliche Vorsilbe vor Nomen und Adjektiven, meist vor japanischstämmigen Wörtern: お茶, お金, お名前, お元気. Vor sinojapanischen Wörtern steht meist ご (御/ご, eigene Karte): ご家族, ご連絡; Ausnahmen wie お電話 und お時間 sind aber häufig. Auch Teil der Bescheidenheitsform お＋Verbstamm＋する (お持ちします). Fast immer in Kana; das Kanji 御 sieht man vor allem in formellen Texten.",
     "examples": [
       {
@@ -40080,7 +40080,7 @@ window.VOCAB_N5 = [
     "meaning": "ungefähr, etwa (nach einer Menge); so sehr, dass; mindestens (stimmhafte Form von くらい)",
     "type": "Partikel",
     "category": "Zahlen",
-    "level": "N5",
+    "level": "N3",
     "notes": "Stimmhafte Variante der Partikel くらい (dasselbe Wort, eigene Karte くらい). Nach Mengen- und Zeitangaben bedeutet sie „etwa, ungefähr“ (三十分ぐらい); nach Nomen „wenigstens, zumindest“ (挨拶ぐらいしなさい), nach Verben und Adjektiven „so sehr, dass“ (泣きたいぐらい). Nach Nomen und Zahlen ist ぐらい etwas häufiger, nach この/その/あの eher くらい; meist sind beide austauschbar. Für Uhrzeiten verwendet man dagegen ごろ (三時ごろ).",
     "examples": [
       {

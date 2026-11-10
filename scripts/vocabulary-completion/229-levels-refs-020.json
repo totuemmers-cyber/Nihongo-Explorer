@@ -1,0 +1,1709 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "魂|こん",
+      "referenceIndex": 0,
+      "referenceHash": "b24d5b640dda78e3148cbad35b96197cca06c046df4202df8ac8bebc642bf4ca",
+      "revisionId": "levels-2026-11-reference-魂|こん-0",
+      "state": "accepted",
+      "predecessorHash": "cb198e24dc50f3f4f54a4ebd3511694f5e685cdf19cc0addcc162cb4059932da",
+      "predecessorRevisionHash": "7d05e43e12afc2f5ab15873adfc18f749a9c42664f10bce78a9f55b237718157",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1972"
+      ],
+      "targetHashes": {
+        "vocab-n2:1972": "0efddff02084aef5feb5207f9f3316ad0071ca6389cf4a1f38d797162da600da"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:1972 N2→N1). Original reason: TANOS row 魂/こん 'soul, spirit'. JMdict 2177300 魂【こん】 'spirit; Yang energy' is the on-reading word used as a suffix (商魂, 闘魂, 大和魂). Reviewed card vocab-n2:1972 〜魂/こん 'Seele' teaches exactly this spelling and reading in suffix notation, so the bare form 魂 is added as alias (as 港 on 〜港). vocab-n2:83 魂/たましい is a different reading.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 b24d5b640dda78e3148cbad35b96197cca06c046df4202df8ac8bebc642bf4ca",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=60",
+          "finding": "魂/こん glossed \"soul, spirit\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2177300; 魂/こん",
+          "finding": "n spirit; Yang energy - same spelling and reading as card 〜魂/こん"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:1972 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "ab6a91ead519beb0b72fa5bf8d8675ee682a95a00d16ff0fe238fc10367027a5",
+        "approvalHash": "ab6a91ead519beb0b72fa5bf8d8675ee682a95a00d16ff0fe238fc10367027a5"
+      }
+    },
+    {
+      "key": "魂|こん",
+      "referenceIndex": 1,
+      "referenceHash": "4415705edd80458d62ef4e137f54ffdc46a2bec0189be792f006a338163a706c",
+      "revisionId": "levels-2026-11-reference-魂|こん-1",
+      "state": "accepted",
+      "predecessorHash": "9e44bfde2b39253bd214d397097c0adb8f59fe697443ef1d039d8b227f1917e7",
+      "predecessorRevisionHash": "331174eb910875777f1b94ddd3bf08c8c499c3a2fd12d9981941277021ec238e",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:1972"
+      ],
+      "targetHashes": {
+        "vocab-n2:1972": "0efddff02084aef5feb5207f9f3316ad0071ca6389cf4a1f38d797162da600da"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:1972 N2→N1). Original reason: Nihongo Master row 魂/こん 'Yang energy; spirit' - same as TANOS: JMdict 2177300 魂【こん】; card vocab-n2:1972 〜魂/こん gets alias 魂.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 4415705edd80458d62ef4e137f54ffdc46a2bec0189be792f006a338163a706c",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=7",
+          "finding": "魂/こん glossed \"Yang energy; spirit; (n) Seele\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2177300; 魂/こん",
+          "finding": "identical spelling and reading"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:1972 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "492ed1e26788df84c542e18ddf65629b24a1c53efdbfd97a761857194f1f439c",
+        "approvalHash": "492ed1e26788df84c542e18ddf65629b24a1c53efdbfd97a761857194f1f439c"
+      }
+    },
+    {
+      "key": "御|ご",
+      "referenceIndex": 0,
+      "referenceHash": "b82fbc2ac3c85165d27b8b22dfa41ecc915f3489e9d75d2636116984af3d0fb6",
+      "revisionId": "levels-2026-11-reference-御|ご-0",
+      "state": "accepted",
+      "predecessorHash": "6fc9bc82bb7aa4cffa545fb5578229916e4c741235c970dadfacca376c677077",
+      "predecessorRevisionHash": "aa59e1956d2d37961b01ff2e384c25f3fef48bb79e467efbe087b2689343990f",
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:go-honorific-prefix"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:go-honorific-prefix": "294a03c828f0c536030e88a9ee22e76636adc1c8aaeade3ac6d6bce023165ecf"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n5:correction:go-honorific-prefix N5→N4). Original reason: Exact literal missing reading/role, source-compatible selected senses with individual natural contexts; other-reading/homophone cards preserved. Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270190; spelling=御; reading=ご; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "selected": {
+            "sequence": "1270190",
+            "spelling": "御",
+            "reading": "ご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language",
+                  "humble (kenjougo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "honorific/polite/humble prefix"
+                ],
+                "notes": [
+                  "usu. before a term with an on-yomi reading"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role."
+        },
+        {
+          "source": "Actual global word/reading/alias and grammatical-role inspection",
+          "version": "Actual current prepare() inventory personally read2026-10-04",
+          "locator": "scripts/vocabulary-completion.json#candidates/御|ご",
+          "finding": "Exact selected reading/role absent across all runtime heads/aliases, including placeholder removal and combined-reading splits. Existing other-reading/homophone IDs remain. Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role."
+        },
+        {
+          "source": "Actual frozen original literal publisher reference",
+          "version": "Reference SHA256 b82fbc2ac3c85165d27b8b22dfa41ecc915f3489e9d75d2636116984af3d0fb6",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=61",
+          "finding": "tanos N1 御/ご; exact original gloss go-, honourable. Exact literal missing reading/role, source-compatible selected senses with individual natural contexts; other-reading/homophone cards preserved."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n5:correction:go-honorific-prefix N5→N4); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "0df44701f7755702e9a008582cada23cc03c75ab2f05e9408075117c9240b675",
+        "approvalHash": "0df44701f7755702e9a008582cada23cc03c75ab2f05e9408075117c9240b675"
+      }
+    },
+    {
+      "key": "御|ご",
+      "referenceIndex": 1,
+      "referenceHash": "651da5901f2d047a7d345b72eabfd7a83890c23b78a9beb197cd5e57dc62455d",
+      "revisionId": "levels-2026-11-reference-御|ご-1",
+      "state": "accepted",
+      "predecessorHash": "59ebfcb3142c6371afc9871ddab037dd157c379a43a0c87ec3a470e9fa1fa709",
+      "predecessorRevisionHash": "fb36b9ed128943f0293ed5373b36fc56a7a450f4eda0d48ee31e85467668aab3",
+      "disposition": "added",
+      "targets": [
+        "vocab-n5:correction:go-honorific-prefix"
+      ],
+      "targetHashes": {
+        "vocab-n5:correction:go-honorific-prefix": "294a03c828f0c536030e88a9ee22e76636adc1c8aaeade3ac6d6bce023165ecf"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n5:correction:go-honorific-prefix N5→N4). Original reason: Exact literal missing reading/role, source-compatible selected senses with individual natural contexts; other-reading/homophone cards preserved. Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270190; spelling=御; reading=ご; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "selected": {
+            "sequence": "1270190",
+            "spelling": "御",
+            "reading": "ご",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "prefix"
+                ],
+                "misc": [
+                  "honorific or respectful (sonkeigo) language",
+                  "polite (teineigo) language",
+                  "humble (kenjougo) language",
+                  "word usually written using kana alone"
+                ],
+                "gloss": [
+                  "honorific/polite/humble prefix"
+                ],
+                "notes": [
+                  "usu. before a term with an on-yomi reading"
+                ],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role."
+        },
+        {
+          "source": "Actual global word/reading/alias and grammatical-role inspection",
+          "version": "Actual current prepare() inventory personally read2026-10-04",
+          "locator": "scripts/vocabulary-completion.json#candidates/御|ご",
+          "finding": "Exact selected reading/role absent across all runtime heads/aliases, including placeholder removal and combined-reading splits. Existing other-reading/homophone IDs remain. Coarse app type Nomen for selected honorific prefix; exact bound grammatical role stays explicit in notes/source, not a Japanese particle. Actual1270190/1 honorific/polite/humble prefix usually before on-yomi term, uk; suffix2 not selected. Actual exact prefix御126232159 andご126231933 bothaType*, no bare numeric accent. Reject nominal御 row126231550, aType1, 五1/後0/語1 and full-prefixed OJADwords, which do not attest bare prefix. Kanaalias qualified only to prefix with stable senseKey, no free noun/different-reading alias. Natural敬語 contact and address contexts actually teach the role."
+        },
+        {
+          "source": "Actual frozen original literal publisher reference",
+          "version": "Reference SHA256 651da5901f2d047a7d345b72eabfd7a83890c23b78a9beb197cd5e57dc62455d",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "master N5 御/ご; exact original gloss honourable; honorable; go-. Exact literal missing reading/role, source-compatible selected senses with individual natural contexts; other-reading/homophone cards preserved."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n5:correction:go-honorific-prefix N5→N4); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "a42acb0d7060731af9172db941b2018393a3e4a79921d25760c6ef6ff21bb7ee",
+        "approvalHash": "a42acb0d7060731af9172db941b2018393a3e4a79921d25760c6ef6ff21bb7ee"
+      }
+    },
+    {
+      "key": "毎|ごと",
+      "referenceIndex": 0,
+      "referenceHash": "84784e1b97385bd8c0b70b836423876405c6bd1482d74169fbb26035722416d6",
+      "revisionId": "levels-2026-11-reference-毎|ごと-0",
+      "state": "accepted",
+      "predecessorHash": "cbba50496a40718373745fa25f60f7424af09305a54f56ba34092699180a5eb1",
+      "predecessorRevisionHash": "8dc5f4f2ad121c6a4afac28aed4a5cb1ddc60d5ce240983afb402f5d4d7a3c5b",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:goto-each-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:goto-each-suffix": "ab7392dca3cc783e485856315d61828d9913bf6a1d6740b0ae0e4d65dd4a4cd4"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:goto-each-suffix N2→N1). Original reason: TANOS row 毎/ごと 'each respectively'. JMdict 1524640 毎【ごと】 (n,n-suf,adv; uk) 'each; every'. The only related card is vocab-n3:2554 〜毎に/ごとに 'je, alle', whose reading ごとに differs, so no alias is possible; ごと also occurs without に (三日ごとの点検, 一雨ごと). A suffix card 〜ごと with alias 毎 is added; cards with 毎 read まい (毎日 etc.) are different words.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 84784e1b97385bd8c0b70b836423876405c6bd1482d74169fbb26035722416d6",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=62",
+          "finding": "毎/ごと glossed \"each respectively\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1524640; 毎/ごと",
+          "finding": "uk n-suf each; every"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 毎|ごと",
+          "finding": "only 〜毎に/ごとに exists (different reading)"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:goto-each-suffix N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "91bfb2a1de35aceecef3cedd929949fe66bea4963b2ee09b020690424a33112e",
+        "approvalHash": "91bfb2a1de35aceecef3cedd929949fe66bea4963b2ee09b020690424a33112e"
+      }
+    },
+    {
+      "key": "毎|ごと",
+      "referenceIndex": 1,
+      "referenceHash": "622f2607f6fd277a8f2a57a5d242aa1cdde505d0ff63ad57d29d45667e04b2a6",
+      "revisionId": "levels-2026-11-reference-毎|ごと-1",
+      "state": "accepted",
+      "predecessorHash": "6a36297213c3ac4bf0d7cb7a2c80f30616aeb33c85763a3c522281f342c11ad0",
+      "predecessorRevisionHash": "d48d91b1c4b9caa8fa3dc3ffe37144e5efd934943a884eec518a540d728912c5",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:goto-each-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:goto-each-suffix": "ab7392dca3cc783e485856315d61828d9913bf6a1d6740b0ae0e4d65dd4a4cd4"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:goto-each-suffix N2→N1). Original reason: Nihongo Master row 毎/ごと 'each respectively' - same as TANOS: JMdict 1524640 毎【ごと】 (uk). Only 〜毎に/ごとに exists with a different reading, so it shares NEW:goto-each-suffix.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 622f2607f6fd277a8f2a57a5d242aa1cdde505d0ff63ad57d29d45667e04b2a6",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "毎/ごと glossed \"each respectively; chaque\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1524640; 毎/ごと",
+          "finding": "uk each; every"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:goto-each-suffix N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "9f5a0998948442ffda8b7aff4f090eae379213fee12effb9c1139348be272ad0",
+        "approvalHash": "9f5a0998948442ffda8b7aff4f090eae379213fee12effb9c1139348be272ad0"
+      }
+    },
+    {
+      "key": "御免ください|ごめんください",
+      "referenceIndex": 0,
+      "referenceHash": "4621e7683405bb24a152ab00b452baf558875de252a37ee3fd58059012044b14",
+      "revisionId": "levels-2026-11-reference-御免ください|ごめんください-0",
+      "state": "accepted",
+      "predecessorHash": "18b762faa73ee9112c56c83316957c30f912922c412c772da84f34b8b886c0ca",
+      "predecessorRevisionHash": "eb770c3afd1b1e3c0fdf54673ccbdbf35dfb8af18665c4d8456bd8b62e267e8b",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:correction:gomenkudasai"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:gomenkudasai": "a9fa8f26e9f47d2f9d59518cf79b1e62aa9995c51153120ac9a2036839a109c0"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:gomenkudasai N4→N2). Original reason: Source 御免ください 'May I come in?' is a listed spelling in JMdict 1270690 ごめん下さい/御免下さい/御免ください/…【ごめんください】 (exp; uk: may I come in?). Card vocab-n4:correction:gomenkudasai ごめんください 'Hallo, ist jemand da?; darf ich hereinkommen?' has the identical reading and sense.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 4621e7683405bb24a152ab00b452baf558875de252a37ee3fd58059012044b14",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=62",
+          "finding": "御免ください/ごめんください glossed \"May I come in?\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1270690; 御免ください/ごめんください",
+          "finding": "spelling in the same entry: may I come in?"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:gomenkudasai N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "6c35faa84eeae2122b0d2499544accf58073a75547a48bc9dbbf755bfdda16c0",
+        "approvalHash": "6c35faa84eeae2122b0d2499544accf58073a75547a48bc9dbbf755bfdda16c0"
+      }
+    },
+    {
+      "key": "歳|さい",
+      "referenceIndex": 0,
+      "referenceHash": "57f9222fa984dcb9f9ee8d483141c8a46ac848bdbc976fcb4ca2819e69bf65f3",
+      "revisionId": "levels-2026-11-reference-歳|さい-0",
+      "state": "accepted",
+      "predecessorHash": "9e3548d56d2150db030eb5d5ca300c8fa485ed713a552d9bfbb6f624a60beefb",
+      "predecessorRevisionHash": "c2889fc1d03a6f6826af07a5edd140d3e71efedfad9ec1ce222fc2967dbf8a96",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:2031"
+      ],
+      "targetHashes": {
+        "vocab-n2:2031": "cbe0ff90f0ee18b9fa6f57263feabce1c0ca998ee4077dd4b8d02312efc23198"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:2031 N2→N1). Original reason: Bare spelling is the exact attested attached element; placeholder is authoring notation, not pronunciation. Selected dictionary senses establish coverage, without claiming every source gloss is newly taught. Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1294940; spelling=歳; reading=さい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter.",
+          "selected": {
+            "sequence": "1294940",
+            "spelling": "歳",
+            "reading": "さい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... years old",
+                  "age (of) ..."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference reviewed against final original card",
+          "version": "Reference SHA256 57f9222fa984dcb9f9ee8d483141c8a46ac848bdbc976fcb4ca2819e69bf65f3",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=62",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N1\",\"word\":\"歳\",\"reading\":\"さい\",\"gloss\":\"#NAME?\",\"page\":62,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=62\"}; exact spelling/reading and selected lexical role reviewed. Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:2031 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "525dc3f1ce79a49687bc4bfaffa813ed4b02386c451012bf1e64546c663adfd8",
+        "approvalHash": "525dc3f1ce79a49687bc4bfaffa813ed4b02386c451012bf1e64546c663adfd8"
+      }
+    },
+    {
+      "key": "歳|さい",
+      "referenceIndex": 1,
+      "referenceHash": "c135cc24b72023811fdd4ff27f6ebb63017c3725e43c51dfa77036ecd9ded00f",
+      "revisionId": "levels-2026-11-reference-歳|さい-1",
+      "state": "accepted",
+      "predecessorHash": "845f5435382826ecd103e1add3ed8a8b58827da74494d07bc6d2ba629d72a322",
+      "predecessorRevisionHash": "c96545284d1c13965fb3587c1fab9e597bfb022fed9a0fac046c3f1c2684ab58",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:2031"
+      ],
+      "targetHashes": {
+        "vocab-n2:2031": "cbe0ff90f0ee18b9fa6f57263feabce1c0ca998ee4077dd4b8d02312efc23198"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:2031 N2→N1). Original reason: Bare spelling is the exact attested attached element; placeholder is authoring notation, not pronunciation. Selected dictionary senses establish coverage, without claiming every source gloss is newly taught. Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "ent_seq=1294940; spelling=歳; reading=さい; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "finding": "Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter.",
+          "selected": {
+            "sequence": "1294940",
+            "spelling": "歳",
+            "reading": "さい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "counter"
+                ],
+                "misc": [],
+                "gloss": [
+                  "... years old",
+                  "age (of) ..."
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference reviewed against final original card",
+          "version": "Reference SHA256 c135cc24b72023811fdd4ff27f6ebb63017c3725e43c51dfa77036ecd9ded00f",
+          "locator": "https://www.nihongomaster.com/jlpt-n5-vocabulary-list",
+          "finding": "{\"publisher\":\"master\",\"level\":\"N5\",\"word\":\"歳\",\"reading\":\"さい\",\"gloss\":\"-years-old; -ans (âge)\",\"url\":\"https://www.nihongomaster.com/jlpt-n5-vocabulary-list\",\"dictionaryUrl\":\"https://www.nihongomaster.com/japanese/dictionary/word/28094\"}; exact spelling/reading and selected lexical role reviewed. Counter age1 exact1294940; replaced broken San juusai segmentation and incoherent itchy-body teaching with learning onset. Sanjussai/jussai are valid readings; inspected OJAD12076/12098 explicitly supports both jissai/jussai and whole 八歳/一歳/二十歳 rows support reading note, never bare counter pitch. Publisher #NAME? is a malformed export gloss, not Japanese meaning; exact spelling/reading and second publisher age-gloss select the attested counter."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:2031 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "802aeebd2dd137f9c3c4b4da2da9db2e6683cab4e85473843093c51d24acc83a",
+        "approvalHash": "802aeebd2dd137f9c3c4b4da2da9db2e6683cab4e85473843093c51d24acc83a"
+      }
+    },
+    {
+      "key": "逆上る|さかのぼる",
+      "referenceIndex": 0,
+      "referenceHash": "b19651bb9c83e88c73889213b0ea333380d5f4505546870d68b01859bc4eb612",
+      "revisionId": "levels-2026-11-reference-逆上る|さかのぼる-0",
+      "state": "accepted",
+      "predecessorHash": "51509bd8a89899125aa8cd31cb9e4e7911ea5dda4caddf660b87a1687e32f526",
+      "predecessorRevisionHash": "0b936651581eb39d028e6644e27d9a5280c0923240e47ccba3a7e8c22a860af1",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:2583"
+      ],
+      "targetHashes": {
+        "vocab-n1:2583": "d6e13ca5e1477c27e8dacfe9e8674c1a178cd1e32c0787115d92d16a78f8bcce"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:2583 N1→N2). Original reason: Source 逆上る 'to go back, to go upstream, to make retroactive' is a listed (rK) spelling in JMdict 1397830 遡る/溯る/逆上る/泝る【さかのぼる】. Card vocab-n1:2583 遡る/さかのぼる 'zurückgehen, zurückverfolgen' has the identical reading and sense.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 b19651bb9c83e88c73889213b0ea333380d5f4505546870d68b01859bc4eb612",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "逆上る/さかのぼる glossed \"to go back, to go upstream, to make retroactive\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1397830; 逆上る/さかのぼる",
+          "finding": "逆上る listed (rK) in the same entry: to go upstream; to go back"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:2583 N1→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "90462061c0eb10360266b835021f866d8327f235fa6dba49c3134debcd13983c",
+        "approvalHash": "90462061c0eb10360266b835021f866d8327f235fa6dba49c3134debcd13983c"
+      }
+    },
+    {
+      "key": "先に|さきに",
+      "referenceIndex": 0,
+      "referenceHash": "a8ccc1bfac62a27bc203c4e695fef28c476c0cb7a7e81ed2c4b01e2734fbb9f8",
+      "revisionId": "levels-2026-11-reference-先に|さきに-0",
+      "state": "accepted",
+      "predecessorHash": "70954c4636cc0fa92dc253f6c6b1846cf2aa174757b18d242cda120e0b701f73",
+      "predecessorRevisionHash": "fa7eee259cd0414f202d5bad3a863c0d51c5c91a970903545c2403f82df6d38d",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakini"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakini": "794fc53208fadf089e1c97fa2d3ebc29f8d5082ba27d608b6d460e8afdc87285"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:correction:sakini N1→N3). Original reason: Reference 先に/さきに (tanos N1) is the same lexeme as the new entry 先に【さきに】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=64",
+          "finding": "tanos lists 先に/さきに at N1 (gloss: before, earlier than, ahead, beyond, away,)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1387280; spelling=先に; reading=さきに; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1387280 as the reference form.",
+          "selected": {
+            "sequence": "1387280",
+            "spelling": "先に",
+            "reading": "さきに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "previously",
+                  "before",
+                  "earlier",
+                  "formerly",
+                  "recently"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first",
+                  "before (something or someone else)",
+                  "ahead (of)",
+                  "earlier"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:correction:sakini N1→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "12392d945ca26970e7a61f49f556a3d11f3b8332911e9f7185113d93bc3c8190",
+        "approvalHash": "12392d945ca26970e7a61f49f556a3d11f3b8332911e9f7185113d93bc3c8190"
+      }
+    },
+    {
+      "key": "先に|さきに",
+      "referenceIndex": 1,
+      "referenceHash": "560c498438491b82ae5ff50b856b540a12e1364345cfcee1cc77041b55a476c6",
+      "revisionId": "levels-2026-11-reference-先に|さきに-1",
+      "state": "accepted",
+      "predecessorHash": "039d62007a422cbcbafd78147bbb1bb4cf551c4a2b602b16c4edada87d58ec9f",
+      "predecessorRevisionHash": "5f1109a47695e270ae5702d9a3a5bed6c759ca4ee5611d783320d016f5282adb",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:sakini"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:sakini": "794fc53208fadf089e1c97fa2d3ebc29f8d5082ba27d608b6d460e8afdc87285"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:correction:sakini N1→N3). Original reason: Reference 先に/さきに (master N1) is the same lexeme as the new entry 先に【さきに】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 先に/さきに at N1 (gloss: before; earlier than; ahead)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1387280; spelling=先に; reading=さきに; senses=1,2; scripts/vocabulary-completion/maintenance-041/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1387280 as the reference form.",
+          "selected": {
+            "sequence": "1387280",
+            "spelling": "先に",
+            "reading": "さきに",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "previously",
+                  "before",
+                  "earlier",
+                  "formerly",
+                  "recently"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "adverb (fukushi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "first",
+                  "before (something or someone else)",
+                  "ahead (of)",
+                  "earlier"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:correction:sakini N1→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "0e9300029d1435f4e074bcef25cd48243f038089a2bfb54e33672c7a3452bc47",
+        "approvalHash": "0e9300029d1435f4e074bcef25cd48243f038089a2bfb54e33672c7a3452bc47"
+      }
+    },
+    {
+      "key": "様|さま",
+      "referenceIndex": 0,
+      "referenceHash": "d93f974247256736341d6b866ac688d4f89a7108a5425658ba8a10225f88a9ec",
+      "revisionId": "levels-2026-11-reference-様|さま-0",
+      "state": "accepted",
+      "predecessorHash": "5beb84f51fce49743f09ab15305761fb995ac07417f4991d7f427200d7685473",
+      "predecessorRevisionHash": "033aabfb954a6918d362514b7dff8ecc2ff9dc7db7b35bf7ee1017476e9c1422",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:870"
+      ],
+      "targetHashes": {
+        "vocab-n4:870": "75a582a2c8dac2b22110b5c8d5a08542a459626ad42679dfaf2dfee8d18fdb6b"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:870 N4→N2). Original reason: Tanos 様|さま 'Mr. or Mrs., manner, kind, appearance' is JMdict 1545790 様【さま】, primarily the honorific suffix (sense 1). Card vocab-n4:870 〜様/さま (-sama) teaches this with identical reading; the bare spelling 様 becomes an alias. The noun sense 'state, appearance' (sense 3) is literary and not worth an extra sense at N4.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 d93f974247256736341d6b866ac688d4f89a7108a5425658ba8a10225f88a9ec",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=66",
+          "finding": "様/さま glossed \"Mr. or Mrs., manner, kind, appearance\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1545790; 様/さま",
+          "finding": "sense 1 [suf; hon] Mr; Mrs; sense 3 [n] state; appearance; manner"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:870 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "8465662acca692b9596c6110352c12da67547e476d76e5289407a6c919f52332",
+        "approvalHash": "8465662acca692b9596c6110352c12da67547e476d76e5289407a6c919f52332"
+      }
+    },
+    {
+      "key": "様|さま",
+      "referenceIndex": 1,
+      "referenceHash": "0534fedfa20e778cff53708ede6e9f57e4652e352996ddede6ab3d73f23aaad4",
+      "revisionId": "levels-2026-11-reference-様|さま-1",
+      "state": "accepted",
+      "predecessorHash": "0cc2f5ecce92c3ffb05c27d26f2282c4d14d303447d32c6ef30ea5f237beecb7",
+      "predecessorRevisionHash": "5661f37f123ac6887254b131c849787d688cb12af799a5b9a0ace9077a9371b5",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:870"
+      ],
+      "targetHashes": {
+        "vocab-n4:870": "75a582a2c8dac2b22110b5c8d5a08542a459626ad42679dfaf2dfee8d18fdb6b"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:870 N4→N2). Original reason: Nihongo Master 様|さま 'Mr, Mrs or Ms; apparence' is JMdict 1545790 様【さま】 honorific suffix; taught by card vocab-n4:870 〜様/さま. Same as tanos row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N4)",
+          "version": "Frozen candidate reference SHA256 0534fedfa20e778cff53708ede6e9f57e4652e352996ddede6ab3d73f23aaad4",
+          "locator": "https://www.nihongomaster.com/jlpt-n4-vocabulary-list",
+          "finding": "様/さま glossed \"Mr, Mrs or Ms; M. ou Mme; apparence\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1545790; 様/さま",
+          "finding": "[suf; hon] Mr; Mrs; Miss; Ms"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:870 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "6f8cc43e374543713306bced5da08e63292e8c2783d595ff517c00965ff7f7eb",
+        "approvalHash": "6f8cc43e374543713306bced5da08e63292e8c2783d595ff517c00965ff7f7eb"
+      }
+    },
+    {
+      "key": "然も|さも",
+      "referenceIndex": 0,
+      "referenceHash": "3e9b5acc5e33258640433e59500d493959a942d67c51215608f75e867ac10483",
+      "revisionId": "levels-2026-11-reference-然も|さも-0",
+      "state": "accepted",
+      "predecessorHash": "3dd48ddf2a2c9acd6c9de4dd5226ef4674bc9b580bc6ed89fe7317a5da49d924",
+      "predecessorRevisionHash": "9348723fa10cad95ffcbc906d8b421bef61dd4ace3f15dfe30e4c12c998bdd4f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:808"
+      ],
+      "targetHashes": {
+        "vocab-n2:808": "adfad422c058d488c3f6dcbc74f17764dba99ce2ba628e01fd83ea37c1419693"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:808 N2→N1). Original reason: TANOS row 然も/さも 'with gusto, with satisfaction'. JMdict 1394700 然も【さも】 (adv, uk) 'really (seem, appear); truly; evidently'. Reviewed card vocab-n2:808 さも/さも 'sichtlich; ganz so, als ob' has the identical reading and sense, so the kanji form 然も is added as alias. vocab-n1:2521 然も/しかも is a different reading.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 3e9b5acc5e33258640433e59500d493959a942d67c51215608f75e867ac10483",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=66",
+          "finding": "然も/さも glossed \"with gusto, with satisfaction\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1394700; 然も/さも",
+          "finding": "uk adverb; 然も is its kanji form"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:808 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "9b13fe5e20b889d44e94c920d43ac991bcdab0d3c5c6624819a869cb830bfcd3",
+        "approvalHash": "9b13fe5e20b889d44e94c920d43ac991bcdab0d3c5c6624819a869cb830bfcd3"
+      }
+    },
+    {
+      "key": "然も|さも",
+      "referenceIndex": 1,
+      "referenceHash": "fb7f1f21fae3933d6cc52618b56f99cf41cbfbb1148a3fb36299baf2bb281a82",
+      "revisionId": "levels-2026-11-reference-然も|さも-1",
+      "state": "accepted",
+      "predecessorHash": "6ab1fefebde042e14c68577a54272db49db75cf6e88c448837b2f4be05c88157",
+      "predecessorRevisionHash": "429f3dc45b5070cf2fce3387a48c3940d5371e8128b38e41ccb6ef0ac62f6823",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:808"
+      ],
+      "targetHashes": {
+        "vocab-n2:808": "adfad422c058d488c3f6dcbc74f17764dba99ce2ba628e01fd83ea37c1419693"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:808 N2→N1). Original reason: Nihongo Master row 然も/さも 'really; extremely' - same as TANOS: JMdict 1394700 然も【さも】 (uk); card vocab-n2:808 さも gets alias 然も.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 fb7f1f21fae3933d6cc52618b56f99cf41cbfbb1148a3fb36299baf2bb281a82",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "然も/さも glossed \"really; extremely\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1394700; 然も/さも",
+          "finding": "same entry, identical reading"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:808 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "fe80ad3d7c9e86e003279553f70ab9e314048cb930e770425b47a17331594c56",
+        "approvalHash": "fe80ad3d7c9e86e003279553f70ab9e314048cb930e770425b47a17331594c56"
+      }
+    },
+    {
+      "key": "参照|さんしょう",
+      "referenceIndex": 0,
+      "referenceHash": "974b6de9ee88faf0b76290d8d0de5c0ab1a6451e259100831e9c9e2ec55c5f71",
+      "revisionId": "levels-2026-11-reference-参照|さんしょう-0",
+      "state": "accepted",
+      "predecessorHash": "7824a7daf4e84d9df852f9e43fe15b5fab2bf69445df3987b02f0fb4c346f614",
+      "predecessorRevisionHash": "2769859ad84f5daa617b163ff6cdbeca5ef8efbb61f19f014104d7cdea89d76a",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sanshou-reference"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sanshou-reference": "d0ca583528d6a36248d56c1afbac5af3dad30201652605d22192bdf8bf6a724d"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:sanshou-reference N2→N1). Original reason: TANOS lists the bare noun 参照/さんしょう 'reference, consultation'. JMdict 1302410 参照 n,vs,vt reference; consultation. The only related card is the verb vocab-n2:573 参照する/さんしょうする; its reading cannot match the bare noun and the source has no する notation, so a noun card is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 974b6de9ee88faf0b76290d8d0de5c0ab1a6451e259100831e9c9e2ec55c5f71",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=67",
+          "finding": "参照/さんしょう glossed \"reference, consultation, consultation\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1302410; 参照/さんしょう",
+          "finding": "n,vs reference; consultation"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 参照|さんしょう",
+          "finding": "no noun card; only 参照する"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:sanshou-reference N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "ba95af075d85f7cc7d1e9ae1f2b9fa756c96d21eee081eea78a5fc906014d666",
+        "approvalHash": "ba95af075d85f7cc7d1e9ae1f2b9fa756c96d21eee081eea78a5fc906014d666"
+      }
+    },
+    {
+      "key": "参照|さんしょう",
+      "referenceIndex": 1,
+      "referenceHash": "e32597d6e73ff6e7151c6b22a884337d99c883f73d5c99a0845cde86274af5aa",
+      "revisionId": "levels-2026-11-reference-参照|さんしょう-1",
+      "state": "accepted",
+      "predecessorHash": "05e2379cbb3f7924c9593d7839a19ac170428937d831637f76f73d338130a10f",
+      "predecessorRevisionHash": "9d51f447a5924f7ed640e3d8c64a3ebc2486999eb9bf9305702ff0c9e8f0597a",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:sanshou-reference"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:sanshou-reference": "d0ca583528d6a36248d56c1afbac5af3dad30201652605d22192bdf8bf6a724d"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:sanshou-reference N2→N1). Original reason: Nihongo Master row 参照/さんしょう 'reference; bibliographical reference' - same bare noun as TANOS (JMdict 1302410); only the verb card 参照する exists, so it shares NEW:sanshou-reference.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 e32597d6e73ff6e7151c6b22a884337d99c883f73d5c99a0845cde86274af5aa",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "参照/さんしょう glossed \"reference; bibliographical reference; consultation\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1302410; 参照/さんしょう",
+          "finding": "n,vs reference"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:sanshou-reference N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "d6edaa50a32a746c995e58ac89f96ad73f64258aad1c99277742420a17d01c00",
+        "approvalHash": "d6edaa50a32a746c995e58ac89f96ad73f64258aad1c99277742420a17d01c00"
+      }
+    },
+    {
+      "key": "死|し",
+      "referenceIndex": 0,
+      "referenceHash": "4c4fc7ecfd61a098d7ca24c7d2bc6a4ca4cb64341d97b47613d698999648f24c",
+      "revisionId": "levels-2026-11-reference-死|し-0",
+      "state": "accepted",
+      "predecessorHash": "60c4d598f5d7af85d7830a6724c1b67a0d5e539984c00fd9895f03c9ba66871e",
+      "predecessorRevisionHash": "06629b5e349165fc2c7f66c05faec1886970425777dc5bca3e5c8b106945c352",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n4:correction:shi-death-noun"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:shi-death-noun": "75f3c593dcb8a7ea47bf61400259bf55b4ecf6335d78622358b6a43a5c8f88d0"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:shi-death-noun N4→N3). Original reason: Exact frozen literal reading and selected complete gloss inspected. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ.",
+      "evidence": [
+        {
+          "source": "JMdict_e original complete lexical entry",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310720",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "finding": "Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ.",
+          "selected": {
+            "sequence": "1310720",
+            "spelling": "死",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "field": [],
+                "gloss": [
+                  "death"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Shogakukan licensed Daijisen/NipponKokugo, exact selected lexical article",
+          "version": "Original full article inspected 2026-10-04; HTML SHA256 22a3fd5432fabb2906e69f972fec8f2e922d483695eb884b59a95012088d0667",
+          "locator": "https://kotobank.jp/word/死-71667",
+          "attribution": "Shogakukan; licensed Kotobank publication",
+          "finding": "Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "TANOS original frozen publisher PDF row",
+          "version": "N1 PDF SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf; personally inspected page68",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=68",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Exact original page68 死/し death, decease. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "Nihongo Master original full lexical entry",
+          "version": "Original HTML SHA256 2c2dcef3e6ce30f836ab524220e927f63d3e216dbec31dda33dd14dd13d1e723",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/29633",
+          "attribution": "Nihongo Master",
+          "finding": "Exact frozen 死/し death; decease; décès and displayed lexical level N4. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:shi-death-noun N4→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "a5b87bcfecb9dae557742e4def7d187df7445b8687530eb6c21639f3e72aa3fe",
+        "approvalHash": "a5b87bcfecb9dae557742e4def7d187df7445b8687530eb6c21639f3e72aa3fe"
+      }
+    },
+    {
+      "key": "死|し",
+      "referenceIndex": 1,
+      "referenceHash": "21c20c2ef54cb62e5e41bb6b7257e3011bae3659ee06c29b0d0f36bf93cb1104",
+      "revisionId": "levels-2026-11-reference-死|し-1",
+      "state": "accepted",
+      "predecessorHash": "2e6ea6d5fc5d5fa53caca0d10a64f213117fb279ad5c15a10a5d3a6089466f19",
+      "predecessorRevisionHash": "ef400f6870734137b89ab596117d77c44c26418ecee52716b1889d6e2da2c9c6",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n4:correction:shi-death-noun"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:shi-death-noun": "75f3c593dcb8a7ea47bf61400259bf55b4ecf6335d78622358b6a43a5c8f88d0"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:shi-death-noun N4→N3). Original reason: Exact frozen literal reading and selected complete gloss inspected. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ.",
+      "evidence": [
+        {
+          "source": "JMdict_e original complete lexical entry",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1310720",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "finding": "Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ.",
+          "selected": {
+            "sequence": "1310720",
+            "spelling": "死",
+            "reading": "し",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "field": [],
+                "gloss": [
+                  "death"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Shogakukan licensed Daijisen/NipponKokugo, exact selected lexical article",
+          "version": "Original full article inspected 2026-10-04; HTML SHA256 22a3fd5432fabb2906e69f972fec8f2e922d483695eb884b59a95012088d0667",
+          "locator": "https://kotobank.jp/word/死-71667",
+          "attribution": "Shogakukan; licensed Kotobank publication",
+          "finding": "Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "TANOS original frozen publisher PDF row",
+          "version": "N1 PDF SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf; personally inspected page68",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=68",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Exact original page68 死/し death, decease. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "Nihongo Master original full lexical entry",
+          "version": "Original HTML SHA256 2c2dcef3e6ce30f836ab524220e927f63d3e216dbec31dda33dd14dd13d1e723",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/29633",
+          "attribution": "Nihongo Master",
+          "finding": "Exact frozen 死/し death; decease; décès and displayed lexical level N4. Exact independent noun死/し death1; bereavement and fictional attitude are distinct. Ordinary noun133715283 aType1, not title氏 or verb死ぬ."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:shi-death-noun N4→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "251236317ff3ef4dd89798762a79afc61b4bfe3f74a20c41680084d99b99f895",
+        "approvalHash": "251236317ff3ef4dd89798762a79afc61b4bfe3f74a20c41680084d99b99f895"
+      }
+    },
+    {
+      "key": "然しながら|しかしながら",
+      "referenceIndex": 0,
+      "referenceHash": "5fafdcaf4418d3c566406539921901597120935d60aa3026ba066e7f0c1cba32",
+      "revisionId": "levels-2026-11-reference-然しながら|しかしながら-0",
+      "state": "accepted",
+      "predecessorHash": "86083a8ac26f2f8dd2142c28bdbf96dca9e018daf91b78ef5f0b89a0b66b7d35",
+      "predecessorRevisionHash": "05060dc89a4a1794887e64b11ee92c7482a9af284add59402ac5cdd196b9ee5a",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:858"
+      ],
+      "targetHashes": {
+        "vocab-n2:858": "87340407fbbd8d17d81b724157968f088f29102d93cc2744b2c684bed38e2c2f"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:858 N2→N1). Original reason: TANOS row 然しながら/しかしながら 'nevertheless, however'. JMdict 1506000 然し乍ら/併し乍ら/然しながら/併しながら【しかしながら】 (uk) lists 然しながら as a kanji form of the same conjunction. Reviewed card vocab-n2:858 しかしながら 'jedoch; nichtsdestotrotz' has the identical reading and sense, so 然しながら is added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 5fafdcaf4418d3c566406539921901597120935d60aa3026ba066e7f0c1cba32",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=69",
+          "finding": "然しながら/しかしながら glossed \"nevertheless, however\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1506000; 然しながら/しかしながら",
+          "finding": "然しながら listed in the entry (sK search form), uk conjunction however"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:858 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "78c503ecd1004d0330f1bd6390b9c59876925e59feb747a9189db66aba12f266",
+        "approvalHash": "78c503ecd1004d0330f1bd6390b9c59876925e59feb747a9189db66aba12f266"
+      }
+    },
+    {
+      "key": "然しながら|しかしながら",
+      "referenceIndex": 1,
+      "referenceHash": "627f7208c1797448ee88c7d7e533b22d93edb9d752f508352c9de5b550a4137f",
+      "revisionId": "levels-2026-11-reference-然しながら|しかしながら-1",
+      "state": "accepted",
+      "predecessorHash": "4d667108a7f7dbd29ba082fce26ee856c2b7aa5d3191ab7766aafd404b15dc02",
+      "predecessorRevisionHash": "4476e88e426abc05e605124cf536b1139c3fb9259a40ea45644dc68687df1344",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:858"
+      ],
+      "targetHashes": {
+        "vocab-n2:858": "87340407fbbd8d17d81b724157968f088f29102d93cc2744b2c684bed38e2c2f"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:858 N2→N1). Original reason: Nihongo Master row 然しながら/しかしながら 'however; nevertheless' - same as TANOS: JMdict 1506000 lists 然しながら for しかしながら; card vocab-n2:858 gets alias 然しながら.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 627f7208c1797448ee88c7d7e533b22d93edb9d752f508352c9de5b550a4137f",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "然しながら/しかしながら glossed \"however; nevertheless; cependant\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1506000; 然しながら/しかしながら",
+          "finding": "same entry, identical reading and sense"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:858 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "4d39932ccefc80eac28c2671c7c5a8fd0fdeb90c9837358c3de0d7e694dff4be",
+        "approvalHash": "4d39932ccefc80eac28c2671c7c5a8fd0fdeb90c9837358c3de0d7e694dff4be"
+      }
+    },
+    {
+      "key": "而も|しかも",
+      "referenceIndex": 0,
+      "referenceHash": "a19f01cf6edeb14ff01515ba352ffa9f152c1121355c26b8ea0ba7c2aea40208",
+      "revisionId": "levels-2026-11-reference-而も|しかも-0",
+      "state": "accepted",
+      "predecessorHash": "a9578fa208d158c2a9fcf78298293726bde55892e21fc1c2be69b659724f9b2a",
+      "predecessorRevisionHash": "4ea68bab59e08156db902bf7b460e4e29999b20a977b5072625aa8a5c66af103",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n1:2521"
+      ],
+      "targetHashes": {
+        "vocab-n1:2521": "b385c186f73147bc5f54ec285e229f58074b71a31bd461b310c66ce8bbd049be"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:2521 N1→N3). Original reason: Source 而も 'moreover, nevertheless' is a listed (rK) spelling in JMdict 1506050 然も/而も【しかも】 (conj; uk). Card vocab-n1:2521 然も/しかも 'außerdem, darüber hinaus; und dennoch' has the identical reading and sense.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 a19f01cf6edeb14ff01515ba352ffa9f152c1121355c26b8ea0ba7c2aea40208",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=69",
+          "finding": "而も/しかも glossed \"moreover, furthermore, nevertheless, and yet\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1506050; 然も/而も/しかも",
+          "finding": "both spellings in one entry: moreover; nevertheless"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:2521 N1→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "f649d18e8ef406e60235fac3df9a5873394797e014a7a3934a1e72fcad931049",
+        "approvalHash": "f649d18e8ef406e60235fac3df9a5873394797e014a7a3934a1e72fcad931049"
+      }
+    },
+    {
+      "key": "室|しつ",
+      "referenceIndex": 0,
+      "referenceHash": "26991cdedd5aca083c8caa405efda4ac2dff6bf9c670c6b92b2e3b6da5cbb7e6",
+      "revisionId": "levels-2026-11-reference-室|しつ-0",
+      "state": "accepted",
+      "predecessorHash": "5e02d9b04ce1429db3afe4b18484399fe3832f9d6ea74686f2f52c68808d5d9b",
+      "predecessorRevisionHash": "2326974c44c942334544cea289c95ca888763e1bd2a27a609be50cbe1343fae6",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:1035"
+      ],
+      "targetHashes": {
+        "vocab-n5:1035": "19cdff94f511cebe60bacaf4ce5015ebf8631a6cea80585fbfd71489c6a90fb7"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n5:1035 N5→N3). Original reason: Source canonical lexical spelling matches the reviewed noun/suffix beneath the existing placeholder notation, with exactly identical reading. Add the canonical search alias and explicit restricted-use note; no different reading or unrelated homophone is matched. Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320300; exact canonical spelling/reading; sense1",
+          "finding": "Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2.",
+          "selected": {
+            "sequence": "1320300",
+            "spelling": "室",
+            "reading": "しつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "room"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final teaching",
+          "version": "Reference SHA256 26991cdedd5aca083c8caa405efda4ac2dff6bf9c670c6b92b2e3b6da5cbb7e6",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=71",
+          "finding": "{\"publisher\":\"tanos\",\"level\":\"N1\",\"word\":\"室\",\"reading\":\"しつ\",\"gloss\":\"room\",\"page\":71,\"url\":\"https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=71\"}; root personally compared complete contexts, exact grammar/sense1 and current whole-form pitch record. Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n5:1035 N5→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "8903b210339464175848c76e85d05c70d12f88f4c7826e331ab071ac0faa5f19",
+        "approvalHash": "8903b210339464175848c76e85d05c70d12f88f4c7826e331ab071ac0faa5f19"
+      }
+    },
+    {
+      "key": "室|しつ",
+      "referenceIndex": 1,
+      "referenceHash": "53640beed7cd38fce84d37f162b7c548ccdbc414163c08c6de94207918d111cf",
+      "revisionId": "levels-2026-11-reference-室|しつ-1",
+      "state": "accepted",
+      "predecessorHash": "3aa202d49a88c932e121311e4c5a4e3af322317281085544917990d2bc8ef3e8",
+      "predecessorRevisionHash": "d82320d29e45a5505c0a94cec9be0d98eb45301cb21cd0b5ab57bcd432633246",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n5:1035"
+      ],
+      "targetHashes": {
+        "vocab-n5:1035": "19cdff94f511cebe60bacaf4ce5015ebf8631a6cea80585fbfd71489c6a90fb7"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n5:1035 N5→N3). Original reason: Source canonical lexical spelling matches the reviewed noun/suffix beneath the existing placeholder notation, with exactly identical reading. Add the canonical search alias and explicit restricted-use note; no different reading or unrelated homophone is matched. Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2.",
+      "evidence": [
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1320300; exact canonical spelling/reading; sense1",
+          "finding": "Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2.",
+          "selected": {
+            "sequence": "1320300",
+            "spelling": "室",
+            "reading": "しつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "room"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Frozen publisher reference and exact final teaching",
+          "version": "Reference SHA256 53640beed7cd38fce84d37f162b7c548ccdbc414163c08c6de94207918d111cf",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list",
+          "finding": "{\"publisher\":\"master\",\"level\":\"N2\",\"word\":\"室\",\"reading\":\"しつ\",\"gloss\":\"room; pièce (immobilier)\",\"url\":\"https://www.nihongomaster.com/jlpt-n2-vocabulary-list\",\"dictionaryUrl\":\"https://www.nihongomaster.com/japanese/dictionary/word/30576\"}; root personally compared complete contexts, exact grammar/sense1 and current whole-form pitch record. Room noun/noun-suffix1 exactしつ; office door knock versus meeting-room location question are distinct. Shachōshitsu/kaigishitsu/no doa/nokku shita match German. Rare high-rank wife2, scabbard3 and constellation4 excluded. Actual suffix unknown pitch retained, not free noun2."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n5:1035 N5→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "6671e327d5616808b07e723ad26eeae3f3df89fd311067410dc3896bf190cd60",
+        "approvalHash": "6671e327d5616808b07e723ad26eeae3f3df89fd311067410dc3896bf190cd60"
+      }
+    }
+  ]
+}

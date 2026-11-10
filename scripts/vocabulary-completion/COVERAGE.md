@@ -21,16 +21,16 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 Review completion: **complete**. Strict enrichment: **complete**.
 
-Ledger SHA256: `658b473074094f9523126c1050543bbda518a8753cd24e9626c20ffa06e81f90`.
+Ledger SHA256: `6c854e219d1d416d9c24817121d142874c03c290d64453a62af75941660ecc0d`.
 
 ## Level phases
 
 | Level | Entries | Missing notes | Missing second example | Missing two reviewed contexts | Pending reviews | Unresolved references | Complete |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | --- |
-| N5 | 1689 | 0 | 0 | 0 | 0 | 0 | yes |
-| N4 | 1696 | 0 | 0 | 0 | 0 | 0 | yes |
-| N3 | 3913 | 0 | 0 | 0 | 0 | 0 | yes |
-| N2 | 3316 | 0 | 0 | 0 | 0 | 0 | yes |
-| N1 | 5607 | 0 | 0 | 0 | 0 | 0 | yes |
+| N5 | 1313 | 0 | 0 | 0 | 0 | 0 | yes |
+| N4 | 1309 | 0 | 0 | 0 | 0 | 0 | yes |
+| N3 | 3292 | 0 | 0 | 0 | 0 | 0 | yes |
+| N2 | 3764 | 0 | 0 | 0 | 0 | 0 | yes |
+| N1 | 6543 | 0 | 0 | 0 | 0 | 0 | yes |
 
 Shared candidate groups belong to the earliest level among their reference levels and current target-entry levels, including targets allocated by later decisions (historical target levels are used only when no current entry exists). Every reference in such a group must be resolved before that phase completes. Open review defects block all phase gates.

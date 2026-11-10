@@ -1,0 +1,1850 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "噛る|かじる",
+      "referenceIndex": 0,
+      "referenceHash": "3c2db7813bded1643048e457b4b1677b14cf68df26420d9663cf84c57be1f24e",
+      "revisionId": "levels-2026-11-reference-噛る|かじる-0",
+      "state": "accepted",
+      "predecessorHash": "e11b7d268f563d5aef574f8416ad152ef16bbf2d88e5105ef109dbec375e98e9",
+      "predecessorRevisionHash": "a5d7f291ff262e32d677389335aec3920a88c7a3734bc7c3589d1b577d6271f1",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:630"
+      ],
+      "targetHashes": {
+        "vocab-n4:630": "ec566012310fc3c58e745aa245f945c6246ca437fe2188d3dcc4d946b7175466"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:630 N4→N2). Original reason: 噛る is listed in JMdict 1610640 齧る/囓る/噛る/噛じる【かじる】 'to gnaw, nibble, bite' (search-only form; word is uk). Card vocab-n4:630 かじる (anknabbern, beißen) has identical reading; add 噛る as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 3c2db7813bded1643048e457b4b1677b14cf68df26420d9663cf84c57be1f24e",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=29",
+          "finding": "噛る/かじる glossed \"to chew, to bite (at), to gnaw, to nibble, to\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1610640; 齧る/噛る",
+          "finding": "噛る in same entry (sK); uk; to gnaw; to nibble; to bite"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:630 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "0fc76af0885af1162c5c3b0505eeed97aae4f0c682666a3116efde119526bfef",
+        "approvalHash": "0fc76af0885af1162c5c3b0505eeed97aae4f0c682666a3116efde119526bfef"
+      }
+    },
+    {
+      "key": "難い|かたい",
+      "referenceIndex": 0,
+      "referenceHash": "8cb190177d9d240815d9bdcc3d76f6dafec8ed7744335beaff9d0d40925ba42b",
+      "revisionId": "levels-2026-11-reference-難い|かたい-0",
+      "state": "accepted",
+      "predecessorHash": "3873391fd40dce39460e31e3696d2ad9f66e9341bc5ff7ed6d3219b540b82ab4",
+      "predecessorRevisionHash": "0a91329941bc83cbfb4aa27202b5e3c051920e0fe7739d14630c19d62c1b499f",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n4:correction:katai-formal-difficult-adjective"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:katai-formal-difficult-adjective": "4ea4638bac093f81bdcc6d0d708c2e4815f029a9323cea21ad810d1c2cd415ad"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:katai-formal-difficult-adjective N4→N2). Original reason: Exact frozen literal reading and selected complete gloss inspected. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis.",
+      "evidence": [
+        {
+          "source": "JMdict_e original complete lexical entry",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1582640",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "finding": "Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis.",
+          "selected": {
+            "sequence": "1582640",
+            "spelling": "難い",
+            "reading": "かたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "formal or literary term"
+                ],
+                "field": [],
+                "gloss": [
+                  "difficult",
+                  "hard"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Shogakukan licensed Daijisen/NipponKokugo, exact selected lexical article",
+          "version": "Original full article inspected 2026-10-04; HTML SHA256 4a32f6c84c2614373719faa2b48dfe3d3ce833f257ed7fe4f05c9efdf1c7de6e",
+          "locator": "https://kotobank.jp/word/難い-463256",
+          "attribution": "Shogakukan; licensed Kotobank publication",
+          "finding": "Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "TANOS original frozen publisher PDF row",
+          "version": "N1 PDF SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf; personally inspected page30",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=30",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Exact original page30 難い/かたい difficult, hard. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "Nihongo Master original full lexical entry",
+          "version": "Original HTML SHA256 a35c4aeb0e530055ad1eb9716f278643cfcad930d626d25258cc62f5b223c796",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/56052",
+          "attribution": "Nihongo Master",
+          "finding": "Exact frozen 難い/かたい difficult; hard; délicat and displayed lexical level N4. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:katai-formal-difficult-adjective N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "f57856c469daf94b87104bfc7b464d96d6fddae5c653ba8c65115ffbc6348f27",
+        "approvalHash": "f57856c469daf94b87104bfc7b464d96d6fddae5c653ba8c65115ffbc6348f27"
+      }
+    },
+    {
+      "key": "難い|かたい",
+      "referenceIndex": 1,
+      "referenceHash": "0c4db1d0f46cab6c5d41cb861adb6821724f934f6c692d523a8bbe3e0facbc0b",
+      "revisionId": "levels-2026-11-reference-難い|かたい-1",
+      "state": "accepted",
+      "predecessorHash": "9d3dd90ecbd215eea3351801fc1ce863f45f130903c10878de00c50655795ff5",
+      "predecessorRevisionHash": "5af6b688a1fc7197f2c1cebc02bdf78c6bcdd651111993680de4d11ce2a518da",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n4:correction:katai-formal-difficult-adjective"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:katai-formal-difficult-adjective": "4ea4638bac093f81bdcc6d0d708c2e4815f029a9323cea21ad810d1c2cd415ad"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:katai-formal-difficult-adjective N4→N2). Original reason: Exact frozen literal reading and selected complete gloss inspected. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis.",
+      "evidence": [
+        {
+          "source": "JMdict_e original complete lexical entry",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1582640",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0",
+          "finding": "Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis.",
+          "selected": {
+            "sequence": "1582640",
+            "spelling": "難い",
+            "reading": "かたい",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjective (keiyoushi)"
+                ],
+                "misc": [
+                  "formal or literary term"
+                ],
+                "field": [],
+                "gloss": [
+                  "difficult",
+                  "hard"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Shogakukan licensed Daijisen/NipponKokugo, exact selected lexical article",
+          "version": "Original full article inspected 2026-10-04; HTML SHA256 4a32f6c84c2614373719faa2b48dfe3d3ce833f257ed7fe4f05c9efdf1c7de6e",
+          "locator": "https://kotobank.jp/word/難い-463256",
+          "attribution": "Shogakukan; licensed Kotobank publication",
+          "finding": "Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "TANOS original frozen publisher PDF row",
+          "version": "N1 PDF SHA256 9ac97330a3b787113ae8c59b003cba438e8f2d9bfcb2add90fe34b98f47e7cdf; personally inspected page30",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=30",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Exact original page30 難い/かたい difficult, hard. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "Nihongo Master original full lexical entry",
+          "version": "Original HTML SHA256 a35c4aeb0e530055ad1eb9716f278643cfcad930d626d25258cc62f5b223c796",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/56052",
+          "attribution": "Nihongo Master",
+          "finding": "Exact frozen 難い/かたい difficult; hard; délicat and displayed lexical level N4. Exact1582640 formal independent i-adjectiveかたい difficult, primaryShogakukan distinguishes productive boundがたい andにくい. Affirmative終止形 andnegative連用形 inspected; no hard-solid homophone or suffix substitution. Raw94140101 terminal and94140656 attributive full independent adjective accent0. MasterN4 and TANOSN1 level disagreement explicitly preserved; editorialN4 has exactpublisher basis."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:katai-formal-difficult-adjective N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "d9ca979dbc63bc4b6a7046f276df830864a355ba1b75fa66074a8d0fbcd6fae7",
+        "approvalHash": "d9ca979dbc63bc4b6a7046f276df830864a355ba1b75fa66074a8d0fbcd6fae7"
+      }
+    },
+    {
+      "key": "活発|かっぱつ",
+      "referenceIndex": 0,
+      "referenceHash": "63a7fa649bc2040e6cc590e56e1f688bccd705bbeae406302a452952371cc449",
+      "revisionId": "levels-2026-11-reference-活発|かっぱつ-0",
+      "state": "accepted",
+      "predecessorHash": "ccd6b57beda6afae0740a558dcf19a530809a358a2c23feb0e131fa6400866d1",
+      "predecessorRevisionHash": "996b4bdcef41b1f51aa4517a0b7036cdea6f47c7fa55478107df21d6280fd68b",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kappatsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kappatsu": "d081c07d275bd13c74f7516efce4fdfc0e0a58915b6a12624ab320307f80c8b6"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:kappatsu N2→N1). Original reason: Reference 活発/かっぱつ (tanos N1) is the same lexeme as the new entry 活発【かっぱつ】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=31",
+          "finding": "tanos lists 活発/かっぱつ at N1 (gloss: vigor, active)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1208410; spelling=活発; reading=かっぱつ; senses=1; scripts/vocabulary-completion/maintenance-039/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1208410 as the reference form.",
+          "selected": {
+            "sequence": "1208410",
+            "spelling": "活発",
+            "reading": "かっぱつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lively",
+                  "active",
+                  "vigorous",
+                  "animated",
+                  "brisk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:kappatsu N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "ba6dc297cacbf06095697c974a3bc09f8529d9fb1fd731e6853279d389cd8311",
+        "approvalHash": "ba6dc297cacbf06095697c974a3bc09f8529d9fb1fd731e6853279d389cd8311"
+      }
+    },
+    {
+      "key": "活発|かっぱつ",
+      "referenceIndex": 1,
+      "referenceHash": "af7abb1f13009db3657bfa0bd48a37ed488a94547ed30f9c5415465587ee3920",
+      "revisionId": "levels-2026-11-reference-活発|かっぱつ-1",
+      "state": "accepted",
+      "predecessorHash": "46cca766a5186f45616bbc3aa51a812b221133c7b9bcf5ac14c56f0db46eb795",
+      "predecessorRevisionHash": "762adda58ff9b2d4a10c5f6ecc2ef33b778591ee135b45f41d75b7f4fff4559d",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:kappatsu"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:kappatsu": "d081c07d275bd13c74f7516efce4fdfc0e0a58915b6a12624ab320307f80c8b6"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:kappatsu N2→N1). Original reason: Reference 活発/かっぱつ (master N1) is the same lexeme as the new entry 活発【かっぱつ】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 活発/かっぱつ at N1 (gloss: vigor; vigour; active)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1208410; spelling=活発; reading=かっぱつ; senses=1; scripts/vocabulary-completion/maintenance-039/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1208410 as the reference form.",
+          "selected": {
+            "sequence": "1208410",
+            "spelling": "活発",
+            "reading": "かっぱつ",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "adjectival nouns or quasi-adjectives (keiyodoshi)",
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "lively",
+                  "active",
+                  "vigorous",
+                  "animated",
+                  "brisk"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:kappatsu N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "396959bf16c62995c0e2cd3da0bc00d6f32e6c4e651119c80449248bc390dcaf",
+        "approvalHash": "396959bf16c62995c0e2cd3da0bc00d6f32e6c4e651119c80449248bc390dcaf"
+      }
+    },
+    {
+      "key": "嘗て|かつて",
+      "referenceIndex": 0,
+      "referenceHash": "f5365b75cc4e49f6c38a7ed9e7ad890353d2e3fcb425e5d44e9a2734600b499f",
+      "revisionId": "levels-2026-11-reference-嘗て|かつて-0",
+      "state": "accepted",
+      "predecessorHash": "493785d2a4766c2fdcc202488418e60108b753dd8b2df9647f5b7c9e03ce5334",
+      "predecessorRevisionHash": "368fd00862614b2ba01d67896b00fc15873fc9d017eacf165158b46925ca581f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:817"
+      ],
+      "targetHashes": {
+        "vocab-n2:817": "d5dc08fe5cfa3717fda9423a6a183fd760fbf5a7242040c564fde0ce1f58db73"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:817 N2→N1). Original reason: TANOS row 嘗て/かつて 'once, ever'. JMdict 1581210 嘗て/曽て/都て/曾て【かつて】 is usually written in kana (uk); 嘗て is its first listed kanji form. Reviewed card vocab-n2:817 かつて/かつて 'einst; ehemals' has the identical reading and sense, so 嘗て is added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 f5365b75cc4e49f6c38a7ed9e7ad890353d2e3fcb425e5d44e9a2734600b499f",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=31",
+          "finding": "嘗て/かつて glossed \"once, ever\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581210; 嘗て/かつて",
+          "finding": "嘗て is a kanji form of the uk adverb かつて, same sense"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:817 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "67dc3568bfd3d977649dbca13cbf0aa64278f7de45ad1c5b792f24fc08bb53f6",
+        "approvalHash": "67dc3568bfd3d977649dbca13cbf0aa64278f7de45ad1c5b792f24fc08bb53f6"
+      }
+    },
+    {
+      "key": "嘗て|かつて",
+      "referenceIndex": 1,
+      "referenceHash": "2f26289622ca5c409c065d1ee3b79a93cb02513fef9c7b4dd52cc2a3f7729d3b",
+      "revisionId": "levels-2026-11-reference-嘗て|かつて-1",
+      "state": "accepted",
+      "predecessorHash": "89c79b7ae0c44a2e5d339664e78ba2ffe50946e1abe57eff6b8606fc5325e000",
+      "predecessorRevisionHash": "dc46611e09acc671023403dad2dc3ea004bbc24679218436e83505d9488d873f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n2:817"
+      ],
+      "targetHashes": {
+        "vocab-n2:817": "d5dc08fe5cfa3717fda9423a6a183fd760fbf5a7242040c564fde0ce1f58db73"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:817 N2→N1). Original reason: Nihongo Master row 嘗て/かつて 'once; before; formerly' - same as TANOS: JMdict 1581210 lists 嘗て as a kanji form of the uk adverb かつて; card vocab-n2:817 かつて gets alias 嘗て.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 2f26289622ca5c409c065d1ee3b79a93cb02513fef9c7b4dd52cc2a3f7729d3b",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "嘗て/かつて glossed \"once; before; formerly\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1581210; 嘗て/かつて",
+          "finding": "same entry, identical reading and sense"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:817 N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "47e5dffb708c8fb69590d8da3f21ca0ce2afbe9686f6deeb55874378e77d5144",
+        "approvalHash": "47e5dffb708c8fb69590d8da3f21ca0ce2afbe9686f6deeb55874378e77d5144"
+      }
+    },
+    {
+      "key": "かも知れない|かもしれない",
+      "referenceIndex": 0,
+      "referenceHash": "b6f52f19da010656356ff39b507c2330dc9d47b8db365c6babe4dd0b15a34a72",
+      "revisionId": "levels-2026-11-reference-かも知れない|かもしれない-0",
+      "state": "accepted",
+      "predecessorHash": "fe998b6b57e3b0203f11567dc4438f7b42edfd404f35209b37d681b62a0f6cf4",
+      "predecessorRevisionHash": "da069a40c46b4a7fe74d1b257638c1bfc2f512fa5bf5bfa301c2ae124aad7fba",
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kamoshirenai"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kamoshirenai": "118ee685771583f0f484453185de40b96e69c65171a186f04be50d572f6c8729"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:kamoshirenai N4→N3). Original reason: tanos かも知れない/かもしれない 'may, might, perhaps'. JMdict 1002970 かも知れない【かもしれない】 exp, uk, ichi1. No vocabulary card exists in any spelling (lookup of かもしれない, かも知れない, かもしれません: no cards). It is a basic expression, so a new card at N4, headed in kana (uk) with the kanji form as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 b6f52f19da010656356ff39b507c2330dc9d47b8db365c6babe4dd0b15a34a72",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=32",
+          "finding": "かも知れない/かもしれない glossed \"may, might, perhaps, may be, possibly\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1002970; かも知れない/かもしれない",
+          "finding": "exp, uk, ichi1: may; might; perhaps"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: cards かもしれない/かも知れない/かもしれません",
+          "finding": "no card in any spelling"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:kamoshirenai N4→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "44bb6cc295540ec12526f6ce0c6f7c385730efc378b9f4fc5391bafb56847c91",
+        "approvalHash": "44bb6cc295540ec12526f6ce0c6f7c385730efc378b9f4fc5391bafb56847c91"
+      }
+    },
+    {
+      "key": "かも知れない|かもしれない",
+      "referenceIndex": 1,
+      "referenceHash": "7cedc035c17785405ecd2889eb14a4bc97bbe73bed205c52510007e9ab8c3744",
+      "revisionId": "levels-2026-11-reference-かも知れない|かもしれない-1",
+      "state": "accepted",
+      "predecessorHash": "3012799a6edbf6b3e1daa45866d748c29f03f5dbb58416be9b18dd10bf2b979a",
+      "predecessorRevisionHash": "15338212e9477e4e4b31450c4087db171c9f9757574c60256ff69e6da5dd5410",
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:kamoshirenai"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:kamoshirenai": "118ee685771583f0f484453185de40b96e69c65171a186f04be50d572f6c8729"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:correction:kamoshirenai N4→N3). Original reason: Nihongo Master かも知れない/かもしれない 'may; might; perhaps' - same as the tanos row: JMdict 1002970 exp uk; no card exists in any spelling, so it shares the new card.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N3)",
+          "version": "Frozen candidate reference SHA256 7cedc035c17785405ecd2889eb14a4bc97bbe73bed205c52510007e9ab8c3744",
+          "locator": "https://www.nihongomaster.com/jlpt-n3-vocabulary-list?page=4",
+          "finding": "かも知れない/かもしれない glossed \"may; might; perhaps\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1002970; かも知れない/かもしれない",
+          "finding": "exp, uk: may; might; perhaps"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:correction:kamoshirenai N4→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "40af4ce638a78edf708b6935c2e87caf7affa1ed1f26c76476ee9da8b458c746",
+        "approvalHash": "40af4ce638a78edf708b6935c2e87caf7affa1ed1f26c76476ee9da8b458c746"
+      }
+    },
+    {
+      "key": "揶揄う|からかう",
+      "referenceIndex": 0,
+      "referenceHash": "5aaebfd11672eb8833d6ad79ea9d961359ad1dce3d68a5aa624109c9c4cb0cd1",
+      "revisionId": "levels-2026-11-reference-揶揄う|からかう-0",
+      "state": "accepted",
+      "predecessorHash": "e604f349026abf459a4e492aa8fd81f9aa3d336764ee3e67cc86804ac98eb608",
+      "predecessorRevisionHash": "ca7efc96238f00a7b4258bab785447d3c6e47a16c4b2d74238f6cc0339d1e39c",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:643"
+      ],
+      "targetHashes": {
+        "vocab-n4:643": "85614a61e047e4ad1e36df35229f0ed860426a2effc18b9702ee32a7e5533022"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:643 N4→N2). Original reason: 揶揄う is the (rare, rK) kanji headword of JMdict 1567650 揶揄う【からかう】 'to tease, make fun of' (uk). Card vocab-n4:643 からかう (necken, aufziehen) has identical reading; add kanji alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 5aaebfd11672eb8833d6ad79ea9d961359ad1dce3d68a5aa624109c9c4cb0cd1",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=32",
+          "finding": "揶揄う/からかう glossed \"to ridicule, to tease, to banter with, to make fun\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1567650; 揶揄う/からかう",
+          "finding": "rK kanji, uk; to tease; to make fun of"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:643 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "2177126d70de2a63fe7025937dba210df749d98c45a266cc5dff4361f53e1385",
+        "approvalHash": "2177126d70de2a63fe7025937dba210df749d98c45a266cc5dff4361f53e1385"
+      }
+    },
+    {
+      "key": "揶揄う|からかう",
+      "referenceIndex": 1,
+      "referenceHash": "e95df8495c5d4dd971c485a5886d8d375a26fca82d0b120b107b59af064a4f6a",
+      "revisionId": "levels-2026-11-reference-揶揄う|からかう-1",
+      "state": "accepted",
+      "predecessorHash": "f6edbf20ab7a52ed2ab71da8fe59fec8b77028605c8f7edda4841c7246fa1046",
+      "predecessorRevisionHash": "a375209adaf293d387948e23586eaed60a246b172cb697d7722381b5767fcfd4",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:643"
+      ],
+      "targetHashes": {
+        "vocab-n4:643": "85614a61e047e4ad1e36df35229f0ed860426a2effc18b9702ee32a7e5533022"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:643 N4→N2). Original reason: Nihongo Master 揶揄う 'to ridicule; to tease; to mock' = JMdict 1567650 揶揄う【からかう】; taught by card vocab-n4:643 からかう with identical reading. Same as the tanos row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 e95df8495c5d4dd971c485a5886d8d375a26fca82d0b120b107b59af064a4f6a",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "揶揄う/からかう glossed \"to ridicule; to tease; to mock\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1567650; 揶揄う/からかう",
+          "finding": "uk; to tease; to make fun of"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:643 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "078438d8bb1615e4d62c9476b82c87ed97cc117b2a569a1211722d7a37d167d6",
+        "approvalHash": "078438d8bb1615e4d62c9476b82c87ed97cc117b2a569a1211722d7a37d167d6"
+      }
+    },
+    {
+      "key": "館|かん",
+      "referenceIndex": 0,
+      "referenceHash": "ff608dc1fc14a2f7236b20bbd798e666df8a69dc78194a46297028ddc1d19169",
+      "revisionId": "levels-2026-11-reference-館|かん-0",
+      "state": "accepted",
+      "predecessorHash": "9510fa7e2806bf69f8848c5d46910adf03225565e20b90b476bfcf4895357218",
+      "predecessorRevisionHash": "e3c745d99470453dfb2f12d96d7c9a0bce7a7ac35ff0885226ea03032dc62501",
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n3:correction:kan-building-noun",
+        "vocab-n3:correction:kan-building-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kan-building-noun": "2dc42d6812063a828f5bf666434ac7c3c677ce0e6f78d7310d3912ab6d6525ef",
+        "vocab-n3:correction:kan-building-suffix": "dd8cca90b5855b73c662f2b7005ebe4ee7b8689dd56cdbbdeb9133ef9895850e"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:correction:kan-building-noun N3→N2, vocab-n3:correction:kan-building-suffix N3→N2). Original reason: Literal source word/reading and all frozen metadata preserved. Actual selected roles, independent exact dictionaries, own teaching contexts and own whole-role pitch investigations reviewed; unrelated earlier samekanji otherreading targets are not used as coverage. Broad house/hotel/inn/guesthouse wording qualified by actual Shogakukan historicかん/旅館 and namedinn primary evidence; two exactかん noun/suffix cards distinct senseKeys and source role coverage. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original lexical entry actually inspected",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1929870; spelling=館; reading=かん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1929870",
+            "spelling": "館",
+            "reading": "かん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(large) building",
+                  "public building",
+                  "hall"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "Frozen publisher references and original current publisher pages",
+          "version": "Actual immutable reference hashes ff608dc1fc14a2f7236b20bbd798e666df8a69dc78194a46297028ddc1d19169, a61e1821d21afc866b33801137fb7ceb48bae3e1308a77334d2beeb61aaa5bf5",
+          "locator": "scripts/vocabulary-completion.json#candidates/館|かん/references",
+          "finding": "tanos N1 館/かん house, hall, building, hotel, inn, guesthouse; master N3 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed."
+        },
+        {
+          "source": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://kotobank.jp/word/館-93668",
+          "attribution": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "finding": "Actualかん independent entry describesnamedbuilding/institution with館の運営/館の財産; historicalかん lodging/dwelling is qualified, otherやかた/たち readings not imported. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "TANOS original complete publisher PDF page",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Actual source 館/かん house, hall, building, hotel, inn, guesthouse. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "Nihongo Master original full lexical page and displayed study-list classification",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/87716",
+          "attribution": "Nihongo Master",
+          "finding": "Actual source 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "JMdict_e, complete original lexical entry actually inspected",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1929870; spelling=館; reading=かん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1929870",
+            "spelling": "館",
+            "reading": "かん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(large) building",
+                  "public building",
+                  "hall"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Frozen publisher references and original current publisher pages",
+          "version": "Actual immutable reference hashes ff608dc1fc14a2f7236b20bbd798e666df8a69dc78194a46297028ddc1d19169, a61e1821d21afc866b33801137fb7ceb48bae3e1308a77334d2beeb61aaa5bf5",
+          "locator": "scripts/vocabulary-completion.json#candidates/館|かん/references",
+          "finding": "tanos N1 館/かん house, hall, building, hotel, inn, guesthouse; master N3 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed."
+        },
+        {
+          "source": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://kotobank.jp/word/館-93668",
+          "attribution": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "finding": "Actualkanji readingカン has publicbuilding/institution-name usage and宿屋 explicitly旅館; historical exactかん lodging/dwelling entry separately qualifies broadTANOSgloss. Modernfreehotel/ordinaryhouse not claimed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Japan Foundation Marugoto Intermediate1 EN, actual original full PDF",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/download/intermediate1/MarugotoIntermediate1VocabularyList_EN.pdf#page=20",
+          "attribution": "Japan Foundation Marugoto Intermediate1 EN, actual original full PDF",
+          "finding": "Downloaded original2025-11-07 metadata, actualpage20 printed19 has三修館さんしゅ┐うかん footnote旅館の名前 plus当館thishotel. Positive named-inn/building-role reading evidence only, not suffix numericpitch. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "TANOS original complete publisher PDF page",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Actual source 館/かん house, hall, building, hotel, inn, guesthouse. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Nihongo Master original full lexical page and displayed study-list classification",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/87716",
+          "attribution": "Nihongo Master",
+          "finding": "Actual source 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:correction:kan-building-noun N3→N2, vocab-n3:correction:kan-building-suffix N3→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "2bd082dcaf6a2050e82df331c29789102a16e445edbd0b8c86933f9e3765678c",
+        "approvalHash": "2bd082dcaf6a2050e82df331c29789102a16e445edbd0b8c86933f9e3765678c"
+      }
+    },
+    {
+      "key": "館|かん",
+      "referenceIndex": 1,
+      "referenceHash": "a61e1821d21afc866b33801137fb7ceb48bae3e1308a77334d2beeb61aaa5bf5",
+      "revisionId": "levels-2026-11-reference-館|かん-1",
+      "state": "accepted",
+      "predecessorHash": "fff5e66a52bffdeb917fe25468d838ecd322a83758846c36c6ebdcb7567bf11c",
+      "predecessorRevisionHash": "0b4f5e89a809b69d237c362db815ed122927d50171d3b18b7d50dc50ff7be3ee",
+      "disposition": "additional-sense",
+      "targets": [
+        "vocab-n3:correction:kan-building-noun",
+        "vocab-n3:correction:kan-building-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kan-building-noun": "2dc42d6812063a828f5bf666434ac7c3c677ce0e6f78d7310d3912ab6d6525ef",
+        "vocab-n3:correction:kan-building-suffix": "dd8cca90b5855b73c662f2b7005ebe4ee7b8689dd56cdbbdeb9133ef9895850e"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:correction:kan-building-noun N3→N2, vocab-n3:correction:kan-building-suffix N3→N2). Original reason: Literal source word/reading and all frozen metadata preserved. Actual selected roles, independent exact dictionaries, own teaching contexts and own whole-role pitch investigations reviewed; unrelated earlier samekanji otherreading targets are not used as coverage. Broad house/hotel/inn/guesthouse wording qualified by actual Shogakukan historicかん/旅館 and namedinn primary evidence; two exactかん noun/suffix cards distinct senseKeys and source role coverage. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use.",
+      "evidence": [
+        {
+          "source": "JMdict_e, complete original lexical entry actually inspected",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1929870; spelling=館; reading=かん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1929870",
+            "spelling": "館",
+            "reading": "かん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(large) building",
+                  "public building",
+                  "hall"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "Frozen publisher references and original current publisher pages",
+          "version": "Actual immutable reference hashes ff608dc1fc14a2f7236b20bbd798e666df8a69dc78194a46297028ddc1d19169, a61e1821d21afc866b33801137fb7ceb48bae3e1308a77334d2beeb61aaa5bf5",
+          "locator": "scripts/vocabulary-completion.json#candidates/館|かん/references",
+          "finding": "tanos N1 館/かん house, hall, building, hotel, inn, guesthouse; master N3 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed."
+        },
+        {
+          "source": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://kotobank.jp/word/館-93668",
+          "attribution": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "finding": "Actualかん independent entry describesnamedbuilding/institution with館の運営/館の財産; historicalかん lodging/dwelling is qualified, otherやかた/たち readings not imported. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "TANOS original complete publisher PDF page",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Actual source 館/かん house, hall, building, hotel, inn, guesthouse. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "Nihongo Master original full lexical page and displayed study-list classification",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/87716",
+          "attribution": "Nihongo Master",
+          "finding": "Actual source 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Independent reference to a named large/public building/institution; JMdict1929870 sense1. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Full1929870 noun/n-suf1 unrestrictedかん; selected independent building/institution role only, stable independent-building-noun senseKey. Licensed Shogakukan actualかん entry explicitly館の運営/館の財産 supports free reference to named institutions; not unqualified dwelling, やかた/たち or hotel noun. Original whole common noun99961596 aType1 selected, exact suffix99962046* reserved for separate card, all OJAD returned compounds not barehead evidence. Actual own free noun1 does not chart suffix."
+        },
+        {
+          "source": "JMdict_e, complete original lexical entry actually inspected",
+          "version": "Original gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1929870; spelling=館; reading=かん; senses=1",
+          "attribution": "JMdict, EDRDG, CC BY-SA4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "selected": {
+            "sequence": "1929870",
+            "spelling": "館",
+            "reading": "かん",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "(large) building",
+                  "public building",
+                  "hall"
+                ],
+                "notes": [],
+                "stagk": [],
+                "stagr": []
+              }
+            ]
+          },
+          "finding": "Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Frozen publisher references and original current publisher pages",
+          "version": "Actual immutable reference hashes ff608dc1fc14a2f7236b20bbd798e666df8a69dc78194a46297028ddc1d19169, a61e1821d21afc866b33801137fb7ceb48bae3e1308a77334d2beeb61aaa5bf5",
+          "locator": "scripts/vocabulary-completion.json#candidates/館|かん/references",
+          "finding": "tanos N1 館/かん house, hall, building, hotel, inn, guesthouse; master N3 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed."
+        },
+        {
+          "source": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://kotobank.jp/word/館-93668",
+          "attribution": "Shogakukan Digital Daijisen / Nippon Kokugo, licensed original entry",
+          "finding": "Actualkanji readingカン has publicbuilding/institution-name usage and宿屋 explicitly旅館; historical exactかん lodging/dwelling entry separately qualifies broadTANOSgloss. Modernfreehotel/ordinaryhouse not claimed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Japan Foundation Marugoto Intermediate1 EN, actual original full PDF",
+          "version": "Original complete source personally inspected 2026-10-04",
+          "locator": "https://marugoto.jpf.go.jp/assets/docs/download/intermediate1/MarugotoIntermediate1VocabularyList_EN.pdf#page=20",
+          "attribution": "Japan Foundation Marugoto Intermediate1 EN, actual original full PDF",
+          "finding": "Downloaded original2025-11-07 metadata, actualpage20 printed19 has三修館さんしゅ┐うかん footnote旅館の名前 plus当館thishotel. Positive named-inn/building-role reading evidence only, not suffix numericpitch. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "TANOS original complete publisher PDF page",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=33",
+          "attribution": "TANOS JLPT Resources",
+          "finding": "Actual source 館/かん house, hall, building, hotel, inn, guesthouse. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Nihongo Master original full lexical page and displayed study-list classification",
+          "version": "Original source personally inspected 2026-10-04; frozen metadata retained",
+          "locator": "https://www.nihongomaster.com/japanese/dictionary/word/87716",
+          "attribution": "Nihongo Master",
+          "finding": "Actual source 館/かん house; hall; building. Editorial placement N3 follows literal Master N3 estimate for 館|かん and the actually selected Building/institution-name suffix; JMdict1929870 sense1; qualified inn sense through旅館, not a claim that bareかん means any hotel. MasterN3 versus TANOSN1p33 broad house/hall/building/hotel/inn/guesthouse; qualify rather than importやかた/たち readings Current true N5 campaign ownership remains immutable; publisher estimates are not official JLPT certification; no original identity/level is changed. Original1929870 same unrestrictedかん n-suf1 independently scoped bound-building-suffix, preserving distinct mergeKey from free noun. Licensed Shogakukan kanji宿屋 sense explicitly旅館 and publicbuilding/name usages, plus historical exactかん lodging/dwelling entry, positively qualify TANOS broad house/hotel/inn/guesthouse gloss without equating every modernhotel/freehouse noun to bare館. Actual JPF Intermediate1 EN page20 printed19 三修館 footnote旅館の名前 and当館thishotel support genuine named-inn building use. Whole suffix99962046 aType*; free99961596 aType1 and complete OJAD compounds cannot establish suffix contour. Both authored compound roles are specific actual buildings, not guessed standalone house use."
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:correction:kan-building-noun N3→N2, vocab-n3:correction:kan-building-suffix N3→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "940496f0ef896af61cbc9622034f5907978a119a376b07ec8d0460a10f69aad6",
+        "approvalHash": "940496f0ef896af61cbc9622034f5907978a119a376b07ec8d0460a10f69aad6"
+      }
+    },
+    {
+      "key": "街|がい",
+      "referenceIndex": 0,
+      "referenceHash": "216827a8849b1d3625092afc56e3173e8ac847b5f3d6930355bc569ded68bddb",
+      "revisionId": "levels-2026-11-reference-街|がい-0",
+      "state": "accepted",
+      "predecessorHash": "e72136645b632f3d2f6401412653f07cf5cb73e36082288a000a8115fd51102c",
+      "predecessorRevisionHash": "b3ef83de5a79c67e181dcda4230b807ca6093e52670d8579c887e554ec7c71ea",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n2:correction:gai-street-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gai-street-suffix": "4fc41449413bfcb1bd8262a1e4fa28b3187aedfcf2669edceb543e6414a3e3a9"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:gai-street-suffix N2→N1). Original reason: Source 街 read がい \"~street, ~quarters\" (tanos + master). JMdict 1204570 街【がい】 [n-suf] street; quarter; district. 街 exists in the app only as alias of vocab-n5:273 町/まち; no card has 街/がい. The suffix is very productive (商店街, 住宅街, 中華街), so a new suffix card for the additional reading, placed N2 as clearly basic.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 216827a8849b1d3625092afc56e3173e8ac847b5f3d6930355bc569ded68bddb",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=36",
+          "finding": "街/がい glossed \"~street, ~quarters\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1204570; 街/がい",
+          "finding": "n-suf: street; quarter; district"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1603990; 町/街/まち",
+          "finding": "different reading, card vocab-n5:273"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:gai-street-suffix N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "82247ee7dc6e3ef90e61f351359e1395f9950c533c14a344eb425780258284e2",
+        "approvalHash": "82247ee7dc6e3ef90e61f351359e1395f9950c533c14a344eb425780258284e2"
+      }
+    },
+    {
+      "key": "街|がい",
+      "referenceIndex": 1,
+      "referenceHash": "b13216495196e72bdd45de847c4427ebc211e2bc9e298c9de0a605067602f424",
+      "revisionId": "levels-2026-11-reference-街|がい-1",
+      "state": "accepted",
+      "predecessorHash": "23ee93c44d942f894c69f013861b97d93bf5732383ccca59b9a94361356ac626",
+      "predecessorRevisionHash": "a1e255134751704dad48c99a10909515ae1e68b231ecb01d004776cca156f39b",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n2:correction:gai-street-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:gai-street-suffix": "4fc41449413bfcb1bd8262a1e4fa28b3187aedfcf2669edceb543e6414a3e3a9"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n2:correction:gai-street-suffix N2→N1). Original reason: Source 街 read がい \"~street, ~quarters\" (tanos + master). JMdict 1204570 街【がい】 [n-suf] street; quarter; district. 街 exists in the app only as alias of vocab-n5:273 町/まち; no card has 街/がい. The suffix is very productive (商店街, 住宅街, 中華街), so a new suffix card for the additional reading, placed N2 as clearly basic.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 b13216495196e72bdd45de847c4427ebc211e2bc9e298c9de0a605067602f424",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "街/がい glossed \".. street; .. quarter; .. district\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1204570; 街/がい",
+          "finding": "n-suf: street; quarter; district"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1603990; 町/街/まち",
+          "finding": "different reading, card vocab-n5:273"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n2:correction:gai-street-suffix N2→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "b82ff89d4789bb60e77c0e5ae2c0392a5c3aefbf83a8885d90d175e4abc739b8",
+        "approvalHash": "b82ff89d4789bb60e77c0e5ae2c0392a5c3aefbf83a8885d90d175e4abc739b8"
+      }
+    },
+    {
+      "key": "傷付く|きずつく",
+      "referenceIndex": 0,
+      "referenceHash": "430e6056d8a8317f4acb18e558ffc580ae3b07fddd7ba044534e36668e555f0d",
+      "revisionId": "levels-2026-11-reference-傷付く|きずつく-0",
+      "state": "accepted",
+      "predecessorHash": "81589da3a300fe9be9d4a946bd16c3074d954004fddc49c1fc594a15e66431ac",
+      "predecessorRevisionHash": "11333e3901365d30c0f5cb94343809b3a002e3c6f0fccfc1967ee63904a69db6",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:3178"
+      ],
+      "targetHashes": {
+        "vocab-n3:3178": "61b0a78bfbb08d74f134f33c875eed9ed9139860731915e0e6a923022feefd04"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:3178 N3→N1). Original reason: tanos 傷付く/きずつく 'to be hurt, to be wounded' is the okurigana/kanji variant of 傷つく. JMdict 1591240 lists 傷つく and 傷付く (ichi2/news2, untagged) in the same entry, reading きずつく. Reviewed card vocab-n3:3178 傷つく/きずつく 'verletzt werden' has the identical reading and sense; add 傷付く as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 430e6056d8a8317f4acb18e558ffc580ae3b07fddd7ba044534e36668e555f0d",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=39",
+          "finding": "傷付く/きずつく glossed \"to be hurt, to be wounded, to get injured\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1591240; 傷つく/傷付く きずつく",
+          "finding": "傷付く is an untagged common kanji form of the same entry"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:3178 N3→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "7d916eed7e716421c9c030b5b418fc4fe45d4c23019fc03737498c3719a4369e",
+        "approvalHash": "7d916eed7e716421c9c030b5b418fc4fe45d4c23019fc03737498c3719a4369e"
+      }
+    },
+    {
+      "key": "共存|きょうそん",
+      "referenceIndex": 0,
+      "referenceHash": "1a13b2c35f185896edab25e75513821b2928631648d09579d5832e4f71b5a569",
+      "revisionId": "levels-2026-11-reference-共存|きょうそん-0",
+      "state": "accepted",
+      "predecessorHash": "9d20dec345c1e6eb2ecf287a3ae28f62afb948ab4604ff076973f5559259c2de",
+      "predecessorRevisionHash": "f755f2d66e4208acd38f4d9136657652e402e8760d34d6ae48b29e01c3297ff6",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n3:correction:kyouson-coexistence"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kyouson-coexistence": "106c16cc13cdb332c768a3dd1c6f2ad11a523411eb8d5960c34fafc5dec42e5a"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:correction:kyouson-coexistence N3→N1). Original reason: tanos 共存/きょうそん 'coexistence'. JMdict 1578050 共存 lists きょうぞん (ichi1) and きょうそん without any rare/old tag. Card vocab-n3:838 共存/きょうぞん teaches only きょうぞん; a different reading cannot be an alias. きょうそん is the traditional, still widely accepted reading (heard in news and set phrases like 共存共栄), so it gets its own reading card (cf. 頬/ほほ, 連中/れんじゅう in b173).",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 1a13b2c35f185896edab25e75513821b2928631648d09579d5832e4f71b5a569",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=43",
+          "finding": "共存/きょうそん glossed \"coexistence\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578050; 共存 きょうぞん/きょうそん",
+          "finding": "きょうそん untagged second reading, same sense n,vs coexistence"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:correction:kyouson-coexistence N3→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "2aa292bcee570ba40618a17b570c06cbcf5f8fbeba406f7e81dc1d8e5ba1f4b0",
+        "approvalHash": "2aa292bcee570ba40618a17b570c06cbcf5f8fbeba406f7e81dc1d8e5ba1f4b0"
+      }
+    },
+    {
+      "key": "曲|きょく",
+      "referenceIndex": 0,
+      "referenceHash": "1e3295f6c58e90004c721829a0a6d349e4b16b94fe95eadc9bf4920a94da63ab",
+      "revisionId": "levels-2026-11-reference-曲|きょく-0",
+      "state": "accepted",
+      "predecessorHash": "4a5156c92428d2d07b77305d24bbaa784865584bb56027d523a9a1e1ab449711",
+      "predecessorRevisionHash": "4754ca93b8b8e627b159896b332c8e53107b1824faafeced49a4a6ad219a568e",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kyoku-song"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kyoku-song": "da17d37896b7ff33d1c36ee9dadae8602186bfd31f0441e5f58b9a8d1168ff23"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:correction:kyoku-song N1→N3). Original reason: Reference 曲/きょく (tanos N1) is the same lexeme as the new entry 曲【きょく】.",
+      "evidence": [
+        {
+          "source": "Tanos JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=43",
+          "finding": "tanos lists 曲/きょく at N1 (gloss: tune, piece of music)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1239700; spelling=曲; reading=きょく; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1239700 as the reference form.",
+          "selected": {
+            "sequence": "1239700",
+            "spelling": "曲",
+            "reading": "きょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "composition",
+                  "piece of music",
+                  "song",
+                  "track (on a record)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tune",
+                  "melody",
+                  "air"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:correction:kyoku-song N1→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "28fe9eb679997be9702f78c3b127dab9cd90af5a274ae0f1fc76bcdb5a6557ad",
+        "approvalHash": "28fe9eb679997be9702f78c3b127dab9cd90af5a274ae0f1fc76bcdb5a6557ad"
+      }
+    },
+    {
+      "key": "曲|きょく",
+      "referenceIndex": 1,
+      "referenceHash": "c73971aa0f3c69d417b52b8a003420194dd1f32996c50ab84e2319cd6910cc27",
+      "revisionId": "levels-2026-11-reference-曲|きょく-1",
+      "state": "accepted",
+      "predecessorHash": "333adad46c8c7e2c3e75e8fad76657ffae139fb79690d3db4038f45d5194f909",
+      "predecessorRevisionHash": "cad024a81ccf5fb0e3468d16e8ee00340dfdd1a30ac8ff269a3ae4f1e9d00bc8",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kyoku-song"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kyoku-song": "da17d37896b7ff33d1c36ee9dadae8602186bfd31f0441e5f58b9a8d1168ff23"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n1:correction:kyoku-song N1→N3). Original reason: Reference 曲/きょく (master N1) is the same lexeme as the new entry 曲【きょく】.",
+      "evidence": [
+        {
+          "source": "Nihongo Master JLPT vocabulary list",
+          "version": "retrieved 2026-09-04/05 (scripts/vocabulary-review.json)",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list",
+          "finding": "Nihongo Master lists 曲/きょく at N1 (gloss: tune; piece of music; air)."
+        },
+        {
+          "source": "JMdict_e",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "ent_seq=1239700; spelling=曲; reading=きょく; senses=1,2; scripts/vocabulary-completion/maintenance-040/research-supplement.json (lookup-exact-forms.py, same restricted matching as scripts/research-vocabulary-*.py)",
+          "finding": "Same JMdict entry 1239700 as the reference form.",
+          "selected": {
+            "sequence": "1239700",
+            "spelling": "曲",
+            "reading": "きょく",
+            "readingRestrictions": [],
+            "spellingInfo": [],
+            "senses": [
+              {
+                "sense": 1,
+                "pos": [
+                  "noun (common) (futsuumeishi)",
+                  "noun, used as a suffix"
+                ],
+                "misc": [],
+                "gloss": [
+                  "composition",
+                  "piece of music",
+                  "song",
+                  "track (on a record)"
+                ],
+                "notes": []
+              },
+              {
+                "sense": 2,
+                "pos": [
+                  "noun (common) (futsuumeishi)"
+                ],
+                "misc": [],
+                "gloss": [
+                  "tune",
+                  "melody",
+                  "air"
+                ],
+                "notes": []
+              }
+            ]
+          }
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n1:correction:kyoku-song N1→N3); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "f073fb3d8b68ddb59bc611deddfc72945c0745c0c05e5e02e106c5c7a6bd289e",
+        "approvalHash": "f073fb3d8b68ddb59bc611deddfc72945c0745c0c05e5e02e106c5c7a6bd289e"
+      }
+    },
+    {
+      "key": "潜る|くぐる",
+      "referenceIndex": 0,
+      "referenceHash": "b13ded3dbb1e962d2bc0f36e1e66b2c445f1869bf736d942e50c80aff8e48b84",
+      "revisionId": "levels-2026-11-reference-潜る|くぐる-0",
+      "state": "accepted",
+      "predecessorHash": "3c1fde7b62f04231a3b1d5c27dc57411fdef8c2354217ac91cab0ab5a9d892b6",
+      "predecessorRevisionHash": "8537506f3fc7684400e1fffb5e19a54432e32f2ac5939f9f484a634d1f33b1e9",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n3:correction:kuguru-pass-under"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kuguru-pass-under": "710db3c130b2775222be36c8cd5696af2a946da8c2d70df0940ae81811f8a203"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:correction:kuguru-pass-under N3→N1). Original reason: The TANOS row 潜る/くぐる is the reading くぐる of 潜る. JMdict 1609710 潜る【くぐる】 (uk) to go under; to pass through; to dive; to evade - a distinct verb from 潜る【もぐる】. The only 潜る card is vocab-n4:539 潜る/もぐる \"tauchen, untertauchen\" (different reading); no card has reading くぐる. くぐる is a common, learnable verb (門をくぐる, トンネルをくぐる), so add it as a new card written in its usual kana form with alias 潜る. The TANOS gloss (\"hide, 3. to dive ..., to go\") is a garbled excerpt mixing in もぐる senses, but the reading identifies くぐる.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 b13ded3dbb1e962d2bc0f36e1e66b2c445f1869bf736d942e50c80aff8e48b84",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=46",
+          "finding": "潜る/くぐる glossed \"hide, 3. to dive (into or under water), to go\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1609710; 潜る/くぐる",
+          "finding": "uk; to go under; to pass through; to dive"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: くぐる",
+          "finding": "no card with reading くぐる"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:correction:kuguru-pass-under N3→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "3e4693ca66099e540ad39dcd96bcecb121afcdd1c5adc6bfcc8579900ad8b7b6",
+        "approvalHash": "3e4693ca66099e540ad39dcd96bcecb121afcdd1c5adc6bfcc8579900ad8b7b6"
+      }
+    },
+    {
+      "key": "潜る|くぐる",
+      "referenceIndex": 1,
+      "referenceHash": "818b14f0ce23cc5fe9ae062666ec69b530769229610ad7a0769897e2d2762882",
+      "revisionId": "levels-2026-11-reference-潜る|くぐる-1",
+      "state": "accepted",
+      "predecessorHash": "f66318fec9c0c52ce523b4bda66b7cda1a9e28c3be3699d6e9234fe80bfec8e0",
+      "predecessorRevisionHash": "a292b68c2d153365c878b556dab3771c45c4d06a5b64ba7b651847d7e885a5f4",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n3:correction:kuguru-pass-under"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:kuguru-pass-under": "710db3c130b2775222be36c8cd5696af2a946da8c2d70df0940ae81811f8a203"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n3:correction:kuguru-pass-under N3→N1). Original reason: The Nihongo Master row 潜る/くぐる is the reading くぐる of 潜る. JMdict 1609710 潜る【くぐる】 (uk) to go under; to pass through; to dive; to evade - a distinct verb from 潜る【もぐる】. The only 潜る card is vocab-n4:539 潜る/もぐる \"tauchen, untertauchen\" (different reading); no card has reading くぐる. くぐる is a common, learnable verb (門をくぐる, トンネルをくぐる), so add it as a new card written in its usual kana form with alias 潜る. Its gloss \"to drive (sic: dive); to pass through; to pass under\" matches JMdict sense 1.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 818b14f0ce23cc5fe9ae062666ec69b530769229610ad7a0769897e2d2762882",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=3",
+          "finding": "潜る/くぐる glossed \"to drive; to pass through; to pass under\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1609710; 潜る/くぐる",
+          "finding": "uk; to go under; to pass through; to dive"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: くぐる",
+          "finding": "no card with reading くぐる"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n3:correction:kuguru-pass-under N3→N1); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "b74b157d744481ecfafd7ea52ca78cbcf32ccd9dc17f7a343f422c1a6760073e",
+        "approvalHash": "b74b157d744481ecfafd7ea52ca78cbcf32ccd9dc17f7a343f422c1a6760073e"
+      }
+    },
+    {
+      "key": "嚏|くしゃみ",
+      "referenceIndex": 0,
+      "referenceHash": "9eb7aa3e243bcbc0dc7d95249b5b263adfff021aebb7f7b86f9ded862b8b5413",
+      "revisionId": "levels-2026-11-reference-嚏|くしゃみ-0",
+      "state": "accepted",
+      "predecessorHash": "5508acb4d8d4fd7014afbca0236d5047f10b840749e152d031a09cf979adcc28",
+      "predecessorRevisionHash": "b50653c7531d547ef5e4c7ef7e688e4676b0070d95ca512f28b1930dc04d252f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:659"
+      ],
+      "targetHashes": {
+        "vocab-n4:659": "625550702c58200c8deff678ce6277fbd736377fd28a1acbf01d697a28f026e8"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:659 N4→N2). Original reason: Rare kanji spelling of the uk noun くしゃみ. JMdict 1003710 嚏/嚔 【くしゃみ】 'sneeze' (uk). Reviewed card vocab-n4:659 くしゃみ/くしゃみ 'Niesen' has identical reading and sense; 嚏 added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 9eb7aa3e243bcbc0dc7d95249b5b263adfff021aebb7f7b86f9ded862b8b5413",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=47",
+          "finding": "嚏/くしゃみ glossed \"sneeze\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1003710; 嚏/くしゃみ",
+          "finding": "嚏 listed (rK); n,vs uk: sneeze; sneezing"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:659 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "9c6ccbea43ed9a19fd965c5606af73119cb16a7eaed9c2d012bf420aa5d545fb",
+        "approvalHash": "9c6ccbea43ed9a19fd965c5606af73119cb16a7eaed9c2d012bf420aa5d545fb"
+      }
+    },
+    {
+      "key": "嚏|くしゃみ",
+      "referenceIndex": 1,
+      "referenceHash": "e2c07fcc4fb6e8210fff0751508eeb7b38e00d1f28f0a42e143c238698a823fb",
+      "revisionId": "levels-2026-11-reference-嚏|くしゃみ-1",
+      "state": "accepted",
+      "predecessorHash": "abc3286962515702a2524ddcbf487cfd36d4e0dd4888fd8c741c23249f912f59",
+      "predecessorRevisionHash": "b8e517950ead99e8098c8979994ddd3c0563b805f391c06d2d9a978dcdd26199",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:659"
+      ],
+      "targetHashes": {
+        "vocab-n4:659": "625550702c58200c8deff678ce6277fbd736377fd28a1acbf01d697a28f026e8"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:659 N4→N2). Original reason: Nihongo Master row, same as the tanos row: JMdict 1003710 嚏/嚔 【くしゃみ】 uk 'sneeze'; card vocab-n4:659 くしゃみ teaches it, 嚏 added as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 e2c07fcc4fb6e8210fff0751508eeb7b38e00d1f28f0a42e143c238698a823fb",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "嚏/くしゃみ glossed \"sneeze; éternuement; (n) Niesen\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1003710; 嚏/くしゃみ",
+          "finding": "n uk: sneeze"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:659 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "7298488dadf52fcbfc8739f08a25ed0a2afa2947fc26ab34c42f6f7e50b785e1",
+        "approvalHash": "7298488dadf52fcbfc8739f08a25ed0a2afa2947fc26ab34c42f6f7e50b785e1"
+      }
+    },
+    {
+      "key": "下らない|くだらない",
+      "referenceIndex": 0,
+      "referenceHash": "e8c32e588aeda4829a5f665a1921b7029a868428ff95de13b38f82c47804f02d",
+      "revisionId": "levels-2026-11-reference-下らない|くだらない-0",
+      "state": "accepted",
+      "predecessorHash": "7f3203b93493e04c91904248e1437c584f52f6de530f1f7682a1b524f91d5cd9",
+      "predecessorRevisionHash": "fddb10bd7a12b401f0a3b925260062fb2375d84d685817a69557310e5e7285fe",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:503"
+      ],
+      "targetHashes": {
+        "vocab-n4:503": "e1e6840b58b0f5c698c6c93a5dd5ae489506a93dd21f5d15d73d08fcfacf4f9c"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:503 N4→N2). Original reason: 下らない is the kanji headword of JMdict 1184360 下らない【くだらない】 'trivial, worthless, stupid' (uk). Card vocab-n4:503 くだらない (albern, lächerlich, sinnlos) has identical reading; add kanji alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (tanos N1)",
+          "version": "Frozen candidate reference SHA256 e8c32e588aeda4829a5f665a1921b7029a868428ff95de13b38f82c47804f02d",
+          "locator": "https://www.tanos.co.uk/jlpt/jlpt1/vocab/VocabList.N1.pdf#page=47",
+          "finding": "下らない/くだらない glossed \"good-for-nothing, stupid, trivial, worthless\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1184360; 下らない/くだらない",
+          "finding": "uk; trivial; worthless; stupid"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:503 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "23e315f3ce652eb5ae9258a2ac7cd0374d318107f4f7060b13e1ebee8409a5b0",
+        "approvalHash": "23e315f3ce652eb5ae9258a2ac7cd0374d318107f4f7060b13e1ebee8409a5b0"
+      }
+    },
+    {
+      "key": "下らない|くだらない",
+      "referenceIndex": 1,
+      "referenceHash": "e5c419d8922452aec64e8ad1571eb2a48d1f72973c07b495305d6e24f0a11fc3",
+      "revisionId": "levels-2026-11-reference-下らない|くだらない-1",
+      "state": "accepted",
+      "predecessorHash": "1aa6b4e2c89567e9bae038fcab531f3f7d8b8d89296ced3ebcb5076716e9e5d7",
+      "predecessorRevisionHash": "5ba9a35f58942f080ea66f5013b790faf1c3ee974d8519bfb6ebdf30a658b81f",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n4:503"
+      ],
+      "targetHashes": {
+        "vocab-n4:503": "e1e6840b58b0f5c698c6c93a5dd5ae489506a93dd21f5d15d73d08fcfacf4f9c"
+      },
+      "reason": "Renewed unchanged for the November 2026 vocabulary-level calibration: the target card(s) changed level only (vocab-n4:503 N4→N2). Original reason: Nihongo Master 下らない 'good-for-nothing; stupid; trivial' = JMdict 1184360 下らない【くだらない】; taught by card vocab-n4:503 くだらない. Same as tanos row.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 e5c419d8922452aec64e8ad1571eb2a48d1f72973c07b495305d6e24f0a11fc3",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=3",
+          "finding": "下らない/くだらない glossed \"good-for-nothing; stupid; trivial\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1184360; 下らない/くだらない",
+          "finding": "uk; trivial; stupid"
+        },
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json",
+          "finding": "Only the level of the target card(s) changed (vocab-n4:503 N4→N2); disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed level only, as recorded in the calibration evidence.",
+        "contentHash": "837132888d886db953edbb69207e0588fac14bfb7c6994c7218b5da39dc64dd9",
+        "approvalHash": "837132888d886db953edbb69207e0588fac14bfb7c6994c7218b5da39dc64dd9"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2398 @@
+{
+  "version": 3,
+  "merges": [],
+  "reviews": [
+    {
+      "id": "vocab-n2:1006",
+      "revisionId": "levels-2026-11-vocab-n2-1006",
+      "state": "accepted",
+      "predecessorHash": "b7123b759facff63aa4113ed437f5a85112a3acd69fa3fac21ceef0621ef7783",
+      "originalHash": "b7123b759facff63aa4113ed437f5a85112a3acd69fa3fac21ceef0621ef7783",
+      "predecessorRevisionHash": "dd0325f4bc8bf21b34474f80a2f06d6fcc5dfce902ba0a9d5610172368ed938b",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1006; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 決意 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1006",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:1234",
+          "finding": "Component 決意 (vocab-n3:1234) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 決意する/けついする read; accent_top positions [1] (0 = no accent_top). Exact whole 決意する/けついする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 0b0f5216cdf1d1de7ba9287b37848f8a10ed4a6da36e2c767c13ed090a3bf734",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B1%BA%E6%84%8F%E3%81%99%E3%82%8B#word_1687",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 決意する/けついする read; accent_top positions [1] (0 = no accent_top). Exact whole 決意する/けついする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "決意する",
+              "reading": "けついする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 決意する/けついする \"sich entschließen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich entschließen. JMdict 1254220 sense 1, noun / suru verb: decision, determination, resolution",
+        "japanese": "留学することを決意した。 / その選手は、けがを理由に引退を決意した。 / 新年に、毎日日記をつけると決意した。",
+        "romanization": "ketsui suru; Ryūgaku suru koto o ketsui shita. / Sono senshu wa, kega o riyū ni intai o ketsui shita. / Shinnen ni, mainichi nikki o tsukeru to ketsui shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe den Entschluss gefasst, im Ausland zu studieren. / Der Spieler hat sich wegen einer Verletzung entschlossen, seine Karriere zu beenden. / Zum neuen Jahr habe ich mir fest vorgenommen, jeden Tag Tagebuch zu schreiben.",
+        "contexts": [
+          "Decision to study abroad",
+          "Athlete retires",
+          "New Year's resolution"
+        ],
+        "lexical": "JMdict 1254220 sense 1, noun / suru verb: decision, determination, resolution",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を決意する; 〜と決意する)",
+        "conjugation": "suru verb (決意する → 決意して, 決意しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 決意 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1006; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ca213c303b63f87e423ad22d9992da4b354066693de49292e793722a61a3f698",
+        "approvalHash": "8486952b0491e43b5b178e8182b53aeeba38faa681133edccffff65139725ca1"
+      }
+    },
+    {
+      "id": "vocab-n2:1007",
+      "revisionId": "levels-2026-11-vocab-n2-1007",
+      "state": "accepted",
+      "predecessorHash": "6c1e8f5a0dd4493089f13b7cff97b396955600cd7fd51eb8ec40e51341ada390",
+      "originalHash": "6c1e8f5a0dd4493089f13b7cff97b396955600cd7fd51eb8ec40e51341ada390",
+      "predecessorRevisionHash": "0a2bc99139911087744f9bf7c756e0a5fcdb8f08a2d0422e07ba1c98b93b4d3b",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1007; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 決心 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1007",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n4:696",
+          "finding": "Component 決心 (vocab-n4:696) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 決心する/けっしんする read; accent_top positions [1] (0 = no accent_top). Exact whole 決心する/けっしんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 35ec723f9e2d7b0f4086ae25f65d2d49b58a5d50a3d36907773619c2942986ab",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%B1%BA%E5%BF%83%E3%81%99%E3%82%8B#word_1626",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 決心する/けっしんする read; accent_top positions [1] (0 = no accent_top). Exact whole 決心する/けっしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "決心する",
+              "reading": "けっしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 決心する/けっしんする \"einen Entschluss fassen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "einen Entschluss fassen. JMdict 1254340 sense 1, noun / suru verb: determination, resolution",
+        "japanese": "転職する決心がついた。 / 健康のために、たばこをやめようと決心した。 / 彼女にプロポーズしたいが、なかなか決心がつかない。",
+        "romanization": "kesshin suru; Tenshoku suru kesshin ga tsuita. / Kenkō no tame ni, tabako o yameyō to kesshin shita. / Kanojo ni puropōzu shitai ga, nakanaka kesshin ga tsukanai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich habe mich entschlossen, die Stelle zu wechseln. / Meiner Gesundheit zuliebe habe ich beschlossen, mit dem Rauchen aufzuhören. / Ich möchte ihr einen Antrag machen, kann mich aber einfach nicht dazu durchringen.",
+        "contexts": [
+          "Decision to change jobs",
+          "Quitting smoking",
+          "Hesitating to propose"
+        ],
+        "lexical": "JMdict 1254340 sense 1, noun / suru verb: determination, resolution",
+        "register": "neutral",
+        "transitivity": "transitive (X を決心する; 〜と決心する); 決心がつく intransitive phrase",
+        "conjugation": "suru verb (決心する → 決心して, 決心しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 決心 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1007; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "37c585d2073e7dec83483922079a33ae184801993ad6145b3ce3eb02357c2742",
+        "approvalHash": "e8406e75d7a2d4d189e311132dfe6a6bb7636591b8c35661ab5baab2c60c875b"
+      }
+    },
+    {
+      "id": "vocab-n2:1008",
+      "revisionId": "levels-2026-11-vocab-n2-1008",
+      "state": "accepted",
+      "predecessorHash": "4bd62c18762a89b4a61dba3f3ea3884a11ec9b73ba621927703a478fca90cf53",
+      "originalHash": "4bd62c18762a89b4a61dba3f3ea3884a11ec9b73ba621927703a478fca90cf53",
+      "predecessorRevisionHash": "c1763732a8114469bc933a3ef6044d5adbc9472be1bb3780aa4f6c399c0c84d1",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1008; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 記憶 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1008",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n4:353",
+          "finding": "Component 記憶 (vocab-n4:353) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 記憶する/きおくする read; accent_top positions [0] (0 = no accent_top). Exact whole 記憶する/きおくする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 62651ff53c50d255396af5dc9a1682221114730fd5a59c74b7272727247f70cd",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%A8%98%E6%86%B6%E3%81%99%E3%82%8B#word_2008",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 記憶する/きおくする read; accent_top positions [0] (0 = no accent_top). Exact whole 記憶する/きおくする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "記憶する",
+              "reading": "きおくする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 記憶する/きおくする \"sich einprägen, im Gedächtnis behalten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich einprägen, im Gedächtnis behalten. JMdict 1223150 senses 1-2, noun / suru verb: memory, recollection; (data) storage",
+        "japanese": "大量の情報を正確に記憶するのは難しい。 / その日のことは、はっきりと記憶している。 / このアプリは、前回入力した住所を記憶してくれる。",
+        "romanization": "kioku suru; Tairyō no jōhō o seikaku ni kioku suru no wa muzukashii. / Sono hi no koto wa, hakkiri to kioku shite iru. / Kono apuri wa, zenkai nyūryoku shita jūsho o kioku shite kureru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist schwierig, große Mengen an Informationen genau zu behalten. / An diesen Tag erinnere ich mich ganz genau. / Diese App merkt sich die zuletzt eingegebene Adresse.",
+        "contexts": [
+          "Memorizing large amounts of data",
+          "Vivid memory of a day",
+          "App saves an address"
+        ],
+        "lexical": "JMdict 1223150 senses 1-2, noun / suru verb: memory, recollection; (data) storage",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を記憶する)",
+        "conjugation": "suru verb (記憶する → 記憶して, 記憶しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 記憶 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1008; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "35dce00132aa3debdb8c2a1d1b5ea1557d7f83ea0c45e2f7b36b8dff80ffe86c",
+        "approvalHash": "9bbb7a4af7494938803e235e82702248c49ad689b3781d4e4ff229ad29cc548b"
+      }
+    },
+    {
+      "id": "vocab-n2:1009",
+      "revisionId": "levels-2026-11-vocab-n2-1009",
+      "state": "accepted",
+      "predecessorHash": "48565a2587bb33de7a3eef1faeb39a2b3f9e7c9ae07978193ed3acfdae80d5fc",
+      "originalHash": "48565a2587bb33de7a3eef1faeb39a2b3f9e7c9ae07978193ed3acfdae80d5fc",
+      "predecessorRevisionHash": "1f218f575f4cfbb151f9e23e8b40a5f66a8dc71a1176824e49f98901b1abc97e",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1009; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 暗記 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1009",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n4:869",
+          "finding": "Component 暗記 (vocab-n4:869) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 暗記する/あんきする read; accent_top positions [0] (0 = no accent_top). Exact whole 暗記する/あんきする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 47df9eb9e7dea0a06c8ff2d814bda6c7b09fcc76072781dfe7f604fbd64ab70f",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%9A%97%E8%A8%98%E3%81%99%E3%82%8B#word_1874",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 暗記する/あんきする read; accent_top positions [0] (0 = no accent_top). Exact whole 暗記する/あんきする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "暗記する",
+              "reading": "あんきする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 暗記する/あんきする \"auswendig lernen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "auswendig lernen. JMdict 1586910 sense 1, noun / suru verb: memorization, learning by heart",
+        "japanese": "歴史の年号を暗記するのが苦手だ。 / スピーチの原稿を全部暗記したので、紙を見ないで話せた。 / 試験の前の日に、単語を百個暗記した。",
+        "romanization": "anki suru; Rekishi no nengō o anki suru no ga nigate da. / Supīchi no genkō o zenbu anki shita node, kami o minaide hanaseta. / Shiken no mae no hi ni, tango o hyakko anki shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin nicht gut darin, historische Jahreszahlen auswendig zu lernen. / Ich hatte die ganze Rede auswendig gelernt und konnte ohne Zettel sprechen. / Am Tag vor der Prüfung habe ich hundert Vokabeln auswendig gelernt.",
+        "contexts": [
+          "Struggling with history dates",
+          "Speech without notes",
+          "Cramming vocabulary"
+        ],
+        "lexical": "JMdict 1586910 sense 1, noun / suru verb: memorization, learning by heart",
+        "register": "neutral",
+        "transitivity": "transitive (X を暗記する)",
+        "conjugation": "suru verb (暗記する → 暗記して, 暗記しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 暗記 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1009; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "3e1b3904a4d6d182546f9341725be6c63d79e1f9b2bf2efac8c9d82e9f0b58f0",
+        "approvalHash": "2311e3016a4fc3218df49fe084186f7280abd1a10866a328b9db85939f13f44a"
+      }
+    },
+    {
+      "id": "vocab-n2:101",
+      "revisionId": "levels-2026-11-vocab-n2-101",
+      "state": "accepted",
+      "predecessorHash": "a34f51ccf080ae7a55bba443bd3aaf00776acfa8f188f78ccf88bc77c16e5c1c",
+      "originalHash": "a34f51ccf080ae7a55bba443bd3aaf00776acfa8f188f78ccf88bc77c16e5c1c",
+      "predecessorRevisionHash": "a5153eedd304af8743b47e640ce768da9d2518d604acaab0ee45f0fedc23477e",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 191i-n2-enrichment-vocab-n2-101; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:101",
+          "finding": "N2 → N3 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n3.csv SHA256 bd4d68c59cfee861351e1bdf9d99818e434392201eabbed4d3657225fe53a3ac",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n3.csv#L1695; JMdict entry 1550880",
+          "finding": "離婚 (りこん) is listed at N3 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n3.csv SHA256 ba071571d344e60b0e1fd11cd2e98a6aaa04515361653ca45147129460531297",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n3.csv#L1165",
+          "finding": "離婚 (りこん) is listed at N3 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 離婚/リコン; lemma 離婚; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@278225656",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 離婚/リコン; lemma 離婚; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "離婚",
+              "reading": "りこん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 離婚/りこん \"Scheidung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Scheidung. JMdict 1550880 sense 1, noun / suru verb: divorce",
+        "japanese": "離婚率が年々上がっている。 / 両親は私が十歳のときに離婚した。 / 二人は話し合いの末、離婚届を役所に出した。",
+        "romanization": "rikon; Rikonritsu ga nennen agatte iru. / Ryōshin wa watashi ga jussai no toki ni rikon shita. / Futari wa hanashiai no sue, rikon todoke o yakusho ni dashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Scheidungsrate steigt von Jahr zu Jahr. / Meine Eltern haben sich scheiden lassen, als ich zehn war. / Nach langen Gesprächen reichten die beiden die Scheidungspapiere beim Amt ein.",
+        "contexts": [
+          "Statistics",
+          "Family background",
+          "Filing at city hall"
+        ],
+        "lexical": "JMdict 1550880 sense 1, noun / suru verb: divorce",
+        "register": "neutral",
+        "transitivity": "Nonverb (noun); as 離婚する intransitive (〜と離婚する)",
+        "conjugation": "noun; suru verb (離婚する)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N3 (easier)",
+        "carriedOver": "All fields except level are copied unchanged from 191i-n2-enrichment-vocab-n2-101; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "d6512a6aa5cc55b1d30c3597335f4f3b77730bcb2b65717ea40617c0a61a1833",
+        "approvalHash": "ad1124212dc4429cb96d54555c677b1ac5010d03f0536cfd7f143055394cb66b"
+      }
+    },
+    {
+      "id": "vocab-n2:1015",
+      "revisionId": "levels-2026-11-vocab-n2-1015",
+      "state": "accepted",
+      "predecessorHash": "7790c2d0fd66d6db053bb550f022acca66920394a3a19ae594f6485a64631bc9",
+      "originalHash": "7790c2d0fd66d6db053bb550f022acca66920394a3a19ae594f6485a64631bc9",
+      "predecessorRevisionHash": "9bdbf0d64aa05dc8b6acd359dde058889abe5ecd073a53ab7f35e12ed24af274",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1015; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 申告 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1015",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:312",
+          "finding": "Component 申告 (vocab-n1:312) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 申告する/しんこくする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (申告); none is the exact head 申告する/しんこくする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E7%94%B3%E5%91%8A%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 申告する/しんこくする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 f863c72ed2d6649c3e50079c2dfc966e4f5afdcc29d027ec4f63eec3c8d7b7a2",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%94%B3%E5%91%8A%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (申告); none is the exact head 申告する/しんこくする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "deklarieren, melden. JMdict 1363100 sense 1, noun / suru verb: report, return (e.g. tax), declaration, filing",
+        "japanese": "毎年三月に確定申告をしなければならない。 / 税関で申告するものは何もありません。 / 副業の収入を申告しなかったため、後で税金を払うことになった。",
+        "romanization": "shinkoku suru; Maitoshi sangatsu ni kakutei shinkoku o shinakereba naranai. / Zeikan de shinkoku suru mono wa nani mo arimasen. / Fukugyō no shūnyū o shinkoku shinakatta tame, ato de zeikin o harau koto ni natta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Jedes Jahr im März muss man die Steuererklärung abgeben. / Ich habe beim Zoll nichts zu deklarieren. / Weil er seine Nebeneinkünfte nicht angegeben hatte, musste er später Steuern nachzahlen.",
+        "contexts": [
+          "Annual tax return",
+          "Customs declaration",
+          "Undeclared side income"
+        ],
+        "lexical": "JMdict 1363100 sense 1, noun / suru verb: report, return (e.g. tax), declaration, filing",
+        "register": "formal / administrative",
+        "transitivity": "transitive (X を申告する)",
+        "conjugation": "suru verb (申告する → 申告して, 申告しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 申告 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1015; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "60da6a0882d85d7d037b13231191caed28a222d2745375b023e7a8117241aa19",
+        "approvalHash": "7ce6916f0883c1d30f61768b126d049132e8e370500c7ec096fcd77d55497e4f"
+      }
+    },
+    {
+      "id": "vocab-n2:1017",
+      "revisionId": "levels-2026-11-vocab-n2-1017",
+      "state": "accepted",
+      "predecessorHash": "7032395d8ccd6f638a8cafc06088c79e8f635f4dfda8179e38eabdd957b43f2e",
+      "originalHash": "7032395d8ccd6f638a8cafc06088c79e8f635f4dfda8179e38eabdd957b43f2e",
+      "predecessorRevisionHash": "6c87fde9e4743e4741f6e985cd760cacb6e72341f305cbaa2928fd16831be348",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196c-n2-enrichment-vocab-n2-1017; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 提出 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1017",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:1256",
+          "finding": "Component 提出 (vocab-n3:1256) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 提出する/ていしゅつする read; accent_top positions [0] (0 = no accent_top). Exact whole 提出する/ていしゅつする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 29c13284a878a7817ddc11088b7264dafb9fdcea0f20948ec884410e5c8b2873",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%8F%90%E5%87%BA%E3%81%99%E3%82%8B#word_2486",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 提出する/ていしゅつする read; accent_top positions [0] (0 = no accent_top). Exact whole 提出する/ていしゅつする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "提出する",
+              "reading": "ていしゅつする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 提出する/ていしゅつする \"einreichen, vorlegen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "einreichen, vorlegen. JMdict 1436410 sense 1, noun / suru verb: presentation (of documents), submission, filing, turning in",
+        "japanese": "レポートを期限までに提出してください。 / 履歴書を提出したあとで、間違いに気付いた。 / 政府は新しい法案を国会に提出した。",
+        "romanization": "teishutsu suru; Repōto o kigen made ni teishutsu shite kudasai. / Rirekisho o teishutsu shita ato de, machigai ni kizuita. / Seifu wa atarashii hōan o kokkai ni teishutsu shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Bitte reichen Sie den Bericht bis zum Termin ein. / Nachdem ich den Lebenslauf eingereicht hatte, entdeckte ich einen Fehler darin. / Die Regierung hat einen neuen Gesetzentwurf im Parlament eingebracht.",
+        "contexts": [
+          "Report deadline",
+          "Job application mistake",
+          "Bill introduced in parliament"
+        ],
+        "lexical": "JMdict 1436410 sense 1, noun / suru verb: presentation (of documents), submission, filing, turning in",
+        "register": "neutral to formal",
+        "transitivity": "transitive (相手に X を提出する)",
+        "conjugation": "suru verb (提出する → 提出して, 提出しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 提出 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196c-n2-enrichment-vocab-n2-1017; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "89fcc60c7df0497ff1c33281e39bc6f7e84f1f22fc61bcca4213235a7389ee17",
+        "approvalHash": "632a7559f8bc42b21112bb3dffb719cafd80d6bb9766f113646f347cf3bb18d7"
+      }
+    },
+    {
+      "id": "vocab-n2:1023",
+      "revisionId": "levels-2026-11-vocab-n2-1023",
+      "state": "accepted",
+      "predecessorHash": "ee05cdb5d568b1717a77ddb38c214776b11878cec9171518b46cecb61c144c1e",
+      "originalHash": "ee05cdb5d568b1717a77ddb38c214776b11878cec9171518b46cecb61c144c1e",
+      "predecessorRevisionHash": "7acc026d2f709f1eef0e1e2112d7c65d456e151b6393274cf3f35edf24552aca",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1023; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 発行 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1023",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:488",
+          "finding": "Component 発行 (vocab-n1:488) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 発行する/はっこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 発行する/はっこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 464f4d24b6ef16bc87e7eef2894eea6617251f9c8d9678d5392d426d412116df",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%99%BA%E8%A1%8C%E3%81%99%E3%82%8B#word_2592",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 発行する/はっこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 発行する/はっこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "発行する",
+              "reading": "はっこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 発行する/はっこうする \"herausgeben, ausstellen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "herausgeben, ausstellen. JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.)",
+        "japanese": "新しい学生証が発行された。 / すみません、領収書を発行していただけますか。 / この雑誌は月に一回発行されている。",
+        "romanization": "hakkō suru; Atarashii gakuseishō ga hakkō sareta. / Sumimasen, ryōshūsho o hakkō shite itadakemasu ka. / Kono zasshi wa tsuki ni ikkai hakkō sarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ein neuer Studentenausweis wurde ausgestellt. / Entschuldigung, könnten Sie mir bitte eine Quittung ausstellen? / Diese Zeitschrift erscheint einmal im Monat.",
+        "contexts": [
+          "New student ID",
+          "Asking for a receipt",
+          "Monthly magazine"
+        ],
+        "lexical": "JMdict 1477390 senses 1-2, noun / suru verb: publication, issue (of a magazine, passport, banknotes, etc.)",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を発行する)",
+        "conjugation": "suru verb (発行する → 発行して, 発行しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 発行 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1023; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "19c8c95ac895838608bb56d260fc533fa9a5baa679ccb604e6e2dda73b9e462e",
+        "approvalHash": "876527c8374736972c408486995be6178804c338dd1aea16bfc6c806b021e116"
+      }
+    },
+    {
+      "id": "vocab-n2:1024",
+      "revisionId": "levels-2026-11-vocab-n2-1024",
+      "state": "accepted",
+      "predecessorHash": "5be21ce92dd7e3fe1f3f452b02315e39847721b967aaa710ee4f05e00c3c8a45",
+      "originalHash": "5be21ce92dd7e3fe1f3f452b02315e39847721b967aaa710ee4f05e00c3c8a45",
+      "predecessorRevisionHash": "10ea7021011f81bb98d8035f3c953ce21e2ec1b4dbd95fc19105be7437402a94",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1024; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 交付 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1024",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:229",
+          "finding": "Component 交付 (vocab-n1:229) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 交付する/こうふする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 交付する/こうふする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 2090013928e6df7fbe245e581b8b2dba0ecafeb5d8482b3fed9994fd14bda172",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E4%BA%A4%E4%BB%98%E3%81%99%E3%82%8B#word_2129",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 交付する/こうふする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 交付する/こうふする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "交付する",
+              "reading": "こうふする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 交付する/こうふする \"aushändigen, erteilen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "aushändigen, erteilen. JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting",
+        "japanese": "運転免許証が交付された。 / マイナンバーカードは、市役所の窓口で交付されます。 / 市から引っ越し費用の補助金が交付された。",
+        "romanization": "kōfu suru; Unten menkyoshō ga kōfu sareta. / Mainanbā kādo wa, shiyakusho no madoguchi de kōfu saremasu. / Shi kara hikkoshi hiyō no hojokin ga kōfu sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Führerschein wurde ausgehändigt. / Die My-Number-Karte wird am Schalter des Rathauses ausgegeben. / Die Stadt hat mir einen Zuschuss zu den Umzugskosten gewährt.",
+        "contexts": [
+          "Driver's licence handed over",
+          "Picking up an ID card",
+          "Municipal subsidy"
+        ],
+        "lexical": "JMdict 1272520 sense 1, noun / suru verb: delivery, issuance, handing over, granting",
+        "register": "formal / administrative",
+        "transitivity": "transitive (X を交付する); mostly passive (X が交付される)",
+        "conjugation": "suru verb (交付する → 交付して, 交付しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 交付 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1024; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "6368d056b5b1ea30b24a2e9e8f84126b4f6db978e2943281003e5d0040945898",
+        "approvalHash": "fafe576575475b53413a52a1c32c9544d1e12ab21b85f92773db7dbdf57bf96b"
+      }
+    },
+    {
+      "id": "vocab-n2:1029",
+      "revisionId": "levels-2026-11-vocab-n2-1029",
+      "state": "accepted",
+      "predecessorHash": "3b8e7eae80d9705841d24afe71c72c1a4a9a0182a3bc766253615a112cf9d92e",
+      "originalHash": "3b8e7eae80d9705841d24afe71c72c1a4a9a0182a3bc766253615a112cf9d92e",
+      "predecessorRevisionHash": "d188049146338e44971a837d8b7d38743b079de10fc25c3acebba970c4428bc1",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1029; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 施行 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1029",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:1788",
+          "finding": "Component 施行 (vocab-n3:1788) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 施行する/しこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 施行する/しこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 609a102ef66f6310dcd7779bc43af21c3464faaf3e07c47ef4ea34403c9dfba1",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%96%BD%E8%A1%8C%E3%81%99%E3%82%8B#word_2177",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 施行する/しこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 施行する/しこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "施行する",
+              "reading": "しこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 施行する/しこうする \"in Kraft setzen, durchführen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "in Kraft setzen, durchführen. JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement",
+        "japanese": "新しい法律が来月から施行される。 / この規則は、施行されてから一度も変更されていない。 / 政府は、法律の施行に向けて準備を進めている。",
+        "romanization": "shikō suru; Atarashii hōritsu ga raigetsu kara shikō sareru. / Kono kisoku wa, shikō sarete kara ichido mo henkō sarete inai. / Seifu wa, hōritsu no shikō ni mukete junbi o susumete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das neue Gesetz tritt ab nächstem Monat in Kraft. / Diese Vorschrift wurde seit ihrem Inkrafttreten kein einziges Mal geändert. / Die Regierung bereitet das Inkrafttreten des Gesetzes vor.",
+        "contexts": [
+          "New law next month",
+          "Unchanged regulation",
+          "Government preparations"
+        ],
+        "lexical": "JMdict 1579510 sense 1, noun / suru verb: putting in force (a law), enforcement",
+        "register": "written / legal",
+        "transitivity": "transitive (X を施行する); usually passive (X が施行される)",
+        "conjugation": "suru verb (施行する → 施行して, 施行しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 施行 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1029; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c6c57f59105987d1e1220c2fe911e3c321c55d83c84f5c35f4668d4d297c0e85",
+        "approvalHash": "6d9f25f48a294c71f6b7e72e37cd4b975d5dfb4e865dd69b79342bdde01ef668"
+      }
+    },
+    {
+      "id": "vocab-n2:103",
+      "revisionId": "levels-2026-11-vocab-n2-103",
+      "state": "accepted",
+      "predecessorHash": "6580005edecb776e4916098391321256a9d5d465f2159ad8cc910e7dddcbde77",
+      "originalHash": "6580005edecb776e4916098391321256a9d5d465f2159ad8cc910e7dddcbde77",
+      "predecessorRevisionHash": "f2c74323b8acd4710f5cd0f2a11a8cd0df4d4a985fb38f6862a35deb596ac738",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 191i-n2-enrichment-vocab-n2-103; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:103",
+          "finding": "N2 → N1 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L702; JMdict entry 1220350",
+          "finding": "既婚 (きこん) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L942",
+          "finding": "既婚 (きこん) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 既婚/キコン; lemma 既婚; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@103754357",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 既婚/キコン; lemma 既婚; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "既婚",
+              "reading": "きこん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 既婚/きこん \"verheiratet\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "verheiratet. JMdict 1220350 sense 1, no-adjective / noun: married",
+        "japanese": "既婚者向けのイベントが開催された。 / アンケートの「既婚・未婚」の欄に丸をつけた。 / この調査は既婚の男性社員を対象に行われた。",
+        "romanization": "kikon; Kikonsha muke no ibento ga kaisai sareta. / Ankēto no \"kikon / mikon\" no ran ni maru o tsuketa. / Kono chōsa wa kikon no dansei shain o taishō ni okonawareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine Veranstaltung für Verheiratete wurde abgehalten. / Im Fragebogen habe ich beim Familienstand das passende Feld angekreuzt. / Diese Umfrage wurde unter verheirateten männlichen Angestellten durchgeführt.",
+        "contexts": [
+          "Event announcement",
+          "Filling out a questionnaire",
+          "Survey target group"
+        ],
+        "lexical": "JMdict 1220350 sense 1, no-adjective / noun: married",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (used with の: 既婚の〜)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 191i-n2-enrichment-vocab-n2-103; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "91b7170a19085b394b1a9df53d1aa2ede512295dfeb0496f1352c234aedf6a8e",
+        "approvalHash": "e8cf06424182794054bd1600e83b68368b04abeb0fbe6691671ad2a95eefcf5a"
+      }
+    },
+    {
+      "id": "vocab-n2:1030",
+      "revisionId": "levels-2026-11-vocab-n2-1030",
+      "state": "accepted",
+      "predecessorHash": "63b6c1d4dd52f7733eed7b2344234451d4e6e8b043b8e85f38cf9dcaa36ce577",
+      "originalHash": "63b6c1d4dd52f7733eed7b2344234451d4e6e8b043b8e85f38cf9dcaa36ce577",
+      "predecessorRevisionHash": "a1d6ce17576f2a89ec27469cefc9db51bdf4d01a17cd36b4a3a76f65d94e81a0",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1030; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 免除 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1030",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1580",
+          "finding": "Component 免除 (vocab-n2:1580) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 免除する/めんじょする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (免除); none is the exact head 免除する/めんじょする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%85%8D%E9%99%A4%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 免除する/めんじょする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 1a7663832386378fe78871e867d6b4bc264a491b7f08a95707fd120987305a31",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%85%8D%E9%99%A4%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (免除); none is the exact head 免除する/めんじょする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "befreien, erlassen. JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge",
+        "japanese": "留学生は授業料を免除された。 / 日本語能力試験のN2を持っている人は、筆記試験が免除される。 / 収入が少ない場合は、保険料の支払いが免除されることがある。",
+        "romanization": "menjo suru; Ryūgakusei wa jugyōryō o menjo sareta. / Nihongo Nōryoku Shiken no N2 o motte iru hito wa, hikki shiken ga menjo sareru. / Shūnyū ga sukunai baai wa, hokenryō no shiharai ga menjo sareru koto ga aru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Austauschstudent wurde von den Studiengebühren befreit. / Wer das JLPT N2 hat, ist von der schriftlichen Prüfung befreit. / Bei geringem Einkommen kann man von den Versicherungsbeiträgen befreit werden.",
+        "contexts": [
+          "Tuition waiver",
+          "Exam exemption",
+          "Insurance premium relief"
+        ],
+        "lexical": "JMdict 1533200 sense 1, noun / suru verb: exemption, exoneration, discharge",
+        "register": "formal / administrative",
+        "transitivity": "transitive (人の X を免除する); mostly passive",
+        "conjugation": "suru verb (免除する → 免除して, 免除しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 免除 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1030; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "40c9eab8d41a88f3733608b7b4dc7d9e461ced11ffd34fddd4e1e531b75a7f3b",
+        "approvalHash": "49fd3871dac2b30d61936a33451260a98d088a63d14a3ce26c97b6cc0c10d38c"
+      }
+    },
+    {
+      "id": "vocab-n2:1032",
+      "revisionId": "levels-2026-11-vocab-n2-1032",
+      "state": "accepted",
+      "predecessorHash": "858e6c036e1a5061f0fb2e6e924a8aa437ff468be81507a3ef9e9bb167407f7c",
+      "originalHash": "858e6c036e1a5061f0fb2e6e924a8aa437ff468be81507a3ef9e9bb167407f7c",
+      "predecessorRevisionHash": "2ccf10656fd44505d81adac18cf9e68e458ce09b004a999c20fde145fd3b29e3",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1032; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 変更 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1032",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:2355",
+          "finding": "Component 変更 (vocab-n3:2355) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 変更する/へんこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 変更する/へんこうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 55f4936a8d7a58e1ade9e4afc4aa9c82a08810daba579b69bf937b4bff9494c8",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%A4%89%E6%9B%B4%E3%81%99%E3%82%8B#word_2684",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 変更する/へんこうする read; accent_top positions [0] (0 = no accent_top). Exact whole 変更する/へんこうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "変更する",
+              "reading": "へんこうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 変更する/へんこうする \"ändern, abändern\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "ändern, abändern. JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration",
+        "japanese": "会議の日程を変更した。 / 雨のため、試合の会場が変更になりました。 / 三か月ごとにパスワードを変更するように言われている。",
+        "romanization": "henkō suru; Kaigi no nittei o henkō shita. / Ame no tame, shiai no kaijō ga henkō ni narimashita. / Sankagetsu goto ni pasuwādo o henkō suru yō ni iwarete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Zeitplan der Konferenz wurde geändert. / Wegen Regens wurde der Austragungsort des Spiels verlegt. / Wir sollen unser Passwort alle drei Monate ändern.",
+        "contexts": [
+          "Rescheduling a meeting",
+          "Venue change announcement",
+          "Password policy"
+        ],
+        "lexical": "JMdict 1511040 sense 1, noun / suru verb: change, modification, alteration",
+        "register": "neutral to formal",
+        "transitivity": "transitive (X を変更する); 変更になる for announcements",
+        "conjugation": "suru verb (変更する → 変更して, 変更しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 変更 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1032; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "5d3f7293f747ec4d02624a50e133ab9faaa69eda3f09bf35a19121bf10dd6dee",
+        "approvalHash": "9ea53800c0db22647841866f879da76f5baa1b6a94b45839a4c821028d79d39a"
+      }
+    },
+    {
+      "id": "vocab-n2:1034",
+      "revisionId": "levels-2026-11-vocab-n2-1034",
+      "state": "accepted",
+      "predecessorHash": "106ebc974c8be79500ae08a3fb2eb63eba0d0a1ad2fc0cdf19c405bb0ed5b1a7",
+      "originalHash": "106ebc974c8be79500ae08a3fb2eb63eba0d0a1ad2fc0cdf19c405bb0ed5b1a7",
+      "predecessorRevisionHash": "57109967aa0da70cce090ff0427c8a683584d83efae2fed70f485c1a300b4f27",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1034; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 改定 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1034",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:correction:kaitei-revision",
+          "finding": "Component 改定 (vocab-n2:correction:kaitei-revision) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 改定する/かいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 改定する/かいていする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 bdb8e7e09e98b093025c141419ef6a1ac4581234b4f9e804e68fc8d45d9a13c3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E5%AE%9A%E3%81%99%E3%82%8B#word_1948",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 改定する/かいていする read; accent_top positions [0] (0 = no accent_top). Exact whole 改定する/かいていする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "改定する",
+              "reading": "かいていする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 改定する/かいていする \"neu festsetzen, revidieren\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "neu festsetzen, revidieren. JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration",
+        "japanese": "来月から料金が改定される。 / 会社は四月に給与規定を改定した。 / 最低賃金が改定され、時給が五十円上がった。",
+        "romanization": "kaitei suru; Raigetsu kara ryōkin ga kaitei sareru. / Kaisha wa shigatsu ni kyūyo kitei o kaitei shita. / Saitei chingin ga kaitei sare, jikyū ga gojū en agatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ab nächstem Monat werden die Gebühren neu festgesetzt. / Die Firma hat im April ihre Gehaltsordnung angepasst. / Der Mindestlohn wurde angepasst, und der Stundenlohn stieg um 50 Yen.",
+        "contexts": [
+          "Fee change notice",
+          "Revised salary rules",
+          "Minimum wage increase"
+        ],
+        "lexical": "JMdict 1201040 sense 1, noun / suru verb: revision (of a rule, price, etc.), alteration",
+        "register": "written / formal",
+        "transitivity": "transitive (X を改定する); often passive",
+        "conjugation": "suru verb (改定する → 改定して, 改定しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 改定 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1034; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c66777de3efa56f95fa96dfa2da0de318ce286c22ddd2ceb3be8c2500c00bc4f",
+        "approvalHash": "61a1f2bccf8f574951bf0fadc73643674b5f9bed18f8cde6d7b94a7d98a8b128"
+      }
+    },
+    {
+      "id": "vocab-n2:1035",
+      "revisionId": "levels-2026-11-vocab-n2-1035",
+      "state": "accepted",
+      "predecessorHash": "ef04a46cfab367e9277750f72f4840ddfe490cc0371d306f13f1a950dd0777d7",
+      "originalHash": "ef04a46cfab367e9277750f72f4840ddfe490cc0371d306f13f1a950dd0777d7",
+      "predecessorRevisionHash": "6bc984287ebf583009d9fb008e4a3ef91bd7c8aa947199dad22088dc0722c73f",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1035; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 改訂 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1035",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:1539",
+          "finding": "Component 改訂 (vocab-n1:1539) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 改訂する/かいていする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (改訂); none is the exact head 改訂する/かいていする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%94%B9%E8%A8%82%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 改訂する/かいていする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 68fd372a748e819b9cbc9a4e315ef84926130a6d508ec4fed7272b1def6549e0",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%94%B9%E8%A8%82%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (改訂); none is the exact head 改訂する/かいていする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "überarbeiten, revidieren. JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration",
+        "japanese": "教科書が十年ぶりに改訂された。 / この辞書は、新しい言葉を加えて改訂された。 / マニュアルを改訂したので、新しい版を使ってください。",
+        "romanization": "kaitei suru; Kyōkasho ga jūnenburi ni kaitei sareta. / Kono jisho wa, atarashii kotoba o kuwaete kaitei sareta. / Manyuaru o kaitei shita node, atarashii han o tsukatte kudasai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Lehrbuch wurde nach zehn Jahren überarbeitet. / Dieses Wörterbuch wurde überarbeitet und um neue Wörter ergänzt. / Wir haben das Handbuch überarbeitet, bitte verwenden Sie die neue Fassung.",
+        "contexts": [
+          "Textbook revision",
+          "Updated dictionary edition",
+          "Revised manual at work"
+        ],
+        "lexical": "JMdict 1201060 sense 1, noun / suru verb: revision (of text), alteration",
+        "register": "written / formal",
+        "transitivity": "transitive (X を改訂する); often passive",
+        "conjugation": "suru verb (改訂する → 改訂して, 改訂しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 改訂 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1035; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ba2c3466c5da7af390f6ca2dc8066bfa970dd72fa32e1bed4a577f5c5e20682f",
+        "approvalHash": "9ea6ea4496fb9b257c2cf9350f5335a4cdd93f6456540bf5d095e2601202d0e1"
+      }
+    },
+    {
+      "id": "vocab-n2:1036",
+      "revisionId": "levels-2026-11-vocab-n2-1036",
+      "state": "accepted",
+      "predecessorHash": "c8eac543733c30590dcd8b11414d462faf4fa45e010bd9f5947ff1a2fd209642",
+      "originalHash": "c8eac543733c30590dcd8b11414d462faf4fa45e010bd9f5947ff1a2fd209642",
+      "predecessorRevisionHash": "ceeec357c5b1df8603c4f3a0e63d6423246f54ad774bb74949bc75ef4a2acabb",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1036; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 是正 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1036",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:875",
+          "finding": "Component 是正 (vocab-n3:875) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 是正する/ぜせいする scan has zero matching rows; no constituent pattern inference. Query returned 1 rows (是正); none is the exact head 是正する/ぜせいする with a dictionary-form contour. No related-word pitch transferred.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%98%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 是正する/ぜせいする scan has zero matching rows; no constituent pattern inference."
+          },
+          {
+            "source": "OJAD complete query investigation",
+            "version": "Retrieved 2026-10-08; page SHA256 62803408c366b0e504cb4305f5cbb60bf96e4947e54dff9151cd8f50f34eac18",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E6%98%AF%E6%AD%A3%E3%81%99%E3%82%8B",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "finding": "Query returned 1 rows (是正); none is the exact head 是正する/ぜせいする with a dictionary-form contour. No related-word pitch transferred."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "berichtigen, richtigstellen. JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying",
+        "japanese": "不公平な制度を是正する必要がある。 / 政府は、地方と都市の格差を是正するための政策を発表した。 / 残業が多すぎると指摘され、会社は働き方を是正した。",
+        "romanization": "zesei suru; Fukōhei na seido o zesei suru hitsuyō ga aru. / Seifu wa, chihō to toshi no kakusa o zesei suru tame no seisaku o happyō shita. / Zangyō ga ōsugiru to shiteki sare, kaisha wa hatarakikata o zesei shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist notwendig, das ungerechte System zu korrigieren. / Die Regierung kündigte Maßnahmen an, um das Gefälle zwischen Land und Stadt zu verringern. / Nachdem man die Firma auf die vielen Überstunden hingewiesen hatte, stellte sie ihre Arbeitsbedingungen um.",
+        "contexts": [
+          "Unfair system",
+          "Regional inequality",
+          "Excessive overtime"
+        ],
+        "lexical": "JMdict 1374510 sense 1, noun / suru verb: correction, redressing, rectifying",
+        "register": "written / formal",
+        "transitivity": "transitive (X を是正する)",
+        "conjugation": "suru verb (是正する → 是正して, 是正しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 是正 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1036; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "0b07584905a3a06159196365e0a59c9e913a39fbd623e4a48804bebbbb2defe2",
+        "approvalHash": "d671352767555716e74a004d0943eea3581855962e22efea0cbf414259de4f95"
+      }
+    },
+    {
+      "id": "vocab-n2:104",
+      "revisionId": "levels-2026-11-vocab-n2-104",
+      "state": "accepted",
+      "predecessorHash": "bb96a7e065e2c17a75b40f433feda3656be6050c447d517ed8e30f797a7d2b8a",
+      "originalHash": "bb96a7e065e2c17a75b40f433feda3656be6050c447d517ed8e30f797a7d2b8a",
+      "predecessorRevisionHash": "97a11ec9d67b2c7c4b1c1e916287adcf95bdef9cd1ef2f2282eb2f879ca9c9cd",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 191i-n2-enrichment-vocab-n2-104; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:104",
+          "finding": "N2 → N1 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L2911; JMdict entry 1527480",
+          "finding": "未婚 (みこん) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L2318",
+          "finding": "未婚 (みこん) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 未婚/ミコン; lemma 未婚; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@254409841",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 未婚/ミコン; lemma 未婚; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "未婚",
+              "reading": "みこん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 未婚/みこん \"unverheiratet; ledig\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "unverheiratet; ledig. JMdict 1527480 sense 1, no-adjective / noun: unmarried, never married",
+        "japanese": "未婚率が上昇している。 / 彼女は未婚の母として一人で子どもを育てた。 / 四十代で未婚の人も今では珍しくない。",
+        "romanization": "mikon; Mikonritsu ga jōshō shite iru. / Kanojo wa mikon no haha to shite hitori de kodomo o sodateta. / Yonjūdai de mikon no hito mo ima de wa mezurashiku nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Rate der Unverheirateten steigt. / Sie hat ihr Kind als ledige Mutter allein großgezogen. / Unverheiratete Menschen in den Vierzigern sind heute nichts Ungewöhnliches mehr.",
+        "contexts": [
+          "Demographic news",
+          "Single mother",
+          "Changing social norms"
+        ],
+        "lexical": "JMdict 1527480 sense 1, no-adjective / noun: unmarried, never married",
+        "register": "written / formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (used with の: 未婚の〜)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 191i-n2-enrichment-vocab-n2-104; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "78c3c5dc98796effa1f4c1437d3a647a988fac7e4e81a37bd4fa3e6e944337cb",
+        "approvalHash": "264459085190833f84ec64f89de25e22313caf5b6fe68ce1a5d02e11d524277a"
+      }
+    },
+    {
+      "id": "vocab-n2:1040",
+      "revisionId": "levels-2026-11-vocab-n2-1040",
+      "state": "accepted",
+      "predecessorHash": "de9d5b7bd7e5b2cfb32ef6e0e255608d103abfd8c9b09a6b4b15137caf67c0ff",
+      "originalHash": "de9d5b7bd7e5b2cfb32ef6e0e255608d103abfd8c9b09a6b4b15137caf67c0ff",
+      "predecessorRevisionHash": "80785a1e751ec67c429bb02cceeabaca29788d5f1ff17c8107f653f043e3fbd0",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1040; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 適応 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1040",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n1:816",
+          "finding": "Component 適応 (vocab-n1:816) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 適応する/てきおうする read; accent_top positions [0] (0 = no accent_top). Exact whole 適応する/てきおうする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 d2af3b1892dc343ac03e1b474f2a422389dc042d43d0f6a6904b3b3e5b6378e3",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E9%81%A9%E5%BF%9C%E3%81%99%E3%82%8B#word_2493",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 適応する/てきおうする read; accent_top positions [0] (0 = no accent_top). Exact whole 適応する/てきおうする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "適応する",
+              "reading": "てきおうする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 適応する/てきおうする \"sich anpassen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "sich anpassen. JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity",
+        "japanese": "新しい環境に適応するのに時間がかかった。 / この植物は、寒い気候にも適応できる。 / 時代の変化に適応できない会社は、生き残れない。",
+        "romanization": "tekiō suru; Atarashii kankyō ni tekiō suru no ni jikan ga kakatta. / Kono shokubutsu wa, samui kikō ni mo tekiō dekiru. / Jidai no henka ni tekiō dekinai kaisha wa, ikinokorenai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es hat Zeit gebraucht, sich an die neue Umgebung anzupassen. / Diese Pflanze kann sich auch an kaltes Klima anpassen. / Firmen, die sich nicht an den Wandel der Zeit anpassen können, überleben nicht.",
+        "contexts": [
+          "Settling into a new environment",
+          "Hardy plant",
+          "Business survival"
+        ],
+        "lexical": "JMdict 1437350 sense 1, noun / suru verb: adaptation, accommodation, conformity",
+        "register": "neutral to formal",
+        "transitivity": "intransitive (X に適応する)",
+        "conjugation": "suru verb (適応する → 適応して, 適応しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 適応 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1040; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "17cd0eba43edb3c433eeb4ce83b84d6d044ef94d4be64d8e5bd0b0f718361ce6",
+        "approvalHash": "5c6b518d17f00c3a295fd558e6151fa5d0dea21bc49d8a25baad923ee9009be4"
+      }
+    },
+    {
+      "id": "vocab-n2:1041",
+      "revisionId": "levels-2026-11-vocab-n2-1041",
+      "state": "accepted",
+      "predecessorHash": "345b8c5f70114baf127b93e1fe6fcfcd76e02ed61199ad6fcc2867018eae5239",
+      "originalHash": "345b8c5f70114baf127b93e1fe6fcfcd76e02ed61199ad6fcc2867018eae5239",
+      "predecessorRevisionHash": "0544a3afd4a3a4a16b67593c1dffb342e3a15c6718ca18e83fbf9289d25beb06",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1041; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 対処 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1041",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:1406",
+          "finding": "Component 対処 (vocab-n3:1406) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 対処する/たいしょする read; accent_top positions [1] (0 = no accent_top). Exact whole 対処する/たいしょする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 3f1ae4d759c07f74b170d3cebf36ef5f4fae4283eae78e0c1b63426c73cabdf6",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%AF%BE%E5%87%A6%E3%81%99%E3%82%8B#word_1736",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 対処する/たいしょする read; accent_top positions [1] (0 = no accent_top). Exact whole 対処する/たいしょする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "対処する",
+              "reading": "たいしょする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 対処する/たいしょする \"bewältigen, damit umgehen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "bewältigen, damit umgehen. JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with",
+        "japanese": "問題に冷静に対処することが重要だ。 / 地震が起きたときにどう対処すればいいか、家族で話し合った。 / お客様からのクレームには、責任者が対処します。",
+        "romanization": "taisho suru; Mondai ni reisei ni taisho suru koto ga jūyō da. / Jishin ga okita toki ni dō taisho sureba ii ka, kazoku de hanashiatta. / Okyakusama kara no kurēmu ni wa, sekininsha ga taisho shimasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Es ist wichtig, Probleme ruhig zu bewältigen. / Wir haben in der Familie besprochen, wie wir uns bei einem Erdbeben verhalten sollen. / Um Kundenbeschwerden kümmert sich der Verantwortliche.",
+        "contexts": [
+          "Handling problems calmly",
+          "Earthquake preparedness",
+          "Customer complaints"
+        ],
+        "lexical": "JMdict 1410070 sense 1, noun / suru verb: dealing with, coping with",
+        "register": "neutral to formal",
+        "transitivity": "intransitive (X に対処する)",
+        "conjugation": "suru verb (対処する → 対処して, 対処しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 対処 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1041; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1e80aed7bb2b81474a687fc5f80b89c36c1602b471c34ecc4b07cb41ac4933ee",
+        "approvalHash": "8fa59b4e3dd89170c137afe38717e4c7e2318106b9534ec63d08a93c53d2aaca"
+      }
+    },
+    {
+      "id": "vocab-n2:1042",
+      "revisionId": "levels-2026-11-vocab-n2-1042",
+      "state": "accepted",
+      "predecessorHash": "f499c3d9f7aee5f8312a92725025bd5c8a275eba1f8657496c1bcbdaf171ac16",
+      "originalHash": "f499c3d9f7aee5f8312a92725025bd5c8a275eba1f8657496c1bcbdaf171ac16",
+      "predecessorRevisionHash": "164bf1c92ea1adc12f1d34af4932058a9d81f87ffbf2dd2ee619f577e353263d",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N3"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N3 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1042; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 処理 N3",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1042",
+          "finding": "N2 → N3 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:157",
+          "finding": "Component 処理 (vocab-n3:157) has a source-backed level of N3."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 処理する/しょりする read; accent_top positions [1] (0 = no accent_top). Exact whole 処理する/しょりする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 36f0c5dd35b1908ae891dd72db238c8a2209c7c9f44254116f0bd565b20e6f76",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E7%90%86%E3%81%99%E3%82%8B#word_1796",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処理する/しょりする read; accent_top positions [1] (0 = no accent_top). Exact whole 処理する/しょりする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処理する",
+              "reading": "しょりする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処理する/しょりする \"verarbeiten, bearbeiten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "verarbeiten, bearbeiten. JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal",
+        "japanese": "大量のデータを短時間で処理した。 / 今日中に、たまったメールを全部処理しなければならない。 / この工場では、汚れた水をきれいに処理してから川に流している。",
+        "romanization": "shori suru; Tairyō no dēta o tanjikan de shori shita. / Kyōjū ni, tamatta mēru o zenbu shori shinakereba naranai. / Kono kōjō de wa, yogoreta mizu o kirei ni shori shite kara kawa ni nagashite iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Eine große Datenmenge wurde in kurzer Zeit verarbeitet. / Ich muss heute noch alle liegengebliebenen Mails abarbeiten. / In dieser Fabrik wird das Abwasser gereinigt, bevor es in den Fluss geleitet wird.",
+        "contexts": [
+          "Data processing",
+          "Clearing the inbox",
+          "Wastewater treatment"
+        ],
+        "lexical": "JMdict 1342510 sense 1, noun / suru verb: processing, dealing with, treatment, disposal",
+        "register": "neutral",
+        "transitivity": "transitive (X を処理する)",
+        "conjugation": "suru verb (処理する → 処理して, 処理しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 処理 N3",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1042; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "78831c7907aae165cd202a3bc9e4e2313c9b11e2c946802b3385415f54f46ad0",
+        "approvalHash": "3d66300761b5ae89e722f357cd7e65d0bdf7acf05c2e12b74c88454bfec196b7"
+      }
+    },
+    {
+      "id": "vocab-n2:1043",
+      "revisionId": "levels-2026-11-vocab-n2-1043",
+      "state": "accepted",
+      "predecessorHash": "19dd2984de13ed5ae865b59bd6ab1488a541b64fbec8d2cddeba036dc9385af7",
+      "originalHash": "19dd2984de13ed5ae865b59bd6ab1488a541b64fbec8d2cddeba036dc9385af7",
+      "predecessorRevisionHash": "26aee21d693335d27d86c969dfef112b2609dc47400ea3fcbdc8e07ef9e3f716",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196d-n2-enrichment-vocab-n2-1043; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 処分 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1043",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:2710",
+          "finding": "Component 処分 (vocab-n3:2710) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell; stored primary 0 corrected to 1. Dictionary-form cell of the exact head 処分する/しょぶんする read; accent_top positions [1] (0 = no accent_top). Exact whole 処分する/しょぶんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 ce58428665712561fe2be4b2c61e4206e7f9bda8816261ff9a17ddac2edd8f02",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%87%A6%E5%88%86%E3%81%99%E3%82%8B#word_1720",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 処分する/しょぶんする read; accent_top positions [1] (0 = no accent_top). Exact whole 処分する/しょぶんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "処分する",
+              "reading": "しょぶんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 処分する/しょぶんする \"entsorgen, beseitigen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "entsorgen, beseitigen, bestrafen. JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty",
+        "japanese": "古い家具を処分することにした。 / 壊れた家電は、市のルールに従って処分してください。 / 会社は、情報を漏らした社員を処分した。",
+        "romanization": "shobun suru; Furui kagu o shobun suru koto ni shita. / Kowareta kaden wa, shi no rūru ni shitagatte shobun shite kudasai. / Kaisha wa, jōhō o morashita shain o shobun shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir haben beschlossen, die alten Möbel zu entsorgen. / Entsorgen Sie defekte Elektrogeräte bitte nach den Vorschriften der Stadt. / Die Firma hat den Mitarbeiter, der Informationen weitergegeben hatte, disziplinarisch bestraft.",
+        "contexts": [
+          "Getting rid of furniture",
+          "Disposing of appliances",
+          "Disciplinary action"
+        ],
+        "lexical": "JMdict 1342490 senses 1 and 3, noun / suru verb: disposal, throwing away; punishment, penalty",
+        "register": "neutral",
+        "transitivity": "transitive (X を処分する)",
+        "conjugation": "suru verb (処分する → 処分して, 処分しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 処分 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196d-n2-enrichment-vocab-n2-1043; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "7e72fc8cd392c41549d24d22891d185e30f28cdd4744fbec9696c01b92dbd2cc",
+        "approvalHash": "303e601454aa4a671a3aac8e1a0a060e3c0a55c10a23d1dcc92499bf99089344"
+      }
+    },
+    {
+      "id": "vocab-n2:1044",
+      "revisionId": "levels-2026-11-vocab-n2-1044",
+      "state": "accepted",
+      "predecessorHash": "136ba4301e5807b28a99b53c5d43abd1b5ab845528cf4204f2927525080260f3",
+      "originalHash": "136ba4301e5807b28a99b53c5d43abd1b5ab845528cf4204f2927525080260f3",
+      "predecessorRevisionHash": "426f2a1df50ae20ae24f31f5cc9a74f873ee484bb689fa4e091cf0f7aa854330",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196e-n2-enrichment-vocab-n2-1044; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 廃棄 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1044",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n3:851",
+          "finding": "Component 廃棄 (vocab-n3:851) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 廃棄する/はいきする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 廃棄する/はいきする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 d1130c5ab375e9945862abc02aa253d19ee19a1a10c811d5bb4921d94b2e6400",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E5%BB%83%E6%A3%84%E3%81%99%E3%82%8B#word_2567",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1,
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 廃棄する/はいきする read; accent_top positions [1,0] (0 = no accent_top). Exact whole 廃棄する/はいきする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "廃棄する",
+              "reading": "はいきする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 廃棄する/はいきする \"entsorgen, vernichten\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "entsorgen, vernichten. JMdict 1472030 sense 1, noun / suru verb: disposal, scrapping, discarding",
+        "japanese": "期限切れの食品を廃棄した。 / 個人情報が書かれた書類は、シュレッダーで廃棄してください。 / 古いパソコンを廃棄する前に、データを完全に消しておこう。",
+        "romanization": "haiki suru; Kigengire no shokuhin o haiki shita. / Kojin jōhō ga kakareta shorui wa, shureddā de haiki shite kudasai. / Furui pasokon o haiki suru mae ni, dēta o kanzen ni keshite okō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Abgelaufene Lebensmittel wurden entsorgt. / Dokumente mit personenbezogenen Daten bitte im Aktenvernichter entsorgen. / Bevor wir den alten Computer entsorgen, sollten wir die Daten vollständig löschen.",
+        "contexts": [
+          "Discarding expired food",
+          "Shredding confidential papers",
+          "Disposing of an old computer"
+        ],
+        "lexical": "JMdict 1472030 sense 1, noun / suru verb: disposal, scrapping, discarding",
+        "register": "written / formal",
+        "transitivity": "transitive (X を廃棄する); passive 廃棄される common",
+        "conjugation": "suru verb (廃棄する → 廃棄して, 廃棄しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 廃棄 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196e-n2-enrichment-vocab-n2-1044; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c3d391e407ec3154b56bf50a9b5eda4fe4c4ad5e3fc95289b8870d5f6c3a0e94",
+        "approvalHash": "1d9dc76227358d5772069cb9cafb4666e961203349143e5ec1a8e0e81518a51f"
+      }
+    },
+    {
+      "id": "vocab-n2:1049",
+      "revisionId": "levels-2026-11-vocab-n2-1049",
+      "state": "accepted",
+      "predecessorHash": "8cce6f1cefc9e309da876c333427da82c652fdb09634003275ac437953cab6c5",
+      "originalHash": "8cce6f1cefc9e309da876c333427da82c652fdb09634003275ac437953cab6c5",
+      "predecessorRevisionHash": "9f7157dc87a616e011be0c0fdad59d4b3e7cf38ffec177d94b23cad202d173d9",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"suru\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196e-n2-enrichment-vocab-n2-1049; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "suru: a する-verb takes the level of its noun; components 確信 N1",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1049",
+          "finding": "N2 → N1 by rule \"suru\": a する-verb takes the level of its noun."
+        },
+        {
+          "source": "Vocabulary-level calibration: component card",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:correction:kakushin-conviction",
+          "finding": "Component 確信 (vocab-n2:correction:kakushin-conviction) has a source-backed level of N1."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 確信する/かくしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 確信する/かくしんする scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 0b835b90bdb451360f6503395674ee3af3bc8f43da8f77ee3913753859002f38",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E7%A2%BA%E4%BF%A1%E3%81%99%E3%82%8B#word_1968",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              0
+            ],
+            "finding": "Dictionary-form cell of the exact head 確信する/かくしんする read; accent_top positions [0] (0 = no accent_top). Exact whole 確信する/かくしんする scan has zero matching rows; no constituent pattern inference.",
+            "match": {
+              "word": "確信する",
+              "reading": "かくしんする",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Verb 確信する/かくしんする \"überzeugt sein, fest glauben\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "überzeugt sein, fest glauben. JMdict 1205870 sense 1, noun / suru verb: conviction, firm belief, confidence",
+        "japanese": "彼の無実を確信している。 / ゴールが決まった瞬間、私たちは勝利を確信した。 / 正直に言うと、この方法が正しいという確信はない。",
+        "romanization": "kakushin suru; Kare no mujitsu o kakushin shite iru. / Gōru ga kimatta shunkan, watashitachi wa shōri o kakushin shita. / Shōjiki ni iu to, kono hōhō ga tadashii to iu kakushin wa nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin von seiner Unschuld überzeugt. / In dem Moment, als das Tor fiel, waren wir uns des Sieges sicher. / Ehrlich gesagt bin ich mir nicht sicher, ob diese Methode richtig ist.",
+        "contexts": [
+          "Defending a friend",
+          "Moment of victory in sport",
+          "Admitting uncertainty"
+        ],
+        "lexical": "JMdict 1205870 sense 1, noun / suru verb: conviction, firm belief, confidence",
+        "register": "neutral",
+        "transitivity": "transitive (X を確信する / 〜と確信する)",
+        "conjugation": "suru verb (確信する → 確信して, 確信しない)",
+        "level": "suru: a する-verb takes the level of its noun; components 確信 N1",
+        "carriedOver": "All fields except level are copied unchanged from 196e-n2-enrichment-vocab-n2-1049; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "8b45d19828c50cf885d64baaa726a24256e9fc5d301474c3b607ce122045a99c",
+        "approvalHash": "05fd62396d6616575c5b3a7db569f7fed15c80397ed9b2af7e48e0571bc25875"
+      }
+    },
+    {
+      "id": "vocab-n2:105",
+      "revisionId": "levels-2026-11-vocab-n2-105",
+      "state": "accepted",
+      "predecessorHash": "de902a8eb5f608825a082c8b1b763c7aaf7175b494d59d9e4da12849faa09d0d",
+      "originalHash": "de902a8eb5f608825a082c8b1b763c7aaf7175b494d59d9e4da12849faa09d0d",
+      "predecessorRevisionHash": "da52ec2b291b98e9b5e5f93188cff4069429584dc221791d58e14e63f44d2b5d",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N4"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N4 by rule \"textbook\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 191i-n2-enrichment-vocab-n2-105; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 32; Waller list N1 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:105",
+          "finding": "N2 → N4 by rule \"textbook\": taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4)."
+        },
+        {
+          "source": "Minna no Nihongo Shokyu I & II vocabulary with lesson numbers (vitto4/MinnaNoDS)",
+          "version": "minna-no-ds.yaml SHA256 3d7ecef4b2b0ae188b456c0301eb0db806db6604eed65b7fd6507063a86d6f8f",
+          "attribution": "Vocabulary of Minna no Nihongo (3A Corporation), compiled by vitto4; no licence stated, cited only",
+          "locator": "https://github.com/vitto4/MinnaNoDS; Minna no Nihongo II, lesson 32 (exact match)",
+          "finding": "恋愛 is taught in Minna no Nihongo II lesson 32 (Lessons 1-25 (Shokyu I) = N5, lessons 26-50 (Shokyu II) = N4)."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L3192; JMdict entry 1558800",
+          "finding": "恋愛 (れんあい) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L2596",
+          "finding": "恋愛 (れんあい) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 恋愛/レンアイ; lemma 恋愛; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@280045048",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 恋愛/レンアイ; lemma 恋愛; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "恋愛",
+              "reading": "れんあい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 恋愛/れんあい \"Liebe; Romanze\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Liebe; Romanze. JMdict 1558800 sense 1, noun / suru verb: love, romance",
+        "japanese": "恋愛小説を読むのが好きだ。 / 両親はお見合いではなく、恋愛結婚だった。 / 今は仕事が忙しくて、恋愛どころではない。",
+        "romanization": "ren'ai; Ren'ai shōsetsu o yomu no ga suki da. / Ryōshin wa omiai de wa naku, ren'ai kekkon datta. / Ima wa shigoto ga isogashikute, ren'ai dokoro de wa nai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich lese gerne Liebesromane. / Meine Eltern haben nicht über eine arrangierte Heirat, sondern aus Liebe geheiratet. / Ich habe gerade so viel Arbeit, dass an Romantik gar nicht zu denken ist.",
+        "contexts": [
+          "Reading preferences",
+          "Parents' marriage",
+          "Too busy for dating"
+        ],
+        "lexical": "JMdict 1558800 sense 1, noun / suru verb: love, romance",
+        "register": "neutral",
+        "transitivity": "Nonverb (noun); 恋愛する intransitive, rare",
+        "conjugation": "noun; suru verb (恋愛する)",
+        "level": "textbook: taught in a beginner textbook (Minna no Nihongo I / Genki lessons 0-12 = N5; Minna no Nihongo II / Genki 13-23 = N4); Minna no Nihongo II lesson 32; Waller list N1 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 191i-n2-enrichment-vocab-n2-105; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "c8d26a6969c6a54dc59c713e1b829e0ab9a7be3ee50f1ed9d9d9930d939746df",
+        "approvalHash": "2fe1b9ca9fb019167a28386d24f4eabd4c349239a7eb29050d1b6d8991836654"
+      }
+    },
+    {
+      "id": "vocab-n2:1050",
+      "revisionId": "levels-2026-11-vocab-n2-1050",
+      "state": "accepted",
+      "predecessorHash": "b71390b26cd0d3cd1bc77e0a1cba06484cec5324680095129bfbf526b354e637",
+      "originalHash": "b71390b26cd0d3cd1bc77e0a1cba06484cec5324680095129bfbf526b354e637",
+      "predecessorRevisionHash": "1d14c0b2033ad66f028ddb8ba8f73615889774abc08e1a8fe8bee4d766ffe503",
+      "original": {
+        "level": "N2"
+      },
+      "replacement": {
+        "level": "N1"
+      },
+      "rationale": "Level-only revision (vocabulary-level calibration, November 2026): N2 → N1 by rule \"list\". Word, reading, meaning, notes, examples, pitch and all other fields are unchanged from 196e-n2-enrichment-vocab-n2-1050; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "levelBasis": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+      "evidence": [
+        {
+          "source": "Vocabulary-level calibration rules (scripts/build-vocabulary-levels.cjs)",
+          "version": "evidence.json SHA256 395916e758ab18f092e96fd920d357546354c9dc7e108c69edfb85e6d01e342f",
+          "locator": "scripts/vocabulary-levels/evidence.json#vocab-n2:1050",
+          "finding": "N2 → N1 by rule \"list\": Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, edition with JMdict entry numbers (stephenmk/yomitan-jlpt-vocab, original_data)",
+          "version": "n1.csv SHA256 7a58f0584e9ec2b0299ccb9b109f3bd03e08b90d129a714307c0a1cb72f07b32",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; JMdict entry mapping by stephenmk",
+          "locator": "https://raw.githubusercontent.com/stephenmk/yomitan-jlpt-vocab/main/original_data/n1.csv#L1215; JMdict entry 1270850",
+          "finding": "悟る (さとる) is listed at N1 in this edition."
+        },
+        {
+          "source": "Jonathan Waller's JLPT vocabulary lists, community-corrected edition (jamsinclair/open-anki-jlpt-decks, src)",
+          "version": "n1.csv SHA256 120911636c019899552aa6d7bd64b036ecef4bedfe272a744f75735c46aae5cd",
+          "attribution": "JLPT lists by Jonathan Waller (tanos.co.uk), Creative Commons BY; corrections by open-anki-jlpt-decks contributors",
+          "locator": "https://raw.githubusercontent.com/jamsinclair/open-anki-jlpt-decks/main/src/n1.csv#L201",
+          "finding": "悟る (さとる) is listed at N1 in this edition."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-10",
+          "locator": "Chat instruction \"Go\" approving the final vocabulary-level calibration plan",
+          "finding": "The user asked for the vocabulary levels to be recalibrated with these rules after reviewing the plan and its limits."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0,2] via exact UniDic row. Exact whole 悟る/サトル; lemma 悟る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0,2. Rejected for this role: 悟る/サトル; lemma 悟る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0,2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@131620572",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0,
+              2
+            ],
+            "finding": "Exact whole 悟る/サトル; lemma 悟る; 動詞/一般/*/*; 五段-ラ行; 終止形-一般; aType 0,2. Rejected for this role: 悟る/サトル; lemma 悟る; 動詞/一般/*/*; 五段-ラ行; 連体形-一般; aType 0,2.",
+            "match": {
+              "word": "悟る",
+              "reading": "さとる",
+              "grammaticalForm": "動詞/一般/*/*; 五段-ラ行; 終止形-一般",
+              "sense": "Verb 悟る/さとる \"erkennen, begreifen\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "level-calibration"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "erkennen, begreifen. JMdict 1270850 senses 1–2, godan verb: to perceive, sense; to understand, realize",
+        "japanese": "自分の過ちを悟って深く反省した。 / 彼の表情を見て、もう手遅れだと悟った。 / 緊張していることを相手に悟られないよう、笑顔を作った。",
+        "romanization": "satoru; Jibun no ayamachi o satotte fukaku hansei shita. / Kare no hyōjō o mite, mō teokure da to satotta. / Kinchō shite iru koto o aite ni satorarenai yō, egao o tsukutta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich erkannte meinen Fehler und bereute ihn zutiefst. / Als ich seinen Gesichtsausdruck sah, wurde mir klar, dass es schon zu spät war. / Ich setzte ein Lächeln auf, damit mein Gegenüber meine Nervosität nicht bemerkte.",
+        "contexts": [
+          "Regretting a mistake",
+          "Realizing it is too late",
+          "Hiding nervousness"
+        ],
+        "lexical": "JMdict 1270850 senses 1–2, godan verb: to perceive, sense; to understand, realize",
+        "register": "neutral to literary",
+        "transitivity": "transitive (X を悟る / 〜と悟る); no intransitive partner",
+        "conjugation": "godan -ru (悟る → 悟って, 悟らない)",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "All fields except level are copied unchanged from 196e-n2-enrichment-vocab-n2-1050; this revision did not re-review them."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "vocabulary-level-calibration-2026-11",
+        "finding": "Checked that the only change is the level and that it matches the calibration evidence for this card (source rows cited in the evidence). Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "663374dfe92cf5b8df9d9f6e98d982bd628954c3f0dc945d0e6eaea6a36bf940",
+        "approvalHash": "45c3236f618d2df831c9ea77537ee729ea9b4238be9d0504a854fa6dd81eb828"
+      }
+    }
+  ]
+}

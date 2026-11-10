@@ -54,13 +54,35 @@ function runtimePitchProvenance(item) {
     .map(entry => ({ match: { word: entry.match.word, reading: entry.match.reading }, patterns: entry.patterns }));
 }
 
-function splitItem(item) {
+// Level evidence from the calibration (scripts/build-vocabulary-levels.cjs): a basis code for
+// filtering, and a German source note for the detail pane. Cards without evidence are estimates.
+const LEVEL_EVIDENCE_FILE = 'scripts/vocabulary-levels/evidence.json';
+function loadLevelEvidence(readFile) {
+  let text;
+  try { text = readFile(LEVEL_EVIDENCE_FILE); } catch (e) { return new Map(); }
+  return new Map(JSON.parse(text).cards.map(card => [card.id, card]));
+}
+function levelNote(card) {
+  if (!card || card.basis === 'estimate') return 'Geschätztes Level – keine Quelle bestätigt es.';
+  const capped = card.capped ? ' (Quelle: ' + card.capped + '; Änderung auf zwei Stufen begrenzt)' : '';
+  if (card.basis === 'textbook') return 'Lehrbuch: ' + card.textbook.book + ', Lektion ' + card.textbook.lesson + capped;
+  if (card.basis === 'list') return 'JLPT-Wortliste (J. Waller): ' + card.list.level + capped;
+  if (card.basis === 'suru') return 'Abgeleitet von ' + card.parts[0].word + ' (' + card.parts[0].level + ')' + capped;
+  if (card.basis === 'compound') return 'Zusammensetzung: ' + card.parts.map(p => p.word + ' (' + p.level + ')').join(' + ') + capped;
+  if (card.basis === 'frequency') return 'Seltenes Wort laut Häufigkeitsdaten (wordfreq), daher kein Einsteigerwort';
+  throw new Error('Unknown level basis ' + card.basis);
+}
+
+function splitItem(item, evidence) {
   const core = {}, details = {};
   for (const key of Object.keys(item)) {
     if (DROPPED_FIELDS.has(key) || item[key] === undefined) continue;
     if (DETAIL_FIELDS.includes(key)) details[key] = item[key];
     else core[key] = key === 'pitchProvenance' ? runtimePitchProvenance(item) : item[key];
   }
+  const card = evidence.get(item.id);
+  core.levelBasis = card ? card.basis : 'estimate';
+  details.levelNote = levelNote(card);
   return { core, details };
 }
 
@@ -71,7 +93,8 @@ function lines(values) {
 
 function buildVocabRuntime(readFile = file => fs.readFileSync(path.join(root, file), 'utf8')) {
   const { items, completionRedirects } = loadMergedVocabulary(readFile);
-  const parts = items.map(splitItem);
+  const evidence = loadLevelEvidence(readFile);
+  const parts = items.map(item => splitItem(item, evidence));
   return {
     [RUNTIME_FILE]: HEADER + 'window.VOCAB_RUNTIME = {\n"completionRedirects": ' + JSON.stringify(completionRedirects) +
       ',\n"items": [\n' + lines(parts.map(p => p.core)) + '\n]};\n',

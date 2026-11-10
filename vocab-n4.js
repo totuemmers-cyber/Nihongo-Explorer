@@ -36125,7 +36125,7 @@ window.VOCAB_N4 = [
     "meaning": "wegräumen, aufbewahren; (Laden) schließen",
     "type": "Verb",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N3",
     "notes": "Als Vollverb heißt しまう „an seinen Platz wegräumen“ (meist in Hiragana, Kanji 仕舞う). Nach der て-Form（〜てしまう, umgangssprachlich 〜ちゃう）drückt es Abschluss oder Bedauern aus; diese Grammatik steht im Grammatikteil.",
     "examples": [
       {
@@ -36178,7 +36178,7 @@ window.VOCAB_N4 = [
     "meaning": "Zeit, Zeitpunkt; ungefähr (um …)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N4",
+    "level": "N3",
     "notes": "Nach Uhrzeiten und Daten liest man ごろ und schreibt es oft in Hiragana: 十時ごろ „gegen zehn Uhr“. Nach Nomen mit の oder nach Sätzen heißt es ころ: 子どもの頃 „als ich Kind war“. Verwandt: この頃（このごろ）„in letzter Zeit“.",
     "examples": [
       {
@@ -36220,7 +36220,7 @@ window.VOCAB_N4 = [
     "meaning": "hundert Millionen (10^8)",
     "type": "Nomen",
     "category": "Zahlen",
-    "level": "N4",
+    "level": "N5",
     "notes": "Das japanische Zahlensystem gruppiert in Viererschritten: 万 = 10.000, 億 = 100.000.000, 兆 = 1.000.000.000.000. 一億 ist „hundert Millionen“, 十億 „eine Milliarde“.",
     "examples": [
       {
@@ -36262,7 +36262,7 @@ window.VOCAB_N4 = [
     "meaning": "E-Mail; Nachricht",
     "type": "Nomen",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N5",
     "notes": "Meist E-Mail oder Handynachricht; als Verb メールする „eine Nachricht schicken“. Briefpost heißt 郵便 oder 手紙.",
     "examples": [
       {
@@ -36308,7 +36308,7 @@ window.VOCAB_N4 = [
     "meaning": "Internet",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N4",
+    "level": "N5",
     "notes": "インターネット bezeichnet das Internet und wird auch zu ネット verkürzt. インターネットで nennt das Mittel einer Handlung, etwa eine Onlinebuchung. インターネットが使える beziehungsweise 使えない beschreibt, ob man einen Internetzugang nutzen kann. Die lange Silbe ター wird in intānetto mit ā wiedergegeben.",
     "examples": [
       {
@@ -36392,7 +36392,7 @@ window.VOCAB_N4 = [
     "meaning": "Bis später! (Gruß an jemanden, der aus dem Haus geht)",
     "type": "Ausdruck",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N2",
     "notes": "Antwort auf 行ってきます: Wer bleibt, verabschiedet so jemanden, der geht und zurückkommt. Höflicher: 行ってらっしゃいませ (z. B. im Hotel). Bei der Rückkehr folgen ただいま und おかえりなさい.",
     "examples": [
       {
@@ -36443,7 +36443,7 @@ window.VOCAB_N4 = [
     "meaning": "Computer",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N4",
+    "level": "N5",
     "notes": "Allgemeiner Begriff für Computer; für den eigenen Rechner sagt man im Alltag meist パソコン. Die Schreibung ohne Längungsstrich（コンピュータ）ist in Technik und Verwaltung verbreitet.",
     "examples": [
       {
@@ -36488,7 +36488,7 @@ window.VOCAB_N4 = [
     "meaning": "Supermarkt",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N5",
     "notes": "Kurzform von スーパーマーケット. Als Vorsilbe heißt スーパー auch „super-“; im Alltag ist „Supermarkt“ die häufigste Bedeutung.",
     "examples": [
       {
@@ -36530,7 +36530,7 @@ window.VOCAB_N4 = [
     "meaning": "Russland",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "Ländername in Katakana. Sprache: ロシア語. In Zusammensetzungen abgekürzt als 露（ろ）, z. B. 日露.",
     "examples": [
       {
@@ -36572,7 +36572,7 @@ window.VOCAB_N4 = [
     "meaning": "Indien",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "インド ist der Ländername Indien. インドの… ordnet etwas dem Land zu; インドに住む beschreibt das Wohnen dort. Eine Person aus Indien heißt インド人. インドネシア bezeichnet dagegen Indonesien, ein anderes Land. Gelernt wird die übliche Katakanaschreibweise, nicht die Kanji-Schreibweise 印度.",
     "examples": [
       {
@@ -36656,7 +36656,7 @@ window.VOCAB_N4 = [
     "meaning": "Brasilien",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "ブラジル ist der Ländername Brasilien. ブラジルでは leitet eine Aussage über das Land ein; ブラジルのコーヒー nennt die Herkunft einer Ware. Die offizielle Sprache wird ポルトガル語 genannt. Das Wort wird in Katakana geschrieben und ist ein Nomen.",
     "examples": [
       {
@@ -36698,7 +36698,7 @@ window.VOCAB_N4 = [
     "meaning": "Australien",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "Ländername in Katakana. Achtung: オーストリア ist Österreich – nur ein „ラ“ Unterschied. In Nachrichten auch 豪州（ごうしゅう）.",
     "examples": [
       {
@@ -36740,7 +36740,7 @@ window.VOCAB_N4 = [
     "meaning": "Thailand",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "Ländername in Katakana. Gleich klingend: タイ (Krawatte) und 鯛（たい）(Meerbrasse) – der Kontext entscheidet.",
     "examples": [
       {
@@ -36782,7 +36782,7 @@ window.VOCAB_N4 = [
     "meaning": "Vietnam",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "ベトナム ist der Ländername Vietnam. ベトナムの学生 beschreibt die Herkunft eines Studierenden; ベトナムのコーヒー die Herkunft oder landestypische Art des Kaffees. Für eine Person aus Vietnam sagt man ベトナム人. Das Nomen wird in Katakana geschrieben.",
     "examples": [
       {
@@ -37663,7 +37663,7 @@ window.VOCAB_N4 = [
     "meaning": "Panda",
     "type": "Nomen",
     "category": "Natur",
-    "level": "N4",
+    "level": "N5",
     "notes": "Zootier in Katakana; in Japan sehr beliebt. Ein Streifenwagen heißt wegen seiner Schwarz-Weiß-Lackierung scherzhaft パンダ.",
     "examples": [
       {
@@ -37860,7 +37860,7 @@ window.VOCAB_N4 = [
     "meaning": "Europa",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "Kontinent in Katakana (von portugiesisch „Europa“). In Zusammensetzungen: 欧（おう）, z. B. 欧米 „Europa und Amerika, der Westen“.",
     "examples": [
       {
@@ -37905,7 +37905,7 @@ window.VOCAB_N4 = [
     "meaning": "Asien",
     "type": "Nomen",
     "category": "Geographie",
-    "level": "N4",
+    "level": "N5",
     "notes": "アジア ist der Kontinent Asien. アジアの国 bezeichnet ein Land in Asien; アジアの料理 Gerichte aus asiatischen Küchen. Die Richtungsangabe 東南 in 東南アジア bedeutet Südost. Für eine Herkunft oder einen Bezug zum Kontinent verbindet man das Nomen häufig mit の.",
     "examples": [
       {
@@ -37995,7 +37995,7 @@ window.VOCAB_N4 = [
     "meaning": "Hallo, ist jemand da?; darf ich hereinkommen?",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N2",
     "notes": "ごめんください ist hier der höfliche Ruf am Eingang eines Hauses oder Geschäfts: Man macht auf sich aufmerksam und bittet sinngemäß um Einlass. Mit どなたかいらっしゃいますか fragt man, ob jemand da ist. Es ist kein allgemeiner Gruß für jede Begegnung. Die Schreibweise ご免ください ist belegt; gelernt wird die übliche Kanaform.",
     "examples": [
       {
@@ -38028,7 +38028,7 @@ window.VOCAB_N4 = [
     "meaning": "so; auf jene Weise",
     "type": "Adverb",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N5",
     "notes": "ああ bedeutet auf jene Weise oder so und verweist auf etwas, das Sprecher und Zuhörer als entfernt oder bekannt betrachten. ああなりたい nennt ein Vorbild; ああ言われると reagiert auf die Art einer Äußerung. Diese Karte behandelt das Adverb der Reihe こう・そう・ああ・どう, nicht den gleich lautenden Ausruf Ach!",
     "examples": [
       {
@@ -38126,7 +38126,7 @@ window.VOCAB_N4 = [
     "meaning": "weich, sanft; Software",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N5",
     "notes": "Mehrere Bedeutungen: weich, sanft (ソフトな声); Software (ゲームソフト); Softeis (ソフトクリーム).",
     "examples": [
       {
@@ -38661,7 +38661,7 @@ window.VOCAB_N4 = [
     "meaning": "Ich gehe jetzt (und komme wieder) – bescheiden-höflich",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N2",
     "notes": "行ってまいります sagt die gehende Person beim vorübergehenden Aufbruch. まいります ist die bescheidene höfliche Form; der Gruß entspricht funktional 行ってきます und lässt eine Rückkehr erwarten. Im Büro kann man damit den Gang zu einem Termin ankündigen. Die bleibende Person kann mit 行ってらっしゃい antworten.",
     "examples": [
       {
@@ -38686,7 +38686,7 @@ window.VOCAB_N4 = [
     "meaning": "Entschuldigen Sie die Wartezeit; danke fürs Warten",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N2",
     "notes": "„Entschuldigen Sie die Wartezeit“ – sehr häufig im Restaurant und im Geschäft; unter Freunden kurz お待たせ！ Noch höflicher: 大変お待たせいたしました.",
     "examples": [
       {
@@ -39029,7 +39029,7 @@ window.VOCAB_N4 = [
     "meaning": "Schriftzeichen; Handschrift",
     "type": "Nomen",
     "category": "Sprache",
-    "level": "N4",
+    "level": "N5",
     "notes": "Schriftzeichen, Buchstabe; auch die Handschrift: 字がきれい (schöne Schrift). Kanji allgemein: 漢字; Schriftzeichen allgemein: 文字.",
     "examples": [
       {
@@ -39113,7 +39113,7 @@ window.VOCAB_N4 = [
     "meaning": "hergestellt in / aus",
     "type": "Partikel",
     "category": "Handel",
-    "level": "N4",
+    "level": "N2",
     "notes": "Suffix „hergestellt in / aus“: 日本製 (made in Japan), ドイツ製, プラスチック製 (aus Plastik).",
     "examples": [
       {
@@ -39179,7 +39179,7 @@ window.VOCAB_N4 = [
     "meaning": "Sport treiben, sich körperlich bewegen",
     "type": "Verb",
     "category": "Sport",
-    "level": "N4",
+    "level": "N5",
     "notes": "運動する bedeutet hier, sich körperlich zu bewegen oder Sport zu treiben. Der Ort steht mit で; eine Dauer wie 三十分 steht ohne に. 毎朝 beschreibt eine Gewohnheit, während 〜ので im zweiten Beispiel den Grund für die Wahl des Ortes nennt. Das Verb ist intransitiv; Ort und Dauer beschreiben die Tätigkeit. Die Formen sind zum Beispiel 運動します, 運動した und 運動して. 運動 allein ist ein Nomen; die Bedeutungen „Kampagne“ und „Bewegung eines Körpers“ werden hier nicht geübt.",
     "examples": [
       {
@@ -39462,7 +39462,7 @@ window.VOCAB_N4 = [
     "meaning": "Laden; Geschäft; Restaurant (Suffix)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N2",
     "notes": "店（てん） steht am Ende von Bezeichnungen für Geschäfte oder Restaurants, etwa 書店（しょてん）, Buchhandlung, und 喫茶店（きっさてん）, Café. Der erste Wortteil sagt, um welche Art von Geschäft es geht. Als selbstständiges Wort für einen Laden liest man 店 gewöhnlich みせ: 店に入る. Übe die zusammengesetzten Bezeichnungen jeweils mit ihrer vollständigen Lesung.",
     "examples": [
       {
@@ -39489,7 +39489,7 @@ window.VOCAB_N4 = [
     "meaning": "leicht, einfach (易い)",
     "type": "Adjektiv",
     "category": "Eigenschaften",
-    "level": "N4",
+    "level": "N2",
     "notes": "易い bedeutet hier leicht oder einfach. Selbstständig findet man es beispielsweise in 易い仕事 oder einer Gegenüberstellung mit 難しい. Für leicht verständliche Aufgaben und Texte ist auch やさしい üblich. 易い（やすい）ist von 安い（やすい）„billig“ zu unterscheiden: Gleiche Aussprache bedeutet hier eine andere Bedeutung und Kanji-Schreibung. Nach einem Verbstamm wie 読み in 読みやすい wirkt やすい als Nachsilbe; die Beispiele dieser Karte üben das selbstständige Adjektiv. Seine Verneinung lautet 易くない, die Vergangenheitsform 易かった.",
     "examples": [
       {
@@ -39646,7 +39646,7 @@ window.VOCAB_N4 = [
     "meaning": "Tod",
     "type": "Nomen",
     "category": "Leben",
-    "level": "N4",
+    "level": "N3",
     "notes": "死（し）ist das Nomen für den Tod, etwa in 死を悼む „den Tod betrauern“ oder 死を恐れる „den Tod fürchten“. Das Verb heißt 死ぬ（しぬ）. Die Lesung し gilt hier für das selbstständige Nomen; sie wird nicht aus dem höflichen Titel 氏 abgeleitet. Die besondere Verwendung im Baseball gehört nicht zu dieser Karte.",
     "examples": [
       {
@@ -39690,7 +39690,7 @@ window.VOCAB_N4 = [
     "meaning": "schwierig, schwer zu tun (gehoben)",
     "type": "Adjektiv",
     "category": "Beschreibung",
-    "level": "N4",
+    "level": "N2",
     "notes": "難い（かたい）ist ein selbstständiges i-Adjektiv mit der Bedeutung „schwierig“. Es klingt schriftsprachlich und erscheint etwa in 想像するに難くない „nicht schwer vorstellbar“. Die Form 難く（かたく）steht vor ない. Das angeschlossene Suffix ～難い（がたい）in 信じ難い und ～難い（にくい）in 読み難い haben eigene Lesungen und werden hier nicht gleichgesetzt. Die alte Spruchform 難し（かたし）ist keine moderne Grundform. 固い, 硬い und 堅い bezeichnen andere Arten von Härte oder Festigkeit.",
     "examples": [
       {
@@ -39761,7 +39761,7 @@ window.VOCAB_N4 = [
     "meaning": "ja; stimmt (vertraute Antwort)",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N5",
     "notes": "ああ ist hier eine knappe zustimmende Antwort: „ja“, „stimmt“ oder „genau“. Man bestätigt damit eine Frage oder stimmt einer Aussage zu. Diese Antwort gehört in vertraute Gespräche und kann je nach Ton ruhig oder etwas knapp klingen; für eine höfliche Antwort verwendet man eher はい oder ええ. Sie wird mit langem a gesprochen. Der emotionale Ausruf „ach!“ und das Adverb ああ „auf jene Weise“ haben eigene Karten. Die Beispiele unterscheiden die Bestätigung einer erledigten Handlung von der Zustimmung zu einer gemeinsamen Einschätzung.",
     "examples": [
       {
@@ -40092,7 +40092,7 @@ window.VOCAB_N4 = [
     "meaning": "aber; jedoch (Satzanfang)",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N5",
     "notes": "Als selbstständige Konjunktion kann けど am Anfang eines neuen Satzes stehen: „aber“ oder „jedoch“. Es greift einen zuvor genannten Sachverhalt auf und stellt ihm eine Einschränkung oder ein unerwartetes Ergebnis gegenüber. Diese kurze Form von けれども ist umgangssprachlich; in förmlicheren Texten passen けれども oder しかし. Die Partikel けど, die direkt zwei Teilsätze verbindet, wird auf einer eigenen Karte geübt.",
     "examples": [
       {
@@ -40136,7 +40136,7 @@ window.VOCAB_N4 = [
     "meaning": "grüßen, begrüßen; eine Ansprache halten",
     "type": "Verb",
     "category": "Alltag",
-    "level": "N4",
+    "level": "N5",
     "notes": "挨拶する heißt „grüßen“; die gegrüßte Person steht mit に (先生に挨拶する), gleichwertig ist die Form 挨拶をする. Bei Feiern bedeutet es auch „eine kurze Ansprache halten“. Das Nomen 挨拶 „Begrüßung, Grußwort“ hat eine eigene Karte. Die Kanji sind schwierig, deshalb schreibt man im Alltag oft あいさつする in Kana.",
     "examples": [
       {
@@ -40194,7 +40194,7 @@ window.VOCAB_N4 = [
     "meaning": "reiche Person, Reiche(r)",
     "type": "Nomen",
     "category": "Menschen",
-    "level": "N4",
+    "level": "N5",
     "notes": "Höflich-weiche Form von 金持ち（かねもち） „Reicher“ mit dem Präfix お. Im Gespräch klingt お金持ち natürlicher und freundlicher; 金持ち ist neutral bis etwas derb (金持ちのくせに) und steht in Zusammensetzungen wie 大金持ち. Häufig in お金持ちになる „reich werden“ und お金持ちの家 „wohlhabende Familie“.",
     "examples": [
       {
@@ -40593,7 +40593,7 @@ window.VOCAB_N4 = [
     "meaning": "Süßigkeiten, Gebäck, Konfekt",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N4",
+    "level": "N3",
     "notes": "Grundwort ohne das höfliche Präfix お. Allein gesprochen sagt man im Alltag fast immer お菓子（おかし）; 菓子 allein wirkt schriftlich oder fachlich und erscheint vor allem in Zusammensetzungen: 菓子パン „süßes Brötchen“, 菓子店 „Konditorei“, 和菓子（わがし） „japanische Süßigkeiten“, 洋菓子（ようがし） „westliche Süßwaren“ – dort mit stimmhaftem が. Nicht verwechseln mit den Homophonen 歌詞 „Liedtext“ und 貸し „Verleih“.",
     "examples": [
       {
@@ -40640,7 +40640,7 @@ window.VOCAB_N4 = [
     "meaning": "Zähleinheitswort für Häuser, Gebäude, Läden (Zähleinheitswort)",
     "type": "Partikel",
     "category": "Zähleinheitswörter",
-    "level": "N4",
+    "level": "N3",
     "notes": "Zählt Häuser, Läden, Restaurants und andere Gebäude: 一軒 (いっけん), 二軒, 三軒 (さんげん), 六軒 (ろっけん), 八軒 (はっけん), 十軒 (じゅっけん), Frage 何軒 (なんげん). 一軒家 heißt „Einfamilienhaus“. Die Karte 軒/のき lehrt dagegen das Nomen „Dachvorsprung“; nicht verwechseln mit 〜件 (Fälle, Angelegenheiten) und 〜県 (Präfektur).",
     "examples": [
       {
@@ -40720,7 +40720,7 @@ window.VOCAB_N4 = [
     "meaning": "Wange (Lesevariante von ほお)",
     "type": "Nomen",
     "category": "Körper",
-    "level": "N4",
+    "level": "N3",
     "notes": "Zweite, gleichberechtigte Lesung von 頬 „Wange“ neben ほお (eigene Karte). ほお gilt als Standard- und Wörterbuchform und steht fest in 頬杖（ほおづえ） und 頬張る（ほおばる）; ほほ ist im gesprochenen Japanisch sehr verbreitet und steckt in ほほえむ „lächeln“ (微笑む). In freier Verwendung (頬が赤い) sind beide Lesungen richtig; ほほ wirkt etwas weicher und umgangssprachlicher.",
     "examples": [
       {
@@ -40800,7 +40800,7 @@ window.VOCAB_N4 = [
     "meaning": "Lästerei, üble Nachrede, Beschimpfung (Lesung わるくち)",
     "type": "Nomen",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N3",
     "notes": "悪口 hat zwei gleichwertige Standardlesungen, わるくち und わるぐち (eigene Karte); Bedeutung und Gebrauch sind identisch, わるくち ist etwas häufiger und steht in Wörterbüchern oft zuerst. Typisch ist 〜の悪口を言う „über jemanden lästern“, passiv 悪口を言われる. Die sinojapanische Lesung あっこう kommt nur in Schriftsprache und Redewendungen wie 悪口雑言 vor.",
     "examples": [
       {
@@ -40847,7 +40847,7 @@ window.VOCAB_N4 = [
     "meaning": "Öffnung, Offenlassen; Freigabe (für die Öffentlichkeit)",
     "type": "Nomen",
     "category": "Gesellschaft",
-    "level": "N4",
+    "level": "N2",
     "notes": "Nomen zum Verb 開放する (öffnen, zugänglich machen); typisch in 校庭開放 „Öffnung des Schulhofs“, 市場の開放 „Marktöffnung“ und 開放感 „Gefühl von Weite“. Nicht verwechseln mit den Homophonen 解放 (Befreiung von Zwang oder Gefangenschaft) und 介抱 (Pflege eines Kranken): 開放 öffnet Türen, Räume und Märkte, 解放 befreit Menschen.",
     "examples": [
       {
@@ -40894,7 +40894,7 @@ window.VOCAB_N4 = [
     "meaning": "-angestellte(r), -mitglied, Personal (Suffix, z. B. 会社員, 店員)",
     "type": "Partikel",
     "category": "Arbeit",
-    "level": "N4",
+    "level": "N2",
     "notes": "Suffix für Personen, die einer Organisation angehören oder dort arbeiten: 会社員 „Firmenangestellte(r)“, 店員 „Verkäufer(in)“, 駅員 „Bahnangestellte(r)“, 会員 „Mitglied“, 公務員 „Beamte(r)“. Allein steht 員 praktisch nie; als eigenständiges Wort sagt man メンバー oder 一員（いちいん）. Anders als 〜者（しゃ） „Person, die … tut“ betont 〜員 die Zugehörigkeit zu einer Gruppe oder Belegschaft. Nicht verwechseln mit dem Homophon 韻（いん） „Reim“.",
     "examples": [
       {
@@ -40927,7 +40927,7 @@ window.VOCAB_N4 = [
     "meaning": "zehn Minuten",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N4",
+    "level": "N2",
     "notes": "Als Zeitangabe liest man 十分 じっぷん oder, heute im Gespräch häufiger, じゅっぷん „zehn Minuten“. Dieselbe Schreibung gelesen じゅうぶん heißt „genug, ausreichend“ (eigene Karte); deshalb schreibt man die Minuten meist mit Ziffern als 10分. Mit 〜間 betont 十分間 die Dauer.",
     "examples": [
       {
@@ -41106,7 +41106,7 @@ window.VOCAB_N4 = [
     "meaning": "nicht dürfen (…てはいけない); schlecht, falsch; nutzlos; schade",
     "type": "Ausdruck",
     "category": "Grammatik",
-    "level": "N4",
+    "level": "N3",
     "notes": "Einfache (nicht-höfliche) Form von いけません (eigene Karte); Kern der Muster …てはいけない „man darf nicht“ und …なければいけない „man muss“. Allein bedeutet いけない „schlecht, falsch“ (いけない子) oder dient als Ausruf „Mist!, Oh nein!“, wenn man einen Fehler bemerkt. Fast immer in Kana; geschrieben 行けない liest man eher als „nicht gehen können“ (Potential von 行く).",
     "examples": [
       {
@@ -41172,7 +41172,7 @@ window.VOCAB_N4 = [
     "meaning": "vielleicht, möglicherweise, könnte sein",
     "type": "Ausdruck",
     "category": "Grammatik",
-    "level": "N4",
+    "level": "N3",
     "notes": "Drückt eine Möglichkeit aus und steht am Satzende nach der einfachen Form von Verben und i-Adjektiven bzw. direkt nach Nomen und na-Adjektiven (本当かもしれない, 静かかもしれない). Höflich: かもしれません; umgangssprachlich verkürzt: かも. Unsicherer als でしょう/だろう „wahrscheinlich“. Meist in Kana; かも知れない ist seltener.",
     "examples": [
       {
@@ -41205,7 +41205,7 @@ window.VOCAB_N4 = [
     "meaning": "Samstag (kurz für 土曜日)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N4",
+    "level": "N3",
     "notes": "土曜 ist die Kurzform von 土曜日 (eigene Karte) und in Gesprächen, Fahrplänen und Öffnungszeiten sehr häufig: 土曜の夜, 土曜休み; 土日 heißt „Wochenende“. Die Bedeutung ist gleich, die Kurzform klingt nur etwas lockerer; in Briefen und Ansagen steht eher 土曜日. Nicht verwechseln mit dem Homophon 土用 „Hundstage“.",
     "examples": [
       {
@@ -41256,7 +41256,7 @@ window.VOCAB_N4 = [
     "meaning": "Sonntag (kurz für 日曜日)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N4",
+    "level": "N3",
     "notes": "日曜 ist die Kurzform von 日曜日 (eigene Karte) mit gleicher Bedeutung, typisch für Gespräche, Fahrpläne und Öffnungszeiten (日曜休み, 日曜の朝). Fest steht es in Zusammensetzungen wie 日曜大工 „Heimwerken“ und 日曜版 „Sonntagsausgabe“. In formellen Texten und Ansagen steht eher die volle Form 日曜日.",
     "examples": [
       {
@@ -41337,7 +41337,7 @@ window.VOCAB_N4 = [
     "meaning": "Mittwoch (Kurzform)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N4",
+    "level": "N2",
     "notes": "Kurzform von 水曜日 (eigene Karte), besonders in Zeitplänen, Aushängen und im lockeren Gespräch (水曜の夜, 毎週水曜, 水曜休み). Im Kalender steht oft nur 水. In formellen Texten und Durchsagen ist 水曜日 üblicher; alle Wochentage haben solche Kurzformen (月曜, 金曜).",
     "examples": [
       {
@@ -41388,7 +41388,7 @@ window.VOCAB_N4 = [
     "meaning": "Schüler/Student im n-ten Jahr (Suffix, z. B. 三年生, 大学二年生)",
     "type": "Partikel",
     "category": "Schule",
-    "level": "N4",
+    "level": "N2",
     "notes": "Suffix nach einer Zahl für die Klassenstufe bzw. das Studienjahr: 小学三年生, 高校二年生, 大学四年生; gefragt wird mit 何年生ですか. Die eigene Karte 一年生 deckt zusätzlich „Anfänger, Neuling“ ab. Nicht verwechseln mit 〜年 (Jahre, Jahreszahl) und dem gleichlautenden 粘性 „Viskosität“.",
     "examples": [
       {
@@ -41421,7 +41421,7 @@ window.VOCAB_N4 = [
     "meaning": "der/die/das …-te, Ordinalzahl-Suffix (Suffix)",
     "type": "Partikel",
     "category": "Zahlen",
-    "level": "N4",
+    "level": "N2",
     "notes": "Nachgestelltes Suffix für die Position in einer Reihenfolge: 二番目, 三番目, 何番目; mit に für Rangfolgen wie 二番目に高い „der zweithöchste“. Anders als 一番 („am meisten; Nummer eins“) zählt 〜番目 neutral ab; das vorangestellte 第〜 ist schriftlicher, 〜回目 zählt Wiederholungen. 一番目 und 三番目 haben eigene Karten.",
     "examples": [
       {
@@ -41454,7 +41454,7 @@ window.VOCAB_N4 = [
     "meaning": "wie, ähnlich wie; anscheinend, scheint (Suffix, umgangssprachlich)",
     "type": "Partikel",
     "category": "Grammatik",
-    "level": "N4",
+    "level": "N2",
     "notes": "みたい ist die umgangssprachliche Entsprechung von ようだ: Nomen + みたい „wie, ähnlich“ (子供みたい), Satz + みたい „anscheinend“ (雨みたいだ). Es flektiert wie ein na-Adjektiv: みたいな + Nomen, みたいに + Verb. Gegenüber らしい drückt みたい eher den eigenen Eindruck aus. Nicht verwechseln mit 〜てみたい „möchte ausprobieren“ (von みる).",
     "examples": [
       {
@@ -41484,7 +41484,7 @@ window.VOCAB_N4 = [
     "meaning": "Bitte nehmen Sie Platz",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N4",
+    "level": "N2",
     "notes": "Höfliche Aufforderung, sich zu setzen, gebildet aus お + Stamm von 掛ける (hier „sich setzen“) + ください; meist in Kana geschrieben. Man hört sie am Empfang, in der Arztpraxis oder im Vorstellungsgespräch. Einfacher ist 座ってください, noch höflicher おかけになってください. Die Karte 掛ける lehrt nur „aufhängen“; dieser Sinn „sich setzen“ lebt vor allem in dieser Wendung.",
     "examples": [
       {

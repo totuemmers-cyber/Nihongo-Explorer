@@ -27,11 +27,18 @@ inflected-form cards into their surviving cards.
 
 | Level | Entries | Pending reviews | Open source references | Complete |
 | --- | ---: | ---: | ---: | --- |
-| N5 | 1,689 | 0 | 0 | yes |
-| N4 | 1,696 | 0 | 0 | yes |
-| N3 | 3,913 | 0 | 0 | yes |
-| N2 | 3,316 | 0 | 0 | yes |
-| N1 | 5,607 | 0 | 0 | yes |
+| N5 | 1,313 | 0 | 0 | yes |
+| N4 | 1,309 | 0 | 0 | yes |
+| N3 | 3,292 | 0 | 0 | yes |
+| N2 | 3,764 | 0 | 0 | yes |
+| N1 | 6,543 | 0 | 0 | yes |
+
+Entry counts reflect the November 2026 level calibration (batches 229-levels-001 to -171, with
+reference renewals in 229-levels-refs-001 to -035):
+4,251 cards moved level by documented rules from JLPT-list, textbook, composition and
+frequency evidence; 6,084 cards keep an editorial estimate. See
+[Vocabulary levels — November 2026](CONTENT-SOURCES.md#vocabulary-levels--november-2026).
+Before the calibration the levels held 1,689 / 1,696 / 3,913 / 3,316 / 5,607 entries.
 
 ## History
 

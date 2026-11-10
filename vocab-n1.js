@@ -73391,7 +73391,7 @@ window.VOCAB_N1 = [
     "meaning": "Ingenieur(in), Techniker(in)",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Oft für IT-Fachleute: システムエンジニア (SE). Förmlicher: 技術者.",
     "examples": [
       {
@@ -75470,7 +75470,7 @@ window.VOCAB_N1 = [
     "meaning": "ein Teil",
     "type": "Nomen",
     "category": "Zahlen",
-    "level": "N1",
+    "level": "N3",
     "notes": "Ein Teil eines Ganzen, etwas betonter als 一部: ほんの一部分にすぎない.",
     "examples": [
       {
@@ -78157,7 +78157,7 @@ window.VOCAB_N1 = [
     "meaning": "niedergeschlagen sein; einbrechen (Geschäft); hineinfallen",
     "type": "Verb",
     "category": "Gefühle",
-    "level": "N1",
+    "level": "N3",
     "notes": "Häufigste Bedeutung: deprimiert sein – 試験に落ちて落ち込んでいる. Auch wirtschaftlich: 売り上げが落ち込む.",
     "examples": [
       {
@@ -79700,7 +79700,7 @@ window.VOCAB_N1 = [
     "meaning": "Umlauf (von Dokumenten)",
     "type": "Nomen",
     "category": "Kommunikation",
-    "level": "N1",
+    "level": "N3",
     "notes": "Ein Schriftstück wird der Reihe nach weitergegeben: 回覧する. Nachbarschaftsmitteilungen gehen per 回覧板 (N4) herum.",
     "examples": [
       {
@@ -83452,7 +83452,7 @@ window.VOCAB_N1 = [
     "meaning": "Musikstück, Lied, Melodie",
     "type": "Nomen",
     "category": "Musik",
-    "level": "N1",
+    "level": "N3",
     "notes": "Ein Musikstück: 好きな曲, 曲を作る (komponieren). Zählwort ebenfalls 曲: 三曲.",
     "examples": [
       {
@@ -85219,7 +85219,7 @@ window.VOCAB_N1 = [
     "meaning": "Kunst, Kunstfertigkeit; Kunststück",
     "type": "Nomen",
     "category": "Kunst",
-    "level": "N1",
+    "level": "N3",
     "notes": "Durch Übung erworbenes Können, besonders in Unterhaltung und darstellender Kunst: 芸を磨く, 犬に芸を教える. Sprichwort: 芸は身を助ける.",
     "examples": [
       {
@@ -85345,7 +85345,7 @@ window.VOCAB_N1 = [
     "meaning": "Hochachtungsvoll (Briefschluss)",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N1",
+    "level": "N3",
     "notes": "Förmliche Schlussformel eines Briefes, passend zur Anrede 拝啓 am Anfang.",
     "examples": [
       {
@@ -85768,7 +85768,7 @@ window.VOCAB_N1 = [
     "meaning": "schwänzen, blaumachen, sich drücken",
     "type": "Verb",
     "category": "Arbeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Umgangssprachliches Godan-Verb, gebildet aus サボ(タージュ) + る: 授業をサボる (den Unterricht schwänzen), 仕事をサボる.",
     "examples": [
       {
@@ -88444,7 +88444,7 @@ window.VOCAB_N1 = [
     "meaning": "Jazz",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Musikrichtung; ジャズ喫茶 sind in Japan Cafés, in denen Jazzplatten gespielt werden.",
     "examples": [
       {
@@ -89348,7 +89348,7 @@ window.VOCAB_N1 = [
     "meaning": "Hauptfigur, Held(in)",
     "type": "Nomen",
     "category": "Kultur",
-    "level": "N1",
+    "level": "N3",
     "notes": "Die Hauptperson einer Geschichte; übertragen: 自分の人生の主人公 (Herr des eigenen Lebens).",
     "examples": [
       {
@@ -92952,7 +92952,7 @@ window.VOCAB_N1 = [
     "meaning": "Vereinte Nationen, UN",
     "type": "Nomen",
     "category": "Politik",
-    "level": "N1",
+    "level": "N3",
     "notes": "Kurzform von 国際連合 (Vereinte Nationen): 国連本部, 国連事務総長 (UN-Generalsekretär).",
     "examples": [
       {
@@ -93692,7 +93692,7 @@ window.VOCAB_N1 = [
     "meaning": "Ecke, Kurve; Abteilung; Rubrik",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N1",
+    "level": "N3",
     "notes": "Kurve (Rennstrecke), Bereich im Geschäft (食品コーナー) oder Rubrik einer Sendung.",
     "examples": [
       {
@@ -93992,7 +93992,7 @@ window.VOCAB_N1 = [
     "meaning": "Kontakt; Kontaktlinse",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N1",
+    "level": "N3",
     "notes": "Kontakt aufnehmen (コンタクトを取る) und kurz für コンタクトレンズ (Kontaktlinse).",
     "examples": [
       {
@@ -94038,7 +94038,7 @@ window.VOCAB_N1 = [
     "meaning": "Wettbewerb",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Wettbewerb mit Bewertung durch eine Jury: 写真コンテスト, スピーチコンテスト.",
     "examples": [
       {
@@ -94512,7 +94512,7 @@ window.VOCAB_N1 = [
     "meaning": "Größe",
     "type": "Nomen",
     "category": "Einkaufen",
-    "level": "N1",
+    "level": "N3",
     "notes": "Größe bei Kleidung, Schuhen und Gegenständen: サイズが合わない, Mサイズ.",
     "examples": [
       {
@@ -94871,7 +94871,7 @@ window.VOCAB_N1 = [
     "meaning": "vorher, zuvor; zuerst",
     "type": "Adverb",
     "category": "Zeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Zeitlich vorher (先に述べたように = wie bereits erwähnt) oder zuerst, vor anderen: お先に失礼します.",
     "examples": [
       {
@@ -95974,7 +95974,7 @@ window.VOCAB_N1 = [
     "meaning": "Untersuchung, Ermittlung; Melodie, Weise",
     "type": "Nomen",
     "category": "Handlung",
-    "level": "N1",
+    "level": "N3",
     "notes": "Substantiv zu 調べる: 警察の調べによると (laut den Ermittlungen der Polizei), 取り調べ (Verhör). Gehoben auch „Melodie, Klang“: ピアノの調べ.",
     "examples": [
       {
@@ -97519,7 +97519,7 @@ window.VOCAB_N1 = [
     "meaning": "Geschwindigkeit, Tempo",
     "type": "Nomen",
     "category": "Verkehr",
-    "level": "N1",
+    "level": "N3",
     "notes": "スピードを出す (schnell fahren), スピードを落とす (abbremsen), スピード違反 (Geschwindigkeitsüberschreitung). Auch übertragen: 仕事のスピード.",
     "examples": [
       {
@@ -99367,7 +99367,7 @@ window.VOCAB_N1 = [
     "meaning": "Gespür, Sinn (für etwas), guter Geschmack",
     "type": "Nomen",
     "category": "Eigenschaften",
-    "level": "N1",
+    "level": "N3",
     "notes": "センスがいい (geschmackvoll, mit Gespür), ユーモアのセンス (Sinn für Humor), ファッションセンス. Nicht „Sinn“ im Sinn von Bedeutung (= 意味). Gleich gelesen wie 扇子 (Fächer).",
     "examples": [
       {
@@ -104059,7 +104059,7 @@ window.VOCAB_N1 = [
     "meaning": "Sehr geehrte(r) … (förmliche Briefanrede)",
     "type": "Ausdruck",
     "category": "Kommunikation",
-    "level": "N1",
+    "level": "N3",
     "notes": "Förmliche Eröffnungsformel eines Briefes; die zugehörige Schlussformel ist 敬具. Danach folgt meist ein jahreszeitlicher Gruß. Nicht verwechseln mit 背景 (Hintergrund), gleiche Lesung.",
     "examples": [
       {
@@ -104725,7 +104725,7 @@ window.VOCAB_N1 = [
     "meaning": "Pachinko (Kugelspielautomat); Steinschleuder",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Pachinko ist ein senkrechtes Kugelspiel an Automaten in Spielhallen (パチンコ店). Daneben die Kinder-Steinschleuder.",
     "examples": [
       {
@@ -111038,7 +111038,7 @@ window.VOCAB_N1 = [
     "meaning": "Menü, Tagesgericht (festes Gericht mit Beilagen)",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N4",
+    "level": "N5",
     "notes": "Festes Gericht mit Reis, Misosuppe und Beilagen, typisch in Kantinen und einfachen Lokalen: 焼き魚定食, 日替わり定食 (Tagesmenü).",
     "examples": [
       {
@@ -111398,7 +111398,7 @@ window.VOCAB_N1 = [
     "meaning": "Design, Gestaltung",
     "type": "Nomen",
     "category": "Kunst",
-    "level": "N3",
+    "level": "N5",
     "notes": "Gestaltung von Produkten, Kleidung oder Grafik; als Verb デザインする. デザイナー = Designer.",
     "examples": [
       {
@@ -114739,7 +114739,7 @@ window.VOCAB_N1 = [
     "meaning": "zu Fuß",
     "type": "Nomen",
     "category": "Verkehr",
-    "level": "N3",
+    "level": "N1",
     "notes": "Förmlich für 歩いて: 駅から徒歩五分 (fünf Minuten zu Fuß vom Bahnhof) – typisch in Wohnungs- und Hotelanzeigen.",
     "examples": [
       {
@@ -116475,7 +116475,7 @@ window.VOCAB_N1 = [
     "meaning": "Geschäft, Business",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "Oft in Zusammensetzungen: ビジネスマン (Geschäftsmann), ビジネスホテル (einfaches Hotel für Geschäftsreisende), ビジネスクラス. Allgemeiner: 仕事, 商売.",
     "examples": [
       {
@@ -117916,7 +117916,7 @@ window.VOCAB_N1 = [
     "meaning": "Kampfgeist; (Anfeuerungsruf) Los, gib alles!",
     "type": "Nomen",
     "category": "Sport",
-    "level": "N1",
+    "level": "N3",
     "notes": "Als Anfeuerungsruf: ファイト！ (Auf geht’s!, Du schaffst das!). ファイトがある = Kampfgeist haben. Auch „Kampf“ im Boxen.",
     "examples": [
       {
@@ -124406,7 +124406,7 @@ window.VOCAB_N1 = [
     "meaning": "Hebel; Joystick",
     "type": "Nomen",
     "category": "Technik",
-    "level": "N1",
+    "level": "N3",
     "notes": "Hebel an Maschinen oder Fahrzeugen: レバーを引く (einen Hebel ziehen). Gleich lautend: レバー (Leber als Speise, z. B. レバニラ炒め).",
     "examples": [
       {
@@ -124448,7 +124448,7 @@ window.VOCAB_N1 = [
     "meaning": "mehrere freie Tage hintereinander, langes Wochenende",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "三連休 (drei freie Tage am Stück), 大型連休 (längere Ferienzeit wie die Golden Week), 連休明け (nach den freien Tagen).",
     "examples": [
       {
@@ -126749,7 +126749,7 @@ window.VOCAB_N1 = [
     "meaning": "Zeichen, Symbol, Logo; markieren",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N1",
+    "level": "N3",
     "notes": "Als Nomen ein Zeichen oder Logo (星のマーク); als Verb マークする: etwas markieren oder anstreichen. Im Sport auch „einen Gegenspieler decken“.",
     "examples": [
       {
@@ -127298,7 +127298,7 @@ window.VOCAB_N1 = [
     "meaning": "Verabredung, Treffen (an einem vereinbarten Ort)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N3",
+    "level": "N1",
     "notes": "Das verabredete Treffen an einem Ort: 待ち合わせ場所 (Treffpunkt), 駅で待ち合わせをする. Verb: 待ち合わせる.",
     "examples": [
       {
@@ -129955,7 +129955,7 @@ window.VOCAB_N1 = [
     "meaning": "Hersteller",
     "type": "Nomen",
     "category": "Wirtschaft",
-    "level": "N3",
+    "level": "N1",
     "notes": "Herstellerfirma, vor allem größere Unternehmen: 自動車メーカー (Autohersteller), 大手メーカー.",
     "examples": [
       {
@@ -131333,7 +131333,7 @@ window.VOCAB_N1 = [
     "meaning": "Samstag (Abkürzung)",
     "type": "Nomen",
     "category": "Zeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "土 ist in Kalendern, Terminlisten und Öffnungszeiten die Kurzform von 土曜日, Samstag. Hinter einem Datum nennt eine Klammer wie （土） den Wochentag; in 土・日 werden Samstag und Sonntag zusammen aufgeführt. Die Kurzform wird ど gelesen, der vollständige Wochentagsname どようび. Das gleich geschriebene Wort 土（つち） für Erde hat hier eine andere Bedeutung und Lesung.",
     "examples": [
       {
@@ -134067,7 +134067,7 @@ window.VOCAB_N1 = [
     "meaning": "einen Orgasmus haben (umgangssprachlich)",
     "type": "Verb",
     "category": "Körper",
-    "level": "N1",
+    "level": "N3",
     "notes": "Umgangssprachliches Verb für „einen Orgasmus haben“, oft in Katakana als イク geschrieben. Es ist ein Ausdruck für intime Gespräche zwischen Erwachsenen; in sachlicher Sprache ist オルガスムに達する eindeutiger. Hier wird ausschließlich いく gelesen. Die Form ゆく gehört nicht zu dieser Bedeutung. Das intransitive Godan-Verb bildet die te-Form いって und die Vergangenheit いった; die Verneinung lautet いかない. Die Bewegungsbedeutung „gehen“ wird auf einer eigenen Karte behandelt.",
     "examples": [
       {
@@ -134345,7 +134345,7 @@ window.VOCAB_N1 = [
     "meaning": "Krabbe (in Speise- und Artnamen)",
     "type": "Nomen",
     "category": "Tiere",
-    "level": "N1",
+    "level": "N3",
     "notes": "Aus dem englischen crab stammendes Nomen für eine Krabbe bzw. ihr Fleisch. Es begegnet im Japanischen besonders als Bestandteil von Speise- oder Artnamen, etwa クラブケーキ „Krabbenküchlein“ und ストーンクラブ „Steinkrabbe“. Das gewöhnliche japanische Wort für das Tier ist かに（蟹）. In solchen zusammengesetzten Bezeichnungen benennt クラブ das Tier oder sein Fleisch. Das gleich geschriebene, aus club stammende Wort für einen Verein, Nachtclub oder Golfschläger gehört zur anderen Karte. Dessen Akzentangabe gilt nicht automatisch für den Krabbensinn.",
     "examples": [
       {
@@ -134402,7 +134402,7 @@ window.VOCAB_N1 = [
     "meaning": "Unglückstag",
     "type": "Nomen",
     "category": "Kultur",
-    "level": "N1",
+    "level": "N2",
     "notes": "悪日 bezeichnet nach traditionellem Kalender oder Volksglauben einen Unglückstag, an dem man wichtige Vorhaben wie Umzug oder Hochzeit meidet; das Gegenteil ist 吉日 „Glückstag“. Neben あくび ist auch die Lesung あくにち gebräuchlich. Das Wort klingt genau wie あくび „Gähnen“ (eigene Karte), was nur der Kontext unterscheidet; heute begegnet es vor allem in Kalender- und Wahrsagetexten.",
     "examples": [
       {
@@ -134824,7 +134824,7 @@ window.VOCAB_N1 = [
     "meaning": "Präzedenzfall, Beispiel (〜したためしがない: es ist noch nie vorgekommen, dass …)",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N1",
+    "level": "N3",
     "notes": "Fast nur in der Wendung Verb in der Vergangenheitsform + ためしがない „es ist noch nie vorgekommen, dass …“, meist leicht vorwurfsvoll und fast immer in Kana geschrieben. Die Lesung れい (例, „Beispiel“) ist das normale Wort für Beispiele (例えば, 例を挙げる). 試し „Versuch, Probe“ (試しに, お試し) ist ein eigenes Wort mit derselben Aussprache.",
     "examples": [
       {
@@ -135781,7 +135781,7 @@ window.VOCAB_N1 = [
     "meaning": "sehr lang und groß, gewaltig, riesig (na-Adj.)",
     "type": "Adjektiv",
     "category": "Eigenschaften",
-    "level": "N1",
+    "level": "N3",
     "notes": "長大 ist ein schriftsprachliches na-Adjektiv, das vor allem große Länge betont: 長大な橋, 長大な小説, 長大な報告書. 巨大 (eigene Karte) meint dagegen allgemein enorme Größe oder Masse. Das gleich gelesene 頂戴 „bekommen; gib mir“ ist ein völlig anderes Wort; in Gesprächen benutzt man statt 長大 meist とても長い oder 大きい.",
     "examples": [
       {
@@ -135916,7 +135916,7 @@ window.VOCAB_N1 = [
     "meaning": "Gesicht, Antlitz (gehoben); Oberfläche (水の面); Maske (Nō)",
     "type": "Nomen",
     "category": "Körper",
-    "level": "N1",
+    "level": "N3",
     "notes": "Gehobene, literarische Lesung von 面 für „Gesicht, Antlitz“ (面を上げる „den Blick heben“, 面を伏せる „das Gesicht senken“), für eine Wasseroberfläche (湖の面) und für die Nō-Maske. Die Karte 面/めん lehrt die übliche On-Lesung („Seite, Aspekt; Fläche“, z. B. この面では); 表/おもて „Vorderseite, draußen“ ist ein anderes Wort. In der Alltagssprache sagt man für „Gesicht“ 顔.",
     "examples": [
       {
@@ -136224,7 +136224,7 @@ window.VOCAB_N1 = [
     "meaning": "Schräge, Diagonale; schräg",
     "type": "Nomen",
     "category": "Art und Weise",
-    "level": "N1",
+    "level": "N2",
     "notes": "斜 „schräg“ ist als selbständiges Wort selten und steht fast nur in festen Wendungen: 斜に切る „schräg schneiden“ (Küche), 斜に構える „eine zynische, distanzierte Haltung einnehmen“ (auch しゃに構える gelesen) und im Kompositum 斜向かい „schräg gegenüber“. Im Alltag sagt man 斜め/ななめ (eigene Karte), z. B. 斜めに切る. Nicht verwechseln mit dem Homophon 蓮 „Lotus“.",
     "examples": [
       {
@@ -136271,7 +136271,7 @@ window.VOCAB_N1 = [
     "meaning": "(Keramik-/Porzellan-)Schale; Zähleinheitswort für Schalen",
     "type": "Nomen",
     "category": "Essen",
-    "level": "N1",
+    "level": "N3",
     "notes": "碗 ist eine Schale aus Keramik oder Porzellan, während 椀 (eigene Karte) eine Holz- oder Lackschale, typischerweise für Suppe, bezeichnet; im Alltag schreibt man oft einfach お椀 oder お碗. Allein ist 碗 selten, man begegnet ihm vor allem in 茶碗 „Reisschale, Teeschale“; in der Teezeremonie zählt es auch Schalen (一碗のお茶). Nicht verwechseln mit dem Homophon 湾 „Bucht“.",
     "examples": [
       {
@@ -136778,7 +136778,7 @@ window.VOCAB_N1 = [
     "meaning": "Erzieherin, Kindergärtnerin (veraltend; heute 保育士)",
     "type": "Nomen",
     "category": "Arbeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "保母 ist die ältere Bezeichnung für eine Erzieherin in Krippe oder Kindergarten; seit 1999 heißt der staatlich anerkannte Beruf geschlechtsneutral 保育士, das man heute verwenden sollte. 保母 begegnet noch in älteren Texten, Erinnerungen und in der Anrede 保母さん. Nicht verwechseln mit dem häufigen Adverb ほぼ „fast, nahezu“ (eigene Karte), das gleich klingt.",
     "examples": [
       {
@@ -136878,7 +136878,7 @@ window.VOCAB_N1 = [
     "meaning": "Klugheit, Intelligenz, natürliche Begabung",
     "type": "Nomen",
     "category": "Abstrakt",
-    "level": "N1",
+    "level": "N3",
     "notes": "利根 ist ein altertümliches Schriftwort für angeborene Klugheit und Auffassungsgabe; als な-Adjektiv bedeutet 利根な „klug, aufgeweckt“. Im heutigen Japanisch sagt man stattdessen 賢い, 利口 oder 聡明. Gleich klingt das häufige 離婚 „Scheidung“ (eigene Karte); außerdem kennt man die Schreibung 利根 vor allem vom Fluss 利根川, der aber とね gelesen wird.",
     "examples": [
       {
@@ -136925,7 +136925,7 @@ window.VOCAB_N1 = [
     "meaning": "nächst-, kommend (Präfix: 明朝, 明年, 明後日); (buddh.) Weisheit (Vidya), Mantra",
     "type": "Partikel",
     "category": "Zeit",
-    "level": "N1",
+    "level": "N3",
     "notes": "明〜 (みょう) ist ein förmliches Präfix „nächst-, kommend“ in Zeitwörtern: 明朝 (みょうちょう), 明年 (みょうねん), 明後日 (みょうごにち), 明日 (みょうにち). Diese Lesungen gehören in Ansagen, Geschäftsbriefe und Nachrichten; im Alltag sagt man あした, あさって, 来年. Im Buddhismus bezeichnet 明 außerdem „Weisheit“ (Vidya) bzw. ein Mantra. Nicht verwechseln mit 妙 (みょう) „seltsam“.",
     "examples": [
       {
@@ -137119,7 +137119,7 @@ window.VOCAB_N1 = [
     "meaning": "Angreifer, angreifende Seite; Angriffsmethode",
     "type": "Nomen",
     "category": "Freizeit",
-    "level": "N1",
+    "level": "N2",
     "notes": "Substantiv zu 攻める „angreifen“ (eigene Karte), v. a. in Sportberichten, Go/Shogi und Kampfsport. Typische Wendungen: 攻め手を欠く „keine Angriffsmittel finden“, 攻め手に回る „in die Offensive gehen“; Gegenteil ist 守り手. Nicht zu verwechseln mit dem gleichlautenden Adverb せめて „wenigstens“, das immer in Kana steht.",
     "examples": [
       {
@@ -137215,7 +137215,7 @@ window.VOCAB_N1 = [
     "meaning": "Drehung, Zwirnung (von Fäden); vgl. よりを戻す (sich wieder versöhnen)",
     "type": "Nomen",
     "category": "Alltag",
-    "level": "N1",
+    "level": "N3",
     "notes": "Substantiv zu 縒る „zwirnen, drehen“; allein v. a. in Handwerk und Textilkunde (縒りが甘い „locker gezwirnt“). Bekannt ist es durch die Wendungen よりを戻す „(mit dem Ex) wieder zusammenkommen“ und 腕によりをかける „sein ganzes Können aufbieten“, die meist in Kana stehen. Nicht verwechseln mit der Vergleichspartikel より „als“.",
     "examples": [
       {
@@ -138076,7 +138076,7 @@ window.VOCAB_N1 = [
     "meaning": "eine Niederlage",
     "type": "Nomen",
     "category": "Sport",
-    "level": "N1",
+    "level": "N3",
     "notes": "一敗 „eine Niederlage“ steht v. a. in Sportbilanzen (三勝一敗, 一勝一敗) und kann mit する als Verb gebraucht werden (一敗する). Nicht verwechseln mit dem gleich klingenden いっぱい „voll, viel“ (eigene Karte); im Schriftbild klärt das Kanji 敗 „verlieren“. Gehoben ist die Wendung 一敗地にまみれる „eine vernichtende Niederlage erleiden“; das allgemeine „Sieg oder Niederlage“ ist 勝敗.",
     "examples": [
       {
@@ -140195,7 +140195,7 @@ window.VOCAB_N1 = [
     "meaning": "gegenüber, in Bezug auf; pro, je (z. B. 一人に対して); im Gegensatz dazu (それに対して)",
     "type": "Ausdruck",
     "category": "Abstrakt",
-    "level": "N1",
+    "level": "N2",
     "notes": "Te-Form von 対する als feste Wendung, fast immer nach に: 先生に対して „gegenüber dem Lehrer“, 学生三人に対して „auf je drei Studenten“, それに対して „demgegenüber“. Vor Nomen steht stattdessen に対する oder に対しての (客に対する態度). Nicht verwechseln mit dem gleich gelesenen Adverb 大して „nicht besonders“, das mit Verneinung steht.",
     "examples": [
       {
