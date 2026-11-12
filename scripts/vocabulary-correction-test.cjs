@@ -141,6 +141,8 @@ const mixed=actual.candidateLedger.find(c=>c.key==='いくら|いくら');
 assert.equal(mixed.state,'accepted');
 assert.deepStrictEqual(mixed.references.map(r=>r.disposition),['verified-spelling-variant','verified-spelling-variant','added']);
 assert.notEqual(mixed.references[0].targets[0],mixed.references[2].targets[0],'Price and food senses collapsed');
-// Dry-run proposals include every expected output; this test never writes them.
-for(const [file,value] of Object.entries(actual.files)) assert.equal(fs.readFileSync(path.join(root,file),'utf8'),value,'Committed output differs: '+file);
+// Dry-run proposals include every expected output; this test never writes them. A Windows checkout
+// (core.autocrlf) may hold them with CRLF line endings, as in build-vocab-runtime.cjs staleFiles.
+const lf=text=>text.replace(/\r\n/g,'\n');
+for(const [file,value] of Object.entries(actual.files)) assert.equal(lf(fs.readFileSync(path.join(root,file),'utf8')),lf(value),'Committed output differs: '+file);
 console.log('Correction regressions passed: complete/incomplete gates, no-change review, collisions, explicit redirects, distinct senses, additions, replaced notes, pitch, conjugation and stale-evidence rejection.');

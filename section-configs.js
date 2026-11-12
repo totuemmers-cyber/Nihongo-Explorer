@@ -470,6 +470,56 @@ function initSelectFilters() {
   }
 }
 
+// === FURIGANA ON EXAMPLE SENTENCES ===
+// Generated from the authored romaji by scripts/furigana.cjs: one reading per kanji run, joined by
+// "|"; an empty slot leaves that run without furigana. Vocabulary examples carry them as
+// example.furigana, all other example sentences in example-furigana.js keyed by sentence.
+// Keep FURIGANA_RUN_RE identical to KANJI_RUN_RE in scripts/furigana.cjs.
+var FURIGANA_RUN_RE = /[㐀-䶿一-鿿豈-﫿々〆〇ヶ]+/g;
+
+function getExampleFurigana(text, own) {
+  if (typeof own === 'string') return own;
+  var layer = window.EXAMPLE_FURIGANA;
+  return layer && Object.prototype.hasOwnProperty.call(layer, text) ? layer[text] : null;
+}
+
+// Text and kanji-run segments with their readings; null when there is nothing to show or the
+// readings do not line up with the sentence (an edited sentence before the next build).
+function getFuriganaSegments(text, furigana) {
+  if (!text || typeof furigana !== 'string') return null;
+  var readings = furigana.split('|');
+  var runs = text.match(FURIGANA_RUN_RE) || [];
+  if (runs.length !== readings.length) return null;
+  var segments = [], last = 0, index = 0, match;
+  FURIGANA_RUN_RE.lastIndex = 0;
+  while ((match = FURIGANA_RUN_RE.exec(text))) {
+    if (match.index > last) segments.push({ text: text.slice(last, match.index) });
+    segments.push({ text: match[0], reading: readings[index++] || '' });
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) segments.push({ text: text.slice(last) });
+  return segments;
+}
+
+// Japanese example text, with <ruby> over each kanji run that has a reading.
+function appendJapaneseExample(parent, className, text, furigana) {
+  var el = appendElement(parent, 'div', className);
+  el.lang = 'ja';
+  var segments = getFuriganaSegments(text, getExampleFurigana(text, furigana));
+  if (!segments) { el.textContent = text; return el; }
+  el.classList.add('has-furigana');
+  segments.forEach(function (segment) {
+    if (!segment.reading) { el.appendChild(document.createTextNode(segment.text)); return; }
+    var ruby = document.createElement('ruby');
+    ruby.appendChild(document.createTextNode(segment.text));
+    var rt = document.createElement('rt');
+    rt.textContent = segment.reading;
+    ruby.appendChild(rt);
+    el.appendChild(ruby);
+  });
+  return el;
+}
+
 function renderExamplesOrEmpty(elementId, examples) {
   var el = document.getElementById(elementId);
   el.textContent = '';
@@ -480,7 +530,7 @@ function renderExamplesOrEmpty(elementId, examples) {
       if (ex.kind === 'teaching' || ex.kind === 'natural') {
         appendElement(item, 'div', 'grammar-example-kind', ex.kind === 'teaching' ? 'Lernbeispiel' : 'Natürlicher Gebrauch');
       }
-      appendElement(item, 'div', 'grammar-example-jp', ex.japanese);
+      appendJapaneseExample(item, 'grammar-example-jp', ex.japanese, ex.furigana);
       appendElement(item, 'div', 'grammar-example-romaji', ex.romaji);
       appendElement(item, 'div', 'grammar-example-german', ex.german);
     }

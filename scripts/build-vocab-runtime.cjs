@@ -1,11 +1,16 @@
-// Bakes the vocabulary the browser needs into two generated files, so the Vokabeln tab no longer
+// Bakes the vocabulary the browser needs into generated files, so the Vokabeln tab no longer
 // downloads the authoring sources (vocab-n*.js, vocab-correction-rules.js, romaji layer: ~47 MB).
 //   vocab-runtime.js          list fields of every merged entry (what app.js hydrate used to compute)
-//   vocab-runtime-details.js  examples and notes per entry, loaded in the background
+//   vocab-runtime-details.js  examples (with furigana) and notes per entry, loaded in the background
+//   example-furigana.js       furigana for the example sentences of grammar, lessons, onomatopoeia
+//                             and counters, keyed by sentence
+// Furigana come from the authored romaji (scripts/furigana.cjs), with readings the vocabulary and
+// kanji data attest; any edit to those sources or to an example sentence needs a rebuild.
 // Usage: node scripts/build-vocab-runtime.cjs [--check]
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const furigana = require('./furigana.cjs');
 const root = path.resolve(__dirname, '..');
 
 const SOURCE_FILES = ['vocab-example-overrides.js', 'vocab-corrections.js', 'vocab-correction-rules.js',
@@ -13,6 +18,10 @@ const SOURCE_FILES = ['vocab-example-overrides.js', 'vocab-corrections.js', 'voc
   'yojijukugo-data.js', 'idioms-data.js'];
 const RUNTIME_FILE = 'vocab-runtime.js';
 const DETAILS_FILE = 'vocab-runtime-details.js';
+const FURIGANA_FILE = 'example-furigana.js';
+const KANJI_FILES = ['kanji-data.js', 'kanji-n1.js'];
+const GRAMMAR_FILES = ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'];
+const LESSONS_FILE = 'grammar-lessons.js';
 const DETAIL_FIELDS = ['examples', 'notes'];
 // Authoring metadata and normalization bookkeeping that nothing reads at runtime.
 const DROPPED_FIELDS = new Set(['correctionId', 'vocabularyBatch', 'editorialBatch', 'vocabularyCompletion',
@@ -73,11 +82,81 @@ function levelNote(card) {
   throw new Error('Unknown level basis ' + card.basis);
 }
 
-function splitItem(item, evidence) {
+// --- Furigana ---------------------------------------------------------------------------------
+
+function runData(readFile, files, seed = {}) {
+  const c = Object.assign({ console }, seed); c.window = c;
+  for (const file of files) vm.runInNewContext(readFile(file), c, { filename: file });
+  return c;
+}
+
+// The lesson module waits for DOMContentLoaded before rendering (as in scripts/audit-content.cjs).
+function lessonExamples(readFile) {
+  const lessons = runData(readFile, GRAMMAR_FILES.concat(LESSONS_FILE),
+    { document: { readyState: 'loading', addEventListener() {} } }).GRAMMAR_LESSONS;
+  if (!Array.isArray(lessons) || !lessons.length) throw new Error(LESSONS_FILE + ': no lessons');
+  const examples = [];
+  for (const lesson of lessons) for (const section of lesson.sections || []) {
+    for (const ex of section.examples || []) examples.push({ japanese: ex.jp, romaji: ex.romaji });
+  }
+  return examples;
+}
+
+function createFurigana(items, readFile) {
+  const kanji = runData(readFile, KANJI_FILES);
+  const kanjiEntries = [].concat(kanji.KANJI_DATA || [], kanji.KANJI_N1_DATA || []);
+  const pairs = [];
+  for (const item of items) {
+    pairs.push({ word: item.word, reading: item.reading });
+    for (const alias of item.aliases || []) pairs.push({ word: alias, reading: item.reading });
+  }
+  for (const entry of kanjiEntries) for (const ex of entry.examples || []) pairs.push({ word: ex.word, reading: ex.reading });
+  const aligner = furigana.createAligner(furigana.buildReadingIndex({ pairs, kanji: kanjiEntries }));
+  // One reading per kanji run, joined by |; an empty slot leaves that run without furigana.
+  return example => {
+    if (!example || typeof example.japanese !== 'string' || typeof example.romaji !== 'string') return null;
+    const result = aligner.align(example.japanese, example.romaji);
+    if (!result.readings || !result.readings.some(Boolean)) return null;
+    return result.readings.map(r => r || '').join('|');
+  };
+}
+
+function withFurigana(examples, furiganaFor) {
+  if (!Array.isArray(examples)) return examples;
+  return examples.map(example => {
+    const text = furiganaFor(example);
+    return text ? Object.assign({}, example, { furigana: text }) : example;
+  });
+}
+
+// Sentences outside the vocabulary, keyed by their Japanese text. A sentence that occurs twice
+// with differently aligned furigana is left out.
+function exampleFuriganaLayer(readFile, furiganaFor) {
+  const grammar = runData(readFile, GRAMMAR_FILES).GRAMMAR_DATA || [];
+  const onomatopoeia = runData(readFile, ['onomatopoeia-data.js']).ONOMATOPOEIA_DATA || [];
+  const counters = (runData(readFile, ['counters-data.js']).COUNTERS_DATA || {}).counters || [];
+  const examples = [].concat(
+    ...grammar.map(g => g.examples || []),
+    ...onomatopoeia.map(o => o.examples || []),
+    ...counters.map(c => c.examples || []),
+    lessonExamples(readFile));
+  const layer = new Map(), conflicts = new Set();
+  for (const example of examples) {
+    const text = furiganaFor(example);
+    if (!text) continue;
+    if (layer.has(example.japanese) && layer.get(example.japanese) !== text) conflicts.add(example.japanese);
+    layer.set(example.japanese, text);
+  }
+  for (const key of conflicts) layer.delete(key);
+  return [...layer.entries()].sort((a, b) => (a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0));
+}
+
+function splitItem(item, evidence, furiganaFor) {
   const core = {}, details = {};
   for (const key of Object.keys(item)) {
     if (DROPPED_FIELDS.has(key) || item[key] === undefined) continue;
-    if (DETAIL_FIELDS.includes(key)) details[key] = item[key];
+    if (key === 'examples') details.examples = withFurigana(item.examples, furiganaFor);
+    else if (DETAIL_FIELDS.includes(key)) details[key] = item[key];
     else core[key] = key === 'pitchProvenance' ? runtimePitchProvenance(item) : item[key];
   }
   const card = evidence.get(item.id);
@@ -94,12 +173,18 @@ function lines(values) {
 function buildVocabRuntime(readFile = file => fs.readFileSync(path.join(root, file), 'utf8')) {
   const { items, completionRedirects } = loadMergedVocabulary(readFile);
   const evidence = loadLevelEvidence(readFile);
-  const parts = items.map(item => splitItem(item, evidence));
+  const furiganaFor = createFurigana(items, readFile);
+  const parts = items.map(item => splitItem(item, evidence, furiganaFor));
+  const layer = exampleFuriganaLayer(readFile, furiganaFor);
   return {
     [RUNTIME_FILE]: HEADER + 'window.VOCAB_RUNTIME = {\n"completionRedirects": ' + JSON.stringify(completionRedirects) +
       ',\n"items": [\n' + lines(parts.map(p => p.core)) + '\n]};\n',
-    [DETAILS_FILE]: HEADER + '// Entries align by index with VOCAB_RUNTIME.items.\nwindow.VOCAB_RUNTIME_DETAILS = [\n' +
-      lines(parts.map(p => p.details)) + '\n];\n'
+    [DETAILS_FILE]: HEADER + '// Entries align by index with VOCAB_RUNTIME.items. An example\'s furigana lists one reading per\n' +
+      '// kanji run, joined by |; an empty slot means none (see scripts/furigana.cjs).\nwindow.VOCAB_RUNTIME_DETAILS = [\n' +
+      lines(parts.map(p => p.details)) + '\n];\n',
+    [FURIGANA_FILE]: HEADER + '// Furigana for grammar, lesson, onomatopoeia and counter example sentences, keyed by sentence;\n' +
+      '// one reading per kanji run, joined by |; an empty slot means none (see scripts/furigana.cjs).\nwindow.EXAMPLE_FURIGANA = {\n' +
+      layer.map(([key, value]) => JSON.stringify(key) + ': ' + JSON.stringify(value)).join(',\n') + '\n};\n'
   };
 }
 
@@ -124,7 +209,8 @@ function main(args) {
     const files = buildVocabRuntime();
     const stale = staleFiles(files);
     if (stale.length) {
-      console.error('Stale generated vocabulary runtime: ' + stale.join(', ') + '. Run npm run build:vocab-runtime.');
+      console.error('Stale generated runtime: ' + stale.join(', ') + '. Run npm run build:vocab-runtime ' +
+        '(also after editing example sentences of grammar, lessons, onomatopoeia or counters).');
       process.exit(1);
     }
     console.log('Vocabulary runtime is up to date (' + Object.keys(files).join(', ') + ').');
@@ -135,4 +221,4 @@ function main(args) {
 }
 
 if (require.main === module) main(process.argv.slice(2));
-module.exports = { SOURCE_FILES, RUNTIME_FILE, DETAILS_FILE, buildVocabRuntime, writeVocabRuntime, loadMergedVocabulary };
+module.exports = { SOURCE_FILES, RUNTIME_FILE, DETAILS_FILE, FURIGANA_FILE, buildVocabRuntime, writeVocabRuntime, loadMergedVocabulary };

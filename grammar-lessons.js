@@ -7673,6 +7673,20 @@
   // === RENDERING & UI LOGIC ===
   // =====================================================
 
+  function escapeLessonText(text) {
+    return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  // Example sentence with furigana from example-furigana.js (see appendJapaneseExample in section-configs.js).
+  function lessonJapaneseHtml(text) {
+    var segments = typeof getFuriganaSegments === 'function' ? getFuriganaSegments(text, getExampleFurigana(text)) : null;
+    if (!segments) return '<div class="gl-example-jp" lang="ja">' + text + '</div>';
+    return '<div class="gl-example-jp has-furigana" lang="ja">' + segments.map(function (segment) {
+      var base = escapeLessonText(segment.text);
+      return segment.reading ? '<ruby>' + base + '<rt>' + escapeLessonText(segment.reading) + '</rt></ruby>' : base;
+    }).join('') + '</div>';
+  }
+
   function renderLessonContent(lesson) {
     var html = '<div class="gl-intro">' + lesson.intro + '</div>';
     if (lesson.grammarIds && lesson.grammarIds.length) {
@@ -7694,7 +7708,7 @@
         html += '<div class="gl-examples">';
         sec.examples.forEach(function (ex) {
           html += '<div class="gl-example">';
-          html += '<div class="gl-example-jp">' + ex.jp + '</div>';
+          html += lessonJapaneseHtml(ex.jp);
           if (ex.romaji) {
             html += '<div class="gl-example-romaji">' + ex.romaji + '</div>';
           }

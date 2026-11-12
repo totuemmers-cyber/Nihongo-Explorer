@@ -1,8 +1,8 @@
 # Verification commands
 
 `npm run check:full` runs the complete suite with up to three parallel workers.
-It runs the 21 regular check groups plus three full-suite groups, including a short
-regression test for the runner itself, for 24 groups total. Each group reports its elapsed time and the
+It runs the 22 regular check groups plus three full-suite groups, including a short
+regression test for the runner itself, for 25 groups total. Each group reports its elapsed time and the
 runner reports the total. A failed group returns a nonzero exit code and prints
 its diagnostics; other groups finish so all failures can be addressed together.
 
@@ -25,7 +25,7 @@ also require `test:vocabulary-completion`. These are examples, not automatic
 dependency detection. Select additional checks when the change reaches other
 features. Focused verification cannot substitute for a checkpoint's full suite.
 
-Use `npm run check` for the 21 regular groups, or set concurrency explicitly:
+Use `npm run check` for the 22 regular groups, or set concurrency explicitly:
 
 ```sh
 npm run check:full -- --jobs=1

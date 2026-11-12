@@ -17,6 +17,7 @@ const CHECKS = Object.freeze([
   'test:audio',
   'test:vocabulary-triage',
   'test:romaji',
+  'test:furigana',
   'audit:data',
   'audit:verbs',
   'audit:quiz',

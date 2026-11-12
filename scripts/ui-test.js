@@ -199,8 +199,40 @@ async function run() {
     assert.equal(w.Lessons.selected, 'lesson-n1-pretext');
     assert.equal(w.scrollY, 420);
     assert.equal(d.getElementById('gl-search').value, 'Vorwand');
+    // Lesson and grammar examples take furigana from example-furigana.js.
+    assert(d.querySelector('#lesson-reader .gl-example-jp.has-furigana ruby rt'), 'Lesson example without furigana');
+    const grammarWithFurigana = app.sections.grammar.allItems.find(g => g.examples.some(ex => w.EXAMPLE_FURIGANA[ex.japanese]));
+    app.sections.grammar.config.openDetail(grammarWithFurigana, app.sections.grammar.dom, app.sections.grammar);
+    assert(d.querySelector('#grammar-detail-examples .grammar-example-jp.has-furigana rt'), 'Grammar example without furigana');
 
     app.switchTab('vocab');
+    await app.ensureVocabDetailsLoaded();
+    const parcel = vocab.allItems.find(v => v.word === '届く');
+    vocab.config.openDetail(parcel, vocab.dom, vocab);
+    const parcelExample = d.querySelector('#vocab-detail-examples .grammar-example-jp.has-furigana');
+    assert(parcelExample, 'Vocabulary example without furigana');
+    const baseText = parcelExample.cloneNode(true);
+    baseText.querySelectorAll('rt').forEach(rt => rt.remove());
+    assert.equal(baseText.textContent, parcel.examples[0].japanese, 'Ruby changed the sentence text');
+    assert.deepEqual([...parcelExample.querySelectorAll('ruby')].map(r => r.firstChild.textContent + ':' + r.querySelector('rt').textContent),
+      parcel.examples[0].furigana.split('|').map((reading, i) => parcel.examples[0].japanese.match(/[㐀-䶿一-鿿豈-﫿々〆〇ヶ]+/g)[i] + ':' + reading));
+    assert.equal(parcelExample.lang, 'ja');
+    // Readings that no longer line up with an edited sentence show the plain sentence.
+    assert.equal(w.getFuriganaSegments('日本語', 'に|ほん'), null);
+    const romajiLine = d.querySelector('#vocab-detail-examples .grammar-example-romaji');
+    for (const aid of ['furigana', 'romaji']) {
+      const toggle = d.getElementById(aid + '-toggle');
+      assert.equal(toggle.getAttribute('aria-pressed'), 'true');
+      toggle.click();
+      assert.equal(d.documentElement.getAttribute('data-' + aid), 'off');
+      assert.equal(toggle.getAttribute('aria-pressed'), 'false');
+      assert.equal(toggle.querySelector('.sound-state').textContent, 'Aus');
+      assert.equal(w.localStorage.getItem('nihongo-example-' + aid), 'off');
+      toggle.click();
+      assert.equal(d.documentElement.getAttribute('data-' + aid), null);
+      assert.equal(w.localStorage.getItem('nihongo-example-' + aid), 'on');
+    }
+    assert(romajiLine.isConnected, 'Toggling a reading aid re-rendered the examples');
     const conjugationFixtures = [
       ['愛する', 'potential', 'あいせる'], ['問う', 'te', 'とうて'],
       ['発表', 'polite', 'はっぴょうします'], ['揺する', 'polite', 'ゆすります'],

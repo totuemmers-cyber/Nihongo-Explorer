@@ -19,6 +19,13 @@ function assert(condition, message) {
   }
 }
 
+// Example sentences carry furigana as <ruby>; compare against the sentence text without readings.
+function textWithoutFurigana(element) {
+  const copy = element.cloneNode(true);
+  copy.querySelectorAll('rt').forEach(function (rt) { rt.remove(); });
+  return copy.textContent;
+}
+
 function waitFor(predicate, options) {
   const timeoutMs = (options && options.timeoutMs) || 12000;
   const intervalMs = (options && options.intervalMs) || 25;
@@ -248,9 +255,10 @@ async function run() {
 
   window.__NIHONGO_TEST_BLOCK_SCRIPTS = ['grammar-lessons.js'];
   click(document.querySelector('#grammar-view-toggle [data-view="lessons"]'), window);
+  // The error box stays in the DOM (hidden) after earlier retries, so wait until it is shown again.
   await waitFor(function () {
     const error = document.querySelector('#grammar-tab .section-error');
-    return error && error.textContent.indexOf('Erneut versuchen') !== -1;
+    return error && !error.classList.contains('hidden') && error.textContent.indexOf('Erneut versuchen') !== -1;
   }, { description: 'grammar lessons failure UI' });
   await waitFor(function () {
     return window.__grammarLessonsInitialized !== true;
@@ -328,7 +336,7 @@ async function run() {
   vocab.openDetail(vocab.filteredItems.findIndex(function (v) { return v.word === '条件'; }));
   assert(!document.getElementById('vocab-detail-notes-section').classList.contains('hidden'), 'Usage notes are hidden');
   assert(document.getElementById('vocab-detail-notes').textContent.includes('Voraussetzung'), 'Wrong vocabulary usage note');
-  assert(document.getElementById('vocab-detail-examples').textContent.includes('家賃'), 'New vocabulary example missing');
+  assert(textWithoutFurigana(document.getElementById('vocab-detail-examples')).includes('家賃'), 'New vocabulary example missing');
   vocab.closeDetail();
 
   // New vocabulary supports search, examples, bookmarks and corrected level filters.
@@ -339,7 +347,7 @@ async function run() {
   assert(calendarIndex >= 0, 'New beginner vocabulary is missing from German search');
   const calendar = vocab.filteredItems[calendarIndex];
   vocab.openDetail(calendarIndex);
-  assert(document.getElementById('vocab-detail-examples').textContent.includes('休みの日'), 'Second new example missing');
+  assert(textWithoutFurigana(document.getElementById('vocab-detail-examples')).includes('休みの日'), 'Second new example missing');
   assert(Number.isInteger(calendar.pitch) && !document.getElementById('vocab-detail-pitch').classList.contains('hidden'), 'Reviewed calendar accent is missing');
   window.toggleBookmark('vocab', calendar.id);
   vocab.closeDetail();

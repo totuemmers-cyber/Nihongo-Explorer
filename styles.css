@@ -311,6 +311,13 @@ kbd { font: 12px var(--font); background: var(--bg); border: 1px solid var(--bor
 .gl-example { padding: 20px; background: var(--bg); border-radius: 8px; }
 .gl-example-jp { font: 18px/1.9 var(--font-jp); }
 .gl-example-romaji { font-size: 14px; color: var(--text-secondary); margin: 8px 0; }
+/* Furigana on example sentences; the sidebar toggles hide them or the romaji line. */
+.grammar-example-jp.has-furigana, .gl-example-jp.has-furigana { line-height: 2.5; }
+.has-furigana ruby { ruby-align: center; } /* a long reading must not spread 東京 into 東 京 */
+.has-furigana rt { font-size: .5em; color: var(--text-secondary); }
+:root[data-furigana="off"] .grammar-example-jp.has-furigana, :root[data-furigana="off"] .gl-example-jp.has-furigana { line-height: 1.9; }
+:root[data-furigana="off"] .has-furigana rt { display: none; }
+:root[data-romaji="off"] .grammar-example-romaji, :root[data-romaji="off"] .gl-example-romaji { display: none; }
 .gl-tip { display: flex; align-items: flex-start; gap: 12px; padding: 16px; background: var(--accent-bg); border-radius: 8px; margin-top: 20px; }
 .gl-tip svg { flex: 0 0 16px; margin-top: 5px; }
 .lesson-table-region { overflow-x: auto; max-width: 100%; }

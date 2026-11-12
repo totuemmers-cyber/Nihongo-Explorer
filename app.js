@@ -300,6 +300,7 @@
     },
     grammar: {
       scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
+      optional: ['example-furigana.js'],
       message: 'Lade Grammatik-Daten...',
       hydrate: function () {
         var items = window.GRAMMAR_DATA || [];
@@ -319,6 +320,7 @@
     },
     onomatopoeia: {
       scripts: ['onomatopoeia-data.js'],
+      optional: ['example-furigana.js'],
       message: 'Lade Lautmalerei-Daten...',
       hydrate: function () {
         var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
@@ -330,6 +332,7 @@
     },
     counters: {
       scripts: ['counters-data.js'],
+      optional: ['example-furigana.js'],
       message: 'Lade Zählwort-Daten...',
       hydrate: function () {
         var counters = window.COUNTERS_DATA && window.COUNTERS_DATA.counters ? window.COUNTERS_DATA.counters : [];
@@ -470,6 +473,13 @@
     return Promise.all(sources.map(loadScript));
   }
 
+  // Enhancements such as example furigana: a failed load leaves the section usable without them.
+  function loadOptionalScripts(sources) {
+    return Promise.all((sources || []).map(function (src) {
+      return loadScript(src).catch(function () {});
+    }));
+  }
+
   function ensureSectionLoaded(name) {
     if (name === 'quiz') return ensureQuizDataLoaded();
 
@@ -483,7 +493,7 @@
     section.isLoading = true;
     setLoadingVisible(name, true, loader.message);
 
-    section._loadPromise = loadScripts(loader.scripts)
+    section._loadPromise = Promise.all([loadScripts(loader.scripts), loadOptionalScripts(loader.optional)])
       .then(function () {
         loader.hydrate();
         clearSectionError(name);
@@ -570,7 +580,7 @@
 
     clearSectionError('grammar');
     setLoadingVisible('grammar', true, 'Lade Grammatik-Lektionen...');
-    grammarLessonsPromise = loadScript('grammar-lessons.js')
+    grammarLessonsPromise = Promise.all([loadOptionalScripts(['example-furigana.js']), loadScript('grammar-lessons.js')])
       .then(function () {
         clearSectionError('grammar');
       })
@@ -808,6 +818,32 @@
       if (soundEnabled) playPop();
     });
   }
+
+  // === READING AIDS FOR EXAMPLE SENTENCES ===
+  // Furigana and the romaji line can each be hidden; CSS reads data-furigana / data-romaji on <html>.
+  function applyReadingAid(aid, enabled) {
+    if (enabled) document.documentElement.removeAttribute('data-' + aid);
+    else document.documentElement.setAttribute('data-' + aid, 'off');
+    var btn = document.getElementById(aid + '-toggle');
+    if (!btn) return;
+    btn.classList.toggle('active', enabled);
+    btn.setAttribute('aria-pressed', String(enabled));
+    var state = btn.querySelector('.sound-state');
+    if (state) state.textContent = enabled ? 'An' : 'Aus';
+  }
+
+  ['furigana', 'romaji'].forEach(function (aid) {
+    var key = 'nihongo-example-' + aid;
+    applyReadingAid(aid, window.NIHONGO_STORAGE.local.get(key, 'on') !== 'off');
+    var btn = document.getElementById(aid + '-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      var enabled = document.documentElement.getAttribute('data-' + aid) === 'off';
+      window.NIHONGO_STORAGE.local.set(key, enabled ? 'on' : 'off');
+      applyReadingAid(aid, enabled);
+      playTick();
+    });
+  });
 
   // === RANDOM BUTTON (data-driven) ===
   randomBtn.addEventListener('click', function () {
