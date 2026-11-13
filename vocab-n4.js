@@ -41519,7 +41519,7 @@ window.VOCAB_N4 = [
     "type": "Partikel",
     "category": "Grammatik",
     "level": "N4",
-    "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“ (vocab-n5:1195).",
+    "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“.",
     "examples": [
       {
         "japanese": "雨が降っても、試合は行われる。",

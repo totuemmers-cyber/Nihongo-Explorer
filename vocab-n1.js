@@ -132204,7 +132204,7 @@ window.VOCAB_N1 = [
     "type": "Verb",
     "category": "Zeit",
     "level": "N1",
-    "notes": "来る／来たる mit der Lesung きたる wirkt in Ankündigungen und feierlichen Aussagen gehoben. Vor einem Datum bedeutet 来たる „kommend“: 来たる五月. Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“. Diese Lesung folgt der Godan-Beugung: きたります, きたった. Sie gehört nicht zur unregelmäßigen Beugung von 来る／くる mit きます und きた.",
+    "notes": "来る／来たる mit der Lesung きたる wirkt in Ankündigungen und feierlichen Aussagen gehoben. Vor einem Datum bedeutet 来たる „kommend“: 来たる五月. Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“; üblich ist dabei fast nur die Grundform, etwa in Titeln und feierlicher Erzählung. Diese Lesung folgt der Godan-Beugung (きたります, きたった), gebeugte Formen sind heute aber selten. Sie gehört nicht zur unregelmäßigen Beugung von 来る／くる mit きます und きた.",
     "examples": [
       {
         "japanese": "来たる五月十日に、記念式典を開きます。",
@@ -132212,9 +132212,9 @@ window.VOCAB_N1 = [
         "german": "Am kommenden 10. Mai veranstalten wir eine Gedenkfeier."
       },
       {
-        "japanese": "長い冬が終わり、ようやく春が来たった。",
-        "romaji": "Nagai fuyu ga owari, yōyaku haru ga kitatta.",
-        "german": "Der lange Winter ging zu Ende, und endlich hielt der Frühling Einzug."
+        "japanese": "長い冬が終わり、待ちに待った春が来たる。",
+        "romaji": "Nagai fuyu ga owari, machi ni matta haru ga kitaru.",
+        "german": "Der lange Winter geht zu Ende, und der lang ersehnte Frühling hält Einzug."
       }
     ],
     "aliases": [
@@ -136416,7 +136416,7 @@ window.VOCAB_N1 = [
     "type": "Verb",
     "category": "Bewegung",
     "level": "N1",
-    "notes": "Godan-Verb, fast immer in Kana geschrieben: 弾が腕をかする „die Kugel streift den Arm“; verneint oft かすりもしない „nicht einmal in die Nähe kommen“. Nicht verwechseln mit 擦る/する „reiben“ (vocab-n2:2006), das dieselben Kanji hat, und mit 化する/かする „sich verwandeln“ (anderes Wort, Suru-Verb). Die Bedeutung „abschöpfen, einen Anteil einstreichen“ ist umgangssprachlich und abwertend.",
+    "notes": "Godan-Verb, fast immer in Kana geschrieben: 弾が腕をかする „die Kugel streift den Arm“; verneint oft かすりもしない „nicht einmal in die Nähe kommen“. Nicht verwechseln mit 擦る/する „reiben“, das dieselben Kanji hat, und mit 化する/かする „sich verwandeln“ (anderes Wort, Suru-Verb). Die Bedeutung „abschöpfen, einen Anteil einstreichen“ ist umgangssprachlich und abwertend.",
     "examples": [
       {
         "japanese": "弾が腕をかすっただけで、大きなけがはなかった。",
@@ -136479,7 +136479,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Menschen",
     "level": "N1",
-    "notes": "Japanische Lesung von 敵 für einen persönlichen Feind oder Rivalen, vor allem in festen Wendungen: 目の敵にする „jemanden auf dem Kieker haben“, 敵を討つ „Rache nehmen“, 商売敵 „Geschäftskonkurrent“, 恋敵 „Nebenbuhler“ (in Komposita stimmhaft がたき). Für Rache wird oft 仇 geschrieben (仇討ち). Der allgemeine Feind im Krieg oder Gegner im Sport ist 敵/てき (vocab-n2:116).",
+    "notes": "Japanische Lesung von 敵 für einen persönlichen Feind oder Rivalen, vor allem in festen Wendungen: 目の敵にする „jemanden auf dem Kieker haben“, 敵を討つ „Rache nehmen“, 商売敵 „Geschäftskonkurrent“, 恋敵 „Nebenbuhler“ (in Komposita stimmhaft がたき). Für Rache wird oft 仇 geschrieben (仇討ち). Der allgemeine Feind im Krieg oder Gegner im Sport ist 敵/てき.",
     "examples": [
       {
         "japanese": "部長はなぜか私を目の敵にしている。",
@@ -136529,7 +136529,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Geographie",
     "level": "N1",
-    "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう (vocab-n2:25), etwa 国境を越える „die Staatsgrenze überqueren“.",
+    "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう, etwa 国境を越える „die Staatsgrenze überqueren“.",
     "examples": [
       {
         "japanese": "国境の長いトンネルを抜けると雪国であった。",
@@ -136627,7 +136627,7 @@ window.VOCAB_N1 = [
     "type": "Verb",
     "category": "Abstrakt",
     "level": "N1",
-    "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“ (vocab-n2:1848).",
+    "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“.",
     "examples": [
       {
         "japanese": "現実に即した計画を立てるべきだ。",
@@ -138597,7 +138597,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Alltag",
     "level": "N1",
-    "notes": "金棒 „Eisenstange, eiserne Keule“ kennt man vor allem als Waffe der Oni und aus der Redensart 鬼に金棒 „wie ein Oni mit Eisenkeule“, d. h. „noch stärker, praktisch unschlagbar“. Die seltene Schreibung 鉄棒 ist hier als Alias geführt; normal gelesen bedeutet 鉄棒/てつぼう aber „Reck“ (eigene Karte). Für eine gewöhnliche Brechstange sagt man heute eher バール.",
+    "notes": "金棒 „Eisenstange, eiserne Keule“ kennt man vor allem als Waffe der Oni und aus der Redensart 鬼に金棒 „wie ein Oni mit Eisenkeule“, d. h. „noch stärker, praktisch unschlagbar“. Selten wird das Wort auch 鉄棒 geschrieben; normal gelesen bedeutet 鉄棒/てつぼう aber „Reck“ (eigene Karte). Für eine gewöhnliche Brechstange sagt man heute eher バール.",
     "examples": [
       {
         "japanese": "経験豊富な彼がチームに加われば、まさに鬼に金棒だ。",
@@ -142768,7 +142768,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Gefühle",
     "level": "N1",
-    "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 (vocab-n3:269) oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句.",
+    "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句.",
     "examples": [
       {
         "japanese": "彼は朝早く起きるのを苦にしない。",
@@ -142815,7 +142815,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Gesellschaft",
     "level": "N1",
-    "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, vocab-n3:1777, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“.",
+    "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“.",
     "examples": [
       {
         "japanese": "豊臣秀吉はついに天下を取った。",
@@ -142909,7 +142909,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Politik",
     "level": "N1",
-    "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する (vocab-n3:1785 採決); ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen.",
+    "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する; ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen.",
     "examples": [
       {
         "japanese": "議長は法案について決を採った。",
@@ -142956,7 +142956,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Eigenschaften",
     "level": "N1",
-    "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら (vocab-n1:3050) ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend.",
+    "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend.",
     "examples": [
       {
         "japanese": "壁のペンキの塗り方にむらがある。",
@@ -143006,7 +143006,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Natur",
     "level": "N1",
-    "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育 (vocab-n1:correction:seiiku), das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長 (vocab-n2:149).",
+    "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育, das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長.",
     "examples": [
       {
         "japanese": "稚魚は暖かい海で順調に成育している。",
@@ -143053,7 +143053,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Alltag",
     "level": "N1",
-    "notes": "Neutrales Grundwort zu お手数 (vocab-n3:1432), das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“.",
+    "notes": "Neutrales Grundwort zu お手数, das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“.",
     "examples": [
       {
         "japanese": "この書類の手続きは意外と手数がかかる。",
@@ -143133,7 +143133,7 @@ window.VOCAB_N1 = [
     "type": "Adjektiv",
     "category": "Eigenschaften",
     "level": "N1",
-    "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい (vocab-n5:71). Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt.",
+    "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい. Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt.",
     "examples": [
       {
         "japanese": "終わり良ければすべて良し。",
@@ -143234,7 +143234,7 @@ window.VOCAB_N1 = [
     "type": "Adverb",
     "category": "Lautmalerei",
     "level": "N1",
-    "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ (vocab-n4:1251), das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen.",
+    "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ, das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen.",
     "examples": [
       {
         "japanese": "試合は最後までハラハラさせられた。",
@@ -143284,7 +143284,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Technik",
     "level": "N1",
-    "notes": "Vollform von マイク (vocab-n3:3350); im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied.",
+    "notes": "Vollform von マイク; im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied.",
     "examples": [
       {
         "japanese": "会議室の天井にマイクロフォンが設置されている。",
@@ -143317,7 +143317,7 @@ window.VOCAB_N1 = [
     "type": "Nomen",
     "category": "Finanzen",
     "level": "N1",
-    "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫 (vocab-n3:2721); die Lesung きんぞう ist veraltet.",
+    "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫; die Lesung きんぞう ist veraltet.",
     "examples": [
       {
         "japanese": "昔の大きな商家には立派な金蔵があった。",

@@ -1,0 +1,915 @@
+{
+  "version": 3,
+  "reviews": [],
+  "decisions": [
+    {
+      "key": "歩|ほ",
+      "referenceIndex": 0,
+      "referenceHash": "2c986db26bc78fa8ed84cbe952546e831131351f91ded87a996cdc4aac0f3b55",
+      "revisionId": "text-2026-11-reference-歩|ほ-0",
+      "state": "accepted",
+      "predecessorHash": "df28bb1b6c623bb177413ea71bf4752a85d9dc8a22f96e0d13124ddd8a1f93a6",
+      "predecessorRevisionHash": "412bfeaa2fd58f3c1f656f17d7097aec83eb91060360efe0b722ab0f04ca2721",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:ho-step"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ho-step": "2799cf62bec18cf427e705946f20119e7446a68e1f9556d5b3ee7e7b8206c17d"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n2:correction:ho-step). Original reason: Source 歩/ほ (step; stride) is JMdict 1514300 歩【ほ】, a noun and counter for steps. The only card with reading ほ is 穂 (ear of grain), and no card has the bare spelling 歩. 一歩/いっぽ (vocab-n5:1032) is a compound, not this word. A new card is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 2c986db26bc78fa8ed84cbe952546e831131351f91ded87a996cdc4aac0f3b55",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "歩/ほ glossed \"step; stride; compteur pour les pas\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1514300; 歩/ほ",
+          "finding": "n step; stride; ctr for steps"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n2:correction:ho-step",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n2:correction:ho-step); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "93ec6f7249897ba8999f0a4248aae092035db32c3658a8e17163824ae6b2ca31",
+        "approvalHash": "93ec6f7249897ba8999f0a4248aae092035db32c3658a8e17163824ae6b2ca31"
+      }
+    },
+    {
+      "key": "毎|まい",
+      "referenceIndex": 0,
+      "referenceHash": "bbf91f0d87bae3a2bd958022b54d1f52c340a29ab38455c98c9a41ac085cd49b",
+      "revisionId": "text-2026-11-reference-毎|まい-0",
+      "state": "accepted",
+      "predecessorHash": "31409f06366715e9d6a907243e44a1c2f91589848c88bc68434da48421e7630d",
+      "predecessorRevisionHash": "46c65982b38c843fcee76e13d110ff23dc019c64e082ceb6ce434caa5192d2b0",
+      "disposition": "added",
+      "targets": [
+        "vocab-n2:correction:mai-every-prefix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:mai-every-prefix": "0151475b55337919343a0f0e09d08731332305cf7b36d60e1904654512ebcd63"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n2:correction:mai-every-prefix). Original reason: Source 毎/まい (every; each) is JMdict 1524650 毎【まい】 pref. The only card with reading まい is 枚 (flat-object counter), and no card has spelling 毎 or 毎〜. A new prefix card is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 bbf91f0d87bae3a2bd958022b54d1f52c340a29ab38455c98c9a41ac085cd49b",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "毎/まい glossed \"every (usu. with events, e.g. every weekend); each; chaque\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1524650; 毎/まい",
+          "finding": "pref every; each"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n2:correction:mai-every-prefix",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n2:correction:mai-every-prefix); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "ce0a24dad6ea50b480cd7d7b0a2e9ba3c8dba3a836fb9eea2e53b81d72545d0f",
+        "approvalHash": "ce0a24dad6ea50b480cd7d7b0a2e9ba3c8dba3a836fb9eea2e53b81d72545d0f"
+      }
+    },
+    {
+      "key": "力|りょく",
+      "referenceIndex": 0,
+      "referenceHash": "06bb91709dcce57b9f97b73171bce6fb0be09cb04f565daa8751766a4b28a8c5",
+      "revisionId": "text-2026-11-reference-力|りょく-0",
+      "state": "accepted",
+      "predecessorHash": "a305964b227ab26b2c375910d5f061c556f4f1b853614b7c756fb16e9dc2a534",
+      "predecessorRevisionHash": "b48d1072a21dc350935346bec6472951c4eec139bfa34ad696535b448314bbf4",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n2:correction:ryoku-power-suffix"
+      ],
+      "targetHashes": {
+        "vocab-n2:correction:ryoku-power-suffix": "27dd0f9592618684a29f4d7f046b466126e48b7838503adbcf2d84001e7647cf"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n2:correction:ryoku-power-suffix). Original reason: Source 力/りょく (strength; power) is JMdict 1554840 力【りょく】, a suffix. The spelling 力 exists as card vocab-n4:1398 with reading ちから, a different entry and reading. The productive suffix (想像力, 経済力) is learnable, so it is an additional reading.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 06bb91709dcce57b9f97b73171bce6fb0be09cb04f565daa8751766a4b28a8c5",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "力/りょく glossed \"strength; power; force\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1554840; 力/りょく",
+          "finding": "suf strength; power; proficiency; ability"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n2:correction:ryoku-power-suffix",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n2:correction:ryoku-power-suffix); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "cc0cbf20177ec3c6e6ce2a1ccf7d515e81af269331669706bf4e130e27822383",
+        "approvalHash": "cc0cbf20177ec3c6e6ce2a1ccf7d515e81af269331669706bf4e130e27822383"
+      }
+    },
+    {
+      "key": "大|だい",
+      "referenceIndex": 0,
+      "referenceHash": "75b7b37a02840efbe8e97e150b88a3403651b59fdf965e2d3b4baa95a03fc320",
+      "revisionId": "text-2026-11-reference-大|だい-0",
+      "state": "accepted",
+      "predecessorHash": "aa5bfbc259ab0310294855aa2f01428c8167043a59359a387e46190efb1035a4",
+      "predecessorRevisionHash": "f4dd10979c803cfba857ce2c503334204d9d82bbf6f58742d19b358481d8a61a",
+      "disposition": "verified-spelling-variant",
+      "targets": [
+        "vocab-n3:correction:dai-big"
+      ],
+      "targetHashes": {
+        "vocab-n3:correction:dai-big": "1580edee2b85a03f654263c7838b4cf6a3c61bd03ae1e60caef0dd5c2b7d4158"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n3:correction:dai-big). Original reason: Source 大/だい ('the large part of') is the same word as card vocab-n3:correction:dai-big 大/だい (JMdict 2082450: large; big; great; major; pref). The spelling and reading are identical and the card already teaches the 'big, major, Groß-' sense the gloss refers to, so the reference closes on that card with no alias needed. The card was evidently created after the reference was frozen.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N2)",
+          "version": "Frozen candidate reference SHA256 75b7b37a02840efbe8e97e150b88a3403651b59fdf965e2d3b4baa95a03fc320",
+          "locator": "https://www.nihongomaster.com/jlpt-n2-vocabulary-list?page=4",
+          "finding": "大/だい glossed \"the large part of\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2082450; 大/だい",
+          "finding": "pref, adj-na, n: large; big; great; major; -sized"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n3:correction:dai-big",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n3:correction:dai-big); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "41e392c163ae9ba80b8256eb9762c469fd4d679751b0a0f36599f15025cd2fa6",
+        "approvalHash": "41e392c163ae9ba80b8256eb9762c469fd4d679751b0a0f36599f15025cd2fa6"
+      }
+    },
+    {
+      "key": "苦|く",
+      "referenceIndex": 0,
+      "referenceHash": "d9c8c36cffb99167dd9633f4102e1ab9b7783bcd923569ee4724fcf20c0c9f17",
+      "revisionId": "text-2026-11-reference-苦|く-0",
+      "state": "accepted",
+      "predecessorHash": "5657fcd6e4831de88880d7653f11708d5b8edf21dc3afef2a01c6343b83b5efb",
+      "predecessorRevisionHash": "73df067fb1139e4d17bbe8985220c0cca230a05baa46b2192d23c28c70e42cd9",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ku-suffering"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ku-suffering": "b195641e677e51b66ecf4c92f2c87f14740b2ce0f545f6ac91cf97780c59e629"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:ku-suffering). Original reason: Nihongo Master row 苦/く 'pain; anguish; suffering'. JMdict 2037710 苦【く】 n 'pain; anguish; suffering; worry' is a real word, not a kanji-reading row, used in 苦にする and 苦もなく. No card has the spelling 苦 (く cards: 九, 区, 句, all unrelated), so it is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 d9c8c36cffb99167dd9633f4102e1ab9b7783bcd923569ee4724fcf20c0c9f17",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "苦/く glossed \"pain; anguish; suffering\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2037710; 苦/く",
+          "finding": "n pain; suffering; worry"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: undefined",
+          "finding": "no card with spelling 苦"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:ku-suffering",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:ku-suffering); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "60fdcb2ff85ee4ad516e05c24be7038672d4c0b892c6eb11e09c32f1ede0397e",
+        "approvalHash": "60fdcb2ff85ee4ad516e05c24be7038672d4c0b892c6eb11e09c32f1ede0397e"
+      }
+    },
+    {
+      "key": "天下|てんか",
+      "referenceIndex": 0,
+      "referenceHash": "44047481971df5e216b3b7928f974079c50de611aa3b1bfa263176c17dfe6e96",
+      "revisionId": "text-2026-11-reference-天下|てんか-0",
+      "state": "accepted",
+      "predecessorHash": "7cacb18a309846b41d3225e900f38098e6f87b94bfae204827a0bf0eab0014a4",
+      "predecessorRevisionHash": "8410b98b9956e66433e4736641ac0d0cae829318f0930a78a43f0c36e74c980e",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tenka-whole-world"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tenka-whole-world": "46b66b77d4d5b5f1cfb1ce053443006ca825966f5bf9072bca52715451412240"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:tenka-whole-world). Original reason: Nihongo Master row 天下/てんか 'the whole world; public'. JMdict 1438470 天下【てんか/てんが】 n 'the whole world; the whole country; society; supremacy over a nation'. No card teaches 天下/てんか: vocab-n3:1777 天下り is a different word read あまくだり, and てんか cards such as 点火 are homophones. So a new card is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 44047481971df5e216b3b7928f974079c50de611aa3b1bfa263176c17dfe6e96",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "天下/てんか glossed \"the whole world; monde; public\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1438470; 天下/てんか",
+          "finding": "n the whole world; the whole country; ruling power"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: undefined",
+          "finding": "no card 天下/てんか (only 天下り/あまくだり)"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:tenka-whole-world",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:tenka-whole-world); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "c5989f6f80feba6281bd3ebbea6fe77a6c53368f62bed02e2ae2aecd03f8eb71",
+        "approvalHash": "c5989f6f80feba6281bd3ebbea6fe77a6c53368f62bed02e2ae2aecd03f8eb71"
+      }
+    },
+    {
+      "key": "決|けつ",
+      "referenceIndex": 0,
+      "referenceHash": "3b27836138779069571b8fc8ca2f1657ad3d4163740f297eb669c69285fd158c",
+      "revisionId": "text-2026-11-reference-決|けつ-0",
+      "state": "accepted",
+      "predecessorHash": "2d62d075cb9ee3267c4c11f9549baa01e5e0b89bff9b8a0bcc296b25dfc5f856",
+      "predecessorRevisionHash": "75399f14579e3c0b60e48e89e6a72bc2ad4aca32a2a403285999020c19449e81",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:ketsu-decision-vote"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:ketsu-decision-vote": "5eee93e4d132a40aaf12495cdb533691b13df43d5cb2f3e6d9bc6372906acda7"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:ketsu-decision-vote). Original reason: Nihongo Master row 決/けつ 'decision; vote'. JMdict 1956210 決【けつ】 n 'decision; vote' is a real standalone noun (決を採る 'put to a vote'). No card has word, alias or reading 決/けつ (only compounds such as 多数決, 採決, 議決), so it is added as a new N1 noun.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 3b27836138779069571b8fc8ca2f1657ad3d4163740f297eb669c69285fd158c",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=4",
+          "finding": "決/けつ glossed \"decision; vote; (n) Entscheidung\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1956210; 決/けつ",
+          "finding": "n: decision; vote"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 決|けつ (cards)",
+          "finding": "no card with word/alias 決 or reading けつ"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:ketsu-decision-vote",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:ketsu-decision-vote); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "52eeacd7eb335aad5c040c451043017fb469ca7d29011a445052d9c583ab8bd7",
+        "approvalHash": "52eeacd7eb335aad5c040c451043017fb469ca7d29011a445052d9c583ab8bd7"
+      }
+    },
+    {
+      "key": "斑|むら",
+      "referenceIndex": 0,
+      "referenceHash": "7e32efb61d9a77873df9b1688d05c3314593c1c4b6b399d82edc9bba3c17996a",
+      "revisionId": "text-2026-11-reference-斑|むら-0",
+      "state": "accepted",
+      "predecessorHash": "18bd6f9bd7981cfcaf69c16c848bb0d153e80c1acf08ca96fc2729210d10366f",
+      "predecessorRevisionHash": "3f3f86c33e7235568af108313aaf0c3dbe1851ace56f03997e49ab6788144b9b",
+      "disposition": "additional-reading",
+      "targets": [
+        "vocab-n1:correction:mura-unevenness"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:mura-unevenness": "52ae8c9ee89f80e9e6bd6ed3e791726c9594f82ec51b593e6164b3fa7588ebd6"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:mura-unevenness). Original reason: Nihongo Master row 斑/むら 'unevenness; inconsistency; erraticness'. JMdict 1481330 斑【むら/ムラ】 n/adj-na uk is a separate entry from 斑【まだら】 (2827920, 'speckled'). The only 斑 card vocab-n1:3050 teaches まだら; 村/むら (vocab-n5:1378) is unrelated. Different reading and different word -> new card for むら.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 7e32efb61d9a77873df9b1688d05c3314593c1c4b6b399d82edc9bba3c17996a",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "斑/むら glossed \"unevenness; inconsistency; erraticness\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1481330; 斑/むら",
+          "finding": "n,adj-na uk: unevenness; inconsistency; fickleness"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2827920; 斑/まだら",
+          "finding": "separate entry 'spots; speckled' = card vocab-n1:3050"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:mura-unevenness",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:mura-unevenness); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "1719ab86adaaeb064a56c05fa43823c589e20adada6442e99e05f94f564603d6",
+        "approvalHash": "1719ab86adaaeb064a56c05fa43823c589e20adada6442e99e05f94f564603d6"
+      }
+    },
+    {
+      "key": "成育|せいいく",
+      "referenceIndex": 0,
+      "referenceHash": "8cc6bc1b3f7b43050b8ab8695e185ee986baf605a230e475a6bc719720a3acac",
+      "revisionId": "text-2026-11-reference-成育|せいいく-0",
+      "state": "accepted",
+      "predecessorHash": "943ed75057d499d150bbc62dbb353acb3798eea0f8df6c2a63ade2c1360c6dc7",
+      "predecessorRevisionHash": "89aad58e2f69c36338faa0ff6aabee18ab71637453f353f4fb62e5e7a2760497",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:seiiku-growing-up"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:seiiku-growing-up": "b5793eeda686bcbf0fcd7d2478a8f8e50fa3dd1629a222a24e09d02a69809df7"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:seiiku-growing-up). Original reason: Nihongo Master row 成育/せいいく 'growth; raising'. JMdict has 成育 (1375640, 'growth to maturity; growing up') and 生育 (1378800, 'birth and growth; development; breeding') as separate entries, so 成育 cannot be an alias of the existing card vocab-n1:correction:seiiku 生育/せいいく. Standard usage distinguishes them (成育 for animals/people, 生育 for plants), so 成育 gets its own card.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 8cc6bc1b3f7b43050b8ab8695e185ee986baf605a230e475a6bc719720a3acac",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=5",
+          "finding": "成育/せいいく glossed \"growth; raising; (n) Wachstum\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1375640; 成育/せいいく",
+          "finding": "n,vs,vi: growth (to maturity); growing up; raising"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1378800; 生育/せいいく",
+          "finding": "separate entry; carded as vocab-n1:correction:seiiku"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:seiiku-growing-up",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:seiiku-growing-up); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "7fc7c284628740c6588ce6e1a2107c4b189f09a3b29c6a62ff76beedf5f63ec5",
+        "approvalHash": "7fc7c284628740c6588ce6e1a2107c4b189f09a3b29c6a62ff76beedf5f63ec5"
+      }
+    },
+    {
+      "key": "手数|てすう",
+      "referenceIndex": 0,
+      "referenceHash": "3f0f9cbcb98a6d1f8a946971d70996efca6511987797e0c5356ec54173e4e3cc",
+      "revisionId": "text-2026-11-reference-手数|てすう-0",
+      "state": "accepted",
+      "predecessorHash": "0418bf0f47b968ed6bf95d1812e106278c44f44f9cd86d7e8f2d92642ef80c5d",
+      "predecessorRevisionHash": "0a91143f476af7aafe665903b93d647d702773d01533061f0fdb2ebc03a67d1b",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:tesuu-trouble"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:tesuu-trouble": "60c1727445f65395e8242c3d666b4dd649500a8f2d7d72d21cef2e11237ce9ce"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:tesuu-trouble). Original reason: Nihongo Master row 手数/てすう 'trouble; bother; efforts'. JMdict 1327970 手数【てすう/てかず】 n 'trouble; bother; number of moves'. No card has word, alias or reading 手数/てすう; only the polite お手数/おてすう (vocab-n3:1432, different word and reading) and compounds 手数料. The base noun is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 3f0f9cbcb98a6d1f8a946971d70996efca6511987797e0c5356ec54173e4e3cc",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "手数/てすう glossed \"trouble; bother; efforts\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1327970; 手数/てすう",
+          "finding": "n: trouble; bother; number of moves"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: 手数|てすう (cards)",
+          "finding": "no card; only お手数 (おてすう) and 手数料"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:tesuu-trouble",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:tesuu-trouble); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "5367e5b12897bf1e283f508468dd01743d753890841ceadbc0b1dbfc453e4fd6",
+        "approvalHash": "5367e5b12897bf1e283f508468dd01743d753890841ceadbc0b1dbfc453e4fd6"
+      }
+    },
+    {
+      "key": "良し|よし",
+      "referenceIndex": 0,
+      "referenceHash": "d35e2d5cc401cc45bf80f132515301ad63c3ede0a557188a3ae1d1847a81fc4a",
+      "revisionId": "text-2026-11-reference-良し|よし-0",
+      "state": "accepted",
+      "predecessorHash": "391b2b6d74017a87bf920f342d769359db3660c48a73e0caa38bd5541329c26e",
+      "predecessorRevisionHash": "8652ae47f316990c33bd8681a72000e35d3b45b4a3c87ffb9e3ccbe26f00ce3d",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:yoshi-good"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:yoshi-good": "194ba9421b81a322a5ea14ca48e33c13a32ad9f10390ae28108fb96f3d78c25e"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:yoshi-good). Original reason: Nihongo Master row 良し/よし 'good; excellent; fine'. JMdict 1394280 良し/善し/好し【よし】 adj-ku (uk) is the classical form of 良い; the ok tag applies to the reading えし, not よし. It differs in reading/conjugation from the card vocab-n5:71 良い/よい and has no card of its own (善し悪し and 仲良し are compounds). It is still productive in modern Japanese (良しとする, それも良し), so it is added as an N1 card.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 d35e2d5cc401cc45bf80f132515301ad63c3ede0a557188a3ae1d1847a81fc4a",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "良し/よし glossed \"good; excellent; fine\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1394280; 良し/よし",
+          "finding": "adj-ku uk: good; excellent; fine (classical form)"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1605820; 良い/よい",
+          "finding": "modern adj-i, carded as vocab-n5:71; different reading"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: |よし (cards)",
+          "finding": "no card with reading よし"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:yoshi-good",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:yoshi-good); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "f49a4bad7a1e8c52b266a1d31112bb34044e659dae54a95c4cb1dc77dee84314",
+        "approvalHash": "f49a4bad7a1e8c52b266a1d31112bb34044e659dae54a95c4cb1dc77dee84314"
+      }
+    },
+    {
+      "key": "はらはら|はらはら",
+      "referenceIndex": 0,
+      "referenceHash": "8529fe8ae6da8f07290c7048c730350a065fec1b565afee98b59898f94188462",
+      "revisionId": "text-2026-11-reference-はらはら|はらはら-0",
+      "state": "accepted",
+      "predecessorHash": "dcea6f5bbadee7c03a6e8d613a79dc67226371fa6dd0fb1ca3c871d56a172a1b",
+      "predecessorRevisionHash": "17f1ea5aed5e8c52a77399f9a571a36ce0fae79bee73fd14d402122ddd277b35",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:harahara-anxious"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:harahara-anxious": "cc24584877131b244a98fa5c7b1e923ccb16bcb340a10f3cb4e7205b510221da"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:harahara-anxious). Original reason: Nihongo Master row ハラハラ 'heart going pit-a-pat; falling rapidly in big drops; fluttering down'. JMdict 1096260 【ハラハラ/はらはら】 vs/adv on-mim 'to feel anxious; fluttering down'. No vocab card has word, alias or reading はらはら/ハラハラ (only the onomatopoeia section), so it is added in the source's katakana form (like ドキドキ vocab-n4:1251) with はらはら as alias.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 8529fe8ae6da8f07290c7048c730350a065fec1b565afee98b59898f94188462",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "ハラハラ/ハラハラ glossed \"heart going pit-a-pat; falling rapidly in big drops; fluttering down\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1096260; ハラハラ/はらはら",
+          "finding": "vs,adv on-mim: to feel anxious; fluttering down; trickling"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: ハラハラ (cards)",
+          "finding": "no vocab card in either script"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:harahara-anxious",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:harahara-anxious); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "0c62885dd3410daf782bdc1dfcd0ff08efe03466bc8bbb61789203d262acd58f",
+        "approvalHash": "0c62885dd3410daf782bdc1dfcd0ff08efe03466bc8bbb61789203d262acd58f"
+      }
+    },
+    {
+      "key": "ても|ても",
+      "referenceIndex": 0,
+      "referenceHash": "fbc0eb5fc1d34f4ac6b184be38019a6d3aab0d0000e2dd5b1299b686530b870a",
+      "revisionId": "text-2026-11-reference-ても|ても-0",
+      "state": "accepted",
+      "predecessorHash": "ea950b4e3028b51f4284cf0943157d44e6d87a7c12b74f596ec0343897113a95",
+      "predecessorRevisionHash": "e05341ab2ff901bdcd58535636a4eb99a6503647db93310e840000ae032f54a2",
+      "disposition": "added",
+      "targets": [
+        "vocab-n4:correction:temo-even-if"
+      ],
+      "targetHashes": {
+        "vocab-n4:correction:temo-even-if": "b6f91da982b71bf5228f0fb8cae7d16f693379973c7aa4740a7de936c1f5a1ec"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n4:correction:temo-even-if). Original reason: Nihongo Master row ても 'even if; even though'. JMdict 2264460 ても prt 'even if; even though'. No vocab card has word, alias or reading ても (only phrases like どうしても, それにしても). Following the b189/b203 precedent for basic grammar particles (かもしれない, みたい, なんて), it is added as a suffix-style particle card at N4.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 fbc0eb5fc1d34f4ac6b184be38019a6d3aab0d0000e2dd5b1299b686530b870a",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "ても/ても glossed \"even if; even though\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=2264460; ても",
+          "finding": "prt: even if; even though"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: ても (cards)",
+          "finding": "no vocab card; grammar-data.js has ～ても / ～でも"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n4:correction:temo-even-if",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n4:correction:temo-even-if); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "7ee7c6aa62275545f7454cd332c6b978e288025b0538e9dbe8a3c323bf9ab3af",
+        "approvalHash": "7ee7c6aa62275545f7454cd332c6b978e288025b0538e9dbe8a3c323bf9ab3af"
+      }
+    },
+    {
+      "key": "まいくろふぉん|まいくろふぉん",
+      "referenceIndex": 0,
+      "referenceHash": "718b6b81244283359cb7afbb18e373d1f9d5de96e9b5e4d72ef0d948403f0c34",
+      "revisionId": "text-2026-11-reference-まいくろふぉん|まいくろふぉん-0",
+      "state": "accepted",
+      "predecessorHash": "204329fdce5ebdb80cdeb23c2147c036b30bd07ea7e36202877f86d3ce8471db",
+      "predecessorRevisionHash": "5e63fba4b3644b4ebacefd36573f1558a54c03c2de84d2e0d0a1659b124b6326",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:maikurofon-microphone"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:maikurofon-microphone": "84c22c38ee09f7c0248cca224025972ae1912330c4dd4f12c90617ec85b60ce5"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:maikurofon-microphone). Original reason: Nihongo Master row マイクロフォン 'microphone'. JMdict 1126770 【マイクロフォン/マイクロホン】 is a separate entry from the abbreviation マイク (1126590, carded as vocab-n3:3350). Different JMdict entry and different reading, so it cannot be an alias of マイク; no card has マイクロフォン/マイクロホン, so it is added.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 718b6b81244283359cb7afbb18e373d1f9d5de96e9b5e4d72ef0d948403f0c34",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "マイクロフォン/マイクロフォン glossed \"microphone; микрофон; (n) Mikrofon\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1126770; マイクロフォン/マイクロホン",
+          "finding": "n: microphone"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1126590; マイク",
+          "finding": "separate abbr entry; card vocab-n3:3350"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:maikurofon-microphone",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:maikurofon-microphone); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "318d71ef8147b3e97c14b05402e3a73ad2ef11add5edd992c60bd723c8b67653",
+        "approvalHash": "318d71ef8147b3e97c14b05402e3a73ad2ef11add5edd992c60bd723c8b67653"
+      }
+    },
+    {
+      "key": "金蔵|かねぐら",
+      "referenceIndex": 0,
+      "referenceHash": "f3b4f10a12dd042dc5739f2cdd1c9222f4185347fe19f1fded50ac6925a89b95",
+      "revisionId": "text-2026-11-reference-金蔵|かねぐら-0",
+      "state": "accepted",
+      "predecessorHash": "8b83b030a8f877db72f9945b4022433711e90b4540a950bd21a7563774f9f0c3",
+      "predecessorRevisionHash": "ff31917ee9dc8446ccd40a86500928a0806f04238aa6a2f38132750ebddc4429",
+      "disposition": "added",
+      "targets": [
+        "vocab-n1:correction:kanegura-treasury"
+      ],
+      "targetHashes": {
+        "vocab-n1:correction:kanegura-treasury": "ff95b18f259d547a63580d327662e968ac6f170ecd60651de1bdc52c23eadeb9"
+      },
+      "reason": "Renewed unchanged for German text corrections found during the English translation, November 2026: only the German usage note or examples of the target card(s) changed (vocab-n1:correction:kanegura-treasury). Original reason: Nihongo Master row 金蔵/かねぐら 'treasure house; treasury'. JMdict 1578130 金蔵【かねぐら/きんぞう】 n 'treasure house; financial backer' (the rK/sK/ok tags belong to 帑, 金庫 and きんぞう). No card has 金蔵 or reading かねぐら; added as N1 noun.",
+      "evidence": [
+        {
+          "source": "Frozen original publisher reference (master N1)",
+          "version": "Frozen candidate reference SHA256 f3b4f10a12dd042dc5739f2cdd1c9222f4185347fe19f1fded50ac6925a89b95",
+          "locator": "https://www.nihongomaster.com/jlpt-n1-vocabulary-list?page=6",
+          "finding": "金蔵/かねぐら glossed \"treasure house; treasury\"; row read as frozen in the candidate manifest."
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "https://www.edrdg.org/jmdict/j_jmdict.html#ent_seq=1578130; 金蔵/かねぐら",
+          "finding": "n: treasure house; treasury; financial supporter"
+        },
+        {
+          "source": "JMdict_e, complete original entry individually inspected",
+          "version": "Gzip SHA256 19990edcbac569575e9a555ce1d2e900c95c81bdb7096e3cc44c1b3970d7b6b5",
+          "attribution": "JMdict, EDRDG, CC BY-SA 4.0; https://www.edrdg.org/jmdict/j_jmdict.html",
+          "locator": "exact spelling+reading query over the complete decompressed JMdict_e: |かねぐら (cards)",
+          "finding": "no card"
+        },
+        {
+          "source": "German text corrections found during the English translation, November 2026 (scripts/vocabulary-text-corrections/2026-11.json)",
+          "version": "correction list SHA256 3f1325ae7a13472ca8c12a93d68b672fe26586978a1c23ae5813133de78dae11",
+          "locator": "scripts/vocabulary-text-corrections/2026-11.json#vocab-n1:correction:kanegura-treasury",
+          "finding": "Only the German usage note or examples of the target card(s) changed (vocab-n1:correction:kanegura-treasury); word, reading, meaning, aliases, disposition and targets are unchanged."
+        }
+      ],
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "candidate-coverage",
+          "target-renewal"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Checked the renewal: same frozen reference, disposition and targets; the target card(s) changed only in their German usage note or examples, as recorded in the correction list.",
+        "contentHash": "d3da2e3b9b96cb4989839bb533f840bd46d94e3a9fc56ad0c32960d0fc0b07a1",
+        "approvalHash": "d3da2e3b9b96cb4989839bb533f840bd46d94e3a9fc56ad0c32960d0fc0b07a1"
+      }
+    }
+  ]
+}

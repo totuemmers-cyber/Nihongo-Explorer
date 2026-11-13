@@ -111,3 +111,25 @@ The importer reconciles `vocab-romaji-hepburn.js` with the final reviewed runtim
 An unchanged authored string keeps its vowel spans. When approved authoring
 replaces a string with reviewed Hepburn, its obsolete display spans are removed
 within the same serialized import. An unreviewed mismatch fails validation.
+
+# German text corrections
+
+`scripts/vocabulary-text-corrections.cjs` applies a list of exact edits to usage notes and
+examples through this workflow. A list (`scripts/vocabulary-text-corrections/<id>.json`)
+names each card and gives `noteEdits` (find/replace pairs that must match exactly once),
+`removeExamples` or `replaceExamples`, with a rationale and evidence per card.
+
+```sh
+node scripts/vocabulary-text-corrections.cjs preview        # print every change, write nothing
+node scripts/vocabulary-text-corrections.cjs prepare        # assemble and approve packets in .content-cache/
+node scripts/vocabulary-text-corrections.cjs import
+node scripts/vocabulary-text-corrections.cjs renew-prepare  # renew the reference decisions the edits reopened
+node scripts/vocabulary-text-corrections.cjs renew-import
+```
+
+Each record changes only the listed fields. The rest of the review and the pitch
+investigation are copied from the card's latest accepted revision and say so. The tool
+refuses cards that are part of a merge; revise those by hand as described above. A list is
+fixed once imported: its hash is cited in the renewal records. Start a new list
+(`--spec=<file>`) for later corrections. Afterwards refresh the English copies as
+described in [TRANSLATION.md](../TRANSLATION.md).

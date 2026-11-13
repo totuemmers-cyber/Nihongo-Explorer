@@ -40,6 +40,16 @@ frequency evidence; 6,084 cards keep an editorial estimate. See
 [Vocabulary levels — November 2026](CONTENT-SOURCES.md#vocabulary-levels--november-2026).
 Before the calibration the levels held 1,689 / 1,696 / 3,913 / 3,316 / 5,607 entries.
 
+Batches 230-text-001 to -003 (13 November 2026) correct the German text of 57 cards found while
+translating the library into English: 43 usage notes cited internal card IDs, seven referred to
+sense numbers the card does not show, three used editorial wording ("Alias"), one described an
+example the card does not have (建てる), one gave a wrong year (孤児院: the name 児童養護施設
+dates from the 1997 amendment, not 1947), one example was a long pun unsuitable for study (夏至,
+removed) and one used a form that is rare today (来たる: 来たった). Words, readings, meanings,
+levels and pitch are unchanged; the 65 reference decisions bound to these cards were renewed
+unchanged in 230-text-refs-001 to -003. The list is
+[scripts/vocabulary-text-corrections/2026-11.json](scripts/vocabulary-text-corrections/2026-11.json).
+
 ## History
 
 The sections below are historical records. The exhaustive campaign was superseded

@@ -77435,7 +77435,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Abstrakt",
     "level": "N3",
-    "notes": "Gehobenes, schriftsprachliches Wort für „Leben“ im philosophischen Sinn, vor allem im Gegensatz 生と死 „Leben und Tod“ und in der Wendung この世に生を受ける „geboren werden“. Im Alltag sagt man 命 „Leben (das man verlieren kann)“ oder 人生 „Lebenslauf, Leben“. Dasselbe Zeichen gelesen なま (vocab-n3:3325) bedeutet „roh, frisch, live“, gelesen き (N1-Karten) „pur, unverdünnt“; als Suffix せい kennt man es aus 一年生 „Schüler des ersten Jahrgangs“.",
+    "notes": "Gehobenes, schriftsprachliches Wort für „Leben“ im philosophischen Sinn, vor allem im Gegensatz 生と死 „Leben und Tod“ und in der Wendung この世に生を受ける „geboren werden“. Im Alltag sagt man 命 „Leben (das man verlieren kann)“ oder 人生 „Lebenslauf, Leben“. Dasselbe Zeichen gelesen なま bedeutet „roh, frisch, live“, gelesen き (N1-Karten) „pur, unverdünnt“; als Suffix せい kennt man es aus 一年生 „Schüler des ersten Jahrgangs“.",
     "examples": [
       {
         "japanese": "今日の授業では生と死について考えた。",
@@ -79876,7 +79876,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Politik",
     "level": "N2",
-    "notes": "Steht selten allein, sondern meist als Wortbestandteil: 共産主義 „Kommunismus“ (vocab-n2:21), 共産党 „Kommunistische Partei“ (vocab-n3:3013), 共産圏 „Ostblock, kommunistischer Block“, 共産化 „Kommunisierung“. In Zeitungsschlagzeilen und Wahlberichten steht 共産 allein als Kurzform für die Kommunistische Partei. Gegenbegriff ist 資本主義 „Kapitalismus“.",
+    "notes": "Steht selten allein, sondern meist als Wortbestandteil: 共産主義 „Kommunismus“, 共産党 „Kommunistische Partei“, 共産圏 „Ostblock, kommunistischer Block“, 共産化 „Kommunisierung“. In Zeitungsschlagzeilen und Wahlberichten steht 共産 allein als Kurzform für die Kommunistische Partei. Gegenbegriff ist 資本主義 „Kapitalismus“.",
     "examples": [
       {
         "japanese": "冷戦時代、その国は共産圏に属していた。",
@@ -79956,7 +79956,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Technik",
     "level": "N1",
-    "notes": "Substantiv zum Verb 固定する „befestigen“ (vocab-n2:543), sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費).",
+    "notes": "Substantiv zum Verb 固定する „befestigen“, sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費).",
     "examples": [
       {
         "japanese": "最近は固定電話を持たない家庭が増えている。",
@@ -80003,7 +80003,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Grammatik",
     "level": "N1",
-    "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに, vocab-n3:2554); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“).",
+    "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“).",
     "examples": [
       {
         "japanese": "三か月ごとの定期点検を忘れないでください。",
@@ -80036,7 +80036,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Bildung",
     "level": "N1",
-    "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“ (vocab-n2:573), typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle.",
+    "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“, typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle.",
     "examples": [
       {
         "japanese": "詳しくは次のページを参照のこと。",
@@ -80083,7 +80083,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Freizeit",
     "level": "N1",
-    "notes": "Substantiv zum Verb 収集する „sammeln“ (vocab-n2:572), oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める.",
+    "notes": "Substantiv zum Verb 収集する „sammeln“, oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める.",
     "examples": [
       {
         "japanese": "祖父の趣味は古い切手の収集だ。",
@@ -80133,7 +80133,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Arbeit",
     "level": "N1",
-    "notes": "Substantiv zum Verb 照合する „abgleichen“ (vocab-n2:552): Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht.",
+    "notes": "Substantiv zum Verb 照合する „abgleichen“: Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht.",
     "examples": [
       {
         "japanese": "現場に残された指紋の照合を急いでいる。",
@@ -80180,7 +80180,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Zeit",
     "level": "N1",
-    "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte (vocab-n2:1323). Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“ (vocab-n2:37).",
+    "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte. Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“.",
     "examples": [
       {
         "japanese": "事前の準備がしっかりしていたので、会議はスムーズに進んだ。",
@@ -80227,7 +80227,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Abstrakt",
     "level": "N1",
-    "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte (vocab-n3:3281). 実/み (vocab-n3:correction:mi-fruit) ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen.",
+    "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte. 実/み ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen.",
     "examples": [
       {
         "japanese": "彼女は私の実の姉ではなく、義理の姉です。",
@@ -80274,7 +80274,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Gesellschaft",
     "level": "N1",
-    "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“ (vocab-n2:474), häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する, vocab-n2:1437; 対向車).",
+    "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“, häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する; 対向車).",
     "examples": [
       {
         "japanese": "二人は互いに強い対抗意識を持っている。",
@@ -80321,7 +80321,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Allgemein",
     "level": "N1",
-    "notes": "Substantiv zum Verb 短縮する „verkürzen“ (vocab-n2:451), vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略.",
+    "notes": "Substantiv zum Verb 短縮する „verkürzen“, vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略.",
     "examples": [
       {
         "japanese": "働き方改革で労働時間の短縮が進んでいる。",
@@ -81228,7 +81228,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Grammatik",
     "level": "N2",
-    "notes": "限り ist das Nomen zu 限る (vocab-n3:2501) und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben.",
+    "notes": "限り ist das Nomen zu 限る und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben.",
     "examples": [
       {
         "japanese": "できる限り早くご連絡いたします。",
@@ -81279,7 +81279,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Zeit",
     "level": "N2",
-    "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ, vocab-n3:3291) „Datum“ und 〜漬け (づけ, vocab-n2:1532) „eingelegt in“.",
+    "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ) „Datum“ und 〜漬け (づけ) „eingelegt in“.",
     "examples": [
       {
         "japanese": "四月一日付けで大阪支社に異動することになった。",
@@ -81360,7 +81360,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Grammatik",
     "level": "N2",
-    "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ (vocab-n3:3303), etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix.",
+    "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ, etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix.",
     "examples": [
       {
         "japanese": "風邪気味なので、今日は早めに寝ます。",
@@ -81393,7 +81393,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Alltag",
     "level": "N2",
-    "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 (vocab-n5:790) „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten.",
+    "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten.",
     "examples": [
       {
         "japanese": "洗面所はあちらの廊下の突き当たりです。",
@@ -81440,7 +81440,7 @@ window.VOCAB_N2 = [
     "type": "Adjektiv",
     "category": "Eigenschaften",
     "level": "N2",
-    "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい (vocab-n5:75) und 温かい (vocab-n2:719); sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか.",
+    "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい und 温かい; sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか.",
     "examples": [
       {
         "japanese": "窓から暖かな春の日差しが差し込んでいる。",
@@ -81494,7 +81494,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Alltag",
     "level": "N2",
-    "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー (vocab-n3:correction:oobaa) ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten.",
+    "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten.",
     "examples": [
       {
         "japanese": "今朝は冷え込んだので、厚いオーバーコートを着て出かけた。",
@@ -81572,7 +81572,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Kommunikation",
     "level": "N2",
-    "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vocab-n5:correction:o-honorific-prefix, vor japanischen Wörtern) oder ご (vocab-n5:correction:go-honorific-prefix, vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社.",
+    "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vor japanischen Wörtern) oder ご (vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社.",
     "examples": [
       {
         "japanese": "御社の新しいサービスについて詳しく伺いたいと思います。",
@@ -81605,7 +81605,7 @@ window.VOCAB_N2 = [
     "type": "Nomen",
     "category": "Bewegung",
     "level": "N2",
-    "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ, vocab-n5:1032), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ).",
+    "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ).",
     "examples": [
       {
         "japanese": "彼は二歩下がって、深く頭を下げた。",
@@ -81652,7 +81652,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Zeit",
     "level": "N2",
-    "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日 (vocab-n5:199), 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände.",
+    "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日, 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände.",
     "examples": [
       {
         "japanese": "毎週末、家族で近くの公園に出かけます。",
@@ -81685,7 +81685,7 @@ window.VOCAB_N2 = [
     "type": "Partikel",
     "category": "Abstrakt",
     "level": "N2",
-    "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから (vocab-n4:1398). In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力.",
+    "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから. In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力.",
     "examples": [
       {
         "japanese": "この国は経済力では世界有数だ。",

@@ -6527,7 +6527,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "139": {
-        "notes": "再審 ist im Strafrecht die Wiederaufnahme eines bereits rechtskräftig abgeschlossenen Verfahrens, meist wegen neuer Beweise; typisch: 再審を請求する, 再審開始の決定, 再審で無罪となる. Davon klar zu unterscheiden sind 控訴 und 上告 (Berufung und Revision gegen ein noch nicht rechtskräftiges Urteil). Die allgemeine Bedeutung „erneute Prüfung“ (Sinn 2) ist seltener und kommt vor allem in Behörden- und Prüfungskontexten vor.",
+        "notes": "再審 ist im Strafrecht die Wiederaufnahme eines bereits rechtskräftig abgeschlossenen Verfahrens, meist wegen neuer Beweise; typisch: 再審を請求する, 再審開始の決定, 再審で無罪となる. Davon klar zu unterscheiden sind 控訴 und 上告 (Berufung und Revision gegen ein noch nicht rechtskräftiges Urteil). Die allgemeine Bedeutung „erneute Prüfung“ ist seltener und kommt vor allem in Behörden- und Prüfungskontexten vor.",
         "examples": [
           {
             "japanese": "新証拠の発見により再審が開始された。",
@@ -73566,7 +73566,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2225": {
-        "notes": "節理 bezeichnet in der Geologie regelmäßige Risse im Gestein, an denen sich die Blöcke nicht gegeneinander verschoben haben („Kluft, Klüftung“); bei Verschiebung spricht man von 断層 „Verwerfung“. Bekannt sind 柱状節理 „Säulenklüftung“ (etwa am 東尋坊 oder im 玄武洞) und 板状節理. Die seltene Bedeutung „Vernunft, Logik“ (JMdict Sense 2) ist hier nicht gemeint.",
+        "notes": "節理 bezeichnet in der Geologie regelmäßige Risse im Gestein, an denen sich die Blöcke nicht gegeneinander verschoben haben („Kluft, Klüftung“); bei Verschiebung spricht man von 断層 „Verwerfung“. Bekannt sind 柱状節理 „Säulenklüftung“ (etwa am 東尋坊 oder im 玄武洞) und 板状節理. Die seltene Bedeutung „Vernunft, Logik“ ist hier nicht gemeint.",
         "examples": [
           {
             "japanese": "柱状節理は溶岩の冷却によって形成される。",
@@ -77105,7 +77105,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2336": {
-        "notes": "風物詩 ist etwas, das für eine bestimmte Jahreszeit typisch ist und sie spürbar macht – ein Anblick, Geräusch, Ereignis oder Essen. Fast immer steht es im Rahmen 〜は夏の風物詩だ oder 冬の風物詩として親しまれている. Wörtlich ist es ein „Gedicht über Landschaft und Jahreszeit“ (Bedeutung 2, heute selten). Abzugrenzen sind 名物 („lokale Spezialität“) und 季語 (Jahreszeitenwort im Haiku).",
+        "notes": "風物詩 ist etwas, das für eine bestimmte Jahreszeit typisch ist und sie spürbar macht – ein Anblick, Geräusch, Ereignis oder Essen. Fast immer steht es im Rahmen 〜は夏の風物詩だ oder 冬の風物詩として親しまれている. Wörtlich ist es ein „Gedicht über Landschaft und Jahreszeit“ (heute selten). Abzugrenzen sind 名物 („lokale Spezialität“) und 季語 (Jahreszeitenwort im Haiku).",
         "examples": [
           {
             "japanese": "花火大会は夏の風物詩だ。",
@@ -112461,7 +112461,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "3389": {
-        "notes": "孤児院 „Waisenhaus“ ist eine ältere Bezeichnung; in Japan heißen solche Einrichtungen seit 1947 offiziell 児童養護施設 und nehmen auch Kinder auf, deren Eltern noch leben. Heute benutzt man 孤児院 vor allem für historische Zusammenhänge, für Einrichtungen im Ausland oder in Romanen. Verwandt sind 孤児 „Waise“ und 戦災孤児 „Kriegswaisen“.",
+        "notes": "孤児院 „Waisenhaus“ ist eine ältere Bezeichnung; in Japan heißen solche Einrichtungen offiziell 児童養護施設 (so seit der Gesetzesänderung von 1997, davor 養護施設) und nehmen auch Kinder auf, deren Eltern noch leben. Heute benutzt man 孤児院 vor allem für historische Zusammenhänge, für Einrichtungen im Ausland oder in Romanen. Verwandt sind 孤児 „Waise“ und 戦災孤児 „Kriegswaisen“.",
         "examples": [
           {
             "japanese": "私は孤児院で幼少期を過ごしました。",
@@ -188384,7 +188384,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Verb",
         "category": "Zeit",
         "level": "N1",
-        "notes": "来る／来たる mit der Lesung きたる wirkt in Ankündigungen und feierlichen Aussagen gehoben. Vor einem Datum bedeutet 来たる „kommend“: 来たる五月. Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“. Diese Lesung folgt der Godan-Beugung: きたります, きたった. Sie gehört nicht zur unregelmäßigen Beugung von 来る／くる mit きます und きた.",
+        "notes": "来る／来たる mit der Lesung きたる wirkt in Ankündigungen und feierlichen Aussagen gehoben. Vor einem Datum bedeutet 来たる „kommend“: 来たる五月. Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“; üblich ist dabei fast nur die Grundform, etwa in Titeln und feierlicher Erzählung. Diese Lesung folgt der Godan-Beugung (きたります, きたった), gebeugte Formen sind heute aber selten. Sie gehört nicht zur unregelmäßigen Beugung von 来る／くる mit きます und きた.",
         "examples": [
           {
             "japanese": "来たる五月十日に、記念式典を開きます。",
@@ -188392,9 +188392,9 @@ window.VOCAB_CORRECTION_RULES = {
             "german": "Am kommenden 10. Mai veranstalten wir eine Gedenkfeier."
           },
           {
-            "japanese": "長い冬が終わり、ようやく春が来たった。",
-            "romaji": "Nagai fuyu ga owari, yōyaku haru ga kitatta.",
-            "german": "Der lange Winter ging zu Ende, und endlich hielt der Frühling Einzug."
+            "japanese": "長い冬が終わり、待ちに待った春が来たる。",
+            "romaji": "Nagai fuyu ga owari, machi ni matta haru ga kitaru.",
+            "german": "Der lange Winter geht zu Ende, und der lang ersehnte Frühling hält Einzug."
           }
         ],
         "aliases": [
@@ -192509,7 +192509,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Verb",
         "category": "Bewegung",
         "level": "N1",
-        "notes": "Godan-Verb, fast immer in Kana geschrieben: 弾が腕をかする „die Kugel streift den Arm“; verneint oft かすりもしない „nicht einmal in die Nähe kommen“. Nicht verwechseln mit 擦る/する „reiben“ (vocab-n2:2006), das dieselben Kanji hat, und mit 化する/かする „sich verwandeln“ (anderes Wort, Suru-Verb). Die Bedeutung „abschöpfen, einen Anteil einstreichen“ ist umgangssprachlich und abwertend.",
+        "notes": "Godan-Verb, fast immer in Kana geschrieben: 弾が腕をかする „die Kugel streift den Arm“; verneint oft かすりもしない „nicht einmal in die Nähe kommen“. Nicht verwechseln mit 擦る/する „reiben“, das dieselben Kanji hat, und mit 化する/かする „sich verwandeln“ (anderes Wort, Suru-Verb). Die Bedeutung „abschöpfen, einen Anteil einstreichen“ ist umgangssprachlich und abwertend.",
         "examples": [
           {
             "japanese": "弾が腕をかすっただけで、大きなけがはなかった。",
@@ -192571,7 +192571,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Menschen",
         "level": "N1",
-        "notes": "Japanische Lesung von 敵 für einen persönlichen Feind oder Rivalen, vor allem in festen Wendungen: 目の敵にする „jemanden auf dem Kieker haben“, 敵を討つ „Rache nehmen“, 商売敵 „Geschäftskonkurrent“, 恋敵 „Nebenbuhler“ (in Komposita stimmhaft がたき). Für Rache wird oft 仇 geschrieben (仇討ち). Der allgemeine Feind im Krieg oder Gegner im Sport ist 敵/てき (vocab-n2:116).",
+        "notes": "Japanische Lesung von 敵 für einen persönlichen Feind oder Rivalen, vor allem in festen Wendungen: 目の敵にする „jemanden auf dem Kieker haben“, 敵を討つ „Rache nehmen“, 商売敵 „Geschäftskonkurrent“, 恋敵 „Nebenbuhler“ (in Komposita stimmhaft がたき). Für Rache wird oft 仇 geschrieben (仇討ち). Der allgemeine Feind im Krieg oder Gegner im Sport ist 敵/てき.",
         "examples": [
           {
             "japanese": "部長はなぜか私を目の敵にしている。",
@@ -192620,7 +192620,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Geographie",
         "level": "N1",
-        "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう (vocab-n2:25), etwa 国境を越える „die Staatsgrenze überqueren“.",
+        "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう, etwa 国境を越える „die Staatsgrenze überqueren“.",
         "examples": [
           {
             "japanese": "国境の長いトンネルを抜けると雪国であった。",
@@ -192716,7 +192716,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Verb",
         "category": "Abstrakt",
         "level": "N1",
-        "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“ (vocab-n2:1848).",
+        "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“.",
         "examples": [
           {
             "japanese": "現実に即した計画を立てるべきだ。",
@@ -194643,7 +194643,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Alltag",
         "level": "N1",
-        "notes": "金棒 „Eisenstange, eiserne Keule“ kennt man vor allem als Waffe der Oni und aus der Redensart 鬼に金棒 „wie ein Oni mit Eisenkeule“, d. h. „noch stärker, praktisch unschlagbar“. Die seltene Schreibung 鉄棒 ist hier als Alias geführt; normal gelesen bedeutet 鉄棒/てつぼう aber „Reck“ (eigene Karte). Für eine gewöhnliche Brechstange sagt man heute eher バール.",
+        "notes": "金棒 „Eisenstange, eiserne Keule“ kennt man vor allem als Waffe der Oni und aus der Redensart 鬼に金棒 „wie ein Oni mit Eisenkeule“, d. h. „noch stärker, praktisch unschlagbar“. Selten wird das Wort auch 鉄棒 geschrieben; normal gelesen bedeutet 鉄棒/てつぼう aber „Reck“ (eigene Karte). Für eine gewöhnliche Brechstange sagt man heute eher バール.",
         "examples": [
           {
             "japanese": "経験豊富な彼がチームに加われば、まさに鬼に金棒だ。",
@@ -198721,7 +198721,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gefühle",
         "level": "N1",
-        "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 (vocab-n3:269) oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句.",
+        "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句.",
         "examples": [
           {
             "japanese": "彼は朝早く起きるのを苦にしない。",
@@ -198767,7 +198767,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gesellschaft",
         "level": "N1",
-        "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, vocab-n3:1777, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“.",
+        "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“.",
         "examples": [
           {
             "japanese": "豊臣秀吉はついに天下を取った。",
@@ -198859,7 +198859,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Politik",
         "level": "N1",
-        "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する (vocab-n3:1785 採決); ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen.",
+        "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する; ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen.",
         "examples": [
           {
             "japanese": "議長は法案について決を採った。",
@@ -198905,7 +198905,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Eigenschaften",
         "level": "N1",
-        "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら (vocab-n1:3050) ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend.",
+        "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend.",
         "examples": [
           {
             "japanese": "壁のペンキの塗り方にむらがある。",
@@ -198954,7 +198954,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Natur",
         "level": "N1",
-        "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育 (vocab-n1:correction:seiiku), das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長 (vocab-n2:149).",
+        "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育, das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長.",
         "examples": [
           {
             "japanese": "稚魚は暖かい海で順調に成育している。",
@@ -199000,7 +199000,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Alltag",
         "level": "N1",
-        "notes": "Neutrales Grundwort zu お手数 (vocab-n3:1432), das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“.",
+        "notes": "Neutrales Grundwort zu お手数, das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“.",
         "examples": [
           {
             "japanese": "この書類の手続きは意外と手数がかかる。",
@@ -199078,7 +199078,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Adjektiv",
         "category": "Eigenschaften",
         "level": "N1",
-        "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい (vocab-n5:71). Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt.",
+        "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい. Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt.",
         "examples": [
           {
             "japanese": "終わり良ければすべて良し。",
@@ -199177,7 +199177,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Adverb",
         "category": "Lautmalerei",
         "level": "N1",
-        "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ (vocab-n4:1251), das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen.",
+        "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ, das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen.",
         "examples": [
           {
             "japanese": "試合は最後までハラハラさせられた。",
@@ -199226,7 +199226,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Technik",
         "level": "N1",
-        "notes": "Vollform von マイク (vocab-n3:3350); im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied.",
+        "notes": "Vollform von マイク; im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied.",
         "examples": [
           {
             "japanese": "会議室の天井にマイクロフォンが設置されている。",
@@ -199258,7 +199258,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Finanzen",
         "level": "N1",
-        "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫 (vocab-n3:2721); die Lesung きんぞう ist veraltet.",
+        "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫; die Lesung きんぞう ist veraltet.",
         "examples": [
           {
             "japanese": "昔の大きな商家には立派な金蔵があった。",
@@ -281614,7 +281614,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "719": {
         "level": "N3",
-        "notes": "労働者 ist „Arbeiter, Arbeitnehmer“ als wirtschaftlicher und rechtlicher Begriff: 労働者の権利, 外国人労働者, 労働者不足 (ろうどうしゃぶそく, „Arbeitskräftemangel“). Im Alltag stellt man sich eher mit 会社員 („Angestellter“) vor oder sagt 働く人; 労働者 klingt nach Zeitung, Politik oder Gewerkschaft. Sinn 2 meint speziell körperlich arbeitende Menschen (Fabrik, Baustelle).",
+        "notes": "労働者 ist „Arbeiter, Arbeitnehmer“ als wirtschaftlicher und rechtlicher Begriff: 労働者の権利, 外国人労働者, 労働者不足 (ろうどうしゃぶそく, „Arbeitskräftemangel“). Im Alltag stellt man sich eher mit 会社員 („Angestellter“) vor oder sagt 働く人; 労働者 klingt nach Zeitung, Politik oder Gewerkschaft. Im engeren Sinn sind damit speziell körperlich arbeitende Menschen gemeint (Fabrik, Baustelle).",
         "examples": [
           {
             "japanese": "コウイチ社長は、日本の労働者不足についてどうお考えなんですか？",
@@ -281717,7 +281717,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "722": {
         "level": "N3",
-        "notes": "注文する ist transitiv: Xを注文する („X bestellen“) – im Restaurant, im Laden oder online (ネットで注文する). Kellner fragen ご注文は？ bzw. ご注文はお決まりですか. Beim Essen sagt man umgangssprachlich auch 頼む; eine Reservierung ist dagegen 予約. Sinn 2: 注文 als „Wunsch, Forderung“, etwa 注文が多い („anspruchsvoll, wählerisch sein“).",
+        "notes": "注文する ist transitiv: Xを注文する („X bestellen“) – im Restaurant, im Laden oder online (ネットで注文する). Kellner fragen ご注文は？ bzw. ご注文はお決まりですか. Beim Essen sagt man umgangssprachlich auch 頼む; eine Reservierung ist dagegen 予約. Daneben bedeutet 注文 auch „Wunsch, Forderung“, etwa 注文が多い („anspruchsvoll, wählerisch sein“).",
         "examples": [
           {
             "japanese": "私はラーメンを注文しました。",
@@ -313681,7 +313681,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Grammatik",
         "level": "N4",
-        "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“ (vocab-n5:1195).",
+        "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“.",
         "examples": [
           {
             "japanese": "雨が降っても、試合は行われる。",
@@ -370500,7 +370500,7 @@ window.VOCAB_CORRECTION_RULES = {
         "pitchProvenance": []
       },
       "1535": {
-        "notes": "七味 ist die Kurzform von 七味唐辛子, einer Gewürzmischung aus Chili und sechs weiteren Zutaten wie Sesam, Sansho-Pfeffer und Zitrusschale. Man streut es mit 七味をかける oder 七味を振る über Udon, Soba, 牛丼 oder Yakitori. Davon zu unterscheiden ist 一味 (唐辛子), reiner Chili ohne andere Gewürze. Die wörtliche Bedeutung „sieben Geschmäcker“ (Sinn 1) spielt im Alltag kaum eine Rolle.",
+        "notes": "七味 ist die Kurzform von 七味唐辛子, einer Gewürzmischung aus Chili und sechs weiteren Zutaten wie Sesam, Sansho-Pfeffer und Zitrusschale. Man streut es mit 七味をかける oder 七味を振る über Udon, Soba, 牛丼 oder Yakitori. Davon zu unterscheiden ist 一味 (唐辛子), reiner Chili ohne andere Gewürze. Die wörtliche Bedeutung „sieben Geschmäcker“ spielt im Alltag kaum eine Rolle.",
         "examples": [
           {
             "japanese": "うどんに七味をかけます。",
@@ -374476,7 +374476,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "1642": {
         "level": "N2",
-        "notes": "灯台 ist der „Leuchtturm“; dazu gehören 灯台の光 und 灯台守 „Leuchtturmwärter“. Die Redewendung 灯台下暗し „unter dem Leuchter ist es dunkel“ bedeutet, dass man das Naheliegende übersieht – gemeint ist dabei ursprünglich der alte Öllampenständer (Bedeutung 2), nicht der Leuchtturm. Nicht verwechseln mit 東大 (gleiche Lesung, Kurzform für die Universität Tokio).",
+        "notes": "灯台 ist der „Leuchtturm“; dazu gehören 灯台の光 und 灯台守 „Leuchtturmwärter“. Die Redewendung 灯台下暗し „unter dem Leuchter ist es dunkel“ bedeutet, dass man das Naheliegende übersieht – gemeint ist dabei ursprünglich der alte Öllampenständer, nicht der Leuchtturm. Nicht verwechseln mit 東大 (gleiche Lesung, Kurzform für die Universität Tokio).",
         "examples": [
           {
             "japanese": "灯台が見えます。",
@@ -398961,7 +398961,7 @@ window.VOCAB_CORRECTION_RULES = {
         ]
       },
       "2369": {
-        "notes": "建てる heißt „ein Gebäude errichten, bauen“: 家を建てる, ビルを建てる, 学校を建てる. Das intransitive Gegenstück ist 建つ: 駅前にビルが建った „vor dem Bahnhof ist ein Gebäude entstanden“. Nicht verwechseln mit dem gleich klingenden 立てる „aufstellen, aufrichten“, das auch für Pläne steht (計画を立てる) – im ersten Beispiel kommen beide nebeneinander vor. Für Dinge, die keine Bauwerke sind, benutzt man 作る.",
+        "notes": "建てる heißt „ein Gebäude errichten, bauen“: 家を建てる, ビルを建てる, 学校を建てる. Das intransitive Gegenstück ist 建つ: 駅前にビルが建った „vor dem Bahnhof ist ein Gebäude entstanden“. Nicht verwechseln mit dem gleich klingenden 立てる „aufstellen, aufrichten“, das auch für Pläne steht (計画を立てる). Für Dinge, die keine Bauwerke sind, benutzt man 作る.",
         "examples": [
           {
             "japanese": "この地区には、新しい学校を建てる計画があります。",
@@ -454373,7 +454373,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gesellschaft",
         "level": "N3",
-        "notes": "Substantiv zu 進歩する (vocab-n3:27), meist mit の davor: 技術の進歩 „technischer Fortschritt“, 医学の進歩 „Fortschritt der Medizin“. Typische Verbindungen sind 進歩が速い „schnell vorankommen“ und 進歩が見られる „ein Fortschritt ist erkennbar“. Anders als 発展 „Entwicklung, Wachstum“ betont 進歩 die Verbesserung hin zu einem höheren Stand.",
+        "notes": "Substantiv zu 進歩する, meist mit の davor: 技術の進歩 „technischer Fortschritt“, 医学の進歩 „Fortschritt der Medizin“. Typische Verbindungen sind 進歩が速い „schnell vorankommen“ und 進歩が見られる „ein Fortschritt ist erkennbar“. Anders als 発展 „Entwicklung, Wachstum“ betont 進歩 die Verbesserung hin zu einem höheren Stand.",
         "examples": [
           {
             "japanese": "科学技術の進歩はとても速い。",
@@ -454638,7 +454638,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gesellschaft",
         "level": "N3",
-        "notes": "Substantiv zu 尊重する (vocab-n3:18): 人権の尊重 „Achtung der Menschenrechte“, 個性の尊重 „Respekt vor der Individualität“. Wirkt formell und steht oft in Gesetzes-, Schul- und Zeitungssprache. Anders als 尊敬 „Verehrung (einer Person)“ bezieht sich 尊重 auf Meinungen, Rechte und Entscheidungen, die man ernst nimmt.",
+        "notes": "Substantiv zu 尊重する: 人権の尊重 „Achtung der Menschenrechte“, 個性の尊重 „Respekt vor der Individualität“. Wirkt formell und steht oft in Gesetzes-, Schul- und Zeitungssprache. Anders als 尊敬 „Verehrung (einer Person)“ bezieht sich 尊重 auf Meinungen, Rechte und Entscheidungen, die man ernst nimmt.",
         "examples": [
           {
             "japanese": "憲法は基本的人権の尊重を定めている。",
@@ -454684,7 +454684,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Allgemein",
         "level": "N3",
-        "notes": "Sinojapanische Lesung von 他, fest vor allem in その他 „Sonstiges, und anderes“ und 自他 „man selbst und andere“. Bei 他の „andere“ sind beide Lesungen möglich: im Gespräch überwiegt die native Lesung ほか (vocab-n5:1433), die Lesung た klingt schriftlicher und sachlicher. ほかに „außerdem“ wird dagegen nie た gelesen.",
+        "notes": "Sinojapanische Lesung von 他, fest vor allem in その他 „Sonstiges, und anderes“ und 自他 „man selbst und andere“. Bei 他の „andere“ sind beide Lesungen möglich: im Gespräch überwiegt die native Lesung ほか, die Lesung た klingt schriftlicher und sachlicher. ほかに „außerdem“ wird dagegen nie た gelesen.",
         "examples": [
           {
             "japanese": "名前、住所、その他の情報をここに書いてください。",
@@ -454730,7 +454730,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Allgemein",
         "level": "N3",
-        "notes": "Gegenstück zu 中 „mittel“ (vocab-n5:correction:chu-medium) und 小 „klein“: Größen werden mit 大・中・小 angegeben. Als Präfix verstärkt だい- vor allem sinojapanische Nomen: 大問題 „großes Problem“, 大成功 „voller Erfolg“, 大事件 „großer Vorfall“. Vor japanischen Wörtern lautet es meist おお- (大雨, 大きい). Homophone: 台 „Gestell“, 〜代 „Gebühr“, 題 „Titel“.",
+        "notes": "Gegenstück zu 中 „mittel“ und 小 „klein“: Größen werden mit 大・中・小 angegeben. Als Präfix verstärkt だい- vor allem sinojapanische Nomen: 大問題 „großes Problem“, 大成功 „voller Erfolg“, 大事件 „großer Vorfall“. Vor japanischen Wörtern lautet es meist おお- (大雨, 大きい). Homophone: 台 „Gestell“, 〜代 „Gebühr“, 題 „Titel“.",
         "examples": [
           {
             "japanese": "コーヒーのサイズは大と小、どちらにしますか。",
@@ -454776,7 +454776,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gesellschaft",
         "level": "N3",
-        "notes": "Bezeichnet einen großen, meist weltweiten Krieg und steht fast immer in 第一次世界大戦 / 第二次世界大戦 „Erster/Zweiter Weltkrieg“ oder kurz in 大戦中 „während des Krieges“ und 大戦後 „nach dem Krieg“. Das allgemeine Wort für Krieg ist 戦争. Nicht verwechseln mit dem Homophon 対戦 „Begegnung, Wettkampf“ (vocab-n2:400).",
+        "notes": "Bezeichnet einen großen, meist weltweiten Krieg und steht fast immer in 第一次世界大戦 / 第二次世界大戦 „Erster/Zweiter Weltkrieg“ oder kurz in 大戦中 „während des Krieges“ und 大戦後 „nach dem Krieg“. Das allgemeine Wort für Krieg ist 戦争. Nicht verwechseln mit dem Homophon 対戦 „Begegnung, Wettkampf“.",
         "examples": [
           {
             "japanese": "祖父は第二次世界大戦を経験した。",
@@ -454822,7 +454822,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Essen",
         "level": "N3",
-        "notes": "Nackte Form von お茶 (vocab-n5:119). Allein klingt 茶 schriftlich oder knapp; im Gespräch sagt man お茶. Häufig in Zusammensetzungen und festen Ausdrücken: 茶色 „braun“, 紅茶 „schwarzer Tee“, 茶の湯 „Teezeremonie“, 茶畑 „Teeplantage“. Als Kurzform steht 茶 auch für die Farbe Braun, z. B. 茶のコート „brauner Mantel“.",
+        "notes": "Nackte Form von お茶. Allein klingt 茶 schriftlich oder knapp; im Gespräch sagt man お茶. Häufig in Zusammensetzungen und festen Ausdrücken: 茶色 „braun“, 紅茶 „schwarzer Tee“, 茶の湯 „Teezeremonie“, 茶畑 „Teeplantage“. Als Kurzform steht 茶 auch für die Farbe Braun, z. B. 茶のコート „brauner Mantel“.",
         "examples": [
           {
             "japanese": "静岡は茶の産地として有名だ。",
@@ -454868,7 +454868,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Abstrakt",
         "level": "N3",
-        "notes": "Substantiv zu 注目する (vocab-n3:279). Typische Verbindungen: 注目を集める „Aufmerksamkeit auf sich ziehen“, 注目を浴びる „im Rampenlicht stehen“, 注目の的 „Mittelpunkt des Interesses“ und attributiv 注目の新人 „vielbeachteter Newcomer“. Anders als 注意 „Vorsicht, Achtung (vor Gefahr)“ meint 注目 das interessierte Hinschauen.",
+        "notes": "Substantiv zu 注目する. Typische Verbindungen: 注目を集める „Aufmerksamkeit auf sich ziehen“, 注目を浴びる „im Rampenlicht stehen“, 注目の的 „Mittelpunkt des Interesses“ und attributiv 注目の新人 „vielbeachteter Newcomer“. Anders als 注意 „Vorsicht, Achtung (vor Gefahr)“ meint 注目 das interessierte Hinschauen.",
         "examples": [
           {
             "japanese": "新しいスマホが世界中の注目を集めている。",
@@ -518514,11 +518514,6 @@ window.VOCAB_CORRECTION_RULES = {
         "notes": "夏至 ist die Sommersonnenwende um den 21. Juni, der Tag mit dem längsten Tageslicht. Beachte die ungewöhnliche Lesung げし (夏 als げ). Das Gegenstück ist 冬至 (とうじ), an dem man in Japan traditionell ein Yuzu-Bad nimmt und Kürbis isst; die Tagundnachtgleichen heißen 春分 und 秋分. 夏至 ist einer der 二十四節気 und fällt in Japan mitten in die Regenzeit.",
         "examples": [
           {
-            "japanese": "父に夏至から11日目のことを何と呼ぶか知っているかと聞かれたので、得意気に「ハゲ症」って答えたんですけど、それって「ハゲ頭の症状」って意味になるみたいで。父は笑って、正しい答えは「半夏生」だよって教えてくれましたけどね。",
-            "romaji": "Chichi ni geshi kara 11nichime no koto o nan to yobu ka shitte iru ka to kikareta node, tokuige ni \"Hageshō\" tte kotaeta n desu kedo, sore tte \"hageatama no shōjō\" tte imi ni naru mitai de. Chichi wa waratte, tadashii kotae wa \"Hangeshō\" da yo tte oshiete kuremashita kedo ne.",
-            "german": "Mein Vater fragte mich, wie man den elften Tag nach der Sommersonnenwende nennt. Ich antwortete stolz \"Hageshou\", was wörtlich \"Glatzen-Symptom\" bedeutet. Er lachte und sagte mir, die richtige Antwort sei \"Hangeshou\"."
-          },
-          {
             "japanese": "夏至は、一年で最も昼が長い日です。",
             "romaji": "Geshi wa, ichinen de mottomo hiru ga nagai hi desu.",
             "german": "Die Sommersonnenwende ist der Tag mit dem längsten Tageslicht im Jahr."
@@ -521197,7 +521192,7 @@ window.VOCAB_CORRECTION_RULES = {
         "romaji": "rāmen",
         "meaning": "Ramen (chinesische Nudelsuppe)",
         "level": "N4",
-        "notes": "ラーメン bezeichnet hier die chinesisch geprägten Nudeln beziehungsweise das Nudelgericht in Suppe. 鮭ラーメン benennt eine Variante mit Lachs; ラーメン屋 einen Laden, der Ramen serviert. Die übliche Schreibweise ist Katakana; die seltene Form 拉麺 bleibt als Suchalias erhalten. Die gleiche Katakanaform kann in der Bautechnik einen Rahmen bezeichnen; diese andere Bedeutung gehört nicht zu dieser Karte.",
+        "notes": "ラーメン bezeichnet hier die chinesisch geprägten Nudeln beziehungsweise das Nudelgericht in Suppe. 鮭ラーメン benennt eine Variante mit Lachs; ラーメン屋 einen Laden, der Ramen serviert. Die übliche Schreibweise ist Katakana; die seltene Form 拉麺 lässt sich ebenfalls über die Suche finden. Die gleiche Katakanaform kann in der Bautechnik einen Rahmen bezeichnen; diese andere Bedeutung gehört nicht zu dieser Karte.",
         "examples": [
           {
             "japanese": "鮭ラーメンなんて初めて食べるよ。",
@@ -570155,7 +570150,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Abstrakt",
         "level": "N3",
-        "notes": "Gehobenes, schriftsprachliches Wort für „Leben“ im philosophischen Sinn, vor allem im Gegensatz 生と死 „Leben und Tod“ und in der Wendung この世に生を受ける „geboren werden“. Im Alltag sagt man 命 „Leben (das man verlieren kann)“ oder 人生 „Lebenslauf, Leben“. Dasselbe Zeichen gelesen なま (vocab-n3:3325) bedeutet „roh, frisch, live“, gelesen き (N1-Karten) „pur, unverdünnt“; als Suffix せい kennt man es aus 一年生 „Schüler des ersten Jahrgangs“.",
+        "notes": "Gehobenes, schriftsprachliches Wort für „Leben“ im philosophischen Sinn, vor allem im Gegensatz 生と死 „Leben und Tod“ und in der Wendung この世に生を受ける „geboren werden“. Im Alltag sagt man 命 „Leben (das man verlieren kann)“ oder 人生 „Lebenslauf, Leben“. Dasselbe Zeichen gelesen なま bedeutet „roh, frisch, live“, gelesen き (N1-Karten) „pur, unverdünnt“; als Suffix せい kennt man es aus 一年生 „Schüler des ersten Jahrgangs“.",
         "examples": [
           {
             "japanese": "今日の授業では生と死について考えた。",
@@ -572545,7 +572540,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Politik",
         "level": "N2",
-        "notes": "Steht selten allein, sondern meist als Wortbestandteil: 共産主義 „Kommunismus“ (vocab-n2:21), 共産党 „Kommunistische Partei“ (vocab-n3:3013), 共産圏 „Ostblock, kommunistischer Block“, 共産化 „Kommunisierung“. In Zeitungsschlagzeilen und Wahlberichten steht 共産 allein als Kurzform für die Kommunistische Partei. Gegenbegriff ist 資本主義 „Kapitalismus“.",
+        "notes": "Steht selten allein, sondern meist als Wortbestandteil: 共産主義 „Kommunismus“, 共産党 „Kommunistische Partei“, 共産圏 „Ostblock, kommunistischer Block“, 共産化 „Kommunisierung“. In Zeitungsschlagzeilen und Wahlberichten steht 共産 allein als Kurzform für die Kommunistische Partei. Gegenbegriff ist 資本主義 „Kapitalismus“.",
         "examples": [
           {
             "japanese": "冷戦時代、その国は共産圏に属していた。",
@@ -572623,7 +572618,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Technik",
         "level": "N1",
-        "notes": "Substantiv zum Verb 固定する „befestigen“ (vocab-n2:543), sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費).",
+        "notes": "Substantiv zum Verb 固定する „befestigen“, sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費).",
         "examples": [
           {
             "japanese": "最近は固定電話を持たない家庭が増えている。",
@@ -572669,7 +572664,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Grammatik",
         "level": "N1",
-        "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに, vocab-n3:2554); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“).",
+        "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“).",
         "examples": [
           {
             "japanese": "三か月ごとの定期点検を忘れないでください。",
@@ -572701,7 +572696,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Bildung",
         "level": "N1",
-        "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“ (vocab-n2:573), typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle.",
+        "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“, typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle.",
         "examples": [
           {
             "japanese": "詳しくは次のページを参照のこと。",
@@ -572747,7 +572742,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Freizeit",
         "level": "N1",
-        "notes": "Substantiv zum Verb 収集する „sammeln“ (vocab-n2:572), oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める.",
+        "notes": "Substantiv zum Verb 収集する „sammeln“, oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める.",
         "examples": [
           {
             "japanese": "祖父の趣味は古い切手の収集だ。",
@@ -572796,7 +572791,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Arbeit",
         "level": "N1",
-        "notes": "Substantiv zum Verb 照合する „abgleichen“ (vocab-n2:552): Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht.",
+        "notes": "Substantiv zum Verb 照合する „abgleichen“: Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht.",
         "examples": [
           {
             "japanese": "現場に残された指紋の照合を急いでいる。",
@@ -572842,7 +572837,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Zeit",
         "level": "N1",
-        "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte (vocab-n2:1323). Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“ (vocab-n2:37).",
+        "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte. Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“.",
         "examples": [
           {
             "japanese": "事前の準備がしっかりしていたので、会議はスムーズに進んだ。",
@@ -572888,7 +572883,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Abstrakt",
         "level": "N1",
-        "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte (vocab-n3:3281). 実/み (vocab-n3:correction:mi-fruit) ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen.",
+        "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte. 実/み ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen.",
         "examples": [
           {
             "japanese": "彼女は私の実の姉ではなく、義理の姉です。",
@@ -572934,7 +572929,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Gesellschaft",
         "level": "N1",
-        "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“ (vocab-n2:474), häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する, vocab-n2:1437; 対向車).",
+        "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“, häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する; 対向車).",
         "examples": [
           {
             "japanese": "二人は互いに強い対抗意識を持っている。",
@@ -572980,7 +572975,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Allgemein",
         "level": "N1",
-        "notes": "Substantiv zum Verb 短縮する „verkürzen“ (vocab-n2:451), vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略.",
+        "notes": "Substantiv zum Verb 短縮する „verkürzen“, vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略.",
         "examples": [
           {
             "japanese": "働き方改革で労働時間の短縮が進んでいる。",
@@ -573866,7 +573861,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Grammatik",
         "level": "N2",
-        "notes": "限り ist das Nomen zu 限る (vocab-n3:2501) und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben.",
+        "notes": "限り ist das Nomen zu 限る und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben.",
         "examples": [
           {
             "japanese": "できる限り早くご連絡いたします。",
@@ -573916,7 +573911,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Zeit",
         "level": "N2",
-        "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ, vocab-n3:3291) „Datum“ und 〜漬け (づけ, vocab-n2:1532) „eingelegt in“.",
+        "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ) „Datum“ und 〜漬け (づけ) „eingelegt in“.",
         "examples": [
           {
             "japanese": "四月一日付けで大阪支社に異動することになった。",
@@ -573995,7 +573990,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Grammatik",
         "level": "N2",
-        "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ (vocab-n3:3303), etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix.",
+        "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ, etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix.",
         "examples": [
           {
             "japanese": "風邪気味なので、今日は早めに寝ます。",
@@ -574027,7 +574022,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Alltag",
         "level": "N2",
-        "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 (vocab-n5:790) „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten.",
+        "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten.",
         "examples": [
           {
             "japanese": "洗面所はあちらの廊下の突き当たりです。",
@@ -574073,7 +574068,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Adjektiv",
         "category": "Eigenschaften",
         "level": "N2",
-        "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい (vocab-n5:75) und 温かい (vocab-n2:719); sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか.",
+        "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい und 温かい; sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか.",
         "examples": [
           {
             "japanese": "窓から暖かな春の日差しが差し込んでいる。",
@@ -574126,7 +574121,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Alltag",
         "level": "N2",
-        "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー (vocab-n3:correction:oobaa) ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten.",
+        "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten.",
         "examples": [
           {
             "japanese": "今朝は冷え込んだので、厚いオーバーコートを着て出かけた。",
@@ -574202,7 +574197,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Kommunikation",
         "level": "N2",
-        "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vocab-n5:correction:o-honorific-prefix, vor japanischen Wörtern) oder ご (vocab-n5:correction:go-honorific-prefix, vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社.",
+        "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vor japanischen Wörtern) oder ご (vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社.",
         "examples": [
           {
             "japanese": "御社の新しいサービスについて詳しく伺いたいと思います。",
@@ -574234,7 +574229,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Nomen",
         "category": "Bewegung",
         "level": "N2",
-        "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ, vocab-n5:1032), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ).",
+        "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ).",
         "examples": [
           {
             "japanese": "彼は二歩下がって、深く頭を下げた。",
@@ -574280,7 +574275,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Zeit",
         "level": "N2",
-        "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日 (vocab-n5:199), 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände.",
+        "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日, 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände.",
         "examples": [
           {
             "japanese": "毎週末、家族で近くの公園に出かけます。",
@@ -574312,7 +574307,7 @@ window.VOCAB_CORRECTION_RULES = {
         "type": "Partikel",
         "category": "Abstrakt",
         "level": "N2",
-        "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから (vocab-n4:1398). In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力.",
+        "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから. In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力.",
         "examples": [
           {
             "japanese": "この国は経済力では世界有数だ。",
@@ -584514,7 +584509,7 @@ window.VOCAB_CORRECTION_RULES = {
       },
       "145": {
         "type": "Adjektiv",
-        "notes": "元気一杯 bedeutet voller Energie oder Lebenskraft. Mit に beschreibt es eine Tätigkeit: 元気一杯に遊ぶ. Mit な steht es vor einem Nomen: 元気一杯な子ども. Die ebenfalls belegte Schreibweise 元気いっぱい ist als Alias erhalten. Auf dieser Karte geht es um die ganze Verbindung, nicht um 一杯 als einzelnes Wort für ein Glas oder eine volle Menge.",
+        "notes": "元気一杯 bedeutet voller Energie oder Lebenskraft. Mit に beschreibt es eine Tätigkeit: 元気一杯に遊ぶ. Mit な steht es vor einem Nomen: 元気一杯な子ども. Ebenfalls üblich ist die Schreibweise 元気いっぱい. Auf dieser Karte geht es um die ganze Verbindung, nicht um 一杯 als einzelnes Wort für ein Glas oder eine volle Menge.",
         "examples": [
           {
             "japanese": "子供たちは元気一杯に遊んでいる。",

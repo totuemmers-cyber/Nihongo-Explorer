@@ -81,3 +81,17 @@ Model split (from the 150-card pilot, 2026-11-13):
 
 - Sonnet 5.5 at medium effort does the bulk: vocabulary, kanji, onomatopoeia and examples.
 - Opus 5.5 at high effort does the explanatory content: lessons, grammar explanations, distractor reasons, comprehension questions and explanations, and the roughly 300 vocabulary notes that compare with German (`extract` output whose `de.notes` mentions *Deutsch*).
+
+## Correcting the German source
+
+German stays the source. Fix the German first, then refresh the English:
+
+- Vocabulary is generated from sealed review batches, so a direct edit of `vocab-n*.js`
+  fails `audit:vocabulary`. Put the edits in a correction list and run
+  `scripts/vocabulary-text-corrections.cjs`
+  (see [the batch workflow](scripts/vocabulary-batch.md#german-text-corrections)).
+- Other datasets (kanji, grammar, onomatopoeia, …) are edited in their data files.
+
+`node scripts/build-english.cjs status` then lists the changed records as stale. They show
+in German until their English is renewed: `extract <dataset> --stale`, adjust the English,
+`apply`, and `npm run build:english`.

@@ -1,0 +1,597 @@
+{
+  "version": 3,
+  "merges": [],
+  "reviews": [
+    {
+      "id": "vocab-n1:correction:seiiku-growing-up",
+      "revisionId": "text-2026-11-vocab-n1-correction-seiiku-growing-up",
+      "state": "accepted",
+      "predecessorHash": "ce37c93141f14b94fbea88a4da63b70b6266e7b792cc6c8ec1766ace45ae52e8",
+      "originalHash": "ce37c93141f14b94fbea88a4da63b70b6266e7b792cc6c8ec1766ace45ae52e8",
+      "predecessorRevisionHash": "1deb2aee0dcb788aa81679ea0a32fa463643d32758376883392d52d4226cd34d",
+      "original": {
+        "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育 (vocab-n1:correction:seiiku), das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長 (vocab-n2:149)."
+      },
+      "replacement": {
+        "notes": "Fachsprachlich für das Großwerden bis zur Reife, auch als 成育する. Gleichlautend mit 生育, das nach Zeitungs- und Behördenusus eher für Pflanzen steht, während 成育 für Tiere und Menschen bevorzugt wird. Das allgemeine Alltagswort für Wachstum ist 成長."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n1:correction:seiiku, vocab-n2:149). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-seiiku-growing-up; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:seiiku-growing-up notes; referenced cards: vocab-n1:correction:seiiku = 生育 (せいいく); vocab-n2:149 = 成長 (せいちょう)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 成育/セイイク; lemma 成育; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@151872244",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 成育/セイイク; lemma 成育; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "成育",
+              "reading": "せいいく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 成育/せいいく \"Heranwachsen, Aufwachsen (bis zur Reife; v. a. Menschen und Tiere)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Heranwachsen, Aufwachsen (bis zur Reife; v. a. Menschen und Tiere). JMdict 1375640 sense 1, noun/suru verb (intransitive): growth to maturity; being brought up; growing up; raising",
+        "japanese": "稚魚は暖かい海で順調に成育している。 / 子どもの成育には十分な睡眠が欠かせない。 / この動物園ではパンダの成育記録をつけている。",
+        "romanization": "seiiku; Chigyo wa atatakai umi de junchō ni seiiku shite iru. / Kodomo no seiiku ni wa jūbun na suimin ga kakasenai. / Kono dōbutsuen de wa panda no seiiku kiroku o tsukete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Jungfische wachsen im warmen Meer gut heran. / Für das Heranwachsen von Kindern ist ausreichend Schlaf unverzichtbar. / Dieser Zoo führt Aufzeichnungen über das Heranwachsen der Pandas.",
+        "contexts": [
+          "fish farming",
+          "child development",
+          "zoo records"
+        ],
+        "lexical": "JMdict 1375640 sense 1, noun/suru verb (intransitive): growth to maturity; being brought up; growing up; raising",
+        "register": "formal / technical",
+        "transitivity": "intransitive as 成育する (… が成育する)",
+        "conjugation": "Nonverb (noun; also suru verb 成育する)",
+        "level": "A technical written-language term without JMdict priority tags, so N1.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-seiiku-growing-up; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b5793eeda686bcbf0fcd7d2478a8f8e50fa3dd1629a222a24e09d02a69809df7",
+        "approvalHash": "7037162f5d01517223f9c3e818a648339774164d10a069d65801cbc624ed8d79"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tesuu-trouble",
+      "revisionId": "text-2026-11-vocab-n1-correction-tesuu-trouble",
+      "state": "accepted",
+      "predecessorHash": "ab17b2b6be4e6dd3d7781c81e34ae9f8ef192a25d4b993dd06268e48cb606a40",
+      "originalHash": "ab17b2b6be4e6dd3d7781c81e34ae9f8ef192a25d4b993dd06268e48cb606a40",
+      "predecessorRevisionHash": "b2a5d553714de1118269be652fe2f4fb4677a15510b8f294153b4430a44489bd",
+      "original": {
+        "notes": "Neutrales Grundwort zu お手数 (vocab-n3:1432), das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“."
+      },
+      "replacement": {
+        "notes": "Neutrales Grundwort zu お手数, das man als höfliche Formel お手数をおかけします gegenüber anderen benutzt; 手数 selbst steht in 手数がかかる „aufwendig sein“ und 手数をかける „Umstände machen“. Im Brettspiel bezeichnet es die Anzahl der Züge. Daneben gibt es die Lesung てかず; bekannt ist auch die Ableitung 手数料 „Gebühr“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:1432). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-tesuu-trouble; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:tesuu-trouble notes; referenced cards: vocab-n3:1432 = お手数 (おてすう)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 手数/テスウ; lemma 手数; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@180375737",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 手数/テスウ; lemma 手数; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "手数",
+              "reading": "てすう",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 手数/てすう \"Mühe, Umstände, Aufwand; Anzahl der Züge (Go/Shogi)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mühe, Umstände, Aufwand; Anzahl der Züge (Go/Shogi). JMdict 1327970 senses 1–2, noun: trouble; bother; number of moves",
+        "japanese": "この書類の手続きは意外と手数がかかる。 / 人に手数をかけるのは好きじゃない。 / 彼は少ない手数で相手の王を詰ませた。",
+        "romanization": "tesū; Kono shorui no tetsuzuki wa igai to tesū ga kakaru. / Hito ni tesū o kakeru no wa suki ja nai. / Kare wa sukunai tesū de aite no ō o tsumaseta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Verfahren für diese Unterlagen ist überraschend aufwendig. / Ich mache anderen nicht gern Umstände. / Er setzte den gegnerischen König mit wenigen Zügen matt.",
+        "contexts": [
+          "paperwork",
+          "not bothering others",
+          "shogi game"
+        ],
+        "lexical": "JMdict 1327970 senses 1–2, noun: trouble; bother; number of moves",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "The bare noun is far less common than polite お手数 or 手数料 and is placed at N1 by the publisher.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-tesuu-trouble; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "60c1727445f65395e8242c3d666b4dd649500a8f2d7d72d21cef2e11237ce9ce",
+        "approvalHash": "5cb650460793f11060169c133e2af90a6c29e6cdddc18a80c5b108a375c0cf0d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:yoshi-good",
+      "revisionId": "text-2026-11-vocab-n1-correction-yoshi-good",
+      "state": "accepted",
+      "predecessorHash": "087309462b1511281ebb7ce87beb79121e3d6505ab43ceb6c5b2b3676269fd98",
+      "originalHash": "087309462b1511281ebb7ce87beb79121e3d6505ab43ceb6c5b2b3676269fd98",
+      "predecessorRevisionHash": "8c2c9a48d58effeba0ad115f30f0b11796e1ba420657ccf64cbd1672abe1a850",
+      "original": {
+        "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい (vocab-n5:71). Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt."
+      },
+      "replacement": {
+        "notes": "Klassisches Adjektiv (ku-Flexion, attributiv 良き), Vorläufer von 良い/よい. Heute lebt es in festen Wendungen: 良しとする „gutheißen, sich zufriedengeben“, 〜も良し „… ist auch gut“ und im Sprichwort 終わり良ければすべて良し. Nicht verwechseln mit der Interjektion よし! „gut, los!“, die man in Kana schreibt."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:71). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-yoshi-good; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:yoshi-good notes; referenced cards: vocab-n5:71 = 良い (よい)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact OJAD dictionary-form cell. Dictionary-form cell of the exact head 良し/よし read; accent_top positions [1] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 好し/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | 良し/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | 善し/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1 | 好し/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | 良し/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1. No transfer.",
+        "evidence": [
+          {
+            "source": "OJAD (Online Japanese Accent Dictionary)",
+            "version": "Retrieved 2026-10-08; page SHA256 bc94f320e3a8c1bba1215dcd444cc7358e9d96f6e070c7ad6be9e2d18198245a",
+            "locator": "https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/word:%E8%89%AF%E3%81%97#word_11576",
+            "attribution": "University of Tokyo Minematsu/Saito Laboratory",
+            "patterns": [
+              1
+            ],
+            "finding": "Dictionary-form cell of the exact head 良し/よし read; accent_top positions [1] (0 = no accent_top). Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 好し/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | 良し/ヨシ; lemma 良い; 形容詞/非自立可能/*/*; 文語形容詞-ク; 終止形-一般; aType 1 | 善し/ヨシ; lemma よし; 感動詞/一般/*/*; *; *; aType 1 | 好し/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1 | 良し/ヨシ; lemma 良し; 名詞/普通名詞/一般/*; *; *; aType 1. No transfer.",
+            "match": {
+              "word": "良し",
+              "reading": "よし",
+              "grammaticalForm": "Dictionary form (辞書形) of the exact head",
+              "sense": "Adjektiv 良し/よし \"gut, recht (klassische Form von 良い; z. B. 良しとする = gutheißen, それも良し = auch gut)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "gut, recht (klassische Form von 良い; z. B. 良しとする = gutheißen, それも良し = auch gut). JMdict 1394280 sense 1, ku-adjective (classical, usually kana): good; excellent; fine; nice",
+        "japanese": "終わり良ければすべて良し。 / 一人で行くも良し、友達と行くも良し。 / 上司は彼の勝手な行動を良しとしなかった。",
+        "romanization": "yoshi; Owari yokereba subete yoshi. / Hitori de iku mo yoshi, tomodachi to iku mo yoshi. / Jōshi wa kare no katte na kōdō o yoshi to shinakatta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ende gut, alles gut. / Man kann allein hingehen oder mit Freunden – beides ist gut. / Der Vorgesetzte billigte sein eigenmächtiges Handeln nicht.",
+        "contexts": [
+          "proverb",
+          "travel suggestion",
+          "workplace approval"
+        ],
+        "lexical": "JMdict 1394280 sense 1, ku-adjective (classical, usually kana): good; excellent; fine; nice",
+        "register": "literary / set phrases",
+        "transitivity": "Nonverb",
+        "conjugation": "classical ku-adjective (良し, attributive 良き; modern equivalent 良い)",
+        "level": "A classical adjective form surviving only in set phrases, so N1 despite the basic meaning.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-yoshi-good; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "194ba9421b81a322a5ea14ca48e33c13a32ad9f10390ae28108fb96f3d78c25e",
+        "approvalHash": "d303897b07388bbe22cb684bf9cc5d5ec598f62f01a7f62be3e489d0d9ada93b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:harahara-anxious",
+      "revisionId": "text-2026-11-vocab-n1-correction-harahara-anxious",
+      "state": "accepted",
+      "predecessorHash": "5bc8487a911df27d1a041d77c27bb4a7071bd5b5ff815e24fbe810550753a9ca",
+      "originalHash": "5bc8487a911df27d1a041d77c27bb4a7071bd5b5ff815e24fbe810550753a9ca",
+      "predecessorRevisionHash": "ada2bcac50b3bfb414cf358d5a7ce51820f5bf09fbe278e2f977373f8f758786",
+      "original": {
+        "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ (vocab-n4:1251), das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen."
+      },
+      "replacement": {
+        "notes": "ハラハラする beschreibt die bange Anspannung, wenn man jemandem zusieht oder auf einen Ausgang wartet (ハラハラさせる „in Atem halten“). Anders als ドキドキ, das Herzklopfen aus Aufregung oder Verliebtheit meint, geht es bei ハラハラ um Sorge, dass etwas schiefgeht. Mit と und meist in Hiragana malt はらはら leise fallende Blüten, Blätter oder Tränen."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n4:1251). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-harahara-anxious; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:harahara-anxious notes; referenced cards: vocab-n4:1251 = ドキドキ (ドキドキ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole はらはら/ハラハラ; lemma はらはら; 副詞/*/*/*; *; *; aType 1 | ハラハラ/ハラハラ; lemma はらはら; 副詞/*/*/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@218614263",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole はらはら/ハラハラ; lemma はらはら; 副詞/*/*/*; *; *; aType 1 | ハラハラ/ハラハラ; lemma はらはら; 副詞/*/*/*; *; *; aType 1.",
+            "match": {
+              "word": "ハラハラ",
+              "reading": "ハラハラ",
+              "grammaticalForm": "副詞/*/*/*; *; *",
+              "sense": "Adverb ハラハラ/ハラハラ \"bang, nervös, in Spannung (ハラハラする); (Blätter, Tränen) leise herabfallend, rieselnd\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "bang, nervös, in Spannung (ハラハラする); (Blätter, Tränen) leise herabfallend, rieselnd. JMdict 1096260 senses 1–2, adverb/suru verb (onomatopoeia): to feel anxious; to be kept in suspense; fluttering down",
+        "japanese": "試合は最後までハラハラさせられた。 / 子どもが木に登るのを見て、母親はハラハラしていた。 / 桜の花びらがはらはらと散っている。",
+        "romanization": "harahara; Shiai wa saigo made harahara saserareta. / Kodomo ga ki ni noboru no o mite, hahaoya wa harahara shite ita. / Sakura no hanabira ga harahara to chitte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Spiel hielt uns bis zum Schluss in Atem. / Die Mutter sah ihrem Kind beim Klettern auf den Baum voller Bangen zu. / Die Kirschblütenblätter rieseln leise herab.",
+        "contexts": [
+          "sports match",
+          "watching a child climb",
+          "falling cherry blossoms"
+        ],
+        "lexical": "JMdict 1096260 senses 1–2, adverb/suru verb (onomatopoeia): to feel anxious; to be kept in suspense; fluttering down",
+        "register": "colloquial",
+        "transitivity": "intransitive as ハラハラする (causative ハラハラさせる)",
+        "conjugation": "Nonverb (adverb; also ハラハラする suru verb)",
+        "level": "Common onomatopoeia not on JLPT word lists and without JMdict priority tags; follows the publisher's N1 placement.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-harahara-anxious; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "cc24584877131b244a98fa5c7b1e923ccb16bcb340a10f3cb4e7205b510221da",
+        "approvalHash": "20220d7d023c758ebc7446242c1d5de50b00a7d79b561e46511df5c9d4986657"
+      }
+    },
+    {
+      "id": "vocab-n4:correction:temo-even-if",
+      "revisionId": "text-2026-11-vocab-n4-correction-temo-even-if",
+      "state": "accepted",
+      "predecessorHash": "ba98e38953cf09959b71433c2e1935769d25a99041aaeee9f668597e8cfd53ec",
+      "originalHash": "ba98e38953cf09959b71433c2e1935769d25a99041aaeee9f668597e8cfd53ec",
+      "predecessorRevisionHash": "cc1fc20d47c68d9473c137a4bd97aa54e3b42e311ac314ce6d6c06d102a4ef0e",
+      "original": {
+        "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“ (vocab-n5:1195)."
+      },
+      "replacement": {
+        "notes": "Konzessive Partikel an der te-Form von Verben und i-Adjektiven: 雨が降っても „auch wenn es regnet“, 高くても „selbst wenn es teuer ist“. Nach Nomen und na-Adjektiven sowie bei stimmhafter te-Form steht でも (学生でも, 読んでも). Mit いくら, どんなに oder 何度 heißt es „egal wie (sehr/oft)“. Nicht zu verwechseln mit der Konjunktion でも „aber“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:1195). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-temo-even-if; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n4:correction:temo-even-if notes; referenced cards: vocab-n5:1195 = でも (でも)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole 〜ても/ても scan has zero matching rows; no constituent pattern inference.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%80%9C%E3%81%A6%E3%82%82",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole 〜ても/ても scan has zero matching rows; no constituent pattern inference."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "auch wenn, selbst wenn, obwohl (nach te-Form). JMdict 2264460 sense 1, particle: even if; even though",
+        "japanese": "雨が降っても、試合は行われる。 / 高くても、このかばんが欲しい。 / いくら食べても太らない人がうらやましい。",
+        "romanization": "temo; Ame ga futte mo, shiai wa okonawareru. / Takakute mo, kono kaban ga hoshii. / Ikura tabete mo futoranai hito ga urayamashii. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Auch wenn es regnet, findet das Spiel statt. / Auch wenn sie teuer ist, will ich diese Tasche. / Ich beneide Leute, die nicht zunehmen, egal wie viel sie essen.",
+        "contexts": [
+          "weather and events",
+          "shopping",
+          "eating habits"
+        ],
+        "lexical": "JMdict 2264460 sense 1, particle: even if; even though",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (attaches to te-form; でも after voiced te-form, nouns and na-adjectives)",
+        "level": "〜ても is a core concessive grammar point of the JLPT N4 syllabus.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-temo-even-if; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b6f91da982b71bf5228f0fb8cae7d16f693379973c7aa4740a7de936c1f5a1ec",
+        "approvalHash": "36827f4ab1cadb5d8a969baeb6f55e4c8334439816808bd237cf8176ac8d6b1e"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:maikurofon-microphone",
+      "revisionId": "text-2026-11-vocab-n1-correction-maikurofon-microphone",
+      "state": "accepted",
+      "predecessorHash": "b44dfcecb9afd453db3603f94f1284cacc13efdc8530c1ecc97eb52813610fb8",
+      "originalHash": "b44dfcecb9afd453db3603f94f1284cacc13efdc8530c1ecc97eb52813610fb8",
+      "predecessorRevisionHash": "3053361eba8f680e1e5fd385a059e7ed227630769c0c2bd13de1b6442b554319",
+      "original": {
+        "notes": "Vollform von マイク (vocab-n3:3350); im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied."
+      },
+      "replacement": {
+        "notes": "Vollform von マイク; im Alltag, beim Karaoke oder auf der Bühne sagt man fast immer マイク. マイクロフォン bzw. die ältere technische Schreibung マイクロホン begegnet vor allem in Fachtexten, Produktdaten und Normen. Inhaltlich besteht kein Unterschied."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:3350). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-maikurofon-microphone; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:maikurofon-microphone notes; referenced cards: vocab-n3:3350 = マイク (マイク)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): マイクロフォン/マイクロフォン; lemma マイクロホン-microphone; 名詞/普通名詞/一般/*; *; *; aType *. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%83%95%E3%82%A9%E3%83%B3",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): マイクロフォン/マイクロフォン; lemma マイクロホン-microphone; 名詞/普通名詞/一般/*; *; *; aType *. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mikrofon (Vollform). JMdict 1126770 sense 1, noun: microphone",
+        "japanese": "会議室の天井にマイクロフォンが設置されている。 / このノートパソコンにはマイクロホンが内蔵されている。 / 録音スタジオでは高性能のマイクロフォンを使う。",
+        "romanization": "maikurofon; Kaigishitsu no tenjō ni maikurofon ga setchi sarete iru. / Kono nōto pasokon ni wa maikurohon ga naizō sarete iru. / Rokuon sutajio de wa kōseinō no maikurofon o tsukau. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "An der Decke des Konferenzraums ist ein Mikrofon angebracht. / Dieses Notebook hat ein eingebautes Mikrofon. / Im Tonstudio verwendet man hochwertige Mikrofone.",
+        "contexts": [
+          "conference room",
+          "laptop specs",
+          "recording studio"
+        ],
+        "lexical": "JMdict 1126770 sense 1, noun: microphone",
+        "register": "formal / technical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "The full form is mostly technical (everyday speech uses マイク) and has no JMdict priority tags, so N1.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-maikurofon-microphone; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "84c22c38ee09f7c0248cca224025972ae1912330c4dd4f12c90617ec85b60ce5",
+        "approvalHash": "d8961f86126fda7d53e5a420ce842c5c9c9f8268e32aa28eba4b4245108532d9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:kanegura-treasury",
+      "revisionId": "text-2026-11-vocab-n1-correction-kanegura-treasury",
+      "state": "accepted",
+      "predecessorHash": "c2e40f793d5499d66f2cddda248a100926e13aecc0b74508f499bf80a774e1ef",
+      "originalHash": "c2e40f793d5499d66f2cddda248a100926e13aecc0b74508f499bf80a774e1ef",
+      "predecessorRevisionHash": "4c1836f87461b95987944d977b9ab7920cf3ccef2c1b9f07c4f052f8b43630f3",
+      "original": {
+        "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫 (vocab-n3:2721); die Lesung きんぞう ist veraltet."
+      },
+      "replacement": {
+        "notes": "Historisches Wort für das feuerfeste Speicherhaus (蔵), in dem Fürsten und Kaufleute ihr Geld aufbewahrten; bekannt aus Samuraidramen, etwa 金蔵破り „Einbruch in die Schatzkammer“. Übertragen auch „Geldgeber, Gönner“. Den heutigen Tresor nennt man 金庫; die Lesung きんぞう ist veraltet."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:2721). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-kanegura-treasury; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:kanegura-treasury notes; referenced cards: vocab-n3:2721 = 金庫 (きんこ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 金蔵/カネグラ; lemma 金庫; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@96227857",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 金蔵/カネグラ; lemma 金庫; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "金蔵",
+              "reading": "かねぐら",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 金蔵/かねぐら \"Schatzkammer, Geldspeicher; Geldgeber, Gönner\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schatzkammer, Geldspeicher; Geldgeber, Gönner. JMdict 1578130 senses 1–2, noun: treasure house; treasury; financial supporter; patron",
+        "japanese": "昔の大きな商家には立派な金蔵があった。 / 盗賊が殿様の金蔵を破った。 / 彼は長年この劇団の金蔵として支えてきた。",
+        "romanization": "kanegura; Mukashi no ōkina shōka ni wa rippa na kanegura ga atta. / Tōzoku ga tonosama no kanegura o yabutta. / Kare wa naganen kono gekidan no kanegura to shite sasaete kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die großen Kaufmannshäuser von früher hatten prächtige Geldspeicher. / Räuber brachen in die Schatzkammer des Fürsten ein. / Er hat diese Theatertruppe jahrelang als Geldgeber unterstützt.",
+        "contexts": [
+          "merchant houses",
+          "period drama robbery",
+          "theater patron"
+        ],
+        "lexical": "JMdict 1578130 senses 1–2, noun: treasure house; treasury; financial supporter; patron",
+        "register": "historical / literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "A historical word without JMdict priority tags, placed at N1 by the publisher.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-kanegura-treasury; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ff95b18f259d547a63580d327662e968ac6f170ecd60651de1bdc52c23eadeb9",
+        "approvalHash": "d53783bb633f203950948eafc59e67e8074dd72bd8379394cfcdff02cb7486fc"
+      }
+    }
+  ]
+}

@@ -84262,7 +84262,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Gesellschaft",
     "level": "N3",
-    "notes": "Substantiv zu 進歩する (vocab-n3:27), meist mit の davor: 技術の進歩 „technischer Fortschritt“, 医学の進歩 „Fortschritt der Medizin“. Typische Verbindungen sind 進歩が速い „schnell vorankommen“ und 進歩が見られる „ein Fortschritt ist erkennbar“. Anders als 発展 „Entwicklung, Wachstum“ betont 進歩 die Verbesserung hin zu einem höheren Stand.",
+    "notes": "Substantiv zu 進歩する, meist mit の davor: 技術の進歩 „technischer Fortschritt“, 医学の進歩 „Fortschritt der Medizin“. Typische Verbindungen sind 進歩が速い „schnell vorankommen“ und 進歩が見られる „ein Fortschritt ist erkennbar“. Anders als 発展 „Entwicklung, Wachstum“ betont 進歩 die Verbesserung hin zu einem höheren Stand.",
     "examples": [
       {
         "japanese": "科学技術の進歩はとても速い。",
@@ -84533,7 +84533,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Gesellschaft",
     "level": "N3",
-    "notes": "Substantiv zu 尊重する (vocab-n3:18): 人権の尊重 „Achtung der Menschenrechte“, 個性の尊重 „Respekt vor der Individualität“. Wirkt formell und steht oft in Gesetzes-, Schul- und Zeitungssprache. Anders als 尊敬 „Verehrung (einer Person)“ bezieht sich 尊重 auf Meinungen, Rechte und Entscheidungen, die man ernst nimmt.",
+    "notes": "Substantiv zu 尊重する: 人権の尊重 „Achtung der Menschenrechte“, 個性の尊重 „Respekt vor der Individualität“. Wirkt formell und steht oft in Gesetzes-, Schul- und Zeitungssprache. Anders als 尊敬 „Verehrung (einer Person)“ bezieht sich 尊重 auf Meinungen, Rechte und Entscheidungen, die man ernst nimmt.",
     "examples": [
       {
         "japanese": "憲法は基本的人権の尊重を定めている。",
@@ -84580,7 +84580,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Allgemein",
     "level": "N3",
-    "notes": "Sinojapanische Lesung von 他, fest vor allem in その他 „Sonstiges, und anderes“ und 自他 „man selbst und andere“. Bei 他の „andere“ sind beide Lesungen möglich: im Gespräch überwiegt die native Lesung ほか (vocab-n5:1433), die Lesung た klingt schriftlicher und sachlicher. ほかに „außerdem“ wird dagegen nie た gelesen.",
+    "notes": "Sinojapanische Lesung von 他, fest vor allem in その他 „Sonstiges, und anderes“ und 自他 „man selbst und andere“. Bei 他の „andere“ sind beide Lesungen möglich: im Gespräch überwiegt die native Lesung ほか, die Lesung た klingt schriftlicher und sachlicher. ほかに „außerdem“ wird dagegen nie た gelesen.",
     "examples": [
       {
         "japanese": "名前、住所、その他の情報をここに書いてください。",
@@ -84627,7 +84627,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Allgemein",
     "level": "N3",
-    "notes": "Gegenstück zu 中 „mittel“ (vocab-n5:correction:chu-medium) und 小 „klein“: Größen werden mit 大・中・小 angegeben. Als Präfix verstärkt だい- vor allem sinojapanische Nomen: 大問題 „großes Problem“, 大成功 „voller Erfolg“, 大事件 „großer Vorfall“. Vor japanischen Wörtern lautet es meist おお- (大雨, 大きい). Homophone: 台 „Gestell“, 〜代 „Gebühr“, 題 „Titel“.",
+    "notes": "Gegenstück zu 中 „mittel“ und 小 „klein“: Größen werden mit 大・中・小 angegeben. Als Präfix verstärkt だい- vor allem sinojapanische Nomen: 大問題 „großes Problem“, 大成功 „voller Erfolg“, 大事件 „großer Vorfall“. Vor japanischen Wörtern lautet es meist おお- (大雨, 大きい). Homophone: 台 „Gestell“, 〜代 „Gebühr“, 題 „Titel“.",
     "examples": [
       {
         "japanese": "コーヒーのサイズは大と小、どちらにしますか。",
@@ -84674,7 +84674,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Gesellschaft",
     "level": "N3",
-    "notes": "Bezeichnet einen großen, meist weltweiten Krieg und steht fast immer in 第一次世界大戦 / 第二次世界大戦 „Erster/Zweiter Weltkrieg“ oder kurz in 大戦中 „während des Krieges“ und 大戦後 „nach dem Krieg“. Das allgemeine Wort für Krieg ist 戦争. Nicht verwechseln mit dem Homophon 対戦 „Begegnung, Wettkampf“ (vocab-n2:400).",
+    "notes": "Bezeichnet einen großen, meist weltweiten Krieg und steht fast immer in 第一次世界大戦 / 第二次世界大戦 „Erster/Zweiter Weltkrieg“ oder kurz in 大戦中 „während des Krieges“ und 大戦後 „nach dem Krieg“. Das allgemeine Wort für Krieg ist 戦争. Nicht verwechseln mit dem Homophon 対戦 „Begegnung, Wettkampf“.",
     "examples": [
       {
         "japanese": "祖父は第二次世界大戦を経験した。",
@@ -84721,7 +84721,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Essen",
     "level": "N3",
-    "notes": "Nackte Form von お茶 (vocab-n5:119). Allein klingt 茶 schriftlich oder knapp; im Gespräch sagt man お茶. Häufig in Zusammensetzungen und festen Ausdrücken: 茶色 „braun“, 紅茶 „schwarzer Tee“, 茶の湯 „Teezeremonie“, 茶畑 „Teeplantage“. Als Kurzform steht 茶 auch für die Farbe Braun, z. B. 茶のコート „brauner Mantel“.",
+    "notes": "Nackte Form von お茶. Allein klingt 茶 schriftlich oder knapp; im Gespräch sagt man お茶. Häufig in Zusammensetzungen und festen Ausdrücken: 茶色 „braun“, 紅茶 „schwarzer Tee“, 茶の湯 „Teezeremonie“, 茶畑 „Teeplantage“. Als Kurzform steht 茶 auch für die Farbe Braun, z. B. 茶のコート „brauner Mantel“.",
     "examples": [
       {
         "japanese": "静岡は茶の産地として有名だ。",
@@ -84768,7 +84768,7 @@ window.VOCAB_N3 = [
     "type": "Nomen",
     "category": "Abstrakt",
     "level": "N3",
-    "notes": "Substantiv zu 注目する (vocab-n3:279). Typische Verbindungen: 注目を集める „Aufmerksamkeit auf sich ziehen“, 注目を浴びる „im Rampenlicht stehen“, 注目の的 „Mittelpunkt des Interesses“ und attributiv 注目の新人 „vielbeachteter Newcomer“. Anders als 注意 „Vorsicht, Achtung (vor Gefahr)“ meint 注目 das interessierte Hinschauen.",
+    "notes": "Substantiv zu 注目する. Typische Verbindungen: 注目を集める „Aufmerksamkeit auf sich ziehen“, 注目を浴びる „im Rampenlicht stehen“, 注目の的 „Mittelpunkt des Interesses“ und attributiv 注目の新人 „vielbeachteter Newcomer“. Anders als 注意 „Vorsicht, Achtung (vor Gefahr)“ meint 注目 das interessierte Hinschauen.",
     "examples": [
       {
         "japanese": "新しいスマホが世界中の注目を集めている。",

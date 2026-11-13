@@ -1,0 +1,1205 @@
+{
+ "version": 1,
+ "id": "2026-11",
+ "title": "German text corrections found during the English translation, November 2026",
+ "reviewer": "german-text-corrections-2026-11",
+ "revisionPrefix": "text-2026-11-",
+ "batchPrefix": "scripts/vocabulary-completion/230-text-",
+ "decision": {
+  "source": "User decision",
+  "version": "2026-11-13",
+  "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+  "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+ },
+ "checks": {
+  "internal-card-id": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+  "dangling-sense-reference": "Compared the usage note before and after the edit against the card's meaning line: only the reference to a sense number the card does not show was removed or reworded; the statement it belonged to is unchanged. Content carried over from the predecessor was not re-reviewed.",
+  "editorial-jargon": "Compared the usage note before and after the edit against the card's aliases: the spelling it mentions is still listed for search, and only the editorial wording was replaced. Content carried over from the predecessor was not re-reviewed.",
+  "note-contradicts-example": "Read the usage note against all examples of the card: the removed remark described a sentence the card does not contain; the rest of the note is unchanged. Content carried over from the predecessor was not re-reviewed.",
+  "factual-correction": "Checked the corrected statement against the cited source and re-read the whole note for consistency. Content carried over from the predecessor was not re-reviewed.",
+  "unsuitable-example": "Read the remaining examples: each is complete, uses the headword in a distinct reviewed context, and the review fields list exactly these sentences. Content carried over from the predecessor was not re-reviewed.",
+  "unnatural-example": "Checked the new example (Japanese, romanization, German) against the card's meaning, reading and conjugation data, and the reworded note against it; the review fields list the new sentence. Content carried over from the predecessor was not re-reviewed."
+ },
+ "corrections": [
+  {
+   "id": "vocab-n3:1535",
+   "word": "七味",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Sinn 1\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     " (Sinn 1)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:1535 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:139",
+   "word": "再審",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Sinn 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     " (Sinn 2)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:139 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:2225",
+   "word": "節理",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"JMdict Sense 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     " (JMdict Sense 2)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:2225 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n4:719",
+   "word": "労働者",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Sinn 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     "Sinn 2 meint speziell körperlich arbeitende Menschen (Fabrik, Baustelle).",
+     "Im engeren Sinn sind damit speziell körperlich arbeitende Menschen gemeint (Fabrik, Baustelle)."
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n4:719 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n4:722",
+   "word": "注文",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Sinn 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     "Sinn 2: 注文 als „Wunsch, Forderung“, etwa",
+     "Daneben bedeutet 注文 auch „Wunsch, Forderung“, etwa"
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n4:722 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:1642",
+   "word": "灯台",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Bedeutung 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     " (Bedeutung 2)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:1642 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:2336",
+   "word": "風物詩",
+   "kind": "dangling-sense-reference",
+   "rationale": "The usage note referred to \"Bedeutung 2\", a numbering the card does not show. The reference is removed or reworded; the statement itself is unchanged.",
+   "noteEdits": [
+    [
+     "(Bedeutung 2, heute selten)",
+     "(heute selten)"
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:2336 meaning and notes",
+     "finding": "The card shows its meaning as one gloss line without numbered senses, so the numbered reference cannot be resolved by a learner."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:1822",
+   "word": "ラーメン",
+   "kind": "editorial-jargon",
+   "rationale": "The usage note described the spelling 拉麺 in editorial terms (\"Alias\", \"Suchalias\"). It now says what a learner needs: that this spelling also occurs and can be found.",
+   "noteEdits": [
+    [
+     "die seltene Form 拉麺 bleibt als Suchalias erhalten",
+     "die seltene Form 拉麺 lässt sich ebenfalls über die Suche finden"
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:1822 aliases and notes",
+     "finding": "The card lists 拉麺 as a search spelling; the note keeps that fact and drops the internal term."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kanabou-iron-rod",
+   "word": "金棒",
+   "kind": "editorial-jargon",
+   "rationale": "The usage note described the spelling 鉄棒 in editorial terms (\"Alias\", \"Suchalias\"). It now says what a learner needs: that this spelling also occurs and can be found.",
+   "noteEdits": [
+    [
+     "Die seltene Schreibung 鉄棒 ist hier als Alias geführt; normal gelesen",
+     "Selten wird das Wort auch 鉄棒 geschrieben; normal gelesen"
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kanabou-iron-rod aliases and notes",
+     "finding": "The card lists 鉄棒 as a search spelling; the note keeps that fact and drops the internal term."
+    }
+   ]
+  },
+  {
+   "id": "yojijukugo:145",
+   "word": "元気一杯",
+   "kind": "editorial-jargon",
+   "rationale": "The usage note described the spelling 元気いっぱい in editorial terms (\"Alias\", \"Suchalias\"). It now says what a learner needs: that this spelling also occurs and can be found.",
+   "noteEdits": [
+    [
+     "Die ebenfalls belegte Schreibweise 元気いっぱい ist als Alias erhalten.",
+     "Ebenfalls üblich ist die Schreibweise 元気いっぱい."
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "yojijukugo:145 aliases and notes",
+     "finding": "The card lists 元気いっぱい as a search spelling; the note keeps that fact and drops the internal term."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:2369",
+   "word": "建てる",
+   "kind": "note-contradicts-example",
+   "rationale": "The usage note said that 建てる and 立てる occur side by side in the first example. The first example (この地区には、新しい学校を建てる計画があります。) contains 建てる and 計画 but not 立てる. The false remark is removed; the contrast between the two verbs stays.",
+   "noteEdits": [
+    [
+     " – im ersten Beispiel kommen beide nebeneinander vor",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:2369 examples[0] and notes",
+     "finding": "Example 1 reads この地区には、新しい学校を建てる計画があります。 The verb 立てる does not occur in it or in the other examples."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:3389",
+   "word": "孤児院",
+   "kind": "factual-correction",
+   "rationale": "The usage note dated the official name 児童養護施設 to 1947. The Child Welfare Act of 1947 called these institutions 養護施設; they were renamed 児童養護施設 by the 1997 amendment. The year is corrected and the earlier name added.",
+   "noteEdits": [
+    [
+     "in Japan heißen solche Einrichtungen seit 1947 offiziell 児童養護施設 und nehmen",
+     "in Japan heißen solche Einrichtungen offiziell 児童養護施設 (so seit der Gesetzesänderung von 1997, davor 養護施設) und nehmen"
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Japanese Wikipedia, article 児童養護施設",
+     "version": "page as read on 2026-11-13",
+     "locator": "https://ja.wikipedia.org/wiki/%E5%85%90%E7%AB%A5%E9%A4%8A%E8%AD%B7%E6%96%BD%E8%A8%AD",
+     "finding": "The article states: 「1997年（平成9年）の児童福祉法改正により、「養護施設」は「児童養護施設」に改称された。」 and 「児童養護施設は、児童福祉法第41条に規定する児童福祉施設である。」 The 1947 act (in force 1948) created the institutional framework; the current name dates from the 1997 amendment. The page does not give the date the amendment took effect, so the note names only the amendment year."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:1746",
+   "word": "夏至",
+   "kind": "unsuitable-example",
+   "rationale": "The first example was a 100-character anecdote built on a pun (ハゲ症 for 半夏生). It does not show how 夏至 is used, its German translation has to quote romanized Japanese, and as a quiz context it is unusable. It is removed. The two remaining examples cover distinct contexts (the astronomical fact, midsummer festivals abroad).",
+   "removeExamples": [
+    "父に夏至から11日目のことを何と呼ぶか知っているかと聞かれたので、得意気に「ハゲ症」って答えたんですけど、それって「ハゲ頭の症状」って意味になるみたいで。父は笑って、正しい答えは「半夏生」だよって教えてくれましたけどね。"
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:1746 examples",
+     "finding": "Examples 2 and 3 (夏至は、一年で最も昼が長い日です。 / 北欧では、夏至の日に盛大なお祭りが行われる。) are complete, distinct and already reviewed; the card keeps two reviewed contexts without example 1."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kitaru-come",
+   "word": "来る",
+   "kind": "unnatural-example",
+   "rationale": "The second example used the past form 来たった (ようやく春が来たった). The form follows from the godan conjugation but is practically unused in contemporary Japanese, so the sentence reads as constructed. It is replaced by a sentence with the dictionary form as predicate, the form the note itself cites (時が来たる). The note now says that inflected forms are rare.",
+   "noteEdits": [
+    [
+     "Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“. Diese Lesung folgt der Godan-Beugung: きたります, きたった.",
+     "Als Verb bezeichnet es das Eintreffen, etwa 時が来たる „die Zeit kommt“; üblich ist dabei fast nur die Grundform, etwa in Titeln und feierlicher Erzählung. Diese Lesung folgt der Godan-Beugung (きたります, きたった), gebeugte Formen sind heute aber selten."
+    ]
+   ],
+   "replaceExamples": [
+    {
+     "japanese": "長い冬が終わり、ようやく春が来たった。",
+     "with": {
+      "japanese": "長い冬が終わり、待ちに待った春が来たる。",
+      "romaji": "Nagai fuyu ga owari, machi ni matta haru ga kitaru.",
+      "german": "Der lange Winter geht zu Ende, und der lang ersehnte Frühling hält Einzug."
+     },
+     "context": "Elevated narrative arrival of spring with the dictionary form 来たる as predicate; replaces the constructed past form 来たった, which is rare today."
+    }
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kitaru-come examples[1] and notes",
+     "finding": "The note already illustrates the verb with the dictionary form (時が来たる). The predecessor record reviewed the godan classification of 来る／きたる; this revision keeps that classification and changes only the illustrating sentence and the remark on how common inflected forms are (editorial judgment of the author)."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:shinpo-progress",
+   "word": "進歩",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:27). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:27)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:shinpo-progress notes; referenced cards: vocab-n3:27 = 進歩する (しんぽする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:sei-life",
+   "word": "生",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:3325). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:3325)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:sei-life notes; referenced cards: vocab-n3:3325 = 生 (なま)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:sonchou-respect",
+   "word": "尊重",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:18). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:18)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:sonchou-respect notes; referenced cards: vocab-n3:18 = 尊重する (そんちょうする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:ta-other",
+   "word": "他",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:1433). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:1433)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:ta-other notes; referenced cards: vocab-n5:1433 = 他 (ほか)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:dai-big",
+   "word": "大",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:correction:chu-medium). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:correction:chu-medium)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:dai-big notes; referenced cards: vocab-n5:correction:chu-medium = 中 (ちゅう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:taisen-great-war",
+   "word": "大戦",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:400). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:400)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:taisen-great-war notes; referenced cards: vocab-n2:400 = 対戦 (たいせん)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:cha-tea",
+   "word": "茶",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:119). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:119)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:cha-tea notes; referenced cards: vocab-n5:119 = お茶 (おちゃ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n3:correction:chuumoku-attention",
+   "word": "注目",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:279). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:279)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n3:correction:chuumoku-attention notes; referenced cards: vocab-n3:279 = 注目する (ちゅうもくする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kasuru-graze",
+   "word": "かする",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:2006). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:2006)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kasuru-graze notes; referenced cards: vocab-n2:2006 = 擦る (する)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kataki-rival",
+   "word": "敵",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:116). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:116)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kataki-rival notes; referenced cards: vocab-n2:116 = 敵 (てき)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:kyousan-communism",
+   "word": "共産",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:21, vocab-n3:3013). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:21)",
+     ""
+    ],
+    [
+     " (vocab-n3:3013)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:kyousan-communism notes; referenced cards: vocab-n2:21 = 共産主義 (きょうさんしゅぎ); vocab-n3:3013 = 共産党 (きょうさんとう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kunizakai-border",
+   "word": "国境",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:25). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:25)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kunizakai-border notes; referenced cards: vocab-n2:25 = 国境 (こっきょう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:kotei-fixing",
+   "word": "固定",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:543). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:543)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:kotei-fixing notes; referenced cards: vocab-n2:543 = 固定する (こていする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:goto-each-suffix",
+   "word": "〜ごと",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:2554). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     ", vocab-n3:2554",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:goto-each-suffix notes; referenced cards: vocab-n3:2554 = 〜毎に (ごとに)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:sanshou-reference",
+   "word": "参照",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:573). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:573)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:sanshou-reference notes; referenced cards: vocab-n2:573 = 参照する (さんしょうする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:shuushuu-collection",
+   "word": "収集",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:572). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:572)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:shuushuu-collection notes; referenced cards: vocab-n2:572 = 収集する (しゅうしゅうする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:shougou-collation",
+   "word": "照合",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:552). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:552)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:shougou-collation notes; referenced cards: vocab-n2:552 = 照合する (しょうごうする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:jizen-prior",
+   "word": "事前",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:1323, vocab-n2:37). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:1323)",
+     ""
+    ],
+    [
+     " (vocab-n2:37)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:jizen-prior notes; referenced cards: vocab-n2:1323 = 事前に (じぜんに); vocab-n2:37 = 慈善 (じぜん)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:jitsu-truth",
+   "word": "実",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:3281, vocab-n3:correction:mi-fruit). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:3281)",
+     ""
+    ],
+    [
+     " (vocab-n3:correction:mi-fruit)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:jitsu-truth notes; referenced cards: vocab-n3:3281 = 実は (じつは); vocab-n3:correction:mi-fruit = 実 (み)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:sokusuru-conform",
+   "word": "即する",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:1848). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:1848)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:sokusuru-conform notes; referenced cards: vocab-n2:1848 = 即〜 (そく)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:taikou-opposition",
+   "word": "対抗",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:474, vocab-n2:1437). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:474)",
+     ""
+    ],
+    [
+     ", vocab-n2:1437",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:taikou-opposition notes; referenced cards: vocab-n2:474 = 対抗する (たいこうする); vocab-n2:1437 = 対向する (たいこうする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:tanshuku-shortening",
+   "word": "短縮",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n2:451). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n2:451)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:tanshuku-shortening notes; referenced cards: vocab-n2:451 = 短縮する (たんしゅくする)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:kagiri-limit",
+   "word": "限り",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:2501). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:2501)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:kagiri-limit notes; referenced cards: vocab-n3:2501 = 限る (かぎる)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:zuke-dated-suffix",
+   "word": "〜付け",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:3291, vocab-n2:1532). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     ", vocab-n3:3291",
+     ""
+    ],
+    [
+     ", vocab-n2:1532",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:zuke-dated-suffix notes; referenced cards: vocab-n3:3291 = 日付 (ひづけ); vocab-n2:1532 = 〜漬け (づけ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:gimi-tendency-suffix",
+   "word": "〜気味",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:3303). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:3303)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:gimi-tendency-suffix notes; referenced cards: vocab-n3:3303 = 気味 (きみ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:senmen-washing-face",
+   "word": "洗面",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:790). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:790)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:senmen-washing-face notes; referenced cards: vocab-n5:790 = 洗面台 (せんめんだい)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:atataka-warm",
+   "word": "暖か",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:75, vocab-n2:719). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:75)",
+     ""
+    ],
+    [
+     " (vocab-n2:719)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:atataka-warm notes; referenced cards: vocab-n5:75 = 暖かい (あたたかい); vocab-n2:719 = 温かい (あたたかい)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:oobaakooto-overcoat",
+   "word": "オーバーコート",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:correction:oobaa). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:correction:oobaa)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:oobaakooto-overcoat notes; referenced cards: vocab-n3:correction:oobaa = オーバー (オーバー)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:on-honorific-prefix",
+   "word": "御〜",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:correction:o-honorific-prefix, vocab-n5:correction:go-honorific-prefix). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     "(vocab-n5:correction:o-honorific-prefix, ",
+     "("
+    ],
+    [
+     "(vocab-n5:correction:go-honorific-prefix, ",
+     "("
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:on-honorific-prefix notes; referenced cards: vocab-n5:correction:o-honorific-prefix = お〜 (お); vocab-n5:correction:go-honorific-prefix = 御 (ご)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:ho-step",
+   "word": "歩",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:1032). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     ", vocab-n5:1032",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:ho-step notes; referenced cards: vocab-n5:1032 = 一歩 (いっぽ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:mai-every-prefix",
+   "word": "毎〜",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:199). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:199)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:mai-every-prefix notes; referenced cards: vocab-n5:199 = 毎日 (まいにち)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n2:correction:ryoku-power-suffix",
+   "word": "〜力",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n4:1398). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n4:1398)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n2:correction:ryoku-power-suffix notes; referenced cards: vocab-n4:1398 = 力 (ちから)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:ku-suffering",
+   "word": "苦",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:269). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:269)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:ku-suffering notes; referenced cards: vocab-n3:269 = 苦労 (くろう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:tenka-whole-world",
+   "word": "天下",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:1777). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     ", vocab-n3:1777",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:tenka-whole-world notes; referenced cards: vocab-n3:1777 = 天下り (あまくだり)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:ketsu-decision-vote",
+   "word": "決",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:1785). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:1785 採決)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:ketsu-decision-vote notes; referenced cards: vocab-n3:1785 = 採決 (さいけつ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:mura-unevenness",
+   "word": "斑",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n1:3050). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n1:3050)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:mura-unevenness notes; referenced cards: vocab-n1:3050 = 斑 (まだら)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:seiiku-growing-up",
+   "word": "成育",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n1:correction:seiiku, vocab-n2:149). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n1:correction:seiiku)",
+     ""
+    ],
+    [
+     " (vocab-n2:149)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:seiiku-growing-up notes; referenced cards: vocab-n1:correction:seiiku = 生育 (せいいく); vocab-n2:149 = 成長 (せいちょう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:tesuu-trouble",
+   "word": "手数",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:1432). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:1432)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:tesuu-trouble notes; referenced cards: vocab-n3:1432 = お手数 (おてすう)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:yoshi-good",
+   "word": "良し",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:71). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:71)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:yoshi-good notes; referenced cards: vocab-n5:71 = 良い (よい)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:harahara-anxious",
+   "word": "ハラハラ",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n4:1251). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n4:1251)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:harahara-anxious notes; referenced cards: vocab-n4:1251 = ドキドキ (ドキドキ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n4:correction:temo-even-if",
+   "word": "〜ても",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n5:1195). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n5:1195)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n4:correction:temo-even-if notes; referenced cards: vocab-n5:1195 = でも (でも)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:maikurofon-microphone",
+   "word": "マイクロフォン",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:3350). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:3350)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:maikurofon-microphone notes; referenced cards: vocab-n3:3350 = マイク (マイク)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  },
+  {
+   "id": "vocab-n1:correction:kanegura-treasury",
+   "word": "金蔵",
+   "kind": "internal-card-id",
+   "rationale": "The usage note cited internal card IDs in running text (vocab-n3:2721). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes.",
+   "noteEdits": [
+    [
+     " (vocab-n3:2721)",
+     ""
+    ]
+   ],
+   "evidence": [
+    {
+     "source": "Nihongo Explorer vocabulary library (German teaching text)",
+     "version": "GitHub main at commit fbb535f, 2026-11-13",
+     "locator": "vocab-n1:correction:kanegura-treasury notes; referenced cards: vocab-n3:2721 = 金庫 (きんこ)",
+     "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,2128 @@
+{
+  "version": 3,
+  "merges": [],
+  "reviews": [
+    {
+      "id": "vocab-n1:correction:kunizakai-border",
+      "revisionId": "text-2026-11-vocab-n1-correction-kunizakai-border",
+      "state": "accepted",
+      "predecessorHash": "1f50110fd36aa4bd914b819655c03721f867f4fe5b29620d84e4664ac1fe4d2f",
+      "originalHash": "1f50110fd36aa4bd914b819655c03721f867f4fe5b29620d84e4664ac1fe4d2f",
+      "predecessorRevisionHash": "61f25bd046d2fab3accd7cd417094e45978a4cc1916ec39529af7327bfe62bad",
+      "original": {
+        "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう (vocab-n2:25), etwa 国境を越える „die Staatsgrenze überqueren“."
+      },
+      "replacement": {
+        "notes": "Japanische Lesung von 国境, in der 国 meist die alte Provinz meint: die Grenze zwischen 信濃 und 越後 oder zwischen zwei Lehensgebieten. Sie wirkt literarisch und historisch; berühmt ist der Anfang von 雪国 „国境の長いトンネルを抜けると…“, der traditionell so gelesen wird. Für moderne Staatsgrenzen sagt man immer 国境/こっきょう, etwa 国境を越える „die Staatsgrenze überqueren“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:25). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-kunizakai-border; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:kunizakai-border notes; referenced cards: vocab-n2:25 = 国境 (こっきょう)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row. Exact whole 国境/クニザカイ; lemma 国境; 名詞/普通名詞/一般/*; *; *; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@112589137",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 国境/クニザカイ; lemma 国境; 名詞/普通名詞/一般/*; *; *; aType 3.",
+            "match": {
+              "word": "国境",
+              "reading": "くにざかい",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 国境/くにざかい \"Grenze (zwischen Provinzen oder Ländern), Landesgrenze\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Grenze (zwischen Provinzen oder Ländern), Landesgrenze. JMdict 1286320 sense 1, noun (reading くにざかい): border between countries or provinces",
+        "japanese": "国境の長いトンネルを抜けると雪国であった。 / 昔はこの峠が信濃と越後の国境だった。 / 侍は国境の山を越えて隣の藩へ逃げた。",
+        "romanization": "kunizakai; Kunizakai no nagai tonneru o nukeru to yukiguni de atta. / Mukashi wa kono touge ga Shinano to Echigo no kunizakai datta. / Samurai wa kunizakai no yama o koete tonari no han e nigeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Als der Zug aus dem langen Tunnel an der Grenze kam, lag das Schneeland vor uns. / Früher bildete dieser Pass die Grenze zwischen den Provinzen Shinano und Echigo. / Der Samurai floh über die Grenzberge ins benachbarte Lehen.",
+        "contexts": [
+          "opening line of a novel",
+          "old provincial border",
+          "historical escape story"
+        ],
+        "lexical": "JMdict 1286320 sense 1, noun (reading くにざかい): border between countries or provinces",
+        "register": "literary, historical",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Placed at N1 because it is a literary secondary reading, while the everyday reading こっきょう is taught at N2.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-kunizakai-border; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "73b7c1dd1fced00e93999f8b94c58ce8c2c3abba323145b10c67c98088381ef4",
+        "approvalHash": "a09771ead75b8aeefe549d39854e434d9d9f7ca77f9599cf4961976131436edc"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kotei-fixing",
+      "revisionId": "text-2026-11-vocab-n2-correction-kotei-fixing",
+      "state": "accepted",
+      "predecessorHash": "932fcbb038b8cd9c27dd4601a208fdf14785b5249ad34e154996157bf0631a48",
+      "originalHash": "932fcbb038b8cd9c27dd4601a208fdf14785b5249ad34e154996157bf0631a48",
+      "predecessorRevisionHash": "d73145e7eb8c13d4a8f003516634aa83091cb13fcc3ed83f60adcbdb60cf95fd",
+      "original": {
+        "notes": "Substantiv zum Verb 固定する „befestigen“ (vocab-n2:543), sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費)."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 固定する „befestigen“, sehr häufig in Komposita: 固定電話 „Festnetztelefon“, 固定費 „Fixkosten“, 固定給 „Festgehalt“, 固定観念 „festgefahrene Vorstellung, Klischee“. Als Nomen steht es mit の oder が: ギプスでの固定, 固定が甘い „nicht richtig befestigt“. Gegenbegriff zu 変動 „Schwankung“ (固定費 vs. 変動費)."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:543). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-kotei-fixing; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:kotei-fixing notes; referenced cards: vocab-n2:543 = 固定する (こていする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 固定/コテイ; lemma 固定; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@123339309",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 固定/コテイ; lemma 固定; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "固定",
+              "reading": "こてい",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 固定/こてい \"Befestigung, Fixierung; Festsetzung (z. B. 固定給, 固定電話)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Befestigung, Fixierung; Festsetzung (z. B. 固定給, 固定電話). JMdict 1266650 senses 1-2, noun (also vs): fixing in place, securing; fixing (e.g. salary, capital)",
+        "japanese": "最近は固定電話を持たない家庭が増えている。 / 家賃などの固定費を見直せば、毎月の出費を減らせる。 / 骨折した足はギプスでの固定が必要だ。",
+        "romanization": "kotei; Saikin wa kotei denwa o motanai katei ga fuete iru. / Yachin nado no koteihi o minaoseba, maitsuki no shuppi o heraseru. / Kossetsu shita ashi wa gipusu de no kotei ga hitsuyou da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "In letzter Zeit gibt es immer mehr Haushalte ohne Festnetztelefon. / Wenn man Fixkosten wie die Miete überprüft, kann man die monatlichen Ausgaben senken. / Das gebrochene Bein muss mit einem Gips ruhiggestellt werden.",
+        "contexts": [
+          "landline phones",
+          "household budget",
+          "medical treatment"
+        ],
+        "lexical": "JMdict 1266650 senses 1-2, noun (also vs): fixing in place, securing; fixing (e.g. salary, capital)",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-kotei-fixing; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "496709e07c523676e60a92f6e4ffd44548c2c4b4ced12b32adc90cb69c892022",
+        "approvalHash": "7bde1aa4a7d0cf9116bde8aef5246652754a4f200ac5cad575176460db2ea057"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:goto-each-suffix",
+      "revisionId": "text-2026-11-vocab-n2-correction-goto-each-suffix",
+      "state": "accepted",
+      "predecessorHash": "ab7392dca3cc783e485856315d61828d9913bf6a1d6740b0ae0e4d65dd4a4cd4",
+      "originalHash": "ab7392dca3cc783e485856315d61828d9913bf6a1d6740b0ae0e4d65dd4a4cd4",
+      "predecessorRevisionHash": "85b318ad6c0c142ed01bc97cd1b5a43821feaab9f7f966eb7bd9375b10920562",
+      "original": {
+        "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに, vocab-n3:2554); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“)."
+      },
+      "replacement": {
+        "notes": "Suffix nach Nomen oder Verben, meist in Kana geschrieben: 三か月ごとの点検 „Inspektion alle drei Monate“, 日ごと „von Tag zu Tag“, 会うごとに „jedes Mal, wenn man sich trifft“. Die adverbiale Form mit に hat eine eigene Karte (〜毎に/ごとに); diese Karte deckt das bloße 〜ごと, vor allem 〜ごとの + Nomen. Vor dem Nomen wird 毎 dagegen まい gelesen (毎日, 毎週); nicht verwechseln mit 〜ごと „samt“ (皮ごと „mit Schale“)."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:2554). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-goto-each-suffix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:goto-each-suffix notes; referenced cards: vocab-n3:2554 = 〜毎に (ごとに)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): ごと/ゴト; lemma 事; 名詞/普通名詞/一般/*; *; *; aType 2 | ごと/ゴト; lemma 琴; 名詞/普通名詞/一般/*; *; *; aType 1 | ごと/ゴト; lemma ごと; 副詞/*/*/*; *; *; aType 2 | ごと/ゴト; lemma ごと; 接尾辞/名詞的/副詞可能/*; *; *; aType * | ごと/ゴト; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | 毎/ゴト; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | ごと/ゴト; lemma ごとし; 助動詞/*/*/*; 文語助動詞-ゴトシ; 語幹-一般; aType *. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%80%9C%E3%81%94%E3%81%A8",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): ごと/ゴト; lemma 事; 名詞/普通名詞/一般/*; *; *; aType 2 | ごと/ゴト; lemma 琴; 名詞/普通名詞/一般/*; *; *; aType 1 | ごと/ゴト; lemma ごと; 副詞/*/*/*; *; *; aType 2 | ごと/ゴト; lemma ごと; 接尾辞/名詞的/副詞可能/*; *; *; aType * | ごと/ゴト; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | 毎/ゴト; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | ごと/ゴト; lemma ごとし; 助動詞/*/*/*; 文語助動詞-ゴトシ; 語幹-一般; aType *. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "je, jede(r/s), alle (Suffix, z. B. 一時間ごと, 日ごとに). JMdict 1524640 sense 1, noun / noun suffix / adverb (uk): each, every",
+        "japanese": "三か月ごとの定期点検を忘れないでください。 / 日ごと寒さが増していく。 / 一雨ごとに暖かくなってきた。",
+        "romanization": "goto; Sankagetsu goto no teiki tenken o wasurenaide kudasai. / Higoto samusa ga mashite iku. / Hitoame goto ni atatakaku natte kita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Vergessen Sie die regelmäßige Inspektion alle drei Monate nicht. / Von Tag zu Tag wird es kälter. / Mit jedem Regen ist es wärmer geworden.",
+        "contexts": [
+          "maintenance schedule",
+          "changing seasons",
+          "spring weather"
+        ],
+        "lexical": "JMdict 1524640 sense 1, noun / noun suffix / adverb (uk): each, every",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-goto-each-suffix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "6af14e1e7dcbbfd0131c141bc7fb91350bd4f4be8cfe3e220bc456a24a68abce",
+        "approvalHash": "05ac4eb20f328c2150f7428ee7109e19f09a2979430fc91ac3cb4720296fad44"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:sanshou-reference",
+      "revisionId": "text-2026-11-vocab-n2-correction-sanshou-reference",
+      "state": "accepted",
+      "predecessorHash": "d0ca583528d6a36248d56c1afbac5af3dad30201652605d22192bdf8bf6a724d",
+      "originalHash": "d0ca583528d6a36248d56c1afbac5af3dad30201652605d22192bdf8bf6a724d",
+      "predecessorRevisionHash": "eff1cd27b5c248c3725ebdae3f17aa41cafdf46d99c2bf15f0baa969e8948f4c",
+      "original": {
+        "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“ (vocab-n2:573), typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 参照する „nachschlagen, verweisen auf“, typisch für Schriftsprache und Anleitungen: 〜を参照のこと „siehe …“, 相互参照 „Querverweis“, 参照ボタン „Durchsuchen-Schaltfläche“ am Computer. Im Unterschied zu 参考 „Anhaltspunkt, Referenz zur Orientierung“ meint 参照 das gezielte Nachsehen an einer bestimmten Stelle."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:573). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-sanshou-reference; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:sanshou-reference notes; referenced cards: vocab-n2:573 = 参照する (さんしょうする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 参照/サンショウ; lemma 参照; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@133045042",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 参照/サンショウ; lemma 参照; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "参照",
+              "reading": "さんしょう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 参照/さんしょう \"Verweis, Nachschlagen, Bezugnahme\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verweis, Nachschlagen, Bezugnahme. JMdict 1302410 senses 1-2, noun (also vs): reference, consultation; browsing (to a file or folder)",
+        "japanese": "詳しくは次のページを参照のこと。 / 辞書の相互参照をたどると、関連語が見つかる。 / 保存先のフォルダは「参照」ボタンで選べます。",
+        "romanization": "sanshou; Kuwashiku wa tsugi no peeji o sanshou no koto. / Jisho no sougo sanshou o tadoru to, kanrengo ga mitsukaru. / Hozonsaki no foruda wa \"sanshou\" botan de erabemasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Für Einzelheiten siehe die nächste Seite. / Wenn man den Querverweisen im Wörterbuch folgt, findet man verwandte Wörter. / Den Zielordner zum Speichern können Sie über die Schaltfläche „Durchsuchen“ auswählen.",
+        "contexts": [
+          "instruction in a manual",
+          "using a dictionary",
+          "computer file dialog"
+        ],
+        "lexical": "JMdict 1302410 senses 1-2, noun (also vs): reference, consultation; browsing (to a file or folder)",
+        "register": "formal, written",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-sanshou-reference; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "a95b854b0ad2fcbef2fa4a957b4f712cb2642db09f951b614d8cf41e7942d56d",
+        "approvalHash": "a4c65fd931ca1edadca375e02568a5fb69f6fe8264323f3a9bcd96c7db8238a2"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shuushuu-collection",
+      "revisionId": "text-2026-11-vocab-n2-correction-shuushuu-collection",
+      "state": "accepted",
+      "predecessorHash": "59d75c787016f6de68c5ec162ddcb4a8775703a3caa69d6658327c04aa628705",
+      "originalHash": "59d75c787016f6de68c5ec162ddcb4a8775703a3caa69d6658327c04aa628705",
+      "predecessorRevisionHash": "6d4a13a79b73bdf6abe47764948a55b8c94ae29a6d79b13ebfde4b0967e226fb",
+      "original": {
+        "notes": "Substantiv zum Verb 収集する „sammeln“ (vocab-n2:572), oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 収集する „sammeln“, oft mit の oder in Komposita: 切手の収集 „Briefmarkensammeln“, 情報収集 „Informationsbeschaffung“, ごみ収集 „Müllabfuhr“, 収集家 „Sammler“. Die Schreibung 蒐集 betont das Sammeln von Kunst- oder Liebhaberstücken und ist selten. Im Alltag sagt man für einfaches Einsammeln eher 集める."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:572). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-shuushuu-collection; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:shuushuu-collection notes; referenced cards: vocab-n2:572 = 収集する (しゅうしゅうする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 収集/シュウシュウ; lemma 収集; 名詞/普通名詞/サ変可能/*; *; *; aType 0 | 蒐集/シュウシュウ; lemma 収集; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@139900486",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 収集/シュウシュウ; lemma 収集; 名詞/普通名詞/サ変可能/*; *; *; aType 0 | 蒐集/シュウシュウ; lemma 収集; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "収集",
+              "reading": "しゅうしゅう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 収集/しゅうしゅう \"Sammeln, Sammlung; (Müll-)Abholung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Sammeln, Sammlung; (Müll-)Abholung. JMdict 1594720 senses 1-3, noun (also vs): collecting, gathering; collection (of art, stamps); garbage collection",
+        "japanese": "祖父の趣味は古い切手の収集だ。 / この地区のごみ収集は火曜日と金曜日です。 / 事件の情報収集に時間がかかっている。",
+        "romanization": "shuushuu; Sofu no shumi wa furui kitte no shuushuu da. / Kono chiku no gomi shuushuu wa kayoubi to kin'youbi desu. / Jiken no jouhou shuushuu ni jikan ga kakatte iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Das Hobby meines Großvaters ist das Sammeln alter Briefmarken. / In diesem Viertel wird der Müll dienstags und freitags abgeholt. / Das Sammeln von Informationen zu dem Vorfall nimmt viel Zeit in Anspruch.",
+        "contexts": [
+          "hobby",
+          "garbage collection days",
+          "investigation"
+        ],
+        "lexical": "JMdict 1594720 senses 1-3, noun (also vs): collecting, gathering; collection (of art, stamps); garbage collection",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-shuushuu-collection; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "8f9b1ce877c3aed020c5e8269a027b77f7f0ffa844403400cc046c6d3e947ac4",
+        "approvalHash": "0e61175b54d129536909b340bda21b07341bfc8ea903f764d365e71fa47d2fd1"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:shougou-collation",
+      "revisionId": "text-2026-11-vocab-n2-correction-shougou-collation",
+      "state": "accepted",
+      "predecessorHash": "06aee6f35b91f6ccdc2d00724232c824978ec2e0314865cf12d1bf0a5cd629ae",
+      "originalHash": "06aee6f35b91f6ccdc2d00724232c824978ec2e0314865cf12d1bf0a5cd629ae",
+      "predecessorRevisionHash": "ef21351368a736db483ec35d8baf7e34bd3604e0669a456ade6026b1828c6a68",
+      "original": {
+        "notes": "Substantiv zum Verb 照合する „abgleichen“ (vocab-n2:552): Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 照合する „abgleichen“: Man prüft etwas gegen eine Vorlage, etwa 指紋の照合 „Fingerabdruckabgleich“, データ照合, 本人照合 „Identitätsprüfung“. Das Verb steht mit 〜と照合する; in der Umgangssprache entspricht ihm 照らし合わせる. 比較 ist dagegen allgemeines Vergleichen ohne Prüfungsabsicht."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:552). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-shougou-collation; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:shougou-collation notes; referenced cards: vocab-n2:552 = 照合する (しょうごうする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 照合/ショウゴウ; lemma 照合; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@140789121",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 照合/ショウゴウ; lemma 照合; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "照合",
+              "reading": "しょうごう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 照合/しょうごう \"Abgleich, Vergleich, Überprüfung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Abgleich, Vergleich, Überprüfung. JMdict 1350920 sense 1, noun (also vs): check (against), collation, comparison, verification",
+        "japanese": "現場に残された指紋の照合を急いでいる。 / 入金と請求書の照合は経理の大事な仕事だ。 / パスワードの照合に失敗しました。",
+        "romanization": "shougou; Genba ni nokosareta shimon no shougou o isoide iru. / Nyuukin to seikyuusho no shougou wa keiri no daiji na shigoto da. / Pasuwaado no shougou ni shippai shimashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man arbeitet mit Hochdruck am Abgleich der am Tatort hinterlassenen Fingerabdrücke. / Der Abgleich von Zahlungseingängen und Rechnungen ist eine wichtige Aufgabe der Buchhaltung. / Die Überprüfung des Passworts ist fehlgeschlagen.",
+        "contexts": [
+          "police investigation",
+          "accounting",
+          "login error message"
+        ],
+        "lexical": "JMdict 1350920 sense 1, noun (also vs): check (against), collation, comparison, verification",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-shougou-collation; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "755d93b8811a3c0a20204fc617dc38208df598ff4c99991f305f00aa2e0df757",
+        "approvalHash": "e35cef7a87d5f41a73cce1cb8d94630c259d5f7b3a34f29fa00bcfcc97ce4748"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jizen-prior",
+      "revisionId": "text-2026-11-vocab-n2-correction-jizen-prior",
+      "state": "accepted",
+      "predecessorHash": "f872f4443d61e22fc3417dc2219377348ecaa349a6c136de831f90e76cf3ce48",
+      "originalHash": "f872f4443d61e22fc3417dc2219377348ecaa349a6c136de831f90e76cf3ce48",
+      "predecessorRevisionHash": "7823ff3e868edbae2697b52dbe4da3a83a3c33be0c6dede765069d56ab3cc265",
+      "original": {
+        "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte (vocab-n2:1323). Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“ (vocab-n2:37)."
+      },
+      "replacement": {
+        "notes": "Nomen, das vor allem attributiv mit の oder in Komposita gebraucht wird: 事前の準備 „Vorbereitung im Vorfeld“, 事前登録 „Voranmeldung“, 事前調査 „Voruntersuchung“. Die adverbiale Form 事前に „im Voraus“ hat eine eigene Karte. Gegenbegriff ist 事後 „nachträglich“ (事後報告); nicht verwechseln mit dem Homophon 慈善 „Wohltätigkeit“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:1323, vocab-n2:37). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-jizen-prior; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:jizen-prior notes; referenced cards: vocab-n2:1323 = 事前に (じぜんに); vocab-n2:37 = 慈善 (じぜん)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 事前/ジゼン; lemma 事前; 名詞/普通名詞/一般/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143702672",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 事前/ジゼン; lemma 事前; 名詞/普通名詞/一般/*; *; *; aType 0.",
+            "match": {
+              "word": "事前",
+              "reading": "じぜん",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 事前/じぜん \"vorherig, Vorab-, im Voraus (事前の)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "vorherig, Vorab-, im Voraus (事前の). JMdict 1314050 sense 1, no-adjective: prior, beforehand, in advance",
+        "japanese": "事前の準備がしっかりしていたので、会議はスムーズに進んだ。 / このイベントへの参加には事前登録が必要です。 / 事前調査の結果、計画は一部変更された。",
+        "romanization": "jizen; Jizen no junbi ga shikkari shite ita node, kaigi wa sumuuzu ni susunda. / Kono ibento e no sanka ni wa jizen touroku ga hitsuyou desu. / Jizen chousa no kekka, keikaku wa ichibu henkou sareta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Weil die Vorbereitung im Vorfeld gründlich war, lief die Besprechung reibungslos. / Für die Teilnahme an dieser Veranstaltung ist eine Voranmeldung erforderlich. / Aufgrund der Voruntersuchung wurde der Plan teilweise geändert.",
+        "contexts": [
+          "meeting preparation",
+          "event registration",
+          "project planning"
+        ],
+        "lexical": "JMdict 1314050 sense 1, no-adjective: prior, beforehand, in advance",
+        "register": "neutral (slightly formal)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-jizen-prior; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "1c0cd78632e634365816f6d8064cd79806469f1fd99386c673c157270cac295f",
+        "approvalHash": "ef52f375983216f55b9f7c9ae1a1607272ab5316a6ca587fa1f5e31026306421"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:jitsu-truth",
+      "revisionId": "text-2026-11-vocab-n2-correction-jitsu-truth",
+      "state": "accepted",
+      "predecessorHash": "dbb5d36e049dfa354b9f670bd72d1b8d09d5bde2e6b6b060a897163b123588b6",
+      "originalHash": "dbb5d36e049dfa354b9f670bd72d1b8d09d5bde2e6b6b060a897163b123588b6",
+      "predecessorRevisionHash": "cf6b9d1f6beba69bcb8045df0945fa97c26b1f4d9ade1fee62db831ce4474d23",
+      "original": {
+        "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte (vocab-n3:3281). 実/み (vocab-n3:correction:mi-fruit) ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen."
+      },
+      "replacement": {
+        "notes": "Sino-japanische Lesung von 実 als eigenständiges Nomen, vor allem in festen Wendungen: 実の親 „leibliche Eltern“, 実を言うと „ehrlich gesagt“, 実がない „ohne Substanz“, 名より実を取る „das Wesentliche dem Schein vorziehen“. Das Adverb 実は „eigentlich, offen gesagt“ hat eine eigene Karte. 実/み ist dagegen die „Frucht“ und wird in Wendungen wie 実を結ぶ gelesen."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:3281, vocab-n3:correction:mi-fruit). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-jitsu-truth; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:jitsu-truth notes; referenced cards: vocab-n3:3281 = 実は (じつは); vocab-n3:correction:mi-fruit = 実 (み)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [2] via exact UniDic row. Exact whole 実/ジツ; lemma 実; 名詞/普通名詞/副詞可能/*; *; *; aType 2. Rejected for this role: 実/ジツ; lemma 実; 接頭辞/*/*/*; *; *; aType *.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@143767583",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              2
+            ],
+            "finding": "Exact whole 実/ジツ; lemma 実; 名詞/普通名詞/副詞可能/*; *; *; aType 2. Rejected for this role: 実/ジツ; lemma 実; 接頭辞/*/*/*; *; *; aType *.",
+            "match": {
+              "word": "実",
+              "reading": "じつ",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 実/じつ \"Wahrheit, Wirklichkeit; Aufrichtigkeit; Substanz, Gehalt\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Wahrheit, Wirklichkeit; Aufrichtigkeit; Substanz, Gehalt. JMdict 1320800 senses 1-3, noun / no-adjective: truth, reality; sincerity; content, substance",
+        "japanese": "彼女は私の実の姉ではなく、義理の姉です。 / 実を言うと、まだ宿題が終わっていないんです。 / 名ばかりで実が伴わない改革だ。",
+        "romanization": "jitsu; Kanojo wa watashi no jitsu no ane de wa naku, giri no ane desu. / Jitsu o iu to, mada shukudai ga owatte inai n desu. / Na bakari de jitsu ga tomonawanai kaikaku da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Sie ist nicht meine leibliche Schwester, sondern meine Schwägerin. / Ehrlich gesagt bin ich mit den Hausaufgaben noch nicht fertig. / Das ist eine Reform nur dem Namen nach, ohne echte Substanz.",
+        "contexts": [
+          "family relations",
+          "confession",
+          "political criticism"
+        ],
+        "lexical": "JMdict 1320800 senses 1-3, noun / no-adjective: truth, reality; sincerity; content, substance",
+        "register": "neutral (set phrases)",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-jitsu-truth; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "71cbd0ced53ceb310d09bd79d5683819ad94dfd94274cc7776a41b8b882cad43",
+        "approvalHash": "8a684b575ad349ef068c22df65f62a35692e723ad070f82339a66188557b811d"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:sokusuru-conform",
+      "revisionId": "text-2026-11-vocab-n1-correction-sokusuru-conform",
+      "state": "accepted",
+      "predecessorHash": "e79d05d3160b5171ce138ba7b40ca0b4181e05edd689c9d52bd113334a86686e",
+      "originalHash": "e79d05d3160b5171ce138ba7b40ca0b4181e05edd689c9d52bd113334a86686e",
+      "predecessorRevisionHash": "318fafa377c75a70e73acefc06259a661a820de56dc0ff26c8af734d9a0962fd",
+      "original": {
+        "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“ (vocab-n2:1848)."
+      },
+      "replacement": {
+        "notes": "Förmliches, schriftsprachliches Verb, fast nur als 〜に即して „gemäß, im Einklang mit“ oder 〜に即した + Nomen: 現実に即した計画 „ein realitätsnaher Plan“, 実情に即して. Bedeutungsnah sind 〜に沿って und 〜に基づいて; 則する wird bevorzugt, wenn es um Regeln und Gesetze geht. Nicht verwechseln mit 即/そく „sofort“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:1848). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-sokusuru-conform; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:sokusuru-conform notes; referenced cards: vocab-n2:1848 = 即〜 (そく)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3] via exact UniDic row. Exact whole 則する/ソクスル; lemma 則する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3 | 即する/ソクスル; lemma 即する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 則する/ソクスル; lemma 則する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3 | 即する/ソクスル; lemma 即する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@155625899",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3
+            ],
+            "finding": "Exact whole 則する/ソクスル; lemma 則する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3 | 即する/ソクスル; lemma 即する; 動詞/一般/*/*; サ行変格; 終止形-一般; aType 3. Rejected for this role: 則する/ソクスル; lemma 則する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3 | 即する/ソクスル; lemma 即する; 動詞/一般/*/*; サ行変格; 連体形-一般; aType 3.",
+            "match": {
+              "word": "即する",
+              "reading": "そくする",
+              "grammaticalForm": "動詞/一般/*/*; サ行変格; 終止形-一般",
+              "sense": "Verb 即する/そくする \"entsprechen, sich richten nach, angepasst sein an (〜に即して)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "entsprechen, sich richten nach, angepasst sein an (〜に即して). JMdict 1404090 sense 1, special suru verb (vs-s), intransitive: to conform to, to agree with, to be based on",
+        "japanese": "現実に即した計画を立てるべきだ。 / 本件は法律に即して適切に処理いたします。 / 時代に即さない校則は見直すべきだという声が多い。",
+        "romanization": "sokusuru; Genjitsu ni sokushita keikaku o tateru beki da. / Honken wa houritsu ni sokushite tekisetsu ni shori itashimasu. / Jidai ni sokusanai kousoku wa minaosu beki da to iu koe ga ooi. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Man sollte einen realitätsnahen Plan aufstellen. / Wir werden diese Angelegenheit ordnungsgemäß im Einklang mit dem Gesetz behandeln. / Viele fordern, dass nicht mehr zeitgemäße Schulregeln überarbeitet werden.",
+        "contexts": [
+          "planning",
+          "official statement",
+          "school rules debate"
+        ],
+        "lexical": "JMdict 1404090 sense 1, special suru verb (vs-s), intransitive: to conform to, to agree with, to be based on",
+        "register": "formal, written",
+        "transitivity": "intransitive (X に 即する)",
+        "conjugation": "suru verb (special vs-s: 即して, 即した; negative 即さない or 即しない)",
+        "level": "Placed at N1 because it is a formal written verb used almost only in the pattern 〜に即して, though TANOS lists it among N2 rows.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-sokusuru-conform; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "88e969c44888e5a0b35d2f1fda01eda7000fd8c4e98c29d72cc693f97ef692b2",
+        "approvalHash": "7b51ac1263e4278a59dfd0bdc03e493694b1e8ba00f655a4ad264dca5b4401da"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:taikou-opposition",
+      "revisionId": "text-2026-11-vocab-n2-correction-taikou-opposition",
+      "state": "accepted",
+      "predecessorHash": "4dd81f8d74c5c1d74537f7188d162c2727025efe346c61267f1bda4d8604dbf1",
+      "originalHash": "4dd81f8d74c5c1d74537f7188d162c2727025efe346c61267f1bda4d8604dbf1",
+      "predecessorRevisionHash": "aa414f188003da072291fffc5f4bf0df8278c93ddc6baf737b03ccc2c548fa68",
+      "original": {
+        "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“ (vocab-n2:474), häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する, vocab-n2:1437; 対向車)."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 対抗する „es aufnehmen mit“, häufig in Komposita: 対抗意識 „Konkurrenzdenken“, 対抗馬 „Gegenkandidat“, クラス対抗 „Wettkampf zwischen Klassen“, 対抗策 „Gegenmaßnahme“. 対立 betont den Gegensatz, 対抗 das Sich-Messen mit einem Gegner. Nicht verwechseln mit dem Homophon 対向 „entgegenkommend“ (対向する; 対向車)."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:474, vocab-n2:1437). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-taikou-opposition; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:taikou-opposition notes; referenced cards: vocab-n2:474 = 対抗する (たいこうする); vocab-n2:1437 = 対向する (たいこうする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 対抗/タイコウ; lemma 対抗; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@158002783",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 対抗/タイコウ; lemma 対抗; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "対抗",
+              "reading": "たいこう",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 対抗/たいこう \"Gegnerschaft, Rivalität, Wettstreit, Widerstand\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gegnerschaft, Rivalität, Wettstreit, Widerstand. JMdict 1410020 sense 1, noun (also vs, vi): opposition, rivalry, competition, antagonism",
+        "japanese": "二人は互いに強い対抗意識を持っている。 / 来週、クラス対抗のリレー大会がある。 / 次の選挙で現職の対抗馬と目されているのは若手の議員だ。",
+        "romanization": "taikou; Futari wa tagai ni tsuyoi taikou ishiki o motte iru. / Raishuu, kurasu taikou no riree taikai ga aru. / Tsugi no senkyo de genshoku no taikouba to mokusarete iru no wa wakate no giin da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die beiden sehen sich gegenseitig als starke Konkurrenten. / Nächste Woche findet ein Staffellauf zwischen den Klassen statt. / Als Gegenkandidat des Amtsinhabers bei der nächsten Wahl gilt ein junger Abgeordneter.",
+        "contexts": [
+          "personal rivalry",
+          "school sports day",
+          "election campaign"
+        ],
+        "lexical": "JMdict 1410020 sense 1, noun (also vs, vi): opposition, rivalry, competition, antagonism",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-taikou-opposition; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b3ad98ab157e02c20634b25f8203bb8cc0068a9a5e69d2aaf94b67b2a059e440",
+        "approvalHash": "b985188dc81984c32dd3f14fb0b93c24fdccbe369a077bbba5c49f3e3c5c0a22"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:tanshuku-shortening",
+      "revisionId": "text-2026-11-vocab-n2-correction-tanshuku-shortening",
+      "state": "accepted",
+      "predecessorHash": "e5586da60fd305ca3b966d2a7a5116f9d78b69d4ef15d4f6ce16489a14842844",
+      "originalHash": "e5586da60fd305ca3b966d2a7a5116f9d78b69d4ef15d4f6ce16489a14842844",
+      "predecessorRevisionHash": "8b9df685c9909e2cf07567a9463c71edf9b49820d8f5795a15c95ac37779a883",
+      "original": {
+        "notes": "Substantiv zum Verb 短縮する „verkürzen“ (vocab-n2:451), vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略."
+      },
+      "replacement": {
+        "notes": "Substantiv zum Verb 短縮する „verkürzen“, vor allem für Zeit und Dauer: 時間短縮 „Zeitverkürzung“, 短縮授業 „verkürzter Unterricht“, 短縮営業 „verkürzte Öffnungszeiten“, 短縮ダイヤル „Kurzwahl“. Gegenbegriff ist 延長 „Verlängerung“. Für das Weglassen von Teilen eines Textes sagt man eher 省略."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n2:451). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from levels-2026-11-vocab-n2-correction-tanshuku-shortening; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:tanshuku-shortening notes; referenced cards: vocab-n2:451 = 短縮する (たんしゅくする)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 短縮/タンシュク; lemma 短縮; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@166531265",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 短縮/タンシュク; lemma 短縮; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "短縮",
+              "reading": "たんしゅく",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 短縮/たんしゅく \"Verkürzung, Kürzung, Abkürzung\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Verkürzung, Kürzung, Abkürzung. JMdict 1418740 sense 1, noun (also vs, vt): shortening, contraction, reduction, curtailment, abbreviation",
+        "japanese": "働き方改革で労働時間の短縮が進んでいる。 / 台風のため、今日は短縮授業になった。 / 電話の短縮ダイヤルに母の番号を登録した。",
+        "romanization": "tanshuku; Hatarakikata kaikaku de roudou jikan no tanshuku ga susunde iru. / Taifuu no tame, kyou wa tanshuku jugyou ni natta. / Denwa no tanshuku daiyaru ni haha no bangou o touroku shita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durch die Arbeitsreform werden die Arbeitszeiten zunehmend verkürzt. / Wegen des Taifuns gab es heute verkürzten Unterricht. / Ich habe die Nummer meiner Mutter als Kurzwahl im Telefon gespeichert.",
+        "contexts": [
+          "labour policy",
+          "school day cut short",
+          "phone settings"
+        ],
+        "lexical": "JMdict 1418740 sense 1, noun (also vs, vt): shortening, contraction, reduction, curtailment, abbreviation",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "list: Jonathan Waller's JLPT lists, matched through the card's cited JMdict entry and reading; Waller list N1 (harder)",
+        "carriedOver": "Everything except the usage note is copied unchanged from levels-2026-11-vocab-n2-correction-tanshuku-shortening; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b676646c7ccd3a9e0c4e0da5dc7cbf98ff758e420bffa4f00516725e5eb9c047",
+        "approvalHash": "068aef5e68ff6360d8ffa274c9789ba71b2f37ae19807e4a85a674c1ee68ae44"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:kagiri-limit",
+      "revisionId": "text-2026-11-vocab-n2-correction-kagiri-limit",
+      "state": "accepted",
+      "predecessorHash": "58a6916cb9740443f231cf2cccbe7de52dc638682f657074c6561fbb8d9fb6c2",
+      "originalHash": "58a6916cb9740443f231cf2cccbe7de52dc638682f657074c6561fbb8d9fb6c2",
+      "predecessorRevisionHash": "c010dabfb6a3a2be0c699b34eeda4cd1bcdd32286dc2400b0e1e37e8faf6eb94",
+      "original": {
+        "notes": "限り ist das Nomen zu 限る (vocab-n3:2501) und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben."
+      },
+      "replacement": {
+        "notes": "限り ist das Nomen zu 限る und bedeutet „Grenze“; meist steht es aber nach Verben oder Nomen: できる限り „so gut wie möglich“, 私の知る限り „soweit ich weiß“, 〜ない限り „sofern nicht“, 今日限り „nur heute“. Feste Wendungen sind 限りない „grenzenlos“ und 限りある資源 „begrenzte Ressourcen“. Als Grammatikmuster oft auch in Kana (かぎり) geschrieben."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:2501). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-kagiri-limit; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:kagiri-limit notes; referenced cards: vocab-n3:2501 = 限る (かぎる)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1,3] via exact UniDic row. Exact whole 限り/カギリ; lemma 限り; 名詞/普通名詞/副詞可能/*; *; *; aType 1,3. Rejected for this role: 限り/カギリ; lemma 限る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@90339041",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1,
+              3
+            ],
+            "finding": "Exact whole 限り/カギリ; lemma 限り; 名詞/普通名詞/副詞可能/*; *; *; aType 1,3. Rejected for this role: 限り/カギリ; lemma 限る; 動詞/一般/*/*; 五段-ラ行; 連用形-一般; aType 2.",
+            "match": {
+              "word": "限り",
+              "reading": "かぎり",
+              "grammaticalForm": "名詞/普通名詞/副詞可能/*; *; *",
+              "sense": "Nomen 限り/かぎり \"Grenze, Limit; solange, soweit (〜限り); nur (今日限り)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Grenze, Limit; solange, soweit (〜限り); nur (今日限り). JMdict 1264610 senses 1, 4 and 8, noun/adverb: limit, bounds; as long as, as far as; ... only",
+        "japanese": "できる限り早くご連絡いたします。 / 私の知る限り、彼はまだ独身です。 / このセール価格は今日限りです。",
+        "romanization": "kagiri; Dekiru kagiri hayaku go-renraku itashimasu. / Watashi no shiru kagiri, kare wa mada dokushin desu. / Kono sēru kakaku wa kyō kagiri desu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wir melden uns so bald wie möglich bei Ihnen. / Soweit ich weiß, ist er noch ledig. / Dieser Sonderpreis gilt nur heute.",
+        "contexts": [
+          "polite business promise",
+          "limiting one's knowledge",
+          "one-day sale"
+        ],
+        "lexical": "JMdict 1264610 senses 1, 4 and 8, noun/adverb: limit, bounds; as long as, as far as; ... only",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2, and patterns like できる限り and 〜ない限り are standard N2 grammar.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-kagiri-limit; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "7d3dbd4f25655e5c4e381b590cfafa296d8db25c2601159a6953052f7f221815",
+        "approvalHash": "c8b264b0aded51dab67216b85e4131fd7385de45c88c0ad5194b5754e77c252c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:zuke-dated-suffix",
+      "revisionId": "text-2026-11-vocab-n2-correction-zuke-dated-suffix",
+      "state": "accepted",
+      "predecessorHash": "c0f5c0af9cfb39ff7191b000350debe0da8508d640516e1f41ae91ecedd7f442",
+      "originalHash": "c0f5c0af9cfb39ff7191b000350debe0da8508d640516e1f41ae91ecedd7f442",
+      "predecessorRevisionHash": "ffb025792f29396211ec0374266a5e63e7eabd66adb6607180bb6988f14786a2",
+      "original": {
+        "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ, vocab-n3:3291) „Datum“ und 〜漬け (づけ, vocab-n2:1532) „eingelegt in“."
+      },
+      "replacement": {
+        "notes": "〜付け (づけ) steht nach einer Datumsangabe und bedeutet „datiert vom“ bzw. „mit Wirkung vom“: 4月1日付けで異動, 10日付けの手紙, 本日付けで退職. Typisch für Amts-, Geschäfts- und Zeitungssprache; oft auch nur 付 ohne Okurigana geschrieben. Nicht verwechseln mit 日付 (ひづけ) „Datum“ und 〜漬け (づけ) „eingelegt in“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:3291, vocab-n2:1532). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-zuke-dated-suffix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:zuke-dated-suffix notes; referenced cards: vocab-n3:3291 = 日付 (ひづけ); vocab-n2:1532 = 〜漬け (づけ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 仮定形-一般; aType 1,2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 命令形; aType 1,2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 未然形-一般; aType 1,2 | 付/ヅケ; lemma 付け; 名詞/普通名詞/一般/*; *; *; aType 2 | 付け/ヅケ; lemma 付け; 名詞/普通名詞/一般/*; *; *; aType 2 | 付/ヅケ; lemma 付け; 接尾辞/名詞的/一般/*; *; *; aType * | 付け/ヅケ; lemma 付け; 接尾辞/名詞的/一般/*; *; *; aType * | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%80%9C%E4%BB%98%E3%81%91",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 仮定形-一般; aType 1,2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 命令形; aType 1,2 | 付け/ヅケ; lemma 付く; 動詞/非自立可能/*/*; 五段-カ行; 未然形-一般; aType 1,2 | 付/ヅケ; lemma 付け; 名詞/普通名詞/一般/*; *; *; aType 2 | 付け/ヅケ; lemma 付け; 名詞/普通名詞/一般/*; *; *; aType 2 | 付/ヅケ; lemma 付け; 接尾辞/名詞的/一般/*; *; *; aType * | 付け/ヅケ; lemma 付け; 接尾辞/名詞的/一般/*; *; *; aType * | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 未然形-一般; aType 2 | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連体形-省略; aType 2 | 付/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2 | 付け/ヅケ; lemma 付ける; 動詞/非自立可能/*/*; 下一段-カ行; 連用形-一般; aType 2. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "datiert vom, mit Datum vom; mit Wirkung vom (Suffix). JMdict 1495760 sense 1, noun suffix: dated; date; date of effect",
+        "japanese": "四月一日付けで大阪支社に異動することになった。 / 十月五日付けのお手紙、確かに拝受いたしました。 / 田中部長は本日付で退職されました。",
+        "romanization": "zuke; Shigatsu tsuitachi-zuke de Ōsaka shisha ni idō suru koto ni natta. / Jūgatsu itsuka-zuke no o-tegami, tashika ni haiju itashimashita. / Tanaka buchō wa honjitsu-zuke de taishoku saremashita. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich werde mit Wirkung vom 1. April in die Filiale Osaka versetzt. / Ihren Brief vom 5. Oktober habe ich dankend erhalten. / Abteilungsleiter Tanaka ist mit dem heutigen Tag in den Ruhestand getreten.",
+        "contexts": [
+          "personnel transfer",
+          "formal letter reply",
+          "retirement announcement"
+        ],
+        "lexical": "JMdict 1495760 sense 1, noun suffix: dated; date; date of effect",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; it is common in business and official documents but not everyday speech.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-zuke-dated-suffix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "ae532cc90fb377ec878db19a206dbcce1af06754bbbe42d2c172cd97533ee1f3",
+        "approvalHash": "cd75542113c2e9b079da7b5742dcb2d0636fa82a0976069574565a7c9654d746"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:gimi-tendency-suffix",
+      "revisionId": "text-2026-11-vocab-n2-correction-gimi-tendency-suffix",
+      "state": "accepted",
+      "predecessorHash": "3e436bc642c9141e5328e8603c96984853191e1f44c427bf48dbc9bbfff93d73",
+      "originalHash": "3e436bc642c9141e5328e8603c96984853191e1f44c427bf48dbc9bbfff93d73",
+      "predecessorRevisionHash": "6b7b92264e0868787da1f40651e0f9493fb87ccc3354a04089f157412daf3cf9",
+      "original": {
+        "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ (vocab-n3:3303), etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix."
+      },
+      "replacement": {
+        "notes": "〜気味 (ぎみ) hängt an Nomen oder an den Verbstamm und bedeutet „leicht, etwas, mit einer Neigung zu“: 風邪気味, 疲れ気味, 太り気味, 遅れ気味. Meist für unerwünschte Zustände; es verbindet sich wie ein na-Adjektiv (気味だ, 気味の, 気味で). Als selbständiges Wort liest man 気味 dagegen きみ, etwa in 気味が悪い „unheimlich“; ぎみ ist die stimmhafte Form im Suffix."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:3303). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-gimi-tendency-suffix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:gimi-tendency-suffix notes; referenced cards: vocab-n3:3303 = 気味 (きみ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 気味/ギミ; lemma 気味; 名詞/普通名詞/一般/*; *; *; aType 2. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%80%9C%E6%B0%97%E5%91%B3",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 気味/ギミ; lemma 気味; 名詞/普通名詞/一般/*; *; *; aType 2. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "leicht, etwas, mit Neigung zu (Suffix). JMdict 1790980 sense 1, noun suffix: -like; -looking; tending to ...",
+        "japanese": "風邪気味なので、今日は早めに寝ます。 / 最近仕事が忙しくて、少し疲れ気味だ。 / 電車が遅れ気味で、会議に間に合うか心配だ。",
+        "romanization": "gimi; Kaze-gimi na node, kyō wa hayame ni nemasu. / Saikin shigoto ga isogashikute, sukoshi tsukare-gimi da. / Densha ga okure-gimi de, kaigi ni ma ni au ka shinpai da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich bin leicht erkältet, deshalb gehe ich heute früher schlafen. / In letzter Zeit ist die Arbeit hektisch, ich bin etwas erschöpft. / Der Zug hat leichte Verspätung, ich mache mir Sorgen, ob ich rechtzeitig zur Besprechung komme.",
+        "contexts": [
+          "feeling a cold coming",
+          "work fatigue",
+          "train running late"
+        ],
+        "lexical": "JMdict 1790980 sense 1, noun suffix: -like; -looking; tending to ...",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective-like (〜気味だ, 〜気味の, 〜気味で)",
+        "level": "〜気味 is a standard JLPT N2 grammar suffix and the publisher places it at N2.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-gimi-tendency-suffix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "9b44ae5f33be34e9b336d0e7c9792abdf39ad2dd523c8aabcb65dfb9da91a569",
+        "approvalHash": "cee28f03a48da999d490d52f7e17e705f3b39c56856bb55f0bfa11bf9d4ae6f4"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:senmen-washing-face",
+      "revisionId": "text-2026-11-vocab-n2-correction-senmen-washing-face",
+      "state": "accepted",
+      "predecessorHash": "70f493f425d2fcd000fd85464c2d1b12abd5106ff127eff1b7e4b0752ff93f7f",
+      "originalHash": "70f493f425d2fcd000fd85464c2d1b12abd5106ff127eff1b7e4b0752ff93f7f",
+      "predecessorRevisionHash": "c87f08c498acd028d6ef4eba875c33c3e66ad528e3333bce368dd6e235fb1ca6",
+      "original": {
+        "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 (vocab-n5:790) „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten."
+      },
+      "replacement": {
+        "notes": "洗面 ist das sino-japanische Wort für „sich das Gesicht waschen“ und steht vor allem in Komposita: 洗面所 „Waschraum“, 洗面台 „Waschbecken“, 洗面器 „Waschschüssel“, 洗面用具 „Waschzeug“. Allein klingt es schriftlich (洗面を済ませる); im Alltag sagt man 顔を洗う. 洗面する gibt es, ist aber selten."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:790). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-senmen-washing-face; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:senmen-washing-face notes; referenced cards: vocab-n5:790 = 洗面台 (せんめんだい)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole 洗面/センメン; lemma 洗面; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@154651413",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole 洗面/センメン; lemma 洗面; 名詞/普通名詞/サ変可能/*; *; *; aType 0.",
+            "match": {
+              "word": "洗面",
+              "reading": "せんめん",
+              "grammaticalForm": "名詞/普通名詞/サ変可能/*; *; *",
+              "sense": "Nomen 洗面/せんめん \"Gesichtwaschen, Waschen (von Gesicht und Händen)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Gesichtwaschen, Waschen (von Gesicht und Händen). JMdict 1391050 sense 1, noun/suru verb (intransitive): washing one's face",
+        "japanese": "洗面所はあちらの廊下の突き当たりです。 / 朝起きて洗面を済ませてから、朝食をとった。 / 旅行用の洗面用具をかばんに詰めた。",
+        "romanization": "senmen; Senmenjo wa achira no rōka no tsukiatari desu. / Asa okite senmen o sumasete kara, chōshoku o totta. / Ryokō-yō no senmen yōgu o kaban ni tsumeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Waschraum ist am Ende des Flurs dort drüben. / Nach dem Aufstehen wusch ich mich und frühstückte dann. / Ich packte das Waschzeug für die Reise in die Tasche.",
+        "contexts": [
+          "asking for the washroom",
+          "morning routine",
+          "packing for a trip"
+        ],
+        "lexical": "JMdict 1391050 sense 1, noun/suru verb (intransitive): washing one's face",
+        "register": "neutral",
+        "transitivity": "Nonverb (as 洗面する: intransitive, rare)",
+        "conjugation": "Nonverb (rarely used as suru verb)",
+        "level": "Publisher places it at N2; the bare noun is mostly written-style while its compounds are everyday words.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-senmen-washing-face; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "63dda73149c838081ba3bcbe86be8ae3f2311be3d306d6ce21b12115afbf07fe",
+        "approvalHash": "f012dd0ba30e31c5df80639b3a68e4287740c200a499f2a2e54d21d2eda7b275"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:atataka-warm",
+      "revisionId": "text-2026-11-vocab-n2-correction-atataka-warm",
+      "state": "accepted",
+      "predecessorHash": "9541f1ca16413473217e0c04ab9185ed47d7acb449aceaae1855a6fb90fc04e1",
+      "originalHash": "9541f1ca16413473217e0c04ab9185ed47d7acb449aceaae1855a6fb90fc04e1",
+      "predecessorRevisionHash": "713672be7d0c1aa4992d3cc059c22bcc568a0406a50649673d28e94b52dd2bce",
+      "original": {
+        "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい (vocab-n5:75) und 温かい (vocab-n2:719); sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか."
+      },
+      "replacement": {
+        "notes": "暖か (あたたか) ist die na-Adjektiv-Form neben den i-Adjektiven 暖かい und 温かい; sie klingt etwas gehobener und steht oft attributiv als 暖かな: 暖かな日差し, 温かな心. Die Schreibung 暖か gilt für Wetter und Raumtemperatur, 温か für Speisen, Dinge und Herzlichkeit. Umgangssprachlich auch あったか."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:75, vocab-n2:719). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-atataka-warm; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:atataka-warm notes; referenced cards: vocab-n5:75 = 暖かい (あたたかい); vocab-n2:719 = 温かい (あたたかい)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [3,2] via exact UniDic row. Exact whole 暖か/アタタカ; lemma 温か; 形状詞/一般/*/*; *; *; aType 3,2 | 温か/アタタカ; lemma 温か; 形状詞/一般/*/*; *; *; aType 3,2. Rejected for this role: 暖か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 語幹-一般; aType 4 | 温か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 語幹-一般; aType 4 | 暖か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 連用形-省略; aType 4 | 温か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 連用形-省略; aType 4.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@43846246",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              3,
+              2
+            ],
+            "finding": "Exact whole 暖か/アタタカ; lemma 温か; 形状詞/一般/*/*; *; *; aType 3,2 | 温か/アタタカ; lemma 温か; 形状詞/一般/*/*; *; *; aType 3,2. Rejected for this role: 暖か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 語幹-一般; aType 4 | 温か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 語幹-一般; aType 4 | 暖か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 連用形-省略; aType 4 | 温か/アタタカ; lemma 温かい; 形容詞/一般/*/*; 形容詞; 連用形-省略; aType 4.",
+            "match": {
+              "word": "暖か",
+              "reading": "あたたか",
+              "grammaticalForm": "形状詞/一般/*/*; *; *",
+              "sense": "Adjektiv 暖か/あたたか \"warm, mild; herzlich (na-Adjektiv)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "warm, mild; herzlich (na-Adjektiv). JMdict 2081300 sense 1, na-adjective: warm; mild; genial",
+        "japanese": "窓から暖かな春の日差しが差し込んでいる。 / 皆様の温かなご支援に心より感謝申し上げます。 / 今年の冬は例年より暖かだった。",
+        "romanization": "atataka; Mado kara atataka na haru no hizashi ga sashikonde iru. / Minasama no atataka na go-shien ni kokoro yori kansha mōshiagemasu. / Kotoshi no fuyu wa reinen yori atataka datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Durchs Fenster fällt warmes Frühlingssonnenlicht. / Für Ihre herzliche Unterstützung danke ich Ihnen allen von Herzen. / Dieser Winter war wärmer als in anderen Jahren.",
+        "contexts": [
+          "spring sunlight",
+          "formal thanks",
+          "mild winter"
+        ],
+        "lexical": "JMdict 2081300 sense 1, na-adjective: warm; mild; genial",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "na-adjective (暖かだ, 暖かな, 暖かに)",
+        "level": "Publisher places it at N2; the na-adjective form is a slightly literary variant of the basic N5 i-adjective.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-atataka-warm; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "9796452dafa3da6c7d9975c14c9c60efe40cc54257911dcaf09df99cca62f539",
+        "approvalHash": "c31a63cfc979e2bf0796b77f78cac9d6634fbb36511c6c0a8f9c2c486c116d21"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:oobaakooto-overcoat",
+      "revisionId": "text-2026-11-vocab-n2-correction-oobaakooto-overcoat",
+      "state": "accepted",
+      "predecessorHash": "203884810845e3868a0937bf109d5c14b1fce40fb92db80873ec3cecd744c3ff",
+      "originalHash": "203884810845e3868a0937bf109d5c14b1fce40fb92db80873ec3cecd744c3ff",
+      "predecessorRevisionHash": "2e996caf5319cd3f9633aed6bc13a45d4d2f7723830a5a0468037b7d22211e31",
+      "original": {
+        "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー (vocab-n3:correction:oobaa) ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten."
+      },
+      "replacement": {
+        "notes": "オーバーコート ist ein Lehnwort aus engl. „overcoat“ und bezeichnet einen langen, warmen Wintermantel, der über Anzug oder Kleidung getragen wird. Heute sagt man meist einfach コート. Die Kurzform オーバー ist eine eigene Karte und bedeutet meist „übertrieben“; die Schreibung オーバコート ist selten."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:correction:oobaa). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-oobaakooto-overcoat; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:oobaakooto-overcoat notes; referenced cards: vocab-n3:correction:oobaa = オーバー (オーバー)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [5] via exact UniDic row. Exact whole オーバーコート/オーバーコート; lemma オーバーコート-overcoat; 名詞/普通名詞/一般/*; *; *; aType 5.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@85413476",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              5
+            ],
+            "finding": "Exact whole オーバーコート/オーバーコート; lemma オーバーコート-overcoat; 名詞/普通名詞/一般/*; *; *; aType 5.",
+            "match": {
+              "word": "オーバーコート",
+              "reading": "オーバーコート",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen オーバーコート/オーバーコート \"Mantel, Überzieher\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Mantel, Überzieher. JMdict 1032880 sense 1, noun: overcoat",
+        "japanese": "今朝は冷え込んだので、厚いオーバーコートを着て出かけた。 / このオーバーコートは祖父から譲り受けたものだ。",
+        "romanization": "ōbākōto; Kesa wa hiekonda node, atsui ōbākōto o kite dekaketa. / Kono ōbākōto wa sofu kara yuzuriuketa mono da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Heute Morgen war es bitterkalt, also zog ich einen dicken Mantel an und ging los. / Diesen Mantel habe ich von meinem Großvater geerbt.",
+        "contexts": [
+          "cold morning",
+          "inherited clothing"
+        ],
+        "lexical": "JMdict 1032880 sense 1, noun: overcoat",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; a somewhat dated loanword now usually replaced by コート.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-oobaakooto-overcoat; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "f36dea97c91f667e5ecf028f34ade1e2c40a85f69945445550407a7bd3bb7470",
+        "approvalHash": "1fd526a9724c166e1d805dbb2b25d33e2f24d39c733df73d098008b4da29474a"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:on-honorific-prefix",
+      "revisionId": "text-2026-11-vocab-n2-correction-on-honorific-prefix",
+      "state": "accepted",
+      "predecessorHash": "d8a9a29aef9b6a178d09c5fdb41a940803b66106caa5264c3141f971351d24e2",
+      "originalHash": "d8a9a29aef9b6a178d09c5fdb41a940803b66106caa5264c3141f971351d24e2",
+      "predecessorRevisionHash": "c383016d3f2b7e1f4df1424167e7b63d1c0907309713320a2aa0a7b3a22cb193",
+      "original": {
+        "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vocab-n5:correction:o-honorific-prefix, vor japanischen Wörtern) oder ご (vocab-n5:correction:go-honorific-prefix, vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社."
+      },
+      "replacement": {
+        "notes": "御 mit der Lesung おん ist ein besonders förmliches ehrerbietiges Präfix, das heute fast nur in festen Wörtern der Geschäfts- und Briefsprache vorkommt: 御社 „Ihre Firma“ (mündlich), 御中 als Adresszusatz an Firmen oder Abteilungen, 御礼 (おんれい) in 御礼申し上げます. Sonst liest man 御 als お (vor japanischen Wörtern) oder ご (vor sino-japanischen Wörtern); おん ist nicht produktiv. Schriftlich steht für „Ihre Firma“ meist 貴社."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:correction:o-honorific-prefix, vocab-n5:correction:go-honorific-prefix). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-on-honorific-prefix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:on-honorific-prefix notes; referenced cards: vocab-n5:correction:o-honorific-prefix = お〜 (お); vocab-n5:correction:go-honorific-prefix = 御 (ご)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 御/オン; lemma 御; 接頭辞/*/*/*; *; *; aType *. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E5%BE%A1%E3%80%9C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 御/オン; lemma 御; 接頭辞/*/*/*; *; *; aType *. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "ehrerbietige Vorsilbe in förmlichen Wörtern (Präfix, z. B. 御社, 御中, 御礼). JMdict 2826528 sense 1 (reading おん), prefix: honorific/polite/humble prefix",
+        "japanese": "御社の新しいサービスについて詳しく伺いたいと思います。 / 会社宛ての封筒には「人事部御中」と書きます。 / 日頃のご愛顧に厚く御礼申し上げます。",
+        "romanization": "on; Onsha no atarashii sābisu ni tsuite kuwashiku ukagaitai to omoimasu. / Kaisha-ate no fūtō ni wa 'Jinjibu onchū' to kakimasu. / Higoro no go-aiko ni atsuku onrei mōshiagemasu. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Ich würde gern Näheres über den neuen Service Ihres Unternehmens erfahren. / Auf einen Umschlag an eine Firma schreibt man „An die Personalabteilung“. / Für Ihre stete Treue danken wir Ihnen herzlich.",
+        "contexts": [
+          "job interview",
+          "addressing an envelope",
+          "formal customer thanks"
+        ],
+        "lexical": "JMdict 2826528 sense 1 (reading おん), prefix: honorific/polite/humble prefix",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; needed for common business words such as 御社 and 御中 though not productive.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-on-honorific-prefix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "46d592320344a2fefdc66063e4f50b771b0fc69da127b7bd5f7ca79996bf7deb",
+        "approvalHash": "d56b0b312707e6d18cbd3f2020938dfcf2bc64e5307448b4f8133f717f7b4f09"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ho-step",
+      "revisionId": "text-2026-11-vocab-n2-correction-ho-step",
+      "state": "accepted",
+      "predecessorHash": "c39391f0d436f2281d363f308c0dd65bbd748e9e1a428c09e9e898abd39e4cd4",
+      "originalHash": "c39391f0d436f2281d363f308c0dd65bbd748e9e1a428c09e9e898abd39e4cd4",
+      "predecessorRevisionHash": "9ab49e496b444d14678cc6bec9ff493fb0eb632f59fad5e470bd88f8220e823f",
+      "original": {
+        "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ, vocab-n5:1032), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ)."
+      },
+      "replacement": {
+        "notes": "歩 (ほ) bedeutet „Schritt“ und dient vor allem als Zählwort für Schritte, mit Lautwandel: 一歩 (いっぽ), 二歩 (にほ), 三歩 (さんぽ), 六歩 (ろっぽ), 何歩 (なんぽ). Als selbständiges Nomen ist es gehoben, etwa in 歩を進める „voranschreiten“ oder 歩を緩める „den Schritt verlangsamen“. Nicht verwechseln mit 穂 (ほ) „Ähre“ und der 将棋-Figur 歩 (ふ)."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:1032). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-ho-step; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:ho-step notes; referenced cards: vocab-n5:1032 = 一歩 (いっぽ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 歩/ホ; lemma 歩; 名詞/普通名詞/助数詞可能/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@242536955",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 歩/ホ; lemma 歩; 名詞/普通名詞/助数詞可能/*; *; *; aType 1.",
+            "match": {
+              "word": "歩",
+              "reading": "ほ",
+              "grammaticalForm": "名詞/普通名詞/助数詞可能/*; *; *",
+              "sense": "Nomen 歩/ほ \"Schritt; Zähleinheitswort für Schritte (z. B. 一歩, 二歩)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Schritt; Zähleinheitswort für Schritte (z. B. 一歩, 二歩). JMdict 1514300 senses 1-2, noun and counter: step; stride; counter for steps",
+        "japanese": "彼は二歩下がって、深く頭を下げた。 / ホテルは駅から数歩のところにある。 / 両国は和平に向けて歩を進めた。",
+        "romanization": "ho; Kare wa niho sagatte, fukaku atama o sageta. / Hoteru wa eki kara sūho no tokoro ni aru. / Ryōkoku wa wahei ni mukete ho o susumeta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Er trat zwei Schritte zurück und verbeugte sich tief. / Das Hotel liegt nur ein paar Schritte vom Bahnhof entfernt. / Beide Länder machten Fortschritte in Richtung Frieden.",
+        "contexts": [
+          "polite bow",
+          "hotel location",
+          "peace negotiations"
+        ],
+        "lexical": "JMdict 1514300 senses 1-2, noun and counter: step; stride; counter for steps",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; the counter is common, while the bare noun belongs to written style.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-ho-step; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "2799cf62bec18cf427e705946f20119e7446a68e1f9556d5b3ee7e7b8206c17d",
+        "approvalHash": "be15f4b948bf51187c2df29232fb4002778e7782c8b4d7cadcf9ba139875e73c"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:mai-every-prefix",
+      "revisionId": "text-2026-11-vocab-n2-correction-mai-every-prefix",
+      "state": "accepted",
+      "predecessorHash": "817960eab50d4be9beb430da69049e916f5497c7e872b32154a9498a9b172e5d",
+      "originalHash": "817960eab50d4be9beb430da69049e916f5497c7e872b32154a9498a9b172e5d",
+      "predecessorRevisionHash": "7f3ee7a8631ab3511a2a4a3efada04d4ea0411f68a04dae01a0653cac876f1ac",
+      "original": {
+        "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日 (vocab-n5:199), 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände."
+      },
+      "replacement": {
+        "notes": "毎〜 (まい) ist ein produktives Präfix „jede(r/s)“ für regelmäßig wiederkehrende Zeitpunkte und Ereignisse: 毎週末, 毎日曜, 毎試合, 毎食後. Häufige Zusammensetzungen wie 毎日, 毎朝 und 毎週 werden als eigene Wörter gelernt. Nicht verwechseln mit dem Zählwort 枚 (まい) für flache Gegenstände."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n5:199). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-mai-every-prefix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:mai-every-prefix notes; referenced cards: vocab-n5:199 = 毎日 (まいにち)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 毎/マイ; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | 毎/マイ; lemma 毎; 接頭辞/*/*/*; *; *; aType *. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E6%AF%8E%E3%80%9C",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 毎/マイ; lemma 毎; 接尾辞/名詞的/一般/*; *; *; aType * | 毎/マイ; lemma 毎; 接頭辞/*/*/*; *; *; aType *. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "jede(r/s) (Präfix, z. B. 毎週末, 毎日曜, 毎朝). JMdict 1524650 sense 1, prefix: every (usu. with events); each",
+        "japanese": "毎週末、家族で近くの公園に出かけます。 / この薬は毎食後に一錠飲んでください。 / 彼は毎試合のようにゴールを決めている。",
+        "romanization": "mai; Maishūmatsu, kazoku de chikaku no kōen ni dekakemasu. / Kono kusuri wa maishokugo ni ichijō nonde kudasai. / Kare wa maishiai no yō ni gōru o kimete iru. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Jedes Wochenende gehen wir als Familie in den Park in der Nähe. / Nehmen Sie von diesem Medikament nach jeder Mahlzeit eine Tablette. / Er schießt praktisch in jedem Spiel ein Tor.",
+        "contexts": [
+          "weekend routine",
+          "medication instructions",
+          "football scorer"
+        ],
+        "lexical": "JMdict 1524650 sense 1, prefix: every (usu. with events); each",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; the fixed compounds are N5, but productive use as a prefix is intermediate.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-mai-every-prefix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "0151475b55337919343a0f0e09d08731332305cf7b36d60e1904654512ebcd63",
+        "approvalHash": "b2c7b4ac39dd00e2290a0fd40173f38ebc93790abcfa52065762317aa1954432"
+      }
+    },
+    {
+      "id": "vocab-n2:correction:ryoku-power-suffix",
+      "revisionId": "text-2026-11-vocab-n2-correction-ryoku-power-suffix",
+      "state": "accepted",
+      "predecessorHash": "a561049b01b60e357649e44a5881fe75547b78680493424367f477eab3313c02",
+      "originalHash": "a561049b01b60e357649e44a5881fe75547b78680493424367f477eab3313c02",
+      "predecessorRevisionHash": "1bc920310d886e09acb1feeac892e513f033804dec8e114403e397e142b636b5",
+      "original": {
+        "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから (vocab-n4:1398). In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力."
+      },
+      "replacement": {
+        "notes": "〜力 (りょく) ist die sino-japanische Suffixlesung von 力 und bildet Wörter für Fähigkeiten und Stärke: 経済力, 想像力, 集中力, 説得力, 影響力. Als selbständiges Wort liest man 力 dagegen ちから. In einigen Wörtern lautet das Suffix りき, z. B. 馬力, 自力, 他力."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n4:1398). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 204-addition-ryoku-power-suffix; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n2:correction:ryoku-power-suffix notes; referenced cards: vocab-n4:1398 = 力 (ちから)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "unknown",
+        "rationale": "Exact whole spelling/reading and selected role investigated; no compatible whole selected-role pattern licensed. Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 力/リョク; lemma 力; 接尾辞/名詞的/一般/*; *; *; aType *. No transfer.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic whole-form and role investigation",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#exact-orth=%E3%80%9C%E5%8A%9B",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "finding": "Exact whole rows exist but none of the headword own lemma fits the selected role with a numeric accent (rows of a homographic other lemma are a different word): 力/リョク; lemma 力; 接尾辞/名詞的/一般/*; *; *; aType *. No transfer."
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "-kraft, -fähigkeit, -stärke (Suffix, z. B. 経済力, 想像力, 能力). JMdict 1554840 sense 1, suffix: strength; power; proficiency; ability",
+        "japanese": "この国は経済力では世界有数だ。 / 子供の想像力には本当に驚かされる。 / 疲れていて、集中力が続かない。",
+        "romanization": "ryoku; Kono kuni wa keizairyoku de wa sekai yūsū da. / Kodomo no sōzōryoku ni wa hontō ni odorokasareru. / Tsukarete ite, shūchūryoku ga tsuzukanai. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Wirtschaftlich gehört dieses Land zu den stärksten der Welt. / Die Vorstellungskraft von Kindern überrascht mich immer wieder. / Ich bin müde und kann mich nicht lange konzentrieren.",
+        "contexts": [
+          "national economy",
+          "children's imagination",
+          "tiredness and focus"
+        ],
+        "lexical": "JMdict 1554840 sense 1, suffix: strength; power; proficiency; ability",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Publisher places it at N2; the suffix is highly productive in N2-level abstract vocabulary.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 204-addition-ryoku-power-suffix; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "27dd0f9592618684a29f4d7f046b466126e48b7838503adbcf2d84001e7647cf",
+        "approvalHash": "2b9b02546acd49a8f8592449923e446c9d86119bc7715257e3131fa2270300b0"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ku-suffering",
+      "revisionId": "text-2026-11-vocab-n1-correction-ku-suffering",
+      "state": "accepted",
+      "predecessorHash": "07dd01f995cc964db0df79f233ddd28b6cc30923890325a42fa0e0e59007d07f",
+      "originalHash": "07dd01f995cc964db0df79f233ddd28b6cc30923890325a42fa0e0e59007d07f",
+      "predecessorRevisionHash": "b0040981cef30e96fc99e880d2fa7714b7b303da39d6ff2f224da694117f09ba",
+      "original": {
+        "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 (vocab-n3:269) oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句."
+      },
+      "replacement": {
+        "notes": "Als selbständiges Nomen gehoben und fast nur in festen Wendungen: 苦にする „sich zu Herzen nehmen, als Last empfinden“, 苦もなく „mühelos“, 苦あれば楽あり „auf Leid folgt Freude“. Für alltägliche Mühe sagt man 苦労 oder 苦しみ. Nicht zu verwechseln mit den gleichlautenden Karten 九, 区 und 句."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:269). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-ku-suffering; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:ku-suffering notes; referenced cards: vocab-n3:269 = 苦労 (くろう)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 苦/ク; lemma 苦; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@109574737",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 苦/ク; lemma 苦; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "苦",
+              "reading": "く",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 苦/く \"Leid, Qual; Mühe, Sorge (z. B. 苦にする, 苦もなく, 苦あれば楽あり)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Leid, Qual; Mühe, Sorge (z. B. 苦にする, 苦もなく, 苦あれば楽あり). JMdict 2037710 sense 1, noun: pain; anguish; suffering; distress; anxiety; worry",
+        "japanese": "彼は朝早く起きるのを苦にしない。 / 彼女は重い荷物を苦もなく持ち上げた。 / 苦あれば楽ありと言うから、今は頑張ろう。",
+        "romanization": "ku; Kare wa asa hayaku okiru no o ku ni shinai. / Kanojo wa omoi nimotsu o ku mo naku mochiageta. / Ku areba raku ari to iu kara, ima wa ganbarō. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Früh aufzustehen macht ihm nichts aus. / Sie hob das schwere Gepäck mühelos hoch. / Man sagt ja, auf Leid folgt Freude – also halten wir jetzt durch.",
+        "contexts": [
+          "early rising habit",
+          "carrying luggage",
+          "proverb as encouragement"
+        ],
+        "lexical": "JMdict 2037710 sense 1, noun: pain; anguish; suffering; distress; anxiety; worry",
+        "register": "formal / set phrases",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Standalone 苦 is a literary noun living mainly in set phrases and has no JMdict priority tags, so it is placed at N1.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-ku-suffering; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "b195641e677e51b66ecf4c92f2c87f14740b2ce0f545f6ac91cf97780c59e629",
+        "approvalHash": "efe5faebad13321ec2e1c62e58673afe68958b11e585817ef6a8d7c5fd40a43a"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:tenka-whole-world",
+      "revisionId": "text-2026-11-vocab-n1-correction-tenka-whole-world",
+      "state": "accepted",
+      "predecessorHash": "eb47386c04db6619ed458ea9bcb45d0176f71ad5d3c3fd96abc2d1224e4d932d",
+      "originalHash": "eb47386c04db6619ed458ea9bcb45d0176f71ad5d3c3fd96abc2d1224e4d932d",
+      "predecessorRevisionHash": "4193b1ae7f7871db5017a7ea79322a72266f67e370bc1abcc16b2e0e19ab5429",
+      "original": {
+        "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, vocab-n3:1777, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“."
+      },
+      "replacement": {
+        "notes": "Klassisch in 天下を取る „die Herrschaft über das Land erringen“ und 天下一品 „unvergleichlich, das Beste im Land“. Übertragen heißt 〜の天下 „wo … das Sagen hat“, etwa かかあ天下 „die Frau hat die Hosen an“. Nicht verwechseln mit 天下り (あまくだり, Wechsel von Beamten in die Wirtschaft) und dem gleichlautenden 点火 „Zündung“."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:1777). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-tenka-whole-world; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:tenka-whole-world notes; referenced cards: vocab-n3:1777 = 天下り (あまくだり)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 天下/テンカ; lemma 天下; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@181347890",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 天下/テンカ; lemma 天下; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "天下",
+              "reading": "てんか",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 天下/てんか \"die ganze Welt; das ganze Land; Herrschaft über das Land; Öffentlichkeit (z. B. 天下を取る, 天下一)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "die ganze Welt; das ganze Land; Herrschaft über das Land; Öffentlichkeit (z. B. 天下を取る, 天下一). JMdict 1438470 senses 1–5, noun: the whole world; the whole country; society; supremacy over a nation; having one's own way",
+        "japanese": "豊臣秀吉はついに天下を取った。 / この店のラーメンは天下一品だ。 / 家に帰れば妻の天下だ。",
+        "romanization": "tenka; Toyotomi Hideyoshi wa tsui ni tenka o totta. / Kono mise no rāmen wa tenka ippin da. / Ie ni kaereba tsuma no tenka da. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Toyotomi Hideyoshi errang schließlich die Herrschaft über das ganze Land. / Die Ramen in diesem Laden sind unübertroffen. / Zu Hause hat meine Frau das Sagen.",
+        "contexts": [
+          "Japanese history",
+          "praising a restaurant",
+          "family power dynamics"
+        ],
+        "lexical": "JMdict 1438470 senses 1–5, noun: the whole world; the whole country; society; supremacy over a nation; having one's own way",
+        "register": "neutral, slightly literary",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Placed at N1 by the publisher; mostly found in historical and idiomatic contexts (天下を取る, 天下一品) rather than everyday vocabulary.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-tenka-whole-world; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "46b66b77d4d5b5f1cfb1ce053443006ca825966f5bf9072bca52715451412240",
+        "approvalHash": "f5b6c40e3a808e0c2569ddc128651498f2c6574137e03f3768d11d1109bd1fb9"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:ketsu-decision-vote",
+      "revisionId": "text-2026-11-vocab-n1-correction-ketsu-decision-vote",
+      "state": "accepted",
+      "predecessorHash": "084a59e0d74fc4de750f110052f129ab95da013a4ca07ce5ae70c9e94f48618b",
+      "originalHash": "084a59e0d74fc4de750f110052f129ab95da013a4ca07ce5ae70c9e94f48618b",
+      "predecessorRevisionHash": "49ed070b92d995c103231b2893feeb373ebe6639fc3447d890fc572f50057171",
+      "original": {
+        "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する (vocab-n3:1785 採決); ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen."
+      },
+      "replacement": {
+        "notes": "Steht als eigenes Wort fast nur in der Sitzungsformel 決を採る (auch 決を取る) „zur Abstimmung bringen, abstimmen lassen“. Gleichbedeutend, aber häufiger ist 採決する; ansonsten lebt 決 in Komposita wie 多数決, 可決, 否決. Förmlich, typisch für Parlament, Vereine und Konferenzen."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n3:1785). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-ketsu-decision-vote; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:ketsu-decision-vote notes; referenced cards: vocab-n3:1785 = 採決 (さいけつ)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [1] via exact UniDic row. Exact whole 決/ケツ; lemma 決; 名詞/普通名詞/一般/*; *; *; aType 1.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@117954774",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              1
+            ],
+            "finding": "Exact whole 決/ケツ; lemma 決; 名詞/普通名詞/一般/*; *; *; aType 1.",
+            "match": {
+              "word": "決",
+              "reading": "けつ",
+              "grammaticalForm": "名詞/普通名詞/一般/*; *; *",
+              "sense": "Nomen 決/けつ \"Entscheidung, Abstimmung (bes. 決を採る = abstimmen lassen)\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Entscheidung, Abstimmung (bes. 決を採る = abstimmen lassen). JMdict 1956210 sense 1, noun: decision; vote",
+        "japanese": "議長は法案について決を採った。 / 意見が出尽くしたので、そろそろ決を採りましょう。 / 学級会で決を採ると、賛成は十五人だった。",
+        "romanization": "ketsu; Gichō wa hōan ni tsuite ketsu o totta. / Iken ga detsukushita node, sorosoro ketsu o torimashō. / Gakkyūkai de ketsu o toru to, sansei wa jūgo-nin datta. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Der Vorsitzende ließ über den Gesetzentwurf abstimmen. / Da alle Meinungen gesagt sind, lassen Sie uns jetzt abstimmen. / Als in der Klassenversammlung abgestimmt wurde, waren fünfzehn dafür.",
+        "contexts": [
+          "parliament",
+          "business meeting",
+          "school class meeting"
+        ],
+        "lexical": "JMdict 1956210 sense 1, noun: decision; vote",
+        "register": "formal",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb",
+        "level": "Standalone 決 is restricted to the formal phrase 決を採る and has no JMdict priority tags, so it is placed at N1.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-ketsu-decision-vote; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "5eee93e4d132a40aaf12495cdb533691b13df43d5cb2f3e6d9bc6372906acda7",
+        "approvalHash": "f280e4a60e7eca4399a76a0f631200c1db2a9b9f7e558cafeb6aeb641b3f721b"
+      }
+    },
+    {
+      "id": "vocab-n1:correction:mura-unevenness",
+      "revisionId": "text-2026-11-vocab-n1-correction-mura-unevenness",
+      "state": "accepted",
+      "predecessorHash": "2ac8134a75eadb1310ba6d0578ba205b043952ac63cf1a2d083038e01cce55e0",
+      "originalHash": "2ac8134a75eadb1310ba6d0578ba205b043952ac63cf1a2d083038e01cce55e0",
+      "predecessorRevisionHash": "fa5d768c007a131e55378b37915b3c01874093049ae20dbf957b62e8579b721d",
+      "original": {
+        "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら (vocab-n1:3050) ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend."
+      },
+      "replacement": {
+        "notes": "Meist in Kana geschrieben (むら/ムラ), typisch mit がある/のない: 色むら „Farbflecken“, 成績にむらがある „schwankende Leistungen“, 気分にむらがある „launisch sein“. Die Schreibung 斑 mit der Lesung まだら ist ein anderes Wort und heißt „gefleckt, gesprenkelt“; 村/むら „Dorf“ ist nur gleichlautend."
+      },
+      "rationale": "German text corrections found during the English translation, November 2026 (internal-card-id): The usage note cited internal card IDs in running text (vocab-n1:3050). Learners see these IDs as noise. Each referenced card is already named by its word in the same sentence, so the ID is removed and nothing else changes. Word, reading, meaning, level, pitch and all other fields are unchanged from 224-addition-mura-unevenness; their review and pitch investigation are carried over verbatim and were not re-reviewed here.",
+      "evidence": [
+        {
+          "source": "Nihongo Explorer vocabulary library (German teaching text)",
+          "version": "GitHub main at commit fbb535f, 2026-11-13",
+          "locator": "vocab-n1:correction:mura-unevenness notes; referenced cards: vocab-n1:3050 = 斑 (まだら)",
+          "finding": "The referenced cards exist and are identified in the note by their word; the removed text was only the internal ID."
+        },
+        {
+          "source": "User decision",
+          "version": "2026-11-13",
+          "locator": "Chat instruction \"You fix the German issues based on your best judgment without my input\"",
+          "finding": "The user asked for the German source issues reported during the English translation to be corrected on the author's judgment."
+        }
+      ],
+      "pitch": {
+        "status": "verified",
+        "rationale": "Verified [0] via exact UniDic row. Exact whole ムラ/ムラ; lemma 斑; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: ムラ/ムラ; lemma ムラ; 名詞/固有名詞/人名/一般; *; *; aType 1 | ムラ/ムラ; lemma 村; 名詞/普通名詞/一般/*; *; *; aType 2.",
+        "evidence": [
+          {
+            "source": "現代書き言葉UniDic",
+            "version": "2025.12; sys.dic SHA256 9a512d20024f2fdcffe9922948f020c710e78083c163e7c6be48c2a2a401153a",
+            "locator": "https://clrd.ninjal.ac.jp/unidic_archive/2512/unidic-cwj-202512.zip#sys.dic@259617477",
+            "attribution": "National Institute for Japanese Language and Linguistics; modified BSD license",
+            "patterns": [
+              0
+            ],
+            "finding": "Exact whole ムラ/ムラ; lemma 斑; 名詞/普通名詞/形状詞可能/*; *; *; aType 0. Rejected for this role: ムラ/ムラ; lemma ムラ; 名詞/固有名詞/人名/一般; *; *; aType 1 | ムラ/ムラ; lemma 村; 名詞/普通名詞/一般/*; *; *; aType 2.",
+            "match": {
+              "word": "斑",
+              "reading": "むら",
+              "grammaticalForm": "名詞/普通名詞/形状詞可能/*; *; *",
+              "sense": "Nomen 斑/むら \"Ungleichmäßigkeit, Fleckigkeit; Unbeständigkeit, Schwankungen; Launenhaftigkeit\""
+            }
+          }
+        ]
+      },
+      "policy": {
+        "id": "author-only-v1",
+        "risk": "consequential",
+        "reasons": [
+          "german-text-correction"
+        ],
+        "enrichmentRequired": true,
+        "sampled": false,
+        "approvalBinding": "entry-identity-v1"
+      },
+      "review": {
+        "reviewer": "german-text-corrections-2026-11",
+        "reviewedDistinctContexts": true,
+        "meaning": "Ungleichmäßigkeit, Fleckigkeit; Unbeständigkeit, Schwankungen; Launenhaftigkeit. JMdict 1481330 senses 1–3, noun/na-adjective (usually kana): unevenness; inconsistency; fickleness",
+        "japanese": "壁のペンキの塗り方にむらがある。 / 彼は成績にむらがあって、安定しない。 / 彼女は気分にムラがあるので付き合いにくい。",
+        "romanization": "mura; Kabe no penki no nurikata ni mura ga aru. / Kare wa seiseki ni mura ga atte, antei shinai. / Kanojo wa kibun ni mura ga aru node tsukiainikui. Modified Hepburn read individually, including particles and long vowels.",
+        "translation": "Die Farbe an der Wand ist ungleichmäßig aufgetragen. / Seine Noten schwanken stark und sind nicht beständig. / Sie ist launisch, deshalb ist der Umgang mit ihr schwierig.",
+        "contexts": [
+          "painting a wall",
+          "school grades",
+          "moody personality"
+        ],
+        "lexical": "JMdict 1481330 senses 1–3, noun/na-adjective (usually kana): unevenness; inconsistency; fickleness",
+        "register": "neutral",
+        "transitivity": "Nonverb",
+        "conjugation": "Nonverb (noun; na-adjective use むらな is rare)",
+        "level": "Placed at N1 by the publisher; the kanji spelling 斑 for むら is rare and the word has no JMdict priority tags.",
+        "carriedOver": "Everything except the usage note is copied unchanged from 224-addition-mura-unevenness; this revision checked only the corrected text and did not re-review the rest."
+      },
+      "firstPass": {
+        "decision": "accepted",
+        "reviewer": "german-text-corrections-2026-11",
+        "finding": "Compared the usage note before and after the edit: only the internal card ID(s) were removed and the sentence still reads correctly; each referenced card exists and is still named by its word. Content carried over from the predecessor was not re-reviewed.",
+        "contentHash": "52ae8c9ee89f80e9e6bd6ed3e791726c9594f82ec51b593e6164b3fa7588ebd6",
+        "approvalHash": "ef3a16039a2cd0d74a4d6f47d05796bd4c0f13131c0f8ae60518f751d370d8d2"
+      }
+    }
+  ]
+}

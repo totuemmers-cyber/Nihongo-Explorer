@@ -21,7 +21,7 @@ Generated from the resulting review ledger. Historical checkpoint prose is retai
 
 Review completion: **complete**. Strict enrichment: **complete**.
 
-Ledger SHA256: `6c854e219d1d416d9c24817121d142874c03c290d64453a62af75941660ecc0d`.
+Ledger SHA256: `d17d55c903a54cc21d0d028aab4daee657e2f653e203657f9c0b966f8f031514`.
 
 ## Level phases
 
