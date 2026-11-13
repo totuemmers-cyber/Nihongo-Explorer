@@ -1,8 +1,9 @@
 # English interface and content
 
-The app runs in German (default) or English. The language switch sits in the sidebar footer
-and names the language it switches to. The choice is stored in `localStorage` as `nihongo-lang`. Switching reloads the page, and the
-session restore returns to the same tab and entry.
+The app runs in German (default) or English. The language switch (Deutsch | English) sits at
+the top of the sidebar, so it stays in place when the page reloads. The choice is stored in
+`localStorage` as `nihongo-lang`. Switching reloads the page, and the session restore returns
+to the same tab and entry.
 
 German stays the source language. No German file is edited for a translation, and every German check keeps running on German data.
 

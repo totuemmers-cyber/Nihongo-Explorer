@@ -90,6 +90,10 @@ input::placeholder { color: var(--text-secondary); opacity: 1; }
 .brand strong { font-weight: 500; color: var(--text-secondary); }
 .brand-mark { display: grid; place-items: center; width: 42px; height: 48px; border-radius: 10px; background: var(--accent); color: var(--bg-card); font: 28px var(--font-jp); }
 .sidebar-caption { margin: 16px 8px 8px; font-size: 12px; color: var(--text-secondary); letter-spacing: .04em; }
+/* Language switch: at the top of the sidebar, so it stays in place when the page reloads in the other language. */
+.lang-switch { display: flex; gap: 4px; padding: 4px; margin: 0 8px 12px; background: var(--bg-subtle); border: 1px solid var(--border); border-radius: 12px; }
+.lang-switch button { flex: 1; min-height: 36px; padding: 6px 10px; font-size: 13px; background: transparent; border-color: transparent; color: var(--text-secondary); }
+.lang-switch button.active { background: var(--bg-card); border-color: var(--border); color: var(--accent); cursor: default; }
 .nav-group-label { margin: 18px 12px 6px; font-size: 12px; font-weight: 600; color: var(--text-secondary); }
 .tab-btn { width: 100%; display: flex; align-items: center; gap: 14px; text-align: left; border-color: transparent; margin: 2px 0; padding: 10px 12px; min-height: 46px; }
 .tab-btn > span { font: 20px/1 var(--font-jp); width: 24px; text-align: center; color: var(--text-secondary); }

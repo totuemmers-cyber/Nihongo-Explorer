@@ -1265,20 +1265,17 @@
   }
 
   // === INTERFACE LANGUAGE ===
-  // The button names the language it switches to; switching reloads in that language.
-  var langToggle = document.getElementById('lang-toggle');
-  if (langToggle) {
-    var targetLang = window.NIHONGO_I18N.lang === 'de' ? 'en' : 'de';
-    var langLabel = langToggle.querySelector('.lang-name');
-    if (langLabel) {
-      langLabel.textContent = window.NIHONGO_I18N.languages[targetLang];
-      langLabel.lang = targetLang;
-    }
-    langToggle.addEventListener('click', function () {
+  // Deutsch | English at the top of the sidebar; the other language reloads the page in it.
+  document.querySelectorAll('#lang-switch [data-lang]').forEach(function (btn) {
+    var active = btn.getAttribute('data-lang') === window.NIHONGO_I18N.lang;
+    btn.classList.toggle('active', active);
+    btn.setAttribute('aria-pressed', String(active));
+    btn.addEventListener('click', function () {
+      if (btn.getAttribute('data-lang') === window.NIHONGO_I18N.lang) return;
       playTick();
-      window.NIHONGO_I18N.setLanguage(targetLang);
+      window.NIHONGO_I18N.setLanguage(btn.getAttribute('data-lang'));
     });
-  }
+  });
 
   // === INIT ===
   initTheme();

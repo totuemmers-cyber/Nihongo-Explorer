@@ -192,7 +192,8 @@ async function run() {
     const { w, d, dom } = await boot(null);
     assert.equal(d.documentElement.lang, 'de');
     assert.equal(d.querySelector('.tab-btn[data-tab="vocab"]').textContent.trim(), '語Vokabeln');
-    assert.equal(d.querySelector('#lang-toggle .lang-name').textContent, 'English');
+    assert.equal(d.querySelector('#lang-switch .active').textContent, 'Deutsch');
+    assert.equal(d.querySelector('#lang-switch').getAttribute('aria-label'), 'Sprache');
     assert.equal(w.NIHONGO_I18N.contentSrc('kanji-data.js'), 'kanji-data.js');
     dom.window.close();
   }
@@ -202,8 +203,9 @@ async function run() {
   assert.equal(d.getElementById('page-title').textContent, 'Kana');
   assert.equal(d.getElementById('page-description').textContent, 'Discover and listen to the Japanese syllabaries.');
   assert.equal(d.querySelector('.tab-btn[data-tab="vocab"]').textContent.trim(), '語Vocabulary');
-  assert.equal(d.querySelector('#lang-toggle .lang-name').textContent, 'Deutsch');
-  assert.equal(d.querySelector('#lang-toggle .lang-name').lang, 'de');
+  assert.equal(d.querySelector('#lang-switch .active').textContent, 'English');
+  assert.equal(d.querySelector('#lang-switch [data-lang="en"]').getAttribute('aria-pressed'), 'true');
+  assert.equal(d.querySelector('#lang-switch').getAttribute('aria-label'), 'Language');
   // The kana notes come from en/kana-data.js once it has loaded.
   await until(() => /Small tsu/.test(d.querySelector('.kana-special-table').textContent), 'English kana notes');
   assert.match(d.getElementById('item-count').textContent, /^\d+ characters · Hiragana$/);
@@ -256,7 +258,9 @@ async function run() {
   // The switch stores the language and reloads in it.
   let reloaded = 0;
   w.NIHONGO_I18N.reload = () => { reloaded++; };
-  d.getElementById('lang-toggle').click();
+  d.querySelector('#lang-switch [data-lang="en"]').click();
+  assert.equal(reloaded, 0, 'The active language does not reload');
+  d.querySelector('#lang-switch [data-lang="de"]').click();
   assert.equal(reloaded, 1);
   assert.equal(w.localStorage.getItem('nihongo-lang'), 'de');
   dom.window.close();

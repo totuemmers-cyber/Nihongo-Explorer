@@ -39,7 +39,7 @@
     'Romaji in Beispielen': 'Romaji in examples',
     'Romaji-Zeile unter den Beispielsätzen': 'Romaji line below example sentences',
     'Rō': 'Rō',
-    'Sprache der Oberfläche und der Erklärungen': 'Language of the interface and the explanations',
+    'Sprache': 'Language',
     '文A': '文A',
     'In deinem Tempo. Jeden Tag ein Stück.': 'At your own pace. A little every day.',
     '↗ Zufall': '↗ Random',
