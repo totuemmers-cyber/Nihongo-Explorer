@@ -2,7 +2,13 @@
 // Content files with an English copy; i18n.js loads these instead of the German files.
 window.NIHONGO_CONTENT_FILES = window.NIHONGO_CONTENT_FILES || {};
 window.NIHONGO_CONTENT_FILES.en = {
+ "comprehension-links.js": "en/comprehension-links.js",
  "counters-data.js": "en/counters-data.js",
  "kana-data.js": "en/kana-data.js",
- "kangxi-radicals-data.js": "en/kangxi-radicals-data.js"
+ "kangxi-radicals-data.js": "en/kangxi-radicals-data.js",
+ "kanji-data.js": "en/kanji-data.js",
+ "kanji-n1.js": "en/kanji-n1.js",
+ "onomatopoeia-data.js": "en/onomatopoeia-data.js",
+ "vocab-runtime-details.js": "en/vocab-runtime-details.js",
+ "vocab-runtime.js": "en/vocab-runtime.js"
 };
