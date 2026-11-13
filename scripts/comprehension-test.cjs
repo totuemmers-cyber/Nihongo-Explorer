@@ -158,6 +158,42 @@ async function run() {
   assert(resumed.d.querySelector('.comprehension-result').textContent.startsWith('1 von 1 richtig'));
   assert.equal(JSON.parse(resumed.w.localStorage.getItem('nihongo-comprehension-v1'))[short.id].attempts.length, 2);
   resumed.w.close();
+  // Word lookup: tokens, lookup card, assistance, keyboard, and the trip to the vocabulary card and back.
+  const look = await boot('#reading/reading-n3-1');
+  {
+    const { w, d } = look;
+    const tokens = [...d.querySelectorAll('#reading-n3-1-p1 .vocab-token')];
+    assert(tokens.length > 5, 'Passage words become lookup tokens');
+    assert.equal(tokens.filter(t => t.tabIndex === 0).length, 1, 'One tab stop per paragraph');
+    assert(d.querySelector('.comprehension-lookup-tip'));
+    const cafe = tokens.find(t => t.textContent === '喫茶店'); assert(cafe, '喫茶店 is linked as one word');
+    cafe.click();
+    let panel = d.getElementById('vocab-lookup');
+    assert(panel); assert.equal(panel.previousElementSibling.id, 'reading-n3-1-p1');
+    assert.equal(panel.querySelector('.vocab-lookup-word').textContent, '喫茶店'); assert.equal(panel.querySelector('.vocab-lookup-reading').textContent, 'きっさてん');
+    assert.equal(cafe.getAttribute('aria-expanded'), 'true');
+    assert(JSON.parse(w.localStorage.getItem('nihongo-comprehension-v1'))['reading-n3-1'].hints.lookup, 'A lookup counts as help');
+    assert.equal(d.querySelector('.comprehension-unit [role="status"].comprehension-meta').textContent, 'Dieser Versuch: mit Hilfe');
+    cafe.click(); assert(!d.getElementById('vocab-lookup'), 'Clicking the open word again closes the card');
+    cafe.focus(); cafe.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Enter', bubbles: true })); assert(d.getElementById('vocab-lookup'));
+    cafe.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
+    assert(!d.getElementById('vocab-lookup')); assert.equal(d.activeElement, cafe); assert.equal(cafe.getAttribute('aria-expanded'), 'false');
+    const firstToken = tokens[0]; firstToken.focus();
+    firstToken.dispatchEvent(new w.KeyboardEvent('keydown', { key: 'ArrowRight', bubbles: true }));
+    assert.equal(d.activeElement, tokens[1]); assert.equal(tokens[1].tabIndex, 0); assert.equal(firstToken.tabIndex, -1);
+    // A word inside a ruby group keeps its reading and its link.
+    const ruby = d.querySelector('#reading-n3-1-p1 ruby'); assert(ruby.closest('.vocab-token'), 'Ruby words stay linked');
+    cafe.click(); panel = d.getElementById('vocab-lookup');
+    [...panel.querySelectorAll('button')].find(b => b.textContent === 'Vokabelkarte öffnen →').click();
+    const vocab = w.app.sections.vocab;
+    await until(() => w.app.activeTab === 'vocab' && vocab.isOverlayOpen(), 'lookup opens the vocabulary card');
+    assert.equal(vocab.selectedItem.word, '喫茶店');
+    vocab.dom.overlay.querySelector('.detail-back').click();
+    await until(() => w.app.activeTab === 'reading' && d.querySelector('.comprehension-unit'), 'Back returns to the passage');
+    assert.equal(w.location.hash, '#reading/reading-n3-1');
+    assert.equal(look.errors.length, 0, look.errors.map(e => e.message).join('\n'));
+    w.close();
+  }
   const all = await boot('#reading');
   for (const unit of all.w.COMPREHENSION_UNITS) {
     all.w.app.switchTab(unit.skill);
@@ -166,6 +202,16 @@ async function run() {
     const choiceTotal = unit.questions.reduce((n, q) => n + q.choices.length, 0);
     assert.equal(panel.querySelectorAll('fieldset').length, unit.questions.length, unit.id); assert.equal(panel.querySelectorAll('input[type="radio"]').length, choiceTotal, unit.id);
     for (const p of unit.passages) if (p.label) assert(panel.querySelector('#' + p.id).textContent.startsWith(p.label), unit.id + ': passage label');
+    // Lookup tokens must not change the text: same characters, same ruby, one token per linked word.
+    for (const p of unit.passages) {
+      const node = panel.querySelector('#' + p.id + ' .comprehension-japanese').cloneNode(true);
+      assert.equal(node.querySelectorAll('rt').length, (p.text.match(/\{[^{}]+\|[^{}]+\}/g) || []).length, p.id + ': ruby');
+      node.querySelectorAll('rt').forEach(rt => rt.remove());
+      const plain = p.text.replace(/\{([^|]+)\|([^}]+)\}/g, '$1');
+      assert.equal(node.textContent, plain, p.id + ': text');
+      const spans = all.w.COMPREHENSION_LINKS.passages[p.id].spans;
+      assert.deepEqual([...node.querySelectorAll('.vocab-token')].map(t => t.textContent), Array.from(spans, ([s, e]) => plain.slice(s, e)), p.id + ': tokens');
+    }
     if (unit.format) {
       const label = { short: 'Kurzer Text', medium: 'Mittellanger Text', long: 'Langer Text', integrated: 'Zwei Texte vergleichen', 'info-search': 'Informationen suchen', 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?' }[unit.format];
       assert(panel.querySelector('.comprehension-unit .comprehension-meta').textContent.endsWith('· ' + label), unit.id + ': format badge');
@@ -190,6 +236,6 @@ async function run() {
   assert(all.d.querySelector('[data-unit="' + extraId + '"]').closest('li').textContent.includes(nextOrder + '/' + nextOrder));
   assert.equal(all.w.Comprehension.counts('listening').total, listeningTotal);
   assert.equal(all.errors.length, 0, all.errors.map(e => e.message).join('\n')); all.w.close();
-  console.log('Guided learning tests passed: all units and format labels, dynamic counts, final-unit deep links/history/refresh, one-question draft/result restoration and scoring, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, retry, audio lifecycle and unavailable storage.');
+  console.log('Guided learning tests passed: all units and format labels, dynamic counts, final-unit deep links/history/refresh, one-question draft/result restoration and scoring, legacy completion and draft compatibility, lazy loading, filters/scroll, submission, hints, word lookup, retry, audio lifecycle and unavailable storage.');
 }
 run().catch(error => { console.error(error); process.exitCode = 1; });

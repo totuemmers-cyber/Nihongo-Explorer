@@ -66,6 +66,20 @@ Editorial passage lengths count visible Japanese text after removing ruby markup
 
 The new sequence progresses from concrete messages, daily experiences and timetables at N5/N4 to reference tracking and changes in perspective at N3, qualified claims and synthesis at N2, and interpretive limits, implied stance and tightly constrained conditions at N1. Authoring review compared every passage, translation, answer and distractor; this is not independent native-speaker certification.
 
+## Word lookup in passages (13 November 2026)
+
+Most words in the reading passages and listening transcripts can be tapped. A tap opens a small card below the paragraph with the headword, reading, JLPT level and meaning, plus "Vokabelkarte öffnen →". That button opens the full vocabulary card. "← Zurück" on the card returns to the unit at the same scroll position. Words are keyboard-reachable too: each paragraph is one Tab stop, ←/→ move between words, Enter or Space opens the card, and Escape closes it. A lookup counts as help ("mit Hilfe"), like the vocabulary aid.
+
+The links are generated, not authored. `npm run build:comprehension-links` (`scripts/build-comprehension-links.cjs`) tokenizes every passage with MeCab/UniDic (`scripts/tokenize-comprehension.py`, run with the venv in `.content-cache/romaji`). It matches tokens and token runs against the vocabulary headwords and aliases: 喫茶+店 → 喫茶店, 気+に+入っ(た) → 気に入る, inflected forms through their dictionary form. Then it writes `comprehension-links.js`, which the app loads alongside `comprehension-data.js`.
+
+Rules that keep false links out:
+- Particles, auxiliaries, prefixes/suffixes, numerals and personal names are never linked, and neither are grammatical kana words (する, いる, こと, よう, による …).
+- A match needs the reading to agree. The one exception is a word with only one reading that contains kana (UniDic reads 気に入る as きにはいる).
+- Kana text links to a kanji card only when no other card shares that reading (あめ is not linked: 雨 and 飴 both exist).
+- Spans never cut through a `{漢字|かな}` ruby group. A ruby group the tokenizer split (一+日) can still link as a whole.
+
+The 2026-11-13 build links 10,851 words to 2,326 cards over 472 passages; `.content-cache/comprehension-links/report.tsv` lists every match for review. `npm run audit:comprehension-links` (part of `npm run check`) needs no MeCab. It fails when a passage or a linked vocabulary entry has changed since the build, so rebuild the links after any passage or vocabulary edit.
+
 ## Files and reproduction
 
 - `scripts/comprehension/n5.cjs` through `n1.cjs`: editable authored sources for the original units; each includes its matching `n*-expansion.cjs` source for units 6–10. Each question lists its defensible answer first; packaging deterministically distributes answers across all four positions (76/75/74/75).

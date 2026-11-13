@@ -140,6 +140,33 @@ async function run() {
     vocab.closeDetail();
     assert(d.activeElement.matches('.entry-open'), 'Related return closed onto a hidden control');
 
+    // Kanji pages link their example words and further words to the vocabulary cards.
+    await app.workspace.openRelated('kanji', item => item.kanji === '水');
+    const exampleLinks = d.querySelectorAll('#detail-examples .example-link');
+    assert(exampleLinks.length, 'Kanji examples link to vocabulary cards');
+    assert.equal(exampleLinks.length + d.querySelectorAll('#detail-examples .example-item:not(.example-link)').length, sec.selectedItem.examples.length);
+    assert(d.getElementById('detail-vocab-heading').textContent.startsWith('Weitere Wörter mit 水 ('));
+    const firstWords = d.querySelectorAll('#detail-vocab .kanji-vocab-link');
+    assert(firstWords.length > 0 && firstWords.length <= 12);
+    assert([...firstWords].every(b => b.querySelector('.kanji-vocab-word').textContent.includes('水')));
+    const expand = [...d.querySelectorAll('#detail-vocab button')].find(b => b.textContent.startsWith('Alle '));
+    if (expand) {
+      expand.click();
+      assert.equal(d.querySelectorAll('#detail-vocab .kanji-vocab-link').length, Number(/\((\d+)\)/.exec(d.getElementById('detail-vocab-heading').textContent)[1]));
+      assert(d.activeElement.matches('.kanji-vocab-link'), 'Expanding moves focus to the first added word');
+    }
+    const exampleWord = exampleLinks[0].querySelector('.example-word').textContent;
+    exampleLinks[0].click();
+    await until(() => app.activeTab === 'vocab' && vocab.isOverlayOpen() && vocab.selectedItem.word === exampleWord, 'Kanji example opens its vocabulary card');
+    vocab.dom.overlay.querySelector('.detail-back').click();
+    await until(() => app.activeTab === 'kanji' && sec.isOverlayOpen() && sec.selectedItem.kanji === '水', 'vocabulary card returns to the Kanji page');
+    d.querySelector('#detail-vocab .kanji-vocab-link').click();
+    await until(() => app.activeTab === 'vocab' && vocab.isOverlayOpen() && vocab.selectedItem.word.includes('水'), 'listed word opens its vocabulary card');
+    w.history.back();
+    await until(() => app.activeTab === 'kanji' && sec.isOverlayOpen(), 'second return to the Kanji page');
+    sec.dom.overlay.querySelector('.detail-back').click();
+    await until(() => app.activeTab === 'vocab' && !vocab.isOverlayOpen(), 'Kanji page returns to the vocabulary list');
+
     // The same selection survives all requested responsive breakpoints.
     vocab.dom.grid.querySelector('.entry-open').click();
     const resizeId = vocab.selectedItem.id;
@@ -476,6 +503,6 @@ async function run() {
       assert(!legacy.d.getElementById('route-message').textContent.includes('nicht gefunden'));
     } finally { legacy.dom.window.close(); }
   } finally { dom.window.close(); }
-  console.log('UI regressions passed: bookmarks, native controls, focus, history, related entries, lessons, responsive semantics, timed exit and refresh.');
+  console.log('UI regressions passed: bookmarks, native controls, focus, history, related entries, Kanji-to-vocabulary links, lessons, responsive semantics, timed exit and refresh.');
 }
 run().catch(e => { console.error(e.stack); process.exitCode = 1; });

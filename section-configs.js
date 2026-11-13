@@ -600,6 +600,100 @@ function attachKanjiNavigation(container, section) {
   });
 }
 
+// Vocabulary cards per kanji, rebuilt when the vocabulary list changes.
+var kanjiVocabularyIndex = { items: null, byKanji: null };
+function getVocabularyByKanji(items) {
+  if (kanjiVocabularyIndex.items === items) return kanjiVocabularyIndex.byKanji;
+  var byKanji = Object.create(null), levels = ['N5', 'N4', 'N3', 'N2', 'N1'];
+  items.forEach(function (item) {
+    Array.from(new Set(Array.from(item.word || ''))).forEach(function (ch) {
+      if (!/[㐀-鿿豈-﫿]/.test(ch)) return;
+      (byKanji[ch] = byKanji[ch] || []).push(item);
+    });
+  });
+  Object.keys(byKanji).forEach(function (ch) {
+    byKanji[ch].sort(function (a, b) {
+      return levels.indexOf(a.level) - levels.indexOf(b.level) || a.word.length - b.word.length || (a.reading || '').localeCompare(b.reading || '', 'ja');
+    });
+  });
+  kanjiVocabularyIndex = { items: items, byKanji: byKanji };
+  return byKanji;
+}
+
+function openVocabularyCard(id) {
+  window.app.workspace.openRelated('vocab', function (item) { return item.id === id; });
+}
+
+var KANJI_VOCAB_PREVIEW = 12;
+// Links the example words to their vocabulary cards and lists further words written with the kanji.
+function renderKanjiVocabulary(k, section) {
+  var wrapper = document.getElementById('detail-vocab-section');
+  var list = document.getElementById('detail-vocab');
+  var heading = document.getElementById('detail-vocab-heading');
+  var vocab = window.app && window.app.sections.vocab;
+  list.textContent = '';
+  heading.textContent = 'Wörter mit diesem Kanji';
+  if (!vocab) { wrapper.classList.add('hidden'); return; }
+  wrapper.classList.remove('hidden');
+  if (!vocab.isLoaded) {
+    list.textContent = 'Wörter werden geladen …';
+    window.app.ensureSectionLoaded('vocab').then(function () {
+      var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
+      if (section.isOverlayOpen() && current && current.kanji === k.kanji) renderKanjiVocabulary(k, section);
+    }).catch(function () {
+      list.textContent = 'Wörter konnten nicht geladen werden. ';
+      var retry = appendElement(list, 'button', '', 'Erneut versuchen');
+      retry.type = 'button';
+      retry.onclick = function () { renderKanjiVocabulary(k, section); };
+    });
+    return;
+  }
+  var words = getVocabularyByKanji(vocab.allItems)[k.kanji] || [];
+  var linked = Object.create(null);
+  document.querySelectorAll('#detail-examples .example-item').forEach(function (row, index) {
+    var example = (k.examples || [])[index];
+    var item = example && words.find(function (v) { return v.word === example.word && v.reading === example.reading; });
+    if (!item) return;
+    linked[item.id] = true;
+    var link = document.createElement('button');
+    link.type = 'button';
+    link.className = 'example-item example-link';
+    link.innerHTML = row.innerHTML;
+    link.setAttribute('aria-label', example.word + ', ' + example.reading + ', ' + example.meaning + ': Vokabelkarte öffnen');
+    link.addEventListener('click', function () { openVocabularyCard(item.id); });
+    row.replaceWith(link);
+  });
+  var rest = words.filter(function (v) { return !linked[v.id]; });
+  if (!rest.length) { wrapper.classList.add('hidden'); return; }
+  heading.textContent = 'Weitere Wörter mit ' + k.kanji + ' (' + rest.length + ')';
+  function add(v) {
+    var meaning = String(v.meaning || '').split(';')[0];
+    var tag = appendElement(list, 'button', 'radical-example kanji-vocab-link');
+    tag.type = 'button';
+    tag.setAttribute('aria-label', v.word + ', ' + (v.reading || '') + ', ' + meaning + ', ' + v.level + ': Vokabelkarte öffnen');
+    var word = appendElement(tag, 'span', 'kanji-vocab-word', v.word);
+    word.lang = 'ja';
+    var text = appendElement(tag, 'span', 'radical-example-text');
+    var reading = appendElement(text, 'span', 'radical-example-reading', v.reading || '');
+    reading.lang = 'ja';
+    appendElement(text, 'span', 'comp-meaning', meaning);
+    appendElement(text, 'span', 'radical-example-relation', v.level);
+    tag.addEventListener('click', function () { openVocabularyCard(v.id); });
+    return tag;
+  }
+  rest.slice(0, KANJI_VOCAB_PREVIEW).forEach(add);
+  if (rest.length > KANJI_VOCAB_PREVIEW) {
+    var more = appendElement(list, 'button', 'btn btn-pill', 'Alle ' + rest.length + ' Wörter anzeigen');
+    more.type = 'button';
+    more.addEventListener('click', function () {
+      more.remove();
+      var first = null;
+      rest.slice(KANJI_VOCAB_PREVIEW).forEach(function (v) { var tag = add(v); if (!first) first = tag; });
+      if (first) first.focus();
+    });
+  }
+}
+
 // ==========================================
 // === KANJI CONFIG ===
 // ==========================================
@@ -807,6 +901,7 @@ SECTION_CONFIGS.kanji = {
     } else {
       detailExamples.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
     }
+    renderKanjiVocabulary(k, section);
 
     // Stroke order — reset to collapsed, clear previous SVG
     var soHeader = document.getElementById('stroke-order-header');

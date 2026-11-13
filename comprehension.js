@@ -1,7 +1,7 @@
 /* Guided comprehension. Content and audio are loaded only when requested. */
 (function () {
   'use strict';
-  var units, pending, active = null, host, generation = 0;
+  var units, pending, links = null, linksPending, active = null, host, generation = 0;
   var views = { reading: { level: 'N5', selected: null, scroll: 0 }, listening: { level: 'N5', selected: null, scroll: 0 } };
   var progress = window.NIHONGO_STORAGE.local.getJSON('nihongo-comprehension-v1', {}, function (value) {
     return value !== null && typeof value === 'object' && !Array.isArray(value);
@@ -16,13 +16,32 @@
   function formatLabel(u) { return u.format ? ' · ' + FORMAT_LABELS[u.format] : ''; }
   function el(tag, text, cls) { var n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; }
   function button(text, fn) { var b = el('button', text); b.type = 'button'; b.onclick = fn; return b; }
-  function japanese(text) {
+  // Passage text; words with a vocabulary card (comprehension-links.js) become lookup tokens.
+  function japanese(text, id) {
     var p = el('p', null, 'comprehension-japanese'); p.lang = 'ja';
+    var link = links && id && links.passages[id];
+    var spans = link && link.length === plain(text).length ? link.spans : [];
+    var offset = 0, si = 0, wrap = null, wrapIndex = -1;
+    function target(pos) {
+      while (si < spans.length && spans[si][1] <= pos) si++;
+      if (si >= spans.length || spans[si][0] > pos) return p;
+      if (wrapIndex !== si) {
+        wrap = el('span', null, 'vocab-token'); wrap.dataset.entry = spans[si][2]; wrap.tabIndex = -1;
+        wrap.setAttribute('role', 'button'); wrap.setAttribute('aria-expanded', 'false'); p.appendChild(wrap); wrapIndex = si;
+      }
+      return wrap;
+    }
     text.split(/(\{[^{}]+\|[^{}]+\})/g).forEach(function (part) {
       var m = /^\{([^|]+)\|([^}]+)\}$/.exec(part);
-      if (!m) p.appendChild(document.createTextNode(part));
-      else { var ruby = el('ruby', m[1]); ruby.appendChild(el('rt', m[2])); p.appendChild(ruby); }
-    }); return p;
+      if (m) { var ruby = el('ruby', m[1]); ruby.appendChild(el('rt', m[2])); target(offset).appendChild(ruby); offset += m[1].length; return; }
+      var base = offset, end = offset + part.length;
+      while (offset < end) {
+        var into = target(offset), next = into === p ? (si < spans.length ? Math.min(spans[si][0], end) : end) : Math.min(spans[si][1], end);
+        into.appendChild(document.createTextNode(part.slice(offset - base, next - base))); offset = next;
+      }
+    });
+    var first = p.querySelector('.vocab-token'); if (first) first.tabIndex = 0;
+    return p;
   }
   function plain(text) { return text.replace(/\{([^|]+)\|([^}]+)\}/g, '$1'); }
   function counts(skill) {
@@ -40,6 +59,17 @@
       script.onerror = function () { pending = null; script.remove(); reject(new Error('Content load failed')); };
       document.head.appendChild(script);
     }); return pending;
+  }
+  function loadLinks() {
+    if (links) return Promise.resolve(links);
+    if (linksPending) return linksPending;
+    // Optional: without the link file the passages simply render without lookups.
+    linksPending = new Promise(function (resolve) {
+      var script = document.createElement('script'); script.src = 'comprehension-links.js';
+      script.onload = function () { links = window.COMPREHENSION_LINKS || null; resolve(links); };
+      script.onerror = function () { linksPending = null; script.remove(); resolve(null); };
+      document.head.appendChild(script);
+    }); return linksPending;
   }
   function stop() { generation++; if (host) host.querySelectorAll('audio').forEach(function (a) { a.pause(); a.removeAttribute('src'); a.load(); }); active = null; }
   function attempt(u) {
@@ -67,7 +97,7 @@
     });
     if (id !== undefined) views[skill].selected = id || null;
     host.replaceChildren(el('p', 'Lerneinheiten werden geladen …', 'loading'));
-    try { await load(); if (token !== generation || active !== skill) return; render(); }
+    try { await Promise.all([load(), loadLinks()]); if (token !== generation || active !== skill) return; render(); }
     catch (e) {
       if (token !== generation) return;
       host.replaceChildren(el('p', 'Die Lerneinheiten konnten nicht geladen werden.'), button('Erneut versuchen', function () { activate(skill).catch(function () {}); }));
@@ -114,7 +144,11 @@
     article.classList.toggle('without-furigana', !furigana);
     var rubyButton = button(/^N[45]$/.test(u.level) ? 'Furigana' : 'Furigana für Schlüsselwörter', function () { furigana = !furigana; article.classList.toggle('without-furigana', !furigana); rubyButton.setAttribute('aria-pressed', String(furigana)); if (furigana && !/^N[45]$/.test(u.level)) markHint('furigana'); });
     rubyButton.setAttribute('aria-pressed', String(furigana)); supports.appendChild(rubyButton);
-    function passages(target) { u.passages.forEach(function (block) { var row = el('div', null, 'comprehension-passage'); row.id = block.id; if (block.speaker || block.label) row.appendChild(el('span', block.label || block.speaker, 'comprehension-meta')); row.appendChild(japanese(block.text)); target.appendChild(row); }); }
+    function passages(target) {
+      if (links) target.appendChild(el('p', 'Tippe auf ein Wort, um es nachzuschlagen. Nachschlagen zählt als Hilfe.', 'comprehension-meta comprehension-lookup-tip'));
+      u.passages.forEach(function (block) { var row = el('div', null, 'comprehension-passage'); row.id = block.id; if (block.speaker || block.label) row.appendChild(el('span', block.label || block.speaker, 'comprehension-meta')); row.appendChild(japanese(block.text, block.id)); target.appendChild(row); });
+    }
+    if (links) lookups(article, function () { markHint('lookup'); });
     if (u.skill === 'listening') {
       article.appendChild(el('p', 'Synthetisches japanisches Audio · ohne automatischen Start', 'comprehension-meta'));
       var audio = document.createElement('audio'); audio.controls = true; audio.preload = 'none'; audio.src = u.audio.src + '?v=' + encodeURIComponent(u.audio.revision || '1'); audio.setAttribute('aria-label', u.title + ' anhören'); article.appendChild(audio);
@@ -164,5 +198,49 @@
       article.appendChild(button('Neuer Versuch', function () { progress[u.id] = { answers: {}, submitted: false, assisted: false, hints: {}, attempts: p.attempts }; persist(); render(); focusHeading(); }));
     }
   }
-  window.Comprehension = { load: load, counts: counts, activate: activate, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
+  // One lookup card per unit, shown below the paragraph of the selected word.
+  function lookups(article, onOpen) {
+    var panel = null, current = null;
+    function close(refocus) {
+      if (!panel) return;
+      panel.remove(); panel = null;
+      current.classList.remove('active'); current.setAttribute('aria-expanded', 'false');
+      if (refocus) current.focus();
+      current = null;
+    }
+    function show(token) {
+      if (current === token) { close(false); return; }
+      close(false);
+      var entry = links.entries[Number(token.dataset.entry)]; if (!entry) return;
+      current = token; token.classList.add('active'); token.setAttribute('aria-expanded', 'true');
+      panel = el('div', null, 'vocab-lookup'); panel.id = 'vocab-lookup'; panel.setAttribute('role', 'region'); panel.setAttribute('aria-label', 'Wort nachschlagen');
+      token.setAttribute('aria-controls', panel.id);
+      var head = el('div', null, 'vocab-lookup-head'), word = el('span', entry[1], 'vocab-lookup-word'); word.lang = 'ja'; head.appendChild(word);
+      if (entry[2] && entry[2] !== entry[1]) { var reading = el('span', entry[2], 'vocab-lookup-reading'); reading.lang = 'ja'; head.appendChild(reading); }
+      head.appendChild(el('span', entry[4], 'detail-jlpt-badge ' + entry[4]));
+      var meaning = el('p', entry[3], 'vocab-lookup-meaning'); meaning.setAttribute('role', 'status');
+      var actions = el('div', null, 'vocab-lookup-actions');
+      var openCard = button('Vokabelkarte öffnen →', function () {
+        openCard.disabled = true; openCard.textContent = 'Wird geöffnet …';
+        Promise.resolve(window.app.workspace.openRelated('vocab', function (item) { return item.id === entry[0]; })).finally(function () {
+          if (openCard.isConnected) { openCard.disabled = false; openCard.textContent = 'Vokabelkarte öffnen →'; }
+        });
+      });
+      var closeButton = button('×', function () { close(true); }); closeButton.className = 'vocab-lookup-close'; closeButton.setAttribute('aria-label', 'Nachschlagen schließen');
+      actions.append(openCard, closeButton); panel.append(head, meaning, actions);
+      token.closest('.comprehension-passage').after(panel);
+      onOpen();
+    }
+    article.addEventListener('click', function (event) { var token = event.target.closest('.vocab-token'); if (token) show(token); });
+    article.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && panel) { event.preventDefault(); event.stopPropagation(); close(true); return; }
+      var token = event.target.closest && event.target.closest('.vocab-token'); if (!token) return;
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); show(token); return; }
+      if (event.key !== 'ArrowRight' && event.key !== 'ArrowLeft') return;
+      var all = Array.from(token.parentNode.querySelectorAll('.vocab-token')), next = all[all.indexOf(token) + (event.key === 'ArrowRight' ? 1 : -1)];
+      if (!next) return;
+      event.preventDefault(); token.tabIndex = -1; next.tabIndex = 0; next.focus();
+    });
+  }
+  window.Comprehension = { load: load, loadLinks: loadLinks, counts: counts, activate: activate, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
 })();

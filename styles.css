@@ -23,6 +23,16 @@
 .comprehension-feedback, .comprehension-evidence { font-size: 14px; padding: 10px; }
 .comprehension-evidence { border-left: 3px solid var(--accent); white-space: pre-line; }
 .comprehension-result { padding: 16px; background: var(--accent-bg); color: var(--accent); border-radius: 8px; font-weight: 600; }
+.vocab-token { border-radius: 4px; cursor: pointer; transition: background var(--transition); }
+.vocab-token:hover { background: var(--bg-subtle); }
+.vocab-token.active { background: var(--accent-bg); color: var(--accent); box-shadow: inset 0 -2px 0 var(--accent); }
+.vocab-token:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+.vocab-lookup { display: grid; gap: 6px; margin: 0 0 8px; padding: 12px 16px; border: 1px solid var(--accent); border-radius: 8px; background: var(--bg-card); }
+.vocab-lookup-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px; }
+.vocab-lookup-word { font: 22px/1.4 var(--font-jp); }
+.vocab-lookup-reading { font: 15px var(--font-jp); color: var(--text-secondary); }
+.vocab-lookup-actions { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px; }
+.vocab-lookup-close { width: 44px; padding: 8px; font-size: 20px; }
 @media (max-width: 480px) { .comprehension-card, .comprehension-unit { padding: 16px; } .comprehension-question { padding: 10px; } }
 :root {
   color-scheme: light;
@@ -222,6 +232,10 @@ input::placeholder { color: var(--text-secondary); opacity: 1; }
 .ono-related-tag.disabled { display: inline-flex; padding: 10px; color: var(--text-secondary); }
 .example-item, .grammar-example, .counter-special-item { border-radius: 8px; padding: 16px; background: var(--bg); }
 .example-meaning, .grammar-example-meaning { margin-top: 8px; }
+.example-link { display: block; width: 100%; text-align: left; border-color: var(--border); }
+.example-link:hover, .kanji-vocab-link:hover { background: var(--accent-bg); border-color: var(--accent); }
+.kanji-vocab-link { text-align: left; }
+.kanji-vocab-word { font: 20px/1.3 var(--font-jp); }
 .grammar-example-japanese, .grammar-example-jp { font: 18px/1.9 var(--font-jp); }
 .grammar-example-reading, .grammar-example-romaji { color: var(--text-secondary); font-size: 14px; margin: 8px 0; }
 .grammar-explanation, .grammar-notes, .counter-detail-usage, .radical-detail-explanation { white-space: pre-line; line-height: 1.85; }

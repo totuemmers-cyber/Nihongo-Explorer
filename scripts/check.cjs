@@ -23,6 +23,7 @@ const CHECKS = Object.freeze([
   'audit:quiz',
   'audit:content',
   'audit:comprehension',
+  'audit:comprehension-links',
   'audit:radicals',
   'audit:counters',
   'audit:beginner',
