@@ -25,6 +25,8 @@ async function boot(hash = '#reading', options = {}) {
       w.HTMLMediaElement.prototype.play = function () { media.push(['play', this]); return options.rejectPlay ? Promise.reject(new Error('Playback unavailable')) : Promise.resolve(); };
       w.HTMLMediaElement.prototype.pause = function () { media.push(['pause', this]); };
       w.HTMLMediaElement.prototype.load = function () { media.push(['load', this]); };
+      // These checks cover the German interface; a stored choice selects it (English is the default).
+      w.localStorage.setItem('nihongo-lang', 'de');
       if (stored) w.localStorage.setItem('nihongo-comprehension-v1', stored);
       if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
       if (options.noStorage) { w.Storage.prototype.setItem = function () { throw new Error('Storage disabled'); }; }

@@ -22,6 +22,8 @@ async function boot(hash = '#kana', session = null, dark = false) {
   const dom = new JSDOM(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'), {
     url: 'http://nihongo.test/index.html' + hash, resources: new LocalResources(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: console,
     beforeParse(w) {
+      // These checks cover the German interface; a stored choice selects it (English is the default).
+      w.localStorage.setItem('nihongo-lang', 'de');
       w.innerWidth = 1440;
       w.matchMedia = q => ({ matches: dark && q.includes('prefers-color-scheme'), addEventListener() {} });
       w.scrollTo = (x, y) => { w.scrollY = typeof x === 'object' ? x.top || 0 : y; };

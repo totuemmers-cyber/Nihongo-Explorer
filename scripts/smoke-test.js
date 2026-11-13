@@ -106,6 +106,8 @@ async function run() {
         value: localStorageStub
       });
       localStorageStub.setItem('kanji-sound', 'off');
+      // These checks cover the German interface; a stored choice selects it (English is the default).
+      localStorageStub.setItem('nihongo-lang', 'de');
       window.matchMedia = function () {
         return {
           matches: false,

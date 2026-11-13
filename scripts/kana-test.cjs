@@ -23,6 +23,8 @@ async function run() {
   const dom = new JSDOM(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'), {
     url: 'http://nihongo.test/index.html#kana', resources: new LocalResources(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole,
     beforeParse(w) {
+      // These checks cover the German interface; a stored choice selects it (English is the default).
+      w.localStorage.setItem('nihongo-lang', 'de');
       w.innerWidth = 1440;
       w.matchMedia = () => ({ matches: false, addEventListener() {} });
       w.scrollTo = () => {};

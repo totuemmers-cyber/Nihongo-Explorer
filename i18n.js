@@ -1,14 +1,16 @@
 /* Interface language. German is the source language: every interface string is written in
    German in the code and in index.html, and i18n-en.js maps it to English. Content data has
    generated English copies under en/ (scripts/build-english.cjs); en/manifest.js lists them.
+   The page opens in English unless German was chosen before.
    Switching the language stores the choice and reloads; the session restore keeps the place. */
 (function () {
   'use strict';
   var KEY = 'nihongo-lang';
-  var LANGS = { de: 'Deutsch', en: 'English' };
+  var DEFAULT_LANG = 'en';
+  var LANGS = { en: 'English', de: 'Deutsch' };
   var store = window.NIHONGO_STORAGE && window.NIHONGO_STORAGE.local;
   var stored = store ? store.get(KEY, null) : null;
-  var lang = LANGS[stored] ? stored : 'de';
+  var lang = LANGS[stored] ? stored : DEFAULT_LANG;
   var dictionaries = {};
   var missing = Object.create(null);
 

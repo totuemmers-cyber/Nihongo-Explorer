@@ -187,12 +187,23 @@ function germanIn(d, selectors) {
 }
 
 async function run() {
-  // German stays the default, unchanged.
+  // English is the default; the switch lists English first.
   {
     const { w, d, dom } = await boot(null);
+    assert.equal(d.documentElement.lang, 'en');
+    assert.equal(w.NIHONGO_I18N.lang, 'en');
+    assert.equal(d.querySelector('.tab-btn[data-tab="vocab"]').textContent.trim(), '語Vocabulary');
+    assert.deepEqual([...d.querySelectorAll('#lang-switch [data-lang]')].map(b => b.textContent), ['English', 'Deutsch']);
+    assert.equal(d.querySelector('#lang-switch .active').textContent, 'English');
+    dom.window.close();
+  }
+  // A stored German choice keeps the German source, unchanged.
+  {
+    const { w, d, dom } = await boot('de');
     assert.equal(d.documentElement.lang, 'de');
     assert.equal(d.querySelector('.tab-btn[data-tab="vocab"]').textContent.trim(), '語Vokabeln');
     assert.equal(d.querySelector('#lang-switch .active').textContent, 'Deutsch');
+    assert.equal(d.querySelector('#lang-switch [data-lang="en"]').getAttribute('aria-pressed'), 'false');
     assert.equal(d.querySelector('#lang-switch').getAttribute('aria-label'), 'Sprache');
     assert.equal(w.NIHONGO_I18N.contentSrc('kanji-data.js'), 'kanji-data.js');
     dom.window.close();

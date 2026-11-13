@@ -1265,7 +1265,7 @@
   }
 
   // === INTERFACE LANGUAGE ===
-  // Deutsch | English at the top of the sidebar; the other language reloads the page in it.
+  // English | Deutsch at the top of the sidebar; the other language reloads the page in it.
   document.querySelectorAll('#lang-switch [data-lang]').forEach(function (btn) {
     var active = btn.getAttribute('data-lang') === window.NIHONGO_I18N.lang;
     btn.classList.toggle('active', active);

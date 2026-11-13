@@ -25,6 +25,8 @@ async function boot(options = {}) {
       w.scrollTo = () => {}; w.HTMLElement.prototype.scrollIntoView = () => {};
       w.IntersectionObserver = function () { this.observe = () => {}; this.disconnect = () => {}; };
       w.HTMLMediaElement.prototype.pause = () => {}; w.HTMLMediaElement.prototype.load = () => {};
+      // These checks cover the German interface; a stored choice selects it (English is the default).
+      w.localStorage.setItem('nihongo-lang', 'de');
       for (const [key, value] of Object.entries(options.local || {})) w.localStorage.setItem(key, value);
       if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
       if (options.block === 'getter') {
@@ -82,14 +84,16 @@ async function run() {
         sec.filters.bookmarks = 'starred'; sec.applyFilters();
         assert.equal(sec.filteredItems.length, 1, name + ' bookmark filter');
       }
-      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Dunkles Design');
+      // Unreadable storage holds no language choice, so the page opens in the default, English.
+      assert.equal(f.w.NIHONGO_I18N.lang, 'en');
+      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Dark theme');
       f.d.getElementById('theme-toggle').click();
-      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Helles Design');
+      assert.equal(f.d.querySelector('#theme-toggle span').textContent, 'Light theme');
       assert.equal(f.d.documentElement.dataset.theme, 'dark');
       f.d.getElementById('sound-toggle').click();
       assert.equal(f.d.getElementById('sound-toggle').getAttribute('aria-pressed'), 'true');
       assert.equal(f.d.querySelector('#storage-notice').hidden, false);
-      assert.match(f.d.querySelector('#storage-notice').textContent, /Neuladen/);
+      assert.match(f.d.querySelector('#storage-notice').textContent, /reloaded/);
       f.w.app.switchTab('reading');
       await until(() => f.d.querySelector('#reading-tab [data-unit]'), 'reading list');
       f.d.querySelector('#reading-tab [data-unit]').click();
