@@ -214,7 +214,7 @@
     sec.dom.overlay.classList.remove('hidden');
     var panel = sec.dom.overlay.querySelector('.detail-panel');
     var title = sec.dom.overlay.querySelector('.reader-label');
-    title.textContent = titles[sec.name] + ' · ' + (item.kanji || item.radical || item.word || item.pattern);
+    title.textContent = tr(titles[sec.name]) + ' · ' + (item.kanji || item.radical || item.word || item.pattern);
     // Every reference shares the same actions, including sections that had none.
     if (!panel.querySelector('.detail-bookmark-btn')) createDetailBookmark('#' + sec.dom.overlay.id + ' .reader-actions', sec.name, idOf(sec, item));
     var detailBookmark = panel.querySelector('.detail-bookmark-btn');

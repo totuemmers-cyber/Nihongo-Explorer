@@ -229,6 +229,8 @@ async function run() {
     await until(() => !w.app.sections[tab].dom.overlay.classList.contains('hidden'), tab + ' detail');
     const count = d.getElementById('item-count').textContent;
     assert(!GERMAN.test(count), tab + ': count still German: ' + count);
+    const label = w.app.sections[tab].dom.overlay.querySelector('.reader-label').textContent;
+    assert(!/^(Radikale|Zähler|Vokabeln|Lautmalerei|Grammatik|Kanji\b.*·.*[äöü])/.test(label) && !GERMAN.test(label.split(' · ')[0]), tab + ': detail label still German: ' + label);
   }
   // Translated content: radicals and counters have English data when their overlays exist.
   if (w.NIHONGO_I18N.contentSrc('counters-data.js') !== 'counters-data.js') {

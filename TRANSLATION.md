@@ -82,6 +82,13 @@ Model split (from the 150-card pilot, 2026-11-13):
 - Sonnet 5.5 at medium effort does the bulk: vocabulary, kanji, onomatopoeia and examples.
 - Opus 5.5 at high effort does the explanatory content: lessons, grammar explanations, distractor reasons, comprehension questions and explanations, and the roughly 300 vocabulary notes that compare with German (`extract` output whose `de.notes` mentions *Deutsch*).
 
+Since 13 November 2026 every dataset is fully translated. Additional rules used for the explanatory content:
+
+- Keep HTML tags (`<strong>`, `<em>`, lists) exactly; the batch check compares them.
+- Lessons address the learner as "you". German comparisons become English ones where English has an equivalent ("like English 'already'"), otherwise the point is explained without a comparison.
+- Reading and listening translations follow the full Japanese passage. Questions and answer choices stay exactly as hard as in German.
+- Conventions: American floor counting (一階 = first floor), a.m./p.m. times, "plain form" for a whole clause (Grundform before わけだ, そうだ …), "dictionary form" for the non-past verb form.
+
 ## Correcting the German source
 
 German stays the source. Fix the German first, then refresh the English:
