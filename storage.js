@@ -10,8 +10,10 @@
     var notice = document.getElementById('storage-notice');
     if (!notice) return;
     var message = [];
-    if (unavailable) message.push('Speichern ist eingeschränkt. Betroffene Änderungen bleiben nur bis zum Neuladen dieser Seite erhalten.');
-    if (invalid) message.push('Einige gespeicherte Daten waren ungültig. Für diese Daten werden vorübergehend die Standardwerte verwendet.');
+    // storage.js loads before i18n.js; by the time a notice shows, tr is defined.
+    var t = window.tr || function (text) { return text; };
+    if (unavailable) message.push(t('Speichern ist eingeschränkt. Betroffene Änderungen bleiben nur bis zum Neuladen dieser Seite erhalten.'));
+    if (invalid) message.push(t('Einige gespeicherte Daten waren ungültig. Für diese Daten werden vorübergehend die Standardwerte verwendet.'));
     var text = message.join(' ');
     if (notice.textContent !== text) notice.textContent = text;
     notice.hidden = false;

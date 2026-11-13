@@ -285,6 +285,7 @@
     kanji: {
       scripts: ['kangxi-radicals-data.js', 'kanji-data.js', 'kanji-n1.js'],
       message: 'Lade Kanji-Daten...',
+      error: 'Fehler beim Laden von Kanji-Daten.',
       hydrate: function () {
         var items = [];
         if (window.KANJI_DATA) {
@@ -302,6 +303,7 @@
       scripts: ['grammar-data.js', 'grammar-n2.js', 'grammar-n1.js', 'keigo-data.js'],
       optional: ['example-furigana.js'],
       message: 'Lade Grammatik-Daten...',
+      error: 'Fehler beim Laden von Grammatik-Daten.',
       hydrate: function () {
         var items = window.GRAMMAR_DATA || [];
         migrateLegacyBookmarks('grammar', items);
@@ -313,6 +315,7 @@
       // above, so the tab loads only the list fields; examples and notes follow in the background.
       scripts: ['vocab-runtime.js'],
       message: 'Lade Vokabel-Daten...',
+      error: 'Fehler beim Laden von Vokabel-Daten.',
       hydrate: function () {
         app.sections.vocab.setItems(window.VOCAB_RUNTIME ? window.VOCAB_RUNTIME.items : []);
         ensureVocabDetailsLoaded().catch(function () {});
@@ -322,6 +325,7 @@
       scripts: ['onomatopoeia-data.js'],
       optional: ['example-furigana.js'],
       message: 'Lade Lautmalerei-Daten...',
+      error: 'Fehler beim Laden von Lautmalerei-Daten.',
       hydrate: function () {
         var items = dedupeSpecialistItems(window.ONOMATOPOEIA_DATA || [], function (item) {
           return item.word || '';
@@ -334,6 +338,7 @@
       scripts: ['counters-data.js'],
       optional: ['example-furigana.js'],
       message: 'Lade Zählwort-Daten...',
+      error: 'Fehler beim Laden von Zählwort-Daten.',
       hydrate: function () {
         var counters = window.COUNTERS_DATA && window.COUNTERS_DATA.counters ? window.COUNTERS_DATA.counters : [];
         app.sections.counters.setItems(counters);
@@ -342,6 +347,7 @@
     radicals: {
       scripts: ['kangxi-radicals-data.js'],
       message: 'Lade Radikal-Daten...',
+      error: 'Fehler beim Laden von Radikal-Daten.',
       hydrate: function () {
         if (window.resetSectionLookups) window.resetSectionLookups();
         app.sections.radicals.setItems(window.KANGXI_RADICALS || []);
@@ -386,7 +392,7 @@
     var retryBtn = document.createElement('button');
     retryBtn.className = 'btn btn-pill section-error-retry';
     retryBtn.type = 'button';
-    retryBtn.textContent = 'Erneut versuchen';
+    retryBtn.textContent = tr('Erneut versuchen');
     errorEl.appendChild(retryBtn);
 
     host.insertBefore(errorEl, host.firstChild);
@@ -433,12 +439,22 @@
     if (app.sections[name]) app.sections[name].dom.grid.setAttribute('aria-busy', String(visible));
     if (message) {
       var label = loadingEl.querySelector('span');
-      if (label) label.textContent = message;
+      if (label) label.textContent = tr(message);
     }
     loadingEl.classList.toggle('hidden', !visible);
   }
 
+  // Content data files load in the active language (en/manifest.js, i18n.js): a file maps to its
+  // translated copy, to '' when another entry's bundle already holds it, or to a list of files
+  // (a translation that has to run before the German module it patches).
   function loadScript(src) {
+    var mapped = window.NIHONGO_I18N.contentSrc(src);
+    if (shouldBlockScriptLoad(src)) mapped = src;
+    if (Array.isArray(mapped)) return Promise.all(mapped.map(loadScriptFile));
+    return mapped ? loadScriptFile(mapped) : Promise.resolve();
+  }
+
+  function loadScriptFile(src) {
     if (scriptState.loaded[src]) {
       return Promise.resolve();
     }
@@ -501,7 +517,7 @@
       .catch(function (err) {
         section._loadPromise = null;
         console.error(err);
-        showSectionError(name, loader.message.replace('Lade', 'Fehler beim Laden von').replace('...', '.') + ' Bitte erneut versuchen.', function () {
+        showSectionError(name, tr(loader.error) + ' ' + tr('Bitte erneut versuchen.'), function () {
           ensureSectionLoaded(name).then(function () {
             if (app.activeTab === name && app.sections[name] && app.sections[name].config.onTabActivate) {
               app.sections[name].config.onTabActivate(app.sections[name]);
@@ -587,7 +603,7 @@
       .catch(function (err) {
         grammarLessonsPromise = null;
         console.error(err);
-        showSectionError('grammar', 'Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.', function () {
+        showSectionError('grammar', tr('Grammatik-Lektionen konnten nicht geladen werden. Bitte erneut versuchen.'), function () {
           ensureGrammarLessonsLoaded().catch(function () {});
         });
         throw err;
@@ -695,12 +711,12 @@
     if (app.workspace && app.workspace.updateSpecialCount()) return;
     if (tab === 'kana') {
       var kanaLabels = { hiragana: 'Hiragana', katakana: 'Katakana' };
-      itemCountEl.textContent = document.querySelectorAll('.kana-cell-inner').length + ' Zeichen · ' + (kanaLabels[activeKanaMode] || 'Kana');
+      itemCountEl.textContent = tr('{count} Zeichen', { count: document.querySelectorAll('.kana-cell-inner').length }) + ' · ' + (kanaLabels[activeKanaMode] || 'Kana');
     } else if (tab === 'quiz') {
-      itemCountEl.textContent = quizDataLoaded ? 'Quiz' : 'Lädt…';
+      itemCountEl.textContent = quizDataLoaded ? 'Quiz' : tr('Lädt…');
     } else if (app.sections[tab]) {
       var sec = app.sections[tab];
-      itemCountEl.textContent = sec.isLoaded ? (sec.filteredItems.length + sec.config.countLabel) : (sec.isLoading ? 'Lädt…' : 'Noch nicht geladen');
+      itemCountEl.textContent = sec.isLoaded ? tr(sec.config.countLabel, { count: sec.filteredItems.length }) : (sec.isLoading ? tr('Lädt…') : tr('Noch nicht geladen'));
     }
   }
 
@@ -739,7 +755,7 @@
     header.type = 'button';
     header.setAttribute('aria-expanded', 'true');
     header.className = 'counters-numbers-header';
-    header.innerHTML = '<span class="tab-icon-kana" style="font-family:var(--font-jp)">\u6570</span> Grundzahlen' +
+    header.innerHTML = '<span class="tab-icon-kana" style="font-family:var(--font-jp)">\u6570</span> ' + tr('Grundzahlen') +
       '<svg class="toggle-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>';
 
     var body = document.createElement('div');
@@ -749,22 +765,22 @@
     wrapper.className = 'numbers-table-wrapper';
     wrapper.tabIndex = 0;
     wrapper.setAttribute('role', 'region');
-    wrapper.setAttribute('aria-label', 'Grundzahlen, horizontal scrollbar');
+    wrapper.setAttribute('aria-label', tr('Grundzahlen, horizontal scrollbar'));
 
     var table = document.createElement('table');
     table.className = 'numbers-table';
-    table.innerHTML = '<thead><tr><th>Zahl</th><th>Kanji</th><th>Hiragana</th><th>Romaji</th><th>Hinweis</th></tr></thead>';
+    table.innerHTML = '<thead><tr><th>' + tr('Zahl') + '</th><th>Kanji</th><th>Hiragana</th><th>Romaji</th><th>' + tr('Hinweis') + '</th></tr></thead>';
 
     var tbody = document.createElement('tbody');
     data.basicNumbers.forEach(function (n) {
-      var tr = document.createElement('tr');
-      tr.innerHTML =
+      var row = document.createElement('tr');
+      row.innerHTML =
         '<td><strong>' + n.number + '</strong></td>' +
         '<td class="num-kanji">' + n.kanji + '</td>' +
         '<td class="num-hiragana">' + n.hiragana + '</td>' +
         '<td class="num-romaji">' + n.romaji + '</td>' +
         '<td class="num-notes">' + (n.notes || '\u2014') + '</td>';
-      tbody.appendChild(tr);
+      tbody.appendChild(row);
     });
     table.appendChild(tbody);
     wrapper.appendChild(table);
@@ -829,7 +845,7 @@
     btn.classList.toggle('active', enabled);
     btn.setAttribute('aria-pressed', String(enabled));
     var state = btn.querySelector('.sound-state');
-    if (state) state.textContent = enabled ? 'An' : 'Aus';
+    if (state) state.textContent = enabled ? tr('An') : tr('Aus');
   }
 
   ['furigana', 'romaji'].forEach(function (aid) {
@@ -956,14 +972,14 @@
     var isDark = document.documentElement.getAttribute('data-theme') === 'dark';
 
     rows.forEach(function (rowData) {
-      var tr = document.createElement('tr');
+      var row = document.createElement('tr');
       var rowColor = colors[rowData.row] || colors['vowel'];
 
       var tdLabel = document.createElement('td');
       tdLabel.className = 'kana-row-label';
       tdLabel.textContent = rowData.label;
       tdLabel.style.borderLeft = '3px solid ' + rowColor.color;
-      tr.appendChild(tdLabel);
+      row.appendChild(tdLabel);
 
       rowData.chars.forEach(function (ch) {
         var td = document.createElement('td');
@@ -972,7 +988,7 @@
         if (ch) {
           var inner = document.createElement('button');
           inner.type = 'button';
-          inner.setAttribute('aria-label', (mode === 'hiragana' ? ch.h : ch.k) + ' · ' + ch.r + ' anhören');
+          inner.setAttribute('aria-label', tr('{text} anhören', { text: (mode === 'hiragana' ? ch.h : ch.k) + ' · ' + ch.r }));
           inner.className = 'kana-cell-inner';
           inner.setAttribute('data-row', rowData.row);
 
@@ -999,10 +1015,10 @@
           td.appendChild(empty);
         }
 
-        tr.appendChild(td);
+        row.appendChild(td);
       });
 
-      tbody.appendChild(tr);
+      tbody.appendChild(row);
     });
 
     table.appendChild(tbody);
@@ -1117,16 +1133,16 @@
 
   // Small characters and marks: one row per sign with its function and playable example words.
   function createKanaSpecialSection(items, mode) {
-    var section = createKanaSection('Kleine Zeichen & Sonderzeichen', mode === 'katakana' ? 'ッ' : 'っ', [], mode, [], false);
+    var section = createKanaSection(tr('Kleine Zeichen & Sonderzeichen'), mode === 'katakana' ? 'ッ' : 'っ', [], mode, [], false);
     var table = document.createElement('table');
     table.className = 'kana-special-table';
     var tbody = document.createElement('tbody');
     items.forEach(function (item) {
-      var tr = document.createElement('tr');
+      var row = document.createElement('tr');
       var charCell = document.createElement('td');
       charCell.className = 'kana-special-char';
       charCell.textContent = mode === 'hiragana' ? item.h : item.k;
-      tr.appendChild(charCell);
+      row.appendChild(charCell);
       var infoCell = document.createElement('td');
       var name = document.createElement('strong');
       name.textContent = item.name;
@@ -1138,7 +1154,7 @@
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'kana-special-example';
-        btn.setAttribute('aria-label', ex.word + ' · ' + ex.romaji + ' anhören');
+        btn.setAttribute('aria-label', tr('{text} anhören', { text: ex.word + ' · ' + ex.romaji }));
         btn.textContent = ex.word + ' (' + ex.romaji + ') – ' + ex.german;
         btn.addEventListener('click', function () {
           playTick();
@@ -1146,8 +1162,8 @@
         });
         infoCell.appendChild(btn);
       });
-      tr.appendChild(infoCell);
-      tbody.appendChild(tr);
+      row.appendChild(infoCell);
+      tbody.appendChild(row);
     });
     table.appendChild(tbody);
     var wrapper = section.querySelector('.kana-table-wrapper');
@@ -1173,17 +1189,17 @@
     var yoonHeaders = ['ya', 'yu', 'yo'];
 
     var basisIcon = mode === 'katakana' ? '\u30A2' : '\u3042';
-    container.appendChild(createKanaSection('Basis (Goj\u016bon)', basisIcon, data.gojuon, mode, vowelHeaders, false));
+    container.appendChild(createKanaSection(tr('Basis (Goj\u016bon)'), basisIcon, data.gojuon, mode, vowelHeaders, false));
 
     var dakutenIcon = mode === 'katakana' ? '\u30AC' : '\u304C';
-    container.appendChild(createKanaSection('Dakuten / Handakuten', dakutenIcon, data.dakuten, mode, vowelHeaders, false));
+    container.appendChild(createKanaSection(tr('Dakuten / Handakuten'), dakutenIcon, data.dakuten, mode, vowelHeaders, false));
 
     var yoonIcon = mode === 'katakana' ? '\u30AD\u30E3' : '\u304D\u3083';
-    container.appendChild(createKanaSection('Kombinationen (Y\u014don)', yoonIcon, data.yoon, mode, yoonHeaders, true));
+    container.appendChild(createKanaSection(tr('Kombinationen (Y\u014don)'), yoonIcon, data.yoon, mode, yoonHeaders, true));
 
     // Loanword sounds only exist as katakana conventions.
     if (mode === 'katakana' && data.extended) {
-      container.appendChild(createKanaSection('Erweiterte Katakana (Lehnw\u00f6rter)', '\u30d5\u30a1', data.extended, mode, vowelHeaders, false));
+      container.appendChild(createKanaSection(tr('Erweiterte Katakana (Lehnw\u00f6rter)'), '\u30d5\u30a1', data.extended, mode, vowelHeaders, false));
     }
     if (data.special) container.appendChild(createKanaSpecialSection(data.special, mode));
   }
@@ -1248,9 +1264,33 @@
     });
   }
 
+  // === INTERFACE LANGUAGE ===
+  // The button names the language it switches to; switching reloads in that language.
+  var langToggle = document.getElementById('lang-toggle');
+  if (langToggle) {
+    var targetLang = window.NIHONGO_I18N.lang === 'de' ? 'en' : 'de';
+    var langLabel = langToggle.querySelector('.lang-name');
+    if (langLabel) {
+      langLabel.textContent = window.NIHONGO_I18N.languages[targetLang];
+      langLabel.lang = targetLang;
+    }
+    langToggle.addEventListener('click', function () {
+      playTick();
+      window.NIHONGO_I18N.setLanguage(targetLang);
+    });
+  }
+
   // === INIT ===
   initTheme();
   renderKana();
+  // kana-data.js is part of the page; its translated notes follow as soon as they load.
+  if (window.NIHONGO_I18N.contentSrc('kana-data.js') !== 'kana-data.js') {
+    loadScript('kana-data.js').then(function () {
+      _lastKanaMode = null;
+      renderKana();
+      updateCount();
+    }).catch(function () {});
+  }
   updateKanaDarkMode();
   if (typeof initBookmarkToggles === 'function') initBookmarkToggles();
   if (typeof initSelectFilters === 'function') initSelectFilters();

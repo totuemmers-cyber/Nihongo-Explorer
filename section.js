@@ -164,7 +164,7 @@ Section.prototype._updateSearchPager = function () {
     this._searchMore = document.createElement('button');
     this._searchMore.type = 'button';
     this._searchMore.className = 'btn btn-pill';
-    this._searchMore.textContent = 'Mehr laden';
+    this._searchMore.textContent = tr('Mehr laden');
     this._searchMore.addEventListener('click', function () {
       var firstNewIndex = self.renderedCount;
       self.renderBatch();
@@ -174,7 +174,7 @@ Section.prototype._updateSearchPager = function () {
     this._searchPager.appendChild(this._searchMore);
     this.dom.grid.insertAdjacentElement('afterend', this._searchPager);
   }
-  this._searchStatus.textContent = this.renderedCount + ' von ' + this.filteredItems.length + ' Ergebnissen';
+  this._searchStatus.textContent = tr('{count} von {total} Ergebnissen', { count: this.renderedCount, total: this.filteredItems.length });
   this._searchMore.hidden = this.renderedCount >= this.filteredItems.length;
 };
 

@@ -5,8 +5,8 @@ const path = require('path');
 const cp = require('child_process');
 const { CHECKS, FULL_CHECKS, parseOptions, checkNames, runChecks } = require('./check.cjs');
 
-const EXPECTED = ['lint', 'test:smoke', 'test:ui', 'test:kana', 'test:storage', 'test:contrast', 'test:comprehension', 'test:audio', 'test:vocabulary-triage', 'test:romaji', 'test:furigana', 'audit:data', 'audit:verbs', 'audit:quiz', 'audit:content', 'audit:comprehension', 'audit:comprehension-links', 'audit:radicals', 'audit:counters', 'audit:beginner', 'audit:vocabulary', 'audit:vocab-runtime', 'audit:vocabulary-levels', 'test:quiz-review', 'test:vocabulary-completion'];
-assert.deepEqual(CHECKS, EXPECTED.slice(0, 23));
+const EXPECTED = ['lint', 'test:smoke', 'test:ui', 'test:kana', 'test:storage', 'test:contrast', 'test:comprehension', 'test:audio', 'test:vocabulary-triage', 'test:romaji', 'test:furigana', 'test:i18n', 'audit:data', 'audit:verbs', 'audit:quiz', 'audit:content', 'audit:comprehension', 'audit:comprehension-links', 'audit:radicals', 'audit:counters', 'audit:beginner', 'audit:vocabulary', 'audit:vocab-runtime', 'audit:vocabulary-levels', 'audit:english', 'test:quiz-review', 'test:vocabulary-completion'];
+assert.deepEqual(CHECKS, EXPECTED.slice(0, 25));
 assert(EXPECTED.every(name => checkNames({ full: true }).includes(name)), 'All existing checks must remain in the full suite');
 assert(FULL_CHECKS.includes('test:check-runner'));
 assert.deepEqual(checkNames(parseOptions(['--only=lint,test:audio', '--jobs=1'])), ['lint', 'test:audio']);

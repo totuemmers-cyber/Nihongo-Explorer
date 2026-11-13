@@ -31,7 +31,7 @@
   var priorSnapshot = null;
   var selectionContext = document.createElement('div');
   selectionContext.className = 'selection-context hidden';
-  selectionContext.setAttribute('aria-label', 'Ausgewählter Eintrag');
+  selectionContext.setAttribute('aria-label', tr('Ausgewählter Eintrag'));
   document.getElementById('main-content').prepend(selectionContext);
 
   function idOf(sec, item) {
@@ -177,18 +177,18 @@
     sec.currentDetailIndex = index;
     sec.dom.prevBtn.disabled = index <= 0;
     sec.dom.nextBtn.disabled = index < 0 || index >= sec.filteredItems.length - 1;
-    sec.dom.overlay.querySelector('.detail-position').textContent = index < 0 ? 'Verknüpfter Eintrag' : (index + 1) + ' / ' + sec.filteredItems.length;
+    sec.dom.overlay.querySelector('.detail-position').textContent = index < 0 ? tr('Verknüpfter Eintrag') : (index + 1) + ' / ' + sec.filteredItems.length;
     var back = sec.dom.overlay.querySelector('.detail-back');
     back.hidden = !relatedBack;
-    back.textContent = window.Lessons && window.Lessons.view === 'lessons' ? '← Zurück zur Lektion' : '← Zurück';
+    back.textContent = window.Lessons && window.Lessons.view === 'lessons' ? tr('← Zurück zur Lektion') : tr('← Zurück');
     markSelection(sec);
     selectionContext.textContent = '';
-    var label = document.createElement('span'); label.className = 'selection-label'; label.textContent = 'Ausgewählt';
+    var label = document.createElement('span'); label.className = 'selection-label'; label.textContent = tr('Ausgewählt');
     var word = document.createElement('span'); word.className = 'selection-word';
     word.textContent = sec.selectedItem.kanji || sec.selectedItem.radical || sec.selectedItem.word || sec.selectedItem.pattern;
     var meaning = document.createElement('span'); meaning.className = 'selection-meaning';
     meaning.textContent = sec.selectedItem.meaning || (sec.selectedItem.meanings || []).join(', ');
-    var read = document.createElement('button'); read.textContent = 'Zum Detail →';
+    var read = document.createElement('button'); read.textContent = tr('Zum Detail →');
     read.onclick = function () { sec.dom.overlay.querySelector('.reader-label').focus(); };
     selectionContext.append(label, word, meaning, read);
   }
@@ -266,7 +266,7 @@
     });
     var bm = sec.dom.controls.querySelector('.bm-toggle');
     bm.dataset.bm = sec.filters.bookmarks || 'all';
-    bm.textContent = 'Nur Lesezeichen';
+    bm.textContent = tr('Nur Lesezeichen');
     bm.classList.toggle('active', sec.filters.bookmarks === 'starred');
     bm.setAttribute('aria-pressed', String(sec.filters.bookmarks === 'starred'));
     if (sec.dom.sort) sec.dom.sort.value = sec.currentSort;
@@ -293,20 +293,21 @@
     }
     syncFilters(sec);
     var filters = Object.keys(sec.filters).filter(function (key) { return sec.filters[key] && sec.filters[key] !== 'all'; }).map(function (key) {
-      if (key === 'bookmarks') return 'Nur Lesezeichen';
-      if (key === 'evidence') return sec.filters[key] === 'backed' ? 'Belegte Level' : 'Geschätzte Level';
-      return sec.filters[key];
+      if (key === 'bookmarks') return tr('Nur Lesezeichen');
+      if (key === 'evidence') return sec.filters[key] === 'backed' ? tr('Belegte Level') : tr('Geschätzte Level');
+      // Filter values are German data keys (levels, categories, word types).
+      return /^N[1-5]$|^\d+$/.test(sec.filters[key]) ? sec.filters[key] : tr(sec.filters[key]);
     });
-    if (sec.dom.search.value) filters.unshift('„' + sec.dom.search.value + '“');
-    if (sec.name === 'kanji' && app.activeRadical) filters.push('Radikal ' + app.activeRadical);
+    if (sec.dom.search.value) filters.unshift(tr('„{query}“', { query: sec.dom.search.value }));
+    if (sec.name === 'kanji' && app.activeRadical) filters.push(tr('Radikal {radical}', { radical: app.activeRadical }));
     var summary = sec.dom.controls.querySelector('.filter-summary-text');
-    if (summary) summary.textContent = filters.length ? filters.join(' · ') : 'Alle Einträge';
+    if (summary) summary.textContent = filters.length ? filters.join(' · ') : tr('Alle Einträge');
     var resetBtn = sec.dom.controls.querySelector('.filter-reset');
     if (resetBtn) resetBtn.hidden = !filters.length && sec.currentSort === (sec.config.defaultSort || null);
     if (sec.dom.noResults) {
       sec.dom.noResults.querySelector('p').textContent = sec.filters.bookmarks === 'starred' && !getBookmarks(sec.name).length
-        ? 'Noch keine Lesezeichen. Mit dem Stern kannst du Einträge für später speichern.'
-        : 'Keine passenden Einträge. Ändere deine Suche oder setze die Filter zurück.';
+        ? tr('Noch keine Lesezeichen. Mit dem Stern kannst du Einträge für später speichern.')
+        : tr('Keine passenden Einträge. Ändere deine Suche oder setze die Filter zurück.');
       sec.dom.noResults.classList.toggle('hidden', !sec.isLoaded || !!sec.filteredItems.length);
     }
     if (current === sec) updateNavigation(sec);
@@ -325,9 +326,9 @@
     return true;
   }
   function afterSwitch(tab) {
-    document.getElementById('page-title').textContent = titles[tab];
-    document.getElementById('page-description').textContent = descriptions[tab];
-    document.getElementById('page-eyebrow').textContent = (['kana', 'radicals', 'counters'].includes(tab) ? 'Grundlagen' : ['quiz', 'reading', 'listening'].includes(tab) ? 'Üben' : 'Nachschlagen') + ' · 日本語';
+    document.getElementById('page-title').textContent = tr(titles[tab]);
+    document.getElementById('page-description').textContent = tr(descriptions[tab]);
+    document.getElementById('page-eyebrow').textContent = tr(['kana', 'radicals', 'counters'].includes(tab) ? 'Grundlagen' : ['quiz', 'reading', 'listening'].includes(tab) ? 'Üben' : 'Nachschlagen') + ' · 日本語';
     document.querySelectorAll('.tab-btn').forEach(function (btn) {
       if (btn.dataset.tab === tab) btn.setAttribute('aria-current', 'page');
       else btn.removeAttribute('aria-current');
@@ -353,7 +354,7 @@
       if (!sections[name].isLoaded) await app.ensureSectionLoaded(name);
       if (expected !== revision) return;
       var item = sections[name].allItems.find(predicate);
-      if (!item) { message('Dieser verknüpfte Eintrag ist nicht verfügbar.'); return; }
+      if (!item) { message(tr('Dieser verknüpfte Eintrag ist nicht verfügbar.')); return; }
       if (app.activeTab !== name) {
         restoring = true;
         app.switchTab(name);
@@ -361,7 +362,7 @@
       }
       if (origin) returnTargets[name] = returnTargets[origin.name];
       present(sections[name], item, { related: true, skipSave: true });
-    } catch (e) { message('Der verknüpfte Eintrag konnte nicht geladen werden. Bitte erneut versuchen.'); }
+    } catch (e) { message(tr('Der verknüpfte Eintrag konnte nicht geladen werden. Bitte erneut versuchen.')); }
     finally { restoring = false; }
   }
   async function restore(hash, state) {
@@ -410,7 +411,7 @@
       if (sec && parts[1] && parts[1] !== 'lesson' && !(tab === 'counters' && parts[1] === 'numbers')) {
         var item = findById(sec, parts[1]);
         if (item) present(sec, item, { noFocus: true, related: relatedBack });
-        else { sec.selectedItem = null; message('Dieser Eintrag wurde nicht gefunden. Du bist wieder in der Sammlung.'); }
+        else { sec.selectedItem = null; message(tr('Dieser Eintrag wurde nicht gefunden. Du bist wieder in der Sammlung.')); }
       } else if (sec) { sec.selectedItem = null; sec.currentDetailIndex = -1; markSelection(sec); }
       if (sec && state && state.sections[tab]) {
         var saved = state.sections[tab];
@@ -418,15 +419,15 @@
         sec.dom.overlay.querySelector('.detail-panel').scrollTop = saved.detailScroll || 0;
         if (!current && saved.returnId) restoreFocus(sec);
       }
-      if (invalidSection) message('Dieser Bereich wurde nicht gefunden. Hier kannst du mit Kana beginnen.');
+      if (invalidSection) message(tr('Dieser Bereich wurde nicht gefunden. Hier kannst du mit Kana beginnen.'));
       app.updateCount();
       if (current) current.dom.closeBtn.focus({ preventScroll: true });
       window.scrollTo(0, savedScroll[tab] || 0);
     } catch (e) {
       failed = true;
-      message('Der Eintrag konnte nicht geladen werden.');
+      message(tr('Der Eintrag konnte nicht geladen werden.'));
       var retry = document.createElement('button');
-      retry.textContent = 'Link erneut öffnen';
+      retry.textContent = tr('Link erneut öffnen');
       retry.addEventListener('click', function () { restore(hash, state); });
       document.getElementById('route-message').appendChild(retry);
     } finally {
@@ -470,7 +471,7 @@
       }
     });
     host.querySelectorAll('.counter-table-wrap, .conjugation-container, .conjugation-table-wrapper, .conjugation-table-wrap').forEach(function (el) {
-      el.tabIndex = 0; el.setAttribute('role', 'region'); el.setAttribute('aria-label', 'Lesetabelle, horizontal scrollbar');
+      el.tabIndex = 0; el.setAttribute('role', 'region'); el.setAttribute('aria-label', tr('Lesetabelle, horizontal scrollbar'));
     });
   }
   function setCounterView(view, silent) {
@@ -487,13 +488,13 @@
     var count = document.getElementById('item-count');
     if (app.activeTab === 'reading' || app.activeTab === 'listening') {
       var totals = window.Comprehension.counts(app.activeTab);
-      if (!totals) { count.textContent = 'Lädt…'; return true; }
+      if (!totals) { count.textContent = tr('Lädt…'); return true; }
       var levels = Object.values(totals.byLevel);
-      count.textContent = totals.total + ' Einheiten' + (levels.every(function (n) { return n === levels[0]; }) ? ' · ' + levels[0] + ' je Niveau' : '');
+      count.textContent = tr('{count} Einheiten', { count: totals.total }) + (levels.every(function (n) { return n === levels[0]; }) ? ' · ' + tr('{count} je Niveau', { count: levels[0] }) : '');
       return true;
     }
-    if (app.activeTab === 'grammar' && window.Lessons && window.Lessons.view === 'lessons') { count.textContent = window.Lessons.count + ' Lektionen'; return true; }
-    if (app.activeTab === 'counters' && counterView === 'numbers') { count.textContent = 'Grundzahlen · Referenz'; return true; }
+    if (app.activeTab === 'grammar' && window.Lessons && window.Lessons.view === 'lessons') { count.textContent = tr('{count} Lektionen', { count: window.Lessons.count }); return true; }
+    if (app.activeTab === 'counters' && counterView === 'numbers') { count.textContent = tr('Grundzahlen · Referenz'); return true; }
     return false;
   }
   app.workspace = { beforeSwitch: beforeSwitch, afterSwitch: afterSwitch, present: present, close: close, dismiss: dismiss, collectionChanged: collectionChanged, openRelated: openRelated, toggleHelp: toggleHelp, save: save, commit: commit, message: message, updateSpecialCount: updateSpecialCount, isReadingView: isReadingView, idOf: idOf, accessibleContent: accessibleContent };
@@ -502,22 +503,22 @@
     var sec = sections[name];
     var controls = sec.dom.controls;
     var searchLabel = document.createElement('label');
-    searchLabel.htmlFor = sec.dom.search.id; searchLabel.className = 'field-label'; searchLabel.textContent = titles[name] + ' durchsuchen';
+    searchLabel.htmlFor = sec.dom.search.id; searchLabel.className = 'field-label'; searchLabel.textContent = tr('{section} durchsuchen', { section: tr(titles[name]) });
     controls.insertBefore(searchLabel, sec.dom.search.closest('.search-bar'));
     controls.querySelectorAll('select').forEach(function (select) {
       var label = document.createElement('label'); label.className = 'select-field';
-      var text = document.createElement('span'); text.textContent = select.dataset.label || (select.id.includes('sort') ? 'Sortierung' : select.id.includes('type') ? 'Wortart' : 'Kategorie');
+      var text = document.createElement('span'); text.textContent = select.dataset.label || tr(select.id.includes('sort') ? 'Sortierung' : select.id.includes('type') ? 'Wortart' : 'Kategorie');
       select.before(label); label.appendChild(text); label.appendChild(select);
     });
     var filters = controls.querySelector('.filters');
     var secondary = document.createElement('details'); secondary.className = 'secondary-filters'; secondary.open = window.innerWidth >= 768;
-    var summary = document.createElement('summary'); summary.textContent = 'Weitere Filter & Sortierung'; secondary.appendChild(summary);
+    var summary = document.createElement('summary'); summary.textContent = tr('Weitere Filter & Sortierung'); secondary.appendChild(summary);
     Array.from(filters.children).forEach(function (el, index) {
       if (el.classList.contains('level-filters')) {
         var primary = index === 0;
         var field = document.createElement('div'); field.className = 'filter-field';
         var label = document.createElement('span'); label.className = 'filter-group-label';
-        label.textContent = primary ? (name === 'radicals' ? 'Striche' : 'JLPT') : 'Kategorie';
+        label.textContent = primary ? (name === 'radicals' ? tr('Striche') : 'JLPT') : tr('Kategorie');
         label.id = name + (primary ? '-primary-filter-label' : '-category-filter-label');
         el.setAttribute('role', 'group'); el.setAttribute('aria-labelledby', label.id);
         el.before(field); field.append(label, el);
@@ -526,27 +527,27 @@
     });
     if (secondary.children.length > 1) filters.appendChild(secondary);
     var summaryRow = document.createElement('div'); summaryRow.className = 'filter-summary';
-    summaryRow.innerHTML = '<span class="filter-summary-text">Alle Einträge</span><button class="filter-reset" hidden>Filter zurücksetzen</button>';
+    summaryRow.innerHTML = '<span class="filter-summary-text">' + tr('Alle Einträge') + '</span><button class="filter-reset" hidden>' + tr('Filter zurücksetzen') + '</button>';
     controls.appendChild(summaryRow);
     summaryRow.querySelector('button').onclick = function () { reset(sec); sec.dom.search.focus(); };
-    var recovery = document.createElement('button'); recovery.textContent = 'Filter zurücksetzen'; recovery.onclick = function () { reset(sec); sec.dom.search.focus(); }; sec.dom.noResults.appendChild(recovery);
+    var recovery = document.createElement('button'); recovery.textContent = tr('Filter zurücksetzen'); recovery.onclick = function () { reset(sec); sec.dom.search.focus(); }; sec.dom.noResults.appendChild(recovery);
     sec.dom.noResults.setAttribute('role', 'status');
     var panel = sec.dom.overlay.querySelector('.detail-panel');
     var label = document.createElement('h2'); label.id = 'reader-label-' + name; label.className = 'reader-label'; label.tabIndex = -1;
     panel.prepend(label); panel.setAttribute('aria-labelledby', label.id);
     var actions = document.createElement('div'); actions.className = 'reader-actions'; panel.querySelector('.detail-content').prepend(actions);
     var nav = panel.querySelector('.detail-nav');
-    var back = document.createElement('button'); back.className = 'detail-back'; back.textContent = '← Zurück'; back.hidden = true; back.onclick = function () { history.back(); }; nav.prepend(back);
+    var back = document.createElement('button'); back.className = 'detail-back'; back.textContent = tr('← Zurück'); back.hidden = true; back.onclick = function () { history.back(); }; nav.prepend(back);
     var position = document.createElement('span'); position.className = 'detail-position'; nav.appendChild(position);
     sec.dom.overlay.addEventListener('keydown', function (e) { if (window.innerWidth < 1280) trap(e, panel); });
     syncFilters(sec);
   });
-  var counterToggle = document.createElement('div'); counterToggle.className = 'gl-view-toggle counter-view-toggle'; counterToggle.innerHTML = '<button class="active" data-counter-view="counters" aria-pressed="true">Zählwörter</button><button data-counter-view="numbers" aria-pressed="false">Grundzahlen</button>';
+  var counterToggle = document.createElement('div'); counterToggle.className = 'gl-view-toggle counter-view-toggle'; counterToggle.innerHTML = '<button class="active" data-counter-view="counters" aria-pressed="true">' + tr('Zählwörter') + '</button><button data-counter-view="numbers" aria-pressed="false">' + tr('Grundzahlen') + '</button>';
   document.getElementById('counters-controls').prepend(counterToggle);
   counterToggle.onclick = function (e) { if (e.target.dataset.counterView) setCounterView(e.target.dataset.counterView); };
-  var jumps = document.createElement('nav'); jumps.className = 'kana-jumps'; jumps.setAttribute('aria-label', 'Kana-Tabellen');
+  var jumps = document.createElement('nav'); jumps.className = 'kana-jumps'; jumps.setAttribute('aria-label', tr('Kana-Tabellen'));
   ['Basis', 'Dakuten', 'Kombinationen', 'Sonderzeichen'].forEach(function (text, i) {
-    var button = document.createElement('button'); button.textContent = text;
+    var button = document.createElement('button'); button.textContent = tr(text);
     button.onclick = function () {
       // The extended-katakana section only exists in katakana mode, so the last jump finds its section by content.
       var target = i === 3 ? document.querySelector('.kana-special-table').closest('.kana-section') : document.querySelectorAll('.kana-section')[i];
@@ -555,13 +556,13 @@
     jumps.appendChild(button);
   });
   document.querySelector('.kana-toggle').after(jumps);
-  var kanaNote = document.createElement('p'); kanaNote.className = 'kana-note'; kanaNote.textContent = 'Wähle ein Zeichen, um die Aussprache zu hören.'; jumps.after(kanaNote);
+  var kanaNote = document.createElement('p'); kanaNote.className = 'kana-note'; kanaNote.textContent = tr('Wähle ein Zeichen, um die Aussprache zu hören.'); jumps.after(kanaNote);
   var helpPanel = document.querySelector('.help-panel'); helpPanel.setAttribute('role', 'dialog'); helpPanel.setAttribute('aria-modal', 'true'); helpPanel.querySelector('h2').id = 'help-title'; helpPanel.setAttribute('aria-labelledby', 'help-title');
   helpPanel.addEventListener('keydown', function (e) { trap(e, helpPanel); });
   document.getElementById('help-open').onclick = toggleHelp;
   document.getElementById('nav-toggle').onclick = function () { setDrawer(!sidebar.classList.contains('open')); };
   document.getElementById('nav-backdrop').onclick = function () { setDrawer(false); document.getElementById('nav-toggle').focus(); };
-  var drawerClose = document.createElement('button'); drawerClose.id = 'nav-close'; drawerClose.textContent = 'Navigation schließen ×'; drawerClose.onclick = function () { setDrawer(false); document.getElementById('nav-toggle').focus(); }; sidebar.prepend(drawerClose);
+  var drawerClose = document.createElement('button'); drawerClose.id = 'nav-close'; drawerClose.textContent = tr('Navigation schließen') + ' ×'; drawerClose.onclick = function () { setDrawer(false); document.getElementById('nav-toggle').focus(); }; sidebar.prepend(drawerClose);
   document.querySelector('.skip-link').onclick = function (e) { e.preventDefault(); var main = document.getElementById('main-content'); main.focus(); main.scrollIntoView(); };
   document.addEventListener('keydown', function (e) {
     if (!document.getElementById('help-overlay').classList.contains('hidden') && e.key === 'Escape') {
@@ -574,9 +575,9 @@
   }, true);
   function preferences() {
     var dark = document.documentElement.dataset.theme === 'dark';
-    document.querySelector('#theme-toggle span').textContent = dark ? 'Helles Design' : 'Dunkles Design';
+    document.querySelector('#theme-toggle span').textContent = dark ? tr('Helles Design') : tr('Dunkles Design');
     var sound = document.getElementById('sound-toggle'); var enabled = sound.classList.contains('active');
-    sound.setAttribute('aria-pressed', String(enabled)); sound.querySelector('.sound-state').textContent = enabled ? 'An' : 'Aus';
+    sound.setAttribute('aria-pressed', String(enabled)); sound.querySelector('.sound-state').textContent = enabled ? tr('An') : tr('Aus');
   }
   document.getElementById('theme-toggle').addEventListener('click', preferences);
   document.getElementById('sound-toggle').addEventListener('click', preferences);

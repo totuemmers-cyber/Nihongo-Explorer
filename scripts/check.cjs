@@ -18,6 +18,7 @@ const CHECKS = Object.freeze([
   'test:vocabulary-triage',
   'test:romaji',
   'test:furigana',
+  'test:i18n',
   'audit:data',
   'audit:verbs',
   'audit:quiz',
@@ -29,7 +30,8 @@ const CHECKS = Object.freeze([
   'audit:beginner',
   'audit:vocabulary',
   'audit:vocab-runtime',
-  'audit:vocabulary-levels'
+  'audit:vocabulary-levels',
+  'audit:english'
 ]);
 const FULL_CHECKS = Object.freeze(['test:quiz-review', 'test:vocabulary-completion', 'test:check-runner']);
 const defaultJobs = () => Math.min(3, os.availableParallelism(), os.freemem() < 4 * 1024 ** 3 ? 1 : 3);

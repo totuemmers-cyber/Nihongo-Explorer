@@ -4,6 +4,13 @@
 (function () {
   'use strict';
 
+  // Interface strings (i18n.js). The audits run this file without the page, where the
+  // German text stays as it is.
+  var tr = window.tr || function (text, vars) {
+    return vars ? String(text).replace(/\{(\w+)\}/g, function (m, k) { return k in vars ? String(vars[k]) : m; }) : text;
+  };
+  var CONTENT_LANG = window.NIHONGO_I18N ? window.NIHONGO_I18N.lang : 'de';
+
   // ==========================================================
   // A: CONSTANTS
   // ==========================================================
@@ -669,24 +676,34 @@
     return picked;
   }
 
+  // Function words of the gloss language, which say nothing about the sense.
+  var MEANING_STOPWORD_LISTS = {
+    de: 'etwas sich sein seine seinen werden haben eine einer einen einem eines nicht oder auch sehr machen ' +
+      'jemand jemanden jemandem jemandes durch über unter nach gegen ohne dass wenn ganz viel viele mehr kein ' +
+      'keine keinen alle alles jede jeder jedes andere anderen anderer lassen geben bekommen person sache dinge',
+    en: 'something someone somebody oneself thing things person people with from into onto upon about over under ' +
+      'after before without within that this these those when where very much many more most some other others ' +
+      'have having make makes made give gives take takes been being were will would there their them they what ' +
+      'which also only such become becomes kind sort used using state'
+  };
   var MEANING_STOPWORDS = {};
-  ('etwas sich sein seine seinen werden haben eine einer einen einem eines nicht oder auch sehr machen ' +
-    'jemand jemanden jemandem jemandes durch über unter nach gegen ohne dass wenn ganz viel viele mehr kein ' +
-    'keine keinen alle alles jede jeder jedes andere anderen anderer lassen geben bekommen person sache dinge')
+  (MEANING_STOPWORD_LISTS[CONTENT_LANG] || MEANING_STOPWORD_LISTS.de)
     .split(' ').forEach(function (word) { MEANING_STOPWORDS[word] = true; });
+  var MEANING_LOCALE = CONTENT_LANG === 'en' ? 'en' : 'de';
   var meaningTokenCache = Object.create(null);
 
   function meaningTokens(text) {
     text = String(text || '');
     if (meaningTokenCache[text]) return meaningTokenCache[text];
-    var tokens = text.replace(/\([^)]*\)/g, ' ').toLocaleLowerCase('de').split(/[^a-zäöüß]+/)
+    var tokens = text.replace(/\([^)]*\)/g, ' ').toLocaleLowerCase(MEANING_LOCALE).split(/[^a-zäöüß]+/)
       .filter(function (token) { return token.length >= 4 && !MEANING_STOPWORDS[token]; });
     meaningTokenCache[text] = tokens;
     return tokens;
   }
 
-  // German glosses that share a content word ("Drohung" / "Bedrohung, Gefahr") describe
-  // near-synonyms; offering one as a wrong answer would make a second answer defensible.
+  // Glosses that share a content word ("Drohung" / "Bedrohung, Gefahr", "threat" / "threaten")
+  // describe near-synonyms; offering one as a wrong answer would make a second answer defensible.
+  // Umlauts stay word characters: untranslated entries keep their German glosses in English mode.
   function meaningsOverlap(a, b) {
     var left = meaningTokens(a);
     var right = meaningTokens(b);
@@ -889,7 +906,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'vocabMeaning', level: level,
-      prompt: 'Was bedeutet dieses Wort?',
+      prompt: tr('Was bedeutet dieses Wort?'),
       promptMain: item.word,
       promptSub: item.reading,
       choices: c.choices, correctIndex: c.correctIndex,
@@ -930,11 +947,11 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'vocabReading', level: level,
-      prompt: 'Wie liest man dieses Wort?',
+      prompt: tr('Wie liest man dieses Wort?'),
       promptMain: item.word,
       promptSub: item.meaning,
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.word + ' wird ' + item.reading + ' gelesen'
+      explanation: tr('{word} wird {reading} gelesen', { word: item.word, reading: item.reading })
     }, level, {
       sourceLevel: item.level,
       preserveTokens: [item.word]
@@ -960,7 +977,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'vocabReverse', level: level,
-      prompt: 'Welches Wort bedeutet:',
+      prompt: tr('Welches Wort bedeutet:'),
       promptMain: item.meaning,
       promptSub: '',
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1007,7 +1024,7 @@
     var solved = beginnerSentence(ex.japanese, ex.romaji, level, []) || sentence.replace(BLANK, item.reading);
     return finalizeQuestion({
       type: 'vocabContext', level: level,
-      prompt: 'Welches Wort passt in die Lücke?',
+      prompt: tr('Welches Wort passt in die Lücke?'),
       promptMain: sentence,
       promptSub: ex.german,
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1039,7 +1056,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiMeaning', level: level,
-      prompt: 'Was bedeutet dieses Kanji?',
+      prompt: tr('Was bedeutet dieses Kanji?'),
       promptMain: item.kanji,
       promptSub: '',
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1092,7 +1109,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiReading', level: level,
-      prompt: 'Wie kann man dieses Kanji lesen?',
+      prompt: tr('Wie kann man dieses Kanji lesen?'),
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1139,11 +1156,11 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'kanjiRadical', level: level,
-      prompt: 'Welches ist das Primärradikal dieses Kanji?',
+      prompt: tr('Welches ist das Primärradikal dieses Kanji?'),
       promptMain: item.kanji,
       promptSub: item.meanings[0],
       choices: c.choices, correctIndex: c.correctIndex,
-      explanation: item.kanji + ' hat als Prim\u00e4rradikal ' + correctAnswer
+      explanation: tr('{kanji} hat als Prim\u00e4rradikal {radical}', { kanji: item.kanji, radical: correctAnswer })
     }, level, {
       sourceLevel: item.jlpt,
       preserveTokens: [item.kanji]
@@ -1164,7 +1181,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'grammarMeaning', level: level,
-      prompt: 'Was bedeutet dieses Grammatikmuster?',
+      prompt: tr('Was bedeutet dieses Grammatikmuster?'),
       promptMain: item.pattern,
       promptSub: item.formation || '',
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1214,7 +1231,7 @@
     r.review.distractors.forEach(function (d) { reasons[d.text] = d.reason; });
     return finalizeQuestion({
       type: 'grammarCloze', level: level,
-      prompt: 'Welches Grammatikmuster passt in die Lücke?',
+      prompt: tr('Welches Grammatikmuster passt in die Lücke?'),
       promptMain: r.sentence,
       // The translation stays visible: reviewed choices may be wrong only for this meaning
       // (走り抜かなかった is grammatical but contradicts „bis zum Ende durchgelaufen“).
@@ -1247,7 +1264,7 @@
     if (!c) return null;
     return finalizeQuestion({
       type: 'grammarFormation', level: level,
-      prompt: 'Wie wird dieses Muster gebildet?',
+      prompt: tr('Wie wird dieses Muster gebildet?'),
       promptMain: item.pattern,
       promptSub: item.meaning,
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1289,10 +1306,11 @@
     var distractorKeys = shuffle(distractorsFor(formKey)).slice(0, 3);
     var c = buildChoices(targetForm.japanese, distractorKeys.map(function (key) { return result.forms[key].japanese; }));
     if (!c) return null;
-    var label = isStrictBeginnerLevel(level) ? targetForm.label.replace(/ ?\([^)]*\)/g, '') : targetForm.label;
+    var formLabel = tr(targetForm.label);
+    var label = isStrictBeginnerLevel(level) ? formLabel.replace(/ ?\([^)]*\)/g, '') : formLabel;
     return finalizeQuestion({
       type: 'conjugation', level: level,
-      prompt: label + ' von:',
+      prompt: tr('{form} von:', { form: label }),
       promptMain: item.word || item.reading,
       promptSub: item.meaning + ' (' + getConjugationGroupLabel(result, level) + ')',
       choices: c.choices, correctIndex: c.correctIndex,
@@ -1331,7 +1349,7 @@
     if (!choices) return null;
     return finalizeQuestion({
       type: 'onomatopoeiaContext', level: level,
-      prompt: 'Was bedeutet die Lautmalerei in diesem Satz?',
+      prompt: tr('Was bedeutet die Lautmalerei in diesem Satz?'),
       promptMain: beginnerSentence(ex.japanese, ex.romaji, level, []),
       promptSub: item.word,
       choices: choices.choices, correctIndex: choices.correctIndex,
@@ -1403,7 +1421,7 @@
 
   function showFeedback(container, selectedIdx, correctIdx) {
     var btns = container.querySelectorAll('.quiz-choice-btn');
-    var feedback = el('p', 'quiz-feedback', (selectedIdx === correctIdx ? 'Richtig.' : selectedIdx < 0 ? 'Antwort aufgelöst.' : 'Nicht richtig.') + ' Richtige Antwort: ' + btns[correctIdx].querySelector('.quiz-choice-text').textContent);
+    var feedback = el('p', 'quiz-feedback', (selectedIdx === correctIdx ? tr('Richtig.') : selectedIdx < 0 ? tr('Antwort aufgelöst.') : tr('Nicht richtig.')) + ' ' + tr('Richtige Antwort:') + ' ' + btns[correctIdx].querySelector('.quiz-choice-text').textContent);
     feedback.setAttribute('role', 'status');
     container.appendChild(feedback);
     for (var i = 0; i < btns.length; i++) {
@@ -1417,7 +1435,7 @@
     container.innerHTML = '';
     var card = el('div', 'quiz-question-card');
 
-    var typeBadge = el('span', 'quiz-type-badge', QUESTION_TYPES[question.type].label);
+    var typeBadge = el('span', 'quiz-type-badge', tr(QUESTION_TYPES[question.type].label));
     var levelBadge = el('span', 'quiz-level-badge ' + question.level.toLowerCase(), question.level);
     var badges = el('div', 'quiz-badges');
     badges.appendChild(typeBadge);
@@ -1460,7 +1478,7 @@
     }).filter(Boolean);
     if (notes.length) {
       var list = el('ul', 'quiz-choice-notes');
-      list.setAttribute('aria-label', 'Warum die anderen Antworten nicht passen');
+      list.setAttribute('aria-label', tr('Warum die anderen Antworten nicht passen'));
       notes.forEach(function (entry) {
         var li = el('li');
         var choice = el('span', 'quiz-choice-note-answer', entry.choice);
@@ -1469,7 +1487,7 @@
         li.appendChild(document.createTextNode(' — ' + entry.note));
         list.appendChild(li);
       });
-      explDiv.appendChild(el('p', 'quiz-choice-notes-title', 'Warum die anderen Antworten nicht passen:'));
+      explDiv.appendChild(el('p', 'quiz-choice-notes-title', tr('Warum die anderen Antworten nicht passen:')));
       explDiv.appendChild(list);
     }
     explDiv.classList.remove('hidden');
@@ -1499,7 +1517,7 @@
     typeSelect.className = 'quiz-type-select';
     typeSelect.id = 'quiz-type-select';
     var typeLabel = el('label', 'select-field');
-    typeLabel.appendChild(el('span', '', 'Fragetyp'));
+    typeLabel.appendChild(el('span', '', tr('Fragetyp')));
     typeLabel.appendChild(typeSelect);
     var groups = {};
     TYPE_IDS.forEach(function (id) {
@@ -1509,11 +1527,11 @@
     });
     Object.keys(groups).forEach(function (grp) {
       var optgroup = document.createElement('optgroup');
-      optgroup.label = grp;
+      optgroup.label = tr(grp);
       groups[grp].forEach(function (t) {
         var opt = document.createElement('option');
         opt.value = t.id;
-        opt.textContent = t.icon + ' ' + t.label;
+        opt.textContent = t.icon + ' ' + tr(t.label);
         if (t.id === browseState.currentType) opt.selected = true;
         optgroup.appendChild(opt);
       });
@@ -1549,17 +1567,17 @@
 
     // Action buttons
     var actions = el('div', 'quiz-browse-actions');
-    var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Auflösen');
+    var revealBtn = el('button', 'quiz-btn quiz-btn-reveal', tr('Auflösen'));
     revealBtn.id = 'quiz-reveal-btn';
     revealBtn.addEventListener('click', revealBrowseAnswer);
     actions.appendChild(revealBtn);
 
-    var nextBtn = el('button', 'quiz-btn quiz-btn-next hidden', 'Nächste Frage');
+    var nextBtn = el('button', 'quiz-btn quiz-btn-next hidden', tr('Nächste Frage'));
     nextBtn.id = 'quiz-next-btn';
     nextBtn.addEventListener('click', loadBrowseQuestion);
     actions.appendChild(nextBtn);
 
-    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', tr('Zurück'));
     backBtn.addEventListener('click', showHomeScreen);
     actions.appendChild(backBtn);
 
@@ -1578,7 +1596,7 @@
     browseState.question = q;
 
     if (!q) {
-      area.innerHTML = '<div class="quiz-no-data">Nicht genügend Daten für diesen Fragetyp und dieses Level verfügbar.</div>';
+      area.innerHTML = '<div class="quiz-no-data">' + tr('Nicht genügend Daten für diesen Fragetyp und dieses Level verfügbar.') + '</div>';
       return;
     }
 
@@ -1645,15 +1663,15 @@
     panel.innerHTML = '';
 
     var setup = el('div', 'quiz-test-setup');
-    var title = el('h2', 'quiz-setup-title', 'JLPT-Training mit Zeitlimit');
+    var title = el('h2', 'quiz-setup-title', tr('JLPT-Training mit Zeitlimit'));
     setup.appendChild(title);
-    var desc = el('p', 'quiz-setup-desc', 'Wähle ein Level für ein Training mit Zeitlimit. Du erhältst die Anzahl richtiger Antworten und deine Trefferquote je Abschnitt. Hörverstehen ist nicht enthalten; das Ergebnis ist keine JLPT-Bestehensprognose.');
+    var desc = el('p', 'quiz-setup-desc', tr('Wähle ein Level für ein Training mit Zeitlimit. Du erhältst die Anzahl richtiger Antworten und deine Trefferquote je Abschnitt. Hörverstehen ist nicht enthalten; das Ergebnis ist keine JLPT-Bestehensprognose.'));
     setup.appendChild(desc);
 
     var selectedLevel = 'N5';
     var levelGrid = el('div', 'quiz-test-level-grid');
     levelGrid.setAttribute('role', 'group');
-    levelGrid.setAttribute('aria-label', 'JLPT-Level für das Training');
+    levelGrid.setAttribute('aria-label', tr('JLPT-Level für das Training'));
     LEVELS.forEach(function (lv) {
       var cfg = TEST_CONFIGS[lv];
       var total = 0, totalTime = 0;
@@ -1664,23 +1682,23 @@
       var badge = el('div', 'quiz-test-level-badge ' + lv.toLowerCase(), lv);
       card.appendChild(badge);
       var info = el('div', 'quiz-test-level-info');
-      info.innerHTML = '<span>' + total + ' Fragen</span><span>' + totalTime + ' Minuten</span><span>' + (cfg.sections.length === 1 ? '1 sichtbarer Abschnitt' : cfg.sections.length + ' sichtbare Abschnitte') + '</span>';
+      info.innerHTML = '<span>' + tr('{count} Fragen', { count: total }) + '</span><span>' + tr('{count} Minuten', { count: totalTime }) + '</span><span>' + (cfg.sections.length === 1 ? tr('1 sichtbarer Abschnitt') : tr('{count} sichtbare Abschnitte', { count: cfg.sections.length })) + '</span>';
       card.appendChild(info);
       card.setAttribute('aria-pressed', String(lv === selectedLevel));
       card.addEventListener('click', function () {
         selectedLevel = lv;
         levelGrid.querySelectorAll('button').forEach(function (btn) { btn.setAttribute('aria-pressed', String(btn === card)); });
-        startBtn.textContent = lv + '-Training starten';
+        startBtn.textContent = tr('{level}-Training starten', { level: lv });
       });
       levelGrid.appendChild(card);
     });
     setup.appendChild(levelGrid);
-    var startBtn = el('button', 'quiz-btn quiz-btn-start', 'N5-Training starten');
+    var startBtn = el('button', 'quiz-btn quiz-btn-start', tr('{level}-Training starten', { level: 'N5' }));
     startBtn.id = 'quiz-start-test';
     startBtn.addEventListener('click', function () { startTest(selectedLevel); });
     setup.appendChild(startBtn);
 
-    var backBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
+    var backBtn = el('button', 'quiz-btn quiz-btn-back', tr('Zurück'));
     backBtn.addEventListener('click', showHomeScreen);
     setup.appendChild(backBtn);
 
@@ -1797,7 +1815,7 @@
 
     // Header bar
     var header = el('div', 'quiz-test-header');
-    var secLabel = el('span', 'quiz-test-section-label', 'Abschnitt ' + (testState.currentSection + 1) + ': ' + secData.name);
+    var secLabel = el('span', 'quiz-test-section-label', tr('Abschnitt {number}', { number: testState.currentSection + 1 }) + ': ' + tr(secData.name));
     header.appendChild(secLabel);
     var progress = el('span', 'quiz-test-progress', (qIdx + 1) + ' / ' + secData.questions.length);
     header.appendChild(progress);
@@ -1806,9 +1824,9 @@
     var remaining = Math.max(0, Math.ceil((testState.sectionEndTime - Date.now()) / 1000));
     timer.textContent = formatTime(remaining);
     timer.setAttribute('role', 'timer');
-    timer.setAttribute('aria-label', 'Verbleibende Zeit');
+    timer.setAttribute('aria-label', tr('Verbleibende Zeit'));
     header.appendChild(timer);
-    var exitBtn = el('button', 'quiz-exit', 'Training beenden');
+    var exitBtn = el('button', 'quiz-exit', tr('Training beenden'));
     exitBtn.addEventListener('click', requestExit);
     header.appendChild(exitBtn);
     panel.appendChild(header);
@@ -1834,7 +1852,7 @@
 
     // Action buttons
     var actions = el('div', 'quiz-browse-actions');
-    var nextBtn = el('button', 'quiz-btn quiz-btn-next hidden', 'Nächste Frage');
+    var nextBtn = el('button', 'quiz-btn quiz-btn-next hidden', tr('Nächste Frage'));
     nextBtn.id = 'quiz-test-next-btn';
     nextBtn.addEventListener('click', function () {
       testState.currentQuestion++;
@@ -1876,32 +1894,32 @@
     panel.innerHTML = '';
 
     var inter = el('div', 'quiz-interstitial');
-    var title = el('h2', 'quiz-inter-title', 'Abschnitt ' + (testState.currentSection + 1) + ' abgeschlossen');
+    var title = el('h2', 'quiz-inter-title', tr('Abschnitt {number} abgeschlossen', { number: testState.currentSection + 1 }));
     inter.appendChild(title);
-    var secName = el('p', 'quiz-inter-name', secData.name);
+    var secName = el('p', 'quiz-inter-name', tr(secData.name));
     inter.appendChild(secName);
 
     var scoreEl = el('div', 'quiz-inter-score');
-    scoreEl.textContent = 'Dieser Abschnitt ist abgeschlossen. Die Auswertung erfolgt am Ende der Prüfung.';
+    scoreEl.textContent = tr('Dieser Abschnitt ist abgeschlossen. Die Auswertung erfolgt am Ende der Prüfung.');
     inter.appendChild(scoreEl);
 
-    var statusEl = el('div', 'quiz-inter-status', 'Weiter zum nächsten Abschnitt');
+    var statusEl = el('div', 'quiz-inter-status', tr('Weiter zum nächsten Abschnitt'));
     inter.appendChild(statusEl);
 
     if (testState.currentSection < testState.sections.length - 1) {
-      var nextBtn = el('button', 'quiz-btn quiz-btn-next', 'Weiter zum nächsten Abschnitt');
+      var nextBtn = el('button', 'quiz-btn quiz-btn-next', tr('Weiter zum nächsten Abschnitt'));
       nextBtn.addEventListener('click', function () {
         startTestSection(testState.currentSection + 1);
       });
       inter.appendChild(nextBtn);
     } else {
-      var resultBtn = el('button', 'quiz-btn quiz-btn-next', 'Ergebnisse anzeigen');
+      var resultBtn = el('button', 'quiz-btn quiz-btn-next', tr('Ergebnisse anzeigen'));
       resultBtn.addEventListener('click', showTestResults);
       inter.appendChild(resultBtn);
     }
 
     panel.appendChild(inter);
-    inter.appendChild(el('button', 'quiz-exit', 'Training beenden'));
+    inter.appendChild(el('button', 'quiz-exit', tr('Training beenden')));
     inter.querySelector('.quiz-exit').addEventListener('click', requestExit);
     title.tabIndex = -1; title.focus({ preventScroll: true });
   }
@@ -1914,7 +1932,7 @@
     panel.innerHTML = '';
 
     var results = el('div', 'quiz-results');
-    var title = el('h2', 'quiz-results-title', 'Übungsergebnis — ' + testState.level);
+    var title = el('h2', 'quiz-results-title', tr('Übungsergebnis') + ' — ' + testState.level);
     results.appendChild(title);
 
     var totalCorrect = 0;
@@ -1925,8 +1943,8 @@
       totalCorrect += section.score;
       totalQuestions += count;
       var row = el('div', 'quiz-result-row');
-      row.appendChild(el('span', 'result-section-name', section.name));
-      row.appendChild(el('span', 'result-score', section.score + ' / ' + count + ' richtig'));
+      row.appendChild(el('span', 'result-section-name', tr(section.name)));
+      row.appendChild(el('span', 'result-score', tr('{score} / {count} richtig', { score: section.score, count: count })));
       row.appendChild(el('span', 'result-pct', (count ? Math.round(section.score / count * 100) : 0) + '%'));
       breakdown.appendChild(row);
     });
@@ -1934,13 +1952,13 @@
 
     var overall = el('div', 'quiz-results-overall');
     var accuracy = totalQuestions ? Math.round(totalCorrect / totalQuestions * 100) : 0;
-    overall.appendChild(el('div', 'overall-score', accuracy + '% richtig'));
-    overall.appendChild(el('div', 'overall-status', totalCorrect + ' von ' + totalQuestions + ' Fragen richtig beantwortet'));
-    overall.appendChild(el('div', 'overall-note', 'Übungsergebnis für diese Fragen. Keine JLPT-Punktzahl oder Bestehensprognose; Hörverstehen wird nicht geprüft.'));
+    overall.appendChild(el('div', 'overall-score', tr('{percent}% richtig', { percent: accuracy })));
+    overall.appendChild(el('div', 'overall-status', tr('{correct} von {total} Fragen richtig beantwortet', { correct: totalCorrect, total: totalQuestions })));
+    overall.appendChild(el('div', 'overall-note', tr('Übungsergebnis für diese Fragen. Keine JLPT-Punktzahl oder Bestehensprognose; Hörverstehen wird nicht geprüft.')));
     results.appendChild(overall);
 
     // Detail review toggle
-    var detailBtn = el('button', 'quiz-btn quiz-btn-reveal', 'Details ansehen');
+    var detailBtn = el('button', 'quiz-btn quiz-btn-reveal', tr('Details ansehen'));
     var detailDiv = el('div', 'quiz-review-detail hidden');
     detailDiv.id = 'quiz-review-detail';
     detailBtn.setAttribute('aria-controls', detailDiv.id);
@@ -1948,13 +1966,13 @@
     detailBtn.addEventListener('click', function () {
       detailDiv.classList.toggle('hidden');
       detailBtn.setAttribute('aria-expanded', String(!detailDiv.classList.contains('hidden')));
-      detailBtn.textContent = detailDiv.classList.contains('hidden') ? 'Details ansehen' : 'Details ausblenden';
+      detailBtn.textContent = detailDiv.classList.contains('hidden') ? tr('Details ansehen') : tr('Details ausblenden');
     });
     results.appendChild(detailBtn);
 
     // Build review
     testState.sections.forEach(function (sec, sIdx) {
-      var secHeader = el('h3', 'quiz-review-section-header', 'Abschnitt ' + (sIdx + 1) + ': ' + sec.name);
+      var secHeader = el('h3', 'quiz-review-section-header', tr('Abschnitt {number}', { number: sIdx + 1 }) + ': ' + tr(sec.name));
       detailDiv.appendChild(secHeader);
 
       sec.questions.forEach(function (q, qIdx) {
@@ -1975,10 +1993,10 @@
 
     // Actions
     var actions = el('div', 'quiz-results-actions');
-    var newBtn = el('button', 'quiz-btn quiz-btn-next', 'Neue Prüfung');
+    var newBtn = el('button', 'quiz-btn quiz-btn-next', tr('Neue Prüfung'));
     newBtn.addEventListener('click', showTestSetup);
     actions.appendChild(newBtn);
-    var homeBtn = el('button', 'quiz-btn quiz-btn-back', 'Zurück');
+    var homeBtn = el('button', 'quiz-btn quiz-btn-back', tr('Zurück'));
     homeBtn.addEventListener('click', showHomeScreen);
     actions.appendChild(homeBtn);
     results.appendChild(actions);
@@ -2001,9 +2019,9 @@
 
     var home = el('div', 'quiz-home');
 
-    var title = el('h2', 'quiz-home-title', 'Quiz & Test');
+    var title = el('h2', 'quiz-home-title', tr('Quiz & Test'));
     home.appendChild(title);
-    var desc = el('p', 'quiz-home-desc', 'Teste dein Wissen mit über 20.000 möglichen Fragen aus allen Bereichen.');
+    var desc = el('p', 'quiz-home-desc', tr('Teste dein Wissen mit über 20.000 möglichen Fragen aus allen Bereichen.'));
     home.appendChild(desc);
 
     var cards = el('div', 'quiz-home-cards');
@@ -2012,8 +2030,8 @@
     var browseCard = el('button', 'quiz-home-card browse');
     browseCard.innerHTML =
       '<div class="quiz-card-icon">\u7DF4</div>' +
-      '<h3>Übungsmodus</h3>' +
-      '<p>Frei üben nach Fragetyp und Level. Kein Timer, kein Scoring.</p>';
+      '<h3>' + tr('Übungsmodus') + '</h3>' +
+      '<p>' + tr('Frei üben nach Fragetyp und Level. Kein Timer, kein Scoring.') + '</p>';
     browseCard.addEventListener('click', initBrowseMode);
     cards.appendChild(browseCard);
 
@@ -2021,8 +2039,8 @@
     var testCard = el('button', 'quiz-home-card test');
     testCard.innerHTML =
       '<div class="quiz-card-icon">\u8A66</div>' +
-      '<h3>Pr\u00fcfungsmodus</h3>' +
-      '<p>Training mit Zeitlimit und Trefferquote je Abschnitt. Ohne Hörverstehen und ohne JLPT-Bestehensprognose.</p>';
+      '<h3>' + tr('Pr\u00fcfungsmodus') + '</h3>' +
+      '<p>' + tr('Training mit Zeitlimit und Trefferquote je Abschnitt. Ohne Hörverstehen und ohne JLPT-Bestehensprognose.') + '</p>';
     testCard.addEventListener('click', showTestSetup);
     cards.appendChild(testCard);
 
@@ -2100,7 +2118,7 @@
 
   function requestExit() {
     if (!testState.active) return true;
-    if (!confirm('Aktives Training beenden? Dein bisheriges Ergebnis wird verworfen.')) return false;
+    if (!confirm(tr('Aktives Training beenden? Dein bisheriges Ergebnis wird verworfen.'))) return false;
     stopTimer();
     testState.active = false;
     showHomeScreen();

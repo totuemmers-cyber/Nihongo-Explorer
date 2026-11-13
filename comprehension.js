@@ -9,11 +9,14 @@
   function persist() {
     if (!window.NIHONGO_STORAGE.local.setJSON('nihongo-comprehension-v1', progress)) {
       var status = host && host.querySelector('.comprehension-storage');
-      if (status) status.textContent = 'Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Neuladen dieser Seite erhalten.';
+      if (status) status.textContent = tr('Speichern ist nicht verfügbar. Dein Fortschritt bleibt nur bis zum Neuladen dieser Seite erhalten.');
     }
   }
   var FORMAT_LABELS = { short: 'Kurzer Text', medium: 'Mittellanger Text', 'quick-response': 'Sofort antworten', utterance: 'Was sagt man?', 'info-search': 'Informationen suchen', integrated: 'Zwei Texte vergleichen', long: 'Langer Text' };
-  function formatLabel(u) { return u.format ? ' · ' + FORMAT_LABELS[u.format] : ''; }
+  function formatLabel(u) { return u.format ? ' · ' + tr(FORMAT_LABELS[u.format]) : ''; }
+  // Content files in the active language (i18n.js); untranslated units stay German.
+  function contentSrc(src) { return window.NIHONGO_I18N ? window.NIHONGO_I18N.contentSrc(src) : src; }
+  var contentLocalized = contentSrc('comprehension-data.js') !== 'comprehension-data.js';
   function el(tag, text, cls) { var n = document.createElement(tag); if (text != null) n.textContent = text; if (cls) n.className = cls; return n; }
   function button(text, fn) { var b = el('button', text); b.type = 'button'; b.onclick = fn; return b; }
   // Passage text; words with a vocabulary card (comprehension-links.js) become lookup tokens.
@@ -54,7 +57,7 @@
     if (units) return Promise.resolve(units);
     if (pending) return pending;
     pending = new Promise(function (resolve, reject) {
-      var script = document.createElement('script'); script.src = 'comprehension-data.js';
+      var script = document.createElement('script'); script.src = contentSrc('comprehension-data.js');
       script.onload = function () { units = window.COMPREHENSION_UNITS; if (Array.isArray(units)) resolve(units); else { pending = null; script.remove(); reject(new Error('Missing units')); } };
       script.onerror = function () { pending = null; script.remove(); reject(new Error('Content load failed')); };
       document.head.appendChild(script);
@@ -65,7 +68,7 @@
     if (linksPending) return linksPending;
     // Optional: without the link file the passages simply render without lookups.
     linksPending = new Promise(function (resolve) {
-      var script = document.createElement('script'); script.src = 'comprehension-links.js';
+      var script = document.createElement('script'); script.src = contentSrc('comprehension-links.js');
       script.onload = function () { links = window.COMPREHENSION_LINKS || null; resolve(links); };
       script.onerror = function () { linksPending = null; script.remove(); resolve(null); };
       document.head.appendChild(script);
@@ -96,11 +99,11 @@
       if (state[key]) views[key] = { level: /^N[1-5]$/.test(state[key].level) ? state[key].level : 'N5', selected: state[key].selected || null, scroll: Number(state[key].scroll) || 0 };
     });
     if (id !== undefined) views[skill].selected = id || null;
-    host.replaceChildren(el('p', 'Lerneinheiten werden geladen …', 'loading'));
+    host.replaceChildren(el('p', tr('Lerneinheiten werden geladen …'), 'loading'));
     try { await Promise.all([load(), loadLinks()]); if (token !== generation || active !== skill) return; render(); }
     catch (e) {
       if (token !== generation) return;
-      host.replaceChildren(el('p', 'Die Lerneinheiten konnten nicht geladen werden.'), button('Erneut versuchen', function () { activate(skill).catch(function () {}); }));
+      host.replaceChildren(el('p', tr('Die Lerneinheiten konnten nicht geladen werden.')), button(tr('Erneut versuchen'), function () { activate(skill).catch(function () {}); }));
       throw e;
     }
   }
@@ -109,23 +112,23 @@
     host.querySelectorAll('audio').forEach(function (a) { a.pause(); a.removeAttribute('src'); a.load(); });
     host.replaceChildren(); var storageStatus = el('p', '', 'comprehension-storage'); storageStatus.setAttribute('role', 'status'); host.appendChild(storageStatus);
     var v = views[active], u = units.find(function (entry) { return entry.skill === active && entry.id === v.selected; });
-    if (v.selected && !u) { host.appendChild(el('p', 'Diese Einheit wurde nicht gefunden. Wähle eine Einheit aus der Liste.', 'route-message')); v.selected = null; }
+    if (v.selected && !u) { host.appendChild(el('p', tr('Diese Einheit wurde nicht gefunden. Wähle eine Einheit aus der Liste.'), 'route-message')); v.selected = null; }
     if (u) { v.level = u.level; renderUnit(u); } else renderList();
     window.app.updateCount();
   }
   function renderList() {
     var skill = active, v = views[skill];
     var group = units.filter(function (u) { return u.skill === skill && u.level === v.level; });
-    host.appendChild(el('h2', skill === 'reading' ? 'Schritt für Schritt lesen' : 'Schritt für Schritt hören'));
-    host.appendChild(el('p', group.length + ' Einheiten auf Niveau ' + v.level + ': von gezielter Orientierung bis zum selbstständigen Verstehen.'));
-    var filters = el('div', null, 'level-filters comprehension-levels'); filters.setAttribute('aria-label', 'JLPT-Niveau');
+    host.appendChild(el('h2', skill === 'reading' ? tr('Schritt für Schritt lesen') : tr('Schritt für Schritt hören')));
+    host.appendChild(el('p', tr('{count} Einheiten auf Niveau {level}: von gezielter Orientierung bis zum selbstständigen Verstehen.', { count: group.length, level: v.level })));
+    var filters = el('div', null, 'level-filters comprehension-levels'); filters.setAttribute('aria-label', tr('JLPT-Niveau'));
     ['N5', 'N4', 'N3', 'N2', 'N1'].forEach(function (level) {
       var b = button(level, function () { v.level = level; v.scroll = 0; render(); saveView(); }); b.setAttribute('aria-pressed', String(level === v.level)); filters.appendChild(b);
     }); host.appendChild(filters);
     var list = el('ol', null, 'comprehension-list');
     group.forEach(function (u) {
       var li = el('li', null, 'comprehension-card');
-      li.appendChild(el('span', u.level + ' · ' + u.order + '/' + group.length + ' · ca. ' + u.minutes + ' Min.' + formatLabel(u), 'comprehension-meta'));
+      li.appendChild(el('span', u.level + ' · ' + u.order + '/' + group.length + ' · ' + tr('ca. {minutes} Min.', { minutes: u.minutes }) + formatLabel(u), 'comprehension-meta'));
       var b = button(u.title, function () { open(u.id); }); b.dataset.unit = u.id; li.appendChild(b);
       li.appendChild(el('p', u.objective));
       list.appendChild(li);
@@ -133,38 +136,38 @@
   }
   function renderUnit(u) {
     var p = attempt(u); persist();
-    host.appendChild(button('← Zurück zu ' + (active === 'reading' ? 'Lesen' : 'Hören'), back));
+    host.appendChild(button(tr('← Zurück zu {section}', { section: tr(active === 'reading' ? 'Lesen' : 'Hören') }), back));
     var article = el('article', null, 'comprehension-unit'); host.appendChild(article);
-    article.appendChild(el('p', u.level + ' · Einheit ' + u.order + ' · ca. ' + u.minutes + ' Min.' + formatLabel(u), 'comprehension-meta'));
-    article.appendChild(el('h2', u.title)); article.appendChild(el('p', 'Lernziel: ' + u.objective)); article.appendChild(el('p', u.introduction));
-    var aidStatus = el('p', p.assisted ? 'Dieser Versuch: mit Hilfe' : 'Dieser Versuch: ohne Hilfe', 'comprehension-meta'); aidStatus.setAttribute('role', 'status'); article.appendChild(aidStatus);
-    function markHint(key) { if (!p.submitted) { p.assisted = true; p.hints[key] = true; persist(); aidStatus.textContent = 'Dieser Versuch: mit Hilfe'; } }
+    article.appendChild(el('p', u.level + ' · ' + tr('Einheit {number}', { number: u.order }) + ' · ' + tr('ca. {minutes} Min.', { minutes: u.minutes }) + formatLabel(u), 'comprehension-meta'));
+    article.appendChild(el('h2', u.title)); article.appendChild(el('p', tr('Lernziel') + ': ' + u.objective)); article.appendChild(el('p', u.introduction));
+    var aidStatus = el('p', p.assisted ? tr('Dieser Versuch: mit Hilfe') : tr('Dieser Versuch: ohne Hilfe'), 'comprehension-meta'); aidStatus.setAttribute('role', 'status'); article.appendChild(aidStatus);
+    function markHint(key) { if (!p.submitted) { p.assisted = true; p.hints[key] = true; persist(); aidStatus.textContent = tr('Dieser Versuch: mit Hilfe'); } }
     var supports = el('div', null, 'comprehension-supports');
     var furigana = /^N[45]$/.test(u.level) || !!p.hints.furigana;
     article.classList.toggle('without-furigana', !furigana);
-    var rubyButton = button(/^N[45]$/.test(u.level) ? 'Furigana' : 'Furigana für Schlüsselwörter', function () { furigana = !furigana; article.classList.toggle('without-furigana', !furigana); rubyButton.setAttribute('aria-pressed', String(furigana)); if (furigana && !/^N[45]$/.test(u.level)) markHint('furigana'); });
+    var rubyButton = button(/^N[45]$/.test(u.level) ? 'Furigana' : tr('Furigana für Schlüsselwörter'), function () { furigana = !furigana; article.classList.toggle('without-furigana', !furigana); rubyButton.setAttribute('aria-pressed', String(furigana)); if (furigana && !/^N[45]$/.test(u.level)) markHint('furigana'); });
     rubyButton.setAttribute('aria-pressed', String(furigana)); supports.appendChild(rubyButton);
     function passages(target) {
-      if (links) target.appendChild(el('p', 'Tippe auf ein Wort, um es nachzuschlagen. Nachschlagen zählt als Hilfe.', 'comprehension-meta comprehension-lookup-tip'));
+      if (links) target.appendChild(el('p', tr('Tippe auf ein Wort, um es nachzuschlagen. Nachschlagen zählt als Hilfe.'), 'comprehension-meta comprehension-lookup-tip'));
       u.passages.forEach(function (block) { var row = el('div', null, 'comprehension-passage'); row.id = block.id; if (block.speaker || block.label) row.appendChild(el('span', block.label || block.speaker, 'comprehension-meta')); row.appendChild(japanese(block.text, block.id)); target.appendChild(row); });
     }
     if (links) lookups(article, function () { markHint('lookup'); });
     if (u.skill === 'listening') {
-      article.appendChild(el('p', 'Synthetisches japanisches Audio · ohne automatischen Start', 'comprehension-meta'));
-      var audio = document.createElement('audio'); audio.controls = true; audio.preload = 'none'; audio.src = u.audio.src + '?v=' + encodeURIComponent(u.audio.revision || '1'); audio.setAttribute('aria-label', u.title + ' anhören'); article.appendChild(audio);
+      article.appendChild(el('p', tr('Synthetisches japanisches Audio · ohne automatischen Start'), 'comprehension-meta'));
+      var audio = document.createElement('audio'); audio.controls = true; audio.preload = 'none'; audio.src = u.audio.src + '?v=' + encodeURIComponent(u.audio.revision || '1'); audio.setAttribute('aria-label', tr('{text} anhören', { text: u.title })); article.appendChild(audio);
       var controls = el('div', null, 'comprehension-supports');
       var err = el('div', null, 'route-message'); err.hidden = true; err.setAttribute('role', 'alert');
       function failed() { err.hidden = false; }
       function play() { var promise = audio.play(); if (promise) promise.catch(failed); }
-      controls.appendChild(button('Abspielen / Fortsetzen', play)); controls.appendChild(button('Pause', function () { audio.pause(); }));
-      controls.appendChild(button('Von vorn abspielen', function () { audio.currentTime = 0; play(); }));
-      var speedLabel = el('label', 'Tempo '), speed = document.createElement('select'); speed.setAttribute('aria-label', 'Wiedergabegeschwindigkeit');
+      controls.appendChild(button(tr('Abspielen / Fortsetzen'), play)); controls.appendChild(button(tr('Pause'), function () { audio.pause(); }));
+      controls.appendChild(button(tr('Von vorn abspielen'), function () { audio.currentTime = 0; play(); }));
+      var speedLabel = el('label', tr('Tempo') + ' '), speed = document.createElement('select'); speed.setAttribute('aria-label', tr('Wiedergabegeschwindigkeit'));
       [1, 0.8].forEach(function (rate) { var o = el('option', rate + '×'); o.value = rate; speed.appendChild(o); });
       speed.onchange = function () { audio.playbackRate = Number(speed.value); if (Number(speed.value) < 1) markHint('slow'); }; speedLabel.appendChild(speed); controls.appendChild(speedLabel);
       audio.addEventListener('ratechange', function () { if (audio.playbackRate < 1) markHint('slow'); }); audio.addEventListener('error', failed);
-      err.appendChild(el('p', 'Audio konnte nicht abgespielt werden.'));
-      err.appendChild(button('Audio erneut laden', function () { err.hidden = true; audio.load(); play(); })); article.append(controls, err);
-      hint('Transkript anzeigen', 'transcript', passages);
+      err.appendChild(el('p', tr('Audio konnte nicht abgespielt werden.')));
+      err.appendChild(button(tr('Audio erneut laden'), function () { err.hidden = true; audio.load(); play(); })); article.append(controls, err);
+      hint(tr('Transkript anzeigen'), 'transcript', passages);
     } else passages(article);
     article.appendChild(supports);
     function hint(label, key, fill) {
@@ -172,30 +175,31 @@
       var b = button(label, function () { content.hidden = !content.hidden; b.setAttribute('aria-expanded', String(!content.hidden)); if (!content.hidden) markHint(key); });
       b.setAttribute('aria-expanded', String(!content.hidden)); b.setAttribute('aria-controls', content.id); supports.appendChild(b); article.appendChild(content);
     }
-    hint('Deutsche Übersetzung', 'translation', function (target) { target.appendChild(el('p', u.translation)); });
-    hint('Wortschatzhilfe', 'glossary', function (target) { var dl = el('dl'); u.glossary.forEach(function (g) { dl.append(el('dt', g[0]), el('dd', g[1])); }); target.appendChild(dl); });
+    // The label names the language the translation is actually in.
+    hint(window.NIHONGO_I18N && window.NIHONGO_I18N.lang !== 'de' && !contentLocalized ? tr('Übersetzung (Deutsch)') : tr('Deutsche Übersetzung'), 'translation', function (target) { target.appendChild(el('p', u.translation)); });
+    hint(tr('Wortschatzhilfe'), 'glossary', function (target) { var dl = el('dl'); u.glossary.forEach(function (g) { dl.append(el('dt', g[0]), el('dd', g[1])); }); target.appendChild(dl); });
     var form = document.createElement('form'); article.appendChild(form);
     u.questions.forEach(function (q, qi) {
       var field = el('fieldset', null, 'comprehension-question'); field.appendChild(el('legend', (qi + 1) + '. ' + q.prompt));
       q.choices.forEach(function (c, ci) {
         var label = el('label', null, 'comprehension-choice'), input = document.createElement('input'); input.type = 'radio'; input.name = q.id; input.value = ci; input.required = true; input.checked = p.answers[q.id] === ci; input.disabled = p.submitted;
         input.onchange = function () { p.answers[q.id] = ci; persist(); }; label.append(input, el('span', c.text)); field.appendChild(label);
-        if (p.submitted) field.appendChild(el('p', (ci === q.answer ? 'Richtig: ' : 'Nicht richtig: ') + c.explanation + ' (Beleg: Abschnitt ' + (u.passages.findIndex(function (b) { return b.id === c.evidence; }) + 1) + '.)', 'comprehension-feedback'));
+        if (p.submitted) field.appendChild(el('p', (ci === q.answer ? tr('Richtig:') : tr('Nicht richtig:')) + ' ' + c.explanation + ' ' + tr('(Beleg: Abschnitt {number}.)', { number: u.passages.findIndex(function (b) { return b.id === c.evidence; }) + 1 }), 'comprehension-feedback'));
       });
       if (p.submitted) {
-        var evidence = u.passages.find(function (b) { return b.id === q.evidence; }); field.appendChild(el('p', 'Beleg – Abschnitt ' + (u.passages.indexOf(evidence) + 1) + ': „' + plain(evidence.text) + '“', 'comprehension-evidence'));
+        var evidence = u.passages.find(function (b) { return b.id === q.evidence; }); field.appendChild(el('p', tr('Beleg – Abschnitt {number}', { number: u.passages.indexOf(evidence) + 1 }) + ': „' + plain(evidence.text) + '“', 'comprehension-evidence'));
       } form.appendChild(field);
     });
-    if (!p.submitted) { var submit = el('button', 'Einheit auswerten', 'btn-gradient'); submit.type = 'submit'; form.appendChild(submit); }
+    if (!p.submitted) { var submit = el('button', tr('Einheit auswerten'), 'btn-gradient'); submit.type = 'submit'; form.appendChild(submit); }
     form.onsubmit = function (event) {
       event.preventDefault(); if (p.submitted || !u.questions.every(function (q) { return Number.isInteger(p.answers[q.id]); })) return;
       p.submitted = true; p.attempts.push({ score: u.questions.filter(function (q) { return p.answers[q.id] === q.answer; }).length, assisted: p.assisted, at: new Date().toISOString() }); persist(); render();
       var result = host.querySelector('.comprehension-result'); if (result) result.focus();
     };
     if (p.submitted) {
-      var last = p.attempts[p.attempts.length - 1]; var result = el('p', last.score + ' von ' + u.questions.length + ' richtig · ' + (last.assisted ? 'mit Hilfe' : 'ohne Hilfe'), 'comprehension-result'); result.tabIndex = -1; result.setAttribute('role', 'status'); article.appendChild(result);
-      article.appendChild(el('p', 'Lernhinweis: ' + u.note));
-      article.appendChild(button('Neuer Versuch', function () { progress[u.id] = { answers: {}, submitted: false, assisted: false, hints: {}, attempts: p.attempts }; persist(); render(); focusHeading(); }));
+      var last = p.attempts[p.attempts.length - 1]; var result = el('p', tr('{score} von {total} richtig', { score: last.score, total: u.questions.length }) + ' · ' + (last.assisted ? tr('mit Hilfe') : tr('ohne Hilfe')), 'comprehension-result'); result.tabIndex = -1; result.setAttribute('role', 'status'); article.appendChild(result);
+      article.appendChild(el('p', tr('Lernhinweis') + ': ' + u.note));
+      article.appendChild(button(tr('Neuer Versuch'), function () { progress[u.id] = { answers: {}, submitted: false, assisted: false, hints: {}, attempts: p.attempts }; persist(); render(); focusHeading(); }));
     }
   }
   // One lookup card per unit, shown below the paragraph of the selected word.
@@ -213,20 +217,20 @@
       close(false);
       var entry = links.entries[Number(token.dataset.entry)]; if (!entry) return;
       current = token; token.classList.add('active'); token.setAttribute('aria-expanded', 'true');
-      panel = el('div', null, 'vocab-lookup'); panel.id = 'vocab-lookup'; panel.setAttribute('role', 'region'); panel.setAttribute('aria-label', 'Wort nachschlagen');
+      panel = el('div', null, 'vocab-lookup'); panel.id = 'vocab-lookup'; panel.setAttribute('role', 'region'); panel.setAttribute('aria-label', tr('Wort nachschlagen'));
       token.setAttribute('aria-controls', panel.id);
       var head = el('div', null, 'vocab-lookup-head'), word = el('span', entry[1], 'vocab-lookup-word'); word.lang = 'ja'; head.appendChild(word);
       if (entry[2] && entry[2] !== entry[1]) { var reading = el('span', entry[2], 'vocab-lookup-reading'); reading.lang = 'ja'; head.appendChild(reading); }
       head.appendChild(el('span', entry[4], 'detail-jlpt-badge ' + entry[4]));
       var meaning = el('p', entry[3], 'vocab-lookup-meaning'); meaning.setAttribute('role', 'status');
       var actions = el('div', null, 'vocab-lookup-actions');
-      var openCard = button('Vokabelkarte öffnen →', function () {
-        openCard.disabled = true; openCard.textContent = 'Wird geöffnet …';
+      var openCard = button(tr('Vokabelkarte öffnen →'), function () {
+        openCard.disabled = true; openCard.textContent = tr('Wird geöffnet …');
         Promise.resolve(window.app.workspace.openRelated('vocab', function (item) { return item.id === entry[0]; })).finally(function () {
-          if (openCard.isConnected) { openCard.disabled = false; openCard.textContent = 'Vokabelkarte öffnen →'; }
+          if (openCard.isConnected) { openCard.disabled = false; openCard.textContent = tr('Vokabelkarte öffnen →'); }
         });
       });
-      var closeButton = button('×', function () { close(true); }); closeButton.className = 'vocab-lookup-close'; closeButton.setAttribute('aria-label', 'Nachschlagen schließen');
+      var closeButton = button('×', function () { close(true); }); closeButton.className = 'vocab-lookup-close'; closeButton.setAttribute('aria-label', tr('Nachschlagen schließen'));
       actions.append(openCard, closeButton); panel.append(head, meaning, actions);
       token.closest('.comprehension-passage').after(panel);
       onOpen();

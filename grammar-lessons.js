@@ -4,6 +4,11 @@
 (function () {
   'use strict';
 
+  // Interface strings (i18n.js); the audits run this file without the page.
+  var tr = window.tr || function (text, vars) {
+    return vars ? String(text).replace(/\{(\w+)\}/g, function (m, k) { return k in vars ? String(vars[k]) : m; }) : text;
+  };
+
   var LESSONS = [
     // ===================== LEKTION 1 =====================
     {
@@ -7628,6 +7633,25 @@
     ]
   });
 
+  // Lesson text in another language (en/grammar-lessons-text.js, built by scripts/build-english.cjs
+  // from the final German lessons above). It replaces whole lessons whose German was unchanged at
+  // build time; a lesson with a different section or example count keeps its German.
+  var lessonTranslations = window.GRAMMAR_LESSONS_TRANSLATION || null;
+  if (lessonTranslations) {
+    LESSONS.forEach(function (lesson) {
+      var t = lessonTranslations[lesson.id];
+      if (!t || !Array.isArray(t.sections) || t.sections.length !== lesson.sections.length) return;
+      var fits = t.sections.every(function (sec, i) { return (sec.examples || []).length === (lesson.sections[i].examples || []).length; });
+      if (!fits) return;
+      ['title', 'subtitle', 'intro'].forEach(function (key) { if (typeof t[key] === 'string') lesson[key] = t[key]; });
+      t.sections.forEach(function (sec, i) {
+        var target = lesson.sections[i];
+        ['heading', 'text', 'tip'].forEach(function (key) { if (typeof sec[key] === 'string') target[key] = sec[key]; });
+        (sec.examples || []).forEach(function (text, j) { if (typeof text === 'string') target.examples[j].de = text; });
+      });
+    });
+  }
+
   function resolveLessonReferencePlaceholders(text, numberById) {
     if (!text || typeof text !== 'string') return text;
     return text.replace(/\[\[lesson:(lesson-\d+)\]\]/g, function (_, lessonId) {
@@ -7690,7 +7714,7 @@
   function renderLessonContent(lesson) {
     var html = '<div class="gl-intro">' + lesson.intro + '</div>';
     if (lesson.grammarIds && lesson.grammarIds.length) {
-      html += '<div class="gl-section"><h4 class="gl-section-heading">Muster nachschlagen</h4>';
+      html += '<div class="gl-section"><h4 class="gl-section-heading">' + tr('Muster nachschlagen') + '</h4>';
       lesson.grammarIds.forEach(function (id) {
         var pattern = (window.GRAMMAR_DATA || []).find(function (g) { return g.id === id; });
         if (pattern) html += '<button type="button" class="btn btn-pill" data-grammar-reference="' + id + '">' + pattern.pattern + '</button> ';
@@ -7742,9 +7766,9 @@
     api.count = visible.length;
     index.querySelectorAll('[data-lesson]').forEach(function (card) { card.classList.toggle('hidden', !visible.some(function (lesson) { return lesson.id === card.dataset.lesson; })); });
     document.getElementById('gl-no-results').classList.toggle('hidden', !!visible.length);
-    document.getElementById('gl-count').textContent = visible.length + ' Lektionen';
+    document.getElementById('gl-count').textContent = tr('{count} Lektionen', { count: visible.length });
     controls.querySelectorAll('.gl-level').forEach(function (btn) { var active = btn.dataset.gllevel === level; btn.classList.toggle('active', active); btn.setAttribute('aria-pressed', String(active)); });
-    controls.querySelector('.lesson-filter-summary').textContent = (query ? '„' + query + '“ · ' : '') + (level === 'all' ? 'Alle Level' : level);
+    controls.querySelector('.lesson-filter-summary').textContent = (query ? tr('„{query}“', { query: query }) + ' · ' : '') + (level === 'all' ? tr('Alle Level') : level);
     if (api.view === 'lessons') window.app.updateCount();
     persist();
   }
@@ -7762,17 +7786,17 @@
   }
   function openLesson(id, silent) {
     var lesson = LESSONS.find(function (entry) { return entry.id === id; });
-    if (!lesson) { showIndex(true); window.app.workspace.message('Diese Lektion wurde nicht gefunden. Wähle eine Lektion aus der Übersicht.'); return; }
+    if (!lesson) { showIndex(true); window.app.workspace.message(tr('Diese Lektion wurde nicht gefunden. Wähle eine Lektion aus der Übersicht.')); return; }
     if (!silent) { persist(); if (api.selected) readingScroll[api.selected] = window.scrollY; else indexScroll = window.scrollY; }
     api.selected = id;
     index.classList.add('hidden'); reader.classList.remove('hidden'); reader.innerHTML = '';
     var header = document.createElement('header');
-    header.appendChild(button('← Alle Lektionen', function () { showIndex(); }));
+    header.appendChild(button(tr('← Alle Lektionen'), function () { showIndex(); }));
     var heading = document.createElement('h2'); heading.id = 'lesson-title'; heading.tabIndex = -1; heading.textContent = lesson.title; header.appendChild(heading);
     var sub = document.createElement('p'); sub.className = 'lesson-subtitle'; sub.textContent = lesson.level + ' · ' + lesson.subtitle; header.appendChild(sub); reader.appendChild(header);
     var body = document.createElement('div'); body.className = 'gl-card-body'; body.innerHTML = renderLessonContent(lesson); reader.appendChild(body);
     body.querySelectorAll('table').forEach(function (table) {
-      var region = document.createElement('div'); region.className = 'lesson-table-region'; region.tabIndex = 0; region.setAttribute('role', 'region'); region.setAttribute('aria-label', 'Lektionstabelle, horizontal scrollbar'); table.before(region); region.appendChild(table);
+      var region = document.createElement('div'); region.className = 'lesson-table-region'; region.tabIndex = 0; region.setAttribute('role', 'region'); region.setAttribute('aria-label', tr('Lektionstabelle, horizontal scrollbar')); table.before(region); region.appendChild(table);
     });
     body.addEventListener('click', function (event) {
       var ref = event.target.closest('[data-grammar-reference]');
@@ -7782,8 +7806,8 @@
     });
     var nav = document.createElement('div'); nav.className = 'lesson-reader-nav';
     var pos = visible.indexOf(lesson);
-    var prev = button('← Vorherige Lektion', function () { openLesson(visible[pos - 1].id); }); prev.disabled = pos <= 0;
-    var next = button('Nächste Lektion →', function () { openLesson(visible[pos + 1].id); }); next.disabled = pos < 0 || pos >= visible.length - 1;
+    var prev = button(tr('← Vorherige Lektion'), function () { openLesson(visible[pos - 1].id); }); prev.disabled = pos <= 0;
+    var next = button(tr('Nächste Lektion →'), function () { openLesson(visible[pos + 1].id); }); next.disabled = pos < 0 || pos >= visible.length - 1;
     nav.appendChild(prev); nav.appendChild(next); reader.appendChild(nav);
     if (!silent) { commit(); heading.focus({ preventScroll: true }); window.scrollTo(0, readingScroll[id] || 0); }
   }
@@ -7805,9 +7829,9 @@
     var host = document.getElementById('grammar-tab');
     document.querySelector('#grammar-controls .search-bar').classList.add('grammar-ref-search');
     controls = document.createElement('div'); controls.id = 'gl-controls'; controls.className = 'hidden';
-    controls.innerHTML = '<label class="field-label" for="gl-search">Lektionen durchsuchen</label><div class="search-bar"><input id="gl-search" placeholder="Thema, Grammatik oder Erklärung" autocomplete="off"><button id="gl-clear-search" class="btn-clear" aria-label="Suche löschen">×</button></div><div class="filters"><div class="filter-field"><span id="gl-level-label" class="filter-group-label">JLPT</span><div class="level-filters" role="group" aria-labelledby="gl-level-label"></div></div><span id="gl-count" class="gl-count" role="status"></span></div><div class="filter-summary"><span class="lesson-filter-summary"></span><button id="gl-reset">Filter zurücksetzen</button></div>';
+    controls.innerHTML = '<label class="field-label" for="gl-search">' + tr('Lektionen durchsuchen') + '</label><div class="search-bar"><input id="gl-search" placeholder="' + tr('Thema, Grammatik oder Erklärung') + '" autocomplete="off"><button id="gl-clear-search" class="btn-clear" aria-label="' + tr('Suche löschen') + '">×</button></div><div class="filters"><div class="filter-field"><span id="gl-level-label" class="filter-group-label">JLPT</span><div class="level-filters" role="group" aria-labelledby="gl-level-label"></div></div><span id="gl-count" class="gl-count" role="status"></span></div><div class="filter-summary"><span class="lesson-filter-summary"></span><button id="gl-reset">' + tr('Filter zurücksetzen') + '</button></div>';
     ['all', 'N5', 'N4', 'N3', 'N2', 'N1'].forEach(function (value) {
-      var btn = button(value === 'all' ? 'Alle' : value, function () { level = value; filter(); }, 'filter-btn gl-level'); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
+      var btn = button(value === 'all' ? tr('Alle') : value, function () { level = value; filter(); }, 'filter-btn gl-level'); btn.dataset.gllevel = value; controls.querySelector('.level-filters').appendChild(btn);
     });
     document.getElementById('grammar-controls').appendChild(controls);
     var search = controls.querySelector('input');
@@ -7821,7 +7845,7 @@
       header.innerHTML = '<span class="gl-card-number">' + lesson.number + '</span><span class="gl-card-titles"><span class="gl-card-title">' + lesson.title + '</span><span class="gl-card-subtitle">' + lesson.subtitle + '</span></span><span class="gl-card-level card-level ' + lesson.level.split('/')[0] + '">' + lesson.level + '</span><span class="gl-card-chevron">→</span>';
       card.appendChild(header); index.appendChild(card);
     });
-    var empty = document.createElement('div'); empty.id = 'gl-no-results'; empty.className = 'no-results hidden'; empty.setAttribute('role', 'status'); empty.textContent = 'Keine Lektionen gefunden. Setze die Filter zurück oder ändere die Suche.'; index.appendChild(empty);
+    var empty = document.createElement('div'); empty.id = 'gl-no-results'; empty.className = 'no-results hidden'; empty.setAttribute('role', 'status'); empty.textContent = tr('Keine Lektionen gefunden. Setze die Filter zurück oder ändere die Suche.'); index.appendChild(empty);
     reader = document.createElement('article'); reader.id = 'lesson-reader'; reader.className = 'lesson-reader hidden'; reader.setAttribute('aria-labelledby', 'lesson-title');
     host.prepend(reader); host.prepend(index);
     document.querySelectorAll('#grammar-view-toggle button').forEach(function (btn) { btn.addEventListener('click', function () { setView(btn.dataset.view); }); });

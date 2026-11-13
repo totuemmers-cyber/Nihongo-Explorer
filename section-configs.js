@@ -213,7 +213,7 @@ function updateBookmarkButton(btn, starred) {
   btn.textContent = starred ? '★' : '☆';
   btn.classList.toggle('active', starred);
   btn.setAttribute('aria-pressed', String(starred));
-  btn.setAttribute('aria-label', starred ? 'Lesezeichen entfernen' : 'Lesezeichen setzen');
+  btn.setAttribute('aria-label', starred ? tr('Lesezeichen entfernen') : tr('Lesezeichen setzen'));
   btn.title = btn.getAttribute('aria-label');
 }
 document.addEventListener('bookmarkchange', function (event) {
@@ -251,8 +251,8 @@ function createSpeakButton(headerSelector, config) {
   var speechText = resolveSpeakText(config);
   var speakBtn = document.createElement('button');
   speakBtn.className = 'btn btn-icon btn-speak';
-  speakBtn.title = 'Aussprache';
-  speakBtn.setAttribute('aria-label', 'Aussprache anhören');
+  speakBtn.title = tr('Aussprache');
+  speakBtn.setAttribute('aria-label', tr('Aussprache anhören'));
   speakBtn.innerHTML = getSpeakSvgHtml(18);
   speakBtn.addEventListener('click', function () {
     if (window.app) window.app.speakJP(speechText);
@@ -388,7 +388,7 @@ function initBookmarkToggles() {
     btn.addEventListener('click', function () {
       var isActive = btn.getAttribute('data-bm') === 'starred';
       btn.setAttribute('data-bm', isActive ? 'all' : 'starred');
-      btn.textContent = 'Nur Lesezeichen';
+      btn.textContent = tr('Nur Lesezeichen');
       btn.setAttribute('aria-pressed', String(!isActive));
       btn.classList.toggle('active', !isActive);
       // Find which section this belongs to and update
@@ -430,7 +430,7 @@ function populateManagedSelect(select, values, allLabel) {
   for (var i = 0; i < values.length; i++) {
     var option = document.createElement('option');
     option.value = values[i];
-    option.textContent = values[i];
+    option.textContent = tr(values[i]);
     select.appendChild(option);
   }
 
@@ -440,7 +440,7 @@ function populateManagedSelect(select, values, allLabel) {
 function initSelectFilters() {
   var constants = getAppConstants();
   var vocabTypeSelect = document.getElementById('vocab-type-select');
-  populateManagedSelect(vocabTypeSelect, constants.VOCAB_TYPES, 'Alle Wortarten');
+  populateManagedSelect(vocabTypeSelect, constants.VOCAB_TYPES, tr('Alle Wortarten'));
   if (vocabTypeSelect) {
     vocabTypeSelect.addEventListener('change', function () {
       if (window.app && window.app.sections.vocab) {
@@ -459,7 +459,7 @@ function initSelectFilters() {
     });
   }
   var counterCatSelect = document.getElementById('counter-cat-select');
-  populateManagedSelect(counterCatSelect, constants.COUNTER_CATEGORIES, 'Alle Kategorien');
+  populateManagedSelect(counterCatSelect, constants.COUNTER_CATEGORIES, tr('Alle Kategorien'));
   if (counterCatSelect) {
     counterCatSelect.addEventListener('change', function () {
       if (window.app && window.app.sections.counters) {
@@ -528,14 +528,14 @@ function renderExamplesOrEmpty(elementId, examples) {
       var ex = examples[i];
       var item = appendElement(el, 'div', 'grammar-example-item');
       if (ex.kind === 'teaching' || ex.kind === 'natural') {
-        appendElement(item, 'div', 'grammar-example-kind', ex.kind === 'teaching' ? 'Lernbeispiel' : 'Natürlicher Gebrauch');
+        appendElement(item, 'div', 'grammar-example-kind', ex.kind === 'teaching' ? tr('Lernbeispiel') : tr('Natürlicher Gebrauch'));
       }
       appendJapaneseExample(item, 'grammar-example-jp', ex.japanese, ex.furigana);
       appendElement(item, 'div', 'grammar-example-romaji', ex.romaji);
       appendElement(item, 'div', 'grammar-example-german', ex.german);
     }
   } else {
-    appendElement(el, 'div', 'no-reading', 'Keine Beispiele');
+    appendElement(el, 'div', 'no-reading', tr('Keine Beispiele'));
   }
 }
 
@@ -577,13 +577,13 @@ function renderRadicalExamples(radical, section) {
     if (linked) {
       tag.type = 'button';
       tag.setAttribute('data-kanji', character);
-      tag.setAttribute('aria-label', character + ', ' + detail.reading + ', ' + detail.meaning + ': Kanji öffnen');
+      tag.setAttribute('aria-label', character + ', ' + detail.reading + ', ' + detail.meaning + tr(': Kanji öffnen'));
     }
     appendElement(tag, 'span', 'comp-radical', character);
     var text = appendElement(tag, 'span', 'radical-example-text');
     appendElement(text, 'span', 'radical-example-reading', detail.reading);
     appendElement(text, 'span', 'comp-meaning', detail.meaning);
-    appendElement(text, 'span', 'radical-example-relation', detail.relation === 'primary' ? 'Hauptradikal' : 'Bestandteil');
+    appendElement(text, 'span', 'radical-example-relation', detail.relation === 'primary' ? tr('Hauptradikal') : tr('Bestandteil'));
   });
   attachKanjiNavigation(container, section);
 }
@@ -632,17 +632,17 @@ function renderKanjiVocabulary(k, section) {
   var heading = document.getElementById('detail-vocab-heading');
   var vocab = window.app && window.app.sections.vocab;
   list.textContent = '';
-  heading.textContent = 'Wörter mit diesem Kanji';
+  heading.textContent = tr('Wörter mit diesem Kanji');
   if (!vocab) { wrapper.classList.add('hidden'); return; }
   wrapper.classList.remove('hidden');
   if (!vocab.isLoaded) {
-    list.textContent = 'Wörter werden geladen …';
+    list.textContent = tr('Wörter werden geladen …');
     window.app.ensureSectionLoaded('vocab').then(function () {
       var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
       if (section.isOverlayOpen() && current && current.kanji === k.kanji) renderKanjiVocabulary(k, section);
     }).catch(function () {
-      list.textContent = 'Wörter konnten nicht geladen werden. ';
-      var retry = appendElement(list, 'button', '', 'Erneut versuchen');
+      list.textContent = tr('Wörter konnten nicht geladen werden.') + ' ';
+      var retry = appendElement(list, 'button', '', tr('Erneut versuchen'));
       retry.type = 'button';
       retry.onclick = function () { renderKanjiVocabulary(k, section); };
     });
@@ -659,18 +659,18 @@ function renderKanjiVocabulary(k, section) {
     link.type = 'button';
     link.className = 'example-item example-link';
     link.innerHTML = row.innerHTML;
-    link.setAttribute('aria-label', example.word + ', ' + example.reading + ', ' + example.meaning + ': Vokabelkarte öffnen');
+    link.setAttribute('aria-label', example.word + ', ' + example.reading + ', ' + example.meaning + tr(': Vokabelkarte öffnen'));
     link.addEventListener('click', function () { openVocabularyCard(item.id); });
     row.replaceWith(link);
   });
   var rest = words.filter(function (v) { return !linked[v.id]; });
   if (!rest.length) { wrapper.classList.add('hidden'); return; }
-  heading.textContent = 'Weitere Wörter mit ' + k.kanji + ' (' + rest.length + ')';
+  heading.textContent = tr('Weitere Wörter mit {kanji} ({count})', { kanji: k.kanji, count: rest.length });
   function add(v) {
     var meaning = String(v.meaning || '').split(';')[0];
     var tag = appendElement(list, 'button', 'radical-example kanji-vocab-link');
     tag.type = 'button';
-    tag.setAttribute('aria-label', v.word + ', ' + (v.reading || '') + ', ' + meaning + ', ' + v.level + ': Vokabelkarte öffnen');
+    tag.setAttribute('aria-label', v.word + ', ' + (v.reading || '') + ', ' + meaning + ', ' + v.level + tr(': Vokabelkarte öffnen'));
     var word = appendElement(tag, 'span', 'kanji-vocab-word', v.word);
     word.lang = 'ja';
     var text = appendElement(tag, 'span', 'radical-example-text');
@@ -683,7 +683,7 @@ function renderKanjiVocabulary(k, section) {
   }
   rest.slice(0, KANJI_VOCAB_PREVIEW).forEach(add);
   if (rest.length > KANJI_VOCAB_PREVIEW) {
-    var more = appendElement(list, 'button', 'btn btn-pill', 'Alle ' + rest.length + ' Wörter anzeigen');
+    var more = appendElement(list, 'button', 'btn btn-pill', tr('Alle {count} Wörter anzeigen', { count: rest.length }));
     more.type = 'button';
     more.addEventListener('click', function () {
       more.remove();
@@ -725,7 +725,7 @@ SECTION_CONFIGS.kanji = {
       defaultValue: 'all'
     }
   ],
-  countLabel: ' Kanji',
+  countLabel: '{count} Kanji',
   defaultSort: 'jlpt',
   batchSize: 80,
   searchPageSize: 24,
@@ -791,7 +791,7 @@ SECTION_CONFIGS.kanji = {
         return a.strokes - b.strokes;
       }
       if (sortKey === 'alpha') {
-        return a.meanings[0].toLowerCase().localeCompare(b.meanings[0].toLowerCase(), 'de');
+        return a.meanings[0].toLowerCase().localeCompare(b.meanings[0].toLowerCase(), window.NIHONGO_I18N.locale);
       }
       return 0;
     });
@@ -813,7 +813,7 @@ SECTION_CONFIGS.kanji = {
     createDetailBookmark('.detail-kanji-display', 'kanji', k.kanji);
 
     document.getElementById('detail-meanings').textContent = k.meanings.join(', ');
-    document.getElementById('detail-strokes').textContent = k.strokes + ' Striche';
+    document.getElementById('detail-strokes').textContent = tr('{count} Striche', { count: k.strokes });
 
     // Speak button SVG (reused for readings)
     var speakSvg = getSpeakSvgHtml(14);
@@ -823,7 +823,7 @@ SECTION_CONFIGS.kanji = {
         return '<div class="reading-item ' + cls + '">' +
           '<div class="reading-text"><span class="kana">' + r.kana +
           '</span><span class="romaji">' + r.romaji + '</span></div>' +
-          '<button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" data-kana="' + r.kana + '">' + speakSvg + '</button></div>';
+          '<button class="btn btn-icon btn-speak btn-speak-sm" title="' + tr('Aussprache') + '" data-kana="' + r.kana + '">' + speakSvg + '</button></div>';
       }).join('');
       container.querySelectorAll('.btn-speak').forEach(function (btn) {
         btn.addEventListener('click', function () {
@@ -837,7 +837,7 @@ SECTION_CONFIGS.kanji = {
     if (k.kun && k.kun.length > 0) {
       buildReadingItems(detailKun, k.kun, 'kun');
     } else {
-      detailKun.innerHTML = '<div class="no-reading">Keine Kun-Lesung</div>';
+      detailKun.innerHTML = '<div class="no-reading">' + tr('Keine Kun-Lesung') + '</div>';
     }
 
     // On readings
@@ -845,7 +845,7 @@ SECTION_CONFIGS.kanji = {
     if (k.on && k.on.length > 0) {
       buildReadingItems(detailOn, k.on, 'on');
     } else {
-      detailOn.innerHTML = '<div class="no-reading">Keine On-Lesung</div>';
+      detailOn.innerHTML = '<div class="no-reading">' + tr('Keine On-Lesung') + '</div>';
     }
 
     // Components / Radicals
@@ -865,7 +865,7 @@ SECTION_CONFIGS.kanji = {
         var primaryButton = document.createElement('button');
         primaryButton.type = 'button';
         primaryButton.className = 'btn btn-pill';
-        primaryButton.textContent = 'Hauptradikal: ' + primaryRadical.radical + ' · ' + primaryRadical.meaning;
+        primaryButton.textContent = tr('Hauptradikal') + ': ' + primaryRadical.radical + ' · ' + primaryRadical.meaning;
         primaryButton.addEventListener('click', function () {
           if (window.app) window.app.openRadicalInTab(primaryRadical.radical);
         });
@@ -886,7 +886,7 @@ SECTION_CONFIGS.kanji = {
         });
       });
     } else {
-      detailComponents.innerHTML = '<div class="no-reading">Keine Komponenten</div>';
+      detailComponents.innerHTML = '<div class="no-reading">' + tr('Keine Komponenten') + '</div>';
     }
 
     // Examples
@@ -899,7 +899,7 @@ SECTION_CONFIGS.kanji = {
           '<div class="example-meaning">' + ex.meaning + '</div></div>';
       }).join('');
     } else {
-      detailExamples.innerHTML = '<div class="no-reading">Keine Beispiele</div>';
+      detailExamples.innerHTML = '<div class="no-reading">' + tr('Keine Beispiele') + '</div>';
     }
     renderKanjiVocabulary(k, section);
 
@@ -933,7 +933,7 @@ SECTION_CONFIGS.kanji = {
 
         var replayBtn = document.createElement('button');
         replayBtn.className = 'btn btn-pill stroke-order-replay';
-        replayBtn.textContent = 'Nochmal abspielen';
+        replayBtn.textContent = tr('Nochmal abspielen');
         replayBtn.addEventListener('click', function () {
           if (window.app) window.app.playTick();
           obj.data = 'stroke-order/' + codepoint + '.svg';
@@ -983,7 +983,7 @@ SECTION_CONFIGS.grammar = {
       defaultValue: 'all'
     }
   ],
-  countLabel: ' Grammatik',
+  countLabel: '{count} Grammatik',
   defaultSort: 'category',
   batchSize: 0,
 
@@ -1039,7 +1039,7 @@ SECTION_CONFIGS.grammar = {
       appendElement(header, 'span', 'grammar-card-pattern', g.pattern);
       var badges = appendElement(header, 'div', 'grammar-card-badges');
       appendElement(badges, 'span', 'card-level ' + g.level, g.level);
-      appendElement(badges, 'span', 'grammar-card-category ' + g.category, g.category);
+      appendElement(badges, 'span', 'grammar-card-category ' + g.category, tr(g.category));
       appendElement(root, 'div', 'grammar-card-meaning', g.meaning);
       if (exampleText) appendElement(root, 'div', 'grammar-card-example', exampleText);
     }, index, section, g.id);
@@ -1052,7 +1052,7 @@ SECTION_CONFIGS.grammar = {
     levelBadge.textContent = g.level;
     levelBadge.className = 'detail-jlpt-badge ' + g.level;
     var catBadge = document.getElementById('grammar-detail-category');
-    catBadge.textContent = g.category;
+    catBadge.textContent = tr(g.category);
     catBadge.className = 'grammar-category-badge ' + g.category;
     document.getElementById('grammar-detail-meaning').textContent = g.meaning;
     document.getElementById('grammar-detail-formation').textContent = g.formation;
@@ -1105,10 +1105,10 @@ function renderVocabLevelSource(v) {
   el.textContent = '';
   el.classList.toggle('estimated', isEstimatedVocabLevel(v));
   if (isEstimatedVocabLevel(v)) {
-    el.textContent = 'Level ' + v.level + ' geschätzt – keine Quelle bestätigt es.';
+    el.textContent = tr('Level {level} geschätzt – keine Quelle bestätigt es.', { level: v.level });
     return;
   }
-  el.textContent = 'Level-Quelle: ' + (v.levelNote || VOCAB_LEVEL_BASIS_LABELS[v.levelBasis] || '');
+  el.textContent = tr('Level-Quelle') + ': ' + (v.levelNote || tr(VOCAB_LEVEL_BASIS_LABELS[v.levelBasis] || ''));
 }
 
 // ==========================================
@@ -1154,7 +1154,7 @@ SECTION_CONFIGS.vocab = {
       defaultValue: 'all'
     }
   ],
-  countLabel: ' Vokabeln',
+  countLabel: '{count} Vokabeln',
   defaultSort: 'level',
   batchSize: 100,
   searchPageSize: 32,
@@ -1177,7 +1177,7 @@ SECTION_CONFIGS.vocab = {
     var readingRank = getTextMatchRank(v.reading, query);
     var romajiRank = getRomajiMatchRank(v.romaji, query);
     var meaningRank = getTextMatchRank(v.meaning, query);
-    var categoryRank = getTextMatchRank(v.category, query);
+    var categoryRank = getTextMatchRank(tr(v.category || ''), query);
 
     if (wordRank === null && readingRank === null && romajiRank === null && meaningRank === null && categoryRank === null) {
       return null;
@@ -1230,12 +1230,12 @@ SECTION_CONFIGS.vocab = {
         return a.word.localeCompare(b.word, 'ja');
       }
       if (sortKey === 'category') {
-        var ca = (a.category || '').localeCompare(b.category || '', 'de');
+        var ca = tr(a.category || '').localeCompare(tr(b.category || ''), window.NIHONGO_I18N.locale);
         if (ca !== 0) return ca;
         return a.word.localeCompare(b.word, 'ja');
       }
       if (sortKey === 'alpha') {
-        return a.meaning.localeCompare(b.meaning, 'de');
+        return a.meaning.localeCompare(b.meaning, window.NIHONGO_I18N.locale);
       }
       return 0;
     });
@@ -1247,8 +1247,8 @@ SECTION_CONFIGS.vocab = {
       appendElement(header, 'span', 'vocab-card-word', v.word);
       var badges = appendElement(header, 'div', 'vocab-card-badges');
       var level = appendElement(badges, 'span', 'card-level ' + v.level + (isEstimatedVocabLevel(v) ? ' estimated' : ''), v.level);
-      if (isEstimatedVocabLevel(v)) level.title = 'Geschätztes Level';
-      appendElement(badges, 'span', 'vocab-type-badge ' + v.type, v.type);
+      if (isEstimatedVocabLevel(v)) level.title = tr('Geschätztes Level');
+      appendElement(badges, 'span', 'vocab-type-badge ' + v.type, tr(v.type));
 
       var reading = appendElement(root, 'div', 'vocab-card-reading', v.reading || '');
       if (getVocabularyPitchConfidence(v).verified) {
@@ -1264,10 +1264,10 @@ SECTION_CONFIGS.vocab = {
     var levelBadge = document.getElementById('vocab-detail-level');
     levelBadge.textContent = v.level;
     levelBadge.className = 'detail-jlpt-badge ' + v.level + (isEstimatedVocabLevel(v) ? ' estimated' : '');
-    levelBadge.title = isEstimatedVocabLevel(v) ? 'Geschätztes Level' : '';
+    levelBadge.title = isEstimatedVocabLevel(v) ? tr('Geschätztes Level') : '';
     renderVocabLevelSource(v);
     var typeBadge = document.getElementById('vocab-detail-type');
-    typeBadge.textContent = v.type;
+    typeBadge.textContent = tr(v.type);
     typeBadge.className = 'vocab-type-badge ' + v.type;
 
     // Speak button
@@ -1282,10 +1282,10 @@ SECTION_CONFIGS.vocab = {
       if (pitchConfidence.verified) {
         pitchEl.innerHTML = renderPitchSVG(v.reading || '', v.pitch);
       } else {
-        appendElement(pitchEl, 'div', 'pitch-unverified', 'Tonhöhenakzent nicht verifiziert.');
+        appendElement(pitchEl, 'div', 'pitch-unverified', tr('Tonhöhenakzent nicht verifiziert.'));
       }
       pitchConfidence.alternatives.forEach(function (pattern) {
-        appendElement(pitchEl, 'div', 'pitch-alternative', 'Auch belegt:');
+        appendElement(pitchEl, 'div', 'pitch-alternative', tr('Auch belegt:'));
         pitchEl.insertAdjacentHTML('beforeend', renderPitchSVG(v.reading || '', pattern));
       });
       pitchEl.classList.remove('hidden');
@@ -1296,12 +1296,12 @@ SECTION_CONFIGS.vocab = {
     document.getElementById('vocab-detail-romaji').textContent = v.romaji || '';
     document.getElementById('vocab-detail-meaning').textContent = v.meaning;
     document.getElementById('vocab-detail-category-line').textContent =
-      'Kategorie: ' + (v.category || '\u2014');
+      tr('Kategorie') + ': ' + (tr(v.category || '') || '\u2014');
 
     // Examples and notes arrive in the background after the list (vocab-runtime-details.js).
     if (window.app && window.app.ensureVocabDetailsLoaded && !window.app.vocabDetailsLoaded) {
       var examplesEl = document.getElementById('vocab-detail-examples');
-      examplesEl.textContent = 'Beispiele werden geladen...';
+      examplesEl.textContent = tr('Beispiele werden geladen...');
       toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', '');
       window.app.ensureVocabDetailsLoaded().then(function () {
         if (!section.isOverlayOpen()) return;
@@ -1311,8 +1311,8 @@ SECTION_CONFIGS.vocab = {
         toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', current.notes);
         renderVocabLevelSource(current);
       }).catch(function () {
-        examplesEl.textContent = 'Beispiele konnten nicht geladen werden. ';
-        var retry = appendElement(examplesEl, 'button', '', 'Erneut versuchen');
+        examplesEl.textContent = tr('Beispiele konnten nicht geladen werden.') + ' ';
+        var retry = appendElement(examplesEl, 'button', '', tr('Erneut versuchen'));
         retry.onclick = function () { section.config.openDetail(v, dom, section); window.app.workspace.accessibleContent(dom.overlay); };
       });
     } else {
@@ -1340,7 +1340,7 @@ SECTION_CONFIGS.vocab = {
       kanjiSection.classList.remove('hidden');
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
       kanjiSection.classList.remove('hidden');
-      kanjiLinksEl.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji-Links werden geladen...</span>';
+      kanjiLinksEl.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">' + tr('Kanji-Links werden geladen...') + '</span>';
       window.app.ensureSectionLoaded('kanji').then(function () {
         if (!section.isOverlayOpen()) return;
         var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
@@ -1351,8 +1351,8 @@ SECTION_CONFIGS.vocab = {
         attachKanjiNavigation(kanjiLinksEl, section);
         kanjiSection.classList.toggle('hidden', !chars.length);
       }).catch(function () {
-        kanjiLinksEl.textContent = 'Kanji-Verweise konnten nicht geladen werden. ';
-        var retry = appendElement(kanjiLinksEl, 'button', '', 'Erneut versuchen');
+        kanjiLinksEl.textContent = tr('Kanji-Verweise konnten nicht geladen werden.') + ' ';
+        var retry = appendElement(kanjiLinksEl, 'button', '', tr('Erneut versuchen'));
         retry.onclick = function () { section.config.openDetail(v, dom, section); window.app.workspace.accessibleContent(dom.overlay); };
       });
     } else {
@@ -1408,16 +1408,16 @@ SECTION_CONFIGS.vocab = {
                 var f = forms[keys[i]];
                 if (!f) continue;
                 html += '<tr data-conjugation-form="' + keys[i] + '">' +
-                  '<td class="conj-label">' + f.label + '</td>' +
+                  '<td class="conj-label">' + tr(f.label) + '</td>' +
                   '<td class="conj-form">' + [f.japanese].concat(f.acceptedVariants || []).join(' / ') + '</td>' +
-                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="Aussprache" aria-label="Aussprache anhören" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
+                  '<td class="conj-speak"><button class="btn btn-icon btn-speak btn-speak-sm" title="' + tr('Aussprache') + '" aria-label="' + tr('Aussprache anhören') + '" data-text="' + f.japanese + '">' + speakSvg + '</button></td>' +
                 '</tr>';
               }
               html += '</tbody></table></div>';
               return html;
             }
 
-            conjContainer.innerHTML = buildConjGroup('Grundformen', basicKeys) + buildConjGroup('Erweiterte Formen', advancedKeys);
+            conjContainer.innerHTML = buildConjGroup(tr('Grundformen'), basicKeys) + buildConjGroup(tr('Erweiterte Formen'), advancedKeys);
 
             // Wire up speak buttons
             conjContainer.querySelectorAll('.btn-speak').forEach(function (btn) {
@@ -1473,7 +1473,7 @@ SECTION_CONFIGS.counters = {
       defaultValue: 'all'
     }
   ],
-  countLabel: ' Z\u00e4hlw\u00f6rter',
+  countLabel: '{count} Zählwörter',
   defaultSort: null,
   batchSize: 0,
 
@@ -1519,7 +1519,7 @@ SECTION_CONFIGS.counters = {
     return createBaseCard('counter-card', function (root) {
       var header = appendElement(root, 'div', 'counter-card-header');
       appendElement(header, 'span', 'counter-card-kanji', c.kanji);
-      appendElement(header, 'span', 'counter-card-badge ' + c.category, c.category);
+      appendElement(header, 'span', 'counter-card-badge ' + c.category, tr(c.category));
       appendElement(root, 'div', 'counter-card-reading', c.reading + ' (' + c.romaji + ')');
       appendElement(root, 'div', 'counter-card-meaning', c.meaning);
 
@@ -1537,7 +1537,7 @@ SECTION_CONFIGS.counters = {
   openDetail: function (c, dom, section) {
     document.getElementById('counter-detail-kanji').textContent = c.kanji;
     var catBadge = document.getElementById('counter-detail-cat');
-    catBadge.textContent = c.category;
+    catBadge.textContent = tr(c.category);
     catBadge.className = 'counter-category-badge ' + c.category;
 
     document.getElementById('counter-detail-reading').textContent = c.reading + ' (' + c.romaji + ')';
@@ -1559,7 +1559,7 @@ SECTION_CONFIGS.counters = {
     var tableEl = document.getElementById('counter-detail-table');
     if (c.counts && c.counts.length > 0) {
       var tableHtml = '<table class="counter-table">' +
-        '<thead><tr><th>#</th><th>Kanji</th><th>Lesung</th><th>Romaji</th></tr></thead><tbody>';
+        '<thead><tr><th>#</th><th>Kanji</th><th>' + tr('Lesung') + '</th><th>Romaji</th></tr></thead><tbody>';
       c.counts.forEach(function (ct) {
         var rowClass = ct.shift ? ' class="shift-row"' : '';
         var readingHtml = ct.shift
@@ -1630,7 +1630,7 @@ SECTION_CONFIGS.radicals = {
       defaultValue: 'all'
     }
   ],
-  countLabel: ' Radikale',
+  countLabel: '{count} Radikale',
   defaultSort: null,
   batchSize: 0,
 
@@ -1669,11 +1669,11 @@ SECTION_CONFIGS.radicals = {
 
   openDetail: function (r, dom, section) {
     document.getElementById('radical-detail-char').textContent = r.radical;
-    document.getElementById('radical-detail-number').textContent = '#' + r.number + ' von ' + getAppConstants().CANONICAL_RADICAL_COUNT;
+    document.getElementById('radical-detail-number').textContent = tr('#{number} von {total}', { number: r.number, total: getAppConstants().CANONICAL_RADICAL_COUNT });
     document.getElementById('radical-detail-meaning').textContent = r.meaning;
     document.getElementById('radical-detail-reading').innerHTML =
       r.reading + '<span class="romaji"> (' + r.romaji + ')</span>';
-    document.getElementById('radical-detail-strokes').textContent = r.strokes + ' Striche';
+    document.getElementById('radical-detail-strokes').textContent = tr('{count} Striche', { count: r.strokes });
 
     // Explanation
     var explanationEl = document.getElementById('radical-detail-explanation');
@@ -1693,7 +1693,7 @@ SECTION_CONFIGS.radicals = {
       renderKanjiTags(kanjiList, matchingKanji);
       attachKanjiNavigation(kanjiList, section);
     } else if (window.app && window.app.sections.kanji && !window.app.sections.kanji.isLoaded) {
-      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Kanji werden geladen...</span>';
+      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">' + tr('Kanji werden geladen...') + '</span>';
       window.app.ensureSectionLoaded('kanji').then(function () {
         if (!section.isOverlayOpen()) return;
         var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
@@ -1704,15 +1704,15 @@ SECTION_CONFIGS.radicals = {
           renderKanjiTags(kanjiList, loadedKanji);
           attachKanjiNavigation(kanjiList, section);
         } else {
-          kanjiList.textContent = 'Für dieses Hauptradikal sind hier keine Kanji-Einträge hinterlegt.';
+          kanjiList.textContent = tr('Für dieses Hauptradikal sind hier keine Kanji-Einträge hinterlegt.');
         }
       }).catch(function () {
-        kanjiList.textContent = 'Kanji-Verweise konnten nicht geladen werden. ';
-        var retry = appendElement(kanjiList, 'button', '', 'Erneut versuchen');
+        kanjiList.textContent = tr('Kanji-Verweise konnten nicht geladen werden.') + ' ';
+        var retry = appendElement(kanjiList, 'button', '', tr('Erneut versuchen'));
         retry.onclick = function () { section.config.openDetail(r, dom, section); };
       });
     } else {
-      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">Keine Kanji mit diesem Radikal in der Datenbank gefunden.</span>';
+      kanjiList.innerHTML = '<span style="color:var(--text-secondary);font-size:0.9rem;">' + tr('Keine Kanji mit diesem Radikal in der Datenbank gefunden.') + '</span>';
     }
   }
 };
@@ -1754,7 +1754,7 @@ SECTION_CONFIGS.onomatopoeia = {
       defaultValue: 'all'
     },
   ],
-  countLabel: ' Lautmalerei',
+  countLabel: '{count} Lautmalerei',
   defaultSort: 'category',
   batchSize: 0,
 
@@ -1793,7 +1793,7 @@ SECTION_CONFIGS.onomatopoeia = {
         return a.word.localeCompare(b.word, 'ja');
       }
       if (sortKey === 'alpha') {
-        return a.meaning.localeCompare(b.meaning, 'de');
+        return a.meaning.localeCompare(b.meaning, window.NIHONGO_I18N.locale);
       }
       if (sortKey === 'pattern') {
         var pa = patOrder[a.pattern] !== undefined ? patOrder[a.pattern] : 9;
@@ -1810,8 +1810,8 @@ SECTION_CONFIGS.onomatopoeia = {
       var header = appendElement(root, 'div', 'ono-card-header');
       appendElement(header, 'span', 'ono-card-word', o.word);
       var badges = appendElement(header, 'div', 'ono-card-badges');
-      appendElement(badges, 'span', 'ono-category-badge ' + o.category, o.category);
-      if (o.pattern) appendElement(badges, 'span', 'ono-pattern-badge-sm', o.pattern);
+      appendElement(badges, 'span', 'ono-category-badge ' + o.category, tr(o.category));
+      if (o.pattern) appendElement(badges, 'span', 'ono-pattern-badge-sm', tr(o.pattern));
 
       var reading = appendElement(root, 'div', 'ono-card-reading', o.reading || '');
       if (o.pitch !== undefined && o.pitch !== null && o.pitch >= 0) {
@@ -1819,17 +1819,17 @@ SECTION_CONFIGS.onomatopoeia = {
       }
 
       appendElement(root, 'div', 'ono-card-meaning', o.meaning);
-      if (o.tags && o.tags.length) appendElement(root, 'div', 'ono-card-reading', o.tags.join(' · '));
+      if (o.tags && o.tags.length) appendElement(root, 'div', 'ono-card-reading', o.tags.map(function (tag) { return tr(tag); }).join(' · '));
     }, index, section, getItemId(o, o.word));
   },
 
   openDetail: function (o, dom, section) {
     document.getElementById('ono-detail-word').textContent = o.word;
     var catBadge = document.getElementById('ono-detail-category');
-    catBadge.textContent = [o.category].concat(o.tags || []).join(' · ');
+    catBadge.textContent = [o.category].concat(o.tags || []).map(function (tag) { return tr(tag); }).join(' · ');
     catBadge.className = 'ono-category-badge ' + o.category;
     var patBadge = document.getElementById('ono-detail-pattern');
-    patBadge.textContent = o.pattern;
+    patBadge.textContent = tr(o.pattern || '');
     patBadge.className = 'ono-pattern-badge';
 
     // Speak button
@@ -1848,7 +1848,7 @@ SECTION_CONFIGS.onomatopoeia = {
     document.getElementById('ono-detail-romaji').textContent = o.romaji || '';
     document.getElementById('ono-detail-meaning').textContent = o.meaning;
     document.getElementById('ono-detail-usage-line').textContent =
-      'Verwendung: ' + (o.usage || '\u2014');
+      tr('Verwendung') + ': ' + (o.usage || '\u2014');
     document.getElementById('ono-detail-explanation').textContent = o.explanation || '';
 
     renderExamplesOrEmpty('ono-detail-examples', o.examples);
