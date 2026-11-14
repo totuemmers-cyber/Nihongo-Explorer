@@ -910,7 +910,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
     "text": "<strong>Verb / clause + のは + noun / adjective + です</strong> roughly means: \"The thing that ... is ...\" or \"What ... is ...\". It turns the whole action before の into a topic block. So you're no longer talking about just one word, but about the activity or the whole situation as the topic.",
     "tip": "The pattern resembles ～のが好き, but here it's not about preferences, it's about naming or highlighting something.",
     "examples": [
-     "My hobby is reading books.",
+     "Reading books is fun.",
      "What's difficult is the kanji.",
      "The most important thing is to keep at it every day."
     ]
@@ -931,7 +931,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
     "tip": "When you're talking about a preference, ～のが is often more natural. When you're defining or highlighting, ～のは～です fits.",
     "examples": [
      "I like reading books.",
-     "My hobby is reading books."
+     "Reading books is fun."
     ]
    },
    {
@@ -1375,7 +1375,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "Formation: う-verbs",
-    "text": "For う-verbs: the last syllable shifts to the <strong>え-row</strong> and る is attached. The pattern is consistent: く→ける, む→める, す→せる, ぐ→げる, ぶ→べる, つ→てる, う→える, ぬ→ねる, る→れる. Since the え-row always sounds \"more open\", the character of the potential forms is easy to notice.",
+    "text": "For う-verbs: the last syllable shifts to the <strong>え-row</strong> and る is attached. The pattern is consistent: く→ける, む→める, す→せる, ぐ→げる, ぶ→べる, つ→てる, う→える, ぬ→ねる, る→れる. The result is always a る-verb: 泳げる → 泳げない, 泳げます.",
     "examples": [
      "to be able to read (む → める)",
      "to be able to write (く → ける)",
@@ -1538,7 +1538,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
   "sections": [
    {
     "heading": "Basic formation",
-    "text": "The form is <strong>verb stem + 方</strong>. It means \"the way to do ...\" or \"how to do ...\". With する-verbs you usually work directly with the Sino-Japanese noun, for example 使い方, 読み方, 書き方.",
+    "text": "The form is <strong>verb stem + 方</strong>. It means \"the way to do ...\" or \"how to do ...\". Typical examples are 使い方, 読み方, 書き方. With する-verbs, the noun usually comes with の before 仕方 (しかた): 勉強の仕方, 説明の仕方.",
     "tip": "～方 isn't a complete sentence but a noun. That's why it can be used with を, が, は and other particles.",
     "examples": [
      "Please tell me how to read this kanji.",
@@ -1566,7 +1566,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "Typical stumbling points",
-    "text": "Learners often try to put whole clauses in front of 方. That's wrong. What comes before 方 is normally the verb stem or a fixed nominalized verb form. Also, don't confuse 方 with the polite person-suffix reading かた, even though the same kanji is used.",
+    "text": "Learners often try to put whole clauses in front of 方. That's wrong. What comes before 方 is normally the verb stem or a fixed nominalized verb form. Also, don't confuse ～方 with the polite word 方 (かた, person): they are written and read the same way but mean different things.",
     "tip": "With grammar involving ～方, always ask first: is it about a method or about a person?",
     "examples": [
      "reading / way of reading",
@@ -1608,7 +1608,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
   "sections": [
    {
     "heading": "～かもしれない — \"maybe, possibly\"",
-    "text": "The structure <strong>clause + かもしれない</strong> expresses an uncertain guess. It's more cautious than でしょう and much more useful for everyday language at N4. With nouns and な-adjectives, the plain style usually has だ.",
+    "text": "The structure <strong>clause + かもしれない</strong> expresses an uncertain guess. It's more cautious than でしょう and much more useful for everyday language at N4. Nouns and な-adjectives come directly before it, without だ: 雪かもしれない, 静かかもしれない.",
     "tip": "かもしれない expresses uncertainty. It doesn't fit well when you want to sound very convinced. Then きっと or でしょう would be closer.",
     "examples": [
      "It might snow tomorrow.",
@@ -2912,7 +2912,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
     "examples": [
      "I can read kanji now. (I couldn't before.)",
      "I've started exercising every day.",
-     "I've come to like Japanese food."
+     "These days I often eat Japanese food."
     ]
    },
    {
@@ -2953,7 +2953,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "～ようだ / ～みたい — \"it seems\" (inference)",
-    "text": "ようだ (formal) and みたい (casual) express an <strong>inference</strong> based on observation, reasoning or gathered clues. The difference from そう is important: with そう you react spontaneously to a visual impression; with ようだ/みたい you've gathered information and are drawing a conclusion from it. ようだ follows the plain form of verbs and adjectives; with nouns and na-adjectives, の comes before it. みたい is the colloquial variant and works the same way — just more casually.",
+    "text": "ようだ (formal) and みたい (casual) express an <strong>inference</strong> based on observation, reasoning or gathered clues. The difference from そう is important: with そう you react spontaneously to a visual impression; with ようだ/みたい you've gathered information and are drawing a conclusion from it. ようだ follows the plain form of verbs and adjectives; nouns take の before it (雨のようだ), na-adjectives take な (静かなようだ). みたい is the colloquial variant and also follows the plain form, but it comes directly after nouns and na-adjectives (雨みたい, 静かみたい) — just more casually.",
     "tip": "ようだ can also be used for comparisons: 雪のように白い (white as snow). In this case it means \"like\" rather than \"it seems\" — the context makes the difference clear.",
     "examples": [
      "He seems to be busy. (I'm inferring this from various clues.)",
@@ -3666,11 +3666,11 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
  "lesson-32": {
   "title": "～ばかりか / ～のみならず",
   "subtitle": "Not only... but also",
-  "intro": "When you want to say that something goes beyond what was expected (\"Not only X, but even Y!\"), you need ～ばかりか or ～のみならず. Both express an escalation, but in different registers. ～ばかりか is the lively, spoken form with a touch of surprise, while ～のみならず is at home in newspaper articles and speeches. Together with the neutral ～だけでなく they form a team of three that you can use depending on the situation.",
+  "intro": "When you want to say that something goes beyond what was expected (\"Not only X, but even Y!\"), you need ～ばかりか or ～のみならず. Both express an escalation, but in different registers. ～ばかりか is emphatic, often with a touch of surprise, and fits both conversation and writing, while ～のみならず is at home in newspaper articles and speeches. Together with the neutral ～だけでなく they form a team of three that you can use depending on the situation.",
   "sections": [
    {
     "heading": "～ばかりか — Not only X, but even Y",
-    "text": "～ばかりか stresses a <strong>surprising escalation</strong>: not only the one thing, but something even stronger on top. It's colloquial to neutral and used often in everyday life. Formation: verb / i-adjective / na-adjective (+ な/である) / noun + ばかりか. The second clause often contains さらに, も or even まで to underline the escalation.",
+    "text": "～ばかりか stresses a <strong>surprising escalation</strong>: not only the one thing, but something even stronger on top. It's neutral to slightly elevated; in casual conversation people tend to say だけじゃなくて. Formation: verb / i-adjective / na-adjective (+ な/である) / noun + ばかりか. The second clause often contains さらに, も or even まで to underline the escalation.",
     "tip": "ばかりか can also express negative escalation: 「遅刻したばかりか、宿題も忘れた。」(Not only was he late, he even forgot his homework.) The escalation works in both directions.",
     "examples": [
      "He speaks not only English but also French.",
@@ -3681,7 +3681,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    {
     "heading": "～のみならず — A formal \"not only...\"",
     "text": "～のみならず is the <strong>formal, written</strong> variant of ～ばかりか. You find it in news articles, academic texts and official speeches. Formation: noun / verb (dictionary form) + のみならず. The meaning is identical to ばかりか, but the tone is noticeably more elevated.",
-    "tip": "のみならず sounds over the top and stiff in everyday conversation; use it only in written or formal contexts. In a conversation among friends, ばかりか or だけじゃなくて would be more natural.",
+    "tip": "のみならず sounds over the top and stiff in everyday conversation; use it only in written or formal contexts. In a conversation among friends, だけじゃなくて would be more natural.",
     "examples": [
      "This issue is being debated not only in Japan but all over the world.",
      "She excels not only in her studies but also in sports.",
@@ -3690,8 +3690,8 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "Comparison: ばかりか vs のみならず vs だけでなく",
-    "text": "All three mean \"not only... but also\", but they differ in register and nuance:<ul class=\"lesson-rules\"><li><strong>だけでなく</strong> → Neutral, fits anywhere. The safe default choice.</li><li><strong>ばかりか</strong> → Colloquial to neutral. Stresses <strong>surprise and escalation</strong>: \"Not only that, but even THAT!\"</li><li><strong>のみならず</strong> → Formal/written. Matter-of-fact, objective; typical of news and essays.</li></ul>",
-    "tip": "Rule of thumb for the JLPT: if the question contains a formal text, のみならず is often the right answer. For emotional escalation in casual speech, ばかりか fits. And when in doubt, だけでなく always works.",
+    "text": "All three mean \"not only... but also\", but they differ in register and nuance:<ul class=\"lesson-rules\"><li><strong>だけでなく</strong> → Neutral, fits anywhere. The safe default choice.</li><li><strong>ばかりか</strong> → Neutral to slightly elevated. Stresses <strong>surprise and escalation</strong>: \"Not only that, but even THAT!\"</li><li><strong>のみならず</strong> → Formal/written. Matter-of-fact, objective; typical of news and essays.</li></ul>",
+    "tip": "Rule of thumb for the JLPT: if the question contains a formal text, のみならず is often the right answer. For a surprising or critical escalation, ばかりか fits. And when in doubt, だけでなく always works.",
     "examples": [
      "He knows not only Japanese but also Chinese. (Neutral)",
      "Not only are his grades bad, he even skips class. (Escalation!)",
@@ -3717,7 +3717,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "ばかりか — not only ..., but even",
-    "text": "<strong>ばかりか</strong> means \"not only ..., but also / even\". It adds surprising extra information and sounds rather written or elevated. The nuance is stronger than with だけでなく.",
+    "text": "<strong>ばかりか</strong> means \"not only ..., but also / even\". It adds surprising extra information and sounds a little more elevated than だけでなく; the nuance is also stronger.",
     "tip": "ばかりか often carries a stronger note of surprise or criticism than a plain \"also\".",
     "examples": [
      "He speaks not only Japanese but also Chinese.",
@@ -4498,7 +4498,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
   "sections": [
    {
     "heading": "～を問わず / を問わない — Regardless of / Whether or not",
-    "text": "問う (とう) means \"to ask, to question\". So ～を問わず literally means \"without asking about\" — that is, \"regardless of, whether or not\". It is used to say that a <strong>certain category or condition does not matter</strong>. The construction is: <strong>Noun + を問わず</strong>. It often goes with contrasting pairs such as 男女 (men/women), 年齢 (age), 経験の有無 (whether or not one has experience), 国籍 (nationality).",
+    "text": "問う (とう) means \"to ask, to question\". So ～を問わず literally means \"without asking about\" — that is, \"regardless of, whether or not\". It is used to say that a <strong>certain category or condition does not matter</strong>. The construction is: <strong>Noun + を問わず</strong>. It often goes with contrasting pairs such as 男女 (men/women) or 経験の有無 (whether or not one has experience), and with nouns covering a whole range, such as 年齢 (age) or 国籍 (nationality).",
     "tip": "～を問わず is especially popular in job ads. Memorize combinations like 年齢を問わず, 経験を問わず, 男女を問わず — they come up regularly in the N2 exam.",
     "examples": [
      "Anyone can take part, regardless of age.",
@@ -4788,7 +4788,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    },
    {
     "heading": "～とはいえ — Even though it's said that... / Nevertheless",
-    "text": "～とはいえ is made up of と (quotation), は (topic) and いえ (say, from 言える). Literally: \"Even if one says (that)...\" It concedes a general statement, assumption or claim, but points out that <strong>reality isn't that simple</strong>. The construction is: <strong>Clause (普通形) + とはいえ</strong> or <strong>Noun + とはいえ</strong>.",
+    "text": "～とはいえ is made up of と (quotation), は (topic) and いえ (say; a classical form of 言う). Literally: \"Even if one says (that)...\" It concedes a general statement, assumption or claim, but points out that <strong>reality isn't that simple</strong>. The construction is: <strong>Clause (普通形) + とはいえ</strong> or <strong>Noun + とはいえ</strong>.",
     "tip": "～とはいえ is more elegant and analytical than ～ものの. It is often used to concede a widely held opinion and then add a more nuanced view.",
     "examples": [
      "It may be spring, but the cold days are still continuing.",
@@ -5103,7 +5103,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
    {
     "heading": "に他ならない — Nothing other than",
     "text": "Noun + に他（ほか）ならない expresses a <strong>strong, absolute conviction</strong>: \"X is nothing other than Y.\" In English: \"It is nothing less than...\", \"It is due solely to...\".",
-    "tip": "に他ならない is ALWAYS positively emphatic — it highlights the true nature or the true reason. It is the rhetorical equivalent of an exclamation mark.",
+    "tip": "に他ならない is always emphatic — it highlights the true nature or the true reason, whether the matter is positive or negative. It is the rhetorical equivalent of an exclamation mark.",
     "examples": [
      "His success is nothing other than the result of hard work.",
      "This is nothing short of a miracle.",
@@ -5575,7 +5575,7 @@ window.GRAMMAR_LESSONS_TRANSLATION = {
  "lesson-58": {
   "title": "N1 Formal Written Japanese",
   "subtitle": "Official, formal, indispensable",
-  "intro": "This final lesson covers five formal expressions that are ubiquitous in official documents, news articles, academic texts and business correspondence. They form the backbone of elevated written Japanese and are essential for understanding formal texts. ～において/における marks the framework or context of a statement, ～に即して means \"in line with\" reality, ～に準じて means \"in accordance with\" a rule or standard, and ～をもって indicates the means, the point in time or the reason. These expressions appear in almost every N1 reading text and are indispensable for passing the exam.",
+  "intro": "This final lesson covers four formal expressions that are ubiquitous in official documents, news articles, academic texts and business correspondence. They form the backbone of elevated written Japanese and are essential for understanding formal texts. ～において/における marks the framework or context of a statement, ～に即して means \"in line with\" reality, ～に準じて means \"in accordance with\" a rule or standard, and ～をもって indicates the means, the point in time or the reason. These expressions appear in almost every N1 reading text and are indispensable for passing the exam.",
   "sections": [
    {
     "heading": "～において / ～における — In / At / In the field of",

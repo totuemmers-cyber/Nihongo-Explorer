@@ -66,7 +66,7 @@ add('listening', 'Wann beginnt der Film?', 'Startzeit und Abfahrtszeit auseinand
 add('listening', 'Die rote Tasche', 'Besitz und Standort aus Sprecherwechseln erschließen.',
 ['A: この{赤|あか}いかばんは、あなたのですか。\nB: いいえ、わたしのは{青|あお}いです。', 'A: じゃあ、だれのですか。\nB: たなかさんのです。たなかさんは、いまトイレです。', 'A: そうですか。ここで{待|ま}ちます。かばんをわたしたいです。'],
 'A: Ist diese rote Tasche deine? B: Nein, meine ist blau. A: Wem gehört sie dann? B: Tanaka. Tanaka ist gerade auf der Toilette. A: Ach so. Ich warte hier. Ich möchte die Tasche übergeben.',
-[['だれの', 'wessen'], ['わたしたい', 'übergeben möchten']], 'わたしのはlässt das Wort かばん: „meine [Tasche]“. Die rote Tasche gehört also nicht B.', [
+[['だれの', 'wessen'], ['わたしたい', 'übergeben möchten']], 'In わたしのは fehlt das Wort かばん: わたしの heißt „meine [Tasche]“. Die rote Tasche gehört also nicht B.', [
 ['Worum geht es im Gespräch?', 0, ['Herausfinden, wem eine Tasche gehört.', 'A fragt nach dem Besitzer der roten Tasche.'], ['Eine neue Tasche aussuchen.', 'Es geht um eine vorhandene Tasche.'], ['Die blaue Tasche von B zurückgeben.', 'Gesucht wird der Besitzer der roten Tasche.'], ['Eine rote Tasche für B aussuchen.', 'Bs eigene Tasche ist blau; ein Kauf wird nicht vorgeschlagen.']],
 ['Wem gehört die rote Tasche?', 1, ['Tanaka.', 'B antwortet たなかさんのです.'], ['A.', 'A fragt nach dem Besitzer.'], ['B.', 'B hat eine blaue Tasche.'], ['Niemandem.', 'Ein Besitzer wird genannt.']],
 ['Warum bleibt A hier?', 2, ['Um Tanaka die Tasche zu geben.', 'A will warten und die Tasche übergeben.'], ['Um die Tasche zu kaufen.', 'Ein Kauf ist nicht vorgesehen.'], ['Um eine blaue Tasche zu suchen.', 'A hat die rote Tasche.'], ['Um B zur Toilette zu bringen.', 'B wird nicht zur Toilette begleitet.']]

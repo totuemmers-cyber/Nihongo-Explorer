@@ -1076,7 +1076,7 @@ window.COMPREHENSION_UNITS = [
         "übergeben möchten"
       ]
     ],
-    "note": "わたしのはlässt das Wort かばん: „meine [Tasche]“. Die rote Tasche gehört also nicht B.",
+    "note": "In わたしのは fehlt das Wort かばん: わたしの heißt „meine [Tasche]“. Die rote Tasche gehört also nicht B.",
     "questions": [
       {
         "id": "listening-n5-4-q1",
@@ -12261,7 +12261,7 @@ window.COMPREHENSION_UNITS = [
       {
         "id": "reading-n3-16-q3",
         "kind": "inference",
-        "prompt": "Was will die Person mit dem letzten Absatz klarstellen?",
+        "prompt": "Was will die Person am Ende des Textes klarstellen?",
         "evidence": "reading-n3-16-p1",
         "choices": [
           {
@@ -20048,7 +20048,7 @@ window.COMPREHENSION_UNITS = [
         "choices": [
           {
             "text": "Die Verbesserung ist berichtbar, ihre Zuschreibung zur Förderung aber noch nicht gesichert.",
-            "explanation": "B trennt 改善という観察 vom unbekannten Verlauf ohne Förderung.",
+            "explanation": "B trennt 改善したという観察 vom unbekannten Verlauf ohne Förderung.",
             "evidence": "listening-n1-6-p1"
           },
           {
@@ -22195,7 +22195,7 @@ window.COMPREHENSION_UNITS = [
           },
           {
             "text": "Nur prüfen, ob eine Formulierung nicht beleidigend ist.",
-            "explanation": "Der letzte Absatz beschreibt gerade die Unzulänglichkeit dieses Mindestmaßes.",
+            "explanation": "Der Schluss des Textes beschreibt gerade die Unzulänglichkeit dieses Mindestmaßes.",
             "evidence": "reading-n1-20-p1"
           }
         ],
@@ -22256,7 +22256,7 @@ window.COMPREHENSION_UNITS = [
           },
           {
             "text": "Die Revision der eigenen Meinung kann als Niederlage erscheinen.",
-            "explanation": "Der erste Absatz verbindet das Kampfbild mit Sieg und Niederlage.",
+            "explanation": "Der Anfang des Textes verbindet das Kampfbild mit Sieg und Niederlage.",
             "evidence": "reading-n1-21-p1"
           }
         ],

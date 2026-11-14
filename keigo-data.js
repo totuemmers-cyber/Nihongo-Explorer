@@ -132,9 +132,9 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "level": "N4",
     "category": "Keigo",
     "subcategory": "尊敬語",
-    "meaning": "Respektvolle Form von いる / ある / 行く / 来る",
-    "explanation": "いらっしゃる ist die respektvolle Sonderform für die Verben いる (sein/sich befinden), 行く (gehen) und 来る (kommen). Es wird verwendet, um über den Aufenthaltsort oder die Bewegung einer respektierten Person zu sprechen.",
-    "formation": "Ersetzt いる / ある / 行く / 来る direkt (ます-Form: いらっしゃいます)",
+    "meaning": "Respektvolle Form von いる / 行く / 来る",
+    "explanation": "いらっしゃる ist die respektvolle Sonderform für die Verben いる (sein/sich befinden), 行く (gehen) und 来る (kommen). Es wird verwendet, um über den Aufenthaltsort oder die Bewegung einer respektierten Person zu sprechen. In でいらっしゃる ersetzt es außerdem である: 田中様でいらっしゃいますか。",
+    "formation": "Ersetzt いる / 行く / 来る direkt; でいらっしゃる statt である (ます-Form: いらっしゃいます)",
     "examples": [
       {
         "japanese": "田中先生はいらっしゃいますか。",
@@ -1556,7 +1556,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "german": "Entschuldigen Sie die Störung, aber könnten Sie mir etwas Zeit widmen?"
       }
     ],
-    "notes": "Diese Formel ist besonders in geschäftlichen E-Mails und Telefonaten verbreitet. Varianten: お忙しい中 (onaka), ご多忙のところ. 恐れ入ります allein bedeutet 'Entschuldigung' oder 'Vielen Dank' und ist eine wichtige Geschäftsfloskel.",
+    "notes": "Diese Formel ist besonders in geschäftlichen E-Mails und Telefonaten verbreitet. Varianten: お忙しい中 (おいそがしいなか), ご多忙のところ. 恐れ入ります allein bedeutet 'Entschuldigung' oder 'Vielen Dank' und ist eine wichtige Geschäftsfloskel.",
     "related": [
       "keigo-teinei-itadakemasenka",
       "keigo-business-osewani"
@@ -1743,7 +1743,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "german": "Der Gast wartet in der Lobby."
       }
     ],
-    "notes": "Diese Form klingt natürlicher und höflicher als die ～ている-Form. In der gesprochenen Sprache wird いらっしゃる oft zu いらっしゃいます verkürzt.",
+    "notes": "Diese Form klingt natürlicher und höflicher als die ～ている-Form. In der gesprochenen Sprache wird ～ていらっしゃる oft zu ～てらっしゃる verkürzt (待ってらっしゃいます).",
     "related": [
       "keigo-sonkeigo-irassharu",
       "keigo-sonkeigo-oninaru"
@@ -1804,7 +1804,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "german": "Der Lehrer ist noch nicht erschienen."
       }
     ],
-    "notes": "お見えになる wird besonders häufig an Empfangsschaltern und in der Hotelbranche verwendet. Es klingt formeller als いらっしゃる.",
+    "notes": "お見えになる wird besonders häufig an Empfangsschaltern und in der Hotelbranche verwendet. Es klingt formeller als いらっしゃる. Streng genommen ist お見えになる ein 二重敬語 (見える ist schon ehrerbietig), gilt aber als feste, allgemein akzeptierte Form.",
     "related": [
       "keigo-sonkeigo-irassharu",
       "keigo-sonkeigo-okoshininaru"
@@ -6897,7 +6897,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         "german": "Wenn möglich, wäre ich froh über eine Antwort bis nächsten Montag."
       }
     ],
-    "notes": "In geschäftlichen E-Mails wird immer eine Frist für die Antwort angegeben. 幸いです ist weicher als お願いいたします und gibt dem Empfänger mehr Spielraum. 助かります (es würde mir helfen) ist eine etwas informellere, aber häufig verwendete Alternative.",
+    "notes": "In geschäftlichen E-Mails nennt man oft eine Frist für die Antwort (今週中に, 〇日までに). 幸いです ist weicher als お願いいたします und gibt dem Empfänger mehr Spielraum. 助かります (es würde mir helfen) ist eine etwas informellere, aber häufig verwendete Alternative.",
     "related": [
       "keigo-business-gokentou",
       "keigo-teinei-itadakerebato"

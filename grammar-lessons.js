@@ -782,7 +782,7 @@
         },
         {
           heading: 'Bildung: う-Verben',
-          text: 'Bei う-Verben: Die letzte Silbe wechselt in die <strong>え-Reihe</strong> und る wird angehängt. Das Muster ist konsistent: く→ける, む→める, す→せる, ぐ→げる, ぶ→べる, つ→てる, う→える, ぬ→ねる, る→れる. Da die え-Reihe immer „offener" klingt, merkt man den Potentialformen ihren Charakter gut an.',
+          text: 'Bei う-Verben: Die letzte Silbe wechselt in die <strong>え-Reihe</strong> und る wird angehängt. Das Muster ist konsistent: く→ける, む→める, す→せる, ぐ→げる, ぶ→べる, つ→てる, う→える, ぬ→ねる, る→れる. Das Ergebnis ist immer ein る-Verb: 泳げる → 泳げない, 泳げます.',
           examples: [
             { jp: '読む → 読める', romaji: 'yomu → yomeru', de: 'lesen können (む → める)' },
             { jp: '書く → 書ける', romaji: 'kaku → kakeru', de: 'schreiben können (く → ける)' },
@@ -911,7 +911,7 @@
         },
         {
           heading: '～ようだ / ～みたい — „Es scheint" (Schlussfolgerung)',
-          text: 'ようだ (formell) und みたい (casual) drücken eine <strong>Schlussfolgerung</strong> aus, die auf Beobachtung, Nachdenken oder gesammelten Hinweisen basiert. Der Unterschied zu そう ist wichtig: Bei そう reagierst du spontan auf einen visuellen Eindruck, bei ようだ/みたい hast du Informationen zusammengetragen und ziehst daraus einen Schluss. ようだ folgt auf die Kurzform von Verben und Adjektiven, bei Nomen und na-Adjektiven steht の davor. みたい ist die umgangssprachliche Variante und funktioniert genauso — nur eben lockerer.',
+          text: 'ようだ (formell) und みたい (casual) drücken eine <strong>Schlussfolgerung</strong> aus, die auf Beobachtung, Nachdenken oder gesammelten Hinweisen basiert. Der Unterschied zu そう ist wichtig: Bei そう reagierst du spontan auf einen visuellen Eindruck, bei ようだ/みたい hast du Informationen zusammengetragen und ziehst daraus einen Schluss. ようだ folgt auf die Kurzform von Verben und Adjektiven; bei Nomen steht の davor (雨のようだ), bei na-Adjektiven な (静かなようだ). みたい ist die umgangssprachliche Variante und folgt ebenfalls auf die Kurzform, steht aber direkt nach Nomen und na-Adjektiven (雨みたい, 静かみたい) — nur eben lockerer.',
           examples: [
             { jp: '彼は忙しいようです。', romaji: 'Kare wa isogashii yō desu.', de: 'Er scheint beschäftigt zu sein. (Ich schließe das aus verschiedenen Hinweisen.)' },
             { jp: '誰もいないみたい。', romaji: 'Daremo inai mitai.', de: 'Es scheint, als wäre niemand da.' },
@@ -1058,7 +1058,7 @@
           examples: [
             { jp: '漢字が読めるようになりました。', romaji: 'Kanji ga yomeru yō ni narimashita.', de: 'Ich kann jetzt Kanji lesen. (Vorher konnte ich es nicht.)' },
             { jp: '毎日運動するようになった。', romaji: 'Mainichi undō suru yō ni natta.', de: 'Ich habe angefangen, jeden Tag Sport zu machen.' },
-            { jp: '日本の食べ物が好きになるようになった。', romaji: 'Nihon no tabemono ga suki ni naru yō ni natta.', de: 'Ich habe angefangen, japanisches Essen zu mögen.' },
+            { jp: '日本の食べ物をよく食べるようになった。', romaji: 'Nihon no tabemono o yoku taberu yō ni natta.', de: 'Inzwischen esse ich oft japanisches Essen.' },
           ]
         },
         {
@@ -1731,11 +1731,11 @@
       title: '～ばかりか / ～のみならず',
       subtitle: 'Nicht nur... sondern auch',
       level: 'N3',
-      intro: 'Wenn man sagen will, dass etwas über das Erwartete hinausgeht — „Nicht nur X, sondern sogar Y!" — braucht man ～ばかりか oder ～のみならず. Beide drücken eine Steigerung aus, aber in unterschiedlichen Registern. ～ばかりか ist die lebendige, gesprochene Form mit einem Hauch Überraschung, während ～のみならず in Zeitungsartikeln und Reden zu Hause ist. Zusammen mit dem neutralen ～だけでなく bilden sie ein Dreierteam, das du je nach Situation einsetzen kannst.',
+      intro: 'Wenn man sagen will, dass etwas über das Erwartete hinausgeht — „Nicht nur X, sondern sogar Y!" — braucht man ～ばかりか oder ～のみならず. Beide drücken eine Steigerung aus, aber in unterschiedlichen Registern. ～ばかりか ist nachdrücklich, oft mit einem Hauch Überraschung, und passt in Gespräche wie in Texte, während ～のみならず in Zeitungsartikeln und Reden zu Hause ist. Zusammen mit dem neutralen ～だけでなく bilden sie ein Dreierteam, das du je nach Situation einsetzen kannst.',
       sections: [
         {
           heading: '～ばかりか — Nicht nur X, sondern sogar Y',
-          text: '～ばかりか betont eine <strong>überraschende Steigerung</strong>: Nicht nur das eine, sondern sogar noch etwas Stärkeres kommt dazu. Es ist umgangssprachlich bis neutral und wird im Alltag häufig verwendet. Bildung: Verb / i-Adjektiv / na-Adjektiv (+ な/である) / Nomen + ばかりか. Im Nachsatz folgt oft さらに, も oder sogar まで, um die Eskalation zu unterstreichen.',
+          text: '～ばかりか betont eine <strong>überraschende Steigerung</strong>: Nicht nur das eine, sondern sogar noch etwas Stärkeres kommt dazu. Es ist neutral bis leicht gehoben; in lockeren Gesprächen sagt man eher だけじゃなくて. Bildung: Verb / i-Adjektiv / na-Adjektiv (+ な/である) / Nomen + ばかりか. Im Nachsatz folgt oft さらに, も oder sogar まで, um die Eskalation zu unterstreichen.',
           examples: [
             { jp: '彼は英語ばかりか、フランス語も話せる。', romaji: 'Kare wa eigo bakari ka, furansugo mo hanaseru.', de: 'Er spricht nicht nur Englisch, sondern auch Französisch.' },
             { jp: '雨が降っているばかりか、風まで強くなってきた。', romaji: 'Ame ga futte iru bakari ka, kaze made tsuyoku natte kita.', de: 'Es regnet nicht nur, sondern es wird sogar windig.' },
@@ -1751,17 +1751,17 @@
             { jp: '彼女は学業のみならず、スポーツでも優れている。', romaji: 'Kanojo wa gakugyō nomi narazu, supōtsu de mo sugurete iru.', de: 'Sie ist nicht nur im Studium, sondern auch im Sport hervorragend.' },
             { jp: '環境汚染は健康のみならず、経済にも影響を与える。', romaji: 'Kankyō osen wa kenkō nomi narazu, keizai ni mo eikyō o ataeru.', de: 'Umweltverschmutzung wirkt sich nicht nur auf die Gesundheit, sondern auch auf die Wirtschaft aus.' }
           ],
-          tip: 'のみならず klingt in alltäglichen Gesprächen übertrieben und steif — verwende es nur in schriftlichen oder formellen Kontexten. Im Gespräch unter Freunden wäre ばかりか oder だけじゃなくて natürlicher.'
+          tip: 'のみならず klingt in alltäglichen Gesprächen übertrieben und steif — verwende es nur in schriftlichen oder formellen Kontexten. Im Gespräch unter Freunden wäre だけじゃなくて natürlicher.'
         },
         {
           heading: 'Vergleich: ばかりか vs のみならず vs だけでなく',
-          text: 'Alle drei bedeuten „nicht nur... sondern auch", unterscheiden sich aber in Register und Nuance:<ul class="lesson-rules"><li><strong>だけでなく</strong> → Neutral, passt überall. Die sichere Standardwahl.</li><li><strong>ばかりか</strong> → Umgangssprachlich bis neutral. Betont <strong>Überraschung und Eskalation</strong> — „Nicht nur das, sondern sogar DAS!"</li><li><strong>のみならず</strong> → Formell/schriftlich. Sachlich, objektiv — typisch für Nachrichten und Aufsätze.</li></ul>',
+          text: 'Alle drei bedeuten „nicht nur... sondern auch", unterscheiden sich aber in Register und Nuance:<ul class="lesson-rules"><li><strong>だけでなく</strong> → Neutral, passt überall. Die sichere Standardwahl.</li><li><strong>ばかりか</strong> → Neutral bis leicht gehoben. Betont <strong>Überraschung und Eskalation</strong> — „Nicht nur das, sondern sogar DAS!"</li><li><strong>のみならず</strong> → Formell/schriftlich. Sachlich, objektiv — typisch für Nachrichten und Aufsätze.</li></ul>',
           examples: [
             { jp: '彼は日本語だけでなく、中国語もできる。', romaji: 'Kare wa nihongo dake de naku, chūgokugo mo dekiru.', de: 'Er kann nicht nur Japanisch, sondern auch Chinesisch. (Neutral)' },
             { jp: '成績が悪いばかりか、授業もサボっている。', romaji: 'Seiseki ga warui bakari ka, jugyō mo sabotte iru.', de: 'Die Noten sind nicht nur schlecht, er schwänzt sogar den Unterricht. (Eskalation!)' },
             { jp: '本校は国内のみならず海外でも高い評価を得ている。', romaji: 'Honkō wa kokunai nomi narazu kaigai de mo takai hyōka o ete iru.', de: 'Unsere Schule genießt nicht nur im Inland, sondern auch im Ausland hohes Ansehen. (Formell)' }
           ],
-          tip: 'Faustregel für die JLPT-Prüfung: Wenn in der Aufgabe ein formeller Text steht, ist のみならず oft die richtige Antwort. Bei emotionaler Steigerung in der Umgangssprache passt ばかりか. Und だけでなく geht im Zweifel immer.'
+          tip: 'Faustregel für die JLPT-Prüfung: Wenn in der Aufgabe ein formeller Text steht, ist のみならず oft die richtige Antwort. Bei überraschender oder kritischer Steigerung passt ばかりか. Und だけでなく geht im Zweifel immer.'
         }
       ]
     },
@@ -2358,7 +2358,7 @@
             { jp: 'これは奇跡に他ならない。', romaji: 'Kore wa kiseki ni hoka naranai.', de: 'Das ist nichts Geringeres als ein Wunder.' },
             { jp: '環境破壊は人間の行動の結果に他ならない。', romaji: 'Kankyō hakai wa ningen no kōdō no kekka ni hoka naranai.', de: 'Die Umweltzerstörung ist einzig und allein das Ergebnis menschlichen Handelns.' }
           ],
-          tip: 'に他ならない ist IMMER positiv betonend — es hebt die wahre Natur oder den wahren Grund hervor. Es ist das rhetorische Äquivalent eines Ausrufezeichens.'
+          tip: 'に他ならない betont immer nachdrücklich — es hebt die wahre Natur oder den wahren Grund hervor, ob die Sache positiv oder negativ ist. Es ist das rhetorische Äquivalent eines Ausrufezeichens.'
         },
         {
           heading: 'にすぎない — Lediglich / Nur',
@@ -2579,7 +2579,7 @@
           text: '～つつも wird an die Verb-Stammform (ます-Form ohne ます) angehängt und drückt aus, dass jemand sich einer Sache <strong>bewusst ist</strong>, aber trotzdem anders handelt oder fühlt. Es enthält oft eine Nuance von <em>Selbstvorwurf</em> oder <em>innerem Konflikt</em> — man weiß, was richtig wäre, tut aber das Gegenteil. Diese Form ist formeller als ～ながらも und kommt besonders in der Schriftsprache, in Essays und in introspektiven Texten vor. Sie wird <strong>nur mit Verben</strong> verwendet, nicht mit Adjektiven oder Nomen.',
           examples: [
             { jp: '体に悪いと知りつつも、タバコをやめられない。', romaji: 'Karada ni warui to shiri tsutsu mo, tabako wo yamerarenai.', de: 'Obwohl ich weiß, dass es schlecht für den Körper ist, kann ich mit dem Rauchen nicht aufhören.' },
-            { jp: '申し訳ないと思いつつも、彼の頼みを断った。', romaji: 'Mōshiwakenai to omoi tsutsu mo, kare no tanomi wo kotowatta.', de: 'Obwohl ich es für unverzeihlich hielt, lehnte ich seine Bitte ab.' },
+            { jp: '申し訳ないと思いつつも、彼の頼みを断った。', romaji: 'Mōshiwakenai to omoi tsutsu mo, kare no tanomi wo kotowatta.', de: 'Obwohl es mir leidtat, lehnte ich seine Bitte ab.' },
             { jp: '危険を感じつつも、彼女は前に進み続けた。', romaji: 'Kiken wo kanji tsutsu mo, kanojo wa mae ni susumi tsuzuketa.', de: 'Obwohl sie die Gefahr spürte, ging sie weiter voran.' },
           ],
           tip: '～つつも impliziert fast immer ein Bewusstsein des Widerspruchs. Wenn du sagen willst „Ich weiß es eigentlich besser, aber...", ist ～つつも die perfekte Wahl.'
@@ -2878,7 +2878,7 @@
       title: 'N1 Formales Schriftjapanisch',
       subtitle: 'Offiziell, förmlich, unverzichtbar',
       level: 'N1',
-      intro: 'Diese abschließende Lektion behandelt fünf formelle Ausdrücke, die in offiziellen Dokumenten, Nachrichtenartikeln, akademischen Texten und Geschäftskorrespondenz allgegenwärtig sind. Sie bilden das Rückgrat des gehobenen Schriftjapanisch und sind für das Verständnis formeller Texte unerlässlich. ～において/における markiert den Rahmen oder Kontext einer Aussage, ～に即して bedeutet „in Übereinstimmung mit" der Realität, ～に準じて bedeutet „gemäß" einer Regel oder einem Standard, und ～をもって gibt das Mittel, den Zeitpunkt oder den Grund an. Diese Ausdrücke erscheinen in nahezu jedem N1-Lesetext und sind für eine erfolgreiche Prüfung unverzichtbar.',
+      intro: 'Diese abschließende Lektion behandelt vier formelle Ausdrücke, die in offiziellen Dokumenten, Nachrichtenartikeln, akademischen Texten und Geschäftskorrespondenz allgegenwärtig sind. Sie bilden das Rückgrat des gehobenen Schriftjapanisch und sind für das Verständnis formeller Texte unerlässlich. ～において/における markiert den Rahmen oder Kontext einer Aussage, ～に即して bedeutet „in Übereinstimmung mit" der Realität, ～に準じて bedeutet „gemäß" einer Regel oder einem Standard, und ～をもって gibt das Mittel, den Zeitpunkt oder den Grund an. Diese Ausdrücke erscheinen in nahezu jedem N1-Lesetext und sind für eine erfolgreiche Prüfung unverzichtbar.',
       sections: [
         {
           heading: '～において / ～における — In / Bei / Im Bereich von',
@@ -3040,7 +3040,7 @@
       sections: [
         {
           heading: '～を問わず / を問わない — Ungeachtet / Egal ob',
-          text: '問う (とう) bedeutet „fragen, in Frage stellen". ～を問わず bedeutet also wörtlich „ohne danach zu fragen" — also „ungeachtet, egal ob". Es wird verwendet, um auszudrücken, dass eine <strong>bestimmte Kategorie oder Bedingung keine Rolle spielt</strong>. Die Konstruktion ist: <strong>Nomen + を問わず</strong>. Häufig steht es mit Gegensatzpaaren wie 男女 (Mann/Frau), 年齢 (Alter), 経験の有無 (ob Erfahrung vorhanden oder nicht), 国籍 (Nationalität).',
+          text: '問う (とう) bedeutet „fragen, in Frage stellen". ～を問わず bedeutet also wörtlich „ohne danach zu fragen" — also „ungeachtet, egal ob". Es wird verwendet, um auszudrücken, dass eine <strong>bestimmte Kategorie oder Bedingung keine Rolle spielt</strong>. Die Konstruktion ist: <strong>Nomen + を問わず</strong>. Häufig steht es mit Gegensatzpaaren wie 男女 (Mann/Frau) oder 経験の有無 (ob Erfahrung vorhanden oder nicht) und mit Nomen für eine ganze Bandbreite wie 年齢 (Alter) oder 国籍 (Nationalität).',
           examples: [
             { jp: '年齢を問わず、どなたでもご参加いただけます。', romaji: 'Nenrei wo towazu, donata demo go-sanka itadakemasu.', de: 'Ungeachtet des Alters kann jeder teilnehmen.' },
             { jp: '経験の有無を問わず募集しています。', romaji: 'Keiken no umu wo towazu boshū shite imasu.', de: 'Wir suchen Mitarbeiter, unabhängig davon, ob Erfahrung vorhanden ist.' },
@@ -3380,7 +3380,7 @@
         },
         {
           heading: '～とはいえ — Auch wenn man sagt, dass... / Trotzdem',
-          text: '～とはいえ setzt sich zusammen aus と (Zitat), は (Thema), いえ (sagen, von 言える). Wörtlich: „Auch wenn man (das) sagt..." Es räumt eine allgemeine Aussage, Annahme oder Behauptung ein, stellt aber fest, dass die <strong>Realität nicht so einfach ist</strong>. Die Konstruktion ist: <strong>Satz (普通形) + とはいえ</strong> oder <strong>Nomen + とはいえ</strong>.',
+          text: '～とはいえ setzt sich zusammen aus と (Zitat), は (Thema), いえ (sagen; eine klassische Form von 言う). Wörtlich: „Auch wenn man (das) sagt..." Es räumt eine allgemeine Aussage, Annahme oder Behauptung ein, stellt aber fest, dass die <strong>Realität nicht so einfach ist</strong>. Die Konstruktion ist: <strong>Satz (普通形) + とはいえ</strong> oder <strong>Nomen + とはいえ</strong>.',
           examples: [
             { jp: '春とはいえ、まだ寒い日が続いている。', romaji: 'Haru to wa ie, mada samui hi ga tsuzuite iru.', de: 'Auch wenn es Frühling ist, dauern die kalten Tage noch an.' },
             { jp: '子供とはいえ、礼儀は守るべきだ。', romaji: 'Kodomo to wa ie, reigi wa mamoru beki da.', de: 'Auch wenn es ein Kind ist, sollte es Anstand wahren.' },
@@ -4290,7 +4290,7 @@
       sections: [
         {
           heading: '～かもしれない — „vielleicht, möglicherweise“',
-          text: 'Die Struktur <strong>Satz + かもしれない</strong> drückt eine unsichere Vermutung aus. Sie ist vorsichtiger als でしょう und deutlich nützlicher für Alltagssprache auf N4. Vor Nomen und な-Adjektiven steht im neutralen Stil meist だ.',
+          text: 'Die Struktur <strong>Satz + かもしれない</strong> drückt eine unsichere Vermutung aus. Sie ist vorsichtiger als でしょう und deutlich nützlicher für Alltagssprache auf N4. Nomen und な-Adjektive stehen direkt davor, ohne だ: 雪かもしれない, 静かかもしれない.',
           examples: [
             { jp: '明日は雪かもしれません。', romaji: 'Ashita wa yuki kamo shiremasen.', de: 'Morgen schneit es vielleicht.' },
             { jp: '田中さんはもう帰ったかもしれない。', romaji: 'Tanaka-san wa mō kaetta kamo shirenai.', de: 'Tanaka ist vielleicht schon nach Hause gegangen.' },
@@ -5014,7 +5014,7 @@
         },
         {
           heading: 'ばかりか — nicht nur ..., sondern sogar',
-          text: '<strong>ばかりか</strong> bedeutet „nicht nur ..., sondern auch / sogar“. Es fügt überraschend zusätzliche Information hinzu und klingt eher schriftlich oder gehoben. Die Nuance ist stärker als bei だけでなく.',
+          text: '<strong>ばかりか</strong> bedeutet „nicht nur ..., sondern auch / sogar“. Es fügt überraschend zusätzliche Information hinzu und klingt etwas gehobener als だけでなく; auch die Nuance ist stärker.',
           examples: [
             { jp: '彼は日本語ばかりか、中国語も話せます。', romaji: 'Kare wa Nihongo bakari ka, Chūgokugo mo hanasemasu.', de: 'Er spricht nicht nur Japanisch, sondern auch Chinesisch.' },
             { jp: 'その店は高いばかりか、サービスも悪い。', romaji: 'Sono mise wa takai bakari ka, sābisu mo warui.', de: 'Dieser Laden ist nicht nur teuer, sondern hat auch schlechten Service.' },
@@ -5459,7 +5459,7 @@
       sections: [
         {
           heading: 'Grundbildung',
-          text: 'Die Form ist <strong>Verb-Stamm + 方</strong>. Sie bedeutet „die Art, ... zu tun“ oder „wie man ... macht“. Bei する-Verben wird meist direkt mit dem Sinojapanischen Nomen gearbeitet, zum Beispiel 使い方, 読み方, 書き方.',
+          text: 'Die Form ist <strong>Verb-Stamm + 方</strong>. Sie bedeutet „die Art, ... zu tun“ oder „wie man ... macht“. Typische Beispiele sind 使い方, 読み方, 書き方. Bei する-Verben steht meist das Nomen mit の vor 仕方 (しかた): 勉強の仕方, 説明の仕方.',
           examples: [
             { jp: 'この漢字の読み方を教えてください。', romaji: 'Kono kanji no yomikata o oshiete kudasai.', de: 'Bitte erklären Sie mir, wie man dieses Kanji liest.' },
             { jp: 'このアプリの使い方が分かりません。', romaji: 'Kono apuri no tsukaikata ga wakarimasen.', de: 'Ich weiß nicht, wie man diese App benutzt.' },
@@ -5663,7 +5663,7 @@
           heading: 'Grundmuster',
           text: '<strong>Verb / Satz + のは + Nomen / Adjektiv + です</strong> bedeutet grob: „Das ... ist ...“. Damit wird die ganze Handlung vor の zu einem thematischen Block.',
           examples: [
-            { jp: '私の趣味は本を読むのです。', romaji: 'Watashi no shumi wa hon o yomu no desu.', de: 'Mein Hobby ist das Lesen von Büchern.' },
+            { jp: '本を読むのは楽しいです。', romaji: 'Hon o yomu no wa tanoshii desu.', de: 'Bücher zu lesen macht Spaß.' },
             { jp: '難しいのは漢字です。', romaji: 'Muzukashii no wa kanji desu.', de: 'Das Schwierige sind die Kanji.' },
           ],
           tip: 'Das Muster ähnelt ～のが好き, aber hier geht es nicht um Vorlieben, sondern um Benennung oder Hervorhebung.'
@@ -6820,7 +6820,7 @@
     sections: [
       {
         heading: 'Grundbildung',
-        text: 'Die Form ist <strong>Verb-Stamm + 方</strong>. Sie bedeutet „die Art, ... zu tun“ oder „wie man ... macht“. Bei する-Verben wird meist direkt mit dem Sinojapanischen Nomen gearbeitet, zum Beispiel 使い方, 読み方, 書き方.',
+        text: 'Die Form ist <strong>Verb-Stamm + 方</strong>. Sie bedeutet „die Art, ... zu tun“ oder „wie man ... macht“. Typische Beispiele sind 使い方, 読み方, 書き方. Bei する-Verben steht meist das Nomen mit の vor 仕方 (しかた): 勉強の仕方, 説明の仕方.',
         examples: [
           { jp: 'この漢字の読み方を教えてください。', romaji: 'Kono kanji no yomikata o oshiete kudasai.', de: 'Bitte erklären Sie mir, wie man dieses Kanji liest.' },
           { jp: 'このアプリの使い方が分かりません。', romaji: 'Kono apuri no tsukaikata ga wakarimasen.', de: 'Ich weiß nicht, wie man diese App benutzt.' },
@@ -6848,7 +6848,7 @@
       },
       {
         heading: 'Typische Stolperpunkte',
-        text: 'Lernende versuchen oft, ganze Sätze vor 方 zu setzen. Das ist falsch. Vor 方 steht normalerweise der Verb-Stamm oder eine feste nominalisierte Verbform. Außerdem darf man 方 nicht mit der höflichen Personensuffix-Lesung かた verwechseln, auch wenn dasselbe Kanji benutzt wird.',
+        text: 'Lernende versuchen oft, ganze Sätze vor 方 zu setzen. Das ist falsch. Vor 方 steht normalerweise der Verb-Stamm oder eine feste nominalisierte Verbform. Außerdem darf man ～方 nicht mit dem höflichen Wort 方 (かた, Person) verwechseln: Beide werden gleich geschrieben und gelesen, bedeuten aber etwas anderes.',
         examples: [
           { jp: '読み方', romaji: 'yomikata', de: 'Lesung / Art zu lesen' },
           { jp: 'この方', romaji: 'kono kata', de: 'diese Person (anderes Wort, anderes Muster)' }
@@ -7003,7 +7003,7 @@
         heading: 'Grundmuster',
         text: '<strong>Verb / Satz + のは + Nomen / Adjektiv + です</strong> bedeutet grob: „Das ... ist ...“. Damit wird die ganze Handlung vor の zu einem thematischen Block. Man spricht also nicht mehr nur über ein Wort, sondern über die Tätigkeit oder den ganzen Sachverhalt als Thema.',
         examples: [
-          { jp: '私の趣味は本を読むのです。', romaji: 'Watashi no shumi wa hon o yomu no desu.', de: 'Mein Hobby ist das Lesen von Büchern.' },
+          { jp: '本を読むのは楽しいです。', romaji: 'Hon o yomu no wa tanoshii desu.', de: 'Bücher zu lesen macht Spaß.' },
           { jp: '難しいのは漢字です。', romaji: 'Muzukashii no wa kanji desu.', de: 'Das Schwierige sind die Kanji.' },
           { jp: '一番大切なのは毎日続けることです。', romaji: 'Ichiban taisetsu na no wa mainichi tsuzukeru koto desu.', de: 'Das Wichtigste ist, jeden Tag dranzubleiben.' }
         ],
@@ -7024,7 +7024,7 @@
         text: 'Diese Strukturen sehen ähnlich aus, haben aber andere Funktionen. <strong>～のが好き</strong> bewertet eine Handlung als etwas, das man mag. <strong>～のは～です</strong> macht die Handlung selbst zum Thema und sagt dann etwas darüber. Das ist ein funktionaler Unterschied, kein bloßes Formdetail.',
         examples: [
           { jp: '本を読むのが好きです。', romaji: 'Hon o yomu no ga suki desu.', de: 'Ich lese gern Bücher.' },
-          { jp: '私の趣味は本を読むのです。', romaji: 'Watashi no shumi wa hon o yomu no desu.', de: 'Mein Hobby ist das Lesen von Büchern.' }
+          { jp: '本を読むのは楽しいです。', romaji: 'Hon o yomu no wa tanoshii desu.', de: 'Bücher zu lesen macht Spaß.' }
         ],
         tip: 'Wenn du eine Vorliebe bewertest, ist ～のが oft natürlicher. Wenn du definierst oder hervorhebst, passt ～のは～です.'
       },
@@ -7625,7 +7625,7 @@
         heading: 'Pragmatische Nuance',
         text: 'Die Form trägt oft einen leicht kritischen Unterton. Wer „so tut als ob“, versteckt etwas, schützt sich, vermeidet Verantwortung oder will eine Situation steuern. In Erzählungen kann die Form aber auch Mitgefühl ausdrücken, etwa wenn jemand tapfer wirkt, obwohl er leidet.',
         examples: [
-          { jp: '母は心配しているのに、何でもないふりをしました。', romaji: 'Haha wa shinpai shite iru noni, nandemo nai furi o shimashita.', de: 'Obwohl meine Mutter sich Sorgen machte, tat ich so, als wäre nichts.' },
+          { jp: '母は心配しているのに、何でもないふりをしました。', romaji: 'Haha wa shinpai shite iru noni, nandemo nai furi o shimashita.', de: 'Obwohl meine Mutter sich Sorgen machte, tat sie so, als wäre nichts.' },
           { jp: '彼はみんなの前で泣かないふりをした。', romaji: 'Kare wa minna no mae de nakanai furi o shita.', de: 'Er tat vor allen so, als würde er nicht weinen.' }
         ],
         tip: 'Achte auf den Kontext: Die Form kann vorwurfsvoll, traurig, tapfer oder ironisch klingen.'

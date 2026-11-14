@@ -62,6 +62,29 @@ sources (after `--words` and `scripts/research-vocabulary-frequency.py`), and
 Some standard placements look surprising (人間, 理解 and 今回 at N3; 俺 at N2, capped from N1).
 Grammar levels were not changed: no second grammar reference was reachable.
 
+# German corrections from the English translation — 14 November 2026
+
+Translating the explanatory content into English (see `TRANSLATION.md`) surfaced errors in the
+German source. They were fixed in the German first, then the English was renewed.
+
+- **Grammar (21 entries).** Formations that named the wrong form: ～ともなく, ～なくして,
+  ～こそあれ/～こそすれ (ます-stem), ～ばかり, ～をきっかけに, ～まい, ～んばかり. Wrong claims:
+  下手 about yourself is normal, 有名 does not end in い, ～だらけ is not neutral, いらっしゃる
+  does not replace ある, ～ていらっしゃる shortens to ～てらっしゃる, お見えになる is accepted
+  double keigo. Unnatural examples were replaced: 失敗にして初めて, この痛みは耐えるに堪えない,
+  増えこそあれ. The ～にない card (彼にない真剣な表情) now teaches ～になく (いつになく,
+  例年になく). Changed cloze examples have renewed quiz reviews.
+- **Lessons (14).** For example: the potential form "sounds more open", ようだ/みたい after
+  na-adjectives, だ before かもしれない, いえ from 言える, に他ならない "always positive", one register
+  for ばかりか, and unnatural examples (好きになるようになった, 趣味は本を読むのです).
+- **Reading and listening (5).** Notes and explanations: a garbled note, a misquoted phrase, and
+  "first/last paragraph" for one-paragraph texts. The pinned hashes of listening-n5-4 and
+  listening-n1-6 were renewed.
+
+Checked and left unchanged: the lesson number in lesson-6 (the て-form lesson is shown as
+lesson 9), からいうと after people (a standard textbook rule), and floor numbers in the reading
+units (the German counts floors like the Japanese throughout: 二階 = zweiter Stock).
+
 # Content update — September 2026
 
 ## Guided comprehension

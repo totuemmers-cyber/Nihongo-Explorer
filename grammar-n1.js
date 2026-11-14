@@ -661,7 +661,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Partikel",
     "meaning": "wert sein / unerträglich",
     "explanation": "にたえる hat zwei gegensätzliche Bedeutungen: 1) In positiver Form bedeutet es, dass etwas wert ist (鑑賞に堪える = wert anzusehen). 2) In negativer Form (にたえない) bedeutet es, dass etwas unerträglich ist oder man etwas nicht ertragen kann. Der Kontext bestimmt die Bedeutung.",
-    "formation": "Nomen + にたえる/にたえない",
+    "formation": "Nomen / Verb (Wörterbuchform) + にたえる/にたえない",
     "examples": [
       {
         "japanese": "この作品は鑑賞に堪える名作だ。",
@@ -698,12 +698,12 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
         }
       },
       {
-        "japanese": "この痛みは耐えるに堪えない。",
-        "romaji": "Kono itami wa taeru ni taenai.",
-        "german": "Dieser Schmerz ist nicht zu ertragen."
+        "japanese": "彼の演説は聞くに堪えないものだった。",
+        "romaji": "Kare no enzetsu wa kiku ni taenai mono datta.",
+        "german": "Seine Rede war unerträglich anzuhören."
       }
     ],
-    "notes": "Sehr formell. Die Bedeutung hängt stark vom Kontext ab (positiv vs. negativ).",
+    "notes": "Sehr formell. Die Bedeutung hängt stark vom Kontext ab (positiv vs. negativ). Nach Gefühlswörtern bedeutet ～に堪えない dagegen „überaus …“: 感謝の念に堪えない (ich bin zutiefst dankbar).",
     "related": [
       "n2-ni-ataru",
       "n1-ni-taru"
@@ -1415,7 +1415,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～を限りに",
     "level": "N1",
     "category": "Partikel",
-    "meaning": "ab (als Endpunkt)",
+    "meaning": "mit … als Endpunkt, letztmals",
     "explanation": "を限りに drückt aus, dass etwas zu einem bestimmten Zeitpunkt endet und danach nicht mehr fortgesetzt wird. Es markiert einen klaren Endpunkt oder Abschluss. Diese Konstruktion wird oft in offiziellen Ankündigungen verwendet, um das Ende von etwas zu verkünden.",
     "formation": "Zeitpunkt/Nomen + を限りに",
     "examples": [
@@ -1459,7 +1459,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
           "answer": "を限りに"
         },
         "romaji": "Kongetsu o kagiri ni, kono mise wa heiten shimasu.",
-        "german": "Ab diesem Monat schließt dieses Geschäft."
+        "german": "Mit Ende dieses Monats schließt dieses Geschäft."
       }
     ],
     "notes": "Wird für offizielle Ankündigungen von Beendigungen verwendet. Markiert klaren Endpunkt.",
@@ -4358,7 +4358,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Verben",
     "meaning": "als ob gleich",
     "explanation": "Drückt aus, dass etwas so aussieht oder sich so anfühlt, als würde es gleich passieren. Diese Struktur wird verwendet, um eine intensive oder extreme Situation bildhaft zu beschreiben. Betont die Unmittelbarkeit oder Intensität eines Zustands.",
-    "formation": "Verb-ない-Stamm + んばかりに (する→せんばかりに) / Verb-た-Form + ばかりに",
+    "formation": "Verb-ない-Stamm + んばかり(に/の/だ) (する → せんばかりに)",
     "examples": [
       {
         "japanese": "彼は今にも泣かんばかりの顔をしていた。",
@@ -5243,7 +5243,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Satzstrukturen",
     "meaning": "ohne bestimmte Absicht",
     "explanation": "Drückt aus, dass eine Handlung ohne klare Absicht oder bestimmtes Ziel durchgeführt wird. Die Person handelt unbewusst oder ziellos.",
-    "formation": "Verb ます-Form + ともなく/ともなしに\n聞く → 聞くともなく",
+    "formation": "Verb (Wörterbuchform) + ともなく/ともなしに + dasselbe Verb\n見る → 見るともなく見る\nFragewort + ともなく: どこともなく, 何ともなく",
     "examples": [
       {
         "japanese": "テレビを見るともなく見ていた。",
@@ -5370,7 +5370,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Satzstrukturen",
     "meaning": "ohne ... (ist es unmöglich)",
     "explanation": "Drückt aus, dass etwas eine unverzichtbare Bedingung ist. Ohne diese Bedingung kann das Ergebnis nicht erreicht werden.",
-    "formation": "Nomen + なくして(は)\nVerb ない-Form (く) + なくして(は)",
+    "formation": "Nomen + なくして(は)\nVerb (Wörterbuchform) + こと + なくして(は)",
     "examples": [
       {
         "japanese": "努力なくして成功はない。",
@@ -5764,18 +5764,18 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Satzstrukturen",
     "meaning": "erst wenn/nachdem, nur durch",
     "explanation": "Betont, dass etwas erst nach einem bestimmten Ereignis oder unter bestimmten Umständen möglich oder erkennbar wird. Unterstreicht die Bedeutung der Voraussetzung.",
-    "formation": "Nomen + にして初めて\nVerb て-Form + にして初めて",
+    "formation": "Nomen (Alter, Stellung, Person) + にして初めて\nMit Verben: て-Form + 初めて (siehe ～て初めて)",
     "examples": [
       {
-        "japanese": "失敗にして初めて、その大切さが分かった。",
+        "japanese": "四十歳にして初めて、親の苦労が分かった。",
         "cloze": {
-          "start": 2,
+          "start": 3,
           "answer": "にして初めて",
           "quiz": {
             "level": "N1",
-            "japanese": "失敗にして初めて、その大切さが分かった。",
-            "german": "Erst durch das Scheitern verstand ich dessen Wichtigkeit.",
-            "start": 2,
+            "japanese": "四十歳にして初めて、親の苦労が分かった。",
+            "german": "Erst mit vierzig verstand ich, wie viel Mühe sich meine Eltern gemacht hatten.",
+            "start": 3,
             "answer": "にして初めて",
             "acceptedAnswers": [
               "にして初めて"
@@ -5796,8 +5796,8 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Shippai ni shite hajimete, sono taisetsusa ga wakatta.",
-        "german": "Erst durch das Scheitern verstand ich dessen Wichtigkeit."
+        "romaji": "Yonjuussai ni shite hajimete, oya no kurō ga wakatta.",
+        "german": "Erst mit vierzig verstand ich, wie viel Mühe sich meine Eltern gemacht hatten."
       },
       {
         "japanese": "親になって初めて、親の気持ちが理解できた。",
@@ -5872,57 +5872,57 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
   },
   {
     "id": "n1-ninaku",
-    "pattern": "～にない",
+    "pattern": "～になく",
     "level": "N1",
     "category": "Satzstrukturen",
-    "meaning": "ungewöhnlich für, selten bei",
-    "explanation": "Drückt aus, dass etwas für eine Person oder Gruppe ungewöhnlich oder untypisch ist. Betont die Außergewöhnlichkeit.",
-    "formation": "Nomen + にない + Nomen",
+    "meaning": "anders als sonst, ungewöhnlich",
+    "explanation": "Drückt aus, dass etwas anders ist als gewöhnlich oder als in vergleichbaren Fällen. Am häufigsten sind いつになく (anders als sonst) und 例年になく (anders als in anderen Jahren). Betont die Außergewöhnlichkeit.",
+    "formation": "いつ / 例年 + になく + Adjektiv/Verb\nVor einem Nomen: いつにない + Nomen",
     "examples": [
       {
-        "japanese": "彼にない真剣な表情だった。",
+        "japanese": "彼はいつになく真剣な表情だった。",
         "cloze": {
-          "start": 1,
-          "answer": "にない",
+          "start": 4,
+          "answer": "になく",
           "quiz": {
             "level": "N1",
-            "japanese": "彼にない真剣な表情だった。",
-            "german": "Es war ein für ihn ungewöhnlich ernster Gesichtsausdruck.",
-            "start": 1,
-            "answer": "にない",
+            "japanese": "彼はいつになく真剣な表情だった。",
+            "german": "Er machte ein ungewöhnlich ernstes Gesicht.",
+            "start": 4,
+            "answer": "になく",
             "acceptedAnswers": [
-              "にない"
+              "になく"
             ],
             "distractors": [
               {
-                "text": "にないます",
-                "reason": "ない erhält kein angehängtes ます."
+                "text": "をなく",
+                "reason": "Die feste Wendung verlangt に, nicht を."
               },
               {
-                "text": "にないな",
-                "reason": "Vor 真剣な steht hier kein zusätzliches な."
+                "text": "になくます",
+                "reason": "ます kann nicht an die adverbiale Form なく angehängt werden."
               },
               {
-                "text": "をない",
-                "reason": "ない verlangt hier keine Objektpartikel."
+                "text": "でなく",
+                "reason": "でなく bedeutet „nicht …, sondern“ und ergibt nach いつ keinen Sinn."
               }
             ]
           }
         },
-        "romaji": "Kare ni nai shinken na hyōjō datta.",
-        "german": "Es war ein für ihn ungewöhnlich ernster Gesichtsausdruck."
+        "romaji": "Kare wa itsu ni naku shinken na hyōjō datta.",
+        "german": "Er machte ein ungewöhnlich ernstes Gesicht."
       },
       {
-        "japanese": "彼女にない優しさを見せた。",
+        "japanese": "今年は例年になく雪が多い。",
         "cloze": {
-          "start": 2,
-          "answer": "にない"
+          "start": 5,
+          "answer": "になく"
         },
-        "romaji": "Kanojo ni nai yasashisa wo miseta.",
-        "german": "Sie zeigte eine für sie untypische Freundlichkeit."
+        "romaji": "Kotoshi wa reinen ni naku yuki ga ōi.",
+        "german": "Dieses Jahr fällt mehr Schnee als in anderen Jahren."
       }
     ],
-    "notes": "Betont den Kontrast zum normalen Verhalten oder Zustand.",
+    "notes": "Betont den Kontrast zum normalen Verhalten oder Zustand. Vor einem Nomen steht いつにない: いつにない真剣な表情. Ähnlich: 柄にもなく (ganz untypisch für jemanden).",
     "related": [
       "n4-rashii-adj",
       "n1-niaramajiki"
@@ -7494,20 +7494,20 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "pattern": "～こそあれ",
     "level": "N1",
     "category": "Satzstrukturen",
-    "meaning": "zwar ... aber, gerade ... aber keinesfalls",
-    "explanation": "Gibt zu, dass etwas in eine Richtung geht, schließt aber das Gegenteil aus. Sehr literarischer Ausdruck.",
-    "formation": "Nomen + こそあれ\nVerb ます-Form + こそすれ",
+    "meaning": "zwar (gibt es) ..., aber",
+    "explanation": "Räumt ein, dass etwas vorhanden ist (程度の差こそあれ: Unterschiede im Grad gibt es zwar), und stellt dem etwas Gegensätzliches gegenüber. Sehr literarischer Ausdruck. Nach Verben steht stattdessen ～こそすれ.",
+    "formation": "Nomen + こそあれ\nな-Adjektiv + でこそあれ",
     "examples": [
       {
-        "japanese": "増えこそあれ、減ることはない。",
+        "japanese": "彼の言葉には皮肉こそあれ、悪意はなかった。",
         "cloze": {
-          "start": 2,
+          "start": 8,
           "answer": "こそあれ",
           "quiz": {
             "level": "N1",
-            "japanese": "増えこそあれ、減ることはない。",
-            "german": "Es mag zunehmen, aber abnehmen wird es nicht.",
-            "start": 2,
+            "japanese": "彼の言葉には皮肉こそあれ、悪意はなかった。",
+            "german": "In seinen Worten lag zwar Ironie, aber keine Bosheit.",
+            "start": 8,
             "answer": "こそあれ",
             "acceptedAnswers": [
               "こそあれ"
@@ -7528,13 +7528,13 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
             ]
           }
         },
-        "romaji": "Fue koso are, heru koto wa nai.",
-        "german": "Es mag zunehmen, aber abnehmen wird es nicht."
+        "romaji": "Kare no kotoba ni wa hiniku koso are, akui wa nakatta.",
+        "german": "In seinen Worten lag zwar Ironie, aber keine Bosheit."
       },
       {
-        "japanese": "彼女は怒りこそすれ、喜ぶことはないだろう。",
-        "romaji": "Kanojo wa okori koso sure, yorokobu koto wa nai darō.",
-        "german": "Sie wird eher wütend sein, sich aber sicher nicht freuen."
+        "japanese": "程度の差こそあれ、誰にでも欠点はある。",
+        "romaji": "Teido no sa koso are, dare ni demo ketten wa aru.",
+        "german": "Mehr oder weniger hat jeder seine Schwächen."
       }
     ],
     "notes": "Sehr literarisch, in moderner Umgangssprache nicht gebräuchlich.",
@@ -7550,7 +7550,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Satzstrukturen",
     "meaning": "zwar (eher so), aber keinesfalls das Gegenteil",
     "explanation": "Ähnlich wie こそあれ, betont dass etwas in eine Richtung tendiert, aber definitiv nicht das Gegenteil ist. Sehr literarisch.",
-    "formation": "Verb ます-Form + こそすれ",
+    "formation": "Verb-ます-Stamm + こそすれ\nする-Nomen + こそすれ (感謝こそすれ)",
     "examples": [
       {
         "japanese": "困難は増しこそすれ、減りはしない。",

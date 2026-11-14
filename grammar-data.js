@@ -2554,7 +2554,7 @@ window.GRAMMAR_DATA = [
         "german": "Ich mag große Hunde."
       }
     ],
-    "notes": "きれい (schön) und 有名 (berühmt) sehen aus wie い-Adjektive, sind aber な-Adjektive! Das い gehört dort zum Wortstamm.",
+    "notes": "きれい (schön) und きらい (nicht mögen) sehen aus wie い-Adjektive, sind aber な-Adjektive! Das い gehört dort zum Wortstamm.",
     "related": [
       "i-adj-negative",
       "i-adj-past",
@@ -3081,7 +3081,7 @@ window.GRAMMAR_DATA = [
         "german": "Ich bin schlecht im Singen."
       }
     ],
-    "notes": "上手 und 下手 verwendet man nicht für sich selbst in der höflichen Sprache. Für sich selbst sagt man eher 得意 (tokui, gut in) oder 苦手 (nigate, schlecht in).",
+    "notes": "上手 benutzt man nicht für die eigenen Fähigkeiten – das klänge nach Eigenlob. Bescheidener sagt man 得意 (tokui, gut in). 下手 über sich selbst ist dagegen normal und bescheiden (歌を歌うのが下手です); daneben gibt es 苦手 (nigate, liegt mir nicht).",
     "related": [
       "no"
     ]
@@ -4982,7 +4982,7 @@ window.GRAMMAR_DATA = [
     "category": "Partikel",
     "meaning": "Nur, nichts als",
     "explanation": "ばかり drückt aus, dass jemand ausschließlich oder übermäßig etwas tut.",
-    "formation": "Verb (て-Form) + ばかり / Nomen + ばかり",
+    "formation": "Nomen + ばかり / Verb (て-Form) + ばかりいる",
     "examples": [
       {
         "japanese": "彼はゲームばかりしている。",
@@ -13801,7 +13801,7 @@ window.GRAMMAR_DATA = [
       {
         "japanese": "申し込みの際に、身分証明書が必要です。",
         "romaji": "Mōshikomi no sai ni, mibun shōmeisho ga hitsuyō desu.",
-        "german": "Bei der Anmeldung ist ein Ausweis erforderlich."
+        "german": "Für die Anmeldung wird ein Ausweis benötigt."
       }
     ],
     "notes": "Formell/schriftlich. Alltagssprache: ～時に.",
@@ -15855,7 +15855,7 @@ window.GRAMMAR_DATA = [
     "category": "Partikel",
     "meaning": "Ausgelöst durch, als Anlass",
     "explanation": "をきっかけに: ein Ereignis wird zum Auslöser für eine Veränderung.",
-    "formation": "Nomen/Verb (た形) + のをきっかけに",
+    "formation": "Nomen + をきっかけに / Verb (た形) + のをきっかけに",
     "examples": [
       {
         "japanese": "留学をきっかけに日本語を勉強し始めた。",

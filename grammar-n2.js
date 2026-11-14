@@ -3553,7 +3553,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "category": "Verben",
     "meaning": "werde nicht, wahrscheinlich nicht, will nicht",
     "explanation": "まい drückt aus: 1) starke Absicht, etwas nicht zu tun (Entschlossenheit), 2) Vermutung, dass etwas wahrscheinlich nicht geschehen wird.",
-    "formation": "Verb-Grundform + まい (Gruppe 1) / Verb-ます-Stamm + まい (Gruppe 2) / するまい, 来まい",
+    "formation": "Verb-Grundform + まい / bei Gruppe 2 auch ます-Stamm + まい (食べるまい・食べまい) / するまい・しまい, 来るまい・来まい",
     "examples": [
       {
         "japanese": "二度とあんな失敗はするまい。",
@@ -3779,7 +3779,7 @@ window.GRAMMAR_DATA.push.apply(window.GRAMMAR_DATA, [
     "level": "N1",
     "category": "Adjektive",
     "meaning": "bedeckt mit, voller (negativ)",
-    "explanation": "まみれ wird an Nomen angehängt und bildet ein な-Adjektiv, das beschreibt, dass etwas mit einer unangenehmen Substanz bedeckt oder verschmutzt ist. Fast immer negativ konnotiert — für positive Bedeutungen wird ～だらけ (neutraler) oder ～いっぱい verwendet.",
+    "explanation": "まみれ wird an Nomen angehängt und bildet ein な-Adjektiv, das beschreibt, dass etwas mit einer unangenehmen Substanz bedeckt oder verschmutzt ist. Fast immer negativ konnotiert. Auch ～だらけ klingt meist negativ; neutral oder positiv sagt man ～でいっぱい.",
     "formation": "Nomen + まみれ (+ の/だ/な)",
     "examples": [
       {
