@@ -1,40 +1,11 @@
 /* Kana tab: extended katakana and the small-character table render and play their examples. */
-const fs = require('fs');
-const path = require('path');
 const assert = require('node:assert/strict');
-const { JSDOM, ResourceLoader, VirtualConsole } = require('jsdom');
-const ROOT = path.resolve(__dirname, '..');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(predicate, label) {
-  for (let i = 0; i < 400; i++) { if (predicate()) return; await delay(20); }
-  throw new Error('Timed out: ' + label);
-}
-class LocalResources extends ResourceLoader {
-  fetch(url) {
-    if (!url.startsWith('http://nihongo.test/')) return null;
-    return Promise.resolve(fs.readFileSync(path.join(ROOT, decodeURIComponent(new URL(url).pathname))));
-  }
-}
+const { until, installStubs, openPage } = require('./dom-harness.cjs');
 
 async function run() {
-  const errors = [], spoken = [];
-  const virtualConsole = new VirtualConsole();
-  virtualConsole.on('jsdomError', e => errors.push(e));
-  const dom = new JSDOM(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'), {
-    url: 'http://nihongo.test/index.html#kana', resources: new LocalResources(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole,
-    beforeParse(w) {
-      // These checks cover the German interface; a stored choice selects it (English is the default).
-      w.localStorage.setItem('nihongo-lang', 'de');
-      w.innerWidth = 1440;
-      w.matchMedia = () => ({ matches: false, addEventListener() {} });
-      w.scrollTo = () => {};
-      w.HTMLElement.prototype.scrollIntoView = function () {};
-      w.IntersectionObserver = function () { this.observe = function () {}; this.disconnect = function () {}; };
-      w.SpeechSynthesisUtterance = function (text) { this.text = text; };
-      w.speechSynthesis = { getVoices: () => [], cancel() {}, resume() {}, speak: utterance => spoken.push(utterance.text) };
-    }
-  });
-  const w = dom.window, d = w.document;
+  const spoken = [];
+  // These checks cover the German interface (installStubs stores it; English is the default).
+  const { w, d, errors } = openPage({ hash: '#kana', beforeParse: w => installStubs(w, { spoken }) });
   try {
     await until(() => w.app && w.app.workspace && d.querySelector('.kana-special-table'), 'kana ready');
     const data = w.KANA_DATA;

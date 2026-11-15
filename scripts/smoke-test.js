@@ -1,17 +1,7 @@
-const fs = require('fs');
 const path = require('path');
-const { JSDOM, ResourceLoader } = require('jsdom');
+const { ROOT, until, LocalResources, openPage } = require('./dom-harness.cjs');
 
-const ROOT = path.resolve(__dirname, '..');
 const INDEX_PATH = path.join(ROOT, 'index.html');
-
-// This DOM test exercises local application resources, without depending on fonts/CDNs.
-class LocalResources extends ResourceLoader {
-  fetch(url, options) {
-    if (url.startsWith('http://nihongo.test/')) return Promise.resolve(fs.readFileSync(path.join(ROOT, decodeURIComponent(new URL(url).pathname))));
-    return url.startsWith('file:') ? super.fetch(url, options) : null;
-  }
-}
 
 function assert(condition, message) {
   if (!condition) {
@@ -26,36 +16,7 @@ function textWithoutFurigana(element) {
   return copy.textContent;
 }
 
-function waitFor(predicate, options) {
-  const timeoutMs = (options && options.timeoutMs) || 12000;
-  const intervalMs = (options && options.intervalMs) || 25;
-  const description = (options && options.description) || 'condition';
-
-  return new Promise(function (resolve, reject) {
-    const start = Date.now();
-
-    function tick() {
-      try {
-        if (predicate()) {
-          resolve();
-          return;
-        }
-      } catch (error) {
-        reject(error);
-        return;
-      }
-
-      if (Date.now() - start >= timeoutMs) {
-        reject(new Error('Timed out waiting for ' + description));
-        return;
-      }
-
-      setTimeout(tick, intervalMs);
-    }
-
-    tick();
-  });
-}
+const waitFor = (predicate, options) => until(predicate, options.description, options.timeoutMs);
 
 function click(element, window) {
   assert(element, 'Missing element to click');
@@ -68,13 +29,12 @@ function click(element, window) {
 }
 
 async function run() {
-  const html = fs.readFileSync(INDEX_PATH, 'utf8');
   const spokenTexts = [];
-  const dom = new JSDOM(html, {
+  // This DOM test exercises local application resources from a file: URL, without fonts/CDNs.
+  const { dom } = openPage({
     url: 'file:///' + INDEX_PATH.replace(/\\/g, '/'),
-    runScripts: 'dangerously',
-    resources: new LocalResources(),
-    pretendToBeVisual: true,
+    resources: new LocalResources({ allowFile: true }),
+    forwardConsole: true,
     beforeParse(window) {
       window.HTMLElement.prototype.scrollIntoView = function () {};
       const originalError = console.error.bind(console);

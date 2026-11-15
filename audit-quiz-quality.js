@@ -1,5 +1,4 @@
-const fs = require('fs');
-const vm = require('vm');
+const { loadData, vocabSources, loadVocabMerge } = require('./scripts/data-context.cjs');
 
 const DATA_FILES = [
   'grammar-data.js',
@@ -55,26 +54,15 @@ ctx.app = {
 };
 ctx.window.app = ctx.app;
 
-DATA_FILES.forEach(function (file) {
-  vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
-});
+loadData(DATA_FILES, ctx);
 
-const rawVocabSources = [
-  { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
-  { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
-  { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
-  { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
-  { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
-  { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
-  { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
-];
+const rawVocabSources = vocabSources(ctx);
 const normalizedVocabSources = ctx.getNormalizedVocabSources
   ? ctx.getNormalizedVocabSources(rawVocabSources)
   : rawVocabSources;
 
 // Use the same merged inventory that learners can actually see.
-const appSource = fs.readFileSync('app.js', 'utf8');
-vm.runInNewContext(appSource.slice(appSource.indexOf('  var INTENTIONAL_VOCAB_OVERLAP_KEYS'), appSource.indexOf('  var sectionLoaders')), ctx);
+loadVocabMerge(ctx);
 ctx.app.sections.vocab.allItems = ctx.mergeVocabSources(normalizedVocabSources);
 ctx.app.sections.kanji.allItems = []
   .concat(ctx.KANJI_DATA || [])

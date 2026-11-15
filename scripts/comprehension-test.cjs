@@ -1,38 +1,22 @@
-const fs = require('node:fs'), path = require('node:path'), assert = require('node:assert/strict');
-const { JSDOM, ResourceLoader, VirtualConsole } = require('jsdom');
-const root = path.resolve(__dirname, '..');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(fn, label) { for (let i = 0; i < 500; i++) { if (fn()) return; await delay(10); } throw new Error('Timeout: ' + label); }
+const assert = require('node:assert/strict');
+const { until, delay, LocalResources, installStubs, openPage } = require('./dom-harness.cjs');
 async function boot(hash = '#reading', options = {}) {
-  const errors = [], requests = [], media = [], stored = options.progress;
+  const requests = [], media = [], stored = options.progress;
   let block = !!options.block;
-  class Local extends ResourceLoader {
-    fetch(url) {
-      if (!url.startsWith('http://nihongo.test/')) return null;
-      const name = new URL(url).pathname.slice(1); requests.push(name);
-      if (name === 'comprehension-data.js' && block) { block = false; return Promise.reject(new Error('Intentional content failure')); }
-      return Promise.resolve(fs.readFileSync(path.join(root, name)));
-    }
-  }
-  const log = new VirtualConsole(); log.on('jsdomError', e => { if (!e.message.includes('Could not load script')) errors.push(e); });
-  const dom = new JSDOM(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), {
-    url: 'http://nihongo.test/index.html' + hash, resources: new Local(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: log,
-    beforeParse(w) {
-      w.innerWidth = 1440; w.matchMedia = () => ({ matches: false, addEventListener() {} });
-      w.scrollTo = (x, y) => { w.scrollY = typeof x === 'object' ? x.top || 0 : y; }; w.HTMLElement.prototype.scrollIntoView = function () {};
-      w.IntersectionObserver = function () { this.observe = () => {}; this.disconnect = () => {}; };
-      w.speechSynthesis = { getVoices: () => [], speak() {}, cancel() {}, resume() {} }; w.SpeechSynthesisUtterance = function () {};
-      w.HTMLMediaElement.prototype.play = function () { media.push(['play', this]); return options.rejectPlay ? Promise.reject(new Error('Playback unavailable')) : Promise.resolve(); };
-      w.HTMLMediaElement.prototype.pause = function () { media.push(['pause', this]); };
-      w.HTMLMediaElement.prototype.load = function () { media.push(['load', this]); };
-      // These checks cover the German interface; a stored choice selects it (English is the default).
-      w.localStorage.setItem('nihongo-lang', 'de');
-      if (stored) w.localStorage.setItem('nihongo-comprehension-v1', stored);
-      if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
-      if (options.noStorage) { w.Storage.prototype.setItem = function () { throw new Error('Storage disabled'); }; }
-    }
-  });
-  const w = dom.window, d = w.document;
+  const resources = new LocalResources({ intercept(name) {
+    requests.push(name);
+    if (name === 'comprehension-data.js' && block) { block = false; return Promise.reject(new Error('Intentional content failure')); }
+  } });
+  const { dom, w, d, errors } = openPage({ hash, resources, ignoreError: e => e.message.includes('Could not load script'), beforeParse(w) {
+    // These checks cover the German interface (installStubs stores it; English is the default).
+    installStubs(w);
+    w.HTMLMediaElement.prototype.play = function () { media.push(['play', this]); return options.rejectPlay ? Promise.reject(new Error('Playback unavailable')) : Promise.resolve(); };
+    w.HTMLMediaElement.prototype.pause = function () { media.push(['pause', this]); };
+    w.HTMLMediaElement.prototype.load = function () { media.push(['load', this]); };
+    if (stored) w.localStorage.setItem('nihongo-comprehension-v1', stored);
+    if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
+    if (options.noStorage) { w.Storage.prototype.setItem = function () { throw new Error('Storage disabled'); }; }
+  } });
   await until(() => w.app && w.app.workspace && w.history.state, 'boot');
   return { dom, w, d, errors, media, requests };
 }

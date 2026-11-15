@@ -1,7 +1,7 @@
-const fs=require('fs'),path=require('path'),vm=require('vm'),assert=require('assert');
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const {loadData,vocabSources,loadVocabMerge}=require('./data-context.cjs');
 const root=path.resolve(__dirname,'..');
-const c={console,document:{readyState:'loading',addEventListener(){}}};c.window=c;
-for(const f of ['kangxi-radicals-data.js','kanji-data.js','kanji-n1.js','app-constants.js','grammar-data.js','grammar-n2.js','grammar-n1.js','keigo-data.js','grammar-lessons.js','onomatopoeia-data.js','vocab-n5.js','vocab-n4.js','vocab-n3.js','vocab-n2.js','vocab-n1.js','yojijukugo-data.js','idioms-data.js','conjugation.js','vocab-correction-rules.js','vocab-example-overrides.js','vocab-corrections.js'])vm.runInNewContext(fs.readFileSync(path.join(root,f),'utf8'),c,{filename:f});
+const c=loadData(['kangxi-radicals-data.js','kanji-data.js','kanji-n1.js','app-constants.js','grammar-data.js','grammar-n2.js','grammar-n1.js','keigo-data.js','grammar-lessons.js','onomatopoeia-data.js','vocab-n5.js','vocab-n4.js','vocab-n3.js','vocab-n2.js','vocab-n1.js','yojijukugo-data.js','idioms-data.js','conjugation.js','vocab-correction-rules.js','vocab-example-overrides.js','vocab-corrections.js'],{console,document:{readyState:'loading',addEventListener(){}}});
 const norm=s=>s.normalize('NFKC').replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-96));
 const kanji=c.KANJI_DATA.concat(c.KANJI_N1_DATA);
 assert.equal(new Set(c.KANGXI_RADICALS.map(r=>r.radical)).size,214,'Radicals must be distinct');
@@ -98,10 +98,8 @@ for(const o of ono){
   if(o.editorialBatch||o.enrichedBatch){assert(o.examples.length>=2,'Two contexts required: '+o.word);assert(o.notes&&o.usage,'Usage missing: '+o.word);}
   for(const e of o.examples){assert(e.japanese&&e.romaji&&e.german,'Incomplete example: '+o.word);}
 }
-const rawSources=['N5','N4','N3','N2','N1'].map(l=>({name:'vocab-'+l.toLowerCase(),items:c['VOCAB_'+l]}));
-rawSources.push({name:'yojijukugo',items:c.YOJIJUKUGO_DATA},{name:'idioms',items:c.IDIOMS_DATA});
-const app=fs.readFileSync(path.join(root,'app.js'),'utf8');
-vm.runInNewContext(app.slice(app.indexOf('  var INTENTIONAL_VOCAB_OVERLAP_KEYS'),app.indexOf('  var sectionLoaders')),c);
+const rawSources=vocabSources(c);
+loadVocabMerge(c);
 const vocab=c.mergeVocabSources(c.getNormalizedVocabSources(rawSources));
 const enriched=vocab.filter(v=>v.editorialBatch==='2026-09-content');
 assert.equal(enriched.length,90,'All 90 editorial entries must survive runtime merging');

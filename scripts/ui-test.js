@@ -1,44 +1,16 @@
 /* Behavioral regression tests. Layout and native browser input still require visual QA. */
-const fs = require('fs');
-const path = require('path');
 const assert = require('node:assert/strict');
-const { JSDOM, ResourceLoader, VirtualConsole } = require('jsdom');
-const ROOT = path.resolve(__dirname, '..');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(predicate, label) {
-  for (let i = 0; i < 400; i++) { if (predicate()) return; await delay(20); }
-  throw new Error('Timed out: ' + label);
-}
-class LocalResources extends ResourceLoader {
-  fetch(url) {
-    if (!url.startsWith('http://nihongo.test/')) return null;
-    return Promise.resolve(fs.readFileSync(path.join(ROOT, decodeURIComponent(new URL(url).pathname))));
-  }
-}
+const { delay, until, installStubs, openPage } = require('./dom-harness.cjs');
 async function boot(hash = '#kana', session = null, dark = false) {
-  const errors = [], spoken = [], intervals = new Set();
-  const console = new VirtualConsole();
-  console.on('jsdomError', e => errors.push(e));
-  const dom = new JSDOM(fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8'), {
-    url: 'http://nihongo.test/index.html' + hash, resources: new LocalResources(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: console,
-    beforeParse(w) {
-      // These checks cover the German interface; a stored choice selects it (English is the default).
-      w.localStorage.setItem('nihongo-lang', 'de');
-      w.innerWidth = 1440;
-      w.matchMedia = q => ({ matches: dark && q.includes('prefers-color-scheme'), addEventListener() {} });
-      w.scrollTo = (x, y) => { w.scrollY = typeof x === 'object' ? x.top || 0 : y; };
-      w.HTMLElement.prototype.scrollIntoView = function () {};
-      w.IntersectionObserver = function () { this.observe = function () {}; this.disconnect = function () {}; };
-      w.confirm = () => true;
-      w.SpeechSynthesisUtterance = function (text) { this.text = text; };
-      w.speechSynthesis = { getVoices: () => [], cancel() {}, resume() {}, speak: utterance => spoken.push(utterance.text) };
-      const set = w.setInterval.bind(w), clear = w.clearInterval.bind(w);
-      w.setInterval = (fn, ms) => { const id = set(fn, ms); intervals.add(id); return id; };
-      w.clearInterval = id => { intervals.delete(id); clear(id); };
-      if (session) w.sessionStorage.setItem('nihongo-workspace', session);
-    }
-  });
-  const w = dom.window, d = w.document;
+  const spoken = [], intervals = new Set();
+  // These checks cover the German interface (installStubs stores it; English is the default).
+  const { dom, w, d, errors } = openPage({ hash, beforeParse(w) {
+    installStubs(w, { spoken, dark });
+    const set = w.setInterval.bind(w), clear = w.clearInterval.bind(w);
+    w.setInterval = (fn, ms) => { const id = set(fn, ms); intervals.add(id); return id; };
+    w.clearInterval = id => { intervals.delete(id); clear(id); };
+    if (session) w.sessionStorage.setItem('nihongo-workspace', session);
+  } });
   await until(() => w.app && w.app.workspace && w.history.state && w.history.state.workspace, 'workspace ready');
   return { dom, w, d, errors, spoken, intervals };
 }

@@ -3,15 +3,52 @@ const fs = require('fs');
 const os = require('os');
 const path = require('path');
 const cp = require('child_process');
-const { CHECKS, FULL_CHECKS, parseOptions, checkNames, runChecks } = require('./check.cjs');
+const { REGISTRY, NOT_CHECKS, CHECKS, FULL_CHECKS, GROUPS, parseOptions, checkNames, schedule, selectForChanges, runChecks } = require('./check.cjs');
+const scripts = require('../package.json').scripts;
 
-const EXPECTED = ['lint', 'test:smoke', 'test:ui', 'test:kana', 'test:storage', 'test:contrast', 'test:comprehension', 'test:audio', 'test:vocabulary-triage', 'test:romaji', 'test:furigana', 'test:i18n', 'audit:data', 'audit:verbs', 'audit:quiz', 'audit:content', 'audit:comprehension', 'audit:comprehension-links', 'audit:radicals', 'audit:counters', 'audit:beginner', 'audit:vocabulary', 'audit:vocab-runtime', 'audit:vocabulary-levels', 'audit:english', 'test:quiz-review', 'test:vocabulary-completion'];
-assert.deepEqual(CHECKS, EXPECTED.slice(0, 25));
-assert(EXPECTED.every(name => checkNames({ full: true }).includes(name)), 'All existing checks must remain in the full suite');
+// The registry is the only list of checks. No test: or audit: script may silently drop out of it.
+const names = REGISTRY.map(check => check.name);
+assert.equal(new Set(names).size, names.length, 'Repeated check');
+for (const check of REGISTRY) {
+  assert(scripts[check.name], 'Check without a package script: ' + check.name);
+  assert(['regular', 'full'].includes(check.tier) && Number.isFinite(check.weight) && check.weight > 0, 'Invalid registry entry ' + check.name);
+}
+for (const name of Object.keys(scripts).filter(name => /^(test|audit):/.test(name))) {
+  assert(names.includes(name) !== Object.hasOwn(NOT_CHECKS, name), name + ' must be either a check or listed in NOT_CHECKS with a reason');
+}
+assert.deepEqual(checkNames({ full: true }), [...CHECKS, ...FULL_CHECKS]);
 assert(FULL_CHECKS.includes('test:check-runner'));
 assert.deepEqual(checkNames(parseOptions(['--only=lint,test:audio', '--jobs=1'])), ['lint', 'test:audio']);
-for (const args of [['--jobs=0'], ['--jobs=1.5'], ['--jobs=17'], ['--jobs=NaN'], ['--full', '--only=lint'], ['--jobs=1', '--jobs=2'], ['--unknown']]) assert.throws(() => parseOptions(args));
+// The alias for the former chained group runs every script of that chain.
+assert.equal(scripts['test:vocabulary-completion'], 'node scripts/check.cjs --group=vocabulary-completion');
+assert.deepEqual(checkNames({ group: 'vocabulary-completion' }).map(name => scripts[name].replace(/^node scripts\//, '')).sort(),
+  ['vocabulary-author-review-test.cjs', 'vocabulary-batch-test.cjs', 'vocabulary-completion-addition-test.cjs import', 'vocabulary-completion-addition-test.cjs replay',
+    'vocabulary-completion-rejection-test.cjs', 'vocabulary-completion-replay-test.cjs additions', 'vocabulary-completion-replay-test.cjs content', 'vocabulary-correction-test.cjs', 'vocabulary-editorial-record-test.cjs', 'vocabulary-phase-test.cjs',
+    'vocabulary-research-cache-test.cjs', 'vocabulary-workflow-test.cjs']);
+assert(GROUPS.includes('vocabulary-completion'));
+for (const args of [['--jobs=0'], ['--jobs=1.5'], ['--jobs=17'], ['--jobs=NaN'], ['--full', '--only=lint'], ['--jobs=1', '--jobs=2'], ['--unknown'],
+  ['--group=vocabulary-completion', '--only=lint'], ['--changed', '--full'], ['--changed=a;b']]) assert.throws(() => parseOptions(args));
 for (const only of [[''], ['import:vocabulary-completion'], ['lint', 'lint']]) assert.throws(() => checkNames({ only }));
+assert.throws(() => checkNames({ group: 'unknown' }), /Unknown group/);
+// Longest first; equal weights keep the given order.
+assert.deepEqual(schedule(['x', 'y', 'z', 'w'], name => ({ x: 1, y: 5, z: 1, w: 0 })[name]), ['y', 'x', 'z', 'w']);
+assert.deepEqual(schedule(['a', 'b']), ['a', 'b'], 'Unknown checks keep their order');
+// Selection by changed files: scripts narrow it, application and data files select everything.
+const selected = files => selectForChanges(files, scripts).map(item => item.name);
+// (This test names files in literals itself, so test:check-runner may join a selection.)
+const narrow = (file, expected) => {
+  const got = selected([file]).filter(name => name !== 'test:check-runner');
+  assert.deepEqual(got, expected, file + ' selected ' + got.join(', '));
+};
+narrow('scripts/check.cjs', ['lint']);
+narrow('scripts/contrast-test.js', ['lint', 'test:contrast']);
+narrow('scripts/verb-review.json', ['audit:verbs']);
+assert(selected(['scripts/vocabulary-review-workflow.cjs']).includes('test:vocabulary-completion-replay-content'), 'A module reached through requires selects its checks');
+narrow('scripts/check.md', []);
+narrow('TRANSLATION.md', []);
+for (const file of ['app.js', 'vocab-n5.js', 'index.html', 'scripts/vocabulary-completion/999-new.json', 'scripts/deleted-test.cjs']) {
+  assert.deepEqual(selected([file]), names, file + ' must select every check');
+}
 
 const base = fs.mkdtempSync(path.join(os.tmpdir(), 'nihongo-check-runner-'));
 const fixture = `const fs = require('fs');
@@ -72,7 +109,7 @@ async function run() {
       assert.notEqual(rejected.status, 0);
       assert(!rejected.stdout.includes('PASS '));
     }
-    console.log('Check runner passed: all original checks retained, bounded parallelism, serial mode, focused selection, full-suite protection, chain failures, diagnostics and output limits.');
+    console.log('Check runner passed: registry consistency, longest-first scheduling, groups, changed-file selection, bounded parallelism, serial mode, focused selection, full-suite protection, chain failures, diagnostics and output limits.');
   } finally {
     const resolved = fs.realpathSync(base);
     assert.equal(path.dirname(resolved), fs.realpathSync(os.tmpdir()));

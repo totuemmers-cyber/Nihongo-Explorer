@@ -1,6 +1,5 @@
-const fs = require('fs');
-const vm = require('vm');
 const https = require('https');
+const { loadData, vocabSources } = require('./scripts/data-context.cjs');
 
 const DATA_FILES = [
   'grammar-data.js',
@@ -43,6 +42,13 @@ const SOURCE_URLS = {
 
 function loadContext() {
   const ctx = { window: {}, console };
+  // A reproducible question sample makes the result, and a failing audit, repeatable.
+  let randomSeed = 20261115;
+  ctx.Math = Object.create(Math);
+  ctx.Math.random = function () {
+    randomSeed = (Math.imul(1664525, randomSeed) + 1013904223) >>> 0;
+    return randomSeed / 4294967296;
+  };
   ctx.window = ctx;
   ctx.addEventListener = function () {};
   ctx.removeEventListener = function () {};
@@ -75,19 +81,9 @@ function loadContext() {
   };
   ctx.window.app = ctx.app;
 
-  DATA_FILES.forEach(function (file) {
-    vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
-  });
+  loadData(DATA_FILES, ctx);
 
-  var rawVocabSources = [
-    { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
-    { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
-    { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
-    { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
-    { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
-    { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
-    { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
-  ];
+  var rawVocabSources = vocabSources(ctx);
   var normalizedVocabSources = ctx.getNormalizedVocabSources
     ? ctx.getNormalizedVocabSources(rawVocabSources)
     : rawVocabSources;
@@ -263,18 +259,6 @@ function auditExternalCoverage(ctx, level, pageTexts) {
   };
 }
 
-function rawVocabSourcesFromContext(ctx) {
-  return [
-    { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
-    { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
-    { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
-    { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
-    { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
-    { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
-    { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
-  ];
-}
-
 async function main() {
   const ctx = loadContext();
   const offline = process.argv.includes('--offline');
@@ -300,7 +284,7 @@ async function main() {
     return auditExternalCoverage(ctx, level, pages);
   });
   const curatedExamples = ctx.getVocabExampleOverrideAudit
-    ? ctx.getVocabExampleOverrideAudit(rawVocabSourcesFromContext(ctx))
+    ? ctx.getVocabExampleOverrideAudit(vocabSources(ctx))
     : { byLevel: {}, malformed: [], invalidTeaching: [] };
 
   const romajiReadingFailures = auditRomajiReadings(ctx);

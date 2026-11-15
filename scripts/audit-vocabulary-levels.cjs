@@ -5,16 +5,14 @@
 const assert = require('assert');
 const fs = require('fs');
 const path = require('path');
-const vm = require('vm');
+const { loadData } = require('./data-context.cjs');
 
 const ROOT = path.resolve(__dirname, '..');
 const RANK = { N5: 5, N4: 4, N3: 3, N2: 2, N1: 1 };
 const BASES = ['textbook', 'list', 'suru', 'compound', 'frequency', 'estimate'];
 
 function load(file, key) {
-  const ctx = { window: {} }; ctx.window.window = ctx.window; vm.createContext(ctx);
-  vm.runInContext(fs.readFileSync(path.join(ROOT, file), 'utf8'), ctx);
-  return ctx.window[key];
+  return loadData([file])[key];
 }
 
 function audit() {

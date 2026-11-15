@@ -1,5 +1,4 @@
-const fs = require('fs');
-const vm = require('vm');
+const { loadData } = require('./scripts/data-context.cjs');
 
 const FILES = [
   'kanji-data.js',
@@ -46,12 +45,7 @@ const CORE_VOCAB_PREFERRED_KEYS = {
   'お世話になる|おせわになる': true
 };
 
-const ctx = { window: {}, console };
-ctx.window = ctx;
-
-FILES.forEach(function (file) {
-  vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
-});
+const ctx = loadData(FILES);
 
 function keyOrEmpty(parts) {
   return parts.map(function (part) { return part || ''; }).join('|');

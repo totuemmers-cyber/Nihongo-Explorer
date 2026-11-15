@@ -10,7 +10,9 @@ const importer = require('./import-vocabulary-completion.cjs');
 const { items, sources } = loadVocabulary(importer.prepareLegacy().files);
 const additions = authoredEntries();
 const completion = importer.prepare();
-assert.equal(JSON.stringify(loadVocabulary().items),JSON.stringify(completion.items),'Committed corrections differ from validated authoring');
+// The completion audit on the same plan: committed runtime and review ledger are current, and the review gate is closed.
+const {auditCompletion,assertComplete} = require('./audit-vocabulary-completion.cjs');
+assertComplete(auditCompletion(completion));
 const completionKeys = new Set(completion.additions.map(a => key(a.entry)));
 const expectedCounts = { ...review.baseline.counts };
 const index = new Map(items.map(v => [key(v), v]));

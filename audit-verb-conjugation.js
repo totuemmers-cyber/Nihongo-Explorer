@@ -1,5 +1,4 @@
-const fs = require('fs');
-const vm = require('vm');
+const { loadData, vocabSources } = require('./scripts/data-context.cjs');
 
 const DATA_FILES = [
   'vocab-n5.js',
@@ -16,22 +15,9 @@ const DATA_FILES = [
   'vocab-corrections.js'
 ];
 
-const ctx = { window: {}, console };
-ctx.window = ctx;
+const ctx = loadData(DATA_FILES);
 
-DATA_FILES.forEach(function (file) {
-  vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
-});
-
-const rawSources = [
-  { name: 'vocab-n5', items: ctx.VOCAB_N5 || [] },
-  { name: 'vocab-n4', items: ctx.VOCAB_N4 || [] },
-  { name: 'vocab-n3', items: ctx.VOCAB_N3 || [] },
-  { name: 'vocab-n2', items: ctx.VOCAB_N2 || [] },
-  { name: 'vocab-n1', items: ctx.VOCAB_N1 || [] },
-  { name: 'yojijukugo', items: ctx.YOJIJUKUGO_DATA || [] },
-  { name: 'idioms', items: ctx.IDIOMS_DATA || [] }
-];
+const rawSources = vocabSources(ctx);
 const normalizedSources = ctx.getNormalizedVocabSources
   ? ctx.getNormalizedVocabSources(rawSources)
   : rawSources;

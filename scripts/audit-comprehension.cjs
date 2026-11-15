@@ -1,11 +1,10 @@
 const fs = require('node:fs');
 const path = require('node:path');
-const vm = require('node:vm');
+const { loadData } = require('./data-context.cjs');
 const assert = require('node:assert/strict');
 const { createHash } = require('node:crypto');
-const root = path.resolve(__dirname, '..'), sandbox = { window: {} };
-vm.runInNewContext(fs.readFileSync(path.join(root, 'comprehension-data.js'), 'utf8'), sandbox);
-const units = sandbox.window.COMPREHENSION_UNITS;
+const root = path.resolve(__dirname, '..');
+const units = loadData(['comprehension-data.js']).COMPREHENSION_UNITS;
 const legacy = require('./comprehension/legacy-payload-hashes.json');
 const digest = text => createHash('sha256').update(text).digest('hex');
 assert.equal(Object.keys(legacy.units).length, 134, 'Legacy fixture count');

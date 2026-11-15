@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { spawnSync } = require('child_process');
+const vm = require('vm');
 
 const ROOT = path.resolve(__dirname, '..');
 const CHECK_EXTENSIONS = new Set(['.js', '.cjs', '.html', '.css']);
@@ -44,18 +44,26 @@ walk(ROOT, files);
 
 const errors = [];
 
+// Compile without running, as `node --check` does for CommonJS: wrapped in the module function.
+const MODULE_PARAMETERS = ['exports', 'require', 'module', '__filename', '__dirname'];
+function syntaxError(text, file) {
+  try {
+    vm.compileFunction(text, MODULE_PARAMETERS, { filename: file });
+    return null;
+  } catch (error) {
+    if (!(error instanceof SyntaxError)) throw error;
+    // The stack starts with "file:line", the source line and a caret under the error.
+    return error.stack.split('\n').slice(0, 3).join('\n') + '\nSyntaxError: ' + error.message;
+  }
+}
+
 for (const file of files) {
+  const text = fs.readFileSync(file, 'utf8');
   if (path.extname(file) === '.js' || path.extname(file) === '.cjs') {
-    const syntax = spawnSync(process.execPath, ['--check', file], {
-      cwd: ROOT,
-      encoding: 'utf8'
-    });
-    if (syntax.status !== 0) {
-      errors.push('Syntax check failed for ' + relative(file) + '\n' + (syntax.stderr || syntax.stdout || '').trim());
-    }
+    const syntax = syntaxError(text, file);
+    if (syntax) errors.push('Syntax check failed for ' + relative(file) + '\n' + syntax);
   }
 
-  const text = fs.readFileSync(file, 'utf8');
   const mojibakeHits = findMojibake(text);
   if (mojibakeHits.length > 0) {
     const preview = mojibakeHits.slice(0, 5).map(function (hit) {

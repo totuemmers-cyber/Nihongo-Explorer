@@ -134,8 +134,10 @@ function prepareWorkflow(legacy, options) {
   for (const batch of modern) {
     assert(Array.isArray(batch.reviews || []) && Array.isArray(batch.additions || []),'Invalid authoring collections');
     const batchRecords=[...(batch.additions||[]),...(batch.reviews||[])];
+    // Hash the whole batch at most once; it is large, and the result is the same for every record.
+    let batchHash;
     for(const r of batchRecords) if(r.state==='accepted' && [POLICY_ID,AUTHOR_ONLY_POLICY_ID].includes(r.policy?.id)
-      && !(m.legacyV2ApprovalBatchHashes||[]).includes(hash(batch))) {
+      && !(m.legacyV2ApprovalBatchHashes||[]).includes(batchHash??=hash(batch))) {
       assert.equal(r.policy.approvalBinding,'entry-identity-v1','V2 acceptance requires entry identity approval binding');
     }
     if (batchRecords.some(r=>[POLICY_ID,AUTHOR_ONLY_POLICY_ID].includes(r.policy?.id))) {
@@ -157,7 +159,7 @@ function prepareWorkflow(legacy, options) {
       const isAddition=(batch.additions||[]).includes(r);
       const previous=heads.get(r.id);
       workRecord(r,previous,revisionIds);
-      let old;
+      let old,oldHash=null;
       if (isAddition) {
         assert(/^vocab-n[1-5]:correction:[a-z0-9-]+$/.test(r.id),'Invalid explicit addition ID');
         assert(!working.has(r.id) && !additionSeeds.has(r.id),'Duplicate addition ID');
@@ -169,7 +171,8 @@ function prepareWorkflow(legacy, options) {
         old=working.get(r.id);
         assert(old,'Unknown revision target '+r.id);
         assert(!mergeRecords.has(r.id),'Retired identity cannot be revised');
-        assert.equal(r.originalHash,hash(project(old)),'Original snapshot mismatch');
+        oldHash=hash(project(old));
+        assert.equal(r.originalHash,oldHash,'Original snapshot mismatch');
         const patch=r.replacement || {};
         assert(Object.keys(patch).every(f=>Object.hasOwn(project(patch),f)),'Unsupported correction field');
         assert.deepStrictEqual(r.original || {},Object.fromEntries(Object.keys(patch).map(f=>[f,Object.hasOwn(old,f)?copy(old[f]):null])),'Original correction values mismatch');
@@ -177,8 +180,9 @@ function prepareWorkflow(legacy, options) {
         if (patch.level && patch.level!==old.level) assert(text(r.levelBasis),'Level change needs evidence and rationale');
       }
       assert(Object.hasOwn(r,'predecessorHash'),'Missing predecessor content hash');
-      assert.equal(r.predecessorHash,old?hash(project(old)):null,'Predecessor content changed');
+      assert.equal(r.predecessorHash,oldHash,'Predecessor content changed');
       const next=isAddition?copy(r.entry):{...copy(old),...copy(r.replacement||{})};
+      const nextHash=hash(project(next));
       const additionIdentity=isAddition || additionSeeds.has(r.id);
       const firstAdditionAcceptance=additionIdentity && !accepted.has(r.id);
       const acceptedContent=accepted.get(r.id);
@@ -189,7 +193,7 @@ function prepareWorkflow(legacy, options) {
       const requirements=reviewRequirements(r,{id:r.id,addition:firstAdditionAcceptance,
         additionIdentity,patch:effectivePatch,before:acceptedContent?project(acceptedContent):null,after:project(next)});
       if (r.state==='accepted') {
-        approval(r,requirements,hash(project(next)),entryApprovalHash(r,next));
+        approval(r,requirements,nextHash,entryApprovalHash(r,next));
         validateReviewRecord(r,next,requirements);
         validatePitch(r.pitch,next);
         accepted.set(r.id,next);
@@ -199,7 +203,7 @@ function prepareWorkflow(legacy, options) {
       }
       if (isAddition) additionSeeds.set(r.id,copy(r));
       working.set(r.id,next);
-      const head={state:r.state,revisionHash:hash(r),contentHash:hash(project(next)),record:r};
+      const head={state:r.state,revisionHash:hash(r),contentHash:nextHash,record:r};
       heads.set(r.id,head);
       history.push({id:r.id,revisionId:r.revisionId,state:r.state,revisionHash:head.revisionHash,contentHash:head.contentHash,
         predecessorHash:r.predecessorHash,predecessorRevisionHash:r.predecessorRevisionHash});

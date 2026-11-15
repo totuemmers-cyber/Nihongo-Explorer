@@ -173,8 +173,9 @@ function prepare(batches = authoring(), m = manifest(), corrections) {
 function report(plan) {
   return require('./vocabulary-correction-pipeline.cjs').correctionReport(plan,legacyReport(plan));
 }
+// options.plan: a plan already prepared from the current files (saves a second validation run).
 function importCompletion(options = {}) {
-  const plan = prepare(options.batches);
+  const plan = options.plan || prepare(options.batches);
   if (!options.dryRun) for (const [file,text] of Object.entries(plan.files)) {
     if (!fs.existsSync(path.join(root,file)) || read(file) !== text) fs.writeFileSync(path.join(root,file),text);
   }

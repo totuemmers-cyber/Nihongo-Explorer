@@ -1,5 +1,4 @@
-const fs = require('fs');
-const vm = require('vm');
+const { loadData } = require('./scripts/data-context.cjs');
 
 const DATA_FILES = [
   'kangxi-radicals-data.js',
@@ -8,12 +7,7 @@ const DATA_FILES = [
   'app-constants.js'
 ];
 
-const ctx = { window: {}, console };
-ctx.window = ctx;
-
-DATA_FILES.forEach(function (file) {
-  vm.runInNewContext(fs.readFileSync(file, 'utf8'), ctx, { filename: file });
-});
+const ctx = loadData(DATA_FILES);
 
 const allKanji = []
   .concat(ctx.KANJI_DATA || [])

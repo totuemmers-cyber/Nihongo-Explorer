@@ -1,16 +1,10 @@
 // Interface language: dictionary coverage, the English content pipeline, and the app in English.
 const fs = require('node:fs'), path = require('node:path'), vm = require('node:vm'), assert = require('node:assert/strict');
-const { JSDOM, ResourceLoader, VirtualConsole } = require('jsdom');
+const { until, installStubs, openPage } = require('./dom-harness.cjs');
 const { requiredKeys, dictionary } = require('./i18n-keys.cjs');
 const english = require('./build-english.cjs');
 
 const root = path.resolve(__dirname, '..');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(fn, label, ms = 15000) {
-  const end = Date.now() + ms;
-  while (Date.now() < end) { if (fn()) return; await delay(20); }
-  throw new Error('Timeout: ' + label);
-}
 const placeholders = text => (text.match(/\{\w+\}/g) || []).sort().join(',');
 
 // --- 1. Every interface string has an English entry with the same placeholders ---
@@ -143,29 +137,9 @@ same(['vocab-runtime.js'], ['en/vocab-runtime.js'], ['VOCAB_RUNTIME'], 'vocab');
 
 // --- 3. The app in English ---
 async function boot(lang, hash = '#kana') {
-  const errors = [];
-  class Local extends ResourceLoader {
-    fetch(url) {
-      if (!url.startsWith('http://nihongo.test/')) return null;
-      return Promise.resolve(fs.readFileSync(path.join(root, decodeURIComponent(new URL(url).pathname.slice(1)))));
-    }
-  }
-  const log = new VirtualConsole();
-  log.on('jsdomError', e => errors.push(e.message));
-  log.on('error', e => errors.push(String(e)));
-  const dom = new JSDOM(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), {
-    url: 'http://nihongo.test/index.html' + hash, resources: new Local(), runScripts: 'dangerously', pretendToBeVisual: true, virtualConsole: log,
-    beforeParse(w) {
-      w.innerWidth = 1440; w.matchMedia = () => ({ matches: false, addEventListener() {} });
-      w.scrollTo = () => {}; w.HTMLElement.prototype.scrollIntoView = function () {};
-      w.IntersectionObserver = function () { this.observe = () => {}; this.disconnect = () => {}; };
-      w.speechSynthesis = { getVoices: () => [], speak() {}, cancel() {}, resume() {} }; w.SpeechSynthesisUtterance = function () {};
-      if (lang) w.localStorage.setItem('nihongo-lang', lang);
-    }
-  });
-  const w = dom.window;
+  const { dom, w, d, errors } = openPage({ hash, consoleErrors: true, beforeParse: w => installStubs(w, { lang }) });
   await until(() => w.app && w.app.workspace && w.history.state, 'boot');
-  return { dom, w, d: w.document, errors };
+  return { dom, w, d, errors };
 }
 
 // German interface words that must not remain in the English page frame and controls.
@@ -266,7 +240,7 @@ async function run() {
   assert.deepEqual(leftovers, [], 'German interface text in English mode');
   const runtimeMissing = Array.from(w.NIHONGO_I18N.missing()).filter(k => /[A-Za-zÄÖÜäöüß]/.test(k) && !/^N[1-5]$/.test(k));
   assert.deepEqual(runtimeMissing, [], 'tr() keys without English at runtime: ' + JSON.stringify(runtimeMissing));
-  assert.deepEqual(errors.filter(e => !/Could not load script|Not implemented/.test(e)), [], 'Errors in English mode');
+  assert.deepEqual(errors.map(e => e.message).filter(e => !/Could not load script|Not implemented/.test(e)), [], 'Errors in English mode');
 
   // The switch stores the language and reloads in it.
   let reloaded = 0;

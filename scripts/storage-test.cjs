@@ -1,43 +1,20 @@
 const assert = require('node:assert/strict');
-const fs = require('node:fs');
-const path = require('node:path');
-const { JSDOM, ResourceLoader, VirtualConsole } = require('jsdom');
-const root = path.resolve(__dirname, '..');
-const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
-async function until(predicate, label) {
-  for (let i = 0; i < 400; i++) { if (predicate()) return; await delay(20); }
-  throw new Error('Timed out: ' + label);
-}
-class LocalResources extends ResourceLoader {
-  fetch(url) {
-    if (!url.startsWith('http://nihongo.test/')) return null;
-    return Promise.resolve(fs.readFileSync(path.join(root, decodeURIComponent(new URL(url).pathname))));
-  }
-}
+const { until, installStubs, openPage } = require('./dom-harness.cjs');
 async function boot(options = {}) {
-  const errors = [], log = new VirtualConsole();
-  log.on('jsdomError', error => errors.push(error.message));
-  const dom = new JSDOM(fs.readFileSync(path.join(root, 'index.html'), 'utf8'), {
-    url: 'http://nihongo.test/#vocab', resources: new LocalResources(), runScripts: 'dangerously',
-    pretendToBeVisual: true, virtualConsole: log,
-    beforeParse(w) {
-      w.matchMedia = () => ({ matches: false });
-      w.scrollTo = () => {}; w.HTMLElement.prototype.scrollIntoView = () => {};
-      w.IntersectionObserver = function () { this.observe = () => {}; this.disconnect = () => {}; };
-      w.HTMLMediaElement.prototype.pause = () => {}; w.HTMLMediaElement.prototype.load = () => {};
-      // These checks cover the German interface; a stored choice selects it (English is the default).
-      w.localStorage.setItem('nihongo-lang', 'de');
-      for (const [key, value] of Object.entries(options.local || {})) w.localStorage.setItem(key, value);
-      if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
-      if (options.block === 'getter') {
-        for (const area of ['localStorage', 'sessionStorage']) Object.defineProperty(w, area, {
-          get() { throw new w.DOMException('Storage blocked', 'SecurityError'); }
-        });
-      } else if (options.block === 'read') {
-        w.Storage.prototype.getItem = () => { throw new w.DOMException('Read blocked', 'SecurityError'); };
-      }
+  const { dom, errors } = openPage({ url: 'http://nihongo.test/#vocab', beforeParse(w) {
+    // These checks cover the German interface (installStubs stores it; English is the default).
+    installStubs(w);
+    w.HTMLMediaElement.prototype.pause = () => {}; w.HTMLMediaElement.prototype.load = () => {};
+    for (const [key, value] of Object.entries(options.local || {})) w.localStorage.setItem(key, value);
+    if (options.session) w.sessionStorage.setItem('nihongo-workspace', options.session);
+    if (options.block === 'getter') {
+      for (const area of ['localStorage', 'sessionStorage']) Object.defineProperty(w, area, {
+        get() { throw new w.DOMException('Storage blocked', 'SecurityError'); }
+      });
+    } else if (options.block === 'read') {
+      w.Storage.prototype.getItem = () => { throw new w.DOMException('Read blocked', 'SecurityError'); };
     }
-  });
+  } });
   const w = dom.window, d = w.document;
   try {
     await until(() => w.app?.workspace && w.history.state?.workspace && d.querySelector('#vocab-grid .entry-open'), 'startup');
@@ -45,7 +22,7 @@ async function boot(options = {}) {
   } catch (e) { w.close(); throw e; }
 }
 function clean(fixture) {
-  try { assert.deepEqual(fixture.errors, [], 'Uncaught browser errors'); }
+  try { assert.deepEqual(fixture.errors.map(error => error.message), [], 'Uncaught browser errors'); }
   finally { fixture.w.close(); }
 }
 async function run() {
