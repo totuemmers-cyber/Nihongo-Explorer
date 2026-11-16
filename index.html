@@ -16,6 +16,7 @@
     <header class="compact-header">
       <button id="nav-toggle" aria-controls="sidebar" aria-expanded="false">☰ <span>Navigation</span></button>
       <span>Nihongo Explorer</span>
+      <button type="button" id="global-search-open-compact" class="global-search-trigger" aria-haspopup="dialog" aria-label="Alles durchsuchen" title="Alles durchsuchen"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></button>
     </header>
     <div id="nav-backdrop" class="nav-backdrop hidden"></div>
     <aside id="sidebar" class="sidebar" aria-label="Studiennavigation">
@@ -25,6 +26,7 @@
         <button type="button" data-lang="en" lang="en" class="active" aria-pressed="true">English</button>
         <button type="button" data-lang="de" lang="de" aria-pressed="false">Deutsch</button>
       </div>
+      <button type="button" id="global-search-open" class="global-search-trigger global-search-open" aria-haspopup="dialog"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg><span>Alles durchsuchen</span><kbd class="kbd-search" aria-hidden="true">Strg K</kbd></button>
       <nav aria-label="Hauptnavigation">
         <p class="nav-group-label">Grundlagen</p>
         <button class="tab-btn active" data-tab="kana" aria-current="page"><span lang="ja">あ</span>Kana</button>
@@ -636,12 +638,27 @@
       <p>Zusätzliche Strichdiagramme und Radikalzuordnungen: <a href="https://kanjivg.tagaini.net/" target="_blank" rel="noopener">KanjiVG</a>, Ulrich Apel und Mitwirkende, <a href="stroke-order/KANJIVG-LICENSE.txt" target="_blank" rel="noopener">CC BY-SA 3.0</a>.</p>
       <div class="help-shortcuts">
         <div class="help-row"><kbd>1</kbd>–<kbd>9</kbd>, <kbd>0</kbd><span>Bereich wechseln (Reihenfolge der Seitenleiste)</span></div>
-        <div class="help-row"><kbd>/</kbd><span>Suche fokussieren</span></div>
+        <div class="help-row"><kbd class="kbd-search">Strg K</kbd><span>Alles durchsuchen</span></div>
+        <div class="help-row"><kbd>/</kbd><span>Suche fokussieren (ohne eigene Suche: alles durchsuchen)</span></div>
         <div class="help-row"><kbd>r</kbd><span>Zufälliger Eintrag</span></div>
         <div class="help-row"><kbd>?</kbd><span>Diese Hilfe anzeigen</span></div>
         <div class="help-row"><kbd>Esc</kbd><span>Overlay / Suche schließen</span></div>
         <div class="help-row"><kbd>←</kbd> <kbd>→</kbd><span>Vorheriger / Nächster Eintrag</span></div>
       </div>
+    </div>
+  </div>
+
+  <!-- Global search (global-search.js) -->
+  <div id="search-overlay" class="detail-overlay search-overlay hidden">
+    <div class="search-panel" role="dialog" aria-modal="true" aria-labelledby="global-search-title" tabindex="-1">
+      <button id="global-search-close" class="btn-close" title="Schließen">&times;</button>
+      <h2 id="global-search-title">Alles durchsuchen</h2>
+      <div class="search-field">
+        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="search" id="global-search-input" aria-label="Alles durchsuchen" aria-describedby="global-search-status" placeholder="Wort, Kanji, Grammatik, Bedeutung oder Lesung" autocomplete="off" enterkeyhint="search">
+      </div>
+      <p id="global-search-status" class="global-search-status" role="status"></p>
+      <div id="global-search-results" class="global-search-results"></div>
     </div>
   </div>
 
@@ -661,5 +678,6 @@
   <script src="app.js"></script>
   <script src="comprehension.js"></script>
   <script src="workspace.js"></script>
+  <script src="global-search.js"></script>
 </body>
 </html>

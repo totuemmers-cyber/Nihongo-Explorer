@@ -11,7 +11,7 @@ const { JSDOM } = require('jsdom');
 
 const ROOT = path.resolve(__dirname, '..');
 const RUNTIME_SCRIPTS = ['app.js', 'section.js', 'section-configs.js', 'quiz.js', 'workspace.js', 'comprehension.js',
-  'storage.js', 'grammar-lessons.js'];
+  'storage.js', 'grammar-lessons.js', 'global-search.js'];
 const ATTRIBUTES = ['title', 'placeholder', 'aria-label', 'data-label', 'alt'];
 const LETTER = /[A-Za-zÄÖÜäöüß]/;
 

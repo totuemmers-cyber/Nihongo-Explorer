@@ -316,9 +316,10 @@
       scripts: ['vocab-runtime.js'],
       message: 'Lade Vokabel-Daten...',
       error: 'Fehler beim Laden von Vokabel-Daten.',
-      hydrate: function () {
+      hydrate: function (options) {
         app.sections.vocab.setItems(window.VOCAB_RUNTIME ? window.VOCAB_RUNTIME.items : []);
-        ensureVocabDetailsLoaded().catch(function () {});
+        // The global search needs only the list; the details then follow with the tab or a card.
+        if (!(options && options.listOnly)) ensureVocabDetailsLoaded().catch(function () {});
       }
     },
     onomatopoeia: {
@@ -496,7 +497,8 @@
     }));
   }
 
-  function ensureSectionLoaded(name) {
+  // options.listOnly: load a section's list without the extras its hydrate fetches in the background.
+  function ensureSectionLoaded(name, options) {
     if (name === 'quiz') return ensureQuizDataLoaded();
 
     var section = app.sections[name];
@@ -511,7 +513,7 @@
 
     section._loadPromise = Promise.all([loadScripts(loader.scripts), loadOptionalScripts(loader.optional)])
       .then(function () {
-        loader.hydrate();
+        loader.hydrate(options);
         clearSectionError(name);
       })
       .catch(function (err) {
@@ -664,6 +666,8 @@
     if (app.sections[tab]) {
       ensureSectionLoaded(tab).then(function () {
         if (app.activeTab !== tab) return;
+        // The list may have come from the global search, which leaves the details for later.
+        if (tab === 'vocab') ensureVocabDetailsLoaded().catch(function () {});
         if (app.sections[tab].config.onTabActivate) {
           app.sections[tab].config.onTabActivate(app.sections[tab]);
         }
@@ -879,6 +883,8 @@
   // === KEYBOARD NAVIGATION (data-driven) ===
   document.addEventListener('keydown', function (e) {
     if (e.defaultPrevented || e.isComposing || e.keyCode === 229 || e.ctrlKey || e.altKey || e.metaKey) return;
+    // The global search dialog handles its own keys (global-search.js).
+    if (app.globalSearch && app.globalSearch.isOpen()) return;
     var focused = document.activeElement;
     if (focused && (focused.matches('input, select, textarea') || focused.isContentEditable)) {
       if (e.key !== 'Escape') return;
@@ -936,13 +942,18 @@
       return;
     }
 
-    // Focus search: /
+    // Focus search: / goes to the section's own search, elsewhere to the global search.
     if (e.key === '/') {
       var tab = app.activeTab;
-      if (tab === 'kana') return;
-      if (app.sections[tab] && app.sections[tab].dom.search) {
+      var lessons = tab === 'grammar' && window.Lessons && window.Lessons.view === 'lessons';
+      var own = lessons ? document.getElementById('gl-search')
+        : (app.sections[tab] && !(app.workspace && app.workspace.isReadingView()) ? app.sections[tab].dom.search : null);
+      if (own) {
         e.preventDefault();
-        app.sections[tab].dom.search.focus();
+        own.focus();
+      } else if (app.globalSearch) {
+        e.preventDefault();
+        app.globalSearch.open();
       }
     }
   });

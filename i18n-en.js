@@ -171,13 +171,26 @@
     ', Ulrich Apel und Mitwirkende,': ', Ulrich Apel and contributors,',
     'CC BY-SA 3.0': 'CC BY-SA 3.0',
     'Bereich wechseln (Reihenfolge der Seitenleiste)': 'Switch section (sidebar order)',
-    'Suche fokussieren': 'Focus search',
+    'Suche fokussieren (ohne eigene Suche: alles durchsuchen)': 'Focus the section search (elsewhere: search everything)',
     'r': 'r',
     'Zufälliger Eintrag': 'Random entry',
     'Diese Hilfe anzeigen': 'Show this help',
     'Esc': 'Esc',
     'Overlay / Suche schließen': 'Close overlay / search',
     'Vorheriger / Nächster Eintrag': 'Previous / next entry',
+
+    // --- Global search (global-search.js) ---
+    'Alles durchsuchen': 'Search everything',
+    'Strg K': 'Ctrl K',
+    'Wort, Kanji, Grammatik, Bedeutung oder Lesung': 'Word, kanji, grammar, meaning or reading',
+    'Durchsucht Vokabeln, Kanji, Grammatik, Lektionen, Lautmalerei, Zählwörter und Radikale.': 'Searches vocabulary, kanji, grammar, lessons, onomatopoeia, counters and radicals.',
+    '1 Treffer': '1 result',
+    '{count} Treffer': '{count} results',
+    'Keine Treffer für „{query}“.': 'No results for “{query}”.',
+    'Alle {count} in {section} anzeigen →': 'Show all {count} in {section} →',
+    'Inhalte werden geladen …': 'Loading content …',
+    'Bitte mindestens zwei Buchstaben eingeben.': 'Please type at least two letters.',
+    'Konnte nicht geladen werden: {sections}.': 'Could not be loaded: {sections}.',
 
     // --- Kana ---
     'Hiragana': 'Hiragana',

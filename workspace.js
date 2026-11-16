@@ -130,8 +130,10 @@
       event.preventDefault(); if (first) first.focus();
     }
   }
+  function searchOpen() { return !!(app.globalSearch && app.globalSearch.isOpen()); }
   function setInert() {
-    var help = !document.getElementById('help-overlay').classList.contains('hidden');
+    // The help and the global search are modal over everything, including an open detail.
+    var help = !document.getElementById('help-overlay').classList.contains('hidden') || searchOpen();
     var drawer = sidebar.classList.contains('open') && window.innerWidth < 1024;
     var modal = current && window.innerWidth < 1280;
     workspace.inert = !!(help || drawer || modal);
@@ -497,7 +499,11 @@
     if (app.activeTab === 'counters' && counterView === 'numbers') { count.textContent = tr('Grundzahlen · Referenz'); return true; }
     return false;
   }
-  app.workspace = { beforeSwitch: beforeSwitch, afterSwitch: afterSwitch, present: present, close: close, dismiss: dismiss, collectionChanged: collectionChanged, openRelated: openRelated, toggleHelp: toggleHelp, save: save, commit: commit, message: message, updateSpecialCount: updateSpecialCount, isReadingView: isReadingView, idOf: idOf, accessibleContent: accessibleContent };
+  app.workspace = { beforeSwitch: beforeSwitch, afterSwitch: afterSwitch, present: present, close: close, dismiss: dismiss, collectionChanged: collectionChanged, openRelated: openRelated, toggleHelp: toggleHelp, save: save, commit: commit, message: message, updateSpecialCount: updateSpecialCount, isReadingView: isReadingView, idOf: idOf, accessibleContent: accessibleContent,
+    // For the global search (global-search.js).
+    refreshInert: setInert, trap: trap,
+    closeDrawer: function () { if (sidebar.classList.contains('open')) setDrawer(false); },
+    showCounterList: function () { if (counterView !== 'counters') setCounterView('counters', true); } };
 
   Object.keys(sections).forEach(function (name) {
     var sec = sections[name];
@@ -568,6 +574,7 @@
     if (!document.getElementById('help-overlay').classList.contains('hidden') && e.key === 'Escape') {
       toggleHelp(); e.preventDefault(); e.stopImmediatePropagation(); return;
     }
+    if (searchOpen()) return;
     if (sidebar.classList.contains('open') && window.innerWidth < 1024) {
       if (e.key === 'Escape') { setDrawer(false); document.getElementById('nav-toggle').focus(); e.preventDefault(); e.stopImmediatePropagation(); }
       else trap(e, sidebar);
