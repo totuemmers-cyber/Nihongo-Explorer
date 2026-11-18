@@ -181,6 +181,7 @@
 
     // --- Global search (global-search.js) ---
     'Alles durchsuchen': 'Search everything',
+    'Suchen': 'Search',
     'Strg K': 'Ctrl K',
     'Wort, Satz, Kanji, Grammatik, Bedeutung oder Lesung': 'Word, sentence, kanji, grammar, meaning or reading',
     'Durchsucht Vokabeln, Kanji, Grammatik, Lektionen, Lautmalerei, Zählwörter und Radikale.': 'Searches vocabulary, kanji, grammar, lessons, onomatopoeia, counters and radicals.',
