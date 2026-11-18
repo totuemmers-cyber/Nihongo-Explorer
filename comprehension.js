@@ -2,7 +2,8 @@
 (function () {
   'use strict';
   var units, pending, links = null, linksPending, active = null, host, generation = 0;
-  var views = { reading: { level: 'N5', selected: null, scroll: 0 }, listening: { level: 'N5', selected: null, scroll: 0 } };
+  // from: the unit was opened from a vocabulary card and offers the way back to it.
+  var views = { reading: { level: 'N5', selected: null, scroll: 0, from: false }, listening: { level: 'N5', selected: null, scroll: 0, from: false } };
   var progress = window.NIHONGO_STORAGE.local.getJSON('nihongo-comprehension-v1', {}, function (value) {
     return value !== null && typeof value === 'object' && !Array.isArray(value);
   });
@@ -85,20 +86,21 @@
   }
   function saveView() { window.app.workspace.save(); }
   function open(id) {
-    var v = views[active]; saveView(); v.scroll = window.scrollY; v.selected = id;
+    var v = views[active]; saveView(); v.scroll = window.scrollY; v.selected = id; v.from = false;
     render(); window.app.workspace.commit(); window.scrollTo(0, 0); focusHeading();
   }
   function back() {
-    var v = views[active], id = v.selected; saveView(); v.selected = null; render(); window.app.workspace.commit();
+    var v = views[active], id = v.selected; saveView(); v.selected = null; v.from = false; render(); window.app.workspace.commit();
     window.scrollTo(0, v.scroll); var b = host.querySelector('[data-unit="' + id + '"]'); if (b) b.focus({ preventScroll: true });
   }
   function focusHeading() { var h = host.querySelector('h2'); if (h) { h.tabIndex = -1; h.focus({ preventScroll: true }); } }
-  async function activate(skill, state, id) {
+  async function activate(skill, state, id, from) {
     stop(); active = skill; host = document.getElementById(skill + '-tab'); var token = generation;
     if (state) ['reading', 'listening'].forEach(function (key) {
-      if (state[key]) views[key] = { level: /^N[1-5]$/.test(state[key].level) ? state[key].level : 'N5', selected: state[key].selected || null, scroll: Number(state[key].scroll) || 0 };
+      if (state[key]) views[key] = { level: /^N[1-5]$/.test(state[key].level) ? state[key].level : 'N5', selected: state[key].selected || null, scroll: Number(state[key].scroll) || 0, from: !!state[key].from };
     });
     if (id !== undefined) views[skill].selected = id || null;
+    if (from !== undefined) views[skill].from = !!from;
     host.replaceChildren(el('p', tr('Lerneinheiten werden geladen …'), 'loading'));
     try { await Promise.all([load(), loadLinks()]); if (token !== generation || active !== skill) return; render(); }
     catch (e) {
@@ -136,6 +138,7 @@
   }
   function renderUnit(u) {
     var p = attempt(u); persist();
+    if (views[active].from) host.appendChild(button(tr('← Zurück'), function () { history.back(); })).className = 'comprehension-from';
     host.appendChild(button(tr('← Zurück zu {section}', { section: tr(active === 'reading' ? 'Lesen' : 'Hören') }), back));
     var article = el('article', null, 'comprehension-unit'); host.appendChild(article);
     article.appendChild(el('p', u.level + ' · ' + tr('Einheit {number}', { number: u.order }) + ' · ' + tr('ca. {minutes} Min.', { minutes: u.minutes }) + formatLabel(u), 'comprehension-meta'));
@@ -246,5 +249,7 @@
       event.preventDefault(); token.tabIndex = -1; next.tabIndex = 0; next.focus();
     });
   }
-  window.Comprehension = { load: load, loadLinks: loadLinks, counts: counts, activate: activate, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
+  // A unit opened from a vocabulary card (workspace.js: openUnit).
+  function show(skill, id) { return activate(skill, undefined, id, true).then(function () { window.scrollTo(0, 0); focusHeading(); }); }
+  window.Comprehension = { load: load, loadLinks: loadLinks, counts: counts, activate: activate, show: show, stop: stop, snapshot: function () { return JSON.parse(JSON.stringify(views)); }, route: function (skill) { return views[skill].selected ? '/' + encodeURIComponent(views[skill].selected) : ''; } };
 })();

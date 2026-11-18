@@ -51,6 +51,27 @@
       || sec.allItems.find(function (item) { return (item.legacyIds || []).indexOf(target) !== -1; })
       || null;
   }
+  // --- Recently opened entries, newest first, for the global search (global-search.js) ---
+  var RECENT_KEY = 'nihongo-recent', RECENT_MAX = 15;
+  function storedRecent() {
+    return window.NIHONGO_STORAGE.local.getJSON(RECENT_KEY, [], Array.isArray).filter(function (entry) {
+      return Array.isArray(entry) && sections[entry[0]] && typeof entry[1] === 'string' && entry[1];
+    });
+  }
+  function remember(sec, item) {
+    var id = idOf(sec, item);
+    if (!id) return;
+    var list = storedRecent().filter(function (entry) { return entry[0] !== sec.name || resolveId(sec, entry[1]) !== id; });
+    list.unshift([sec.name, id]);
+    window.NIHONGO_STORAGE.local.setJSON(RECENT_KEY, list.slice(0, RECENT_MAX));
+  }
+  // [{ name, item }] of the loaded sections; entries that no longer exist are left out.
+  function recent() {
+    return storedRecent().map(function (entry) {
+      var sec = sections[entry[0]];
+      return { name: sec.name, item: sec.isLoaded ? findById(sec, entry[1]) : null };
+    }).filter(function (entry) { return entry.item; });
+  }
   function route() {
     var name = app.activeTab;
     if (name === "reading" || name === "listening") return "#" + name + window.Comprehension.route(name);
@@ -233,6 +254,9 @@
     if (!options.noFocus && !wasOpen) sec.dom.closeBtn.focus({ preventScroll: true });
     if (!options.noFocus && wasOpen && !panel.contains(document.activeElement)) title.focus({ preventScroll: true });
     commit();
+    // An entry opened on purpose: from a list, the search or a cross-reference. Restored views,
+    // a tab's last entry and paging with the arrows are not lookups.
+    if (!restoring && !options.noFocus && !options.paging) remember(sec, item);
   }
   function close(sec) {
     if (relatedBack) { history.back(); return; }
@@ -366,6 +390,20 @@
       present(sections[name], item, { related: true, skipSave: true });
     } catch (e) { message(tr('Der verknüpfte Eintrag konnte nicht geladen werden. Bitte erneut versuchen.')); }
     finally { restoring = false; }
+  }
+  // A reading or listening unit as a cross-reference: Back returns to the entry it came from.
+  async function openUnit(skill, id) {
+    save();
+    var expected = ++revision;
+    relatedBack = false;
+    // The tab switches without its own history entry; the unit is the next view.
+    restoring = true;
+    app.switchTab(skill);
+    restoring = false;
+    try {
+      await window.Comprehension.show(skill, id);
+      if (expected === revision) commit();
+    } catch (e) { message(tr('Die Einheit konnte nicht geladen werden. Bitte erneut versuchen.')); }
   }
   async function restore(hash, state) {
     var version = ++revision;
@@ -505,6 +543,8 @@
     closeDrawer: function () { if (sidebar.classList.contains('open')) setDrawer(false); },
     showCounterList: function () { if (counterView !== 'counters') setCounterView('counters', true); },
     searchRoute: searchRoute,
+    recent: recent, openUnit: openUnit,
+    forgetRecent: function () { window.NIHONGO_STORAGE.local.setJSON(RECENT_KEY, []); },
     // #search/<text> is no view: the address returns to the view behind the dialog.
     leaveSearchRoute: function () { writeHistory(true, { workspace: snapshot(), index: historyIndex }, lastHash || route()); } };
   // The query of a #search/<text> address, or null. Browsers that fill in %s may write spaces as +.

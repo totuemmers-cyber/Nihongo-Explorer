@@ -624,6 +624,138 @@ function openVocabularyCard(id) {
   window.app.workspace.openRelated('vocab', function (item) { return item.id === id; });
 }
 
+// A chip that opens a vocabulary card: word, reading, first meaning and a note (level or relation).
+function appendVocabLink(list, v, note) {
+  var meaning = String(v.meaning || '').split(';')[0];
+  var tag = appendElement(list, 'button', 'radical-example kanji-vocab-link');
+  tag.type = 'button';
+  tag.setAttribute('aria-label', v.word + ', ' + (v.reading || '') + ', ' + meaning + ', ' + note + tr(': Vokabelkarte öffnen'));
+  var word = appendElement(tag, 'span', 'kanji-vocab-word', v.word);
+  word.lang = 'ja';
+  var text = appendElement(tag, 'span', 'radical-example-text');
+  var reading = appendElement(text, 'span', 'radical-example-reading', v.reading || '');
+  reading.lang = 'ja';
+  appendElement(text, 'span', 'comp-meaning', meaning);
+  appendElement(text, 'span', 'radical-example-relation', note);
+  tag.addEventListener('click', function () { openVocabularyCard(v.id); });
+  return tag;
+}
+
+// The first chips of a list, with a button for the rest. add(entry) returns the chip.
+function appendLimited(list, entries, limit, add) {
+  // A button that reveals one or two more chips takes the room they would.
+  if (entries.length <= limit + 2) limit = entries.length;
+  entries.slice(0, limit).forEach(add);
+  if (entries.length <= limit) return;
+  var more = appendElement(list, 'button', 'btn btn-pill', tr('Alle {count} anzeigen', { count: entries.length }));
+  more.type = 'button';
+  more.addEventListener('click', function () {
+    more.remove();
+    var first = null;
+    entries.slice(limit).forEach(function (entry) { var tag = add(entry); if (!first) first = tag; });
+    if (first) first.focus();
+  });
+}
+
+// --- Vocabulary card: related entries ---
+// Words with the same reading and verb partners (vocab-verb-pairs.js), rebuilt when the
+// vocabulary list changes. partners: id → [{ item, transitive }] for the partner's side.
+var vocabRelationIndex = { items: null, byReading: null, partners: null };
+function getVocabRelations(items) {
+  if (vocabRelationIndex.items === items) return vocabRelationIndex;
+  var byReading = Object.create(null), verbs = Object.create(null), partners = Object.create(null);
+  items.forEach(function (item) {
+    var reading = normalizeOnomatopoeia(item.reading || '');
+    if (reading) (byReading[reading] = byReading[reading] || []).push(item);
+    var key = item.word + '|' + item.reading;
+    if (item.type === 'Verb' && !verbs[key]) verbs[key] = item;
+  });
+  (window.VOCAB_VERB_PAIRS || []).forEach(function (pair) {
+    var transitive = verbs[pair[0] + '|' + pair[1]], intransitive = verbs[pair[2] + '|' + pair[3]];
+    if (!transitive || !intransitive) return;
+    (partners[transitive.id] = partners[transitive.id] || []).push({ item: intransitive, transitive: false });
+    (partners[intransitive.id] = partners[intransitive.id] || []).push({ item: transitive, transitive: true });
+  });
+  vocabRelationIndex = { items: items, byReading: byReading, partners: partners };
+  return vocabRelationIndex;
+}
+
+// The reading and listening units a word appears in, from the passage links
+// (comprehension-links.js). The 1 MB of units loads only for a word that has links.
+var vocabUnitIndex = null;
+function getVocabUnits(id) {
+  var canonical = function (value) { return window.resolveVocabularyId ? window.resolveVocabularyId(value) : value; };
+  return window.Comprehension.loadLinks().then(function (links) {
+    if (!links || !links.entries.some(function (entry) { return canonical(entry[0]) === id; })) return [];
+    return window.Comprehension.load().then(function (units) {
+      if (!vocabUnitIndex) {
+        vocabUnitIndex = Object.create(null);
+        units.forEach(function (unit) {
+          var seen = Object.create(null);
+          unit.passages.forEach(function (block) {
+            ((links.passages[block.id] || {}).spans || []).forEach(function (span) {
+              var entry = links.entries[span[2]], word = entry && canonical(entry[0]);
+              if (!word || seen[word]) return;
+              seen[word] = true;
+              (vocabUnitIndex[word] = vocabUnitIndex[word] || []).push(unit);
+            });
+          });
+        });
+        Object.keys(vocabUnitIndex).forEach(function (word) {
+          vocabUnitIndex[word].sort(function (a, b) {
+            return LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || (a.skill === b.skill ? a.order - b.order : a.skill === 'reading' ? -1 : 1);
+          });
+        });
+      }
+      return vocabUnitIndex[id] || [];
+    });
+  });
+}
+
+var VOCAB_RELATED_PREVIEW = 8, VOCAB_UNIT_PREVIEW = 4;
+function renderVocabRelations(v, section) {
+  var relations = getVocabRelations(section.allItems);
+
+  var pairList = document.getElementById('vocab-detail-pair');
+  var partners = relations.partners[v.id] || [];
+  pairList.textContent = '';
+  partners.forEach(function (partner) {
+    appendVocabLink(pairList, partner.item, partner.transitive ? tr('transitives Gegenstück') : tr('intransitives Gegenstück'));
+  });
+  document.getElementById('vocab-detail-pair-section').classList.toggle('hidden', !partners.length);
+
+  var sameList = document.getElementById('vocab-detail-homophones');
+  var same = (relations.byReading[normalizeOnomatopoeia(v.reading || '')] || []).filter(function (other) { return other !== v; });
+  same.sort(function (a, b) { return LEVEL_ORDER[a.level] - LEVEL_ORDER[b.level] || a.word.localeCompare(b.word, 'ja'); });
+  sameList.textContent = '';
+  appendLimited(sameList, same, VOCAB_RELATED_PREVIEW, function (other) { return appendVocabLink(sameList, other, other.level); });
+  document.getElementById('vocab-detail-homophones-section').classList.toggle('hidden', !same.length);
+
+  var unitSection = document.getElementById('vocab-detail-units-section');
+  var unitList = document.getElementById('vocab-detail-units');
+  unitList.textContent = '';
+  unitSection.classList.add('hidden');
+  if (!window.Comprehension) return;
+  // Optional: without the links the card simply has no such section.
+  getVocabUnits(v.id).then(function (units) {
+    var current = section.selectedItem || section.filteredItems[section.currentDetailIndex];
+    if (!units.length || !section.isOverlayOpen() || !current || current.id !== v.id) return;
+    unitList.textContent = '';
+    appendLimited(unitList, units, VOCAB_UNIT_PREVIEW, function (unit) {
+      var kind = tr(unit.skill === 'reading' ? 'Lesen' : 'Hören') + ' · ' + unit.level;
+      var tag = appendElement(unitList, 'button', 'radical-example kanji-vocab-link');
+      tag.type = 'button';
+      tag.setAttribute('aria-label', kind + ', ' + unit.title + tr(': Einheit öffnen'));
+      var text = appendElement(tag, 'span', 'radical-example-text');
+      appendElement(text, 'span', '', unit.title);
+      appendElement(text, 'span', 'radical-example-relation', kind);
+      tag.addEventListener('click', function () { window.app.workspace.openUnit(unit.skill, unit.id); });
+      return tag;
+    });
+    unitSection.classList.remove('hidden');
+  }).catch(function () {});
+}
+
 var KANJI_VOCAB_PREVIEW = 12;
 // Links the example words to their vocabulary cards and lists further words written with the kanji.
 function renderKanjiVocabulary(k, section) {
@@ -666,21 +798,7 @@ function renderKanjiVocabulary(k, section) {
   var rest = words.filter(function (v) { return !linked[v.id]; });
   if (!rest.length) { wrapper.classList.add('hidden'); return; }
   heading.textContent = tr('Weitere Wörter mit {kanji} ({count})', { kanji: k.kanji, count: rest.length });
-  function add(v) {
-    var meaning = String(v.meaning || '').split(';')[0];
-    var tag = appendElement(list, 'button', 'radical-example kanji-vocab-link');
-    tag.type = 'button';
-    tag.setAttribute('aria-label', v.word + ', ' + (v.reading || '') + ', ' + meaning + ', ' + v.level + tr(': Vokabelkarte öffnen'));
-    var word = appendElement(tag, 'span', 'kanji-vocab-word', v.word);
-    word.lang = 'ja';
-    var text = appendElement(tag, 'span', 'radical-example-text');
-    var reading = appendElement(text, 'span', 'radical-example-reading', v.reading || '');
-    reading.lang = 'ja';
-    appendElement(text, 'span', 'comp-meaning', meaning);
-    appendElement(text, 'span', 'radical-example-relation', v.level);
-    tag.addEventListener('click', function () { openVocabularyCard(v.id); });
-    return tag;
-  }
+  function add(v) { return appendVocabLink(list, v, v.level); }
   rest.slice(0, KANJI_VOCAB_PREVIEW).forEach(add);
   if (rest.length > KANJI_VOCAB_PREVIEW) {
     var more = appendElement(list, 'button', 'btn btn-pill', tr('Alle {count} Wörter anzeigen', { count: rest.length }));
@@ -1321,6 +1439,8 @@ SECTION_CONFIGS.vocab = {
       renderExamplesOrEmpty('vocab-detail-examples', v.examples);
       toggleNotes('vocab-detail-notes-section', 'vocab-detail-notes', v.notes);
     }
+
+    renderVocabRelations(v, section);
 
     // Kanji links (O(1) lookup via index)
     var kanjiSection = document.getElementById('vocab-detail-kanji-section');

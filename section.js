@@ -198,9 +198,9 @@ Section.prototype._setupScrollObserver = function () {
   this.scrollObserver.observe(sentinel);
 };
 
-Section.prototype.openDetail = function (index) {
+Section.prototype.openDetail = function (index, options) {
   if (index < 0 || index >= this.filteredItems.length) return;
-  if (window.app && window.app.workspace) return window.app.workspace.present(this, this.filteredItems[index]);
+  if (window.app && window.app.workspace) return window.app.workspace.present(this, this.filteredItems[index], options);
   if (!this.isOverlayOpen()) this._triggerEl = document.activeElement;
   this.currentDetailIndex = index;
   var item = this.filteredItems[index];
@@ -229,7 +229,8 @@ Section.prototype.closeDetail = function () {
 Section.prototype.navigateDetail = function (direction) {
   var newIndex = this.currentDetailIndex + direction;
   if (newIndex >= 0 && newIndex < this.filteredItems.length) {
-    this.openDetail(newIndex);
+    // Paging through the list is browsing, not a lookup (workspace.js: recent entries).
+    this.openDetail(newIndex, { paging: true });
   }
 };
 

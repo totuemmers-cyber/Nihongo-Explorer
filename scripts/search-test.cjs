@@ -1,6 +1,7 @@
 /* Global search (global-search.js): opening and closing, results per section, "show all" with the
    same entries as the section, opening entries and lessons, loading without the vocabulary
-   details, and a failed load with retry. */
+   details, a failed load with retry, the reason a result outside its row matched, and the
+   entries opened last. */
 const assert = require('node:assert/strict');
 const { delay, until, installStubs, openPage, LocalResources } = require('./dom-harness.cjs');
 
@@ -274,11 +275,127 @@ async function lookup() {
   }
 }
 
+// A result found outside the fields its row shows says where, and the empty dialog lists the
+// entries opened last (workspace.js: recent).
+async function reasonsAndRecent() {
+  const { w, d, errors } = openPage({ hash: '#kana', beforeParse: w => installStubs(w, { lang: 'en' }) });
+  try {
+    await until(() => w.app && w.app.workspace && w.app.globalSearch && w.history.state, 'boot');
+    const s = helpers(w, d);
+    const stored = () => JSON.parse(w.localStorage.getItem('nihongo-recent') || '[]');
+    const reason = row => row.querySelector('.gs-reason');
+    const row = (name, main) => [...s.group(name).querySelectorAll('.gs-result')].find(r => r.querySelector('.gs-main').textContent === main);
+    s.key(d.body, 'k', { ctrlKey: true });
+    await until(s.loaded, 'all sections and the lessons load', 30000);
+    assert(!s.group('recent'), 'Nothing was opened yet');
+
+    // An inflected form: the vocabulary row says how it was found; the grammar points only
+    // contain the form in an example and show that sentence with the match marked.
+    await s.search('食べました');
+    assert(s.group('vocab').querySelector('.gs-inflection'));
+    assert(!reason(s.group('vocab').querySelector('.gs-result')), 'The inflection note is the reason');
+    const grammarRows = [...s.group('grammar').querySelectorAll('.gs-result')];
+    assert(grammarRows.length > 0, 'Grammar points with 食べました in an example');
+    for (const r of grammarRows) {
+      assert(reason(r), 'Reason for ' + r.querySelector('.gs-main').textContent);
+      assert.match(reason(r).textContent, /^Example: .*食べました/);
+      assert.equal(reason(r).querySelector('mark').textContent, '食べました');
+      assert.equal(reason(r).querySelector('[lang="ja"]').contains(reason(r).querySelector('mark')), true);
+    }
+    for (const r of s.group('lessons').querySelectorAll('.gs-result')) assert(reason(r), 'Lesson reason');
+
+    // A match the row shows needs no reason.
+    await s.search('から');
+    assert(!reason(row('grammar', 'から')));
+    await s.search('eat');
+    assert(!reason(row('vocab', '食べる')));
+    assert(!reason(row('kanji', '食')));
+
+    // A spelling variant finds the headword and names the variant.
+    await s.search('子ども');
+    assert.equal(reason(row('vocab', '子供')).textContent, 'Spelling variant: 子ども');
+    // A category finds its words.
+    await s.search('everyday life');
+    const byCategory = [...s.group('vocab').querySelectorAll('.gs-result')].filter(r => !r.querySelector('.gs-title').textContent.toLowerCase().includes('everyday life'));
+    assert(byCategory.length > 0, 'Words found by their category only');
+    for (const r of byCategory) assert.equal(reason(r).textContent, 'Category: Everyday life');
+    // A kanji found through one of its example words names the word.
+    await s.search('きもち');
+    assert.match(reason(row('kanji', '持')).textContent, /^Example word: 気持ち（きもち）/);
+    assert.equal(reason(row('kanji', '持')).querySelector('mark').textContent, 'きもち');
+    // A long explanation is cut around the match.
+    await s.search('nicht-vorhandenes-wort');
+    assert.equal(d.querySelectorAll('.gs-reason').length, 0);
+    const longText = w.app.sections.grammar.allItems.find(g => g.explanation.length > 300 && !/[\u3040-\u30ff\u4e00-\u9fff]/.test(g.explanation.slice(-30)));
+    if (longText) {
+      const tail = longText.explanation.slice(-24).trim().toLowerCase();
+      await s.search(tail);
+      const hit = [...d.querySelectorAll('.gs-result')].map(reason).find(node => node && /^Explanation: …/.test(node.textContent));
+      assert(hit, 'A match at the end of a long explanation starts with an ellipsis');
+      assert(hit.textContent.length < 200);
+    }
+
+    // Recent entries: opened from the search, newest first.
+    await s.search('taberu');
+    s.key(s.input, 'Enter');
+    await until(() => w.app.activeTab === 'vocab' && d.getElementById('vocab-detail-word').textContent === '食べる', 'vocab detail');
+    s.key(d.body, 'k', { ctrlKey: true });
+    await s.search('水');
+    row('kanji', '水').click();
+    await until(() => w.app.activeTab === 'kanji' && !w.app.sections.kanji.dom.overlay.classList.contains('hidden'), 'kanji detail');
+    assert.deepEqual(stored().map(e => e[0]), ['kanji', 'vocab']);
+    // Paging through the list with the arrows is browsing, not a lookup.
+    w.app.sections.kanji.navigateDetail(1);
+    assert.notEqual(w.app.sections.kanji.selectedItem.kanji, '水');
+    assert.equal(stored().length, 2);
+
+    s.key(d.body, 'k', { ctrlKey: true });
+    await s.search('');
+    assert.deepEqual(s.mains('recent'), ['水', '食べる']);
+    assert.equal(s.group('recent').querySelector('.gs-group-title').textContent, 'Recently viewed');
+    assert.match(s.status(), /^Searches vocabulary/);
+    // Enter in the empty field opens nothing; the arrows reach the list.
+    s.key(s.input, 'Enter');
+    assert(s.isOpen());
+    s.key(s.input, 'ArrowDown');
+    assert.equal(d.activeElement, s.group('recent').querySelector('.gs-result'));
+    // A recent entry opens like a result and moves to the front.
+    s.group('recent').querySelectorAll('.gs-result')[1].click();
+    await until(() => w.app.activeTab === 'vocab' && d.getElementById('vocab-detail-word').textContent === '食べる', 'recent entry opens');
+    assert(!s.isOpen());
+    s.key(d.body, 'k', { ctrlKey: true });
+    assert.deepEqual(s.mains('recent'), ['食べる', '水']);
+    // A reload restores the view without counting it again, and keeps the list.
+    assert.equal(stored().length, 2);
+    // An entry that no longer exists is left out.
+    w.localStorage.setItem('nihongo-recent', JSON.stringify([['grammar', 'no-such-entry'], ['nowhere', 'x'], 7].concat(stored())));
+    await s.search('x1');
+    await s.search('');
+    assert.deepEqual(s.mains('recent'), ['食べる', '水']);
+    // Typing replaces the list; clearing the history removes it and keeps the dialog.
+    await s.search('水');
+    assert(!s.group('recent'));
+    await s.search('');
+    s.group('recent').querySelector('.gs-more').click();
+    assert(!s.group('recent'));
+    assert(s.isOpen());
+    assert.equal(d.activeElement, s.input);
+    assert.deepEqual(stored(), []);
+
+    const missing = Array.from(w.NIHONGO_I18N.missing()).filter(k => /[A-Za-zÄÖÜäöüß]/.test(k) && !/^N[1-5]$/.test(k));
+    assert.deepEqual(missing, [], 'tr() keys without English');
+    assert.deepEqual(errors.map(e => e.message), []);
+  } finally {
+    w.close();
+  }
+}
+
 async function run() {
   await english();
   await failedLoad();
   await lookup();
+  await reasonsAndRecent();
   console.log('Global search test passed: keyboard, results per section, show all, entries, lessons, deferred details, retry, ' +
-    'inflected forms, sentences, #search/ addresses.');
+    'inflected forms, sentences, #search/ addresses, match reasons, recent entries.');
 }
 run().catch(e => { console.error(e); process.exitCode = 1; });

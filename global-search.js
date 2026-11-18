@@ -7,7 +7,9 @@
    Japanese input goes through japanese-lookup.js: an inflected form finds its dictionary form
    (in the vocabulary section's own ranking, so "show all" agrees), and a phrase or sentence
    is split into its words, each linked to its card. #search/<text> opens the dialog with a
-   query, for bookmarks and the browser's address bar. */
+   query, for bookmarks and the browser's address bar.
+   A result found outside the fields its row shows says where the query is (REASONS). Without
+   a query the dialog lists the entries opened last (workspace.js: recent). */
 (function () {
   'use strict';
   var app = window.app;
@@ -107,6 +109,80 @@
     kanji: function (k) { return k.meanings; }
   };
 
+  // --- Why an entry matched ---
+  // A match in none of the fields the row shows: { label, text, ja } names the place, an
+  // example, an explanation or a spelling variant. null when the row shows the match itself.
+  function contains(text, q) { return String(text || '').toLowerCase().indexOf(q) !== -1; }
+  function plainText(html) { return String(html || '').replace(/<[^>]+>/g, ''); }
+  // keys: the Japanese sentence, its translation and its romaji.
+  function exampleReason(examples, q, keys) {
+    keys = keys || ['japanese', 'german', 'romaji'];
+    for (var i = 0; i < (examples || []).length; i++) {
+      var ex = examples[i];
+      if (contains(ex[keys[0]], q)) return { label: tr('Beispiel'), text: ex[keys[0]], ja: true };
+      if (contains(ex[keys[1]], q)) return { label: tr('Beispiel'), text: ex[keys[1]] };
+      if (matchesRomaji(ex[keys[2]], q)) return { label: tr('Beispiel'), text: ex[keys[2]] };
+    }
+    return null;
+  }
+  var REASONS = {
+    vocab: function (v, q) {
+      if (getTextMatchRank(v.word, q) !== null || getTextMatchRank(v.reading, q) !== null ||
+        getRomajiMatchRank(v.romaji, q) !== null || getTextMatchRank(v.meaning, q) !== null) return null;
+      var alias = (v.aliases || []).find(function (a) { return getTextMatchRank(a, q) !== null; });
+      if (alias) return { label: tr('Schreibvariante'), text: alias, ja: true };
+      return getTextMatchRank(tr(v.category || ''), q) !== null ? { label: tr('Kategorie'), text: tr(v.category) } : null;
+    },
+    kanji: function (k, q) {
+      if (getTextMatchRank(k.kanji, q) !== null || getBestArrayMatchRank(k.meanings, q) !== null ||
+        getReadingFieldMatchRank(k.kun, q) !== null || getReadingFieldMatchRank(k.on, q) !== null) return null;
+      var best = null, bestRank = 0;
+      (k.examples || []).forEach(function (ex) {
+        var rank = getBestArrayMatchRank([ex.word, ex.reading, ex.meaning], q);
+        if (rank !== null && rank > bestRank) { best = ex; bestRank = rank; }
+      });
+      return best ? { label: tr('Beispielwort'), text: best.word + '（' + best.reading + '）' + best.meaning, ja: true } : null;
+    },
+    grammar: function (g, q) {
+      if (contains(g.pattern, q) || contains(g.meaning, q)) return null;
+      if (contains(g.formation, q)) return { label: tr('Bildung'), text: g.formation };
+      return exampleReason(g.examples, q) || (contains(g.explanation, q) ? { label: tr('Erklärung'), text: g.explanation } : null);
+    },
+    onomatopoeia: function (o, q) {
+      var folded = normalizeOnomatopoeia(q);
+      var shown = [o.word, o.reading].concat(o.aliases || []).some(function (word) {
+        return word && (word.indexOf(q) !== -1 || normalizeOnomatopoeia(word).indexOf(folded) !== -1);
+      });
+      if (shown || matchesRomaji(o.romaji, q) || contains(o.meaning, q)) return null;
+      return exampleReason(o.examples, q) || (contains(o.explanation, q) ? { label: tr('Erklärung'), text: o.explanation } : null);
+    },
+    counters: function (c, q) {
+      if (c.kanji.indexOf(q) !== -1 || c.reading.indexOf(q) !== -1 || matchesRomaji(c.romaji, q) || contains(c.meaning, q)) return null;
+      var form = (c.counts || []).find(function (ct) { return ct.reading.indexOf(q) !== -1 || ct.kanji.indexOf(q) !== -1 || matchesRomaji(ct.romaji, q); });
+      if (form) return { label: tr('Zählform'), text: form.kanji + '（' + form.reading + '）', ja: true };
+      return contains(c.usage, q) ? { label: tr('Verwendung'), text: c.usage } : null;
+    },
+    radicals: function (r, q) {
+      if (r.radical.indexOf(q) !== -1 || contains(r.meaning, q) || r.reading.indexOf(q) !== -1 || matchesRomaji(r.romaji, q) || String(r.number) === q) return null;
+      return contains(r.explanation, q) ? { label: tr('Erklärung'), text: r.explanation } : null;
+    },
+    lessons: function (lesson, q) {
+      if (contains(lesson.title, q) || contains(lesson.subtitle, q)) return null;
+      var found = null;
+      function prose(value) {
+        var text = plainText(value);
+        if (!found && contains(text, q)) found = { label: tr('Erklärung'), text: text };
+      }
+      prose(lesson.intro);
+      lesson.sections.forEach(function (section) {
+        if (found) return;
+        prose(section.heading); prose(section.text); prose(section.tip);
+        if (!found) found = exampleReason(section.examples, q, ['jp', 'de', 'romaji']);
+      });
+      return found;
+    }
+  };
+
   function levelRank(item) {
     var level = String(item.level || item.jlpt || '').split('/')[0];
     return LEVEL_ORDER[level] !== undefined ? LEVEL_ORDER[level] : 9;
@@ -193,7 +269,31 @@
   }
 
   function resultButton(name, entry, q) {
-    return rowButton(name, entry.item, name + ':' + entry.index, rowOf(name, entry.item, q));
+    var row = rowOf(name, entry.item, q);
+    // An inflected form already says how it was found.
+    var reason = row.inflection ? null : REASONS[name](entry.item, q);
+    if (reason) row.reason = { label: reason.label, text: reason.text, ja: reason.ja, query: q };
+    return rowButton(name, entry.item, name + ':' + entry.index, row);
+  }
+
+  // The text around the first match, with the match marked. A match by romaji that ignores
+  // vowel length has no literal position: the text then starts at its beginning.
+  function appendSnippet(host, text, q, ja) {
+    text = String(text).replace(/\s+/g, ' ').trim();
+    var at = text.toLowerCase().indexOf(q), lead = ja ? 12 : 28, tail = ja ? 36 : 90;
+    if (at === -1) {
+      host.appendChild(document.createTextNode(text.length > lead + tail ? text.slice(0, lead + tail).trim() + '…' : text));
+      return;
+    }
+    var from = Math.max(0, at - lead), to = Math.min(text.length, at + q.length + tail);
+    if (!ja && from > 0) {
+      // Start at a word, not inside one.
+      var space = text.indexOf(' ', from);
+      if (space !== -1 && space < at) from = space + 1;
+    }
+    host.appendChild(document.createTextNode((from > 0 ? '…' : '') + text.slice(from, at)));
+    host.appendChild(el('mark', '', text.slice(at, at + q.length)));
+    host.appendChild(document.createTextNode(text.slice(at + q.length, to) + (to < text.length ? '…' : '')));
   }
 
   function rowButton(name, item, key, row) {
@@ -213,6 +313,13 @@
       note.appendChild(el('span', '', row.inflection.form)).lang = 'ja';
       var reasons = window.NIHONGO_LOOKUP.describe(row.inflection.reasons);
       if (reasons) note.appendChild(document.createTextNode(' ← ' + reasons));
+    }
+    if (row.reason) {
+      var why = text.appendChild(el('span', 'gs-reason'));
+      why.appendChild(el('span', 'gs-reason-label', row.reason.label + ': '));
+      var where = why.appendChild(el('span'));
+      if (row.reason.ja) where.lang = 'ja';
+      appendSnippet(where, row.reason.text, row.reason.query, row.reason.ja);
     }
     var level = row.level ? String(row.level) : '';
     btn.appendChild(el('span', 'card-level ' + (level.split('/')[0] || ''), row.badge || level));
@@ -279,6 +386,26 @@
     return section;
   }
 
+  // --- Recently opened entries ---
+  // Shown while the field is empty: what was looked up once is often looked up again.
+  function renderRecent() {
+    var entries = app.workspace.recent();
+    if (!entries.length) return;
+    var section = resultsEl.appendChild(el('section', 'gs-group gs-recent'));
+    section.dataset.source = 'recent';
+    var heading = section.appendChild(el('h3', 'gs-group-title', tr('Zuletzt angesehen')));
+    heading.id = 'gs-group-recent';
+    section.setAttribute('aria-labelledby', heading.id);
+    var list = section.appendChild(el('ul', 'gs-list'));
+    entries.forEach(function (entry, n) {
+      list.appendChild(el('li')).appendChild(rowButton(entry.name, entry.item, 'recent:' + n, rowOf(entry.name, entry.item)));
+    });
+    var clear = section.appendChild(el('button', 'gs-more', tr('Verlauf löschen')));
+    clear.type = 'button';
+    clear.dataset.key = 'recent-clear';
+    clear.addEventListener('click', function () { app.workspace.forgetRecent(); render(); input.focus(); });
+  }
+
   function render() {
     clearTimeout(timer);
     timer = null;
@@ -303,6 +430,7 @@
 
     if (!q) {
       status.push(tr('Durchsucht Vokabeln, Kanji, Grammatik, Lektionen, Lautmalerei, Zählwörter und Radikale.'));
+      renderRecent();
     } else if (/^[a-zäöüß]$/.test(q)) {
       // One Latin letter matches nearly everything; one kana or kanji is a real query.
       status.push(tr('Bitte mindestens zwei Buchstaben eingeben.'));
@@ -501,7 +629,8 @@
     if (e.key === 'Enter' && e.target === input) {
       e.preventDefault();
       if (timer) render();
-      var first = resultsEl.querySelector('.gs-result');
+      // Enter opens the best match of a query, not the first of the recent entries.
+      var first = input.value.trim() ? resultsEl.querySelector('.gs-result') : null;
       if (first) first.click();
     }
   });
