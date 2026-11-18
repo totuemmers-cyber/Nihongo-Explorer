@@ -197,9 +197,88 @@ async function failedLoad() {
   }
 }
 
+// Japanese as it is written (japanese-lookup.js): an inflected form, a sentence, and the
+// #search/<text> address at start-up and typed into the address bar.
+async function lookup() {
+  const { w, d, errors } = openPage({ hash: '#search/' + encodeURIComponent('食べられなかった'), beforeParse: w => installStubs(w, { lang: 'en' }) });
+  try {
+    await until(() => w.app && w.app.workspace && w.app.globalSearch && w.history.state, 'boot');
+    const s = helpers(w, d);
+    // The address opens the dialog with its text over the restored view, and returns to the view's address.
+    await until(() => s.isOpen(), 'dialog from #search/…');
+    assert.equal(s.input.value, '食べられなかった');
+    assert.equal(d.activeElement, s.input);
+    assert.equal(w.app.activeTab, 'kana');
+    assert.equal(w.location.hash, '#kana');
+    await until(s.loaded, 'all sections and the lessons load', 30000);
+    await until(() => s.group('vocab'), 'vocabulary results');
+    assert.equal(d.querySelector('.gs-group').dataset.source, 'vocab');
+    assert.equal(s.mains('vocab')[0], '食べる');
+    assert.equal(s.group('vocab').querySelector('.gs-inflection').textContent, '食べられなかった ← Potential or passive · Negative · Past');
+    assert(!s.group('breakdown'), 'One inflected word is no sentence');
+    const total = s.count('vocab');
+    s.key(s.input, 'Enter');
+    await until(() => w.app.activeTab === 'vocab' && d.getElementById('vocab-detail-word').textContent === '食べる', 'vocab detail');
+    // The vocabulary tab's own search ranks the same way, so "show all" agrees.
+    const vocab = w.app.sections.vocab;
+    vocab.dom.search.value = '食べられなかった';
+    vocab.applyFilters();
+    assert.equal(vocab.filteredItems[0].word, '食べる');
+    assert.equal(vocab.filteredItems.length, total);
+
+    // A sentence: its parts in order, each a link, with one row per part.
+    s.key(d.body, 'k', { ctrlKey: true });
+    await s.search('昨日は雨が降っていました。');
+    const parts = s.group('breakdown');
+    assert(parts, 'Sentence breakdown');
+    assert.equal(d.querySelector('.gs-group').dataset.source, 'breakdown', 'The breakdown comes first');
+    assert.equal(parts.querySelector('.gs-sentence').textContent, '昨日は雨が降っていました。');
+    assert.deepEqual([...parts.querySelectorAll('.gs-token')].map(b => b.textContent), ['昨日', 'は', '雨', 'が', '降っていました']);
+    assert.equal(s.status(), 'Split into 5 parts.');
+    const rows = [...parts.querySelectorAll('.gs-result')];
+    assert.deepEqual(rows.map(r => r.querySelector('.gs-main').textContent), ['昨日', 'は', '雨', 'が', '降る']);
+    assert.equal(rows[4].querySelector('.gs-inflection').textContent, '降っていました ← ～ている · Polite · Past');
+    // The words in the text are for pointing; the keyboard uses the rows (arrows reach both).
+    assert(parts.querySelectorAll('.gs-token').length && [...parts.querySelectorAll('.gs-token')].every(b => b.tabIndex === -1));
+    s.key(s.input, 'ArrowDown');
+    assert.equal(d.activeElement, parts.querySelector('.gs-token'));
+    s.key(s.input, 'Escape');
+    assert(!s.isOpen());
+    s.key(d.body, 'k', { ctrlKey: true });
+    // Reopened, the dialog shows the same breakdown. A particle opens its grammar point.
+    assert.equal(s.input.value, '昨日は雨が降っていました。');
+    assert(s.group('breakdown') && s.group('breakdown') !== parts, 'Rendered again on opening');
+    s.group('breakdown').querySelectorAll('.gs-token')[1].click();
+    await until(() => w.app.activeTab === 'grammar' && !w.app.sections.grammar.dom.overlay.classList.contains('hidden'), 'grammar detail');
+    assert.equal(d.getElementById('grammar-detail-pattern').textContent, 'は');
+    const grammarHash = w.location.hash;
+
+    // #search/<text> typed into the address bar while the page is open: the view stays.
+    w.location.hash = '#search/' + encodeURIComponent('見せて');
+    await until(() => s.isOpen() && s.input.value === '見せて', 'dialog from a typed address');
+    assert.equal(w.app.activeTab, 'grammar');
+    assert.equal(w.location.hash, grammarHash);
+    await until(() => s.group('vocab') && s.mains('vocab')[0] === '見せる', '見せる for 見せて');
+    // Browsers that fill in %s may write spaces as +.
+    assert.equal(w.app.workspace.searchRoute('#search/to+eat'), 'to eat');
+    assert.equal(w.app.workspace.searchRoute('#search/%E9%A3%9F'), '食');
+    assert.equal(w.app.workspace.searchRoute('#searching'), null);
+    // The help names the address to register as a search engine.
+    assert.match(d.getElementById('search-link-template').textContent, /\/index\.html#search\/%s$/);
+
+    const missing = Array.from(w.NIHONGO_I18N.missing()).filter(k => /[A-Za-zÄÖÜäöüß]/.test(k) && !/^N[1-5]$/.test(k));
+    assert.deepEqual(missing, [], 'tr() keys without English');
+    assert.deepEqual(errors.map(e => e.message), []);
+  } finally {
+    w.close();
+  }
+}
+
 async function run() {
   await english();
   await failedLoad();
-  console.log('Global search test passed: keyboard, results per section, show all, entries, lessons, deferred details, retry.');
+  await lookup();
+  console.log('Global search test passed: keyboard, results per section, show all, entries, lessons, deferred details, retry, ' +
+    'inflected forms, sentences, #search/ addresses.');
 }
 run().catch(e => { console.error(e); process.exitCode = 1; });

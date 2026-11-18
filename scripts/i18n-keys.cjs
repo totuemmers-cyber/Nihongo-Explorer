@@ -96,6 +96,7 @@ function indirectKeys() {
   const jumps = workspace.match(/\[('Basis'[^\]]*)\]\.forEach/);
   keys.push(...jumps[1].split(',').map(s => s.trim().replace(/^'|'$/g, '')));
   keys.push(...objectValues(comprehension, 'var FORMAT_LABELS'));
+  keys.push(...objectValues(read('japanese-lookup.js'), 'var REASONS'));
   keys.push('Lesen', 'Hören');
 
   // Data values shown as labels: word types, categories, patterns, conjugation forms.

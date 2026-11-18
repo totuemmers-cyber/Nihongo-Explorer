@@ -645,6 +645,8 @@
         <div class="help-row"><kbd>Esc</kbd><span>Overlay / Suche schließen</span></div>
         <div class="help-row"><kbd>←</kbd> <kbd>→</kbd><span>Vorheriger / Nächster Eintrag</span></div>
       </div>
+      <p class="help-search-link">Die Suche findet auch gebeugte Formen (食べられなかった → 食べる) und zerlegt eingefügte Sätze in ihre Wörter.</p>
+      <p class="help-search-link">Suchlink für Lesezeichen und die Adresszeile (im Browser als Suchmaschine eintragen): <code id="search-link-template"></code></p>
     </div>
   </div>
 
@@ -655,7 +657,7 @@
       <h2 id="global-search-title">Alles durchsuchen</h2>
       <div class="search-field">
         <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-        <input type="search" id="global-search-input" aria-label="Alles durchsuchen" aria-describedby="global-search-status" placeholder="Wort, Kanji, Grammatik, Bedeutung oder Lesung" autocomplete="off" enterkeyhint="search">
+        <input type="search" id="global-search-input" aria-label="Alles durchsuchen" aria-describedby="global-search-status" placeholder="Wort, Satz, Kanji, Grammatik, Bedeutung oder Lesung" autocomplete="off" enterkeyhint="search">
       </div>
       <p id="global-search-status" class="global-search-status" role="status"></p>
       <div id="global-search-results" class="global-search-results"></div>
@@ -670,6 +672,7 @@
   <script src="kana-data.js"></script>
   <script src="app-constants.js"></script>
   <script src="conjugation.js"></script>
+  <script src="japanese-lookup.js"></script>
   <script src="vocab-example-overrides.js"></script>
   <script src="vocab-corrections.js"></script>
   <script src="section.js"></script>

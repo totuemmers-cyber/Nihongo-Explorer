@@ -503,7 +503,17 @@
     // For the global search (global-search.js).
     refreshInert: setInert, trap: trap,
     closeDrawer: function () { if (sidebar.classList.contains('open')) setDrawer(false); },
-    showCounterList: function () { if (counterView !== 'counters') setCounterView('counters', true); } };
+    showCounterList: function () { if (counterView !== 'counters') setCounterView('counters', true); },
+    searchRoute: searchRoute,
+    // #search/<text> is no view: the address returns to the view behind the dialog.
+    leaveSearchRoute: function () { writeHistory(true, { workspace: snapshot(), index: historyIndex }, lastHash || route()); } };
+  // The query of a #search/<text> address, or null. Browsers that fill in %s may write spaces as +.
+  function searchRoute(hash) {
+    var m = /^#search(?:\/(.*))?$/.exec(hash || '');
+    if (!m) return null;
+    var text = (m[1] || '').replace(/\+/g, ' ');
+    try { return decodeURIComponent(text); } catch (e) { return text; }
+  }
 
   Object.keys(sections).forEach(function (name) {
     var sec = sections[name];
@@ -600,6 +610,8 @@
   });
   window.addEventListener('popstate', function (event) {
     if (location.hash === lastHash) return;
+    // #search/<text> keeps the view; the global search opens the dialog (global-search.js).
+    if (searchRoute(location.hash) !== null) return;
     if (app.activeTab === 'quiz' && window.QuizModule.isTestActive() && !window.QuizModule.requestExit()) {
       var delta = event.state && typeof event.state.index === 'number' ? historyIndex - event.state.index : 0;
       if (delta) history.go(delta);
@@ -619,5 +631,13 @@
       return record(saved) && record(saved.filters) && typeof saved.query === 'string';
     });
   });
-  restore(location.hash || '#kana', history.state && history.state.workspace || session);
+  var startHash = location.hash || '#kana', startState = history.state && history.state.workspace || session;
+  // Opened at #search/<text>: restore the last view (or Kana), then global-search.js opens
+  // the dialog with the text once app.workspace.restored settles.
+  var startSearch = searchRoute(startHash);
+  if (startSearch !== null) {
+    app.pendingSearch = startSearch;
+    startHash = '#' + (startState && titles[startState.tab] && startState.tab !== 'quiz' ? startState.tab : 'kana');
+  }
+  app.workspace.restored = restore(startHash, startState);
 })();

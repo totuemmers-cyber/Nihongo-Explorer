@@ -3,7 +3,11 @@
    compact header. Each section keeps its own matching: kanji and vocabulary use their ranked
    search, the other sections their filter (with every filter at "all"), and lessons the lesson
    search. "Show all" therefore finds exactly the same entries in the section. The data loads
-   the first time the dialog opens; the vocabulary details stay for later (listOnly). */
+   the first time the dialog opens; the vocabulary details stay for later (listOnly).
+   Japanese input goes through japanese-lookup.js: an inflected form finds its dictionary form
+   (in the vocabulary section's own ranking, so "show all" agrees), and a phrase or sentence
+   is split into its words, each linked to its card. #search/<text> opens the dialog with a
+   query, for bookmarks and the browser's address bar. */
 (function () {
   'use strict';
   var app = window.app;
@@ -158,10 +162,11 @@
   }
 
   // --- Rendering ---
-  function rowOf(name, item) {
+  function rowOf(name, item, q) {
     var readings = function (list) { return (list || []).map(function (r) { return r.kana; }); };
     switch (name) {
-      case 'vocab': return { main: item.word, title: item.meaning, detail: item.reading !== item.word ? item.reading : '', level: item.level };
+      case 'vocab': return { main: item.word, title: item.meaning, detail: item.reading !== item.word ? item.reading : '', level: item.level,
+        inflection: q ? inflectionOf(item, q) : null };
       case 'kanji': return { main: item.kanji, title: (item.meanings || []).slice(0, 3).join(', '),
         detail: readings(item.on).concat(readings(item.kun)).slice(0, 4).join('、'), level: item.jlpt };
       case 'grammar': return { main: item.pattern, title: item.meaning, detail: '', level: item.level };
@@ -180,11 +185,21 @@
     return node;
   }
 
-  function resultButton(name, entry) {
-    var row = rowOf(name, entry.item);
+  // An inflected query: the form as typed and what was undone (食べられなかった ← potential …).
+  function inflectionOf(item, q) {
+    var lookup = window.NIHONGO_LOOKUP, sec = app.sections.vocab;
+    var found = lookup && sec.isLoaded ? lookup.inflection(item, q, sec.allItems) : null;
+    return found ? { form: q, reasons: found.reasons } : null;
+  }
+
+  function resultButton(name, entry, q) {
+    return rowButton(name, entry.item, name + ':' + entry.index, rowOf(name, entry.item, q));
+  }
+
+  function rowButton(name, item, key, row) {
     var btn = el('button', 'gs-result');
     btn.type = 'button';
-    btn.dataset.key = name + ':' + entry.index;
+    btn.dataset.key = key;
     var main = btn.appendChild(el('span', 'gs-main' + (row.latin ? ' gs-number' : ''), row.main));
     if (!row.latin) main.lang = 'ja';
     var text = btn.appendChild(el('span', 'gs-text'));
@@ -193,10 +208,75 @@
       var detail = text.appendChild(el('span', 'gs-detail', row.detail));
       if (!row.detailLatin) detail.lang = 'ja';
     }
+    if (row.inflection) {
+      var note = text.appendChild(el('span', 'gs-inflection'));
+      note.appendChild(el('span', '', row.inflection.form)).lang = 'ja';
+      var reasons = window.NIHONGO_LOOKUP.describe(row.inflection.reasons);
+      if (reasons) note.appendChild(document.createTextNode(' ← ' + reasons));
+    }
     var level = row.level ? String(row.level) : '';
     btn.appendChild(el('span', 'card-level ' + (level.split('/')[0] || ''), row.badge || level));
-    btn.addEventListener('click', function () { openEntry(name, entry.item); });
+    btn.addEventListener('click', function () { openEntry(name, item); });
     return btn;
+  }
+
+  // --- Sentence breakdown ---
+  // Japanese text of two or more parts: the text with each part as a button, and one row per
+  // part below it (more than one when a kana word has several equally likely readings).
+  function breakdown(raw) {
+    var lookup = window.NIHONGO_LOOKUP;
+    if (!lookup || !lookup.hasJapanese(raw) || !isReady('vocab')) return null;
+    var tokens = lookup.segment(raw, {
+      vocab: app.sections.vocab.allItems,
+      grammar: isReady('grammar') ? app.sections.grammar.allItems : null,
+      kanji: isReady('kanji') ? app.sections.kanji.allItems : null
+    });
+    var parts = tokens.filter(function (token) { return token.kind !== 'text'; }).length;
+    return parts >= 2 ? { tokens: tokens, parts: parts, truncated: raw.length > lookup.MAX_TEXT } : null;
+  }
+
+  // The entries a part links to: [{ name, item, inflection }]; its button opens the first.
+  function tokenEntries(token) {
+    if (token.kind === 'grammar') return [{ name: 'grammar', item: token.item }];
+    if (token.kind === 'kanji') return [{ name: 'kanji', item: token.item }];
+    return token.matches.map(function (match) {
+      return { name: 'vocab', item: match.item, inflection: match.reasons.length ? { form: token.text, reasons: match.reasons } : null };
+    });
+  }
+
+  function renderBreakdown(result) {
+    var section = el('section', 'gs-group gs-breakdown');
+    section.dataset.source = 'breakdown';
+    var heading = section.appendChild(el('h3', 'gs-group-title', tr('Satz zerlegt') + ' '));
+    heading.id = 'gs-group-breakdown';
+    heading.appendChild(el('span', 'gs-group-count', String(result.parts)));
+    section.setAttribute('aria-labelledby', heading.id);
+    var sentence = section.appendChild(el('p', 'gs-sentence'));
+    sentence.lang = 'ja';
+    var list = el('ul', 'gs-list'), seen = new Set(), rows = 0;
+    result.tokens.forEach(function (token, n) {
+      if (token.kind === 'text') { sentence.appendChild(document.createTextNode(token.text)); return; }
+      var entries = tokenEntries(token), first = entries[0], firstRow = rowOf(first.name, first.item);
+      // The rows below carry the same links for the keyboard; the text is for pointing at.
+      var button = sentence.appendChild(el('button', 'gs-token gs-token-' + token.kind, token.text));
+      button.type = 'button';
+      button.tabIndex = -1;
+      button.dataset.key = 'token:' + n;
+      button.title = firstRow.main + (firstRow.title ? ' – ' + firstRow.title : '');
+      button.addEventListener('click', function () { openEntry(first.name, first.item); });
+      entries.forEach(function (entry) {
+        if (seen.has(entry.item)) return;
+        seen.add(entry.item);
+        var row = rowOf(entry.name, entry.item);
+        row.inflection = entry.inflection;
+        list.appendChild(el('li')).appendChild(rowButton(entry.name, entry.item, 'part:' + rows++, row));
+      });
+    });
+    section.appendChild(list);
+    if (result.truncated) {
+      section.appendChild(el('p', 'gs-note', tr('Nur die ersten {count} Zeichen wurden zerlegt.', { count: window.NIHONGO_LOOKUP.MAX_TEXT })));
+    }
+    return section;
   }
 
   function render() {
@@ -227,6 +307,11 @@
       // One Latin letter matches nearly everything; one kana or kanji is a real query.
       status.push(tr('Bitte mindestens zwei Buchstaben eingeben.'));
     } else {
+      var parts = breakdown(raw);
+      if (parts) {
+        resultsEl.appendChild(renderBreakdown(parts));
+        status.push(tr('In {count} Teile zerlegt.', { count: parts.parts }));
+      }
       var groups = SOURCES.filter(function (s) { return isReady(s.name); })
         .map(function (s) { return collect(s, q); })
         .filter(function (g) { return g.total > 0; });
@@ -243,7 +328,7 @@
         heading.appendChild(el('span', 'gs-group-count', String(group.total)));
         section.setAttribute('aria-labelledby', heading.id);
         var list = section.appendChild(el('ul', 'gs-list'));
-        group.top.forEach(function (entry) { list.appendChild(el('li')).appendChild(resultButton(name, entry)); });
+        group.top.forEach(function (entry) { list.appendChild(el('li')).appendChild(resultButton(name, entry, q)); });
         if (group.total > group.top.length) {
           var more = section.appendChild(el('button', 'gs-more', tr('Alle {count} in {section} anzeigen →', { count: group.total, section: label })));
           more.type = 'button';
@@ -251,7 +336,8 @@
           more.addEventListener('click', function () { showAll(name, raw); });
         }
       });
-      status.push(total ? (total === 1 ? tr('1 Treffer') : tr('{count} Treffer', { count: total })) : tr('Keine Treffer für „{query}“.', { query: raw }));
+      if (total) status.push(total === 1 ? tr('1 Treffer') : tr('{count} Treffer', { count: total }));
+      else if (!parts) status.push(tr('Keine Treffer für „{query}“.', { query: raw }));
     }
     if (loading) status.push(tr('Inhalte werden geladen …'));
     statusEl.textContent = status.join(' ');
@@ -355,8 +441,15 @@
   // --- Dialog ---
   function isOpen() { return !overlay.classList.contains('hidden'); }
 
-  function open() {
-    if (isOpen()) { input.focus(); input.select(); return; }
+  // open(text) starts with that query; open() keeps the last one.
+  function open(query) {
+    if (typeof query === 'string') input.value = query;
+    if (isOpen()) {
+      input.focus();
+      input.select();
+      if (typeof query === 'string') render();
+      return;
+    }
     if (!document.getElementById('help-overlay').classList.contains('hidden')) return;
     trigger = document.activeElement;
     if (document.getElementById('sidebar').classList.contains('open')) {
@@ -426,8 +519,14 @@
     // Focus outside the dialog (a click on its text) still closes it with Escape.
     if (isOpen() && e.key === 'Escape') { e.preventDefault(); close(); }
   });
-  // Back/Forward replaces the view under the dialog.
-  window.addEventListener('popstate', function () { close(false); });
+  // Back/Forward replaces the view under the dialog. #search/<text> typed into the address bar
+  // keeps the view, puts its address back and opens the dialog with the text.
+  window.addEventListener('popstate', function () {
+    var query = app.workspace.searchRoute(location.hash);
+    if (query === null) { close(false); return; }
+    app.workspace.leaveSearchRoute();
+    open(query);
+  });
 
   document.querySelectorAll('.global-search-trigger').forEach(function (btn) {
     btn.addEventListener('click', function () { if (app.playTick) app.playTick(); open(); });
@@ -436,5 +535,14 @@
   document.querySelectorAll('.kbd-search').forEach(function (kbd) { if (mac) kbd.textContent = '⌘ K'; });
   document.querySelectorAll('.global-search-trigger').forEach(function (btn) { btn.setAttribute('aria-keyshortcuts', mac ? 'Meta+K' : 'Control+K'); });
 
+  var linkTemplate = document.getElementById('search-link-template');
+  if (linkTemplate) linkTemplate.textContent = location.href.split('#')[0] + '#search/%s';
+
   app.globalSearch = { open: open, close: close, isOpen: isOpen };
+  // The page was opened at #search/<text>: search once the view behind it is restored.
+  if (typeof app.pendingSearch === 'string') {
+    var pending = app.pendingSearch;
+    app.pendingSearch = null;
+    Promise.resolve(app.workspace.restored).then(function () { open(pending); });
+  }
 })();

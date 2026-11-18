@@ -1168,7 +1168,7 @@ SECTION_CONFIGS.vocab = {
     return true;
   },
 
-  searchScoreFn: function (v, query) {
+  searchScoreFn: function (v, query, section) {
     var wordRank = getTextMatchRank(v.word, query);
     (v.aliases || []).forEach(function (alias) {
       var aliasRank = getTextMatchRank(alias, query);
@@ -1178,12 +1178,14 @@ SECTION_CONFIGS.vocab = {
     var romajiRank = getRomajiMatchRank(v.romaji, query);
     var meaningRank = getTextMatchRank(v.meaning, query);
     var categoryRank = getTextMatchRank(tr(v.category || ''), query);
+    // An inflected form (食べられなかった) finds its dictionary form (japanese-lookup.js).
+    var inflection = window.NIHONGO_LOOKUP && section ? window.NIHONGO_LOOKUP.inflection(v, query, section.allItems) : null;
 
-    if (wordRank === null && readingRank === null && romajiRank === null && meaningRank === null && categoryRank === null) {
+    if (wordRank === null && readingRank === null && romajiRank === null && meaningRank === null && categoryRank === null && !inflection) {
       return null;
     }
 
-    var best = 0;
+    var best = inflection ? inflection.score : 0;
     if (wordRank === 3) best = Math.max(best, 1000);
     else if (wordRank === 2) best = Math.max(best, 800);
     else if (wordRank === 1) best = Math.max(best, 620);

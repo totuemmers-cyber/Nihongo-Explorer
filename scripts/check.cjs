@@ -17,6 +17,7 @@ const REGISTRY = Object.freeze([
   ['test:ui', 'regular', 8],
   ['test:kana', 'regular', 1],
   ['test:search', 'regular', 6],
+  ['test:lookup', 'regular', 3],
   ['test:storage', 'regular', 8],
   ['test:contrast', 'regular', 0.1],
   ['test:comprehension', 'regular', 7],
